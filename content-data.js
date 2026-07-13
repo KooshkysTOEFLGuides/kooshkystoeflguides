@@ -24,6 +24,38 @@ window.KOOSHKY_CONTENT = [
     section: "speaking",
     summary: "A full guide include important words, ideas, and sample answers.",
     date: "2026-06-27",
+    featured: false
+  },
+  {
+    title: "Speaking Pack: Culture, Festivals, and Traditions",
+    href: "SpeakingPack/Culture-KooshkysSpeakingCategories.html",
+    section: "speaking",
+    summary: "A full guide include important words, ideas, and sample answers.",
+    date: "2026-06-29",
+    featured: false
+  },
+  {
+    title: "Speaking Pack: Technology and Daily Life",
+    href: "SpeakingPack/Tech-KooshkysSpeakingGuides.html",
+    section: "speaking",
+    summary: "A full guide include important words, ideas, and sample answers.",
+    date: "2026-06-30",
+    featured: false
+  },
+  {
+    title: "Speaking Pack: Shopping and Consumer Habits",
+    href: "SpeakingPack/Shopping-KooshkysSpeakingPacks.html",
+    section: "speaking",
+    summary: "A full guide include important words, ideas, and sample answers.",
+    date: "2026-07-04",
+    featured: false
+  },
+  {
+    title: "Speaking Pack: Leisure Time and Hobbies",
+    href: "SpeakingPack/Hobbies-KooshkysSpeakingGuides.html",
+    section: "speaking",
+    summary: "A full guide include important words, ideas, and sample answers.",
+    date: "2026-07-10",
     featured: true
   },
   {
@@ -40,7 +72,7 @@ window.KOOSHKY_CONTENT = [
     section: "grammar",
     summary: "Part 2 of the full guide to relative clauses.",
     date: "2026-06-24",
-    featured: true
+    featured: false
   },
   {
     title: "Grammar: Relative Clauses, Part III",
@@ -48,7 +80,7 @@ window.KOOSHKY_CONTENT = [
     section: "grammar",
     summary: "Part 3 of the full guide to relative clauses.",
     date: "2026-06-25",
-    featured: true
+    featured: false
   },
   {
     title: "Grammar: Workbook for Relative Clauses: Part I",
@@ -56,6 +88,14 @@ window.KOOSHKY_CONTENT = [
     section: "grammar",
     summary: "Full workbook for activating the grammar you learned in previous guides.",
     date: "2026-07-08",
+    featured: true
+  },
+  {
+    title: "Describing Problems with Gym Equipment",
+    href: "EmailNames/TOEFL_Gym_Equipment_Problems_Guide_100_Examples.html",
+    section: "writing",
+    summary: "Numerous different ways to describe problems with gym equipment. Very helpful for relevant Email problems.",
+    date: "2026-07-12",
     featured: true
   }
   /*

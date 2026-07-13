@@ -1,0 +1,732 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="description" content="TOEFL vocabulary guide for describing gym equipment problems, defects, and repair requests.">
+<title>Gym Equipment Problems | TOEFL Email Vocabulary</title>
+<style>
+:root {
+  color-scheme: light dark;
+  --bg: #f5f6f8;
+  --surface: #ffffff;
+  --surface-2: #eef1f5;
+  --text: #17202b;
+  --muted: #5d6875;
+  --line: #d8dee7;
+  --accent: #d25a24;
+  --accent-2: #15365d;
+  --accent-soft: #fff0e8;
+  --success-soft: #eaf6ef;
+  --shadow: 0 12px 30px rgba(20, 33, 50, .08);
+  --radius: 18px;
+  --max: 1180px;
+}
+* { box-sizing: border-box; }
+html { scroll-behavior: smooth; }
+body {
+  margin: 0;
+  font-family: Inter, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+  line-height: 1.65;
+  background: var(--bg);
+  color: var(--text);
+}
+a { color: var(--accent-2); text-decoration-thickness: .09em; text-underline-offset: .16em; }
+a:hover { color: var(--accent); }
+img { max-width: 100%; }
+.container { width: min(100% - 2rem, var(--max)); margin-inline: auto; }
+.creator-strip {
+  background: #091a2d;
+  color: #e9f2fc;
+  border-bottom: 1px solid rgba(255,255,255,.14);
+}
+.creator-strip .container {
+  min-height: 48px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: .85rem 1.25rem;
+  padding-block: .55rem;
+}
+.creator-credit { font-size: .92rem; }
+.creator-credit strong { color: #fff; }
+.creator-links { display: flex; flex-wrap: wrap; gap: .45rem; }
+.creator-links a {
+  display: inline-flex;
+  align-items: center;
+  min-height: 34px;
+  padding: .35rem .68rem;
+  border: 1px solid rgba(255,255,255,.28);
+  border-radius: 999px;
+  color: #fff;
+  background: rgba(255,255,255,.07);
+  font-size: .85rem;
+  font-weight: 750;
+  text-decoration: none;
+}
+.creator-links a:hover { background: rgba(255,255,255,.15); color: #fff; }
+.hero {
+  padding: clamp(3.5rem, 8vw, 7rem) 0 3rem;
+  background:
+    radial-gradient(circle at 85% 10%, rgba(210,90,36,.16), transparent 30%),
+    linear-gradient(135deg, #102a49 0%, #183e68 70%, #204e80 100%);
+  color: #fff;
+}
+.eyebrow { margin: 0 0 .7rem; text-transform: uppercase; letter-spacing: .14em; font-weight: 800; font-size: .76rem; color: #ffd3bf; }
+h1 { margin: 0; max-width: 850px; font-size: clamp(2.2rem, 6vw, 5rem); line-height: 1.03; letter-spacing: -.045em; }
+.hero p { max-width: 760px; font-size: clamp(1rem, 2vw, 1.22rem); color: #e5edf6; }
+.hero-meta { display: flex; flex-wrap: wrap; gap: .7rem; margin-top: 1.4rem; }
+.hero-meta span { padding: .45rem .75rem; border: 1px solid rgba(255,255,255,.25); border-radius: 999px; background: rgba(255,255,255,.08); font-size: .9rem; }
+nav { background: var(--surface); border-bottom: 1px solid var(--line); }
+.nav-inner { display: flex; gap: .7rem; overflow-x: auto; padding: .75rem 0; scrollbar-width: thin; }
+.nav-inner a { white-space: nowrap; text-decoration: none; padding: .55rem .8rem; border-radius: 999px; font-weight: 750; background: var(--surface-2); }
+main { padding: 2.5rem 0 5rem; }
+section.major { margin-top: 4rem; }
+.section-head { margin-bottom: 1.5rem; max-width: 820px; }
+.section-head h2 { margin: 0 0 .4rem; font-size: clamp(1.7rem, 4vw, 2.7rem); line-height: 1.15; letter-spacing: -.025em; }
+.section-head p { margin: 0; color: var(--muted); }
+.callout-grid { display: grid; grid-template-columns: repeat(2, minmax(0,1fr)); gap: 1rem; }
+.callout { background: var(--surface); border: 1px solid var(--line); border-radius: var(--radius); padding: 1.25rem; box-shadow: var(--shadow); }
+.callout h2, .callout h3 { margin-top: 0; }
+.formula { font-size: 1.02rem; background: var(--accent-soft); border-left: 5px solid var(--accent); padding: 1rem; border-radius: 0 12px 12px 0; }
+.formula code { font-family: inherit; font-weight: 800; color: #7f2f0e; }
+.mini-list { margin: .7rem 0 0; padding-left: 1.2rem; }
+.equipment-grid { display: grid; grid-template-columns: repeat(4, minmax(0,1fr)); gap: 1rem; }
+.equipment-card { overflow: hidden; background: var(--surface); border: 1px solid var(--line); border-radius: var(--radius); box-shadow: var(--shadow); min-width: 0; }
+.equipment-media { position: relative; aspect-ratio: 4 / 3; display: grid; place-items: center; overflow: hidden; background: linear-gradient(145deg, #dce5ef, #f6f8fb); }
+.fallback-icon { font-size: clamp(2.7rem, 7vw, 4.8rem); filter: grayscale(.2); opacity: .72; }
+.equipment-media img { position: absolute; inset: 0; width: 100%; height: 100%; object-fit: cover; background: transparent; color: transparent; }
+.equipment-body { padding: 1rem; }
+.equipment-body h3 { margin: 0 0 .25rem; font-size: 1.12rem; }
+.equipment-body h3 a { font-weight: 850; }
+.equipment-body p { margin: .3rem 0; font-size: .93rem; }
+.alias { color: var(--muted); }
+.source-link { display: inline-block; margin-top: .55rem; font-size: .78rem; color: var(--muted); }
+.problem-group { margin-top: 2rem; }
+.group-title { margin-bottom: .85rem; font-size: 1.32rem; color: var(--accent-2); }
+.problem-grid { display: grid; grid-template-columns: repeat(3, minmax(0,1fr)); gap: .8rem; }
+.problem-card { background: var(--surface); border: 1px solid var(--line); border-radius: 14px; padding: 1rem; }
+.problem-card h3 { margin: 0 0 .3rem; font-size: 1.04rem; }
+.problem-card h3 a { font-weight: 850; }
+.problem-card p { margin: .25rem 0; font-size: .92rem; }
+.pattern { color: var(--muted); }
+.phrase-grid { display: grid; grid-template-columns: repeat(4, minmax(0,1fr)); gap: 1rem; }
+.phrase-card { background: var(--surface); border: 1px solid var(--line); border-radius: var(--radius); padding: 1.1rem; }
+.phrase-card h3 { margin-top: 0; }
+.phrase-card ul { padding-left: 1.2rem; margin-bottom: 0; }
+.comparison { display: grid; gap: .7rem; }
+.comparison p { margin: 0; padding: .9rem 1rem; border-radius: 12px; }
+.weak { background: #fceeee; border-left: 5px solid #b53f3f; }
+.strong { background: var(--success-soft); border-left: 5px solid #278351; }
+.sentence-group { margin-top: 1.5rem; background: var(--surface); border: 1px solid var(--line); border-radius: var(--radius); padding: clamp(1rem, 3vw, 1.6rem); box-shadow: var(--shadow); }
+.sentence-group h3 { margin-top: 0; font-size: 1.25rem; color: var(--accent-2); }
+.sentence-list { columns: 2; column-gap: 2.4rem; padding-left: 1.6rem; margin-bottom: 0; }
+.sentence-list li { break-inside: avoid; margin: 0 0 .9rem; padding-left: .3rem; }
+.model-email { background: linear-gradient(135deg, #102a49, #1b4775); color: #fff; border-radius: var(--radius); padding: clamp(1.2rem, 4vw, 2rem); box-shadow: var(--shadow); }
+.model-email h2 { margin-top: 0; }
+.email-box { background: rgba(255,255,255,.1); border: 1px solid rgba(255,255,255,.25); padding: 1.2rem; border-radius: 14px; }
+.email-box p { margin-top: 0; }
+.email-box p:last-child { margin-bottom: 0; }
+details { background: var(--surface); border: 1px solid var(--line); border-radius: 12px; padding: .8rem 1rem; }
+summary { cursor: pointer; font-weight: 800; }
+.credits { columns: 2; font-size: .82rem; color: var(--muted); }
+footer { padding: 2rem 0; background: #0e223b; color: #dce6f2; }
+footer a { color: #fff; }
+footer p { margin: .3rem 0; }
+@media (max-width: 980px) {
+  .equipment-grid { grid-template-columns: repeat(3, minmax(0,1fr)); }
+  .problem-grid { grid-template-columns: repeat(2, minmax(0,1fr)); }
+  .phrase-grid { grid-template-columns: 1fr 1fr; }
+}
+@media (max-width: 700px) {
+  .container { width: min(100% - 1rem, var(--max)); }
+  .creator-strip .container { align-items: flex-start; flex-direction: column; }
+  .creator-links { width: 100%; }
+  .creator-links a { flex: 1 1 auto; justify-content: center; }
+  .callout-grid, .phrase-grid { grid-template-columns: 1fr; }
+  .equipment-grid { grid-template-columns: repeat(2, minmax(0,1fr)); gap: .7rem; }
+  .equipment-body { padding: .85rem; }
+  .problem-grid { grid-template-columns: 1fr; }
+  .sentence-list { columns: 1; }
+  .credits { columns: 1; }
+}
+@media (max-width: 430px) {
+  .equipment-grid { grid-template-columns: 1fr; }
+  .equipment-card { display: grid; grid-template-columns: 42% 58%; }
+  .equipment-media { aspect-ratio: auto; min-height: 170px; }
+}
+@media (prefers-color-scheme: dark) {
+  :root {
+    --bg: #0d1218;
+    --surface: #151d26;
+    --surface-2: #202b37;
+    --text: #edf2f7;
+    --muted: #a9b4c0;
+    --line: #2d3947;
+    --accent: #ff9868;
+    --accent-2: #8ec5ff;
+    --accent-soft: #3b2117;
+    --success-soft: #173326;
+    --shadow: 0 12px 30px rgba(0,0,0,.25);
+  }
+  .formula code { color: #ffb694; }
+  .weak { background: #3a1d21; }
+  .equipment-media { background: linear-gradient(145deg, #1b2631, #263545); }
+}
+@media print {
+  :root { color-scheme: light; --bg:#fff; --surface:#fff; --text:#000; --muted:#333; --line:#bbb; --shadow:none; }
+  nav, .source-link { display: none; }
+  .hero { padding: 1.5rem 0; background: #fff; color: #000; border-bottom: 2px solid #000; }
+  .hero p, .eyebrow { color: #222; }
+  .equipment-grid { grid-template-columns: repeat(3,1fr); }
+  .equipment-card, .problem-card, .sentence-group { break-inside: avoid; }
+  a { color: #000; text-decoration: none; }
+}
+</style>
+</head>
+<body>
+<div class="creator-strip" aria-label="Creator and contact links">
+  <div class="container">
+    <div class="creator-credit">Compiled by <strong>Amir Kooshky</strong> for <strong>Kooshky TOEFL</strong></div>
+    <div class="creator-links">
+      <a href="https://t.me/KooshkyTOEFL" target="_blank" rel="noopener noreferrer">Telegram Channel</a>
+      <a href="https://www.instagram.com/kooshkytoefl" target="_blank" rel="noopener noreferrer">Instagram</a>
+      <a href="https://t.me/KooshkyTOEFL_pv" target="_blank" rel="noopener noreferrer">DM Amir</a>
+    </div>
+  </div>
+</div>
+<header class="hero">
+  <div class="container">
+    <p class="eyebrow">Kooshky TOEFL · Write an Email</p>
+    <h1>Describing Problems with Gym Equipment</h1>
+    <p>A practical vocabulary and sentence bank for reporting defects clearly, naturally, and politely in a TOEFL email task.</p>
+    <div class="hero-meta"><span>16 equipment items</span><span>50 problem terms</span><span>100 model sentences</span><span>No JavaScript</span></div>
+  </div>
+</header>
+<nav aria-label="Page sections">
+  <div class="container nav-inner">
+    <a href="#formula">Sentence formula</a>
+    <a href="#equipment">Equipment</a>
+    <a href="#problems">Problem vocabulary</a>
+    <a href="#phrases">Useful language</a>
+    <a href="#examples">100 examples</a>
+    <a href="#model">Model email</a>
+  </div>
+</nav>
+<main class="container">
+<section id="formula" class="callout-grid" aria-labelledby="formula-title">
+  <article class="callout">
+    <h2 id="formula-title">A reliable sentence formula</h2>
+    <p class="formula"><code>The [part] of the [equipment] is / keeps [problem], which makes it [effect].</code></p>
+    <p><strong>Example:</strong> The belt on the treadmill keeps slipping, which makes the machine unsafe to use.</p>
+  </article>
+  <article class="callout">
+    <h2>Give useful detail</h2>
+    <ul class="mini-list">
+      <li>Name the exact equipment.</li>
+      <li>Name the part when possible.</li>
+      <li>Describe what happens, not only what it looks like.</li>
+      <li>Explain the effect on safety or use.</li>
+      <li>End with a reasonable request.</li>
+    </ul>
+  </article>
+</section>
+
+<section id="equipment" class="major" aria-labelledby="equipment-title">
+  <div class="section-head">
+    <h2 id="equipment-title">Gym equipment vocabulary</h2>
+    <p>Click an equipment name to search Google Images for <em>“image of X.”</em> Each card also lists common parts that may be damaged. The text remains fully useful if an image does not load.</p>
+  </div>
+  <div class="equipment-grid">
+<article class="equipment-card">
+  <div class="equipment-media">
+    <span class="fallback-icon" aria-hidden="true">🏃</span>
+    <img src="https://commons.wikimedia.org/wiki/Special:Redirect/file/Treadmill-gym.jpg?width=900" alt="Photo of treadmill" loading="lazy" decoding="async" referrerpolicy="no-referrer">
+  </div>
+  <div class="equipment-body">
+    <h3><a href="https://www.google.com/search?tbm=isch&amp;q=image+of+treadmill" target="_blank" rel="noopener noreferrer">treadmill</a></h3>
+    <p class="alias">Also: running machine</p>
+    <p><strong>Useful parts:</strong> belt, deck, handrails, emergency stop, display, control buttons</p>
+    <a class="source-link" href="https://commons.wikimedia.org/wiki/File:Treadmill-gym.jpg" target="_blank" rel="noopener noreferrer">Image source</a>
+  </div>
+</article>
+<article class="equipment-card">
+  <div class="equipment-media">
+    <span class="fallback-icon" aria-hidden="true">🚲</span>
+    <img src="https://commons.wikimedia.org/wiki/Special:Redirect/file/Exercise%20bike%20-%2029792771184%20-%202016-10-19.jpg?width=900" alt="Photo of exercise bike" loading="lazy" decoding="async" referrerpolicy="no-referrer">
+  </div>
+  <div class="equipment-body">
+    <h3><a href="https://www.google.com/search?tbm=isch&amp;q=image+of+exercise+bike" target="_blank" rel="noopener noreferrer">exercise bike</a></h3>
+    <p class="alias">Also: stationary bike</p>
+    <p><strong>Useful parts:</strong> seat, pedals, straps, resistance knob, handlebars, display</p>
+    <a class="source-link" href="https://commons.wikimedia.org/wiki/File:Exercise_bike_-_29792771184_-_2016-10-19.jpg" target="_blank" rel="noopener noreferrer">Image source</a>
+  </div>
+</article>
+<article class="equipment-card">
+  <div class="equipment-media">
+    <span class="fallback-icon" aria-hidden="true">🦶</span>
+    <img src="https://commons.wikimedia.org/wiki/Special:Redirect/file/Stride-q210c.jpg?width=900" alt="Photo of elliptical machine" loading="lazy" decoding="async" referrerpolicy="no-referrer">
+  </div>
+  <div class="equipment-body">
+    <h3><a href="https://www.google.com/search?tbm=isch&amp;q=image+of+elliptical+machine" target="_blank" rel="noopener noreferrer">elliptical machine</a></h3>
+    <p class="alias">Also: elliptical trainer / cross-trainer</p>
+    <p><strong>Useful parts:</strong> pedals, moving handles, flywheel, resistance controls, display</p>
+    <a class="source-link" href="https://commons.wikimedia.org/wiki/File:Stride-q210c.jpg" target="_blank" rel="noopener noreferrer">Image source</a>
+  </div>
+</article>
+<article class="equipment-card">
+  <div class="equipment-media">
+    <span class="fallback-icon" aria-hidden="true">🚣</span>
+    <img src="https://commons.wikimedia.org/wiki/Special:Redirect/file/Rowing%20Machines.jpg?width=900" alt="Photo of rowing machine" loading="lazy" decoding="async" referrerpolicy="no-referrer">
+  </div>
+  <div class="equipment-body">
+    <h3><a href="https://www.google.com/search?tbm=isch&amp;q=image+of+rowing+machine" target="_blank" rel="noopener noreferrer">rowing machine</a></h3>
+    <p class="alias">Also: rower / rowing ergometer</p>
+    <p><strong>Useful parts:</strong> seat, rail, handle, chain or strap, footrests, monitor</p>
+    <a class="source-link" href="https://commons.wikimedia.org/wiki/File:Rowing_Machines.jpg" target="_blank" rel="noopener noreferrer">Image source</a>
+  </div>
+</article>
+<article class="equipment-card">
+  <div class="equipment-media">
+    <span class="fallback-icon" aria-hidden="true">🪜</span>
+    <img src="https://commons.wikimedia.org/wiki/Special:Redirect/file/Life%20Fitness%2C%20Stair%20Climbing%2C%20Spain%2C%202016.JPG?width=900" alt="Photo of stair climber" loading="lazy" decoding="async" referrerpolicy="no-referrer">
+  </div>
+  <div class="equipment-body">
+    <h3><a href="https://www.google.com/search?tbm=isch&amp;q=image+of+stair+climber" target="_blank" rel="noopener noreferrer">stair climber</a></h3>
+    <p class="alias">Also: step machine / stair machine</p>
+    <p><strong>Useful parts:</strong> steps, handrails, speed controls, safety stop, display</p>
+    <a class="source-link" href="https://commons.wikimedia.org/wiki/File:Life_Fitness,_Stair_Climbing,_Spain,_2016.JPG" target="_blank" rel="noopener noreferrer">Image source</a>
+  </div>
+</article>
+<article class="equipment-card">
+  <div class="equipment-media">
+    <span class="fallback-icon" aria-hidden="true">🛋️</span>
+    <img src="https://commons.wikimedia.org/wiki/Special:Redirect/file/Weight%20lifting%20bench%2020180112.jpg?width=900" alt="Photo of weight bench" loading="lazy" decoding="async" referrerpolicy="no-referrer">
+  </div>
+  <div class="equipment-body">
+    <h3><a href="https://www.google.com/search?tbm=isch&amp;q=image+of+weight+bench" target="_blank" rel="noopener noreferrer">weight bench</a></h3>
+    <p class="alias">Also: adjustable bench / flat bench</p>
+    <p><strong>Useful parts:</strong> seat pad, back pad, adjustment pin, hinges, frame, rubber feet</p>
+    <a class="source-link" href="https://commons.wikimedia.org/wiki/File:Weight_lifting_bench_20180112.jpg" target="_blank" rel="noopener noreferrer">Image source</a>
+  </div>
+</article>
+<article class="equipment-card">
+  <div class="equipment-media">
+    <span class="fallback-icon" aria-hidden="true">🏋️</span>
+    <img src="https://commons.wikimedia.org/wiki/Special:Redirect/file/Dumbbells%20on%20rack%2020180112.jpg?width=900" alt="Photo of dumbbells" loading="lazy" decoding="async" referrerpolicy="no-referrer">
+  </div>
+  <div class="equipment-body">
+    <h3><a href="https://www.google.com/search?tbm=isch&amp;q=image+of+dumbbells" target="_blank" rel="noopener noreferrer">dumbbells</a></h3>
+    <p class="alias">Also: hand weights</p>
+    <p><strong>Useful parts:</strong> handle, weight heads, rubber coating, end caps</p>
+    <a class="source-link" href="https://commons.wikimedia.org/wiki/File:Dumbbells_on_rack_20180112.jpg" target="_blank" rel="noopener noreferrer">Image source</a>
+  </div>
+</article>
+<article class="equipment-card">
+  <div class="equipment-media">
+    <span class="fallback-icon" aria-hidden="true">🏋️</span>
+    <img src="https://commons.wikimedia.org/wiki/Special:Redirect/file/Barbells.jpg?width=900" alt="Photo of barbell" loading="lazy" decoding="async" referrerpolicy="no-referrer">
+  </div>
+  <div class="equipment-body">
+    <h3><a href="https://www.google.com/search?tbm=isch&amp;q=image+of+barbell" target="_blank" rel="noopener noreferrer">barbell</a></h3>
+    <p class="alias">Also: lifting bar</p>
+    <p><strong>Useful parts:</strong> shaft, sleeves, collars, knurling, end caps</p>
+    <a class="source-link" href="https://commons.wikimedia.org/wiki/File:Barbells.jpg" target="_blank" rel="noopener noreferrer">Image source</a>
+  </div>
+</article>
+<article class="equipment-card">
+  <div class="equipment-media">
+    <span class="fallback-icon" aria-hidden="true">⚫</span>
+    <img src="https://commons.wikimedia.org/wiki/Special:Redirect/file/Iron%20heavy%20plates%20stacked%20for%20exercise.jpg?width=900" alt="Photo of weight plates" loading="lazy" decoding="async" referrerpolicy="no-referrer">
+  </div>
+  <div class="equipment-body">
+    <h3><a href="https://www.google.com/search?tbm=isch&amp;q=image+of+weight+plates" target="_blank" rel="noopener noreferrer">weight plates</a></h3>
+    <p class="alias">Also: plates / bumper plates</p>
+    <p><strong>Useful parts:</strong> center hole, rim, rubber coating, grip openings</p>
+    <a class="source-link" href="https://commons.wikimedia.org/wiki/File:Iron_heavy_plates_stacked_for_exercise.jpg" target="_blank" rel="noopener noreferrer">Image source</a>
+  </div>
+</article>
+<article class="equipment-card">
+  <div class="equipment-media">
+    <span class="fallback-icon" aria-hidden="true">🧱</span>
+    <img src="https://commons.wikimedia.org/wiki/Special:Redirect/file/Power%20Rack.JPG?width=900" alt="Photo of squat rack" loading="lazy" decoding="async" referrerpolicy="no-referrer">
+  </div>
+  <div class="equipment-body">
+    <h3><a href="https://www.google.com/search?tbm=isch&amp;q=image+of+squat+rack" target="_blank" rel="noopener noreferrer">squat rack</a></h3>
+    <p class="alias">Also: power rack / power cage</p>
+    <p><strong>Useful parts:</strong> uprights, J-hooks, safety bars, bolts, pull-up bar, base</p>
+    <a class="source-link" href="https://commons.wikimedia.org/wiki/File:Power_Rack.JPG" target="_blank" rel="noopener noreferrer">Image source</a>
+  </div>
+</article>
+<article class="equipment-card">
+  <div class="equipment-media">
+    <span class="fallback-icon" aria-hidden="true">🪢</span>
+    <img src="https://commons.wikimedia.org/wiki/Special:Redirect/file/Sz%C3%A9kesfeh%C3%A9rv%C3%A1r%2C%20Cutler%20Gym%2C%20Combined%20cable%20machine.jpg?width=900" alt="Photo of cable machine" loading="lazy" decoding="async" referrerpolicy="no-referrer">
+  </div>
+  <div class="equipment-body">
+    <h3><a href="https://www.google.com/search?tbm=isch&amp;q=image+of+cable+machine" target="_blank" rel="noopener noreferrer">cable machine</a></h3>
+    <p class="alias">Also: cable crossover / functional trainer</p>
+    <p><strong>Useful parts:</strong> cables, pulleys, handles, weight stack, selector pin, guide rods</p>
+    <a class="source-link" href="https://commons.wikimedia.org/wiki/File:Sz%C3%A9kesfeh%C3%A9rv%C3%A1r,_Cutler_Gym,_Combined_cable_machine.jpg" target="_blank" rel="noopener noreferrer">Image source</a>
+  </div>
+</article>
+<article class="equipment-card">
+  <div class="equipment-media">
+    <span class="fallback-icon" aria-hidden="true">🦵</span>
+    <img src="https://commons.wikimedia.org/wiki/Special:Redirect/file/Leg%20Press%20Machine.jpg?width=900" alt="Photo of leg press machine" loading="lazy" decoding="async" referrerpolicy="no-referrer">
+  </div>
+  <div class="equipment-body">
+    <h3><a href="https://www.google.com/search?tbm=isch&amp;q=image+of+leg+press+machine" target="_blank" rel="noopener noreferrer">leg press machine</a></h3>
+    <p class="alias">Also: leg press</p>
+    <p><strong>Useful parts:</strong> footplate, seat, back pad, sled, safety locks, guide rails</p>
+    <a class="source-link" href="https://commons.wikimedia.org/wiki/File:Leg_Press_Machine.jpg" target="_blank" rel="noopener noreferrer">Image source</a>
+  </div>
+</article>
+<article class="equipment-card">
+  <div class="equipment-media">
+    <span class="fallback-icon" aria-hidden="true">💪</span>
+    <img src="https://commons.wikimedia.org/wiki/Special:Redirect/file/Girl%20doing%20chest%20press%20machine%20exercise.jpg?width=900" alt="Photo of chest press machine" loading="lazy" decoding="async" referrerpolicy="no-referrer">
+  </div>
+  <div class="equipment-body">
+    <h3><a href="https://www.google.com/search?tbm=isch&amp;q=image+of+chest+press+machine" target="_blank" rel="noopener noreferrer">chest press machine</a></h3>
+    <p class="alias">Also: seated chest press</p>
+    <p><strong>Useful parts:</strong> seat, back pad, handles, adjustment lever, weight stack</p>
+    <a class="source-link" href="https://commons.wikimedia.org/wiki/File:Girl_doing_chest_press_machine_exercise.jpg" target="_blank" rel="noopener noreferrer">Image source</a>
+  </div>
+</article>
+<article class="equipment-card">
+  <div class="equipment-media">
+    <span class="fallback-icon" aria-hidden="true">↕️</span>
+    <img src="https://commons.wikimedia.org/wiki/Special:Redirect/file/Lat%20pulldown%20machine%2020180112.jpg?width=900" alt="Photo of lat pulldown machine" loading="lazy" decoding="async" referrerpolicy="no-referrer">
+  </div>
+  <div class="equipment-body">
+    <h3><a href="https://www.google.com/search?tbm=isch&amp;q=image+of+lat+pulldown+machine" target="_blank" rel="noopener noreferrer">lat pulldown machine</a></h3>
+    <p class="alias">Also: pulldown machine</p>
+    <p><strong>Useful parts:</strong> pulldown bar, cable, pulley, thigh pad, seat, weight stack</p>
+    <a class="source-link" href="https://commons.wikimedia.org/wiki/File:Lat_pulldown_machine_20180112.jpg" target="_blank" rel="noopener noreferrer">Image source</a>
+  </div>
+</article>
+<article class="equipment-card">
+  <div class="equipment-media">
+    <span class="fallback-icon" aria-hidden="true">➰</span>
+    <img src="https://commons.wikimedia.org/wiki/Special:Redirect/file/Trenirovachni%20lastici%20set.JPG?width=900" alt="Photo of resistance bands" loading="lazy" decoding="async" referrerpolicy="no-referrer">
+  </div>
+  <div class="equipment-body">
+    <h3><a href="https://www.google.com/search?tbm=isch&amp;q=image+of+resistance+bands" target="_blank" rel="noopener noreferrer">resistance bands</a></h3>
+    <p class="alias">Also: exercise bands</p>
+    <p><strong>Useful parts:</strong> band, loop, handle, anchor, clip, stitching</p>
+    <a class="source-link" href="https://commons.wikimedia.org/wiki/File:Trenirovachni_lastici_set.JPG" target="_blank" rel="noopener noreferrer">Image source</a>
+  </div>
+</article>
+<article class="equipment-card">
+  <div class="equipment-media">
+    <span class="fallback-icon" aria-hidden="true">🧘</span>
+    <img src="https://commons.wikimedia.org/wiki/Special:Redirect/file/Yogi%20unrolling%20yoga%20mat%20on%20the%20floor.%20%2850214718967%29.jpg?width=900" alt="Photo of exercise mat" loading="lazy" decoding="async" referrerpolicy="no-referrer">
+  </div>
+  <div class="equipment-body">
+    <h3><a href="https://www.google.com/search?tbm=isch&amp;q=image+of+exercise+mat" target="_blank" rel="noopener noreferrer">exercise mat</a></h3>
+    <p class="alias">Also: yoga mat / fitness mat</p>
+    <p><strong>Useful parts:</strong> surface, edges, corners, underside, carrying strap</p>
+    <a class="source-link" href="https://commons.wikimedia.org/wiki/File:Yogi_unrolling_yoga_mat_on_the_floor._(50214718967).jpg" target="_blank" rel="noopener noreferrer">Image source</a>
+  </div>
+</article></div>
+</section>
+
+<section id="problems" class="major" aria-labelledby="problems-title">
+  <div class="section-head">
+    <h2 id="problems-title">Problem and damage vocabulary</h2>
+    <p>Click any problem word to search Google for <em>“what does X mean.”</em> Start with general words, then become more specific when the defect is clear.</p>
+  </div>
+  <section class="problem-group">
+<h3 class="group-title">General condition</h3>
+<div class="problem-grid"><article class="problem-card">
+  <h3><a href="https://www.google.com/search?q=what+does+broken+mean" target="_blank" rel="noopener noreferrer">broken</a></h3>
+  <p>not working or physically separated into pieces</p>
+  <p class="pattern"><strong>Common use:</strong> a broken treadmill; a broken handle</p>
+</article><article class="problem-card">
+  <h3><a href="https://www.google.com/search?q=what+does+damaged+mean" target="_blank" rel="noopener noreferrer">damaged</a></h3>
+  <p>harmed in a way that reduces quality, safety, or usefulness</p>
+  <p class="pattern"><strong>Common use:</strong> damaged padding; a damaged frame</p>
+</article><article class="problem-card">
+  <h3><a href="https://www.google.com/search?q=what+does+faulty+mean" target="_blank" rel="noopener noreferrer">faulty</a></h3>
+  <p>not working correctly because of a problem</p>
+  <p class="pattern"><strong>Common use:</strong> a faulty sensor; faulty controls</p>
+</article><article class="problem-card">
+  <h3><a href="https://www.google.com/search?q=what+does+defective+mean" target="_blank" rel="noopener noreferrer">defective</a></h3>
+  <p>made with a fault or unable to work as intended</p>
+  <p class="pattern"><strong>Common use:</strong> a defective cable; a defective safety lock</p>
+</article><article class="problem-card">
+  <h3><a href="https://www.google.com/search?q=what+does+malfunctioning+mean" target="_blank" rel="noopener noreferrer">malfunctioning</a></h3>
+  <p>operating incorrectly or unpredictably</p>
+  <p class="pattern"><strong>Common use:</strong> a malfunctioning machine; a malfunctioning display</p>
+</article><article class="problem-card">
+  <h3><a href="https://www.google.com/search?q=what+does+out+of+order+mean" target="_blank" rel="noopener noreferrer">out of order</a></h3>
+  <p>temporarily unavailable because it does not work</p>
+  <p class="pattern"><strong>Common use:</strong> The stair climber is out of order.</p>
+</article><article class="problem-card">
+  <h3><a href="https://www.google.com/search?q=what+does+unusable+mean" target="_blank" rel="noopener noreferrer">unusable</a></h3>
+  <p>too damaged, unsafe, or ineffective to be used</p>
+  <p class="pattern"><strong>Common use:</strong> an unusable bench; the mat is unusable</p>
+</article></div>
+</section><section class="problem-group">
+<h3 class="group-title">Surface and material damage</h3>
+<div class="problem-grid"><article class="problem-card">
+  <h3><a href="https://www.google.com/search?q=what+does+cracked+mean" target="_blank" rel="noopener noreferrer">cracked</a></h3>
+  <p>having a narrow break in a hard surface</p>
+  <p class="pattern"><strong>Common use:</strong> a cracked screen; cracked plastic</p>
+</article><article class="problem-card">
+  <h3><a href="https://www.google.com/search?q=what+does+chipped+mean" target="_blank" rel="noopener noreferrer">chipped</a></h3>
+  <p>having a small piece broken off an edge or surface</p>
+  <p class="pattern"><strong>Common use:</strong> a chipped weight plate; chipped paint</p>
+</article><article class="problem-card">
+  <h3><a href="https://www.google.com/search?q=what+does+dented+mean" target="_blank" rel="noopener noreferrer">dented</a></h3>
+  <p>having a hollow mark caused by an impact</p>
+  <p class="pattern"><strong>Common use:</strong> a dented frame; a dented cover</p>
+</article><article class="problem-card">
+  <h3><a href="https://www.google.com/search?q=what+does+bent+mean" target="_blank" rel="noopener noreferrer">bent</a></h3>
+  <p>forced out of its normal straight shape</p>
+  <p class="pattern"><strong>Common use:</strong> a bent barbell; a bent pin</p>
+</article><article class="problem-card">
+  <h3><a href="https://www.google.com/search?q=what+does+warped+mean" target="_blank" rel="noopener noreferrer">warped</a></h3>
+  <p>twisted or curved out of its correct shape</p>
+  <p class="pattern"><strong>Common use:</strong> a warped footplate; a warped mat</p>
+</article><article class="problem-card">
+  <h3><a href="https://www.google.com/search?q=what+does+torn+mean" target="_blank" rel="noopener noreferrer">torn</a></h3>
+  <p>split or pulled apart, especially fabric, rubber, or padding</p>
+  <p class="pattern"><strong>Common use:</strong> torn upholstery; a torn band</p>
+</article><article class="problem-card">
+  <h3><a href="https://www.google.com/search?q=what+does+ripped+mean" target="_blank" rel="noopener noreferrer">ripped</a></h3>
+  <p>badly torn, often with a visible opening</p>
+  <p class="pattern"><strong>Common use:</strong> a ripped seat cover; a ripped mat</p>
+</article><article class="problem-card">
+  <h3><a href="https://www.google.com/search?q=what+does+frayed+mean" target="_blank" rel="noopener noreferrer">frayed</a></h3>
+  <p>having loose or worn threads or fibers at the edge</p>
+  <p class="pattern"><strong>Common use:</strong> a frayed cable; frayed stitching</p>
+</article><article class="problem-card">
+  <h3><a href="https://www.google.com/search?q=what+does+peeling+mean" target="_blank" rel="noopener noreferrer">peeling</a></h3>
+  <p>coming away from the surface in thin pieces or layers</p>
+  <p class="pattern"><strong>Common use:</strong> peeling rubber; peeling padding</p>
+</article><article class="problem-card">
+  <h3><a href="https://www.google.com/search?q=what+does+scratched+mean" target="_blank" rel="noopener noreferrer">scratched</a></h3>
+  <p>marked by thin lines caused by rubbing or contact</p>
+  <p class="pattern"><strong>Common use:</strong> a scratched display; scratched paint</p>
+</article><article class="problem-card">
+  <h3><a href="https://www.google.com/search?q=what+does+snapped+mean" target="_blank" rel="noopener noreferrer">snapped</a></h3>
+  <p>broken suddenly into two or more pieces</p>
+  <p class="pattern"><strong>Common use:</strong> a snapped band; a snapped adjustment pin</p>
+</article><article class="problem-card">
+  <h3><a href="https://www.google.com/search?q=what+does+stretched+out+mean" target="_blank" rel="noopener noreferrer">stretched out</a></h3>
+  <p>made longer or looser through repeated use</p>
+  <p class="pattern"><strong>Common use:</strong> a stretched-out band; stretched-out straps</p>
+</article><article class="problem-card">
+  <h3><a href="https://www.google.com/search?q=what+does+worn+out+mean" target="_blank" rel="noopener noreferrer">worn out</a></h3>
+  <p>damaged through long or heavy use</p>
+  <p class="pattern"><strong>Common use:</strong> worn-out pedals; a worn-out belt</p>
+</article><article class="problem-card">
+  <h3><a href="https://www.google.com/search?q=what+does+rusty+mean" target="_blank" rel="noopener noreferrer">rusty</a></h3>
+  <p>covered with rust</p>
+  <p class="pattern"><strong>Common use:</strong> rusty bolts; a rusty frame</p>
+</article><article class="problem-card">
+  <h3><a href="https://www.google.com/search?q=what+does+corroded+mean" target="_blank" rel="noopener noreferrer">corroded</a></h3>
+  <p>gradually damaged by a chemical reaction, often involving metal</p>
+  <p class="pattern"><strong>Common use:</strong> corroded connectors; corroded metal</p>
+</article></div>
+</section><section class="problem-group">
+<h3 class="group-title">Movement and mechanical problems</h3>
+<div class="problem-grid"><article class="problem-card">
+  <h3><a href="https://www.google.com/search?q=what+does+loose+mean" target="_blank" rel="noopener noreferrer">loose</a></h3>
+  <p>not firmly fixed in place</p>
+  <p class="pattern"><strong>Common use:</strong> a loose seat; loose bolts</p>
+</article><article class="problem-card">
+  <h3><a href="https://www.google.com/search?q=what+does+unstable+mean" target="_blank" rel="noopener noreferrer">unstable</a></h3>
+  <p>not firm or safe; likely to move or fall</p>
+  <p class="pattern"><strong>Common use:</strong> an unstable bench; an unstable rack</p>
+</article><article class="problem-card">
+  <h3><a href="https://www.google.com/search?q=what+does+wobbly+mean" target="_blank" rel="noopener noreferrer">wobbly</a></h3>
+  <p>moving slightly from side to side</p>
+  <p class="pattern"><strong>Common use:</strong> a wobbly handle; a wobbly seat</p>
+</article><article class="problem-card">
+  <h3><a href="https://www.google.com/search?q=what+does+stuck+mean" target="_blank" rel="noopener noreferrer">stuck</a></h3>
+  <p>unable to move from a position</p>
+  <p class="pattern"><strong>Common use:</strong> a stuck adjustment pin; a stuck pedal</p>
+</article><article class="problem-card">
+  <h3><a href="https://www.google.com/search?q=what+does+jammed+mean" target="_blank" rel="noopener noreferrer">jammed</a></h3>
+  <p>blocked so that a mechanism cannot move properly</p>
+  <p class="pattern"><strong>Common use:</strong> a jammed pulley; a jammed sled</p>
+</article><article class="problem-card">
+  <h3><a href="https://www.google.com/search?q=what+does+slipping+mean" target="_blank" rel="noopener noreferrer">slipping</a></h3>
+  <p>moving out of position when it should remain secure</p>
+  <p class="pattern"><strong>Common use:</strong> a slipping treadmill belt; slipping foot straps</p>
+</article><article class="problem-card">
+  <h3><a href="https://www.google.com/search?q=what+does+misaligned+mean" target="_blank" rel="noopener noreferrer">misaligned</a></h3>
+  <p>not positioned correctly in relation to another part</p>
+  <p class="pattern"><strong>Common use:</strong> misaligned guide rails; a misaligned belt</p>
+</article><article class="problem-card">
+  <h3><a href="https://www.google.com/search?q=what+does+uneven+mean" target="_blank" rel="noopener noreferrer">uneven</a></h3>
+  <p>not level, smooth, or equal on both sides</p>
+  <p class="pattern"><strong>Common use:</strong> an uneven base; uneven padding</p>
+</article><article class="problem-card">
+  <h3><a href="https://www.google.com/search?q=what+does+squeaky+mean" target="_blank" rel="noopener noreferrer">squeaky</a></h3>
+  <p>making a short, high sound during movement</p>
+  <p class="pattern"><strong>Common use:</strong> squeaky pedals; a squeaky hinge</p>
+</article><article class="problem-card">
+  <h3><a href="https://www.google.com/search?q=what+does+grinding+mean" target="_blank" rel="noopener noreferrer">grinding</a></h3>
+  <p>making a rough sound because parts are rubbing badly</p>
+  <p class="pattern"><strong>Common use:</strong> a grinding noise; grinding pulleys</p>
+</article><article class="problem-card">
+  <h3><a href="https://www.google.com/search?q=what+does+vibrating+mean" target="_blank" rel="noopener noreferrer">vibrating</a></h3>
+  <p>shaking rapidly while operating</p>
+  <p class="pattern"><strong>Common use:</strong> a vibrating treadmill; a vibrating display</p>
+</article><article class="problem-card">
+  <h3><a href="https://www.google.com/search?q=what+does+leaking+mean" target="_blank" rel="noopener noreferrer">leaking</a></h3>
+  <p>allowing liquid or air to escape</p>
+  <p class="pattern"><strong>Common use:</strong> a leaking hydraulic cylinder; leaking lubricant</p>
+</article></div>
+</section><section class="problem-group">
+<h3 class="group-title">Controls, electronics, and performance</h3>
+<div class="problem-grid"><article class="problem-card">
+  <h3><a href="https://www.google.com/search?q=what+does+unresponsive+mean" target="_blank" rel="noopener noreferrer">unresponsive</a></h3>
+  <p>not reacting when a button, screen, or control is used</p>
+  <p class="pattern"><strong>Common use:</strong> an unresponsive screen; unresponsive buttons</p>
+</article><article class="problem-card">
+  <h3><a href="https://www.google.com/search?q=what+does+frozen+mean" target="_blank" rel="noopener noreferrer">frozen</a></h3>
+  <p>stuck on one screen and unable to continue</p>
+  <p class="pattern"><strong>Common use:</strong> a frozen display; a frozen timer</p>
+</article><article class="problem-card">
+  <h3><a href="https://www.google.com/search?q=what+does+flickering+mean" target="_blank" rel="noopener noreferrer">flickering</a></h3>
+  <p>repeatedly becoming bright and dim or switching on and off</p>
+  <p class="pattern"><strong>Common use:</strong> a flickering screen; flickering lights</p>
+</article><article class="problem-card">
+  <h3><a href="https://www.google.com/search?q=what+does+inaccurate+mean" target="_blank" rel="noopener noreferrer">inaccurate</a></h3>
+  <p>showing information that is not correct</p>
+  <p class="pattern"><strong>Common use:</strong> an inaccurate heart-rate sensor; an inaccurate counter</p>
+</article><article class="problem-card">
+  <h3><a href="https://www.google.com/search?q=what+does+overheating+mean" target="_blank" rel="noopener noreferrer">overheating</a></h3>
+  <p>becoming hotter than is safe or normal</p>
+  <p class="pattern"><strong>Common use:</strong> an overheating motor; an overheating console</p>
+</article><article class="problem-card">
+  <h3><a href="https://www.google.com/search?q=what+does+cutting+out+mean" target="_blank" rel="noopener noreferrer">cutting out</a></h3>
+  <p>stopping suddenly and then sometimes starting again</p>
+  <p class="pattern"><strong>Common use:</strong> The power keeps cutting out.</p>
+</article><article class="problem-card">
+  <h3><a href="https://www.google.com/search?q=what+does+noisy+mean" target="_blank" rel="noopener noreferrer">noisy</a></h3>
+  <p>producing more sound than is normal or acceptable</p>
+  <p class="pattern"><strong>Common use:</strong> a noisy rower; a noisy motor</p>
+</article><article class="problem-card">
+  <h3><a href="https://www.google.com/search?q=what+does+slow+to+respond+mean" target="_blank" rel="noopener noreferrer">slow to respond</a></h3>
+  <p>reacting after an unusual delay</p>
+  <p class="pattern"><strong>Common use:</strong> slow-to-respond controls; a delayed display</p>
+</article></div>
+</section><section class="problem-group">
+<h3 class="group-title">Cleanliness, completeness, and safety</h3>
+<div class="problem-grid"><article class="problem-card">
+  <h3><a href="https://www.google.com/search?q=what+does+dirty+mean" target="_blank" rel="noopener noreferrer">dirty</a></h3>
+  <p>covered with dirt, dust, sweat, or marks</p>
+  <p class="pattern"><strong>Common use:</strong> dirty handles; a dirty exercise mat</p>
+</article><article class="problem-card">
+  <h3><a href="https://www.google.com/search?q=what+does+sticky+mean" target="_blank" rel="noopener noreferrer">sticky</a></h3>
+  <p>unpleasantly tacky to the touch</p>
+  <p class="pattern"><strong>Common use:</strong> sticky grips; a sticky seat</p>
+</article><article class="problem-card">
+  <h3><a href="https://www.google.com/search?q=what+does+clogged+mean" target="_blank" rel="noopener noreferrer">clogged</a></h3>
+  <p>blocked by dirt or material</p>
+  <p class="pattern"><strong>Common use:</strong> a clogged vent; clogged guide rails</p>
+</article><article class="problem-card">
+  <h3><a href="https://www.google.com/search?q=what+does+missing+mean" target="_blank" rel="noopener noreferrer">missing</a></h3>
+  <p>not present where it should be</p>
+  <p class="pattern"><strong>Common use:</strong> a missing selector pin; missing screws</p>
+</article><article class="problem-card">
+  <h3><a href="https://www.google.com/search?q=what+does+poorly+secured+mean" target="_blank" rel="noopener noreferrer">poorly secured</a></h3>
+  <p>not attached firmly or safely</p>
+  <p class="pattern"><strong>Common use:</strong> a poorly secured handle; poorly secured padding</p>
+</article><article class="problem-card">
+  <h3><a href="https://www.google.com/search?q=what+does+sharp+mean" target="_blank" rel="noopener noreferrer">sharp</a></h3>
+  <p>having an exposed edge that could cut someone</p>
+  <p class="pattern"><strong>Common use:</strong> a sharp metal edge; a sharp crack</p>
+</article><article class="problem-card">
+  <h3><a href="https://www.google.com/search?q=what+does+exposed+mean" target="_blank" rel="noopener noreferrer">exposed</a></h3>
+  <p>not covered or protected as it should be</p>
+  <p class="pattern"><strong>Common use:</strong> exposed wiring; an exposed cable</p>
+</article><article class="problem-card">
+  <h3><a href="https://www.google.com/search?q=what+does+slippery+mean" target="_blank" rel="noopener noreferrer">slippery</a></h3>
+  <p>too smooth or wet to provide a safe grip</p>
+  <p class="pattern"><strong>Common use:</strong> slippery pedals; a slippery mat</p>
+</article></div>
+</section>
+</section>
+
+<section id="phrases" class="major" aria-labelledby="phrases-title">
+  <div class="section-head">
+    <h2 id="phrases-title">Useful language for a TOEFL email</h2>
+    <p>Combine these phrases with the equipment and problem vocabulary above.</p>
+  </div>
+  <div class="phrase-grid">
+    <article class="phrase-card"><h3>Introduce the issue</h3><ul><li>I am writing to report several problems with the gym equipment.</li><li>I noticed that some of the equipment is not working properly.</li><li>There are a few maintenance issues that may require attention.</li></ul></article>
+    <article class="phrase-card"><h3>Explain the effect</h3><ul><li>This makes the machine difficult to use.</li><li>This could cause someone to lose balance.</li><li>As a result, members may not be able to exercise safely.</li><li>The problem becomes worse at higher speeds.</li></ul></article>
+    <article class="phrase-card"><h3>Request action</h3><ul><li>Could you please have it inspected?</li><li>I recommend taking the machine out of service temporarily.</li><li>It may be necessary to replace the damaged part.</li><li>I would appreciate it if the equipment could be repaired soon.</li></ul></article>
+    <article class="phrase-card"><h3>Add precision</h3><ul><li><strong>Degree:</strong> slightly, badly, severely</li><li><strong>Frequency:</strong> occasionally, repeatedly, intermittently</li><li><strong>Condition:</strong> whenever the speed increases</li><li><strong>Timing:</strong> after a few minutes of use</li></ul></article>
+  </div>
+  <div class="callout" style="margin-top:1rem">
+    <h3>Be specific rather than dramatic</h3>
+    <div class="comparison">
+      <p class="weak"><strong>Too vague:</strong> The gym equipment is really bad and dangerous.</p>
+      <p class="strong"><strong>Clearer:</strong> The seat on one exercise bike is loose, and the treadmill belt slips when the speed increases.</p>
+    </div>
+  </div>
+</section>
+
+<section id="examples" class="major" aria-labelledby="examples-title">
+  <div class="section-head">
+    <h2 id="examples-title">100 natural example sentences</h2>
+    <p>These examples use the equipment, parts, and problem terms introduced above. They progress from simple reports to more precise descriptions and polite requests.</p>
+  </div>
+  <section class="sentence-group">
+<h3>1. Clear basic reports</h3>
+<ol class="sentence-list"><li value="1">One of the treadmills is broken and will not start.</li><li value="2">The exercise bike is out of order, so members cannot use it.</li><li value="3">The display on the elliptical machine is unresponsive.</li><li value="4">The rowing machine is noisy even at a low resistance level.</li><li value="5">The stair climber has a faulty speed control.</li><li value="6">The weight bench is unstable and moves from side to side.</li><li value="7">Two of the dumbbells are damaged.</li><li value="8">The barbell is bent and should not be used.</li><li value="9">Several weight plates have chipped edges.</li><li value="10">The squat rack has loose bolts near the base.</li><li value="11">The cable machine is malfunctioning.</li><li value="12">The leg press machine is jammed halfway through its movement.</li><li value="13">The seat on the chest press machine is stuck.</li><li value="14">The lat pulldown machine has a missing selector pin.</li><li value="15">One of the resistance bands is torn.</li><li value="16">Several exercise mats are dirty and sticky.</li></ol>
+</section><section class="sentence-group">
+<h3>2. More precise descriptions</h3>
+<ol class="sentence-list"><li value="17">The treadmill belt is worn out and has begun to fray along one edge.</li><li value="18">The emergency-stop button on the treadmill is cracked and slow to respond.</li><li value="19">The seat on the exercise bike is loose, and the adjustment lever does not hold it in place.</li><li value="20">One pedal strap on the exercise bike is ripped, making it difficult to secure the foot.</li><li value="21">The left pedal on the elliptical machine feels uneven and makes a squeaky sound.</li><li value="22">The moving handle on the elliptical machine is wobbly because one of its bolts is loose.</li><li value="23">The rowing machine has a frayed strap near the handle.</li><li value="24">The seat of the rowing machine keeps getting stuck on the rail.</li><li value="25">The handrail on the stair climber is poorly secured.</li><li value="26">The display on the stair climber is flickering and shows inaccurate speed information.</li><li value="27">The back pad on the weight bench is torn, and some of the foam is exposed.</li><li value="28">The adjustment pin on the weight bench is bent and difficult to remove.</li><li value="29">The rubber coating on several dumbbells is peeling.</li><li value="30">One dumbbell has a loose weight head, which could be dangerous.</li><li value="31">The sleeve on the barbell is stuck and no longer rotates smoothly.</li><li value="32">The center hole of one weight plate is chipped and uneven.</li></ol>
+</section><section class="sentence-group">
+<h3>3. Effects, behavior, and safety</h3>
+<ol class="sentence-list"><li value="33">The treadmill belt keeps slipping whenever the speed increases.</li><li value="34">The treadmill begins vibrating heavily after a few minutes of use.</li><li value="35">The exercise bike makes a grinding noise when the resistance is increased.</li><li value="36">The exercise bike monitor is frozen on the welcome screen.</li><li value="37">The elliptical machine keeps cutting out in the middle of a workout.</li><li value="38">The rowing machine shows an inaccurate distance on its monitor.</li><li value="39">The stair climber motor appears to be overheating after short periods of use.</li><li value="40">The weight bench has an uneven base, so it does not remain level.</li><li value="41">The barbell has a sharp, chipped section near the end of the shaft.</li><li value="42">Several weight plates are rusty and leave marks on users’ hands.</li><li value="43">The safety bars on the squat rack are misaligned and do not lock at the same height.</li><li value="44">The pull-up bar on the squat rack is loose and shifts under pressure.</li><li value="45">The cable on the cable machine is frayed and may snap during use.</li><li value="46">One pulley on the cable machine is jammed, causing the cable to move unevenly.</li><li value="47">The leg press footplate is slippery and needs to be cleaned.</li><li value="48">The safety lock on the leg press machine appears defective and sometimes fails to engage.</li></ol>
+</section><section class="sentence-group">
+<h3>4. Polite requests and recommended action</h3>
+<ol class="sentence-list"><li value="49">The handles on the chest press machine are sticky, so they should be cleaned before the next class.</li><li value="50">The chest press seat is wobbly, which makes it difficult to maintain a safe position.</li><li value="51">The pulldown bar on the lat pulldown machine is bent slightly to one side.</li><li value="52">The cable on the lat pulldown machine makes a grinding sound as it passes over the pulley.</li><li value="53">Several resistance bands are stretched out and no longer provide enough resistance.</li><li value="54">The stitching around one resistance-band handle is frayed and poorly secured.</li><li value="55">The corners of the exercise mats are warped, causing them to lift off the floor.</li><li value="56">One exercise mat is ripped and has a sharp piece of material exposed underneath.</li><li value="57">Could you please arrange for the malfunctioning treadmill to be inspected as soon as possible?</li><li value="58">I recommend replacing the torn pedal strap on the exercise bike before anyone uses it again.</li><li value="59">The unresponsive display on the elliptical machine may need to be repaired or replaced.</li><li value="60">It would be safer to remove the rowing machine from service until its frayed strap is replaced.</li><li value="61">Please have the loose handrail on the stair climber tightened.</li><li value="62">The unstable weight bench should be clearly marked as out of order.</li><li value="63">Because the cable machine has exposed wiring, members should be prevented from using it.</li><li value="64">I would appreciate it if the damaged equipment could be repaired before the gym becomes busy this weekend.</li></ol>
+</section>
+<section class="sentence-group">
+<h3>5. Additional equipment-and-part combinations</h3>
+<ol class="sentence-list"><li value="65">The ventilation slots on the treadmill console are clogged with dust, and the motor begins overheating after about ten minutes.</li><li value="66">The rubber coating on one treadmill handrail is peeling, leaving an uncomfortable surface to grip.</li><li value="67">The right pedal on the exercise bike is bent inward and rubs against the frame.</li><li value="68">The resistance control on the exercise bike is slow to respond, so changing levels takes several seconds.</li><li value="69">The left pedal on the elliptical machine is cracked near the point where it connects to the arm.</li><li value="70">The elliptical machine has become increasingly squeaky and begins vibrating at higher resistance levels.</li><li value="71">The rowing machine monitor keeps flickering and displays an inaccurate stroke count.</li><li value="72">One of the foot straps on the rowing machine has snapped and can no longer secure the user’s foot.</li><li value="73">The left step on the stair climber is misaligned and sits lower than the right one.</li><li value="74">The emergency-stop key on the stair climber is missing.</li><li value="75">The metal frame of the weight bench is dented near the adjustment mechanism.</li><li value="76">The backrest of the weight bench appears warped and no longer lies evenly against the frame.</li><li value="77">The handle of one dumbbell is corroded and has developed a rough surface.</li><li value="78">The rubber end of another dumbbell is cracked and has begun peeling away in small pieces.</li><li value="79">One collar on the barbell is poorly secured and becomes loose during use.</li><li value="80">Several weight plates are rusty around their center holes and are difficult to slide onto the bar.</li><li value="81">The coating on the squat rack is badly scratched, and the exposed metal has started to corrode.</li><li value="82">A safety pin is missing from the left side of the squat rack.</li><li value="83">The guide rods on the cable machine are dirty, causing the weight stack to get stuck.</li><li value="84">The cover over one cable-machine pulley is cracked and leaves part of the moving mechanism exposed.</li></ol>
+</section>
+<section class="sentence-group">
+<h3>6. Developed, email-ready descriptions</h3>
+<ol class="sentence-list"><li value="85">The leg press machine vibrates noticeably whenever the sled approaches the top of the track.</li><li value="86">A sharp metal edge is exposed along the lower corner of the leg press footplate.</li><li value="87">The covering on the chest press handles is peeling and feels sticky after it is cleaned.</li><li value="88">The resistance selector on the chest press machine is jammed and cannot be moved beyond the fourth setting.</li><li value="89">The seat pad on the lat pulldown machine is ripped, and the foam underneath is exposed.</li><li value="90">The cable on the lat pulldown machine is misaligned and has begun to fray where it rubs against the pulley.</li><li value="91">Most of the lighter resistance bands are stretched out, so they provide almost no resistance.</li><li value="92">One resistance band snapped during light use, which suggests that the remaining bands should also be inspected.</li><li value="93">The surface of one exercise mat is worn out and becomes slippery when it is damp.</li><li value="94">Two exercise mats are warped at the edges, creating a possible tripping hazard.</li><li value="95">Because the rowing machine monitor is frozen and unresponsive, users cannot select a workout or view their results.</li><li value="96">Since the left pedal on the exercise bike is poorly secured, I recommend marking the machine as out of order.</li><li value="97">Although the treadmill still runs, its display provides inaccurate information about both speed and distance.</li><li value="98">The selector pin on the cable machine appears defective and occasionally slips out of the weight stack.</li><li value="99">Could you please inspect the unstable weight bench, the malfunctioning stair climber, and the damaged resistance bands before the next training session?</li><li value="100">I would appreciate it if the broken and unsafe equipment could be removed from service until the faulty parts have been repaired or replaced.</li></ol>
+</section>
+</section>
+
+<section id="model" class="major model-email" aria-labelledby="model-title">
+  <h2 id="model-title">Mini model: one developed paragraph</h2>
+  <div class="email-box">
+    <p>I am writing to report several problems with the equipment in the gym. First, the belt on one treadmill keeps slipping whenever the speed increases, which could cause a user to lose balance. In addition, the seat on one exercise bike is loose, and its adjustment lever does not hold it firmly in place. I also noticed that the cable on the lat pulldown machine is frayed near the pulley. This equipment may be unsafe to use until the damaged parts are repaired. Could you please arrange for these machines to be inspected and clearly mark them as out of order in the meantime?</p>
+  </div>
+</section>
+
+<section class="major" aria-labelledby="credits-title">
+  <details>
+    <summary id="credits-title">Web-image sources and licensing pages</summary>
+    <p>The equipment photographs are loaded from Wikimedia Commons. Their individual file pages contain author and license information.</p>
+    <ul class="credits"><li><a href="https://commons.wikimedia.org/wiki/File:Treadmill-gym.jpg" target="_blank" rel="noopener noreferrer">treadmill</a> — Wikimedia Commons</li><li><a href="https://commons.wikimedia.org/wiki/File:Exercise_bike_-_29792771184_-_2016-10-19.jpg" target="_blank" rel="noopener noreferrer">exercise bike</a> — Wikimedia Commons</li><li><a href="https://commons.wikimedia.org/wiki/File:Stride-q210c.jpg" target="_blank" rel="noopener noreferrer">elliptical machine</a> — Wikimedia Commons</li><li><a href="https://commons.wikimedia.org/wiki/File:Rowing_Machines.jpg" target="_blank" rel="noopener noreferrer">rowing machine</a> — Wikimedia Commons</li><li><a href="https://commons.wikimedia.org/wiki/File:Life_Fitness,_Stair_Climbing,_Spain,_2016.JPG" target="_blank" rel="noopener noreferrer">stair climber</a> — Wikimedia Commons</li><li><a href="https://commons.wikimedia.org/wiki/File:Weight_lifting_bench_20180112.jpg" target="_blank" rel="noopener noreferrer">weight bench</a> — Wikimedia Commons</li><li><a href="https://commons.wikimedia.org/wiki/File:Dumbbells_on_rack_20180112.jpg" target="_blank" rel="noopener noreferrer">dumbbells</a> — Wikimedia Commons</li><li><a href="https://commons.wikimedia.org/wiki/File:Barbells.jpg" target="_blank" rel="noopener noreferrer">barbell</a> — Wikimedia Commons</li><li><a href="https://commons.wikimedia.org/wiki/File:Iron_heavy_plates_stacked_for_exercise.jpg" target="_blank" rel="noopener noreferrer">weight plates</a> — Wikimedia Commons</li><li><a href="https://commons.wikimedia.org/wiki/File:Power_Rack.JPG" target="_blank" rel="noopener noreferrer">squat rack</a> — Wikimedia Commons</li><li><a href="https://commons.wikimedia.org/wiki/File:Sz%C3%A9kesfeh%C3%A9rv%C3%A1r,_Cutler_Gym,_Combined_cable_machine.jpg" target="_blank" rel="noopener noreferrer">cable machine</a> — Wikimedia Commons</li><li><a href="https://commons.wikimedia.org/wiki/File:Leg_Press_Machine.jpg" target="_blank" rel="noopener noreferrer">leg press machine</a> — Wikimedia Commons</li><li><a href="https://commons.wikimedia.org/wiki/File:Girl_doing_chest_press_machine_exercise.jpg" target="_blank" rel="noopener noreferrer">chest press machine</a> — Wikimedia Commons</li><li><a href="https://commons.wikimedia.org/wiki/File:Lat_pulldown_machine_20180112.jpg" target="_blank" rel="noopener noreferrer">lat pulldown machine</a> — Wikimedia Commons</li><li><a href="https://commons.wikimedia.org/wiki/File:Trenirovachni_lastici_set.JPG" target="_blank" rel="noopener noreferrer">resistance bands</a> — Wikimedia Commons</li><li><a href="https://commons.wikimedia.org/wiki/File:Yogi_unrolling_yoga_mat_on_the_floor._(50214718967).jpg" target="_blank" rel="noopener noreferrer">exercise mat</a> — Wikimedia Commons</li></ul>
+  </details>
+</section>
+</main>
+<footer>
+  <div class="container">
+    <p><strong>Compiled by Amir Kooshky</strong> for Kooshky TOEFL.</p>
+    <p>
+      <a href="https://t.me/KooshkyTOEFL" target="_blank" rel="noopener noreferrer">Telegram Channel: @KooshkyTOEFL</a>
+      · <a href="https://www.instagram.com/kooshkytoefl" target="_blank" rel="noopener noreferrer">Instagram: @kooshkytoefl</a>
+      · <a href="https://t.me/KooshkyTOEFL_pv" target="_blank" rel="noopener noreferrer">DM: @KooshkyTOEFL_pv</a>
+    </p>
+  </div>
+</footer>
+</body>
+</html>

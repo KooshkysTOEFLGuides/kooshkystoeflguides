@@ -4,54 +4,66 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
   <meta name="theme-color" content="#F4F0E8">
-  <link rel="stylesheet" href="styles.css">
+  <meta name="description" content="Browse all TOEFL notes and guides by Amir Kooshky.">
+  <link rel="icon" href="images/kooshky-favicon-light.png" type="image/png" data-favicon data-light-href="images/kooshky-favicon-light.png" data-dark-href="images/kooshky-favicon-dark.png">
+  <link rel="icon" href="images/favicon.ico" sizes="any">
+  <link rel="stylesheet" href="styles.css?v=5">
   <script>
     (() => {
       try {
-        const saved = localStorage.getItem('kooshky-guides:theme:v1');
-        const preferred = matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light';
-        document.documentElement.dataset.theme = saved || preferred;
-      } catch (_) { document.documentElement.dataset.theme = 'light'; }
+        const saved = localStorage.getItem("kooshky-guides:theme:v1");
+        const preferred = matchMedia("(prefers-color-scheme: dark)").matches ? "dark" : "light";
+        const theme = saved || preferred;
+        document.documentElement.dataset.theme = theme;
+        document.documentElement.style.colorScheme = theme;
+      } catch (_) {
+        document.documentElement.dataset.theme = "light";
+      }
     })();
   </script>
-  <script src="content-data.js" defer></script>
-  <script src="site.js" defer></script>
-  <meta name="description" content="Browse all TOEFL guides and study materials by Amir Kooshky.">
+  <script src="content-data.js?v=4" defer></script>
+  <script src="site.js?v=4" defer></script>
   <title>All Contents — Kooshky's TOEFL Guides</title>
 </head>
 <body>
   <a class="skip-link" href="#main">Skip to content</a>
+
   <header class="site-header">
     <div class="header-inner">
       <a class="brand" href="index.html">
-        <span class="brand-line" aria-hidden="true"></span>
+        <span class="brand-logo" aria-hidden="true"></span>
         <span><small>Kooshky's</small><strong>TOEFL Guides</strong></span>
       </a>
+
       <nav class="desktop-nav" aria-label="Primary navigation">
         <a href="index.html">Home</a>
         <a href="contents.html" aria-current="page">All contents</a>
         <a href="about.html">About me</a>
       </nav>
+
       <div class="header-actions">
         <button class="plain-button" type="button" data-theme-toggle aria-label="Use dark theme" aria-pressed="false">◐ <span data-theme-label>Dark</span></button>
         <button class="plain-button menu-button" type="button" data-menu-toggle aria-controls="mobile-nav" aria-expanded="false" aria-label="Open menu">Menu</button>
       </div>
     </div>
   </header>
+
   <div class="nav-backdrop" data-nav-backdrop hidden></div>
   <nav class="mobile-nav" id="mobile-nav" data-mobile-nav aria-label="Mobile navigation" hidden>
     <a href="index.html">Home</a>
     <a href="contents.html" aria-current="page">All contents</a>
     <a href="about.html">About me</a>
   </nav>
+
   <main id="main">
     <section class="page-intro">
       <div class="container">
-        <p class="eyebrow">The complete library</p>
+        <p class="eyebrow">Library</p>
         <h1>All contents</h1>
-        <p>Every published guide, arranged by subject.</p>
+        <p>Everything on the site, grouped by subject.</p>
       </div>
     </section>
+
     <div class="container">
       <div class="search-wrap" data-search-wrap>
         <label>
@@ -63,9 +75,10 @@
       <div data-content-library></div>
     </div>
   </main>
+
   <footer class="site-footer">
     <div class="container footer-inner">
-      <span>Collected and compiled by Amir Kooshky.</span>
+      <span>Amir Kooshky</span>
       <div class="footer-links">
         <a href="https://t.me/KooshkyTOEFL" target="_blank" rel="noopener noreferrer">Telegram</a>
         <a href="https://instagram.com/kooshkytoefl" target="_blank" rel="noopener noreferrer">Instagram</a>

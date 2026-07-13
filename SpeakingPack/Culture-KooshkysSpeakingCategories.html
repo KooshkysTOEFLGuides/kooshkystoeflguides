@@ -1,0 +1,725 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="day">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Culture, Festivals, and Traditions | Kooshky's TOEFL Guides</title>
+    <meta name="description"
+        content="A TOEFL Speaking topic pack on culture, festivals, and traditions, collected by Amir Kooshky for Kooshky's TOEFL Guides." />
+    <style>
+        :root {
+            --bg: #f7f3ec;
+            --bg-soft: #fffaf2;
+            --card: rgba(255, 252, 246, 0.88);
+            --card-solid: #fffdf8;
+            --text: #1f1d19;
+            --muted: #6f685f;
+            --line: rgba(60, 50, 40, .13);
+            --accent: #8b5e34;
+            --accent-2: #b7834d;
+            --accent-soft: rgba(139, 94, 52, .12);
+            --shadow: 0 24px 70px rgba(56, 42, 25, .13);
+            --radius-xl: 30px;
+            --radius-lg: 22px;
+            --radius-md: 15px;
+            --max: 1180px;
+        }
+
+        [data-theme="night"] {
+            --bg: #10100f;
+            --bg-soft: #171615;
+            --card: rgba(29, 27, 25, 0.88);
+            --card-solid: #1e1c1a;
+            --text: #f1ebe3;
+            --muted: #b8afa3;
+            --line: rgba(255, 241, 224, .14);
+            --accent: #d5a46e;
+            --accent-2: #e9c99d;
+            --accent-soft: rgba(213, 164, 110, .14);
+            --shadow: 0 24px 70px rgba(0, 0, 0, .36);
+        }
+
+        * {
+            box-sizing: border-box;
+        }
+
+        html {
+            scroll-behavior: smooth;
+        }
+
+        body {
+            margin: 0;
+            font-family: Inter, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Arial, sans-serif;
+            color: var(--text);
+            background:
+                radial-gradient(circle at top left, var(--accent-soft), transparent 32rem),
+                radial-gradient(circle at 85% 10%, rgba(132, 103, 72, .10), transparent 26rem),
+                var(--bg);
+            line-height: 1.65;
+        }
+
+        a {
+            color: inherit;
+        }
+
+        .term-link {
+            text-decoration: none;
+            color: var(--accent);
+            border-bottom: 1px solid rgba(139, 94, 52, .35);
+            transition: .18s ease;
+        }
+
+        .term-link:hover {
+            color: var(--accent-2);
+            border-bottom-color: var(--accent-2);
+        }
+
+        .page {
+            width: min(var(--max), calc(100% - 40px));
+            margin: 0 auto;
+        }
+
+        .hero {
+            position: relative;
+            overflow: hidden;
+            margin: 28px auto 24px;
+            padding: clamp(28px, 5vw, 64px);
+            border: 1px solid var(--line);
+            border-radius: var(--radius-xl);
+            background:
+                linear-gradient(135deg, var(--card), rgba(255, 255, 255, 0)),
+                var(--bg-soft);
+            box-shadow: var(--shadow);
+        }
+
+        .hero::after {
+            content: "";
+            position: absolute;
+            right: -120px;
+            top: -140px;
+            width: 360px;
+            height: 360px;
+            border-radius: 50%;
+            background: var(--accent-soft);
+            pointer-events: none;
+        }
+
+        .kicker {
+            display: inline-flex;
+            gap: 8px;
+            align-items: center;
+            padding: 7px 12px;
+            border: 1px solid var(--line);
+            border-radius: 999px;
+            background: var(--accent-soft);
+            color: var(--accent);
+            font-size: .86rem;
+            font-weight: 750;
+            letter-spacing: .04em;
+            text-transform: uppercase;
+        }
+
+        .hero h1 {
+            position: relative;
+            z-index: 1;
+            margin: 18px 0 12px;
+            max-width: 880px;
+            font-family: Georgia, "Times New Roman", serif;
+            font-size: clamp(2.25rem, 5vw, 5.5rem);
+            line-height: .94;
+            letter-spacing: -.055em;
+        }
+
+        .hero p.lede {
+            max-width: 760px;
+            margin: 0;
+            color: var(--muted);
+            font-size: clamp(1rem, 1.45vw, 1.22rem);
+        }
+
+        .hero-meta {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 10px;
+            margin-top: 24px;
+        }
+
+        .pill,
+        .hero-link,
+        .theme-toggle {
+            display: inline-flex;
+            align-items: center;
+            gap: 8px;
+            border: 1px solid var(--line);
+            border-radius: 999px;
+            padding: 10px 14px;
+            background: var(--card-solid);
+            color: var(--text);
+            text-decoration: none;
+            font-weight: 700;
+            font-size: .92rem;
+            cursor: pointer;
+        }
+
+        .hero-link:hover,
+        .theme-toggle:hover {
+            border-color: var(--accent);
+            color: var(--accent);
+        }
+
+        .theme-toggle {
+            margin-left: auto;
+        }
+
+        .sticky-nav {
+            position: sticky;
+            top: 0;
+            z-index: 10;
+            margin: 0 0 26px;
+            padding: 12px 0;
+            backdrop-filter: blur(16px);
+            background: color-mix(in srgb, var(--bg) 78%, transparent);
+            border-bottom: 1px solid var(--line);
+        }
+
+        .nav-inner {
+            width: min(var(--max), calc(100% - 40px));
+            margin: 0 auto;
+            display: flex;
+            flex-wrap: wrap;
+            gap: 8px;
+        }
+
+        .nav-inner a {
+            text-decoration: none;
+            color: var(--muted);
+            border: 1px solid var(--line);
+            border-radius: 999px;
+            padding: 9px 12px;
+            background: var(--card);
+            font-weight: 700;
+            font-size: .88rem;
+        }
+
+        .nav-inner a:hover {
+            color: var(--accent);
+            border-color: var(--accent);
+        }
+
+        .section {
+            margin: 38px 0;
+            padding: clamp(22px, 3vw, 34px);
+            border: 1px solid var(--line);
+            border-radius: var(--radius-xl);
+            background: var(--card);
+            box-shadow: var(--shadow);
+        }
+
+        .section-head {
+            display: flex;
+            align-items: end;
+            justify-content: space-between;
+            gap: 20px;
+            margin-bottom: 22px;
+        }
+
+        .section h2 {
+            font-family: Georgia, "Times New Roman", serif;
+            margin: 0;
+            font-size: clamp(1.8rem, 3vw, 3rem);
+            line-height: 1;
+            letter-spacing: -.04em;
+        }
+
+        .section-desc {
+            max-width: 680px;
+            margin: 9px 0 0;
+            color: var(--muted);
+        }
+
+        .count-badge {
+            flex: 0 0 auto;
+            color: var(--accent);
+            font-weight: 800;
+            border: 1px solid var(--line);
+            border-radius: 999px;
+            padding: 8px 12px;
+            background: var(--accent-soft);
+        }
+
+        .subtopic {
+            margin: 24px 0;
+            padding: clamp(18px, 2vw, 24px);
+            border: 1px solid var(--line);
+            border-radius: var(--radius-lg);
+            background: color-mix(in srgb, var(--card-solid) 88%, transparent);
+        }
+
+        .subtopic h3 {
+            margin: 0 0 16px;
+            font-size: 1.25rem;
+            letter-spacing: -.02em;
+        }
+
+        .subtopic .scenario {
+            margin: -6px 0 16px;
+            color: var(--muted);
+            font-style: italic;
+        }
+
+        .vocab-grid {
+            display: grid;
+            grid-template-columns: repeat(3, minmax(0, 1fr));
+            gap: 14px;
+        }
+
+        .word-card {
+            border: 1px solid var(--line);
+            border-radius: var(--radius-md);
+            padding: 16px;
+            background: var(--card-solid);
+        }
+
+        .word-card h4 {
+            margin: 0 0 8px;
+            font-size: 1.06rem;
+        }
+
+        .definition {
+            margin: 0 0 8px;
+            color: var(--text);
+        }
+
+        .example {
+            margin: 0 0 12px;
+            color: var(--muted);
+            font-size: .94rem;
+        }
+
+        .tags {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 7px;
+        }
+
+        .tag {
+            display: inline-flex;
+            border: 1px solid var(--line);
+            border-radius: 999px;
+            padding: 5px 9px;
+            background: var(--accent-soft);
+            font-size: .84rem;
+            text-decoration: none;
+            color: var(--accent);
+            font-weight: 650;
+        }
+
+        .tag:hover {
+            border-color: var(--accent);
+        }
+
+        .phrase-box {
+            margin-top: 18px;
+        }
+
+        .phrase-box h4 {
+            margin: 0 0 10px;
+            color: var(--accent);
+        }
+
+        .phrase-grid {
+            display: grid;
+            grid-template-columns: repeat(2, minmax(0, 1fr));
+            gap: 8px;
+        }
+
+        .phrase {
+            display: block;
+            text-decoration: none;
+            border: 1px solid var(--line);
+            border-radius: 14px;
+            padding: 10px 12px;
+            background: var(--bg-soft);
+            color: var(--text);
+            font-size: .94rem;
+        }
+
+        .phrase:hover {
+            border-color: var(--accent);
+            color: var(--accent);
+        }
+
+        .idea-grid {
+            display: grid;
+            grid-template-columns: repeat(2, minmax(0, 1fr));
+            gap: 12px;
+        }
+
+        .idea-card,
+        .qa-card {
+            border: 1px solid var(--line);
+            border-radius: var(--radius-md);
+            padding: 16px;
+            background: var(--card-solid);
+        }
+
+        .idea-card h4,
+        .qa-card h4 {
+            margin: 0 0 8px;
+            line-height: 1.35;
+        }
+
+        .idea-card p,
+        .qa-card p {
+            margin: 0;
+            color: var(--muted);
+        }
+
+        .idea-num,
+        .q-label {
+            color: var(--accent);
+            font-weight: 850;
+            margin-right: 6px;
+        }
+
+        .qa-grid {
+            display: grid;
+            grid-template-columns: repeat(2, minmax(0, 1fr));
+            gap: 14px;
+        }
+
+        .answer {
+            position: relative;
+            margin-top: 10px !important;
+            padding-left: 14px;
+            border-left: 3px solid var(--accent-soft);
+        }
+
+        .footer {
+            width: min(var(--max), calc(100% - 40px));
+            margin: 36px auto;
+            color: var(--muted);
+            text-align: center;
+            font-size: .92rem;
+        }
+
+        .to-top {
+            position: fixed;
+            right: 22px;
+            bottom: 22px;
+            z-index: 20;
+            width: 48px;
+            height: 48px;
+            border-radius: 50%;
+            border: 1px solid var(--line);
+            background: var(--card-solid);
+            color: var(--accent);
+            font-weight: 900;
+            cursor: pointer;
+            box-shadow: var(--shadow);
+            opacity: 0;
+            pointer-events: none;
+            transform: translateY(8px);
+            transition: .2s ease;
+        }
+
+        .to-top.show {
+            opacity: 1;
+            pointer-events: auto;
+            transform: translateY(0);
+        }
+
+        @media (max-width: 980px) {
+
+            .vocab-grid,
+            .idea-grid,
+            .qa-grid {
+                grid-template-columns: repeat(2, minmax(0, 1fr));
+            }
+
+            .theme-toggle {
+                margin-left: 0;
+            }
+        }
+
+        @media (max-width: 680px) {
+
+            .page,
+            .nav-inner,
+            .footer {
+                width: min(100% - 24px, var(--max));
+            }
+
+            .hero {
+                margin-top: 12px;
+                border-radius: 24px;
+            }
+
+            .section {
+                padding: 18px;
+                border-radius: 24px;
+            }
+
+            .section-head {
+                display: block;
+            }
+
+            .count-badge {
+                display: inline-flex;
+                margin-top: 12px;
+            }
+
+            .vocab-grid,
+            .idea-grid,
+            .qa-grid,
+            .phrase-grid {
+                grid-template-columns: 1fr;
+            }
+
+            .hero-meta {
+                gap: 8px;
+            }
+
+            .pill,
+            .hero-link,
+            .theme-toggle {
+                width: 100%;
+                justify-content: center;
+            }
+
+            .sticky-nav {
+                position: static;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <main class="page" id="top">
+        <section class="hero">
+            <div class="kicker">Kooshky's TOEFL Guides</div>
+            <h1>Culture, Festivals, and Traditions</h1>
+            <p class="lede">I, Amir Kooshky, collected and organized this TOEFL Speaking topic pack to help B-level
+                students speak about culture, festivals, traditions, heritage, food, family celebrations, globalization,
+                and cultural change with clearer ideas and better vocabulary.</p>
+            <div class="hero-meta">
+                <span class="pill">Topic 15</span>
+                <span class="pill">TOEFL Speaking Interview</span>
+                <a class="hero-link" href="https://t.me/KooshkyTOEFL" target="_blank" rel="noopener noreferrer">Telegram
+                    Channel</a>
+                <a class="hero-link" href="https://t.me/KooshkyTOEFL_pv" target="_blank"
+                    rel="noopener noreferrer">Telegram PV</a>
+                <a class="hero-link" href="https://instagram.com/kooshkytoefl" target="_blank"
+                    rel="noopener noreferrer">Instagram</a>
+                <button class="theme-toggle" id="themeToggle" type="button">🌙 Night mode</button>
+            </div>
+        </section>
+    </main>
+
+    <nav class="sticky-nav" aria-label="Page navigation">
+        <div class="nav-inner">
+            <a href="#vocabulary">Vocabulary & Collocations</a>
+            <a href="#ideas">Idea Bank</a>
+            <a href="#interviews">Interview Questions</a>
+        </div>
+    </nav>
+
+    <main class="page">
+        <section class="section" id="vocabulary">
+            <div class="section-head">
+                <div>
+                    <h2>Vocabulary & Collocations</h2>
+                    <p class="section-desc">Each headword has a simple definition, a speaking-friendly example, and
+                        useful collocations. Click any word or chunk to open a Google meaning search in a new tab.</p>
+                </div>
+                <span class="count-badge" id="vocabCount">Loading...</span>
+            </div>
+            <div id="vocabContent"></div>
+        </section>
+
+        <section class="section" id="ideas">
+            <div class="section-head">
+                <div>
+                    <h2>Idea Bank</h2>
+                    <p class="section-desc">Reusable idea angles students can adapt to different speaking questions.
+                        Each card includes a one-sentence idea and a short use-in-context sample.</p>
+                </div>
+                <span class="count-badge" id="ideaCount">Loading...</span>
+            </div>
+            <div id="ideasContent"></div>
+        </section>
+
+        <section class="section" id="interviews">
+            <div class="section-head">
+                <div>
+                    <h2>TOEFL-Style Interview Questions</h2>
+                    <p class="section-desc">Linked 2026-style interview sets: personal opening questions followed by
+                        experience, explanation, comparison, suggestion, or opinion questions. Answers are
+                        conversational and roughly 45 seconds.</p>
+                </div>
+                <span class="count-badge" id="questionCount">Loading...</span>
+            </div>
+            <div id="interviewContent"></div>
+        </section>
+    </main>
+
+    <button class="to-top" id="toTop" type="button" aria-label="Go to top">↑</button>
+
+    <footer class="footer">
+        Collected and organized by Amir Kooshky · Part of Kooshky's TOEFL Guides · <a href="https://t.me/KooshkyTOEFL"
+            target="_blank" rel="noopener noreferrer">@KooshkyTOEFL</a>
+    </footer>
+
+    <script>
+        const DATA = { "vocab_groups": [{ "title": "1) Culture, Identity, and Belonging", "entries": [{ "word": "culture", "definition": "The ideas, customs, art, and way of life of a group of people.", "example": "Food, music, and family customs are important parts of my culture.", "collocations": ["local culture", "traditional culture", "experience another culture", "share one’s culture with others", "be proud of one’s culture"] }, { "word": "heritage", "definition": "Valuable traditions, history, and culture received from previous generations.", "example": "Traditional music is part of our cultural heritage.", "collocations": ["cultural heritage", "rich heritage", "preserve cultural heritage", "be part of one’s heritage"] }, { "word": "tradition", "definition": "A belief or activity that people have continued for a long time.", "example": "Visiting relatives during the holiday is an important tradition in my family.", "collocations": ["family tradition", "long-standing tradition", "keep a tradition alive", "pass down a tradition", "lose a tradition over time"] }, { "word": "custom", "definition": "A usual way of behaving in a culture or community.", "example": "It is a local custom to welcome guests with tea.", "collocations": ["local customs", "social customs", "wedding customs", "respect local customs"] }, { "word": "identity", "definition": "The qualities and background that make a person or group who they are.", "example": "Traditional celebrations can strengthen people’s cultural identity.", "collocations": ["cultural identity", "national identity", "a strong sense of identity", "lose one’s cultural identity"] }, { "word": "roots", "definition": "The family, cultural, or historical origin of a person.", "example": "Many people use festivals to connect with their roots.", "collocations": ["cultural roots", "family roots", "connect with one’s roots", "remember one’s roots"] }, { "word": "background", "definition": "A person’s family, education, culture, or past experience.", "example": "Students from different backgrounds can learn from each other.", "collocations": ["cultural background", "family background", "people from different backgrounds"] }, { "word": "values", "definition": "Important beliefs about what is right, good, or meaningful.", "example": "This holiday reflects family values and respect for elders.", "collocations": ["traditional values", "family values", "shared values", "pass on values"] }, { "word": "belief", "definition": "An idea that someone thinks is true or important.", "example": "Some customs are connected to religious beliefs.", "collocations": ["religious beliefs", "cultural beliefs", "personal beliefs", "respect people’s beliefs"] }, { "word": "diversity", "definition": "The presence of many different cultures, people, or ideas.", "example": "Cultural diversity makes a city more interesting.", "collocations": ["cultural diversity", "celebrate diversity", "respect diversity", "a diverse society"] }, { "word": "multicultural", "definition": "Including people or influences from many cultures.", "example": "A multicultural university helps students understand the world better.", "collocations": ["a multicultural city", "a multicultural society", "a multicultural experience"] }, { "word": "community", "definition": "A group of people who live together or share something in common.", "example": "Festivals can bring the local community together.", "collocations": ["local community", "a close-knit community", "bring the community together", "strengthen community ties"] }, { "word": "generation", "definition": "All the people born and living around the same time.", "example": "Traditions can connect the older generation and the younger generation.", "collocations": ["older generation", "younger generation", "future generations", "pass something to the next generation", "the generation gap"] }, { "word": "lifestyle", "definition": "The way a person or group usually lives.", "example": "Traditional lifestyle has changed in many large cities.", "collocations": ["traditional lifestyle", "modern lifestyle", "way of life"] }, { "word": "belonging", "definition": "The feeling of being accepted as part of a group.", "example": "Family celebrations give children a sense of belonging.", "collocations": ["a sense of belonging", "feel a sense of belonging"] }, { "word": "pride", "definition": "A feeling of respect and satisfaction about something connected to you.", "example": "People often feel cultural pride during national celebrations.", "collocations": ["cultural pride", "national pride", "take pride in one’s culture"] }, { "word": "connection", "definition": "A relationship or link between people, ideas, or experiences.", "example": "Traditional food gives me a connection to my childhood.", "collocations": ["a connection to the past", "a connection with family", "a connection to one’s culture"] }, { "word": "legacy", "definition": "Something valuable that is left from the past.", "example": "Traditional art is a legacy from previous generations.", "collocations": ["cultural legacy", "family legacy", "leave a lasting legacy"] }, { "word": "way of life", "definition": "The normal habits, values, and lifestyle of a person or group.", "example": "Festivals show the traditional way of life of a community.", "collocations": ["a traditional way of life", "a modern way of life", "preserve a way of life"] }], "phrases": ["It is part of who we are.", "It shows where we come from.", "It connects people to their roots.", "It gives people a sense of belonging.", "It helps people feel proud of their culture.", "It reflects the values of the community.", "It teaches younger people about their background.", "It has been passed down from generation to generation.", "It helps people understand their family history.", "It makes people feel connected to the past.", "It is one way people express their identity.", "It reminds people that they are part of a larger community.", "It can strengthen the bond between older and younger generations.", "It helps people respect lifestyles that are different from their own.", "It gives people a shared identity, especially during festivals or holidays."] }, { "title": "2) Festivals, Holidays, and Public Events", "entries": [{ "word": "festival", "definition": "A special public event with celebrations, performances, or traditions.", "example": "Our city has a cultural festival every spring.", "collocations": ["cultural festival", "traditional festival", "annual festival", "attend a festival", "take part in a festival"] }, { "word": "celebration", "definition": "An event or activity held to show happiness or respect for something special.", "example": "The wedding celebration lasted until late at night.", "collocations": ["family celebration", "public celebration", "memorable celebration", "hold a celebration", "join the celebration"] }, { "word": "event", "definition": "An organized occasion or activity.", "example": "The university held a cultural event for international students.", "collocations": ["cultural event", "community event", "special event", "organize an event"] }, { "word": "holiday", "definition": "A special day when people do not work or when something is celebrated.", "example": "Many families travel during the holiday season.", "collocations": ["national holiday", "religious holiday", "public holiday", "holiday season", "celebrate a holiday"] }, { "word": "occasion", "definition": "A special time or event.", "example": "People usually dress up for the occasion.", "collocations": ["special occasion", "formal occasion", "dress up for the occasion", "mark an occasion"] }, { "word": "ceremony", "definition": "A formal event performed in a traditional or official way.", "example": "The ceremony began with traditional music.", "collocations": ["wedding ceremony", "traditional ceremony", "opening ceremony", "take part in a ceremony"] }, { "word": "parade", "definition": "A public line of people, vehicles, or performers moving through streets.", "example": "Families watched the colorful parade downtown.", "collocations": ["street parade", "colorful parade", "festival parade", "watch a parade"] }, { "word": "gathering", "definition": "A meeting of people for a social or special reason.", "example": "The holiday gathering brought all our relatives together.", "collocations": ["family gathering", "community gathering", "large gathering", "social gathering"] }, { "word": "atmosphere", "definition": "The feeling or mood of a place or event.", "example": "The music created a lively atmosphere.", "collocations": ["festive atmosphere", "lively atmosphere", "warm atmosphere", "create a special atmosphere"] }, { "word": "crowd", "definition": "A large group of people in one place.", "example": "A large crowd gathered to watch the fireworks.", "collocations": ["large crowd", "excited crowd", "attract a crowd", "crowded streets"] }, { "word": "highlight", "definition": "The best or most exciting part of an event.", "example": "The traditional dance was the highlight of the festival.", "collocations": ["the main highlight", "the highlight of the festival", "the highlight of the day"] }, { "word": "decoration", "definition": "Something used to make a place look attractive for a special event.", "example": "Colorful decorations covered the streets.", "collocations": ["festive decorations", "traditional decorations", "colorful decorations", "put up decorations"] }, { "word": "fireworks", "definition": "Bright lights and loud sounds used in celebrations.", "example": "We watched fireworks at midnight.", "collocations": ["fireworks display", "watch fireworks", "set off fireworks"] }, { "word": "costume", "definition": "Special clothing worn for a performance, festival, or event.", "example": "The dancers wore traditional costumes.", "collocations": ["traditional costume", "festival costume", "colorful costume", "wear a costume"] }, { "word": "stall", "definition": "A small stand where people sell food or goods.", "example": "We bought snacks from a food stall.", "collocations": ["food stall", "market stall", "festival stall"] }], "phrases": ["The whole city comes alive.", "The streets are full of people.", "People gather in public spaces.", "Everyone dresses up for the occasion.", "The atmosphere is lively and joyful.", "The celebration usually lasts for several days.", "It is one of the biggest events of the year.", "It gives people a break from their daily routine.", "It brings together people from different backgrounds.", "It is a chance for people to relax and have fun.", "It creates unforgettable memories for families and children.", "It is both entertaining and culturally meaningful.", "Some people attend the festival mainly for fun.", "Others care more about its cultural or religious meaning.", "The festival attracts tourists and supports local businesses.", "Public celebrations make people feel closer to their community.", "Festivals can make a city feel more active, colorful, and alive."] }, { "title": "3) Traditional Food and Hospitality", "entries": [{ "word": "cuisine", "definition": "A style of cooking connected to a country or region.", "example": "I would like visitors to try our local cuisine.", "collocations": ["local cuisine", "traditional cuisine", "try local cuisine", "be famous for its cuisine"] }, { "word": "dish", "definition": "A particular type of prepared food.", "example": "This traditional dish is usually served during holidays.", "collocations": ["traditional dish", "national dish", "homemade dish", "prepare a special dish"] }, { "word": "recipe", "definition": "Instructions for preparing a particular food.", "example": "The recipe has been passed down in my family.", "collocations": ["family recipe", "traditional recipe", "old recipe", "pass down a recipe"] }, { "word": "ingredient", "definition": "One of the foods used to make a dish.", "example": "The dish uses fresh local ingredients.", "collocations": ["fresh ingredients", "local ingredients", "traditional ingredients"] }, { "word": "flavor", "definition": "The taste of food or drink.", "example": "The spices give the dish a rich flavor.", "collocations": ["rich flavor", "unique flavor", "spicy flavor", "familiar flavor"] }, { "word": "spice", "definition": "A plant substance used to add flavor to food.", "example": "Traditional spices make the food smell wonderful.", "collocations": ["traditional spices", "local spices", "strong spices"] }, { "word": "meal", "definition": "Food eaten at one time.", "example": "The family meal is the most important part of the holiday.", "collocations": ["family meal", "holiday meal", "home-cooked meal", "share a meal"] }, { "word": "feast", "definition": "A large and special meal for a celebration.", "example": "The wedding feast included many traditional dishes.", "collocations": ["wedding feast", "holiday feast", "prepare a feast"] }, { "word": "dessert", "definition": "Sweet food eaten after the main meal.", "example": "My favorite part of the holiday meal is the traditional dessert.", "collocations": ["traditional dessert", "homemade dessert", "sweet dessert"] }, { "word": "street food", "definition": "Food sold in public places, often from stalls or small shops.", "example": "Trying street food is a fun way to experience local culture.", "collocations": ["local street food", "popular street food", "try street food"] }, { "word": "hospitality", "definition": "Friendly and generous treatment of guests.", "example": "Warm hospitality is an important part of our culture.", "collocations": ["warm hospitality", "traditional hospitality", "show hospitality"] }, { "word": "guest", "definition": "A person invited to visit someone’s home or event.", "example": "Guests are usually served tea and sweets.", "collocations": ["welcome guests", "serve guests", "honored guest"] }, { "word": "host", "definition": "A person who receives or entertains guests.", "example": "A good host tries to make everyone comfortable.", "collocations": ["generous host", "host a dinner", "host a celebration"] }, { "word": "homemade", "definition": "Made at home rather than bought from a store.", "example": "Homemade sweets make the celebration feel personal.", "collocations": ["homemade food", "homemade sweets", "homemade bread"] }, { "word": "taste", "definition": "The flavor of something or the ability to notice flavor.", "example": "The taste of this dish reminds me of childhood.", "collocations": ["traditional taste", "familiar taste", "the taste of childhood"] }], "phrases": ["Food is a big part of the celebration.", "It reminds people of home.", "It brings the family together.", "Everyone gathers around the table.", "The food creates a warm family atmosphere.", "The recipe has been passed down in the family.", "Older family members usually prepare the main dishes.", "Sharing food is a way of showing love and respect.", "Guests are usually treated with great warmth and hospitality.", "The smell of traditional food creates a festive mood.", "Traditional food can bring back childhood memories.", "Food is one of the easiest ways to introduce your culture to others.", "When foreigners try our food, they can understand our culture better.", "Traditional dishes often have a special meaning during holidays.", "Even people who are not very traditional may still enjoy traditional food.", "Some dishes are only prepared for special occasions.", "Food makes the celebration feel more personal and emotional."] }, { "title": "4) Music, Dance, and Cultural Performance", "entries": [{ "word": "music", "definition": "Sounds arranged in a way that people enjoy or perform.", "example": "Traditional music makes the festival feel special.", "collocations": ["traditional music", "folk music", "live music", "play traditional music"] }, { "word": "song", "definition": "A short piece of music with words.", "example": "People sing traditional songs during the celebration.", "collocations": ["folk song", "traditional song", "festival song", "sing traditional songs"] }, { "word": "dance", "definition": "Moving the body to music, often as part of a performance or celebration.", "example": "The group dance was the highlight of the event.", "collocations": ["traditional dance", "folk dance", "group dance", "perform a dance"] }, { "word": "rhythm", "definition": "The pattern of beats in music or movement.", "example": "People clapped along with the lively rhythm.", "collocations": ["lively rhythm", "traditional rhythm", "follow the rhythm"] }, { "word": "instrument", "definition": "An object used for making music.", "example": "The musicians played traditional instruments.", "collocations": ["traditional instrument", "musical instrument", "play an instrument"] }, { "word": "performance", "definition": "An act of music, dance, drama, or art done for an audience.", "example": "The cultural performance told a historical story.", "collocations": ["cultural performance", "live performance", "dance performance", "give a performance"] }, { "word": "performer", "definition": "A person who sings, dances, acts, or plays music for others.", "example": "The performers wore colorful costumes.", "collocations": ["local performer", "talented performer", "street performer"] }, { "word": "audience", "definition": "The people who watch or listen to a performance.", "example": "The audience enjoyed the traditional music.", "collocations": ["large audience", "excited audience", "entertain the audience"] }, { "word": "stage", "definition": "The raised area where performers stand.", "example": "The dancers performed on the main stage.", "collocations": ["main stage", "outdoor stage", "perform on stage"] }, { "word": "show", "definition": "A performance or program for people to watch.", "example": "The cultural show included music and dance.", "collocations": ["cultural show", "live show", "put on a show"] }, { "word": "entertainment", "definition": "Activities that people enjoy watching or doing.", "example": "The festival provided live entertainment for families.", "collocations": ["live entertainment", "family entertainment", "public entertainment"] }, { "word": "storytelling", "definition": "The activity of telling stories, especially traditional ones.", "example": "Storytelling helps children learn about old customs.", "collocations": ["traditional storytelling", "oral storytelling", "storytelling tradition"] }, { "word": "folklore", "definition": "Traditional stories, beliefs, and customs of a community.", "example": "Local folklore is often shared during festivals.", "collocations": ["local folklore", "folk stories", "folk traditions"] }], "phrases": ["Music sets the mood.", "Dance is part of the tradition.", "People clap along with the rhythm.", "The performance tells a cultural story.", "It is more than just entertainment.", "It shows the artistic side of the culture.", "Traditional music makes the event feel special.", "Live performances make the festival more exciting.", "Children can learn about culture by watching performances.", "Music and dance help people feel the spirit of the festival.", "Some performances are serious, while others are just for fun.", "The costumes and movements often have symbolic meaning.", "Cultural performances make traditions easier to understand.", "They turn history and culture into something people can see and feel.", "Traditional music and dance make the festival more memorable.", "These performances help young people experience tradition directly.", "Even if people do not understand the history, they can enjoy the performance."] }, { "title": "5) Traditional Art, Crafts, Clothing, and Symbols", "entries": [{ "word": "art", "definition": "Creative work such as painting, music, design, or sculpture.", "example": "Traditional art is a way to express cultural identity.", "collocations": ["traditional art", "folk art", "local art", "support local art"] }, { "word": "craft", "definition": "An activity that involves making things skillfully by hand.", "example": "Learning a traditional craft can keep old skills alive.", "collocations": ["traditional craft", "handmade craft", "craft market", "learn a traditional craft"] }, { "word": "artist", "definition": "A person who creates art.", "example": "The festival invited local artists to display their work.", "collocations": ["local artist", "traditional artist", "support local artists"] }, { "word": "craftsperson", "definition": "A person who makes things skillfully by hand.", "example": "A skilled craftsperson can create beautiful handmade objects.", "collocations": ["skilled craftsperson", "local craftsperson", "traditional craftsperson"] }, { "word": "design", "definition": "The style, plan, or appearance of something.", "example": "The traditional design on the fabric has symbolic meaning.", "collocations": ["traditional design", "colorful design", "symbolic design"] }, { "word": "pattern", "definition": "A repeated design, shape, or decoration.", "example": "The pattern on the clothing represents nature.", "collocations": ["traditional pattern", "colorful pattern", "floral pattern"] }, { "word": "symbol", "definition": "Something that represents an idea or value.", "example": "The flower is a symbol of renewal in the festival.", "collocations": ["cultural symbol", "national symbol", "symbol of unity", "symbol of respect"] }, { "word": "clothing", "definition": "Clothes people wear.", "example": "Traditional clothing is often worn at weddings.", "collocations": ["traditional clothing", "formal clothing", "wear traditional clothing"] }, { "word": "outfit", "definition": "A set of clothes worn together.", "example": "She wore a festive outfit for the celebration.", "collocations": ["traditional outfit", "festive outfit", "special outfit"] }, { "word": "fabric", "definition": "Material used to make clothes or decorations.", "example": "The dress was made from colorful fabric.", "collocations": ["traditional fabric", "colorful fabric", "silk fabric"] }, { "word": "jewelry", "definition": "Decorative objects people wear, such as rings or necklaces.", "example": "Traditional jewelry is often worn at weddings.", "collocations": ["traditional jewelry", "handmade jewelry", "wedding jewelry"] }, { "word": "mask", "definition": "A covering for the face, often used in performances or festivals.", "example": "The performers wore traditional masks.", "collocations": ["traditional mask", "festival mask", "wear a mask"] }, { "word": "display", "definition": "An arrangement of things for people to see.", "example": "The museum had a cultural display of old clothing.", "collocations": ["cultural display", "art display", "put something on display"] }, { "word": "exhibition", "definition": "A public show of art, objects, or information.", "example": "We visited an exhibition of traditional crafts.", "collocations": ["art exhibition", "cultural exhibition", "visit an exhibition"] }, { "word": "souvenir", "definition": "Something bought or kept to remember a place or event.", "example": "Tourists often buy handmade souvenirs at festivals.", "collocations": ["traditional souvenir", "handmade souvenir", "buy a souvenir"] }, { "word": "handicraft", "definition": "A handmade object made with traditional skill.", "example": "Local handicrafts are sold at the cultural market.", "collocations": ["local handicrafts", "traditional handicrafts", "handmade handicrafts"] }], "phrases": ["The clothes are full of symbolic meaning.", "The patterns represent nature, history, or family.", "Traditional clothing is usually worn on special occasions.", "Handmade crafts show the skill of local people.", "Art is a way to express cultural identity.", "People use clothing and decoration to show pride in their culture.", "Traditional designs make the celebration more visually impressive.", "Crafts can help tourists understand local culture.", "Buying handmade crafts can support local artists.", "Traditional clothing makes people feel connected to their heritage.", "Some young people only wear traditional clothes during festivals.", "Traditional art can survive if people use it in modern ways.", "Symbols make cultural objects more meaningful.", "A simple pattern may have a deep cultural meaning.", "Art and clothing make culture visible.", "These objects are not just beautiful; they also tell stories.", "They show how people lived, dressed, and expressed themselves in the past."] }, { "title": "6) Family Celebrations and Personal Memories", "entries": [{ "word": "wedding", "definition": "A ceremony or celebration where two people get married.", "example": "The traditional wedding lasted two days.", "collocations": ["traditional wedding", "wedding ceremony", "wedding celebration", "attend a wedding"] }, { "word": "birthday", "definition": "The anniversary of the day someone was born.", "example": "We had a family birthday celebration at home.", "collocations": ["birthday celebration", "family birthday", "celebrate someone’s birthday"] }, { "word": "reunion", "definition": "A meeting of people who have not seen each other for a long time.", "example": "The family reunion brought relatives from different cities.", "collocations": ["family reunion", "annual reunion", "attend a reunion", "reunite with relatives"] }, { "word": "relative", "definition": "A person in your family.", "example": "Many relatives came to the celebration.", "collocations": ["close relative", "distant relative", "visit relatives"] }, { "word": "ancestor", "definition": "A person in your family who lived long ago.", "example": "Some traditions are used to honor ancestors.", "collocations": ["honor ancestors", "remember ancestors", "connect with ancestors"] }, { "word": "elder", "definition": "An older person, especially one respected in a family or community.", "example": "Younger people are taught to respect elders.", "collocations": ["family elder", "community elder", "respect elders", "listen to elders"] }, { "word": "memory", "definition": "Something you remember from the past.", "example": "The celebration created an unforgettable memory.", "collocations": ["childhood memory", "special memory", "unforgettable memory", "create memories"] }, { "word": "blessing", "definition": "Good wishes or approval, often from an older or religious person.", "example": "The couple received a blessing from their families.", "collocations": ["family blessing", "wedding blessing", "receive a blessing"] }, { "word": "gift", "definition": "Something given to another person.", "example": "People exchange gifts during the holiday.", "collocations": ["meaningful gift", "traditional gift", "exchange gifts"] }, { "word": "greeting", "definition": "Words or actions used to welcome someone.", "example": "People exchange greetings when they visit relatives.", "collocations": ["warm greeting", "traditional greeting", "exchange greetings"] }, { "word": "relationship", "definition": "The connection between two or more people.", "example": "Family celebrations strengthen relationships.", "collocations": ["family relationship", "close relationship", "strengthen relationships"] }, { "word": "bond", "definition": "A close connection between people.", "example": "Shared traditions can strengthen family bonds.", "collocations": ["family bond", "strong bond", "strengthen bonds"] }, { "word": "togetherness", "definition": "The feeling of being close and united with others.", "example": "The holiday creates a sense of family togetherness.", "collocations": ["family togetherness", "sense of togetherness", "enjoy togetherness"] }, { "word": "respect", "definition": "A feeling or action that shows someone is important or valued.", "example": "The custom teaches children to show respect to elders.", "collocations": ["show respect", "deep respect", "mutual respect"] }, { "word": "childhood", "definition": "The time when someone is a child.", "example": "The smell of the food reminds me of my childhood.", "collocations": ["childhood memory", "childhood experience", "remember one’s childhood"] }], "phrases": ["It is a time for family members to gather.", "Relatives come from different cities.", "Everyone helps prepare for the celebration.", "Older family members tell stories about the past.", "Children learn traditions by watching adults.", "It creates warm memories.", "It strengthens family relationships.", "It gives people a sense of belonging.", "It is one of the few times when the whole family meets.", "These celebrations help people stay close to their relatives.", "Family traditions can make ordinary events feel special.", "Many people remember these celebrations from childhood.", "The emotional part is often more important than the event itself.", "Even simple traditions can become meaningful over time.", "Family celebrations help connect different generations.", "Younger people can learn respect from watching family elders.", "These events remind people that family is an important part of culture."] }, { "title": "7) Culture, History, and Education", "entries": [{ "word": "history", "definition": "Events and life from the past.", "example": "Festivals can help people learn about history.", "collocations": ["cultural history", "national history", "learn about history"] }, { "word": "historical", "definition": "Connected with the past or with history.", "example": "The festival remembers a historical event.", "collocations": ["historical event", "historical place", "historically important"] }, { "word": "museum", "definition": "A place where important objects are kept and shown to the public.", "example": "The museum has an exhibit about traditional clothing.", "collocations": ["local museum", "history museum", "visit a museum"] }, { "word": "monument", "definition": "A building or object made to remember a person or event.", "example": "The national monument is visited during the holiday.", "collocations": ["historical monument", "national monument", "visit a monument"] }, { "word": "site", "definition": "A place where something important happened or exists.", "example": "The city has many historical sites.", "collocations": ["historical site", "heritage site", "religious site"] }, { "word": "exhibit", "definition": "An object or group of objects shown in a museum or event.", "example": "The cultural exhibit included old photographs.", "collocations": ["museum exhibit", "cultural exhibit", "historical exhibit"] }, { "word": "story", "definition": "A description of events, real or imagined.", "example": "Family stories can preserve cultural memory.", "collocations": ["family story", "folk story", "pass down stories"] }, { "word": "meaning", "definition": "The idea or importance behind something.", "example": "The ceremony has a deeper meaning than people think.", "collocations": ["cultural meaning", "deeper meaning", "symbolic meaning", "lose its meaning"] }, { "word": "awareness", "definition": "Knowledge or understanding that something exists or is important.", "example": "Cultural events can raise awareness of local traditions.", "collocations": ["cultural awareness", "raise awareness", "increase awareness"] }, { "word": "knowledge", "definition": "Information and understanding about something.", "example": "Older people share cultural knowledge with children.", "collocations": ["cultural knowledge", "historical knowledge", "share knowledge"] }, { "word": "education", "definition": "Learning and teaching, especially in school or organized settings.", "example": "Festivals can have educational value for children.", "collocations": ["cultural education", "informal education", "educational value"] }, { "word": "lesson", "definition": "Something learned from an experience or story.", "example": "The tradition teaches an important cultural lesson.", "collocations": ["history lesson", "cultural lesson", "important lesson"] }, { "word": "preservation", "definition": "The act of keeping something safe and alive for the future.", "example": "Cultural preservation is important for future generations.", "collocations": ["cultural preservation", "heritage preservation", "focus on preservation"] }, { "word": "origin", "definition": "The beginning or source of something.", "example": "Knowing the origin of a festival makes it more meaningful.", "collocations": ["historical origin", "cultural origin", "the origin of a tradition"] }], "phrases": ["It helps people learn about the past.", "It keeps historical memory alive.", "It teaches young people about their heritage.", "It reminds people of important historical events.", "It gives the celebration educational value.", "It helps people understand the meaning behind the tradition.", "Without explanation, some traditions may feel empty.", "Festivals can be fun, but they can also teach history.", "Museums and festivals both help preserve culture.", "Historical sites make the past feel more real.", "Stories from older people can be more memorable than textbooks.", "Some traditions started because of historical events.", "When people understand the origin of a custom, they value it more.", "Cultural education does not have to happen only in school.", "Celebrations can teach children about their society in a natural way.", "Knowing the story behind a tradition makes it more meaningful.", "History gives depth to cultural practices."] }, { "title": "8) Globalization, Modern Life, and Cultural Change", "entries": [{ "word": "globalization", "definition": "The process of countries and cultures becoming more connected.", "example": "Globalization has changed the way young people celebrate festivals.", "collocations": ["cultural globalization", "effects of globalization", "because of globalization"] }, { "word": "influence", "definition": "The power to affect how someone thinks or behaves.", "example": "Foreign influence can change local traditions.", "collocations": ["foreign influence", "cultural influence", "influence young people", "be influenced by global culture"] }, { "word": "exchange", "definition": "The act of sharing something with others and receiving something back.", "example": "Cultural exchange helps students understand other traditions.", "collocations": ["cultural exchange", "international exchange", "exchange ideas", "exchange traditions"] }, { "word": "blend", "definition": "A mixture of different things that go together.", "example": "Modern festivals often blend old and new elements.", "collocations": ["a blend of cultures", "blend old and new", "blend local and foreign styles"] }, { "word": "mixture", "definition": "A combination of different things.", "example": "The city’s food culture is a mixture of local and foreign influences.", "collocations": ["cultural mixture", "mixture of old and new", "mixture of local and foreign influences"] }, { "word": "fusion", "definition": "A style made by combining different cultural elements.", "example": "Fusion food can make traditional cuisine more popular with young people.", "collocations": ["fusion food", "cultural fusion", "music fusion"] }, { "word": "trend", "definition": "A popular direction or change in fashion, behavior, or ideas.", "example": "Young people are often influenced by global trends.", "collocations": ["modern trend", "global trend", "follow a trend"] }, { "word": "modernization", "definition": "The process of becoming more modern.", "example": "Modernization has changed many family traditions.", "collocations": ["rapid modernization", "modernization of society", "modernization of traditions"] }, { "word": "change", "definition": "A difference that happens over time.", "example": "Cultural change is natural in every society.", "collocations": ["cultural change", "social change", "change over time"] }, { "word": "commercialization", "definition": "The process of making something mainly about business or money.", "example": "Too much commercialization can weaken a festival’s meaning.", "collocations": ["commercialization of festivals", "too much commercialization", "become commercialized"] }, { "word": "tourism", "definition": "Travel for pleasure, especially to visit interesting places.", "example": "Cultural tourism can support local artists.", "collocations": ["cultural tourism", "local tourism", "attract tourism"] }, { "word": "tourist", "definition": "A person who travels to visit a place for pleasure.", "example": "The festival attracts many foreign tourists.", "collocations": ["foreign tourist", "local tourist", "attract tourists"] }, { "word": "authentic", "definition": "Real, original, and not fake.", "example": "Many visitors want an authentic cultural experience.", "collocations": ["authentic culture", "authentic experience", "authentic food"] }, { "word": "original", "definition": "Existing from the beginning; not copied or changed too much.", "example": "The original meaning of the festival should not be forgotten.", "collocations": ["original meaning", "original tradition", "original purpose"] }, { "word": "modern", "definition": "Connected with the present time or new ways of living.", "example": "Modern society has changed how people celebrate.", "collocations": ["modern society", "modern lifestyle", "modern version"] }, { "word": "traditional", "definition": "Connected with customs and beliefs from the past.", "example": "Traditional music is often played during the ceremony.", "collocations": ["traditional society", "traditional lifestyle", "traditional version"] }, { "word": "old-fashioned", "definition": "Not modern; connected with the past in a way some people may dislike.", "example": "Some teenagers think formal customs are old-fashioned.", "collocations": ["seem old-fashioned", "consider something old-fashioned"] }, { "word": "commercial", "definition": "Connected with business and making money.", "example": "A commercial festival may lose its deeper meaning.", "collocations": ["commercial event", "commercial purpose", "commercial festival"] }], "phrases": ["Some traditions are becoming less important.", "Young people may not feel connected to old customs.", "Globalization can make cultures more similar.", "Festivals sometimes become more commercial than cultural.", "Some people celebrate only for fun, not for cultural meaning.", "Traditions need to adapt to modern life.", "It is possible to modernize traditions without losing their meaning.", "Mixing cultures can make society more open and creative.", "Global culture can make young people less interested in local customs.", "Social media can help promote traditional festivals.", "Tourism can help preserve culture, but it can also change it.", "A festival may lose its original meaning if it becomes too commercial.", "Some traditions survive because they become part of modern life.", "Young people are more likely to enjoy traditions if they feel relevant.", "Culture is not fixed; it naturally changes over time.", "Modern versions of traditions can attract younger generations.", "The challenge is to keep the original spirit while making the tradition modern.", "Cultural exchange allows people to learn from each other.", "Mixing cultures can create new forms of food, music, and art.", "Some people worry that globalization weakens local identity.", "Others believe it helps cultures become more open and connected."] }, { "title": "9) Opinion Words for Speaking", "entries": [{ "word": "meaningful", "definition": "Important because it has value or emotional meaning.", "example": "This tradition is meaningful because it connects me to my family.", "collocations": ["meaningful celebration", "meaningful tradition", "personally meaningful"] }, { "word": "memorable", "definition": "Easy to remember because it is special or important.", "example": "The wedding was a memorable event.", "collocations": ["memorable event", "memorable celebration", "memorable experience"] }, { "word": "enjoyable", "definition": "Pleasant and fun.", "example": "The festival was enjoyable because of the music and food.", "collocations": ["enjoyable festival", "enjoyable experience", "enjoyable atmosphere"] }, { "word": "valuable", "definition": "Useful, important, or worth protecting.", "example": "Family traditions are valuable for children.", "collocations": ["valuable tradition", "valuable experience", "culturally valuable"] }, { "word": "unique", "definition": "Special and different from others.", "example": "Every culture has unique traditions.", "collocations": ["unique culture", "unique tradition", "unique experience"] }, { "word": "familiar", "definition": "Well-known or easy to recognize.", "example": "The familiar taste of the food reminded me of home.", "collocations": ["familiar tradition", "familiar food", "familiar atmosphere"] }, { "word": "unfamiliar", "definition": "Not known or not experienced before.", "example": "Some local customs may seem unfamiliar to foreigners.", "collocations": ["unfamiliar custom", "unfamiliar culture", "unfamiliar experience"] }, { "word": "impressive", "definition": "Making you feel admiration or interest.", "example": "The ceremony was impressive because of the costumes and music.", "collocations": ["impressive performance", "impressive ceremony", "impressive decoration"] }, { "word": "colorful", "definition": "Full of bright colors or interesting variety.", "example": "The parade was colorful and lively.", "collocations": ["colorful festival", "colorful clothing", "colorful decorations"] }, { "word": "lively", "definition": "Full of energy and excitement.", "example": "The streets had a lively atmosphere during the festival.", "collocations": ["lively atmosphere", "lively music", "lively celebration"] }, { "word": "crowded", "definition": "Full of too many people.", "example": "The venue was crowded but exciting.", "collocations": ["crowded streets", "crowded festival", "crowded venue"] }, { "word": "peaceful", "definition": "Quiet, calm, and without conflict.", "example": "Some religious holidays have a peaceful atmosphere.", "collocations": ["peaceful celebration", "peaceful atmosphere", "peaceful event"] }, { "word": "formal", "definition": "Serious and following official or traditional rules.", "example": "The ceremony was formal and respectful.", "collocations": ["formal ceremony", "formal occasion", "formal clothing"] }, { "word": "religious", "definition": "Connected with religion.", "example": "The religious festival includes prayers and family visits.", "collocations": ["religious festival", "religious ceremony", "religious tradition"] }, { "word": "symbolic", "definition": "Representing a deeper idea or meaning.", "example": "The gift was small but symbolic.", "collocations": ["symbolic meaning", "symbolic gift", "symbolic action"] }, { "word": "emotional", "definition": "Connected with strong feelings.", "example": "The family reunion was very emotional.", "collocations": ["emotional moment", "emotional memory", "emotional connection"] }, { "word": "practical", "definition": "Useful and connected with real life.", "example": "Buying ready-made food is practical for busy families.", "collocations": ["practical reason", "practical purpose", "practical value"] }, { "word": "creative", "definition": "Using imagination to make something new or interesting.", "example": "Young people can find creative ways to celebrate traditions.", "collocations": ["creative performance", "creative expression", "creative way to celebrate"] }, { "word": "social", "definition": "Connected with people meeting and spending time together.", "example": "Festivals have an important social meaning.", "collocations": ["social event", "social custom", "social meaning"] }, { "word": "personal", "definition": "Connected with one person’s life, feelings, or experience.", "example": "This tradition has personal meaning for me.", "collocations": ["personal memory", "personal experience", "personal meaning"] }, { "word": "shared", "definition": "Experienced or owned by more than one person.", "example": "Shared memories can strengthen a community.", "collocations": ["shared values", "shared memories", "shared identity"] }, { "word": "local", "definition": "Connected with a particular area or community.", "example": "Local people prepare special food for the festival.", "collocations": ["local people", "local festival", "local culture"] }, { "word": "national", "definition": "Connected with a whole country.", "example": "A national holiday can create unity.", "collocations": ["national holiday", "national identity", "national celebration"] }, { "word": "regional", "definition": "Connected with one area of a country.", "example": "Regional food is often different from city to city.", "collocations": ["regional food", "regional culture", "regional tradition"] }], "phrases": ["What makes this tradition special is ...", "One reason this festival matters is ...", "In my culture, people usually ...", "Compared with the past, this tradition is now ...", "I think this custom is still important because ...", "Although some people see it as old-fashioned, I believe ...", "For younger people, this festival is mostly about ...", "For older people, it may have a deeper meaning.", "The most memorable celebration I have attended was ...", "This tradition helps people feel connected to their family and culture.", "I personally find this tradition meaningful because ...", "It may seem simple, but it has a lot of cultural meaning.", "I think the emotional value is more important than the formal ceremony.", "It is enjoyable, but it is also a way to remember the past.", "It gives people a chance to slow down and spend time with family.", "It allows people to express respect, gratitude, or pride.", "It is not only about fun; it also has a deeper purpose.", "I would like foreigners to experience it because it shows an important side of our culture.", "I think traditions should change a little, but not disappear completely.", "A good tradition is one that still feels meaningful in modern life."] }], "phrase_banks": [["Presenting one’s own culture", ["In my culture, people usually ...", "One important tradition in my country is ...", "A common custom in my family is ...", "During this festival, people usually ...", "The celebration usually begins with ...", "The most important part of the festival is ...", "People usually wear ...", "People usually prepare ...", "Families usually gather to ...", "Older people often ...", "Children usually ...", "This tradition is especially popular among ..."]], ["Explaining cultural meaning", ["It has a deeper cultural meaning.", "It is a symbol of respect.", "It is a way to show gratitude.", "It is a way to honor the past.", "It represents family unity.", "It shows respect for older generations.", "It reflects traditional values.", "It reminds people of their history.", "It keeps cultural memory alive.", "It helps people understand their roots.", "It gives people a shared sense of identity.", "It is meaningful because it connects the past and the present."]], ["Sharing culture with others", ["It is a good way to introduce our culture to foreigners.", "It helps people from other cultures understand us better.", "It can build respect between cultures.", "It creates a chance for cultural exchange.", "It allows people to experience a different way of life.", "It helps reduce misunderstandings between cultures.", "It makes people more open-minded.", "It encourages people to respect cultural differences.", "Food, music, and clothing are easy ways to share culture.", "Festivals can make culture more interesting and accessible."]], ["Keeping traditions alive", ["It is important to keep this tradition alive.", "It should be passed down to future generations.", "Parents can teach children by involving them in the celebration.", "Schools can help students learn about local culture.", "Festivals can make old traditions more attractive to young people.", "Social media can be used to promote traditional culture.", "Traditions should adapt to modern life.", "We should keep the original spirit of the tradition.", "We do not have to follow every detail exactly.", "The meaning is more important than the form.", "If young people understand the meaning, they may care more about it.", "A tradition can change and still remain meaningful."]], ["Traditions becoming less important", ["Some traditions are slowly disappearing.", "Young people are less interested in old customs.", "Many people are too busy to celebrate in the traditional way.", "Some customs do not fit modern lifestyles anymore.", "Global culture has influenced local traditions.", "People may celebrate the festival without understanding its meaning.", "Some traditions feel old-fashioned to younger generations.", "The celebration may become more about fun than culture.", "It may lose its original purpose over time.", "If people stop practicing it, the tradition may disappear."]], ["Fun vs cultural preservation", ["Some people go to festivals mainly for entertainment.", "Others see them as a way to preserve culture.", "I think festivals can be both fun and meaningful.", "Entertainment can attract young people to cultural events.", "Fun activities can help keep traditions popular.", "However, the cultural meaning should not be forgotten.", "If a festival becomes only commercial, it may lose its value.", "A balance between fun and cultural meaning is important.", "The festival should be enjoyable, but it should also teach people something.", "Cultural preservation does not have to be boring."]], ["Globalization and mixing cultures", ["Globalization has changed the way people celebrate.", "Cultures are becoming more connected.", "Young people are influenced by global trends.", "Some local traditions are mixed with foreign elements.", "This can make culture more creative and dynamic.", "However, it can also weaken local identity.", "Mixing cultures can create new food, music, and art.", "Cultural exchange can make society more open.", "People can learn from other cultures without losing their own.", "The challenge is to stay connected to one’s roots while being open to the world."]], ["Personal experience", ["I remember celebrating this festival when I was a child.", "One of my favorite memories is ...", "The most enjoyable part for me is ...", "I especially like it because ...", "It always reminds me of my family.", "It brings back warm memories.", "I associate this tradition with my childhood.", "I feel proud when I see people celebrating it.", "I would like to experience this festival again.", "I think it is one of the most meaningful traditions in my culture."]], ["Comparison", ["In the past, people celebrated it more traditionally.", "Nowadays, the celebration is more modern.", "Older people usually care more about the traditional meaning.", "Younger people often focus more on fun and socializing.", "Compared with other festivals, this one feels more family-centered.", "Unlike public festivals, family celebrations are more personal.", "Traditional celebrations are usually more meaningful.", "Modern celebrations are often more convenient.", "Both old and modern versions have value.", "The best approach is to combine tradition with modern life."]]], "idea_groups": [{ "title": "1) Culture, Identity, and Belonging", "items": [{ "summary": "Traditions help people feel connected to their identity.", "use": "In my opinion, traditions are important because they remind people who they are. For example, when I take part in New Year celebrations in my culture, I feel connected to my family, my language, and my background." }, { "summary": "Culture gives people a sense of belonging.", "use": "Cultural festivals are valuable because they make people feel that they belong to a larger group. Even if people live far from their hometown, celebrating the same festival can make them feel at home." }, { "summary": "Cultural practices show the values of a society.", "use": "Many traditions show what a society cares about. If a culture has many family-centered celebrations, it probably means family relationships are highly valued there." }, { "summary": "Learning about your own culture helps you understand yourself better.", "use": "Sometimes we follow customs without knowing why, but when we learn the history, they become more meaningful and help us understand our own habits." }, { "summary": "Culture can make people feel proud.", "use": "When people see others enjoying their traditional food, music, or clothing, they often feel proud because they realize their culture has something special to offer." }, { "summary": "Cultural identity is stronger when people practice traditions regularly.", "use": "When people actually cook traditional food, wear traditional clothes, or celebrate holidays, culture becomes part of daily life." }, { "summary": "Culture is not only national; it can also be local or family-based.", "use": "A tradition does not have to belong to the whole country. In my family, we have small holiday habits, and those personal traditions are meaningful to me." }, { "summary": "Traditions can make people feel less lonely.", "use": "Festivals bring people together, so someone who feels lonely during the year may feel more supported when relatives, neighbors, or friends gather." }, { "summary": "Culture helps people understand where they come from.", "use": "Cultural traditions are like a bridge to the past because they help younger people understand where their parents and grandparents came from." }, { "summary": "Sharing culture can help people feel seen and respected.", "use": "When someone asks about my culture and listens with interest, I feel respected because it shows my background matters." }] }, { "title": "2) Family, Generations, and Relationships", "items": [{ "summary": "Family celebrations strengthen family bonds.", "use": "During major holidays, people who are usually busy can sit together, eat together, and talk, which keeps family relationships strong." }, { "summary": "Traditions connect older and younger generations.", "use": "Grandparents can explain the meaning of a custom, and children can learn through real experience instead of just reading about it." }, { "summary": "Children learn culture by watching adults.", "use": "Children watch how adults prepare food, greet guests, or dress for a ceremony, and slowly they understand what is expected in their culture." }, { "summary": "Older family members are important cultural teachers.", "use": "Older relatives often know the stories behind traditions, so young people can learn more from them than from a short online video." }, { "summary": "Family traditions create warm memories.", "use": "The food, decorations, and conversations of family celebrations can become memories that people connect with happiness and comfort." }, { "summary": "Celebrations give families a break from daily stress.", "use": "A family celebration gives people a chance to slow down, relax, and focus on their relationships." }, { "summary": "Traditions can teach respect for elders.", "use": "Some customs teach young people to greet older relatives politely or ask for their blessing, which teaches respect naturally." }, { "summary": "Family gatherings keep distant relatives connected.", "use": "Holidays and weddings give distant relatives a reason to come together and keep the relationship alive." }, { "summary": "Simple family customs can be emotionally powerful.", "use": "Even eating a certain meal together every year can feel meaningful because it is connected to family memories." }, { "summary": "Family celebrations can make children feel secure.", "use": "Regular family traditions give children something to look forward to and can make them feel safe and included." }] }, { "title": "3) Festivals as Social Events", "items": [{ "summary": "Festivals bring the community together.", "use": "People who do not normally meet each other can gather in the same public space and share the same experience." }, { "summary": "Festivals create a lively atmosphere.", "use": "During a festival, streets become more colorful, people seem happier, and there is usually music, food, and excitement everywhere." }, { "summary": "Festivals give people a chance to relax.", "use": "After weeks of work or study, it feels good to go outside, meet friends, and enjoy a celebration." }, { "summary": "Public celebrations make a city more attractive.", "use": "Visitors may remember a city not only for its buildings, but also for its food, music, and public celebrations." }, { "summary": "Festivals can reduce social distance.", "use": "In a public celebration, rich and poor people, young and old people, and locals and tourists may all enjoy the same event." }, { "summary": "Festivals create shared memories.", "use": "Years later, people may talk about the same parade, concert, or fireworks display." }, { "summary": "Festivals can make people more positive.", "use": "Music, decorations, and crowds create a joyful feeling and help people forget their problems for a while." }, { "summary": "Festivals encourage people to leave home and be social.", "use": "Festivals encourage people to go outside, meet others, and take part in real-life social activities." }, { "summary": "Festivals can make ordinary places feel special.", "use": "A normal street or park can become memorable with decorations, food stalls, and performances." }, { "summary": "Festivals can build community pride.", "use": "When a local festival becomes successful, people feel proud that their community has something unique to show others." }] }, { "title": "4) Food, Hospitality, and Sharing Culture", "items": [{ "summary": "Traditional food is one of the easiest ways to share culture.", "use": "If I wanted to introduce my culture to a foreign friend, I would start with food because people can learn from the ingredients, flavors, and way of serving." }, { "summary": "Food brings people together during celebrations.", "use": "People gather around the table, talk, laugh, and feel closer while sharing a meal." }, { "summary": "Traditional dishes can carry family history.", "use": "If a dish was made by someone’s grandmother for many years, eating it can feel like remembering that person and their life." }, { "summary": "Cooking traditional food teaches patience and cooperation.", "use": "Preparing festival food can take time, so family members often help each other and make the celebration more meaningful." }, { "summary": "Traditional food can bring back childhood memories.", "use": "Sometimes the smell of a traditional dish immediately reminds people of childhood, which makes food very emotional." }, { "summary": "Hospitality shows respect for guests.", "use": "Offering food or tea is not just practical; it is a way to show kindness and respect." }, { "summary": "Food helps foreigners experience culture without much explanation.", "use": "A visitor may not understand the language or history of a festival, but they can still enjoy the food." }, { "summary": "Traditional food can survive even when other customs disappear.", "use": "Some people stop wearing traditional clothes, but they still eat traditional dishes, so food keeps part of culture alive." }, { "summary": "Food traditions make holidays feel different from normal days.", "use": "Special food makes a holiday feel special; otherwise, the celebration would lose part of its excitement." }, { "summary": "Sharing food can show love better than words.", "use": "When people cook for each other or serve guests carefully, they are showing love in a cultural way." }] }, { "title": "5) Music, Dance, Art, and Performance", "items": [{ "summary": "Traditional music creates the mood of a celebration.", "use": "As soon as people hear traditional music, they feel that the celebration has really started." }, { "summary": "Dance allows people to experience culture physically.", "use": "When people join a group dance, they feel the culture through movement, rhythm, and group participation." }, { "summary": "Performances make culture easier to understand.", "use": "A cultural performance can show a story, a historical event, or a value in a visual way." }, { "summary": "Costumes make festivals more colorful and memorable.", "use": "Even if visitors do not know the meaning of the clothes, traditional costumes make the event feel special." }, { "summary": "Art can express cultural identity.", "use": "Patterns, colors, and symbols often show how a community sees beauty, nature, and history." }, { "summary": "Handmade crafts show local skill.", "use": "A handmade object feels more personal than a mass-produced product because it shows human skill." }, { "summary": "Cultural performances attract young people.", "use": "Young people may not enjoy long explanations, but they may enjoy a dance show or music performance." }, { "summary": "Art and music can preserve culture without feeling boring.", "use": "Music, dance, and art can keep culture alive in a more exciting way than only museum displays." }, { "summary": "Traditional clothing can make people feel proud.", "use": "When people wear traditional clothing at a festival or wedding, they may feel more connected to their heritage." }, { "summary": "Symbols make cultural objects more meaningful.", "use": "A pattern on clothing may look simple, but it can represent history, nature, or family." }] }, { "title": "6) Culture, History, and Heritage Preservation", "items": [{ "summary": "Traditions keep history alive.", "use": "Traditions turn history into real experience because people can celebrate it, taste it, and see it." }, { "summary": "Festivals can teach history naturally.", "use": "Children may learn about important events through stories, music, ceremonies, or family conversations." }, { "summary": "Historical meaning makes a tradition deeper.", "use": "Without historical meaning, a celebration may feel like just another party." }, { "summary": "Cultural heritage should be preserved for future generations.", "use": "Future generations deserve to know where they come from, and if we lose traditions now, they may never return." }, { "summary": "Museums and festivals can support each other.", "use": "Museums protect objects and information, while festivals make people experience culture in real life." }, { "summary": "Historical sites make culture feel real.", "use": "Standing in a historical place is different from reading about history because you can imagine what happened there." }, { "summary": "Stories are an important part of cultural memory.", "use": "Older people’s stories help young people remember important people, events, and lessons from the past." }, { "summary": "A tradition may lose value if people forget its meaning.", "use": "If people celebrate a holiday only because everyone else does, the tradition can become weaker over time." }, { "summary": "Cultural preservation gives people stability in a changing world.", "use": "Traditions remind people that some things remain meaningful across generations." }, { "summary": "Preserving culture does not mean refusing change.", "use": "People can keep the main meaning of a tradition, even if some details become modern." }] }, { "title": "7) Education, Young People, and the Future", "items": [{ "summary": "Schools can help students understand local culture.", "use": "If students only learn global topics and ignore local culture, they may feel disconnected from their own society." }, { "summary": "Young people need explanations, not just rules.", "use": "If adults explain the meaning behind a custom, young people may respect it more." }, { "summary": "Festivals can make culture attractive to children.", "use": "Colorful events, music, games, and food can introduce culture in a way that feels fun instead of serious." }, { "summary": "Young people can modernize traditions.", "use": "They can use social media to share traditional music, food, or clothing in modern ways." }, { "summary": "Culture should be taught through experience.", "use": "Cooking a traditional dish or visiting a festival is often more memorable than reading a paragraph about it." }, { "summary": "Parents play a key role in passing down traditions.", "use": "If parents involve children in family celebrations, those customs are more likely to continue." }, { "summary": "Young people may ignore traditions if they seem irrelevant.", "use": "To keep customs alive, adults need to show why they still matter in modern life." }, { "summary": "Technology can help preserve culture.", "use": "People can record traditional songs, share festival videos, or teach recipes online." }, { "summary": "Cultural education can make students more open-minded.", "use": "Students understand that people may live differently but still deserve respect." }, { "summary": "Children who learn traditions early may value them later.", "use": "Even if a child does not understand a festival fully, the memory stays with them." }] }, { "title": "8) Globalization and Mixing of Cultures", "items": [{ "summary": "Globalization makes cultures more connected.", "use": "People can experience food, music, and festivals from many countries, which can make society more interesting and open." }, { "summary": "Globalization can weaken local traditions.", "use": "Young people might prefer global entertainment and forget local customs." }, { "summary": "Mixing cultures can create new forms of art and food.", "use": "Fusion food or modern music can combine local and foreign elements and create something fresh." }, { "summary": "Cultural exchange helps people understand each other.", "use": "When people share festivals, food, and customs, they become more open-minded." }, { "summary": "People can enjoy foreign cultures without losing their own.", "use": "Liking foreign music or food does not mean someone has lost their culture." }, { "summary": "Tourism can help preserve local culture.", "use": "If visitors are interested, local people may feel more motivated to keep festivals and crafts alive." }, { "summary": "Tourism can also make culture too commercial.", "use": "Sometimes festivals are changed only to please tourists and lose their original meaning." }, { "summary": "Social media can spread cultural awareness.", "use": "A short video of a traditional dish or festival can reach people around the world." }, { "summary": "Cultural mixing can make young people more interested in tradition.", "use": "Traditional clothing with modern design may feel more attractive to young people." }, { "summary": "The challenge is to balance openness and cultural identity.", "use": "The best situation is to learn from others while keeping your own identity." }] }, { "title": "9) Traditions in Modern Society", "items": [{ "summary": "Some traditions need to adapt to modern life.", "use": "If a custom is too difficult for modern families, people can simplify it but keep its main meaning." }, { "summary": "Busy lifestyles make traditions harder to maintain.", "use": "Many people are too busy to prepare large celebrations, so traditions may become shorter or simpler." }, { "summary": "Traditions may become less important in big cities.", "use": "In large cities, people often live fast and individual lives, so local customs may feel weaker." }, { "summary": "Modern versions can keep traditions alive.", "use": "If young people enjoy a new style of celebration, the tradition has a better chance of surviving." }, { "summary": "Not every tradition needs to be preserved exactly.", "use": "Details can change, but ideas like family, respect, or gratitude can stay the same." }, { "summary": "Some traditions disappear because society’s values change.", "use": "If a custom feels unfair or too formal, younger people may reject it." }, { "summary": "Traditions can still be useful in modern society.", "use": "People still need connection, memory, and shared experiences, even with technology." }, { "summary": "Convenience has changed the way people celebrate.", "use": "Many families buy ready-made food now, so the celebration continues but becomes more convenient." }, { "summary": "Traditions can give modern life emotional depth.", "use": "They remind people of family, history, and important values in a busy world." }, { "summary": "A tradition can survive if people understand its purpose.", "use": "The problem is not modern life itself; the problem is when the meaning is forgotten." }] }, { "title": "10) Fun vs Cultural Preservation", "items": [{ "summary": "Festivals can be both fun and meaningful.", "use": "A good festival can entertain people and also teach them about history, values, and traditions." }, { "summary": "Fun activities can attract young people to culture.", "use": "Music, games, food, and social events can attract young people first, and then they may learn the meaning later." }, { "summary": "Too much entertainment can weaken the original meaning.", "use": "If a festival becomes only about concerts, shopping, or photos, people may forget why it exists." }, { "summary": "Commercial festivals may lose authenticity.", "use": "When businesses focus only on selling products, a celebration can feel less connected to culture." }, { "summary": "Cultural preservation does not have to be boring.", "use": "Culture can be preserved through music, food, art, and enjoyable activities." }, { "summary": "Entertainment can help traditions survive.", "use": "Fun performances and food stalls can make people attend a traditional festival and keep it alive." }, { "summary": "The meaning of a festival should be explained clearly.", "use": "Organizers can include short explanations, exhibitions, or storytelling so people understand the background." }, { "summary": "Festivals should respect the original tradition.", "use": "Organizers can add new activities but keep the main ceremony or traditional music." }, { "summary": "People may join festivals for different reasons.", "use": "Some go for fun, while others go because of family or religion, and both can be acceptable." }, { "summary": "A balance between enjoyment and meaning is the best approach.", "use": "The best festival gives people good memories and also reminds them of culture and history." }] }, { "title": "11) Presenting One’s Own Culture", "items": [{ "summary": "Start with one clear tradition from your culture.", "use": "If I had to introduce my culture, I would talk about our New Year celebration because it includes family gatherings, traditional food, and meaningful customs." }, { "summary": "Explain what people do, not just what the festival is called.", "use": "I would explain that people visit relatives, prepare special dishes, wear nice clothes, and spend time with family." }, { "summary": "Connect the tradition to a personal memory.", "use": "This festival is meaningful to me because I remember visiting my grandparents and eating traditional sweets as a child." }, { "summary": "Mention both the fun part and the deeper meaning.", "use": "The festival is enjoyable because people eat and relax, but it also reminds us of family, renewal, and respect." }, { "summary": "Use comparison to make the answer richer.", "use": "Compared with the past, the celebration is now simpler, but people still keep the main parts like family visits and traditional food." }, { "summary": "Explain why foreigners might enjoy the tradition.", "use": "Foreigners would enjoy the celebration because it is colorful and friendly, and they can try traditional food." }, { "summary": "Be honest about changes in the tradition.", "use": "Some young people are less interested now, but many families still practice it because it creates strong memories." }, { "summary": "Focus on one vivid detail.", "use": "The table is decorated, the food smells wonderful, and everyone seems more relaxed than usual." }, { "summary": "Explain the social value of the tradition.", "use": "This custom encourages people to visit each other and reconnect when daily life is busy." }, { "summary": "End with a clear opinion.", "use": "Overall, I think this tradition should continue because it is enjoyable and meaningful." }] }, { "title": "12) Ready-Made Answer Angles", "items": [{ "summary": "If asked about a favorite festival, focus on memory and atmosphere.", "use": "My favorite festival is special because the streets are decorated, families visit each other, and I associate it with warm childhood memories." }, { "summary": "If asked whether traditions are important, focus on identity and family.", "use": "Traditions connect people to their identity and bring families together, so modern life feels less disconnected." }, { "summary": "If asked whether young people care about traditions, give a balanced answer.", "use": "Some young people care less than before, but they may participate if traditions are presented in a modern and enjoyable way." }, { "summary": "If asked about sharing culture, choose food or festivals.", "use": "I would share my culture through traditional food because a meal can start a conversation about family, history, and values." }, { "summary": "If asked about old vs modern celebrations, compare meaning and convenience.", "use": "Older celebrations may feel more meaningful, while modern celebrations are more convenient but sometimes less personal." }, { "summary": "If asked about globalization, discuss both benefit and risk.", "use": "Globalization helps people learn about other cultures, but it can also weaken local traditions." }, { "summary": "If asked about preserving culture, mention children and education.", "use": "The best way to preserve culture is to teach children through home and school experiences." }, { "summary": "If asked about festivals for fun vs culture, choose balance.", "use": "Festivals should be both fun and cultural, because entertainment attracts people but meaning keeps the tradition valuable." }, { "summary": "If asked about a memorable celebration, focus on people, not only activities.", "use": "The celebration was memorable because my whole family was together, not because it was expensive." }, { "summary": "If asked whether traditions should change, say yes but carefully.", "use": "Traditions should change a little to fit modern life, but they should keep their main meaning." }] }], "interview_sets": [{ "title": "1) Culture, Identity, and Belonging", "scenario": "You are taking part in a campus interview about students’ cultural backgrounds.", "qas": [{ "q": "First, tell me a little about your cultural background.", "a": "I come from a culture where family, hospitality, and traditional celebrations are very important. People usually show respect through small customs, like visiting relatives, serving guests, and preparing traditional food for special occasions. I think these habits are part of our cultural identity because they show what people value in daily life. For me, culture is not only about big festivals or traditional clothing. It is also about the way people treat each other and the sense of belonging they create." }, { "q": "Can you describe one tradition that helps you feel connected to your culture?", "a": "One tradition that helps me feel connected to my culture is celebrating the New Year with my family. We usually gather at home, prepare special food, visit relatives, and talk about the past year. It may sound simple, but it has a deeper meaning for me. It connects me to my roots and reminds me of my childhood memories. I also feel proud because this tradition has been passed down from generation to generation, and it still gives people a strong sense of belonging." }, { "q": "Do you think people should keep strong connections with their cultural roots? Why?", "a": "Yes, I think people should keep a connection with their cultural roots because it helps them understand who they are. In modern life, people are influenced by global culture, social media, and new lifestyles, so they may forget their background. But cultural roots give people stability and identity. Of course, I do not think people should reject other cultures. I think the best situation is to be open to the world while still remembering your own heritage and family traditions." }, { "q": "Some students move abroad and slowly lose touch with their culture. What can they do to stay connected?", "a": "I think students abroad can stay connected by practicing small traditions, not only big ones. For example, they can cook traditional food, call their family during holidays, listen to traditional music, or explain their customs to foreign friends. These small actions can keep cultural memory alive. Also, sharing culture with others can make students feel proud instead of isolated. They do not need to live exactly like before, but they can keep the original spirit of their culture in daily life." }] }, { "title": "2) Family, Generations, and Relationships", "scenario": "You are being interviewed for a study about family traditions among students.", "qas": [{ "q": "Do you usually celebrate special occasions with your family?", "a": "Yes, I usually celebrate special occasions with my family, especially holidays and birthdays. These celebrations are not always very formal, but they are meaningful because everyone gathers, shares a meal, and spends time together. In daily life, people are often busy with work or school, so a family celebration gives us a reason to reconnect. I think the most important part is not the decoration or the food itself. It is the warm atmosphere and the feeling that we belong to each other." }, { "q": "What role do older family members play in traditions?", "a": "Older family members play a very important role because they are like cultural teachers. They know the stories behind traditions, and they can explain why people follow certain customs. For example, grandparents may explain why a special dish is prepared during a holiday or why people visit relatives in a certain order. If young people only follow the custom without understanding it, it may feel empty. But when elders explain the meaning, the tradition becomes more personal and respectful." }, { "q": "Do you think family traditions are becoming weaker today?", "a": "In some ways, yes. Many family traditions are becoming weaker because modern life is very busy. People may live in different cities, have demanding jobs, or spend more time online than with relatives. Because of this, some celebrations become shorter or less traditional. However, I do not think family traditions will disappear completely. People still need emotional connection and warm memories. Even if the form changes, families can still keep the main meaning, like togetherness, respect, and support." }, { "q": "How can parents encourage children to value family traditions?", "a": "Parents can encourage children by involving them in the celebration, not just telling them what to do. For example, children can help prepare traditional food, decorate the house, or listen to family stories. Parents should also explain the meaning behind the custom in simple language. If children only see traditions as rules, they may reject them later. But if they associate traditions with love, food, laughter, and family togetherness, they are more likely to value them when they grow up." }] }, { "title": "3) Festivals, Holidays, and Public Events", "scenario": "You are participating in a student interview about festivals and public celebrations.", "qas": [{ "q": "Tell me about a festival or holiday you enjoy.", "a": "One festival I enjoy is our New Year celebration. I like it because it has both a family side and a public side. At home, people prepare special food, clean the house, and visit relatives. Outside, the city often has a festive atmosphere, with decorations, crowded streets, and people shopping for the holiday. For me, the best part is the feeling of renewal. People seem more hopeful and cheerful, and the celebration creates warm memories with family and friends." }, { "q": "What do people usually do during this festival?", "a": "During this festival, people usually gather with family, prepare traditional dishes, and visit relatives or close friends. Many people also dress nicely for the occasion and exchange greetings or small gifts. In some places, there are public events, music, or decorations in the streets, so the whole city feels more lively. I think these activities are important because they bring people together. The festival is enjoyable, but it also reflects values like family connection, respect, and hospitality." }, { "q": "Do you prefer quiet family holidays or large public festivals?", "a": "I enjoy both, but I prefer quiet family holidays because they feel more personal. Large public festivals are exciting because of the music, crowds, and colorful atmosphere, but family holidays have deeper emotional value for me. I like sitting around the table, talking with relatives, and remembering old stories. Those moments create a stronger sense of belonging. So, although public festivals are fun and memorable, I think family celebrations are usually more meaningful in my own life." }, { "q": "How might festivals change in the future?", "a": "I think festivals will become more modern and more connected to technology. For example, people may use social media to share photos, videos, and live performances. Some parts of festivals may also become more commercial, with more shopping and entertainment. But I hope the cultural meaning will not disappear. A festival can become modern and still keep its original spirit. The important thing is to remember why people celebrate it, not just focus on fun or appearance." }] }, { "title": "4) Traditional Food and Hospitality", "scenario": "You are being interviewed for a campus project about food and culture.", "qas": [{ "q": "What traditional food from your culture do you like?", "a": "One traditional food I really like is a dish that people usually prepare for family gatherings or special occasions. I like it not only because of the flavor, but also because it reminds me of home. The smell of the food brings back childhood memories, especially memories of relatives cooking together before a celebration. I think traditional food is powerful because it connects taste with family history. It is not just a meal; it is part of the cultural atmosphere." }, { "q": "If a foreign friend visited you, what food would you introduce first?", "a": "I would introduce a traditional homemade dish first because food is one of the easiest ways to share culture. A foreign friend may not understand the language or the history of a festival, but they can enjoy the taste and ask questions naturally. I would explain the ingredients, when people usually eat it, and why it is meaningful. I think sharing food creates a friendly atmosphere. It also shows hospitality, which is an important part of my culture." }, { "q": "Why is food so important in family celebrations?", "a": "Food is important because it brings everyone together. During a family celebration, people usually gather around the table, share a meal, and talk. Traditional dishes can also carry family history because recipes are often passed down from older generations. A dish made by a grandmother or parent can feel emotionally meaningful. In my opinion, food makes a celebration warmer and more personal. Without traditional food, the holiday might still happen, but it would not feel the same." }, { "q": "Do you think traditional food can survive in modern society?", "a": "Yes, I think traditional food can survive, but it may change a little. Many people today are busy, so they may buy ready-made food instead of cooking everything at home. Still, the traditional taste and meaning can remain. Also, young people often share recipes online, which can actually help preserve food culture. I think food traditions are easier to keep than some other customs because people enjoy them naturally. Even modern people still want food that reminds them of family and home." }] }, { "title": "5) Music, Dance, and Cultural Performance", "scenario": "You are taking part in an interview about cultural performances at festivals.", "qas": [{ "q": "Do you enjoy traditional music or dance?", "a": "Yes, I enjoy traditional music and dance, especially during festivals. I may not listen to traditional music every day, but when I hear it at a celebration, it immediately creates a special mood. The rhythm, instruments, and costumes make the event feel more cultural and memorable. I also like dance performances because they show culture in a visual way. Even if someone does not understand the history behind the festival, they can still feel the energy and meaning through music and movement." }, { "q": "Describe a cultural performance you have seen.", "a": "I remember watching a traditional dance performance at a cultural event. The performers wore colorful costumes, and the music had a lively rhythm. What made it interesting was that the dance seemed to tell a story, not just entertain the audience. The movements, clothing, and music all worked together to show a part of cultural identity. I think that performance was memorable because it made tradition feel alive. It was much more powerful than just reading about the culture." }, { "q": "Why are live performances useful for preserving culture?", "a": "Live performances are useful because they make culture easier to experience. Some young people may not be interested in long explanations about traditions, but they may enjoy music, dance, or storytelling on stage. Performances can show the artistic side of a culture and make old customs more attractive. They also bring the audience together and create a shared memory. In my opinion, cultural preservation does not have to be boring. It can be lively, emotional, and enjoyable." }, { "q": "Should traditional performances be modernized to attract young people?", "a": "Yes, but carefully. I think traditional performances can include modern lighting, stage design, or even new musical elements to attract young people. However, they should not lose their original meaning. If everything becomes modern, the performance may turn into ordinary entertainment and lose its cultural value. The best approach is to keep the traditional rhythm, costumes, or story, but present them in a way that feels fresh. This balance can help traditions survive in modern society." }] }, { "title": "6) Traditional Clothing, Art, and Symbols", "scenario": "You are being interviewed about visual parts of culture, such as clothes, art, and symbols.", "qas": [{ "q": "When do people in your culture wear traditional clothing?", "a": "People usually wear traditional clothing on special occasions, like weddings, festivals, or cultural ceremonies. They may not wear it in daily life because modern clothing is more convenient, but traditional outfits still have symbolic meaning. For example, the colors or patterns may represent history, family, or respect. I think wearing traditional clothing during important events can make people feel proud of their heritage. It also makes the celebration more visually impressive and helps people feel connected to their cultural identity." }, { "q": "Is there a traditional object, design, or symbol that you find interesting?", "a": "Yes, I find traditional patterns on clothing and handmade crafts interesting. Sometimes a simple pattern can have a deeper meaning, like representing nature, family, or an old story. I like this because it shows that culture is not only in words; it can also be shown visually. Traditional designs make objects more meaningful. They are not just decorations. They tell us how people in the past saw beauty, history, and identity." }, { "q": "Why should traditional crafts be preserved?", "a": "Traditional crafts should be preserved because they show local skill and cultural identity. A handmade craft is different from a mass-produced product because it carries the effort and knowledge of a craftsperson. If these skills disappear, a part of cultural heritage disappears too. Also, crafts can help tourists and young people understand culture in a simple way. Buying or learning traditional crafts can support local artists and keep old skills alive in a practical way." }, { "q": "Do you think traditional clothing and art can fit modern life?", "a": "Yes, I think they can fit modern life if people use them creatively. For example, designers can include traditional patterns in modern clothing, bags, or home decoration. This makes the tradition more attractive to young people. I do not think people have to wear traditional clothes every day to preserve culture. Even using small traditional elements can keep the visual style alive. In my opinion, culture survives better when it becomes part of modern life, not just museum displays." }] }, { "title": "7) Culture, History, and Heritage Preservation", "scenario": "You are participating in a research interview about how people learn cultural history.", "qas": [{ "q": "Have you ever visited a historical place or museum connected to your culture?", "a": "Yes, I have visited a few historical places connected to my culture, and I found them meaningful. When I visit a historical site, the past feels more real than it does in a textbook. I can imagine how people lived, what they valued, and why certain traditions started. Museums are also useful because they preserve objects, clothing, tools, and stories. I think these places help people understand their cultural heritage in a more concrete and memorable way." }, { "q": "How can festivals help people learn about history?", "a": "Festivals can teach history naturally because they turn the past into a living experience. For example, people may hear traditional stories, watch cultural performances, eat symbolic food, or take part in old customs. This is different from studying history in school because it feels more personal and emotional. Children especially can learn by watching and participating. I think when people understand the historical origin of a festival, they respect it more and see it as more than just entertainment." }, { "q": "Do you think preserving cultural heritage is important? Why?", "a": "Yes, I think preserving cultural heritage is very important because it protects a community’s memory. If traditions, historical sites, or old stories disappear, future generations may not understand where they come from. Heritage gives people a connection to the past and a sense of identity. Of course, society should still change and develop, but development should not mean forgetting history. In my opinion, cultural preservation helps people move forward while still respecting their roots." }, { "q": "What is one good way to make young people care about cultural history?", "a": "One good way is to connect cultural history with real experiences. For example, instead of only giving students facts, schools can organize visits to museums, invite older people to tell stories, or let students take part in cultural events. Young people usually remember experiences more than lectures. Also, teachers can explain why a tradition still matters today. If students see culture as something alive and relevant, they are more likely to care about it." }] }, { "title": "8) Education, Young People, and Traditions", "scenario": "You are being interviewed for a student study about young people and traditions.", "qas": [{ "q": "Do young people in your community care about traditions?", "a": "I think some young people care about traditions, but maybe less than older generations. Many young people are busy with school, work, or social media, so they may not think deeply about cultural customs. However, I do not believe they are completely uninterested. If a tradition is enjoyable and meaningful, young people can still connect with it. For example, they may enjoy traditional food, music, or family celebrations. The problem is that they often need someone to explain the deeper meaning." }, { "q": "How did you learn about traditions when you were younger?", "a": "I mostly learned about traditions from my family, not from books. I watched my parents and older relatives prepare food, welcome guests, and celebrate holidays. At first, I just copied what they did, but later I began to understand the meaning. For example, I learned that some customs are about respect, family unity, or remembering the past. I think learning through experience is very effective because children connect traditions with real emotions and warm memories." }, { "q": "Should schools teach students about local culture and traditions?", "a": "Yes, I think schools should teach local culture and traditions, but in an interesting way. If students only memorize facts, they may get bored. Schools can use projects, interviews with older people, cooking activities, museum visits, or cultural performances. This makes culture more practical and memorable. I think cultural education is important because students should not only learn global knowledge. They should also understand their own background, local history, and shared values." }, { "q": "What can young people do to keep traditions alive?", "a": "Young people can keep traditions alive by using modern tools. For example, they can share festival videos, traditional recipes, or cultural explanations on social media. They can also take part in family celebrations and ask older people about the meaning of customs. I think young people do not have to follow every tradition exactly as before. They can adapt traditions to modern life while keeping the original spirit. This makes culture feel more relevant instead of old-fashioned." }] }, { "title": "9) Globalization and Mixing of Cultures", "scenario": "You are taking part in an interview about culture in a global world.", "qas": [{ "q": "Do you often experience cultures from other countries?", "a": "Yes, I experience other cultures quite often, mostly through food, music, movies, and social media. For example, I may try foreign cuisine or listen to music from another country without even thinking of it as cultural exchange. I think this is one positive side of globalization. It makes cultures more connected and gives people more chances to learn from each other. At the same time, it also makes me notice what is unique about my own culture." }, { "q": "Can you give an example of cultures mixing in daily life?", "a": "A common example is food. In many cities, people can eat traditional local food, but they can also find fusion food that mixes local and foreign styles. Music is another example because artists often combine traditional instruments with modern beats. I think this mixture can be creative and exciting. It shows that culture is not fixed; it changes over time. As long as people still respect the original culture, mixing cultures can make society more open and dynamic." }, { "q": "Is globalization good or bad for local traditions?", "a": "I think globalization has both positive and negative effects. On the positive side, it allows people to share their culture with a wider audience. A traditional festival or dish can become known around the world. But on the negative side, young people may become more interested in global trends than local customs. This can weaken cultural identity. So, I would say globalization is not automatically bad, but people need to stay connected to their roots while learning from other cultures." }, { "q": "How can people enjoy global culture without losing their own identity?", "a": "People can enjoy global culture by treating it as an addition, not a replacement. For example, someone can enjoy foreign music, movies, or food while still celebrating family traditions and respecting local customs. I think identity becomes stronger when people understand their own culture clearly. Then they can be open to other cultures without feeling lost. The goal is not to avoid foreign influence completely. The goal is to balance openness with cultural pride and self-awareness." }] }, { "title": "10) Traditions in Modern Society", "scenario": "You are being interviewed about how traditions are changing today.", "qas": [{ "q": "Have you noticed any tradition changing in your lifetime?", "a": "Yes, I have noticed that some family celebrations have become simpler. In the past, people spent more time preparing food, visiting many relatives, and following details carefully. Now, because people are busier, they may celebrate in a shorter or more convenient way. For example, some families buy ready-made food instead of cooking everything at home. I do not think this is always bad. The form may change, but the main meaning, like family connection and respect, can still remain." }, { "q": "Why do some traditions become less important?", "a": "Some traditions become less important because modern lifestyles are very different from the past. People may live far from their families, work long hours, or feel that some customs are too formal or old-fashioned. Also, global culture and social media can influence young people’s interests. If a tradition does not feel relevant, they may ignore it. I think the biggest problem is when people do not understand the meaning. If the meaning is explained, the tradition has a better chance of surviving." }, { "q": "Should traditions change to fit modern life?", "a": "Yes, I think traditions should change a little to fit modern life. If people try to preserve every detail exactly, the tradition may become too difficult and eventually disappear. But change should be careful. The original spirit should remain. For example, if a holiday is about family unity, people can celebrate it in a simpler way and still keep that meaning. In my opinion, traditions should be flexible enough to survive, but not so modern that they lose their identity." }, { "q": "What might happen if people stop practicing traditions completely?", "a": "If people stop practicing traditions completely, they may lose an important connection to their history and family background. Future generations might know very little about their cultural roots. Society could also become more individualistic, because traditions often bring people together and create shared memories. Of course, not every old custom needs to continue forever, especially if it no longer matches modern values. But if all traditions disappear, life may become less meaningful and less connected to the past." }] }, { "title": "11) Fun vs Cultural Preservation", "scenario": "You are taking part in an interview about why people attend festivals.", "qas": [{ "q": "When you attend a festival, do you mostly go for fun or for cultural meaning?", "a": "Honestly, I think I go for both. The fun part attracts me first, like the food, music, decorations, and lively atmosphere. But once I am there, I also notice the cultural meaning. For example, I may see traditional clothing, hear old songs, or listen to stories about the festival’s origin. I think this balance is normal. A festival does not have to be serious all the time. It can be enjoyable and still remind people of their heritage." }, { "q": "What kinds of activities make a cultural festival enjoyable?", "a": "I think food stalls, live music, dance performances, and colorful decorations make a cultural festival enjoyable. People like to walk around, try traditional snacks, take photos, and spend time with friends or family. These activities create a festive atmosphere and make the event more memorable. But I also think there should be some cultural explanation, like storytelling or short displays. That way, people do not only have fun; they also understand the deeper meaning behind the celebration." }, { "q": "Can too much entertainment hurt the meaning of a festival?", "a": "Yes, I think too much entertainment can sometimes hurt the meaning of a festival. If people only care about shopping, concerts, or taking photos, they may forget why the festival exists. It can become more commercial than cultural. However, I do not think entertainment is always bad. Fun activities can attract young people and tourists. The key is balance. A festival should be enjoyable, but it should still respect the original tradition and teach people something about culture." }, { "q": "How can festival organizers balance fun and cultural preservation?", "a": "Festival organizers can balance fun and cultural preservation by mixing entertainment with education. For example, they can include music, food, and games, but also add storytelling, cultural displays, or short explanations of traditions. They can invite local artists and older community members to share knowledge. This way, the festival stays lively but does not become empty. I think cultural preservation does not have to be boring. If it is presented creatively, people can enjoy the festival and still learn something meaningful." }] }, { "title": "12) Sharing Culture with Others", "scenario": "You are being interviewed about introducing your culture to international students.", "qas": [{ "q": "If you met an international student, what part of your culture would you introduce first?", "a": "I would probably introduce traditional food first because it is friendly and easy to understand. A person may not know much about my country’s history or language, but they can still enjoy a meal. I would invite them to try a traditional dish and explain when people usually prepare it. Food can naturally lead to conversations about family, holidays, and hospitality. I think it is one of the simplest ways to share culture without making the other person feel uncomfortable." }, { "q": "Have you ever explained a tradition from your culture to someone else?", "a": "Yes, I have explained some holiday customs to friends from other backgrounds. At first, I just described what people do, like visiting relatives, preparing special food, or exchanging greetings. But then I realized it is also important to explain the meaning. Otherwise, the tradition may sound like a list of activities. When I explained that the holiday is about renewal, respect, and family connection, they understood it better. I think sharing culture works best when we explain both the action and the meaning." }, { "q": "Why is cultural exchange useful for students?", "a": "Cultural exchange is useful for students because it makes them more open-minded. When students learn about other customs, food, or celebrations, they realize that there are many different ways to live. This can reduce misunderstandings and help students respect people from different backgrounds. It is also useful in university life, because students often meet classmates from many countries. In my opinion, cultural exchange is not only interesting; it also teaches communication, respect, and flexibility." }, { "q": "What is one mistake people should avoid when sharing their culture?", "a": "One mistake is presenting culture as if everyone in the country lives the same way. In reality, people from the same culture can have different family traditions, beliefs, or lifestyles. So, when sharing culture, I think people should say, “In my family” or “In my region,” instead of speaking for everyone. Another mistake is only showing the fun parts without explaining the deeper meaning. Good cultural sharing should be honest, respectful, and personal." }] }, { "title": "13) Memorable Celebrations", "scenario": "You are taking part in an interview about memorable events and personal experiences.", "qas": [{ "q": "Tell me about a memorable celebration you attended.", "a": "One memorable celebration I attended was a family wedding. It was special because many relatives came from different cities, and the whole event had a warm, festive atmosphere. There was traditional music, a large meal, and people dressed nicely for the occasion. What I remember most is not one specific activity, but the feeling of togetherness. Everyone seemed happy, relaxed, and proud. It created a strong memory for me because it combined family connection, tradition, and celebration." }, { "q": "What made that celebration different from an ordinary day?", "a": "It felt different from an ordinary day because everything had a special meaning. People wore formal clothes, the house or venue was decorated, and traditional food was prepared. Also, relatives who did not usually meet were all together in one place. The atmosphere was lively but also emotional. I think special occasions are powerful because they make people slow down and pay attention to each other. For that reason, even simple moments, like eating together or greeting elders, felt memorable." }, { "q": "Do you think expensive celebrations are always more memorable?", "a": "No, I do not think expensive celebrations are always more memorable. Sometimes a simple celebration can be more meaningful if the people are close and the atmosphere is warm. For example, a home-cooked family meal may create stronger memories than a large formal event where people do not feel connected. Of course, decorations and a beautiful venue can make an event impressive, but they are not the most important part. In my opinion, people, emotions, and shared memories matter more than money." }, { "q": "Why do people remember some celebrations for many years?", "a": "People remember some celebrations for many years because they are connected to strong emotions. A celebration may remind them of childhood, family, love, or an important life change. Also, sensory details like the smell of food, the sound of music, or the sight of traditional clothing can stay in memory for a long time. I think memorable celebrations usually combine atmosphere and meaning. They are not just events; they become part of a person’s personal and cultural story." }] }, { "title": "14) Culture on Campus / University Life", "scenario": "You are being interviewed about cultural activities at a university.", "qas": [{ "q": "Would you like your university to have cultural events for students?", "a": "Yes, I would like that because cultural events can make university life more interesting and welcoming. Students from different backgrounds can share food, music, clothing, or traditions from their culture. This can help international and local students understand each other better. It also creates a friendly atmosphere outside the classroom. I think university is not only a place for academic study. It is also a place where students learn communication, respect, and cultural awareness." }, { "q": "What kind of cultural event would you enjoy on campus?", "a": "I would enjoy an international culture day where students set up booths for different countries or regions. Each booth could include traditional food, music, photos, clothing, or small explanations of customs. I think this type of event would be enjoyable because students could walk around, try new things, and ask questions naturally. It would not feel like a formal lecture. It would be more like cultural exchange through experience, which is usually more memorable and fun." }, { "q": "How can cultural events help international students?", "a": "Cultural events can help international students feel more included. When students have a chance to present their culture, they may feel proud instead of lonely or invisible. It also helps other students understand their background. For example, if an international student explains a holiday or traditional dish, classmates may become more respectful and curious. I think these events can create a sense of belonging on campus, especially for students who are far from home and miss their family traditions." }, { "q": "What problems might happen at multicultural events, and how can they be avoided?", "a": "One problem is that people may present culture in a very simple or stereotypical way. For example, they may show only food or clothing and ignore the deeper meaning. Another problem is misunderstanding, because some customs may seem unusual to people from other backgrounds. To avoid this, students should explain their traditions respectfully and clearly. The university can also encourage questions in a polite way. I think cultural events work best when people are curious, open-minded, and respectful." }] }, { "title": "15) Extra Mixed Interview Questions", "scenario": "You are taking part in a general interview about traditions in modern life.", "qas": [{ "q": "What is one tradition you hope will continue in the future?", "a": "One tradition I hope will continue is family visiting during major holidays. I think this tradition is important because it keeps relationships alive. In modern life, people are often busy and may not see relatives often, so holidays give them a reason to reconnect. Even if the celebration becomes shorter or simpler, the act of visiting family still has emotional value. It shows respect, creates warm memories, and reminds people that family is part of their cultural identity." }, { "q": "What is one tradition that has become less common?", "a": "One tradition that has become less common is preparing everything at home before a celebration. In the past, families spent a lot of time cooking, decorating, and planning together. Today, many people buy ready-made food or celebrate outside because it is more convenient. I understand this change because modern life is busy. Still, I think something is lost when people stop preparing together. The preparation itself can strengthen family bonds and make the celebration feel more personal." }, { "q": "Do you think people should follow traditions even if they do not fully understand them?", "a": "I think people can follow traditions at first, but they should try to understand them too. If someone follows a custom only because everyone else does, the tradition may feel meaningless. But if they learn the story or value behind it, they may respect it more. For example, a greeting, a meal, or a ceremony may have symbolic meaning. In my opinion, understanding is what keeps traditions alive. Without meaning, traditions can become empty habits." }, { "q": "In the future, do you think traditions will disappear or change?", "a": "I think most traditions will change rather than disappear completely. Some details may become modern because people’s lifestyles are different now. For example, people may use technology, celebrate for a shorter time, or mix old customs with new activities. But the main ideas, like family, identity, respect, and belonging, will probably remain important. I think traditions survive when they adapt. If people keep the original spirit, a tradition can change and still stay meaningful." }] }] };
+
+        const $ = (sel) => document.querySelector(sel);
+        const $$ = (sel) => [...document.querySelectorAll(sel)];
+
+        function googleMeaning(term) {
+            return `https://www.google.com/search?q=${encodeURIComponent('meaning of ' + term)}`;
+        }
+        function termLink(term, cls = 'term-link') {
+            const a = document.createElement('a');
+            a.className = cls;
+            a.href = googleMeaning(term);
+            a.target = '_blank';
+            a.rel = 'noopener noreferrer';
+            a.textContent = term;
+            return a;
+        }
+        function make(tag, cls, text) {
+            const el = document.createElement(tag);
+            if (cls) el.className = cls;
+            if (text !== undefined) el.textContent = text;
+            return el;
+        }
+
+        function renderVocabulary() {
+            const root = $('#vocabContent');
+            let wordCount = 0;
+            DATA.vocab_groups.forEach(group => {
+                const sec = make('article', 'subtopic');
+                sec.appendChild(make('h3', '', group.title));
+                const grid = make('div', 'vocab-grid');
+                group.entries.forEach(entry => {
+                    wordCount++;
+                    const card = make('article', 'word-card');
+                    const h = make('h4');
+                    h.appendChild(termLink(entry.word));
+                    card.appendChild(h);
+                    card.appendChild(make('p', 'definition', entry.definition));
+                    card.appendChild(make('p', 'example', `Example: ${entry.example}`));
+                    if (entry.collocations?.length) {
+                        const tags = make('div', 'tags');
+                        entry.collocations.forEach(c => tags.appendChild(termLink(c, 'tag')));
+                        card.appendChild(tags);
+                    }
+                    grid.appendChild(card);
+                });
+                sec.appendChild(grid);
+                if (group.phrases?.length) {
+                    const pb = make('div', 'phrase-box');
+                    pb.appendChild(make('h4', '', 'Useful speaking chunks'));
+                    const pg = make('div', 'phrase-grid');
+                    group.phrases.forEach(p => pg.appendChild(termLink(p, 'phrase')));
+                    pb.appendChild(pg);
+                    sec.appendChild(pb);
+                }
+                root.appendChild(sec);
+            });
+
+            const bankWrap = make('article', 'subtopic');
+            bankWrap.appendChild(make('h3', '', '10) High-Value Speaking Phrase Bank'));
+            DATA.phrase_banks.forEach(([title, phrases]) => {
+                const pb = make('div', 'phrase-box');
+                pb.appendChild(make('h4', '', title));
+                const pg = make('div', 'phrase-grid');
+                phrases.forEach(p => pg.appendChild(termLink(p, 'phrase')));
+                pb.appendChild(pg);
+                bankWrap.appendChild(pb);
+            });
+            root.appendChild(bankWrap);
+            $('#vocabCount').textContent = `${wordCount} entries`;
+        }
+
+        function renderIdeas() {
+            const root = $('#ideasContent');
+            let n = 1;
+            DATA.idea_groups.forEach(group => {
+                const sec = make('article', 'subtopic');
+                sec.appendChild(make('h3', '', group.title));
+                const grid = make('div', 'idea-grid');
+                group.items.forEach(item => {
+                    const card = make('article', 'idea-card');
+                    const h = make('h4');
+                    const span = make('span', 'idea-num', `${n}.`);
+                    h.appendChild(span);
+                    h.append(document.createTextNode(item.summary));
+                    card.appendChild(h);
+                    card.appendChild(make('p', '', item.use));
+                    grid.appendChild(card);
+                    n++;
+                });
+                sec.appendChild(grid);
+                root.appendChild(sec);
+            });
+            $('#ideaCount').textContent = `${n - 1} ideas`;
+        }
+
+        function renderInterviews() {
+            const root = $('#interviewContent');
+            let qn = 1;
+            DATA.interview_sets.forEach(set => {
+                const sec = make('article', 'subtopic');
+                sec.appendChild(make('h3', '', set.title));
+                sec.appendChild(make('p', 'scenario', set.scenario));
+                const grid = make('div', 'qa-grid');
+                set.qas.forEach(item => {
+                    const card = make('article', 'qa-card');
+                    const h = make('h4');
+                    h.appendChild(make('span', 'q-label', `Q${qn}.`));
+                    h.append(document.createTextNode(item.q));
+                    card.appendChild(h);
+                    card.appendChild(make('p', 'answer', item.a));
+                    grid.appendChild(card);
+                    qn++;
+                });
+                sec.appendChild(grid);
+                root.appendChild(sec);
+            });
+            $('#questionCount').textContent = `${qn - 1} questions`;
+        }
+
+        function initTheme() {
+            const saved = localStorage.getItem('ktg-theme');
+            if (saved) document.documentElement.dataset.theme = saved;
+            const btn = $('#themeToggle');
+            const setLabel = () => btn.textContent = document.documentElement.dataset.theme === 'night' ? '☀️ Day mode' : '🌙 Night mode';
+            setLabel();
+            btn.addEventListener('click', () => {
+                const next = document.documentElement.dataset.theme === 'night' ? 'day' : 'night';
+                document.documentElement.dataset.theme = next;
+                localStorage.setItem('ktg-theme', next);
+                setLabel();
+            });
+        }
+
+        function initTopButton() {
+            const btn = $('#toTop');
+            window.addEventListener('scroll', () => {
+                btn.classList.toggle('show', window.scrollY > 500);
+            });
+            btn.addEventListener('click', () => window.scrollTo({ top: 0, behavior: 'smooth' }));
+        }
+
+        renderVocabulary();
+        renderIdeas();
+        renderInterviews();
+        initTheme();
+        initTopButton();
+    </script>
+</body>
+
+</html>
