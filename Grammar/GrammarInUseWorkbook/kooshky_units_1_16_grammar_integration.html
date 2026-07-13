@@ -1,0 +1,1897 @@
+<!doctype html>
+<html lang="en" data-theme="light">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <meta name="description" content="Kooshky's TOEFL Guides: active grammar integration practice for Intermediate Grammar in Use Units 1–16.">
+  <title>Units 1–16 Grammar Integration | Kooshky's TOEFL Guides</title>
+  <style>
+    :root {
+      color-scheme: light;
+      --bg: #f7f4ee;
+      --bg-soft: #efe8dc;
+      --surface: #fffdf8;
+      --surface-2: #f8f1e7;
+      --text: #191714;
+      --muted: #625c54;
+      --faint: #8a8177;
+      --line: #ded3c5;
+      --line-strong: #c9b9a7;
+      --accent: #6e4d2f;
+      --accent-2: #a97443;
+      --accent-soft: #ead8c3;
+      --danger: #8e2d2d;
+      --shadow: 0 18px 50px rgba(39, 31, 23, .12);
+      --radius-xl: 28px;
+      --radius-lg: 20px;
+      --radius-md: 14px;
+      --radius-sm: 10px;
+      --header-hint: 88px;
+      --safe-bottom: max(1rem, env(safe-area-inset-bottom));
+      --safe-right: max(1rem, env(safe-area-inset-right));
+      --content-max: 1180px;
+      --mono: ui-monospace, SFMono-Regular, Menlo, Consolas, "Liberation Mono", monospace;
+      --sans: Inter, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+      --serif: Georgia, "Times New Roman", serif;
+    }
+
+    html[data-theme="dark"] {
+      color-scheme: dark;
+      --bg: #10100f;
+      --bg-soft: #171614;
+      --surface: #1f1d1a;
+      --surface-2: #28241f;
+      --text: #f4eee5;
+      --muted: #c8bdb0;
+      --faint: #a79c90;
+      --line: #3f3932;
+      --line-strong: #5c5146;
+      --accent: #d4aa73;
+      --accent-2: #f0c487;
+      --accent-soft: #3d3023;
+      --danger: #ff9b9b;
+      --shadow: 0 18px 50px rgba(0, 0, 0, .35);
+    }
+
+    * { box-sizing: border-box; }
+
+    html {
+      scroll-behavior: smooth;
+      overflow-x: hidden;
+    }
+
+    body {
+      margin: 0;
+      min-width: 0;
+      background:
+        radial-gradient(circle at top left, color-mix(in srgb, var(--accent-soft) 72%, transparent), transparent 32rem),
+        linear-gradient(180deg, var(--bg), var(--bg-soft));
+      color: var(--text);
+      font-family: var(--sans);
+      line-height: 1.65;
+      overflow-x: hidden;
+      text-rendering: optimizeLegibility;
+    }
+
+    a {
+      color: var(--accent);
+      text-decoration-thickness: .08em;
+      text-underline-offset: .18em;
+      overflow-wrap: anywhere;
+    }
+
+    a:hover { color: var(--accent-2); }
+
+    button,
+    summary,
+    a {
+      -webkit-tap-highlight-color: transparent;
+    }
+
+    button {
+      font: inherit;
+      color: inherit;
+    }
+
+    .skip-link {
+      position: fixed;
+      top: .75rem;
+      left: .75rem;
+      z-index: 12000;
+      transform: translateY(calc(-100% - 2rem));
+      background: var(--surface);
+      color: var(--text);
+      border: 1px solid var(--line-strong);
+      border-radius: 999px;
+      padding: .7rem 1rem;
+      box-shadow: var(--shadow);
+      transition: transform .18s ease;
+    }
+
+    .skip-link:focus,
+    .skip-link:focus-visible {
+      transform: translateY(0);
+      outline: 3px solid color-mix(in srgb, var(--accent) 55%, transparent);
+      outline-offset: 3px;
+    }
+
+    .container {
+      width: min(var(--content-max), calc(100% - clamp(1.2rem, 4vw, 3rem)));
+      margin-inline: auto;
+    }
+
+    .site-header {
+      position: sticky;
+      top: 0;
+      z-index: 8000;
+      background: color-mix(in srgb, var(--surface) 88%, transparent);
+      border-bottom: 1px solid var(--line);
+      backdrop-filter: blur(18px);
+    }
+
+    .nav-shell {
+      display: grid;
+      gap: .7rem;
+      padding-block: .7rem;
+    }
+
+    .nav-top {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 1rem;
+    }
+
+    .brand {
+      display: flex;
+      align-items: baseline;
+      gap: .65rem;
+      min-width: 0;
+      font-weight: 800;
+      letter-spacing: -.03em;
+      color: var(--text);
+      text-decoration: none;
+    }
+
+    .brand-mark {
+      display: inline-grid;
+      place-items: center;
+      width: 2.15rem;
+      height: 2.15rem;
+      flex: 0 0 auto;
+      border: 1px solid var(--line-strong);
+      border-radius: 50%;
+      background: var(--surface-2);
+      font-family: var(--serif);
+      font-size: 1rem;
+    }
+
+    .brand-title {
+      overflow: hidden;
+      text-overflow: ellipsis;
+      white-space: nowrap;
+    }
+
+    .nav-actions {
+      display: flex;
+      align-items: center;
+      justify-content: flex-end;
+      gap: .55rem;
+      flex-wrap: wrap;
+    }
+
+    .icon-btn,
+    .pill-btn,
+    .copy-btn {
+      border: 1px solid var(--line-strong);
+      background: var(--surface);
+      border-radius: 999px;
+      padding: .55rem .8rem;
+      cursor: pointer;
+      box-shadow: 0 1px 0 color-mix(in srgb, var(--line) 55%, transparent);
+      transition: transform .15s ease, border-color .15s ease, background .15s ease;
+    }
+
+    .icon-btn:hover,
+    .pill-btn:hover,
+    .copy-btn:hover {
+      transform: translateY(-1px);
+      border-color: var(--accent);
+      background: var(--surface-2);
+    }
+
+    .menu-toggle { display: none; }
+
+    .nav-panel {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 1rem;
+    }
+
+    .nav-links,
+    .social-links {
+      display: flex;
+      align-items: center;
+      gap: .5rem;
+      flex-wrap: wrap;
+      list-style: none;
+      margin: 0;
+      padding: 0;
+    }
+
+    .nav-links a,
+    .social-links a,
+    .tag {
+      display: inline-flex;
+      align-items: center;
+      gap: .35rem;
+      min-height: 2.2rem;
+      border: 1px solid var(--line);
+      border-radius: 999px;
+      padding: .35rem .7rem;
+      background: color-mix(in srgb, var(--surface) 68%, transparent);
+      color: var(--muted);
+      text-decoration: none;
+      font-size: .92rem;
+      overflow-wrap: anywhere;
+    }
+
+    .nav-links a:hover,
+    .social-links a:hover {
+      color: var(--text);
+      border-color: var(--accent);
+    }
+
+    .hero {
+      padding: clamp(3.6rem, 8vw, 7rem) 0 clamp(2.4rem, 5vw, 4rem);
+    }
+
+    .hero-grid {
+      display: grid;
+      grid-template-columns: minmax(0, 1.24fr) minmax(280px, .76fr);
+      gap: clamp(1.2rem, 4vw, 3rem);
+      align-items: stretch;
+    }
+
+    .hero-card,
+    .toc-card,
+    .exercise,
+    .note-card,
+    .mini-card {
+      background: color-mix(in srgb, var(--surface) 92%, transparent);
+      border: 1px solid var(--line);
+      border-radius: var(--radius-xl);
+      box-shadow: var(--shadow);
+    }
+
+    .hero-card {
+      padding: clamp(1.4rem, 4vw, 3rem);
+      display: grid;
+      align-content: center;
+      min-height: 480px;
+    }
+
+    .eyebrow {
+      display: inline-flex;
+      width: fit-content;
+      align-items: center;
+      gap: .45rem;
+      margin: 0 0 1rem;
+      color: var(--accent);
+      font-weight: 800;
+      text-transform: uppercase;
+      letter-spacing: .16em;
+      font-size: .76rem;
+    }
+
+    h1,
+    h2,
+    h3,
+    h4 {
+      line-height: 1.08;
+      letter-spacing: -.04em;
+      overflow-wrap: anywhere;
+    }
+
+    h1 {
+      margin: 0;
+      max-width: 12ch;
+      font-size: clamp(2.7rem, 8vw, 6.6rem);
+    }
+
+    .subtitle {
+      margin: 1.2rem 0 0;
+      max-width: 68ch;
+      color: var(--muted);
+      font-size: clamp(1.02rem, 1.7vw, 1.25rem);
+    }
+
+    .hero-meta {
+      display: flex;
+      flex-wrap: wrap;
+      gap: .6rem;
+      margin-top: 1.5rem;
+    }
+
+    .hero-aside {
+      padding: clamp(1.2rem, 3vw, 2rem);
+      display: grid;
+      align-content: space-between;
+      gap: 1rem;
+    }
+
+    .hero-aside h2 {
+      margin: 0;
+      font-size: clamp(1.4rem, 3vw, 2.4rem);
+    }
+
+    .link-grid {
+      display: grid;
+      gap: .7rem;
+      margin-top: 1rem;
+    }
+
+    .big-link {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: .8rem;
+      padding: .9rem 1rem;
+      border-radius: var(--radius-md);
+      border: 1px solid var(--line);
+      background: var(--surface-2);
+      color: var(--text);
+      text-decoration: none;
+    }
+
+    .big-link span:last-child {
+      color: var(--faint);
+      font-size: .88rem;
+      text-align: right;
+    }
+
+    .main-layout {
+      display: grid;
+      grid-template-columns: minmax(240px, 300px) minmax(0, 1fr);
+      gap: clamp(1.2rem, 3vw, 2rem);
+      align-items: start;
+      padding-bottom: 6rem;
+    }
+
+    .toc-card {
+      position: sticky;
+      top: calc(var(--header-hint) + 1rem);
+      padding: 1rem;
+      max-height: calc(100vh - var(--header-hint) - 2rem);
+      overflow: auto;
+      border-radius: var(--radius-lg);
+    }
+
+    .toc-card h2 {
+      margin: .3rem 0 .7rem;
+      font-size: 1.05rem;
+      letter-spacing: -.02em;
+    }
+
+    .toc-list {
+      display: grid;
+      gap: .35rem;
+      list-style: none;
+      margin: 0;
+      padding: 0;
+    }
+
+    .toc-list a {
+      display: block;
+      padding: .48rem .6rem;
+      border-radius: .8rem;
+      color: var(--muted);
+      text-decoration: none;
+      font-size: .93rem;
+    }
+
+    .toc-list a:hover,
+    .toc-list a:focus-visible {
+      background: var(--surface-2);
+      color: var(--text);
+    }
+
+    main {
+      min-width: 0;
+    }
+
+    main h2,
+    main h3,
+    main h4 {
+      scroll-margin-top: calc(var(--header-hint) + 1rem);
+    }
+
+    .exercise {
+      padding: clamp(1.2rem, 3vw, 2rem);
+      margin-bottom: clamp(1rem, 3vw, 1.6rem);
+    }
+
+    .exercise > header {
+      display: grid;
+      gap: .5rem;
+      margin-bottom: 1rem;
+      border-bottom: 1px solid var(--line);
+      padding-bottom: 1rem;
+    }
+
+    .exercise h2 {
+      margin: 0;
+      font-size: clamp(1.55rem, 3vw, 2.35rem);
+    }
+
+    .exercise h3 {
+      margin-top: 1.5rem;
+      font-size: 1.28rem;
+    }
+
+    .exercise h4 {
+      margin: 1.25rem 0 .55rem;
+      font-size: 1rem;
+      color: var(--accent);
+      letter-spacing: -.01em;
+    }
+
+    .lead {
+      margin: 0;
+      color: var(--muted);
+      max-width: 78ch;
+    }
+
+    .objectives {
+      display: flex;
+      gap: .5rem;
+      flex-wrap: wrap;
+      margin-top: .7rem;
+    }
+
+    .question-list,
+    .numbered-list {
+      display: grid;
+      gap: .65rem;
+      padding-left: 1.25rem;
+    }
+
+    .build-list,
+    .upgrade-list,
+    .trap-list {
+      display: grid;
+      gap: .8rem;
+      counter-reset: item;
+      list-style: none;
+      padding: 0;
+      margin: 1rem 0;
+    }
+
+    .build-list li,
+    .upgrade-list li,
+    .trap-item,
+    .text-card,
+    .timeline-card {
+      border: 1px solid var(--line);
+      background: color-mix(in srgb, var(--surface-2) 76%, transparent);
+      border-radius: var(--radius-md);
+      padding: .9rem 1rem;
+      min-width: 0;
+      overflow-wrap: anywhere;
+    }
+
+    .build-list li::before,
+    .upgrade-list li::before {
+      counter-increment: item;
+      content: counter(item, decimal-leading-zero);
+      display: inline-grid;
+      place-items: center;
+      width: 2.1rem;
+      height: 2.1rem;
+      margin-right: .6rem;
+      border-radius: 50%;
+      background: var(--surface);
+      border: 1px solid var(--line-strong);
+      color: var(--accent);
+      font-size: .78rem;
+      font-weight: 800;
+      vertical-align: middle;
+    }
+
+    .chunk {
+      font-family: var(--mono);
+      font-size: .96rem;
+      word-spacing: .08rem;
+    }
+
+    .text-grid,
+    .timeline-grid {
+      display: grid;
+      grid-template-columns: repeat(2, minmax(0, 1fr));
+      gap: 1rem;
+    }
+
+    .text-card h3,
+    .timeline-card h3 {
+      margin: 0 0 .65rem;
+      font-size: 1.15rem;
+    }
+
+    .text-card p,
+    .timeline-card p { margin-block: .65rem; }
+
+    .scenario-meta {
+      color: var(--faint);
+      font-size: .9rem;
+      margin-bottom: .5rem;
+    }
+
+    .timeline-card ul {
+      margin: .5rem 0 0;
+      padding-left: 1.2rem;
+    }
+
+    .timeline-card li { margin: .35rem 0; }
+
+    .details-box {
+      margin-top: 1rem;
+      border: 1px solid var(--line-strong);
+      border-radius: var(--radius-lg);
+      background: color-mix(in srgb, var(--surface) 85%, transparent);
+      overflow: hidden;
+    }
+
+    .details-box summary {
+      cursor: pointer;
+      list-style: none;
+      padding: 1rem 1.1rem;
+      font-weight: 800;
+      color: var(--text);
+      display: flex;
+      justify-content: space-between;
+      gap: 1rem;
+      align-items: center;
+    }
+
+    .details-box summary::-webkit-details-marker { display: none; }
+
+    .details-box summary::after {
+      content: "+";
+      color: var(--accent);
+      font-size: 1.35rem;
+      line-height: 1;
+    }
+
+    .details-box[open] summary::after { content: "−"; }
+
+    .details-content {
+      padding: 0 1.1rem 1.1rem;
+      border-top: 1px solid var(--line);
+    }
+
+    .answer-list {
+      display: grid;
+      gap: .55rem;
+      padding-left: 1.25rem;
+    }
+
+    .answer-list li { padding-left: .25rem; }
+
+    .prompt-wrap {
+      margin: 1rem 0;
+      border: 1px solid var(--line-strong);
+      border-radius: var(--radius-lg);
+      overflow: hidden;
+      background: #111;
+      color: #f8f3ea;
+    }
+
+    .prompt-head {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      gap: .7rem;
+      padding: .75rem .85rem;
+      background: #1b1b1b;
+      border-bottom: 1px solid rgba(255,255,255,.14);
+    }
+
+    .prompt-title {
+      font-size: .9rem;
+      color: #e8dccd;
+      font-weight: 700;
+    }
+
+    .copy-btn {
+      background: #292929;
+      color: #fff;
+      border-color: rgba(255,255,255,.2);
+      padding: .4rem .7rem;
+      font-size: .85rem;
+    }
+
+    pre {
+      margin: 0;
+      padding: 1rem;
+      max-width: 100%;
+      overflow-x: auto;
+      white-space: pre-wrap;
+      overflow-wrap: anywhere;
+      font-family: var(--mono);
+      font-size: .88rem;
+      line-height: 1.55;
+    }
+
+    .note-card {
+      padding: 1rem;
+      margin: 1rem 0;
+      border-radius: var(--radius-lg);
+      box-shadow: none;
+    }
+
+    .note-card strong { color: var(--accent); }
+
+    .trap-item h3 {
+      margin: 0 0 .55rem;
+      font-size: 1rem;
+      color: var(--text);
+    }
+
+    .option-list {
+      display: grid;
+      gap: .28rem;
+      margin: .45rem 0 0;
+      padding-left: 1.2rem;
+    }
+
+    .to-top {
+      position: fixed;
+      right: var(--safe-right);
+      bottom: var(--safe-bottom);
+      z-index: 7000;
+      display: inline-grid;
+      place-items: center;
+      width: clamp(2.8rem, 11vw, 3.4rem);
+      height: clamp(2.8rem, 11vw, 3.4rem);
+      border: 1px solid var(--line-strong);
+      border-radius: 50%;
+      background: var(--surface);
+      color: var(--text);
+      box-shadow: var(--shadow);
+      cursor: pointer;
+      opacity: 0;
+      pointer-events: none;
+      transform: translateY(.5rem);
+      transition: opacity .18s ease, transform .18s ease, bottom .18s ease;
+    }
+
+    .to-top.is-visible {
+      opacity: 1;
+      pointer-events: auto;
+      transform: translateY(0);
+    }
+
+    body.promo-visible .to-top {
+      bottom: calc(var(--safe-bottom) + 5rem);
+    }
+
+    .lookup-popup {
+      position: fixed;
+      z-index: 9500;
+      display: none;
+      max-width: min(26rem, calc(100vw - 1.5rem));
+      border: 1px solid var(--line-strong);
+      border-radius: var(--radius-md);
+      background: var(--surface);
+      color: var(--text);
+      box-shadow: var(--shadow);
+      padding: .45rem;
+    }
+
+    .lookup-popup.is-visible { display: block; }
+
+    .lookup-label {
+      display: block;
+      max-width: 100%;
+      color: var(--faint);
+      font-size: .78rem;
+      padding: .25rem .35rem .4rem;
+      overflow: hidden;
+      text-overflow: ellipsis;
+      white-space: nowrap;
+    }
+
+    .lookup-links {
+      display: flex;
+      flex-wrap: wrap;
+      gap: .35rem;
+    }
+
+    .lookup-links a {
+      display: inline-flex;
+      padding: .42rem .55rem;
+      border: 1px solid var(--line);
+      border-radius: 999px;
+      text-decoration: none;
+      color: var(--text);
+      background: var(--surface-2);
+      font-size: .85rem;
+    }
+
+    .promo-backdrop {
+      position: fixed;
+      inset: 0;
+      z-index: 10000;
+      display: none;
+      place-items: center;
+      padding: max(1rem, env(safe-area-inset-top)) max(1rem, env(safe-area-inset-right)) max(1rem, env(safe-area-inset-bottom)) max(1rem, env(safe-area-inset-left));
+      background: rgba(0,0,0,.46);
+    }
+
+    .promo-backdrop.is-visible { display: grid; }
+
+    .promo-card {
+      width: min(560px, 100%);
+      max-height: min(86vh, 720px);
+      overflow: auto;
+      background: var(--surface);
+      color: var(--text);
+      border: 1px solid var(--line-strong);
+      border-radius: var(--radius-xl);
+      box-shadow: 0 30px 90px rgba(0,0,0,.35);
+      padding: clamp(1.1rem, 4vw, 1.7rem);
+    }
+
+    .promo-top {
+      display: flex;
+      justify-content: space-between;
+      gap: 1rem;
+      align-items: start;
+    }
+
+    .promo-card h2 {
+      margin: 0;
+      font-size: clamp(1.4rem, 5vw, 2rem);
+    }
+
+    .close-btn {
+      flex: 0 0 auto;
+      border: 1px solid var(--line-strong);
+      background: var(--surface-2);
+      color: var(--text);
+      border-radius: 50%;
+      width: 2.35rem;
+      height: 2.35rem;
+      cursor: pointer;
+      font-size: 1.25rem;
+      line-height: 1;
+    }
+
+    .source-note {
+      font-size: .9rem;
+      color: var(--faint);
+      margin-top: 1rem;
+    }
+
+    @media (max-width: 940px) {
+      .hero-grid,
+      .main-layout,
+      .text-grid,
+      .timeline-grid {
+        grid-template-columns: 1fr;
+      }
+
+      .hero-card { min-height: auto; }
+
+      .toc-card {
+        position: static;
+        max-height: none;
+      }
+    }
+
+    @media (max-width: 760px) {
+      :root { --header-hint: 76px; }
+
+      .menu-toggle { display: inline-flex; }
+
+      .nav-panel {
+        display: none;
+        align-items: stretch;
+        gap: .75rem;
+        max-height: min(56vh, 420px);
+        overflow: auto;
+        padding-top: .6rem;
+        border-top: 1px solid var(--line);
+      }
+
+      .site-header.is-open .nav-panel {
+        display: grid;
+      }
+
+      .nav-links,
+      .social-links {
+        display: grid;
+        grid-template-columns: 1fr;
+        align-items: stretch;
+      }
+
+      .nav-links a,
+      .social-links a {
+        justify-content: space-between;
+        width: 100%;
+      }
+
+      .nav-actions {
+        gap: .4rem;
+        flex-wrap: nowrap;
+      }
+
+      .brand-title {
+        max-width: 44vw;
+      }
+
+      .exercise,
+      .hero-card,
+      .hero-aside {
+        border-radius: var(--radius-lg);
+      }
+
+      .build-list li::before,
+      .upgrade-list li::before {
+        display: inline-grid;
+        margin-bottom: .35rem;
+      }
+    }
+
+    @media (max-width: 420px) {
+      .container { width: min(100% - 1rem, var(--content-max)); }
+      .hero { padding-top: 2.4rem; }
+      .icon-btn,
+      .pill-btn { padding-inline: .65rem; }
+      .brand-mark { width: 1.95rem; height: 1.95rem; }
+      pre { font-size: .82rem; }
+    }
+
+    @media (prefers-reduced-motion: reduce) {
+      *, *::before, *::after {
+        scroll-behavior: auto !important;
+        transition: none !important;
+      }
+    }
+  </style>
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to content</a>
+
+  <header class="site-header" id="siteHeader">
+    <div class="container nav-shell">
+      <div class="nav-top">
+        <a class="brand" href="#top" aria-label="Kooshky's TOEFL Guides home section">
+          <span class="brand-mark">K</span>
+          <span class="brand-title">Kooshky's TOEFL Guides</span>
+        </a>
+        <div class="nav-actions">
+          <button class="icon-btn" id="themeToggle" type="button" aria-label="Toggle dark mode">☾</button>
+          <button class="pill-btn menu-toggle" id="menuToggle" type="button" aria-expanded="false" aria-controls="navPanel">Menu</button>
+        </div>
+      </div>
+      <nav class="nav-panel" id="navPanel" aria-label="Primary navigation">
+        <ul class="nav-links">
+          <li><a href="#exercise-1">Warm-up</a></li>
+          <li><a href="#exercise-2">Build</a></li>
+          <li><a href="#exercise-4">Texts</a></li>
+          <li><a href="#exercise-5">Timelines</a></li>
+          <li><a href="#exercise-10">Final Speaking</a></li>
+        </ul>
+        <ul class="social-links" aria-label="Kooshky social links">
+          <li><a href="https://t.me/KooshkyTOEFL" target="_blank" rel="noopener">Telegram Channel</a></li>
+          <li><a href="https://instagram.com/kooshkytoefl" target="_blank" rel="noopener">Instagram</a></li>
+          <li><a href="https://t.me/kooshkyTOEFL_pv" target="_blank" rel="noopener">Telegram DM</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <div id="top"></div>
+
+  <section class="hero" aria-labelledby="hero-title">
+    <div class="container hero-grid">
+      <div class="hero-card">
+        <p class="eyebrow">Kooshky's TOEFL Guides</p>
+        <h1 id="hero-title">Units 1–16 Grammar Integration</h1>
+        <p class="subtitle">A sharp, active practice pack for mastering time, memory, experience, and change after studying the first sixteen units of <em>Intermediate Grammar in Use</em>.</p>
+        <div class="hero-meta" aria-label="Practice focus tags">
+          <span class="tag">Present & past</span>
+          <span class="tag">Present perfect</span>
+          <span class="tag">Past perfect</span>
+          <span class="tag">TOEFL-style integration</span>
+        </div>
+        <p class="source-note">Inspired by current TOEFL iBT task families described by ETS: <a href="https://www.ets.org/toefl/test-takers/ibt/about/content/writing.html" target="_blank" rel="noopener">Writing tasks</a> and <a href="https://www.ets.org/toefl/test-takers/ibt/about/content/speaking.html" target="_blank" rel="noopener">Speaking tasks</a>.</p>
+      </div>
+
+      <aside class="hero-aside hero-card" aria-labelledby="creator-title">
+        <div>
+          <h2 id="creator-title">Collected and compiled by Amir Kooshky</h2>
+          <p class="lead">For more TOEFL grammar, vocabulary, speaking, and writing guides, check the Telegram channel and Instagram page.</p>
+        </div>
+        <div class="link-grid">
+          <a class="big-link" href="https://t.me/KooshkyTOEFL" target="_blank" rel="noopener"><strong>Telegram Channel</strong><span>More guides</span></a>
+          <a class="big-link" href="https://instagram.com/kooshkytoefl" target="_blank" rel="noopener"><strong>Instagram</strong><span>Short lessons</span></a>
+          <a class="big-link" href="https://t.me/kooshkyTOEFL_pv" target="_blank" rel="noopener"><strong>Telegram DM</strong><span>Contact Amir</span></a>
+        </div>
+      </aside>
+    </div>
+  </section>
+
+  <div class="container main-layout">
+    <aside class="toc-card" aria-labelledby="toc-heading">
+      <h2 id="toc-heading">Contents</h2>
+      <ol class="toc-list" id="tocList"></ol>
+    </aside>
+
+    <main id="main" tabindex="-1">
+      <article class="exercise" id="overview" data-toc>
+        <header>
+          <p class="eyebrow">Overview</p>
+          <h2>What this pack trains</h2>
+          <p class="lead">This is not a tense worksheet. It is a time-control worksheet. The student should learn to move clearly between habits, current changes, finished events, ongoing experience, earlier past causes, and present results.</p>
+        </header>
+        <div class="objectives">
+          <span class="tag">present simple</span>
+          <span class="tag">present continuous</span>
+          <span class="tag">past simple</span>
+          <span class="tag">past continuous</span>
+          <span class="tag">present perfect</span>
+          <span class="tag">present perfect continuous</span>
+          <span class="tag">past perfect</span>
+          <span class="tag">past perfect continuous</span>
+        </div>
+        <div class="note-card">
+          <strong>Teacher principle:</strong> do not reward students for using every tense artificially. Reward them for choosing a tense because it clarifies time meaning.
+        </div>
+      </article>
+
+      <article class="exercise" id="exercise-1" data-toc>
+        <header>
+          <p class="eyebrow">Exercise 1</p>
+          <h2>Time Meaning Warm-up</h2>
+          <p class="lead">Answer each question in 2–3 complete sentences. This is a soft diagnostic, so the goal is natural production first, then correction.</p>
+        </header>
+        <ol class="question-list">
+          <li>What is something you usually do every day, but are not doing much these days?</li>
+          <li>What is something you are currently trying to improve?</li>
+          <li>What is something you did last weekend?</li>
+          <li>What were you doing at 9 p.m. last night?</li>
+          <li>What is something you have done many times in your life?</li>
+          <li>What is something you have been doing recently that takes a lot of effort?</li>
+          <li>How long have you been studying English seriously?</li>
+          <li>What is something you had already learned before you started preparing for TOEFL?</li>
+          <li>What is something you had been doing for a long time before you stopped?</li>
+          <li>Tell me about a time when something interrupted what you were doing.</li>
+        </ol>
+        <div class="prompt-wrap">
+          <div class="prompt-head"><span class="prompt-title">LLM review prompt</span><button class="copy-btn" type="button">Copy</button></div>
+<pre><code>You are reviewing my answers for an English grammar integration exercise based on Units 1–16 of Intermediate Grammar in Use.
+
+The target grammar is:
+- present simple vs present continuous
+- past simple vs past continuous
+- present perfect simple and continuous
+- for / since / how long
+- present perfect vs past simple
+- past perfect simple and continuous
+
+Please review my answers mainly for time control, tense choice, and natural use of time expressions. Do not focus too much on advanced style or vocabulary.
+
+For each answer:
+1. Tell me whether the tense choice is correct and natural.
+2. Correct the sentence if needed.
+3. Briefly explain the correction in simple language.
+4. If my original sentence is grammatically possible but changes the meaning, explain the difference.
+
+At the end, give me:
+- my 3 most repeated grammar problems
+- 5 upgraded example sentences based on my answers
+- a short practice tip for improving tense control
+
+Here are my answers:
+[paste answers here]</code></pre>
+        </div>
+      </article>
+
+      <article class="exercise" id="exercise-2" data-toc>
+        <header>
+          <p class="eyebrow">Exercise 2</p>
+          <h2>Build a Sentence</h2>
+          <p class="lead">Arrange the words or chunks into a correct sentence. Some items have one extra word or chunk that you should not use.</p>
+        </header>
+        <ol class="build-list chunk">
+          <li>these days / I / for TOEFL / am preparing / usually / after dinner</li>
+          <li>normally / does not / my brother / study / late at night / is studying</li>
+          <li>when / I / my phone / was walking / dropped / to class</li>
+          <li>while / were waiting / we / started / the professor / the exam / for</li>
+          <li>I / this book / read / last year / twice / have</li>
+          <li>since / have been learning / I / 2023 / academic vocabulary / for</li>
+          <li>how long / you / have / been using / this grammar book / ?</li>
+          <li>I / have known / my best friend / for / three years / since</li>
+          <li>she / has already written / three emails / this morning / has been writing</li>
+          <li>by the time / I / the meeting / had already started / arrived</li>
+          <li>before / had been waiting / we / the bus came / for forty minutes</li>
+          <li>I / didn’t realize / had forgotten / that / my passport / I</li>
+          <li>lately / my English / has improved / a lot / last month</li>
+          <li>I / was studying / when / suddenly / went out / the electricity</li>
+          <li>he / has lived / in this city / in 2021 / since</li>
+          <li>usually / I / take / the bus / but / this week / am walking / to school</li>
+          <li>at 8 p.m. / yesterday / was cooking / I / dinner / when / called / my teacher</li>
+          <li>never / have / I / seen / such a difficult question / before / yesterday</li>
+          <li>she / has been practicing / pronunciation / for / two months / since</li>
+          <li>they / moved / to Canada / in 2020 / have moved</li>
+          <li>by the time / the lecture / started / had / everyone / already / sat down</li>
+          <li>I / had been trying / to call you / for an hour / before / you answered</li>
+          <li>lately / he / is becoming / more confident / in speaking / usually</li>
+          <li>how long / have / you / known / your current teacher / ?</li>
+          <li>when / I / checked / my email / the university / had already replied</li>
+          <li>I / was not paying attention / when / the professor / explained / the rule</li>
+          <li>she / has worked / at that company / since / she graduated / for</li>
+          <li>this semester / I / am taking / two writing classes / usually</li>
+          <li>before / I / joined / the course / had / studied / grammar / on my own</li>
+          <li>have / you / ever / missed / a deadline / because / you / had forgotten about it / ?</li>
+        </ol>
+        <details class="details-box">
+          <summary>Answer key</summary>
+          <div class="details-content">
+            <ol class="answer-list">
+              <li>These days, I am preparing for TOEFL after dinner. <em>Unused: usually</em></li>
+              <li>My brother normally does not study late at night. <em>Unused: is studying</em></li>
+              <li>I dropped my phone when I was walking to class.</li>
+              <li>While we were waiting, the professor started the exam. <em>Unused: for</em></li>
+              <li>I read this book twice last year. <em>Unused: have</em></li>
+              <li>I have been learning academic vocabulary since 2023. <em>Unused: for</em></li>
+              <li>How long have you been using this grammar book?</li>
+              <li>I have known my best friend for three years. <em>Unused: since</em></li>
+              <li>She has already written three emails this morning. <em>Unused: has been writing</em></li>
+              <li>By the time I arrived, the meeting had already started.</li>
+              <li>We had been waiting for forty minutes before the bus came.</li>
+              <li>I didn’t realize that I had forgotten my passport.</li>
+              <li>My English has improved a lot lately. <em>Unused: last month</em></li>
+              <li>I was studying when the electricity suddenly went out.</li>
+              <li>He has lived in this city since 2021.</li>
+              <li>I usually take the bus, but this week I am walking to school.</li>
+              <li>At 8 p.m. yesterday, I was cooking dinner when my teacher called.</li>
+              <li>I have never seen such a difficult question before. <em>Unused: yesterday</em></li>
+              <li>She has been practicing pronunciation for two months. <em>Unused: since</em></li>
+              <li>They moved to Canada in 2020. <em>Unused: have moved</em></li>
+              <li>By the time the lecture started, everyone had already sat down.</li>
+              <li>I had been trying to call you for an hour before you answered.</li>
+              <li>Lately, he is becoming more confident in speaking. <em>Unused: usually</em></li>
+              <li>How long have you known your current teacher?</li>
+              <li>When I checked my email, the university had already replied.</li>
+              <li>I was not paying attention when the professor explained the rule.</li>
+              <li>She has worked at that company since she graduated. <em>Unused: for</em></li>
+              <li>This semester, I am taking two writing classes. <em>Unused: usually</em></li>
+              <li>Before I joined the course, I had studied grammar on my own.</li>
+              <li>Have you ever missed a deadline because you had forgotten about it?</li>
+            </ol>
+          </div>
+        </details>
+      </article>
+
+      <article class="exercise" id="exercise-3" data-toc>
+        <header>
+          <p class="eyebrow">Exercise 3</p>
+          <h2>Sentence Upgrade</h2>
+          <p class="lead">Rewrite each weak sentence so the time meaning is clearer and more natural.</p>
+        </header>
+        <ol class="upgrade-list">
+          <li>I study English for three years.</li>
+          <li>I am usually waking up at 7.</li>
+          <li>Yesterday I have gone to the library.</li>
+          <li>When I arrived, the class started already.</li>
+          <li>I was knowing the answer, but I didn’t say anything.</li>
+          <li>Recently, I tried to improve my pronunciation every day.</li>
+          <li>I waited for the bus for 30 minutes before it finally came.</li>
+          <li>I have visited my grandmother last Friday.</li>
+          <li>I was tired because I worked all day before the exam.</li>
+          <li>I live in this neighborhood since I was a child.</li>
+          <li>These days I study more seriously because my exam is close.</li>
+          <li>I have been finished my homework.</li>
+          <li>By the time I noticed the mistake, I sent the email.</li>
+          <li>I have never been trying sushi.</li>
+          <li>I used the app for two months, and I still use it now.</li>
+          <li>My English improves a lot since January.</li>
+          <li>I was watching TV when my mother was calling me.</li>
+          <li>She lives here for five years.</li>
+          <li>We have been waiting here since two hours.</li>
+          <li>Last month, I have started a new course.</li>
+          <li>By the time the teacher arrived, we waited for twenty minutes.</li>
+          <li>I am knowing him since high school.</li>
+          <li>I was tired because I studied since morning.</li>
+          <li>I have lost my keys yesterday.</li>
+          <li>When we arrived, the train left already.</li>
+          <li>I didn’t eat sushi before I visited Japan.</li>
+          <li>This semester, I go to school by bus because my bike is broken.</li>
+          <li>I didn’t see him lately.</li>
+          <li>She has been finishing the report already.</li>
+          <li>When I opened the door, it rained heavily.</li>
+        </ol>
+        <details class="details-box">
+          <summary>Suggested answer key</summary>
+          <div class="details-content">
+            <ol class="answer-list">
+              <li>I have been studying English for three years.</li>
+              <li>I usually wake up at 7.</li>
+              <li>Yesterday I went to the library.</li>
+              <li>When I arrived, the class had already started.</li>
+              <li>I knew the answer, but I didn’t say anything.</li>
+              <li>Recently, I have been trying to improve my pronunciation every day.</li>
+              <li>I had been waiting for the bus for 30 minutes before it finally came.</li>
+              <li>I visited my grandmother last Friday.</li>
+              <li>I was tired because I had been working all day before the exam.</li>
+              <li>I have lived in this neighborhood since I was a child.</li>
+              <li>These days, I am studying more seriously because my exam is close.</li>
+              <li>I have finished my homework.</li>
+              <li>By the time I noticed the mistake, I had sent the email.</li>
+              <li>I have never tried sushi.</li>
+              <li>I have been using the app for two months.</li>
+              <li>My English has improved a lot since January.</li>
+              <li>I was watching TV when my mother called me.</li>
+              <li>She has lived here for five years.</li>
+              <li>We have been waiting here for two hours.</li>
+              <li>Last month, I started a new course.</li>
+              <li>By the time the teacher arrived, we had been waiting for twenty minutes.</li>
+              <li>I have known him since high school.</li>
+              <li>I was tired because I had been studying since morning.</li>
+              <li>I lost my keys yesterday.</li>
+              <li>When we arrived, the train had already left.</li>
+              <li>I hadn’t eaten sushi before I visited Japan.</li>
+              <li>This semester, I am going to school by bus because my bike is broken.</li>
+              <li>I haven’t seen him lately.</li>
+              <li>She has already finished the report.</li>
+              <li>When I opened the door, it was raining heavily.</li>
+            </ol>
+          </div>
+        </details>
+      </article>
+
+      <article class="exercise" id="exercise-4" data-toc>
+        <header>
+          <p class="eyebrow">Exercise 4</p>
+          <h2>Correct and Rewrite the Texts</h2>
+          <p class="lead">Correct the grammar mistakes and rewrite each text naturally. Keep the meaning the same unless a sentence is unclear.</p>
+        </header>
+        <div class="prompt-wrap">
+          <div class="prompt-head"><span class="prompt-title">LLM review prompt</span><button class="copy-btn" type="button">Copy</button></div>
+<pre><code>You are reviewing my correction of a grammar-in-context exercise based on Units 1–16 of Intermediate Grammar in Use.
+
+Target grammar:
+- present simple vs present continuous
+- past simple vs past continuous
+- present perfect simple and continuous
+- present perfect vs past simple
+- past perfect simple and continuous
+- for / since / how long
+
+The original text intentionally contains tense and time-expression mistakes. Please compare my corrected version with the original.
+
+Please do the following:
+1. Identify any mistakes I corrected successfully.
+2. Identify any mistakes I missed.
+3. Identify any changes I made that are grammatically possible but changed the original meaning.
+4. Give me a polished corrected version.
+5. Give me a concise explanation of the most important tense choices.
+6. Do not overcorrect style unless the sentence sounds unnatural.
+7. Focus on grammar meaning, not fancy vocabulary.
+
+Original text:
+[paste original text]
+
+My corrected version:
+[paste your corrected version]</code></pre>
+        </div>
+
+        <div class="text-grid">
+          <section class="text-card">
+            <h3>Text 1 — English Progress</h3>
+            <p>I study English seriously since last year, but recently I focused more on speaking. Usually, I practice for about one hour a day, but these days I prepare for an important test, so I study much more. Last week, I have joined a speaking group online. At first, I was feeling nervous because I never spoke with strangers in English before.</p>
+            <p>During the first meeting, I listened to another student when the teacher asked me to answer a question. I didn’t understand the question because I was thinking about my own answer. After the class finished, I realized that I made several simple mistakes. I was disappointed because I have studied these grammar points before.</p>
+            <p>Since then, I tried to record myself every day. I already noticed some improvement, especially in fluency. Yesterday, I was listening to one of my recordings and I have found that I repeated the same words many times. Before I started recording myself, I didn’t know that I had this problem.</p>
+            <p>I hope that by next month, I improve more and feel more confident. Learning English was not easy, but I think I became more patient since I started preparing for the test.</p>
+          </section>
+
+          <section class="text-card">
+            <h3>Text 2 — Lost Phone</h3>
+            <p>Yesterday, I have lost my phone while I walked home from the library. I was listening to music and checked my messages when suddenly the music stopped. At first, I thought the battery died, but then I realized that the phone was not in my pocket.</p>
+            <p>I returned to the library because I have studied there for three hours before I left. The librarian said nobody found a phone, so I went back to the street where I was walking. I was searching for almost twenty minutes when a man called my name. He had found the phone near a bench and waited there because he wanted to return it.</p>
+            <p>I felt lucky because I have never lost anything so important before.</p>
+          </section>
+
+          <section class="text-card">
+            <h3>Text 3 — Changing Study Habits</h3>
+            <p>I usually study late at night, but this month I try to change my routine. I wake up earlier and I am studying before breakfast. At first, it was difficult because I slept late for years and I wasn’t used to focusing in the morning.</p>
+            <p>Last week, I have decided to turn off my phone before studying. Since then, I notice that I concentrate better. Yesterday, I was reading a passage when I have realized that I didn’t check my phone for almost an hour. That was surprising because before this month, I checked it every few minutes.</p>
+            <p>I think my routine improved a lot recently, but I still struggle with consistency.</p>
+          </section>
+
+          <section class="text-card">
+            <h3>Text 4 — The Presentation</h3>
+            <p>I was very nervous before my presentation last Monday because I didn’t speak in front of a large class before. I prepared my slides two days earlier, but I didn’t practice enough. When the professor called my name, I was still looking at my notes.</p>
+            <p>At the beginning, I forgot what I wanted to say. Then I noticed that my classmates listened carefully, so I became calmer. After I finished, the professor told me that my examples were clear. I was relieved because I have worried about the presentation for the whole week.</p>
+            <p>Since then, I started practicing short speeches at home.</p>
+          </section>
+
+          <section class="text-card">
+            <h3>Text 5 — TOEFL Email Response: Missed Meeting</h3>
+            <p class="scenario-meta">Situation: A student missed a meeting with a professor.</p>
+            <p>Dear Professor Miller,</p>
+            <p>I am writing because I have missed our meeting yesterday. I am very sorry. I was trying to arrive on time, but my train has been delayed for almost forty minutes. When I arrived at the department, you already left.</p>
+            <p>I wanted to meet you because I have worked on my research proposal recently and I need your advice. I was also preparing a few questions before the meeting, but I forgot to send them to you.</p>
+            <p>Could we meet another time this week? I am being available on Thursday afternoon.</p>
+            <p>Best regards,<br>Ali</p>
+          </section>
+
+          <section class="text-card">
+            <h3>Text 6 — TOEFL Email Response: Dorm Problem</h3>
+            <p class="scenario-meta">Situation: A student is asking the housing office for help.</p>
+            <p>Dear Housing Office,</p>
+            <p>I write to ask for help with my room. Since last Friday, the heater does not work properly, and the room is very cold. I already sent a maintenance request two days ago, but nobody came yet.</p>
+            <p>Yesterday evening, I was studying in my room when the temperature dropped again. I have worn a jacket inside for three nights, but it is still uncomfortable. Before I moved into this dorm, I never had this problem.</p>
+            <p>Could you please send someone to check the heater as soon as possible?</p>
+            <p>Sincerely,<br>Mina</p>
+          </section>
+
+          <section class="text-card">
+            <h3>Text 7 — TOEFL Email Response: Club Application</h3>
+            <p class="scenario-meta">Situation: A student wants to join a university club.</p>
+            <p>Dear Club President,</p>
+            <p>I am interested in joining the photography club. I have seen your poster last week, and since then I wanted to learn more about the club. I take photos as a hobby for two years, but I never joined an official group.</p>
+            <p>I am wondering when your meetings are held and whether beginners can join. I was trying to improve my photo editing recently, so I hope the club can help me. Also, I wanted to ask if members need to bring their own camera.</p>
+            <p>Thank you for your help,<br>Sara</p>
+          </section>
+
+          <section class="text-card">
+            <h3>Text 8 — Academic Discussion Response: Online Classes</h3>
+            <p>I think online classes are useful, especially for students who live far from campus. I have taken two online courses last year, and they were convenient. However, I also notice that I get distracted more easily when I study at home.</p>
+            <p>Since this semester started, I try to participate more actively in online discussions. This helped me understand the lessons better. If students are responsible and teachers give clear instructions, online classes can work well. But I believe they are not replacing face-to-face classes completely.</p>
+          </section>
+
+          <section class="text-card">
+            <h3>Text 9 — Academic Discussion Response: Group Projects</h3>
+            <p>In my opinion, group projects teach students useful skills because they have to communicate and solve problems together. Last semester, I have worked on a group presentation, and at first it was difficult because nobody knew what to do.</p>
+            <p>We were meeting several times before we finally divided the work clearly. By the time we presented, we prepared much better than I expected. Since that experience, I became more patient when I work with others. Therefore, I think group projects are useful if teachers organize them carefully.</p>
+          </section>
+
+          <section class="text-card">
+            <h3>Text 10 — Academic Discussion Response: Learning from Mistakes</h3>
+            <p>I agree that students learn a lot from mistakes. For example, I once failed an important quiz because I was not reviewing the material regularly. Before the quiz, I studied only the night before, although the teacher gave us many practice questions.</p>
+            <p>After I saw my score, I realized that I prepared in the wrong way. Since then, I changed my study habits. I have been reviewing my notes every week, and my scores improved. Mistakes are uncomfortable, but they can help students if they think carefully about what went wrong.</p>
+          </section>
+
+          <section class="text-card">
+            <h3>Text 11 — Speaking Interview Response: Changing Routine</h3>
+            <p class="scenario-meta">Question: Tell me about a change you have made in your daily routine.</p>
+            <p>Recently, I change my daily routine because I have a lot of exams. Before, I usually studied at night, but these days I wake up earlier and I study in the morning. At first, it was difficult because I slept late for many years. But since last month, I tried to sleep before midnight. I think it helped me because I feel more focused now. Yesterday, I was studying grammar and I noticed that I can remember rules better in the morning.</p>
+          </section>
+
+          <section class="text-card">
+            <h3>Text 12 — Speaking Interview Response: A Memorable Problem</h3>
+            <p class="scenario-meta">Question: Tell me about a time when you had a problem and solved it.</p>
+            <p>One time, I had a problem with my laptop. I was working on an assignment when suddenly the screen turns black. I was very worried because I didn’t save the file. Actually, I worked on it for two hours before the laptop shut down. I restarted it, and luckily the document was still there. After that, I started saving my work every few minutes. Since then, I never lost a file again.</p>
+          </section>
+
+          <section class="text-card">
+            <h3>Text 13 — Speaking Interview Response: Improving a Skill</h3>
+            <p class="scenario-meta">Question: What is a skill you have improved recently?</p>
+            <p>I have improved my speaking recently. I practice every day since the beginning of this month. In the past, I was afraid of speaking because I made many mistakes. But last week, I have joined an online speaking group. During the first meeting, I was nervous because I didn’t speak with strangers before. Now I feel better because I have been practicing more often and I already learned some useful expressions.</p>
+          </section>
+        </div>
+      </article>
+
+      <article class="exercise" id="exercise-5" data-toc>
+        <header>
+          <p class="eyebrow">Exercise 5</p>
+          <h2>Timeline Reconstruction</h2>
+          <p class="lead">Use the notes to write a coherent story. The notes clarify the timeline, but you must choose the correct grammar yourself.</p>
+        </header>
+        <div class="prompt-wrap">
+          <div class="prompt-head"><span class="prompt-title">LLM review prompt</span><button class="copy-btn" type="button">Copy</button></div>
+<pre><code>You are reviewing my timeline reconstruction story for a grammar exercise based on Units 1–16 of Intermediate Grammar in Use.
+
+Please check whether I used:
+- past simple for main completed events
+- past continuous for useful background actions
+- past perfect for earlier past events
+- past perfect continuous for longer earlier activities before another past event
+- clear time expressions such as by the time, before, after, while, when, already, for, and since
+
+Please do not rewrite everything just to make it more stylish. Focus on time logic and tense control.
+
+Give me:
+1. A corrected version of my story.
+2. A table with my tense mistakes and corrections.
+3. A short explanation of the most important time relationships.
+4. Two upgraded sentences that would make the story more natural.
+
+Timeline notes:
+[paste timeline notes]
+
+My story:
+[paste story]</code></pre>
+        </div>
+
+        <div class="timeline-grid">
+          <section class="timeline-card">
+            <h3>Situation A — The Lost Assignment</h3>
+            <p><strong>Task:</strong> Write the story in 120–150 words.</p>
+            <ul>
+              <li>An important assignment was due at midnight.</li>
+              <li>The work began three days earlier.</li>
+              <li>Final day, 9:30 p.m.: editing the last paragraph.</li>
+              <li>The laptop suddenly shut down.</li>
+              <li>Cause: the battery had not been charged.</li>
+              <li>After restarting the laptop, half of the file was missing.</li>
+              <li>Cause: the document had not been saved properly.</li>
+              <li>The missing part was rewritten.</li>
+              <li>The assignment was submitted ten minutes late.</li>
+            </ul>
+          </section>
+
+          <section class="timeline-card">
+            <h3>Situation B — The Missed Train</h3>
+            <p><strong>Task:</strong> Write the story in 120–150 words.</p>
+            <ul>
+              <li>A friend invited me to visit him in another city.</li>
+              <li>The ticket was bought two days before the trip.</li>
+              <li>The train was scheduled to leave at 8:20 a.m.</li>
+              <li>On the morning of the trip, I woke up late.</li>
+              <li>While getting ready quickly, I realized my ID card was not packed.</li>
+              <li>The search for the ID card took twenty minutes.</li>
+              <li>The card was eventually found under the desk.</li>
+              <li>At the station, the train was already gone.</li>
+              <li>The trip had been planned for weeks.</li>
+              <li>The final feeling was disappointment.</li>
+            </ul>
+          </section>
+
+          <section class="timeline-card">
+            <h3>Situation C — The Failed Presentation</h3>
+            <p><strong>Task:</strong> Write the story in 120–150 words.</p>
+            <ul>
+              <li>The presentation was scheduled for Monday morning.</li>
+              <li>Preparation began one week earlier.</li>
+              <li>The slides were made, but the speaking part was not practiced enough.</li>
+              <li>Sunday night: late editing of the slides.</li>
+              <li>Monday morning: exhaustion.</li>
+              <li>During the presentation, one important point was forgotten.</li>
+              <li>There was no clear conclusion prepared.</li>
+              <li>The professor asked a question.</li>
+              <li>The answer was weak.</li>
+              <li>After class, the decision was made to practice speaking before future presentations.</li>
+            </ul>
+          </section>
+
+          <section class="timeline-card">
+            <h3>Situation D — The Lost Wallet</h3>
+            <p><strong>Task:</strong> Write the story in 120–150 words.</p>
+            <ul>
+              <li>Saturday afternoon: shopping with a friend.</li>
+              <li>Before leaving home, the wallet was put in a jacket pocket.</li>
+              <li>Three different stores were visited.</li>
+              <li>5:15 p.m.: trying to pay for coffee.</li>
+              <li>The wallet was missing.</li>
+              <li>The bag and jacket were searched.</li>
+              <li>Memory: the jacket had been taken off in the bookstore.</li>
+              <li>The bookstore was visited again.</li>
+              <li>A cashier was keeping the wallet behind the counter.</li>
+              <li>Someone had found it near a chair.</li>
+            </ul>
+          </section>
+
+          <section class="timeline-card">
+            <h3>Situation E — The Exam Improvement</h3>
+            <p><strong>Task:</strong> Write the story in 120–150 words.</p>
+            <ul>
+              <li>March: a grammar quiz was failed.</li>
+              <li>Before the quiz, studying happened only the night before.</li>
+              <li>There was confidence because some rules were familiar.</li>
+              <li>During the quiz, the differences between tenses were unclear.</li>
+              <li>After the quiz, the study method changed.</li>
+              <li>Grammar was reviewed every morning.</li>
+              <li>Example sentences were written every day.</li>
+              <li>This method continued for six weeks.</li>
+              <li>The next quiz score improved a lot.</li>
+              <li>The final feeling was pride because the work had been consistent.</li>
+            </ul>
+          </section>
+        </div>
+      </article>
+
+      <article class="exercise" id="exercise-6" data-toc>
+        <header>
+          <p class="eyebrow">Exercise 6</p>
+          <h2>Speaking: Time Control</h2>
+          <p class="lead">Answer each question for 45–60 seconds. Record yourself if possible, then use the prompt below for feedback.</p>
+        </header>
+        <ol class="question-list">
+          <li>Describe something you are currently working hard on. How long have you been doing it?</li>
+          <li>Talk about a childhood memory that you still remember clearly.</li>
+          <li>Describe a time when you were doing something and suddenly had a problem.</li>
+          <li>Talk about a skill you have improved over the past few years.</li>
+          <li>Describe something you had wanted to do for a long time before you finally did it.</li>
+          <li>Talk about a time when you arrived somewhere late. What had happened before you arrived?</li>
+          <li>Describe how your daily routine has changed recently.</li>
+          <li>Talk about a movie, book, course, or experience that has affected you.</li>
+        </ol>
+        <div class="prompt-wrap">
+          <div class="prompt-head"><span class="prompt-title">LLM review prompt</span><button class="copy-btn" type="button">Copy</button></div>
+<pre><code>You are reviewing a transcript of my spoken answer for a grammar integration exercise based on Units 1–16 of Intermediate Grammar in Use.
+
+Please evaluate my answer mainly for tense control and time logic, not for advanced vocabulary.
+
+Target grammar:
+- present simple / present continuous
+- past simple / past continuous
+- present perfect simple / continuous
+- past perfect simple / continuous
+- for / since / how long
+- present perfect vs past simple
+
+Please give feedback in this format:
+1. Corrected transcript.
+2. Tense-control score from 1 to 5.
+3. Fluency/naturalness score from 1 to 5.
+4. Main grammar mistakes.
+5. Better ways to express time relationships.
+6. Three short sentences I should practice aloud.
+
+Question:
+[paste question]
+
+My transcript:
+[paste transcript]</code></pre>
+        </div>
+      </article>
+
+      <article class="exercise" id="exercise-7" data-toc>
+        <header>
+          <p class="eyebrow">Exercise 7</p>
+          <h2>Grammar Trap Choices</h2>
+          <p class="lead">Choose the best correction. Sometimes more than one answer is grammatically possible, but the meaning changes. Explain the difference.</p>
+        </header>
+        <div class="trap-list">
+          <section class="trap-item"><h3>1. I have lived in Berlin in 2021.</h3><ol class="option-list" type="A"><li>I lived in Berlin in 2021.</li><li>I have lived in Berlin since 2021.</li><li>I was living in Berlin since 2021.</li></ol></section>
+          <section class="trap-item"><h3>2. I was studying English for two years.</h3><ol class="option-list" type="A"><li>I studied English for two years.</li><li>I have studied English for two years.</li><li>I have been studying English for two years.</li></ol></section>
+          <section class="trap-item"><h3>3. When I got home, my brother cooked dinner.</h3><ol class="option-list" type="A"><li>When I got home, my brother was cooking dinner.</li><li>When I got home, my brother had cooked dinner.</li><li>When I got home, my brother has cooked dinner.</li></ol></section>
+          <section class="trap-item"><h3>4. I have been to the gym yesterday.</h3><ol class="option-list" type="A"><li>I went to the gym yesterday.</li><li>I have gone to the gym yesterday.</li><li>I had gone to the gym yesterday.</li></ol></section>
+          <section class="trap-item"><h3>5. I had been nervous because I didn’t speak in public before.</h3><ol class="option-list" type="A"><li>I was nervous because I hadn’t spoken in public before.</li><li>I was nervous because I haven’t spoken in public before.</li><li>I had been nervous because I wasn’t speaking in public before.</li></ol></section>
+          <section class="trap-item"><h3>6. She has worked here since three years.</h3><ol class="option-list" type="A"><li>She has worked here for three years.</li><li>She worked here for three years.</li><li>She has worked here since 2023.</li></ol></section>
+          <section class="trap-item"><h3>7. I was knowing the answer.</h3><ol class="option-list" type="A"><li>I knew the answer.</li><li>I was learning the answer.</li><li>I had known the answer.</li></ol></section>
+          <section class="trap-item"><h3>8. By the time I arrived, the movie started.</h3><ol class="option-list" type="A"><li>By the time I arrived, the movie had started.</li><li>By the time I arrived, the movie has started.</li><li>By the time I arrived, the movie was starting.</li></ol></section>
+          <section class="trap-item"><h3>9. Recently, I improved my speaking a lot.</h3><ol class="option-list" type="A"><li>Recently, I have improved my speaking a lot.</li><li>Recently, I was improving my speaking a lot.</li><li>Recently, I had improved my speaking a lot.</li></ol></section>
+          <section class="trap-item"><h3>10. I have been finishing my homework.</h3><ol class="option-list" type="A"><li>I have finished my homework.</li><li>I have been doing my homework.</li><li>I finished my homework.</li></ol></section>
+        </div>
+        <details class="details-box">
+          <summary>Answer key</summary>
+          <div class="details-content">
+            <ol class="answer-list">
+              <li><strong>A or B.</strong> A = only during 2021. B = from 2021 until now. C is wrong with <em>since 2021</em>.</li>
+              <li><strong>A, B, or C</strong> depending on meaning. A = finished two-year period. B = from past until now, neutral. C = from past until now, emphasizing activity/process.</li>
+              <li><strong>A or B</strong> depending on meaning. A = he was in the middle of cooking. B = dinner was already cooked.</li>
+              <li><strong>A.</strong> Use past simple with a finished time expression like <em>yesterday</em>.</li>
+              <li><strong>A.</strong> The lack of experience happened before the nervousness.</li>
+              <li><strong>A or C.</strong> A uses duration; C uses starting point. B means the period is finished.</li>
+              <li><strong>A.</strong> <em>Know</em> is normally a state verb.</li>
+              <li><strong>A.</strong> The movie started before I arrived.</li>
+              <li><strong>A.</strong> <em>Recently</em> often connects past change to the present.</li>
+              <li><strong>A or B.</strong> A = complete. B = activity continued for some time; completion is not emphasized.</li>
+            </ol>
+          </div>
+        </details>
+      </article>
+
+      <article class="exercise" id="exercise-8" data-toc>
+        <header>
+          <p class="eyebrow">Exercise 8</p>
+          <h2>One Natural Story</h2>
+          <p class="lead">Choose one real event from your life. Write a story of 150–180 words. Do not force every tense. Use a tense only when it clarifies the timeline.</p>
+        </header>
+        <div class="note-card">
+          Your story should naturally include what was happening in the background, what happened suddenly or unexpectedly, what had happened before the main event, how the situation ended, and what has changed since then if anything.
+        </div>
+        <div class="prompt-wrap">
+          <div class="prompt-head"><span class="prompt-title">LLM review prompt</span><button class="copy-btn" type="button">Copy</button></div>
+<pre><code>You are reviewing my personal story for a grammar integration exercise based on Units 1–16 of Intermediate Grammar in Use.
+
+The purpose of the exercise is not to use every tense artificially. The purpose is to control time clearly and naturally.
+
+Please check:
+- whether my past simple shows the main events clearly
+- whether my past continuous gives useful background
+- whether my past perfect or past perfect continuous correctly shows earlier past events
+- whether my present perfect is used correctly for changes or results connected to now
+- whether any tense is forced or unnecessary
+
+Please give:
+1. A corrected version of my story.
+2. A short explanation of the main tense corrections.
+3. Three sentences from my story that are already good.
+4. Three upgraded sentences I should practice.
+5. A final score from 1 to 5 for time control.
+
+My story:
+[paste story]</code></pre>
+        </div>
+      </article>
+
+      <article class="exercise" id="exercise-9" data-toc>
+        <header>
+          <p class="eyebrow">Exercise 9</p>
+          <h2>Personal Progress Report</h2>
+          <p class="lead">Write a short report about your English progress. Length: 180–220 words.</p>
+        </header>
+        <ol class="question-list">
+          <li>when you started learning English seriously</li>
+          <li>how long you have been studying</li>
+          <li>what you have improved</li>
+          <li>what you have been struggling with</li>
+          <li>what study methods you used before</li>
+          <li>what you are doing differently these days</li>
+          <li>one mistake you had made before you changed your method</li>
+          <li>what you hope to improve next</li>
+        </ol>
+        <div class="prompt-wrap">
+          <div class="prompt-head"><span class="prompt-title">LLM review prompt</span><button class="copy-btn" type="button">Copy</button></div>
+<pre><code>You are reviewing my English progress report for a grammar integration exercise based on Units 1–16 of Intermediate Grammar in Use.
+
+The main goal is accurate and natural control of time:
+- past simple for finished past events
+- present perfect for experience/change until now
+- present perfect continuous for ongoing effort
+- past perfect for earlier past mistakes or experiences
+- present continuous for current temporary changes
+- present simple for routines and general facts
+
+Please review my report and give:
+1. A corrected version.
+2. A table of tense mistakes and corrections.
+3. A short explanation of why each major tense is used.
+4. Suggestions for making the report sound more natural without making it too advanced.
+5. A final score from 1 to 5 for grammar control.
+6. A final score from 1 to 5 for clarity and coherence.
+
+My report:
+[paste report]</code></pre>
+        </div>
+      </article>
+
+      <article class="exercise" id="exercise-10" data-toc>
+        <header>
+          <p class="eyebrow">Exercise 10</p>
+          <h2>Final Speaking Task</h2>
+          <p class="lead">Prepare a 2-minute spoken answer.</p>
+        </header>
+        <div class="note-card">
+          <strong>Topic:</strong> Describe a skill, subject, or habit that has changed significantly in your life.
+        </div>
+        <p>Your answer should naturally explain:</p>
+        <ol class="question-list">
+          <li>when it started</li>
+          <li>what your situation was like before</li>
+          <li>what happened later</li>
+          <li>what you have changed</li>
+          <li>how long you have been working on it</li>
+          <li>what you are doing differently now</li>
+          <li>what result you have noticed</li>
+        </ol>
+        <div class="note-card">
+          <strong>Optional challenge:</strong> include one sentence about a habit or general fact, one sentence about a current change, one sentence about a finished past event, one sentence about an ongoing effort, and one sentence about something that happened before another past event.
+        </div>
+        <div class="prompt-wrap">
+          <div class="prompt-head"><span class="prompt-title">LLM review prompt</span><button class="copy-btn" type="button">Copy</button></div>
+<pre><code>You are reviewing the transcript of my 2-minute speaking answer for a grammar integration exercise based on Units 1–16 of Intermediate Grammar in Use.
+
+Please focus on:
+- tense accuracy
+- natural time expressions
+- whether my answer sounds spoken and clear
+- whether I explain changes over time effectively
+
+Please do not turn the answer into a formal essay. Keep the corrected version natural for speaking.
+
+Give me:
+1. A corrected spoken version.
+2. My main tense mistakes.
+3. Better alternatives for unnatural sentences.
+4. A simple structure I could use next time.
+5. Five short practice sentences based on my answer.
+6. A score from 1 to 5 for grammar.
+7. A score from 1 to 5 for speaking clarity.
+
+My transcript:
+[paste transcript]</code></pre>
+        </div>
+      </article>
+    </main>
+  </div>
+
+  <button class="to-top" id="toTop" type="button" aria-label="Go to top">↑</button>
+
+  <div class="lookup-popup" id="lookupPopup" role="dialog" aria-label="Dictionary lookup options">
+    <span class="lookup-label" id="lookupLabel"></span>
+    <div class="lookup-links" id="lookupLinks"></div>
+  </div>
+
+  <div class="promo-backdrop" id="promoBackdrop" role="dialog" aria-modal="true" aria-labelledby="promoTitle" aria-describedby="promoDesc">
+    <div class="promo-card">
+      <div class="promo-top">
+        <div>
+          <p class="eyebrow">More practice</p>
+          <h2 id="promoTitle">Want more TOEFL guides like this?</h2>
+        </div>
+        <button class="close-btn" id="promoClose" type="button" aria-label="Close invitation">×</button>
+      </div>
+      <p id="promoDesc">Join Amir Kooshky’s Telegram channel for more TOEFL grammar, vocabulary, speaking, and writing materials, plus follow Instagram for shorter lesson posts.</p>
+      <div class="link-grid">
+        <a class="big-link" href="https://t.me/KooshkyTOEFL" target="_blank" rel="noopener"><strong>Open Telegram Channel</strong><span>t.me/KooshkyTOEFL</span></a>
+        <a class="big-link" href="https://instagram.com/kooshkytoefl" target="_blank" rel="noopener"><strong>Open Instagram</strong><span>@kooshkytoefl</span></a>
+        <a class="big-link" href="https://t.me/kooshkyTOEFL_pv" target="_blank" rel="noopener"><strong>Message Amir</strong><span>Telegram DM</span></a>
+      </div>
+    </div>
+  </div>
+
+  <script>
+    (() => {
+      const root = document.documentElement;
+      const body = document.body;
+      const header = document.getElementById('siteHeader');
+      const menuToggle = document.getElementById('menuToggle');
+      const themeToggle = document.getElementById('themeToggle');
+      const toTop = document.getElementById('toTop');
+      const tocList = document.getElementById('tocList');
+      const lookupPopup = document.getElementById('lookupPopup');
+      const lookupLabel = document.getElementById('lookupLabel');
+      const lookupLinks = document.getElementById('lookupLinks');
+      const promoBackdrop = document.getElementById('promoBackdrop');
+      const promoClose = document.getElementById('promoClose');
+
+      const themeKey = 'kooshky_units_1_16_integration_theme_20260701_v1';
+      const promoKey = 'kooshky_units_1_16_time_control_midpromo_seen_20260701_ak_90317_v1';
+
+      function safeGet(key) {
+        try { return localStorage.getItem(key); } catch (_) { return null; }
+      }
+
+      function safeSet(key, value) {
+        try { localStorage.setItem(key, value); } catch (_) {}
+      }
+
+      function setTheme(theme) {
+        root.setAttribute('data-theme', theme);
+        themeToggle.textContent = theme === 'dark' ? '☀' : '☾';
+        themeToggle.setAttribute('aria-label', theme === 'dark' ? 'Switch to light mode' : 'Switch to dark mode');
+        safeSet(themeKey, theme);
+      }
+
+      const savedTheme = safeGet(themeKey);
+      const prefersDark = window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches;
+      setTheme(savedTheme || (prefersDark ? 'dark' : 'light'));
+
+      themeToggle.addEventListener('click', () => {
+        setTheme(root.getAttribute('data-theme') === 'dark' ? 'light' : 'dark');
+      });
+
+      menuToggle.addEventListener('click', () => {
+        const open = !header.classList.contains('is-open');
+        header.classList.toggle('is-open', open);
+        menuToggle.setAttribute('aria-expanded', String(open));
+      });
+
+      document.querySelectorAll('.nav-panel a').forEach(link => {
+        link.addEventListener('click', () => {
+          header.classList.remove('is-open');
+          menuToggle.setAttribute('aria-expanded', 'false');
+        });
+      });
+
+      function slugify(text, fallback) {
+        const slug = text.toLowerCase().trim()
+          .replace(/[^a-z0-9\s-]/g, '')
+          .replace(/\s+/g, '-')
+          .replace(/-+/g, '-')
+          .slice(0, 70);
+        return slug || fallback;
+      }
+
+      function buildToc() {
+        const headings = [...document.querySelectorAll('main [data-toc] > header h2, main article[data-toc] > h2')];
+        tocList.innerHTML = '';
+        headings.forEach((heading, index) => {
+          if (!heading.id) heading.id = slugify(heading.textContent, `section-${index + 1}`);
+          const li = document.createElement('li');
+          const a = document.createElement('a');
+          a.href = `#${heading.id}`;
+          a.textContent = heading.textContent;
+          li.appendChild(a);
+          tocList.appendChild(li);
+        });
+      }
+      buildToc();
+
+      function updateToTop() {
+        toTop.classList.toggle('is-visible', window.scrollY > 520);
+      }
+
+      toTop.addEventListener('click', () => {
+        window.scrollTo({ top: 0, behavior: 'smooth' });
+      });
+
+      window.addEventListener('scroll', updateToTop, { passive: true });
+      updateToTop();
+
+      document.querySelectorAll('.prompt-wrap').forEach(wrap => {
+        const button = wrap.querySelector('.copy-btn');
+        const code = wrap.querySelector('code');
+        if (!button || !code) return;
+        button.addEventListener('click', async () => {
+          const text = code.textContent;
+          try {
+            await navigator.clipboard.writeText(text);
+            button.textContent = 'Copied';
+          } catch (_) {
+            const area = document.createElement('textarea');
+            area.value = text;
+            area.style.position = 'fixed';
+            area.style.opacity = '0';
+            document.body.appendChild(area);
+            area.focus();
+            area.select();
+            try { document.execCommand('copy'); button.textContent = 'Copied'; }
+            catch (err) { button.textContent = 'Copy failed'; }
+            area.remove();
+          }
+          window.setTimeout(() => { button.textContent = 'Copy'; }, 1400);
+        });
+      });
+
+      function showPromo() {
+        if (promoBackdrop.classList.contains('is-visible')) return;
+        promoBackdrop.classList.add('is-visible');
+        body.classList.add('promo-visible');
+        safeSet(promoKey, 'shown');
+        window.setTimeout(() => promoClose.focus({ preventScroll: true }), 40);
+      }
+
+      function hidePromo() {
+        promoBackdrop.classList.remove('is-visible');
+        body.classList.remove('promo-visible');
+      }
+
+      function checkPromoProgress() {
+        if (safeGet(promoKey)) return;
+        const maxScroll = Math.max(1, document.documentElement.scrollHeight - window.innerHeight);
+        const progress = window.scrollY / maxScroll;
+        if (progress > 0.45) showPromo();
+      }
+
+      promoClose.addEventListener('click', hidePromo);
+      promoBackdrop.addEventListener('click', event => {
+        if (event.target === promoBackdrop) hidePromo();
+      });
+      window.addEventListener('scroll', checkPromoProgress, { passive: true });
+
+      function cleanSelectionText(text) {
+        return text.replace(/\s+/g, ' ').trim().slice(0, 90);
+      }
+
+      function normalizeForDict(text) {
+        return text.toLowerCase().replace(/[^a-z0-9\s'-]/g, '').replace(/\s+/g, ' ').trim();
+      }
+
+      function getSelectionRect(selection) {
+        if (!selection || selection.rangeCount === 0) return null;
+        const range = selection.getRangeAt(0);
+        let rect = range.getBoundingClientRect();
+        if (rect && (rect.width || rect.height)) return rect;
+        const rects = [...range.getClientRects()].filter(r => r.width || r.height);
+        return rects[0] || null;
+      }
+
+      function hideLookup() {
+        lookupPopup.classList.remove('is-visible');
+      }
+
+      function positionLookup(rect) {
+        lookupPopup.style.left = '0px';
+        lookupPopup.style.top = '0px';
+        lookupPopup.classList.add('is-visible');
+        const popupRect = lookupPopup.getBoundingClientRect();
+        const pad = 10;
+        const viewportW = window.innerWidth;
+        const viewportH = window.innerHeight;
+        let left = rect.left + rect.width / 2 - popupRect.width / 2;
+        let top = rect.bottom + 10;
+        if (top + popupRect.height > viewportH - pad) top = rect.top - popupRect.height - 10;
+        if (top < pad) top = Math.min(viewportH - popupRect.height - pad, rect.bottom + 10);
+        left = Math.min(Math.max(pad, left), Math.max(pad, viewportW - popupRect.width - pad));
+        top = Math.min(Math.max(pad, top), Math.max(pad, viewportH - popupRect.height - pad));
+        lookupPopup.style.left = `${left}px`;
+        lookupPopup.style.top = `${top}px`;
+      }
+
+      function updateLookup() {
+        const selection = window.getSelection ? window.getSelection() : null;
+        const selected = cleanSelectionText(selection ? selection.toString() : '');
+        if (!selected || selected.length < 2 || !selection || selection.isCollapsed) {
+          hideLookup();
+          return;
+        }
+
+        if (lookupPopup.contains(selection.anchorNode) || promoBackdrop.contains(selection.anchorNode)) return;
+
+        const rect = getSelectionRect(selection);
+        if (!rect) {
+          hideLookup();
+          return;
+        }
+
+        const dictText = normalizeForDict(selected);
+        if (!dictText) {
+          hideLookup();
+          return;
+        }
+        const slug = encodeURIComponent(dictText.replace(/\s+/g, '-'));
+        const query = encodeURIComponent(dictText);
+
+        const links = [
+          ['Cambridge', `https://dictionary.cambridge.org/dictionary/english/${slug}`],
+          ['Oxford', `https://www.oxfordlearnersdictionaries.com/definition/english/${slug}?q=${query}`],
+          ['Merriam-Webster', `https://www.merriam-webster.com/dictionary/${query}`],
+          ['Google meaning', `https://www.google.com/search?q=${encodeURIComponent(dictText + ' meaning')}`]
+        ];
+
+        lookupLabel.textContent = `Look up: ${selected}`;
+        lookupLinks.innerHTML = '';
+        links.forEach(([label, url]) => {
+          const a = document.createElement('a');
+          a.href = url;
+          a.target = '_blank';
+          a.rel = 'noopener';
+          a.textContent = label;
+          lookupLinks.appendChild(a);
+        });
+        positionLookup(rect);
+      }
+
+      let selectionTimer = 0;
+      function scheduleLookup(delay = 120) {
+        window.clearTimeout(selectionTimer);
+        selectionTimer = window.setTimeout(updateLookup, delay);
+      }
+
+      document.addEventListener('selectionchange', () => scheduleLookup(150));
+      document.addEventListener('pointerup', () => scheduleLookup(90));
+      document.addEventListener('touchend', () => scheduleLookup(180), { passive: true });
+
+      document.addEventListener('pointerdown', event => {
+        if (!lookupPopup.contains(event.target)) {
+          window.setTimeout(() => {
+            const selection = window.getSelection ? window.getSelection() : null;
+            if (!selection || selection.isCollapsed || !selection.toString().trim()) hideLookup();
+          }, 120);
+        }
+      });
+
+      window.addEventListener('scroll', hideLookup, { passive: true });
+      window.addEventListener('resize', hideLookup, { passive: true });
+      document.addEventListener('keydown', event => {
+        if (event.key === 'Escape') {
+          hideLookup();
+          hidePromo();
+          header.classList.remove('is-open');
+          menuToggle.setAttribute('aria-expanded', 'false');
+        }
+      });
+    })();
+  </script>
+</body>
+</html>

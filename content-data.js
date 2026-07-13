@@ -9,6 +9,7 @@
 window.KOOSHKY_SECTIONS = [
   { id: "reading", label: "Reading" },
   { id: "listening", label: "Listening" },
+  { id: "academic_passages_and_lectures", label: "Academic Passages and Lectures" },
   { id: "speaking", label: "Speaking" },
   { id: "writing", label: "Writing" },
   { id: "vocabulary", label: "Vocabulary" },
@@ -18,6 +19,62 @@ window.KOOSHKY_SECTIONS = [
 ];
 
 window.KOOSHKY_CONTENT = [
+  {
+    title: "Kooshky's Transitions, Part I: The Most Useful Transition Words and Phrases",
+    href: "Grammar/Transitions/KooshkysGuideToTransitions.html ",
+    section: "grammar",
+    summary: "List of transition words and phrases to use in writing and speaking sections.",
+    date: "2026-06-26",
+    featured: true
+  },
+  {
+    title: "Kooshky's Transitions, Part II: Advanced Transition Words and Phrases",
+    href: "Grammar/Transitions/KooshkysAdvancedTransitions.html ",
+    section: "grammar",
+    summary: "List of more advanced transition words and phrases to use in writing and speaking sections.",
+    date: "2026-06-27",
+    featured: false
+  },
+  {
+    title: "Grammar Workbook for Grammar In Use (Intermediate) Units 1-16",
+    href: "Grammar/GrammarInUseWorkbook/kooshky_units_1_16_grammar_integration.html ",
+    section: "grammar",
+    summary: "Amazing set of exercises for activating the grammar you learned from Grammar In Use units 1-16",
+    date: "2026-07-01",
+    featured: false
+  },
+  {
+    title: "Everyday Vocabulary and Ideas Pack E1 (Campus): Reading and Listening Guide",
+    href: "EverydayReadingListeningGuides/E1-KooshkysEverydayTopics/E1-KooshkysEverydayTopics.html",
+    section: "academic_passages_and_lectures",
+    summary: "Everyday reading and listening pack including words, important ideas, and sample tests focused on campus and academic administration.",
+    date: "2026-07-02",
+    featured: true
+  },
+  {
+    title: "Academic Vocabulary Pack A1 (Ecology): Reading and Listening Guide",
+    href: "AcademicReadingListeningGuides/Ecology-A1-KooshkysTOEFLGuides/A1-KooshkysTOEFLGuides.html",
+    section: "academic_passages_and_lectures",
+    summary: "Academic reading and listening pack including words, ideas, and sample tests focused on ecology.",
+    date: "2026-07-04",
+    featured: true
+  },
+  {
+    title: "Academic Word List: Meaning Recognition Anki Deck",
+    href: "Vocabulary/AWL_Meaning_Recognition.html",
+    section: "vocabulary",
+    summary: "A complete AWL Anki deck with meanings, audio pronunciation, word families, and contextual examples.",
+    date: "2026-07-07",
+    featured: true
+  },
+  {
+    title: "Fill The Blanks Sample Exercises",
+    href: "FillTheBlanks/FillTheBlanks1-KooshkysTOEFLGuides.html",
+    section: "reading",
+    summary: "Some sample exercises for Fill The Blanks section.",
+    date: "2026-07-06",
+    featured: false
+  },
   {
     title: "Speaking Pack: Health and Wellness",
     href: "SpeakingPack/Health-KooshkysSpeakingCategories.html",

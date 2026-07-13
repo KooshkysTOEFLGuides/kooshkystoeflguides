@@ -1,0 +1,356 @@
+<!doctype html>
+<html lang="en" data-theme="light">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <meta name="theme-color" content="#F4F0E8">
+  <meta name="description" content="Download Amir Kooshky's Academic Word List Anki deck for TOEFL vocabulary study.">
+
+  <link
+    rel="icon"
+    href="../images/kooshky-favicon-light.png"
+    type="image/png"
+    data-favicon
+    data-light-href="../images/kooshky-favicon-light.png"
+    data-dark-href="../images/kooshky-favicon-dark.png"
+  >
+  <link rel="icon" href="../images/favicon.ico" sizes="any">
+  <link rel="stylesheet" href="../styles.css?v=5">
+
+  <script>
+    (() => {
+      try {
+        const saved = localStorage.getItem("kooshky-guides:theme:v1");
+        const preferred = matchMedia("(prefers-color-scheme: dark)").matches
+          ? "dark"
+          : "light";
+        const theme = saved || preferred;
+        document.documentElement.dataset.theme = theme;
+        document.documentElement.style.colorScheme = theme;
+      } catch (_) {
+        document.documentElement.dataset.theme = "light";
+      }
+    })();
+  </script>
+
+  <script src="../site.js?v=5" defer></script>
+
+  <style>
+    .deck-page {
+      padding-bottom: clamp(3rem, 7vw, 6rem);
+    }
+
+    .deck-layout {
+      display: grid;
+      grid-template-columns: minmax(0, 1.15fr) minmax(17rem, .85fr);
+      gap: clamp(1.5rem, 5vw, 4rem);
+      align-items: start;
+    }
+
+    .deck-copy {
+      max-width: 68ch;
+    }
+
+    .deck-copy > p {
+      color: var(--muted);
+    }
+
+    .source-note {
+      margin: 1.5rem 0;
+      padding: 1rem 1.15rem;
+      border-left: 3px solid var(--teal);
+      background: var(--teal-soft);
+    }
+
+    .source-note p {
+      margin: 0;
+    }
+
+    .source-note cite {
+      font-style: normal;
+      font-weight: 700;
+    }
+
+    .deck-panel {
+      padding: clamp(1.2rem, 3vw, 1.7rem);
+      border: 1px solid var(--border);
+      border-top: 3px solid var(--accent);
+      border-radius: var(--radius);
+      background: var(--surface);
+    }
+
+    .deck-panel h2 {
+      margin-bottom: .55rem;
+      font-size: 1.5rem;
+    }
+
+    .deck-panel > p {
+      margin-top: 0;
+      color: var(--muted);
+    }
+
+    .download-actions {
+      display: grid;
+      gap: .7rem;
+      margin: 1.25rem 0;
+    }
+
+    .download-actions .button {
+      width: 100%;
+    }
+
+    .download-actions .button-primary {
+      color: #fff;
+    }
+
+    html[data-theme="dark"] .download-actions .button-primary {
+      color: #111417;
+    }
+
+    .import-steps {
+      margin: 1.4rem 0 0;
+      padding-left: 1.25rem;
+    }
+
+    .import-steps li + li {
+      margin-top: .45rem;
+    }
+
+    .help-links {
+      display: flex;
+      flex-wrap: wrap;
+      gap: .55rem 1rem;
+      margin-top: 1.3rem;
+      padding-top: 1rem;
+      border-top: 1px solid var(--border);
+      font-size: .92rem;
+      font-weight: 700;
+    }
+
+    .deck-features {
+      display: grid;
+      grid-template-columns: repeat(2, minmax(0, 1fr));
+      gap: .75rem;
+      margin: 1.5rem 0 0;
+      padding: 0;
+      list-style: none;
+    }
+
+    .deck-features li {
+      padding: .85rem .95rem;
+      border: 1px solid var(--border);
+      border-left: 3px solid var(--accent);
+      background: var(--surface);
+    }
+
+    @media (max-width: 760px) {
+      .deck-layout,
+      .deck-features {
+        grid-template-columns: 1fr;
+      }
+    }
+  </style>
+
+  <title>AWL Anki Deck — Kooshky's TOEFL Guides</title>
+</head>
+
+<body>
+  <a class="skip-link" href="#main">Skip to content</a>
+
+  <header class="site-header">
+    <div class="header-inner">
+      <a class="brand" href="../index.html">
+        <span class="brand-logo" aria-hidden="true"></span>
+        <span>
+          <small>Kooshky's</small>
+          <strong>TOEFL Guides</strong>
+        </span>
+      </a>
+
+      <nav class="desktop-nav" aria-label="Primary navigation">
+        <a href="../index.html">Home</a>
+        <a href="../contents.html">All contents</a>
+        <a href="../word-of-the-day.html">Word of the day</a>
+        <a href="../about.html">About me</a>
+      </nav>
+
+      <div class="header-actions">
+        <button
+          class="plain-button"
+          type="button"
+          data-theme-toggle
+          aria-label="Use dark theme"
+          aria-pressed="false"
+        >
+          ◐ <span data-theme-label>Dark</span>
+        </button>
+
+        <button
+          class="plain-button menu-button"
+          type="button"
+          data-menu-toggle
+          aria-controls="mobile-nav"
+          aria-expanded="false"
+          aria-label="Open menu"
+        >
+          Menu
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <div class="nav-backdrop" data-nav-backdrop hidden></div>
+
+  <nav
+    class="mobile-nav"
+    id="mobile-nav"
+    data-mobile-nav
+    aria-label="Mobile navigation"
+    hidden
+  >
+    <a href="../index.html">Home</a>
+    <a href="../contents.html">All contents</a>
+    <a href="../word-of-the-day.html">Word of the day</a>
+    <a href="../about.html">About me</a>
+  </nav>
+
+  <main id="main" class="deck-page">
+    <section class="page-intro">
+      <div class="container">
+        <p class="eyebrow">Vocabulary · Free Anki deck</p>
+        <h1>Academic Word List: Meaning Recognition</h1>
+        <p>
+          A complete Anki deck for learning the Academic Word List—the vocabulary
+          foundation I recommend most strongly for TOEFL students.
+        </p>
+      </div>
+    </section>
+
+    <section class="container deck-layout" aria-label="Deck information and downloads">
+      <article class="deck-copy">
+        <h2>Why this deck?</h2>
+
+        <p>
+          The Academic Word List contains about 600 important word families used
+          across academic subjects. Knowing them will not cover every word you need
+          for the TOEFL, but not knowing them makes the test much harder than it
+          needs to be.
+        </p>
+
+        <aside class="source-note">
+          <p>
+            TOEFL Resources makes a similar recommendation:
+            <q>I think it is probably better to just study the Academic Word List.</q>
+            —
+            <cite>
+              <a
+                href="https://www.toeflresources.com/vocabulary-2/"
+                target="_blank"
+                rel="noopener noreferrer"
+              >TOEFL Resources</a>
+            </cite>
+          </p>
+        </aside>
+
+        <p>
+          I built this deck to make that list easier to study properly rather than
+          memorizing one vague translation for each word.
+        </p>
+
+        <ul class="deck-features" aria-label="Deck contents">
+          <li>Relevant meanings and parts of speech</li>
+          <li>Audio pronunciation</li>
+          <li>Word-family forms</li>
+          <li>Plenty of contextual examples</li>
+        </ul>
+      </article>
+
+      <aside class="deck-panel" aria-labelledby="download-title">
+        <p class="eyebrow">Download</p>
+        <h2 id="download-title">Get the deck</h2>
+        <p>Choose either option. Both provide the same deck.</p>
+
+        <div class="download-actions">
+          <a
+            class="button button-primary"
+            href="../downloads/AWL_Meaning_Recognition.apkg"
+            download
+          >
+            Download the .apkg file
+          </a>
+
+          <a
+            class="button"
+            href="https://ankiweb.net/shared/info/1411075389"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            Open on AnkiWeb
+          </a>
+        </div>
+
+        <h3>How to use it</h3>
+
+        <ol class="import-steps">
+          <li>Install Anki on your computer or phone.</li>
+          <li>Download the deck using either button above.</li>
+          <li>Open the downloaded file, or use <strong>File → Import</strong> in Anki.</li>
+          <li>Start with a manageable number of new cards each day.</li>
+        </ol>
+
+        <div class="help-links">
+          <a
+            href="https://apps.ankiweb.net/"
+            target="_blank"
+            rel="noopener noreferrer"
+          >Install Anki</a>
+
+          <a
+            href="https://docs.ankiweb.net/importing/packaged-decks.html"
+            target="_blank"
+            rel="noopener noreferrer"
+          >Importing .apkg files</a>
+
+          <a
+            href="https://docs.ankiweb.net/getting-started.html#shared-decks"
+            target="_blank"
+            rel="noopener noreferrer"
+          >Using shared decks</a>
+
+          <a
+            href="https://simple.wiktionary.org/wiki/Wiktionary:Academic_word_list"
+            target="_blank"
+            rel="noopener noreferrer"
+          >View the AWL</a>
+        </div>
+      </aside>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-inner">
+      <span>Amir Kooshky</span>
+
+      <div class="footer-links">
+        <a
+          href="https://t.me/KooshkyTOEFL"
+          target="_blank"
+          rel="noopener noreferrer"
+        >Telegram</a>
+
+        <a
+          href="https://instagram.com/kooshkytoefl"
+          target="_blank"
+          rel="noopener noreferrer"
+        >Instagram</a>
+
+        <a
+          href="https://t.me/kooshkyTOEFL_pv"
+          target="_blank"
+          rel="noopener noreferrer"
+        >Direct message</a>
+      </div>
+    </div>
+  </footer>
+</body>
+</html>
