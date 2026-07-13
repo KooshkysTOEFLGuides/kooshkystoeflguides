@@ -1,0 +1,221 @@
+(() => {
+  "use strict";
+
+  const root = document.documentElement;
+  const body = document.body;
+  const themeKey = "kooshky-guides:theme:v1";
+
+  const safeStorage = {
+    get(key) {
+      try { return localStorage.getItem(key); } catch (_) { return null; }
+    },
+    set(key, value) {
+      try { localStorage.setItem(key, value); } catch (_) {}
+    }
+  };
+
+  function setTheme(theme) {
+    root.dataset.theme = theme;
+    safeStorage.set(themeKey, theme);
+    document.querySelectorAll("[data-theme-toggle]").forEach((button) => {
+      const dark = theme === "dark";
+      button.setAttribute("aria-pressed", String(dark));
+      button.setAttribute("aria-label", dark ? "Use light theme" : "Use dark theme");
+      const text = button.querySelector("[data-theme-label]");
+      if (text) text.textContent = dark ? "Light" : "Dark";
+    });
+  }
+
+  function initTheme() {
+    const saved = safeStorage.get(themeKey);
+    const preferred = window.matchMedia?.("(prefers-color-scheme: dark)").matches ? "dark" : "light";
+    setTheme(saved || root.dataset.theme || preferred);
+    document.querySelectorAll("[data-theme-toggle]").forEach((button) => {
+      button.addEventListener("click", () => setTheme(root.dataset.theme === "dark" ? "light" : "dark"));
+    });
+  }
+
+  function initMenu() {
+    const button = document.querySelector("[data-menu-toggle]");
+    const panel = document.querySelector("[data-mobile-nav]");
+    const backdrop = document.querySelector("[data-nav-backdrop]");
+    if (!button || !panel || !backdrop) return;
+
+    const close = () => {
+      panel.hidden = true;
+      backdrop.hidden = true;
+      button.setAttribute("aria-expanded", "false");
+      body.classList.remove("menu-open");
+    };
+
+    const open = () => {
+      panel.hidden = false;
+      backdrop.hidden = false;
+      button.setAttribute("aria-expanded", "true");
+      body.classList.add("menu-open");
+      panel.querySelector("a")?.focus();
+    };
+
+    button.addEventListener("click", () => panel.hidden ? open() : close());
+    backdrop.addEventListener("click", close);
+    panel.querySelectorAll("a").forEach((link) => link.addEventListener("click", close));
+    document.addEventListener("keydown", (event) => {
+      if (event.key === "Escape" && !panel.hidden) {
+        close();
+        button.focus();
+      }
+    });
+    window.addEventListener("resize", () => {
+      if (window.innerWidth > 760 && !panel.hidden) close();
+    });
+  }
+
+  function escapeHTML(value) {
+    return String(value)
+      .replaceAll("&", "&amp;")
+      .replaceAll("<", "&lt;")
+      .replaceAll(">", "&gt;")
+      .replaceAll('"', "&quot;")
+      .replaceAll("'", "&#039;");
+  }
+
+  function formatDate(value) {
+    if (!value) return "";
+    const date = new Date(`${value}T12:00:00`);
+    if (Number.isNaN(date.getTime())) return value;
+    return new Intl.DateTimeFormat("en", { year: "numeric", month: "short", day: "numeric" }).format(date);
+  }
+
+  function articleMarkup(item) {
+    const sections = window.KOOSHKY_SECTIONS || [];
+    const section = sections.find((entry) => entry.id === item.section)?.label || item.section || "Guide";
+    return `
+      <article class="article-entry" data-search-text="${escapeHTML(`${item.title} ${item.summary || ""} ${section}`.toLowerCase())}">
+        <div class="article-meta">
+          <span>${escapeHTML(section)}</span>
+          ${item.date ? `<time datetime="${escapeHTML(item.date)}">${escapeHTML(formatDate(item.date))}</time>` : ""}
+        </div>
+        <h3><a href="${escapeHTML(item.href)}">${escapeHTML(item.title)}</a></h3>
+        ${item.summary ? `<p>${escapeHTML(item.summary)}</p>` : ""}
+        <a class="text-link" href="${escapeHTML(item.href)}">Open guide <span aria-hidden="true">→</span></a>
+      </article>`;
+  }
+
+  function initFeatured() {
+    const container = document.querySelector("[data-featured-list]");
+    if (!container) return;
+    const items = [...(window.KOOSHKY_CONTENT || [])]
+      .filter((item) => item.featured)
+      .sort((a, b) => String(b.date || "").localeCompare(String(a.date || "")));
+
+    if (!items.length) {
+      container.innerHTML = `
+        <div class="empty-state">
+          <p class="eyebrow">Coming soon</p>
+          <h3>New guides will appear here.</h3>
+          <p>The featured list is ready; it simply has no published entries yet.</p>
+        </div>`;
+      return;
+    }
+    container.innerHTML = items.map(articleMarkup).join("");
+  }
+
+  function initContents() {
+    const container = document.querySelector("[data-content-library]");
+    if (!container) return;
+    const items = [...(window.KOOSHKY_CONTENT || [])]
+      .sort((a, b) => String(b.date || "").localeCompare(String(a.date || "")));
+    const sections = window.KOOSHKY_SECTIONS || [];
+    const searchWrap = document.querySelector("[data-search-wrap]");
+
+    if (!items.length) {
+      if (searchWrap) searchWrap.hidden = true;
+      container.innerHTML = `
+        <div class="empty-state empty-state-large">
+          <p class="eyebrow">Library</p>
+          <h2>No guides have been listed yet.</h2>
+          <p>Add entries to <code>content-data.js</code>; this page will group them automatically.</p>
+        </div>`;
+      return;
+    }
+
+    const html = sections.map((section) => {
+      const group = items.filter((item) => item.section === section.id);
+      if (!group.length) return "";
+      return `
+        <section class="content-group" data-content-group>
+          <div class="group-heading">
+            <p class="eyebrow">Section</p>
+            <h2>${escapeHTML(section.label)}</h2>
+            <span class="count">${group.length} ${group.length === 1 ? "guide" : "guides"}</span>
+          </div>
+          <div class="article-list">${group.map(articleMarkup).join("")}</div>
+        </section>`;
+    }).join("");
+
+    const ungrouped = items.filter((item) => !sections.some((section) => section.id === item.section));
+    container.innerHTML = html + (ungrouped.length ? `
+      <section class="content-group" data-content-group>
+        <div class="group-heading"><p class="eyebrow">Section</p><h2>Other</h2><span class="count">${ungrouped.length}</span></div>
+        <div class="article-list">${ungrouped.map(articleMarkup).join("")}</div>
+      </section>` : "");
+
+    const input = document.querySelector("[data-content-search]");
+    const status = document.querySelector("[data-search-status]");
+    if (!input) return;
+    input.addEventListener("input", () => {
+      const query = input.value.trim().toLowerCase();
+      let visible = 0;
+      document.querySelectorAll(".article-entry[data-search-text]").forEach((entry) => {
+        const match = !query || entry.dataset.searchText.includes(query);
+        entry.hidden = !match;
+        if (match) visible += 1;
+      });
+      document.querySelectorAll("[data-content-group]").forEach((group) => {
+        group.hidden = !group.querySelector(".article-entry:not([hidden])");
+      });
+      if (status) status.textContent = query ? `${visible} matching ${visible === 1 ? "guide" : "guides"}` : `${items.length} total guides`;
+    });
+    if (status) status.textContent = `${items.length} total guides`;
+  }
+
+  function initLanguageToggle() {
+    const button = document.querySelector("[data-language-toggle]");
+    const fa = document.querySelector("[data-language-panel='fa']");
+    const en = document.querySelector("[data-language-panel='en']");
+    if (!button || !fa || !en) return;
+
+    button.addEventListener("click", () => {
+      const showingEnglish = en.hidden;
+      en.hidden = !showingEnglish;
+      fa.hidden = showingEnglish;
+      button.setAttribute("aria-pressed", String(showingEnglish));
+      button.textContent = showingEnglish ? "خواندن به فارسی" : "Read in English";
+      document.querySelector("[data-about-title]").textContent = showingEnglish ? "About Me" : "درباره من";
+      document.querySelector("[data-about-intro]").textContent = showingEnglish
+        ? "My background, scores, and the long route that made academic English part of my everyday life."
+        : "کمی دربارهٔ من، نمره‌هایم و مسیری که باعث شد انگلیسی آکادمیک بخش بزرگی از زندگی‌ام شود.";
+    });
+  }
+
+  function initImageFallbacks() {
+    document.querySelectorAll("img[data-fallback]").forEach((image) => {
+      const showFallback = () => {
+        image.hidden = true;
+        const fallback = document.getElementById(image.dataset.fallback);
+        if (fallback) fallback.hidden = false;
+      };
+      image.addEventListener("error", showFallback, { once: true });
+      if (image.complete && image.naturalWidth === 0) showFallback();
+    });
+  }
+
+  document.addEventListener("DOMContentLoaded", () => {
+    initTheme();
+    initMenu();
+    initFeatured();
+    initContents();
+    initLanguageToggle();
+    initImageFallbacks();
+  });
+})();

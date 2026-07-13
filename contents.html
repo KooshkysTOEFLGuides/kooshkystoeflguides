@@ -16,8 +16,8 @@
   </script>
   <script src="content-data.js" defer></script>
   <script src="site.js" defer></script>
-  <meta name="description" content="Clear, practical TOEFL guides by Amir Kooshky, a 120/120 TOEFL scorer and 169/170 GRE Verbal scorer.">
-  <title>Kooshky's TOEFL Guides</title>
+  <meta name="description" content="Browse all TOEFL guides and study materials by Amir Kooshky.">
+  <title>All Contents — Kooshky's TOEFL Guides</title>
 </head>
 <body>
   <a class="skip-link" href="#main">Skip to content</a>
@@ -28,8 +28,8 @@
         <span><small>Kooshky's</small><strong>TOEFL Guides</strong></span>
       </a>
       <nav class="desktop-nav" aria-label="Primary navigation">
-        <a href="index.html" aria-current="page">Home</a>
-        <a href="contents.html">All contents</a>
+        <a href="index.html">Home</a>
+        <a href="contents.html" aria-current="page">All contents</a>
         <a href="about.html">About me</a>
       </nav>
       <div class="header-actions">
@@ -40,44 +40,28 @@
   </header>
   <div class="nav-backdrop" data-nav-backdrop hidden></div>
   <nav class="mobile-nav" id="mobile-nav" data-mobile-nav aria-label="Mobile navigation" hidden>
-    <a href="index.html" aria-current="page">Home</a>
-    <a href="contents.html">All contents</a>
+    <a href="index.html">Home</a>
+    <a href="contents.html" aria-current="page">All contents</a>
     <a href="about.html">About me</a>
   </nav>
   <main id="main">
-    <section class="hero">
-      <div class="container hero-grid">
-        <div>
-          <p class="eyebrow">Kooshky's TOEFL Guides</p>
-          <h1>Serious English, explained clearly.</h1>
-          <p class="hero-copy">I’m Amir Kooshky. I scored 120/120 on the TOEFL and 169/170 on GRE Verbal. This is where I collect practical, carefully structured guides for learners who want to understand the test—not merely memorize tricks.</p>
-          <div class="hero-actions">
-            <a class="button button-primary" href="contents.html">Browse all contents</a>
-            <a class="button" href="about.html">About me</a>
-          </div>
-          <div class="social-line" aria-label="Social links">
-            <a href="https://t.me/KooshkyTOEFL" target="_blank" rel="noopener noreferrer">Telegram</a>
-            <a href="https://instagram.com/kooshkytoefl" target="_blank" rel="noopener noreferrer">Instagram</a>
-            <a href="https://t.me/kooshkyTOEFL_pv" target="_blank" rel="noopener noreferrer">DM</a>
-          </div>
-        </div>
-        <aside class="hero-note">
-          <strong>Built to be useful.</strong>
-          Clear explanations, realistic examples, and materials you can return to while studying.
-        </aside>
-      </div>
-    </section>
-
-    <section class="section" aria-labelledby="featured-title">
+    <section class="page-intro">
       <div class="container">
-        <div class="section-heading">
-          <div><p class="eyebrow">Recently selected</p><h2 id="featured-title">New &amp; featured</h2></div>
-          <p>Selected guides from the full library. The list is managed from one small data file.</p>
-        </div>
-        <div class="article-list" data-featured-list></div>
-        <p style="margin-top:1.4rem"><a class="text-link" href="contents.html">See all contents <span aria-hidden="true">→</span></a></p>
+        <p class="eyebrow">The complete library</p>
+        <h1>All contents</h1>
+        <p>Every published guide, arranged by subject. New entries are added automatically from <code>content-data.js</code>.</p>
       </div>
     </section>
+    <div class="container">
+      <div class="search-wrap" data-search-wrap>
+        <label>
+          <span class="eyebrow">Find a guide</span>
+          <input type="search" data-content-search placeholder="Search titles, descriptions, or sections…" autocomplete="off">
+        </label>
+        <div class="search-status" data-search-status aria-live="polite"></div>
+      </div>
+      <div data-content-library></div>
+    </div>
   </main>
   <footer class="site-footer">
     <div class="container footer-inner">
