@@ -78,13 +78,8 @@
   function initTheme() {
     const saved = safeStorage.get(themeKey);
 
-    const preferred =
-      window.matchMedia?.("(prefers-color-scheme: dark)").matches
-        ? "dark"
-        : "light";
-
-    setTheme(saved || root.dataset.theme || preferred, {
-      save: Boolean(saved)
+    setTheme(saved === "dark" ? "dark" : "light", {
+      save: saved === "light" || saved === "dark"
     });
 
     document.querySelectorAll("[data-theme-toggle]").forEach((button) => {
@@ -194,6 +189,113 @@
     }).format(date);
   }
 
+  const MAX_PUBLICATION_TIMEOUT = 2_147_000_000;
+  const invalidPublishTimes = new Set();
+  let publicationTimer = null;
+
+  function getPublishTimestamp(item) {
+    if (!item.publishAt) {
+      return null;
+    }
+
+    const timestamp = Date.parse(item.publishAt);
+
+    if (Number.isNaN(timestamp)) {
+      const identifier =
+        item.title ||
+        item.href ||
+        String(item.publishAt);
+
+      if (!invalidPublishTimes.has(identifier)) {
+        invalidPublishTimes.add(identifier);
+
+        console.warn(
+          `Hidden item because publishAt is invalid: ${identifier}`,
+          item.publishAt
+        );
+      }
+
+      return Number.NaN;
+    }
+
+    return timestamp;
+  }
+
+  function isPublished(item, now = Date.now()) {
+    const timestamp = getPublishTimestamp(item);
+
+    // Entries without publishAt are immediately available.
+    if (timestamp === null) {
+      return true;
+    }
+
+    // Invalid values remain hidden.
+    if (Number.isNaN(timestamp)) {
+      return false;
+    }
+
+    return timestamp <= now;
+  }
+
+  function getPublishedContent(now = Date.now()) {
+    return (window.KOOSHKY_CONTENT || []).filter((item) =>
+      isPublished(item, now)
+    );
+  }
+
+  function getNextPublicationTime(now = Date.now()) {
+    let next = Infinity;
+
+    for (const item of window.KOOSHKY_CONTENT || []) {
+      const timestamp = getPublishTimestamp(item);
+
+      if (
+        timestamp !== null &&
+        !Number.isNaN(timestamp) &&
+        timestamp > now &&
+        timestamp < next
+      ) {
+        next = timestamp;
+      }
+    }
+
+    return Number.isFinite(next) ? next : null;
+  }
+
+  function scheduleNextPublicationRefresh() {
+    if (publicationTimer !== null) {
+      clearTimeout(publicationTimer);
+      publicationTimer = null;
+    }
+
+    const now = Date.now();
+    const next = getNextPublicationTime(now);
+
+    if (next === null) {
+      return;
+    }
+
+    const delay = Math.min(
+      Math.max(next - now + 250, 250),
+      MAX_PUBLICATION_TIMEOUT
+    );
+
+    publicationTimer = window.setTimeout(() => {
+      if (Date.now() >= next) {
+        window.location.reload();
+      } else {
+        scheduleNextPublicationRefresh();
+      }
+    }, delay);
+  }
+
+  window.KOOSHKY_PUBLICATION = {
+    isPublished,
+    getPublishedContent,
+    next: () => getNextPublicationTime(),
+    now: () => new Date()
+  };
+
   function articleMarkup(item) {
     const sections = window.KOOSHKY_SECTIONS || [];
 
@@ -249,8 +351,8 @@
       return;
     }
 
-    // Keep the exact order used in content-data.js.
-    const items = (window.KOOSHKY_CONTENT || []).filter(
+    // The order remains the same as content-data.js.
+    const items = getPublishedContent().filter(
       (item) => item.featured
     );
 
@@ -278,8 +380,8 @@
       return;
     }
 
-    // Keep article order exactly as written in content-data.js.
-    const items = [...(window.KOOSHKY_CONTENT || [])];
+    // The order remains the same as content-data.js.
+    const items = getPublishedContent();
     const sections = window.KOOSHKY_SECTIONS || [];
     const searchWrap = document.querySelector("[data-search-wrap]");
 
@@ -298,11 +400,6 @@
       return;
     }
 
-    /*
-      Section order follows KOOSHKY_SECTIONS.
-      Item order inside each section follows KOOSHKY_CONTENT.
-      Reorder either array to control the page.
-    */
     const html = sections
       .map((section) => {
         const group = items.filter(
@@ -493,7 +590,6 @@
       button.dataset.currentLanguage = language;
     }
 
-    // English is intentionally the default.
     show("en");
 
     button.addEventListener("click", () => {
@@ -541,6 +637,7 @@
     initMenu();
     initFeatured();
     initContents();
+    scheduleNextPublicationRefresh();
     initLanguageToggle();
     initImageFallbacks();
   });
