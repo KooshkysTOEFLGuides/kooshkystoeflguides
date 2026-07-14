@@ -1,0 +1,1575 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="light">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
+<meta name="description" content="Kooshky's TOEFL Guides: Advanced Relative Clauses Workbook, Exercises 1–5.">
+<title>Advanced Relative Clauses Workbook | Kooshky's TOEFL Guides</title>
+<style>
+:root {
+  color-scheme: light;
+  --bg: #f7f4ee;
+  --surface: #fffdf8;
+  --surface-2: #f0ece3;
+  --surface-3: #faf7f1;
+  --text: #202936;
+  --muted: #667085;
+  --line: #ddd5c9;
+  --accent: #1d4ed8;
+  --accent-2: #7c3aed;
+  --accent-soft: #e8efff;
+  --good-soft: #eaf7ef;
+  --warn-soft: #fff4db;
+  --bad-soft: #ffefef;
+  --shadow: 0 22px 60px rgba(31, 41, 51, 0.12);
+  --radius-lg: 24px;
+  --radius-md: 16px;
+  --radius-sm: 10px;
+  --header-h: 74px;
+  --safe-bottom: env(safe-area-inset-bottom, 0px);
+  --safe-top: env(safe-area-inset-top, 0px);
+  --content-max: 1180px;
+  --z-header: 100;
+  --z-lookup: 700;
+  --z-top: 750;
+  --z-promo: 900;
+}
+html[data-theme="dark"] {
+  color-scheme: dark;
+  --bg: #11100e;
+  --surface: #191816;
+  --surface-2: #24221f;
+  --surface-3: #1f1d1a;
+  --text: #f4efe8;
+  --muted: #b8b1a7;
+  --line: #3a352f;
+  --accent: #8ab4ff;
+  --accent-2: #c4a2ff;
+  --accent-soft: #17233d;
+  --good-soft: #17291f;
+  --warn-soft: #332713;
+  --bad-soft: #361b1b;
+  --shadow: 0 22px 60px rgba(0, 0, 0, 0.35);
+}
+* { box-sizing: border-box; }
+html { scroll-behavior: smooth; text-size-adjust: 100%; }
+body {
+  margin: 0;
+  font-family: Inter, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+  line-height: 1.65;
+  color: var(--text);
+  background:
+    radial-gradient(circle at top left, rgba(29, 78, 216, 0.14), transparent 30rem),
+    radial-gradient(circle at top right, rgba(124, 58, 237, 0.12), transparent 32rem),
+    var(--bg);
+  overflow-x: hidden;
+}
+a { color: inherit; }
+.skip-link {
+  position: fixed;
+  top: max(10px, var(--safe-top));
+  left: 10px;
+  transform: translateY(-150%);
+  background: var(--surface);
+  color: var(--text);
+  border: 2px solid var(--accent);
+  border-radius: 999px;
+  padding: .65rem .95rem;
+  z-index: calc(var(--z-promo) + 50);
+  text-decoration: none;
+  font-weight: 800;
+}
+.skip-link:focus, .skip-link:focus-visible { transform: translateY(0); }
+.site-header {
+  position: sticky;
+  top: 0;
+  z-index: var(--z-header);
+  min-height: var(--header-h);
+  padding-top: var(--safe-top);
+  background: color-mix(in srgb, var(--surface) 92%, transparent);
+  border-bottom: 1px solid var(--line);
+  backdrop-filter: blur(16px);
+}
+.header-inner {
+  max-width: var(--content-max);
+  margin: 0 auto;
+  min-height: var(--header-h);
+  padding: 0 clamp(1rem, 3vw, 2rem);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 1rem;
+}
+.brand {
+  display: flex;
+  flex-direction: column;
+  gap: .1rem;
+  min-width: 0;
+}
+.brand strong { font-size: .98rem; letter-spacing: .02em; white-space: nowrap; }
+.brand span { color: var(--muted); font-size: .82rem; overflow-wrap: anywhere; }
+.header-actions {
+  display: flex;
+  align-items: center;
+  gap: .7rem;
+  flex-wrap: wrap;
+  justify-content: flex-end;
+}
+.btn, button.btn {
+  border: 1px solid var(--line);
+  background: var(--surface);
+  color: var(--text);
+  border-radius: 999px;
+  padding: .7rem .95rem;
+  font-weight: 800;
+  cursor: pointer;
+  text-decoration: none;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: .45rem;
+  line-height: 1;
+  min-height: 42px;
+  max-width: 100%;
+  overflow-wrap: anywhere;
+}
+.btn:hover, .btn:focus-visible { border-color: var(--accent); outline: none; }
+.btn.primary { background: var(--text); color: var(--surface); border-color: var(--text); }
+.nav-toggle { display: none; }
+.nav-panel {
+  display: flex;
+  align-items: center;
+  gap: .7rem;
+  flex-wrap: wrap;
+}
+.hero {
+  max-width: var(--content-max);
+  margin: 0 auto;
+  padding: clamp(2.4rem, 7vw, 5.6rem) clamp(1rem, 3vw, 2rem) 2.2rem;
+}
+.hero-card {
+  background: linear-gradient(135deg, color-mix(in srgb, var(--surface) 94%, var(--accent) 6%), var(--surface));
+  border: 1px solid var(--line);
+  border-radius: var(--radius-lg);
+  box-shadow: var(--shadow);
+  padding: clamp(1.4rem, 4vw, 3rem);
+  display: grid;
+  grid-template-columns: minmax(0, 1.3fr) minmax(260px, .7fr);
+  gap: clamp(1.5rem, 4vw, 3rem);
+  align-items: center;
+}
+.eyebrow {
+  text-transform: uppercase;
+  letter-spacing: .18em;
+  font-weight: 900;
+  color: var(--accent);
+  font-size: .8rem;
+}
+h1 {
+  margin: .35rem 0 1rem;
+  font-size: clamp(2.1rem, 6vw, 4.9rem);
+  line-height: .98;
+  letter-spacing: -.06em;
+}
+.hero p { color: var(--muted); font-size: clamp(1rem, 1.4vw, 1.15rem); margin: 0 0 1rem; }
+.hero-links { display: flex; flex-wrap: wrap; gap: .75rem; margin-top: 1rem; }
+.hero-note {
+  background: var(--surface-2);
+  border: 1px solid var(--line);
+  border-radius: var(--radius-md);
+  padding: 1rem;
+}
+.hero-note h2 { margin-top: 0; }
+.layout {
+  max-width: var(--content-max);
+  margin: 0 auto;
+  padding: 0 clamp(1rem, 3vw, 2rem) 5rem;
+  display: grid;
+  grid-template-columns: minmax(245px, 300px) minmax(0, 1fr);
+  gap: 1.3rem;
+  align-items: start;
+}
+.toc-wrap {
+  position: sticky;
+  top: calc(var(--header-h) + var(--safe-top) + 1rem);
+  max-height: calc(100vh - var(--header-h) - var(--safe-top) - 2rem);
+  overflow: auto;
+  background: var(--surface);
+  border: 1px solid var(--line);
+  border-radius: var(--radius-lg);
+  padding: 1rem;
+  box-shadow: var(--shadow);
+}
+.toc-title {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: .5rem;
+}
+.toc-title h2 { font-size: 1rem; margin: 0; }
+.toc-master { margin-top: .8rem; }
+.toc-exercise {
+  border-top: 1px solid var(--line);
+  padding: .65rem 0;
+}
+.toc-exercise:first-child { border-top: 0; }
+.toc-exercise summary {
+  cursor: pointer;
+  font-weight: 900;
+  color: var(--text);
+  overflow-wrap: anywhere;
+}
+.toc-list { list-style: none; padding: .45rem 0 0 .75rem; margin: 0; }
+.toc-list li { margin: .35rem 0; }
+.toc-list a {
+  color: var(--muted);
+  text-decoration: none;
+  font-size: .92rem;
+  overflow-wrap: anywhere;
+}
+.toc-list a:hover { color: var(--accent); text-decoration: underline; }
+.content { min-width: 0; }
+section, h2, h3, h4 { scroll-margin-top: calc(var(--header-h) + var(--safe-top) + 1rem); }
+.workbook-intro, .exercise, .ending-note {
+  background: var(--surface);
+  border: 1px solid var(--line);
+  border-radius: var(--radius-lg);
+  box-shadow: var(--shadow);
+  padding: clamp(1.15rem, 3vw, 2rem);
+  margin-bottom: 1.2rem;
+}
+.exercise {
+  border-top: 7px solid var(--accent);
+  margin-top: 2.2rem;
+  margin-bottom: 2.2rem;
+}
+.exercise-end {
+  border: 1px dashed var(--line);
+  background: var(--surface-2);
+  border-radius: var(--radius-md);
+  padding: .75rem 1rem;
+  margin-top: 1.4rem;
+  text-align: center;
+  color: var(--muted);
+  font-weight: 800;
+}
+h2 { font-size: clamp(1.6rem, 3vw, 2.4rem); line-height: 1.1; margin: 0 0 1rem; letter-spacing: -.035em; }
+h3 { font-size: clamp(1.2rem, 2.3vw, 1.55rem); margin: 1.7rem 0 .75rem; line-height: 1.2; }
+h4 { font-size: 1.05rem; margin: 1rem 0 .5rem; }
+p { margin: .8rem 0; }
+ul, ol { padding-left: 1.2rem; }
+li { margin: .45rem 0; }
+.kicker {
+  display: inline-flex;
+  align-items: center;
+  gap: .45rem;
+  background: var(--accent-soft);
+  color: var(--accent);
+  border: 1px solid color-mix(in srgb, var(--accent) 30%, var(--line));
+  border-radius: 999px;
+  padding: .35rem .7rem;
+  font-weight: 900;
+  font-size: .8rem;
+  margin-bottom: .75rem;
+}
+.callout, .model, .task-card, .answer, .prompt-box, .text-box, .bad-box, .good-box {
+  border: 1px solid var(--line);
+  border-radius: var(--radius-md);
+  padding: 1rem;
+  margin: 1rem 0;
+  background: var(--surface-3);
+}
+.model { background: var(--accent-soft); }
+.callout { background: var(--warn-soft); }
+.answer { background: var(--good-soft); }
+.bad-box { background: var(--bad-soft); }
+.good-box { background: var(--good-soft); }
+.text-box { background: var(--surface-2); }
+.task-card { background: var(--surface); }
+.task-card + .task-card, .text-box + .text-box { margin-top: 1.35rem; }
+.meta-row { display: flex; flex-wrap: wrap; gap: .5rem; margin: .8rem 0; }
+.tag {
+  display: inline-flex;
+  align-items: center;
+  border: 1px solid var(--line);
+  background: var(--surface-2);
+  border-radius: 999px;
+  padding: .25rem .6rem;
+  font-weight: 800;
+  font-size: .8rem;
+  color: var(--muted);
+  overflow-wrap: anywhere;
+}
+.example-grid {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 1rem;
+}
+code, .code {
+  font-family: "SFMono-Regular", Consolas, "Liberation Mono", monospace;
+  background: var(--surface-2);
+  border: 1px solid var(--line);
+  border-radius: .4rem;
+  padding: .12rem .35rem;
+  overflow-wrap: anywhere;
+}
+details.reveal, details.prompt-details {
+  border: 1px solid var(--line);
+  background: var(--surface);
+  border-radius: var(--radius-md);
+  margin: 1rem 0;
+  overflow: hidden;
+}
+details.reveal > summary, details.prompt-details > summary {
+  cursor: pointer;
+  list-style-position: inside;
+  padding: .85rem 1rem;
+  font-weight: 900;
+  background: var(--surface-2);
+}
+details.reveal > div, details.prompt-details > div { padding: 1rem; }
+.prompt-text {
+  white-space: pre-wrap;
+  background: var(--surface-2);
+  border: 1px solid var(--line);
+  border-radius: var(--radius-sm);
+  padding: 1rem;
+  overflow-wrap: anywhere;
+}
+.copy-btn { margin-top: .7rem; }
+.numbered-list > li { margin-bottom: .95rem; }
+.response-label {
+  font-weight: 900;
+  color: var(--accent);
+  margin-bottom: .4rem;
+}
+mark, .hl {
+  background: color-mix(in srgb, var(--accent) 18%, transparent);
+  color: inherit;
+  border-radius: .25rem;
+  padding: 0 .18rem;
+}
+.lookup-popover {
+  position: fixed;
+  left: 1rem;
+  top: 1rem;
+  z-index: var(--z-lookup);
+  display: none;
+  max-width: min(92vw, 340px);
+  background: var(--surface);
+  border: 1px solid var(--line);
+  border-radius: var(--radius-md);
+  box-shadow: var(--shadow);
+  padding: .75rem;
+}
+.lookup-popover.show { display: block; }
+.lookup-word { font-weight: 900; margin-bottom: .5rem; overflow-wrap: anywhere; }
+.lookup-links { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: .5rem; }
+.lookup-links a {
+  text-decoration: none;
+  border: 1px solid var(--line);
+  border-radius: 999px;
+  padding: .55rem .65rem;
+  text-align: center;
+  font-weight: 800;
+  color: var(--text);
+  overflow-wrap: anywhere;
+}
+.lookup-links a:hover { border-color: var(--accent); color: var(--accent); }
+.promo {
+  position: fixed;
+  inset: auto max(1rem, env(safe-area-inset-right, 0px)) calc(max(1rem, var(--safe-bottom)) + 1rem) max(1rem, env(safe-area-inset-left, 0px));
+  z-index: var(--z-promo);
+  display: none;
+  max-width: 680px;
+  margin-inline: auto;
+  background: var(--surface);
+  color: var(--text);
+  border: 1px solid var(--line);
+  border-radius: var(--radius-lg);
+  box-shadow: var(--shadow);
+  padding: 1rem;
+}
+.promo.show { display: block; }
+.promo-inner { display: grid; grid-template-columns: minmax(0, 1fr) auto; gap: 1rem; align-items: start; }
+.promo h2 { font-size: 1.1rem; margin: 0 0 .25rem; }
+.promo p { margin: 0 0 .7rem; color: var(--muted); }
+.icon-btn {
+  width: 42px;
+  height: 42px;
+  border-radius: 999px;
+  border: 1px solid var(--line);
+  background: var(--surface-2);
+  color: var(--text);
+  cursor: pointer;
+  font-size: 1.2rem;
+}
+.to-top {
+  position: fixed;
+  right: max(1rem, env(safe-area-inset-right, 0px));
+  bottom: calc(max(1rem, var(--safe-bottom)) + 1rem);
+  z-index: var(--z-top);
+  opacity: 0;
+  pointer-events: none;
+  transition: opacity .2s ease, transform .2s ease, bottom .2s ease;
+  transform: translateY(.5rem);
+}
+.to-top.show { opacity: 1; pointer-events: auto; transform: translateY(0); }
+body.promo-visible .to-top { bottom: calc(max(1rem, var(--safe-bottom)) + 8.5rem); }
+@media (max-width: 860px) {
+  .nav-toggle { display: inline-flex; }
+  .nav-panel {
+    position: absolute;
+    top: calc(100% + .4rem);
+    left: 1rem;
+    right: 1rem;
+    display: none;
+    background: var(--surface);
+    border: 1px solid var(--line);
+    border-radius: var(--radius-md);
+    box-shadow: var(--shadow);
+    padding: .75rem;
+  }
+  .nav-panel.open { display: grid; grid-template-columns: 1fr; }
+  .header-inner { position: relative; }
+  .hero-card { grid-template-columns: 1fr; }
+  .layout { grid-template-columns: 1fr; }
+  .toc-wrap { position: relative; top: auto; max-height: none; }
+  .example-grid { grid-template-columns: 1fr; }
+}
+@media (max-width: 520px) {
+  .header-inner { padding-inline: .75rem; }
+  .brand strong { white-space: normal; }
+  .hero, .layout { padding-inline: .75rem; }
+  .btn { width: auto; }
+  .hero-links { display: grid; grid-template-columns: 1fr; }
+  .hero-links .btn { width: 100%; }
+  .lookup-links { grid-template-columns: 1fr; }
+  .promo { inset-inline: .6rem; }
+  body.promo-visible .to-top { bottom: calc(max(1rem, var(--safe-bottom)) + 10.5rem); }
+}
+@media (prefers-reduced-motion: reduce) {
+  html { scroll-behavior: auto; }
+  * { transition: none !important; }
+}
+</style>
+</head>
+<body>
+<a class="skip-link" href="#main">Skip to content</a>
+<header class="site-header" id="top">
+  <div class="header-inner">
+    <div class="brand">
+      <strong>Kooshky's TOEFL Guides</strong>
+      <span>Advanced Relative Clauses Workbook</span>
+    </div>
+    <button class="btn nav-toggle" type="button" id="navToggle" aria-expanded="false" aria-controls="navPanel">Menu</button>
+    <nav class="nav-panel" id="navPanel" aria-label="Main navigation">
+      <a class="btn" href="#toc">Contents</a>
+      <button class="btn" type="button" id="themeToggle">Night mode</button>
+      <a class="btn primary" href="https://t.me/KooshkyTOEFL" target="_blank" rel="noopener">Telegram</a>
+    </nav>
+  </div>
+</header>
+
+<main id="main">
+  <section class="hero" aria-labelledby="heroTitle">
+    <div class="hero-card">
+      <div>
+        <div class="eyebrow">Advanced Grammar Workbook</div>
+        <h1 id="heroTitle">Advanced Relative Clauses</h1>
+        <p>Part of <strong>Kooshky's TOEFL Guides</strong>. Collected and compiled by <strong>Amir Kooshky</strong>.</p>
+        <p>This workbook helps you use advanced relative structures naturally in TOEFL writing and speaking: formal preposition structures, reduced clauses, free relatives, <em>of which</em>, stacked clauses, quantifier clauses, and to-infinitive relatives.</p>
+        <div class="hero-links" aria-label="Kooshky TOEFL links">
+          <a class="btn primary" href="https://t.me/KooshkyTOEFL" target="_blank" rel="noopener">Telegram</a>
+          <a class="btn" href="https://instagram.com/kooshkytoefl" target="_blank" rel="noopener">Instagram</a>
+          <a class="btn" href="https://t.me/kooshkyTOEFL_pv" target="_blank" rel="noopener">DM</a>
+        </div>
+      </div>
+      <aside class="hero-note">
+        <h2>How to use this workbook</h2>
+        <p>Move from transformation to reduction, judgment, full-response repair, and final TOEFL-style upgrading. Use the answer keys after you try each part. For flexible answers, paste your work into the GPT prompt under that part.</p>
+      </aside>
+    </div>
+  </section>
+
+  <div class="layout">
+    <aside class="toc-wrap" id="toc" aria-labelledby="tocTitle">
+      <div class="toc-title">
+        <h2 id="tocTitle">Contents</h2>
+      </div>
+      <div id="tocList" class="toc-master"></div>
+    </aside>
+
+    <div class="content">
+      <section class="workbook-intro" aria-labelledby="overviewTitle">
+        <div class="kicker">Overview</div>
+        <h2 id="overviewTitle">What this workbook trains</h2>
+        <p>These exercises are for students who already know basic relative clauses and now need better control, compactness, and style. The goal is not to sound complicated. The goal is to choose advanced structures only when they make your meaning clearer, tighter, or more academic.</p>
+        <div class="example-grid">
+          <div class="callout"><strong>Writing focus:</strong> compact academic sentences, formal tone, precise group claims, and clean error repair.</div>
+          <div class="callout"><strong>Speaking focus:</strong> natural choices, not stiff forms like <em>the chair on which I sat</em> in ordinary answers.</div>
+        </div>
+      </section>
+
+      <section class="exercise" id="exercise-1" aria-labelledby="exercise-1-title">
+        <div class="kicker">Exercise 1 Start</div>
+        <h2 id="exercise-1-title">Exercise 1 · Formal vs Natural Transformation</h2>
+        <p>Advanced relative clauses often give you two correct choices: a natural spoken form and a more formal academic form. Your job is to control the tone, not just the grammar.</p>
+
+        <section class="task-card" id="ex1-a" aria-labelledby="ex1-a-title">
+          <h3 id="ex1-a-title">Part A · Natural → Formal</h3>
+          <p>Rewrite each sentence in a more formal academic style by moving the preposition before the relative pronoun. Use <strong>which</strong> for things and <strong>whom</strong> for people.</p>
+          <ol class="numbered-list">
+            <li>The theory that the argument is based on is not convincing.</li>
+            <li>The professor who I sent my draft to replied within an hour.</li>
+            <li>The method that the researchers relied on produced inconsistent results.</li>
+            <li>The issue that the lecture focused on was urban pollution.</li>
+            <li>The committee that the proposal was submitted to rejected it.</li>
+            <li>The principle that the policy depends on is fairness.</li>
+            <li>The author who the article refers to is known for her work on migration.</li>
+            <li>The economic model that the discussion started with is now outdated.</li>
+          </ol>
+          <details class="reveal"><summary>Answer Key · Part A</summary><div>
+            <ol>
+              <li>The theory <strong>on which</strong> the argument is based is not convincing.</li>
+              <li>The professor <strong>to whom</strong> I sent my draft replied within an hour.</li>
+              <li>The method <strong>on which</strong> the researchers relied produced inconsistent results.</li>
+              <li>The issue <strong>on which</strong> the lecture focused was urban pollution.</li>
+              <li>The committee <strong>to which</strong> the proposal was submitted rejected it.</li>
+              <li>The principle <strong>on which</strong> the policy depends is fairness.</li>
+              <li>The author <strong>to whom</strong> the article refers is known for her work on migration.</li>
+              <li>The economic model <strong>with which</strong> the discussion started is now outdated.</li>
+            </ol>
+            <p><strong>Note:</strong> These are formal. In speaking, the original versions are often more natural.</p>
+          </div></details>
+          <details class="prompt-details"><summary>GPT correction prompt for Part A</summary><div><div class="prompt-text" id="prompt-ex1-a">You are checking my answers to an advanced relative-clause transformation exercise. The task was to rewrite natural sentences into formal academic structures using preposition + which/whom. Check whether each preposition is correct, whether I used which for things and whom for people, whether I avoided at that / to who / on that, and whether the final sentence sounds natural for TOEFL writing. Give concise corrections and explain the most important mistake in each item.
+
+Here are my answers:
+[paste answers here]</div><button class="btn copy-btn" type="button" data-copy="prompt-ex1-a">Copy prompt</button></div></details>
+        </section>
+
+        <section class="task-card" id="ex1-b" aria-labelledby="ex1-b-title">
+          <h3 id="ex1-b-title">Part B · Formal → Natural</h3>
+          <p>Rewrite each sentence in a more natural style. This is useful for TOEFL speaking and for writing that should not sound stiff.</p>
+          <ol class="numbered-list">
+            <li>The university at which I studied has a strong engineering program.</li>
+            <li>The advisor to whom I spoke suggested a different course.</li>
+            <li>The topic about which we argued was not important.</li>
+            <li>The city in which she grew up shaped her interest in architecture.</li>
+            <li>The problem with which many students struggle is time management.</li>
+            <li>The research to which the professor referred was published recently.</li>
+            <li>The condition under which the experiment succeeded was very specific.</li>
+            <li>The group with whom I worked finished the project early.</li>
+          </ol>
+          <details class="reveal"><summary>Answer Key · Part B</summary><div>
+            <ol>
+              <li>The university <strong>where I studied</strong> has a strong engineering program. / The university <strong>that I studied at</strong> has a strong engineering program.</li>
+              <li>The advisor <strong>I spoke to</strong> suggested a different course.</li>
+              <li>The topic <strong>we argued about</strong> was not important.</li>
+              <li>The city <strong>where she grew up</strong> shaped her interest in architecture.</li>
+              <li>The problem <strong>that many students struggle with</strong> is time management.</li>
+              <li>The research <strong>the professor referred to</strong> was published recently.</li>
+              <li>The condition <strong>under which</strong> the experiment succeeded was very specific. / The condition <strong>that allowed the experiment to succeed</strong> was very specific.</li>
+              <li>The group <strong>I worked with</strong> finished the project early.</li>
+            </ol>
+            <p><strong>Note:</strong> Item 7 is naturally formal because <em>condition under which</em> is a common academic phrase.</p>
+          </div></details>
+          <details class="prompt-details"><summary>GPT correction prompt for Part B</summary><div><div class="prompt-text" id="prompt-ex1-b">You are checking my answers to an advanced relative-clause style exercise. The task was to rewrite formal preposition + which/whom structures into natural English. Check whether my versions preserve the meaning, sound natural for TOEFL speaking or ordinary writing, and avoid awkward half-formal structures. Give corrected versions where needed.
+
+Here are my answers:
+[paste answers here]</div><button class="btn copy-btn" type="button" data-copy="prompt-ex1-b">Copy prompt</button></div></details>
+        </section>
+
+        <section class="task-card" id="ex1-c" aria-labelledby="ex1-c-title">
+          <h3 id="ex1-c-title">Part C · Where/When vs In/At Which</h3>
+          <p>Rewrite each sentence twice if possible: once with <strong>where/when</strong> and once with <strong>preposition + which</strong>.</p>
+          <ol class="numbered-list">
+            <li>The lab is the place. We conducted the experiment there.</li>
+            <li>2019 was the year. The policy changed then.</li>
+            <li>The lecture hall was the room. The debate took place there.</li>
+            <li>The period was difficult. Many families moved to cities during that period.</li>
+            <li>The website is the platform. Students submit their assignments there.</li>
+            <li>The stage was the point. The project became too expensive at that stage.</li>
+          </ol>
+          <details class="reveal"><summary>Answer Key · Part C</summary><div>
+            <ol>
+              <li>The lab is the place <strong>where</strong> we conducted the experiment. / The lab is the place <strong>in which</strong> we conducted the experiment.</li>
+              <li>2019 was the year <strong>when</strong> the policy changed. / 2019 was the year <strong>in which</strong> the policy changed.</li>
+              <li>The lecture hall was the room <strong>where</strong> the debate took place. / The lecture hall was the room <strong>in which</strong> the debate took place.</li>
+              <li>The period <strong>when</strong> many families moved to cities was difficult. / The period <strong>during which</strong> many families moved to cities was difficult.</li>
+              <li>The website is the platform <strong>where</strong> students submit their assignments. / The website is the platform <strong>on which</strong> students submit their assignments.</li>
+              <li>The stage <strong>when</strong> the project became too expensive was difficult to manage. / The stage <strong>at which</strong> the project became too expensive was difficult to manage.</li>
+            </ol>
+            <p><strong>Style:</strong> <em>where/when</em> are usually more natural. <em>In which / at which / during which</em> sound more formal and precise.</p>
+          </div></details>
+          <details class="prompt-details"><summary>GPT correction prompt for Part C</summary><div><div class="prompt-text" id="prompt-ex1-c">Check my answers to this advanced relative-clause exercise. I had to rewrite each sentence using where/when and also using preposition + which when possible. Check the preposition choice carefully: in which, at which, on which, during which, etc. Tell me whether each version sounds natural, formal, or awkward.
+
+Here are my answers:
+[paste answers here]</div><button class="btn copy-btn" type="button" data-copy="prompt-ex1-c">Copy prompt</button></div></details>
+        </section>
+
+        <section class="task-card" id="ex1-d" aria-labelledby="ex1-d-title">
+          <h3 id="ex1-d-title">Part D · Whose vs Of Which</h3>
+          <p>Rewrite each sentence using the structure given. Remember: <strong>whose</strong> is natural for people; <strong>of which</strong> is formal and mainly for things, studies, systems, theories, policies, and institutions.</p>
+          <ol class="numbered-list">
+            <li>The professor has published influential research. Use <strong>whose</strong>.</li>
+            <li>The study had unexpected results. Use <strong>the results of which</strong>.</li>
+            <li>The policy has serious consequences. Use <strong>the consequences of which</strong>.</li>
+            <li>The student lost her laptop. Use <strong>whose</strong>.</li>
+            <li>The theory has several limitations. Use <strong>the limitations of which</strong>.</li>
+            <li>The organization has grown quickly. Use <strong>whose</strong> or <strong>of which</strong>, then choose the more natural one.</li>
+            <li>The research paper had a weak methodology. Use <strong>the methodology of which</strong>.</li>
+            <li>The company has declining revenue. Use <strong>the revenue of which</strong>.</li>
+          </ol>
+          <details class="reveal"><summary>Answer Key · Part D</summary><div>
+            <ol>
+              <li>The professor <strong>whose research is influential</strong> has published widely.</li>
+              <li>The study, <strong>the results of which were unexpected</strong>, changed the discussion.</li>
+              <li>The policy, <strong>the consequences of which are serious</strong>, should be reconsidered.</li>
+              <li>The student <strong>whose laptop was lost</strong> asked for an extension.</li>
+              <li>The theory, <strong>the limitations of which are clear</strong>, is still widely cited.</li>
+              <li>The organization, <strong>whose membership has grown quickly</strong>, needs a larger office. This is usually more natural than <em>the membership of which</em>.</li>
+              <li>The research paper, <strong>the methodology of which was weak</strong>, received criticism.</li>
+              <li>The company, <strong>the revenue of which has declined</strong>, is restructuring.</li>
+            </ol>
+            <p><strong>Warning:</strong> Do not use <em>of which</em> for people: <em>the professor, the research of which...</em> is wrong.</p>
+          </div></details>
+          <details class="prompt-details"><summary>GPT correction prompt for Part D</summary><div><div class="prompt-text" id="prompt-ex1-d">Check my answers to an advanced whose / of which exercise. Make sure I used whose for people, avoided of which for people, used commas correctly with of which, and chose a natural word order like “the results of which” rather than a clunky structure. Also tell me if my sentence is too formal for TOEFL speaking.
+
+Here are my answers:
+[paste answers here]</div><button class="btn copy-btn" type="button" data-copy="prompt-ex1-d">Copy prompt</button></div></details>
+        </section>
+
+        <section class="task-card" id="ex1-e" aria-labelledby="ex1-e-title">
+          <h3 id="ex1-e-title">Part E · Tone Choice</h3>
+          <p>Choose the best version for the situation: <strong>formal writing</strong>, <strong>ordinary writing</strong>, or <strong>speaking</strong>. More than one may be grammatically correct.</p>
+          <ol class="numbered-list">
+            <li>Situation: TOEFL Academic Discussion. Topic: the basis of a policy. <br>A. The principle on which the policy is based is fairness. <br>B. The principle the policy is based on is fairness.</li>
+            <li>Situation: Speaking answer about a friend. <br>A. The friend with whom I went to the library helped me a lot. <br>B. The friend I went to the library with helped me a lot.</li>
+            <li>Situation: Formal essay about research design. <br>A. The method by which the data were collected was unreliable. <br>B. The method the data were collected by was unreliable.</li>
+            <li>Situation: Email to a professor. <br>A. The assignment to which I referred in my last email is attached. <br>B. The assignment I referred to in my last email is attached.</li>
+            <li>Situation: Speaking answer about a chair in a classroom. <br>A. The chair on which I sat was uncomfortable. <br>B. The chair I sat on was uncomfortable.</li>
+            <li>Situation: Academic paragraph about a study. <br>A. The study, the findings of which were surprising, received media attention. <br>B. The study whose findings were surprising received media attention.</li>
+            <li>Situation: Casual speaking about a city. <br>A. The city in which I lived as a child was crowded. <br>B. The city where I lived as a child was crowded.</li>
+            <li>Situation: Academic essay about online learning. <br>A. Many students who lack self-discipline struggle online. <br>B. Many students, who lack self-discipline, struggle online.</li>
+          </ol>
+          <details class="reveal"><summary>Answer Key · Part E</summary><div>
+            <ol>
+              <li><strong>A</strong> is stronger for formal academic writing; B is also correct but less formal.</li>
+              <li><strong>B</strong> is much better for speaking. A is correct but stiff.</li>
+              <li><strong>A</strong> is cleaner and more academic.</li>
+              <li><strong>B</strong> is usually better for an email. A is correct but may sound unnecessarily formal.</li>
+              <li><strong>B</strong> is natural. A sounds comically formal for a simple chair.</li>
+              <li><strong>A</strong> is more formal and precise. B is also possible, but <em>whose</em> may sound less academic for a study.</li>
+              <li><strong>B</strong> is better for casual speaking.</li>
+              <li><strong>A</strong>. It means only students who lack self-discipline struggle online. B implies many students in general lack self-discipline, which changes the logic.</li>
+            </ol>
+          </div></details>
+          <details class="prompt-details"><summary>GPT correction prompt for Part E</summary><div><div class="prompt-text" id="prompt-ex1-e">Check my answers to a tone-choice exercise about advanced relative clauses. For each item, tell me whether my choice fits the situation: TOEFL writing, ordinary writing, or speaking. If another version is grammatically correct but stylistically worse, explain why briefly.
+
+Here are my answers:
+[paste answers here]</div><button class="btn copy-btn" type="button" data-copy="prompt-ex1-e">Copy prompt</button></div></details>
+        </section>
+        <div class="exercise-end">Exercise 1 End</div>
+      </section>
+
+      <section class="exercise" id="exercise-2" aria-labelledby="exercise-2-title">
+        <div class="kicker">Exercise 2 Start</div>
+        <h2 id="exercise-2-title">Exercise 2 · Reduce or Don’t Reduce</h2>
+        <p>Reduced relative clauses make sentences shorter and more academic. But they only work when the grammar relationship is right. This exercise trains you to reduce accurately and reject impossible reductions.</p>
+
+        <section class="task-card" id="ex2-a" aria-labelledby="ex2-a-title">
+          <h3 id="ex2-a-title">Part A · Active Reductions</h3>
+          <p>Reduce the relative clause to an <strong>-ing</strong> phrase.</p>
+          <ol class="numbered-list">
+            <li>Students who participate in internships often gain practical experience.</li>
+            <li>Researchers who study urban development often focus on transportation.</li>
+            <li>People who live near busy roads may experience more noise pollution.</li>
+            <li>Companies that invest in employee training often keep workers longer.</li>
+            <li>Universities that offer flexible schedules attract more adult learners.</li>
+            <li>Children who grow up in bilingual homes may develop strong language awareness.</li>
+            <li>Scientists who examine ancient fossils can learn about past climates.</li>
+            <li>Students who use feedback effectively usually improve faster.</li>
+          </ol>
+          <details class="reveal"><summary>Answer Key · Part A</summary><div>
+            <ol>
+              <li>Students <strong>participating in internships</strong> often gain practical experience.</li>
+              <li>Researchers <strong>studying urban development</strong> often focus on transportation.</li>
+              <li>People <strong>living near busy roads</strong> may experience more noise pollution.</li>
+              <li>Companies <strong>investing in employee training</strong> often keep workers longer.</li>
+              <li>Universities <strong>offering flexible schedules</strong> attract more adult learners.</li>
+              <li>Children <strong>growing up in bilingual homes</strong> may develop strong language awareness.</li>
+              <li>Scientists <strong>examining ancient fossils</strong> can learn about past climates.</li>
+              <li>Students <strong>using feedback effectively</strong> usually improve faster.</li>
+            </ol>
+            <p><strong>Logic:</strong> The noun before the phrase performs the action, so the <em>-ing</em> reduction works.</p>
+          </div></details>
+          <details class="prompt-details"><summary>GPT correction prompt for Part A</summary><div><div class="prompt-text" id="prompt-ex2-a">Check my active reduced relative clauses. The task was to reduce “who/that + active verb” into an -ing phrase. Make sure the noun before the phrase is actually doing the action, the sentence remains clear, and the result sounds academic but not overloaded.
+
+Here are my answers:
+[paste answers here]</div><button class="btn copy-btn" type="button" data-copy="prompt-ex2-a">Copy prompt</button></div></details>
+        </section>
+
+        <section class="task-card" id="ex2-b" aria-labelledby="ex2-b-title">
+          <h3 id="ex2-b-title">Part B · Passive Reductions</h3>
+          <p>Reduce the relative clause by removing the relative word and <strong>be</strong>. Keep the past participle.</p>
+          <ol class="numbered-list">
+            <li>The data that were collected during the survey were carefully analyzed.</li>
+            <li>The article that was published last year challenged the traditional view.</li>
+            <li>The proposal that was submitted by the student received strong support.</li>
+            <li>The materials that were provided by the university were useful.</li>
+            <li>The device that was developed by the engineers reduced energy use.</li>
+            <li>The paintings that were discovered in the cave attracted public attention.</li>
+            <li>The policy that was introduced in 2020 changed the admission process.</li>
+            <li>The examples that were discussed in the lecture clarified the theory.</li>
+          </ol>
+          <details class="reveal"><summary>Answer Key · Part B</summary><div>
+            <ol>
+              <li>The data <strong>collected during the survey</strong> were carefully analyzed.</li>
+              <li>The article <strong>published last year</strong> challenged the traditional view.</li>
+              <li>The proposal <strong>submitted by the student</strong> received strong support.</li>
+              <li>The materials <strong>provided by the university</strong> were useful.</li>
+              <li>The device <strong>developed by the engineers</strong> reduced energy use.</li>
+              <li>The paintings <strong>discovered in the cave</strong> attracted public attention.</li>
+              <li>The policy <strong>introduced in 2020</strong> changed the admission process.</li>
+              <li>The examples <strong>discussed in the lecture</strong> clarified the theory.</li>
+            </ol>
+            <p><strong>Logic:</strong> The noun receives the action, so the past participle carries passive meaning.</p>
+          </div></details>
+          <details class="prompt-details"><summary>GPT correction prompt for Part B</summary><div><div class="prompt-text" id="prompt-ex2-b">Check my passive reduced relative clauses. The task was to reduce “that/which + be + past participle” into a past-participle phrase. Make sure I did not accidentally change passive meaning into active meaning, and check whether each sentence remains clear and grammatical.
+
+Here are my answers:
+[paste answers here]</div><button class="btn copy-btn" type="button" data-copy="prompt-ex2-b">Copy prompt</button></div></details>
+        </section>
+
+        <section class="task-card" id="ex2-c" aria-labelledby="ex2-c-title">
+          <h3 id="ex2-c-title">Part C · Being + Past Participle</h3>
+          <p>Reduce ongoing passive clauses. Keep <strong>being + past participle</strong>.</p>
+          <ol class="numbered-list">
+            <li>The building that is being constructed downtown will include a public library.</li>
+            <li>The experiment that is being conducted this month may produce different results.</li>
+            <li>The policy that is being discussed by the committee affects first-year students.</li>
+            <li>The students who are being trained for the competition meet twice a week.</li>
+            <li>The software that is being tested by the department has several problems.</li>
+            <li>The research that is being carried out at the university focuses on water quality.</li>
+          </ol>
+          <details class="reveal"><summary>Answer Key · Part C</summary><div>
+            <ol>
+              <li>The building <strong>being constructed downtown</strong> will include a public library.</li>
+              <li>The experiment <strong>being conducted this month</strong> may produce different results.</li>
+              <li>The policy <strong>being discussed by the committee</strong> affects first-year students.</li>
+              <li>The students <strong>being trained for the competition</strong> meet twice a week.</li>
+              <li>The software <strong>being tested by the department</strong> has several problems.</li>
+              <li>The research <strong>being carried out at the university</strong> focuses on water quality.</li>
+            </ol>
+            <p><strong>Logic:</strong> <em>Being</em> shows that the passive action is ongoing.</p>
+          </div></details>
+          <details class="prompt-details"><summary>GPT correction prompt for Part C</summary><div><div class="prompt-text" id="prompt-ex2-c">Check my reduced relative clauses with “being + past participle.” Make sure I used being only for ongoing passive actions, kept the passive meaning, and did not create an awkward or too-heavy sentence.
+
+Here are my answers:
+[paste answers here]</div><button class="btn copy-btn" type="button" data-copy="prompt-ex2-c">Copy prompt</button></div></details>
+        </section>
+
+        <section class="task-card" id="ex2-d" aria-labelledby="ex2-d-title">
+          <h3 id="ex2-d-title">Part D · Do Not Reduce</h3>
+          <p>These sentences contain relative clauses that should <strong>not</strong> be reduced in the simple way. Explain why.</p>
+          <ol class="numbered-list">
+            <li>The student whom I met after class is from Brazil.</li>
+            <li>The article that we read yesterday was difficult.</li>
+            <li>The professor who I emailed last week responded today.</li>
+            <li>The book that the library recommended is not available.</li>
+            <li>The city where I lived as a child has changed dramatically.</li>
+            <li>The year when I started university was stressful.</li>
+            <li>The person to whom the message was addressed was absent.</li>
+            <li>The issue that the speaker referred to was complex.</li>
+          </ol>
+          <details class="reveal"><summary>Answer Key · Part D</summary><div>
+            <ol>
+              <li>Do not reduce to <em>the student meeting after class</em>. The student is the object of <em>met</em>, not the person doing the meeting.</li>
+              <li>Do not reduce to <em>the article reading yesterday</em>. The article is the object of <em>read</em>.</li>
+              <li>Do not reduce to <em>the professor emailing last week</em>. That would mean the professor emailed someone.</li>
+              <li>Do not reduce to <em>the book recommending...</em>. The library recommended the book.</li>
+              <li><em>Where</em> shows place. It is already compact and should not become an -ing phrase.</li>
+              <li><em>When</em> shows time. It is already compact and should not become an -ing phrase.</li>
+              <li>The phrase is formal and passive-like in meaning; a simple reduction would not preserve the relationship.</li>
+              <li>This can become <em>the issue the speaker referred to</em>, but not a participle reduction like <em>the issue referring to...</em>.</li>
+            </ol>
+          </div></details>
+          <details class="prompt-details"><summary>GPT correction prompt for Part D</summary><div><div class="prompt-text" id="prompt-ex2-d">Check my explanations for why these relative clauses should not be reduced. Focus on whether the noun is the subject or object inside the relative clause, whether a reduction would change the meaning, and whether there is a better natural alternative such as omitting the relative word.
+
+Here are my answers:
+[paste answers here]</div><button class="btn copy-btn" type="button" data-copy="prompt-ex2-d">Copy prompt</button></div></details>
+        </section>
+
+        <section class="task-card" id="ex2-e" aria-labelledby="ex2-e-title">
+          <h3 id="ex2-e-title">Part E · Mixed Reduction Challenge</h3>
+          <p>For each item, write <strong>Reduced</strong> or <strong>Do not reduce</strong>. If it can be reduced, rewrite it.</p>
+          <ol class="numbered-list">
+            <li>Students who complete the practice tests usually feel more confident.</li>
+            <li>The practice test that I completed yesterday was harder than expected.</li>
+            <li>The solution that was proposed by the lecturer was simple.</li>
+            <li>The seminar that is being offered this semester focuses on public health.</li>
+            <li>The professor whom we interviewed gave a detailed answer.</li>
+            <li>Researchers who work with large data sets need strong statistical skills.</li>
+            <li>The evidence that was presented in the article supports the claim.</li>
+            <li>The museum where the paintings were displayed is now closed.</li>
+            <li>The plan that the students designed was approved.</li>
+            <li>The plan that was designed by the students was approved.</li>
+            <li>The scientist who discovered the pattern received an award.</li>
+            <li>The pattern that the scientist discovered changed the field.</li>
+          </ol>
+          <details class="reveal"><summary>Answer Key · Part E</summary><div>
+            <ol>
+              <li>Reduced: Students <strong>completing the practice tests</strong> usually feel more confident.</li>
+              <li>Do not reduce. The test is the object of <em>completed</em>. Natural: <em>The practice test I completed yesterday...</em></li>
+              <li>Reduced: The solution <strong>proposed by the lecturer</strong> was simple.</li>
+              <li>Reduced: The seminar <strong>being offered this semester</strong> focuses on public health.</li>
+              <li>Do not reduce. The professor is the object of <em>interviewed</em>.</li>
+              <li>Reduced: Researchers <strong>working with large data sets</strong> need strong statistical skills.</li>
+              <li>Reduced: The evidence <strong>presented in the article</strong> supports the claim.</li>
+              <li>Do not reduce. <em>Where</em> gives place.</li>
+              <li>Do not reduce with a participle. The plan is the object of <em>designed</em>. Natural: <em>The plan the students designed...</em></li>
+              <li>Reduced: The plan <strong>designed by the students</strong> was approved.</li>
+              <li>Usually do not reduce. <em>The scientist discovering the pattern received an award</em> can sound as if the discovery was happening at the same time as receiving the award. The full version is clearer: <strong>The scientist who discovered the pattern received an award.</strong></li>
+              <li>Do not reduce. The pattern is the object of <em>discovered</em>. Natural: <em>The pattern the scientist discovered...</em></li>
+            </ol>
+          </div></details>
+          <details class="prompt-details"><summary>GPT correction prompt for Part E</summary><div><div class="prompt-text" id="prompt-ex2-e">Check my answers to a mixed reduced-relative-clause challenge. For each item, tell me whether reduction is possible, whether my reduction preserves the meaning, and whether the reduced version sounds natural or slightly awkward. Pay special attention to subject vs object relationships and active vs passive meaning.
+
+Here are my answers:
+[paste answers here]</div><button class="btn copy-btn" type="button" data-copy="prompt-ex2-e">Copy prompt</button></div></details>
+        </section>
+        <div class="exercise-end">Exercise 2 End</div>
+      </section>
+
+      <section class="exercise" id="exercise-3" aria-labelledby="exercise-3-title">
+        <div class="kicker">Exercise 3 Start</div>
+        <h2 id="exercise-3-title">Exercise 3 · Choose the Best Compact Structure</h2>
+        <p>Advanced grammar gives you options. This exercise trains you to choose the structure that is compact, clear, and appropriate for TOEFL.</p>
+
+        <section class="task-card" id="ex3-a" aria-labelledby="ex3-a-title">
+          <h3 id="ex3-a-title">Part A · To-Infinitive Relatives</h3>
+          <p>Rewrite each sentence with a <strong>to-infinitive relative</strong> where natural.</p>
+          <ol class="numbered-list">
+            <li>She was the first student who submitted the assignment.</li>
+            <li>This is the best method that we can use for the project.</li>
+            <li>There is nothing that we need to change in the introduction.</li>
+            <li>He was the last person who left the laboratory.</li>
+            <li>This is the most effective strategy that students can follow.</li>
+            <li>The committee selected the second proposal that would be tested.</li>
+            <li>Do you have anything that you want to add?</li>
+            <li>The article provides several issues that researchers should examine.</li>
+          </ol>
+          <details class="reveal"><summary>Answer Key · Part A</summary><div>
+            <ol>
+              <li>She was the first student <strong>to submit</strong> the assignment.</li>
+              <li>This is the best method <strong>to use</strong> for the project.</li>
+              <li>There is nothing <strong>to change</strong> in the introduction.</li>
+              <li>He was the last person <strong>to leave</strong> the laboratory.</li>
+              <li>This is the most effective strategy <strong>to follow</strong>.</li>
+              <li>The committee selected the second proposal <strong>to be tested</strong>.</li>
+              <li>Do you have anything <strong>to add</strong>?</li>
+              <li>The article provides several issues <strong>for researchers to examine</strong>. / The article provides several issues <strong>to examine</strong>.</li>
+            </ol>
+          </div></details>
+          <details class="prompt-details"><summary>GPT correction prompt for Part A</summary><div><div class="prompt-text" id="prompt-ex3-a">Check my to-infinitive relative clauses. The task was to compress relative clauses after words like first, last, best, most effective, nothing, anything, and issues. Check whether my infinitive form preserves the meaning and whether the logical subject is clear.
+
+Here are my answers:
+[paste answers here]</div><button class="btn copy-btn" type="button" data-copy="prompt-ex3-a">Copy prompt</button></div></details>
+        </section>
+
+        <section class="task-card" id="ex3-b" aria-labelledby="ex3-b-title">
+          <h3 id="ex3-b-title">Part B · Free Relative Clauses</h3>
+          <p>Rewrite the underlined idea using a free relative structure: <strong>what, whoever, whomever, whatever, whichever, wherever, whenever, however</strong>.</p>
+          <ol class="numbered-list">
+            <li>The thing that the speaker emphasized was the need for reliable evidence.</li>
+            <li>Any person who finishes the form early can leave.</li>
+            <li>You may choose any topic that you want.</li>
+            <li>Choose any one of the two schedules that works better for you.</li>
+            <li>At any place where the river slows down, sediment begins to collect.</li>
+            <li>At any time when the temperature drops suddenly, the reaction slows.</li>
+            <li>In any way that students organize their notes, they should review them weekly.</li>
+            <li>No matter how difficult the reading is, students should identify the main claim first.</li>
+            <li>The university will interview any person whom the department recommends.</li>
+            <li>The result depends on the choice that the committee makes.</li>
+          </ol>
+          <details class="reveal"><summary>Answer Key · Part B</summary><div>
+            <ol>
+              <li><strong>What</strong> the speaker emphasized was the need for reliable evidence.</li>
+              <li><strong>Whoever</strong> finishes the form early can leave.</li>
+              <li>You may choose <strong>whatever</strong> topic you want. / You may choose <strong>whatever you want</strong>.</li>
+              <li>Choose <strong>whichever</strong> schedule works better for you.</li>
+              <li><strong>Wherever</strong> the river slows down, sediment begins to collect.</li>
+              <li><strong>Whenever</strong> the temperature drops suddenly, the reaction slows.</li>
+              <li><strong>However</strong> students organize their notes, they should review them weekly.</li>
+              <li><strong>However difficult</strong> the reading is, students should identify the main claim first.</li>
+              <li>The university will interview <strong>whomever</strong> the department recommends. In modern English, <em>whoever</em> is also common, but <em>whomever</em> is the formal object form.</li>
+              <li>The result depends on <strong>whatever choice</strong> the committee makes. If the committee is choosing from a limited set, use <em>whichever choice</em>.</li>
+            </ol>
+          </div></details>
+          <details class="prompt-details"><summary>GPT correction prompt for Part B</summary><div><div class="prompt-text" id="prompt-ex3-b">Check my free relative clauses. The task was to replace expressions like “the thing that,” “any person who,” “anything that,” “any place where,” “any time when,” and “in any way that” with what, whoever, whomever, whatever, whichever, wherever, whenever, or however. Check meaning, formality, and the difference between whatever and whichever.
+
+Here are my answers:
+[paste answers here]</div><button class="btn copy-btn" type="button" data-copy="prompt-ex3-b">Copy prompt</button></div></details>
+        </section>
+
+        <section class="task-card" id="ex3-c" aria-labelledby="ex3-c-title">
+          <h3 id="ex3-c-title">Part C · Quantifier + Relative Clause</h3>
+          <p>Rewrite each weak claim so it defines the group more precisely with a quantifier + relative clause.</p>
+          <ol class="numbered-list">
+            <li>Many students struggle in online courses. Make the group more precise: lack time-management skills.</li>
+            <li>Some books are difficult to use for research. Make the group more precise: were published many decades ago.</li>
+            <li>Anyone must register. Make the group more precise: wants to attend the workshop.</li>
+            <li>Few solutions are practical. Make the group more precise: were proposed in the discussion.</li>
+            <li>Those argue that the policy is unfair. Make the group more precise: oppose the new rule.</li>
+            <li>Most articles support the claim. Make the group more precise: were assigned for the class.</li>
+            <li>Several problems delayed the project. Make the group more precise: the team identified in the first week.</li>
+            <li>Everyone received the slides. Make the group more precise: attended the lecture.</li>
+          </ol>
+          <details class="reveal"><summary>Answer Key · Part C</summary><div>
+            <ol>
+              <li>Many students <strong>who lack time-management skills</strong> struggle in online courses.</li>
+              <li>Some books <strong>that were published many decades ago</strong> are difficult to use for research.</li>
+              <li>Anyone <strong>who wants to attend the workshop</strong> must register.</li>
+              <li>Few solutions <strong>that were proposed in the discussion</strong> are practical.</li>
+              <li>Those <strong>who oppose the new rule</strong> argue that the policy is unfair.</li>
+              <li>Most articles <strong>that were assigned for the class</strong> support the claim.</li>
+              <li>Several problems <strong>that the team identified in the first week</strong> delayed the project.</li>
+              <li>Everyone <strong>who attended the lecture</strong> received the slides.</li>
+            </ol>
+            <p><strong>Logic:</strong> These clauses identify a subgroup. Do not use commas.</p>
+          </div></details>
+          <details class="prompt-details"><summary>GPT correction prompt for Part C</summary><div><div class="prompt-text" id="prompt-ex3-c">Check my quantifier + relative clause sentences. Make sure the relative clause identifies a subgroup, no unnecessary commas are used, the group claim is precise, and the sentence sounds appropriate for TOEFL academic writing.
+
+Here are my answers:
+[paste answers here]</div><button class="btn copy-btn" type="button" data-copy="prompt-ex3-c">Copy prompt</button></div></details>
+        </section>
+
+        <section class="task-card" id="ex3-d" aria-labelledby="ex3-d-title">
+          <h3 id="ex3-d-title">Part D · Stacked Clause or Split Sentence?</h3>
+          <p>Combine the ideas into one sentence only if the result remains readable. Otherwise, write two sentences. Use stacked relative clauses carefully.</p>
+          <ol class="numbered-list">
+            <li>A researcher conducted a study. The researcher specializes in climate models. The study received international attention.</li>
+            <li>A committee proposed a policy. The university created the committee. The policy was controversial.</li>
+            <li>A student wrote a report. The student interviewed several local business owners. The report won an award.</li>
+            <li>A professor recommended an article. The article summarized a theory. The theory changed modern psychology.</li>
+            <li>A team developed software. The software detects errors. The errors appear in long essays.</li>
+            <li>A museum displayed artifacts. Archaeologists discovered the artifacts in a coastal cave. The exhibit attracted many visitors.</li>
+            <li>A lecture explained a method. The method is used by researchers who study memory. The lecture was difficult to follow.</li>
+            <li>A book became popular. A journalist wrote the book. The journalist interviewed families affected by the policy.</li>
+          </ol>
+          <details class="reveal"><summary>Answer Key · Part D</summary><div>
+            <ol>
+              <li>Good stacked version: The study <strong>that the researcher who specializes in climate models conducted</strong> received international attention.</li>
+              <li>Possible but heavy: The policy <strong>that the committee that the university created proposed</strong> was controversial. Better: The university created a committee, and the policy it proposed was controversial.</li>
+              <li>Good: The report <strong>that the student who interviewed several local business owners wrote</strong> won an award. Also natural: The student interviewed several local business owners, and the report she wrote won an award.</li>
+              <li>Better split: The professor recommended an article that summarized a theory. That theory changed modern psychology.</li>
+              <li>Good: The team developed software <strong>that detects errors that appear in long essays</strong>.</li>
+              <li>Good: The museum displayed artifacts <strong>that archaeologists discovered in a coastal cave</strong>, and the exhibit attracted many visitors. Fully stacked would be possible but less smooth.</li>
+              <li>Better split: The lecture explained a method used by researchers who study memory. However, the lecture was difficult to follow.</li>
+              <li>Good but dense: The book <strong>that the journalist who interviewed families affected by the policy wrote</strong> became popular. A split version may be clearer in TOEFL writing.</li>
+            </ol>
+            <p><strong>Rule:</strong> Stacking is useful when the relationship is a clear chain. Split the sentence when the reader has to hold too many nouns in memory.</p>
+          </div></details>
+          <details class="prompt-details"><summary>GPT correction prompt for Part D</summary><div><div class="prompt-text" id="prompt-ex3-d">Check my answers to a stacked relative clause exercise. Tell me whether my one-sentence version is grammatical, whether it is readable, and whether a split version would be better for TOEFL writing. Do not reward complexity if it damages clarity.
+
+Here are my answers:
+[paste answers here]</div><button class="btn copy-btn" type="button" data-copy="prompt-ex3-d">Copy prompt</button></div></details>
+        </section>
+
+        <section class="task-card" id="ex3-e" aria-labelledby="ex3-e-title">
+          <h3 id="ex3-e-title">Part E · Best Compact Version</h3>
+          <p>Choose or write the best compact version. Avoid both wordiness and over-compression.</p>
+          <ol class="numbered-list">
+            <li>Wordy: The thing that surprised the researchers was the speed of the reaction.</li>
+            <li>Wordy: The students who were selected by the department will receive scholarships.</li>
+            <li>Too formal for speaking: The friend with whom I studied helped me prepare.</li>
+            <li>Wordy: This is the best approach that students can use to prepare for the exam.</li>
+            <li>Too dense: The policy that the committee that the university created after the meeting proposed was rejected.</li>
+            <li>Wordy: Every person who wants to use the laboratory must complete the safety form.</li>
+            <li>Awkward: The study, of which the results were surprising, was published in June.</li>
+            <li>Wordy: At any time when students feel confused, they should ask for feedback.</li>
+          </ol>
+          <details class="reveal"><summary>Answer Key · Part E</summary><div>
+            <ol>
+              <li><strong>What surprised the researchers</strong> was the speed of the reaction.</li>
+              <li>The students <strong>selected by the department</strong> will receive scholarships.</li>
+              <li>The friend <strong>I studied with</strong> helped me prepare.</li>
+              <li>This is the best approach <strong>to use</strong> when preparing for the exam.</li>
+              <li>Better split: The university created a committee after the meeting. The policy it proposed was rejected.</li>
+              <li><strong>Everyone who wants to use the laboratory</strong> must complete the safety form.</li>
+              <li>The study, <strong>the results of which were surprising</strong>, was published in June.</li>
+              <li><strong>Whenever students feel confused</strong>, they should ask for feedback.</li>
+            </ol>
+          </div></details>
+          <details class="prompt-details"><summary>GPT correction prompt for Part E</summary><div><div class="prompt-text" id="prompt-ex3-e">Check my compact rewrites. The goal is not maximum compression; the goal is clear, natural, TOEFL-appropriate academic English. Identify if my answer is wordy, too formal, too dense, grammatically wrong, or clear and effective.
+
+Here are my answers:
+[paste answers here]</div><button class="btn copy-btn" type="button" data-copy="prompt-ex3-e">Copy prompt</button></div></details>
+        </section>
+        <div class="exercise-end">Exercise 3 End</div>
+      </section>
+
+      <section class="exercise" id="exercise-4" aria-labelledby="exercise-4-title">
+        <div class="kicker">Exercise 4 Start</div>
+        <h2 id="exercise-4-title">Exercise 4 · Advanced Error Repair in Full TOEFL Texts</h2>
+        <p>This is a high-value exercise. Each text contains realistic advanced relative-clause problems. Find the problems, fix them, and make the whole response smoother.</p>
+
+        <section class="task-card" id="ex4-a" aria-labelledby="ex4-a-title">
+          <h3 id="ex4-a-title">Part A · TOEFL Email Repair</h3>
+          <p>Each email contains advanced relative-clause errors, awkward formal structures, or unclear compression. Correct the response while keeping the tone appropriate for an email.</p>
+
+          <div class="text-box">
+            <div class="response-label">Email 1 · Problem with a workshop</div>
+            <p>Dear Professor Allen,</p>
+            <p>I am writing about the research workshop at which I attended last Friday. The session introduced several methods by that students can organize sources for academic essays. I especially liked the part in which the instructor explained citation software, which many students are not familiar with them. However, the room in which the workshop was held in was too small, and several students who their names were on the registration list had to stand near the door. Also, the handout being printed by the department last month did not match the examples that the instructor was showing on the screen. Could you please send us the updated version, which would help us review what we learned?</p>
+            <p>Sincerely,<br>Daniel</p>
+          </div>
+
+          <div class="text-box">
+            <div class="response-label">Email 2 · Request about a group project</div>
+            <p>Dear Dr. Mason,</p>
+            <p>I am writing to ask about the group presentation that our team is preparing for next week. One of the articles, the main argument of which we are basing our presentation on, is difficult to understand because it uses several terms what we have not studied before. We also found two charts, the results of which seem to contradict each other, but we are not sure however we should explain this difference. The student with whom I am working with suggested that we focus only on the second chart, but I think we should mention both. Could you tell us which approach to use and whether there is anything that we should add to the conclusion?</p>
+            <p>Best regards,<br>Mina</p>
+          </div>
+
+          <div class="text-box">
+            <div class="response-label">Email 3 · Course registration issue</div>
+            <p>Dear Academic Office,</p>
+            <p>I am contacting you about a registration problem which happened yesterday, which prevented me from enrolling in the statistics course. The course, whose instructor is Professor Hall, is required for students which plan to apply for the research track. The system showed an error message, the reason of which was not clear, and then it removed the course from my schedule. I spoke to an advisor to who the department referred me, and she said that there may be a technical issue that is being fixed by the IT team. Since this is the last course to complete my requirement, I would appreciate any help that you can provide.</p>
+            <p>Sincerely,<br>Arman</p>
+          </div>
+
+          <details class="reveal"><summary>Answer Key · Part A</summary><div>
+            <h4>Email 1 · Main issues</h4>
+            <ul>
+              <li><em>at which I attended</em> is wrong because <em>attend</em> is transitive. Use <em>which I attended</em> or <em>that I attended</em>.</li>
+              <li><em>by that</em> is impossible after a preposition. Use <em>by which</em>.</li>
+              <li><em>which many students are not familiar with them</em> repeats the object. Remove <em>them</em>.</li>
+              <li><em>in which the workshop was held in</em> repeats the preposition. Use either <em>in which...was held</em> or <em>which...was held in</em>.</li>
+              <li><em>students who their names</em> should be <em>students whose names</em>.</li>
+              <li><em>handout being printed last month</em> suggests an ongoing action last month, which is illogical. Use <em>printed last month</em>.</li>
+            </ul>
+            <div class="good-box"><p><strong>Possible corrected version:</strong></p><p>Dear Professor Allen,</p><p>I am writing about the research workshop <strong>that I attended</strong> last Friday. The session introduced several methods <strong>by which</strong> students can organize sources for academic essays. I especially liked the part <strong>in which</strong> the instructor explained citation software, <strong>which many students are not familiar with</strong>. However, the room <strong>in which the workshop was held</strong> was too small, and several students <strong>whose names were on the registration list</strong> had to stand near the door. Also, the handout <strong>printed by the department last month</strong> did not match the examples <strong>that the instructor was showing</strong> on the screen. Could you please send us the updated version, <strong>which would help us review what we learned</strong>?</p><p>Sincerely,<br>Daniel</p></div>
+
+            <h4>Email 2 · Main issues</h4>
+            <ul>
+              <li><em>the main argument of which we are basing...</em> is wrong. We base something <em>on</em> an argument. Use <em>on which we are basing...</em>.</li>
+              <li><em>terms what</em> should be <em>terms that/which</em>. <em>What</em> does not modify a noun.</li>
+              <li><em>not sure however we should explain</em> should be <em>not sure how</em> or <em>not sure how we should explain</em>. Here <em>however</em> is wrong.</li>
+              <li><em>with whom I am working with</em> repeats the preposition. Use <em>with whom I am working</em> or <em>who I am working with</em>.</li>
+              <li><em>which approach to use</em> is a good to-infinitive relative structure.</li>
+            </ul>
+            <div class="good-box"><p><strong>Possible corrected version:</strong></p><p>Dear Dr. Mason,</p><p>I am writing to ask about the group presentation that our team is preparing for next week. One of the articles, <strong>on which we are basing our presentation</strong>, is difficult to understand because it uses several terms <strong>that we have not studied before</strong>. We also found two charts, <strong>the results of which seem to contradict each other</strong>, but we are not sure <strong>how we should explain</strong> this difference. The student <strong>I am working with</strong> suggested that we focus only on the second chart, but I think we should mention both. Could you tell us <strong>which approach to use</strong> and whether there is anything <strong>to add</strong> to the conclusion?</p><p>Best regards,<br>Mina</p></div>
+
+            <h4>Email 3 · Main issues</h4>
+            <ul>
+              <li>The opening repeats <em>which</em> awkwardly. Use one clear relative clause and one result clause.</li>
+              <li><em>students which plan</em> should be <em>students who plan</em>.</li>
+              <li><em>the reason of which</em> is unnatural. Use <em>the reason for which</em>, or simpler: <em>for a reason that was not clear</em>.</li>
+              <li><em>to who</em> should be <em>to whom</em>, or more naturally, <em>the advisor the department referred me to</em>.</li>
+              <li><em>issue that is being fixed</em> is correct if the fixing is ongoing.</li>
+            </ul>
+            <div class="good-box"><p><strong>Possible corrected version:</strong></p><p>Dear Academic Office,</p><p>I am contacting you about a registration problem <strong>that happened yesterday and prevented me from enrolling</strong> in the statistics course. The course, <strong>whose instructor is Professor Hall</strong>, is required for students <strong>who plan to apply</strong> for the research track. The system showed an error message <strong>for a reason that was not clear</strong>, and then it removed the course from my schedule. I spoke to the advisor <strong>the department referred me to</strong>, and she said that there may be a technical issue <strong>being fixed by the IT team</strong>. Since this is the last course <strong>I need to complete</strong> my requirement, I would appreciate any help that you can provide.</p><p>Sincerely,<br>Arman</p></div>
+          </div></details>
+          <details class="prompt-details"><summary>GPT correction prompt for Part A</summary><div><div class="prompt-text" id="prompt-ex4-a">You are checking my corrections to TOEFL-style emails with advanced relative-clause errors. Check for: preposition + which/whom errors, repeated prepositions, repeated pronouns, wrong what/which, wrong whose/of which, reduced relative clause errors, awkward over-formality, and email-appropriate tone. Give a corrected version and explain the key problems.
+
+Here are my corrected emails:
+[paste answers here]</div><button class="btn copy-btn" type="button" data-copy="prompt-ex4-a">Copy prompt</button></div></details>
+        </section>
+
+        <section class="task-card" id="ex4-b" aria-labelledby="ex4-b-title">
+          <h3 id="ex4-b-title">Part B · Academic Discussion Repair</h3>
+          <p>Repair the responses. Keep the ideas, but make the relative clauses accurate, natural, and academic.</p>
+
+          <div class="text-box">
+            <div class="response-label">AD 1 · Should universities require internships?</div>
+            <p>I think universities should require internships because they give students experience which they cannot get it in ordinary classes. Many students, who lack professional experience, graduate without knowing how workplaces operate, so internships can help them understand what employers expect. However, the companies in which students work at should be carefully selected because some workplaces only give students simple tasks to do them. A program that is being designed by the university can solve this problem if it includes clear rules by which companies must follow. Whoever completes an internship may also build connections, which they can use them after graduation.</p>
+          </div>
+
+          <div class="text-box">
+            <div class="response-label">AD 2 · Should students choose their own reading materials?</div>
+            <p>I agree that students should sometimes choose their own reading materials. The reason for which I believe this is that students are more motivated when they read what they are interested in. However, whatever book they choose from a list of three options should still match the goals of the course. If students select texts, which are too easy, they may not develop stronger academic skills. Teachers can solve this by preparing a list, the level of which is appropriate, and then allowing students to choose whichever they prefer. This gives freedom while keeping academic standards, which is something makes learning more effective.</p>
+          </div>
+
+          <div class="text-box">
+            <div class="response-label">AD 3 · Should cities invest more in public transportation?</div>
+            <p>Cities should invest more in public transportation because it helps people who they cannot afford cars. The systems which are being developed in many large cities can reduce traffic, but only if they are reliable. Some people, who live far from subway stations, may still need cars, so the city should also improve bus routes. The main problem is funding, the source of which governments must decide carefully. However difficult the project is, it can benefit everyone which depends on public transportation for work or school. This is why the method by which the money is spent on should be transparent.</p>
+          </div>
+
+          <details class="reveal"><summary>Answer Key · Part B</summary><div>
+            <h4>AD 1 · Main issues</h4>
+            <ul>
+              <li><em>experience which they cannot get it</em> repeats the object.</li>
+              <li><em>Many students, who lack professional experience</em> wrongly implies all many students lack it. No commas if defining the subgroup.</li>
+              <li><em>in which students work at</em> repeats the preposition.</li>
+              <li><em>tasks to do them</em> repeats the object after a to-infinitive relative.</li>
+              <li><em>rules by which companies must follow</em> is wrong because <em>follow</em> is transitive. Use <em>rules that companies must follow</em>.</li>
+              <li><em>connections, which they can use them</em> repeats the object.</li>
+            </ul>
+            <div class="good-box"><p><strong>Possible corrected version:</strong></p><p>I think universities should require internships because they give students experience <strong>that they cannot get</strong> in ordinary classes. Many students <strong>who lack professional experience</strong> graduate without knowing how workplaces operate, so internships can help them understand <strong>what employers expect</strong>. However, the companies <strong>where students work</strong> should be carefully selected because some workplaces only give students simple tasks <strong>to do</strong>. A program <strong>designed by the university</strong> can solve this problem if it includes clear rules <strong>that companies must follow</strong>. Students who complete an internship may also build connections <strong>that they can use</strong> after graduation.</p></div>
+
+            <h4>AD 2 · Main issues</h4>
+            <ul>
+              <li><em>The reason for which I believe this</em> is grammatical but stiff; <em>The reason I believe this</em> or <em>I believe this because</em> is better.</li>
+              <li><em>whatever book from a list of three</em> should be <em>whichever book</em> because the options are limited.</li>
+              <li><em>texts, which are too easy</em> should have no comma if only some selected texts are too easy.</li>
+              <li><em>a list, the level of which is appropriate</em> is possible but awkward; <em>a list of texts whose level is appropriate</em> or a split sentence is better.</li>
+              <li><em>something makes</em> needs <em>something that makes</em> or a cleaner rewrite.</li>
+            </ul>
+            <div class="good-box"><p><strong>Possible corrected version:</strong></p><p>I agree that students should sometimes choose their own reading materials. I believe this because students are more motivated when they read <strong>what they are interested in</strong>. However, <strong>whichever book they choose</strong> from a list of three options should still match the goals of the course. If students select texts <strong>that are too easy</strong>, they may not develop stronger academic skills. Teachers can solve this by preparing a list of texts <strong>that are appropriate for the course</strong> and then allowing students to choose <strong>whichever one they prefer</strong>. This gives students freedom while maintaining academic standards, <strong>which can make learning more effective</strong>.</p></div>
+
+            <h4>AD 3 · Main issues</h4>
+            <ul>
+              <li><em>people who they cannot afford cars</em> repeats the subject.</li>
+              <li><em>systems which are being developed</em> is okay, but <em>systems being developed</em> is more compact.</li>
+              <li><em>Some people, who live far...</em> should have no comma if it means only some people live far away.</li>
+              <li><em>everyone which depends</em> should be <em>everyone who depends</em>.</li>
+              <li><em>method by which the money is spent on</em> repeats the preposition; use <em>the way the money is spent</em> or <em>the method by which the money is spent</em>.</li>
+            </ul>
+            <div class="good-box"><p><strong>Possible corrected version:</strong></p><p>Cities should invest more in public transportation because it helps people <strong>who cannot afford cars</strong>. The systems <strong>being developed</strong> in many large cities can reduce traffic, but only if they are reliable. Some people <strong>who live far from subway stations</strong> may still need cars, so the city should also improve bus routes. The main problem is funding, <strong>the source of which governments must decide carefully</strong>. <strong>However difficult the project is</strong>, it can benefit everyone <strong>who depends on public transportation</strong> for work or school. This is why <strong>the way the money is spent</strong> should be transparent.</p></div>
+          </div></details>
+          <details class="prompt-details"><summary>GPT correction prompt for Part B</summary><div><div class="prompt-text" id="prompt-ex4-b">You are checking my corrections to TOEFL Academic Discussion responses with advanced relative-clause errors. Check grammar, punctuation, tone, clarity, and whether my version sounds like a strong TOEFL response. Pay special attention to free relatives, reduced relatives, quantifier clauses, commas that change meaning, and over-formal structures.
+
+Here are my corrected responses:
+[paste answers here]</div><button class="btn copy-btn" type="button" data-copy="prompt-ex4-b">Copy prompt</button></div></details>
+        </section>
+
+        <section class="task-card" id="ex4-c" aria-labelledby="ex4-c-title">
+          <h3 id="ex4-c-title">Part C · Speaking-Style Repair</h3>
+          <p>These answers should sound natural when spoken. Fix the grammar without making the response stiff.</p>
+
+          <div class="text-box">
+            <div class="response-label">Speaking 1 · A useful place on campus</div>
+            <p>A place on campus that I use it a lot is the writing center, which is where students can get help with essays. I like it because the tutors to whom I talk to are usually patient, and they explain mistakes in a way by which I can understand. Last semester, I had an essay being written for my history class, and one tutor helped me organize the paragraphs. That was useful because I had nothing that I could submit confidently before the meeting.</p>
+          </div>
+
+          <div class="text-box">
+            <div class="response-label">Speaking 2 · A teacher who helped you</div>
+            <p>One teacher whom influenced me was my biology teacher in high school. She was the first teacher which made science feel connected to real life. For example, she showed us experiments that were being done by scientists many years ago, which was interesting but confusing. She also told us to ask whoever question we had after class. I think the reason for which I remember her is that she cared about students who their grades were not very high.</p>
+          </div>
+
+          <div class="text-box">
+            <div class="response-label">Speaking 3 · A difficult decision</div>
+            <p>A difficult decision that I had to make was choosing which university to attend. I had two options, so I decided to choose whatever had a better computer science program. The university at which I finally went to was far from my family, which it made the first semester hard. But I met several students studying in the same dorm, who helped me adjust. Looking back, it was the best decision which I could make because it gave me opportunities to learn from professors whose work was very famous.</p>
+          </div>
+
+          <details class="reveal"><summary>Answer Key · Part C</summary><div>
+            <h4>Speaking 1 · Possible corrected version</h4>
+            <div class="good-box"><p>A place on campus <strong>that I use a lot</strong> is the writing center, where students can get help with essays. I like it because the tutors <strong>I talk to</strong> are usually patient, and they explain mistakes in a way <strong>that I can understand</strong>. Last semester, I had an essay <strong>to write</strong> for my history class, and one tutor helped me organize the paragraphs. That was useful because before the meeting, I had nothing <strong>that I felt confident submitting</strong>.</p></div>
+            <p><strong>Why:</strong> Speaking needs natural forms. <em>To whom I talk</em> and <em>by which I can understand</em> are too formal for this context.</p>
+
+            <h4>Speaking 2 · Possible corrected version</h4>
+            <div class="good-box"><p>One teacher <strong>who influenced me</strong> was my biology teacher in high school. She was the first teacher <strong>to make</strong> science feel connected to real life. For example, she showed us experiments <strong>done by scientists many years ago</strong>, which was interesting but sometimes confusing. She also told us to ask <strong>whatever questions we had</strong> after class. I think I remember her because she cared about students <strong>whose grades were not very high</strong>.</p></div>
+            <p><strong>Why:</strong> <em>Who</em> is the subject, <em>first teacher to make</em> is a good to-infinitive relative, and <em>whose grades</em> fixes the possession error.</p>
+
+            <h4>Speaking 3 · Possible corrected version</h4>
+            <div class="good-box"><p>A difficult decision <strong>that I had to make</strong> was choosing which university to attend. I had two options, so I decided to choose <strong>whichever one had</strong> a better computer science program. The university <strong>I finally went to</strong> was far from my family, <strong>which made</strong> the first semester hard. But I met several students <strong>living in the same dorm</strong>, and they helped me adjust. Looking back, it was the best decision <strong>to make</strong> because it gave me opportunities to learn from professors <strong>whose work was well known</strong>.</p></div>
+            <p><strong>Why:</strong> Use <em>whichever</em> for two options. Do not say <em>which it made</em>. For speaking, <em>the university I went to</em> is better than <em>the university to which I went</em>.</p>
+          </div></details>
+          <details class="prompt-details"><summary>GPT correction prompt for Part C</summary><div><div class="prompt-text" id="prompt-ex4-c">You are checking my corrections to TOEFL speaking-style answers. Fix advanced relative-clause errors, but keep the language natural for speech. Do not make the answer unnecessarily formal. Check for repeated pronouns, wrong who/whom/which, whatever vs whichever, to-infinitive relatives, reduced relatives, and sentential which.
+
+Here are my corrected speaking answers:
+[paste answers here]</div><button class="btn copy-btn" type="button" data-copy="prompt-ex4-c">Copy prompt</button></div></details>
+        </section>
+
+        <section class="task-card" id="ex4-d" aria-labelledby="ex4-d-title">
+          <h3 id="ex4-d-title">Part D · Mixed Hard Mode</h3>
+          <p>These short texts mix several advanced structures. Repair them fully.</p>
+          <ol class="numbered-list">
+            <li><strong>Email sentence:</strong> The file, the name of which I mentioned it in my previous message, contains the data by that we made the chart.</li>
+            <li><strong>AD sentence:</strong> Whatever student chooses from the two research topics should explain the method on which the answer is based on.</li>
+            <li><strong>Speaking sentence:</strong> The person to whom I went to the museum with was my cousin, which he studies art history.</li>
+            <li><strong>Email sentence:</strong> I attached the document being submitted last week, which has the instructions that I need them for the project.</li>
+            <li><strong>AD sentence:</strong> All students, who depend on scholarships, may be harmed if the policy changes.</li>
+            <li><strong>Speaking sentence:</strong> The best place in which I can study at is a small café near my house.</li>
+            <li><strong>Email sentence:</strong> The website where I uploaded the form to is not showing the receipt that was generated by the system.</li>
+            <li><strong>AD sentence:</strong> The study, of which the sample size was small, is less convincing than the study whose participants came from several cities.</li>
+          </ol>
+          <details class="reveal"><summary>Answer Key · Part D</summary><div>
+            <ol>
+              <li>The file, <strong>whose name I mentioned</strong> in my previous message, contains the data <strong>from which</strong> we made the chart. / The file, <strong>the name of which I mentioned</strong> in my previous message, contains the data <strong>from which</strong> we made the chart.</li>
+              <li><strong>Whichever research topic a student chooses</strong>, the student should explain the method <strong>on which the answer is based</strong>. More natural: <em>Students who choose either research topic should explain the method their answer is based on.</em></li>
+              <li>The person <strong>I went to the museum with</strong> was my cousin, <strong>who studies art history</strong>.</li>
+              <li>I attached the document <strong>submitted last week</strong>, which has the instructions <strong>that I need</strong> for the project.</li>
+              <li><strong>All students who depend on scholarships</strong> may be harmed if the policy changes. No commas because the clause identifies the subgroup.</li>
+              <li>The best place <strong>to study</strong> is a small café near my house. / The best place <strong>where I can study</strong> is a small café near my house.</li>
+              <li>The website <strong>where I uploaded the form</strong> is not showing the receipt generated by the system. / The website <strong>to which I uploaded the form</strong> is not showing the receipt generated by the system.</li>
+              <li>The study, <strong>the sample size of which was small</strong>, is less convincing than the study <strong>whose participants came from several cities</strong>. Better style: split the first part or use <em>because its sample size was small</em>.</li>
+            </ol>
+          </div></details>
+          <details class="prompt-details"><summary>GPT correction prompt for Part D</summary><div><div class="prompt-text" id="prompt-ex4-d">Check my corrections to mixed hard-mode advanced relative-clause sentences. For each sentence, identify the original error type, correct the sentence, and comment on whether the correction is best for email, Academic Discussion, or speaking. Prioritize clarity and natural TOEFL style over unnecessary complexity.
+
+Here are my answers:
+[paste answers here]</div><button class="btn copy-btn" type="button" data-copy="prompt-ex4-d">Copy prompt</button></div></details>
+        </section>
+        <div class="exercise-end">Exercise 4 End</div>
+      </section>
+
+      <section class="exercise" id="exercise-5" aria-labelledby="exercise-5-title">
+        <div class="kicker">Exercise 5 Start</div>
+        <h2 id="exercise-5-title">Exercise 5 · Upgrade TOEFL Responses with Advanced Relative Structures</h2>
+        <p>Rewrite weak TOEFL responses using advanced relative structures naturally. Do not force every structure. Use the ones that improve clarity, flow, compactness, or academic tone.</p>
+
+        <section class="task-card" id="ex5-a" aria-labelledby="ex5-a-title">
+          <h3 id="ex5-a-title">Part A · TOEFL Email Upgrades</h3>
+          <p>Rewrite each email. Use advanced relative structures where they genuinely help.</p>
+
+          <div class="text-box">
+            <div class="response-label">Email 1 · Weak version</div>
+            <p>Dear Professor Carter,</p>
+            <p>I am writing about the article for our discussion. You assigned the article last week. I read it twice, but I still had trouble understanding the main argument. The article talks about a research method. Researchers use this method to study memory. I also could not understand one chart. The chart shows the results of the second experiment. Could you please explain the chart or tell me another source? I can use that source to understand the topic before class.</p>
+            <p>Sincerely,<br>Nadia</p>
+          </div>
+
+          <div class="text-box">
+            <div class="response-label">Email 2 · Weak version</div>
+            <p>Dear Academic Office,</p>
+            <p>I am writing because I need help with a form. The form is required for students. These students want to join the research track. I submitted the form yesterday. The website gave me an error message. I do not know the reason for the error. I also attached a screenshot. The screenshot shows the page after I clicked submit. Could you please tell me what I should do next? I need to fix the problem before Friday.</p>
+            <p>Best regards,<br>Omid</p>
+          </div>
+
+          <details class="reveal"><summary>Sample Upgrades · Part A</summary><div>
+            <h4>Email 1 · Possible upgraded version</h4>
+            <div class="good-box"><p>Dear Professor Carter,</p><p>I am writing about the article <strong>that you assigned last week</strong> for our discussion. I read it twice, but I still had trouble understanding the main argument, especially the section about the research method <strong>by which scientists study memory</strong>. I also could not understand the chart <strong>showing the results of the second experiment</strong>. Could you please explain that chart or recommend another source <strong>that I can use</strong> to understand the topic before class?</p><p>Sincerely,<br>Nadia</p></div>
+            <h4>Email 2 · Possible upgraded version</h4>
+            <div class="good-box"><p>Dear Academic Office,</p><p>I am writing because I need help with a form <strong>required for students who want to join the research track</strong>. I submitted it yesterday, but the website gave me an error message <strong>for a reason that was not clear</strong>. I also attached a screenshot <strong>showing the page that appeared after I clicked submit</strong>. Could you please tell me <strong>what I should do next</strong>? I need to fix the problem before Friday.</p><p>Best regards,<br>Omid</p></div>
+            <p><strong>Notice:</strong> The upgrades use relative clauses, reduced clauses, and free relatives, but they still sound like emails.</p>
+          </div></details>
+          <details class="prompt-details"><summary>GPT correction prompt for Part A</summary><div><div class="prompt-text" id="prompt-ex5-a">You are checking my upgraded TOEFL emails. I was supposed to improve weak, repetitive emails using advanced relative structures naturally. Check whether I used relative clauses, reduced relatives, free relatives, preposition + which, and to-infinitive relatives accurately. Also check whether the email still sounds polite, clear, and not overly formal.
+
+Here are my upgraded emails:
+[paste answers here]</div><button class="btn copy-btn" type="button" data-copy="prompt-ex5-a">Copy prompt</button></div></details>
+        </section>
+
+        <section class="task-card" id="ex5-b" aria-labelledby="ex5-b-title">
+          <h3 id="ex5-b-title">Part B · Academic Discussion Upgrades</h3>
+          <p>Rewrite the responses so they sound more academic, compact, and precise.</p>
+
+          <div class="text-box">
+            <div class="response-label">AD 1 · Online courses</div>
+            <p>I think online courses can be useful, but they are not good for every student. Some students have weak time-management skills. These students may fall behind quickly. Other students have jobs or family responsibilities. These students benefit from flexible schedules. Universities should not use one policy for everyone. They should think about the needs of different students. This can make online education more effective.</p>
+          </div>
+
+          <div class="text-box">
+            <div class="response-label">AD 2 · Campus jobs</div>
+            <p>I believe universities should offer more campus jobs. Campus jobs give students a way to earn money. Students do not need to leave campus. This is helpful for first-year students. These students may not know the city well. Jobs also teach skills. Employers value these skills later. If the university creates more positions, it should make sure the positions are connected to students’ academic interests.</p>
+          </div>
+
+          <div class="text-box">
+            <div class="response-label">AD 3 · Group projects</div>
+            <p>I partly agree that group projects are useful. Students learn to explain their ideas to other people. These people may have different opinions. This is similar to real workplaces. People must solve problems together in workplaces. However, group projects can be unfair. Some students do most of the work. Other students do very little. Teachers need a method. They can use this method to evaluate individual effort.</p>
+          </div>
+
+          <details class="reveal"><summary>Sample Upgrades · Part B</summary><div>
+            <h4>AD 1 · Possible upgraded version</h4>
+            <div class="good-box"><p>I think online courses can be useful, but they are not appropriate for every student. Students <strong>who lack strong time-management skills</strong> may fall behind quickly, while those <strong>who have jobs or family responsibilities</strong> often benefit from flexible schedules. For this reason, universities should avoid a single policy <strong>that treats all learners the same way</strong>. Instead, they should consider <strong>what different groups of students need</strong>, which can make online education more effective.</p></div>
+            <h4>AD 2 · Possible upgraded version</h4>
+            <div class="good-box"><p>I believe universities should offer more campus jobs because these positions give students a way <strong>to earn money</strong> without leaving campus. This is especially helpful for first-year students <strong>who may not know the city well</strong>. Campus jobs can also teach skills <strong>that employers value later</strong>. If the university creates more positions, it should prioritize jobs <strong>connected to students’ academic interests</strong>, which would make the experience more meaningful.</p></div>
+            <h4>AD 3 · Possible upgraded version</h4>
+            <div class="good-box"><p>I partly agree that group projects are useful because students learn to explain their ideas to people <strong>who may have different opinions</strong>. This resembles real workplaces, <strong>where employees must solve problems together</strong>. However, group projects can be unfair when some students do most of the work while others contribute very little. Teachers therefore need a method <strong>by which they can evaluate individual effort</strong>, not just the final result.</p></div>
+          </div></details>
+          <details class="prompt-details"><summary>GPT correction prompt for Part B</summary><div><div class="prompt-text" id="prompt-ex5-b">You are checking my upgraded TOEFL Academic Discussion responses. I was supposed to improve repetitive writing using advanced relative structures naturally. Check for clarity, precision, academic tone, correct comma logic, accurate reduced relatives, free relatives, quantifier clauses, preposition + which, and sentential which. Do not reward forced complexity.
+
+Here are my upgraded responses:
+[paste answers here]</div><button class="btn copy-btn" type="button" data-copy="prompt-ex5-b">Copy prompt</button></div></details>
+        </section>
+
+        <section class="task-card" id="ex5-c" aria-labelledby="ex5-c-title">
+          <h3 id="ex5-c-title">Part C · Speaking Answer Upgrades</h3>
+          <p>Improve the speaking answers, but keep them natural. Do not use stiff formal structures unless they sound normal in speech.</p>
+
+          <div class="text-box">
+            <div class="response-label">Speaking 1 · A helpful teacher</div>
+            <p>A teacher helped me a lot in high school. She taught chemistry. She explained difficult topics clearly. I was afraid of chemistry before her class. She gave us simple experiments. The experiments showed how the ideas worked in real life. She also answered our questions after class. This made me more confident.</p>
+          </div>
+
+          <div class="text-box">
+            <div class="response-label">Speaking 2 · A useful app</div>
+            <p>An app I use often is a calendar app. It reminds me about deadlines. I used to forget assignments. The assignments were small, but they affected my grades. The app also lets me create lists. I can use the lists to divide large projects into smaller steps. This helps me feel less stressed.</p>
+          </div>
+
+          <div class="text-box">
+            <div class="response-label">Speaking 3 · A place to study</div>
+            <p>My favorite place to study is a small library near my home. It is quiet. It has large tables. Students can put books and laptops on the tables. I usually sit near the window. The window faces a garden. This helps me stay calm. I also like the librarians. They help students find sources.</p>
+          </div>
+
+          <details class="reveal"><summary>Sample Upgrades · Part C</summary><div>
+            <h4>Speaking 1 · Possible upgraded version</h4>
+            <div class="good-box"><p>A teacher <strong>who helped me a lot</strong> in high school was my chemistry teacher. Before her class, I was afraid of chemistry, but she explained difficult topics in a way <strong>that was easy to understand</strong>. She also gave us simple experiments <strong>showing how the ideas worked in real life</strong>. Whenever we had questions after class, she answered them patiently, <strong>which made me more confident</strong>.</p></div>
+            <h4>Speaking 2 · Possible upgraded version</h4>
+            <div class="good-box"><p>An app <strong>that I use often</strong> is a calendar app <strong>that reminds me about deadlines</strong>. I used to forget small assignments <strong>that still affected my grades</strong>. The app also lets me create lists <strong>to divide large projects into smaller steps</strong>, which helps me feel less stressed.</p></div>
+            <h4>Speaking 3 · Possible upgraded version</h4>
+            <div class="good-box"><p>My favorite place <strong>to study</strong> is a small library near my home. It is quiet and has large tables <strong>where students can put books and laptops</strong>. I usually sit near the window <strong>that faces a garden</strong>, which helps me stay calm. I also like the librarians, <strong>who help students find sources</strong>.</p></div>
+            <p><strong>Notice:</strong> The speaking versions use relative clauses, but they do not sound like formal essays.</p>
+          </div></details>
+          <details class="prompt-details"><summary>GPT correction prompt for Part C</summary><div><div class="prompt-text" id="prompt-ex5-c">You are checking my upgraded TOEFL speaking answers. I was supposed to use relative clauses naturally, not force formal academic structures. Check fluency, clarity, pronunciation-friendly sentence length, and correct grammar. Suggest a more natural spoken version if mine sounds too written or stiff.
+
+Here are my upgraded speaking answers:
+[paste answers here]</div><button class="btn copy-btn" type="button" data-copy="prompt-ex5-c">Copy prompt</button></div></details>
+        </section>
+
+        <section class="task-card" id="ex5-d" aria-labelledby="ex5-d-title">
+          <h3 id="ex5-d-title">Part D · Targeted Advanced Upgrade</h3>
+          <p>Rewrite each short paragraph using the target structure. Keep the result clear and TOEFL-appropriate.</p>
+          <ol class="numbered-list">
+            <li><strong>Use a free relative:</strong> The thing that students need most is clear feedback. Feedback helps them understand their mistakes.</li>
+            <li><strong>Use a reduced passive relative:</strong> The materials were uploaded by the professor. The materials are useful for exam preparation.</li>
+            <li><strong>Use a quantifier + relative clause:</strong> Students sometimes struggle online. The students with weak self-discipline struggle the most.</li>
+            <li><strong>Use a to-infinitive relative:</strong> This is the most effective strategy that students can use before a difficult exam.</li>
+            <li><strong>Use of which:</strong> The study had several limitations. The limitations were mentioned in the lecture.</li>
+            <li><strong>Use wherever/whenever:</strong> Students should review their notes. They should do this at any time when they feel confused.</li>
+            <li><strong>Use preposition + which:</strong> The argument depends on one assumption. That assumption is not supported by evidence.</li>
+            <li><strong>Use a stacked clause carefully:</strong> A professor wrote a book. The professor studies ancient cities. The book became popular.</li>
+          </ol>
+          <details class="reveal"><summary>Sample Upgrades · Part D</summary><div>
+            <ol>
+              <li><strong>What students need most</strong> is clear feedback, which helps them understand their mistakes.</li>
+              <li>The materials <strong>uploaded by the professor</strong> are useful for exam preparation.</li>
+              <li>Students <strong>who have weak self-discipline</strong> often struggle the most in online courses.</li>
+              <li>This is the most effective strategy <strong>to use</strong> before a difficult exam.</li>
+              <li>The study, <strong>the limitations of which were mentioned in the lecture</strong>, should be interpreted carefully.</li>
+              <li>Students should review their notes <strong>whenever they feel confused</strong>.</li>
+              <li>The assumption <strong>on which the argument depends</strong> is not supported by evidence.</li>
+              <li>The book <strong>that the professor who studies ancient cities wrote</strong> became popular. A smoother version: <em>The professor who studies ancient cities wrote a book that became popular.</em></li>
+            </ol>
+          </div></details>
+          <details class="prompt-details"><summary>GPT correction prompt for Part D</summary><div><div class="prompt-text" id="prompt-ex5-d">Check my targeted advanced relative-clause upgrades. Each item required a specific structure: free relative, reduced passive, quantifier + relative clause, to-infinitive relative, of which, wherever/whenever, preposition + which, or stacked relative clause. Check accuracy, clarity, and whether the structure is natural in TOEFL writing or speaking.
+
+Here are my answers:
+[paste answers here]</div><button class="btn copy-btn" type="button" data-copy="prompt-ex5-d">Copy prompt</button></div></details>
+        </section>
+
+        <section class="task-card" id="ex5-e" aria-labelledby="ex5-e-title">
+          <h3 id="ex5-e-title">Part E · Final TOEFL Production Practice</h3>
+          <p>Choose one writing task and one speaking task. Use advanced relative clauses naturally. Do not force all of them into one answer.</p>
+          <div class="example-grid">
+            <div class="text-box"><strong>Writing task:</strong> Some people believe universities should allow students to design their own courses. Others believe the university should control the curriculum. Which view do you prefer?</div>
+            <div class="text-box"><strong>Speaking task:</strong> Describe a class, teacher, place, or experience that helped you improve as a student.</div>
+          </div>
+          <p><strong>Try to use at least four of these naturally:</strong></p>
+          <ul>
+            <li>a reduced relative clause: <em>students participating in...</em> / <em>materials provided by...</em></li>
+            <li>a free relative: <em>what students need</em>, <em>whatever they choose</em>, <em>whichever option works better</em></li>
+            <li>a quantifier + relative clause: <em>many students who...</em>, <em>those who...</em></li>
+            <li>a to-infinitive relative: <em>the best strategy to use</em></li>
+            <li>one formal structure in writing only: <em>the method by which...</em> / <em>the principle on which...</em></li>
+            <li>one sentential <em>which</em>: <em>..., which helps students...</em></li>
+          </ul>
+          <details class="prompt-details"><summary>GPT correction prompt for Part E</summary><div><div class="prompt-text" id="prompt-ex5-e">You are checking my final TOEFL production practice. Evaluate my use of advanced relative clauses in writing and speaking. Do not simply count structures. Judge whether each relative clause is natural, accurate, useful, and appropriate for the task. Identify forced or awkward structures, repeated pronouns, wrong comma logic, wrong reductions, and any over-formal language. Then give a stronger revised version.
+
+Here is my answer:
+[paste answer here]</div><button class="btn copy-btn" type="button" data-copy="prompt-ex5-e">Copy prompt</button></div></details>
+        </section>
+        <div class="exercise-end">Exercise 5 End</div>
+      </section>
+
+      <section class="ending-note" aria-labelledby="finalTitle">
+        <div class="kicker">Final Reminder</div>
+        <h2 id="finalTitle">Advanced grammar should serve meaning</h2>
+        <p>A high-scoring TOEFL response does not need to be packed with complex structures. Use advanced relative clauses when they make your sentence more precise, more compact, or more natural. If a structure makes the sentence harder to read or harder to say, simplify it.</p>
+      </section>
+    </div>
+  </div>
+</main>
+
+<div class="lookup-popover" id="lookupPopover" role="dialog" aria-label="Dictionary lookup">
+  <div class="lookup-word" id="lookupWord"></div>
+  <div class="lookup-links" id="lookupLinks"></div>
+</div>
+
+<section class="promo" id="promo" aria-labelledby="promoTitle" role="dialog" aria-modal="false">
+  <div class="promo-inner">
+    <div>
+      <h2 id="promoTitle">Want more TOEFL grammar guides?</h2>
+      <p>Join Kooshky's TOEFL channel for more practical TOEFL grammar, writing, speaking, and reading materials.</p>
+      <a class="btn primary" href="https://t.me/KooshkyTOEFL" target="_blank" rel="noopener">Open Telegram</a>
+    </div>
+    <button class="icon-btn" id="promoClose" type="button" aria-label="Close Telegram invitation">×</button>
+  </div>
+</section>
+
+<button class="btn to-top" id="toTop" type="button" aria-label="Go to top">↑ Top</button>
+
+<script>
+(function () {
+  const root = document.documentElement;
+  const themeToggle = document.getElementById('themeToggle');
+  const navToggle = document.getElementById('navToggle');
+  const navPanel = document.getElementById('navPanel');
+  const toTop = document.getElementById('toTop');
+  const promo = document.getElementById('promo');
+  const promoClose = document.getElementById('promoClose');
+  const lookupPopover = document.getElementById('lookupPopover');
+  const lookupWord = document.getElementById('lookupWord');
+  const lookupLinks = document.getElementById('lookupLinks');
+  const promoKey = 'kooshky_advanced_relative_clauses_workbook_promo_seen_20260708_x9Qp72Lr';
+  const themeKey = 'kooshky_advanced_relative_clauses_workbook_theme_20260708_x9Qp72Lr';
+
+  function setTheme(theme) {
+    root.setAttribute('data-theme', theme);
+    localStorage.setItem(themeKey, theme);
+    themeToggle.textContent = theme === 'dark' ? 'Day mode' : 'Night mode';
+  }
+  setTheme(localStorage.getItem(themeKey) || 'light');
+  themeToggle.addEventListener('click', () => setTheme(root.getAttribute('data-theme') === 'dark' ? 'light' : 'dark'));
+
+  navToggle.addEventListener('click', () => {
+    const open = navPanel.classList.toggle('open');
+    navToggle.setAttribute('aria-expanded', String(open));
+  });
+  navPanel.addEventListener('click', (event) => {
+    if (event.target.closest('a')) {
+      navPanel.classList.remove('open');
+      navToggle.setAttribute('aria-expanded', 'false');
+    }
+  });
+
+  function slugify(text) {
+    return text.toLowerCase().replace(/[·–—]/g, ' ').replace(/[^a-z0-9]+/g, '-').replace(/^-+|-+$/g, '').slice(0, 80);
+  }
+  function buildToc() {
+    const tocList = document.getElementById('tocList');
+    const exercises = Array.from(document.querySelectorAll('.exercise'));
+    tocList.innerHTML = '';
+    exercises.forEach((exercise, index) => {
+      const heading = exercise.querySelector('h2');
+      if (!heading) return;
+      if (!heading.id) heading.id = slugify(heading.textContent) || 'exercise-' + (index + 1);
+      const details = document.createElement('details');
+      details.className = 'toc-exercise';
+      const summary = document.createElement('summary');
+      summary.textContent = heading.textContent.trim();
+      details.appendChild(summary);
+      const ul = document.createElement('ul');
+      ul.className = 'toc-list';
+      const mainLi = document.createElement('li');
+      const mainA = document.createElement('a');
+      mainA.href = '#' + heading.id;
+      mainA.textContent = 'Exercise overview';
+      mainLi.appendChild(mainA);
+      ul.appendChild(mainLi);
+      Array.from(exercise.querySelectorAll('h3')).forEach((h3) => {
+        if (!h3.id) h3.id = slugify(h3.textContent) || Math.random().toString(36).slice(2);
+        const li = document.createElement('li');
+        const a = document.createElement('a');
+        a.href = '#' + h3.id;
+        a.textContent = h3.textContent.trim();
+        li.appendChild(a);
+        ul.appendChild(li);
+      });
+      details.appendChild(ul);
+      tocList.appendChild(details);
+    });
+  }
+  buildToc();
+
+  document.addEventListener('click', (event) => {
+    const btn = event.target.closest('[data-copy]');
+    if (!btn) return;
+    const id = btn.getAttribute('data-copy');
+    const target = document.getElementById(id);
+    if (!target) return;
+    navigator.clipboard.writeText(target.textContent).then(() => {
+      const old = btn.textContent;
+      btn.textContent = 'Copied';
+      setTimeout(() => btn.textContent = old, 1200);
+    }).catch(() => {
+      btn.textContent = 'Copy failed';
+    });
+  });
+
+  function updateTopButton() {
+    if (window.scrollY > 500) toTop.classList.add('show');
+    else toTop.classList.remove('show');
+  }
+  toTop.addEventListener('click', () => window.scrollTo({ top: 0, behavior: 'smooth' }));
+  window.addEventListener('scroll', updateTopButton, { passive: true });
+  updateTopButton();
+
+  function showPromoIfNeeded() {
+    if (localStorage.getItem(promoKey) === 'yes') return;
+    const doc = document.documentElement;
+    const scrollable = doc.scrollHeight - window.innerHeight;
+    if (scrollable <= 0) return;
+    if (window.scrollY / scrollable > 0.48) {
+      promo.classList.add('show');
+      document.body.classList.add('promo-visible');
+      localStorage.setItem(promoKey, 'yes');
+    }
+  }
+  window.addEventListener('scroll', showPromoIfNeeded, { passive: true });
+  promoClose.addEventListener('click', () => {
+    promo.classList.remove('show');
+    document.body.classList.remove('promo-visible');
+    localStorage.setItem(promoKey, 'yes');
+  });
+
+  function cleanSelectionText(text) {
+    return text.replace(/\s+/g, ' ').trim().replace(/^[^A-Za-z0-9]+|[^A-Za-z0-9]+$/g, '');
+  }
+  function getSelectionRect(selection) {
+    if (!selection || selection.rangeCount === 0) return null;
+    const range = selection.getRangeAt(0).cloneRange();
+    let rect = range.getBoundingClientRect();
+    if (rect && (rect.width || rect.height)) return rect;
+    const rects = range.getClientRects();
+    if (rects && rects.length) return rects[0];
+    return null;
+  }
+  function hideLookup() {
+    lookupPopover.classList.remove('show');
+  }
+  function showLookup() {
+    const selection = window.getSelection();
+    const text = cleanSelectionText(selection ? selection.toString() : '');
+    if (!text || text.length > 80) { hideLookup(); return; }
+    const rect = getSelectionRect(selection);
+    const encoded = encodeURIComponent(text.toLowerCase());
+    lookupWord.textContent = 'Look up: ' + text;
+    lookupLinks.innerHTML = '';
+    const links = [
+      ['Cambridge', 'https://dictionary.cambridge.org/dictionary/english/' + encoded],
+      ['Oxford', 'https://www.oxfordlearnersdictionaries.com/definition/english/' + encoded + '?q=' + encoded],
+      ['Merriam-Webster', 'https://www.merriam-webster.com/dictionary/' + encoded],
+      ['Google', 'https://www.google.com/search?q=' + encodeURIComponent(text + ' meaning')]
+    ];
+    links.forEach(([label, href]) => {
+      const a = document.createElement('a');
+      a.href = href;
+      a.target = '_blank';
+      a.rel = 'noopener';
+      a.textContent = label;
+      lookupLinks.appendChild(a);
+    });
+    lookupPopover.classList.add('show');
+    const popRect = lookupPopover.getBoundingClientRect();
+    let left = rect ? rect.left : window.innerWidth / 2 - popRect.width / 2;
+    let top = rect ? rect.bottom + 10 : window.innerHeight / 2;
+    left = Math.min(Math.max(10, left), window.innerWidth - popRect.width - 10);
+    top = Math.min(Math.max(10, top), window.innerHeight - popRect.height - 10);
+    lookupPopover.style.left = left + 'px';
+    lookupPopover.style.top = top + 'px';
+  }
+  let selectionTimer = null;
+  function scheduleLookup() {
+    clearTimeout(selectionTimer);
+    selectionTimer = setTimeout(showLookup, 90);
+  }
+  document.addEventListener('selectionchange', scheduleLookup);
+  document.addEventListener('pointerup', scheduleLookup);
+  document.addEventListener('touchend', scheduleLookup, { passive: true });
+  document.addEventListener('scroll', hideLookup, true);
+  document.addEventListener('keydown', (event) => {
+    if (event.key === 'Escape') hideLookup();
+  });
+  document.addEventListener('pointerdown', (event) => {
+    if (!event.target.closest('#lookupPopover')) {
+      const selection = window.getSelection();
+      if (selection && selection.toString().trim() === '') hideLookup();
+    }
+  });
+})();
+</script>
+</body>
+</html>

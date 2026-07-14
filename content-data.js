@@ -2,7 +2,7 @@
   EDIT THIS FILE TO MANAGE THE SITE'S ARTICLES.
 
   Add one object per guide. Delete an object to remove it from the lists.
-  Set featured: true to show it on the homepage.
+  Set featured: false to show it on the homepage.
 
   `date` is the date displayed to readers.
 
@@ -83,7 +83,7 @@ window.KOOSHKY_CONTENT = [
     "summary": "List of transition words and phrases to use in writing and speaking sections.",
     "date": "2026-06-26",
     "publishAt": "2026-06-26T00:00:00+03:30",
-    "featured": true
+    "featured": false
   },
   {
     "title": "Kooshky's Transitions, Part II: Advanced Transition Words and Phrases",
@@ -110,7 +110,7 @@ window.KOOSHKY_CONTENT = [
     "summary": "Everyday reading and listening pack including words, important ideas, and sample tests focused on campus and academic administration.",
     "date": "2026-07-02",
     "publishAt": "2026-07-02T00:00:00+03:30",
-    "featured": true
+    "featured": false
   },
   {
     "title": "Academic Vocabulary Pack A1 (Ecology): Reading and Listening Guide",
@@ -119,7 +119,7 @@ window.KOOSHKY_CONTENT = [
     "summary": "Academic reading and listening pack including words, ideas, and sample tests focused on ecology.",
     "date": "2026-07-04",
     "publishAt": "2026-07-04T00:00:00+03:30",
-    "featured": true
+    "featured": false
   },
   {
     "title": "Academic Word List: Meaning Recognition Anki Deck",
@@ -128,7 +128,7 @@ window.KOOSHKY_CONTENT = [
     "summary": "A complete AWL Anki deck with meanings, audio pronunciation, word families, and contextual examples.",
     "date": "2026-07-07",
     "publishAt": "2026-07-07T00:00:00+03:30",
-    "featured": false
+    "featured": true
   },
   {
     "title": "Fill The Blanks Sample Exercises",
@@ -146,7 +146,7 @@ window.KOOSHKY_CONTENT = [
     "summary": "A full guide include important words, ideas, and sample answers.",
     "date": "2026-06-27",
     "publishAt": "2026-06-27T00:00:00+03:30",
-    "featured": false
+    "featured": true
   },
   {
     "title": "Speaking Pack: Culture, Festivals, and Traditions",
@@ -182,7 +182,7 @@ window.KOOSHKY_CONTENT = [
     "summary": "A full guide include important words, ideas, and sample answers.",
     "date": "2026-07-10",
     "publishAt": "2026-07-10T00:00:00+03:30",
-    "featured": true
+    "featured": false
   },
   {
     "title": "Grammar: Relative Clauses, Part I",
@@ -191,7 +191,7 @@ window.KOOSHKY_CONTENT = [
     "summary": "Part 1 of the full guide to relative clauses.",
     "date": "2026-06-23",
     "publishAt": "2026-06-23T00:00:00+03:30",
-    "featured": true
+    "featured": false
   },
   {
     "title": "Grammar: Relative Clauses, Part II",
@@ -218,6 +218,15 @@ window.KOOSHKY_CONTENT = [
     "summary": "Full workbook for activating the grammar you learned in previous guides.",
     "date": "2026-07-08",
     "publishAt": "2026-07-08T00:00:00+03:30",
+    "featured": false
+  },
+  {
+    "title": "Grammar: Workbook for Advanced Relative Clauses: Part II and III",
+    "href": "Grammar/RelativeClauses/advanced_relative_clauses_workbook.html",
+    "section": "grammar",
+    "summary": "Full workbook for activating the grammar you learned in part II and III of the relative clause guides.",
+    "date": "2026-07-15",
+    "publishAt": "2026-07-15T14:55:00+03:30",
     "featured": true
   },
   {
@@ -259,6 +268,6 @@ window.KOOSHKY_CONTENT = [
     "summary": "A practical guide to developing reasons, examples, and consequences.",
     "date": "2026-07-20",
     "publishAt": "2026-07-20T10:00:00+03:30",
-    "featured": true
+    "featured": false
   }
 */
