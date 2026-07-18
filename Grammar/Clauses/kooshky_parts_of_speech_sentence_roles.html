@@ -1,0 +1,2266 @@
+<!DOCTYPE html>
+
+<html data-theme="light" lang="en">
+<head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1, viewport-fit=cover" name="viewport"/>
+<meta content="A clear, student-facing guide to parts of speech, sentence functions, and word-by-word grammatical analysis, with graded exercises and explanatory answers." name="description"/>
+<meta content="Amir Kooshky" name="author"/>
+<meta content="light dark" name="color-scheme"/>
+<title>Parts of Speech and Sentence Functions | Kooshky’s TOEFL Guides</title>
+<script>
+    (() => {
+      try {
+        const savedTheme = localStorage.getItem("kooshky-guides:theme:v1");
+        document.documentElement.dataset.theme =
+          savedTheme === "dark" ? "dark" :
+          savedTheme === "light" ? "light" : "light";
+      } catch {
+        document.documentElement.dataset.theme = "light";
+      }
+    })();
+  </script>
+<link href="https://fonts.googleapis.com" rel="preconnect"/>
+<link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect"/>
+<link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:ital,wght@0,400;0,500;0,600;0,700;1,400&amp;family=Literata:opsz,wght@7..72,600;7..72,700&amp;display=swap" rel="stylesheet"/>
+<style>
+    /* =========================
+       Design tokens
+       ========================= */
+    :root {
+      color-scheme: light;
+
+      --color-page: #F4F0E8;
+      --color-surface: #FCFAF6;
+      --color-text: #182027;
+      --color-text-muted: #59636C;
+      --color-border: #D7D0C3;
+      --color-accent: #A9470D;
+      --color-accent-secondary: #1E5B63;
+      --color-accent-soft: #F3E2D3;
+      --color-secondary-soft: #DDEAE8;
+      --color-overlay: rgba(24, 32, 39, 0.56);
+      --color-focus: #1E5B63;
+
+      --font-heading: "Literata", Georgia, "Times New Roman", serif;
+      --font-body: "IBM Plex Sans", Inter, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+
+      --space-1: 0.25rem;
+      --space-2: 0.5rem;
+      --space-3: 0.75rem;
+      --space-4: 1rem;
+      --space-5: 1.5rem;
+      --space-6: 2rem;
+      --space-7: 3rem;
+      --space-8: 4.5rem;
+
+      --radius-small: 4px;
+      --radius-medium: 6px;
+      --radius-large: 10px;
+
+      --header-height: 4.25rem;
+      --article-width: 72ch;
+      --layout-width: 78rem;
+
+      --z-header: 100;
+      --z-mobile-nav: 150;
+      --z-floating-control: 200;
+      --z-selection-menu: 300;
+      --z-modal-backdrop: 400;
+      --z-modal: 410;
+
+      --floating-bottom-offset: max(1rem, calc(env(safe-area-inset-bottom) + 1rem));
+    }
+
+    html[data-theme="dark"] {
+      color-scheme: dark;
+
+      --color-page: #111417;
+      --color-surface: #181D21;
+      --color-text: #ECE7DD;
+      --color-text-muted: #ADB4B8;
+      --color-border: #30383E;
+      --color-accent: #F28C45;
+      --color-accent-secondary: #70B7B4;
+      --color-accent-soft: #332219;
+      --color-secondary-soft: #193033;
+      --color-overlay: rgba(0, 0, 0, 0.72);
+      --color-focus: #70B7B4;
+    }
+
+    /* =========================
+       Base
+       ========================= */
+    *,
+    *::before,
+    *::after {
+      box-sizing: border-box;
+    }
+
+    html {
+      min-width: 0;
+      scroll-behavior: smooth;
+      scroll-padding-top: calc(var(--header-height) + var(--space-4));
+      background: var(--color-page);
+    }
+
+    body {
+      margin: 0;
+      min-width: 0;
+      overflow-x: hidden;
+      background: var(--color-page);
+      color: var(--color-text);
+      font-family: var(--font-body);
+      font-size: 1rem;
+      line-height: 1.72;
+      text-rendering: optimizeLegibility;
+    }
+
+    body.is-nav-open,
+    body.is-modal-open {
+      overflow: hidden;
+    }
+
+    body.is-modal-open {
+      --floating-bottom-offset: max(5.25rem, calc(env(safe-area-inset-bottom) + 5.25rem));
+    }
+
+    img,
+    svg {
+      display: block;
+      max-width: 100%;
+    }
+
+    a,
+    button,
+    summary {
+      -webkit-tap-highlight-color: transparent;
+    }
+
+    a {
+      color: var(--color-accent-secondary);
+      text-decoration-thickness: 1px;
+      text-underline-offset: 0.18em;
+      overflow-wrap: anywhere;
+    }
+
+    a:hover {
+      color: var(--color-accent);
+    }
+
+    button {
+      font: inherit;
+    }
+
+    :focus-visible {
+      outline: 3px solid var(--color-focus);
+      outline-offset: 3px;
+    }
+
+    h1,
+    h2,
+    h3 {
+      margin-top: 0;
+      color: var(--color-text);
+      font-family: var(--font-heading);
+      line-height: 1.18;
+      overflow-wrap: anywhere;
+      scroll-margin-top: calc(var(--header-height) + var(--space-5));
+    }
+
+    h1 {
+      max-width: 19ch;
+      margin-bottom: var(--space-4);
+      font-size: clamp(2.15rem, 5vw, 4.35rem);
+      letter-spacing: -0.045em;
+    }
+
+    h2 {
+      margin-bottom: var(--space-4);
+      font-size: clamp(1.55rem, 2.5vw, 2.15rem);
+      letter-spacing: -0.025em;
+    }
+
+    h3 {
+      margin-bottom: var(--space-3);
+      font-size: clamp(1.13rem, 1.6vw, 1.4rem);
+      letter-spacing: -0.015em;
+    }
+
+    p,
+    li,
+    dd {
+      overflow-wrap: anywhere;
+    }
+
+    p {
+      margin: 0 0 var(--space-4);
+    }
+
+    strong {
+      font-weight: 700;
+    }
+
+    /* =========================
+       Accessibility
+       ========================= */
+    .skip-link {
+      position: fixed;
+      top: var(--space-3);
+      left: var(--space-3);
+      z-index: calc(var(--z-modal) + 10);
+      padding: var(--space-3) var(--space-4);
+      border: 1px solid var(--color-border);
+      border-radius: var(--radius-medium);
+      background: var(--color-surface);
+      color: var(--color-text);
+      transform: translateY(-180%);
+      transition: transform 180ms ease;
+    }
+
+    .skip-link:focus,
+    .skip-link:focus-visible {
+      transform: translateY(0);
+    }
+
+    /* =========================
+       Sticky masthead
+       ========================= */
+    .site-header {
+      position: sticky;
+      top: 0;
+      z-index: var(--z-header);
+      min-height: var(--header-height);
+      border-bottom: 1px solid var(--color-border);
+      background: var(--color-surface);
+    }
+
+    .site-header__inner {
+      width: min(100%, var(--layout-width));
+      min-height: var(--header-height);
+      margin-inline: auto;
+      padding: var(--space-3) clamp(var(--space-4), 3vw, var(--space-6));
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: var(--space-4);
+    }
+
+    .site-identity {
+      min-width: 0;
+      display: flex;
+      align-items: center;
+      gap: var(--space-3);
+      color: var(--color-text);
+      text-decoration: none;
+    }
+
+    .site-identity__mark {
+      width: 0.3rem;
+      height: 2rem;
+      flex: 0 0 auto;
+      background: var(--color-accent);
+    }
+
+    .site-identity__text {
+      min-width: 0;
+      display: grid;
+      gap: 0.08rem;
+      line-height: 1.15;
+    }
+
+    .site-identity__text strong {
+      font-family: var(--font-heading);
+      font-size: 0.98rem;
+    }
+
+    .site-identity__text span {
+      color: var(--color-text-muted);
+      font-size: 0.77rem;
+      letter-spacing: 0.035em;
+    }
+
+    .primary-nav {
+      display: flex;
+      align-items: center;
+      gap: var(--space-3);
+    }
+
+    .primary-nav__link {
+      padding: var(--space-2) var(--space-3);
+      color: var(--color-text);
+      font-size: 0.9rem;
+      font-weight: 600;
+      text-decoration: none;
+    }
+
+    .control-button {
+      min-width: 2.75rem;
+      min-height: 2.75rem;
+      display: inline-grid;
+      place-items: center;
+      border: 1px solid var(--color-border);
+      border-radius: var(--radius-medium);
+      background: var(--color-surface);
+      color: var(--color-text);
+      cursor: pointer;
+      transition: background-color 180ms ease, border-color 180ms ease, color 180ms ease;
+    }
+
+    .control-button:hover {
+      border-color: var(--color-accent-secondary);
+      background: var(--color-secondary-soft);
+      color: var(--color-accent-secondary);
+    }
+
+    .menu-button {
+      display: none;
+    }
+
+    /* =========================
+       Editorial layout
+       ========================= */
+    .guide-layout {
+      width: min(100%, var(--layout-width));
+      margin-inline: auto;
+      padding: var(--space-6) clamp(var(--space-4), 3vw, var(--space-6)) var(--space-8);
+      display: grid;
+      grid-template-columns: minmax(14.5rem, 18rem) minmax(0, 1fr);
+      gap: clamp(var(--space-5), 3vw, var(--space-7));
+      align-items: start;
+    }
+
+    .guide-main {
+      min-width: 0;
+    }
+
+    .editorial-index {
+      position: sticky;
+      top: calc(var(--header-height) + var(--space-5));
+      max-height: calc(100dvh - var(--header-height) - var(--space-7));
+      overflow: auto;
+      min-width: 0;
+      border-top: 4px solid var(--color-accent);
+      border-bottom: 1px solid var(--color-border);
+      background: transparent;
+    }
+
+    .editorial-index__header {
+      padding: var(--space-4) 0 var(--space-3);
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: var(--space-3);
+      border-bottom: 1px solid var(--color-border);
+    }
+
+    .editorial-index__title {
+      margin: 0;
+      color: var(--color-text-muted);
+      font-family: var(--font-body);
+      font-size: 0.75rem;
+      font-weight: 700;
+      letter-spacing: 0.13em;
+      text-transform: uppercase;
+    }
+
+    .editorial-index__home {
+      display: inline-flex;
+      margin: var(--space-3) 0;
+      font-size: 0.88rem;
+      font-weight: 700;
+    }
+
+    .editorial-index__close {
+      display: none;
+    }
+
+    .toc-list,
+    .toc-sublist {
+      margin: 0;
+      padding: 0;
+      list-style: none;
+    }
+
+    .toc-list {
+      padding-bottom: var(--space-4);
+    }
+
+    .toc-item {
+      border-top: 1px solid var(--color-border);
+    }
+
+    .toc-row {
+      display: grid;
+      grid-template-columns: minmax(0, 1fr) auto;
+      align-items: center;
+      gap: var(--space-2);
+    }
+
+    .toc-link {
+      min-width: 0;
+      padding: 0.72rem 0;
+      color: var(--color-text);
+      font-size: 0.9rem;
+      line-height: 1.35;
+      text-decoration: none;
+    }
+
+    .toc-link:hover,
+    .toc-link[aria-current="true"] {
+      color: var(--color-accent);
+    }
+
+    .toc-toggle {
+      width: 2rem;
+      height: 2rem;
+      display: grid;
+      place-items: center;
+      border: 0;
+      border-radius: var(--radius-small);
+      background: transparent;
+      color: var(--color-text-muted);
+      cursor: pointer;
+    }
+
+    .toc-toggle:hover {
+      background: var(--color-accent-soft);
+      color: var(--color-accent);
+    }
+
+    .toc-toggle__icon {
+      transition: transform 180ms ease;
+    }
+
+    .toc-toggle[aria-expanded="true"] .toc-toggle__icon {
+      transform: rotate(90deg);
+    }
+
+    .toc-sublist {
+      display: none;
+      padding: 0 0 var(--space-3) var(--space-4);
+    }
+
+    .toc-sublist[data-open="true"] {
+      display: block;
+    }
+
+    .toc-sublist .toc-link {
+      display: block;
+      padding: 0.45rem 0;
+      color: var(--color-text-muted);
+      font-size: 0.83rem;
+    }
+
+    .mobile-nav-backdrop {
+      position: fixed;
+      inset: var(--header-height) 0 0;
+      z-index: calc(var(--z-mobile-nav) - 1);
+      display: none;
+      background: var(--color-overlay);
+    }
+
+    .mobile-nav-backdrop.is-visible {
+      display: block;
+    }
+
+    /* =========================
+       Hero
+       ========================= */
+    .guide-hero {
+      position: relative;
+      margin-bottom: var(--space-7);
+      padding: clamp(var(--space-6), 5vw, var(--space-8)) 0 var(--space-7);
+      border-top: 1px solid var(--color-border);
+      border-bottom: 1px solid var(--color-border);
+    }
+
+    .guide-hero::before {
+      content: "";
+      display: block;
+      width: clamp(3rem, 8vw, 6rem);
+      height: 0.32rem;
+      margin-bottom: var(--space-5);
+      background: var(--color-accent);
+    }
+
+    .guide-hero__label {
+      margin: 0 0 var(--space-3);
+      color: var(--color-accent);
+      font-size: 0.78rem;
+      font-weight: 700;
+      letter-spacing: 0.14em;
+      text-transform: uppercase;
+    }
+
+    .guide-hero__subtitle {
+      max-width: 60ch;
+      margin-bottom: var(--space-4);
+      color: var(--color-text-muted);
+      font-size: clamp(1rem, 1.6vw, 1.18rem);
+    }
+
+    .guide-hero__credit {
+      margin-bottom: var(--space-5);
+      font-weight: 600;
+    }
+
+    .guide-hero__links {
+      display: flex;
+      flex-wrap: wrap;
+      gap: var(--space-2);
+      margin-bottom: var(--space-4);
+    }
+
+    .editorial-link {
+      display: inline-flex;
+      min-width: 0;
+      padding: 0.62rem 0.78rem;
+      border: 1px solid var(--color-border);
+      border-radius: var(--radius-small);
+      background: var(--color-surface);
+      color: var(--color-text);
+      font-size: 0.88rem;
+      font-weight: 600;
+      text-decoration: none;
+      overflow-wrap: anywhere;
+    }
+
+    .editorial-link:hover {
+      border-color: var(--color-accent-secondary);
+      background: var(--color-secondary-soft);
+      color: var(--color-accent-secondary);
+    }
+
+    /* =========================
+       Educational article
+       ========================= */
+    article {
+      min-width: 0;
+    }
+
+    .content-section {
+      width: min(100%, var(--article-width));
+      margin: 0 auto var(--space-8);
+      padding: 0;
+      border: 0;
+      background: transparent;
+    }
+
+    .content-section > h2 {
+      position: relative;
+      padding-top: var(--space-6);
+      border-top: 1px solid var(--color-border);
+    }
+
+    .content-section > h2::before {
+      content: attr(data-chapter);
+      display: block;
+      margin-bottom: var(--space-3);
+      color: var(--color-accent);
+      font-family: var(--font-body);
+      font-size: 0.72rem;
+      font-weight: 700;
+      letter-spacing: 0.14em;
+      text-transform: uppercase;
+    }
+
+    .content-section > h3 {
+      margin-top: var(--space-7);
+    }
+
+    .compare-grid,
+    .category-grid,
+    .role-grid {
+      display: grid;
+      grid-template-columns: repeat(2, minmax(0, 1fr));
+      gap: var(--space-4);
+      margin: var(--space-5) 0;
+    }
+
+    .mini-card {
+      min-width: 0;
+      padding: var(--space-4);
+      border: 1px solid var(--color-border);
+      border-radius: var(--radius-medium);
+      background: var(--color-surface);
+    }
+
+    .mini-card h3 {
+      margin: 0 0 var(--space-2);
+      font-family: var(--font-heading);
+      font-size: 1.08rem;
+    }
+
+    .mini-card p:last-child {
+      margin-bottom: 0;
+    }
+
+    .example {
+      position: relative;
+      margin: var(--space-4) 0;
+      padding: var(--space-4);
+      border: 1px solid var(--color-border);
+      border-radius: var(--radius-medium);
+      background: var(--color-surface);
+      font-size: 0.97rem;
+      overflow-wrap: anywhere;
+    }
+
+    .example::before {
+      content: "EXAMPLE";
+      display: block;
+      margin-bottom: var(--space-2);
+      color: var(--color-text-muted);
+      font-size: 0.7rem;
+      font-weight: 700;
+      letter-spacing: 0.12em;
+    }
+
+    .note,
+    .rule {
+      position: relative;
+      margin: var(--space-5) 0;
+      padding: var(--space-4) var(--space-4) var(--space-4) calc(var(--space-4) + 0.35rem);
+      border: 1px solid var(--color-border);
+      border-left: 5px solid var(--color-accent-secondary);
+      border-radius: var(--radius-medium);
+      background: var(--color-secondary-soft);
+    }
+
+    .rule {
+      border-left-color: var(--color-accent);
+      background: var(--color-accent-soft);
+    }
+
+    .note::before,
+    .rule::before {
+      display: block;
+      margin-bottom: var(--space-2);
+      font-size: 0.7rem;
+      font-weight: 700;
+      letter-spacing: 0.12em;
+    }
+
+    .note::before {
+      content: "KEY POINT";
+      color: var(--color-accent-secondary);
+    }
+
+    .rule::before {
+      content: "REMEMBER";
+      color: var(--color-accent);
+    }
+
+    .rule strong {
+      display: block;
+      margin-bottom: var(--space-1);
+    }
+
+    .checklist {
+      margin: var(--space-4) 0;
+      padding-left: 1.3rem;
+    }
+
+    .checklist li {
+      margin-bottom: var(--space-3);
+    }
+
+    .quick-map {
+      display: grid;
+      grid-template-columns: minmax(8rem, 0.75fr) minmax(0, 1.7fr);
+      gap: var(--space-3) var(--space-4);
+      margin: var(--space-5) 0;
+    }
+
+    .quick-map dt {
+      font-weight: 700;
+    }
+
+    .quick-map dd {
+      margin: 0;
+      color: var(--color-text-muted);
+    }
+
+    /* =========================
+       Exercises
+       ========================= */
+    .exercise-toolbar {
+      display: flex;
+      flex-wrap: wrap;
+      align-items: center;
+      justify-content: space-between;
+      gap: var(--space-4);
+      margin: var(--space-5) 0;
+      padding-block: var(--space-3);
+      border-block: 1px solid var(--color-border);
+    }
+
+    .exercise-toolbar p {
+      margin: 0;
+    }
+
+    .toolbar-actions {
+      display: flex;
+      flex-wrap: wrap;
+      gap: var(--space-2);
+    }
+
+    .text-button {
+      padding: 0.58rem 0.78rem;
+      border: 1px solid var(--color-border);
+      border-radius: var(--radius-small);
+      background: var(--color-surface);
+      color: var(--color-text);
+      font-weight: 600;
+      cursor: pointer;
+    }
+
+    .text-button:hover {
+      border-color: var(--color-accent-secondary);
+      background: var(--color-secondary-soft);
+      color: var(--color-accent-secondary);
+    }
+
+    .exercise-level {
+      margin-top: var(--space-7);
+    }
+
+    .exercise-level > h3 {
+      padding-bottom: var(--space-3);
+      border-bottom: 1px solid var(--color-border);
+    }
+
+    .exercise-card {
+      margin: var(--space-4) 0;
+      border: 1px solid var(--color-border);
+      border-radius: var(--radius-medium);
+      background: var(--color-surface);
+      overflow: clip;
+    }
+
+    .exercise-head {
+      display: flex;
+      align-items: center;
+      gap: var(--space-3);
+      padding: var(--space-4);
+    }
+
+    .exercise-number {
+      width: 2rem;
+      height: 2rem;
+      flex: 0 0 auto;
+      display: grid;
+      place-items: center;
+      border: 1px solid var(--color-accent);
+      border-radius: var(--radius-small);
+      color: var(--color-accent);
+      font-weight: 700;
+    }
+
+    .exercise-sentence {
+      margin: 0;
+      font-weight: 700;
+      overflow-wrap: anywhere;
+    }
+
+    .student-task {
+      margin: 0;
+      padding: 0 var(--space-4) var(--space-4) 3.75rem;
+      color: var(--color-text-muted);
+      font-size: 0.9rem;
+    }
+
+    .answer-details {
+      border-top: 1px solid var(--color-border);
+      background: var(--color-secondary-soft);
+    }
+
+    .answer-details summary {
+      padding: var(--space-3) var(--space-4);
+      color: var(--color-accent-secondary);
+      font-weight: 700;
+      cursor: pointer;
+    }
+
+    .answer-details[open] summary {
+      border-bottom: 1px solid var(--color-border);
+    }
+
+    .answer-list {
+      margin: 0;
+      padding: var(--space-3) var(--space-5) var(--space-4) 2.6rem;
+    }
+
+    .answer-list li {
+      padding: var(--space-3) 0;
+    }
+
+    .answer-list p {
+      margin: var(--space-2) 0 0;
+      color: var(--color-text-muted);
+    }
+
+    .answer-labels {
+      display: flex;
+      flex-wrap: wrap;
+      align-items: center;
+      gap: var(--space-2);
+    }
+
+    .tag {
+      display: inline-flex;
+      max-width: 100%;
+      padding: 0.18rem 0.45rem;
+      border: 1px solid var(--color-border);
+      border-radius: var(--radius-small);
+      background: var(--color-surface);
+      color: var(--color-text);
+      font-size: 0.77rem;
+      line-height: 1.35;
+      overflow-wrap: anywhere;
+    }
+
+    .tag-function {
+      border-color: color-mix(in srgb, var(--color-accent-secondary) 45%, var(--color-border));
+      background: var(--color-secondary-soft);
+      color: var(--color-accent-secondary);
+    }
+
+    /* =========================
+       Selection lookup
+       ========================= */
+    .lookup-menu {
+      position: fixed;
+      z-index: var(--z-selection-menu);
+      display: none;
+      width: min(22rem, calc(100vw - 1rem));
+      padding: var(--space-2);
+      border: 1px solid var(--color-border);
+      border-radius: var(--radius-medium);
+      background: var(--color-surface);
+      box-shadow: 0 8px 24px rgba(0, 0, 0, 0.14);
+    }
+
+    .lookup-menu.is-visible {
+      display: block;
+    }
+
+    .lookup-menu__term {
+      margin: 0;
+      padding: var(--space-2) var(--space-2) var(--space-3);
+      color: var(--color-text-muted);
+      font-size: 0.82rem;
+      font-weight: 600;
+    }
+
+    .lookup-menu__links {
+      display: grid;
+      grid-template-columns: repeat(2, minmax(0, 1fr));
+      gap: var(--space-2);
+    }
+
+    .lookup-menu__link {
+      min-width: 0;
+      padding: 0.55rem;
+      border: 1px solid var(--color-border);
+      border-radius: var(--radius-small);
+      background: var(--color-page);
+      color: var(--color-text);
+      text-align: center;
+      text-decoration: none;
+      font-size: 0.82rem;
+      font-weight: 600;
+      overflow-wrap: anywhere;
+    }
+
+    .lookup-menu__link:hover {
+      border-color: var(--color-accent-secondary);
+      background: var(--color-secondary-soft);
+      color: var(--color-accent-secondary);
+    }
+
+    /* =========================
+       Telegram modal
+       ========================= */
+    .modal-backdrop {
+      position: fixed;
+      inset: 0;
+      z-index: var(--z-modal-backdrop);
+      display: none;
+      padding:
+        max(var(--space-4), env(safe-area-inset-top))
+        max(var(--space-4), env(safe-area-inset-right))
+        max(var(--space-4), env(safe-area-inset-bottom))
+        max(var(--space-4), env(safe-area-inset-left));
+      place-items: center;
+      background: var(--color-overlay);
+    }
+
+    .modal-backdrop.is-visible {
+      display: grid;
+    }
+
+    .telegram-dialog {
+      z-index: var(--z-modal);
+      width: min(31rem, 100%);
+      max-height: min(34rem, calc(100dvh - 2rem));
+      overflow: auto;
+      padding: var(--space-5);
+      border: 1px solid var(--color-border);
+      border-top: 5px solid var(--color-accent);
+      border-radius: var(--radius-large);
+      background: var(--color-surface);
+    }
+
+    .telegram-dialog__top {
+      display: flex;
+      align-items: flex-start;
+      justify-content: space-between;
+      gap: var(--space-4);
+    }
+
+    .telegram-dialog__label {
+      margin: 0 0 var(--space-2);
+      color: var(--color-accent);
+      font-size: 0.7rem;
+      font-weight: 700;
+      letter-spacing: 0.13em;
+      text-transform: uppercase;
+    }
+
+    .telegram-dialog h2 {
+      margin-bottom: var(--space-3);
+      font-size: 1.45rem;
+    }
+
+    .telegram-dialog__close {
+      flex: 0 0 auto;
+    }
+
+    .telegram-dialog__actions {
+      display: flex;
+      flex-wrap: wrap;
+      gap: var(--space-2);
+      margin-top: var(--space-5);
+    }
+
+    .telegram-dialog__primary,
+    .telegram-dialog__secondary {
+      display: inline-flex;
+      padding: 0.66rem 0.85rem;
+      border: 1px solid var(--color-border);
+      border-radius: var(--radius-small);
+      font-weight: 700;
+      text-decoration: none;
+    }
+
+    .telegram-dialog__primary {
+      border-color: var(--color-accent);
+      background: var(--color-accent);
+      color: #fff;
+    }
+
+    .telegram-dialog__primary:hover {
+      color: #fff;
+      filter: brightness(0.96);
+    }
+
+    .telegram-dialog__secondary {
+      background: var(--color-surface);
+      color: var(--color-text);
+    }
+
+    /* =========================
+       Floating top control
+       ========================= */
+    .go-top {
+      position: fixed;
+      right: max(var(--space-4), env(safe-area-inset-right));
+      bottom: var(--floating-bottom-offset);
+      z-index: var(--z-floating-control);
+      width: 3rem;
+      height: 3rem;
+      display: grid;
+      place-items: center;
+      border: 1px solid var(--color-border);
+      border-radius: var(--radius-medium);
+      background: var(--color-surface);
+      color: var(--color-text);
+      cursor: pointer;
+      opacity: 0;
+      visibility: hidden;
+      transform: translateY(0.5rem);
+      transition: opacity 180ms ease, visibility 180ms ease, transform 180ms ease, bottom 180ms ease;
+    }
+
+    .go-top.is-visible {
+      opacity: 1;
+      visibility: visible;
+      transform: translateY(0);
+    }
+
+    /* =========================
+       Footer
+       ========================= */
+    .site-footer {
+      width: min(100%, var(--article-width));
+      margin: 0 auto;
+      padding: var(--space-6) 0;
+      border-top: 1px solid var(--color-border);
+      color: var(--color-text-muted);
+      font-size: 0.9rem;
+    }
+
+    .site-footer__links {
+      display: flex;
+      flex-wrap: wrap;
+      gap: var(--space-3);
+      margin-top: var(--space-3);
+    }
+
+    /* =========================
+       Responsive
+       ========================= */
+    @media (max-width: 900px) {
+      :root {
+        --header-height: 4rem;
+      }
+
+      .menu-button {
+        display: inline-grid;
+      }
+
+      .primary-nav__home {
+        display: none;
+      }
+
+      .guide-layout {
+        grid-template-columns: minmax(0, 1fr);
+        padding-top: var(--space-5);
+      }
+
+      .editorial-index {
+        position: fixed;
+        top: var(--header-height);
+        left: 0;
+        bottom: 0;
+        z-index: var(--z-mobile-nav);
+        width: min(21rem, 88vw);
+        max-height: none;
+        padding: 0 var(--space-4) max(var(--space-5), env(safe-area-inset-bottom));
+        border-top: 4px solid var(--color-accent);
+        border-right: 1px solid var(--color-border);
+        border-bottom: 0;
+        background: var(--color-surface);
+        transform: translateX(-105%);
+        transition: transform 200ms ease;
+      }
+
+      .editorial-index.is-open {
+        transform: translateX(0);
+      }
+
+      .editorial-index__close {
+        display: inline-grid;
+      }
+    }
+
+    @media (max-width: 680px) {
+      .site-identity__text span {
+        display: none;
+      }
+
+      .site-header__inner {
+        padding-inline: var(--space-3);
+      }
+
+      .guide-layout {
+        padding-inline: var(--space-3);
+      }
+
+      .guide-hero {
+        padding-top: var(--space-6);
+      }
+
+      .guide-hero__links {
+        display: grid;
+        grid-template-columns: minmax(0, 1fr);
+      }
+
+      .editorial-link {
+        justify-content: center;
+        text-align: center;
+      }
+
+      .compare-grid,
+      .category-grid,
+      .role-grid {
+        grid-template-columns: minmax(0, 1fr);
+      }
+
+      .quick-map {
+        grid-template-columns: minmax(0, 1fr);
+        gap: var(--space-1);
+      }
+
+      .quick-map dd {
+        margin-bottom: var(--space-3);
+      }
+
+      .exercise-head {
+        align-items: flex-start;
+      }
+
+      .student-task {
+        padding-left: var(--space-4);
+      }
+
+      .lookup-menu__links {
+        grid-template-columns: minmax(0, 1fr);
+      }
+
+      .telegram-dialog {
+        padding: var(--space-4);
+      }
+    }
+
+    @media (prefers-reduced-motion: reduce) {
+      html {
+        scroll-behavior: auto;
+      }
+
+      *,
+      *::before,
+      *::after {
+        animation-duration: 0.01ms !important;
+        animation-iteration-count: 1 !important;
+        transition-duration: 0.01ms !important;
+      }
+    }
+  </style>
+</head>
+<body>
+<a class="skip-link" href="#main-content">Skip to main content</a>
+<header class="site-header">
+<div class="site-header__inner">
+<a aria-label="Kooshky’s TOEFL Guides home" class="site-identity" href="./index.html">
+<span aria-hidden="true" class="site-identity__mark"></span>
+<span class="site-identity__text">
+<strong>Kooshky’s TOEFL Guides</strong>
+<span>Editorial study guides by Amir Kooshky</span>
+</span>
+</a>
+<nav aria-label="Primary navigation" class="primary-nav">
+<a class="primary-nav__link primary-nav__home" href="./index.html">Home</a>
+<button aria-controls="editorialIndex" aria-expanded="false" aria-label="Open table of contents" class="control-button menu-button" id="menuButton" type="button">☰</button>
+<button aria-label="Switch to dark mode" aria-pressed="false" class="control-button" id="themeButton" title="Switch theme" type="button">◐</button>
+</nav>
+</div>
+</header>
+<div class="mobile-nav-backdrop" hidden="" id="mobileNavBackdrop"></div>
+<div class="guide-layout">
+<aside aria-label="Table of contents" class="editorial-index" id="editorialIndex">
+<div class="editorial-index__header">
+<p class="editorial-index__title">Chapter Index</p>
+<button aria-label="Close table of contents" class="control-button editorial-index__close" id="indexCloseButton" type="button">×</button>
+</div>
+<a class="editorial-index__home" href="./index.html">Home</a>
+<nav aria-label="Guide contents">
+<ol class="toc-list" id="tocList"></ol>
+</nav>
+</aside>
+<main class="guide-main" id="main-content">
+<header class="guide-hero">
+<p class="guide-hero__label">Kooshky’s TOEFL Guides</p>
+<h1>Parts of Speech and Sentence Functions</h1>
+<p class="guide-hero__subtitle">A practical guide to recognizing what kind of word something is and what job it performs inside a sentence.</p>
+<p class="guide-hero__credit">Collected and compiled by Amir Kooshky.</p>
+<div aria-label="Amir Kooshky’s platforms" class="guide-hero__links">
+<a class="editorial-link" href="https://telegram.me/KooshkyTOEFL" rel="noopener noreferrer" target="_blank">Telegram · @KooshkyTOEFL</a>
+<a class="editorial-link" href="https://instagram.com/kooshkytoefl" rel="noopener noreferrer" target="_blank">Instagram · @kooshkytoefl</a>
+<a class="editorial-link" href="https://telegram.me/kooshkyTOEFL_pv" rel="noopener noreferrer" target="_blank">Personal Telegram DM</a>
+</div>
+<p class="guide-hero__subtitle">Visit the Telegram channel and Instagram page for more TOEFL lessons, exercises, and study guides.</p>
+</header>
+<article>
+<section class="content-section">
+<h2>1. Two Different Ways to Describe a Word</h2>
+<p>A word can be described by its <strong>part of speech</strong> and by its <strong>sentence function</strong>. These are related, but they are not the same classification.</p>
+<div class="compare-grid">
+<div class="mini-card"><h3>Part of speech</h3><p>Answers: <strong>What kind of word is this?</strong></p><p>Examples: noun, verb, adjective, adverb.</p><p>It describes the word’s grammatical category and helps determine where it can go and how it can behave.</p></div>
+<div class="mini-card"><h3>Sentence function</h3><p>Answers: <strong>What job is this word doing here?</strong></p><p>Examples: subject, direct object, subject complement.</p><p>It only makes sense when the word appears inside a sentence and has a relationship with the other words.</p></div>
+</div>
+<div class="example"><strong>Sara</strong> called David.<br/>Sara = noun; subject</div>
+<div class="example">David called <strong>Sara</strong>.<br/>Sara = noun; direct object</div>
+<p><strong>Sara</strong> remains a noun in both sentences, but its sentence function changes.</p>
+<h3>The same word form can have different parts of speech</h3>
+<div class="example">The room is <strong>clean</strong>.<br/>clean = adjective</div>
+<div class="example">Please <strong>clean</strong> the room.<br/>clean = verb</div>
+<p>The spelling is the same, and the meanings are related, but the word behaves differently. Examine its meaning, position, nearby words, and possible forms.</p>
+<h3>Why “verb” appears in both systems</h3>
+<div class="example">Birds <strong>fly</strong>.</div>
+<p>As a part of speech, <strong>fly</strong> is a verb: that is its category. As a sentence function, it is the <strong>main verb</strong>: that is its job here.</p>
+<div class="rule"><strong>Keep the two questions separate.</strong>1. What kind of word is it?<br/>2. What job does it perform in this sentence?</div>
+</section>
+<section class="content-section">
+<h2>2. The Main Parts of Speech</h2>
+<p>These categories describe individual words. A word may have more than one possible category, so always examine how it is used.</p>
+<div class="category-grid">
+<div class="mini-card"><h3>Noun</h3><p>Names a person, place, thing, event, state, or idea.</p><div class="example">teacher · city · book · meeting · happiness</div><p>It can often follow <em>a</em>, <em>the</em>, <em>this</em>, or <em>my</em>.</p></div>
+<div class="mini-card"><h3>Pronoun</h3><p>Replaces a noun.</p><div class="example">I · she · they · me · her · them</div><p><em>She</em> often appears as a subject; <em>her</em> often appears as an object.</p></div>
+<div class="mini-card"><h3>Verb</h3><p>Expresses an action, event, change, state, or relationship.</p><div class="example">run · break · become · know · seem · be</div><p>It can often change form: <em>work, works, worked, working</em>.</p></div>
+<div class="mini-card"><h3>Adjective</h3><p>Describes or classifies a noun or pronoun.</p><div class="example">a <strong>difficult</strong> question<br/>The question is <strong>difficult</strong>.</div></div>
+<div class="mini-card"><h3>Adverb</h3><p>Can describe a verb, adjective, another adverb, or the whole statement.</p><div class="example">spoke <strong>quietly</strong><br/><strong>very</strong> difficult</div><p>Not every adverb ends in <em>-ly</em>.</p></div>
+<div class="mini-card"><h3>Determiner</h3><p>Comes before a noun and identifies, limits, counts, or specifies it.</p><div class="example">the student · my phone · several questions</div></div>
+<div class="mini-card"><h3>Preposition</h3><p>Shows a relationship involving place, time, direction, method, or connection.</p><div class="example">in class · after lunch · with her · under the table</div><p>A noun or pronoun after it is its object.</p></div>
+<div class="mini-card"><h3>Conjunction</h3><p>Connects equal words or other grammatical elements.</p><div class="example">tea <strong>and</strong> coffee<br/>difficult <strong>but</strong> fair</div></div>
+<div class="mini-card"><h3>Interjection</h3><p>Expresses a sudden reaction, emotion, greeting, or response.</p><div class="example">Wow! · Ouch! · Oh! · Hey!</div><p>It is often separate from the core grammar.</p></div>
+</div>
+<div class="note">Some grammar books use additional labels such as <strong>particle</strong>. At this stage, the nine categories above are the most important ones to recognize.</div>
+</section>
+<section class="content-section">
+<h2>3. The Main Sentence Functions</h2>
+<p>A <strong>sentence function</strong> is the job performed by a word or complete grammatical unit inside a sentence. The most important functions are not merely labels to memorize: each one has a different relationship with the verb and with the rest of the sentence.</p>
+<div class="note">
+    At this stage, focus on the major sentence-level jobs: <strong>subject, verbal element, direct object, indirect object, subject complement, object complement,</strong> and <strong>adverbial</strong>.
+  </div>
+<h3>The Basic Sentence Skeleton</h3>
+<p>Every complete statement needs a subject and a finite verbal element.</p>
+<div class="example">Sara laughed.</div>
+<ul class="checklist">
+<li><strong>Sara</strong> = subject</li>
+<li><strong>laughed</strong> = main verb</li>
+</ul>
+<p>Some verbs can stand alone. Other verbs need or allow additional elements.</p>
+<div class="example">Sara opened it.</div>
+<ul class="checklist">
+<li><strong>Sara</strong> = subject</li>
+<li><strong>opened</strong> = main verb</li>
+<li><strong>it</strong> = direct object</li>
+</ul>
+<div class="example">Sara gave me money.</div>
+<ul class="checklist">
+<li><strong>Sara</strong> = subject</li>
+<li><strong>gave</strong> = main verb</li>
+<li><strong>me</strong> = indirect object</li>
+<li><strong>money</strong> = direct object</li>
+</ul>
+<p>The number and type of elements in a sentence depend largely on the verb.</p>
+<h3>The Predicate</h3>
+<p>In traditional grammar, the <strong>predicate</strong> is everything that the sentence says about the subject. It normally includes the verb and any objects, complements, or adverbials connected to it.</p>
+<div class="example"><strong>Sara</strong> <u>gave me money yesterday</u>.</div>
+<ul class="checklist">
+<li><strong>Sara</strong> = subject</li>
+<li><u>gave me money yesterday</u> = predicate</li>
+</ul>
+<p>Because the predicate can contain several different jobs, this guide usually analyses its parts separately rather than treating it as one undivided block.</p>
+<h3>1. Subject</h3>
+<p>The <strong>subject</strong> is usually the person, thing, idea, or situation that the statement is about.</p>
+<div class="example"><strong>Sara</strong> laughed.</div>
+<div class="example"><strong>Rain</strong> stopped.</div>
+<div class="example"><strong>Prices</strong> increased.</div>
+<p>The subject is often the person or thing performing an action, but this is not always true.</p>
+<div class="example"><strong>Sara</strong> fell.</div>
+<p>Sara did not deliberately perform the action, but <strong>Sara</strong> is still the subject because the statement is about her.</p>
+<div class="example"><strong>The glass</strong> broke.</div>
+<p>The glass is not an active “doer,” but it is still the subject.</p>
+<h4>Useful clues for finding the subject</h4>
+<ul class="checklist">
+<li>Ask what person, thing, or idea the statement is mainly about.</li>
+<li>Look for the word that controls agreement with the present-tense verb: <em>The student works</em>, but <em>The students work</em>.</li>
+<li>Do not assume that the first noun is always the subject.</li>
+</ul>
+<div class="example">Yesterday, <strong>Sara</strong> arrived.</div>
+<p><strong>Yesterday</strong> comes first, but it tells us when the event happened. The subject is <strong>Sara</strong>.</p>
+<h3>2. The Verbal Element: Main Verbs and Helping Verbs</h3>
+<p>The verbal element tells us what happens, what someone does, what state exists, or what connection is being made.</p>
+<h4>Main verb</h4>
+<p>The <strong>main verb</strong> carries the central meaning.</p>
+<div class="example">Sara <strong>laughed</strong>.</div>
+<div class="example">I <strong>understand</strong>.</div>
+<div class="example">The situation <strong>changed</strong>.</div>
+<p>A main verb does not have to express a physical action. Verbs such as <em>know, understand, own, seem,</em> and <em>exist</em> express states or relationships.</p>
+<h4>Helping verb</h4>
+<p>A <strong>helping verb</strong> works with the main verb to express tense, time, completion, continuation, ability, possibility, obligation, or another grammatical meaning.</p>
+<div class="example">Sara <strong>has finished</strong>.</div>
+<ul class="checklist">
+<li><strong>has</strong> = helping verb</li>
+<li><strong>finished</strong> = main verb</li>
+</ul>
+<div class="example">They <strong>are working</strong>.</div>
+<ul class="checklist">
+<li><strong>are</strong> = helping verb</li>
+<li><strong>working</strong> = main verb</li>
+</ul>
+<div class="example">She <strong>can swim</strong>.</div>
+<ul class="checklist">
+<li><strong>can</strong> = modal helping verb</li>
+<li><strong>swim</strong> = main verb</li>
+</ul>
+<div class="rule">
+<strong>“Verb” is used in two ways.</strong>
+    As a part of speech, it names a word category. As a sentence function, it refers to the verbal element in a particular sentence.
+  </div>
+<h3>3. Direct Object</h3>
+<p>A <strong>direct object</strong> normally follows an action verb and identifies the person or thing directly affected by the action, transferred by the action, perceived, understood, created, or discussed.</p>
+<div class="example">Sara opened <strong>it</strong>.</div>
+<p><strong>It</strong> is the thing directly affected by the action.</p>
+<div class="example">David bought <strong>coffee</strong>.</div>
+<p><strong>Coffee</strong> is the thing bought.</p>
+<div class="example">I understand <strong>you</strong>.</div>
+<p><strong>You</strong> completes the meaning of <em>understand</em>: I understand whom? You.</p>
+<h4>Not every sentence has a direct object</h4>
+<div class="example">Sara laughed.</div>
+<p>Nothing receives the action. The verb <strong>laughed</strong> does not take a direct object here.</p>
+<div class="example">The baby slept.</div>
+<p><strong>Slept</strong> is complete without an object.</p>
+<h4>Do not confuse a subject complement with a direct object</h4>
+<div class="example">Sara became <strong>angry</strong>.</div>
+<p><strong>Angry</strong> does not receive an action. It describes Sara, so it is a subject complement, not a direct object.</p>
+<div class="warning">
+    A word that appears after a verb is not automatically a direct object. First identify what kind of verb it follows and what relationship it has with the subject.
+  </div>
+<h3>4. Indirect Object</h3>
+<p>An <strong>indirect object</strong> usually identifies the person who receives something or the person who benefits from an action.</p>
+<p>It normally appears in this pattern:</p>
+<div class="example">subject + verb + indirect object + direct object</div>
+<div class="example">Sara gave <strong>me</strong> <strong>money</strong>.</div>
+<ul class="checklist">
+<li><strong>money</strong> = direct object: the thing transferred</li>
+<li><strong>me</strong> = indirect object: the recipient</li>
+</ul>
+<p>To distinguish the two objects, first find the thing transferred, shown, sent, told, or bought. That is usually the direct object. Then find the person who receives it or benefits from it. That is usually the indirect object.</p>
+<div class="example">David sent <strong>her</strong> <strong>flowers</strong>.</div>
+<ul class="checklist">
+<li><strong>flowers</strong> = direct object</li>
+<li><strong>her</strong> = indirect object</li>
+</ul>
+<div class="example">The teacher showed <strong>us</strong> <strong>the answer</strong>.</div>
+<ul class="checklist">
+<li><strong>the answer</strong> = direct object</li>
+<li><strong>us</strong> = indirect object</li>
+</ul>
+<div class="example">My brother bought <strong>me</strong> <strong>coffee</strong>.</div>
+<ul class="checklist">
+<li><strong>coffee</strong> = direct object</li>
+<li><strong>me</strong> = indirect object because I benefit from the action</li>
+</ul>
+<h4>Not every verb allows an indirect object</h4>
+<div class="example">Sara opened the door.</div>
+<p>The sentence has a direct object, <strong>the door</strong>, but no recipient or beneficiary. Therefore, it has no indirect object.</p>
+<div class="rule">
+<strong>Find the transferred thing first.</strong>
+    If there is no separate thing being given, sent, shown, told, bought, or made, there is usually no indirect object.
+  </div>
+<h3>5. Linking Verbs</h3>
+<p>A <strong>linking verb</strong> connects the subject to information that describes or identifies it. It does not send an action from the subject toward an object.</p>
+<div class="example">Sara <strong>is</strong> tired.</div>
+<p>The verb <strong>is</strong> links Sara to the description <strong>tired</strong>.</p>
+<div class="example">Mina <strong>became</strong> a doctor.</div>
+<p>The verb <strong>became</strong> links Mina to the identity <strong>doctor</strong>.</p>
+<p>Common linking verbs include:</p>
+<ul class="checklist">
+<li>forms of <strong>be</strong>: am, is, are, was, were</li>
+<li>seem</li>
+<li>become</li>
+<li>appear</li>
+<li>remain</li>
+<li>feel</li>
+<li>look</li>
+<li>sound</li>
+<li>smell</li>
+<li>taste</li>
+</ul>
+<h4>The same verb may be linking in one sentence and an action verb in another</h4>
+<div class="example">The soup <strong>smells</strong> delicious.</div>
+<p><strong>Smells</strong> is linking because it connects <em>soup</em> to the description <em>delicious</em>.</p>
+<div class="example">Sara <strong>smelled</strong> it.</div>
+<p><strong>Smelled</strong> is an action verb here, and <strong>it</strong> is the direct object.</p>
+<h3>6. What Is a Complement?</h3>
+<p>A <strong>complement</strong> completes a grammatical relationship by describing, identifying, or completing another element. In this guide, the two most important kinds are:</p>
+<ul class="checklist">
+<li><strong>subject complement</strong>: refers back to the subject</li>
+<li><strong>object complement</strong>: refers back to the direct object</li>
+</ul>
+<p>The most important question is:</p>
+<div class="example">Which earlier element does this word describe or identify?</div>
+<div class="compare-grid">
+<div class="mini-card">
+<h3>Subject complement</h3>
+<p>Sara became <strong>angry</strong>.</p>
+<p><strong>Angry</strong> describes the subject Sara.</p>
+</div>
+<div class="mini-card">
+<h3>Object complement</h3>
+<p>The news made Sara <strong>angry</strong>.</p>
+<p><strong>Angry</strong> describes the direct object Sara.</p>
+</div>
+</div>
+<h3>7. Subject Complement</h3>
+<p>A <strong>subject complement</strong> comes after a linking verb and describes or identifies the subject.</p>
+<h4>Adjective as subject complement</h4>
+<div class="example">Sara is <strong>tired</strong>.</div>
+<p><strong>Tired</strong> describes Sara.</p>
+<div class="example">The problem seems <strong>serious</strong>.</div>
+<p><strong>Serious</strong> describes the problem.</p>
+<div class="example">The soup smells <strong>delicious</strong>.</div>
+<p><strong>Delicious</strong> describes the soup.</p>
+<h4>Noun as subject complement</h4>
+<div class="example">Mina is <strong>a doctor</strong>.</div>
+<p><strong>Doctor</strong> identifies Mina. Mina and the doctor are the same person.</p>
+<div class="example">David became <strong>captain</strong>.</div>
+<p><strong>Captain</strong> identifies the role David entered.</p>
+<h4>A useful equality test</h4>
+<p>A subject complement often creates a description or identity relationship:</p>
+<div class="example">Mina = doctor</div>
+<div class="example">Sara = tired</div>
+<p>This does not mean the two words are grammatically identical. It means the complement refers back to the subject.</p>
+<h4>Compare a complement and an object</h4>
+<div class="example">Sara is <strong>a doctor</strong>.</div>
+<p><strong>A doctor</strong> identifies Sara, so it is a subject complement.</p>
+<div class="example">Sara called <strong>a doctor</strong>.</div>
+<p><strong>A doctor</strong> is a different participant receiving the action of <em>called</em>, so it is a direct object.</p>
+<div class="rule">
+<strong>After a linking verb, look for a subject complement—not a direct object.</strong>
+</div>
+<h3>8. Object Complement</h3>
+<p>An <strong>object complement</strong> comes after a direct object and describes it, identifies it, or states the result of the action.</p>
+<p>The basic pattern is:</p>
+<div class="example">subject + verb + direct object + object complement</div>
+<div class="example">The news made <strong>her</strong> <strong>angry</strong>.</div>
+<ul class="checklist">
+<li><strong>her</strong> = direct object</li>
+<li><strong>angry</strong> = object complement describing her</li>
+</ul>
+<div class="example">They elected <strong>him</strong> <strong>president</strong>.</div>
+<ul class="checklist">
+<li><strong>him</strong> = direct object</li>
+<li><strong>president</strong> = object complement identifying him</li>
+</ul>
+<div class="example">We painted <strong>it</strong> <strong>blue</strong>.</div>
+<ul class="checklist">
+<li><strong>it</strong> = direct object</li>
+<li><strong>blue</strong> = object complement describing its resulting condition</li>
+</ul>
+<h4>How to recognize an object complement</h4>
+<p>Check whether the final word refers back to the object.</p>
+<div class="example">her = angry</div>
+<div class="example">him = president</div>
+<div class="example">it = blue</div>
+<h4>Do not confuse an object complement with an indirect object</h4>
+<div class="example">Sara gave <strong>him</strong> <strong>money</strong>.</div>
+<p><strong>Him</strong> is the indirect object and <strong>money</strong> is the direct object. Money does not describe or identify him.</p>
+<div class="example">Sara called <strong>him</strong> <strong>foolish</strong>.</div>
+<p><strong>Him</strong> is the direct object and <strong>foolish</strong> is the object complement because it describes him.</p>
+<div class="warning">
+    Two words after a verb do not automatically mean “indirect object + direct object.” Check whether the second word is a transferred thing or a description of the object.
+  </div>
+<h3>9. Adverbial</h3>
+<p>An <strong>adverbial</strong> gives additional information about the event, situation, or complete statement. It often tells us:</p>
+<ul class="checklist">
+<li>when</li>
+<li>where</li>
+<li>how</li>
+<li>how often</li>
+<li>the speaker’s attitude toward the whole statement</li>
+</ul>
+<h4>Adverbial of time</h4>
+<div class="example">She arrived <strong>yesterday</strong>.</div>
+<p><strong>Yesterday</strong> tells us when she arrived.</p>
+<h4>Adverbial of place</h4>
+<div class="example">She waited <strong>outside</strong>.</div>
+<p><strong>Outside</strong> tells us where she waited.</p>
+<h4>Adverbial of manner</h4>
+<div class="example">She answered <strong>carefully</strong>.</div>
+<p><strong>Carefully</strong> tells us how she answered.</p>
+<h4>Adverbial of frequency</h4>
+<div class="example">She <strong>often</strong> complains.</div>
+<p><strong>Often</strong> tells us how frequently the event happens.</p>
+<h4>Adverbial commenting on the whole sentence</h4>
+<div class="example"><strong>Fortunately</strong>, nobody fell.</div>
+<p><strong>Fortunately</strong> expresses the speaker’s attitude toward the complete situation.</p>
+<h4>Adverb and adverbial are not the same label</h4>
+<p><strong>Adverb</strong> is a part of speech. <strong>Adverbial</strong> is a sentence function.</p>
+<div class="example">She answered <strong>carefully</strong>.</div>
+<ul class="checklist">
+<li>part of speech: adverb</li>
+<li>sentence function: adverbial of manner</li>
+</ul>
+<p>However, not every adverb functions as a separate adverbial.</p>
+<div class="example">The test was <strong>very</strong> difficult.</div>
+<p><strong>Very</strong> is an adverb, but it only strengthens the adjective <em>difficult</em>. It is not a separate sentence-level adverbial.</p>
+<div class="example">She spoke <strong>very</strong> <strong>quietly</strong>.</div>
+<ul class="checklist">
+<li><strong>quietly</strong> = adverb; adverbial of manner</li>
+<li><strong>very</strong> = adverb strengthening <em>quietly</em></li>
+</ul>
+<div class="rule">
+<strong>Do not give every adverb a major sentence function.</strong>
+    Some adverbs function inside a larger unit by strengthening another word.
+  </div>
+<h3>10. Determiners and Adjectives Inside Larger Sentence Parts</h3>
+<p>Determiners and adjectives usually do not form separate major sentence functions. They work inside a larger subject, object, or complement.</p>
+<div class="example"><strong>The careful student</strong> answered.</div>
+<ul class="checklist">
+<li><strong>the careful student</strong> = complete subject</li>
+<li><strong>the</strong> = determiner identifying student</li>
+<li><strong>careful</strong> = adjective describing student</li>
+<li><strong>student</strong> = central noun</li>
+</ul>
+<p>The words <strong>the</strong> and <strong>careful</strong> do not independently function as the subject. They contribute to the larger subject.</p>
+<div class="note">
+    The next guide explains how several words can work together as one sentence part and how such groups are classified.
+  </div>
+</section>
+<div aria-hidden="true" id="promoSentinel"></div>
+<section class="content-section">
+<h2>4. A Simple Analysis Method</h2>
+<ol class="checklist">
+<li><strong>Identify each part of speech.</strong> Ask what kind of word it is and how it behaves.</li>
+<li><strong>Find the subject and verbal part.</strong> Decide what the statement is about and what action, event, state, or connection is expressed.</li>
+<li><strong>Look for objects or complements.</strong> Decide whether a word receives an action, receives something, or describes the subject or object.</li>
+<li><strong>Identify extra information.</strong> Determiners identify nouns, adjectives describe nouns, and adverbials tell when, where, how, or how often.</li>
+</ol>
+<div class="example">Sara opened it carefully.</div>
+<dl class="quick-map"><dt>Sara</dt><dd>proper noun; subject</dd><dt>opened</dt><dd>verb; main verb</dd><dt>it</dt><dd>pronoun; direct object</dd><dt>carefully</dt><dd>adverb; adverbial of manner</dd></dl>
+<div class="rule"><strong>Do not group words yet.</strong>In these exercises, analyse every word separately. Later lessons can explain how groups of words work together.</div>
+</section>
+<section class="content-section" id="practice">
+<h2>5. Practice: Label Every Word</h2>
+<p>For each word, write its <strong>part of speech</strong> and its <strong>sentence function</strong>. The sentences become gradually more difficult.</p>
+<div class="exercise-toolbar"><p><strong>30 exercises</strong> with expandable explanations.</p><div class="toolbar-actions"><button class="text-button" id="openAnswers" type="button">Open all answers</button><button class="text-button" id="closeAnswers" type="button">Close all answers</button></div></div>
+<section class="exercise-level"><h3>Level 1 — Subjects and Main Verbs</h3>
+<article class="exercise-card"><div class="exercise-head"><span class="exercise-number">1</span><p class="exercise-sentence">Birds fly.</p></div><p class="student-task">Label every word with its <strong>part of speech</strong> and <strong>sentence function</strong>.</p><details class="answer-details"><summary>Show answer and explanation</summary><ol class="answer-list"><li><div class="answer-labels"><strong>Birds</strong><span class="tag">noun</span><span class="tag tag-function">subject</span></div><p>It names what the sentence is about.</p></li><li><div class="answer-labels"><strong>fly</strong><span class="tag">verb</span><span class="tag tag-function">main verb</span></div><p>It tells what birds do.</p></li></ol></details></article>
+<article class="exercise-card"><div class="exercise-head"><span class="exercise-number">2</span><p class="exercise-sentence">Sara laughed.</p></div><p class="student-task">Label every word with its <strong>part of speech</strong> and <strong>sentence function</strong>.</p><details class="answer-details"><summary>Show answer and explanation</summary><ol class="answer-list"><li><div class="answer-labels"><strong>Sara</strong><span class="tag">proper noun</span><span class="tag tag-function">subject</span></div><p>The sentence is about Sara.</p></li><li><div class="answer-labels"><strong>laughed</strong><span class="tag">verb</span><span class="tag tag-function">main verb</span></div><p>It tells what happened.</p></li></ol></details></article>
+<article class="exercise-card"><div class="exercise-head"><span class="exercise-number">3</span><p class="exercise-sentence">They arrived yesterday.</p></div><p class="student-task">Label every word with its <strong>part of speech</strong> and <strong>sentence function</strong>.</p><details class="answer-details"><summary>Show answer and explanation</summary><ol class="answer-list"><li><div class="answer-labels"><strong>They</strong><span class="tag">pronoun</span><span class="tag tag-function">subject</span></div><p>It replaces names and is what the sentence is about.</p></li><li><div class="answer-labels"><strong>arrived</strong><span class="tag">verb</span><span class="tag tag-function">main verb</span></div><p>It tells what happened.</p></li><li><div class="answer-labels"><strong>yesterday</strong><span class="tag">adverb</span><span class="tag tag-function">adverbial of time</span></div><p>It tells when they arrived.</p></li></ol></details></article>
+</section>
+<section class="exercise-level"><h3>Level 2 — Direct Objects</h3>
+<article class="exercise-card"><div class="exercise-head"><span class="exercise-number">4</span><p class="exercise-sentence">Sara opened it.</p></div><p class="student-task">Label every word with its <strong>part of speech</strong> and <strong>sentence function</strong>.</p><details class="answer-details"><summary>Show answer and explanation</summary><ol class="answer-list"><li><div class="answer-labels"><strong>Sara</strong><span class="tag">proper noun</span><span class="tag tag-function">subject</span></div><p>Sara performs the action.</p></li><li><div class="answer-labels"><strong>opened</strong><span class="tag">verb</span><span class="tag tag-function">main verb</span></div><p>It expresses the action.</p></li><li><div class="answer-labels"><strong>it</strong><span class="tag">pronoun</span><span class="tag tag-function">direct object</span></div><p>It is the thing directly affected by the action.</p></li></ol></details></article>
+<article class="exercise-card"><div class="exercise-head"><span class="exercise-number">5</span><p class="exercise-sentence">David bought coffee.</p></div><p class="student-task">Label every word with its <strong>part of speech</strong> and <strong>sentence function</strong>.</p><details class="answer-details"><summary>Show answer and explanation</summary><ol class="answer-list"><li><div class="answer-labels"><strong>David</strong><span class="tag">proper noun</span><span class="tag tag-function">subject</span></div><p>The sentence is about David.</p></li><li><div class="answer-labels"><strong>bought</strong><span class="tag">verb</span><span class="tag tag-function">main verb</span></div><p>It expresses the action.</p></li><li><div class="answer-labels"><strong>coffee</strong><span class="tag">noun</span><span class="tag tag-function">direct object</span></div><p>It is the thing David bought.</p></li></ol></details></article>
+<article class="exercise-card"><div class="exercise-head"><span class="exercise-number">6</span><p class="exercise-sentence">Reza closed the window.</p></div><p class="student-task">Label every word with its <strong>part of speech</strong> and <strong>sentence function</strong>.</p><details class="answer-details"><summary>Show answer and explanation</summary><ol class="answer-list"><li><div class="answer-labels"><strong>Reza</strong><span class="tag">proper noun</span><span class="tag tag-function">subject</span></div><p>Reza performs the action.</p></li><li><div class="answer-labels"><strong>closed</strong><span class="tag">verb</span><span class="tag tag-function">main verb</span></div><p>It expresses the action.</p></li><li><div class="answer-labels"><strong>the</strong><span class="tag">determiner</span><span class="tag tag-function">determines window</span></div><p>It identifies which window is meant.</p></li><li><div class="answer-labels"><strong>window</strong><span class="tag">noun</span><span class="tag tag-function">direct object</span></div><p>It is the thing directly affected by the action.</p></li></ol></details></article>
+</section>
+<section class="exercise-level"><h3>Level 3 — Adjectives and Adverbs</h3>
+<article class="exercise-card"><div class="exercise-head"><span class="exercise-number">7</span><p class="exercise-sentence">Young birds fly.</p></div><p class="student-task">Label every word with its <strong>part of speech</strong> and <strong>sentence function</strong>.</p><details class="answer-details"><summary>Show answer and explanation</summary><ol class="answer-list"><li><div class="answer-labels"><strong>Young</strong><span class="tag">adjective</span><span class="tag tag-function">describes birds</span></div><p>It gives information about the noun birds.</p></li><li><div class="answer-labels"><strong>birds</strong><span class="tag">noun</span><span class="tag tag-function">subject</span></div><p>The sentence is about the birds.</p></li><li><div class="answer-labels"><strong>fly</strong><span class="tag">verb</span><span class="tag tag-function">main verb</span></div><p>It tells what the birds do.</p></li></ol></details></article>
+<article class="exercise-card"><div class="exercise-head"><span class="exercise-number">8</span><p class="exercise-sentence">The dog barked loudly.</p></div><p class="student-task">Label every word with its <strong>part of speech</strong> and <strong>sentence function</strong>.</p><details class="answer-details"><summary>Show answer and explanation</summary><ol class="answer-list"><li><div class="answer-labels"><strong>The</strong><span class="tag">determiner</span><span class="tag tag-function">determines dog</span></div><p>It identifies the noun dog.</p></li><li><div class="answer-labels"><strong>dog</strong><span class="tag">noun</span><span class="tag tag-function">subject</span></div><p>The dog performs the action.</p></li><li><div class="answer-labels"><strong>barked</strong><span class="tag">verb</span><span class="tag tag-function">main verb</span></div><p>It tells what the dog did.</p></li><li><div class="answer-labels"><strong>loudly</strong><span class="tag">adverb</span><span class="tag tag-function">adverbial of manner</span></div><p>It tells how the dog barked.</p></li></ol></details></article>
+<article class="exercise-card"><div class="exercise-head"><span class="exercise-number">9</span><p class="exercise-sentence">Sara bought a red coat.</p></div><p class="student-task">Label every word with its <strong>part of speech</strong> and <strong>sentence function</strong>.</p><details class="answer-details"><summary>Show answer and explanation</summary><ol class="answer-list"><li><div class="answer-labels"><strong>Sara</strong><span class="tag">proper noun</span><span class="tag tag-function">subject</span></div><p>Sara performs the action.</p></li><li><div class="answer-labels"><strong>bought</strong><span class="tag">verb</span><span class="tag tag-function">main verb</span></div><p>It expresses the action.</p></li><li><div class="answer-labels"><strong>a</strong><span class="tag">determiner</span><span class="tag tag-function">determines coat</span></div><p>It introduces one nonspecific coat.</p></li><li><div class="answer-labels"><strong>red</strong><span class="tag">adjective</span><span class="tag tag-function">describes coat</span></div><p>It tells us what kind of coat it was.</p></li><li><div class="answer-labels"><strong>coat</strong><span class="tag">noun</span><span class="tag tag-function">direct object</span></div><p>It is the thing Sara bought.</p></li></ol></details></article>
+<article class="exercise-card"><div class="exercise-head"><span class="exercise-number">10</span><p class="exercise-sentence">She spoke very quietly.</p></div><p class="student-task">Label every word with its <strong>part of speech</strong> and <strong>sentence function</strong>.</p><details class="answer-details"><summary>Show answer and explanation</summary><ol class="answer-list"><li><div class="answer-labels"><strong>She</strong><span class="tag">pronoun</span><span class="tag tag-function">subject</span></div><p>It is what the sentence is about.</p></li><li><div class="answer-labels"><strong>spoke</strong><span class="tag">verb</span><span class="tag tag-function">main verb</span></div><p>It expresses the action.</p></li><li><div class="answer-labels"><strong>very</strong><span class="tag">adverb</span><span class="tag tag-function">strengthens quietly</span></div><p>It increases the degree of quietly; it is not a separate adverbial.</p></li><li><div class="answer-labels"><strong>quietly</strong><span class="tag">adverb</span><span class="tag tag-function">adverbial of manner</span></div><p>It tells how she spoke.</p></li></ol></details></article>
+</section>
+<section class="exercise-level"><h3>Level 4 — Linking Verbs and Subject Complements</h3>
+<article class="exercise-card"><div class="exercise-head"><span class="exercise-number">11</span><p class="exercise-sentence">Sara is tired.</p></div><p class="student-task">Label every word with its <strong>part of speech</strong> and <strong>sentence function</strong>.</p><details class="answer-details"><summary>Show answer and explanation</summary><ol class="answer-list"><li><div class="answer-labels"><strong>Sara</strong><span class="tag">proper noun</span><span class="tag tag-function">subject</span></div><p>The sentence is about Sara.</p></li><li><div class="answer-labels"><strong>is</strong><span class="tag">verb</span><span class="tag tag-function">linking verb</span></div><p>It connects Sara to a description instead of expressing an action.</p></li><li><div class="answer-labels"><strong>tired</strong><span class="tag">adjective</span><span class="tag tag-function">subject complement</span></div><p>It describes the subject Sara.</p></li></ol></details></article>
+<article class="exercise-card"><div class="exercise-head"><span class="exercise-number">12</span><p class="exercise-sentence">David became angry.</p></div><p class="student-task">Label every word with its <strong>part of speech</strong> and <strong>sentence function</strong>.</p><details class="answer-details"><summary>Show answer and explanation</summary><ol class="answer-list"><li><div class="answer-labels"><strong>David</strong><span class="tag">proper noun</span><span class="tag tag-function">subject</span></div><p>The sentence is about David.</p></li><li><div class="answer-labels"><strong>became</strong><span class="tag">verb</span><span class="tag tag-function">linking verb</span></div><p>It connects David to the condition he entered.</p></li><li><div class="answer-labels"><strong>angry</strong><span class="tag">adjective</span><span class="tag tag-function">subject complement</span></div><p>It describes the subject David.</p></li></ol></details></article>
+<article class="exercise-card"><div class="exercise-head"><span class="exercise-number">13</span><p class="exercise-sentence">Mina is a doctor.</p></div><p class="student-task">Label every word with its <strong>part of speech</strong> and <strong>sentence function</strong>.</p><details class="answer-details"><summary>Show answer and explanation</summary><ol class="answer-list"><li><div class="answer-labels"><strong>Mina</strong><span class="tag">proper noun</span><span class="tag tag-function">subject</span></div><p>The sentence is about Mina.</p></li><li><div class="answer-labels"><strong>is</strong><span class="tag">verb</span><span class="tag tag-function">linking verb</span></div><p>It connects Mina to her identity.</p></li><li><div class="answer-labels"><strong>a</strong><span class="tag">determiner</span><span class="tag tag-function">determines doctor</span></div><p>It introduces one member of the class doctor.</p></li><li><div class="answer-labels"><strong>doctor</strong><span class="tag">noun</span><span class="tag tag-function">subject complement</span></div><p>It identifies Mina; Mina and doctor refer to the same person.</p></li></ol></details></article>
+<article class="exercise-card"><div class="exercise-head"><span class="exercise-number">14</span><p class="exercise-sentence">The soup smells delicious.</p></div><p class="student-task">Label every word with its <strong>part of speech</strong> and <strong>sentence function</strong>.</p><details class="answer-details"><summary>Show answer and explanation</summary><ol class="answer-list"><li><div class="answer-labels"><strong>The</strong><span class="tag">determiner</span><span class="tag tag-function">determines soup</span></div><p>It identifies the noun soup.</p></li><li><div class="answer-labels"><strong>soup</strong><span class="tag">noun</span><span class="tag tag-function">subject</span></div><p>The sentence is about the soup.</p></li><li><div class="answer-labels"><strong>smells</strong><span class="tag">verb</span><span class="tag tag-function">linking verb</span></div><p>It connects the soup to a description of its smell.</p></li><li><div class="answer-labels"><strong>delicious</strong><span class="tag">adjective</span><span class="tag tag-function">subject complement</span></div><p>It describes the subject soup.</p></li></ol></details></article>
+<article class="exercise-card"><div class="exercise-head"><span class="exercise-number">15</span><p class="exercise-sentence">The students seem extremely nervous.</p></div><p class="student-task">Label every word with its <strong>part of speech</strong> and <strong>sentence function</strong>.</p><details class="answer-details"><summary>Show answer and explanation</summary><ol class="answer-list"><li><div class="answer-labels"><strong>The</strong><span class="tag">determiner</span><span class="tag tag-function">determines students</span></div><p>It identifies the noun students.</p></li><li><div class="answer-labels"><strong>students</strong><span class="tag">noun</span><span class="tag tag-function">subject</span></div><p>The sentence is about the students.</p></li><li><div class="answer-labels"><strong>seem</strong><span class="tag">verb</span><span class="tag tag-function">linking verb</span></div><p>It connects the students to an appearance or impression.</p></li><li><div class="answer-labels"><strong>extremely</strong><span class="tag">adverb</span><span class="tag tag-function">strengthens nervous</span></div><p>It increases the degree of the adjective nervous.</p></li><li><div class="answer-labels"><strong>nervous</strong><span class="tag">adjective</span><span class="tag tag-function">subject complement</span></div><p>It describes the subject students.</p></li></ol></details></article>
+</section>
+<section class="exercise-level"><h3>Level 5 — Helping Verbs</h3>
+<article class="exercise-card"><div class="exercise-head"><span class="exercise-number">16</span><p class="exercise-sentence">Sara has finished.</p></div><p class="student-task">Label every word with its <strong>part of speech</strong> and <strong>sentence function</strong>.</p><details class="answer-details"><summary>Show answer and explanation</summary><ol class="answer-list"><li><div class="answer-labels"><strong>Sara</strong><span class="tag">proper noun</span><span class="tag tag-function">subject</span></div><p>The sentence is about Sara.</p></li><li><div class="answer-labels"><strong>has</strong><span class="tag">verb</span><span class="tag tag-function">helping verb</span></div><p>It helps the main verb form the present perfect.</p></li><li><div class="answer-labels"><strong>finished</strong><span class="tag">verb</span><span class="tag tag-function">main verb</span></div><p>It carries the central meaning of the verbal part.</p></li></ol></details></article>
+<article class="exercise-card"><div class="exercise-head"><span class="exercise-number">17</span><p class="exercise-sentence">They are working.</p></div><p class="student-task">Label every word with its <strong>part of speech</strong> and <strong>sentence function</strong>.</p><details class="answer-details"><summary>Show answer and explanation</summary><ol class="answer-list"><li><div class="answer-labels"><strong>They</strong><span class="tag">pronoun</span><span class="tag tag-function">subject</span></div><p>It is what the sentence is about.</p></li><li><div class="answer-labels"><strong>are</strong><span class="tag">verb</span><span class="tag tag-function">helping verb</span></div><p>It helps form the continuing action.</p></li><li><div class="answer-labels"><strong>working</strong><span class="tag">verb</span><span class="tag tag-function">main verb</span></div><p>It carries the central action meaning.</p></li></ol></details></article>
+<article class="exercise-card"><div class="exercise-head"><span class="exercise-number">18</span><p class="exercise-sentence">He will leave soon.</p></div><p class="student-task">Label every word with its <strong>part of speech</strong> and <strong>sentence function</strong>.</p><details class="answer-details"><summary>Show answer and explanation</summary><ol class="answer-list"><li><div class="answer-labels"><strong>He</strong><span class="tag">pronoun</span><span class="tag tag-function">subject</span></div><p>It is what the sentence is about.</p></li><li><div class="answer-labels"><strong>will</strong><span class="tag">modal verb</span><span class="tag tag-function">helping verb</span></div><p>It helps express future meaning.</p></li><li><div class="answer-labels"><strong>leave</strong><span class="tag">verb</span><span class="tag tag-function">main verb</span></div><p>It carries the central action meaning.</p></li><li><div class="answer-labels"><strong>soon</strong><span class="tag">adverb</span><span class="tag tag-function">adverbial of time</span></div><p>It tells when he will leave.</p></li></ol></details></article>
+<article class="exercise-card"><div class="exercise-head"><span class="exercise-number">19</span><p class="exercise-sentence">She can solve it easily.</p></div><p class="student-task">Label every word with its <strong>part of speech</strong> and <strong>sentence function</strong>.</p><details class="answer-details"><summary>Show answer and explanation</summary><ol class="answer-list"><li><div class="answer-labels"><strong>She</strong><span class="tag">pronoun</span><span class="tag tag-function">subject</span></div><p>She is the person whose ability is described.</p></li><li><div class="answer-labels"><strong>can</strong><span class="tag">modal verb</span><span class="tag tag-function">helping verb</span></div><p>It expresses ability.</p></li><li><div class="answer-labels"><strong>solve</strong><span class="tag">verb</span><span class="tag tag-function">main verb</span></div><p>It carries the central action meaning.</p></li><li><div class="answer-labels"><strong>it</strong><span class="tag">pronoun</span><span class="tag tag-function">direct object</span></div><p>It is the thing she can solve.</p></li><li><div class="answer-labels"><strong>easily</strong><span class="tag">adverb</span><span class="tag tag-function">adverbial of manner</span></div><p>It tells how she can solve it.</p></li></ol></details></article>
+</section>
+<section class="exercise-level"><h3>Level 6 — Indirect Objects</h3>
+<article class="exercise-card"><div class="exercise-head"><span class="exercise-number">20</span><p class="exercise-sentence">Sara gave me money.</p></div><p class="student-task">Label every word with its <strong>part of speech</strong> and <strong>sentence function</strong>.</p><details class="answer-details"><summary>Show answer and explanation</summary><ol class="answer-list"><li><div class="answer-labels"><strong>Sara</strong><span class="tag">proper noun</span><span class="tag tag-function">subject</span></div><p>Sara performs the action.</p></li><li><div class="answer-labels"><strong>gave</strong><span class="tag">verb</span><span class="tag tag-function">main verb</span></div><p>It expresses a transfer.</p></li><li><div class="answer-labels"><strong>me</strong><span class="tag">pronoun</span><span class="tag tag-function">indirect object</span></div><p>I am the recipient. The indirect object comes before the thing transferred.</p></li><li><div class="answer-labels"><strong>money</strong><span class="tag">noun</span><span class="tag tag-function">direct object</span></div><p>Money is the thing that was given.</p></li></ol></details></article>
+<article class="exercise-card"><div class="exercise-head"><span class="exercise-number">21</span><p class="exercise-sentence">David sent her flowers.</p></div><p class="student-task">Label every word with its <strong>part of speech</strong> and <strong>sentence function</strong>.</p><details class="answer-details"><summary>Show answer and explanation</summary><ol class="answer-list"><li><div class="answer-labels"><strong>David</strong><span class="tag">proper noun</span><span class="tag tag-function">subject</span></div><p>David performs the action.</p></li><li><div class="answer-labels"><strong>sent</strong><span class="tag">verb</span><span class="tag tag-function">main verb</span></div><p>It expresses a transfer.</p></li><li><div class="answer-labels"><strong>her</strong><span class="tag">pronoun</span><span class="tag tag-function">indirect object</span></div><p>She is the recipient of the flowers.</p></li><li><div class="answer-labels"><strong>flowers</strong><span class="tag">noun</span><span class="tag tag-function">direct object</span></div><p>The flowers are the thing transferred.</p></li></ol></details></article>
+<article class="exercise-card"><div class="exercise-head"><span class="exercise-number">22</span><p class="exercise-sentence">The teacher showed us the answer.</p></div><p class="student-task">Label every word with its <strong>part of speech</strong> and <strong>sentence function</strong>.</p><details class="answer-details"><summary>Show answer and explanation</summary><ol class="answer-list"><li><div class="answer-labels"><strong>The</strong><span class="tag">determiner</span><span class="tag tag-function">determines teacher</span></div><p>It identifies the noun teacher.</p></li><li><div class="answer-labels"><strong>teacher</strong><span class="tag">noun</span><span class="tag tag-function">subject</span></div><p>The teacher performs the action.</p></li><li><div class="answer-labels"><strong>showed</strong><span class="tag">verb</span><span class="tag tag-function">main verb</span></div><p>It expresses the act of presenting information.</p></li><li><div class="answer-labels"><strong>us</strong><span class="tag">pronoun</span><span class="tag tag-function">indirect object</span></div><p>We are the recipients of the information.</p></li><li><div class="answer-labels"><strong>the</strong><span class="tag">determiner</span><span class="tag tag-function">determines answer</span></div><p>It identifies which answer is meant.</p></li><li><div class="answer-labels"><strong>answer</strong><span class="tag">noun</span><span class="tag tag-function">direct object</span></div><p>The answer is the thing shown.</p></li></ol></details></article>
+<article class="exercise-card"><div class="exercise-head"><span class="exercise-number">23</span><p class="exercise-sentence">My brother bought me coffee.</p></div><p class="student-task">Label every word with its <strong>part of speech</strong> and <strong>sentence function</strong>.</p><details class="answer-details"><summary>Show answer and explanation</summary><ol class="answer-list"><li><div class="answer-labels"><strong>My</strong><span class="tag">determiner</span><span class="tag tag-function">determines brother</span></div><p>It shows whose brother is meant.</p></li><li><div class="answer-labels"><strong>brother</strong><span class="tag">noun</span><span class="tag tag-function">subject</span></div><p>The brother performs the action.</p></li><li><div class="answer-labels"><strong>bought</strong><span class="tag">verb</span><span class="tag tag-function">main verb</span></div><p>It expresses the action.</p></li><li><div class="answer-labels"><strong>me</strong><span class="tag">pronoun</span><span class="tag tag-function">indirect object</span></div><p>I am the person who benefits from the action.</p></li><li><div class="answer-labels"><strong>coffee</strong><span class="tag">noun</span><span class="tag tag-function">direct object</span></div><p>Coffee is the thing bought.</p></li></ol></details></article>
+</section>
+<section class="exercise-level"><h3>Level 7 — Object Complements</h3>
+<article class="exercise-card"><div class="exercise-head"><span class="exercise-number">24</span><p class="exercise-sentence">The news made her angry.</p></div><p class="student-task">Label every word with its <strong>part of speech</strong> and <strong>sentence function</strong>.</p><details class="answer-details"><summary>Show answer and explanation</summary><ol class="answer-list"><li><div class="answer-labels"><strong>The</strong><span class="tag">determiner</span><span class="tag tag-function">determines news</span></div><p>It identifies the noun news.</p></li><li><div class="answer-labels"><strong>news</strong><span class="tag">noun</span><span class="tag tag-function">subject</span></div><p>The news causes the result.</p></li><li><div class="answer-labels"><strong>made</strong><span class="tag">verb</span><span class="tag tag-function">main verb</span></div><p>It expresses a causing action.</p></li><li><div class="answer-labels"><strong>her</strong><span class="tag">pronoun</span><span class="tag tag-function">direct object</span></div><p>She is the person affected by the news.</p></li><li><div class="answer-labels"><strong>angry</strong><span class="tag">adjective</span><span class="tag tag-function">object complement</span></div><p>It describes the object her, not the subject news.</p></li></ol></details></article>
+<article class="exercise-card"><div class="exercise-head"><span class="exercise-number">25</span><p class="exercise-sentence">They elected him president.</p></div><p class="student-task">Label every word with its <strong>part of speech</strong> and <strong>sentence function</strong>.</p><details class="answer-details"><summary>Show answer and explanation</summary><ol class="answer-list"><li><div class="answer-labels"><strong>They</strong><span class="tag">pronoun</span><span class="tag tag-function">subject</span></div><p>They perform the action.</p></li><li><div class="answer-labels"><strong>elected</strong><span class="tag">verb</span><span class="tag tag-function">main verb</span></div><p>It expresses the action.</p></li><li><div class="answer-labels"><strong>him</strong><span class="tag">pronoun</span><span class="tag tag-function">direct object</span></div><p>He is the person elected.</p></li><li><div class="answer-labels"><strong>president</strong><span class="tag">noun</span><span class="tag tag-function">object complement</span></div><p>It identifies what the object him became.</p></li></ol></details></article>
+<article class="exercise-card"><div class="exercise-head"><span class="exercise-number">26</span><p class="exercise-sentence">We painted it blue.</p></div><p class="student-task">Label every word with its <strong>part of speech</strong> and <strong>sentence function</strong>.</p><details class="answer-details"><summary>Show answer and explanation</summary><ol class="answer-list"><li><div class="answer-labels"><strong>We</strong><span class="tag">pronoun</span><span class="tag tag-function">subject</span></div><p>We perform the action.</p></li><li><div class="answer-labels"><strong>painted</strong><span class="tag">verb</span><span class="tag tag-function">main verb</span></div><p>It expresses the action.</p></li><li><div class="answer-labels"><strong>it</strong><span class="tag">pronoun</span><span class="tag tag-function">direct object</span></div><p>It is the thing affected by the action.</p></li><li><div class="answer-labels"><strong>blue</strong><span class="tag">adjective</span><span class="tag tag-function">object complement</span></div><p>It describes the resulting condition of the object it.</p></li></ol></details></article>
+</section>
+<section class="exercise-level"><h3>Level 8 — Conjunctions and Mixed Review</h3>
+<article class="exercise-card"><div class="exercise-head"><span class="exercise-number">27</span><p class="exercise-sentence">Sara and David laughed.</p></div><p class="student-task">Label every word with its <strong>part of speech</strong> and <strong>sentence function</strong>.</p><details class="answer-details"><summary>Show answer and explanation</summary><ol class="answer-list"><li><div class="answer-labels"><strong>Sara</strong><span class="tag">proper noun</span><span class="tag tag-function">part of the subject</span></div><p>Sara shares the subject role with David.</p></li><li><div class="answer-labels"><strong>and</strong><span class="tag">conjunction</span><span class="tag tag-function">connects Sara and David</span></div><p>It joins two equal words that share the same sentence role.</p></li><li><div class="answer-labels"><strong>David</strong><span class="tag">proper noun</span><span class="tag tag-function">part of the subject</span></div><p>David shares the subject role with Sara.</p></li><li><div class="answer-labels"><strong>laughed</strong><span class="tag">verb</span><span class="tag tag-function">main verb</span></div><p>It tells what Sara and David did.</p></li></ol></details></article>
+<article class="exercise-card"><div class="exercise-head"><span class="exercise-number">28</span><p class="exercise-sentence">She bought tea and coffee.</p></div><p class="student-task">Label every word with its <strong>part of speech</strong> and <strong>sentence function</strong>.</p><details class="answer-details"><summary>Show answer and explanation</summary><ol class="answer-list"><li><div class="answer-labels"><strong>She</strong><span class="tag">pronoun</span><span class="tag tag-function">subject</span></div><p>She performs the action.</p></li><li><div class="answer-labels"><strong>bought</strong><span class="tag">verb</span><span class="tag tag-function">main verb</span></div><p>It expresses the action.</p></li><li><div class="answer-labels"><strong>tea</strong><span class="tag">noun</span><span class="tag tag-function">part of the direct object</span></div><p>Tea is one of the things bought.</p></li><li><div class="answer-labels"><strong>and</strong><span class="tag">conjunction</span><span class="tag tag-function">connects tea and coffee</span></div><p>It joins two equal words that share the direct-object role.</p></li><li><div class="answer-labels"><strong>coffee</strong><span class="tag">noun</span><span class="tag tag-function">part of the direct object</span></div><p>Coffee is the other thing bought.</p></li></ol></details></article>
+<article class="exercise-card"><div class="exercise-head"><span class="exercise-number">29</span><p class="exercise-sentence">The test was difficult but fair.</p></div><p class="student-task">Label every word with its <strong>part of speech</strong> and <strong>sentence function</strong>.</p><details class="answer-details"><summary>Show answer and explanation</summary><ol class="answer-list"><li><div class="answer-labels"><strong>The</strong><span class="tag">determiner</span><span class="tag tag-function">determines test</span></div><p>It identifies the noun test.</p></li><li><div class="answer-labels"><strong>test</strong><span class="tag">noun</span><span class="tag tag-function">subject</span></div><p>The sentence is about the test.</p></li><li><div class="answer-labels"><strong>was</strong><span class="tag">verb</span><span class="tag tag-function">linking verb</span></div><p>It connects the test to two descriptions.</p></li><li><div class="answer-labels"><strong>difficult</strong><span class="tag">adjective</span><span class="tag tag-function">part of the subject complement</span></div><p>It describes the subject test.</p></li><li><div class="answer-labels"><strong>but</strong><span class="tag">conjunction</span><span class="tag tag-function">connects difficult and fair</span></div><p>It joins two contrasting descriptions.</p></li><li><div class="answer-labels"><strong>fair</strong><span class="tag">adjective</span><span class="tag tag-function">part of the subject complement</span></div><p>It also describes the subject test.</p></li></ol></details></article>
+<article class="exercise-card"><div class="exercise-head"><span class="exercise-number">30</span><p class="exercise-sentence">Wow, she answered the difficult question very confidently.</p></div><p class="student-task">Label every word with its <strong>part of speech</strong> and <strong>sentence function</strong>.</p><details class="answer-details"><summary>Show answer and explanation</summary><ol class="answer-list"><li><div class="answer-labels"><strong>Wow</strong><span class="tag">interjection</span><span class="tag tag-function">separate reaction</span></div><p>It expresses surprise and is outside the core sentence structure.</p></li><li><div class="answer-labels"><strong>she</strong><span class="tag">pronoun</span><span class="tag tag-function">subject</span></div><p>She performs the action.</p></li><li><div class="answer-labels"><strong>answered</strong><span class="tag">verb</span><span class="tag tag-function">main verb</span></div><p>It expresses the action.</p></li><li><div class="answer-labels"><strong>the</strong><span class="tag">determiner</span><span class="tag tag-function">determines question</span></div><p>It identifies the noun question.</p></li><li><div class="answer-labels"><strong>difficult</strong><span class="tag">adjective</span><span class="tag tag-function">describes question</span></div><p>It gives information about the question.</p></li><li><div class="answer-labels"><strong>question</strong><span class="tag">noun</span><span class="tag tag-function">direct object</span></div><p>It is the thing answered.</p></li><li><div class="answer-labels"><strong>very</strong><span class="tag">adverb</span><span class="tag tag-function">strengthens confidently</span></div><p>It increases the degree of confidently.</p></li><li><div class="answer-labels"><strong>confidently</strong><span class="tag">adverb</span><span class="tag tag-function">adverbial of manner</span></div><p>It tells how she answered.</p></li></ol></details></article>
+</section>
+</section>
+<section class="content-section">
+<h2>6. Final Review</h2>
+<dl class="quick-map">
+<dt>Part of speech</dt><dd>The grammatical category of a word: noun, verb, adjective, and so on.</dd>
+<dt>Sentence function</dt><dd>The job a word performs in a particular sentence: subject, direct object, complement, and so on.</dd>
+<dt>Adverb</dt><dd>A part of speech.</dd>
+<dt>Adverbial</dt><dd>A sentence function giving information such as time, place, manner, or frequency.</dd>
+<dt>Indirect object</dt><dd>A recipient or beneficiary before the direct object without a preposition.</dd>
+<dt>Subject complement</dt><dd>Describes or identifies the subject after a linking verb.</dd>
+<dt>Object complement</dt><dd>Describes or identifies the direct object.</dd>
+</dl>
+</section>
+</article>
+<footer class="site-footer">
+<strong>Kooshky’s TOEFL Guides</strong>
+<p>Collected and compiled by Amir Kooshky.</p>
+<div class="site-footer__links">
+<a href="./index.html">Home</a>
+<a href="https://telegram.me/KooshkyTOEFL" rel="noopener noreferrer" target="_blank">Telegram channel</a>
+<a href="https://instagram.com/kooshkytoefl" rel="noopener noreferrer" target="_blank">Instagram</a>
+<a href="https://telegram.me/kooshkyTOEFL_pv" rel="noopener noreferrer" target="_blank">Personal Telegram DM</a>
+</div>
+</footer>
+</main>
+</div>
+<aside aria-label="Dictionary lookup options" class="lookup-menu" id="lookupMenu">
+<p class="lookup-menu__term" id="lookupTerm"></p>
+<div class="lookup-menu__links">
+<a class="lookup-menu__link" id="cambridgeLink" rel="noopener noreferrer" target="_blank">Cambridge Dictionary</a>
+<a class="lookup-menu__link" id="oxfordLink" rel="noopener noreferrer" target="_blank">Oxford Learner’s Dictionaries</a>
+<a class="lookup-menu__link" id="websterLink" rel="noopener noreferrer" target="_blank">Merriam-Webster</a>
+<a class="lookup-menu__link" id="googleLink" rel="noopener noreferrer" target="_blank">Google meaning</a>
+</div>
+</aside>
+<div class="modal-backdrop" hidden="" id="telegramBackdrop">
+<section aria-describedby="telegramDialogDescription" aria-labelledby="telegramDialogTitle" aria-modal="true" class="telegram-dialog" id="telegramDialog" role="dialog" tabindex="-1">
+<div class="telegram-dialog__top">
+<div>
+<p class="telegram-dialog__label">Continue studying</p>
+<h2 id="telegramDialogTitle">More TOEFL material from Kooshky</h2>
+</div>
+<button aria-label="Close Telegram invitation" class="control-button telegram-dialog__close" id="telegramCloseButton" type="button">×</button>
+</div>
+<p id="telegramDialogDescription">Join the Telegram channel for more clear explanations, exercises, and student-ready TOEFL guides.</p>
+<div class="telegram-dialog__actions">
+<a class="telegram-dialog__primary" href="https://telegram.me/KooshkyTOEFL" id="telegramDialogLink" rel="noopener noreferrer" target="_blank">Open Telegram channel</a>
+<a class="telegram-dialog__secondary" href="https://instagram.com/kooshkytoefl" rel="noopener noreferrer" target="_blank">Visit Instagram</a>
+</div>
+</section>
+</div>
+<button aria-label="Go to the top of the page" class="go-top" id="goTopButton" title="Go to top" type="button">↑</button>
+<script>
+    (() => {
+      "use strict";
+
+      const THEME_KEY = "kooshky-guides:theme:v1";
+      const TELEGRAM_KEY = "kooshky-guides:parts-of-speech-and-sentence-functions:telegram-invite:v1";
+      const MOBILE_BREAKPOINT = 900;
+
+      const state = {
+        lastFocusedBeforeModal: null,
+        lastFocusedBeforeNav: null,
+        selectionTimer: 0
+      };
+
+      const elements = {
+        root: document.documentElement,
+        body: document.body,
+        main: document.getElementById("main-content"),
+        themeButton: document.getElementById("themeButton"),
+        menuButton: document.getElementById("menuButton"),
+        index: document.getElementById("editorialIndex"),
+        indexCloseButton: document.getElementById("indexCloseButton"),
+        mobileNavBackdrop: document.getElementById("mobileNavBackdrop"),
+        tocList: document.getElementById("tocList"),
+        goTopButton: document.getElementById("goTopButton"),
+        telegramBackdrop: document.getElementById("telegramBackdrop"),
+        telegramDialog: document.getElementById("telegramDialog"),
+        telegramCloseButton: document.getElementById("telegramCloseButton"),
+        telegramDialogLink: document.getElementById("telegramDialogLink"),
+        promoSentinel: document.getElementById("promoSentinel"),
+        lookupMenu: document.getElementById("lookupMenu"),
+        lookupTerm: document.getElementById("lookupTerm"),
+        cambridgeLink: document.getElementById("cambridgeLink"),
+        oxfordLink: document.getElementById("oxfordLink"),
+        websterLink: document.getElementById("websterLink"),
+        googleLink: document.getElementById("googleLink"),
+        openAnswers: document.getElementById("openAnswers"),
+        closeAnswers: document.getElementById("closeAnswers")
+      };
+
+      function safeStorageGet(key) {
+        try {
+          return localStorage.getItem(key);
+        } catch {
+          return null;
+        }
+      }
+
+      function safeStorageSet(key, value) {
+        try {
+          localStorage.setItem(key, value);
+        } catch {
+          // The guide remains fully usable when storage is unavailable.
+        }
+      }
+
+      function applyTheme(theme) {
+        const normalizedTheme = theme === "dark" ? "dark" : "light";
+        elements.root.dataset.theme = normalizedTheme;
+        elements.root.style.colorScheme = normalizedTheme;
+
+        const isDark = normalizedTheme === "dark";
+        elements.themeButton.setAttribute("aria-label", isDark ? "Switch to light mode" : "Switch to dark mode");
+        elements.themeButton.setAttribute("aria-pressed", String(isDark));
+        elements.themeButton.title = isDark ? "Switch to light mode" : "Switch to dark mode";
+        elements.themeButton.textContent = isDark ? "☀" : "◐";
+      }
+
+      function initializeTheme() {
+        const savedTheme = safeStorageGet(THEME_KEY);
+        applyTheme(savedTheme === "dark" ? "dark" : "light");
+
+        elements.themeButton.addEventListener("click", () => {
+          const nextTheme = elements.root.dataset.theme === "dark" ? "light" : "dark";
+          applyTheme(nextTheme);
+          safeStorageSet(THEME_KEY, nextTheme);
+        });
+      }
+
+      function createStableId(text, usedIds, fallbackIndex) {
+        const base = text
+          .toLowerCase()
+          .normalize("NFKD")
+          .replace(/[\u0300-\u036f]/g, "")
+          .replace(/[^a-z0-9]+/g, "-")
+          .replace(/^-+|-+$/g, "") || `section-${fallbackIndex}`;
+
+        let candidate = base;
+        let counter = 2;
+
+        while (usedIds.has(candidate)) {
+          candidate = `${base}-${counter}`;
+          counter += 1;
+        }
+
+        usedIds.add(candidate);
+        return candidate;
+      }
+
+      function generateTableOfContents() {
+        const headings = [...elements.main.querySelectorAll("article h2, article h3")];
+        const usedIds = new Set([...document.querySelectorAll("[id]")].map((element) => element.id));
+
+        headings.forEach((heading, index) => {
+          if (!heading.id) {
+            heading.id = createStableId(heading.textContent.trim(), usedIds, index + 1);
+          }
+        });
+
+        const majorHeadings = headings.filter((heading) => heading.tagName === "H2");
+
+        majorHeadings.forEach((majorHeading, majorIndex) => {
+          majorHeading.dataset.chapter = `CHAPTER ${String(majorIndex + 1).padStart(2, "0")}`;
+
+          const listItem = document.createElement("li");
+          listItem.className = "toc-item";
+
+          const row = document.createElement("div");
+          row.className = "toc-row";
+
+          const majorLink = document.createElement("a");
+          majorLink.className = "toc-link";
+          majorLink.href = `#${majorHeading.id}`;
+          majorLink.textContent = majorHeading.textContent;
+
+          const childHeadings = [];
+          let sibling = majorHeading.nextElementSibling;
+
+          while (sibling && sibling.tagName !== "H2") {
+            if (sibling.tagName === "H3") {
+              childHeadings.push(sibling);
+            }
+            childHeadings.push(...sibling.querySelectorAll?.(":scope > h3") || []);
+            sibling = sibling.nextElementSibling;
+          }
+
+          const uniqueChildHeadings = [...new Set(childHeadings)];
+
+          row.appendChild(majorLink);
+
+          if (uniqueChildHeadings.length) {
+            const toggleButton = document.createElement("button");
+            const sublistId = `toc-children-${majorIndex + 1}`;
+            toggleButton.className = "toc-toggle";
+            toggleButton.type = "button";
+            toggleButton.setAttribute("aria-label", `Expand subsections for ${majorHeading.textContent}`);
+            toggleButton.setAttribute("aria-expanded", "false");
+            toggleButton.setAttribute("aria-controls", sublistId);
+            toggleButton.innerHTML = '<span class="toc-toggle__icon" aria-hidden="true">›</span>';
+
+            const sublist = document.createElement("ol");
+            sublist.className = "toc-sublist";
+            sublist.id = sublistId;
+            sublist.dataset.open = "false";
+
+            uniqueChildHeadings.forEach((childHeading) => {
+              const childItem = document.createElement("li");
+              const childLink = document.createElement("a");
+              childLink.className = "toc-link";
+              childLink.href = `#${childHeading.id}`;
+              childLink.textContent = childHeading.textContent;
+              childItem.appendChild(childLink);
+              sublist.appendChild(childItem);
+            });
+
+            toggleButton.addEventListener("click", () => {
+              const willOpen = toggleButton.getAttribute("aria-expanded") !== "true";
+              toggleButton.setAttribute("aria-expanded", String(willOpen));
+              sublist.dataset.open = String(willOpen);
+            });
+
+            row.appendChild(toggleButton);
+            listItem.append(row, sublist);
+          } else {
+            listItem.appendChild(row);
+          }
+
+          elements.tocList.appendChild(listItem);
+        });
+
+        return headings;
+      }
+
+      function initializeActiveSection(headings) {
+        const links = [...elements.tocList.querySelectorAll(".toc-link")];
+        const headingToLink = new Map(
+          links.map((link) => [link.getAttribute("href").slice(1), link])
+        );
+
+        const visibleHeadings = new Map();
+
+        const observer = new IntersectionObserver((entries) => {
+          entries.forEach((entry) => {
+            if (entry.isIntersecting) {
+              visibleHeadings.set(entry.target.id, entry.boundingClientRect.top);
+            } else {
+              visibleHeadings.delete(entry.target.id);
+            }
+          });
+
+          if (!visibleHeadings.size) {
+            return;
+          }
+
+          const currentId = [...visibleHeadings.entries()]
+            .sort((a, b) => a[1] - b[1])[0][0];
+
+          links.forEach((link) => link.removeAttribute("aria-current"));
+
+          const currentHeading = document.getElementById(currentId);
+          const directLink = headingToLink.get(currentId);
+
+          if (currentHeading?.tagName === "H2" && directLink) {
+            directLink.setAttribute("aria-current", "true");
+          } else if (currentHeading?.tagName === "H3") {
+            const parentSection = currentHeading.closest(".content-section");
+            const parentHeading = parentSection?.querySelector(":scope > h2");
+            const parentLink = parentHeading ? headingToLink.get(parentHeading.id) : null;
+            (directLink || parentLink)?.setAttribute("aria-current", "true");
+          }
+        }, {
+          rootMargin: `-${parseInt(getComputedStyle(elements.root).getPropertyValue("--header-height"), 10) + 12}px 0px -68% 0px`,
+          threshold: [0, 1]
+        });
+
+        headings.forEach((heading) => observer.observe(heading));
+      }
+
+      function isMobileNavigation() {
+        return window.innerWidth <= MOBILE_BREAKPOINT;
+      }
+
+      function openMobileNavigation() {
+        if (!isMobileNavigation()) {
+          return;
+        }
+
+        state.lastFocusedBeforeNav = document.activeElement;
+        elements.index.classList.add("is-open");
+        elements.mobileNavBackdrop.hidden = false;
+        requestAnimationFrame(() => elements.mobileNavBackdrop.classList.add("is-visible"));
+        elements.menuButton.setAttribute("aria-expanded", "true");
+        elements.body.classList.add("is-nav-open");
+        elements.indexCloseButton.focus();
+      }
+
+      function closeMobileNavigation({ restoreFocus = true } = {}) {
+        elements.index.classList.remove("is-open");
+        elements.mobileNavBackdrop.classList.remove("is-visible");
+        elements.menuButton.setAttribute("aria-expanded", "false");
+        elements.body.classList.remove("is-nav-open");
+
+        window.setTimeout(() => {
+          if (!elements.mobileNavBackdrop.classList.contains("is-visible")) {
+            elements.mobileNavBackdrop.hidden = true;
+          }
+        }, 200);
+
+        if (restoreFocus && state.lastFocusedBeforeNav instanceof HTMLElement) {
+          state.lastFocusedBeforeNav.focus();
+        }
+      }
+
+      function initializeNavigation() {
+        elements.menuButton.addEventListener("click", () => {
+          elements.index.classList.contains("is-open")
+            ? closeMobileNavigation()
+            : openMobileNavigation();
+        });
+
+        elements.indexCloseButton.addEventListener("click", () => closeMobileNavigation());
+        elements.mobileNavBackdrop.addEventListener("click", () => closeMobileNavigation());
+
+        elements.tocList.addEventListener("click", (event) => {
+          if (event.target.closest("a") && isMobileNavigation()) {
+            closeMobileNavigation({ restoreFocus: false });
+          }
+        });
+
+        window.addEventListener("resize", () => {
+          if (!isMobileNavigation()) {
+            closeMobileNavigation({ restoreFocus: false });
+          }
+          hideLookupMenu();
+        });
+      }
+
+      function initializeAnswerControls() {
+        const answerDetails = [...document.querySelectorAll(".answer-details")];
+
+        elements.openAnswers?.addEventListener("click", () => {
+          answerDetails.forEach((details) => {
+            details.open = true;
+          });
+        });
+
+        elements.closeAnswers?.addEventListener("click", () => {
+          answerDetails.forEach((details) => {
+            details.open = false;
+          });
+        });
+      }
+
+      function initializeGoToTop() {
+        const updateVisibility = () => {
+          elements.goTopButton.classList.toggle("is-visible", window.scrollY > 700);
+        };
+
+        window.addEventListener("scroll", updateVisibility, { passive: true });
+        updateVisibility();
+
+        elements.goTopButton.addEventListener("click", () => {
+          window.scrollTo({ top: 0, behavior: "smooth" });
+        });
+      }
+
+      function markTelegramInvitationSeen() {
+        safeStorageSet(TELEGRAM_KEY, "1");
+      }
+
+      function getFocusableElements(container) {
+        return [...container.querySelectorAll(
+          'a[href], button:not([disabled]), [tabindex]:not([tabindex="-1"])'
+        )].filter((element) => !element.hasAttribute("hidden"));
+      }
+
+      function openTelegramDialog() {
+        if (safeStorageGet(TELEGRAM_KEY) === "1") {
+          return;
+        }
+
+        hideLookupMenu();
+        state.lastFocusedBeforeModal = document.activeElement;
+        markTelegramInvitationSeen();
+
+        elements.telegramBackdrop.hidden = false;
+        requestAnimationFrame(() => {
+          elements.telegramBackdrop.classList.add("is-visible");
+          elements.body.classList.add("is-modal-open");
+          elements.telegramDialog.focus();
+        });
+      }
+
+      function closeTelegramDialog({ restoreFocus = true } = {}) {
+        elements.telegramBackdrop.classList.remove("is-visible");
+        elements.body.classList.remove("is-modal-open");
+
+        window.setTimeout(() => {
+          if (!elements.telegramBackdrop.classList.contains("is-visible")) {
+            elements.telegramBackdrop.hidden = true;
+          }
+        }, 180);
+
+        if (restoreFocus && state.lastFocusedBeforeModal instanceof HTMLElement) {
+          state.lastFocusedBeforeModal.focus();
+        }
+      }
+
+      function initializeTelegramInvitation() {
+        if (safeStorageGet(TELEGRAM_KEY) !== "1") {
+          const sentinel = elements.promoSentinel;
+
+          if (sentinel) {
+            const observer = new IntersectionObserver((entries, activeObserver) => {
+              if (entries.some((entry) => entry.isIntersecting)) {
+                openTelegramDialog();
+                activeObserver.disconnect();
+              }
+            }, { threshold: 0.2 });
+
+            observer.observe(sentinel);
+          } else {
+            const checkMiddle = () => {
+              const maximumScroll = Math.max(1, document.documentElement.scrollHeight - window.innerHeight);
+              if (window.scrollY / maximumScroll >= 0.48) {
+                openTelegramDialog();
+                window.removeEventListener("scroll", checkMiddle);
+              }
+            };
+            window.addEventListener("scroll", checkMiddle, { passive: true });
+          }
+        }
+
+        elements.telegramCloseButton.addEventListener("click", () => closeTelegramDialog());
+
+        elements.telegramBackdrop.addEventListener("pointerdown", (event) => {
+          if (event.target === elements.telegramBackdrop) {
+            closeTelegramDialog();
+          }
+        });
+
+        elements.telegramDialogLink.addEventListener("click", markTelegramInvitationSeen);
+
+        elements.telegramDialog.addEventListener("keydown", (event) => {
+          if (event.key !== "Tab") {
+            return;
+          }
+
+          const focusable = getFocusableElements(elements.telegramDialog);
+          if (!focusable.length) {
+            event.preventDefault();
+            return;
+          }
+
+          const first = focusable[0];
+          const last = focusable[focusable.length - 1];
+
+          if (event.shiftKey && document.activeElement === first) {
+            event.preventDefault();
+            last.focus();
+          } else if (!event.shiftKey && document.activeElement === last) {
+            event.preventDefault();
+            first.focus();
+          }
+        });
+      }
+
+      function cleanSelectedText(text) {
+        return text
+          .replace(/\s+/g, " ")
+          .replace(/^[\s“”‘’"'()[\]{}<>.,;:!?—–-]+|[\s“”‘’"'()[\]{}<>.,;:!?—–-]+$/g, "")
+          .trim();
+      }
+
+      function selectionIsAllowed(range) {
+        const commonNode = range.commonAncestorContainer.nodeType === Node.TEXT_NODE
+          ? range.commonAncestorContainer.parentElement
+          : range.commonAncestorContainer;
+
+        if (!commonNode || !elements.main.contains(commonNode)) {
+          return false;
+        }
+
+        return !commonNode.closest(
+          "button, nav, input, textarea, select, summary, .lookup-menu, .telegram-dialog"
+        );
+      }
+
+      function getSelectionRectangle(range) {
+        const rectangle = range.getBoundingClientRect();
+
+        if (
+          rectangle &&
+          Number.isFinite(rectangle.left) &&
+          (rectangle.width > 0 || rectangle.height > 0)
+        ) {
+          return rectangle;
+        }
+
+        const rectangles = range.getClientRects();
+        return rectangles.length ? rectangles[0] : null;
+      }
+
+      function positionLookupMenu(rectangle) {
+        const margin = 10;
+        const selectionGap = 16;
+
+        elements.lookupMenu.style.left = "0px";
+        elements.lookupMenu.style.top = "0px";
+        elements.lookupMenu.classList.add("is-visible");
+
+        const menuRectangle = elements.lookupMenu.getBoundingClientRect();
+        const viewportWidth = window.innerWidth;
+        const viewportHeight = window.innerHeight;
+
+        if (!rectangle) {
+          elements.lookupMenu.style.left =
+            `${Math.max(margin, (viewportWidth - menuRectangle.width) / 2)}px`;
+          elements.lookupMenu.style.top =
+            `${Math.max(margin, viewportHeight - menuRectangle.height - 84)}px`;
+          return;
+        }
+
+        let left =
+          rectangle.left + (rectangle.width / 2) - (menuRectangle.width / 2);
+
+        left = Math.min(
+          Math.max(margin, left),
+          viewportWidth - menuRectangle.width - margin
+        );
+
+        const positionAbove =
+          rectangle.top - menuRectangle.height - selectionGap;
+        const positionBelow = rectangle.bottom + selectionGap;
+
+        let top;
+
+        if (positionAbove >= margin) {
+          top = positionAbove;
+        } else if (
+          positionBelow + menuRectangle.height <= viewportHeight - margin
+        ) {
+          top = positionBelow;
+        } else {
+          top = Math.max(
+            margin,
+            Math.min(
+              viewportHeight - menuRectangle.height - margin,
+              rectangle.top - menuRectangle.height - selectionGap
+            )
+          );
+        }
+
+        elements.lookupMenu.style.left = `${left}px`;
+        elements.lookupMenu.style.top = `${top}px`;
+      }
+
+      function hideLookupMenu() {
+        elements.lookupMenu.classList.remove("is-visible");
+      }
+
+      function updateLookupMenu() {
+        window.clearTimeout(state.selectionTimer);
+
+        state.selectionTimer = window.setTimeout(() => {
+          const selection = window.getSelection();
+
+          if (!selection || selection.rangeCount === 0 || selection.isCollapsed) {
+            hideLookupMenu();
+            return;
+          }
+
+          const selectedText = cleanSelectedText(selection.toString());
+
+          if (
+            !selectedText ||
+            selectedText.length > 90 ||
+            !/[\p{L}\p{N}]/u.test(selectedText)
+          ) {
+            hideLookupMenu();
+            return;
+          }
+
+          const range = selection.getRangeAt(0);
+
+          if (!selectionIsAllowed(range)) {
+            hideLookupMenu();
+            return;
+          }
+
+          const encodedText = encodeURIComponent(selectedText);
+          const oxfordSlug = selectedText
+            .toLowerCase()
+            .replace(/[’']/g, "")
+            .replace(/[^a-z0-9]+/g, "-")
+            .replace(/^-+|-+$/g, "") || "word";
+
+          elements.lookupTerm.textContent = `Look up “${selectedText}”`;
+          elements.cambridgeLink.href =
+            `https://dictionary.cambridge.org/dictionary/english/${encodedText}`;
+          elements.oxfordLink.href =
+            `https://www.oxfordlearnersdictionaries.com/definition/english/${oxfordSlug}?q=${encodedText}`;
+          elements.websterLink.href =
+            `https://www.merriam-webster.com/dictionary/${encodedText}`;
+          elements.googleLink.href =
+            `https://www.google.com/search?q=${encodeURIComponent(`meaning of ${selectedText}`)}`;
+
+          positionLookupMenu(getSelectionRectangle(range));
+        }, 150);
+      }
+
+      function initializeSelectionLookup() {
+        document.addEventListener("selectionchange", updateLookupMenu);
+        document.addEventListener("pointerup", () => {
+          window.setTimeout(updateLookupMenu, 90);
+        }, { passive: true });
+        document.addEventListener("touchend", () => {
+          window.setTimeout(updateLookupMenu, 190);
+        }, { passive: true });
+
+        elements.lookupMenu.addEventListener("pointerdown", (event) => {
+          event.stopPropagation();
+        });
+
+        elements.lookupMenu.addEventListener("click", (event) => {
+          if (event.target.closest("a")) {
+            window.setTimeout(hideLookupMenu, 40);
+          }
+        });
+
+        document.addEventListener("pointerdown", (event) => {
+          if (!elements.lookupMenu.contains(event.target)) {
+            hideLookupMenu();
+          }
+        });
+
+        document.addEventListener("focusin", (event) => {
+          if (
+            !elements.lookupMenu.contains(event.target) &&
+            !elements.main.contains(event.target)
+          ) {
+            hideLookupMenu();
+          }
+        });
+
+        window.addEventListener("scroll", hideLookupMenu, { passive: true });
+      }
+
+      function initializeGlobalKeyboardControls() {
+        document.addEventListener("keydown", (event) => {
+          if (event.key === "Escape") {
+            hideLookupMenu();
+
+            if (elements.telegramBackdrop.classList.contains("is-visible")) {
+              closeTelegramDialog();
+            }
+
+            if (elements.index.classList.contains("is-open")) {
+              closeMobileNavigation();
+            }
+          }
+        });
+      }
+
+      function initializeGuide() {
+        initializeTheme();
+
+        const headings = generateTableOfContents();
+        initializeActiveSection(headings);
+        initializeNavigation();
+        initializeAnswerControls();
+        initializeGoToTop();
+        initializeTelegramInvitation();
+        initializeSelectionLookup();
+        initializeGlobalKeyboardControls();
+      }
+
+      try {
+        initializeGuide();
+      } catch (error) {
+        console.error("A nonessential guide feature could not be initialized:", error);
+      }
+    })();
+  </script>
+</body>
+</html>

@@ -1,0 +1,4626 @@
+<!DOCTYPE html>
+
+<html data-theme="light" lang="en">
+<head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1, viewport-fit=cover" name="viewport"/>
+<meta content="A clear introduction to clauses, independent and dependent clauses, clause boundaries, and clause nesting in English grammar." name="description"/>
+<meta content="Amir Kooshky" name="author"/>
+<meta content="light dark" name="color-scheme"/>
+<title>Introducing Clauses | Kooshky’s TOEFL Guides</title>
+<script>
+    (() => {
+      try {
+        const savedTheme = localStorage.getItem("kooshky-guides:theme:v1");
+        document.documentElement.dataset.theme =
+          savedTheme === "dark" ? "dark" :
+          savedTheme === "light" ? "light" : "light";
+      } catch {
+        document.documentElement.dataset.theme = "light";
+      }
+    })();
+  </script>
+<link href="https://fonts.googleapis.com" rel="preconnect"/>
+<link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect"/>
+<link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:ital,wght@0,400;0,500;0,600;0,700;1,400&amp;family=Literata:opsz,wght@7..72,600;7..72,700&amp;display=swap" rel="stylesheet"/>
+<style>
+    :root {
+      color-scheme: light;
+
+      --color-page: #F4F0E8;
+      --color-surface: #FCFAF6;
+      --color-text: #182027;
+      --color-text-muted: #59636C;
+      --color-border: #D7D0C3;
+      --color-accent: #A9470D;
+      --color-accent-secondary: #1E5B63;
+      --color-accent-soft: #F3E2D3;
+      --color-secondary-soft: #DDEAE8;
+      --color-overlay: rgba(24, 32, 39, 0.56);
+      --color-focus: #1E5B63;
+
+      --font-heading: "Literata", Georgia, "Times New Roman", serif;
+      --font-body: "IBM Plex Sans", Inter, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+
+      --space-1: 0.25rem;
+      --space-2: 0.5rem;
+      --space-3: 0.75rem;
+      --space-4: 1rem;
+      --space-5: 1.5rem;
+      --space-6: 2rem;
+      --space-7: 3rem;
+      --space-8: 4.5rem;
+
+      --radius-small: 4px;
+      --radius-medium: 6px;
+      --radius-large: 10px;
+
+      --header-height: 4.25rem;
+      --article-width: 72ch;
+      --layout-width: 78rem;
+
+      --z-header: 100;
+      --z-mobile-nav: 150;
+      --z-floating-control: 200;
+      --z-selection-menu: 300;
+      --z-modal-backdrop: 400;
+      --z-modal: 410;
+
+      --floating-bottom-offset: max(1rem, calc(env(safe-area-inset-bottom) + 1rem));
+    }
+
+    html[data-theme="dark"] {
+      color-scheme: dark;
+
+      --color-page: #111417;
+      --color-surface: #181D21;
+      --color-text: #ECE7DD;
+      --color-text-muted: #ADB4B8;
+      --color-border: #30383E;
+      --color-accent: #F28C45;
+      --color-accent-secondary: #70B7B4;
+      --color-accent-soft: #332219;
+      --color-secondary-soft: #193033;
+      --color-overlay: rgba(0, 0, 0, 0.72);
+      --color-focus: #70B7B4;
+    }
+
+    *,
+    *::before,
+    *::after {
+      box-sizing: border-box;
+    }
+
+    html {
+      min-width: 0;
+      scroll-behavior: smooth;
+      scroll-padding-top: calc(var(--header-height) + var(--space-4));
+      background: var(--color-page);
+    }
+
+    body {
+      margin: 0;
+      min-width: 0;
+      overflow-x: hidden;
+      background: var(--color-page);
+      color: var(--color-text);
+      font-family: var(--font-body);
+      font-size: 1rem;
+      line-height: 1.72;
+      text-rendering: optimizeLegibility;
+    }
+
+    body.is-nav-open,
+    body.is-modal-open {
+      overflow: hidden;
+    }
+
+    body.is-modal-open {
+      --floating-bottom-offset: max(5.25rem, calc(env(safe-area-inset-bottom) + 5.25rem));
+    }
+
+    img,
+    svg {
+      display: block;
+      max-width: 100%;
+    }
+
+    a,
+    button,
+    summary {
+      -webkit-tap-highlight-color: transparent;
+    }
+
+    a {
+      color: var(--color-accent-secondary);
+      text-decoration-thickness: 1px;
+      text-underline-offset: 0.18em;
+      overflow-wrap: anywhere;
+    }
+
+    a:hover {
+      color: var(--color-accent);
+    }
+
+    button {
+      font: inherit;
+    }
+
+    :focus-visible {
+      outline: 3px solid var(--color-focus);
+      outline-offset: 3px;
+    }
+
+    h1,
+    h2,
+    h3,
+    h4 {
+      margin-top: 0;
+      color: var(--color-text);
+      font-family: var(--font-heading);
+      line-height: 1.18;
+      overflow-wrap: anywhere;
+      scroll-margin-top: calc(var(--header-height) + var(--space-5));
+    }
+
+    h1 {
+      max-width: 18ch;
+      margin-bottom: var(--space-4);
+      font-size: clamp(2.15rem, 5vw, 4.35rem);
+      letter-spacing: -0.045em;
+    }
+
+    h2 {
+      margin-bottom: var(--space-4);
+      font-size: clamp(1.55rem, 2.5vw, 2.15rem);
+      letter-spacing: -0.025em;
+    }
+
+    h3 {
+      margin-bottom: var(--space-3);
+      font-size: clamp(1.13rem, 1.6vw, 1.4rem);
+      letter-spacing: -0.015em;
+    }
+
+    h4 {
+      margin-bottom: var(--space-2);
+      font-size: 1rem;
+    }
+
+    p,
+    li,
+    dd {
+      overflow-wrap: anywhere;
+    }
+
+    p {
+      margin: 0 0 var(--space-4);
+    }
+
+    strong {
+      font-weight: 700;
+    }
+
+    .skip-link {
+      position: fixed;
+      top: var(--space-3);
+      left: var(--space-3);
+      z-index: calc(var(--z-modal) + 10);
+      padding: var(--space-3) var(--space-4);
+      border: 1px solid var(--color-border);
+      border-radius: var(--radius-medium);
+      background: var(--color-surface);
+      color: var(--color-text);
+      transform: translateY(-180%);
+      transition: transform 180ms ease;
+    }
+
+    .skip-link:focus,
+    .skip-link:focus-visible {
+      transform: translateY(0);
+    }
+
+    .site-header {
+      position: sticky;
+      top: 0;
+      z-index: var(--z-header);
+      min-height: var(--header-height);
+      border-bottom: 1px solid var(--color-border);
+      background: var(--color-surface);
+    }
+
+    .site-header__inner {
+      width: min(100%, var(--layout-width));
+      min-height: var(--header-height);
+      margin-inline: auto;
+      padding: var(--space-3) clamp(var(--space-4), 3vw, var(--space-6));
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: var(--space-4);
+    }
+
+    .site-identity {
+      min-width: 0;
+      display: flex;
+      align-items: center;
+      gap: var(--space-3);
+      color: var(--color-text);
+      text-decoration: none;
+    }
+
+    .site-identity__mark {
+      width: 0.3rem;
+      height: 2rem;
+      flex: 0 0 auto;
+      background: var(--color-accent);
+    }
+
+    .site-identity__text {
+      min-width: 0;
+      display: grid;
+      gap: 0.08rem;
+      line-height: 1.15;
+    }
+
+    .site-identity__text strong {
+      font-family: var(--font-heading);
+      font-size: 0.98rem;
+    }
+
+    .site-identity__text span {
+      color: var(--color-text-muted);
+      font-size: 0.77rem;
+      letter-spacing: 0.035em;
+    }
+
+    .primary-nav {
+      display: flex;
+      align-items: center;
+      gap: var(--space-3);
+    }
+
+    .primary-nav__link {
+      padding: var(--space-2) var(--space-3);
+      color: var(--color-text);
+      font-size: 0.9rem;
+      font-weight: 600;
+      text-decoration: none;
+    }
+
+    .control-button {
+      min-width: 2.75rem;
+      min-height: 2.75rem;
+      display: inline-grid;
+      place-items: center;
+      border: 1px solid var(--color-border);
+      border-radius: var(--radius-medium);
+      background: var(--color-surface);
+      color: var(--color-text);
+      cursor: pointer;
+      transition: background-color 180ms ease, border-color 180ms ease, color 180ms ease;
+    }
+
+    .control-button:hover {
+      border-color: var(--color-accent-secondary);
+      background: var(--color-secondary-soft);
+      color: var(--color-accent-secondary);
+    }
+
+    .menu-button {
+      display: none;
+    }
+
+    .guide-layout {
+      width: min(100%, var(--layout-width));
+      margin-inline: auto;
+      padding: var(--space-6) clamp(var(--space-4), 3vw, var(--space-6)) var(--space-8);
+      display: grid;
+      grid-template-columns: minmax(14.5rem, 18rem) minmax(0, 1fr);
+      gap: clamp(var(--space-5), 3vw, var(--space-7));
+      align-items: start;
+    }
+
+    .guide-main {
+      min-width: 0;
+    }
+
+    .editorial-index {
+      position: sticky;
+      top: calc(var(--header-height) + var(--space-5));
+      max-height: calc(100dvh - var(--header-height) - var(--space-7));
+      overflow: auto;
+      min-width: 0;
+      border-top: 4px solid var(--color-accent);
+      border-bottom: 1px solid var(--color-border);
+      background: transparent;
+    }
+
+    .editorial-index__header {
+      padding: var(--space-4) 0 var(--space-3);
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: var(--space-3);
+      border-bottom: 1px solid var(--color-border);
+    }
+
+    .editorial-index__title {
+      margin: 0;
+      color: var(--color-text-muted);
+      font-family: var(--font-body);
+      font-size: 0.75rem;
+      font-weight: 700;
+      letter-spacing: 0.13em;
+      text-transform: uppercase;
+    }
+
+    .editorial-index__home {
+      display: inline-flex;
+      margin: var(--space-3) 0;
+      font-size: 0.88rem;
+      font-weight: 700;
+    }
+
+    .editorial-index__close {
+      display: none;
+    }
+
+    .toc-list,
+    .toc-sublist {
+      margin: 0;
+      padding: 0;
+      list-style: none;
+    }
+
+    .toc-list {
+      padding-bottom: var(--space-4);
+    }
+
+    .toc-item {
+      border-top: 1px solid var(--color-border);
+    }
+
+    .toc-row {
+      display: grid;
+      grid-template-columns: minmax(0, 1fr) auto;
+      align-items: center;
+      gap: var(--space-2);
+    }
+
+    .toc-link {
+      min-width: 0;
+      padding: 0.72rem 0;
+      color: var(--color-text);
+      font-size: 0.9rem;
+      line-height: 1.35;
+      text-decoration: none;
+    }
+
+    .toc-link:hover,
+    .toc-link[aria-current="true"] {
+      color: var(--color-accent);
+    }
+
+    .toc-toggle {
+      width: 2rem;
+      height: 2rem;
+      display: grid;
+      place-items: center;
+      border: 0;
+      border-radius: var(--radius-small);
+      background: transparent;
+      color: var(--color-text-muted);
+      cursor: pointer;
+    }
+
+    .toc-toggle:hover {
+      background: var(--color-accent-soft);
+      color: var(--color-accent);
+    }
+
+    .toc-toggle__icon {
+      transition: transform 180ms ease;
+    }
+
+    .toc-toggle[aria-expanded="true"] .toc-toggle__icon {
+      transform: rotate(90deg);
+    }
+
+    .toc-sublist {
+      display: none;
+      padding: 0 0 var(--space-3) var(--space-4);
+    }
+
+    .toc-sublist[data-open="true"] {
+      display: block;
+    }
+
+    .toc-sublist .toc-link {
+      display: block;
+      padding: 0.45rem 0;
+      color: var(--color-text-muted);
+      font-size: 0.83rem;
+    }
+
+    .mobile-nav-backdrop {
+      position: fixed;
+      inset: var(--header-height) 0 0;
+      z-index: calc(var(--z-mobile-nav) - 1);
+      display: none;
+      background: var(--color-overlay);
+    }
+
+    .mobile-nav-backdrop.is-visible {
+      display: block;
+    }
+
+    .guide-hero {
+      margin-bottom: var(--space-7);
+      padding: clamp(var(--space-6), 5vw, var(--space-8)) 0 var(--space-7);
+      border-top: 1px solid var(--color-border);
+      border-bottom: 1px solid var(--color-border);
+    }
+
+    .guide-hero::before {
+      content: "";
+      display: block;
+      width: clamp(3rem, 8vw, 6rem);
+      height: 0.32rem;
+      margin-bottom: var(--space-5);
+      background: var(--color-accent);
+    }
+
+    .guide-hero__label {
+      margin: 0 0 var(--space-3);
+      color: var(--color-accent);
+      font-size: 0.78rem;
+      font-weight: 700;
+      letter-spacing: 0.14em;
+      text-transform: uppercase;
+    }
+
+    .guide-hero__subtitle {
+      max-width: 60ch;
+      margin-bottom: var(--space-4);
+      color: var(--color-text-muted);
+      font-size: clamp(1rem, 1.6vw, 1.18rem);
+    }
+
+    .guide-hero__credit {
+      margin-bottom: var(--space-5);
+      font-weight: 600;
+    }
+
+    .guide-hero__links {
+      display: flex;
+      flex-wrap: wrap;
+      gap: var(--space-2);
+      margin-bottom: var(--space-4);
+    }
+
+    .editorial-link {
+      display: inline-flex;
+      min-width: 0;
+      padding: 0.62rem 0.78rem;
+      border: 1px solid var(--color-border);
+      border-radius: var(--radius-small);
+      background: var(--color-surface);
+      color: var(--color-text);
+      font-size: 0.88rem;
+      font-weight: 600;
+      text-decoration: none;
+      overflow-wrap: anywhere;
+    }
+
+    .editorial-link:hover {
+      border-color: var(--color-accent-secondary);
+      background: var(--color-secondary-soft);
+      color: var(--color-accent-secondary);
+    }
+
+    article {
+      min-width: 0;
+    }
+
+    .content-section {
+      width: min(100%, var(--article-width));
+      margin: 0 auto var(--space-8);
+      padding: 0;
+    }
+
+    .content-section > h2 {
+      padding-top: var(--space-6);
+      border-top: 1px solid var(--color-border);
+    }
+
+    .content-section > h2::before {
+      content: attr(data-chapter);
+      display: block;
+      margin-bottom: var(--space-3);
+      color: var(--color-accent);
+      font-family: var(--font-body);
+      font-size: 0.72rem;
+      font-weight: 700;
+      letter-spacing: 0.14em;
+      text-transform: uppercase;
+    }
+
+    .content-section > h3 {
+      margin-top: var(--space-7);
+    }
+
+    .definition-grid,
+    .compare-grid,
+    .phrase-grid {
+      display: grid;
+      grid-template-columns: repeat(2, minmax(0, 1fr));
+      gap: var(--space-4);
+      margin: var(--space-5) 0;
+    }
+
+    .study-card {
+      min-width: 0;
+      padding: var(--space-4);
+      border: 1px solid var(--color-border);
+      border-radius: var(--radius-medium);
+      background: var(--color-surface);
+    }
+
+    .study-card h3,
+    .study-card h4 {
+      margin-top: 0;
+    }
+
+    .study-card p:last-child {
+      margin-bottom: 0;
+    }
+
+    .example {
+      margin: var(--space-4) 0;
+      padding: var(--space-4);
+      border: 1px solid var(--color-border);
+      border-radius: var(--radius-medium);
+      background: var(--color-surface);
+      overflow-wrap: anywhere;
+    }
+
+    .example::before {
+      content: "EXAMPLE";
+      display: block;
+      margin-bottom: var(--space-2);
+      color: var(--color-text-muted);
+      font-size: 0.7rem;
+      font-weight: 700;
+      letter-spacing: 0.12em;
+    }
+
+    .example-line {
+      display: block;
+      margin-bottom: var(--space-2);
+      font-size: 1.02rem;
+    }
+
+    .example-line:last-child {
+      margin-bottom: 0;
+    }
+
+    .analysis-block {
+      margin: var(--space-4) 0;
+      padding: var(--space-4);
+      border-left: 5px solid var(--color-accent-secondary);
+      border-radius: var(--radius-medium);
+      background: var(--color-secondary-soft);
+    }
+
+    .analysis-block::before {
+      content: "ANALYSIS";
+      display: block;
+      margin-bottom: var(--space-2);
+      color: var(--color-accent-secondary);
+      font-size: 0.7rem;
+      font-weight: 700;
+      letter-spacing: 0.12em;
+    }
+
+    .key-point,
+    .warning,
+    .remember {
+      margin: var(--space-5) 0;
+      padding: var(--space-4) var(--space-4) var(--space-4) calc(var(--space-4) + 0.35rem);
+      border: 1px solid var(--color-border);
+      border-left: 5px solid var(--color-accent-secondary);
+      border-radius: var(--radius-medium);
+      background: var(--color-secondary-soft);
+    }
+
+    .warning,
+    .remember {
+      border-left-color: var(--color-accent);
+      background: var(--color-accent-soft);
+    }
+
+    .key-point::before,
+    .warning::before,
+    .remember::before {
+      display: block;
+      margin-bottom: var(--space-2);
+      font-size: 0.7rem;
+      font-weight: 700;
+      letter-spacing: 0.12em;
+    }
+
+    .key-point::before {
+      content: "KEY POINT";
+      color: var(--color-accent-secondary);
+    }
+
+    .warning::before {
+      content: "COMMON CONFUSION";
+      color: var(--color-accent);
+    }
+
+    .remember::before {
+      content: "REMEMBER";
+      color: var(--color-accent);
+    }
+
+    .structure {
+      margin: var(--space-4) 0;
+      padding: var(--space-4);
+      border: 1px solid var(--color-border);
+      border-radius: var(--radius-medium);
+      background: var(--color-page);
+      font-family: ui-monospace, SFMono-Regular, Menlo, Consolas, monospace;
+      overflow-wrap: anywhere;
+    }
+
+    .structure strong {
+      color: var(--color-accent-secondary);
+    }
+
+    .term-list {
+      display: grid;
+      grid-template-columns: minmax(9rem, 0.8fr) minmax(0, 1.6fr);
+      gap: var(--space-3) var(--space-4);
+      margin: var(--space-5) 0;
+    }
+
+    .term-list dt {
+      font-weight: 700;
+    }
+
+    .term-list dd {
+      margin: 0;
+      color: var(--color-text-muted);
+    }
+
+    .nested-levels {
+      display: grid;
+      gap: var(--space-3);
+      margin: var(--space-5) 0;
+    }
+
+    .nested-level {
+      padding: var(--space-3) var(--space-4);
+      border-left: 4px solid var(--color-accent-secondary);
+      background: var(--color-secondary-soft);
+    }
+
+    .nested-level:nth-child(2) {
+      margin-left: var(--space-4);
+      border-left-color: var(--color-accent);
+      background: var(--color-accent-soft);
+    }
+
+    .nested-level:nth-child(3) {
+      margin-left: var(--space-7);
+    }
+
+    .steps {
+      padding-left: 1.25rem;
+    }
+
+    .steps li {
+      margin-bottom: var(--space-3);
+    }
+
+    details {
+      margin: var(--space-4) 0;
+      border: 1px solid var(--color-border);
+      border-radius: var(--radius-medium);
+      background: var(--color-surface);
+    }
+
+    summary {
+      padding: var(--space-3) var(--space-4);
+      color: var(--color-accent-secondary);
+      font-weight: 700;
+      cursor: pointer;
+    }
+
+    details[open] summary {
+      border-bottom: 1px solid var(--color-border);
+    }
+
+    .details-content {
+      padding: var(--space-4);
+    }
+
+    .lookup-menu {
+      position: fixed;
+      z-index: var(--z-selection-menu);
+      display: none;
+      width: min(22rem, calc(100vw - 1rem));
+      padding: var(--space-2);
+      border: 1px solid var(--color-border);
+      border-radius: var(--radius-medium);
+      background: var(--color-surface);
+      box-shadow: 0 8px 24px rgba(0, 0, 0, 0.14);
+    }
+
+    .lookup-menu.is-visible {
+      display: block;
+    }
+
+    .lookup-menu__term {
+      margin: 0;
+      padding: var(--space-2) var(--space-2) var(--space-3);
+      color: var(--color-text-muted);
+      font-size: 0.82rem;
+      font-weight: 600;
+    }
+
+    .lookup-menu__links {
+      display: grid;
+      grid-template-columns: repeat(2, minmax(0, 1fr));
+      gap: var(--space-2);
+    }
+
+    .lookup-menu__link {
+      min-width: 0;
+      padding: 0.55rem;
+      border: 1px solid var(--color-border);
+      border-radius: var(--radius-small);
+      background: var(--color-page);
+      color: var(--color-text);
+      text-align: center;
+      text-decoration: none;
+      font-size: 0.82rem;
+      font-weight: 600;
+      overflow-wrap: anywhere;
+    }
+
+    .lookup-menu__link:hover {
+      border-color: var(--color-accent-secondary);
+      background: var(--color-secondary-soft);
+      color: var(--color-accent-secondary);
+    }
+
+    .modal-backdrop {
+      position: fixed;
+      inset: 0;
+      z-index: var(--z-modal-backdrop);
+      display: none;
+      padding:
+        max(var(--space-4), env(safe-area-inset-top))
+        max(var(--space-4), env(safe-area-inset-right))
+        max(var(--space-4), env(safe-area-inset-bottom))
+        max(var(--space-4), env(safe-area-inset-left));
+      place-items: center;
+      background: var(--color-overlay);
+    }
+
+    .modal-backdrop.is-visible {
+      display: grid;
+    }
+
+    .telegram-dialog {
+      z-index: var(--z-modal);
+      width: min(31rem, 100%);
+      max-height: min(34rem, calc(100dvh - 2rem));
+      overflow: auto;
+      padding: var(--space-5);
+      border: 1px solid var(--color-border);
+      border-top: 5px solid var(--color-accent);
+      border-radius: var(--radius-large);
+      background: var(--color-surface);
+    }
+
+    .telegram-dialog__top {
+      display: flex;
+      align-items: flex-start;
+      justify-content: space-between;
+      gap: var(--space-4);
+    }
+
+    .telegram-dialog__label {
+      margin: 0 0 var(--space-2);
+      color: var(--color-accent);
+      font-size: 0.7rem;
+      font-weight: 700;
+      letter-spacing: 0.13em;
+      text-transform: uppercase;
+    }
+
+    .telegram-dialog h2 {
+      margin-bottom: var(--space-3);
+      font-size: 1.45rem;
+    }
+
+    .telegram-dialog__actions {
+      display: flex;
+      flex-wrap: wrap;
+      gap: var(--space-2);
+      margin-top: var(--space-5);
+    }
+
+    .telegram-dialog__primary,
+    .telegram-dialog__secondary {
+      display: inline-flex;
+      padding: 0.66rem 0.85rem;
+      border: 1px solid var(--color-border);
+      border-radius: var(--radius-small);
+      font-weight: 700;
+      text-decoration: none;
+    }
+
+    .telegram-dialog__primary {
+      border-color: var(--color-accent);
+      background: var(--color-accent);
+      color: #fff;
+    }
+
+    .telegram-dialog__primary:hover {
+      color: #fff;
+      filter: brightness(0.96);
+    }
+
+    .telegram-dialog__secondary {
+      background: var(--color-surface);
+      color: var(--color-text);
+    }
+
+    .go-top {
+      position: fixed;
+      right: max(var(--space-4), env(safe-area-inset-right));
+      bottom: var(--floating-bottom-offset);
+      z-index: var(--z-floating-control);
+      width: 3rem;
+      height: 3rem;
+      display: grid;
+      place-items: center;
+      border: 1px solid var(--color-border);
+      border-radius: var(--radius-medium);
+      background: var(--color-surface);
+      color: var(--color-text);
+      cursor: pointer;
+      opacity: 0;
+      visibility: hidden;
+      transform: translateY(0.5rem);
+      transition: opacity 180ms ease, visibility 180ms ease, transform 180ms ease, bottom 180ms ease;
+    }
+
+    .go-top.is-visible {
+      opacity: 1;
+      visibility: visible;
+      transform: translateY(0);
+    }
+
+    .site-footer {
+      width: min(100%, var(--article-width));
+      margin: 0 auto;
+      padding: var(--space-6) 0;
+      border-top: 1px solid var(--color-border);
+      color: var(--color-text-muted);
+      font-size: 0.9rem;
+    }
+
+    .site-footer__links {
+      display: flex;
+      flex-wrap: wrap;
+      gap: var(--space-3);
+      margin-top: var(--space-3);
+    }
+
+    @media (max-width: 900px) {
+      :root {
+        --header-height: 4rem;
+      }
+
+      .menu-button {
+        display: inline-grid;
+      }
+
+      .primary-nav__home {
+        display: none;
+      }
+
+      .guide-layout {
+        grid-template-columns: minmax(0, 1fr);
+        padding-top: var(--space-5);
+      }
+
+      .editorial-index {
+        position: fixed;
+        top: var(--header-height);
+        left: 0;
+        bottom: 0;
+        z-index: var(--z-mobile-nav);
+        width: min(21rem, 88vw);
+        max-height: none;
+        padding: 0 var(--space-4) max(var(--space-5), env(safe-area-inset-bottom));
+        border-top: 4px solid var(--color-accent);
+        border-right: 1px solid var(--color-border);
+        border-bottom: 0;
+        background: var(--color-surface);
+        transform: translateX(-105%);
+        transition: transform 200ms ease;
+      }
+
+      .editorial-index.is-open {
+        transform: translateX(0);
+      }
+
+      .editorial-index__close {
+        display: inline-grid;
+      }
+    }
+
+    @media (max-width: 680px) {
+      .site-identity__text span {
+        display: none;
+      }
+
+      .site-header__inner {
+        padding-inline: var(--space-3);
+      }
+
+      .guide-layout {
+        padding-inline: var(--space-3);
+      }
+
+      .guide-hero {
+        padding-top: var(--space-6);
+      }
+
+      .guide-hero__links {
+        display: grid;
+        grid-template-columns: minmax(0, 1fr);
+      }
+
+      .editorial-link {
+        justify-content: center;
+        text-align: center;
+      }
+
+      .definition-grid,
+      .compare-grid,
+      .phrase-grid {
+        grid-template-columns: minmax(0, 1fr);
+      }
+
+      .term-list {
+        grid-template-columns: minmax(0, 1fr);
+        gap: var(--space-1);
+      }
+
+      .term-list dd {
+        margin-bottom: var(--space-3);
+      }
+
+      .nested-level:nth-child(2),
+      .nested-level:nth-child(3) {
+        margin-left: var(--space-3);
+      }
+
+      .lookup-menu__links {
+        grid-template-columns: minmax(0, 1fr);
+      }
+
+      .telegram-dialog {
+        padding: var(--space-4);
+      }
+    }
+
+    @media (prefers-reduced-motion: reduce) {
+      html {
+        scroll-behavior: auto;
+      }
+
+      *,
+      *::before,
+      *::after {
+        animation-duration: 0.01ms !important;
+        animation-iteration-count: 1 !important;
+        transition-duration: 0.01ms !important;
+      }
+    }
+  
+    /* =========================
+       Clause guide components
+       ========================= */
+    .definition-block {
+      margin: var(--space-5) 0;
+      padding: var(--space-4);
+      border: 1px solid var(--color-border);
+      border-left: 5px solid var(--color-accent-secondary);
+      border-radius: var(--radius-medium);
+      background: var(--color-secondary-soft);
+    }
+
+    .definition-block p:last-child {
+      margin-bottom: 0;
+    }
+
+    .definition-block__label,
+    .card-label {
+      margin: 0 0 var(--space-2);
+      color: var(--color-accent-secondary);
+      font-size: 0.7rem;
+      font-weight: 700;
+      letter-spacing: 0.12em;
+      text-transform: uppercase;
+    }
+
+    .three-way-grid {
+      display: grid;
+      grid-template-columns: repeat(3, minmax(0, 1fr));
+      gap: var(--space-4);
+      margin: var(--space-5) 0;
+    }
+
+    .chip-grid {
+      display: flex;
+      flex-wrap: wrap;
+      gap: var(--space-2);
+      margin: var(--space-4) 0 var(--space-5);
+    }
+
+    .term-chip {
+      display: inline-flex;
+      max-width: 100%;
+      padding: 0.38rem 0.58rem;
+      border: 1px solid var(--color-border);
+      border-radius: var(--radius-small);
+      background: var(--color-surface);
+      color: var(--color-text);
+      font-size: 0.88rem;
+      font-weight: 600;
+      overflow-wrap: anywhere;
+    }
+
+    .nested-example-list {
+      display: grid;
+      gap: var(--space-3);
+      margin: var(--space-5) 0;
+    }
+
+    .nested-example {
+      min-width: 0;
+      padding: var(--space-4);
+      border: 1px solid var(--color-border);
+      border-left: 4px solid var(--color-accent-secondary);
+      border-radius: var(--radius-medium);
+      background: var(--color-surface);
+    }
+
+    .nested-example p:last-child {
+      margin-bottom: 0;
+      color: var(--color-text-muted);
+    }
+
+    .nested-diagram {
+      display: grid;
+      gap: var(--space-2);
+      margin: var(--space-5) 0;
+    }
+
+    .nested-diagram__row {
+      display: grid;
+      grid-template-columns: minmax(9rem, 0.58fr) minmax(0, 1.8fr);
+      gap: var(--space-3);
+      padding: var(--space-3) var(--space-4);
+      border-left: 5px solid var(--color-accent-secondary);
+      background: var(--color-secondary-soft);
+      overflow-wrap: anywhere;
+    }
+
+    .nested-diagram__row--inset {
+      margin-left: var(--space-4);
+      border-left-color: var(--color-accent);
+      background: var(--color-accent-soft);
+    }
+
+    .nested-diagram__row--deep {
+      margin-left: var(--space-7);
+    }
+
+    .nested-diagram__label {
+      color: var(--color-text-muted);
+      font-size: 0.76rem;
+      font-weight: 700;
+      letter-spacing: 0.05em;
+      text-transform: uppercase;
+    }
+
+    .structure {
+      white-space: normal;
+    }
+
+    .structure strong {
+      display: inline;
+    }
+
+    @media (max-width: 760px) {
+      .three-way-grid {
+        grid-template-columns: minmax(0, 1fr);
+      }
+
+      .nested-diagram__row {
+        grid-template-columns: minmax(0, 1fr);
+      }
+
+      .nested-diagram__row--inset,
+      .nested-diagram__row--deep {
+        margin-left: var(--space-3);
+      }
+    }
+
+    /* =========================
+       Clause practice
+       ========================= */
+    .practice-instructions,
+    .worked-sample {
+      margin: var(--space-5) 0;
+      padding: var(--space-5);
+      border: 1px solid var(--color-border);
+      border-radius: var(--radius-medium);
+      background: var(--color-surface);
+    }
+
+    .practice-instructions {
+      border-left: 5px solid var(--color-accent-secondary);
+      background: var(--color-secondary-soft);
+    }
+
+    .worked-sample {
+      border-top: 5px solid var(--color-accent);
+    }
+
+    .worked-sample__sentence {
+      margin-bottom: var(--space-5);
+      font-size: clamp(1.08rem, 2vw, 1.25rem);
+      font-weight: 700;
+    }
+
+    .answer-label {
+      margin: 0 0 var(--space-2);
+      color: var(--color-accent-secondary);
+      font-size: 0.7rem;
+      font-weight: 700;
+      letter-spacing: 0.12em;
+      text-transform: uppercase;
+    }
+
+    .answer-section + .answer-section {
+      margin-top: var(--space-5);
+      padding-top: var(--space-4);
+      border-top: 1px solid var(--color-border);
+    }
+
+    .exercise-toolbar {
+      display: flex;
+      flex-wrap: wrap;
+      align-items: center;
+      justify-content: space-between;
+      gap: var(--space-4);
+      margin: var(--space-6) 0;
+      padding-block: var(--space-3);
+      border-block: 1px solid var(--color-border);
+    }
+
+    .exercise-toolbar p {
+      margin: 0;
+    }
+
+    .toolbar-actions {
+      display: flex;
+      flex-wrap: wrap;
+      gap: var(--space-2);
+    }
+
+    .text-button {
+      padding: 0.58rem 0.78rem;
+      border: 1px solid var(--color-border);
+      border-radius: var(--radius-small);
+      background: var(--color-surface);
+      color: var(--color-text);
+      font-weight: 600;
+      cursor: pointer;
+    }
+
+    .text-button:hover {
+      border-color: var(--color-accent-secondary);
+      background: var(--color-secondary-soft);
+      color: var(--color-accent-secondary);
+    }
+
+    .exercise-level {
+      margin-top: var(--space-7);
+    }
+
+    .exercise-level > h3 {
+      padding-bottom: var(--space-3);
+      border-bottom: 1px solid var(--color-border);
+    }
+
+    .exercise-card {
+      margin: var(--space-4) 0;
+      border: 1px solid var(--color-border);
+      border-radius: var(--radius-medium);
+      background: var(--color-surface);
+      overflow: clip;
+    }
+
+    .exercise-head {
+      display: flex;
+      align-items: flex-start;
+      gap: var(--space-3);
+      padding: var(--space-4);
+    }
+
+    .exercise-number {
+      width: 2rem;
+      height: 2rem;
+      flex: 0 0 auto;
+      display: grid;
+      place-items: center;
+      border: 1px solid var(--color-accent);
+      border-radius: var(--radius-small);
+      color: var(--color-accent);
+      font-weight: 700;
+    }
+
+    .exercise-sentence {
+      margin: 0;
+      font-weight: 700;
+      overflow-wrap: anywhere;
+    }
+
+    .student-task {
+      margin: 0;
+      padding: 0 var(--space-4) var(--space-4) 3.75rem;
+      color: var(--color-text-muted);
+      font-size: 0.9rem;
+    }
+
+    .student-task p {
+      margin-bottom: var(--space-2);
+      font-weight: 600;
+    }
+
+    .student-task ol {
+      margin: 0;
+      padding-left: 1.15rem;
+    }
+
+    .answer-details {
+      margin: 0;
+      border: 0;
+      border-top: 1px solid var(--color-border);
+      border-radius: 0;
+      background: var(--color-secondary-soft);
+    }
+
+    .answer-details summary {
+      padding: var(--space-3) var(--space-4);
+      color: var(--color-accent-secondary);
+      font-weight: 700;
+      cursor: pointer;
+    }
+
+    .answer-content {
+      padding: var(--space-4);
+      border-top: 1px solid var(--color-border);
+    }
+
+    .clause-answer-list {
+      display: grid;
+      gap: var(--space-3);
+    }
+
+    .clause-answer {
+      padding: var(--space-4);
+      border: 1px solid var(--color-border);
+      border-radius: var(--radius-small);
+      background: var(--color-surface);
+    }
+
+    .clause-answer__heading {
+      display: flex;
+      flex-wrap: wrap;
+      align-items: center;
+      gap: var(--space-2);
+      margin-bottom: var(--space-2);
+    }
+
+    .clause-answer__number {
+      font-size: 0.78rem;
+      font-weight: 700;
+      letter-spacing: 0.05em;
+      text-transform: uppercase;
+      color: var(--color-text-muted);
+    }
+
+    .clause-answer__text {
+      margin-bottom: var(--space-2);
+      overflow-wrap: anywhere;
+    }
+
+    .clause-answer p:last-child {
+      margin-bottom: 0;
+    }
+
+    .clause-type {
+      display: inline-flex;
+      padding: 0.2rem 0.45rem;
+      border: 1px solid var(--color-border);
+      border-radius: var(--radius-small);
+      font-size: 0.75rem;
+      font-weight: 700;
+    }
+
+    .clause-type--independent {
+      border-color: var(--color-accent-secondary);
+      background: var(--color-secondary-soft);
+      color: var(--color-accent-secondary);
+    }
+
+    .clause-type--dependent {
+      border-color: var(--color-accent);
+      background: var(--color-accent-soft);
+      color: var(--color-accent);
+    }
+
+    @media (max-width: 680px) {
+      .practice-instructions,
+      .worked-sample {
+        padding: var(--space-4);
+      }
+
+      .student-task {
+        padding-left: var(--space-4);
+      }
+    }
+
+    /* =========================
+       Sentence types
+       ========================= */
+    .sentence-type-grid {
+      display: grid;
+      grid-template-columns: repeat(2, minmax(0, 1fr));
+      gap: var(--space-4);
+      margin: var(--space-5) 0 var(--space-6);
+    }
+
+    .sentence-type-card {
+      align-content: start;
+    }
+
+    .sentence-type-card .example {
+      margin-top: var(--space-3);
+    }
+
+    .sentence-type-card .structure {
+      margin-top: var(--space-3);
+    }
+
+    @media (max-width: 760px) {
+      .sentence-type-grid {
+        grid-template-columns: minmax(0, 1fr);
+      }
+    }
+
+    /* =========================
+       Clause boundaries and roles
+       ========================= */
+    .two-level-rule,
+    .role-analysis {
+      display: grid;
+      grid-template-columns: repeat(2, minmax(0, 1fr));
+      gap: var(--space-4);
+      margin: var(--space-5) 0;
+    }
+
+    .two-level-rule > div,
+    .role-analysis__level {
+      min-width: 0;
+      padding: var(--space-4);
+      border: 1px solid var(--color-border);
+      border-radius: var(--radius-medium);
+      background: var(--color-surface);
+    }
+
+    .two-level-rule > div:first-child,
+    .role-analysis__level:first-child {
+      border-left: 5px solid var(--color-accent-secondary);
+    }
+
+    .two-level-rule > div:last-child,
+    .role-analysis__level:last-child {
+      border-left: 5px solid var(--color-accent);
+    }
+
+    .role-analysis__level p:last-child,
+    .two-level-rule p:last-child {
+      margin-bottom: 0;
+    }
+
+    .nested-roles {
+      margin-top: var(--space-7);
+      padding-top: var(--space-6);
+      border-top: 1px solid var(--color-border);
+    }
+
+    .nested-roles h4 {
+      margin-top: var(--space-6);
+      font-family: var(--font-heading);
+      font-size: clamp(1rem, 2vw, 1.15rem);
+    }
+
+    .nested-role-chain {
+      display: grid;
+      gap: var(--space-3);
+      margin: var(--space-5) 0;
+    }
+
+    .nested-role-chain__item {
+      padding: var(--space-4);
+      border: 1px solid var(--color-border);
+      border-left: 5px solid var(--color-accent-secondary);
+      border-radius: var(--radius-medium);
+      background: var(--color-surface);
+    }
+
+    .nested-role-chain__item:nth-child(2) {
+      margin-left: var(--space-4);
+      border-left-color: var(--color-accent);
+    }
+
+    .nested-role-chain__item:nth-child(3) {
+      margin-left: var(--space-7);
+    }
+
+    .nested-role-chain__item p:last-child {
+      margin-bottom: 0;
+    }
+
+    @media (max-width: 760px) {
+      .two-level-rule,
+      .role-analysis {
+        grid-template-columns: minmax(0, 1fr);
+      }
+
+      .nested-role-chain__item:nth-child(2),
+      .nested-role-chain__item:nth-child(3) {
+        margin-left: var(--space-3);
+      }
+    }
+</style>
+</head>
+<body>
+<a class="skip-link" href="#main-content">Skip to main content</a>
+<header class="site-header">
+<div class="site-header__inner">
+<a aria-label="Kooshky’s TOEFL Guides home" class="site-identity" href="./index.html">
+<span aria-hidden="true" class="site-identity__mark"></span>
+<span class="site-identity__text">
+<strong>Kooshky’s TOEFL Guides</strong>
+<span>Editorial study guides by Amir Kooshky</span>
+</span>
+</a>
+<nav aria-label="Primary navigation" class="primary-nav">
+<a class="primary-nav__link primary-nav__home" href="./index.html">Home</a>
+<button aria-controls="editorialIndex" aria-expanded="false" aria-label="Open table of contents" class="control-button menu-button" id="menuButton" type="button">☰</button>
+<button aria-label="Switch to dark mode" aria-pressed="false" class="control-button" id="themeButton" title="Switch theme" type="button">◐</button>
+</nav>
+</div>
+</header>
+<div class="mobile-nav-backdrop" hidden="" id="mobileNavBackdrop"></div>
+<div class="guide-layout">
+<aside aria-label="Table of contents" class="editorial-index" id="editorialIndex">
+<div class="editorial-index__header">
+<p class="editorial-index__title">Chapter Index</p>
+<button aria-label="Close table of contents" class="control-button editorial-index__close" id="indexCloseButton" type="button">×</button>
+</div>
+<a class="editorial-index__home" href="./index.html">Home</a>
+<nav aria-label="Guide contents">
+<ol class="toc-list" id="tocList"></ol>
+</nav>
+</aside>
+<main class="guide-main" id="main-content">
+<header class="guide-hero">
+<p class="guide-hero__label">Kooshky’s TOEFL Guides</p>
+<h1>Introducing Clauses</h1>
+<p class="guide-hero__subtitle">How English builds clauses from phrases, combines clauses into larger sentences, and nests one clause inside another.</p>
+<p class="guide-hero__credit">Collected and compiled by Amir Kooshky.</p>
+<div aria-label="Amir Kooshky’s platforms" class="guide-hero__links">
+<a class="editorial-link" href="https://telegram.me/KooshkyTOEFL" rel="noopener noreferrer" target="_blank">Telegram · @KooshkyTOEFL</a>
+<a class="editorial-link" href="https://instagram.com/kooshkytoefl" rel="noopener noreferrer" target="_blank">Instagram · @kooshkytoefl</a>
+<a class="editorial-link" href="https://telegram.me/kooshkyTOEFL_pv" rel="noopener noreferrer" target="_blank">Personal Telegram DM</a>
+</div>
+<p class="guide-hero__subtitle">Visit the Telegram channel and Instagram page for more TOEFL lessons, exercises, and study guides.</p>
+</header>
+<article>
+<section class="content-section">
+<h2>From Words to Phrases to Sentences</h2>
+<p>We already know that individual words can combine into phrases, and phrases can combine to form a complete sentence.</p>
+<div class="example">
+<span class="example-line">The dog near the front gate barked very loudly at the neighbors.</span>
+</div>
+<p>This sentence is made up of several phrases:</p>
+<div class="structure">
+<strong>[The dog near the front gate]</strong>
+<strong>[barked]</strong>
+<strong>[very loudly]</strong>
+<strong>[at the neighbors]</strong>
+</div>
+<div class="phrase-grid">
+<div class="study-card">
+<h3>The dog near the front gate</h3>
+<p><strong>Phrase type:</strong> noun phrase</p>
+<p><strong>Sentence function:</strong> subject</p>
+</div>
+<div class="study-card">
+<h3>barked</h3>
+<p><strong>Phrase type:</strong> one-word verb phrase</p>
+<p><strong>Sentence function:</strong> verbal element</p>
+</div>
+<div class="study-card">
+<h3>very loudly</h3>
+<p><strong>Phrase type:</strong> adverb phrase</p>
+<p><strong>Sentence function:</strong> adverbial of manner</p>
+</div>
+<div class="study-card">
+<h3>at the neighbors</h3>
+<p><strong>Phrase type:</strong> prepositional phrase</p>
+<p><strong>Sentence function:</strong> adverbial</p>
+</div>
+</div>
+<p>Some of these phrases contain smaller phrases inside them.</p>
+<div class="analysis-block">
+<p><strong>[The dog [near [the front gate]]]</strong></p>
+<p><strong>the front gate</strong> = noun phrase</p>
+<p><strong>near the front gate</strong> = prepositional phrase</p>
+<p><strong>the dog near the front gate</strong> = larger noun phrase; subject</p>
+</div>
+<div class="analysis-block">
+<p><strong>[[very] loudly]</strong></p>
+<p><strong>very</strong> = one-word adverb phrase strengthening <em>loudly</em></p>
+<p><strong>very loudly</strong> = larger adverb phrase; adverbial of manner</p>
+</div>
+<div class="analysis-block">
+<p><strong>[at [the neighbors]]</strong></p>
+<p><strong>the neighbors</strong> = noun phrase</p>
+<p><strong>at the neighbors</strong> = prepositional phrase; adverbial</p>
+</div>
+<div class="key-point">
+      Smaller grammatical units can appear inside larger grammatical units. This is the nesting principle.
+    </div>
+<p>So far, our model has been:</p>
+<div class="structure"><strong>words → phrases → sentences</strong></div>
+<p>English sentences can also contain another important kind of unit.</p>
+</section>
+<section class="content-section">
+<h2>A Sentence with Two Subjects and Two Verbs</h2>
+<div class="example">
+<span class="example-line">He was tired, but he continued working.</span>
+</div>
+<p>This sentence contains two subjects:</p>
+<ul>
+<li><strong>he</strong></li>
+<li><strong>he</strong></li>
+</ul>
+<p>It also contains two separate verbal structures:</p>
+<ul>
+<li><strong>was</strong></li>
+<li><strong>continued working</strong></li>
+</ul>
+<div class="warning">
+      According to what we have learned so far, this seems unusual. We have been analysing a basic sentence as a structure containing one subject and one main verbal element. This example appears to contain that basic structure twice.
+    </div>
+<p>We can divide the sentence into two units:</p>
+<div class="structure">
+<strong>[He was tired]</strong>, but <strong>[he continued working]</strong>.
+    </div>
+<div class="compare-grid">
+<div class="study-card">
+<h3>First unit</h3>
+<p><strong>He was tired.</strong></p>
+<p><strong>he</strong> = subject</p>
+<p><strong>was</strong> = linking verb</p>
+<p><strong>tired</strong> = subject complement</p>
+</div>
+<div class="study-card">
+<h3>Second unit</h3>
+<p><strong>He continued working.</strong></p>
+<p><strong>he</strong> = subject</p>
+<p><strong>continued working</strong> = verb phrase</p>
+</div>
+</div>
+<p>Each unit can stand as a complete sentence by itself:</p>
+<div class="example">
+<span class="example-line">He was tired.</span>
+<span class="example-line">He continued working.</span>
+</div>
+<p>English allows us to connect these two smaller sentences and create one larger sentence:</p>
+<div class="example">
+<span class="example-line">He was tired, but he continued working.</span>
+</div>
+<p>The conjunction <strong>but</strong> connects the two units and shows a contrast between them.</p>
+</section>
+<section class="content-section">
+<h2>Combining Smaller Sentences into a Larger Sentence</h2>
+<p>Consider another pair of sentences:</p>
+<div class="compare-grid">
+<div class="study-card">
+<h3>First sentence</h3>
+<p><strong>Sara opened the window.</strong></p>
+<p><strong>Sara</strong> = subject</p>
+<p><strong>opened</strong> = verb</p>
+<p><strong>the window</strong> = direct object</p>
+</div>
+<div class="study-card">
+<h3>Second sentence</h3>
+<p><strong>David closed the door.</strong></p>
+<p><strong>David</strong> = subject</p>
+<p><strong>closed</strong> = verb</p>
+<p><strong>the door</strong> = direct object</p>
+</div>
+</div>
+<p>English allows us to combine them:</p>
+<div class="example">
+<span class="example-line">Sara opened the window, and David closed the door.</span>
+</div>
+<p>The larger sentence contains the two original sentence units:</p>
+<div class="structure">
+<strong>[Sara opened the window]</strong>, and
+      <strong>[David closed the door]</strong>.
+    </div>
+<p>The conjunction <strong>and</strong> connects them.</p>
+<p>This follows the same general nesting principle that we have already studied:</p>
+<div class="structure">
+      words → phrases → sentence-like units → larger sentences
+    </div>
+<p>Grammarians therefore needed a precise name for these smaller sentence-like units that can exist inside a larger sentence.</p>
+</section>
+<section class="content-section">
+<h2>What Is a Clause?</h2>
+<p>We have been calling the two parts of the sentence <strong>sentence-like units</strong>:</p>
+<div class="structure">
+<strong>[He was tired]</strong>, but <strong>[he continued working]</strong>.
+    </div>
+<p>But <strong>sentence-like unit</strong> is only an informal description. Grammarians needed a precise term for these smaller structures that could be joined together to create a larger sentence.</p>
+<p>Before choosing a name, they first needed to answer an important question:</p>
+<div class="key-point">
+      How can we recognize one of these units?
+    </div>
+<p>Look again at the two parts:</p>
+<div class="compare-grid">
+<div class="study-card">
+<h3>He was tired</h3>
+<p><strong>Subject:</strong> he</p>
+<p><strong>Verb:</strong> was</p>
+</div>
+<div class="study-card">
+<h3>he continued working</h3>
+<p><strong>Subject:</strong> he</p>
+<p><strong>Verb:</strong> continued</p>
+</div>
+</div>
+<p>How did we separate these units at the beginning?</p>
+<p>We noticed that each unit had its own subject and its own verb.</p>
+<div class="remember">
+      Each sentence-like unit contains its own subject and verb.
+    </div>
+<p>Grammarians call such a unit a <strong>clause</strong>.</p>
+<div class="definition-block">
+<p class="definition-block__label">DEFINITION</p>
+<p><strong>A clause is a group of words that contains a subject and a verb.</strong></p>
+</div>
+<p>Consider again:</p>
+<div class="example">
+<span class="example-line">Sara opened the window, and David closed the door.</span>
+</div>
+<p>We can recognize two clauses because we can find two separate subject–verb structures:</p>
+<div class="structure">
+<strong>[Sara opened the window]</strong>, and
+      <strong>[David closed the door]</strong>.
+    </div>
+<div class="compare-grid">
+<div class="study-card">
+<h3>Clause 1</h3>
+<p><strong>Subject:</strong> Sara</p>
+<p><strong>Verb:</strong> opened</p>
+</div>
+<div class="study-card">
+<h3>Clause 2</h3>
+<p><strong>Subject:</strong> David</p>
+<p><strong>Verb:</strong> closed</p>
+</div>
+</div>
+<p>The conjunction <strong>and</strong> connects the two clauses, but each clause has its own subject and verb.</p>
+</section>
+<section class="content-section">
+<h2>Testing the Definition</h2>
+<div class="compare-grid">
+<div class="study-card">
+<h3>the dog near the front gate</h3>
+<p>This is a long group of words.</p>
+<p>It contains determiners, nouns, an adjective, and a preposition.</p>
+<p>However, it does not contain a verb.</p>
+<p><strong>Result:</strong> noun phrase, not a clause.</p>
+</div>
+<div class="study-card">
+<h3>the dog waited near the front gate</h3>
+<p><strong>Subject:</strong> the dog</p>
+<p><strong>Verb:</strong> waited</p>
+<p><strong>Result:</strong> clause.</p>
+</div>
+</div>
+<p>The important difference is not length.</p>
+<div class="compare-grid">
+<div class="study-card">
+<h3>A long phrase</h3>
+<p><strong>the unusually large black dog near the front gate</strong></p>
+<p>This group has no verb, so it is not a clause.</p>
+</div>
+<div class="study-card">
+<h3>A short clause</h3>
+<p><strong>Dogs bark.</strong></p>
+<p><strong>Subject:</strong> dogs</p>
+<p><strong>Verb:</strong> bark</p>
+</div>
+</div>
+<div class="key-point">
+      Does this unit contain its own subject and verb? If it does, it is a clause.
+    </div>
+</section>
+<section class="content-section">
+<h2>Phrase or Clause?</h2>
+<div class="compare-grid">
+<div class="study-card">
+<h3>Phrase</h3>
+<p><strong>after lunch</strong></p>
+<p>Prepositional phrase</p>
+<p>No subject–verb structure</p>
+</div>
+<div class="study-card">
+<h3>Clause</h3>
+<p><strong>The students finished lunch.</strong></p>
+<p><strong>Subject:</strong> the students</p>
+<p><strong>Verb:</strong> finished</p>
+</div>
+</div>
+<div class="compare-grid">
+<div class="study-card">
+<h3>Phrase</h3>
+<p><strong>near the old building</strong></p>
+<p>No subject–verb structure</p>
+</div>
+<div class="study-card">
+<h3>Clause</h3>
+<p><strong>The students waited near the old building.</strong></p>
+<p><strong>Subject:</strong> the students</p>
+<p><strong>Verb:</strong> waited</p>
+</div>
+</div>
+<div class="compare-grid">
+<div class="study-card">
+<h3>Phrase</h3>
+<p><strong>very tired</strong></p>
+<p>Adjective phrase</p>
+<p><strong>Head:</strong> tired</p>
+<p><strong>very</strong> strengthens <em>tired</em>.</p>
+</div>
+<div class="study-card">
+<h3>Clause</h3>
+<p><strong>Sara was very tired.</strong></p>
+<p><strong>Subject:</strong> Sara</p>
+<p><strong>Verb:</strong> was</p>
+</div>
+</div>
+<p>The phrase <strong>very tired</strong> exists inside the clause:</p>
+<div class="structure">Sara was <strong>[very tired]</strong>.</div>
+<p>A clause can therefore contain several phrases.</p>
+</section>
+<section class="content-section">
+<h2>Phrases Inside Clauses</h2>
+<p>A clause is normally built from phrases.</p>
+<div class="example">
+<span class="example-line">The dog near the front gate barked very loudly.</span>
+</div>
+<p>The entire group is a clause because it contains:</p>
+<ul>
+<li><strong>subject:</strong> the dog near the front gate</li>
+<li><strong>verb:</strong> barked</li>
+</ul>
+<div class="structure">
+<strong>[[The dog [near [the front gate]]] [barked] [[very] loudly]]</strong>
+</div>
+<h3>Clause-level structure</h3>
+<dl class="term-list">
+<dt>the dog near the front gate</dt>
+<dd>noun phrase; subject</dd>
+<dt>barked</dt>
+<dd>one-word verb phrase; verbal element</dd>
+<dt>very loudly</dt>
+<dd>adverb phrase; adverbial of manner</dd>
+</dl>
+<h3>Smaller phrases inside those phrases</h3>
+<dl class="term-list">
+<dt>the front gate</dt>
+<dd>noun phrase</dd>
+<dt>near the front gate</dt>
+<dd>prepositional phrase inside the subject noun phrase</dd>
+<dt>very</dt>
+<dd>one-word adverb phrase inside the larger adverb phrase</dd>
+</dl>
+<p>The clause is therefore a larger grammatical unit made from phrases.</p>
+</section>
+<section class="content-section">
+<h2>Clauses Inside Larger Sentences</h2>
+<div class="example">
+<span class="example-line">He was tired, but he continued working.</span>
+</div>
+<p>The complete sentence contains two clauses:</p>
+<div class="structure">
+<strong>[He was tired]</strong>, but
+      <strong>[he continued working]</strong>.
+    </div>
+<div class="compare-grid">
+<div class="study-card">
+<h3>Clause 1</h3>
+<p><strong>Subject:</strong> he</p>
+<p><strong>Verb:</strong> was</p>
+<p><strong>Subject complement:</strong> tired</p>
+</div>
+<div class="study-card">
+<h3>Clause 2</h3>
+<p><strong>Subject:</strong> he</p>
+<p><strong>Verb phrase:</strong> continued working</p>
+</div>
+</div>
+<p>The conjunction <strong>but</strong> joins the two clauses and creates one larger sentence.</p>
+<div class="example">
+<span class="example-line">Sara opened the window, and David closed the door.</span>
+</div>
+<div class="structure">
+<strong>[Sara opened the window]</strong>, and
+      <strong>[David closed the door]</strong>.
+    </div>
+<p>Each bracketed unit is a clause because each one contains its own subject and verb.</p>
+</section>
+<section class="content-section">
+<h2>One Clause Can Form a Complete Sentence</h2>
+<p>Just as a phrase can contain only one word, a sentence can contain only one clause.</p>
+<div class="example">
+<span class="example-line">Dogs bark.</span>
+</div>
+<p>This sentence contains one clause:</p>
+<div class="structure"><strong>[Dogs bark]</strong>.</div>
+<ul>
+<li><strong>dogs</strong> = subject</li>
+<li><strong>bark</strong> = verb</li>
+</ul>
+<p>Because this clause forms a complete statement, it can stand alone as a sentence.</p>
+<div class="example">
+<span class="example-line">Sara opened the door.</span>
+</div>
+<p>This is both:</p>
+<ul>
+<li>one clause; and</li>
+<li>one complete sentence.</li>
+</ul>
+<div class="remember">
+      A sentence does not need several clauses. One complete clause is enough.
+    </div>
+</section>
+<section class="content-section">
+<h2>But Not Every Clause Can Stand Alone</h2>
+<p>A phrase can sometimes contain only one word:</p>
+<div class="example">
+<span class="example-line">dogs</span>
+<span class="example-line">quietly</span>
+<span class="example-line">tired</span>
+</div>
+<p>However, being a phrase does not mean that the unit can stand alone as a complete sentence.</p>
+<div class="example">
+<span class="example-line">the tired student</span>
+</div>
+<p>This is a complete noun phrase, but it does not express a complete statement by itself.</p>
+<p>In a similar way, every clause contains a subject and a verb, but not every clause can stand alone as a complete sentence.</p>
+<div class="compare-grid">
+<div class="study-card">
+<h3>he was tired</h3>
+<p><strong>Subject:</strong> he</p>
+<p><strong>Verb:</strong> was</p>
+<p>Complete statement</p>
+</div>
+<div class="study-card">
+<h3>because he was tired</h3>
+<p><strong>Subject:</strong> he</p>
+<p><strong>Verb:</strong> was</p>
+<p>The thought is unfinished by itself.</p>
+</div>
+</div>
+<p>The word <strong>because</strong> makes the reader expect more information:</p>
+<div class="warning">
+      What happened because he was tired?
+    </div>
+<p>This gives us two major kinds of clauses:</p>
+<ol>
+<li><strong>independent clauses</strong></li>
+<li><strong>dependent clauses</strong></li>
+</ol>
+</section>
+<section class="content-section">
+<h2>Independent Clauses</h2>
+<div class="definition-block">
+<p class="definition-block__label">DEFINITION</p>
+<p>An <strong>independent clause</strong> contains a subject and a verb and expresses a complete thought. It can stand alone as a complete sentence.</p>
+</div>
+<div class="example">
+<span class="example-line">He was tired.</span>
+<span class="example-line">Sara opened the window.</span>
+<span class="example-line">The students finished the assignment.</span>
+<span class="example-line">The old machine stopped suddenly.</span>
+</div>
+<p>Each example contains its own subject and verb, and each one makes complete sense by itself.</p>
+<h3>Independent clauses inside a larger sentence</h3>
+<p>An independent clause does not stop being independent when it is joined to another clause.</p>
+<div class="example">
+<span class="example-line">He was tired, but he continued working.</span>
+</div>
+<div class="structure">
+<strong>[He was tired]</strong>, but
+      <strong>[he continued working]</strong>.
+    </div>
+<p>Both units are independent clauses because each one could stand alone as a sentence.</p>
+<div class="example">
+<span class="example-line">Sara opened the window, and David closed the door.</span>
+</div>
+<div class="structure">
+<strong>[Sara opened the window]</strong>, and
+      <strong>[David closed the door]</strong>.
+    </div>
+</section>
+<section class="content-section">
+<h2>Dependent Clauses</h2>
+<div class="definition-block">
+<p class="definition-block__label">DEFINITION</p>
+<p>A <strong>dependent clause</strong> contains a subject and a verb but does not express a complete thought by itself. It depends on another clause to complete its meaning.</p>
+</div>
+<div class="example">
+<span class="example-line">because he was tired</span>
+</div>
+<p>This is a clause because it contains:</p>
+<ul>
+<li><strong>subject:</strong> he</li>
+<li><strong>verb:</strong> was</li>
+</ul>
+<p>But it cannot stand alone naturally as a complete sentence. It needs an independent clause:</p>
+<div class="example">
+<span class="example-line">He went home because he was tired.</span>
+</div>
+<div class="compare-grid">
+<div class="study-card">
+<h3>Independent clause</h3>
+<p><strong>He went home</strong></p>
+<p>Complete thought</p>
+<p>Can stand alone</p>
+</div>
+<div class="study-card">
+<h3>Dependent clause</h3>
+<p><strong>because he was tired</strong></p>
+<p>Gives the reason</p>
+<p>Cannot normally stand alone</p>
+</div>
+</div>
+<h3>More dependent clauses</h3>
+<div class="example">
+<span class="example-line">when the class ended</span>
+</div>
+<p>This unit contains <strong>the class</strong> as its subject and <strong>ended</strong> as its verb. It is therefore a clause, but it makes the reader expect another statement:</p>
+<div class="example">
+<span class="example-line">The students left when the class ended.</span>
+</div>
+<div class="example">
+<span class="example-line">although she studied carefully</span>
+</div>
+<p>This unit contains <strong>she</strong> as its subject and <strong>studied</strong> as its verb, but it also leaves the reader waiting for contrasting information:</p>
+<div class="example">
+<span class="example-line">She made several mistakes although she studied carefully.</span>
+</div>
+</section>
+<section class="content-section">
+<h2>What Makes a Clause Dependent?</h2>
+<p>Words such as the following can introduce dependent clauses:</p>
+<div aria-label="Common dependent-clause markers" class="chip-grid">
+<span class="term-chip">because</span>
+<span class="term-chip">although</span>
+<span class="term-chip">when</span>
+<span class="term-chip">while</span>
+<span class="term-chip">if</span>
+<span class="term-chip">since</span>
+<span class="term-chip">before</span>
+<span class="term-chip">after</span>
+<span class="term-chip">unless</span>
+</div>
+<div class="compare-grid">
+<div class="study-card">
+<h3>Independent clause</h3>
+<p><strong>He was tired.</strong></p>
+<p>This is complete.</p>
+</div>
+<div class="study-card">
+<h3>Dependent clause</h3>
+<p><strong>because he was tired</strong></p>
+<p>The subject and verb remain, but <strong>because</strong> makes the clause depend on another statement.</p>
+</div>
+</div>
+<div class="compare-grid">
+<div class="study-card">
+<h3>Independent clause</h3>
+<p><strong>The class ended.</strong></p>
+<p>This is complete.</p>
+</div>
+<div class="study-card">
+<h3>Dependent clause</h3>
+<p><strong>when the class ended</strong></p>
+<p>The word <strong>when</strong> makes the unit depend on another statement.</p>
+</div>
+</div>
+<div class="key-point">
+      The presence of a subject and verb tells us that the unit is a clause. Its ability to stand alone as a complete statement tells us whether it is independent or dependent.
+    </div>
+</section><section class="content-section" id="finding-clause-boundaries">
+<h2>How Do We Find Clause Boundaries?</h2>
+<p>Finding the subjects and verbs tells us how many clause structures may be present. The next question is where each clause begins and ends.</p>
+<div class="example">
+<span class="example-line">He went to the store because he needed something.</span>
+</div>
+<p>A learner may reasonably wonder:</p>
+<div class="warning">
+    Does <strong>because</strong> belong to the first clause or the second clause?
+  </div>
+<p>The correct division is:</p>
+<div class="structure">
+<strong>[He went to the store]</strong>
+<strong>[because he needed something]</strong>.
+  </div>
+<p><strong>Because</strong> belongs with the second clause. It introduces that clause, shows its relationship to the first clause, and makes it dependent.</p>
+<div class="definition-block">
+<p class="definition-block__label">USEFUL GENERAL RULE</p>
+<p>A word that introduces a dependent clause normally belongs at the beginning of that dependent clause.</p>
+</div>
+<div class="compare-grid">
+<div class="study-card">
+<h3>because</h3>
+<p><strong>[We stayed inside]</strong> <strong>[because it was raining]</strong>.</p>
+</div>
+<div class="study-card">
+<h3>when</h3>
+<p><strong>[The students left]</strong> <strong>[when the class ended]</strong>.</p>
+</div>
+<div class="study-card">
+<h3>if</h3>
+<p><strong>[Call me]</strong> <strong>[if you need help]</strong>.</p>
+</div>
+<div class="study-card">
+<h3>although</h3>
+<p><strong>[Although she was tired]</strong>, <strong>[she continued working]</strong>.</p>
+</div>
+</div>
+<h3>A Practical Method</h3>
+<ol class="steps">
+<li><strong>Find every subject–verb pair.</strong> Each pair may mark the centre of a clause.</li>
+<li><strong>Look for clause-introducing words.</strong> Words such as <em>because, when, if, although, before, after, while, since,</em> and <em>unless</em> often mark the beginning of a dependent clause.</li>
+<li><strong>Keep the introducing word with the clause it introduces.</strong> For example, use <strong>[because he needed something]</strong>, not <strong>[because] [he needed something]</strong>.</li>
+<li><strong>Check whether the group can stand alone.</strong> This helps distinguish an independent clause from a dependent one.</li>
+<li><strong>Check for nesting.</strong> One subject–verb unit may appear inside the boundaries of a larger clause.</li>
+</ol>
+<h3>What About Coordinating Words?</h3>
+<p>Words such as <strong>and, but, or, so,</strong> and <strong>yet</strong> can connect clauses that stand beside each other:</p>
+<div class="example">
+<span class="example-line">Sara opened the window, and David closed the door.</span>
+</div>
+<div class="structure">
+<strong>[Sara opened the window]</strong>, and
+    <strong>[David closed the door]</strong>.
+  </div>
+<p>In this kind of analysis, the conjunction sits between the two clauses and links them. It is not part of the subject–verb structure inside either clause.</p>
+<h3>Punctuation Can Help, but It Is Not Enough</h3>
+<p>Commas and other punctuation marks sometimes make clause boundaries easier to see:</p>
+<div class="example">
+<span class="example-line">If the weather improves, we will leave early.</span>
+</div>
+<p>However, many clauses are not separated by commas:</p>
+<div class="example">
+<span class="example-line">We will leave early if the weather improves.</span>
+</div>
+<p>Therefore, punctuation is only a clue. The more reliable method is to identify the subject–verb structures and understand the words that introduce or connect clauses.</p>
+<div class="remember">
+<p><strong>There is no single mechanical trick that finds every clause boundary in English.</strong></p>
+<p>The general rules above are extremely useful, but some boundaries become clear only after students learn the different ways clauses are formed and connected.</p>
+</div>
+<p>As you study more examples, you will gradually recognize common clause patterns automatically. In the next part of these notes, we will examine the different types of clauses in detail. That knowledge will make difficult clause boundaries much easier to identify.</p>
+</section>
+<section class="content-section">
+<h2>Phrase, Independent Clause, or Dependent Clause?</h2>
+<div class="three-way-grid">
+<div class="study-card">
+<p class="card-label">PHRASE</p>
+<h3>after the long class</h3>
+<p>No subject–verb structure</p>
+<p>Prepositional phrase</p>
+</div>
+<div class="study-card">
+<p class="card-label">INDEPENDENT CLAUSE</p>
+<h3>the long class ended</h3>
+<p><strong>Subject:</strong> the long class</p>
+<p><strong>Verb:</strong> ended</p>
+<p>Can stand alone</p>
+</div>
+<div class="study-card">
+<p class="card-label">DEPENDENT CLAUSE</p>
+<h3>after the long class ended</h3>
+<p><strong>Subject:</strong> the long class</p>
+<p><strong>Verb:</strong> ended</p>
+<p>Cannot normally stand alone</p>
+</div>
+</div>
+<div class="remember">
+<strong>after the long class</strong> is a phrase because it has no verb. <strong>after the long class ended</strong> is a clause because it contains a subject and verb.
+    </div>
+</section>
+<section class="content-section">
+<h2>A Clause and a Sentence Are Not Always the Same Thing</h2>
+<p>A clause is defined by its internal structure:</p>
+<div class="key-point">
+      It contains a subject and a verb.
+    </div>
+<p>A sentence is a complete grammatical unit used to make a statement, ask a question, give a command, or express another complete communicative purpose.</p>
+<div class="phrase-grid">
+<div class="study-card">
+<h3>One clause, one sentence</h3>
+<p><strong>Sara laughed.</strong></p>
+</div>
+<div class="study-card">
+<h3>Two clauses, one sentence</h3>
+<p><strong>Sara laughed, and David smiled.</strong></p>
+</div>
+<div class="study-card">
+<h3>A dependent clause inside a sentence</h3>
+<p><strong>David smiled because Sara laughed.</strong></p>
+</div>
+</div>
+<ul>
+<li>A one-clause sentence contains one independent clause.</li>
+<li>A multi-clause sentence contains more than one clause.</li>
+<li>Some clauses are independent.</li>
+<li>Some clauses are dependent.</li>
+</ul>
+</section>
+<div aria-hidden="true" id="promoSentinel"></div>
+<section class="content-section">
+<h2>Clauses Can Be Nested Too</h2>
+<p>Just as one phrase can appear inside another phrase, one clause can appear inside another clause.</p>
+<div class="example">
+<span class="example-line">The teacher said the test was easy.</span>
+</div>
+<div class="structure">
+<strong>[The teacher said [the test was easy]]</strong>.
+    </div>
+<h3>The inner clause</h3>
+<div class="analysis-block">
+<p><strong>the test was easy</strong></p>
+<p><strong>Subject:</strong> the test</p>
+<p><strong>Verb:</strong> was</p>
+</div>
+<p>This is a clause because it has its own subject and verb.</p>
+<h3>The larger clause</h3>
+<div class="analysis-block">
+<p><strong>The teacher said the test was easy</strong></p>
+<p><strong>Subject:</strong> the teacher</p>
+<p><strong>Verb:</strong> said</p>
+</div>
+<p>The inner clause <strong>the test was easy</strong> appears inside the larger clause and completes the meaning of <strong>said</strong> by telling us what the teacher said.</p>
+<div class="key-point">
+      This is genuine clause nesting: <strong>[The teacher said [the test was easy]]</strong>.
+    </div>
+<h3>More Examples of a Clause Inside a Clause</h3>
+<div class="nested-example-list">
+<div class="nested-example">
+<p><strong>[I think [the answer is correct]].</strong></p>
+<p>Inner clause: <strong>the answer is correct</strong>. It tells us what I think.</p>
+</div>
+<div class="nested-example">
+<p><strong>[Mina knew [the door was locked]].</strong></p>
+<p>Inner clause: <strong>the door was locked</strong>. It tells us what Mina knew.</p>
+</div>
+<div class="nested-example">
+<p><strong>[We noticed [the lights were off]].</strong></p>
+<p>Inner clause: <strong>the lights were off</strong>. It tells us what we noticed.</p>
+</div>
+<div class="nested-example">
+<p><strong>[The manager believed [the machine was safe]].</strong></p>
+<p>Inner clause: <strong>the machine was safe</strong>.</p>
+</div>
+<div class="nested-example">
+<p><strong>[He discovered [the window was open]].</strong></p>
+<p>Inner clause: <strong>the window was open</strong>.</p>
+</div>
+</div>
+<p>In every example, the inner clause has its own subject and verb, but it exists inside a larger clause.</p>
+<h3>Several Levels of Clause Nesting</h3>
+<div class="example">
+<span class="example-line">I know Sara thinks the plan will work.</span>
+</div>
+<div class="structure">
+<strong>[I know [Sara thinks [the plan will work]]]</strong>.
+    </div>
+<div class="nested-diagram">
+<div class="nested-diagram__row">
+<span class="nested-diagram__label">Innermost clause</span>
+<span><strong>the plan will work</strong> — subject: <em>the plan</em>; verb phrase: <em>will work</em></span>
+</div>
+<div class="nested-diagram__row nested-diagram__row--inset">
+<span class="nested-diagram__label">Middle clause</span>
+<span><strong>Sara thinks the plan will work</strong> — contains the inner clause</span>
+</div>
+<div class="nested-diagram__row nested-diagram__row--deep">
+<span class="nested-diagram__label">Largest clause</span>
+<span><strong>I know Sara thinks the plan will work</strong> — contains the middle clause</span>
+</div>
+</div>
+<h3>More Multiple-Level Examples</h3>
+<div class="nested-example-list">
+<div class="nested-example">
+<p><strong>[The teacher said [Mina believed [the test was easy]]].</strong></p>
+<p>Innermost: <strong>the test was easy</strong>. Middle: <strong>Mina believed the test was easy</strong>.</p>
+</div>
+<div class="nested-example">
+<p><strong>[We knew [David thought [the meeting was cancelled]]].</strong></p>
+<p>Innermost: <strong>the meeting was cancelled</strong>. Middle: <strong>David thought the meeting was cancelled</strong>.</p>
+</div>
+<div class="nested-example">
+<p><strong>[I heard [the manager said [the office was closing]]].</strong></p>
+<p>Innermost: <strong>the office was closing</strong>. Middle: <strong>the manager said the office was closing</strong>.</p>
+</div>
+<div class="nested-example">
+<p><strong>[Sara remembered [her teacher had explained [the rule was important]]].</strong></p>
+<p>Innermost: <strong>the rule was important</strong>. Middle: <strong>her teacher had explained the rule was important</strong>.</p>
+</div>
+</div>
+<h3>A Dependent Clause Inside Another Clause</h3>
+<div class="example">
+<span class="example-line">Sara left because the store closed when the power failed.</span>
+</div>
+<div class="structure">
+<strong>[Sara left [because the store closed [when the power failed]]]</strong>.
+    </div>
+<div class="analysis-block">
+<p><strong>when the power failed</strong> is nested inside <strong>because the store closed when the power failed</strong>.</p>
+<p>The larger dependent clause is itself nested inside the complete sentence.</p>
+</div>
+<h3>More Examples</h3>
+<div class="nested-example-list">
+<div class="nested-example">
+<p><strong>[We stayed inside [because the roads froze [after the storm ended]]].</strong></p>
+<p><strong>after the storm ended</strong> is inside the larger dependent clause.</p>
+</div>
+<div class="nested-example">
+<p><strong>[The children cheered [when the teacher announced [school was closed]]].</strong></p>
+<p><strong>school was closed</strong> is inside <strong>when the teacher announced school was closed</strong>.</p>
+</div>
+<div class="nested-example">
+<p><strong>[He called me [after the doctor confirmed [the results were normal]]].</strong></p>
+<p><strong>the results were normal</strong> is inside the clause introduced by <strong>after</strong>.</p>
+</div>
+<div class="nested-example">
+<p><strong>[Mina relaxed [when the manager said [the problem was solved]]].</strong></p>
+<p><strong>the problem was solved</strong> is inside the clause introduced by <strong>when</strong>.</p>
+</div>
+<div class="nested-example">
+<p><strong>[The workers left [because the supervisor believed [the building was unsafe]]].</strong></p>
+<p><strong>the building was unsafe</strong> is inside the clause introduced by <strong>because</strong>.</p>
+</div>
+</div>
+<h3>Phrases and Clauses Can Be Nested at the Same Time</h3>
+<div class="example">
+<span class="example-line">The nervous student near the door said the final question was extremely difficult.</span>
+</div>
+<div class="structure">
+<strong>[The nervous student near the door said [the final question was extremely difficult]]</strong>.
+    </div>
+<div class="analysis-block">
+<p><strong>the nervous student near the door</strong> = noun phrase; subject of the larger clause</p>
+<p><strong>near the door</strong> = prepositional phrase inside that subject noun phrase</p>
+<p><strong>the final question was extremely difficult</strong> = nested clause</p>
+<p><strong>the final question</strong> = noun phrase; subject of the nested clause</p>
+<p><strong>extremely difficult</strong> = adjective phrase; subject complement</p>
+<p><strong>extremely</strong> = adverb phrase inside the adjective phrase</p>
+</div>
+<section aria-labelledby="nested-roles-title" class="nested-roles">
+<h3 id="nested-roles-title">Every Nested Clause Has an External Role and an Internal Structure</h3>
+<p>When a clause is nested inside another clause, we can analyse it at two different levels.</p>
+<div class="two-level-rule">
+<div>
+<p class="answer-label">EXTERNAL LEVEL</p>
+<p>The whole nested clause performs a grammatical role inside the clause that contains it.</p>
+</div>
+<div>
+<p class="answer-label">INTERNAL LEVEL</p>
+<p>Inside the nested clause, its own words and phrases perform roles such as subject, verb, object, complement, and adverbial.</p>
+</div>
+</div>
+<h4>The Broader Meaning of “Complement”</h4>
+<p>Earlier, we studied two specific kinds of complements:</p>
+<ul>
+<li><strong>subject complements</strong>, which describe or identify the subject;</li>
+<li><strong>object complements</strong>, which describe or identify the object.</li>
+</ul>
+<p>However, grammar also uses <strong>complement</strong> in a broader sense.</p>
+<div class="definition-block">
+<p class="definition-block__label">BROADER DEFINITION</p>
+<p>A <strong>complement</strong> is a word, phrase, or clause that completes the meaning of another word or structure.</p>
+</div>
+<p>For example, some verbs feel incomplete unless something follows them:</p>
+<div class="compare-grid">
+<div class="study-card">
+<h3>Incomplete meaning</h3>
+<p><strong>The teacher said …</strong></p>
+<p>The reader naturally asks: <em>said what?</em></p>
+</div>
+<div class="study-card">
+<h3>Completed meaning</h3>
+<p><strong>The teacher said the test was easy.</strong></p>
+<p>The clause <strong>the test was easy</strong> completes the meaning of <strong>said</strong>.</p>
+</div>
+</div>
+<p>This broader use of <strong>complement</strong> includes many structures that complete the meaning of verbs, adjectives, nouns, or other grammatical units. It is wider than the two special categories <strong>subject complement</strong> and <strong>object complement</strong>.</p>
+<h4>Example 1: A Nested Clause Functioning as an Adverbial</h4>
+<div class="example">
+<span class="example-line">He went home because he was tired.</span>
+</div>
+<div class="structure">
+<strong>[He went home [because he was tired]]</strong>.
+  </div>
+<div class="role-analysis">
+<div class="role-analysis__level">
+<p class="answer-label">EXTERNAL ROLE OF THE NESTED CLAUSE</p>
+<p>The whole clause <strong>because he was tired</strong> functions as an adverbial of reason in the larger clause. It explains why he went home.</p>
+</div>
+<div class="role-analysis__level">
+<p class="answer-label">INTERNAL STRUCTURE OF THE NESTED CLAUSE</p>
+<p><strong>he</strong> = subject</p>
+<p><strong>was</strong> = linking verb</p>
+<p><strong>tired</strong> = subject complement</p>
+</div>
+</div>
+<h4>Example 2: A Nested Clause Functioning as the Subject</h4>
+<div class="example">
+<span class="example-line">That the team won surprised everyone.</span>
+</div>
+<div class="structure">
+<strong>[[That the team won] surprised everyone]</strong>.
+  </div>
+<div class="role-analysis">
+<div class="role-analysis__level">
+<p class="answer-label">EXTERNAL ROLE OF THE NESTED CLAUSE</p>
+<p>The whole clause <strong>that the team won</strong> functions as the subject of the larger clause. It identifies what surprised everyone.</p>
+</div>
+<div class="role-analysis__level">
+<p class="answer-label">INTERNAL STRUCTURE OF THE NESTED CLAUSE</p>
+<p><strong>the team</strong> = subject</p>
+<p><strong>won</strong> = verb</p>
+</div>
+</div>
+<h4>Example 3: Object or Complement?</h4>
+<div class="example">
+<span class="example-line">The teacher said the test was easy.</span>
+</div>
+<div class="structure">
+<strong>[The teacher said [the test was easy]]</strong>.
+  </div>
+<div class="role-analysis">
+<div class="role-analysis__level">
+<p class="answer-label">EXTERNAL ROLE OF THE NESTED CLAUSE</p>
+<p>The whole clause <strong>the test was easy</strong> completes the meaning of <strong>said</strong>. It tells us what the teacher said.</p>
+</div>
+<div class="role-analysis__level">
+<p class="answer-label">INTERNAL STRUCTURE OF THE NESTED CLAUSE</p>
+<p><strong>the test</strong> = subject</p>
+<p><strong>was</strong> = linking verb</p>
+<p><strong>easy</strong> = subject complement</p>
+</div>
+</div>
+<div class="compare-grid">
+<div class="study-card">
+<p class="card-label">TRADITIONAL SCHOOL GRAMMAR</p>
+<h3>Direct object</h3>
+<p>Many traditional grammar books call the whole clause <strong>the test was easy</strong> the <strong>direct object</strong> of <strong>said</strong>.</p>
+<p>The usual question is: <em>The teacher said what?</em></p>
+</div>
+<div class="study-card">
+<p class="card-label">MANY NEWER GRAMMAR FRAMEWORKS</p>
+<h3>Complement of the verb</h3>
+<p>Many newer approaches call the same clause a <strong>complement</strong> of <strong>said</strong>.</p>
+<p>They often reserve the term <strong>object</strong> mainly for noun phrases and use <strong>complement</strong> for a clause that completes a verb’s meaning.</p>
+</div>
+</div>
+<div class="remember">
+<p>You may therefore see the same structure described in two ways:</p>
+<p><strong>the direct object of said</strong></p>
+<p>or</p>
+<p><strong>a clause functioning as the complement of said</strong></p>
+</div>
+<p>This difference should not matter much to you at this stage. Both analyses recognize the same important fact: the entire nested clause completes the meaning of <strong>said</strong>.</p>
+<p>In these notes, we may sometimes use the clearer description <strong>the clause completes the meaning of the verb</strong>, while also mentioning the traditional object label when it is useful.</p>
+<h4>Several Levels of Roles at Once</h4>
+<div class="example">
+<span class="example-line">I know Sara thinks the plan will work.</span>
+</div>
+<div class="structure">
+<strong>[I know [Sara thinks [the plan will work]]]</strong>.
+  </div>
+<div class="nested-role-chain">
+<div class="nested-role-chain__item">
+<p><strong>the plan will work</strong></p>
+<p><strong>External role:</strong> completes the meaning of <strong>thinks</strong>.</p>
+<p><strong>Internal roles:</strong> <em>the plan</em> = subject; <em>will work</em> = verb phrase.</p>
+</div>
+<div class="nested-role-chain__item">
+<p><strong>Sara thinks the plan will work</strong></p>
+<p><strong>External role:</strong> completes the meaning of <strong>know</strong>.</p>
+<p><strong>Internal roles:</strong> <em>Sara</em> = subject; <em>thinks</em> = verb; <em>the plan will work</em> = nested clause completing <em>thinks</em>.</p>
+</div>
+<div class="nested-role-chain__item">
+<p><strong>I know Sara thinks the plan will work</strong></p>
+<p>This is the largest clause. Internally, <em>I</em> is its subject, <em>know</em> is its verb, and the clause <em>Sara thinks the plan will work</em> completes the meaning of <em>know</em>.</p>
+</div>
+</div>
+<div class="key-point">
+    A nested clause is one complete unit from the outside, but it also has its own grammatical structure on the inside.
+  </div>
+</section><h3>The Main Principle</h3>
+<p>To find a clause nested inside another clause:</p>
+<ol class="steps">
+<li>Find every subject–verb structure.</li>
+<li>Place brackets around the smallest complete clause units.</li>
+<li>Check whether one clause appears inside the boundaries of another clause.</li>
+</ol>
+<div class="compare-grid">
+<div class="study-card">
+<h3>Clauses beside each other</h3>
+<p><strong>[The teacher spoke]</strong>, and <strong>[the students listened]</strong>.</p>
+</div>
+<div class="study-card">
+<h3>One clause inside another</h3>
+<p><strong>[The teacher said [the students were ready]]</strong>.</p>
+</div>
+</div>
+<div class="example">
+<span class="example-line"><strong>[I know [Sara thinks [the plan will work]]]</strong>.</span>
+</div>
+<p>This sentence contains several levels of clause nesting.</p>
+</section>
+<section class="content-section">
+<h2>The Expanded Structure</h2>
+<p>Our earlier model was:</p>
+<div class="structure"><strong>words → phrases → sentences</strong></div>
+<p>We can now add the missing level:</p>
+<div class="structure"><strong>words → phrases → clauses → sentences</strong></div>
+<div class="phrase-grid">
+<div class="study-card">
+<p class="card-label">WORDS COMBINE INTO PHRASES</p>
+<p>the dog</p>
+<p>very loudly</p>
+<p>near the gate</p>
+</div>
+<div class="study-card">
+<p class="card-label">PHRASES COMBINE INTO CLAUSES</p>
+<p>The dog barked very loudly.</p>
+</div>
+<div class="study-card">
+<p class="card-label">ONE CLAUSE CAN FORM A SENTENCE</p>
+<p>The dog barked.</p>
+</div>
+<div class="study-card">
+<p class="card-label">CLAUSES CAN FORM LARGER SENTENCES</p>
+<p>The dog barked, and the neighbors complained.</p>
+</div>
+</div>
+<div class="example">
+<span class="example-line">The neighbors complained because the dog barked.</span>
+</div>
+<p>This sentence contains an independent clause and a dependent clause.</p>
+<div class="key-point">
+      A sentence may contain words inside phrases, phrases inside clauses, and clauses inside the complete sentence.
+    </div>
+</section>
+<section class="content-section" id="sentence-types">
+<h2>Simple, Compound, Complex, and Compound-Complex Sentences</h2>
+<p>Once we can identify independent and dependent clauses, we can also classify complete sentences according to the clauses they contain.</p>
+<div class="definition-block">
+<p class="definition-block__label">KEY IDEA</p>
+<p>These labels describe the <strong>clause structure</strong> of the complete sentence.</p>
+</div>
+<div class="sentence-type-grid">
+<article class="study-card sentence-type-card">
+<p class="card-label">SIMPLE SENTENCE</p>
+<h3>One independent clause</h3>
+<div class="example">
+<span class="example-line">The students waited outside.</span>
+</div>
+<div class="structure"><strong>[The students waited outside]</strong>.</div>
+<p>A simple sentence contains one independent clause. It may still contain many words and phrases.</p>
+</article>
+<article class="study-card sentence-type-card">
+<p class="card-label">COMPOUND SENTENCE</p>
+<h3>Two or more independent clauses</h3>
+<div class="example">
+<span class="example-line">The students waited outside, and the teacher opened the door.</span>
+</div>
+<div class="structure">
+<strong>[The students waited outside]</strong>, and
+        <strong>[the teacher opened the door]</strong>.
+      </div>
+<p>A compound sentence joins independent clauses. Each clause could stand alone as a complete sentence.</p>
+</article>
+<article class="study-card sentence-type-card">
+<p class="card-label">COMPLEX SENTENCE</p>
+<h3>One independent clause plus at least one dependent clause</h3>
+<div class="example">
+<span class="example-line">The students entered when the teacher opened the door.</span>
+</div>
+<div class="structure">
+<strong>[The students entered]</strong>
+<strong>[when the teacher opened the door]</strong>.
+      </div>
+<p>A complex sentence contains an independent clause and at least one dependent clause.</p>
+</article>
+<article class="study-card sentence-type-card">
+<p class="card-label">COMPOUND-COMPLEX SENTENCE</p>
+<h3>Two or more independent clauses plus at least one dependent clause</h3>
+<div class="example">
+<span class="example-line">The students entered when the teacher opened the door, and the lesson began.</span>
+</div>
+<div class="structure">
+<strong>[The students entered [when the teacher opened the door]]</strong>, and
+        <strong>[the lesson began]</strong>.
+      </div>
+<p>A compound-complex sentence combines the structures of compound and complex sentences.</p>
+</article>
+</div>
+<h3>The Length of a Sentence Does Not Determine Its Type</h3>
+<div class="compare-grid">
+<div class="study-card">
+<h3>A long simple sentence</h3>
+<div class="example">
+<span class="example-line">The extremely nervous students near the front entrance waited very quietly for several minutes.</span>
+</div>
+<p>This is still a simple sentence because it contains only one independent clause.</p>
+</div>
+<div class="study-card">
+<h3>A short compound sentence</h3>
+<div class="example">
+<span class="example-line">I called, but she left.</span>
+</div>
+<p>This is compound because it contains two independent clauses.</p>
+</div>
+</div>
+<div class="remember">
+<p><strong>Simple:</strong> one independent clause</p>
+<p><strong>Compound:</strong> two or more independent clauses</p>
+<p><strong>Complex:</strong> one independent clause plus at least one dependent clause</p>
+<p><strong>Compound-complex:</strong> two or more independent clauses plus at least one dependent clause</p>
+</div>
+</section><section class="content-section">
+<h2>Final Summary</h2>
+<dl class="term-list">
+<dt>Phrase</dt>
+<dd>A grammatical unit built around a head word.</dd>
+<dt>Clause</dt>
+<dd>A group of words containing its own subject and verb.</dd>
+<dt>Independent clause</dt>
+<dd>A clause that expresses a complete thought and can stand alone as a sentence.</dd>
+<dt>Dependent clause</dt>
+<dd>A clause that contains a subject and verb but cannot normally stand alone as a complete sentence.</dd>
+<dt>Clause nesting</dt>
+<dd>A structure in which one clause appears inside another clause.</dd>
+</dl>
+<div class="compare-grid">
+<div class="study-card">
+<h3>Phrase</h3>
+<p>the old dog</p>
+<p>very quietly</p>
+<p>near the gate</p>
+</div>
+<div class="study-card">
+<h3>Clause</h3>
+<p>the old dog barked</p>
+<p>Sara opened the door</p>
+<p>the students were waiting</p>
+</div>
+</div>
+<p>An independent clause can stand alone:</p>
+<div class="example">
+<span class="example-line">The students left.</span>
+</div>
+<p>A dependent clause cannot normally stand alone:</p>
+<div class="example">
+<span class="example-line">when the class ended</span>
+</div>
+<div class="remember">
+<p><strong>First ask:</strong> Does the unit contain its own subject and verb?</p>
+<p>If yes, it is a clause.</p>
+<p><strong>Then ask:</strong> Can it stand alone as a complete statement?</p>
+<p>If yes, it is independent. If no, it is dependent.</p>
+</div>
+</section>
+<section class="content-section" id="clause-practice">
+<h2>Practice: Find and Classify the Clauses</h2>
+<p>This final practice reviews the entire guide. For each sentence, identify every clause, decide whether it is independent or dependent, and check whether any clause is nested inside another.</p>
+<div class="practice-instructions">
+<p class="answer-label">YOUR METHOD</p>
+<ol>
+<li>Underline or circle every subject.</li>
+<li>Find the verb connected to each subject.</li>
+<li>Use those subject–verb pairs to mark the clause boundaries.</li>
+<li>Ask whether each clause can stand alone as a complete statement.</li>
+<li>Check whether one clause appears inside another clause.</li>
+</ol>
+</div>
+<div class="warning">
+    A clause may be dependent because it begins with a word such as <strong>because, if, when, although, before,</strong> or <strong>after</strong>. A clause may also be dependent because it is embedded inside another clause and completes its meaning.
+  </div>
+<h3>Worked Sample</h3>
+<div class="worked-sample">
+<p class="worked-sample__sentence">The students left when the class ended.</p>
+<div class="answer-section">
+<p class="answer-label">STEP 1 · FIND THE SUBJECT–VERB PAIRS</p>
+<p><strong>the students + left</strong></p>
+<p><strong>the class + ended</strong></p>
+</div>
+<div class="answer-section">
+<p class="answer-label">STEP 2 · MARK THE CLAUSES</p>
+<div class="structure"><strong>[The students left] [when the class ended]</strong>.</div>
+</div>
+<div class="answer-section">
+<p class="answer-label">STEP 3 · CLASSIFY THEM</p>
+<div class="clause-answer-list">
+<div class="clause-answer">
+<div class="clause-answer__heading">
+<span class="clause-answer__number">Clause 1</span>
+<span class="clause-type clause-type--independent">Independent</span>
+</div>
+<p class="clause-answer__text"><strong>[The students left]</strong></p>
+<p>It contains a subject and verb and can stand alone as a complete statement.</p>
+</div>
+<div class="clause-answer">
+<div class="clause-answer__heading">
+<span class="clause-answer__number">Clause 2</span>
+<span class="clause-type clause-type--dependent">Dependent</span>
+</div>
+<p class="clause-answer__text"><strong>[when the class ended]</strong></p>
+<p>It contains its own subject and verb, but <strong>when</strong> makes it depend on the first clause.</p>
+</div>
+</div>
+</div>
+</div>
+<div class="exercise-toolbar">
+<p><strong>26 exercises</strong> from basic clause recognition to multi-level nesting.</p>
+<div class="toolbar-actions">
+<button class="text-button" id="openClauseAnswers" type="button">Open all answers</button>
+<button class="text-button" id="closeClauseAnswers" type="button">Close all answers</button>
+</div>
+</div>
+<section class="exercise-level">
+<h3>Level 1 — One-Clause Sentences</h3>
+<article class="exercise-card">
+<div class="exercise-head">
+<span aria-hidden="true" class="exercise-number">1</span>
+<p class="exercise-sentence">Birds fly.</p>
+</div>
+<div class="student-task">
+<p>Before opening the answer:</p>
+<ol>
+<li>Find every subject–verb structure.</li>
+<li>Mark the boundaries of every clause.</li>
+<li>Decide whether each clause is independent or dependent.</li>
+<li>Check whether any clause is nested inside another clause.</li>
+</ol>
+</div>
+<details class="answer-details">
+<summary>Show clause boundaries and explanation</summary>
+<div class="answer-content">
+<section class="answer-section">
+<p class="answer-label">CLAUSE BOUNDARIES</p>
+<div class="structure">[Birds fly]</div>
+</section>
+<section class="answer-section">
+<p class="answer-label">CLAUSE-BY-CLAUSE ANALYSIS</p>
+<div class="clause-answer-list">
+<div class="clause-answer">
+<div class="clause-answer__heading">
+<span class="clause-answer__number">Clause 1</span>
+<span class="clause-type clause-type--independent">Independent</span>
+</div>
+<p class="clause-answer__text"><strong>[Birds fly]</strong></p>
+<p>It has the subject <strong>birds</strong> and the verb <strong>fly</strong>, and it can stand alone.</p>
+</div>
+</div>
+</section>
+</div>
+</details>
+</article>
+<article class="exercise-card">
+<div class="exercise-head">
+<span aria-hidden="true" class="exercise-number">2</span>
+<p class="exercise-sentence">The old machine stopped suddenly.</p>
+</div>
+<div class="student-task">
+<p>Before opening the answer:</p>
+<ol>
+<li>Find every subject–verb structure.</li>
+<li>Mark the boundaries of every clause.</li>
+<li>Decide whether each clause is independent or dependent.</li>
+<li>Check whether any clause is nested inside another clause.</li>
+</ol>
+</div>
+<details class="answer-details">
+<summary>Show clause boundaries and explanation</summary>
+<div class="answer-content">
+<section class="answer-section">
+<p class="answer-label">CLAUSE BOUNDARIES</p>
+<div class="structure">[The old machine stopped suddenly]</div>
+</section>
+<section class="answer-section">
+<p class="answer-label">CLAUSE-BY-CLAUSE ANALYSIS</p>
+<div class="clause-answer-list">
+<div class="clause-answer">
+<div class="clause-answer__heading">
+<span class="clause-answer__number">Clause 1</span>
+<span class="clause-type clause-type--independent">Independent</span>
+</div>
+<p class="clause-answer__text"><strong>[The old machine stopped suddenly]</strong></p>
+<p>Subject: <strong>the old machine</strong>. Verb: <strong>stopped</strong>. It expresses a complete thought.</p>
+</div>
+</div>
+</section>
+</div>
+</details>
+</article>
+</section>
+<section class="exercise-level">
+<h3>Level 2 — Two Independent Clauses</h3>
+<article class="exercise-card">
+<div class="exercise-head">
+<span aria-hidden="true" class="exercise-number">3</span>
+<p class="exercise-sentence">Sara opened the window, and David closed the door.</p>
+</div>
+<div class="student-task">
+<p>Before opening the answer:</p>
+<ol>
+<li>Find every subject–verb structure.</li>
+<li>Mark the boundaries of every clause.</li>
+<li>Decide whether each clause is independent or dependent.</li>
+<li>Check whether any clause is nested inside another clause.</li>
+</ol>
+</div>
+<details class="answer-details">
+<summary>Show clause boundaries and explanation</summary>
+<div class="answer-content">
+<section class="answer-section">
+<p class="answer-label">CLAUSE BOUNDARIES</p>
+<div class="structure">[Sara opened the window] | [David closed the door]</div>
+</section>
+<section class="answer-section">
+<p class="answer-label">CLAUSE-BY-CLAUSE ANALYSIS</p>
+<div class="clause-answer-list">
+<div class="clause-answer">
+<div class="clause-answer__heading">
+<span class="clause-answer__number">Clause 1</span>
+<span class="clause-type clause-type--independent">Independent</span>
+</div>
+<p class="clause-answer__text"><strong>[Sara opened the window]</strong></p>
+<p>Subject: <strong>Sara</strong>. Verb: <strong>opened</strong>.</p>
+</div>
+<div class="clause-answer">
+<div class="clause-answer__heading">
+<span class="clause-answer__number">Clause 2</span>
+<span class="clause-type clause-type--independent">Independent</span>
+</div>
+<p class="clause-answer__text"><strong>[David closed the door]</strong></p>
+<p>Subject: <strong>David</strong>. Verb: <strong>closed</strong>.</p>
+</div>
+</div>
+</section>
+</div>
+</details>
+</article>
+<article class="exercise-card">
+<div class="exercise-head">
+<span aria-hidden="true" class="exercise-number">4</span>
+<p class="exercise-sentence">Mina called me, but I missed the call.</p>
+</div>
+<div class="student-task">
+<p>Before opening the answer:</p>
+<ol>
+<li>Find every subject–verb structure.</li>
+<li>Mark the boundaries of every clause.</li>
+<li>Decide whether each clause is independent or dependent.</li>
+<li>Check whether any clause is nested inside another clause.</li>
+</ol>
+</div>
+<details class="answer-details">
+<summary>Show clause boundaries and explanation</summary>
+<div class="answer-content">
+<section class="answer-section">
+<p class="answer-label">CLAUSE BOUNDARIES</p>
+<div class="structure">[Mina called me] | [I missed the call]</div>
+</section>
+<section class="answer-section">
+<p class="answer-label">CLAUSE-BY-CLAUSE ANALYSIS</p>
+<div class="clause-answer-list">
+<div class="clause-answer">
+<div class="clause-answer__heading">
+<span class="clause-answer__number">Clause 1</span>
+<span class="clause-type clause-type--independent">Independent</span>
+</div>
+<p class="clause-answer__text"><strong>[Mina called me]</strong></p>
+<p>Subject: <strong>Mina</strong>. Verb: <strong>called</strong>.</p>
+</div>
+<div class="clause-answer">
+<div class="clause-answer__heading">
+<span class="clause-answer__number">Clause 2</span>
+<span class="clause-type clause-type--independent">Independent</span>
+</div>
+<p class="clause-answer__text"><strong>[I missed the call]</strong></p>
+<p>Subject: <strong>I</strong>. Verb: <strong>missed</strong>.</p>
+</div>
+</div>
+</section>
+</div>
+</details>
+</article>
+<article class="exercise-card">
+<div class="exercise-head">
+<span aria-hidden="true" class="exercise-number">5</span>
+<p class="exercise-sentence">The lights went out, so everyone stopped working.</p>
+</div>
+<div class="student-task">
+<p>Before opening the answer:</p>
+<ol>
+<li>Find every subject–verb structure.</li>
+<li>Mark the boundaries of every clause.</li>
+<li>Decide whether each clause is independent or dependent.</li>
+<li>Check whether any clause is nested inside another clause.</li>
+</ol>
+</div>
+<details class="answer-details">
+<summary>Show clause boundaries and explanation</summary>
+<div class="answer-content">
+<section class="answer-section">
+<p class="answer-label">CLAUSE BOUNDARIES</p>
+<div class="structure">[The lights went out] | [everyone stopped working]</div>
+</section>
+<section class="answer-section">
+<p class="answer-label">CLAUSE-BY-CLAUSE ANALYSIS</p>
+<div class="clause-answer-list">
+<div class="clause-answer">
+<div class="clause-answer__heading">
+<span class="clause-answer__number">Clause 1</span>
+<span class="clause-type clause-type--independent">Independent</span>
+</div>
+<p class="clause-answer__text"><strong>[The lights went out]</strong></p>
+<p>Subject: <strong>the lights</strong>. Verb: <strong>went out</strong>.</p>
+</div>
+<div class="clause-answer">
+<div class="clause-answer__heading">
+<span class="clause-answer__number">Clause 2</span>
+<span class="clause-type clause-type--independent">Independent</span>
+</div>
+<p class="clause-answer__text"><strong>[everyone stopped working]</strong></p>
+<p>Subject: <strong>everyone</strong>. Verb phrase: <strong>stopped working</strong>.</p>
+</div>
+</div>
+</section>
+</div>
+</details>
+</article>
+</section>
+<section class="exercise-level">
+<h3>Level 3 — One Independent and One Dependent Clause</h3>
+<article class="exercise-card">
+<div class="exercise-head">
+<span aria-hidden="true" class="exercise-number">6</span>
+<p class="exercise-sentence">He stayed home because he felt sick.</p>
+</div>
+<div class="student-task">
+<p>Before opening the answer:</p>
+<ol>
+<li>Find every subject–verb structure.</li>
+<li>Mark the boundaries of every clause.</li>
+<li>Decide whether each clause is independent or dependent.</li>
+<li>Check whether any clause is nested inside another clause.</li>
+</ol>
+</div>
+<details class="answer-details">
+<summary>Show clause boundaries and explanation</summary>
+<div class="answer-content">
+<section class="answer-section">
+<p class="answer-label">CLAUSE BOUNDARIES</p>
+<div class="structure">[He stayed home] | [because he felt sick]</div>
+</section>
+<section class="answer-section">
+<p class="answer-label">CLAUSE-BY-CLAUSE ANALYSIS</p>
+<div class="clause-answer-list">
+<div class="clause-answer">
+<div class="clause-answer__heading">
+<span class="clause-answer__number">Clause 1</span>
+<span class="clause-type clause-type--independent">Independent</span>
+</div>
+<p class="clause-answer__text"><strong>[He stayed home]</strong></p>
+<p>Subject: <strong>he</strong>. Verb: <strong>stayed</strong>.</p>
+</div>
+<div class="clause-answer">
+<div class="clause-answer__heading">
+<span class="clause-answer__number">Clause 2</span>
+<span class="clause-type clause-type--dependent">Dependent</span>
+</div>
+<p class="clause-answer__text"><strong>[because he felt sick]</strong></p>
+<p>Subject: <strong>he</strong>. Verb: <strong>felt</strong>. The word <strong>because</strong> makes it depend on the first clause.</p>
+</div>
+</div>
+</section>
+</div>
+</details>
+</article>
+<article class="exercise-card">
+<div class="exercise-head">
+<span aria-hidden="true" class="exercise-number">7</span>
+<p class="exercise-sentence">We left when the meeting ended.</p>
+</div>
+<div class="student-task">
+<p>Before opening the answer:</p>
+<ol>
+<li>Find every subject–verb structure.</li>
+<li>Mark the boundaries of every clause.</li>
+<li>Decide whether each clause is independent or dependent.</li>
+<li>Check whether any clause is nested inside another clause.</li>
+</ol>
+</div>
+<details class="answer-details">
+<summary>Show clause boundaries and explanation</summary>
+<div class="answer-content">
+<section class="answer-section">
+<p class="answer-label">CLAUSE BOUNDARIES</p>
+<div class="structure">[We left] | [when the meeting ended]</div>
+</section>
+<section class="answer-section">
+<p class="answer-label">CLAUSE-BY-CLAUSE ANALYSIS</p>
+<div class="clause-answer-list">
+<div class="clause-answer">
+<div class="clause-answer__heading">
+<span class="clause-answer__number">Clause 1</span>
+<span class="clause-type clause-type--independent">Independent</span>
+</div>
+<p class="clause-answer__text"><strong>[We left]</strong></p>
+<p>Subject: <strong>we</strong>. Verb: <strong>left</strong>.</p>
+</div>
+<div class="clause-answer">
+<div class="clause-answer__heading">
+<span class="clause-answer__number">Clause 2</span>
+<span class="clause-type clause-type--dependent">Dependent</span>
+</div>
+<p class="clause-answer__text"><strong>[when the meeting ended]</strong></p>
+<p>Subject: <strong>the meeting</strong>. Verb: <strong>ended</strong>. It cannot normally stand alone.</p>
+</div>
+</div>
+</section>
+</div>
+</details>
+</article>
+<article class="exercise-card">
+<div class="exercise-head">
+<span aria-hidden="true" class="exercise-number">8</span>
+<p class="exercise-sentence">Sara smiled although she was nervous.</p>
+</div>
+<div class="student-task">
+<p>Before opening the answer:</p>
+<ol>
+<li>Find every subject–verb structure.</li>
+<li>Mark the boundaries of every clause.</li>
+<li>Decide whether each clause is independent or dependent.</li>
+<li>Check whether any clause is nested inside another clause.</li>
+</ol>
+</div>
+<details class="answer-details">
+<summary>Show clause boundaries and explanation</summary>
+<div class="answer-content">
+<section class="answer-section">
+<p class="answer-label">CLAUSE BOUNDARIES</p>
+<div class="structure">[Sara smiled] | [although she was nervous]</div>
+</section>
+<section class="answer-section">
+<p class="answer-label">CLAUSE-BY-CLAUSE ANALYSIS</p>
+<div class="clause-answer-list">
+<div class="clause-answer">
+<div class="clause-answer__heading">
+<span class="clause-answer__number">Clause 1</span>
+<span class="clause-type clause-type--independent">Independent</span>
+</div>
+<p class="clause-answer__text"><strong>[Sara smiled]</strong></p>
+<p>Subject: <strong>Sara</strong>. Verb: <strong>smiled</strong>.</p>
+</div>
+<div class="clause-answer">
+<div class="clause-answer__heading">
+<span class="clause-answer__number">Clause 2</span>
+<span class="clause-type clause-type--dependent">Dependent</span>
+</div>
+<p class="clause-answer__text"><strong>[although she was nervous]</strong></p>
+<p>Subject: <strong>she</strong>. Verb: <strong>was</strong>. <strong>Although</strong> creates a dependent contrast.</p>
+</div>
+</div>
+</section>
+</div>
+</details>
+</article>
+<article class="exercise-card">
+<div class="exercise-head">
+<span aria-hidden="true" class="exercise-number">9</span>
+<p class="exercise-sentence">Call me if you need help.</p>
+</div>
+<div class="student-task">
+<p>Before opening the answer:</p>
+<ol>
+<li>Find every subject–verb structure.</li>
+<li>Mark the boundaries of every clause.</li>
+<li>Decide whether each clause is independent or dependent.</li>
+<li>Check whether any clause is nested inside another clause.</li>
+</ol>
+</div>
+<details class="answer-details">
+<summary>Show clause boundaries and explanation</summary>
+<div class="answer-content">
+<section class="answer-section">
+<p class="answer-label">CLAUSE BOUNDARIES</p>
+<div class="structure">[Call me] | [if you need help]</div>
+</section>
+<section class="answer-section">
+<p class="answer-label">CLAUSE-BY-CLAUSE ANALYSIS</p>
+<div class="clause-answer-list">
+<div class="clause-answer">
+<div class="clause-answer__heading">
+<span class="clause-answer__number">Clause 1</span>
+<span class="clause-type clause-type--independent">Independent</span>
+</div>
+<p class="clause-answer__text"><strong>[Call me]</strong></p>
+<p>The subject <strong>you</strong> is understood. Verb: <strong>call</strong>. It can stand alone as a command.</p>
+</div>
+<div class="clause-answer">
+<div class="clause-answer__heading">
+<span class="clause-answer__number">Clause 2</span>
+<span class="clause-type clause-type--dependent">Dependent</span>
+</div>
+<p class="clause-answer__text"><strong>[if you need help]</strong></p>
+<p>Subject: <strong>you</strong>. Verb: <strong>need</strong>. <strong>If</strong> makes it conditional and dependent.</p>
+</div>
+</div>
+</section>
+</div>
+</details>
+</article>
+<article class="exercise-card">
+<div class="exercise-head">
+<span aria-hidden="true" class="exercise-number">10</span>
+<p class="exercise-sentence">If the weather improves, we will leave early.</p>
+</div>
+<div class="student-task">
+<p>Before opening the answer:</p>
+<ol>
+<li>Find every subject–verb structure.</li>
+<li>Mark the boundaries of every clause.</li>
+<li>Decide whether each clause is independent or dependent.</li>
+<li>Check whether any clause is nested inside another clause.</li>
+</ol>
+</div>
+<details class="answer-details">
+<summary>Show clause boundaries and explanation</summary>
+<div class="answer-content">
+<section class="answer-section">
+<p class="answer-label">CLAUSE BOUNDARIES</p>
+<div class="structure">[If the weather improves] | [we will leave early]</div>
+</section>
+<section class="answer-section">
+<p class="answer-label">CLAUSE-BY-CLAUSE ANALYSIS</p>
+<div class="clause-answer-list">
+<div class="clause-answer">
+<div class="clause-answer__heading">
+<span class="clause-answer__number">Clause 1</span>
+<span class="clause-type clause-type--dependent">Dependent</span>
+</div>
+<p class="clause-answer__text"><strong>[If the weather improves]</strong></p>
+<p>Subject: <strong>the weather</strong>. Verb: <strong>improves</strong>.</p>
+</div>
+<div class="clause-answer">
+<div class="clause-answer__heading">
+<span class="clause-answer__number">Clause 2</span>
+<span class="clause-type clause-type--independent">Independent</span>
+</div>
+<p class="clause-answer__text"><strong>[we will leave early]</strong></p>
+<p>Subject: <strong>we</strong>. Verb phrase: <strong>will leave</strong>.</p>
+</div>
+</div>
+</section>
+</div>
+</details>
+</article>
+<article class="exercise-card">
+<div class="exercise-head">
+<span aria-hidden="true" class="exercise-number">11</span>
+<p class="exercise-sentence">The children played while their parents talked.</p>
+</div>
+<div class="student-task">
+<p>Before opening the answer:</p>
+<ol>
+<li>Find every subject–verb structure.</li>
+<li>Mark the boundaries of every clause.</li>
+<li>Decide whether each clause is independent or dependent.</li>
+<li>Check whether any clause is nested inside another clause.</li>
+</ol>
+</div>
+<details class="answer-details">
+<summary>Show clause boundaries and explanation</summary>
+<div class="answer-content">
+<section class="answer-section">
+<p class="answer-label">CLAUSE BOUNDARIES</p>
+<div class="structure">[The children played] | [while their parents talked]</div>
+</section>
+<section class="answer-section">
+<p class="answer-label">CLAUSE-BY-CLAUSE ANALYSIS</p>
+<div class="clause-answer-list">
+<div class="clause-answer">
+<div class="clause-answer__heading">
+<span class="clause-answer__number">Clause 1</span>
+<span class="clause-type clause-type--independent">Independent</span>
+</div>
+<p class="clause-answer__text"><strong>[The children played]</strong></p>
+<p>Subject: <strong>the children</strong>. Verb: <strong>played</strong>.</p>
+</div>
+<div class="clause-answer">
+<div class="clause-answer__heading">
+<span class="clause-answer__number">Clause 2</span>
+<span class="clause-type clause-type--dependent">Dependent</span>
+</div>
+<p class="clause-answer__text"><strong>[while their parents talked]</strong></p>
+<p>Subject: <strong>their parents</strong>. Verb: <strong>talked</strong>.</p>
+</div>
+</div>
+</section>
+</div>
+</details>
+</article>
+<article class="exercise-card">
+<div class="exercise-head">
+<span aria-hidden="true" class="exercise-number">12</span>
+<p class="exercise-sentence">Before the class started, the students checked their notes.</p>
+</div>
+<div class="student-task">
+<p>Before opening the answer:</p>
+<ol>
+<li>Find every subject–verb structure.</li>
+<li>Mark the boundaries of every clause.</li>
+<li>Decide whether each clause is independent or dependent.</li>
+<li>Check whether any clause is nested inside another clause.</li>
+</ol>
+</div>
+<details class="answer-details">
+<summary>Show clause boundaries and explanation</summary>
+<div class="answer-content">
+<section class="answer-section">
+<p class="answer-label">CLAUSE BOUNDARIES</p>
+<div class="structure">[Before the class started] | [the students checked their notes]</div>
+</section>
+<section class="answer-section">
+<p class="answer-label">CLAUSE-BY-CLAUSE ANALYSIS</p>
+<div class="clause-answer-list">
+<div class="clause-answer">
+<div class="clause-answer__heading">
+<span class="clause-answer__number">Clause 1</span>
+<span class="clause-type clause-type--dependent">Dependent</span>
+</div>
+<p class="clause-answer__text"><strong>[Before the class started]</strong></p>
+<p>Subject: <strong>the class</strong>. Verb: <strong>started</strong>.</p>
+</div>
+<div class="clause-answer">
+<div class="clause-answer__heading">
+<span class="clause-answer__number">Clause 2</span>
+<span class="clause-type clause-type--independent">Independent</span>
+</div>
+<p class="clause-answer__text"><strong>[the students checked their notes]</strong></p>
+<p>Subject: <strong>the students</strong>. Verb: <strong>checked</strong>.</p>
+</div>
+</div>
+</section>
+</div>
+</details>
+</article>
+<article class="exercise-card">
+<div class="exercise-head">
+<span aria-hidden="true" class="exercise-number">13</span>
+<p class="exercise-sentence">The roads became dangerous after the temperature dropped.</p>
+</div>
+<div class="student-task">
+<p>Before opening the answer:</p>
+<ol>
+<li>Find every subject–verb structure.</li>
+<li>Mark the boundaries of every clause.</li>
+<li>Decide whether each clause is independent or dependent.</li>
+<li>Check whether any clause is nested inside another clause.</li>
+</ol>
+</div>
+<details class="answer-details">
+<summary>Show clause boundaries and explanation</summary>
+<div class="answer-content">
+<section class="answer-section">
+<p class="answer-label">CLAUSE BOUNDARIES</p>
+<div class="structure">[The roads became dangerous] | [after the temperature dropped]</div>
+</section>
+<section class="answer-section">
+<p class="answer-label">CLAUSE-BY-CLAUSE ANALYSIS</p>
+<div class="clause-answer-list">
+<div class="clause-answer">
+<div class="clause-answer__heading">
+<span class="clause-answer__number">Clause 1</span>
+<span class="clause-type clause-type--independent">Independent</span>
+</div>
+<p class="clause-answer__text"><strong>[The roads became dangerous]</strong></p>
+<p>Subject: <strong>the roads</strong>. Verb: <strong>became</strong>.</p>
+</div>
+<div class="clause-answer">
+<div class="clause-answer__heading">
+<span class="clause-answer__number">Clause 2</span>
+<span class="clause-type clause-type--dependent">Dependent</span>
+</div>
+<p class="clause-answer__text"><strong>[after the temperature dropped]</strong></p>
+<p>Subject: <strong>the temperature</strong>. Verb: <strong>dropped</strong>.</p>
+</div>
+</div>
+</section>
+</div>
+</details>
+</article>
+<article class="exercise-card">
+<div class="exercise-head">
+<span aria-hidden="true" class="exercise-number">14</span>
+<p class="exercise-sentence">Unless you hurry, you will miss the bus.</p>
+</div>
+<div class="student-task">
+<p>Before opening the answer:</p>
+<ol>
+<li>Find every subject–verb structure.</li>
+<li>Mark the boundaries of every clause.</li>
+<li>Decide whether each clause is independent or dependent.</li>
+<li>Check whether any clause is nested inside another clause.</li>
+</ol>
+</div>
+<details class="answer-details">
+<summary>Show clause boundaries and explanation</summary>
+<div class="answer-content">
+<section class="answer-section">
+<p class="answer-label">CLAUSE BOUNDARIES</p>
+<div class="structure">[Unless you hurry] | [you will miss the bus]</div>
+</section>
+<section class="answer-section">
+<p class="answer-label">CLAUSE-BY-CLAUSE ANALYSIS</p>
+<div class="clause-answer-list">
+<div class="clause-answer">
+<div class="clause-answer__heading">
+<span class="clause-answer__number">Clause 1</span>
+<span class="clause-type clause-type--dependent">Dependent</span>
+</div>
+<p class="clause-answer__text"><strong>[Unless you hurry]</strong></p>
+<p>Subject: <strong>you</strong>. Verb: <strong>hurry</strong>.</p>
+</div>
+<div class="clause-answer">
+<div class="clause-answer__heading">
+<span class="clause-answer__number">Clause 2</span>
+<span class="clause-type clause-type--independent">Independent</span>
+</div>
+<p class="clause-answer__text"><strong>[you will miss the bus]</strong></p>
+<p>Subject: <strong>you</strong>. Verb phrase: <strong>will miss</strong>.</p>
+</div>
+</div>
+</section>
+</div>
+</details>
+</article>
+<article class="exercise-card">
+<div class="exercise-head">
+<span aria-hidden="true" class="exercise-number">15</span>
+<p class="exercise-sentence">Since the office was closed, we returned home.</p>
+</div>
+<div class="student-task">
+<p>Before opening the answer:</p>
+<ol>
+<li>Find every subject–verb structure.</li>
+<li>Mark the boundaries of every clause.</li>
+<li>Decide whether each clause is independent or dependent.</li>
+<li>Check whether any clause is nested inside another clause.</li>
+</ol>
+</div>
+<details class="answer-details">
+<summary>Show clause boundaries and explanation</summary>
+<div class="answer-content">
+<section class="answer-section">
+<p class="answer-label">CLAUSE BOUNDARIES</p>
+<div class="structure">[Since the office was closed] | [we returned home]</div>
+</section>
+<section class="answer-section">
+<p class="answer-label">CLAUSE-BY-CLAUSE ANALYSIS</p>
+<div class="clause-answer-list">
+<div class="clause-answer">
+<div class="clause-answer__heading">
+<span class="clause-answer__number">Clause 1</span>
+<span class="clause-type clause-type--dependent">Dependent</span>
+</div>
+<p class="clause-answer__text"><strong>[Since the office was closed]</strong></p>
+<p>Subject: <strong>the office</strong>. Verb phrase: <strong>was closed</strong>.</p>
+</div>
+<div class="clause-answer">
+<div class="clause-answer__heading">
+<span class="clause-answer__number">Clause 2</span>
+<span class="clause-type clause-type--independent">Independent</span>
+</div>
+<p class="clause-answer__text"><strong>[we returned home]</strong></p>
+<p>Subject: <strong>we</strong>. Verb: <strong>returned</strong>.</p>
+</div>
+</div>
+</section>
+</div>
+</details>
+</article>
+<article class="exercise-card">
+<div class="exercise-head">
+<span aria-hidden="true" class="exercise-number">16</span>
+<p class="exercise-sentence">The manager waited until the final customer left.</p>
+</div>
+<div class="student-task">
+<p>Before opening the answer:</p>
+<ol>
+<li>Find every subject–verb structure.</li>
+<li>Mark the boundaries of every clause.</li>
+<li>Decide whether each clause is independent or dependent.</li>
+<li>Check whether any clause is nested inside another clause.</li>
+</ol>
+</div>
+<details class="answer-details">
+<summary>Show clause boundaries and explanation</summary>
+<div class="answer-content">
+<section class="answer-section">
+<p class="answer-label">CLAUSE BOUNDARIES</p>
+<div class="structure">[The manager waited] | [until the final customer left]</div>
+</section>
+<section class="answer-section">
+<p class="answer-label">CLAUSE-BY-CLAUSE ANALYSIS</p>
+<div class="clause-answer-list">
+<div class="clause-answer">
+<div class="clause-answer__heading">
+<span class="clause-answer__number">Clause 1</span>
+<span class="clause-type clause-type--independent">Independent</span>
+</div>
+<p class="clause-answer__text"><strong>[The manager waited]</strong></p>
+<p>Subject: <strong>the manager</strong>. Verb: <strong>waited</strong>.</p>
+</div>
+<div class="clause-answer">
+<div class="clause-answer__heading">
+<span class="clause-answer__number">Clause 2</span>
+<span class="clause-type clause-type--dependent">Dependent</span>
+</div>
+<p class="clause-answer__text"><strong>[until the final customer left]</strong></p>
+<p>Subject: <strong>the final customer</strong>. Verb: <strong>left</strong>.</p>
+</div>
+</div>
+</section>
+</div>
+</details>
+</article>
+</section>
+<section class="exercise-level">
+<h3>Level 4 — Several Clauses in One Sentence</h3>
+<article class="exercise-card">
+<div class="exercise-head">
+<span aria-hidden="true" class="exercise-number">17</span>
+<p class="exercise-sentence">Although the room was small, it felt comfortable because the windows were large.</p>
+</div>
+<div class="student-task">
+<p>Before opening the answer:</p>
+<ol>
+<li>Find every subject–verb structure.</li>
+<li>Mark the boundaries of every clause.</li>
+<li>Decide whether each clause is independent or dependent.</li>
+<li>Check whether any clause is nested inside another clause.</li>
+</ol>
+</div>
+<details class="answer-details">
+<summary>Show clause boundaries and explanation</summary>
+<div class="answer-content">
+<section class="answer-section">
+<p class="answer-label">CLAUSE BOUNDARIES</p>
+<div class="structure">[Although the room was small] | [it felt comfortable] | [because the windows were large]</div>
+</section>
+<section class="answer-section">
+<p class="answer-label">CLAUSE-BY-CLAUSE ANALYSIS</p>
+<div class="clause-answer-list">
+<div class="clause-answer">
+<div class="clause-answer__heading">
+<span class="clause-answer__number">Clause 1</span>
+<span class="clause-type clause-type--dependent">Dependent</span>
+</div>
+<p class="clause-answer__text"><strong>[Although the room was small]</strong></p>
+<p>Subject: <strong>the room</strong>. Verb: <strong>was</strong>.</p>
+</div>
+<div class="clause-answer">
+<div class="clause-answer__heading">
+<span class="clause-answer__number">Clause 2</span>
+<span class="clause-type clause-type--independent">Independent</span>
+</div>
+<p class="clause-answer__text"><strong>[it felt comfortable]</strong></p>
+<p>Subject: <strong>it</strong>. Verb: <strong>felt</strong>.</p>
+</div>
+<div class="clause-answer">
+<div class="clause-answer__heading">
+<span class="clause-answer__number">Clause 3</span>
+<span class="clause-type clause-type--dependent">Dependent</span>
+</div>
+<p class="clause-answer__text"><strong>[because the windows were large]</strong></p>
+<p>Subject: <strong>the windows</strong>. Verb: <strong>were</strong>.</p>
+</div>
+</div>
+</section>
+</div>
+</details>
+</article>
+<article class="exercise-card">
+<div class="exercise-head">
+<span aria-hidden="true" class="exercise-number">18</span>
+<p class="exercise-sentence">If you finish early, call me before you leave.</p>
+</div>
+<div class="student-task">
+<p>Before opening the answer:</p>
+<ol>
+<li>Find every subject–verb structure.</li>
+<li>Mark the boundaries of every clause.</li>
+<li>Decide whether each clause is independent or dependent.</li>
+<li>Check whether any clause is nested inside another clause.</li>
+</ol>
+</div>
+<details class="answer-details">
+<summary>Show clause boundaries and explanation</summary>
+<div class="answer-content">
+<section class="answer-section">
+<p class="answer-label">CLAUSE BOUNDARIES</p>
+<div class="structure">[If you finish early] | [call me] | [before you leave]</div>
+</section>
+<section class="answer-section">
+<p class="answer-label">CLAUSE-BY-CLAUSE ANALYSIS</p>
+<div class="clause-answer-list">
+<div class="clause-answer">
+<div class="clause-answer__heading">
+<span class="clause-answer__number">Clause 1</span>
+<span class="clause-type clause-type--dependent">Dependent</span>
+</div>
+<p class="clause-answer__text"><strong>[If you finish early]</strong></p>
+<p>Subject: <strong>you</strong>. Verb: <strong>finish</strong>.</p>
+</div>
+<div class="clause-answer">
+<div class="clause-answer__heading">
+<span class="clause-answer__number">Clause 2</span>
+<span class="clause-type clause-type--independent">Independent</span>
+</div>
+<p class="clause-answer__text"><strong>[call me]</strong></p>
+<p>The subject <strong>you</strong> is understood. Verb: <strong>call</strong>.</p>
+</div>
+<div class="clause-answer">
+<div class="clause-answer__heading">
+<span class="clause-answer__number">Clause 3</span>
+<span class="clause-type clause-type--dependent">Dependent</span>
+</div>
+<p class="clause-answer__text"><strong>[before you leave]</strong></p>
+<p>Subject: <strong>you</strong>. Verb: <strong>leave</strong>.</p>
+</div>
+</div>
+</section>
+</div>
+</details>
+</article>
+</section>
+<section class="exercise-level">
+<h3>Level 5 — Clauses Nested Inside Other Clauses</h3>
+<article class="exercise-card">
+<div class="exercise-head">
+<span aria-hidden="true" class="exercise-number">19</span>
+<p class="exercise-sentence">The teacher said the test was easy.</p>
+</div>
+<div class="student-task">
+<p>Before opening the answer:</p>
+<ol>
+<li>Find every subject–verb structure.</li>
+<li>Mark the boundaries of every clause.</li>
+<li>Decide whether each clause is independent or dependent.</li>
+<li>Check whether any clause is nested inside another clause.</li>
+</ol>
+</div>
+<details class="answer-details">
+<summary>Show clause boundaries and explanation</summary>
+<div class="answer-content">
+<section class="answer-section">
+<p class="answer-label">CLAUSE BOUNDARIES</p>
+<div class="structure">[The teacher said the test was easy] | [the test was easy]</div>
+</section>
+<section class="answer-section">
+<p class="answer-label">CLAUSE-BY-CLAUSE ANALYSIS</p>
+<div class="clause-answer-list">
+<div class="clause-answer">
+<div class="clause-answer__heading">
+<span class="clause-answer__number">Clause 1</span>
+<span class="clause-type clause-type--independent">Independent</span>
+</div>
+<p class="clause-answer__text"><strong>[The teacher said the test was easy]</strong></p>
+<p>This is the largest clause. Subject: <strong>the teacher</strong>. Verb: <strong>said</strong>.</p>
+</div>
+<div class="clause-answer">
+<div class="clause-answer__heading">
+<span class="clause-answer__number">Clause 2</span>
+<span class="clause-type clause-type--dependent">Dependent</span>
+</div>
+<p class="clause-answer__text"><strong>[the test was easy]</strong></p>
+<p>This clause is embedded inside the larger clause and completes the meaning of <strong>said</strong>. Subject: <strong>the test</strong>. Verb: <strong>was</strong>.</p>
+</div>
+</div>
+</section>
+</div>
+</details>
+</article>
+<article class="exercise-card">
+<div class="exercise-head">
+<span aria-hidden="true" class="exercise-number">20</span>
+<p class="exercise-sentence">I think the answer is correct.</p>
+</div>
+<div class="student-task">
+<p>Before opening the answer:</p>
+<ol>
+<li>Find every subject–verb structure.</li>
+<li>Mark the boundaries of every clause.</li>
+<li>Decide whether each clause is independent or dependent.</li>
+<li>Check whether any clause is nested inside another clause.</li>
+</ol>
+</div>
+<details class="answer-details">
+<summary>Show clause boundaries and explanation</summary>
+<div class="answer-content">
+<section class="answer-section">
+<p class="answer-label">CLAUSE BOUNDARIES</p>
+<div class="structure">[I think the answer is correct] | [the answer is correct]</div>
+</section>
+<section class="answer-section">
+<p class="answer-label">CLAUSE-BY-CLAUSE ANALYSIS</p>
+<div class="clause-answer-list">
+<div class="clause-answer">
+<div class="clause-answer__heading">
+<span class="clause-answer__number">Clause 1</span>
+<span class="clause-type clause-type--independent">Independent</span>
+</div>
+<p class="clause-answer__text"><strong>[I think the answer is correct]</strong></p>
+<p>Largest clause. Subject: <strong>I</strong>. Verb: <strong>think</strong>.</p>
+</div>
+<div class="clause-answer">
+<div class="clause-answer__heading">
+<span class="clause-answer__number">Clause 2</span>
+<span class="clause-type clause-type--dependent">Dependent</span>
+</div>
+<p class="clause-answer__text"><strong>[the answer is correct]</strong></p>
+<p>Embedded inside the larger clause. Subject: <strong>the answer</strong>. Verb: <strong>is</strong>.</p>
+</div>
+</div>
+</section>
+</div>
+</details>
+</article>
+<article class="exercise-card">
+<div class="exercise-head">
+<span aria-hidden="true" class="exercise-number">21</span>
+<p class="exercise-sentence">The children cheered when the teacher announced school was closed.</p>
+</div>
+<div class="student-task">
+<p>Before opening the answer:</p>
+<ol>
+<li>Find every subject–verb structure.</li>
+<li>Mark the boundaries of every clause.</li>
+<li>Decide whether each clause is independent or dependent.</li>
+<li>Check whether any clause is nested inside another clause.</li>
+</ol>
+</div>
+<details class="answer-details">
+<summary>Show clause boundaries and explanation</summary>
+<div class="answer-content">
+<section class="answer-section">
+<p class="answer-label">CLAUSE BOUNDARIES</p>
+<div class="structure">[The children cheered] | [when the teacher announced school was closed] | [school was closed]</div>
+</section>
+<section class="answer-section">
+<p class="answer-label">CLAUSE-BY-CLAUSE ANALYSIS</p>
+<div class="clause-answer-list">
+<div class="clause-answer">
+<div class="clause-answer__heading">
+<span class="clause-answer__number">Clause 1</span>
+<span class="clause-type clause-type--independent">Independent</span>
+</div>
+<p class="clause-answer__text"><strong>[The children cheered]</strong></p>
+<p>Subject: <strong>the children</strong>. Verb: <strong>cheered</strong>.</p>
+</div>
+<div class="clause-answer">
+<div class="clause-answer__heading">
+<span class="clause-answer__number">Clause 2</span>
+<span class="clause-type clause-type--dependent">Dependent</span>
+</div>
+<p class="clause-answer__text"><strong>[when the teacher announced school was closed]</strong></p>
+<p>Subject: <strong>the teacher</strong>. Verb: <strong>announced</strong>.</p>
+</div>
+<div class="clause-answer">
+<div class="clause-answer__heading">
+<span class="clause-answer__number">Clause 3</span>
+<span class="clause-type clause-type--dependent">Dependent</span>
+</div>
+<p class="clause-answer__text"><strong>[school was closed]</strong></p>
+<p>Nested inside the clause introduced by <strong>when</strong>. Subject: <strong>school</strong>. Verb phrase: <strong>was closed</strong>.</p>
+</div>
+</div>
+</section>
+</div>
+</details>
+</article>
+<article class="exercise-card">
+<div class="exercise-head">
+<span aria-hidden="true" class="exercise-number">22</span>
+<p class="exercise-sentence">Mina relaxed because the manager said the problem was solved.</p>
+</div>
+<div class="student-task">
+<p>Before opening the answer:</p>
+<ol>
+<li>Find every subject–verb structure.</li>
+<li>Mark the boundaries of every clause.</li>
+<li>Decide whether each clause is independent or dependent.</li>
+<li>Check whether any clause is nested inside another clause.</li>
+</ol>
+</div>
+<details class="answer-details">
+<summary>Show clause boundaries and explanation</summary>
+<div class="answer-content">
+<section class="answer-section">
+<p class="answer-label">CLAUSE BOUNDARIES</p>
+<div class="structure">[Mina relaxed] | [because the manager said the problem was solved] | [the problem was solved]</div>
+</section>
+<section class="answer-section">
+<p class="answer-label">CLAUSE-BY-CLAUSE ANALYSIS</p>
+<div class="clause-answer-list">
+<div class="clause-answer">
+<div class="clause-answer__heading">
+<span class="clause-answer__number">Clause 1</span>
+<span class="clause-type clause-type--independent">Independent</span>
+</div>
+<p class="clause-answer__text"><strong>[Mina relaxed]</strong></p>
+<p>Subject: <strong>Mina</strong>. Verb: <strong>relaxed</strong>.</p>
+</div>
+<div class="clause-answer">
+<div class="clause-answer__heading">
+<span class="clause-answer__number">Clause 2</span>
+<span class="clause-type clause-type--dependent">Dependent</span>
+</div>
+<p class="clause-answer__text"><strong>[because the manager said the problem was solved]</strong></p>
+<p>Subject: <strong>the manager</strong>. Verb: <strong>said</strong>.</p>
+</div>
+<div class="clause-answer">
+<div class="clause-answer__heading">
+<span class="clause-answer__number">Clause 3</span>
+<span class="clause-type clause-type--dependent">Dependent</span>
+</div>
+<p class="clause-answer__text"><strong>[the problem was solved]</strong></p>
+<p>Nested inside the <strong>because</strong>-clause. Subject: <strong>the problem</strong>. Verb phrase: <strong>was solved</strong>.</p>
+</div>
+</div>
+</section>
+</div>
+</details>
+</article>
+</section>
+<section class="exercise-level">
+<h3>Level 6 — Multiple Levels of Clause Nesting</h3>
+<article class="exercise-card">
+<div class="exercise-head">
+<span aria-hidden="true" class="exercise-number">23</span>
+<p class="exercise-sentence">We stayed inside because the roads froze after the storm ended.</p>
+</div>
+<div class="student-task">
+<p>Before opening the answer:</p>
+<ol>
+<li>Find every subject–verb structure.</li>
+<li>Mark the boundaries of every clause.</li>
+<li>Decide whether each clause is independent or dependent.</li>
+<li>Check whether any clause is nested inside another clause.</li>
+</ol>
+</div>
+<details class="answer-details">
+<summary>Show clause boundaries and explanation</summary>
+<div class="answer-content">
+<section class="answer-section">
+<p class="answer-label">CLAUSE BOUNDARIES</p>
+<div class="structure">[We stayed inside] | [because the roads froze after the storm ended] | [after the storm ended]</div>
+</section>
+<section class="answer-section">
+<p class="answer-label">CLAUSE-BY-CLAUSE ANALYSIS</p>
+<div class="clause-answer-list">
+<div class="clause-answer">
+<div class="clause-answer__heading">
+<span class="clause-answer__number">Clause 1</span>
+<span class="clause-type clause-type--independent">Independent</span>
+</div>
+<p class="clause-answer__text"><strong>[We stayed inside]</strong></p>
+<p>Subject: <strong>we</strong>. Verb: <strong>stayed</strong>.</p>
+</div>
+<div class="clause-answer">
+<div class="clause-answer__heading">
+<span class="clause-answer__number">Clause 2</span>
+<span class="clause-type clause-type--dependent">Dependent</span>
+</div>
+<p class="clause-answer__text"><strong>[because the roads froze after the storm ended]</strong></p>
+<p>Subject: <strong>the roads</strong>. Verb: <strong>froze</strong>.</p>
+</div>
+<div class="clause-answer">
+<div class="clause-answer__heading">
+<span class="clause-answer__number">Clause 3</span>
+<span class="clause-type clause-type--dependent">Dependent</span>
+</div>
+<p class="clause-answer__text"><strong>[after the storm ended]</strong></p>
+<p>Nested inside the larger dependent clause. Subject: <strong>the storm</strong>. Verb: <strong>ended</strong>.</p>
+</div>
+</div>
+</section>
+</div>
+</details>
+</article>
+<article class="exercise-card">
+<div class="exercise-head">
+<span aria-hidden="true" class="exercise-number">24</span>
+<p class="exercise-sentence">I know Sara thinks the plan will work.</p>
+</div>
+<div class="student-task">
+<p>Before opening the answer:</p>
+<ol>
+<li>Find every subject–verb structure.</li>
+<li>Mark the boundaries of every clause.</li>
+<li>Decide whether each clause is independent or dependent.</li>
+<li>Check whether any clause is nested inside another clause.</li>
+</ol>
+</div>
+<details class="answer-details">
+<summary>Show clause boundaries and explanation</summary>
+<div class="answer-content">
+<section class="answer-section">
+<p class="answer-label">CLAUSE BOUNDARIES</p>
+<div class="structure">[I know Sara thinks the plan will work] | [Sara thinks the plan will work] | [the plan will work]</div>
+</section>
+<section class="answer-section">
+<p class="answer-label">CLAUSE-BY-CLAUSE ANALYSIS</p>
+<div class="clause-answer-list">
+<div class="clause-answer">
+<div class="clause-answer__heading">
+<span class="clause-answer__number">Clause 1</span>
+<span class="clause-type clause-type--independent">Independent</span>
+</div>
+<p class="clause-answer__text"><strong>[I know Sara thinks the plan will work]</strong></p>
+<p>Largest clause. Subject: <strong>I</strong>. Verb: <strong>know</strong>.</p>
+</div>
+<div class="clause-answer">
+<div class="clause-answer__heading">
+<span class="clause-answer__number">Clause 2</span>
+<span class="clause-type clause-type--dependent">Dependent</span>
+</div>
+<p class="clause-answer__text"><strong>[Sara thinks the plan will work]</strong></p>
+<p>Nested inside the largest clause. Subject: <strong>Sara</strong>. Verb: <strong>thinks</strong>.</p>
+</div>
+<div class="clause-answer">
+<div class="clause-answer__heading">
+<span class="clause-answer__number">Clause 3</span>
+<span class="clause-type clause-type--dependent">Dependent</span>
+</div>
+<p class="clause-answer__text"><strong>[the plan will work]</strong></p>
+<p>Nested inside the middle clause. Subject: <strong>the plan</strong>. Verb phrase: <strong>will work</strong>.</p>
+</div>
+</div>
+</section>
+</div>
+</details>
+</article>
+<article class="exercise-card">
+<div class="exercise-head">
+<span aria-hidden="true" class="exercise-number">25</span>
+<p class="exercise-sentence">The teacher said Mina believed the test was easy.</p>
+</div>
+<div class="student-task">
+<p>Before opening the answer:</p>
+<ol>
+<li>Find every subject–verb structure.</li>
+<li>Mark the boundaries of every clause.</li>
+<li>Decide whether each clause is independent or dependent.</li>
+<li>Check whether any clause is nested inside another clause.</li>
+</ol>
+</div>
+<details class="answer-details">
+<summary>Show clause boundaries and explanation</summary>
+<div class="answer-content">
+<section class="answer-section">
+<p class="answer-label">CLAUSE BOUNDARIES</p>
+<div class="structure">[The teacher said Mina believed the test was easy] | [Mina believed the test was easy] | [the test was easy]</div>
+</section>
+<section class="answer-section">
+<p class="answer-label">CLAUSE-BY-CLAUSE ANALYSIS</p>
+<div class="clause-answer-list">
+<div class="clause-answer">
+<div class="clause-answer__heading">
+<span class="clause-answer__number">Clause 1</span>
+<span class="clause-type clause-type--independent">Independent</span>
+</div>
+<p class="clause-answer__text"><strong>[The teacher said Mina believed the test was easy]</strong></p>
+<p>Largest clause. Subject: <strong>the teacher</strong>. Verb: <strong>said</strong>.</p>
+</div>
+<div class="clause-answer">
+<div class="clause-answer__heading">
+<span class="clause-answer__number">Clause 2</span>
+<span class="clause-type clause-type--dependent">Dependent</span>
+</div>
+<p class="clause-answer__text"><strong>[Mina believed the test was easy]</strong></p>
+<p>Nested inside the largest clause. Subject: <strong>Mina</strong>. Verb: <strong>believed</strong>.</p>
+</div>
+<div class="clause-answer">
+<div class="clause-answer__heading">
+<span class="clause-answer__number">Clause 3</span>
+<span class="clause-type clause-type--dependent">Dependent</span>
+</div>
+<p class="clause-answer__text"><strong>[the test was easy]</strong></p>
+<p>Nested inside the middle clause. Subject: <strong>the test</strong>. Verb: <strong>was</strong>.</p>
+</div>
+</div>
+</section>
+</div>
+</details>
+</article>
+<article class="exercise-card">
+<div class="exercise-head">
+<span aria-hidden="true" class="exercise-number">26</span>
+<p class="exercise-sentence">If the manager confirms the office is closing, we will leave after the final customer departs.</p>
+</div>
+<div class="student-task">
+<p>Before opening the answer:</p>
+<ol>
+<li>Find every subject–verb structure.</li>
+<li>Mark the boundaries of every clause.</li>
+<li>Decide whether each clause is independent or dependent.</li>
+<li>Check whether any clause is nested inside another clause.</li>
+</ol>
+</div>
+<details class="answer-details">
+<summary>Show clause boundaries and explanation</summary>
+<div class="answer-content">
+<section class="answer-section">
+<p class="answer-label">CLAUSE BOUNDARIES</p>
+<div class="structure">[If the manager confirms the office is closing] | [the office is closing] | [we will leave after the final customer departs] | [after the final customer departs]</div>
+</section>
+<section class="answer-section">
+<p class="answer-label">CLAUSE-BY-CLAUSE ANALYSIS</p>
+<div class="clause-answer-list">
+<div class="clause-answer">
+<div class="clause-answer__heading">
+<span class="clause-answer__number">Clause 1</span>
+<span class="clause-type clause-type--dependent">Dependent</span>
+</div>
+<p class="clause-answer__text"><strong>[If the manager confirms the office is closing]</strong></p>
+<p>Subject: <strong>the manager</strong>. Verb: <strong>confirms</strong>.</p>
+</div>
+<div class="clause-answer">
+<div class="clause-answer__heading">
+<span class="clause-answer__number">Clause 2</span>
+<span class="clause-type clause-type--dependent">Dependent</span>
+</div>
+<p class="clause-answer__text"><strong>[the office is closing]</strong></p>
+<p>Nested inside the <strong>if</strong>-clause. Subject: <strong>the office</strong>. Verb phrase: <strong>is closing</strong>.</p>
+</div>
+<div class="clause-answer">
+<div class="clause-answer__heading">
+<span class="clause-answer__number">Clause 3</span>
+<span class="clause-type clause-type--independent">Independent</span>
+</div>
+<p class="clause-answer__text"><strong>[we will leave after the final customer departs]</strong></p>
+<p>Subject: <strong>we</strong>. Verb phrase: <strong>will leave</strong>.</p>
+</div>
+<div class="clause-answer">
+<div class="clause-answer__heading">
+<span class="clause-answer__number">Clause 4</span>
+<span class="clause-type clause-type--dependent">Dependent</span>
+</div>
+<p class="clause-answer__text"><strong>[after the final customer departs]</strong></p>
+<p>Nested inside the independent clause. Subject: <strong>the final customer</strong>. Verb: <strong>departs</strong>.</p>
+</div>
+</div>
+</section>
+</div>
+</details>
+</article>
+</section>
+</section></article>
+<footer class="site-footer">
+<strong>Kooshky’s TOEFL Guides</strong>
+<p>Collected and compiled by Amir Kooshky.</p>
+<div class="site-footer__links">
+<a href="./index.html">Home</a>
+<a href="https://telegram.me/KooshkyTOEFL" rel="noopener noreferrer" target="_blank">Telegram channel</a>
+<a href="https://instagram.com/kooshkytoefl" rel="noopener noreferrer" target="_blank">Instagram</a>
+<a href="https://telegram.me/kooshkyTOEFL_pv" rel="noopener noreferrer" target="_blank">Personal Telegram DM</a>
+</div>
+</footer>
+</main>
+</div>
+<aside aria-label="Dictionary lookup options" class="lookup-menu" id="lookupMenu">
+<p class="lookup-menu__term" id="lookupTerm"></p>
+<div class="lookup-menu__links">
+<a class="lookup-menu__link" id="cambridgeLink" rel="noopener noreferrer" target="_blank">Cambridge Dictionary</a>
+<a class="lookup-menu__link" id="oxfordLink" rel="noopener noreferrer" target="_blank">Oxford Learner’s Dictionaries</a>
+<a class="lookup-menu__link" id="websterLink" rel="noopener noreferrer" target="_blank">Merriam-Webster</a>
+<a class="lookup-menu__link" id="googleLink" rel="noopener noreferrer" target="_blank">Google meaning</a>
+</div>
+</aside>
+<div class="modal-backdrop" hidden="" id="telegramBackdrop">
+<section aria-describedby="telegramDialogDescription" aria-labelledby="telegramDialogTitle" aria-modal="true" class="telegram-dialog" id="telegramDialog" role="dialog" tabindex="-1">
+<div class="telegram-dialog__top">
+<div>
+<p class="telegram-dialog__label">Continue studying</p>
+<h2 id="telegramDialogTitle">More TOEFL material from Kooshky</h2>
+</div>
+<button aria-label="Close Telegram invitation" class="control-button" id="telegramCloseButton" type="button">×</button>
+</div>
+<p id="telegramDialogDescription">Join the Telegram channel for more clear explanations, exercises, and student-ready TOEFL guides.</p>
+<div class="telegram-dialog__actions">
+<a class="telegram-dialog__primary" href="https://telegram.me/KooshkyTOEFL" id="telegramDialogLink" rel="noopener noreferrer" target="_blank">Open Telegram channel</a>
+<a class="telegram-dialog__secondary" href="https://instagram.com/kooshkytoefl" rel="noopener noreferrer" target="_blank">Visit Instagram</a>
+</div>
+</section>
+</div>
+<button aria-label="Go to the top of the page" class="go-top" id="goTopButton" title="Go to top" type="button">↑</button>
+<script>
+    (() => {
+      "use strict";
+
+      const THEME_KEY = "kooshky-guides:theme:v1";
+      const TELEGRAM_KEY = "kooshky-guides:introducing-clauses:telegram-invite:v1";
+      const MOBILE_BREAKPOINT = 900;
+
+      const state = {
+        lastFocusedBeforeModal: null,
+        lastFocusedBeforeNav: null,
+        selectionTimer: 0
+      };
+
+      const elements = {
+        root: document.documentElement,
+        body: document.body,
+        main: document.getElementById("main-content"),
+        themeButton: document.getElementById("themeButton"),
+        menuButton: document.getElementById("menuButton"),
+        index: document.getElementById("editorialIndex"),
+        indexCloseButton: document.getElementById("indexCloseButton"),
+        mobileNavBackdrop: document.getElementById("mobileNavBackdrop"),
+        tocList: document.getElementById("tocList"),
+        goTopButton: document.getElementById("goTopButton"),
+        telegramBackdrop: document.getElementById("telegramBackdrop"),
+        telegramDialog: document.getElementById("telegramDialog"),
+        telegramCloseButton: document.getElementById("telegramCloseButton"),
+        telegramDialogLink: document.getElementById("telegramDialogLink"),
+        promoSentinel: document.getElementById("promoSentinel"),
+        lookupMenu: document.getElementById("lookupMenu"),
+        lookupTerm: document.getElementById("lookupTerm"),
+        cambridgeLink: document.getElementById("cambridgeLink"),
+        oxfordLink: document.getElementById("oxfordLink"),
+        websterLink: document.getElementById("websterLink"),
+        googleLink: document.getElementById("googleLink")
+      };
+
+      function safeStorageGet(key) {
+        try {
+          return localStorage.getItem(key);
+        } catch {
+          return null;
+        }
+      }
+
+      function safeStorageSet(key, value) {
+        try {
+          localStorage.setItem(key, value);
+        } catch {
+          // Core content remains usable without storage.
+        }
+      }
+
+      function applyTheme(theme) {
+        const normalizedTheme = theme === "dark" ? "dark" : "light";
+        elements.root.dataset.theme = normalizedTheme;
+        elements.root.style.colorScheme = normalizedTheme;
+
+        const isDark = normalizedTheme === "dark";
+        elements.themeButton.setAttribute("aria-label", isDark ? "Switch to light mode" : "Switch to dark mode");
+        elements.themeButton.setAttribute("aria-pressed", String(isDark));
+        elements.themeButton.title = isDark ? "Switch to light mode" : "Switch to dark mode";
+        elements.themeButton.textContent = isDark ? "☀" : "◐";
+      }
+
+      function initializeTheme() {
+        const savedTheme = safeStorageGet(THEME_KEY);
+        applyTheme(savedTheme === "dark" ? "dark" : "light");
+
+        elements.themeButton.addEventListener("click", () => {
+          const nextTheme = elements.root.dataset.theme === "dark" ? "light" : "dark";
+          applyTheme(nextTheme);
+          safeStorageSet(THEME_KEY, nextTheme);
+        });
+      }
+
+      function createStableId(text, usedIds, fallbackIndex) {
+        const base = text
+          .toLowerCase()
+          .normalize("NFKD")
+          .replace(/[\u0300-\u036f]/g, "")
+          .replace(/[^a-z0-9]+/g, "-")
+          .replace(/^-+|-+$/g, "") || `section-${fallbackIndex}`;
+
+        let candidate = base;
+        let counter = 2;
+
+        while (usedIds.has(candidate)) {
+          candidate = `${base}-${counter}`;
+          counter += 1;
+        }
+
+        usedIds.add(candidate);
+        return candidate;
+      }
+
+      function generateTableOfContents() {
+        const headings = [...elements.main.querySelectorAll("article h2, article h3")];
+        const usedIds = new Set([...document.querySelectorAll("[id]")].map((element) => element.id));
+
+        headings.forEach((heading, index) => {
+          if (!heading.id) {
+            heading.id = createStableId(heading.textContent.trim(), usedIds, index + 1);
+          }
+        });
+
+        const majorHeadings = headings.filter((heading) => heading.tagName === "H2");
+
+        majorHeadings.forEach((majorHeading, majorIndex) => {
+          majorHeading.dataset.chapter = `CHAPTER ${String(majorIndex + 1).padStart(2, "0")}`;
+
+          const listItem = document.createElement("li");
+          listItem.className = "toc-item";
+
+          const row = document.createElement("div");
+          row.className = "toc-row";
+
+          const majorLink = document.createElement("a");
+          majorLink.className = "toc-link";
+          majorLink.href = `#${majorHeading.id}`;
+          majorLink.textContent = majorHeading.textContent;
+
+          const childHeadings = [];
+          let sibling = majorHeading.nextElementSibling;
+
+          while (sibling && sibling.tagName !== "H2") {
+            if (sibling.tagName === "H3") {
+              childHeadings.push(sibling);
+            }
+            childHeadings.push(...(sibling.querySelectorAll?.(":scope > h3") || []));
+            sibling = sibling.nextElementSibling;
+          }
+
+          const uniqueChildHeadings = [...new Set(childHeadings)];
+          row.appendChild(majorLink);
+
+          if (uniqueChildHeadings.length) {
+            const toggleButton = document.createElement("button");
+            const sublistId = `toc-children-${majorIndex + 1}`;
+
+            toggleButton.className = "toc-toggle";
+            toggleButton.type = "button";
+            toggleButton.setAttribute("aria-label", `Expand subsections for ${majorHeading.textContent}`);
+            toggleButton.setAttribute("aria-expanded", "false");
+            toggleButton.setAttribute("aria-controls", sublistId);
+            toggleButton.innerHTML = '<span class="toc-toggle__icon" aria-hidden="true">›</span>';
+
+            const sublist = document.createElement("ol");
+            sublist.className = "toc-sublist";
+            sublist.id = sublistId;
+            sublist.dataset.open = "false";
+
+            uniqueChildHeadings.forEach((childHeading) => {
+              const childItem = document.createElement("li");
+              const childLink = document.createElement("a");
+              childLink.className = "toc-link";
+              childLink.href = `#${childHeading.id}`;
+              childLink.textContent = childHeading.textContent;
+              childItem.appendChild(childLink);
+              sublist.appendChild(childItem);
+            });
+
+            toggleButton.addEventListener("click", () => {
+              const willOpen = toggleButton.getAttribute("aria-expanded") !== "true";
+              toggleButton.setAttribute("aria-expanded", String(willOpen));
+              sublist.dataset.open = String(willOpen);
+            });
+
+            row.appendChild(toggleButton);
+            listItem.append(row, sublist);
+          } else {
+            listItem.appendChild(row);
+          }
+
+          elements.tocList.appendChild(listItem);
+        });
+
+        return headings;
+      }
+
+      function initializeActiveSection(headings) {
+        const links = [...elements.tocList.querySelectorAll(".toc-link")];
+        const headingToLink = new Map(
+          links.map((link) => [link.getAttribute("href").slice(1), link])
+        );
+
+        const visibleHeadings = new Map();
+
+        const observer = new IntersectionObserver((entries) => {
+          entries.forEach((entry) => {
+            if (entry.isIntersecting) {
+              visibleHeadings.set(entry.target.id, entry.boundingClientRect.top);
+            } else {
+              visibleHeadings.delete(entry.target.id);
+            }
+          });
+
+          if (!visibleHeadings.size) {
+            return;
+          }
+
+          const currentId = [...visibleHeadings.entries()]
+            .sort((a, b) => a[1] - b[1])[0][0];
+
+          links.forEach((link) => link.removeAttribute("aria-current"));
+          headingToLink.get(currentId)?.setAttribute("aria-current", "true");
+        }, {
+          rootMargin: "-76px 0px -68% 0px",
+          threshold: [0, 1]
+        });
+
+        headings.forEach((heading) => observer.observe(heading));
+      }
+
+      function isMobileNavigation() {
+        return window.innerWidth <= MOBILE_BREAKPOINT;
+      }
+
+      function openMobileNavigation() {
+        if (!isMobileNavigation()) {
+          return;
+        }
+
+        state.lastFocusedBeforeNav = document.activeElement;
+        elements.index.classList.add("is-open");
+        elements.mobileNavBackdrop.hidden = false;
+        requestAnimationFrame(() => elements.mobileNavBackdrop.classList.add("is-visible"));
+        elements.menuButton.setAttribute("aria-expanded", "true");
+        elements.body.classList.add("is-nav-open");
+        elements.indexCloseButton.focus();
+      }
+
+      function closeMobileNavigation({ restoreFocus = true } = {}) {
+        elements.index.classList.remove("is-open");
+        elements.mobileNavBackdrop.classList.remove("is-visible");
+        elements.menuButton.setAttribute("aria-expanded", "false");
+        elements.body.classList.remove("is-nav-open");
+
+        window.setTimeout(() => {
+          if (!elements.mobileNavBackdrop.classList.contains("is-visible")) {
+            elements.mobileNavBackdrop.hidden = true;
+          }
+        }, 200);
+
+        if (restoreFocus && state.lastFocusedBeforeNav instanceof HTMLElement) {
+          state.lastFocusedBeforeNav.focus();
+        }
+      }
+
+      function initializeNavigation() {
+        elements.menuButton.addEventListener("click", () => {
+          elements.index.classList.contains("is-open")
+            ? closeMobileNavigation()
+            : openMobileNavigation();
+        });
+
+        elements.indexCloseButton.addEventListener("click", () => closeMobileNavigation());
+        elements.mobileNavBackdrop.addEventListener("click", () => closeMobileNavigation());
+
+        elements.tocList.addEventListener("click", (event) => {
+          if (event.target.closest("a") && isMobileNavigation()) {
+            closeMobileNavigation({ restoreFocus: false });
+          }
+        });
+
+        window.addEventListener("resize", () => {
+          if (!isMobileNavigation()) {
+            closeMobileNavigation({ restoreFocus: false });
+          }
+          hideLookupMenu();
+        });
+      }
+
+      function initializeGoToTop() {
+        const updateVisibility = () => {
+          elements.goTopButton.classList.toggle("is-visible", window.scrollY > 700);
+        };
+
+        window.addEventListener("scroll", updateVisibility, { passive: true });
+        updateVisibility();
+
+        elements.goTopButton.addEventListener("click", () => {
+          window.scrollTo({ top: 0, behavior: "smooth" });
+        });
+      }
+
+      function markTelegramInvitationSeen() {
+        safeStorageSet(TELEGRAM_KEY, "1");
+      }
+
+      function getFocusableElements(container) {
+        return [...container.querySelectorAll(
+          'a[href], button:not([disabled]), [tabindex]:not([tabindex="-1"])'
+        )].filter((element) => !element.hasAttribute("hidden"));
+      }
+
+      function openTelegramDialog() {
+        if (safeStorageGet(TELEGRAM_KEY) === "1") {
+          return;
+        }
+
+        hideLookupMenu();
+        state.lastFocusedBeforeModal = document.activeElement;
+        markTelegramInvitationSeen();
+
+        elements.telegramBackdrop.hidden = false;
+        requestAnimationFrame(() => {
+          elements.telegramBackdrop.classList.add("is-visible");
+          elements.body.classList.add("is-modal-open");
+          elements.telegramDialog.focus();
+        });
+      }
+
+      function closeTelegramDialog({ restoreFocus = true } = {}) {
+        elements.telegramBackdrop.classList.remove("is-visible");
+        elements.body.classList.remove("is-modal-open");
+
+        window.setTimeout(() => {
+          if (!elements.telegramBackdrop.classList.contains("is-visible")) {
+            elements.telegramBackdrop.hidden = true;
+          }
+        }, 180);
+
+        if (restoreFocus && state.lastFocusedBeforeModal instanceof HTMLElement) {
+          state.lastFocusedBeforeModal.focus();
+        }
+      }
+
+      function initializeTelegramInvitation() {
+        if (safeStorageGet(TELEGRAM_KEY) !== "1") {
+          const observer = new IntersectionObserver((entries, activeObserver) => {
+            if (entries.some((entry) => entry.isIntersecting)) {
+              openTelegramDialog();
+              activeObserver.disconnect();
+            }
+          }, { threshold: 0.2 });
+
+          observer.observe(elements.promoSentinel);
+        }
+
+        elements.telegramCloseButton.addEventListener("click", () => closeTelegramDialog());
+
+        elements.telegramBackdrop.addEventListener("pointerdown", (event) => {
+          if (event.target === elements.telegramBackdrop) {
+            closeTelegramDialog();
+          }
+        });
+
+        elements.telegramDialogLink.addEventListener("click", markTelegramInvitationSeen);
+
+        elements.telegramDialog.addEventListener("keydown", (event) => {
+          if (event.key !== "Tab") {
+            return;
+          }
+
+          const focusable = getFocusableElements(elements.telegramDialog);
+          if (!focusable.length) {
+            event.preventDefault();
+            return;
+          }
+
+          const first = focusable[0];
+          const last = focusable[focusable.length - 1];
+
+          if (event.shiftKey && document.activeElement === first) {
+            event.preventDefault();
+            last.focus();
+          } else if (!event.shiftKey && document.activeElement === last) {
+            event.preventDefault();
+            first.focus();
+          }
+        });
+      }
+
+      function cleanSelectedText(text) {
+        return text
+          .replace(/\s+/g, " ")
+          .replace(/^[\s“”‘’"'()[\]{}<>.,;:!?—–-]+|[\s“”‘’"'()[\]{}<>.,;:!?—–-]+$/g, "")
+          .trim();
+      }
+
+      function selectionIsAllowed(range) {
+        const commonNode = range.commonAncestorContainer.nodeType === Node.TEXT_NODE
+          ? range.commonAncestorContainer.parentElement
+          : range.commonAncestorContainer;
+
+        if (!commonNode || !elements.main.contains(commonNode)) {
+          return false;
+        }
+
+        return !commonNode.closest(
+          "button, nav, input, textarea, select, summary, .lookup-menu, .telegram-dialog"
+        );
+      }
+
+      function getSelectionRectangle(range) {
+        const rectangle = range.getBoundingClientRect();
+
+        if (
+          rectangle &&
+          Number.isFinite(rectangle.left) &&
+          (rectangle.width > 0 || rectangle.height > 0)
+        ) {
+          return rectangle;
+        }
+
+        const rectangles = range.getClientRects();
+        return rectangles.length ? rectangles[0] : null;
+      }
+
+      function positionLookupMenu(rectangle) {
+        const margin = 10;
+        const selectionGap = 16;
+
+        elements.lookupMenu.style.left = "0px";
+        elements.lookupMenu.style.top = "0px";
+        elements.lookupMenu.classList.add("is-visible");
+
+        const menuRectangle = elements.lookupMenu.getBoundingClientRect();
+        const viewportWidth = window.innerWidth;
+        const viewportHeight = window.innerHeight;
+
+        if (!rectangle) {
+          elements.lookupMenu.style.left =
+            `${Math.max(margin, (viewportWidth - menuRectangle.width) / 2)}px`;
+          elements.lookupMenu.style.top =
+            `${Math.max(margin, viewportHeight - menuRectangle.height - 84)}px`;
+          return;
+        }
+
+        let left =
+          rectangle.left + (rectangle.width / 2) - (menuRectangle.width / 2);
+
+        left = Math.min(
+          Math.max(margin, left),
+          viewportWidth - menuRectangle.width - margin
+        );
+
+        const positionAbove =
+          rectangle.top - menuRectangle.height - selectionGap;
+        const positionBelow = rectangle.bottom + selectionGap;
+
+        let top;
+
+        if (positionAbove >= margin) {
+          top = positionAbove;
+        } else if (
+          positionBelow + menuRectangle.height <= viewportHeight - margin
+        ) {
+          top = positionBelow;
+        } else {
+          top = Math.max(
+            margin,
+            Math.min(
+              viewportHeight - menuRectangle.height - margin,
+              rectangle.top - menuRectangle.height - selectionGap
+            )
+          );
+        }
+
+        elements.lookupMenu.style.left = `${left}px`;
+        elements.lookupMenu.style.top = `${top}px`;
+      }
+
+      function hideLookupMenu() {
+        elements.lookupMenu.classList.remove("is-visible");
+      }
+
+      function updateLookupMenu() {
+        window.clearTimeout(state.selectionTimer);
+
+        state.selectionTimer = window.setTimeout(() => {
+          const selection = window.getSelection();
+
+          if (!selection || selection.rangeCount === 0 || selection.isCollapsed) {
+            hideLookupMenu();
+            return;
+          }
+
+          const selectedText = cleanSelectedText(selection.toString());
+
+          if (
+            !selectedText ||
+            selectedText.length > 90 ||
+            !/[\p{L}\p{N}]/u.test(selectedText)
+          ) {
+            hideLookupMenu();
+            return;
+          }
+
+          const range = selection.getRangeAt(0);
+
+          if (!selectionIsAllowed(range)) {
+            hideLookupMenu();
+            return;
+          }
+
+          const encodedText = encodeURIComponent(selectedText);
+          const oxfordSlug = selectedText
+            .toLowerCase()
+            .replace(/[’']/g, "")
+            .replace(/[^a-z0-9]+/g, "-")
+            .replace(/^-+|-+$/g, "") || "word";
+
+          elements.lookupTerm.textContent = `Look up “${selectedText}”`;
+          elements.cambridgeLink.href =
+            `https://dictionary.cambridge.org/dictionary/english/${encodedText}`;
+          elements.oxfordLink.href =
+            `https://www.oxfordlearnersdictionaries.com/definition/english/${oxfordSlug}?q=${encodedText}`;
+          elements.websterLink.href =
+            `https://www.merriam-webster.com/dictionary/${encodedText}`;
+          elements.googleLink.href =
+            `https://www.google.com/search?q=${encodeURIComponent(`meaning of ${selectedText}`)}`;
+
+          positionLookupMenu(getSelectionRectangle(range));
+        }, 150);
+      }
+
+      function initializeSelectionLookup() {
+        document.addEventListener("selectionchange", updateLookupMenu);
+        document.addEventListener("pointerup", () => {
+          window.setTimeout(updateLookupMenu, 90);
+        }, { passive: true });
+        document.addEventListener("touchend", () => {
+          window.setTimeout(updateLookupMenu, 190);
+        }, { passive: true });
+
+        elements.lookupMenu.addEventListener("pointerdown", (event) => {
+          event.stopPropagation();
+        });
+
+        elements.lookupMenu.addEventListener("click", (event) => {
+          if (event.target.closest("a")) {
+            window.setTimeout(hideLookupMenu, 40);
+          }
+        });
+
+        document.addEventListener("pointerdown", (event) => {
+          if (!elements.lookupMenu.contains(event.target)) {
+            hideLookupMenu();
+          }
+        });
+
+        document.addEventListener("focusin", (event) => {
+          if (
+            !elements.lookupMenu.contains(event.target) &&
+            !elements.main.contains(event.target)
+          ) {
+            hideLookupMenu();
+          }
+        });
+
+        window.addEventListener("scroll", hideLookupMenu, { passive: true });
+      }
+
+      function initializeGlobalKeyboardControls() {
+        document.addEventListener("keydown", (event) => {
+          if (event.key === "Escape") {
+            hideLookupMenu();
+
+            if (elements.telegramBackdrop.classList.contains("is-visible")) {
+              closeTelegramDialog();
+            }
+
+            if (elements.index.classList.contains("is-open")) {
+              closeMobileNavigation();
+            }
+          }
+        });
+      }
+
+      function initializeGuide() {
+        initializeTheme();
+
+        const headings = generateTableOfContents();
+        initializeActiveSection(headings);
+        initializeNavigation();
+        initializeGoToTop();
+        initializeTelegramInvitation();
+        initializeSelectionLookup();
+        initializeGlobalKeyboardControls();
+      }
+
+      try {
+        initializeGuide();
+      } catch (error) {
+        console.error("A nonessential guide feature could not be initialized:", error);
+      }
+    })();
+  </script>
+<script>
+(() => {
+  "use strict";
+
+  const openButton = document.getElementById("openClauseAnswers");
+  const closeButton = document.getElementById("closeClauseAnswers");
+  const answers = [...document.querySelectorAll("#clause-practice .answer-details")];
+
+  openButton?.addEventListener("click", () => {
+    answers.forEach((answer) => {
+      answer.open = true;
+    });
+  });
+
+  closeButton?.addEventListener("click", () => {
+    answers.forEach((answer) => {
+      answer.open = false;
+    });
+  });
+})();
+</script></body>
+</html>

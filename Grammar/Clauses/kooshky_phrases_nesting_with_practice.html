@@ -1,0 +1,4821 @@
+<!DOCTYPE html>
+
+<html data-theme="light" lang="en">
+<head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1, viewport-fit=cover" name="viewport"/>
+<meta content="A student-friendly guide to phrases, phrase types, heads, sentence functions, and nesting in English grammar." name="description"/>
+<meta content="Amir Kooshky" name="author"/>
+<meta content="light dark" name="color-scheme"/>
+<title>Phrases and Nesting | Kooshky’s TOEFL Guides</title>
+<script>
+    (() => {
+      try {
+        const savedTheme = localStorage.getItem("kooshky-guides:theme:v1");
+        document.documentElement.dataset.theme =
+          savedTheme === "dark" ? "dark" :
+          savedTheme === "light" ? "light" : "light";
+      } catch {
+        document.documentElement.dataset.theme = "light";
+      }
+    })();
+  </script>
+<link href="https://fonts.googleapis.com" rel="preconnect"/>
+<link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect"/>
+<link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:ital,wght@0,400;0,500;0,600;0,700;1,400&amp;family=Literata:opsz,wght@7..72,600;7..72,700&amp;display=swap" rel="stylesheet"/>
+<style>
+    :root {
+      color-scheme: light;
+
+      --color-page: #F4F0E8;
+      --color-surface: #FCFAF6;
+      --color-text: #182027;
+      --color-text-muted: #59636C;
+      --color-border: #D7D0C3;
+      --color-accent: #A9470D;
+      --color-accent-secondary: #1E5B63;
+      --color-accent-soft: #F3E2D3;
+      --color-secondary-soft: #DDEAE8;
+      --color-overlay: rgba(24, 32, 39, 0.56);
+      --color-focus: #1E5B63;
+
+      --font-heading: "Literata", Georgia, "Times New Roman", serif;
+      --font-body: "IBM Plex Sans", Inter, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+
+      --space-1: 0.25rem;
+      --space-2: 0.5rem;
+      --space-3: 0.75rem;
+      --space-4: 1rem;
+      --space-5: 1.5rem;
+      --space-6: 2rem;
+      --space-7: 3rem;
+      --space-8: 4.5rem;
+
+      --radius-small: 4px;
+      --radius-medium: 6px;
+      --radius-large: 10px;
+
+      --header-height: 4.25rem;
+      --article-width: 72ch;
+      --layout-width: 78rem;
+
+      --z-header: 100;
+      --z-mobile-nav: 150;
+      --z-floating-control: 200;
+      --z-selection-menu: 300;
+      --z-modal-backdrop: 400;
+      --z-modal: 410;
+
+      --floating-bottom-offset: max(1rem, calc(env(safe-area-inset-bottom) + 1rem));
+    }
+
+    html[data-theme="dark"] {
+      color-scheme: dark;
+
+      --color-page: #111417;
+      --color-surface: #181D21;
+      --color-text: #ECE7DD;
+      --color-text-muted: #ADB4B8;
+      --color-border: #30383E;
+      --color-accent: #F28C45;
+      --color-accent-secondary: #70B7B4;
+      --color-accent-soft: #332219;
+      --color-secondary-soft: #193033;
+      --color-overlay: rgba(0, 0, 0, 0.72);
+      --color-focus: #70B7B4;
+    }
+
+    *,
+    *::before,
+    *::after {
+      box-sizing: border-box;
+    }
+
+    html {
+      min-width: 0;
+      scroll-behavior: smooth;
+      scroll-padding-top: calc(var(--header-height) + var(--space-4));
+      background: var(--color-page);
+    }
+
+    body {
+      margin: 0;
+      min-width: 0;
+      overflow-x: hidden;
+      background: var(--color-page);
+      color: var(--color-text);
+      font-family: var(--font-body);
+      font-size: 1rem;
+      line-height: 1.72;
+      text-rendering: optimizeLegibility;
+    }
+
+    body.is-nav-open,
+    body.is-modal-open {
+      overflow: hidden;
+    }
+
+    body.is-modal-open {
+      --floating-bottom-offset: max(5.25rem, calc(env(safe-area-inset-bottom) + 5.25rem));
+    }
+
+    img,
+    svg {
+      display: block;
+      max-width: 100%;
+    }
+
+    a,
+    button,
+    summary {
+      -webkit-tap-highlight-color: transparent;
+    }
+
+    a {
+      color: var(--color-accent-secondary);
+      text-decoration-thickness: 1px;
+      text-underline-offset: 0.18em;
+      overflow-wrap: anywhere;
+    }
+
+    a:hover {
+      color: var(--color-accent);
+    }
+
+    button {
+      font: inherit;
+    }
+
+    :focus-visible {
+      outline: 3px solid var(--color-focus);
+      outline-offset: 3px;
+    }
+
+    h1,
+    h2,
+    h3,
+    h4 {
+      margin-top: 0;
+      color: var(--color-text);
+      font-family: var(--font-heading);
+      line-height: 1.18;
+      overflow-wrap: anywhere;
+      scroll-margin-top: calc(var(--header-height) + var(--space-5));
+    }
+
+    h1 {
+      max-width: 18ch;
+      margin-bottom: var(--space-4);
+      font-size: clamp(2.15rem, 5vw, 4.35rem);
+      letter-spacing: -0.045em;
+    }
+
+    h2 {
+      margin-bottom: var(--space-4);
+      font-size: clamp(1.55rem, 2.5vw, 2.15rem);
+      letter-spacing: -0.025em;
+    }
+
+    h3 {
+      margin-bottom: var(--space-3);
+      font-size: clamp(1.13rem, 1.6vw, 1.4rem);
+      letter-spacing: -0.015em;
+    }
+
+    h4 {
+      margin-bottom: var(--space-2);
+      font-size: 1rem;
+    }
+
+    p,
+    li,
+    dd {
+      overflow-wrap: anywhere;
+    }
+
+    p {
+      margin: 0 0 var(--space-4);
+    }
+
+    strong {
+      font-weight: 700;
+    }
+
+    .skip-link {
+      position: fixed;
+      top: var(--space-3);
+      left: var(--space-3);
+      z-index: calc(var(--z-modal) + 10);
+      padding: var(--space-3) var(--space-4);
+      border: 1px solid var(--color-border);
+      border-radius: var(--radius-medium);
+      background: var(--color-surface);
+      color: var(--color-text);
+      transform: translateY(-180%);
+      transition: transform 180ms ease;
+    }
+
+    .skip-link:focus,
+    .skip-link:focus-visible {
+      transform: translateY(0);
+    }
+
+    .site-header {
+      position: sticky;
+      top: 0;
+      z-index: var(--z-header);
+      min-height: var(--header-height);
+      border-bottom: 1px solid var(--color-border);
+      background: var(--color-surface);
+    }
+
+    .site-header__inner {
+      width: min(100%, var(--layout-width));
+      min-height: var(--header-height);
+      margin-inline: auto;
+      padding: var(--space-3) clamp(var(--space-4), 3vw, var(--space-6));
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: var(--space-4);
+    }
+
+    .site-identity {
+      min-width: 0;
+      display: flex;
+      align-items: center;
+      gap: var(--space-3);
+      color: var(--color-text);
+      text-decoration: none;
+    }
+
+    .site-identity__mark {
+      width: 0.3rem;
+      height: 2rem;
+      flex: 0 0 auto;
+      background: var(--color-accent);
+    }
+
+    .site-identity__text {
+      min-width: 0;
+      display: grid;
+      gap: 0.08rem;
+      line-height: 1.15;
+    }
+
+    .site-identity__text strong {
+      font-family: var(--font-heading);
+      font-size: 0.98rem;
+    }
+
+    .site-identity__text span {
+      color: var(--color-text-muted);
+      font-size: 0.77rem;
+      letter-spacing: 0.035em;
+    }
+
+    .primary-nav {
+      display: flex;
+      align-items: center;
+      gap: var(--space-3);
+    }
+
+    .primary-nav__link {
+      padding: var(--space-2) var(--space-3);
+      color: var(--color-text);
+      font-size: 0.9rem;
+      font-weight: 600;
+      text-decoration: none;
+    }
+
+    .control-button {
+      min-width: 2.75rem;
+      min-height: 2.75rem;
+      display: inline-grid;
+      place-items: center;
+      border: 1px solid var(--color-border);
+      border-radius: var(--radius-medium);
+      background: var(--color-surface);
+      color: var(--color-text);
+      cursor: pointer;
+      transition: background-color 180ms ease, border-color 180ms ease, color 180ms ease;
+    }
+
+    .control-button:hover {
+      border-color: var(--color-accent-secondary);
+      background: var(--color-secondary-soft);
+      color: var(--color-accent-secondary);
+    }
+
+    .menu-button {
+      display: none;
+    }
+
+    .guide-layout {
+      width: min(100%, var(--layout-width));
+      margin-inline: auto;
+      padding: var(--space-6) clamp(var(--space-4), 3vw, var(--space-6)) var(--space-8);
+      display: grid;
+      grid-template-columns: minmax(14.5rem, 18rem) minmax(0, 1fr);
+      gap: clamp(var(--space-5), 3vw, var(--space-7));
+      align-items: start;
+    }
+
+    .guide-main {
+      min-width: 0;
+    }
+
+    .editorial-index {
+      position: sticky;
+      top: calc(var(--header-height) + var(--space-5));
+      max-height: calc(100dvh - var(--header-height) - var(--space-7));
+      overflow: auto;
+      min-width: 0;
+      border-top: 4px solid var(--color-accent);
+      border-bottom: 1px solid var(--color-border);
+      background: transparent;
+    }
+
+    .editorial-index__header {
+      padding: var(--space-4) 0 var(--space-3);
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: var(--space-3);
+      border-bottom: 1px solid var(--color-border);
+    }
+
+    .editorial-index__title {
+      margin: 0;
+      color: var(--color-text-muted);
+      font-family: var(--font-body);
+      font-size: 0.75rem;
+      font-weight: 700;
+      letter-spacing: 0.13em;
+      text-transform: uppercase;
+    }
+
+    .editorial-index__home {
+      display: inline-flex;
+      margin: var(--space-3) 0;
+      font-size: 0.88rem;
+      font-weight: 700;
+    }
+
+    .editorial-index__close {
+      display: none;
+    }
+
+    .toc-list,
+    .toc-sublist {
+      margin: 0;
+      padding: 0;
+      list-style: none;
+    }
+
+    .toc-list {
+      padding-bottom: var(--space-4);
+    }
+
+    .toc-item {
+      border-top: 1px solid var(--color-border);
+    }
+
+    .toc-row {
+      display: grid;
+      grid-template-columns: minmax(0, 1fr) auto;
+      align-items: center;
+      gap: var(--space-2);
+    }
+
+    .toc-link {
+      min-width: 0;
+      padding: 0.72rem 0;
+      color: var(--color-text);
+      font-size: 0.9rem;
+      line-height: 1.35;
+      text-decoration: none;
+    }
+
+    .toc-link:hover,
+    .toc-link[aria-current="true"] {
+      color: var(--color-accent);
+    }
+
+    .toc-toggle {
+      width: 2rem;
+      height: 2rem;
+      display: grid;
+      place-items: center;
+      border: 0;
+      border-radius: var(--radius-small);
+      background: transparent;
+      color: var(--color-text-muted);
+      cursor: pointer;
+    }
+
+    .toc-toggle:hover {
+      background: var(--color-accent-soft);
+      color: var(--color-accent);
+    }
+
+    .toc-toggle__icon {
+      transition: transform 180ms ease;
+    }
+
+    .toc-toggle[aria-expanded="true"] .toc-toggle__icon {
+      transform: rotate(90deg);
+    }
+
+    .toc-sublist {
+      display: none;
+      padding: 0 0 var(--space-3) var(--space-4);
+    }
+
+    .toc-sublist[data-open="true"] {
+      display: block;
+    }
+
+    .toc-sublist .toc-link {
+      display: block;
+      padding: 0.45rem 0;
+      color: var(--color-text-muted);
+      font-size: 0.83rem;
+    }
+
+    .mobile-nav-backdrop {
+      position: fixed;
+      inset: var(--header-height) 0 0;
+      z-index: calc(var(--z-mobile-nav) - 1);
+      display: none;
+      background: var(--color-overlay);
+    }
+
+    .mobile-nav-backdrop.is-visible {
+      display: block;
+    }
+
+    .guide-hero {
+      margin-bottom: var(--space-7);
+      padding: clamp(var(--space-6), 5vw, var(--space-8)) 0 var(--space-7);
+      border-top: 1px solid var(--color-border);
+      border-bottom: 1px solid var(--color-border);
+    }
+
+    .guide-hero::before {
+      content: "";
+      display: block;
+      width: clamp(3rem, 8vw, 6rem);
+      height: 0.32rem;
+      margin-bottom: var(--space-5);
+      background: var(--color-accent);
+    }
+
+    .guide-hero__label {
+      margin: 0 0 var(--space-3);
+      color: var(--color-accent);
+      font-size: 0.78rem;
+      font-weight: 700;
+      letter-spacing: 0.14em;
+      text-transform: uppercase;
+    }
+
+    .guide-hero__subtitle {
+      max-width: 60ch;
+      margin-bottom: var(--space-4);
+      color: var(--color-text-muted);
+      font-size: clamp(1rem, 1.6vw, 1.18rem);
+    }
+
+    .guide-hero__credit {
+      margin-bottom: var(--space-5);
+      font-weight: 600;
+    }
+
+    .guide-hero__links {
+      display: flex;
+      flex-wrap: wrap;
+      gap: var(--space-2);
+      margin-bottom: var(--space-4);
+    }
+
+    .editorial-link {
+      display: inline-flex;
+      min-width: 0;
+      padding: 0.62rem 0.78rem;
+      border: 1px solid var(--color-border);
+      border-radius: var(--radius-small);
+      background: var(--color-surface);
+      color: var(--color-text);
+      font-size: 0.88rem;
+      font-weight: 600;
+      text-decoration: none;
+      overflow-wrap: anywhere;
+    }
+
+    .editorial-link:hover {
+      border-color: var(--color-accent-secondary);
+      background: var(--color-secondary-soft);
+      color: var(--color-accent-secondary);
+    }
+
+    article {
+      min-width: 0;
+    }
+
+    .content-section {
+      width: min(100%, var(--article-width));
+      margin: 0 auto var(--space-8);
+      padding: 0;
+    }
+
+    .content-section > h2 {
+      padding-top: var(--space-6);
+      border-top: 1px solid var(--color-border);
+    }
+
+    .content-section > h2::before {
+      content: attr(data-chapter);
+      display: block;
+      margin-bottom: var(--space-3);
+      color: var(--color-accent);
+      font-family: var(--font-body);
+      font-size: 0.72rem;
+      font-weight: 700;
+      letter-spacing: 0.14em;
+      text-transform: uppercase;
+    }
+
+    .content-section > h3 {
+      margin-top: var(--space-7);
+    }
+
+    .definition-grid,
+    .compare-grid,
+    .phrase-grid {
+      display: grid;
+      grid-template-columns: repeat(2, minmax(0, 1fr));
+      gap: var(--space-4);
+      margin: var(--space-5) 0;
+    }
+
+    .study-card {
+      min-width: 0;
+      padding: var(--space-4);
+      border: 1px solid var(--color-border);
+      border-radius: var(--radius-medium);
+      background: var(--color-surface);
+    }
+
+    .study-card h3,
+    .study-card h4 {
+      margin-top: 0;
+    }
+
+    .study-card p:last-child {
+      margin-bottom: 0;
+    }
+
+    .example {
+      margin: var(--space-4) 0;
+      padding: var(--space-4);
+      border: 1px solid var(--color-border);
+      border-radius: var(--radius-medium);
+      background: var(--color-surface);
+      overflow-wrap: anywhere;
+    }
+
+    .example::before {
+      content: "EXAMPLE";
+      display: block;
+      margin-bottom: var(--space-2);
+      color: var(--color-text-muted);
+      font-size: 0.7rem;
+      font-weight: 700;
+      letter-spacing: 0.12em;
+    }
+
+    .example-line {
+      display: block;
+      margin-bottom: var(--space-2);
+      font-size: 1.02rem;
+    }
+
+    .example-line:last-child {
+      margin-bottom: 0;
+    }
+
+    .analysis-block {
+      margin: var(--space-4) 0;
+      padding: var(--space-4);
+      border-left: 5px solid var(--color-accent-secondary);
+      border-radius: var(--radius-medium);
+      background: var(--color-secondary-soft);
+    }
+
+    .analysis-block::before {
+      content: "ANALYSIS";
+      display: block;
+      margin-bottom: var(--space-2);
+      color: var(--color-accent-secondary);
+      font-size: 0.7rem;
+      font-weight: 700;
+      letter-spacing: 0.12em;
+    }
+
+    .key-point,
+    .warning,
+    .remember {
+      margin: var(--space-5) 0;
+      padding: var(--space-4) var(--space-4) var(--space-4) calc(var(--space-4) + 0.35rem);
+      border: 1px solid var(--color-border);
+      border-left: 5px solid var(--color-accent-secondary);
+      border-radius: var(--radius-medium);
+      background: var(--color-secondary-soft);
+    }
+
+    .warning,
+    .remember {
+      border-left-color: var(--color-accent);
+      background: var(--color-accent-soft);
+    }
+
+    .key-point::before,
+    .warning::before,
+    .remember::before {
+      display: block;
+      margin-bottom: var(--space-2);
+      font-size: 0.7rem;
+      font-weight: 700;
+      letter-spacing: 0.12em;
+    }
+
+    .key-point::before {
+      content: "KEY POINT";
+      color: var(--color-accent-secondary);
+    }
+
+    .warning::before {
+      content: "COMMON CONFUSION";
+      color: var(--color-accent);
+    }
+
+    .remember::before {
+      content: "REMEMBER";
+      color: var(--color-accent);
+    }
+
+    .structure {
+      margin: var(--space-4) 0;
+      padding: var(--space-4);
+      border: 1px solid var(--color-border);
+      border-radius: var(--radius-medium);
+      background: var(--color-page);
+      font-family: ui-monospace, SFMono-Regular, Menlo, Consolas, monospace;
+      overflow-wrap: anywhere;
+    }
+
+    .structure strong {
+      color: var(--color-accent-secondary);
+    }
+
+    .term-list {
+      display: grid;
+      grid-template-columns: minmax(9rem, 0.8fr) minmax(0, 1.6fr);
+      gap: var(--space-3) var(--space-4);
+      margin: var(--space-5) 0;
+    }
+
+    .term-list dt {
+      font-weight: 700;
+    }
+
+    .term-list dd {
+      margin: 0;
+      color: var(--color-text-muted);
+    }
+
+    .nested-levels {
+      display: grid;
+      gap: var(--space-3);
+      margin: var(--space-5) 0;
+    }
+
+    .nested-level {
+      padding: var(--space-3) var(--space-4);
+      border-left: 4px solid var(--color-accent-secondary);
+      background: var(--color-secondary-soft);
+    }
+
+    .nested-level:nth-child(2) {
+      margin-left: var(--space-4);
+      border-left-color: var(--color-accent);
+      background: var(--color-accent-soft);
+    }
+
+    .nested-level:nth-child(3) {
+      margin-left: var(--space-7);
+    }
+
+    .steps {
+      padding-left: 1.25rem;
+    }
+
+    .steps li {
+      margin-bottom: var(--space-3);
+    }
+
+    details {
+      margin: var(--space-4) 0;
+      border: 1px solid var(--color-border);
+      border-radius: var(--radius-medium);
+      background: var(--color-surface);
+    }
+
+    summary {
+      padding: var(--space-3) var(--space-4);
+      color: var(--color-accent-secondary);
+      font-weight: 700;
+      cursor: pointer;
+    }
+
+    details[open] summary {
+      border-bottom: 1px solid var(--color-border);
+    }
+
+    .details-content {
+      padding: var(--space-4);
+    }
+
+    .lookup-menu {
+      position: fixed;
+      z-index: var(--z-selection-menu);
+      display: none;
+      width: min(22rem, calc(100vw - 1rem));
+      padding: var(--space-2);
+      border: 1px solid var(--color-border);
+      border-radius: var(--radius-medium);
+      background: var(--color-surface);
+      box-shadow: 0 8px 24px rgba(0, 0, 0, 0.14);
+    }
+
+    .lookup-menu.is-visible {
+      display: block;
+    }
+
+    .lookup-menu__term {
+      margin: 0;
+      padding: var(--space-2) var(--space-2) var(--space-3);
+      color: var(--color-text-muted);
+      font-size: 0.82rem;
+      font-weight: 600;
+    }
+
+    .lookup-menu__links {
+      display: grid;
+      grid-template-columns: repeat(2, minmax(0, 1fr));
+      gap: var(--space-2);
+    }
+
+    .lookup-menu__link {
+      min-width: 0;
+      padding: 0.55rem;
+      border: 1px solid var(--color-border);
+      border-radius: var(--radius-small);
+      background: var(--color-page);
+      color: var(--color-text);
+      text-align: center;
+      text-decoration: none;
+      font-size: 0.82rem;
+      font-weight: 600;
+      overflow-wrap: anywhere;
+    }
+
+    .lookup-menu__link:hover {
+      border-color: var(--color-accent-secondary);
+      background: var(--color-secondary-soft);
+      color: var(--color-accent-secondary);
+    }
+
+    .modal-backdrop {
+      position: fixed;
+      inset: 0;
+      z-index: var(--z-modal-backdrop);
+      display: none;
+      padding:
+        max(var(--space-4), env(safe-area-inset-top))
+        max(var(--space-4), env(safe-area-inset-right))
+        max(var(--space-4), env(safe-area-inset-bottom))
+        max(var(--space-4), env(safe-area-inset-left));
+      place-items: center;
+      background: var(--color-overlay);
+    }
+
+    .modal-backdrop.is-visible {
+      display: grid;
+    }
+
+    .telegram-dialog {
+      z-index: var(--z-modal);
+      width: min(31rem, 100%);
+      max-height: min(34rem, calc(100dvh - 2rem));
+      overflow: auto;
+      padding: var(--space-5);
+      border: 1px solid var(--color-border);
+      border-top: 5px solid var(--color-accent);
+      border-radius: var(--radius-large);
+      background: var(--color-surface);
+    }
+
+    .telegram-dialog__top {
+      display: flex;
+      align-items: flex-start;
+      justify-content: space-between;
+      gap: var(--space-4);
+    }
+
+    .telegram-dialog__label {
+      margin: 0 0 var(--space-2);
+      color: var(--color-accent);
+      font-size: 0.7rem;
+      font-weight: 700;
+      letter-spacing: 0.13em;
+      text-transform: uppercase;
+    }
+
+    .telegram-dialog h2 {
+      margin-bottom: var(--space-3);
+      font-size: 1.45rem;
+    }
+
+    .telegram-dialog__actions {
+      display: flex;
+      flex-wrap: wrap;
+      gap: var(--space-2);
+      margin-top: var(--space-5);
+    }
+
+    .telegram-dialog__primary,
+    .telegram-dialog__secondary {
+      display: inline-flex;
+      padding: 0.66rem 0.85rem;
+      border: 1px solid var(--color-border);
+      border-radius: var(--radius-small);
+      font-weight: 700;
+      text-decoration: none;
+    }
+
+    .telegram-dialog__primary {
+      border-color: var(--color-accent);
+      background: var(--color-accent);
+      color: #fff;
+    }
+
+    .telegram-dialog__primary:hover {
+      color: #fff;
+      filter: brightness(0.96);
+    }
+
+    .telegram-dialog__secondary {
+      background: var(--color-surface);
+      color: var(--color-text);
+    }
+
+    .go-top {
+      position: fixed;
+      right: max(var(--space-4), env(safe-area-inset-right));
+      bottom: var(--floating-bottom-offset);
+      z-index: var(--z-floating-control);
+      width: 3rem;
+      height: 3rem;
+      display: grid;
+      place-items: center;
+      border: 1px solid var(--color-border);
+      border-radius: var(--radius-medium);
+      background: var(--color-surface);
+      color: var(--color-text);
+      cursor: pointer;
+      opacity: 0;
+      visibility: hidden;
+      transform: translateY(0.5rem);
+      transition: opacity 180ms ease, visibility 180ms ease, transform 180ms ease, bottom 180ms ease;
+    }
+
+    .go-top.is-visible {
+      opacity: 1;
+      visibility: visible;
+      transform: translateY(0);
+    }
+
+    .site-footer {
+      width: min(100%, var(--article-width));
+      margin: 0 auto;
+      padding: var(--space-6) 0;
+      border-top: 1px solid var(--color-border);
+      color: var(--color-text-muted);
+      font-size: 0.9rem;
+    }
+
+    .site-footer__links {
+      display: flex;
+      flex-wrap: wrap;
+      gap: var(--space-3);
+      margin-top: var(--space-3);
+    }
+
+    @media (max-width: 900px) {
+      :root {
+        --header-height: 4rem;
+      }
+
+      .menu-button {
+        display: inline-grid;
+      }
+
+      .primary-nav__home {
+        display: none;
+      }
+
+      .guide-layout {
+        grid-template-columns: minmax(0, 1fr);
+        padding-top: var(--space-5);
+      }
+
+      .editorial-index {
+        position: fixed;
+        top: var(--header-height);
+        left: 0;
+        bottom: 0;
+        z-index: var(--z-mobile-nav);
+        width: min(21rem, 88vw);
+        max-height: none;
+        padding: 0 var(--space-4) max(var(--space-5), env(safe-area-inset-bottom));
+        border-top: 4px solid var(--color-accent);
+        border-right: 1px solid var(--color-border);
+        border-bottom: 0;
+        background: var(--color-surface);
+        transform: translateX(-105%);
+        transition: transform 200ms ease;
+      }
+
+      .editorial-index.is-open {
+        transform: translateX(0);
+      }
+
+      .editorial-index__close {
+        display: inline-grid;
+      }
+    }
+
+    @media (max-width: 680px) {
+      .site-identity__text span {
+        display: none;
+      }
+
+      .site-header__inner {
+        padding-inline: var(--space-3);
+      }
+
+      .guide-layout {
+        padding-inline: var(--space-3);
+      }
+
+      .guide-hero {
+        padding-top: var(--space-6);
+      }
+
+      .guide-hero__links {
+        display: grid;
+        grid-template-columns: minmax(0, 1fr);
+      }
+
+      .editorial-link {
+        justify-content: center;
+        text-align: center;
+      }
+
+      .definition-grid,
+      .compare-grid,
+      .phrase-grid {
+        grid-template-columns: minmax(0, 1fr);
+      }
+
+      .term-list {
+        grid-template-columns: minmax(0, 1fr);
+        gap: var(--space-1);
+      }
+
+      .term-list dd {
+        margin-bottom: var(--space-3);
+      }
+
+      .nested-level:nth-child(2),
+      .nested-level:nth-child(3) {
+        margin-left: var(--space-3);
+      }
+
+      .lookup-menu__links {
+        grid-template-columns: minmax(0, 1fr);
+      }
+
+      .telegram-dialog {
+        padding: var(--space-4);
+      }
+    }
+
+    @media (prefers-reduced-motion: reduce) {
+      html {
+        scroll-behavior: auto;
+      }
+
+      *,
+      *::before,
+      *::after {
+        animation-duration: 0.01ms !important;
+        animation-iteration-count: 1 !important;
+        transition-duration: 0.01ms !important;
+      }
+    }
+  
+    /* =========================
+       Practice and deep analysis
+       ========================= */
+    .practice-instructions,
+    .worked-sample {
+      margin: var(--space-5) 0;
+      padding: var(--space-5);
+      border: 1px solid var(--color-border);
+      border-radius: var(--radius-medium);
+      background: var(--color-surface);
+    }
+
+    .practice-instructions {
+      border-left: 5px solid var(--color-accent-secondary);
+      background: var(--color-secondary-soft);
+    }
+
+    .worked-sample {
+      border-top: 5px solid var(--color-accent);
+    }
+
+    .worked-sample__sentence {
+      margin-bottom: var(--space-5);
+      font-size: clamp(1.08rem, 2vw, 1.25rem);
+    }
+
+    .answer-label {
+      margin: 0 0 var(--space-2);
+      color: var(--color-accent-secondary);
+      font-size: 0.7rem;
+      font-weight: 700;
+      letter-spacing: 0.12em;
+      text-transform: uppercase;
+    }
+
+    .answer-section + .answer-section {
+      margin-top: var(--space-5);
+      padding-top: var(--space-4);
+      border-top: 1px solid var(--color-border);
+    }
+
+    .exercise-toolbar {
+      display: flex;
+      flex-wrap: wrap;
+      align-items: center;
+      justify-content: space-between;
+      gap: var(--space-4);
+      margin: var(--space-6) 0;
+      padding-block: var(--space-3);
+      border-block: 1px solid var(--color-border);
+    }
+
+    .exercise-toolbar p {
+      margin: 0;
+    }
+
+    .toolbar-actions {
+      display: flex;
+      flex-wrap: wrap;
+      gap: var(--space-2);
+    }
+
+    .text-button {
+      padding: 0.58rem 0.78rem;
+      border: 1px solid var(--color-border);
+      border-radius: var(--radius-small);
+      background: var(--color-surface);
+      color: var(--color-text);
+      font-weight: 600;
+      cursor: pointer;
+    }
+
+    .text-button:hover {
+      border-color: var(--color-accent-secondary);
+      background: var(--color-secondary-soft);
+      color: var(--color-accent-secondary);
+    }
+
+    .exercise-level {
+      margin-top: var(--space-7);
+    }
+
+    .exercise-level > h3 {
+      padding-bottom: var(--space-3);
+      border-bottom: 1px solid var(--color-border);
+    }
+
+    .exercise-card {
+      margin: var(--space-4) 0;
+      border: 1px solid var(--color-border);
+      border-radius: var(--radius-medium);
+      background: var(--color-surface);
+      overflow: clip;
+    }
+
+    .exercise-head {
+      display: flex;
+      align-items: flex-start;
+      gap: var(--space-3);
+      padding: var(--space-4);
+    }
+
+    .exercise-number {
+      width: 2rem;
+      height: 2rem;
+      flex: 0 0 auto;
+      display: grid;
+      place-items: center;
+      border: 1px solid var(--color-accent);
+      border-radius: var(--radius-small);
+      color: var(--color-accent);
+      font-weight: 700;
+    }
+
+    .exercise-sentence {
+      margin: 0;
+      font-weight: 700;
+      overflow-wrap: anywhere;
+    }
+
+    .student-task {
+      margin: 0;
+      padding: 0 var(--space-4) var(--space-4) 3.75rem;
+      color: var(--color-text-muted);
+      font-size: 0.9rem;
+    }
+
+    .student-task p {
+      margin-bottom: var(--space-2);
+      font-weight: 600;
+    }
+
+    .student-task ol {
+      margin: 0;
+      padding-left: 1.15rem;
+    }
+
+    .answer-details {
+      margin: 0;
+      border: 0;
+      border-top: 1px solid var(--color-border);
+      border-radius: 0;
+      background: var(--color-secondary-soft);
+    }
+
+    .answer-details summary {
+      padding: var(--space-3) var(--space-4);
+      color: var(--color-accent-secondary);
+      font-weight: 700;
+      cursor: pointer;
+    }
+
+    .answer-content {
+      padding: var(--space-4);
+      border-top: 1px solid var(--color-border);
+    }
+
+    .phrase-analysis,
+    .word-analysis {
+      display: grid;
+      gap: var(--space-3);
+    }
+
+    .phrase-row,
+    .word-row {
+      display: grid;
+      grid-template-columns: minmax(10rem, 0.8fr) minmax(0, 1.7fr);
+      gap: var(--space-3) var(--space-4);
+      padding: var(--space-3);
+      border: 1px solid var(--color-border);
+      border-radius: var(--radius-small);
+      background: var(--color-surface);
+    }
+
+    .phrase-row__phrase,
+    .word-row__word {
+      min-width: 0;
+      font-weight: 700;
+      overflow-wrap: anywhere;
+    }
+
+    .nested-diagram {
+      display: grid;
+      gap: var(--space-2);
+      margin: var(--space-5) 0;
+    }
+
+    .nested-diagram__row {
+      display: grid;
+      grid-template-columns: minmax(9rem, 0.6fr) minmax(0, 1.8fr);
+      gap: var(--space-3);
+      padding: var(--space-3) var(--space-4);
+      border-left: 5px solid var(--color-accent-secondary);
+      background: var(--color-secondary-soft);
+      overflow-wrap: anywhere;
+    }
+
+    .nested-diagram__row--inset {
+      margin-left: var(--space-4);
+      border-left-color: var(--color-accent);
+      background: var(--color-accent-soft);
+    }
+
+    .nested-diagram__row--deep {
+      margin-left: var(--space-7);
+    }
+
+    .nested-diagram__label {
+      color: var(--color-text-muted);
+      font-size: 0.78rem;
+      font-weight: 700;
+      letter-spacing: 0.05em;
+      text-transform: uppercase;
+    }
+
+    @media (max-width: 680px) {
+      .student-task {
+        padding-left: var(--space-4);
+      }
+
+      .phrase-row,
+      .word-row,
+      .nested-diagram__row {
+        grid-template-columns: minmax(0, 1fr);
+      }
+
+      .nested-diagram__row--inset,
+      .nested-diagram__row--deep {
+        margin-left: var(--space-3);
+      }
+
+      .practice-instructions,
+      .worked-sample {
+        padding: var(--space-4);
+      }
+    }
+</style>
+</head>
+<body>
+<a class="skip-link" href="#main-content">Skip to main content</a>
+<header class="site-header">
+<div class="site-header__inner">
+<a aria-label="Kooshky’s TOEFL Guides home" class="site-identity" href="./index.html">
+<span aria-hidden="true" class="site-identity__mark"></span>
+<span class="site-identity__text">
+<strong>Kooshky’s TOEFL Guides</strong>
+<span>Editorial study guides by Amir Kooshky</span>
+</span>
+</a>
+<nav aria-label="Primary navigation" class="primary-nav">
+<a class="primary-nav__link primary-nav__home" href="./index.html">Home</a>
+<button aria-controls="editorialIndex" aria-expanded="false" aria-label="Open table of contents" class="control-button menu-button" id="menuButton" type="button">☰</button>
+<button aria-label="Switch to dark mode" aria-pressed="false" class="control-button" id="themeButton" title="Switch theme" type="button">◐</button>
+</nav>
+</div>
+</header>
+<div class="mobile-nav-backdrop" hidden="" id="mobileNavBackdrop"></div>
+<div class="guide-layout">
+<aside aria-label="Table of contents" class="editorial-index" id="editorialIndex">
+<div class="editorial-index__header">
+<p class="editorial-index__title">Chapter Index</p>
+<button aria-label="Close table of contents" class="control-button editorial-index__close" id="indexCloseButton" type="button">×</button>
+</div>
+<a class="editorial-index__home" href="./index.html">Home</a>
+<nav aria-label="Guide contents">
+<ol class="toc-list" id="tocList"></ol>
+</nav>
+</aside>
+<main class="guide-main" id="main-content">
+<header class="guide-hero">
+<p class="guide-hero__label">Kooshky’s TOEFL Guides</p>
+<h1>Phrases and Nesting</h1>
+<p class="guide-hero__subtitle">How English combines words into larger units, gives those units grammatical types, and places smaller structures inside larger ones.</p>
+<p class="guide-hero__credit">Collected and compiled by Amir Kooshky.</p>
+<div aria-label="Amir Kooshky’s platforms" class="guide-hero__links">
+<a class="editorial-link" href="https://telegram.me/KooshkyTOEFL" rel="noopener noreferrer" target="_blank">Telegram · @KooshkyTOEFL</a>
+<a class="editorial-link" href="https://instagram.com/kooshkytoefl" rel="noopener noreferrer" target="_blank">Instagram · @kooshkytoefl</a>
+<a class="editorial-link" href="https://telegram.me/kooshkyTOEFL_pv" rel="noopener noreferrer" target="_blank">Personal Telegram DM</a>
+</div>
+<p class="guide-hero__subtitle">Visit the Telegram channel and Instagram page for more TOEFL lessons, exercises, and study guides.</p>
+</header>
+<article>
+<section class="content-section">
+<h2>Several Words Can Perform One Sentence Function</h2>
+<div class="example">
+<span class="example-line"><strong>The big black dog</strong> is running.</span>
+</div>
+<p>The subject is not only the word <strong>dog</strong>. The complete subject is <strong>the big black dog</strong>.</p>
+<dl class="term-list">
+<dt>the</dt>
+<dd>determiner</dd>
+<dt>big</dt>
+<dd>adjective</dd>
+<dt>black</dt>
+<dd>adjective</dd>
+<dt>dog</dt>
+<dd>noun</dd>
+</dl>
+<p>Each word has its own part of speech, but the entire group works together as one part of the sentence: the subject.</p>
+<div class="example">
+<span class="example-line"><strong>It</strong> is running.</span>
+</div>
+<p>The pronoun <strong>it</strong> can replace the complete group. This shows that <strong>the big black dog</strong> behaves as one grammatical unit.</p>
+<div class="key-point">
+      English combines words into larger units so that we can add detail without giving every word a separate sentence function.
+    </div>
+</section>
+<section class="content-section">
+<h2>From Words to Phrases to Sentences</h2>
+<p>Words can combine into phrases, and phrases can combine into sentences.</p>
+<div class="structure"><strong>words → phrases → sentences</strong></div>
+<div class="compare-grid">
+<div class="study-card">
+<h3>Words</h3>
+<p>dog</p>
+<p>runs</p>
+<p>quickly</p>
+</div>
+<div class="study-card">
+<h3>Phrases</h3>
+<p>the black dog</p>
+<p>is running</p>
+<p>very quickly</p>
+</div>
+</div>
+<div class="example">
+<span class="example-line"><strong>The black dog</strong> <strong>is running</strong> <strong>very quickly</strong>.</span>
+</div>
+<p>Another important structural level will be added to this model in a future lesson.</p>
+</section>
+<section class="content-section">
+<h2>A Phrase Can Contain One Word or Several Words</h2>
+<p>The word <strong>phrase</strong> may sound as though it must refer to several words. In this guide, however, a phrase may contain:</p>
+<ul>
+<li>only one word; or</li>
+<li>a central word together with other words.</li>
+</ul>
+<div class="example">
+<span class="example-line"><strong>Dogs</strong> <strong>bark</strong> <strong>loudly</strong>.</span>
+</div>
+<div class="analysis-block">
+<p><strong>Dogs</strong> = one-word noun phrase; subject</p>
+<p><strong>bark</strong> = one-word verb phrase; verbal element</p>
+<p><strong>loudly</strong> = one-word adverb phrase; adverbial of manner</p>
+</div>
+<div class="example">
+<span class="example-line"><strong>The large dogs</strong> <strong>have been barking</strong> <strong>very loudly</strong>.</span>
+</div>
+<div class="analysis-block">
+<p><strong>The large dogs</strong> = multiword noun phrase</p>
+<p><strong>have been barking</strong> = multiword verb phrase</p>
+<p><strong>very loudly</strong> = multiword adverb phrase</p>
+</div>
+<div class="remember">
+      A phrase may contain one word, but not all phrases contain only one word.
+    </div>
+<p>Treating one-word units as phrases allows us to discuss sentence structure consistently. A subject may contain one word or many words, but the complete unit can still be called a noun phrase.</p>
+</section>
+<section class="content-section">
+<h2>Phrase Types Work Like Parts of Speech</h2>
+<p>Parts of speech classify individual words:</p>
+<ul>
+<li>noun</li>
+<li>verb</li>
+<li>adjective</li>
+<li>adverb</li>
+<li>preposition</li>
+</ul>
+<p>Phrase types classify complete grammatical units in a similar way:</p>
+<ul>
+<li>noun phrase</li>
+<li>verb phrase</li>
+<li>adjective phrase</li>
+<li>adverb phrase</li>
+<li>prepositional phrase</li>
+</ul>
+<div class="phrase-grid">
+<div class="study-card">
+<h3>Individual word</h3>
+<p><strong>dog</strong> — noun</p>
+<p><strong>nervous</strong> — adjective</p>
+<p><strong>quietly</strong> — adverb</p>
+</div>
+<div class="study-card">
+<h3>Complete phrase</h3>
+<p><strong>the large dog</strong> — noun phrase</p>
+<p><strong>extremely nervous</strong> — adjective phrase</p>
+<p><strong>very quietly</strong> — adverb phrase</p>
+</div>
+</div>
+<div class="example">
+<span class="example-line"><strong>Dogs</strong> bark.</span>
+<span class="example-line"><strong>The large black dogs</strong> bark.</span>
+</div>
+<p>A one-word noun phrase and a longer noun phrase can both function as the subject.</p>
+<div class="example">
+<span class="example-line">The student is <strong>nervous</strong>.</span>
+<span class="example-line">The student is <strong>extremely nervous</strong>.</span>
+</div>
+<p>A one-word adjective phrase and a longer adjective phrase can both function as a subject complement.</p>
+<div class="example">
+<span class="example-line">She spoke <strong>quietly</strong>.</span>
+<span class="example-line">She spoke <strong>very quietly</strong>.</span>
+</div>
+<p>A one-word adverb phrase and a longer adverb phrase can both function as an adverbial.</p>
+</section>
+<section class="content-section">
+<h2>Heads: The Central Words of Phrases</h2>
+<p>Every phrase has a central word called its <strong>head</strong>. The head usually determines the phrase type.</p>
+<dl class="term-list">
+<dt>the large <strong>dog</strong></dt>
+<dd>The head is the noun <strong>dog</strong>, so the complete unit is a noun phrase.</dd>
+<dt>extremely <strong>nervous</strong></dt>
+<dd>The head is the adjective <strong>nervous</strong>, so the complete unit is an adjective phrase.</dd>
+<dt>very <strong>quietly</strong></dt>
+<dd>The head is the adverb <strong>quietly</strong>, so the complete unit is an adverb phrase.</dd>
+<dt>might have <strong>forgotten</strong></dt>
+<dd>The main verb is <strong>forgotten</strong>, and the complete verbal unit is a verb phrase.</dd>
+<dt><strong>under</strong> the table</dt>
+<dd>The preposition <strong>under</strong> organises the complete unit, so it is a prepositional phrase.</dd>
+</dl>
+<div class="key-point">
+      To identify a phrase type, first find the head or central word.
+    </div>
+</section>
+<section class="content-section">
+<h2>Keep Three Classifications Separate</h2>
+<div class="definition-grid">
+<div class="study-card">
+<h3>1. Part of speech</h3>
+<p>What kind of individual word is this?</p>
+<p>Examples: noun, verb, adjective, adverb.</p>
+</div>
+<div class="study-card">
+<h3>2. Phrase type</h3>
+<p>What kind of complete grammatical unit is this?</p>
+<p>Examples: noun phrase, verb phrase, adjective phrase.</p>
+</div>
+<div class="study-card">
+<h3>3. Sentence function</h3>
+<p>What job does the complete word or phrase perform here?</p>
+<p>Examples: subject, direct object, complement, adverbial.</p>
+</div>
+</div>
+<div class="example">
+<span class="example-line"><strong>The nervous student</strong> <strong>answered</strong> <strong>quietly</strong>.</span>
+</div>
+<div class="analysis-block">
+<h3>Word level</h3>
+<p>the = determiner</p>
+<p>nervous = adjective</p>
+<p>student = noun</p>
+<p>answered = verb</p>
+<p>quietly = adverb</p>
+<h3>Phrase level</h3>
+<p>the nervous student = noun phrase</p>
+<p>answered = one-word verb phrase</p>
+<p>quietly = one-word adverb phrase</p>
+<h3>Sentence-function level</h3>
+<p>the nervous student = subject</p>
+<p>answered = verbal element</p>
+<p>quietly = adverbial of manner</p>
+</div>
+<div class="warning">
+      Phrase type and sentence function are not the same thing.
+    </div>
+</section>
+<section class="content-section">
+<h2>Noun Phrases</h2>
+<p>A <strong>noun phrase</strong> is built around a noun or pronoun. It can perform the same sentence functions that a single noun or pronoun can perform.</p>
+<h3>Basic noun-phrase patterns</h3>
+<div class="example">
+<span class="example-line">the dog</span>
+<span class="example-line">the black dog</span>
+<span class="example-line">the large black dog</span>
+<span class="example-line">my new grammar book</span>
+</div>
+<h3>Noun phrase as subject</h3>
+<div class="example">
+<span class="example-line"><strong>The dog</strong> barked.</span>
+<span class="example-line"><strong>The large black dog</strong> barked.</span>
+</div>
+<h3>Noun phrase as direct object</h3>
+<div class="example">
+<span class="example-line">I saw <strong>the dog</strong>.</span>
+<span class="example-line">I saw <strong>the large black dog</strong>.</span>
+</div>
+<h3>Noun phrase as indirect object</h3>
+<div class="example">
+<span class="example-line">Sara gave <strong>the student</strong> a book.</span>
+<span class="example-line">Sara gave <strong>the nervous new student</strong> a book.</span>
+</div>
+<h3>Noun phrase as subject complement</h3>
+<div class="example">
+<span class="example-line">Sara is <strong>a teacher</strong>.</span>
+<span class="example-line">Sara is <strong>an excellent English teacher</strong>.</span>
+</div>
+<h3>Common parts of noun phrases</h3>
+<div class="phrase-grid">
+<div class="study-card">
+<h4>Determiner + noun</h4>
+<p>the book</p>
+<p>a student</p>
+<p>my phone</p>
+</div>
+<div class="study-card">
+<h4>Determiner + adjective + noun</h4>
+<p>a difficult question</p>
+<p>the old building</p>
+<p>my new laptop</p>
+</div>
+<div class="study-card">
+<h4>Several adjectives + noun</h4>
+<p>a small wooden table</p>
+<p>the tall nervous student</p>
+<p>an expensive Italian restaurant</p>
+</div>
+<div class="study-card">
+<h4>Noun + noun</h4>
+<p>a school bus</p>
+<p>a coffee shop</p>
+<p>a grammar lesson</p>
+</div>
+</div>
+<p>In <strong>a grammar lesson</strong>, both <em>grammar</em> and <em>lesson</em> are nouns, but <strong>lesson</strong> is the head.</p>
+</section>
+<section class="content-section">
+<h2>Verb Phrases</h2>
+<p>A <strong>verb phrase</strong> is built around a main verb. It may also contain helping verbs, modal verbs, and negative words.</p>
+<h3>Main verb only</h3>
+<div class="example">
+<span class="example-line">Sara <strong>laughed</strong>.</span>
+<span class="example-line">The dog <strong>barked</strong>.</span>
+</div>
+<h3>Helping verb + main verb</h3>
+<div class="example">
+<span class="example-line">Sara <strong>is working</strong>.</span>
+<span class="example-line">They <strong>have finished</strong>.</span>
+<span class="example-line">He <strong>was sleeping</strong>.</span>
+</div>
+<h3>Modal + main verb</h3>
+<div class="example">
+<span class="example-line">She <strong>can swim</strong>.</span>
+<span class="example-line">They <strong>might leave</strong>.</span>
+<span class="example-line">You <strong>should study</strong>.</span>
+</div>
+<h3>Several helping verbs</h3>
+<div class="example">
+<span class="example-line">She <strong>has been working</strong>.</span>
+<span class="example-line">They <strong>might have forgotten</strong>.</span>
+<span class="example-line">The car <strong>could have been damaged</strong>.</span>
+</div>
+<h3>Objects remain outside the verb phrase in this guide</h3>
+<div class="example">
+<span class="example-line">Sara <strong>opened</strong> <strong>the door</strong>.</span>
+</div>
+<div class="analysis-block">
+<p><strong>opened</strong> = one-word verb phrase</p>
+<p><strong>the door</strong> = noun phrase; direct object</p>
+</div>
+<p>Adverbs placed inside verb phrases will be explained in the nesting section.</p>
+</section>
+<section class="content-section">
+<h2>Adjective Phrases</h2>
+<p>An <strong>adjective phrase</strong> is built around an adjective. Other words may strengthen it, weaken it, compare it, or complete its meaning.</p>
+<div class="example">
+<span class="example-line">difficult</span>
+<span class="example-line">very difficult</span>
+<span class="example-line">extremely difficult</span>
+<span class="example-line">slightly difficult</span>
+</div>
+<p>The head is <strong>difficult</strong>.</p>
+<h3>Adjective phrase before a noun</h3>
+<div class="example">
+<span class="example-line">a <strong>very difficult</strong> question</span>
+<span class="example-line">an <strong>extremely expensive</strong> car</span>
+<span class="example-line">a <strong>surprisingly simple</strong> answer</span>
+</div>
+<h3>Adjective phrase as subject complement</h3>
+<div class="example">
+<span class="example-line">The student was <strong>very nervous</strong>.</span>
+<span class="example-line">The answer seems <strong>completely correct</strong>.</span>
+<span class="example-line">The room became <strong>unusually quiet</strong>.</span>
+</div>
+<h3>Adjective phrase as object complement</h3>
+<div class="example">
+<span class="example-line">The news made her <strong>very nervous</strong>.</span>
+<span class="example-line">We painted the wall <strong>bright blue</strong>.</span>
+<span class="example-line">The journey left everyone <strong>completely exhausted</strong>.</span>
+</div>
+<p>The way an adjective phrase can appear inside a larger phrase will be introduced in the nesting section.</p>
+</section>
+<section class="content-section">
+<h2>Adverb Phrases</h2>
+<p>An <strong>adverb phrase</strong> is built around an adverb. Other words may strengthen or limit it.</p>
+<div class="example">
+<span class="example-line">quietly</span>
+<span class="example-line">very quietly</span>
+<span class="example-line">extremely quietly</span>
+<span class="example-line">surprisingly quietly</span>
+</div>
+<p>The head is <strong>quietly</strong>.</p>
+<div class="example">
+<span class="example-line">He answered <strong>very quickly</strong>.</span>
+<span class="example-line">The machine moved <strong>unusually slowly</strong>.</span>
+<span class="example-line">She completed the task <strong>remarkably well</strong>.</span>
+<span class="example-line">They arrived <strong>quite early</strong>.</span>
+</div>
+<div class="compare-grid">
+<div class="study-card">
+<h4>extremely difficult</h4>
+<p>Head: <strong>difficult</strong></p>
+<p>Head type: adjective</p>
+<p>Phrase type: adjective phrase</p>
+</div>
+<div class="study-card">
+<h4>extremely quietly</h4>
+<p>Head: <strong>quietly</strong></p>
+<p>Head type: adverb</p>
+<p>Phrase type: adverb phrase</p>
+</div>
+</div>
+</section>
+<section class="content-section">
+<h2>Prepositional Phrases</h2>
+<p>A <strong>prepositional phrase</strong> begins with a preposition and includes the word or group that completes the preposition.</p>
+<div class="example">
+<span class="example-line">in the room</span>
+<span class="example-line">under the table</span>
+<span class="example-line">after lunch</span>
+<span class="example-line">to Mina</span>
+<span class="example-line">for me</span>
+</div>
+<h3>The internal roles</h3>
+<div class="example">
+<span class="example-line"><strong>under the table</strong></span>
+</div>
+<div class="analysis-block">
+<p><strong>under</strong> = preposition and head of the prepositional phrase</p>
+<p><strong>the table</strong> = the unit that completes the preposition</p>
+<p><strong>table</strong> = noun and head of that unit</p>
+<p><strong>the</strong> = determiner identifying table</p>
+</div>
+<p>The unit after a preposition is traditionally called the <strong>object of the preposition</strong>. Some grammar books call it the <strong>complement of the preposition</strong>. In this guide, both labels refer to the same internal role.</p>
+<h3>The whole prepositional phrase performs the sentence-level job</h3>
+<p>When a prepositional phrase adds information to the verb or the event, this guide calls the complete phrase an <strong>adverbial</strong>. We can then state what kind of information it gives.</p>
+<div class="phrase-grid">
+<div class="study-card">
+<h4>Place</h4>
+<p>The cat slept <strong>under the table</strong>.</p>
+<p>The complete prepositional phrase is an adverbial of place.</p>
+</div>
+<div class="study-card">
+<h4>Time</h4>
+<p>We met <strong>after lunch</strong>.</p>
+<p>The complete prepositional phrase is an adverbial of time.</p>
+</div>
+<div class="study-card">
+<h4>Recipient</h4>
+<p>He gave the money <strong>to me</strong>.</p>
+<p>The complete prepositional phrase is an adverbial identifying the recipient.</p>
+</div>
+<div class="study-card">
+<h4>Beneficiary</h4>
+<p>She bought coffee <strong>for me</strong>.</p>
+<p>The complete prepositional phrase is an adverbial identifying the beneficiary.</p>
+</div>
+</div>
+<h3>A complete analysis</h3>
+<div class="example">
+<span class="example-line">He gave the money <strong>to me</strong>.</span>
+</div>
+<div class="analysis-block">
+<p><strong>to me</strong> = prepositional phrase; adverbial identifying the recipient</p>
+<p>Inside the phrase, <strong>to</strong> = preposition and head</p>
+<p>Inside the phrase, <strong>me</strong> = pronoun and object/complement of the preposition</p>
+</div>
+<div class="remember">
+<strong>Me</strong> does not separately perform another major sentence function. The whole phrase <strong>to me</strong> performs the sentence-level job; <strong>me</strong> has an internal role inside that phrase.
+    </div>
+<p>A prepositional phrase can also appear inside a larger noun phrase. That pattern is introduced in the next section.</p>
+</section>
+<div aria-hidden="true" id="promoSentinel"></div>
+<section class="content-section">
+<h2>Nesting: Phrases Inside Other Phrases</h2>
+<p><strong>Nesting</strong> occurs when one phrase appears inside a larger phrase. The smaller phrase has an internal role, while the larger phrase may perform a major sentence function.</p>
+<div class="key-point">
+      Nesting is one of the main ways English adds detail and builds longer sentences without giving every word or phrase a separate sentence-level function.
+    </div>
+<h3>1. Adjective phrase inside a noun phrase</h3>
+<div class="example">
+<span class="example-line">the <strong>[very nervous]</strong> student</span>
+</div>
+<div class="analysis-block">
+<p><strong>very nervous</strong> = adjective phrase</p>
+<p>It appears inside the larger noun phrase <strong>the very nervous student</strong>.</p>
+<p>Its internal role is to describe the head noun <strong>student</strong>.</p>
+</div>
+<h3>2. Adverb phrase inside an adjective phrase</h3>
+<div class="example">
+<span class="example-line"><strong>[extremely]</strong> tired</span>
+</div>
+<div class="analysis-block">
+<p><strong>extremely</strong> = one-word adverb phrase</p>
+<p>It appears inside the adjective phrase <strong>extremely tired</strong>.</p>
+<p>Its internal role is to strengthen the head adjective <strong>tired</strong>.</p>
+</div>
+<h3>3. Adverb phrase inside a larger adverb phrase</h3>
+<div class="example">
+<span class="example-line"><strong>[very]</strong> quietly</span>
+</div>
+<div class="analysis-block">
+<p><strong>very</strong> = one-word adverb phrase</p>
+<p>It appears inside the larger adverb phrase <strong>very quietly</strong>.</p>
+<p>Its internal role is to strengthen the head adverb <strong>quietly</strong>.</p>
+</div>
+<h3>4. Noun phrase inside a prepositional phrase</h3>
+<div class="example">
+<span class="example-line">under <strong>[the old table]</strong></span>
+</div>
+<div class="analysis-block">
+<p><strong>the old table</strong> = noun phrase</p>
+<p>It appears inside the prepositional phrase <strong>under the old table</strong>.</p>
+<p>Its internal role is object/complement of the preposition <strong>under</strong>.</p>
+</div>
+<h3>5. Prepositional phrase inside a noun phrase</h3>
+<div class="example">
+<span class="example-line">the student <strong>[near the window]</strong></span>
+</div>
+<div class="analysis-block">
+<p><strong>near the window</strong> = prepositional phrase</p>
+<p>It appears inside the noun phrase <strong>the student near the window</strong>.</p>
+<p>Its internal role is to identify which student is meant.</p>
+</div>
+<p>Inside that prepositional phrase, another noun phrase appears:</p>
+<div class="structure">the student <strong>[near [the window]]</strong></div>
+<h3>6. Adverb phrase inside a verb phrase</h3>
+<div class="example">
+<span class="example-line">She <strong>has [already] finished</strong> it.</span>
+</div>
+<div class="analysis-block">
+<p><strong>has already finished</strong> = verb phrase</p>
+<p><strong>already</strong> = one-word adverb phrase placed inside it</p>
+<p><strong>has</strong> = helping verb</p>
+<p><strong>finished</strong> = main verb</p>
+<p><strong>it</strong> = noun phrase functioning as direct object; it remains outside the verb phrase in this guide.</p>
+</div>
+<div class="example">
+<span class="example-line">She <strong>has never seen</strong> it.</span>
+<span class="example-line">They <strong>will probably arrive</strong> soon.</span>
+<span class="example-line">He <strong>is still working</strong>.</span>
+<span class="example-line">We <strong>have finally finished</strong>.</span>
+</div>
+<h3>A natural sentence with several levels of nesting</h3>
+<div class="example">
+<span class="example-line"><strong>The extremely nervous student near the heavy metal door</strong> <strong>has already answered</strong> <strong>the final question</strong> <strong>very quietly</strong>.</span>
+</div>
+<div aria-label="Nested phrase analysis" class="nested-diagram">
+<div class="nested-diagram__row">
+<span class="nested-diagram__label">Sentence level</span>
+<span><strong>[The extremely nervous student near the heavy metal door]</strong> <strong>[has already answered]</strong> <strong>[the final question]</strong> <strong>[very quietly]</strong></span>
+</div>
+<div class="nested-diagram__row nested-diagram__row--inset">
+<span class="nested-diagram__label">Inside the subject noun phrase</span>
+<span>The <strong>[extremely nervous]</strong> student <strong>[near the heavy metal door]</strong></span>
+</div>
+<div class="nested-diagram__row nested-diagram__row--deep">
+<span class="nested-diagram__label">Inside the adjective phrase</span>
+<span><strong>[extremely]</strong> nervous</span>
+</div>
+<div class="nested-diagram__row nested-diagram__row--deep">
+<span class="nested-diagram__label">Inside the prepositional phrase</span>
+<span>near <strong>[the heavy metal door]</strong></span>
+</div>
+<div class="nested-diagram__row nested-diagram__row--inset">
+<span class="nested-diagram__label">Inside the verb phrase</span>
+<span>has <strong>[already]</strong> answered</span>
+</div>
+<div class="nested-diagram__row nested-diagram__row--inset">
+<span class="nested-diagram__label">Inside the final adverb phrase</span>
+<span><strong>[very]</strong> quietly</span>
+</div>
+</div>
+<div class="analysis-block">
+<p><strong>The extremely nervous student near the heavy metal door</strong> = noun phrase; subject</p>
+<p><strong>extremely nervous</strong> = adjective phrase inside the subject noun phrase</p>
+<p><strong>extremely</strong> = adverb phrase inside that adjective phrase</p>
+<p><strong>near the heavy metal door</strong> = prepositional phrase inside the subject noun phrase</p>
+<p><strong>the heavy metal door</strong> = noun phrase inside the prepositional phrase</p>
+<p><strong>has already answered</strong> = verb phrase; verbal element</p>
+<p><strong>already</strong> = adverb phrase inside the verb phrase</p>
+<p><strong>the final question</strong> = noun phrase; direct object</p>
+<p><strong>very quietly</strong> = adverb phrase; adverbial of manner</p>
+<p><strong>very</strong> = adverb phrase inside the larger adverb phrase</p>
+</div>
+</section>
+<section class="content-section">
+<h2>Sentence-Level Functions and Internal Functions</h2>
+<p>The same expression must be analysed at the correct level.</p>
+<div class="example">
+<span class="example-line"><strong>The big dog</strong> ran.</span>
+</div>
+<div class="analysis-block">
+<h3>At the sentence level</h3>
+<p><strong>the big dog</strong> = noun phrase; subject</p>
+<h3>Inside the noun phrase</h3>
+<p><strong>the</strong> = determiner</p>
+<p><strong>big</strong> = adjective and head of a one-word adjective phrase describing dog</p>
+<p><strong>dog</strong> = head noun</p>
+</div>
+<p>The adjective <strong>big</strong> does not independently function as a subject, object, complement, or adverbial. Its role exists inside the subject noun phrase.</p>
+<div class="example">
+<span class="example-line">He gave the money <strong>to me</strong>.</span>
+</div>
+<div class="analysis-block">
+<h3>At the sentence level</h3>
+<p><strong>to me</strong> = prepositional phrase; adverbial identifying the recipient</p>
+<h3>Inside the prepositional phrase</h3>
+<p><strong>to</strong> = preposition and head</p>
+<p><strong>me</strong> = pronoun and object/complement of the preposition</p>
+</div>
+<div class="remember">
+      The whole phrase performs the major sentence function. The individual words and smaller phrases perform internal functions inside that phrase.
+    </div>
+</section>
+<section class="content-section">
+<h2>A Reliable Method for Analysing Phrases</h2>
+<ol class="steps">
+<li>
+<strong>Find the major sentence functions.</strong>
+<p>Identify the subject, verbal element, objects, complements, and adverbials.</p>
+</li>
+<li>
+<strong>Put brackets around each complete phrase.</strong>
+<p>Do not begin with individual words. First find the larger units.</p>
+</li>
+<li>
+<strong>Name the phrase type.</strong>
+<p>Use the head to decide whether the unit is a noun, verb, adjective, adverb, or prepositional phrase.</p>
+</li>
+<li>
+<strong>Look inside every phrase.</strong>
+<p>Find determiners, heads, describing phrases, strengthening phrases, and objects/complements of prepositions.</p>
+</li>
+<li>
+<strong>Look for nesting.</strong>
+<p>Check whether any phrase appears inside another phrase.</p>
+</li>
+<li>
+<strong>Keep external and internal roles separate.</strong>
+<p>The larger phrase may be the subject, while its smaller parts only perform roles inside that subject.</p>
+</li>
+</ol>
+</section>
+<section class="content-section" id="practice">
+<h2>Practice: Analyse the Complete Structure</h2>
+<p>For each sentence, do the full analysis yourself before opening the answer. Writing only the part of speech of each word is not enough.</p>
+<div class="practice-instructions">
+<p class="answer-label">YOUR TASK</p>
+<ol>
+<li>Identify the sentence-level functions.</li>
+<li>Bracket every phrase.</li>
+<li>Name every phrase type.</li>
+<li>Find the head of every phrase.</li>
+<li>Show every important case of nesting.</li>
+<li>Explain the part of speech and internal role of every word.</li>
+</ol>
+</div>
+<h3>Worked Sample</h3>
+<div class="worked-sample">
+<p class="worked-sample__sentence"><strong>The very nervous student</strong> <strong>answered</strong> <strong>extremely carefully</strong>.</p>
+<div class="answer-section">
+<p class="answer-label">STEP 1 · SENTENCE SKELETON</p>
+<p><strong>The very nervous student</strong> = subject; <strong>answered</strong> = verbal element; <strong>extremely carefully</strong> = adverbial of manner.</p>
+</div>
+<div class="answer-section">
+<p class="answer-label">STEP 2 · BRACKETED STRUCTURE</p>
+<div class="structure"><strong>[The [very] nervous student]</strong> <strong>[answered]</strong> <strong>[[extremely] carefully]</strong></div>
+</div>
+<div class="answer-section">
+<p class="answer-label">STEP 3 · PHRASE MAP</p>
+<div class="phrase-analysis">
+<div class="phrase-row">
+<div class="phrase-row__phrase"><strong>The very nervous student</strong></div>
+<div>
+<strong>Phrase type:</strong> noun phrase<br/>
+<strong>External role:</strong> subject<br/>
+<strong>Internal structure:</strong> <strong>student</strong> is the head; <strong>the</strong> determines it; <strong>very nervous</strong> describes it.
+          </div>
+</div>
+<div class="phrase-row">
+<div class="phrase-row__phrase"><strong>very nervous</strong></div>
+<div>
+<strong>Phrase type:</strong> adjective phrase<br/>
+<strong>External role:</strong> internal: describes <em>student</em><br/>
+<strong>Internal structure:</strong> <strong>nervous</strong> is the head; <strong>very</strong> strengthens it.
+          </div>
+</div>
+<div class="phrase-row">
+<div class="phrase-row__phrase"><strong>very</strong></div>
+<div>
+<strong>Phrase type:</strong> one-word adverb phrase<br/>
+<strong>External role:</strong> internal: strengthens <em>nervous</em><br/>
+<strong>Internal structure:</strong> <strong>very</strong> is the head adverb.
+          </div>
+</div>
+<div class="phrase-row">
+<div class="phrase-row__phrase"><strong>answered</strong></div>
+<div>
+<strong>Phrase type:</strong> one-word verb phrase<br/>
+<strong>External role:</strong> verbal element<br/>
+<strong>Internal structure:</strong> <strong>answered</strong> is the main verb and head.
+          </div>
+</div>
+<div class="phrase-row">
+<div class="phrase-row__phrase"><strong>extremely carefully</strong></div>
+<div>
+<strong>Phrase type:</strong> adverb phrase<br/>
+<strong>External role:</strong> adverbial of manner<br/>
+<strong>Internal structure:</strong> <strong>carefully</strong> is the head; <strong>extremely</strong> strengthens it.
+          </div>
+</div>
+<div class="phrase-row">
+<div class="phrase-row__phrase"><strong>extremely</strong></div>
+<div>
+<strong>Phrase type:</strong> one-word adverb phrase<br/>
+<strong>External role:</strong> internal: strengthens <em>carefully</em><br/>
+<strong>Internal structure:</strong> <strong>extremely</strong> is the head adverb.
+          </div>
+</div>
+</div>
+</div>
+<div class="answer-section">
+<p class="answer-label">STEP 4 · WORD-BY-WORD ANALYSIS</p>
+<div class="word-analysis">
+<div class="word-row">
+<div class="word-row__word">The</div>
+<div><strong>Part of speech:</strong> determiner<br/><strong>Role:</strong> Identifies student inside the subject noun phrase.</div>
+</div>
+<div class="word-row">
+<div class="word-row__word">very</div>
+<div><strong>Part of speech:</strong> adverb<br/><strong>Role:</strong> Head of an adverb phrase nested inside the adjective phrase very nervous.</div>
+</div>
+<div class="word-row">
+<div class="word-row__word">nervous</div>
+<div><strong>Part of speech:</strong> adjective<br/><strong>Role:</strong> Head of the adjective phrase describing student.</div>
+</div>
+<div class="word-row">
+<div class="word-row__word">student</div>
+<div><strong>Part of speech:</strong> noun<br/><strong>Role:</strong> Head of the noun phrase functioning as subject.</div>
+</div>
+<div class="word-row">
+<div class="word-row__word">answered</div>
+<div><strong>Part of speech:</strong> verb<br/><strong>Role:</strong> Head of the verb phrase functioning as the verbal element.</div>
+</div>
+<div class="word-row">
+<div class="word-row__word">extremely</div>
+<div><strong>Part of speech:</strong> adverb<br/><strong>Role:</strong> Head of an adverb phrase nested inside the larger adverb phrase extremely carefully.</div>
+</div>
+<div class="word-row">
+<div class="word-row__word">carefully</div>
+<div><strong>Part of speech:</strong> adverb<br/><strong>Role:</strong> Head of the larger adverb phrase functioning as an adverbial of manner.</div>
+</div>
+</div>
+</div>
+<div class="key-point">
+        A one-word phrase can have an external sentence function and also contain only one head word. A multiword phrase has the same external function as a unit, while its words and smaller phrases have internal roles.
+      </div>
+</div>
+<div class="exercise-toolbar">
+<p><strong>20 exercises</strong> arranged from basic to advanced.</p>
+<div class="toolbar-actions">
+<button class="text-button" id="openAnswers" type="button">Open all answers</button>
+<button class="text-button" id="closeAnswers" type="button">Close all answers</button>
+</div>
+</div>
+<section class="exercise-level">
+<h3>Level 1 — One-Word and Basic Multiword Phrases</h3>
+<article class="exercise-card">
+<div class="exercise-head">
+<span aria-hidden="true" class="exercise-number">1</span>
+<p class="exercise-sentence"><strong>Dogs</strong> <strong>bark</strong> <strong>loudly</strong>.</p>
+</div>
+<div class="student-task">
+<p>Before opening the answer:</p>
+<ol>
+<li>Identify the major sentence functions.</li>
+<li>Put brackets around every complete phrase.</li>
+<li>Name each phrase type and find its head.</li>
+<li>Mark any phrase contained inside another phrase.</li>
+<li>Explain the role of every word inside its phrase.</li>
+</ol>
+</div>
+<details class="answer-details">
+<summary>Answer and full explanation</summary>
+<div class="answer-content">
+<section class="answer-section">
+<p class="answer-label">SENTENCE SKELETON</p>
+<p><strong>Dogs</strong> = subject; <strong>bark</strong> = verbal element; <strong>loudly</strong> = adverbial of manner.</p>
+</section>
+<section class="answer-section">
+<p class="answer-label">PHRASE MAP</p>
+<div class="phrase-analysis">
+<div class="phrase-row">
+<div class="phrase-row__phrase"><strong>Dogs</strong></div>
+<div>
+<strong>Phrase type:</strong> one-word noun phrase<br/>
+<strong>External role:</strong> subject<br/>
+<strong>Internal structure:</strong> <strong>Dogs</strong> is the head noun.
+          </div>
+</div>
+<div class="phrase-row">
+<div class="phrase-row__phrase"><strong>bark</strong></div>
+<div>
+<strong>Phrase type:</strong> one-word verb phrase<br/>
+<strong>External role:</strong> verbal element<br/>
+<strong>Internal structure:</strong> <strong>bark</strong> is the main verb and head.
+          </div>
+</div>
+<div class="phrase-row">
+<div class="phrase-row__phrase"><strong>loudly</strong></div>
+<div>
+<strong>Phrase type:</strong> one-word adverb phrase<br/>
+<strong>External role:</strong> adverbial of manner<br/>
+<strong>Internal structure:</strong> <strong>loudly</strong> is the head adverb.
+          </div>
+</div>
+</div>
+</section>
+<section class="answer-section">
+<p class="answer-label">WORD-BY-WORD ANALYSIS</p>
+<div class="word-analysis">
+<div class="word-row">
+<div class="word-row__word">Dogs</div>
+<div><strong>Part of speech:</strong> noun<br/><strong>Role:</strong> Head of the one-word noun phrase that functions as the subject.</div>
+</div>
+<div class="word-row">
+<div class="word-row__word">bark</div>
+<div><strong>Part of speech:</strong> verb<br/><strong>Role:</strong> Head of the one-word verb phrase that functions as the verbal element.</div>
+</div>
+<div class="word-row">
+<div class="word-row__word">loudly</div>
+<div><strong>Part of speech:</strong> adverb<br/><strong>Role:</strong> Head of the one-word adverb phrase that functions as an adverbial of manner.</div>
+</div>
+</div>
+</section>
+</div>
+</details>
+</article>
+<article class="exercise-card">
+<div class="exercise-head">
+<span aria-hidden="true" class="exercise-number">2</span>
+<p class="exercise-sentence"><strong>The old clock</strong> <strong>stopped</strong> <strong>suddenly</strong>.</p>
+</div>
+<div class="student-task">
+<p>Before opening the answer:</p>
+<ol>
+<li>Identify the major sentence functions.</li>
+<li>Put brackets around every complete phrase.</li>
+<li>Name each phrase type and find its head.</li>
+<li>Mark any phrase contained inside another phrase.</li>
+<li>Explain the role of every word inside its phrase.</li>
+</ol>
+</div>
+<details class="answer-details">
+<summary>Answer and full explanation</summary>
+<div class="answer-content">
+<section class="answer-section">
+<p class="answer-label">SENTENCE SKELETON</p>
+<p><strong>The old clock</strong> = subject; <strong>stopped</strong> = verbal element; <strong>suddenly</strong> = adverbial of manner.</p>
+</section>
+<section class="answer-section">
+<p class="answer-label">PHRASE MAP</p>
+<div class="phrase-analysis">
+<div class="phrase-row">
+<div class="phrase-row__phrase"><strong>The old clock</strong></div>
+<div>
+<strong>Phrase type:</strong> noun phrase<br/>
+<strong>External role:</strong> subject<br/>
+<strong>Internal structure:</strong> <strong>clock</strong> is the head; <strong>the</strong> determines it; the one-word adjective phrase <strong>old</strong> describes it.
+          </div>
+</div>
+<div class="phrase-row">
+<div class="phrase-row__phrase"><strong>old</strong></div>
+<div>
+<strong>Phrase type:</strong> one-word adjective phrase<br/>
+<strong>External role:</strong> internal: describes <em>clock</em><br/>
+<strong>Internal structure:</strong> <strong>old</strong> is the head adjective.
+          </div>
+</div>
+<div class="phrase-row">
+<div class="phrase-row__phrase"><strong>stopped</strong></div>
+<div>
+<strong>Phrase type:</strong> one-word verb phrase<br/>
+<strong>External role:</strong> verbal element<br/>
+<strong>Internal structure:</strong> <strong>stopped</strong> is the main verb and head.
+          </div>
+</div>
+<div class="phrase-row">
+<div class="phrase-row__phrase"><strong>suddenly</strong></div>
+<div>
+<strong>Phrase type:</strong> one-word adverb phrase<br/>
+<strong>External role:</strong> adverbial of manner<br/>
+<strong>Internal structure:</strong> <strong>suddenly</strong> is the head adverb.
+          </div>
+</div>
+</div>
+</section>
+<section class="answer-section">
+<p class="answer-label">WORD-BY-WORD ANALYSIS</p>
+<div class="word-analysis">
+<div class="word-row">
+<div class="word-row__word">The</div>
+<div><strong>Part of speech:</strong> determiner<br/><strong>Role:</strong> Identifies the head noun clock inside the subject noun phrase.</div>
+</div>
+<div class="word-row">
+<div class="word-row__word">old</div>
+<div><strong>Part of speech:</strong> adjective<br/><strong>Role:</strong> Head of a one-word adjective phrase describing clock.</div>
+</div>
+<div class="word-row">
+<div class="word-row__word">clock</div>
+<div><strong>Part of speech:</strong> noun<br/><strong>Role:</strong> Head of the noun phrase functioning as subject.</div>
+</div>
+<div class="word-row">
+<div class="word-row__word">stopped</div>
+<div><strong>Part of speech:</strong> verb<br/><strong>Role:</strong> Head of the verb phrase functioning as the verbal element.</div>
+</div>
+<div class="word-row">
+<div class="word-row__word">suddenly</div>
+<div><strong>Part of speech:</strong> adverb<br/><strong>Role:</strong> Head of the adverb phrase functioning as an adverbial of manner.</div>
+</div>
+</div>
+</section>
+</div>
+</details>
+</article>
+<article class="exercise-card">
+<div class="exercise-head">
+<span aria-hidden="true" class="exercise-number">3</span>
+<p class="exercise-sentence"><strong>My younger brother</strong> <strong>bought</strong> <strong>coffee</strong>.</p>
+</div>
+<div class="student-task">
+<p>Before opening the answer:</p>
+<ol>
+<li>Identify the major sentence functions.</li>
+<li>Put brackets around every complete phrase.</li>
+<li>Name each phrase type and find its head.</li>
+<li>Mark any phrase contained inside another phrase.</li>
+<li>Explain the role of every word inside its phrase.</li>
+</ol>
+</div>
+<details class="answer-details">
+<summary>Answer and full explanation</summary>
+<div class="answer-content">
+<section class="answer-section">
+<p class="answer-label">SENTENCE SKELETON</p>
+<p><strong>My younger brother</strong> = subject; <strong>bought</strong> = verbal element; <strong>coffee</strong> = direct object.</p>
+</section>
+<section class="answer-section">
+<p class="answer-label">PHRASE MAP</p>
+<div class="phrase-analysis">
+<div class="phrase-row">
+<div class="phrase-row__phrase"><strong>My younger brother</strong></div>
+<div>
+<strong>Phrase type:</strong> noun phrase<br/>
+<strong>External role:</strong> subject<br/>
+<strong>Internal structure:</strong> <strong>brother</strong> is the head; <strong>my</strong> determines it; <strong>younger</strong> describes it.
+          </div>
+</div>
+<div class="phrase-row">
+<div class="phrase-row__phrase"><strong>younger</strong></div>
+<div>
+<strong>Phrase type:</strong> one-word adjective phrase<br/>
+<strong>External role:</strong> internal: describes <em>brother</em><br/>
+<strong>Internal structure:</strong> <strong>younger</strong> is the head adjective.
+          </div>
+</div>
+<div class="phrase-row">
+<div class="phrase-row__phrase"><strong>bought</strong></div>
+<div>
+<strong>Phrase type:</strong> one-word verb phrase<br/>
+<strong>External role:</strong> verbal element<br/>
+<strong>Internal structure:</strong> <strong>bought</strong> is the main verb and head.
+          </div>
+</div>
+<div class="phrase-row">
+<div class="phrase-row__phrase"><strong>coffee</strong></div>
+<div>
+<strong>Phrase type:</strong> one-word noun phrase<br/>
+<strong>External role:</strong> direct object<br/>
+<strong>Internal structure:</strong> <strong>coffee</strong> is the head noun.
+          </div>
+</div>
+</div>
+</section>
+<section class="answer-section">
+<p class="answer-label">WORD-BY-WORD ANALYSIS</p>
+<div class="word-analysis">
+<div class="word-row">
+<div class="word-row__word">My</div>
+<div><strong>Part of speech:</strong> determiner<br/><strong>Role:</strong> Identifies brother inside the subject noun phrase.</div>
+</div>
+<div class="word-row">
+<div class="word-row__word">younger</div>
+<div><strong>Part of speech:</strong> adjective<br/><strong>Role:</strong> Head of a one-word adjective phrase describing brother.</div>
+</div>
+<div class="word-row">
+<div class="word-row__word">brother</div>
+<div><strong>Part of speech:</strong> noun<br/><strong>Role:</strong> Head of the noun phrase functioning as subject.</div>
+</div>
+<div class="word-row">
+<div class="word-row__word">bought</div>
+<div><strong>Part of speech:</strong> verb<br/><strong>Role:</strong> Head of the verb phrase functioning as the verbal element.</div>
+</div>
+<div class="word-row">
+<div class="word-row__word">coffee</div>
+<div><strong>Part of speech:</strong> noun<br/><strong>Role:</strong> Head of the one-word noun phrase functioning as direct object.</div>
+</div>
+</div>
+</section>
+</div>
+</details>
+</article>
+</section>
+<section class="exercise-level">
+<h3>Level 2 — Objects and Complements</h3>
+<article class="exercise-card">
+<div class="exercise-head">
+<span aria-hidden="true" class="exercise-number">4</span>
+<p class="exercise-sentence"><strong>Those students</strong> <strong>seemed</strong> <strong>nervous</strong>.</p>
+</div>
+<div class="student-task">
+<p>Before opening the answer:</p>
+<ol>
+<li>Identify the major sentence functions.</li>
+<li>Put brackets around every complete phrase.</li>
+<li>Name each phrase type and find its head.</li>
+<li>Mark any phrase contained inside another phrase.</li>
+<li>Explain the role of every word inside its phrase.</li>
+</ol>
+</div>
+<details class="answer-details">
+<summary>Answer and full explanation</summary>
+<div class="answer-content">
+<section class="answer-section">
+<p class="answer-label">SENTENCE SKELETON</p>
+<p><strong>Those students</strong> = subject; <strong>seemed</strong> = linking verbal element; <strong>nervous</strong> = subject complement.</p>
+</section>
+<section class="answer-section">
+<p class="answer-label">PHRASE MAP</p>
+<div class="phrase-analysis">
+<div class="phrase-row">
+<div class="phrase-row__phrase"><strong>Those students</strong></div>
+<div>
+<strong>Phrase type:</strong> noun phrase<br/>
+<strong>External role:</strong> subject<br/>
+<strong>Internal structure:</strong> <strong>students</strong> is the head; <strong>those</strong> determines it.
+          </div>
+</div>
+<div class="phrase-row">
+<div class="phrase-row__phrase"><strong>seemed</strong></div>
+<div>
+<strong>Phrase type:</strong> one-word verb phrase<br/>
+<strong>External role:</strong> linking verbal element<br/>
+<strong>Internal structure:</strong> <strong>seemed</strong> is the linking verb and head.
+          </div>
+</div>
+<div class="phrase-row">
+<div class="phrase-row__phrase"><strong>nervous</strong></div>
+<div>
+<strong>Phrase type:</strong> one-word adjective phrase<br/>
+<strong>External role:</strong> subject complement<br/>
+<strong>Internal structure:</strong> <strong>nervous</strong> is the head adjective and describes the subject.
+          </div>
+</div>
+</div>
+</section>
+<section class="answer-section">
+<p class="answer-label">WORD-BY-WORD ANALYSIS</p>
+<div class="word-analysis">
+<div class="word-row">
+<div class="word-row__word">Those</div>
+<div><strong>Part of speech:</strong> determiner<br/><strong>Role:</strong> Identifies students inside the subject noun phrase.</div>
+</div>
+<div class="word-row">
+<div class="word-row__word">students</div>
+<div><strong>Part of speech:</strong> noun<br/><strong>Role:</strong> Head of the noun phrase functioning as subject.</div>
+</div>
+<div class="word-row">
+<div class="word-row__word">seemed</div>
+<div><strong>Part of speech:</strong> verb<br/><strong>Role:</strong> Linking verb; head of the verb phrase.</div>
+</div>
+<div class="word-row">
+<div class="word-row__word">nervous</div>
+<div><strong>Part of speech:</strong> adjective<br/><strong>Role:</strong> Head of the adjective phrase functioning as subject complement; it describes the students.</div>
+</div>
+</div>
+</section>
+</div>
+</details>
+</article>
+<article class="exercise-card">
+<div class="exercise-head">
+<span aria-hidden="true" class="exercise-number">5</span>
+<p class="exercise-sentence"><strong>Sara</strong> <strong>gave</strong> <strong>me</strong> <strong>a notebook</strong>.</p>
+</div>
+<div class="student-task">
+<p>Before opening the answer:</p>
+<ol>
+<li>Identify the major sentence functions.</li>
+<li>Put brackets around every complete phrase.</li>
+<li>Name each phrase type and find its head.</li>
+<li>Mark any phrase contained inside another phrase.</li>
+<li>Explain the role of every word inside its phrase.</li>
+</ol>
+</div>
+<details class="answer-details">
+<summary>Answer and full explanation</summary>
+<div class="answer-content">
+<section class="answer-section">
+<p class="answer-label">SENTENCE SKELETON</p>
+<p><strong>Sara</strong> = subject; <strong>gave</strong> = verbal element; <strong>me</strong> = indirect object; <strong>a notebook</strong> = direct object.</p>
+</section>
+<section class="answer-section">
+<p class="answer-label">PHRASE MAP</p>
+<div class="phrase-analysis">
+<div class="phrase-row">
+<div class="phrase-row__phrase"><strong>Sara</strong></div>
+<div>
+<strong>Phrase type:</strong> one-word noun phrase<br/>
+<strong>External role:</strong> subject<br/>
+<strong>Internal structure:</strong> <strong>Sara</strong> is the head proper noun.
+          </div>
+</div>
+<div class="phrase-row">
+<div class="phrase-row__phrase"><strong>gave</strong></div>
+<div>
+<strong>Phrase type:</strong> one-word verb phrase<br/>
+<strong>External role:</strong> verbal element<br/>
+<strong>Internal structure:</strong> <strong>gave</strong> is the main verb and head.
+          </div>
+</div>
+<div class="phrase-row">
+<div class="phrase-row__phrase"><strong>me</strong></div>
+<div>
+<strong>Phrase type:</strong> one-word noun phrase<br/>
+<strong>External role:</strong> indirect object<br/>
+<strong>Internal structure:</strong> <strong>me</strong> is a pronoun and the head of the phrase.
+          </div>
+</div>
+<div class="phrase-row">
+<div class="phrase-row__phrase"><strong>a notebook</strong></div>
+<div>
+<strong>Phrase type:</strong> noun phrase<br/>
+<strong>External role:</strong> direct object<br/>
+<strong>Internal structure:</strong> <strong>notebook</strong> is the head; <strong>a</strong> determines it.
+          </div>
+</div>
+</div>
+</section>
+<section class="answer-section">
+<p class="answer-label">WORD-BY-WORD ANALYSIS</p>
+<div class="word-analysis">
+<div class="word-row">
+<div class="word-row__word">Sara</div>
+<div><strong>Part of speech:</strong> proper noun<br/><strong>Role:</strong> Head of the noun phrase functioning as subject.</div>
+</div>
+<div class="word-row">
+<div class="word-row__word">gave</div>
+<div><strong>Part of speech:</strong> verb<br/><strong>Role:</strong> Head of the verb phrase functioning as the verbal element.</div>
+</div>
+<div class="word-row">
+<div class="word-row__word">me</div>
+<div><strong>Part of speech:</strong> pronoun<br/><strong>Role:</strong> Head of the one-word noun phrase functioning as indirect object; it names the recipient.</div>
+</div>
+<div class="word-row">
+<div class="word-row__word">a</div>
+<div><strong>Part of speech:</strong> determiner<br/><strong>Role:</strong> Introduces notebook inside the direct-object noun phrase.</div>
+</div>
+<div class="word-row">
+<div class="word-row__word">notebook</div>
+<div><strong>Part of speech:</strong> noun<br/><strong>Role:</strong> Head of the noun phrase functioning as direct object.</div>
+</div>
+</div>
+</section>
+</div>
+</details>
+</article>
+<article class="exercise-card">
+<div class="exercise-head">
+<span aria-hidden="true" class="exercise-number">6</span>
+<p class="exercise-sentence"><strong>The coach</strong> <strong>called</strong> <strong>Amir</strong> <strong>talented</strong>.</p>
+</div>
+<div class="student-task">
+<p>Before opening the answer:</p>
+<ol>
+<li>Identify the major sentence functions.</li>
+<li>Put brackets around every complete phrase.</li>
+<li>Name each phrase type and find its head.</li>
+<li>Mark any phrase contained inside another phrase.</li>
+<li>Explain the role of every word inside its phrase.</li>
+</ol>
+</div>
+<details class="answer-details">
+<summary>Answer and full explanation</summary>
+<div class="answer-content">
+<section class="answer-section">
+<p class="answer-label">SENTENCE SKELETON</p>
+<p><strong>The coach</strong> = subject; <strong>called</strong> = verbal element; <strong>Amir</strong> = direct object; <strong>talented</strong> = object complement.</p>
+</section>
+<section class="answer-section">
+<p class="answer-label">PHRASE MAP</p>
+<div class="phrase-analysis">
+<div class="phrase-row">
+<div class="phrase-row__phrase"><strong>The coach</strong></div>
+<div>
+<strong>Phrase type:</strong> noun phrase<br/>
+<strong>External role:</strong> subject<br/>
+<strong>Internal structure:</strong> <strong>coach</strong> is the head; <strong>the</strong> determines it.
+          </div>
+</div>
+<div class="phrase-row">
+<div class="phrase-row__phrase"><strong>called</strong></div>
+<div>
+<strong>Phrase type:</strong> one-word verb phrase<br/>
+<strong>External role:</strong> verbal element<br/>
+<strong>Internal structure:</strong> <strong>called</strong> is the main verb and head.
+          </div>
+</div>
+<div class="phrase-row">
+<div class="phrase-row__phrase"><strong>Amir</strong></div>
+<div>
+<strong>Phrase type:</strong> one-word noun phrase<br/>
+<strong>External role:</strong> direct object<br/>
+<strong>Internal structure:</strong> <strong>Amir</strong> is the head proper noun.
+          </div>
+</div>
+<div class="phrase-row">
+<div class="phrase-row__phrase"><strong>talented</strong></div>
+<div>
+<strong>Phrase type:</strong> one-word adjective phrase<br/>
+<strong>External role:</strong> object complement<br/>
+<strong>Internal structure:</strong> <strong>talented</strong> describes the direct object Amir.
+          </div>
+</div>
+</div>
+</section>
+<section class="answer-section">
+<p class="answer-label">WORD-BY-WORD ANALYSIS</p>
+<div class="word-analysis">
+<div class="word-row">
+<div class="word-row__word">The</div>
+<div><strong>Part of speech:</strong> determiner<br/><strong>Role:</strong> Identifies coach inside the subject noun phrase.</div>
+</div>
+<div class="word-row">
+<div class="word-row__word">coach</div>
+<div><strong>Part of speech:</strong> noun<br/><strong>Role:</strong> Head of the subject noun phrase.</div>
+</div>
+<div class="word-row">
+<div class="word-row__word">called</div>
+<div><strong>Part of speech:</strong> verb<br/><strong>Role:</strong> Head of the verb phrase.</div>
+</div>
+<div class="word-row">
+<div class="word-row__word">Amir</div>
+<div><strong>Part of speech:</strong> proper noun<br/><strong>Role:</strong> Head of the noun phrase functioning as direct object.</div>
+</div>
+<div class="word-row">
+<div class="word-row__word">talented</div>
+<div><strong>Part of speech:</strong> adjective<br/><strong>Role:</strong> Head of the adjective phrase functioning as object complement; it describes Amir.</div>
+</div>
+</div>
+</section>
+</div>
+</details>
+</article>
+</section>
+<section class="exercise-level">
+<h3>Level 3 — Prepositional Phrases as Adverbials</h3>
+<article class="exercise-card">
+<div class="exercise-head">
+<span aria-hidden="true" class="exercise-number">7</span>
+<p class="exercise-sentence"><strong>The children</strong> <strong>waited</strong> <strong>near the entrance</strong>.</p>
+</div>
+<div class="student-task">
+<p>Before opening the answer:</p>
+<ol>
+<li>Identify the major sentence functions.</li>
+<li>Put brackets around every complete phrase.</li>
+<li>Name each phrase type and find its head.</li>
+<li>Mark any phrase contained inside another phrase.</li>
+<li>Explain the role of every word inside its phrase.</li>
+</ol>
+</div>
+<details class="answer-details">
+<summary>Answer and full explanation</summary>
+<div class="answer-content">
+<section class="answer-section">
+<p class="answer-label">SENTENCE SKELETON</p>
+<p><strong>The children</strong> = subject; <strong>waited</strong> = verbal element; <strong>near the entrance</strong> = adverbial of place.</p>
+</section>
+<section class="answer-section">
+<p class="answer-label">PHRASE MAP</p>
+<div class="phrase-analysis">
+<div class="phrase-row">
+<div class="phrase-row__phrase"><strong>The children</strong></div>
+<div>
+<strong>Phrase type:</strong> noun phrase<br/>
+<strong>External role:</strong> subject<br/>
+<strong>Internal structure:</strong> <strong>children</strong> is the head; <strong>the</strong> determines it.
+          </div>
+</div>
+<div class="phrase-row">
+<div class="phrase-row__phrase"><strong>waited</strong></div>
+<div>
+<strong>Phrase type:</strong> one-word verb phrase<br/>
+<strong>External role:</strong> verbal element<br/>
+<strong>Internal structure:</strong> <strong>waited</strong> is the main verb and head.
+          </div>
+</div>
+<div class="phrase-row">
+<div class="phrase-row__phrase"><strong>near the entrance</strong></div>
+<div>
+<strong>Phrase type:</strong> prepositional phrase<br/>
+<strong>External role:</strong> adverbial of place<br/>
+<strong>Internal structure:</strong> <strong>near</strong> is the head preposition; <strong>the entrance</strong> is its noun-phrase object/complement.
+          </div>
+</div>
+<div class="phrase-row">
+<div class="phrase-row__phrase"><strong>the entrance</strong></div>
+<div>
+<strong>Phrase type:</strong> noun phrase<br/>
+<strong>External role:</strong> internal: object/complement of <em>near</em><br/>
+<strong>Internal structure:</strong> <strong>entrance</strong> is the head; <strong>the</strong> determines it.
+          </div>
+</div>
+</div>
+</section>
+<section class="answer-section">
+<p class="answer-label">WORD-BY-WORD ANALYSIS</p>
+<div class="word-analysis">
+<div class="word-row">
+<div class="word-row__word">The</div>
+<div><strong>Part of speech:</strong> determiner<br/><strong>Role:</strong> Identifies children inside the subject noun phrase.</div>
+</div>
+<div class="word-row">
+<div class="word-row__word">children</div>
+<div><strong>Part of speech:</strong> noun<br/><strong>Role:</strong> Head of the noun phrase functioning as subject.</div>
+</div>
+<div class="word-row">
+<div class="word-row__word">waited</div>
+<div><strong>Part of speech:</strong> verb<br/><strong>Role:</strong> Head of the verb phrase.</div>
+</div>
+<div class="word-row">
+<div class="word-row__word">near</div>
+<div><strong>Part of speech:</strong> preposition<br/><strong>Role:</strong> Head of the prepositional phrase functioning as an adverbial of place.</div>
+</div>
+<div class="word-row">
+<div class="word-row__word">the</div>
+<div><strong>Part of speech:</strong> determiner<br/><strong>Role:</strong> Identifies entrance inside the noun phrase that completes near.</div>
+</div>
+<div class="word-row">
+<div class="word-row__word">entrance</div>
+<div><strong>Part of speech:</strong> noun<br/><strong>Role:</strong> Head of the noun phrase functioning internally as the object/complement of near.</div>
+</div>
+</div>
+</section>
+</div>
+</details>
+</article>
+<article class="exercise-card">
+<div class="exercise-head">
+<span aria-hidden="true" class="exercise-number">8</span>
+<p class="exercise-sentence"><strong>We</strong> <strong>met</strong> <strong>after lunch</strong>.</p>
+</div>
+<div class="student-task">
+<p>Before opening the answer:</p>
+<ol>
+<li>Identify the major sentence functions.</li>
+<li>Put brackets around every complete phrase.</li>
+<li>Name each phrase type and find its head.</li>
+<li>Mark any phrase contained inside another phrase.</li>
+<li>Explain the role of every word inside its phrase.</li>
+</ol>
+</div>
+<details class="answer-details">
+<summary>Answer and full explanation</summary>
+<div class="answer-content">
+<section class="answer-section">
+<p class="answer-label">SENTENCE SKELETON</p>
+<p><strong>We</strong> = subject; <strong>met</strong> = verbal element; <strong>after lunch</strong> = adverbial of time.</p>
+</section>
+<section class="answer-section">
+<p class="answer-label">PHRASE MAP</p>
+<div class="phrase-analysis">
+<div class="phrase-row">
+<div class="phrase-row__phrase"><strong>We</strong></div>
+<div>
+<strong>Phrase type:</strong> one-word noun phrase<br/>
+<strong>External role:</strong> subject<br/>
+<strong>Internal structure:</strong> <strong>we</strong> is a pronoun and the head.
+          </div>
+</div>
+<div class="phrase-row">
+<div class="phrase-row__phrase"><strong>met</strong></div>
+<div>
+<strong>Phrase type:</strong> one-word verb phrase<br/>
+<strong>External role:</strong> verbal element<br/>
+<strong>Internal structure:</strong> <strong>met</strong> is the main verb and head.
+          </div>
+</div>
+<div class="phrase-row">
+<div class="phrase-row__phrase"><strong>after lunch</strong></div>
+<div>
+<strong>Phrase type:</strong> prepositional phrase<br/>
+<strong>External role:</strong> adverbial of time<br/>
+<strong>Internal structure:</strong> <strong>after</strong> is the head preposition; <strong>lunch</strong> is its one-word noun-phrase object/complement.
+          </div>
+</div>
+<div class="phrase-row">
+<div class="phrase-row__phrase"><strong>lunch</strong></div>
+<div>
+<strong>Phrase type:</strong> one-word noun phrase<br/>
+<strong>External role:</strong> internal: object/complement of <em>after</em><br/>
+<strong>Internal structure:</strong> <strong>lunch</strong> is the head noun.
+          </div>
+</div>
+</div>
+</section>
+<section class="answer-section">
+<p class="answer-label">WORD-BY-WORD ANALYSIS</p>
+<div class="word-analysis">
+<div class="word-row">
+<div class="word-row__word">We</div>
+<div><strong>Part of speech:</strong> pronoun<br/><strong>Role:</strong> Head of the one-word noun phrase functioning as subject.</div>
+</div>
+<div class="word-row">
+<div class="word-row__word">met</div>
+<div><strong>Part of speech:</strong> verb<br/><strong>Role:</strong> Head of the verb phrase.</div>
+</div>
+<div class="word-row">
+<div class="word-row__word">after</div>
+<div><strong>Part of speech:</strong> preposition<br/><strong>Role:</strong> Head of the prepositional phrase functioning as an adverbial of time.</div>
+</div>
+<div class="word-row">
+<div class="word-row__word">lunch</div>
+<div><strong>Part of speech:</strong> noun<br/><strong>Role:</strong> Head of the noun phrase functioning internally as the object/complement of after.</div>
+</div>
+</div>
+</section>
+</div>
+</details>
+</article>
+<article class="exercise-card">
+<div class="exercise-head">
+<span aria-hidden="true" class="exercise-number">9</span>
+<p class="exercise-sentence"><strong>David</strong> <strong>sent</strong> <strong>the package</strong> <strong>to Mina</strong>.</p>
+</div>
+<div class="student-task">
+<p>Before opening the answer:</p>
+<ol>
+<li>Identify the major sentence functions.</li>
+<li>Put brackets around every complete phrase.</li>
+<li>Name each phrase type and find its head.</li>
+<li>Mark any phrase contained inside another phrase.</li>
+<li>Explain the role of every word inside its phrase.</li>
+</ol>
+</div>
+<details class="answer-details">
+<summary>Answer and full explanation</summary>
+<div class="answer-content">
+<section class="answer-section">
+<p class="answer-label">SENTENCE SKELETON</p>
+<p><strong>David</strong> = subject; <strong>sent</strong> = verbal element; <strong>the package</strong> = direct object; <strong>to Mina</strong> = adverbial expressing the recipient.</p>
+</section>
+<section class="answer-section">
+<p class="answer-label">PHRASE MAP</p>
+<div class="phrase-analysis">
+<div class="phrase-row">
+<div class="phrase-row__phrase"><strong>David</strong></div>
+<div>
+<strong>Phrase type:</strong> one-word noun phrase<br/>
+<strong>External role:</strong> subject<br/>
+<strong>Internal structure:</strong> <strong>David</strong> is the head proper noun.
+          </div>
+</div>
+<div class="phrase-row">
+<div class="phrase-row__phrase"><strong>sent</strong></div>
+<div>
+<strong>Phrase type:</strong> one-word verb phrase<br/>
+<strong>External role:</strong> verbal element<br/>
+<strong>Internal structure:</strong> <strong>sent</strong> is the main verb and head.
+          </div>
+</div>
+<div class="phrase-row">
+<div class="phrase-row__phrase"><strong>the package</strong></div>
+<div>
+<strong>Phrase type:</strong> noun phrase<br/>
+<strong>External role:</strong> direct object<br/>
+<strong>Internal structure:</strong> <strong>package</strong> is the head; <strong>the</strong> determines it.
+          </div>
+</div>
+<div class="phrase-row">
+<div class="phrase-row__phrase"><strong>to Mina</strong></div>
+<div>
+<strong>Phrase type:</strong> prepositional phrase<br/>
+<strong>External role:</strong> adverbial expressing the recipient<br/>
+<strong>Internal structure:</strong> <strong>to</strong> is the head preposition; <strong>Mina</strong> is its one-word noun-phrase object/complement.
+          </div>
+</div>
+<div class="phrase-row">
+<div class="phrase-row__phrase"><strong>Mina</strong></div>
+<div>
+<strong>Phrase type:</strong> one-word noun phrase<br/>
+<strong>External role:</strong> internal: object/complement of <em>to</em><br/>
+<strong>Internal structure:</strong> <strong>Mina</strong> is the head proper noun.
+          </div>
+</div>
+</div>
+</section>
+<section class="answer-section">
+<p class="answer-label">WORD-BY-WORD ANALYSIS</p>
+<div class="word-analysis">
+<div class="word-row">
+<div class="word-row__word">David</div>
+<div><strong>Part of speech:</strong> proper noun<br/><strong>Role:</strong> Head of the subject noun phrase.</div>
+</div>
+<div class="word-row">
+<div class="word-row__word">sent</div>
+<div><strong>Part of speech:</strong> verb<br/><strong>Role:</strong> Head of the verb phrase.</div>
+</div>
+<div class="word-row">
+<div class="word-row__word">the</div>
+<div><strong>Part of speech:</strong> determiner<br/><strong>Role:</strong> Identifies package inside the direct-object noun phrase.</div>
+</div>
+<div class="word-row">
+<div class="word-row__word">package</div>
+<div><strong>Part of speech:</strong> noun<br/><strong>Role:</strong> Head of the noun phrase functioning as direct object.</div>
+</div>
+<div class="word-row">
+<div class="word-row__word">to</div>
+<div><strong>Part of speech:</strong> preposition<br/><strong>Role:</strong> Head of the prepositional phrase functioning as an adverbial of recipient.</div>
+</div>
+<div class="word-row">
+<div class="word-row__word">Mina</div>
+<div><strong>Part of speech:</strong> proper noun<br/><strong>Role:</strong> Head of the noun phrase functioning internally as the object/complement of to.</div>
+</div>
+</div>
+</section>
+</div>
+</details>
+</article>
+<article class="exercise-card">
+<div class="exercise-head">
+<span aria-hidden="true" class="exercise-number">10</span>
+<p class="exercise-sentence"><strong>My sister</strong> <strong>bought</strong> <strong>a ticket</strong> <strong>for me</strong>.</p>
+</div>
+<div class="student-task">
+<p>Before opening the answer:</p>
+<ol>
+<li>Identify the major sentence functions.</li>
+<li>Put brackets around every complete phrase.</li>
+<li>Name each phrase type and find its head.</li>
+<li>Mark any phrase contained inside another phrase.</li>
+<li>Explain the role of every word inside its phrase.</li>
+</ol>
+</div>
+<details class="answer-details">
+<summary>Answer and full explanation</summary>
+<div class="answer-content">
+<section class="answer-section">
+<p class="answer-label">SENTENCE SKELETON</p>
+<p><strong>My sister</strong> = subject; <strong>bought</strong> = verbal element; <strong>a ticket</strong> = direct object; <strong>for me</strong> = adverbial expressing the beneficiary.</p>
+</section>
+<section class="answer-section">
+<p class="answer-label">PHRASE MAP</p>
+<div class="phrase-analysis">
+<div class="phrase-row">
+<div class="phrase-row__phrase"><strong>My sister</strong></div>
+<div>
+<strong>Phrase type:</strong> noun phrase<br/>
+<strong>External role:</strong> subject<br/>
+<strong>Internal structure:</strong> <strong>sister</strong> is the head; <strong>my</strong> determines it.
+          </div>
+</div>
+<div class="phrase-row">
+<div class="phrase-row__phrase"><strong>bought</strong></div>
+<div>
+<strong>Phrase type:</strong> one-word verb phrase<br/>
+<strong>External role:</strong> verbal element<br/>
+<strong>Internal structure:</strong> <strong>bought</strong> is the main verb and head.
+          </div>
+</div>
+<div class="phrase-row">
+<div class="phrase-row__phrase"><strong>a ticket</strong></div>
+<div>
+<strong>Phrase type:</strong> noun phrase<br/>
+<strong>External role:</strong> direct object<br/>
+<strong>Internal structure:</strong> <strong>ticket</strong> is the head; <strong>a</strong> determines it.
+          </div>
+</div>
+<div class="phrase-row">
+<div class="phrase-row__phrase"><strong>for me</strong></div>
+<div>
+<strong>Phrase type:</strong> prepositional phrase<br/>
+<strong>External role:</strong> adverbial expressing the beneficiary<br/>
+<strong>Internal structure:</strong> <strong>for</strong> is the head preposition; <strong>me</strong> is its one-word noun-phrase object/complement.
+          </div>
+</div>
+<div class="phrase-row">
+<div class="phrase-row__phrase"><strong>me</strong></div>
+<div>
+<strong>Phrase type:</strong> one-word noun phrase<br/>
+<strong>External role:</strong> internal: object/complement of <em>for</em><br/>
+<strong>Internal structure:</strong> <strong>me</strong> is a pronoun and the head.
+          </div>
+</div>
+</div>
+</section>
+<section class="answer-section">
+<p class="answer-label">WORD-BY-WORD ANALYSIS</p>
+<div class="word-analysis">
+<div class="word-row">
+<div class="word-row__word">My</div>
+<div><strong>Part of speech:</strong> determiner<br/><strong>Role:</strong> Identifies sister inside the subject noun phrase.</div>
+</div>
+<div class="word-row">
+<div class="word-row__word">sister</div>
+<div><strong>Part of speech:</strong> noun<br/><strong>Role:</strong> Head of the subject noun phrase.</div>
+</div>
+<div class="word-row">
+<div class="word-row__word">bought</div>
+<div><strong>Part of speech:</strong> verb<br/><strong>Role:</strong> Head of the verb phrase.</div>
+</div>
+<div class="word-row">
+<div class="word-row__word">a</div>
+<div><strong>Part of speech:</strong> determiner<br/><strong>Role:</strong> Introduces ticket inside the direct-object noun phrase.</div>
+</div>
+<div class="word-row">
+<div class="word-row__word">ticket</div>
+<div><strong>Part of speech:</strong> noun<br/><strong>Role:</strong> Head of the noun phrase functioning as direct object.</div>
+</div>
+<div class="word-row">
+<div class="word-row__word">for</div>
+<div><strong>Part of speech:</strong> preposition<br/><strong>Role:</strong> Head of the prepositional phrase functioning as an adverbial of beneficiary.</div>
+</div>
+<div class="word-row">
+<div class="word-row__word">me</div>
+<div><strong>Part of speech:</strong> pronoun<br/><strong>Role:</strong> Head of the noun phrase functioning internally as the object/complement of for.</div>
+</div>
+</div>
+</section>
+</div>
+</details>
+</article>
+</section>
+<section class="exercise-level">
+<h3>Level 4 — Basic Nesting</h3>
+<article class="exercise-card">
+<div class="exercise-head">
+<span aria-hidden="true" class="exercise-number">11</span>
+<p class="exercise-sentence"><strong>The extremely tired athlete</strong> <strong>rested</strong>.</p>
+</div>
+<div class="student-task">
+<p>Before opening the answer:</p>
+<ol>
+<li>Identify the major sentence functions.</li>
+<li>Put brackets around every complete phrase.</li>
+<li>Name each phrase type and find its head.</li>
+<li>Mark any phrase contained inside another phrase.</li>
+<li>Explain the role of every word inside its phrase.</li>
+</ol>
+</div>
+<details class="answer-details">
+<summary>Answer and full explanation</summary>
+<div class="answer-content">
+<section class="answer-section">
+<p class="answer-label">SENTENCE SKELETON</p>
+<p><strong>The extremely tired athlete</strong> = subject; <strong>rested</strong> = verbal element.</p>
+</section>
+<section class="answer-section">
+<p class="answer-label">PHRASE MAP</p>
+<div class="phrase-analysis">
+<div class="phrase-row">
+<div class="phrase-row__phrase"><strong>The extremely tired athlete</strong></div>
+<div>
+<strong>Phrase type:</strong> noun phrase<br/>
+<strong>External role:</strong> subject<br/>
+<strong>Internal structure:</strong> <strong>athlete</strong> is the head; <strong>the</strong> determines it; <strong>extremely tired</strong> describes it.
+          </div>
+</div>
+<div class="phrase-row">
+<div class="phrase-row__phrase"><strong>extremely tired</strong></div>
+<div>
+<strong>Phrase type:</strong> adjective phrase<br/>
+<strong>External role:</strong> internal: describes <em>athlete</em><br/>
+<strong>Internal structure:</strong> <strong>tired</strong> is the head adjective; <strong>extremely</strong> strengthens it.
+          </div>
+</div>
+<div class="phrase-row">
+<div class="phrase-row__phrase"><strong>extremely</strong></div>
+<div>
+<strong>Phrase type:</strong> one-word adverb phrase<br/>
+<strong>External role:</strong> internal: strengthens <em>tired</em><br/>
+<strong>Internal structure:</strong> <strong>extremely</strong> is the head adverb.
+          </div>
+</div>
+<div class="phrase-row">
+<div class="phrase-row__phrase"><strong>rested</strong></div>
+<div>
+<strong>Phrase type:</strong> one-word verb phrase<br/>
+<strong>External role:</strong> verbal element<br/>
+<strong>Internal structure:</strong> <strong>rested</strong> is the main verb and head.
+          </div>
+</div>
+</div>
+</section>
+<section class="answer-section">
+<p class="answer-label">WORD-BY-WORD ANALYSIS</p>
+<div class="word-analysis">
+<div class="word-row">
+<div class="word-row__word">The</div>
+<div><strong>Part of speech:</strong> determiner<br/><strong>Role:</strong> Identifies athlete inside the subject noun phrase.</div>
+</div>
+<div class="word-row">
+<div class="word-row__word">extremely</div>
+<div><strong>Part of speech:</strong> adverb<br/><strong>Role:</strong> Head of an adverb phrase nested inside the adjective phrase; it strengthens tired.</div>
+</div>
+<div class="word-row">
+<div class="word-row__word">tired</div>
+<div><strong>Part of speech:</strong> adjective<br/><strong>Role:</strong> Head of the adjective phrase describing athlete.</div>
+</div>
+<div class="word-row">
+<div class="word-row__word">athlete</div>
+<div><strong>Part of speech:</strong> noun<br/><strong>Role:</strong> Head of the noun phrase functioning as subject.</div>
+</div>
+<div class="word-row">
+<div class="word-row__word">rested</div>
+<div><strong>Part of speech:</strong> verb<br/><strong>Role:</strong> Head of the verb phrase functioning as the verbal element.</div>
+</div>
+</div>
+</section>
+</div>
+</details>
+</article>
+<article class="exercise-card">
+<div class="exercise-head">
+<span aria-hidden="true" class="exercise-number">12</span>
+<p class="exercise-sentence"><strong>The student near the window</strong> <strong>smiled</strong>.</p>
+</div>
+<div class="student-task">
+<p>Before opening the answer:</p>
+<ol>
+<li>Identify the major sentence functions.</li>
+<li>Put brackets around every complete phrase.</li>
+<li>Name each phrase type and find its head.</li>
+<li>Mark any phrase contained inside another phrase.</li>
+<li>Explain the role of every word inside its phrase.</li>
+</ol>
+</div>
+<details class="answer-details">
+<summary>Answer and full explanation</summary>
+<div class="answer-content">
+<section class="answer-section">
+<p class="answer-label">SENTENCE SKELETON</p>
+<p><strong>The student near the window</strong> = subject; <strong>smiled</strong> = verbal element.</p>
+</section>
+<section class="answer-section">
+<p class="answer-label">PHRASE MAP</p>
+<div class="phrase-analysis">
+<div class="phrase-row">
+<div class="phrase-row__phrase"><strong>The student near the window</strong></div>
+<div>
+<strong>Phrase type:</strong> noun phrase<br/>
+<strong>External role:</strong> subject<br/>
+<strong>Internal structure:</strong> <strong>student</strong> is the head; <strong>the</strong> determines it; <strong>near the window</strong> identifies which student.
+          </div>
+</div>
+<div class="phrase-row">
+<div class="phrase-row__phrase"><strong>near the window</strong></div>
+<div>
+<strong>Phrase type:</strong> prepositional phrase<br/>
+<strong>External role:</strong> internal: describes/identifies <em>student</em><br/>
+<strong>Internal structure:</strong> <strong>near</strong> is the head preposition; <strong>the window</strong> is its noun-phrase object/complement.
+          </div>
+</div>
+<div class="phrase-row">
+<div class="phrase-row__phrase"><strong>the window</strong></div>
+<div>
+<strong>Phrase type:</strong> noun phrase<br/>
+<strong>External role:</strong> internal: object/complement of <em>near</em><br/>
+<strong>Internal structure:</strong> <strong>window</strong> is the head; <strong>the</strong> determines it.
+          </div>
+</div>
+<div class="phrase-row">
+<div class="phrase-row__phrase"><strong>smiled</strong></div>
+<div>
+<strong>Phrase type:</strong> one-word verb phrase<br/>
+<strong>External role:</strong> verbal element<br/>
+<strong>Internal structure:</strong> <strong>smiled</strong> is the main verb and head.
+          </div>
+</div>
+</div>
+</section>
+<section class="answer-section">
+<p class="answer-label">WORD-BY-WORD ANALYSIS</p>
+<div class="word-analysis">
+<div class="word-row">
+<div class="word-row__word">The</div>
+<div><strong>Part of speech:</strong> determiner<br/><strong>Role:</strong> Identifies student inside the subject noun phrase.</div>
+</div>
+<div class="word-row">
+<div class="word-row__word">student</div>
+<div><strong>Part of speech:</strong> noun<br/><strong>Role:</strong> Head of the noun phrase functioning as subject.</div>
+</div>
+<div class="word-row">
+<div class="word-row__word">near</div>
+<div><strong>Part of speech:</strong> preposition<br/><strong>Role:</strong> Head of a prepositional phrase nested inside the subject noun phrase; the phrase identifies student.</div>
+</div>
+<div class="word-row">
+<div class="word-row__word">the</div>
+<div><strong>Part of speech:</strong> determiner<br/><strong>Role:</strong> Identifies window inside the noun phrase completing near.</div>
+</div>
+<div class="word-row">
+<div class="word-row__word">window</div>
+<div><strong>Part of speech:</strong> noun<br/><strong>Role:</strong> Head of the noun phrase functioning internally as the object/complement of near.</div>
+</div>
+<div class="word-row">
+<div class="word-row__word">smiled</div>
+<div><strong>Part of speech:</strong> verb<br/><strong>Role:</strong> Head of the verb phrase.</div>
+</div>
+</div>
+</section>
+</div>
+</details>
+</article>
+<article class="exercise-card">
+<div class="exercise-head">
+<span aria-hidden="true" class="exercise-number">13</span>
+<p class="exercise-sentence"><strong>Sara</strong> <strong>has already finished</strong> <strong>the difficult task</strong>.</p>
+</div>
+<div class="student-task">
+<p>Before opening the answer:</p>
+<ol>
+<li>Identify the major sentence functions.</li>
+<li>Put brackets around every complete phrase.</li>
+<li>Name each phrase type and find its head.</li>
+<li>Mark any phrase contained inside another phrase.</li>
+<li>Explain the role of every word inside its phrase.</li>
+</ol>
+</div>
+<details class="answer-details">
+<summary>Answer and full explanation</summary>
+<div class="answer-content">
+<section class="answer-section">
+<p class="answer-label">SENTENCE SKELETON</p>
+<p><strong>Sara</strong> = subject; <strong>has already finished</strong> = verbal element; <strong>the difficult task</strong> = direct object.</p>
+</section>
+<section class="answer-section">
+<p class="answer-label">PHRASE MAP</p>
+<div class="phrase-analysis">
+<div class="phrase-row">
+<div class="phrase-row__phrase"><strong>Sara</strong></div>
+<div>
+<strong>Phrase type:</strong> one-word noun phrase<br/>
+<strong>External role:</strong> subject<br/>
+<strong>Internal structure:</strong> <strong>Sara</strong> is the head proper noun.
+          </div>
+</div>
+<div class="phrase-row">
+<div class="phrase-row__phrase"><strong>has already finished</strong></div>
+<div>
+<strong>Phrase type:</strong> verb phrase<br/>
+<strong>External role:</strong> verbal element<br/>
+<strong>Internal structure:</strong> <strong>finished</strong> is the main verb; <strong>has</strong> is helping it; <strong>already</strong> is an adverb phrase placed inside the verb phrase.
+          </div>
+</div>
+<div class="phrase-row">
+<div class="phrase-row__phrase"><strong>already</strong></div>
+<div>
+<strong>Phrase type:</strong> one-word adverb phrase<br/>
+<strong>External role:</strong> internal: adds time information inside the verb phrase<br/>
+<strong>Internal structure:</strong> <strong>already</strong> is the head adverb.
+          </div>
+</div>
+<div class="phrase-row">
+<div class="phrase-row__phrase"><strong>the difficult task</strong></div>
+<div>
+<strong>Phrase type:</strong> noun phrase<br/>
+<strong>External role:</strong> direct object<br/>
+<strong>Internal structure:</strong> <strong>task</strong> is the head; <strong>the</strong> determines it; <strong>difficult</strong> describes it.
+          </div>
+</div>
+<div class="phrase-row">
+<div class="phrase-row__phrase"><strong>difficult</strong></div>
+<div>
+<strong>Phrase type:</strong> one-word adjective phrase<br/>
+<strong>External role:</strong> internal: describes <em>task</em><br/>
+<strong>Internal structure:</strong> <strong>difficult</strong> is the head adjective.
+          </div>
+</div>
+</div>
+</section>
+<section class="answer-section">
+<p class="answer-label">WORD-BY-WORD ANALYSIS</p>
+<div class="word-analysis">
+<div class="word-row">
+<div class="word-row__word">Sara</div>
+<div><strong>Part of speech:</strong> proper noun<br/><strong>Role:</strong> Head of the subject noun phrase.</div>
+</div>
+<div class="word-row">
+<div class="word-row__word">has</div>
+<div><strong>Part of speech:</strong> helping verb<br/><strong>Role:</strong> Helps form the verb phrase.</div>
+</div>
+<div class="word-row">
+<div class="word-row__word">already</div>
+<div><strong>Part of speech:</strong> adverb<br/><strong>Role:</strong> Head of an adverb phrase nested inside the verb phrase; it gives time-related information.</div>
+</div>
+<div class="word-row">
+<div class="word-row__word">finished</div>
+<div><strong>Part of speech:</strong> verb<br/><strong>Role:</strong> Main verb and central head of the verb phrase.</div>
+</div>
+<div class="word-row">
+<div class="word-row__word">the</div>
+<div><strong>Part of speech:</strong> determiner<br/><strong>Role:</strong> Identifies task inside the direct-object noun phrase.</div>
+</div>
+<div class="word-row">
+<div class="word-row__word">difficult</div>
+<div><strong>Part of speech:</strong> adjective<br/><strong>Role:</strong> Head of an adjective phrase describing task.</div>
+</div>
+<div class="word-row">
+<div class="word-row__word">task</div>
+<div><strong>Part of speech:</strong> noun<br/><strong>Role:</strong> Head of the noun phrase functioning as direct object.</div>
+</div>
+</div>
+</section>
+</div>
+</details>
+</article>
+</section>
+<section class="exercise-level">
+<h3>Level 5 — Multiple Layers of Nesting</h3>
+<article class="exercise-card">
+<div class="exercise-head">
+<span aria-hidden="true" class="exercise-number">14</span>
+<p class="exercise-sentence"><strong>The very quiet child in the front seat</strong> <strong>slept</strong> <strong>peacefully</strong>.</p>
+</div>
+<div class="student-task">
+<p>Before opening the answer:</p>
+<ol>
+<li>Identify the major sentence functions.</li>
+<li>Put brackets around every complete phrase.</li>
+<li>Name each phrase type and find its head.</li>
+<li>Mark any phrase contained inside another phrase.</li>
+<li>Explain the role of every word inside its phrase.</li>
+</ol>
+</div>
+<details class="answer-details">
+<summary>Answer and full explanation</summary>
+<div class="answer-content">
+<section class="answer-section">
+<p class="answer-label">SENTENCE SKELETON</p>
+<p><strong>The very quiet child in the front seat</strong> = subject; <strong>slept</strong> = verbal element; <strong>peacefully</strong> = adverbial of manner.</p>
+</section>
+<section class="answer-section">
+<p class="answer-label">PHRASE MAP</p>
+<div class="phrase-analysis">
+<div class="phrase-row">
+<div class="phrase-row__phrase"><strong>The very quiet child in the front seat</strong></div>
+<div>
+<strong>Phrase type:</strong> noun phrase<br/>
+<strong>External role:</strong> subject<br/>
+<strong>Internal structure:</strong> <strong>child</strong> is the head; <strong>very quiet</strong> describes it; <strong>in the front seat</strong> identifies which child.
+          </div>
+</div>
+<div class="phrase-row">
+<div class="phrase-row__phrase"><strong>very quiet</strong></div>
+<div>
+<strong>Phrase type:</strong> adjective phrase<br/>
+<strong>External role:</strong> internal: describes <em>child</em><br/>
+<strong>Internal structure:</strong> <strong>quiet</strong> is the head; <strong>very</strong> strengthens it.
+          </div>
+</div>
+<div class="phrase-row">
+<div class="phrase-row__phrase"><strong>very</strong></div>
+<div>
+<strong>Phrase type:</strong> one-word adverb phrase<br/>
+<strong>External role:</strong> internal: strengthens <em>quiet</em><br/>
+<strong>Internal structure:</strong> <strong>very</strong> is the head adverb.
+          </div>
+</div>
+<div class="phrase-row">
+<div class="phrase-row__phrase"><strong>in the front seat</strong></div>
+<div>
+<strong>Phrase type:</strong> prepositional phrase<br/>
+<strong>External role:</strong> internal: identifies <em>child</em><br/>
+<strong>Internal structure:</strong> <strong>in</strong> is the head; <strong>the front seat</strong> is its noun-phrase object/complement.
+          </div>
+</div>
+<div class="phrase-row">
+<div class="phrase-row__phrase"><strong>the front seat</strong></div>
+<div>
+<strong>Phrase type:</strong> noun phrase<br/>
+<strong>External role:</strong> internal: object/complement of <em>in</em><br/>
+<strong>Internal structure:</strong> <strong>seat</strong> is the head; <strong>the</strong> determines it; <strong>front</strong> describes it.
+          </div>
+</div>
+<div class="phrase-row">
+<div class="phrase-row__phrase"><strong>front</strong></div>
+<div>
+<strong>Phrase type:</strong> one-word adjective phrase<br/>
+<strong>External role:</strong> internal: describes <em>seat</em><br/>
+<strong>Internal structure:</strong> <strong>front</strong> is the head adjective.
+          </div>
+</div>
+<div class="phrase-row">
+<div class="phrase-row__phrase"><strong>slept</strong></div>
+<div>
+<strong>Phrase type:</strong> one-word verb phrase<br/>
+<strong>External role:</strong> verbal element<br/>
+<strong>Internal structure:</strong> <strong>slept</strong> is the main verb and head.
+          </div>
+</div>
+<div class="phrase-row">
+<div class="phrase-row__phrase"><strong>peacefully</strong></div>
+<div>
+<strong>Phrase type:</strong> one-word adverb phrase<br/>
+<strong>External role:</strong> adverbial of manner<br/>
+<strong>Internal structure:</strong> <strong>peacefully</strong> is the head adverb.
+          </div>
+</div>
+</div>
+</section>
+<section class="answer-section">
+<p class="answer-label">WORD-BY-WORD ANALYSIS</p>
+<div class="word-analysis">
+<div class="word-row">
+<div class="word-row__word">The</div>
+<div><strong>Part of speech:</strong> determiner<br/><strong>Role:</strong> Identifies child inside the subject noun phrase.</div>
+</div>
+<div class="word-row">
+<div class="word-row__word">very</div>
+<div><strong>Part of speech:</strong> adverb<br/><strong>Role:</strong> Head of an adverb phrase nested inside the adjective phrase very quiet.</div>
+</div>
+<div class="word-row">
+<div class="word-row__word">quiet</div>
+<div><strong>Part of speech:</strong> adjective<br/><strong>Role:</strong> Head of the adjective phrase describing child.</div>
+</div>
+<div class="word-row">
+<div class="word-row__word">child</div>
+<div><strong>Part of speech:</strong> noun<br/><strong>Role:</strong> Head of the noun phrase functioning as subject.</div>
+</div>
+<div class="word-row">
+<div class="word-row__word">in</div>
+<div><strong>Part of speech:</strong> preposition<br/><strong>Role:</strong> Head of a prepositional phrase nested inside the subject noun phrase.</div>
+</div>
+<div class="word-row">
+<div class="word-row__word">the</div>
+<div><strong>Part of speech:</strong> determiner<br/><strong>Role:</strong> Identifies seat inside the noun phrase completing in.</div>
+</div>
+<div class="word-row">
+<div class="word-row__word">front</div>
+<div><strong>Part of speech:</strong> adjective<br/><strong>Role:</strong> Head of a one-word adjective phrase describing seat.</div>
+</div>
+<div class="word-row">
+<div class="word-row__word">seat</div>
+<div><strong>Part of speech:</strong> noun<br/><strong>Role:</strong> Head of the noun phrase functioning internally as the object/complement of in.</div>
+</div>
+<div class="word-row">
+<div class="word-row__word">slept</div>
+<div><strong>Part of speech:</strong> verb<br/><strong>Role:</strong> Head of the verb phrase.</div>
+</div>
+<div class="word-row">
+<div class="word-row__word">peacefully</div>
+<div><strong>Part of speech:</strong> adverb<br/><strong>Role:</strong> Head of the adverb phrase functioning as an adverbial of manner.</div>
+</div>
+</div>
+</section>
+</div>
+</details>
+</article>
+<article class="exercise-card">
+<div class="exercise-head">
+<span aria-hidden="true" class="exercise-number">15</span>
+<p class="exercise-sentence"><strong>The surprisingly difficult question on the final page</strong> <strong>confused</strong> <strong>me</strong>.</p>
+</div>
+<div class="student-task">
+<p>Before opening the answer:</p>
+<ol>
+<li>Identify the major sentence functions.</li>
+<li>Put brackets around every complete phrase.</li>
+<li>Name each phrase type and find its head.</li>
+<li>Mark any phrase contained inside another phrase.</li>
+<li>Explain the role of every word inside its phrase.</li>
+</ol>
+</div>
+<details class="answer-details">
+<summary>Answer and full explanation</summary>
+<div class="answer-content">
+<section class="answer-section">
+<p class="answer-label">SENTENCE SKELETON</p>
+<p><strong>The surprisingly difficult question on the final page</strong> = subject; <strong>confused</strong> = verbal element; <strong>me</strong> = direct object.</p>
+</section>
+<section class="answer-section">
+<p class="answer-label">PHRASE MAP</p>
+<div class="phrase-analysis">
+<div class="phrase-row">
+<div class="phrase-row__phrase"><strong>The surprisingly difficult question on the final page</strong></div>
+<div>
+<strong>Phrase type:</strong> noun phrase<br/>
+<strong>External role:</strong> subject<br/>
+<strong>Internal structure:</strong> <strong>question</strong> is the head; <strong>surprisingly difficult</strong> describes it; <strong>on the final page</strong> identifies it.
+          </div>
+</div>
+<div class="phrase-row">
+<div class="phrase-row__phrase"><strong>surprisingly difficult</strong></div>
+<div>
+<strong>Phrase type:</strong> adjective phrase<br/>
+<strong>External role:</strong> internal: describes <em>question</em><br/>
+<strong>Internal structure:</strong> <strong>difficult</strong> is the head; <strong>surprisingly</strong> strengthens it.
+          </div>
+</div>
+<div class="phrase-row">
+<div class="phrase-row__phrase"><strong>surprisingly</strong></div>
+<div>
+<strong>Phrase type:</strong> one-word adverb phrase<br/>
+<strong>External role:</strong> internal: strengthens <em>difficult</em><br/>
+<strong>Internal structure:</strong> <strong>surprisingly</strong> is the head adverb.
+          </div>
+</div>
+<div class="phrase-row">
+<div class="phrase-row__phrase"><strong>on the final page</strong></div>
+<div>
+<strong>Phrase type:</strong> prepositional phrase<br/>
+<strong>External role:</strong> internal: identifies <em>question</em><br/>
+<strong>Internal structure:</strong> <strong>on</strong> is the head; <strong>the final page</strong> is its noun-phrase object/complement.
+          </div>
+</div>
+<div class="phrase-row">
+<div class="phrase-row__phrase"><strong>the final page</strong></div>
+<div>
+<strong>Phrase type:</strong> noun phrase<br/>
+<strong>External role:</strong> internal: object/complement of <em>on</em><br/>
+<strong>Internal structure:</strong> <strong>page</strong> is the head; <strong>final</strong> describes it.
+          </div>
+</div>
+<div class="phrase-row">
+<div class="phrase-row__phrase"><strong>confused</strong></div>
+<div>
+<strong>Phrase type:</strong> one-word verb phrase<br/>
+<strong>External role:</strong> verbal element<br/>
+<strong>Internal structure:</strong> <strong>confused</strong> is the main verb and head.
+          </div>
+</div>
+<div class="phrase-row">
+<div class="phrase-row__phrase"><strong>me</strong></div>
+<div>
+<strong>Phrase type:</strong> one-word noun phrase<br/>
+<strong>External role:</strong> direct object<br/>
+<strong>Internal structure:</strong> <strong>me</strong> is a pronoun and the head.
+          </div>
+</div>
+</div>
+</section>
+<section class="answer-section">
+<p class="answer-label">WORD-BY-WORD ANALYSIS</p>
+<div class="word-analysis">
+<div class="word-row">
+<div class="word-row__word">The</div>
+<div><strong>Part of speech:</strong> determiner<br/><strong>Role:</strong> Identifies question inside the subject noun phrase.</div>
+</div>
+<div class="word-row">
+<div class="word-row__word">surprisingly</div>
+<div><strong>Part of speech:</strong> adverb<br/><strong>Role:</strong> Head of an adverb phrase nested inside the adjective phrase surprisingly difficult.</div>
+</div>
+<div class="word-row">
+<div class="word-row__word">difficult</div>
+<div><strong>Part of speech:</strong> adjective<br/><strong>Role:</strong> Head of the adjective phrase describing question.</div>
+</div>
+<div class="word-row">
+<div class="word-row__word">question</div>
+<div><strong>Part of speech:</strong> noun<br/><strong>Role:</strong> Head of the subject noun phrase.</div>
+</div>
+<div class="word-row">
+<div class="word-row__word">on</div>
+<div><strong>Part of speech:</strong> preposition<br/><strong>Role:</strong> Head of a prepositional phrase nested inside the subject noun phrase.</div>
+</div>
+<div class="word-row">
+<div class="word-row__word">the</div>
+<div><strong>Part of speech:</strong> determiner<br/><strong>Role:</strong> Identifies page inside the noun phrase completing on.</div>
+</div>
+<div class="word-row">
+<div class="word-row__word">final</div>
+<div><strong>Part of speech:</strong> adjective<br/><strong>Role:</strong> Head of a one-word adjective phrase describing page.</div>
+</div>
+<div class="word-row">
+<div class="word-row__word">page</div>
+<div><strong>Part of speech:</strong> noun<br/><strong>Role:</strong> Head of the noun phrase functioning internally as the object/complement of on.</div>
+</div>
+<div class="word-row">
+<div class="word-row__word">confused</div>
+<div><strong>Part of speech:</strong> verb<br/><strong>Role:</strong> Head of the verb phrase.</div>
+</div>
+<div class="word-row">
+<div class="word-row__word">me</div>
+<div><strong>Part of speech:</strong> pronoun<br/><strong>Role:</strong> Head of the one-word noun phrase functioning as direct object.</div>
+</div>
+</div>
+</section>
+</div>
+</details>
+</article>
+<article class="exercise-card">
+<div class="exercise-head">
+<span aria-hidden="true" class="exercise-number">16</span>
+<p class="exercise-sentence"><strong>The small box under the large wooden desk</strong> <strong>contained</strong> <strong>old photographs</strong>.</p>
+</div>
+<div class="student-task">
+<p>Before opening the answer:</p>
+<ol>
+<li>Identify the major sentence functions.</li>
+<li>Put brackets around every complete phrase.</li>
+<li>Name each phrase type and find its head.</li>
+<li>Mark any phrase contained inside another phrase.</li>
+<li>Explain the role of every word inside its phrase.</li>
+</ol>
+</div>
+<details class="answer-details">
+<summary>Answer and full explanation</summary>
+<div class="answer-content">
+<section class="answer-section">
+<p class="answer-label">SENTENCE SKELETON</p>
+<p><strong>The small box under the large wooden desk</strong> = subject; <strong>contained</strong> = verbal element; <strong>old photographs</strong> = direct object.</p>
+</section>
+<section class="answer-section">
+<p class="answer-label">PHRASE MAP</p>
+<div class="phrase-analysis">
+<div class="phrase-row">
+<div class="phrase-row__phrase"><strong>The small box under the large wooden desk</strong></div>
+<div>
+<strong>Phrase type:</strong> noun phrase<br/>
+<strong>External role:</strong> subject<br/>
+<strong>Internal structure:</strong> <strong>box</strong> is the head; <strong>small</strong> describes it; <strong>under the large wooden desk</strong> identifies it.
+          </div>
+</div>
+<div class="phrase-row">
+<div class="phrase-row__phrase"><strong>small</strong></div>
+<div>
+<strong>Phrase type:</strong> one-word adjective phrase<br/>
+<strong>External role:</strong> internal: describes <em>box</em><br/>
+<strong>Internal structure:</strong> <strong>small</strong> is the head adjective.
+          </div>
+</div>
+<div class="phrase-row">
+<div class="phrase-row__phrase"><strong>under the large wooden desk</strong></div>
+<div>
+<strong>Phrase type:</strong> prepositional phrase<br/>
+<strong>External role:</strong> internal: identifies <em>box</em><br/>
+<strong>Internal structure:</strong> <strong>under</strong> is the head; <strong>the large wooden desk</strong> is its noun-phrase object/complement.
+          </div>
+</div>
+<div class="phrase-row">
+<div class="phrase-row__phrase"><strong>the large wooden desk</strong></div>
+<div>
+<strong>Phrase type:</strong> noun phrase<br/>
+<strong>External role:</strong> internal: object/complement of <em>under</em><br/>
+<strong>Internal structure:</strong> <strong>desk</strong> is the head; <strong>large</strong> and <strong>wooden</strong> describe it.
+          </div>
+</div>
+<div class="phrase-row">
+<div class="phrase-row__phrase"><strong>large</strong></div>
+<div>
+<strong>Phrase type:</strong> one-word adjective phrase<br/>
+<strong>External role:</strong> internal: describes <em>desk</em><br/>
+<strong>Internal structure:</strong> <strong>large</strong> is the head adjective.
+          </div>
+</div>
+<div class="phrase-row">
+<div class="phrase-row__phrase"><strong>wooden</strong></div>
+<div>
+<strong>Phrase type:</strong> one-word adjective phrase<br/>
+<strong>External role:</strong> internal: describes <em>desk</em><br/>
+<strong>Internal structure:</strong> <strong>wooden</strong> is the head adjective.
+          </div>
+</div>
+<div class="phrase-row">
+<div class="phrase-row__phrase"><strong>contained</strong></div>
+<div>
+<strong>Phrase type:</strong> one-word verb phrase<br/>
+<strong>External role:</strong> verbal element<br/>
+<strong>Internal structure:</strong> <strong>contained</strong> is the main verb and head.
+          </div>
+</div>
+<div class="phrase-row">
+<div class="phrase-row__phrase"><strong>old photographs</strong></div>
+<div>
+<strong>Phrase type:</strong> noun phrase<br/>
+<strong>External role:</strong> direct object<br/>
+<strong>Internal structure:</strong> <strong>photographs</strong> is the head; <strong>old</strong> describes it.
+          </div>
+</div>
+<div class="phrase-row">
+<div class="phrase-row__phrase"><strong>old</strong></div>
+<div>
+<strong>Phrase type:</strong> one-word adjective phrase<br/>
+<strong>External role:</strong> internal: describes <em>photographs</em><br/>
+<strong>Internal structure:</strong> <strong>old</strong> is the head adjective.
+          </div>
+</div>
+</div>
+</section>
+<section class="answer-section">
+<p class="answer-label">WORD-BY-WORD ANALYSIS</p>
+<div class="word-analysis">
+<div class="word-row">
+<div class="word-row__word">The</div>
+<div><strong>Part of speech:</strong> determiner<br/><strong>Role:</strong> Identifies box inside the subject noun phrase.</div>
+</div>
+<div class="word-row">
+<div class="word-row__word">small</div>
+<div><strong>Part of speech:</strong> adjective<br/><strong>Role:</strong> Head of a one-word adjective phrase describing box.</div>
+</div>
+<div class="word-row">
+<div class="word-row__word">box</div>
+<div><strong>Part of speech:</strong> noun<br/><strong>Role:</strong> Head of the noun phrase functioning as subject.</div>
+</div>
+<div class="word-row">
+<div class="word-row__word">under</div>
+<div><strong>Part of speech:</strong> preposition<br/><strong>Role:</strong> Head of a prepositional phrase nested inside the subject noun phrase.</div>
+</div>
+<div class="word-row">
+<div class="word-row__word">the</div>
+<div><strong>Part of speech:</strong> determiner<br/><strong>Role:</strong> Identifies desk inside the noun phrase completing under.</div>
+</div>
+<div class="word-row">
+<div class="word-row__word">large</div>
+<div><strong>Part of speech:</strong> adjective<br/><strong>Role:</strong> Head of a one-word adjective phrase describing desk.</div>
+</div>
+<div class="word-row">
+<div class="word-row__word">wooden</div>
+<div><strong>Part of speech:</strong> adjective<br/><strong>Role:</strong> Head of a one-word adjective phrase describing desk.</div>
+</div>
+<div class="word-row">
+<div class="word-row__word">desk</div>
+<div><strong>Part of speech:</strong> noun<br/><strong>Role:</strong> Head of the noun phrase functioning internally as the object/complement of under.</div>
+</div>
+<div class="word-row">
+<div class="word-row__word">contained</div>
+<div><strong>Part of speech:</strong> verb<br/><strong>Role:</strong> Head of the verb phrase.</div>
+</div>
+<div class="word-row">
+<div class="word-row__word">old</div>
+<div><strong>Part of speech:</strong> adjective<br/><strong>Role:</strong> Head of a one-word adjective phrase describing photographs.</div>
+</div>
+<div class="word-row">
+<div class="word-row__word">photographs</div>
+<div><strong>Part of speech:</strong> noun<br/><strong>Role:</strong> Head of the noun phrase functioning as direct object.</div>
+</div>
+</div>
+</section>
+</div>
+</details>
+</article>
+</section>
+<section class="exercise-level">
+<h3>Level 6 — Mixed Advanced Analysis</h3>
+<article class="exercise-card">
+<div class="exercise-head">
+<span aria-hidden="true" class="exercise-number">17</span>
+<p class="exercise-sentence"><strong>The manager</strong> <strong>found</strong> <strong>the new office</strong> <strong>unusually quiet</strong>.</p>
+</div>
+<div class="student-task">
+<p>Before opening the answer:</p>
+<ol>
+<li>Identify the major sentence functions.</li>
+<li>Put brackets around every complete phrase.</li>
+<li>Name each phrase type and find its head.</li>
+<li>Mark any phrase contained inside another phrase.</li>
+<li>Explain the role of every word inside its phrase.</li>
+</ol>
+</div>
+<details class="answer-details">
+<summary>Answer and full explanation</summary>
+<div class="answer-content">
+<section class="answer-section">
+<p class="answer-label">SENTENCE SKELETON</p>
+<p><strong>The manager</strong> = subject; <strong>found</strong> = verbal element; <strong>the new office</strong> = direct object; <strong>unusually quiet</strong> = object complement.</p>
+</section>
+<section class="answer-section">
+<p class="answer-label">PHRASE MAP</p>
+<div class="phrase-analysis">
+<div class="phrase-row">
+<div class="phrase-row__phrase"><strong>The manager</strong></div>
+<div>
+<strong>Phrase type:</strong> noun phrase<br/>
+<strong>External role:</strong> subject<br/>
+<strong>Internal structure:</strong> <strong>manager</strong> is the head; <strong>the</strong> determines it.
+          </div>
+</div>
+<div class="phrase-row">
+<div class="phrase-row__phrase"><strong>found</strong></div>
+<div>
+<strong>Phrase type:</strong> one-word verb phrase<br/>
+<strong>External role:</strong> verbal element<br/>
+<strong>Internal structure:</strong> <strong>found</strong> is the main verb and head.
+          </div>
+</div>
+<div class="phrase-row">
+<div class="phrase-row__phrase"><strong>the new office</strong></div>
+<div>
+<strong>Phrase type:</strong> noun phrase<br/>
+<strong>External role:</strong> direct object<br/>
+<strong>Internal structure:</strong> <strong>office</strong> is the head; <strong>new</strong> describes it.
+          </div>
+</div>
+<div class="phrase-row">
+<div class="phrase-row__phrase"><strong>new</strong></div>
+<div>
+<strong>Phrase type:</strong> one-word adjective phrase<br/>
+<strong>External role:</strong> internal: describes <em>office</em><br/>
+<strong>Internal structure:</strong> <strong>new</strong> is the head adjective.
+          </div>
+</div>
+<div class="phrase-row">
+<div class="phrase-row__phrase"><strong>unusually quiet</strong></div>
+<div>
+<strong>Phrase type:</strong> adjective phrase<br/>
+<strong>External role:</strong> object complement<br/>
+<strong>Internal structure:</strong> <strong>quiet</strong> is the head; <strong>unusually</strong> strengthens it; the whole phrase describes the direct object.
+          </div>
+</div>
+<div class="phrase-row">
+<div class="phrase-row__phrase"><strong>unusually</strong></div>
+<div>
+<strong>Phrase type:</strong> one-word adverb phrase<br/>
+<strong>External role:</strong> internal: strengthens <em>quiet</em><br/>
+<strong>Internal structure:</strong> <strong>unusually</strong> is the head adverb.
+          </div>
+</div>
+</div>
+</section>
+<section class="answer-section">
+<p class="answer-label">WORD-BY-WORD ANALYSIS</p>
+<div class="word-analysis">
+<div class="word-row">
+<div class="word-row__word">The</div>
+<div><strong>Part of speech:</strong> determiner<br/><strong>Role:</strong> Identifies manager inside the subject noun phrase.</div>
+</div>
+<div class="word-row">
+<div class="word-row__word">manager</div>
+<div><strong>Part of speech:</strong> noun<br/><strong>Role:</strong> Head of the subject noun phrase.</div>
+</div>
+<div class="word-row">
+<div class="word-row__word">found</div>
+<div><strong>Part of speech:</strong> verb<br/><strong>Role:</strong> Head of the verb phrase.</div>
+</div>
+<div class="word-row">
+<div class="word-row__word">the</div>
+<div><strong>Part of speech:</strong> determiner<br/><strong>Role:</strong> Identifies office inside the direct-object noun phrase.</div>
+</div>
+<div class="word-row">
+<div class="word-row__word">new</div>
+<div><strong>Part of speech:</strong> adjective<br/><strong>Role:</strong> Head of a one-word adjective phrase describing office.</div>
+</div>
+<div class="word-row">
+<div class="word-row__word">office</div>
+<div><strong>Part of speech:</strong> noun<br/><strong>Role:</strong> Head of the noun phrase functioning as direct object.</div>
+</div>
+<div class="word-row">
+<div class="word-row__word">unusually</div>
+<div><strong>Part of speech:</strong> adverb<br/><strong>Role:</strong> Head of an adverb phrase nested inside the adjective phrase unusually quiet.</div>
+</div>
+<div class="word-row">
+<div class="word-row__word">quiet</div>
+<div><strong>Part of speech:</strong> adjective<br/><strong>Role:</strong> Head of the adjective phrase functioning as object complement; it describes the office.</div>
+</div>
+</div>
+</section>
+</div>
+</details>
+</article>
+<article class="exercise-card">
+<div class="exercise-head">
+<span aria-hidden="true" class="exercise-number">18</span>
+<p class="exercise-sentence"><strong>The teacher</strong> <strong>gave</strong> <strong>the very nervous student</strong> <strong>a simple example</strong>.</p>
+</div>
+<div class="student-task">
+<p>Before opening the answer:</p>
+<ol>
+<li>Identify the major sentence functions.</li>
+<li>Put brackets around every complete phrase.</li>
+<li>Name each phrase type and find its head.</li>
+<li>Mark any phrase contained inside another phrase.</li>
+<li>Explain the role of every word inside its phrase.</li>
+</ol>
+</div>
+<details class="answer-details">
+<summary>Answer and full explanation</summary>
+<div class="answer-content">
+<section class="answer-section">
+<p class="answer-label">SENTENCE SKELETON</p>
+<p><strong>The teacher</strong> = subject; <strong>gave</strong> = verbal element; <strong>the very nervous student</strong> = indirect object; <strong>a simple example</strong> = direct object.</p>
+</section>
+<section class="answer-section">
+<p class="answer-label">PHRASE MAP</p>
+<div class="phrase-analysis">
+<div class="phrase-row">
+<div class="phrase-row__phrase"><strong>The teacher</strong></div>
+<div>
+<strong>Phrase type:</strong> noun phrase<br/>
+<strong>External role:</strong> subject<br/>
+<strong>Internal structure:</strong> <strong>teacher</strong> is the head; <strong>the</strong> determines it.
+          </div>
+</div>
+<div class="phrase-row">
+<div class="phrase-row__phrase"><strong>gave</strong></div>
+<div>
+<strong>Phrase type:</strong> one-word verb phrase<br/>
+<strong>External role:</strong> verbal element<br/>
+<strong>Internal structure:</strong> <strong>gave</strong> is the main verb and head.
+          </div>
+</div>
+<div class="phrase-row">
+<div class="phrase-row__phrase"><strong>the very nervous student</strong></div>
+<div>
+<strong>Phrase type:</strong> noun phrase<br/>
+<strong>External role:</strong> indirect object<br/>
+<strong>Internal structure:</strong> <strong>student</strong> is the head; <strong>very nervous</strong> describes it.
+          </div>
+</div>
+<div class="phrase-row">
+<div class="phrase-row__phrase"><strong>very nervous</strong></div>
+<div>
+<strong>Phrase type:</strong> adjective phrase<br/>
+<strong>External role:</strong> internal: describes <em>student</em><br/>
+<strong>Internal structure:</strong> <strong>nervous</strong> is the head; <strong>very</strong> strengthens it.
+          </div>
+</div>
+<div class="phrase-row">
+<div class="phrase-row__phrase"><strong>very</strong></div>
+<div>
+<strong>Phrase type:</strong> one-word adverb phrase<br/>
+<strong>External role:</strong> internal: strengthens <em>nervous</em><br/>
+<strong>Internal structure:</strong> <strong>very</strong> is the head adverb.
+          </div>
+</div>
+<div class="phrase-row">
+<div class="phrase-row__phrase"><strong>a simple example</strong></div>
+<div>
+<strong>Phrase type:</strong> noun phrase<br/>
+<strong>External role:</strong> direct object<br/>
+<strong>Internal structure:</strong> <strong>example</strong> is the head; <strong>a</strong> determines it; <strong>simple</strong> describes it.
+          </div>
+</div>
+<div class="phrase-row">
+<div class="phrase-row__phrase"><strong>simple</strong></div>
+<div>
+<strong>Phrase type:</strong> one-word adjective phrase<br/>
+<strong>External role:</strong> internal: describes <em>example</em><br/>
+<strong>Internal structure:</strong> <strong>simple</strong> is the head adjective.
+          </div>
+</div>
+</div>
+</section>
+<section class="answer-section">
+<p class="answer-label">WORD-BY-WORD ANALYSIS</p>
+<div class="word-analysis">
+<div class="word-row">
+<div class="word-row__word">The</div>
+<div><strong>Part of speech:</strong> determiner<br/><strong>Role:</strong> Identifies teacher inside the subject noun phrase.</div>
+</div>
+<div class="word-row">
+<div class="word-row__word">teacher</div>
+<div><strong>Part of speech:</strong> noun<br/><strong>Role:</strong> Head of the subject noun phrase.</div>
+</div>
+<div class="word-row">
+<div class="word-row__word">gave</div>
+<div><strong>Part of speech:</strong> verb<br/><strong>Role:</strong> Head of the verb phrase.</div>
+</div>
+<div class="word-row">
+<div class="word-row__word">the</div>
+<div><strong>Part of speech:</strong> determiner<br/><strong>Role:</strong> Identifies student inside the indirect-object noun phrase.</div>
+</div>
+<div class="word-row">
+<div class="word-row__word">very</div>
+<div><strong>Part of speech:</strong> adverb<br/><strong>Role:</strong> Head of an adverb phrase nested inside the adjective phrase very nervous.</div>
+</div>
+<div class="word-row">
+<div class="word-row__word">nervous</div>
+<div><strong>Part of speech:</strong> adjective<br/><strong>Role:</strong> Head of the adjective phrase describing student.</div>
+</div>
+<div class="word-row">
+<div class="word-row__word">student</div>
+<div><strong>Part of speech:</strong> noun<br/><strong>Role:</strong> Head of the noun phrase functioning as indirect object.</div>
+</div>
+<div class="word-row">
+<div class="word-row__word">a</div>
+<div><strong>Part of speech:</strong> determiner<br/><strong>Role:</strong> Introduces example inside the direct-object noun phrase.</div>
+</div>
+<div class="word-row">
+<div class="word-row__word">simple</div>
+<div><strong>Part of speech:</strong> adjective<br/><strong>Role:</strong> Head of a one-word adjective phrase describing example.</div>
+</div>
+<div class="word-row">
+<div class="word-row__word">example</div>
+<div><strong>Part of speech:</strong> noun<br/><strong>Role:</strong> Head of the noun phrase functioning as direct object.</div>
+</div>
+</div>
+</section>
+</div>
+</details>
+</article>
+<article class="exercise-card">
+<div class="exercise-head">
+<span aria-hidden="true" class="exercise-number">19</span>
+<p class="exercise-sentence"><strong>The old computer on my desk</strong> <strong>has finally become</strong> <strong>completely useless</strong>.</p>
+</div>
+<div class="student-task">
+<p>Before opening the answer:</p>
+<ol>
+<li>Identify the major sentence functions.</li>
+<li>Put brackets around every complete phrase.</li>
+<li>Name each phrase type and find its head.</li>
+<li>Mark any phrase contained inside another phrase.</li>
+<li>Explain the role of every word inside its phrase.</li>
+</ol>
+</div>
+<details class="answer-details">
+<summary>Answer and full explanation</summary>
+<div class="answer-content">
+<section class="answer-section">
+<p class="answer-label">SENTENCE SKELETON</p>
+<p><strong>The old computer on my desk</strong> = subject; <strong>has finally become</strong> = linking verbal element; <strong>completely useless</strong> = subject complement.</p>
+</section>
+<section class="answer-section">
+<p class="answer-label">PHRASE MAP</p>
+<div class="phrase-analysis">
+<div class="phrase-row">
+<div class="phrase-row__phrase"><strong>The old computer on my desk</strong></div>
+<div>
+<strong>Phrase type:</strong> noun phrase<br/>
+<strong>External role:</strong> subject<br/>
+<strong>Internal structure:</strong> <strong>computer</strong> is the head; <strong>old</strong> describes it; <strong>on my desk</strong> identifies it.
+          </div>
+</div>
+<div class="phrase-row">
+<div class="phrase-row__phrase"><strong>old</strong></div>
+<div>
+<strong>Phrase type:</strong> one-word adjective phrase<br/>
+<strong>External role:</strong> internal: describes <em>computer</em><br/>
+<strong>Internal structure:</strong> <strong>old</strong> is the head adjective.
+          </div>
+</div>
+<div class="phrase-row">
+<div class="phrase-row__phrase"><strong>on my desk</strong></div>
+<div>
+<strong>Phrase type:</strong> prepositional phrase<br/>
+<strong>External role:</strong> internal: identifies <em>computer</em><br/>
+<strong>Internal structure:</strong> <strong>on</strong> is the head; <strong>my desk</strong> is its noun-phrase object/complement.
+          </div>
+</div>
+<div class="phrase-row">
+<div class="phrase-row__phrase"><strong>my desk</strong></div>
+<div>
+<strong>Phrase type:</strong> noun phrase<br/>
+<strong>External role:</strong> internal: object/complement of <em>on</em><br/>
+<strong>Internal structure:</strong> <strong>desk</strong> is the head; <strong>my</strong> determines it.
+          </div>
+</div>
+<div class="phrase-row">
+<div class="phrase-row__phrase"><strong>has finally become</strong></div>
+<div>
+<strong>Phrase type:</strong> verb phrase<br/>
+<strong>External role:</strong> linking verbal element<br/>
+<strong>Internal structure:</strong> <strong>become</strong> is the main linking verb; <strong>has</strong> helps it; <strong>finally</strong> is an adverb phrase inside the verb phrase.
+          </div>
+</div>
+<div class="phrase-row">
+<div class="phrase-row__phrase"><strong>finally</strong></div>
+<div>
+<strong>Phrase type:</strong> one-word adverb phrase<br/>
+<strong>External role:</strong> internal: adds time/result information inside the verb phrase<br/>
+<strong>Internal structure:</strong> <strong>finally</strong> is the head adverb.
+          </div>
+</div>
+<div class="phrase-row">
+<div class="phrase-row__phrase"><strong>completely useless</strong></div>
+<div>
+<strong>Phrase type:</strong> adjective phrase<br/>
+<strong>External role:</strong> subject complement<br/>
+<strong>Internal structure:</strong> <strong>useless</strong> is the head; <strong>completely</strong> strengthens it; the whole phrase describes the subject.
+          </div>
+</div>
+<div class="phrase-row">
+<div class="phrase-row__phrase"><strong>completely</strong></div>
+<div>
+<strong>Phrase type:</strong> one-word adverb phrase<br/>
+<strong>External role:</strong> internal: strengthens <em>useless</em><br/>
+<strong>Internal structure:</strong> <strong>completely</strong> is the head adverb.
+          </div>
+</div>
+</div>
+</section>
+<section class="answer-section">
+<p class="answer-label">WORD-BY-WORD ANALYSIS</p>
+<div class="word-analysis">
+<div class="word-row">
+<div class="word-row__word">The</div>
+<div><strong>Part of speech:</strong> determiner<br/><strong>Role:</strong> Identifies computer inside the subject noun phrase.</div>
+</div>
+<div class="word-row">
+<div class="word-row__word">old</div>
+<div><strong>Part of speech:</strong> adjective<br/><strong>Role:</strong> Head of a one-word adjective phrase describing computer.</div>
+</div>
+<div class="word-row">
+<div class="word-row__word">computer</div>
+<div><strong>Part of speech:</strong> noun<br/><strong>Role:</strong> Head of the noun phrase functioning as subject.</div>
+</div>
+<div class="word-row">
+<div class="word-row__word">on</div>
+<div><strong>Part of speech:</strong> preposition<br/><strong>Role:</strong> Head of a prepositional phrase nested inside the subject noun phrase.</div>
+</div>
+<div class="word-row">
+<div class="word-row__word">my</div>
+<div><strong>Part of speech:</strong> determiner<br/><strong>Role:</strong> Identifies desk inside the noun phrase completing on.</div>
+</div>
+<div class="word-row">
+<div class="word-row__word">desk</div>
+<div><strong>Part of speech:</strong> noun<br/><strong>Role:</strong> Head of the noun phrase functioning internally as the object/complement of on.</div>
+</div>
+<div class="word-row">
+<div class="word-row__word">has</div>
+<div><strong>Part of speech:</strong> helping verb<br/><strong>Role:</strong> Helps form the verb phrase.</div>
+</div>
+<div class="word-row">
+<div class="word-row__word">finally</div>
+<div><strong>Part of speech:</strong> adverb<br/><strong>Role:</strong> Head of an adverb phrase nested inside the verb phrase.</div>
+</div>
+<div class="word-row">
+<div class="word-row__word">become</div>
+<div><strong>Part of speech:</strong> verb<br/><strong>Role:</strong> Main linking verb and central head of the verb phrase.</div>
+</div>
+<div class="word-row">
+<div class="word-row__word">completely</div>
+<div><strong>Part of speech:</strong> adverb<br/><strong>Role:</strong> Head of an adverb phrase nested inside the adjective phrase completely useless.</div>
+</div>
+<div class="word-row">
+<div class="word-row__word">useless</div>
+<div><strong>Part of speech:</strong> adjective<br/><strong>Role:</strong> Head of the adjective phrase functioning as subject complement.</div>
+</div>
+</div>
+</section>
+</div>
+</details>
+</article>
+<article class="exercise-card">
+<div class="exercise-head">
+<span aria-hidden="true" class="exercise-number">20</span>
+<p class="exercise-sentence"><strong>The careful technician</strong> <strong>placed</strong> <strong>the broken device</strong> <strong>on the clean table</strong>.</p>
+</div>
+<div class="student-task">
+<p>Before opening the answer:</p>
+<ol>
+<li>Identify the major sentence functions.</li>
+<li>Put brackets around every complete phrase.</li>
+<li>Name each phrase type and find its head.</li>
+<li>Mark any phrase contained inside another phrase.</li>
+<li>Explain the role of every word inside its phrase.</li>
+</ol>
+</div>
+<details class="answer-details">
+<summary>Answer and full explanation</summary>
+<div class="answer-content">
+<section class="answer-section">
+<p class="answer-label">SENTENCE SKELETON</p>
+<p><strong>The careful technician</strong> = subject; <strong>placed</strong> = verbal element; <strong>the broken device</strong> = direct object; <strong>on the clean table</strong> = adverbial of place.</p>
+</section>
+<section class="answer-section">
+<p class="answer-label">PHRASE MAP</p>
+<div class="phrase-analysis">
+<div class="phrase-row">
+<div class="phrase-row__phrase"><strong>The careful technician</strong></div>
+<div>
+<strong>Phrase type:</strong> noun phrase<br/>
+<strong>External role:</strong> subject<br/>
+<strong>Internal structure:</strong> <strong>technician</strong> is the head; <strong>careful</strong> describes it.
+          </div>
+</div>
+<div class="phrase-row">
+<div class="phrase-row__phrase"><strong>careful</strong></div>
+<div>
+<strong>Phrase type:</strong> one-word adjective phrase<br/>
+<strong>External role:</strong> internal: describes <em>technician</em><br/>
+<strong>Internal structure:</strong> <strong>careful</strong> is the head adjective.
+          </div>
+</div>
+<div class="phrase-row">
+<div class="phrase-row__phrase"><strong>placed</strong></div>
+<div>
+<strong>Phrase type:</strong> one-word verb phrase<br/>
+<strong>External role:</strong> verbal element<br/>
+<strong>Internal structure:</strong> <strong>placed</strong> is the main verb and head.
+          </div>
+</div>
+<div class="phrase-row">
+<div class="phrase-row__phrase"><strong>the broken device</strong></div>
+<div>
+<strong>Phrase type:</strong> noun phrase<br/>
+<strong>External role:</strong> direct object<br/>
+<strong>Internal structure:</strong> <strong>device</strong> is the head; <strong>broken</strong> describes it.
+          </div>
+</div>
+<div class="phrase-row">
+<div class="phrase-row__phrase"><strong>broken</strong></div>
+<div>
+<strong>Phrase type:</strong> one-word adjective phrase<br/>
+<strong>External role:</strong> internal: describes <em>device</em><br/>
+<strong>Internal structure:</strong> <strong>broken</strong> is the head adjective.
+          </div>
+</div>
+<div class="phrase-row">
+<div class="phrase-row__phrase"><strong>on the clean table</strong></div>
+<div>
+<strong>Phrase type:</strong> prepositional phrase<br/>
+<strong>External role:</strong> adverbial of place<br/>
+<strong>Internal structure:</strong> <strong>on</strong> is the head; <strong>the clean table</strong> is its noun-phrase object/complement.
+          </div>
+</div>
+<div class="phrase-row">
+<div class="phrase-row__phrase"><strong>the clean table</strong></div>
+<div>
+<strong>Phrase type:</strong> noun phrase<br/>
+<strong>External role:</strong> internal: object/complement of <em>on</em><br/>
+<strong>Internal structure:</strong> <strong>table</strong> is the head; <strong>clean</strong> describes it.
+          </div>
+</div>
+<div class="phrase-row">
+<div class="phrase-row__phrase"><strong>clean</strong></div>
+<div>
+<strong>Phrase type:</strong> one-word adjective phrase<br/>
+<strong>External role:</strong> internal: describes <em>table</em><br/>
+<strong>Internal structure:</strong> <strong>clean</strong> is the head adjective.
+          </div>
+</div>
+</div>
+</section>
+<section class="answer-section">
+<p class="answer-label">WORD-BY-WORD ANALYSIS</p>
+<div class="word-analysis">
+<div class="word-row">
+<div class="word-row__word">The</div>
+<div><strong>Part of speech:</strong> determiner<br/><strong>Role:</strong> Identifies technician inside the subject noun phrase.</div>
+</div>
+<div class="word-row">
+<div class="word-row__word">careful</div>
+<div><strong>Part of speech:</strong> adjective<br/><strong>Role:</strong> Head of a one-word adjective phrase describing technician.</div>
+</div>
+<div class="word-row">
+<div class="word-row__word">technician</div>
+<div><strong>Part of speech:</strong> noun<br/><strong>Role:</strong> Head of the subject noun phrase.</div>
+</div>
+<div class="word-row">
+<div class="word-row__word">placed</div>
+<div><strong>Part of speech:</strong> verb<br/><strong>Role:</strong> Head of the verb phrase.</div>
+</div>
+<div class="word-row">
+<div class="word-row__word">the</div>
+<div><strong>Part of speech:</strong> determiner<br/><strong>Role:</strong> Identifies device inside the direct-object noun phrase.</div>
+</div>
+<div class="word-row">
+<div class="word-row__word">broken</div>
+<div><strong>Part of speech:</strong> adjective<br/><strong>Role:</strong> Head of a one-word adjective phrase describing device.</div>
+</div>
+<div class="word-row">
+<div class="word-row__word">device</div>
+<div><strong>Part of speech:</strong> noun<br/><strong>Role:</strong> Head of the noun phrase functioning as direct object.</div>
+</div>
+<div class="word-row">
+<div class="word-row__word">on</div>
+<div><strong>Part of speech:</strong> preposition<br/><strong>Role:</strong> Head of the prepositional phrase functioning as an adverbial of place.</div>
+</div>
+<div class="word-row">
+<div class="word-row__word">the</div>
+<div><strong>Part of speech:</strong> determiner<br/><strong>Role:</strong> Identifies table inside the noun phrase completing on.</div>
+</div>
+<div class="word-row">
+<div class="word-row__word">clean</div>
+<div><strong>Part of speech:</strong> adjective<br/><strong>Role:</strong> Head of a one-word adjective phrase describing table.</div>
+</div>
+<div class="word-row">
+<div class="word-row__word">table</div>
+<div><strong>Part of speech:</strong> noun<br/><strong>Role:</strong> Head of the noun phrase functioning internally as the object/complement of on.</div>
+</div>
+</div>
+</section>
+</div>
+</details>
+</article>
+</section>
+</section>
+<section class="content-section">
+<h2>Final Review</h2>
+<dl class="term-list">
+<dt>Phrase</dt>
+<dd>A grammatical unit that may contain one word or several words.</dd>
+<dt>Head</dt>
+<dd>The central word that usually determines the phrase type.</dd>
+<dt>Noun phrase</dt>
+<dd>A phrase built around a noun or pronoun.</dd>
+<dt>Verb phrase</dt>
+<dd>A phrase built around a main verb and possibly helping verbs, modal verbs, negative words, and inserted adverb phrases.</dd>
+<dt>Adjective phrase</dt>
+<dd>A phrase built around an adjective.</dd>
+<dt>Adverb phrase</dt>
+<dd>A phrase built around an adverb.</dd>
+<dt>Prepositional phrase</dt>
+<dd>A phrase headed by a preposition and completed by an object/complement.</dd>
+<dt>Object of a preposition</dt>
+<dd>The word or phrase that completes a preposition inside a prepositional phrase.</dd>
+<dt>Phrase type</dt>
+<dd>The grammatical category of a complete phrase.</dd>
+<dt>Sentence function</dt>
+<dd>The major job performed by a complete word or phrase in a sentence.</dd>
+<dt>Internal function</dt>
+<dd>The job performed by a word or smaller phrase inside a larger phrase.</dd>
+<dt>Nesting</dt>
+<dd>Placing one phrase inside another phrase.</dd>
+</dl>
+<div class="structure"><strong>words → phrases → sentences</strong></div>
+<p>Another important structural level will be added to this model in a future lesson.</p>
+</section>
+</article>
+<footer class="site-footer">
+<strong>Kooshky’s TOEFL Guides</strong>
+<p>Collected and compiled by Amir Kooshky.</p>
+<div class="site-footer__links">
+<a href="./index.html">Home</a>
+<a href="https://telegram.me/KooshkyTOEFL" rel="noopener noreferrer" target="_blank">Telegram channel</a>
+<a href="https://instagram.com/kooshkytoefl" rel="noopener noreferrer" target="_blank">Instagram</a>
+<a href="https://telegram.me/kooshkyTOEFL_pv" rel="noopener noreferrer" target="_blank">Personal Telegram DM</a>
+</div>
+</footer>
+</main>
+</div>
+<aside aria-label="Dictionary lookup options" class="lookup-menu" id="lookupMenu">
+<p class="lookup-menu__term" id="lookupTerm"></p>
+<div class="lookup-menu__links">
+<a class="lookup-menu__link" id="cambridgeLink" rel="noopener noreferrer" target="_blank">Cambridge Dictionary</a>
+<a class="lookup-menu__link" id="oxfordLink" rel="noopener noreferrer" target="_blank">Oxford Learner’s Dictionaries</a>
+<a class="lookup-menu__link" id="websterLink" rel="noopener noreferrer" target="_blank">Merriam-Webster</a>
+<a class="lookup-menu__link" id="googleLink" rel="noopener noreferrer" target="_blank">Google meaning</a>
+</div>
+</aside>
+<div class="modal-backdrop" hidden="" id="telegramBackdrop">
+<section aria-describedby="telegramDialogDescription" aria-labelledby="telegramDialogTitle" aria-modal="true" class="telegram-dialog" id="telegramDialog" role="dialog" tabindex="-1">
+<div class="telegram-dialog__top">
+<div>
+<p class="telegram-dialog__label">Continue studying</p>
+<h2 id="telegramDialogTitle">More TOEFL material from Kooshky</h2>
+</div>
+<button aria-label="Close Telegram invitation" class="control-button" id="telegramCloseButton" type="button">×</button>
+</div>
+<p id="telegramDialogDescription">Join the Telegram channel for more clear explanations, exercises, and student-ready TOEFL guides.</p>
+<div class="telegram-dialog__actions">
+<a class="telegram-dialog__primary" href="https://telegram.me/KooshkyTOEFL" id="telegramDialogLink" rel="noopener noreferrer" target="_blank">Open Telegram channel</a>
+<a class="telegram-dialog__secondary" href="https://instagram.com/kooshkytoefl" rel="noopener noreferrer" target="_blank">Visit Instagram</a>
+</div>
+</section>
+</div>
+<button aria-label="Go to the top of the page" class="go-top" id="goTopButton" title="Go to top" type="button">↑</button>
+<script>
+    (() => {
+      "use strict";
+
+      const THEME_KEY = "kooshky-guides:theme:v1";
+      const TELEGRAM_KEY = "kooshky-guides:phrases-and-nesting:telegram-invite:v1";
+      const MOBILE_BREAKPOINT = 900;
+
+      const state = {
+        lastFocusedBeforeModal: null,
+        lastFocusedBeforeNav: null,
+        selectionTimer: 0
+      };
+
+      const elements = {
+        root: document.documentElement,
+        body: document.body,
+        main: document.getElementById("main-content"),
+        themeButton: document.getElementById("themeButton"),
+        menuButton: document.getElementById("menuButton"),
+        index: document.getElementById("editorialIndex"),
+        indexCloseButton: document.getElementById("indexCloseButton"),
+        mobileNavBackdrop: document.getElementById("mobileNavBackdrop"),
+        tocList: document.getElementById("tocList"),
+        goTopButton: document.getElementById("goTopButton"),
+        telegramBackdrop: document.getElementById("telegramBackdrop"),
+        telegramDialog: document.getElementById("telegramDialog"),
+        telegramCloseButton: document.getElementById("telegramCloseButton"),
+        telegramDialogLink: document.getElementById("telegramDialogLink"),
+        promoSentinel: document.getElementById("promoSentinel"),
+        lookupMenu: document.getElementById("lookupMenu"),
+        lookupTerm: document.getElementById("lookupTerm"),
+        cambridgeLink: document.getElementById("cambridgeLink"),
+        oxfordLink: document.getElementById("oxfordLink"),
+        websterLink: document.getElementById("websterLink"),
+        googleLink: document.getElementById("googleLink")
+      };
+
+      function safeStorageGet(key) {
+        try {
+          return localStorage.getItem(key);
+        } catch {
+          return null;
+        }
+      }
+
+      function safeStorageSet(key, value) {
+        try {
+          localStorage.setItem(key, value);
+        } catch {
+          // Core content remains usable without storage.
+        }
+      }
+
+      function applyTheme(theme) {
+        const normalizedTheme = theme === "dark" ? "dark" : "light";
+        elements.root.dataset.theme = normalizedTheme;
+        elements.root.style.colorScheme = normalizedTheme;
+
+        const isDark = normalizedTheme === "dark";
+        elements.themeButton.setAttribute("aria-label", isDark ? "Switch to light mode" : "Switch to dark mode");
+        elements.themeButton.setAttribute("aria-pressed", String(isDark));
+        elements.themeButton.title = isDark ? "Switch to light mode" : "Switch to dark mode";
+        elements.themeButton.textContent = isDark ? "☀" : "◐";
+      }
+
+      function initializeTheme() {
+        const savedTheme = safeStorageGet(THEME_KEY);
+        applyTheme(savedTheme === "dark" ? "dark" : "light");
+
+        elements.themeButton.addEventListener("click", () => {
+          const nextTheme = elements.root.dataset.theme === "dark" ? "light" : "dark";
+          applyTheme(nextTheme);
+          safeStorageSet(THEME_KEY, nextTheme);
+        });
+      }
+
+      function createStableId(text, usedIds, fallbackIndex) {
+        const base = text
+          .toLowerCase()
+          .normalize("NFKD")
+          .replace(/[\u0300-\u036f]/g, "")
+          .replace(/[^a-z0-9]+/g, "-")
+          .replace(/^-+|-+$/g, "") || `section-${fallbackIndex}`;
+
+        let candidate = base;
+        let counter = 2;
+
+        while (usedIds.has(candidate)) {
+          candidate = `${base}-${counter}`;
+          counter += 1;
+        }
+
+        usedIds.add(candidate);
+        return candidate;
+      }
+
+      function generateTableOfContents() {
+        const headings = [...elements.main.querySelectorAll("article h2, article h3")];
+        const usedIds = new Set([...document.querySelectorAll("[id]")].map((element) => element.id));
+
+        headings.forEach((heading, index) => {
+          if (!heading.id) {
+            heading.id = createStableId(heading.textContent.trim(), usedIds, index + 1);
+          }
+        });
+
+        const majorHeadings = headings.filter((heading) => heading.tagName === "H2");
+
+        majorHeadings.forEach((majorHeading, majorIndex) => {
+          majorHeading.dataset.chapter = `CHAPTER ${String(majorIndex + 1).padStart(2, "0")}`;
+
+          const listItem = document.createElement("li");
+          listItem.className = "toc-item";
+
+          const row = document.createElement("div");
+          row.className = "toc-row";
+
+          const majorLink = document.createElement("a");
+          majorLink.className = "toc-link";
+          majorLink.href = `#${majorHeading.id}`;
+          majorLink.textContent = majorHeading.textContent;
+
+          const childHeadings = [];
+          let sibling = majorHeading.nextElementSibling;
+
+          while (sibling && sibling.tagName !== "H2") {
+            if (sibling.tagName === "H3") {
+              childHeadings.push(sibling);
+            }
+            childHeadings.push(...(sibling.querySelectorAll?.(":scope > h3") || []));
+            sibling = sibling.nextElementSibling;
+          }
+
+          const uniqueChildHeadings = [...new Set(childHeadings)];
+          row.appendChild(majorLink);
+
+          if (uniqueChildHeadings.length) {
+            const toggleButton = document.createElement("button");
+            const sublistId = `toc-children-${majorIndex + 1}`;
+
+            toggleButton.className = "toc-toggle";
+            toggleButton.type = "button";
+            toggleButton.setAttribute("aria-label", `Expand subsections for ${majorHeading.textContent}`);
+            toggleButton.setAttribute("aria-expanded", "false");
+            toggleButton.setAttribute("aria-controls", sublistId);
+            toggleButton.innerHTML = '<span class="toc-toggle__icon" aria-hidden="true">›</span>';
+
+            const sublist = document.createElement("ol");
+            sublist.className = "toc-sublist";
+            sublist.id = sublistId;
+            sublist.dataset.open = "false";
+
+            uniqueChildHeadings.forEach((childHeading) => {
+              const childItem = document.createElement("li");
+              const childLink = document.createElement("a");
+              childLink.className = "toc-link";
+              childLink.href = `#${childHeading.id}`;
+              childLink.textContent = childHeading.textContent;
+              childItem.appendChild(childLink);
+              sublist.appendChild(childItem);
+            });
+
+            toggleButton.addEventListener("click", () => {
+              const willOpen = toggleButton.getAttribute("aria-expanded") !== "true";
+              toggleButton.setAttribute("aria-expanded", String(willOpen));
+              sublist.dataset.open = String(willOpen);
+            });
+
+            row.appendChild(toggleButton);
+            listItem.append(row, sublist);
+          } else {
+            listItem.appendChild(row);
+          }
+
+          elements.tocList.appendChild(listItem);
+        });
+
+        return headings;
+      }
+
+      function initializeActiveSection(headings) {
+        const links = [...elements.tocList.querySelectorAll(".toc-link")];
+        const headingToLink = new Map(
+          links.map((link) => [link.getAttribute("href").slice(1), link])
+        );
+
+        const visibleHeadings = new Map();
+
+        const observer = new IntersectionObserver((entries) => {
+          entries.forEach((entry) => {
+            if (entry.isIntersecting) {
+              visibleHeadings.set(entry.target.id, entry.boundingClientRect.top);
+            } else {
+              visibleHeadings.delete(entry.target.id);
+            }
+          });
+
+          if (!visibleHeadings.size) {
+            return;
+          }
+
+          const currentId = [...visibleHeadings.entries()]
+            .sort((a, b) => a[1] - b[1])[0][0];
+
+          links.forEach((link) => link.removeAttribute("aria-current"));
+          headingToLink.get(currentId)?.setAttribute("aria-current", "true");
+        }, {
+          rootMargin: "-76px 0px -68% 0px",
+          threshold: [0, 1]
+        });
+
+        headings.forEach((heading) => observer.observe(heading));
+      }
+
+      function isMobileNavigation() {
+        return window.innerWidth <= MOBILE_BREAKPOINT;
+      }
+
+      function openMobileNavigation() {
+        if (!isMobileNavigation()) {
+          return;
+        }
+
+        state.lastFocusedBeforeNav = document.activeElement;
+        elements.index.classList.add("is-open");
+        elements.mobileNavBackdrop.hidden = false;
+        requestAnimationFrame(() => elements.mobileNavBackdrop.classList.add("is-visible"));
+        elements.menuButton.setAttribute("aria-expanded", "true");
+        elements.body.classList.add("is-nav-open");
+        elements.indexCloseButton.focus();
+      }
+
+      function closeMobileNavigation({ restoreFocus = true } = {}) {
+        elements.index.classList.remove("is-open");
+        elements.mobileNavBackdrop.classList.remove("is-visible");
+        elements.menuButton.setAttribute("aria-expanded", "false");
+        elements.body.classList.remove("is-nav-open");
+
+        window.setTimeout(() => {
+          if (!elements.mobileNavBackdrop.classList.contains("is-visible")) {
+            elements.mobileNavBackdrop.hidden = true;
+          }
+        }, 200);
+
+        if (restoreFocus && state.lastFocusedBeforeNav instanceof HTMLElement) {
+          state.lastFocusedBeforeNav.focus();
+        }
+      }
+
+      function initializeNavigation() {
+        elements.menuButton.addEventListener("click", () => {
+          elements.index.classList.contains("is-open")
+            ? closeMobileNavigation()
+            : openMobileNavigation();
+        });
+
+        elements.indexCloseButton.addEventListener("click", () => closeMobileNavigation());
+        elements.mobileNavBackdrop.addEventListener("click", () => closeMobileNavigation());
+
+        elements.tocList.addEventListener("click", (event) => {
+          if (event.target.closest("a") && isMobileNavigation()) {
+            closeMobileNavigation({ restoreFocus: false });
+          }
+        });
+
+        window.addEventListener("resize", () => {
+          if (!isMobileNavigation()) {
+            closeMobileNavigation({ restoreFocus: false });
+          }
+          hideLookupMenu();
+        });
+      }
+
+      function initializeGoToTop() {
+        const updateVisibility = () => {
+          elements.goTopButton.classList.toggle("is-visible", window.scrollY > 700);
+        };
+
+        window.addEventListener("scroll", updateVisibility, { passive: true });
+        updateVisibility();
+
+        elements.goTopButton.addEventListener("click", () => {
+          window.scrollTo({ top: 0, behavior: "smooth" });
+        });
+      }
+
+      function markTelegramInvitationSeen() {
+        safeStorageSet(TELEGRAM_KEY, "1");
+      }
+
+      function getFocusableElements(container) {
+        return [...container.querySelectorAll(
+          'a[href], button:not([disabled]), [tabindex]:not([tabindex="-1"])'
+        )].filter((element) => !element.hasAttribute("hidden"));
+      }
+
+      function openTelegramDialog() {
+        if (safeStorageGet(TELEGRAM_KEY) === "1") {
+          return;
+        }
+
+        hideLookupMenu();
+        state.lastFocusedBeforeModal = document.activeElement;
+        markTelegramInvitationSeen();
+
+        elements.telegramBackdrop.hidden = false;
+        requestAnimationFrame(() => {
+          elements.telegramBackdrop.classList.add("is-visible");
+          elements.body.classList.add("is-modal-open");
+          elements.telegramDialog.focus();
+        });
+      }
+
+      function closeTelegramDialog({ restoreFocus = true } = {}) {
+        elements.telegramBackdrop.classList.remove("is-visible");
+        elements.body.classList.remove("is-modal-open");
+
+        window.setTimeout(() => {
+          if (!elements.telegramBackdrop.classList.contains("is-visible")) {
+            elements.telegramBackdrop.hidden = true;
+          }
+        }, 180);
+
+        if (restoreFocus && state.lastFocusedBeforeModal instanceof HTMLElement) {
+          state.lastFocusedBeforeModal.focus();
+        }
+      }
+
+      function initializeTelegramInvitation() {
+        if (safeStorageGet(TELEGRAM_KEY) !== "1") {
+          const observer = new IntersectionObserver((entries, activeObserver) => {
+            if (entries.some((entry) => entry.isIntersecting)) {
+              openTelegramDialog();
+              activeObserver.disconnect();
+            }
+          }, { threshold: 0.2 });
+
+          observer.observe(elements.promoSentinel);
+        }
+
+        elements.telegramCloseButton.addEventListener("click", () => closeTelegramDialog());
+
+        elements.telegramBackdrop.addEventListener("pointerdown", (event) => {
+          if (event.target === elements.telegramBackdrop) {
+            closeTelegramDialog();
+          }
+        });
+
+        elements.telegramDialogLink.addEventListener("click", markTelegramInvitationSeen);
+
+        elements.telegramDialog.addEventListener("keydown", (event) => {
+          if (event.key !== "Tab") {
+            return;
+          }
+
+          const focusable = getFocusableElements(elements.telegramDialog);
+          if (!focusable.length) {
+            event.preventDefault();
+            return;
+          }
+
+          const first = focusable[0];
+          const last = focusable[focusable.length - 1];
+
+          if (event.shiftKey && document.activeElement === first) {
+            event.preventDefault();
+            last.focus();
+          } else if (!event.shiftKey && document.activeElement === last) {
+            event.preventDefault();
+            first.focus();
+          }
+        });
+      }
+
+      function cleanSelectedText(text) {
+        return text
+          .replace(/\s+/g, " ")
+          .replace(/^[\s“”‘’"'()[\]{}<>.,;:!?—–-]+|[\s“”‘’"'()[\]{}<>.,;:!?—–-]+$/g, "")
+          .trim();
+      }
+
+      function selectionIsAllowed(range) {
+        const commonNode = range.commonAncestorContainer.nodeType === Node.TEXT_NODE
+          ? range.commonAncestorContainer.parentElement
+          : range.commonAncestorContainer;
+
+        if (!commonNode || !elements.main.contains(commonNode)) {
+          return false;
+        }
+
+        return !commonNode.closest(
+          "button, nav, input, textarea, select, summary, .lookup-menu, .telegram-dialog"
+        );
+      }
+
+      function getSelectionRectangle(range) {
+        const rectangle = range.getBoundingClientRect();
+
+        if (
+          rectangle &&
+          Number.isFinite(rectangle.left) &&
+          (rectangle.width > 0 || rectangle.height > 0)
+        ) {
+          return rectangle;
+        }
+
+        const rectangles = range.getClientRects();
+        return rectangles.length ? rectangles[0] : null;
+      }
+
+      function positionLookupMenu(rectangle) {
+        const margin = 10;
+        const selectionGap = 16;
+
+        elements.lookupMenu.style.left = "0px";
+        elements.lookupMenu.style.top = "0px";
+        elements.lookupMenu.classList.add("is-visible");
+
+        const menuRectangle = elements.lookupMenu.getBoundingClientRect();
+        const viewportWidth = window.innerWidth;
+        const viewportHeight = window.innerHeight;
+
+        if (!rectangle) {
+          elements.lookupMenu.style.left =
+            `${Math.max(margin, (viewportWidth - menuRectangle.width) / 2)}px`;
+          elements.lookupMenu.style.top =
+            `${Math.max(margin, viewportHeight - menuRectangle.height - 84)}px`;
+          return;
+        }
+
+        let left =
+          rectangle.left + (rectangle.width / 2) - (menuRectangle.width / 2);
+
+        left = Math.min(
+          Math.max(margin, left),
+          viewportWidth - menuRectangle.width - margin
+        );
+
+        const positionAbove =
+          rectangle.top - menuRectangle.height - selectionGap;
+        const positionBelow = rectangle.bottom + selectionGap;
+
+        let top;
+
+        if (positionAbove >= margin) {
+          top = positionAbove;
+        } else if (
+          positionBelow + menuRectangle.height <= viewportHeight - margin
+        ) {
+          top = positionBelow;
+        } else {
+          top = Math.max(
+            margin,
+            Math.min(
+              viewportHeight - menuRectangle.height - margin,
+              rectangle.top - menuRectangle.height - selectionGap
+            )
+          );
+        }
+
+        elements.lookupMenu.style.left = `${left}px`;
+        elements.lookupMenu.style.top = `${top}px`;
+      }
+
+      function hideLookupMenu() {
+        elements.lookupMenu.classList.remove("is-visible");
+      }
+
+      function updateLookupMenu() {
+        window.clearTimeout(state.selectionTimer);
+
+        state.selectionTimer = window.setTimeout(() => {
+          const selection = window.getSelection();
+
+          if (!selection || selection.rangeCount === 0 || selection.isCollapsed) {
+            hideLookupMenu();
+            return;
+          }
+
+          const selectedText = cleanSelectedText(selection.toString());
+
+          if (
+            !selectedText ||
+            selectedText.length > 90 ||
+            !/[\p{L}\p{N}]/u.test(selectedText)
+          ) {
+            hideLookupMenu();
+            return;
+          }
+
+          const range = selection.getRangeAt(0);
+
+          if (!selectionIsAllowed(range)) {
+            hideLookupMenu();
+            return;
+          }
+
+          const encodedText = encodeURIComponent(selectedText);
+          const oxfordSlug = selectedText
+            .toLowerCase()
+            .replace(/[’']/g, "")
+            .replace(/[^a-z0-9]+/g, "-")
+            .replace(/^-+|-+$/g, "") || "word";
+
+          elements.lookupTerm.textContent = `Look up “${selectedText}”`;
+          elements.cambridgeLink.href =
+            `https://dictionary.cambridge.org/dictionary/english/${encodedText}`;
+          elements.oxfordLink.href =
+            `https://www.oxfordlearnersdictionaries.com/definition/english/${oxfordSlug}?q=${encodedText}`;
+          elements.websterLink.href =
+            `https://www.merriam-webster.com/dictionary/${encodedText}`;
+          elements.googleLink.href =
+            `https://www.google.com/search?q=${encodeURIComponent(`meaning of ${selectedText}`)}`;
+
+          positionLookupMenu(getSelectionRectangle(range));
+        }, 150);
+      }
+
+      function initializeSelectionLookup() {
+        document.addEventListener("selectionchange", updateLookupMenu);
+        document.addEventListener("pointerup", () => {
+          window.setTimeout(updateLookupMenu, 90);
+        }, { passive: true });
+        document.addEventListener("touchend", () => {
+          window.setTimeout(updateLookupMenu, 190);
+        }, { passive: true });
+
+        elements.lookupMenu.addEventListener("pointerdown", (event) => {
+          event.stopPropagation();
+        });
+
+        elements.lookupMenu.addEventListener("click", (event) => {
+          if (event.target.closest("a")) {
+            window.setTimeout(hideLookupMenu, 40);
+          }
+        });
+
+        document.addEventListener("pointerdown", (event) => {
+          if (!elements.lookupMenu.contains(event.target)) {
+            hideLookupMenu();
+          }
+        });
+
+        document.addEventListener("focusin", (event) => {
+          if (
+            !elements.lookupMenu.contains(event.target) &&
+            !elements.main.contains(event.target)
+          ) {
+            hideLookupMenu();
+          }
+        });
+
+        window.addEventListener("scroll", hideLookupMenu, { passive: true });
+      }
+
+      function initializeGlobalKeyboardControls() {
+        document.addEventListener("keydown", (event) => {
+          if (event.key === "Escape") {
+            hideLookupMenu();
+
+            if (elements.telegramBackdrop.classList.contains("is-visible")) {
+              closeTelegramDialog();
+            }
+
+            if (elements.index.classList.contains("is-open")) {
+              closeMobileNavigation();
+            }
+          }
+        });
+      }
+
+      function initializeGuide() {
+        initializeTheme();
+
+        const headings = generateTableOfContents();
+        initializeActiveSection(headings);
+        initializeNavigation();
+        initializeGoToTop();
+        initializeTelegramInvitation();
+        initializeSelectionLookup();
+        initializeGlobalKeyboardControls();
+      }
+
+      try {
+        initializeGuide();
+      } catch (error) {
+        console.error("A nonessential guide feature could not be initialized:", error);
+      }
+    })();
+  </script>
+<script>
+(() => {
+  "use strict";
+
+  const openButton = document.getElementById("openAnswers");
+  const closeButton = document.getElementById("closeAnswers");
+  const answers = [...document.querySelectorAll(".answer-details")];
+
+  openButton?.addEventListener("click", () => {
+    answers.forEach((answer) => {
+      answer.open = true;
+    });
+  });
+
+  closeButton?.addEventListener("click", () => {
+    answers.forEach((answer) => {
+      answer.open = false;
+    });
+  });
+})();
+</script></body>
+</html>

@@ -248,6 +248,42 @@ window.KOOSHKY_CONTENT = [
     "featured": false
   },
   {
+    "title": "Introducing Parts of Speech and Sentence Functions",
+    "href": "Grammar/Clauses/kooshky_parts_of_speech_sentence_roles.html",
+    "section": "grammar",
+    "summary": "Full guide for identifying parts of speech and sentence roles. Part 1 of a 4-part series.",
+    "date": "2026-07-18",
+    "publishAt": "2026-06-18T00:00:00+03:30",
+    "featured": false
+  },
+  {
+    "title": "Introducing Phrases",
+    "href": "Grammar/Clauses/kooshky_phrases_nesting_with_practice.html",
+    "section": "grammar",
+    "summary": "Full guide to understanding and using phrases. Part 2 of a 4-part series.",
+    "date": "2026-07-18",
+    "publishAt": "2026-06-18T00:00:00+03:30",
+    "featured": false
+  },
+  {
+    "title": "Introducing Clauses",
+    "href": "Grammar/Clauses/kooshky_introducing_clauses_with_complements_boundaries_roles_and_practice",
+    "section": "grammar",
+    "summary": "Full guide to identifying and understanding clauses. Part 3 of a 4-part series.",
+    "date": "2026-07-18",
+    "publishAt": "2026-06-18T00:00:00+03:30",
+    "featured": false
+  },
+  {
+    "title": "Types of Clauses",
+    "href": "Grammar/Clauses/kooshky_types_of_clauses_three_axes_guide.html",
+    "section": "grammar",
+    "summary": "Introduction to classification of clauses. Part 4 of a 4-part series.",
+    "date": "2026-07-18",
+    "publishAt": "2026-06-18T00:00:00+03:30",
+    "featured": false
+  },
+  {
     "title": "Describing Problems with Gym Equipment",
     "href": "EmailNames/TOEFL_Gym_Equipment_Problems_Guide_100_Examples.html",
     "section": "writing",
