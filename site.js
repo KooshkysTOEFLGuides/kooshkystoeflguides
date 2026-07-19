@@ -4,6 +4,10 @@
   const root = document.documentElement;
   const body = document.body;
   const themeKey = "kooshky-guides:theme:v1";
+  const MAX_PUBLICATION_TIMEOUT = 2_147_000_000;
+
+  const invalidPublishTimes = new Set();
+  let publicationTimer = null;
 
   const safeStorage = {
     get(key) {
@@ -78,6 +82,7 @@
   function initTheme() {
     const saved = safeStorage.get(themeKey);
 
+    // A missing or invalid value defaults to light mode.
     setTheme(saved === "dark" ? "dark" : "light", {
       save: saved === "light" || saved === "dark"
     });
@@ -134,7 +139,6 @@
       backdrop.hidden = false;
       button.setAttribute("aria-expanded", "true");
       body.classList.add("menu-open");
-
       panel.querySelector("a")?.focus();
     };
 
@@ -156,7 +160,7 @@
     });
 
     window.addEventListener("resize", () => {
-      if (window.innerWidth > 760 && !panel.hidden) {
+      if (window.innerWidth > 920 && !panel.hidden) {
         close();
       }
     });
@@ -169,6 +173,14 @@
       .replaceAll(">", "&gt;")
       .replaceAll('"', "&quot;")
       .replaceAll("'", "&#039;");
+  }
+
+  function normalizeSearchText(value) {
+    return String(value || "")
+      .normalize("NFKD")
+      .replace(/[\u0300-\u036f]/g, "")
+      .toLocaleLowerCase("en")
+      .trim();
   }
 
   function formatDate(value) {
@@ -189,9 +201,9 @@
     }).format(date);
   }
 
-  const MAX_PUBLICATION_TIMEOUT = 2_147_000_000;
-  const invalidPublishTimes = new Set();
-  let publicationTimer = null;
+  // ---------------------------------------------------------------------------
+  // Scheduled article publication
+  // ---------------------------------------------------------------------------
 
   function getPublishTimestamp(item) {
     if (!item.publishAt) {
@@ -224,12 +236,10 @@
   function isPublished(item, now = Date.now()) {
     const timestamp = getPublishTimestamp(item);
 
-    // Entries without publishAt are immediately available.
     if (timestamp === null) {
       return true;
     }
 
-    // Invalid values remain hidden.
     if (Number.isNaN(timestamp)) {
       return false;
     }
@@ -296,6 +306,10 @@
     now: () => new Date()
   };
 
+  // ---------------------------------------------------------------------------
+  // Guides
+  // ---------------------------------------------------------------------------
+
   function articleMarkup(item) {
     const sections = window.KOOSHKY_SECTIONS || [];
 
@@ -308,7 +322,9 @@
       <article
         class="article-entry"
         data-search-text="${escapeHTML(
-          `${item.title} ${item.summary || ""} ${section}`.toLowerCase()
+          normalizeSearchText(
+            `${item.title} ${item.summary || ""} ${section}`
+          )
         )}"
       >
         <div class="article-meta">
@@ -351,7 +367,6 @@
       return;
     }
 
-    // The order remains the same as content-data.js.
     const items = getPublishedContent().filter(
       (item) => item.featured
     );
@@ -360,10 +375,6 @@
       container.innerHTML = `
         <div class="empty-state">
           <h3>No featured guides yet.</h3>
-          <p>
-            Add an item to <code>content-data.js</code>
-            and set <code>featured: true</code>.
-          </p>
         </div>
       `;
 
@@ -380,7 +391,6 @@
       return;
     }
 
-    // The order remains the same as content-data.js.
     const items = getPublishedContent();
     const sections = window.KOOSHKY_SECTIONS || [];
     const searchWrap = document.querySelector("[data-search-wrap]");
@@ -392,8 +402,7 @@
 
       container.innerHTML = `
         <div class="empty-state empty-state-large">
-          <h2>No guides have been listed yet.</h2>
-          <p>Add entries to <code>content-data.js</code>.</p>
+          <h2>No guides have been published yet.</h2>
         </div>
       `;
 
@@ -411,13 +420,9 @@
         }
 
         return `
-          <section
-            class="content-group"
-            data-content-group
-          >
+          <section class="content-group" data-content-group>
             <div class="group-heading">
               <h2>${escapeHTML(section.label)}</h2>
-
               <span class="count">
                 ${group.length}
                 ${group.length === 1 ? "guide" : "guides"}
@@ -443,15 +448,12 @@
       html +
       (ungrouped.length
         ? `
-          <section
-            class="content-group"
-            data-content-group
-          >
+          <section class="content-group" data-content-group>
             <div class="group-heading">
               <h2>Other</h2>
-
               <span class="count">
                 ${ungrouped.length}
+                ${ungrouped.length === 1 ? "guide" : "guides"}
               </span>
             </div>
 
@@ -469,8 +471,8 @@
       return;
     }
 
-    input.addEventListener("input", () => {
-      const query = input.value.trim().toLowerCase();
+    const applySearch = () => {
+      const query = normalizeSearchText(input.value);
       let visible = 0;
 
       document
@@ -502,12 +504,401 @@
             }`
           : `${items.length} total guides`;
       }
+    };
+
+    input.addEventListener("input", applySearch);
+    applySearch();
+  }
+
+  // ---------------------------------------------------------------------------
+  // Apps
+  // ---------------------------------------------------------------------------
+
+  function normalizeApps(rawApps) {
+    const valid = [];
+
+    (Array.isArray(rawApps) ? rawApps : []).forEach((raw, index) => {
+      const name = String(raw?.name || "").trim();
+      const href = String(raw?.href || "").trim();
+      const description = String(raw?.description || "").trim();
+      const logo = String(raw?.logo || "").trim();
+
+      if (!name || !href || !description) {
+        console.warn(`Skipped invalid app at index ${index}.`, raw);
+        return;
+      }
+
+      valid.push({
+        name,
+        href,
+        description,
+        logo,
+        featured: raw.featured === true,
+        searchText: normalizeSearchText(`${name} ${description}`)
+      });
     });
 
-    if (status) {
-      status.textContent = `${items.length} total guides`;
-    }
+    return valid;
   }
+
+  function appLogoMarkup(item) {
+    if (!item.logo) {
+      return `
+        <div class="app-card-icon" aria-hidden="true">
+          <span class="app-default-logo"></span>
+        </div>
+      `;
+    }
+
+    return `
+      <div class="app-card-icon" aria-hidden="true">
+        <img
+          src="${escapeHTML(item.logo)}"
+          alt=""
+          data-app-logo
+        >
+        <span class="app-default-logo" data-app-logo-fallback hidden></span>
+      </div>
+    `;
+  }
+
+  function appMarkup(item) {
+    return `
+      <article
+        class="app-card"
+        data-app-entry
+        data-search-text="${escapeHTML(item.searchText)}"
+      >
+        ${appLogoMarkup(item)}
+
+        <h3>
+          <a href="${escapeHTML(item.href)}">
+            ${escapeHTML(item.name)}
+          </a>
+        </h3>
+
+        <p>${escapeHTML(item.description)}</p>
+
+        <a class="text-link" href="${escapeHTML(item.href)}">
+          Open app <span aria-hidden="true">→</span>
+        </a>
+      </article>
+    `;
+  }
+
+  function activateAppLogoFallbacks(scope = document) {
+    scope.querySelectorAll("img[data-app-logo]").forEach((image) => {
+      const showFallback = () => {
+        image.hidden = true;
+        const fallback = image.parentElement?.querySelector(
+          "[data-app-logo-fallback]"
+        );
+
+        if (fallback) {
+          fallback.hidden = false;
+        }
+      };
+
+      image.addEventListener("error", showFallback, { once: true });
+
+      if (
+        image.complete &&
+        image.naturalWidth === 0
+      ) {
+        showFallback();
+      }
+    });
+  }
+
+  function initFeaturedApps() {
+    const container = document.querySelector("[data-featured-apps]");
+
+    if (!container) {
+      return;
+    }
+
+    const items = normalizeApps(window.KOOSHKY_APPS).filter(
+      (item) => item.featured
+    );
+
+    if (!items.length) {
+      container.innerHTML = `
+        <div class="empty-state">
+          <h3>No featured apps yet.</h3>
+        </div>
+      `;
+
+      return;
+    }
+
+    container.innerHTML = items.map(appMarkup).join("");
+    activateAppLogoFallbacks(container);
+  }
+
+  function initAppsLibrary() {
+    const container = document.querySelector("[data-app-library]");
+
+    if (!container) {
+      return;
+    }
+
+    const items = normalizeApps(window.KOOSHKY_APPS);
+    const searchWrap = document.querySelector("[data-app-search-wrap]");
+    const input = document.querySelector("[data-app-search]");
+    const status = document.querySelector("[data-app-search-status]");
+
+    if (!items.length) {
+      if (searchWrap) {
+        searchWrap.hidden = true;
+      }
+
+      container.innerHTML = `
+        <div class="empty-state empty-state-large">
+          <h2>No apps have been added yet.</h2>
+        </div>
+      `;
+
+      return;
+    }
+
+    container.innerHTML = items.map(appMarkup).join("");
+    activateAppLogoFallbacks(container);
+
+    const applySearch = () => {
+      const query = normalizeSearchText(input?.value);
+      let visible = 0;
+
+      container
+        .querySelectorAll("[data-app-entry]")
+        .forEach((entry) => {
+          const match =
+            !query ||
+            entry.dataset.searchText.includes(query);
+
+          entry.hidden = !match;
+
+          if (match) {
+            visible += 1;
+          }
+        });
+
+      if (status) {
+        status.textContent = query
+          ? `${visible} matching ${
+              visible === 1 ? "app" : "apps"
+            }`
+          : `${items.length} total ${
+              items.length === 1 ? "app" : "apps"
+            }`;
+      }
+    };
+
+    input?.addEventListener("input", applySearch);
+    applySearch();
+  }
+
+  // ---------------------------------------------------------------------------
+  // Homepage Word of the Day
+  // ---------------------------------------------------------------------------
+
+  function parseISODate(value) {
+    const match = /^(\d{4})-(\d{2})-(\d{2})$/.exec(
+      String(value || "")
+    );
+
+    if (!match) {
+      return null;
+    }
+
+    const year = Number(match[1]);
+    const month = Number(match[2]);
+    const day = Number(match[3]);
+    const date = new Date(Date.UTC(year, month - 1, day));
+
+    if (
+      date.getUTCFullYear() !== year ||
+      date.getUTCMonth() !== month - 1 ||
+      date.getUTCDate() !== day
+    ) {
+      return null;
+    }
+
+    return {
+      iso: `${match[1]}-${match[2]}-${match[3]}`,
+      year,
+      month,
+      day,
+      date,
+      dayKey: year * 10000 + month * 100 + day
+    };
+  }
+
+  function getWotdSettings() {
+    return {
+      timeZone: "Asia/Tehran",
+      publishHour: 10,
+      ...(window.KOOSHKY_WOTD_SETTINGS || {})
+    };
+  }
+
+  function getZonedNow(timeZone) {
+    const formatter = new Intl.DateTimeFormat(
+      "en-US-u-ca-gregory-nu-latn",
+      {
+        timeZone,
+        year: "numeric",
+        month: "2-digit",
+        day: "2-digit",
+        hour: "2-digit",
+        minute: "2-digit",
+        second: "2-digit",
+        hourCycle: "h23"
+      }
+    );
+
+    const parts = Object.fromEntries(
+      formatter
+        .formatToParts(new Date())
+        .filter((part) => part.type !== "literal")
+        .map((part) => [part.type, Number(part.value)])
+    );
+
+    return {
+      ...parts,
+      dayKey:
+        parts.year * 10000 +
+        parts.month * 100 +
+        parts.day
+    };
+  }
+
+  function getLatestPublishedWord() {
+    const settings = getWotdSettings();
+    const now = getZonedNow(settings.timeZone);
+    const valid = [];
+
+    (Array.isArray(window.KOOSHKY_WORDS)
+      ? window.KOOSHKY_WORDS
+      : []
+    ).forEach((raw, index) => {
+      const word = String(raw?.word || "").trim();
+      const href = String(raw?.href || "").trim();
+      const parsedDate = parseISODate(raw?.date);
+
+      if (!word || !href || !parsedDate) {
+        console.warn(
+          `Skipped invalid homepage Word of the Day entry at index ${index}.`,
+          raw
+        );
+        return;
+      }
+
+      const published =
+        parsedDate.dayKey < now.dayKey ||
+        (
+          parsedDate.dayKey === now.dayKey &&
+          now.hour >= Number(settings.publishHour)
+        );
+
+      if (published) {
+        valid.push({
+          word,
+          href,
+          date: parsedDate.iso,
+          parsedDate
+        });
+      }
+    });
+
+    valid.sort((a, b) => {
+      const dateOrder = b.date.localeCompare(a.date);
+
+      if (dateOrder !== 0) {
+        return dateOrder;
+      }
+
+      return a.word.localeCompare(
+        b.word,
+        "en",
+        { sensitivity: "base" }
+      );
+    });
+
+    return valid[0] || null;
+  }
+
+  function renderHomeWord() {
+    const container = document.querySelector("[data-home-wotd]");
+
+    if (!container) {
+      return;
+    }
+
+    const item = getLatestPublishedWord();
+
+    if (!item) {
+      container.innerHTML = `
+        <span class="home-wotd-label">Word of the Day</span>
+        <span class="home-wotd-empty">No published word yet.</span>
+        <a class="home-wotd-open" href="word-of-the-day.html">
+          Open archive →
+        </a>
+      `;
+
+      return;
+    }
+
+    const formattedDate = new Intl.DateTimeFormat("en", {
+      weekday: "short",
+      year: "numeric",
+      month: "short",
+      day: "numeric",
+      timeZone: "UTC"
+    }).format(item.parsedDate.date);
+
+    container.innerHTML = `
+      <span class="home-wotd-label">Word of the Day</span>
+
+      <p class="home-wotd-word">
+        <a href="${escapeHTML(item.href)}">
+          ${escapeHTML(item.word)}
+        </a>
+      </p>
+
+      <time
+        class="home-wotd-date"
+        datetime="${escapeHTML(item.date)}"
+      >
+        ${escapeHTML(formattedDate)}
+      </time>
+
+      <a class="home-wotd-open" href="word-of-the-day.html">
+        Full archive →
+      </a>
+    `;
+  }
+
+  function initHomeWord() {
+    if (!document.querySelector("[data-home-wotd]")) {
+      return;
+    }
+
+    renderHomeWord();
+
+    window.setInterval(renderHomeWord, 60_000);
+
+    window.addEventListener("focus", renderHomeWord);
+
+    document.addEventListener("visibilitychange", () => {
+      if (!document.hidden) {
+        renderHomeWord();
+      }
+    });
+  }
+
+  // ---------------------------------------------------------------------------
+  // About page and generic image fallbacks
+  // ---------------------------------------------------------------------------
 
   function initLanguageToggle() {
     const button = document.querySelector(
@@ -637,6 +1028,9 @@
     initMenu();
     initFeatured();
     initContents();
+    initFeaturedApps();
+    initAppsLibrary();
+    initHomeWord();
     scheduleNextPublicationRefresh();
     initLanguageToggle();
     initImageFallbacks();

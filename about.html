@@ -7,21 +7,21 @@
   <meta name="description" content="About Amir Kooshky: TOEFL and GRE scores, academic background, and experience with English.">
   <link rel="icon" href="images/kooshky-favicon-light.png" type="image/png" data-favicon data-light-href="images/kooshky-favicon-light.png" data-dark-href="images/kooshky-favicon-dark.png">
   <link rel="icon" href="images/favicon.ico" sizes="any">
-  <link rel="stylesheet" href="styles.css?v=5">
+  <link rel="stylesheet" href="styles.css?v=7">
   <script>
     (() => {
       try {
         const saved = localStorage.getItem("kooshky-guides:theme:v1");
-        const preferred = matchMedia("(prefers-color-scheme: dark)").matches ? "dark" : "light";
-        const theme = saved || preferred;
+        const theme = saved === "dark" ? "dark" : "light";
         document.documentElement.dataset.theme = theme;
         document.documentElement.style.colorScheme = theme;
       } catch (_) {
         document.documentElement.dataset.theme = "light";
+        document.documentElement.style.colorScheme = "light";
       }
     })();
   </script>
-  <script src="site.js?v=4" defer></script>
+  <script src="site.js?v=7" defer></script>
   <title>About Me — Kooshky's TOEFL Guides</title>
 </head>
 <body>
@@ -37,8 +37,8 @@
       <nav class="desktop-nav" aria-label="Primary navigation">
         <a href="index.html">Home</a>
         <a href="contents.html">All contents</a>
+        <a href="apps.html">Apps</a>
         <a href="word-of-the-day.html">Word of the day</a>
-        <a href="ListenAndRepeat/toefl_listen_repeat_practice.html">Listen and repeat</a>
         <a href="about.html" aria-current="page">About me</a>
       </nav>
 
@@ -53,8 +53,8 @@
   <nav class="mobile-nav" id="mobile-nav" data-mobile-nav aria-label="Mobile navigation" hidden>
     <a href="index.html">Home</a>
     <a href="contents.html">All contents</a>
+    <a href="apps.html">Apps</a>
     <a href="word-of-the-day.html">Word of the day</a>
-    <a href="ListenAndRepeat/toefl_listen_repeat_practice.html">Listen and repeat</a>
     <a href="about.html" aria-current="page">About me</a>
   </nav>
 
@@ -79,13 +79,13 @@
             Add your image here:<br><code>images/amir-and-ostrich.png</code>
           </div>
         </div>
-        <!-- <figcaption>I'm on the left.</figcaption> -->
+        <figcaption>I'm on the left.</figcaption>
       </figure>
 
       <article class="about-copy" lang="en" dir="ltr" data-language-panel="en">
         <div class="about-block">
           <h2>So, who are you?</h2>
-          <p>I’m Amir Kooshky—the one on the left.</p>
+          <p>I’m Amir-Mohammad Kooshky—the person on the left.</p>
         </div>
 
         <div class="about-block">
@@ -167,9 +167,11 @@
     <div class="container footer-inner">
       <span>Amir Kooshky</span>
       <div class="footer-links">
+        <a href="contents.html">All contents</a>
+        <a href="apps.html">Apps</a>
+        <a href="word-of-the-day.html">Word of the day</a>
         <a href="https://telegram.me/KooshkyTOEFL" target="_blank" rel="noopener noreferrer">Telegram</a>
         <a href="https://instagram.com/kooshkytoefl" target="_blank" rel="noopener noreferrer">Instagram</a>
-        <a href="https://telegram.me/kooshkyTOEFL_pv" target="_blank" rel="noopener noreferrer">Direct message</a>
       </div>
     </div>
   </footer>
