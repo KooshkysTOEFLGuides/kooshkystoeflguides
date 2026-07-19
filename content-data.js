@@ -59,6 +59,15 @@ window.KOOSHKY_SECTIONS = [
 
 window.KOOSHKY_CONTENT = [
   {
+    "title": "How to Talk About Traffic",
+    "href": "Vocabulary/traffic-in-english-kooshky-guide.html",
+    "section": "vocabulary",
+    "summary": "Persian speakers always struggle with collocations about traffic. So learn it all once and for all!",
+    "date": "2026-07-19",
+    "publishAt": "2026-07-19T00:00:00+03:30",
+    "featured": true
+  },
+  {
     "title": "Advanced Usages for Comparative Grammars",
     "href": "Grammar/kooshkys_toefl_guides_more_less_than.html",
     "section": "grammar",
