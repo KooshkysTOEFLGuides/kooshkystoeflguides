@@ -1,0 +1,169 @@
+{
+  "sourceFile": "listen_repeat_sets.js",
+  "voice": "en-US-AriaNeural",
+  "rate": "+0%",
+  "volume": "+0%",
+  "pitch": "+0Hz",
+  "includeSituation": false,
+  "sets": [
+    {
+      "setIndex": 1,
+      "setId": "building-bird-nest-boxes-001",
+      "setName": "Building Bird Nest Boxes",
+      "setType": "PROCEDURE",
+      "speakerRole": "Instructor",
+      "folder": "001_building_bird_nest_boxes",
+      "situationAudio": null,
+      "sentenceAudio": [
+        {
+          "sentenceNumber": 1,
+          "text": "Check the wooden panels for damage.",
+          "wordCount": 6,
+          "audioFile": "001_building_bird_nest_boxes/01_check_the_wooden_panels_for_damage.mp3"
+        },
+        {
+          "sentenceNumber": 2,
+          "text": "Place the base panel on the workbench.",
+          "wordCount": 7,
+          "audioFile": "001_building_bird_nest_boxes/02_place_the_base_panel_on_the_workbench.mp3"
+        },
+        {
+          "sentenceNumber": 3,
+          "text": "Align both side panels with the base edges carefully.",
+          "wordCount": 9,
+          "audioFile": "001_building_bird_nest_boxes/03_align_both_side_panels_with_the_base_edges_carefully.mp3"
+        },
+        {
+          "sentenceNumber": 4,
+          "text": "Fasten each side panel using the screws in this tray.",
+          "wordCount": 10,
+          "audioFile": "001_building_bird_nest_boxes/04_fasten_each_side_panel_using_the_screws_in_this_tray.mp3"
+        },
+        {
+          "sentenceNumber": 5,
+          "text": "Attach the front panel with its round entrance hole facing outward.",
+          "wordCount": 11,
+          "audioFile": "001_building_bird_nest_boxes/05_attach_the_front_panel_with_its_round_entrance_hole_facing_outwa.mp3"
+        },
+        {
+          "sentenceNumber": 6,
+          "text": "Check every joint afterward and tighten any screws that still feel slightly loose.",
+          "wordCount": 13,
+          "audioFile": "001_building_bird_nest_boxes/06_check_every_joint_afterward_and_tighten_any_screws_that_still_fe.mp3"
+        },
+        {
+          "sentenceNumber": 7,
+          "text": "Before mounting the nest box, seal the roof edges so rain cannot reach the unfinished wood.",
+          "wordCount": 16,
+          "audioFile": "001_building_bird_nest_boxes/07_before_mounting_the_nest_box_seal_the_roof_edges_so_rain_cannot.mp3"
+        }
+      ]
+    },
+    {
+      "setIndex": 2,
+      "setId": "inspecting-returned-power-drills-001",
+      "setName": "Inspecting Returned Power Drills",
+      "setType": "PROCEDURE",
+      "speakerRole": "Tool Library Supervisor",
+      "folder": "002_inspecting_returned_power_drills",
+      "situationAudio": null,
+      "sentenceAudio": [
+        {
+          "sentenceNumber": 1,
+          "text": "Unplug the drill before inspecting it.",
+          "wordCount": 6,
+          "audioFile": "002_inspecting_returned_power_drills/01_unplug_the_drill_before_inspecting_it.mp3"
+        },
+        {
+          "sentenceNumber": 2,
+          "text": "Remove the battery and place it nearby.",
+          "wordCount": 7,
+          "audioFile": "002_inspecting_returned_power_drills/02_remove_the_battery_and_place_it_nearby.mp3"
+        },
+        {
+          "sentenceNumber": 3,
+          "text": "Check the power cord for cuts or exposed wires.",
+          "wordCount": 9,
+          "audioFile": "002_inspecting_returned_power_drills/03_check_the_power_cord_for_cuts_or_exposed_wires.mp3"
+        },
+        {
+          "sentenceNumber": 4,
+          "text": "Test the trigger and controls without attaching any drill bit.",
+          "wordCount": 10,
+          "audioFile": "002_inspecting_returned_power_drills/04_test_the_trigger_and_controls_without_attaching_any_drill_bit.mp3"
+        },
+        {
+          "sentenceNumber": 5,
+          "text": "Wipe all dust from the handle, vents, and battery compartment carefully.",
+          "wordCount": 11,
+          "audioFile": "002_inspecting_returned_power_drills/05_wipe_all_dust_from_the_handle_vents_and_battery_compartment_care.mp3"
+        },
+        {
+          "sentenceNumber": 6,
+          "text": "Record any damage on the return form and attach the correct service label.",
+          "wordCount": 13,
+          "audioFile": "002_inspecting_returned_power_drills/06_record_any_damage_on_the_return_form_and_attach_the_correct_serv.mp3"
+        },
+        {
+          "sentenceNumber": 7,
+          "text": "If the drill makes an unusual sound, move it to the repair shelf before storing anything else.",
+          "wordCount": 17,
+          "audioFile": "002_inspecting_returned_power_drills/07_if_the_drill_makes_an_unusual_sound_move_it_to_the_repair_shelf.mp3"
+        }
+      ]
+    },
+    {
+      "setIndex": 3,
+      "setId": "restocking-first-aid-kits-001",
+      "setName": "Restocking First-Aid Kits",
+      "setType": "PROCEDURE",
+      "speakerRole": "Safety Coordinator",
+      "folder": "003_restocking_first_aid_kits",
+      "situationAudio": null,
+      "sentenceAudio": [
+        {
+          "sentenceNumber": 1,
+          "text": "Count all sealed bandage packets.",
+          "wordCount": 5,
+          "audioFile": "003_restocking_first_aid_kits/01_count_all_sealed_bandage_packets.mp3"
+        },
+        {
+          "sentenceNumber": 2,
+          "text": "Place the empty kit on this counter.",
+          "wordCount": 7,
+          "audioFile": "003_restocking_first_aid_kits/02_place_the_empty_kit_on_this_counter.mp3"
+        },
+        {
+          "sentenceNumber": 3,
+          "text": "Sort the medical supplies into separate labeled trays.",
+          "wordCount": 8,
+          "audioFile": "003_restocking_first_aid_kits/03_sort_the_medical_supplies_into_separate_labeled_trays.mp3"
+        },
+        {
+          "sentenceNumber": 4,
+          "text": "Check every package for damage or an expired date.",
+          "wordCount": 9,
+          "audioFile": "003_restocking_first_aid_kits/04_check_every_package_for_damage_or_an_expired_date.mp3"
+        },
+        {
+          "sentenceNumber": 5,
+          "text": "Replace missing gloves and bandages from the nearby storage cabinet.",
+          "wordCount": 10,
+          "audioFile": "003_restocking_first_aid_kits/05_replace_missing_gloves_and_bandages_from_the_nearby_storage_cabi.mp3"
+        },
+        {
+          "sentenceNumber": 6,
+          "text": "Record each replaced item on the checklist before sealing the completed first-aid kit.",
+          "wordCount": 13,
+          "audioFile": "003_restocking_first_aid_kits/06_record_each_replaced_item_on_the_checklist_before_sealing_the_co.mp3"
+        },
+        {
+          "sentenceNumber": 7,
+          "text": "If any sterile package is torn, discard it and retrieve a fresh replacement from storage.",
+          "wordCount": 15,
+          "audioFile": "003_restocking_first_aid_kits/07_if_any_sterile_package_is_torn_discard_it_and_retrieve_a_fresh_r.mp3"
+        }
+      ]
+    }
+  ]
+}

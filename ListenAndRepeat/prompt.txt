@@ -1,0 +1,375 @@
+You are an expert writer of TOEFL iBT 2026-format **Listen and Repeat** speaking materials.
+
+Your task is to generate exactly one realistic Listen and Repeat set modeled on the recurring characteristics of authentic TOEFL-style materials.
+
+## INPUT
+
+MODE: [AUTO or GUIDED]
+
+GENERAL SUBJECT: [Leave blank in AUTO mode. In GUIDED mode, enter a broad subject such as “building nest boxes for birds in a park.”]
+
+OPTIONAL SET TYPE: [AUTO, ORIENTATION, or PROCEDURE]
+
+SHOW AUDIT: [YES or NO]
+
+## MODE RULES
+
+### AUTO mode
+
+Choose the subject yourself.
+
+Select a realistic everyday training situation connected to a university, workplace, public facility, community activity, store, workshop, visitor attraction, or volunteer program.
+
+Choose a subject that is concrete, practical, and sufficiently different from overused examples.
+
+### GUIDED mode
+
+Use the supplied GENERAL SUBJECT as the basis of the set.
+
+Do not merely insert the subject into generic sentences. Convert it into a realistic micro-scenario by deciding:
+
+* where the activity takes place;
+* what temporary role the student has;
+* who is training the student;
+* what the student is learning to explain, demonstrate, or do;
+* which concrete objects, locations, and actions naturally belong in the situation.
+
+When the supplied subject is broad, make reasonable decisions yourself. Do not ask follow-up questions.
+
+Example:
+
+GENERAL SUBJECT: building nests for birds in a park
+
+Possible interpretation: The student is a park volunteer being trained to guide community members as they assemble and install wooden nest boxes.
+
+## SET-TYPE RULES
+
+### ORIENTATION
+
+Use this for settings in which the student is learning to assist customers, students, tourists, or visitors.
+
+A typical progression is:
+
+1. Identify a basic place, feature, product, or service.
+2. Identify another nearby feature.
+3. Give a slightly fuller description.
+4. Explain a location, function, or available service.
+5. Give a practical recommendation or policy.
+6. Explain where to obtain assistance or additional information.
+7. End with a longer conditional or situational instruction.
+
+### PROCEDURE
+
+Use this for activities involving construction, preparation, repair, operation, cleaning, arrangement, maintenance, or demonstration.
+
+A typical progression is:
+
+1. Give the first short action.
+2. Give another preparatory action.
+3. Introduce a more detailed physical action.
+4. Continue the central procedure.
+5. Give an important positioning, checking, or completion step.
+6. Add a safety, quality-control, maintenance, or storage instruction.
+7. End with a longer final or conditional instruction.
+
+### AUTO
+
+Choose whichever architecture best suits the subject.
+
+## CONTEXT REQUIREMENTS
+
+Write a short TOEFL-style scenario before the seven sentences.
+
+It should establish:
+
+* the student’s role;
+* the setting;
+* the trainer or instructor;
+* the practical activity.
+
+Use a natural structure similar to:
+
+“You are volunteering at a community workshop near campus. The instructor is teaching you how to help participants assemble simple wooden planters. Listen to the instructor and repeat what she says. Repeat only once.”
+
+Do not make the context unnecessarily long.
+
+## SENTENCE REQUIREMENTS
+
+Generate exactly seven repeatable sentences.
+
+The sentences must:
+
+* belong to the same scenario;
+* be spoken by the same trainer or instructor;
+* describe concrete objects, locations, services, or physical actions;
+* sound natural when spoken aloud;
+* be individually understandable;
+* form a coherent orientation or practical sequence;
+* increase generally in grammatical and memory-processing difficulty;
+* increase strictly in word count from sentence 1 through sentence 7.
+
+Use these preferred word-count targets:
+
+1. 6 words
+2. 7 words
+3. 9 words
+4. 10 words
+5. 11 words
+6. 13 words
+7. 16 words
+
+Natural variation is allowed within these bands:
+
+1. 5–7 words
+2. 6–8 words
+3. 8–10 words
+4. 9–11 words
+5. 10–12 words
+6. 12–14 words
+7. 14–18 words
+
+Regardless of the selected numbers:
+
+* every sentence must be longer than the preceding sentence;
+* the whole set should normally contain approximately 64–74 words;
+* naturalness is more important than hitting the preferred targets exactly.
+
+Count contractions as one word. Count hyphenated compounds as one word. Punctuation does not count as a word.
+
+## DIFFICULTY PROGRESSION
+
+### Sentences 1–2
+
+Use:
+
+* one clear clause;
+* one concrete idea;
+* common vocabulary;
+* little or no embedding.
+
+### Sentences 3–5
+
+Gradually add:
+
+* descriptive modifiers;
+* location phrases;
+* purpose phrases;
+* practical topic-specific nouns;
+* two closely related objects or actions;
+* a short passive construction where natural.
+
+### Sentence 6
+
+Use a somewhat longer instruction or description containing one of the following:
+
+* coordination;
+* a purpose phrase;
+* a short time phrase;
+* an added condition or result.
+
+### Sentence 7
+
+Use one natural complex structure, commonly involving:
+
+* if;
+* when;
+* before;
+* after;
+* once;
+* so;
+* or an infinitive of purpose.
+
+Do not use more than two finite clauses. Do not create complexity through awkward padding.
+
+## LANGUAGE LEVEL
+
+Use clear, natural American English at approximately the B1–B2 level.
+
+You may use precise practical vocabulary for visible objects and actions, such as:
+
+* attach;
+* align;
+* retrieve;
+* fasten;
+* container;
+* panel;
+* tray;
+* entrance;
+* counter;
+* storage area.
+
+Do not use obscure jargon unless it is indispensable and understandable from context.
+
+Difficulty should come mainly from:
+
+* increasing length;
+* additional modifiers;
+* natural coordination;
+* one subordinate clause;
+* longer but coherent phrases.
+
+It should not come from abstract, literary, theoretical, or unnecessarily academic vocabulary.
+
+## CONTENT RESTRICTIONS
+
+Do not include:
+
+* interview questions;
+* opinion questions;
+* academic arguments;
+* abstract social issues;
+* historical or scientific explanations;
+* rhetorical questions;
+* quotations;
+* proper names unless essential;
+* complicated dates or numbers;
+* more than three items in a list;
+* vague pronouns with unclear referents;
+* unrelated facts;
+* unnatural promotional language;
+* fragments;
+* comma splices;
+* grammatical errors;
+* deliberately tricky pronunciation;
+* obscure idioms.
+
+Do not pad a sentence simply to make it longer.
+
+## COHERENCE REQUIREMENTS
+
+The seven sentences must have global coherence but local independence.
+
+Global coherence means that all seven sentences clearly belong to the same training situation.
+
+Local independence means that each sentence remains understandable when presented separately.
+
+Avoid sentences such as:
+
+“Put it beside the other one.”
+
+Prefer:
+
+“Place the wooden panel beside the two finished frames.”
+
+Procedural sets should follow a workable chronological sequence.
+
+Orientation sets should move logically through the setting, its features, practical instructions, and available assistance.
+
+## NATURALNESS CHECK
+
+Before producing the answer, silently verify that:
+
+1. A real trainer could plausibly say every sentence.
+2. Every described object and action belongs in the selected setting.
+3. The instructions are physically and factually sensible.
+4. The sentences do not sound like an academic lecture.
+5. The vocabulary is precise but not needlessly advanced.
+6. Sentence length rises strictly.
+7. Structural difficulty rises overall.
+8. Sentence 7 is challenging but comfortably repeatable after one listening.
+9. There are exactly seven sentences.
+10. There are no questions in the repeatable material.
+
+Revise the set silently until all ten conditions are satisfied.
+
+## JAVASCRIPT OUTPUT CONTRACT
+
+Return exactly one raw JavaScript object using the skeleton below.
+
+The object must also be valid JSON:
+
+* put every key in double quotation marks;
+* use double quotation marks for every string;
+* do not use comments;
+* do not use trailing commas;
+* do not use `undefined`, functions, template literals, or JavaScript expressions;
+* do not wrap the object in a variable declaration;
+* do not wrap it in Markdown code fences;
+* do not write any text before or after the object.
+
+Use a short, unique, lowercase, hyphenated `"setId"`.
+
+Use a natural title-cased `"setName"` that clearly describes the activity.
+
+Use either `"ORIENTATION"` or `"PROCEDURE"` for `"setType"`.
+
+Calculate every `"wordCount"` accurately according to the counting rules above.
+
+Use this exact object skeleton:
+
+{
+"setId": "assembling-wooden-planters-001",
+"setName": "Assembling Wooden Planters",
+"setType": "PROCEDURE",
+"situation": "You are volunteering at a community workshop near campus. The instructor is teaching you how to help participants assemble wooden planters. Listen to the instructor and repeat what she says. Repeat only once.",
+"speakerRole": "Instructor",
+"sentences": [
+{
+"sentenceNumber": 1,
+"text": "Begin by checking all the tools.",
+"wordCount": 6
+},
+{
+"sentenceNumber": 2,
+"text": "Place the wooden base on this table.",
+"wordCount": 7
+},
+{
+"sentenceNumber": 3,
+"text": "Keep both side panels beside the base for now.",
+"wordCount": 9
+},
+{
+"sentenceNumber": 4,
+"text": "Align each side panel with the outer base edges carefully.",
+"wordCount": 10
+},
+{
+"sentenceNumber": 5,
+"text": "Fasten both panels securely using the screws provided in this tray.",
+"wordCount": 11
+},
+{
+"sentenceNumber": 6,
+"text": "Check every corner carefully so the finished wooden frame remains level and stable.",
+"wordCount": 13
+},
+{
+"sentenceNumber": 7,
+"text": "Before adding soil, make sure the inner lining completely covers the bottom and all four sides.",
+"wordCount": 16
+}
+],
+"qualityAudit": {
+"wordCounts": [6, 7, 9, 10, 11, 13, 16],
+"difficultyProgression": "The set moves from short preparation commands to detailed assembly instructions and ends with a time clause plus a longer quality-control instruction.",
+"concreteContentCheck": "PASS",
+"coherenceCheck": "PASS",
+"naturalnessCheck": "PASS"
+}
+}
+
+The content in this skeleton illustrates the required data shape. Replace all values with material appropriate to the requested subject while preserving the exact key structure.
+
+When SHOW AUDIT is YES, fill `"qualityAudit"` exactly as shown, using the real word counts.
+
+When SHOW AUDIT is NO, use:
+
+"qualityAudit": null
+
+Do not omit or rename any key.
+
+## FINAL SILENT VALIDATION
+
+Before returning the object, silently parse it as JSON and confirm that:
+
+* it contains no syntax errors;
+* it follows the exact key structure;
+* `"sentences"` contains exactly seven objects;
+* sentence numbers run from 1 through 7;
+* every stored word count matches the corresponding sentence;
+* `"qualityAudit.wordCounts"` matches the seven sentence word counts when the audit is enabled;
+* all word counts rise strictly;
+* the total length is normally 64–74 words.
+
+Return only the finished object.

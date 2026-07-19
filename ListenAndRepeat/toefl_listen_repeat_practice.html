@@ -1,0 +1,2586 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="light">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <meta name="description" content="Interactive TOEFL Listen and Repeat practice with timed voice recording, saved responses, review tools, and local downloads.">
+  <meta name="color-scheme" content="light">
+  <title>TOEFL Listen &amp; Repeat Practice | Kooshky’s TOEFL Guides</title>
+
+  <script>
+    (() => {
+      try {
+        const savedTheme = localStorage.getItem("kooshky-guides:theme:v1");
+        if (savedTheme === "dark" || savedTheme === "light") {
+          document.documentElement.dataset.theme = savedTheme;
+          document.querySelector('meta[name="color-scheme"]')?.setAttribute("content", savedTheme);
+        }
+      } catch (_) {}
+    })();
+  </script>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@400;500;600;700&family=Literata:opsz,wght@7..72,600;7..72,700&display=swap" rel="stylesheet">
+
+  <style>
+    /* =========================
+       Design tokens
+       ========================= */
+    :root {
+      --font-heading: "Literata", Georgia, "Times New Roman", serif;
+      --font-body: "IBM Plex Sans", Inter, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+
+      --color-page: #F4F0E8;
+      --color-surface: #FCFAF6;
+      --color-text: #182027;
+      --color-text-muted: #59636C;
+      --color-border: #D7D0C3;
+      --color-accent: #A9470D;
+      --color-accent-secondary: #1E5B63;
+      --color-accent-soft: #F3E2D3;
+      --color-secondary-soft: #DDEAE8;
+      --color-success: #2F6A4F;
+      --color-success-soft: #E0EEE5;
+      --color-danger: #8A3127;
+      --color-danger-soft: #F3DFDB;
+      --color-overlay: rgb(24 32 39 / 0.56);
+
+      --space-1: 0.25rem;
+      --space-2: 0.5rem;
+      --space-3: 0.75rem;
+      --space-4: 1rem;
+      --space-5: 1.5rem;
+      --space-6: 2rem;
+      --space-7: 3rem;
+      --space-8: 4.5rem;
+
+      --radius-small: 4px;
+      --radius-medium: 6px;
+      --radius-large: 10px;
+
+      --shadow-small: 0 8px 24px rgb(24 32 39 / 0.08);
+      --header-height: 4.25rem;
+
+      --z-header: 100;
+      --z-floating-control: 200;
+      --z-toast: 300;
+      --z-dialog-backdrop: 400;
+      --z-dialog: 410;
+    }
+
+    html[data-theme="dark"] {
+      --color-page: #111417;
+      --color-surface: #181D21;
+      --color-text: #ECE7DD;
+      --color-text-muted: #ADB4B8;
+      --color-border: #30383E;
+      --color-accent: #F28C45;
+      --color-accent-secondary: #70B7B4;
+      --color-accent-soft: #332219;
+      --color-secondary-soft: #193033;
+      --color-success: #83C6A4;
+      --color-success-soft: #183127;
+      --color-danger: #F1A095;
+      --color-danger-soft: #3A201D;
+      --color-overlay: rgb(0 0 0 / 0.66);
+      --shadow-small: 0 8px 24px rgb(0 0 0 / 0.24);
+    }
+
+    /* =========================
+       Base
+       ========================= */
+    *,
+    *::before,
+    *::after {
+      box-sizing: border-box;
+    }
+
+    html {
+      min-width: 0;
+      scroll-behavior: smooth;
+      background: var(--color-page);
+    }
+
+    body {
+      min-width: 0;
+      min-height: 100vh;
+      margin: 0;
+      overflow-x: hidden;
+      background:
+        linear-gradient(to bottom, color-mix(in srgb, var(--color-accent-soft) 32%, transparent), transparent 14rem),
+        var(--color-page);
+      color: var(--color-text);
+      font-family: var(--font-body);
+      line-height: 1.58;
+      text-rendering: optimizeLegibility;
+    }
+
+    button,
+    input,
+    select {
+      font: inherit;
+    }
+
+    button,
+    a {
+      -webkit-tap-highlight-color: transparent;
+    }
+
+    button {
+      color: inherit;
+    }
+
+    a {
+      color: var(--color-accent-secondary);
+      text-underline-offset: 0.18em;
+      overflow-wrap: anywhere;
+    }
+
+    img,
+    svg,
+    audio {
+      max-width: 100%;
+    }
+
+    audio {
+      width: 100%;
+    }
+
+    [hidden] {
+      display: none !important;
+    }
+
+    :focus-visible {
+      outline: 3px solid color-mix(in srgb, var(--color-accent-secondary) 72%, white);
+      outline-offset: 3px;
+    }
+
+    .skip-link {
+      position: fixed;
+      top: var(--space-3);
+      left: var(--space-3);
+      z-index: calc(var(--z-header) + 20);
+      transform: translateY(-200%);
+      padding: var(--space-3) var(--space-4);
+      border: 1px solid var(--color-border);
+      border-radius: var(--radius-medium);
+      background: var(--color-surface);
+      color: var(--color-text);
+      font-weight: 700;
+    }
+
+    .skip-link:focus,
+    .skip-link:focus-visible {
+      transform: translateY(0);
+    }
+
+    .sr-only {
+      position: absolute !important;
+      width: 1px !important;
+      height: 1px !important;
+      padding: 0 !important;
+      margin: -1px !important;
+      overflow: hidden !important;
+      clip: rect(0, 0, 0, 0) !important;
+      white-space: nowrap !important;
+      border: 0 !important;
+    }
+
+    /* =========================
+       Header
+       ========================= */
+    .site-header {
+      position: sticky;
+      top: 0;
+      z-index: var(--z-header);
+      min-height: var(--header-height);
+      border-bottom: 1px solid color-mix(in srgb, var(--color-border) 80%, transparent);
+      background: color-mix(in srgb, var(--color-page) 92%, transparent);
+      backdrop-filter: blur(12px);
+    }
+
+    .header-inner {
+      width: min(1180px, calc(100% - 2rem));
+      min-height: var(--header-height);
+      margin-inline: auto;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: var(--space-4);
+    }
+
+    .brand-link {
+      min-width: 0;
+      display: inline-flex;
+      align-items: center;
+      gap: var(--space-3);
+      color: var(--color-text);
+      text-decoration: none;
+    }
+
+    .brand-mark {
+      width: 0.42rem;
+      height: 2rem;
+      flex: 0 0 auto;
+      background: var(--color-accent);
+    }
+
+    .brand-text {
+      min-width: 0;
+      font-family: var(--font-heading);
+      font-weight: 700;
+      line-height: 1.12;
+    }
+
+    .header-actions {
+      display: flex;
+      align-items: center;
+      gap: var(--space-2);
+    }
+
+    .home-link {
+      color: var(--color-text-muted);
+      font-weight: 700;
+      text-decoration: none;
+    }
+
+    /* =========================
+       Buttons
+       ========================= */
+    .button {
+      min-height: 2.75rem;
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      gap: var(--space-2);
+      padding: 0.68rem 1rem;
+      border: 1px solid transparent;
+      border-radius: var(--radius-medium);
+      background: var(--color-accent);
+      color: #fff;
+      font-weight: 700;
+      line-height: 1.2;
+      text-align: center;
+      text-decoration: none;
+      cursor: pointer;
+      transition: background-color 180ms ease, border-color 180ms ease, transform 180ms ease;
+    }
+
+    html[data-theme="dark"] .button {
+      color: #1A130E;
+    }
+
+    .button:hover:not(:disabled) {
+      background: color-mix(in srgb, var(--color-accent) 88%, black);
+    }
+
+    html[data-theme="dark"] .button:hover:not(:disabled) {
+      background: color-mix(in srgb, var(--color-accent) 88%, white);
+    }
+
+    .button:active:not(:disabled) {
+      transform: translateY(1px);
+    }
+
+    .button:disabled {
+      cursor: not-allowed;
+      opacity: 0.52;
+    }
+
+    .button--secondary {
+      border-color: var(--color-accent-secondary);
+      background: var(--color-secondary-soft);
+      color: var(--color-accent-secondary);
+    }
+
+    .button--secondary:hover:not(:disabled) {
+      background: color-mix(in srgb, var(--color-secondary-soft) 80%, var(--color-accent-secondary));
+      color: var(--color-text);
+    }
+
+    .button--neutral {
+      border-color: var(--color-border);
+      background: var(--color-surface);
+      color: var(--color-text);
+    }
+
+    .button--neutral:hover:not(:disabled) {
+      background: color-mix(in srgb, var(--color-surface) 84%, var(--color-border));
+    }
+
+    .button--danger {
+      border-color: var(--color-danger);
+      background: var(--color-danger-soft);
+      color: var(--color-danger);
+    }
+
+    .button--compact {
+      min-height: 2.35rem;
+      padding: 0.5rem 0.75rem;
+      font-size: 0.92rem;
+    }
+
+    .icon-button {
+      width: 2.75rem;
+      height: 2.75rem;
+      display: inline-grid;
+      place-items: center;
+      padding: 0;
+      border: 1px solid var(--color-border);
+      border-radius: var(--radius-medium);
+      background: var(--color-surface);
+      color: var(--color-text);
+      cursor: pointer;
+    }
+
+    .icon-button svg,
+    .button svg {
+      width: 1.15rem;
+      height: 1.15rem;
+      flex: 0 0 auto;
+    }
+
+    /* =========================
+       Layout
+       ========================= */
+    .app-shell {
+      width: min(1040px, calc(100% - 2rem));
+      margin-inline: auto;
+      padding-block: clamp(1.5rem, 3vw, 3rem) var(--space-8);
+    }
+
+    .view {
+      animation: view-in 180ms ease both;
+    }
+
+    @keyframes view-in {
+      from {
+        opacity: 0;
+        transform: translateY(4px);
+      }
+      to {
+        opacity: 1;
+        transform: translateY(0);
+      }
+    }
+
+    .section-label {
+      margin: 0 0 var(--space-2);
+      color: var(--color-accent);
+      font-size: 0.76rem;
+      font-weight: 800;
+      letter-spacing: 0.12em;
+      text-transform: uppercase;
+    }
+
+    h1,
+    h2,
+    h3 {
+      margin-top: 0;
+      color: var(--color-text);
+      font-family: var(--font-heading);
+      line-height: 1.15;
+      overflow-wrap: anywhere;
+    }
+
+    h1 {
+      margin-bottom: var(--space-3);
+      font-size: clamp(1.75rem, 3.6vw, 2.8rem);
+    }
+
+    h2 {
+      font-size: clamp(1.35rem, 2.6vw, 2rem);
+    }
+
+    h3 {
+      font-size: clamp(1.08rem, 2vw, 1.35rem);
+    }
+
+    .lede {
+      max-width: 70ch;
+      margin: 0;
+      color: var(--color-text-muted);
+      font-size: clamp(1rem, 1.3vw, 1.1rem);
+    }
+
+    .masthead {
+      position: relative;
+      padding: clamp(1.25rem, 3vw, 2rem);
+      border: 1px solid var(--color-border);
+      border-left: 6px solid var(--color-accent);
+      border-radius: var(--radius-medium);
+      background: var(--color-surface);
+    }
+
+    .masthead::after {
+      content: "";
+      position: absolute;
+      inset: auto 1.25rem 0;
+      height: 3px;
+      background: linear-gradient(
+        90deg,
+        var(--color-accent) 0 35%,
+        var(--color-accent-secondary) 35% 58%,
+        transparent 58%
+      );
+    }
+
+    .masthead-actions {
+      margin-top: var(--space-5);
+      display: flex;
+      flex-wrap: wrap;
+      gap: var(--space-3);
+    }
+
+    .promotion-note {
+      margin-top: var(--space-5);
+      padding: var(--space-4);
+      border-left: 4px solid var(--color-accent-secondary);
+      background: var(--color-secondary-soft);
+      color: var(--color-text);
+    }
+
+    .promotion-note p {
+      margin: 0;
+    }
+
+    .promotion-links {
+      margin-top: var(--space-2);
+      display: flex;
+      flex-wrap: wrap;
+      gap: var(--space-3);
+      font-weight: 700;
+    }
+
+    .panel {
+      margin-top: var(--space-6);
+      border: 1px solid var(--color-border);
+      border-radius: var(--radius-medium);
+      background: var(--color-surface);
+    }
+
+    .panel-header {
+      padding: var(--space-4) var(--space-5);
+      border-bottom: 1px solid var(--color-border);
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: var(--space-4);
+      flex-wrap: wrap;
+    }
+
+    .panel-header h2,
+    .panel-header h3 {
+      margin: 0;
+    }
+
+    .panel-body {
+      padding: var(--space-5);
+    }
+
+    .toolbar {
+      display: flex;
+      flex-wrap: wrap;
+      gap: var(--space-3);
+      align-items: center;
+    }
+
+    .status-line {
+      min-height: 1.5em;
+      color: var(--color-text-muted);
+      font-size: 0.95rem;
+    }
+
+    /* =========================
+       Set list
+       ========================= */
+    .set-list {
+      display: grid;
+      gap: var(--space-3);
+    }
+
+    .set-card {
+      min-width: 0;
+      display: grid;
+      grid-template-columns: minmax(0, 1fr) auto;
+      gap: var(--space-4);
+      align-items: center;
+      padding: var(--space-4);
+      border: 1px solid var(--color-border);
+      border-left: 5px solid var(--color-border);
+      border-radius: var(--radius-medium);
+      background: var(--color-page);
+    }
+
+    .set-card[data-complete="true"] {
+      border-left-color: var(--color-success);
+      background: var(--color-success-soft);
+    }
+
+    .set-card-main {
+      min-width: 0;
+    }
+
+    .set-card-title {
+      margin: 0 0 var(--space-1);
+      font-family: var(--font-heading);
+      font-size: 1.08rem;
+      font-weight: 700;
+      overflow-wrap: anywhere;
+    }
+
+    .set-card-meta {
+      display: flex;
+      flex-wrap: wrap;
+      gap: var(--space-2) var(--space-3);
+      color: var(--color-text-muted);
+      font-size: 0.9rem;
+    }
+
+    .set-status {
+      display: inline-flex;
+      align-items: center;
+      gap: var(--space-1);
+      font-weight: 800;
+    }
+
+    .set-card[data-complete="true"] .set-status {
+      color: var(--color-success);
+    }
+
+    .set-actions {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: flex-end;
+      gap: var(--space-2);
+    }
+
+    /* =========================
+       Exercise
+       ========================= */
+    .exercise-head {
+      display: grid;
+      gap: var(--space-4);
+    }
+
+    .exercise-nav {
+      display: flex;
+      justify-content: space-between;
+      gap: var(--space-3);
+      flex-wrap: wrap;
+    }
+
+    .progress-track {
+      height: 0.5rem;
+      overflow: hidden;
+      border-radius: var(--radius-small);
+      background: var(--color-border);
+    }
+
+    .progress-fill {
+      width: 0%;
+      height: 100%;
+      background: var(--color-accent-secondary);
+      transition: width 180ms ease;
+    }
+
+    .exercise-stage {
+      min-height: 26rem;
+      margin-top: var(--space-5);
+      padding: clamp(1.25rem, 4vw, 2.5rem);
+      border: 1px solid var(--color-border);
+      border-top: 6px solid var(--color-accent-secondary);
+      border-radius: var(--radius-medium);
+      background: var(--color-surface);
+      display: grid;
+      align-content: center;
+      gap: var(--space-5);
+      text-align: center;
+    }
+
+    .stage-label {
+      color: var(--color-text-muted);
+      font-weight: 800;
+      letter-spacing: 0.08em;
+      text-transform: uppercase;
+    }
+
+    .stage-icon {
+      width: 4.75rem;
+      height: 4.75rem;
+      margin-inline: auto;
+      display: grid;
+      place-items: center;
+      border: 1px solid var(--color-border);
+      border-radius: 50%;
+      background: var(--color-secondary-soft);
+      color: var(--color-accent-secondary);
+    }
+
+    .stage-icon[data-state="recording"] {
+      border-color: var(--color-accent);
+      background: var(--color-accent-soft);
+      color: var(--color-accent);
+    }
+
+    .stage-icon svg {
+      width: 2.2rem;
+      height: 2.2rem;
+    }
+
+    .countdown-wrap {
+      width: min(16rem, 76vw);
+      aspect-ratio: 1;
+      margin-inline: auto;
+      position: relative;
+      display: grid;
+      place-items: center;
+    }
+
+    .countdown-ring {
+      width: 100%;
+      height: 100%;
+      transform: rotate(-90deg);
+    }
+
+    .countdown-ring circle {
+      fill: none;
+      stroke-width: 10;
+    }
+
+    .countdown-ring-bg {
+      stroke: var(--color-border);
+    }
+
+    .countdown-ring-value {
+      stroke: var(--color-accent);
+      stroke-linecap: round;
+      transition: stroke-dashoffset 100ms linear;
+    }
+
+    .countdown-number {
+      position: absolute;
+      display: grid;
+      place-items: center;
+      font-family: var(--font-heading);
+      font-size: clamp(3rem, 12vw, 5.2rem);
+      font-weight: 700;
+      line-height: 1;
+    }
+
+    .countdown-caption {
+      display: block;
+      margin-top: var(--space-2);
+      color: var(--color-text-muted);
+      font-family: var(--font-body);
+      font-size: 0.85rem;
+      font-weight: 800;
+      letter-spacing: 0.08em;
+      text-transform: uppercase;
+    }
+
+    .transcript-box {
+      max-width: 68ch;
+      margin-inline: auto;
+      padding: var(--space-4);
+      border-left: 4px solid var(--color-accent-secondary);
+      background: var(--color-secondary-soft);
+      color: var(--color-text);
+      font-size: clamp(1.02rem, 2vw, 1.2rem);
+      text-align: left;
+    }
+
+    .stage-actions {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: var(--space-3);
+    }
+
+    .permission-note {
+      max-width: 60ch;
+      margin-inline: auto;
+      color: var(--color-text-muted);
+      font-size: 0.93rem;
+    }
+
+    .live-dot {
+      width: 0.72rem;
+      height: 0.72rem;
+      display: inline-block;
+      border-radius: 50%;
+      background: var(--color-accent);
+    }
+
+    /* =========================
+       Review
+       ========================= */
+    .review-summary {
+      display: grid;
+      grid-template-columns: minmax(0, 1fr) auto;
+      gap: var(--space-4);
+      align-items: start;
+    }
+
+    .review-list {
+      margin-top: var(--space-5);
+      display: grid;
+      gap: var(--space-4);
+    }
+
+    .review-item {
+      min-width: 0;
+      padding: var(--space-5);
+      border: 1px solid var(--color-border);
+      border-left: 5px solid var(--color-accent-secondary);
+      border-radius: var(--radius-medium);
+      background: var(--color-surface);
+    }
+
+    .review-item-number {
+      margin: 0 0 var(--space-2);
+      color: var(--color-accent);
+      font-size: 0.78rem;
+      font-weight: 800;
+      letter-spacing: 0.1em;
+      text-transform: uppercase;
+    }
+
+    .review-sentence {
+      margin: 0 0 var(--space-4);
+      font-family: var(--font-heading);
+      font-size: clamp(1.05rem, 2vw, 1.25rem);
+      line-height: 1.42;
+    }
+
+    .audio-grid {
+      display: grid;
+      grid-template-columns: repeat(2, minmax(0, 1fr));
+      gap: var(--space-4);
+    }
+
+    .audio-block {
+      min-width: 0;
+      padding: var(--space-4);
+      border: 1px solid var(--color-border);
+      border-radius: var(--radius-small);
+      background: var(--color-page);
+    }
+
+    .audio-block h4 {
+      margin: 0 0 var(--space-3);
+      color: var(--color-text-muted);
+      font-size: 0.82rem;
+      letter-spacing: 0.08em;
+      text-transform: uppercase;
+    }
+
+    .missing-recording {
+      min-height: 3.4rem;
+      display: flex;
+      align-items: center;
+      color: var(--color-text-muted);
+      font-style: italic;
+    }
+
+    .download-row {
+      margin-top: var(--space-3);
+      display: flex;
+      flex-wrap: wrap;
+      gap: var(--space-2);
+    }
+
+    /* =========================
+       Dialog, toast, footer
+       ========================= */
+    .dialog-backdrop {
+      position: fixed;
+      inset: 0;
+      z-index: var(--z-dialog-backdrop);
+      display: grid;
+      place-items: center;
+      padding:
+        max(var(--space-4), env(safe-area-inset-top))
+        max(var(--space-4), env(safe-area-inset-right))
+        max(var(--space-4), env(safe-area-inset-bottom))
+        max(var(--space-4), env(safe-area-inset-left));
+      background: var(--color-overlay);
+    }
+
+    .dialog {
+      z-index: var(--z-dialog);
+      width: min(34rem, 100%);
+      max-height: min(42rem, 86vh);
+      overflow: auto;
+      padding: var(--space-5);
+      border: 1px solid var(--color-border);
+      border-top: 6px solid var(--color-accent);
+      border-radius: var(--radius-large);
+      background: var(--color-surface);
+      box-shadow: var(--shadow-small);
+    }
+
+    .dialog h2 {
+      margin-bottom: var(--space-3);
+    }
+
+    .dialog-actions {
+      margin-top: var(--space-5);
+      display: flex;
+      justify-content: flex-end;
+      flex-wrap: wrap;
+      gap: var(--space-3);
+    }
+
+    .toast-region {
+      position: fixed;
+      right: max(var(--space-4), env(safe-area-inset-right));
+      bottom: max(var(--space-4), env(safe-area-inset-bottom));
+      z-index: var(--z-toast);
+      width: min(24rem, calc(100vw - 2rem));
+      display: grid;
+      gap: var(--space-2);
+      pointer-events: none;
+    }
+
+    .toast {
+      padding: var(--space-3) var(--space-4);
+      border: 1px solid var(--color-border);
+      border-left: 5px solid var(--color-accent-secondary);
+      border-radius: var(--radius-medium);
+      background: var(--color-surface);
+      box-shadow: var(--shadow-small);
+      color: var(--color-text);
+      animation: toast-in 180ms ease both;
+    }
+
+    .toast--error {
+      border-left-color: var(--color-danger);
+    }
+
+    @keyframes toast-in {
+      from {
+        opacity: 0;
+        transform: translateY(6px);
+      }
+      to {
+        opacity: 1;
+        transform: translateY(0);
+      }
+    }
+
+    .site-footer {
+      border-top: 1px solid var(--color-border);
+      background: var(--color-surface);
+    }
+
+    .footer-inner {
+      width: min(1040px, calc(100% - 2rem));
+      margin-inline: auto;
+      padding-block: var(--space-6);
+      display: grid;
+      grid-template-columns: minmax(0, 1fr) auto;
+      gap: var(--space-5);
+      align-items: start;
+    }
+
+    .footer-title {
+      margin: 0 0 var(--space-1);
+      font-family: var(--font-heading);
+      font-weight: 700;
+    }
+
+    .footer-copy {
+      margin: 0;
+      color: var(--color-text-muted);
+      font-size: 0.92rem;
+    }
+
+    .footer-links {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: flex-end;
+      gap: var(--space-3);
+      font-weight: 700;
+    }
+
+    /* =========================
+       Responsive
+       ========================= */
+    @media (max-width: 760px) {
+      :root {
+        --header-height: 3.9rem;
+      }
+
+      .header-inner,
+      .app-shell,
+      .footer-inner {
+        width: min(100% - 1.25rem, 1040px);
+      }
+
+      .home-link {
+        display: none;
+      }
+
+      .set-card,
+      .review-summary,
+      .footer-inner {
+        grid-template-columns: 1fr;
+      }
+
+      .set-actions,
+      .footer-links {
+        justify-content: flex-start;
+      }
+
+      .set-actions .button {
+        flex: 1 1 9rem;
+      }
+
+      .audio-grid {
+        grid-template-columns: 1fr;
+      }
+
+      .exercise-stage {
+        min-height: 23rem;
+        padding-inline: var(--space-4);
+      }
+
+      .panel-header,
+      .panel-body,
+      .review-item {
+        padding-inline: var(--space-4);
+      }
+
+      .masthead-actions .button {
+        flex: 1 1 100%;
+      }
+    }
+
+    @media (max-width: 420px) {
+      .brand-text {
+        font-size: 0.92rem;
+      }
+
+      .header-actions {
+        gap: var(--space-1);
+      }
+
+      .button {
+        width: 100%;
+      }
+
+      .header-actions .icon-button {
+        width: 2.55rem;
+        height: 2.55rem;
+      }
+
+      .set-actions {
+        display: grid;
+        grid-template-columns: 1fr;
+      }
+
+      .exercise-nav .button,
+      .stage-actions .button,
+      .download-row .button,
+      .dialog-actions .button {
+        width: 100%;
+      }
+    }
+
+    @media (prefers-reduced-motion: reduce) {
+      html {
+        scroll-behavior: auto;
+      }
+
+      *,
+      *::before,
+      *::after {
+        animation-duration: 0.01ms !important;
+        animation-iteration-count: 1 !important;
+        transition-duration: 0.01ms !important;
+      }
+    }
+  </style>
+</head>
+
+<body>
+  <a class="skip-link" href="#appMain">Skip to practice</a>
+
+  <header class="site-header">
+    <div class="header-inner">
+      <a class="brand-link" id="brandHomeLink" href="/" aria-label="Kooshky’s TOEFL Guides home">
+        <span class="brand-mark" aria-hidden="true"></span>
+        <span class="brand-text">Kooshky’s TOEFL Guides</span>
+      </a>
+
+      <nav class="header-actions" aria-label="Primary navigation">
+        <a class="home-link" id="textHomeLink" href="/">Home</a>
+        <button class="icon-button" id="themeToggle" type="button" aria-label="Switch to dark theme" aria-pressed="false">
+          <svg id="themeIconSun" viewBox="0 0 24 24" aria-hidden="true">
+            <circle cx="12" cy="12" r="4" fill="none" stroke="currentColor" stroke-width="2"></circle>
+            <path d="M12 2v2M12 20v2M4.93 4.93l1.41 1.41M17.66 17.66l1.41 1.41M2 12h2M20 12h2M4.93 19.07l1.41-1.41M17.66 6.34l1.41-1.41" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"></path>
+          </svg>
+          <svg id="themeIconMoon" viewBox="0 0 24 24" aria-hidden="true" hidden>
+            <path d="M20.5 15.5A8.5 8.5 0 0 1 8.5 3.5 8.5 8.5 0 1 0 20.5 15.5Z" fill="none" stroke="currentColor" stroke-width="2" stroke-linejoin="round"></path>
+          </svg>
+        </button>
+      </nav>
+    </div>
+  </header>
+
+  <main class="app-shell" id="appMain" tabindex="-1">
+    <section class="view" id="menuView" aria-labelledby="appTitle">
+      <div class="masthead">
+        <p class="section-label">TOEFL 2026 Speaking Practice</p>
+        <h1 id="appTitle">Listen &amp; Repeat</h1>
+        <p class="lede">
+          Hear each sentence once, wait for the beep, and repeat it into your microphone.
+          Your latest response to every sentence is stored in this browser for later review.
+        </p>
+
+        <div class="masthead-actions">
+          <button class="button" id="toggleSetListButton" type="button" aria-expanded="false" aria-controls="setListPanel">
+            Show practice sets
+          </button>
+          <button class="button button--secondary" id="downloadAllButton" type="button">
+            Download all recordings
+          </button>
+        </div>
+
+        <div class="promotion-note js-promotion">
+          <p>
+            Find more TOEFL lessons and practice material from Amir Kooshky on Telegram and Instagram.
+          </p>
+          <div class="promotion-links">
+            <a href="https://telegram.me/KooshkyTOEFL" target="_blank" rel="noopener noreferrer">Telegram channel</a>
+            <a href="https://instagram.com/kooshkytoefl" target="_blank" rel="noopener noreferrer">Instagram</a>
+            <a href="https://telegram.me/kooshkyTOEFL_pv" target="_blank" rel="noopener noreferrer">Personal Telegram DM</a>
+          </div>
+        </div>
+      </div>
+
+      <section class="panel" id="setListPanel" hidden aria-labelledby="setListTitle">
+        <div class="panel-header">
+          <div>
+            <p class="section-label">Practice Library</p>
+            <h2 id="setListTitle">Choose a set</h2>
+          </div>
+          <p class="status-line" id="libraryStatus" aria-live="polite"></p>
+        </div>
+        <div class="panel-body">
+          <div class="set-list" id="setList"></div>
+        </div>
+      </section>
+
+      <section class="panel" id="loadErrorPanel" hidden aria-labelledby="loadErrorTitle">
+        <div class="panel-header">
+          <h2 id="loadErrorTitle">The practice data could not be loaded</h2>
+        </div>
+        <div class="panel-body">
+          <p id="loadErrorMessage"></p>
+          <p>
+            Keep this HTML file beside <code>listen_repeat_sets.js</code>, and make sure that file defines
+            <code>const listenAndRepeatSets = [...]</code>.
+          </p>
+        </div>
+      </section>
+    </section>
+
+    <section class="view" id="exerciseView" hidden aria-labelledby="exerciseTitle">
+      <div class="exercise-head">
+        <div class="exercise-nav">
+          <button class="button button--neutral" id="exerciseBackButton" type="button">← All sets</button>
+          <button class="button button--secondary" id="exerciseReviewButton" type="button">Review saved responses</button>
+        </div>
+
+        <div>
+          <p class="section-label" id="exerciseSetType">Procedure</p>
+          <h1 id="exerciseTitle">Practice set</h1>
+          <p class="lede" id="exerciseSituation"></p>
+        </div>
+
+        <div>
+          <div class="set-card-meta">
+            <span id="exerciseProgressText">Sentence 1 of 7</span>
+            <span id="exerciseSaveState">Responses are saved in this browser.</span>
+          </div>
+          <div class="progress-track" aria-hidden="true">
+            <div class="progress-fill" id="exerciseProgressFill"></div>
+          </div>
+        </div>
+      </div>
+
+      <section class="exercise-stage" id="exerciseStage" aria-live="polite">
+        <p class="stage-label" id="stageLabel">Ready to begin</p>
+
+        <div class="stage-icon" id="stageIcon" data-state="ready" aria-hidden="true">
+          <svg id="speakerIcon" viewBox="0 0 24 24">
+            <path d="M5 9v6h4l5 4V5L9 9H5Z" fill="none" stroke="currentColor" stroke-width="2" stroke-linejoin="round"></path>
+            <path d="M17 9a4 4 0 0 1 0 6M19.5 6.5a8 8 0 0 1 0 11" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"></path>
+          </svg>
+          <svg id="microphoneIcon" viewBox="0 0 24 24" hidden>
+            <rect x="8" y="3" width="8" height="12" rx="4" fill="none" stroke="currentColor" stroke-width="2"></rect>
+            <path d="M5 11a7 7 0 0 0 14 0M12 18v3M8 21h8" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"></path>
+          </svg>
+          <svg id="checkIcon" viewBox="0 0 24 24" hidden>
+            <path d="m5 12 4 4L19 6" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"></path>
+          </svg>
+        </div>
+
+        <div id="countdownPanel" hidden>
+          <div class="countdown-wrap" aria-hidden="true">
+            <svg class="countdown-ring" viewBox="0 0 120 120" aria-hidden="true">
+              <circle class="countdown-ring-bg" cx="60" cy="60" r="52"></circle>
+              <circle class="countdown-ring-value" id="countdownRingValue" cx="60" cy="60" r="52"></circle>
+            </svg>
+            <div class="countdown-number">
+              <span id="countdownNumber">15</span>
+              <span class="countdown-caption">seconds</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="transcript-box" id="transcriptBox" hidden>
+          <strong>Transcript:</strong>
+          <span id="transcriptText"></span>
+        </div>
+
+        <p class="permission-note" id="stageMessage">
+          Select Start Exercise. Your browser will ask for microphone permission before the first sentence.
+        </p>
+
+        <div class="stage-actions">
+          <button class="button" id="startExerciseButton" type="button">Start exercise</button>
+          <button class="button button--danger" id="stopRecordingButton" type="button" hidden>Finish recording early</button>
+          <button class="button button--neutral" id="toggleTranscriptButton" type="button" aria-expanded="false">
+            Show transcript
+          </button>
+          <button class="button button--secondary" id="retrySentenceButton" type="button" hidden>
+            Record this sentence again
+          </button>
+          <button class="button" id="continueButton" type="button" hidden>
+            Continue
+          </button>
+        </div>
+      </section>
+    </section>
+
+    <section class="view" id="reviewView" hidden aria-labelledby="reviewTitle">
+      <div class="review-summary">
+        <div>
+          <p class="section-label">Saved Response Review</p>
+          <h1 id="reviewTitle">Review set</h1>
+          <p class="lede" id="reviewSituation"></p>
+        </div>
+        <div class="toolbar">
+          <button class="button button--neutral" id="reviewBackButton" type="button">← All sets</button>
+          <button class="button" id="reviewPracticeButton" type="button">Practice this set</button>
+          <button class="button button--secondary" id="downloadSetButton" type="button">Download this set</button>
+        </div>
+      </div>
+
+      <div class="promotion-note js-promotion">
+        <p>
+          For more TOEFL practice, visit Kooshky’s TOEFL Guides on
+          <a href="https://telegram.me/KooshkyTOEFL" target="_blank" rel="noopener noreferrer">Telegram</a>
+          and
+          <a href="https://instagram.com/kooshkytoefl" target="_blank" rel="noopener noreferrer">Instagram</a>.
+        </p>
+      </div>
+
+      <div class="review-list" id="reviewList"></div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="footer-inner">
+      <div>
+        <p class="footer-title">Kooshky’s TOEFL Guides</p>
+        <p class="footer-copy">Collected and compiled by Amir Kooshky.</p>
+      </div>
+      <nav class="footer-links js-promotion" aria-label="Social links">
+        <a href="https://telegram.me/KooshkyTOEFL" target="_blank" rel="noopener noreferrer">Telegram</a>
+        <a href="https://instagram.com/kooshkytoefl" target="_blank" rel="noopener noreferrer">Instagram</a>
+        <a href="https://telegram.me/kooshkyTOEFL_pv" target="_blank" rel="noopener noreferrer">DM</a>
+      </nav>
+    </div>
+  </footer>
+
+  <div class="toast-region" id="toastRegion" aria-live="polite" aria-atomic="true"></div>
+
+  <div class="dialog-backdrop" id="confirmDialogBackdrop" hidden>
+    <section class="dialog" role="dialog" aria-modal="true" aria-labelledby="confirmDialogTitle" aria-describedby="confirmDialogText">
+      <h2 id="confirmDialogTitle">Leave this exercise?</h2>
+      <p id="confirmDialogText">Your completed recordings are already saved. The current recording will be discarded.</p>
+      <div class="dialog-actions">
+        <button class="button button--neutral" id="confirmStayButton" type="button">Stay here</button>
+        <button class="button button--danger" id="confirmLeaveButton" type="button">Leave exercise</button>
+      </div>
+    </section>
+  </div>
+
+  <!--
+    Keep this file beside listen_repeat_sets.js.
+
+    Audio directories supported by default:
+      1. liste_repeat_audio
+      2. listen_repeat_audio
+
+    Put beep.mp3 in the root of either audio directory. If it is missing,
+    the app generates a short electronic beep in the browser.
+
+    To remove promotional links and invitations, change
+    SHOW_PROMOTION_LINKS from true to false in APP_CONFIG below.
+  -->
+  <script src="listen_repeat_sets.js"></script>
+  <script>
+    (() => {
+      "use strict";
+
+      /* =========================
+         App configuration
+         ========================= */
+      const APP_CONFIG = Object.freeze({
+        SHOW_PROMOTION_LINKS: true,
+        AUDIO_DIRECTORY_CANDIDATES: ["liste_repeat_audio", "listen_repeat_audio"],
+        BEEP_FILENAME: "beep.mp3",
+        RECORDING_SECONDS: 15,
+        DATABASE_NAME: "kooshky-listen-repeat-recordings-v1",
+        DATABASE_VERSION: 1,
+        RECORDING_STORE: "recordings",
+        THEME_KEY: "kooshky-guides:theme:v1",
+        AUTO_CONTINUE_SECONDS: 2
+      });
+
+      const state = {
+        sets: [],
+        currentSetIndex: -1,
+        currentSentenceIndex: 0,
+        completedSetIds: new Set(),
+        recordingsByKey: new Map(),
+        database: null,
+        mediaStream: null,
+        mediaRecorder: null,
+        mediaChunks: [],
+        recordingStartedAt: 0,
+        recordingTimer: null,
+        countdownAnimationFrame: null,
+        autoContinueTimer: null,
+        discardCurrentRecording: false,
+        sequenceToken: 0,
+        isSequenceActive: false,
+        isAdvancing: false,
+        isRecording: false,
+        isPlayingPrompt: false,
+        transcriptVisible: false,
+        resolvedAudioDirectory: null,
+        currentPromptAudio: null,
+        currentReviewUrls: [],
+        pendingLeaveAction: null,
+        lastFocusedElement: null
+      };
+
+      const elements = {};
+
+      /* =========================
+         General helpers
+         ========================= */
+      function cacheElements() {
+        [
+          "menuView", "exerciseView", "reviewView", "setListPanel", "setList",
+          "toggleSetListButton", "downloadAllButton", "libraryStatus",
+          "loadErrorPanel", "loadErrorMessage", "themeToggle", "themeIconSun",
+          "themeIconMoon", "brandHomeLink", "textHomeLink", "exerciseBackButton",
+          "exerciseReviewButton", "exerciseSetType", "exerciseTitle",
+          "exerciseSituation", "exerciseProgressText", "exerciseSaveState",
+          "exerciseProgressFill", "exerciseStage", "stageLabel", "stageIcon",
+          "speakerIcon", "microphoneIcon", "checkIcon", "countdownPanel",
+          "countdownRingValue", "countdownNumber", "transcriptBox",
+          "transcriptText", "stageMessage", "startExerciseButton",
+          "stopRecordingButton", "toggleTranscriptButton", "retrySentenceButton",
+          "continueButton", "reviewTitle", "reviewSituation", "reviewBackButton",
+          "reviewPracticeButton", "downloadSetButton", "reviewList", "toastRegion",
+          "confirmDialogBackdrop", "confirmStayButton", "confirmLeaveButton"
+        ].forEach((id) => {
+          elements[id] = document.getElementById(id);
+        });
+      }
+
+      function safeStorageGet(key) {
+        try {
+          return localStorage.getItem(key);
+        } catch (_) {
+          return null;
+        }
+      }
+
+      function safeStorageSet(key, value) {
+        try {
+          localStorage.setItem(key, value);
+          return true;
+        } catch (_) {
+          return false;
+        }
+      }
+
+      function setHomeLinks() {
+        const rootUrl = window.location.protocol === "file:"
+          ? "./"
+          : `${window.location.origin}/`;
+        elements.brandHomeLink.href = rootUrl;
+        elements.textHomeLink.href = rootUrl;
+      }
+
+      function padNumber(value, width = 2) {
+        return String(value).padStart(width, "0");
+      }
+
+      function slugify(value, maxLength = 70) {
+        const normalized = String(value)
+          .normalize("NFKD")
+          .replace(/[\u0300-\u036f]/g, "");
+        const slug = normalized
+          .replace(/[^A-Za-z0-9]+/g, "_")
+          .replace(/^_+|_+$/g, "")
+          .replace(/_+/g, "_")
+          .toLowerCase();
+        return (slug.slice(0, maxLength).replace(/_+$/g, "") || "untitled");
+      }
+
+      function escapeForFilename(value, maxLength = 60) {
+        return slugify(value, maxLength);
+      }
+
+      function recordingKey(setId, sentenceNumber) {
+        return `${setId}::${sentenceNumber}`;
+      }
+
+      function mimeTypeToExtension(mimeType = "") {
+        const clean = mimeType.toLowerCase();
+        if (clean.includes("ogg")) return "ogg";
+        if (clean.includes("mp4") || clean.includes("m4a")) return "m4a";
+        if (clean.includes("mpeg") || clean.includes("mp3")) return "mp3";
+        if (clean.includes("wav")) return "wav";
+        return "webm";
+      }
+
+      function announce(message, isError = false) {
+        const toast = document.createElement("div");
+        toast.className = `toast${isError ? " toast--error" : ""}`;
+        toast.textContent = message;
+        elements.toastRegion.appendChild(toast);
+        window.setTimeout(() => toast.remove(), 4200);
+      }
+
+      function setView(name) {
+        elements.menuView.hidden = name !== "menu";
+        elements.exerciseView.hidden = name !== "exercise";
+        elements.reviewView.hidden = name !== "review";
+        window.scrollTo({ top: 0, behavior: "auto" });
+        document.getElementById("appMain")?.focus({ preventScroll: true });
+      }
+
+      function setStageIcon(iconName, stateName = "ready") {
+        elements.speakerIcon.hidden = iconName !== "speaker";
+        elements.microphoneIcon.hidden = iconName !== "microphone";
+        elements.checkIcon.hidden = iconName !== "check";
+        elements.stageIcon.dataset.state = stateName;
+      }
+
+      function applyPromotionPreference() {
+        document.querySelectorAll(".js-promotion").forEach((node) => {
+          node.hidden = !APP_CONFIG.SHOW_PROMOTION_LINKS;
+        });
+      }
+
+      /* =========================
+         Theme
+         ========================= */
+      function currentTheme() {
+        return document.documentElement.dataset.theme === "dark" ? "dark" : "light";
+      }
+
+      function applyTheme(theme, persist = true) {
+        const nextTheme = theme === "dark" ? "dark" : "light";
+        document.documentElement.dataset.theme = nextTheme;
+        document.documentElement.style.colorScheme = nextTheme;
+        document.querySelector('meta[name="color-scheme"]')?.setAttribute("content", nextTheme);
+
+        const dark = nextTheme === "dark";
+        elements.themeToggle.setAttribute("aria-pressed", String(dark));
+        elements.themeToggle.setAttribute("aria-label", dark ? "Switch to light theme" : "Switch to dark theme");
+        elements.themeIconSun.hidden = dark;
+        elements.themeIconMoon.hidden = !dark;
+
+        if (persist) safeStorageSet(APP_CONFIG.THEME_KEY, nextTheme);
+      }
+
+      function initializeTheme() {
+        const saved = safeStorageGet(APP_CONFIG.THEME_KEY);
+        applyTheme(saved === "dark" ? "dark" : "light", false);
+      }
+
+      /* =========================
+         IndexedDB
+         ========================= */
+      function openDatabase() {
+        return new Promise((resolve, reject) => {
+          if (!("indexedDB" in window)) {
+            reject(new Error("This browser does not support IndexedDB."));
+            return;
+          }
+
+          const request = indexedDB.open(APP_CONFIG.DATABASE_NAME, APP_CONFIG.DATABASE_VERSION);
+
+          request.onupgradeneeded = () => {
+            const db = request.result;
+            if (!db.objectStoreNames.contains(APP_CONFIG.RECORDING_STORE)) {
+              const store = db.createObjectStore(APP_CONFIG.RECORDING_STORE, { keyPath: "id" });
+              store.createIndex("setId", "setId", { unique: false });
+              store.createIndex("createdAt", "createdAt", { unique: false });
+            }
+          };
+
+          request.onsuccess = () => resolve(request.result);
+          request.onerror = () => reject(request.error || new Error("Could not open recording storage."));
+        });
+      }
+
+      function dbRequest(request) {
+        return new Promise((resolve, reject) => {
+          request.onsuccess = () => resolve(request.result);
+          request.onerror = () => reject(request.error || new Error("Database operation failed."));
+        });
+      }
+
+      async function loadAllRecordings() {
+        const transaction = state.database.transaction(APP_CONFIG.RECORDING_STORE, "readonly");
+        const store = transaction.objectStore(APP_CONFIG.RECORDING_STORE);
+        const records = await dbRequest(store.getAll());
+
+        state.recordingsByKey.clear();
+        state.completedSetIds.clear();
+
+        records.forEach((record) => {
+          state.recordingsByKey.set(record.id, record);
+          state.completedSetIds.add(record.setId);
+        });
+      }
+
+      async function saveRecording(record) {
+        if (state.database) {
+          const transaction = state.database.transaction(APP_CONFIG.RECORDING_STORE, "readwrite");
+          const store = transaction.objectStore(APP_CONFIG.RECORDING_STORE);
+          await dbRequest(store.put(record));
+        }
+
+        state.recordingsByKey.set(record.id, record);
+        state.completedSetIds.add(record.setId);
+      }
+
+      function getRecording(setId, sentenceNumber) {
+        return state.recordingsByKey.get(recordingKey(setId, sentenceNumber)) || null;
+      }
+
+      /* =========================
+         Input data
+         ========================= */
+      function validateInputSets(rawSets) {
+        if (!Array.isArray(rawSets) || rawSets.length === 0) {
+          throw new Error("listen_repeat_sets.js did not provide a nonempty list.");
+        }
+
+        return rawSets.map((set, setIndex) => {
+          if (!set || typeof set !== "object") {
+            throw new Error(`Set ${setIndex + 1} is not a valid object.`);
+          }
+
+          const requiredStrings = ["setId", "setName", "setType", "situation", "speakerRole"];
+          requiredStrings.forEach((key) => {
+            if (typeof set[key] !== "string" || !set[key].trim()) {
+              throw new Error(`Set ${setIndex + 1} is missing a valid "${key}".`);
+            }
+          });
+
+          if (!Array.isArray(set.sentences) || set.sentences.length !== 7) {
+            throw new Error(`"${set.setName}" must contain exactly seven sentences.`);
+          }
+
+          const sentences = set.sentences.map((sentence, sentenceIndex) => {
+            if (!sentence || typeof sentence.text !== "string" || !sentence.text.trim()) {
+              throw new Error(`Sentence ${sentenceIndex + 1} in "${set.setName}" is invalid.`);
+            }
+
+            return {
+              sentenceNumber: sentenceIndex + 1,
+              text: sentence.text.trim(),
+              wordCount: Number.isInteger(sentence.wordCount) ? sentence.wordCount : null
+            };
+          });
+
+          return {
+            setId: set.setId.trim(),
+            setName: set.setName.trim(),
+            setType: set.setType.trim().toUpperCase(),
+            situation: set.situation.trim(),
+            speakerRole: set.speakerRole.trim(),
+            sentences
+          };
+        });
+      }
+
+      function readExternalData() {
+        try {
+          if (typeof listenAndRepeatSets === "undefined") {
+            throw new Error("The global constant listenAndRepeatSets was not found.");
+          }
+          state.sets = validateInputSets(listenAndRepeatSets);
+        } catch (error) {
+          state.sets = [];
+          elements.loadErrorPanel.hidden = false;
+          elements.loadErrorMessage.textContent = error instanceof Error ? error.message : String(error);
+          throw error;
+        }
+      }
+
+      /* =========================
+         Audio path and playback
+         ========================= */
+      function setFolderName(setIndex, set) {
+        return `${padNumber(setIndex + 1, 3)}_${slugify(set.setName, 60)}`;
+      }
+
+      function sentenceAudioFilename(sentence) {
+        return `${padNumber(sentence.sentenceNumber, 2)}_${slugify(sentence.text, 64)}.mp3`;
+      }
+
+      function buildPromptAudioPath(directory, setIndex, set, sentence) {
+        const path = `${directory}/${setFolderName(setIndex, set)}/${sentenceAudioFilename(sentence)}`;
+        return encodeURI(path);
+      }
+
+      function buildBeepPath(directory) {
+        return encodeURI(`${directory}/${APP_CONFIG.BEEP_FILENAME}`);
+      }
+
+      function stopCurrentPromptAudio() {
+        if (state.currentPromptAudio) {
+          try {
+            state.currentPromptAudio.pause();
+            state.currentPromptAudio.currentTime = 0;
+          } catch (_) {}
+          state.currentPromptAudio = null;
+        }
+        state.isPlayingPrompt = false;
+      }
+
+      function playAudioElement(audio) {
+        return new Promise((resolve, reject) => {
+          let settled = false;
+
+          const cleanup = () => {
+            audio.removeEventListener("ended", onEnded);
+            audio.removeEventListener("error", onError);
+            audio.removeEventListener("abort", onAbort);
+          };
+
+          const finish = (callback, value) => {
+            if (settled) return;
+            settled = true;
+            cleanup();
+            callback(value);
+          };
+
+          const onEnded = () => finish(resolve);
+          const onError = () => finish(reject, new Error("The audio file could not be played."));
+          const onAbort = () => finish(reject, new Error("Audio playback was interrupted."));
+
+          audio.addEventListener("ended", onEnded);
+          audio.addEventListener("error", onError);
+          audio.addEventListener("abort", onAbort);
+
+          const playPromise = audio.play();
+          if (playPromise && typeof playPromise.catch === "function") {
+            playPromise.catch((error) => finish(reject, error));
+          }
+        });
+      }
+
+      async function playPromptSentence(setIndex, set, sentence) {
+        stopCurrentPromptAudio();
+        const directories = state.resolvedAudioDirectory
+          ? [state.resolvedAudioDirectory, ...APP_CONFIG.AUDIO_DIRECTORY_CANDIDATES.filter((item) => item !== state.resolvedAudioDirectory)]
+          : APP_CONFIG.AUDIO_DIRECTORY_CANDIDATES;
+
+        let lastError = null;
+
+        for (const directory of directories) {
+          const audio = new Audio(buildPromptAudioPath(directory, setIndex, set, sentence));
+          audio.preload = "auto";
+          state.currentPromptAudio = audio;
+
+          try {
+            await playAudioElement(audio);
+            state.resolvedAudioDirectory = directory;
+            state.currentPromptAudio = null;
+            return;
+          } catch (error) {
+            lastError = error;
+          }
+        }
+
+        state.currentPromptAudio = null;
+        throw lastError || new Error("No prompt audio file was found.");
+      }
+
+      async function playBeep() {
+        const directories = state.resolvedAudioDirectory
+          ? [state.resolvedAudioDirectory, ...APP_CONFIG.AUDIO_DIRECTORY_CANDIDATES.filter((item) => item !== state.resolvedAudioDirectory)]
+          : APP_CONFIG.AUDIO_DIRECTORY_CANDIDATES;
+
+        for (const directory of directories) {
+          try {
+            const audio = new Audio(buildBeepPath(directory));
+            audio.preload = "auto";
+            await playAudioElement(audio);
+            state.resolvedAudioDirectory = directory;
+            return;
+          } catch (_) {}
+        }
+
+        await playGeneratedBeep();
+      }
+
+      async function playGeneratedBeep() {
+        const AudioContextClass = window.AudioContext || window.webkitAudioContext;
+        if (!AudioContextClass) return;
+
+        const context = new AudioContextClass();
+        if (context.state === "suspended") {
+          try { await context.resume(); } catch (_) {}
+        }
+        const oscillator = context.createOscillator();
+        const gain = context.createGain();
+
+        oscillator.type = "sine";
+        oscillator.frequency.value = 880;
+        gain.gain.setValueAtTime(0.0001, context.currentTime);
+        gain.gain.exponentialRampToValueAtTime(0.16, context.currentTime + 0.015);
+        gain.gain.exponentialRampToValueAtTime(0.0001, context.currentTime + 0.28);
+
+        oscillator.connect(gain);
+        gain.connect(context.destination);
+        oscillator.start();
+        oscillator.stop(context.currentTime + 0.3);
+
+        await new Promise((resolve) => {
+          oscillator.addEventListener("ended", async () => {
+            try { await context.close(); } catch (_) {}
+            resolve();
+          }, { once: true });
+        });
+      }
+
+      function promptAudioPathForReview(setIndex, set, sentence) {
+        const directory = state.resolvedAudioDirectory || APP_CONFIG.AUDIO_DIRECTORY_CANDIDATES[0];
+        return buildPromptAudioPath(directory, setIndex, set, sentence);
+      }
+
+      /* =========================
+         Microphone and recording
+         ========================= */
+      function chooseRecorderMimeType() {
+        if (!window.MediaRecorder) return "";
+        const candidates = [
+          "audio/webm;codecs=opus",
+          "audio/ogg;codecs=opus",
+          "audio/mp4",
+          "audio/webm"
+        ];
+        return candidates.find((type) => MediaRecorder.isTypeSupported(type)) || "";
+      }
+
+      async function ensureMicrophone() {
+        if (state.mediaStream?.active) return state.mediaStream;
+
+        if (!navigator.mediaDevices?.getUserMedia) {
+          throw new Error("Microphone recording is not supported in this browser.");
+        }
+
+        state.mediaStream = await navigator.mediaDevices.getUserMedia({
+          audio: {
+            echoCancellation: true,
+            noiseSuppression: true,
+            autoGainControl: true
+          }
+        });
+
+        return state.mediaStream;
+      }
+
+      function releaseMicrophone() {
+        state.mediaStream?.getTracks().forEach((track) => track.stop());
+        state.mediaStream = null;
+      }
+
+      function stopCountdownVisuals() {
+        if (state.recordingTimer) {
+          clearTimeout(state.recordingTimer);
+          state.recordingTimer = null;
+        }
+        if (state.countdownAnimationFrame) {
+          cancelAnimationFrame(state.countdownAnimationFrame);
+          state.countdownAnimationFrame = null;
+        }
+      }
+
+      function stopAutoContinue() {
+        if (state.autoContinueTimer) {
+          clearTimeout(state.autoContinueTimer);
+          state.autoContinueTimer = null;
+        }
+      }
+
+      function scheduleAutoContinue() {
+        stopAutoContinue();
+
+        const set = state.sets[state.currentSetIndex];
+        const isLastSentence = state.currentSentenceIndex >= set.sentences.length - 1;
+        const destination = isLastSentence ? "Your review page" : "The next sentence";
+
+        elements.stageMessage.textContent =
+          `${destination} will open automatically in ${APP_CONFIG.AUTO_CONTINUE_SECONDS} seconds. ` +
+          "Choose Record Again to replace this response.";
+
+        state.autoContinueTimer = window.setTimeout(() => {
+          state.autoContinueTimer = null;
+          if (!state.isRecording && !elements.exerciseView.hidden) {
+            advanceExercise();
+          }
+        }, APP_CONFIG.AUTO_CONTINUE_SECONDS * 1000);
+      }
+
+      function updateCountdownVisual() {
+        if (!state.isRecording) return;
+
+        const elapsedMs = performance.now() - state.recordingStartedAt;
+        const totalMs = APP_CONFIG.RECORDING_SECONDS * 1000;
+        const remainingMs = Math.max(0, totalMs - elapsedMs);
+        const seconds = Math.max(0, Math.ceil(remainingMs / 1000));
+
+        elements.countdownNumber.textContent = String(seconds);
+
+        const radius = 52;
+        const circumference = 2 * Math.PI * radius;
+        const progress = Math.min(1, elapsedMs / totalMs);
+        elements.countdownRingValue.style.strokeDasharray = String(circumference);
+        elements.countdownRingValue.style.strokeDashoffset = String(circumference * progress);
+
+        if (remainingMs > 0) {
+          state.countdownAnimationFrame = requestAnimationFrame(updateCountdownVisual);
+        }
+      }
+
+      function createRecorder(stream) {
+        const mimeType = chooseRecorderMimeType();
+        return mimeType ? new MediaRecorder(stream, { mimeType }) : new MediaRecorder(stream);
+      }
+
+      async function startRecordingForCurrentSentence(sequenceToken) {
+        if (sequenceToken !== state.sequenceToken) return;
+
+        const stream = await ensureMicrophone();
+        if (sequenceToken !== state.sequenceToken) return;
+
+        state.mediaChunks = [];
+        state.mediaRecorder = createRecorder(stream);
+
+        const recorder = state.mediaRecorder;
+        recorder.addEventListener("dataavailable", (event) => {
+          if (event.data?.size) state.mediaChunks.push(event.data);
+        });
+
+        recorder.addEventListener("stop", async () => {
+          try {
+            await finalizeRecording(recorder);
+          } catch (error) {
+            announce(error instanceof Error ? error.message : "The recording could not be saved.", true);
+            showPostRecordingControls(false);
+          }
+        }, { once: true });
+
+        recorder.start(250);
+        state.isRecording = true;
+        state.recordingStartedAt = performance.now();
+
+        elements.countdownPanel.hidden = false;
+        elements.stopRecordingButton.hidden = false;
+        elements.startExerciseButton.hidden = true;
+        elements.retrySentenceButton.hidden = true;
+        elements.continueButton.hidden = true;
+        elements.toggleTranscriptButton.disabled = false;
+        elements.stageLabel.innerHTML = '<span class="live-dot" aria-hidden="true"></span> Recording';
+        elements.stageMessage.textContent = "Repeat the sentence now. You may finish early.";
+        setStageIcon("microphone", "recording");
+
+        updateCountdownVisual();
+        state.recordingTimer = window.setTimeout(() => stopRecording(), APP_CONFIG.RECORDING_SECONDS * 1000);
+      }
+
+      function stopRecording() {
+        if (!state.isRecording || !state.mediaRecorder) return;
+        stopCountdownVisuals();
+        state.isRecording = false;
+        elements.stopRecordingButton.disabled = true;
+
+        try {
+          if (state.mediaRecorder.state !== "inactive") {
+            state.mediaRecorder.stop();
+          }
+        } catch (error) {
+          elements.stopRecordingButton.disabled = false;
+          throw error;
+        }
+      }
+
+      async function finalizeRecording(recorder) {
+        stopCountdownVisuals();
+
+        if (state.discardCurrentRecording) {
+          state.discardCurrentRecording = false;
+          state.mediaChunks = [];
+          return;
+        }
+
+        const set = state.sets[state.currentSetIndex];
+        const sentence = set.sentences[state.currentSentenceIndex];
+        const blobType = recorder.mimeType || state.mediaChunks[0]?.type || "audio/webm";
+        const blob = new Blob(state.mediaChunks, { type: blobType });
+
+        if (!blob.size) {
+          throw new Error("The browser created an empty recording. Please try this sentence again.");
+        }
+
+        const record = {
+          id: recordingKey(set.setId, sentence.sentenceNumber),
+          setId: set.setId,
+          setName: set.setName,
+          sentenceNumber: sentence.sentenceNumber,
+          sentenceText: sentence.text,
+          mimeType: blob.type || blobType,
+          createdAt: new Date().toISOString(),
+          blob
+        };
+
+        await saveRecording(record);
+        renderSetList();
+        elements.exerciseSaveState.textContent = `Sentence ${sentence.sentenceNumber} saved in this browser.`;
+        showPostRecordingControls(true);
+        scheduleAutoContinue();
+      }
+
+      function showPostRecordingControls(saved) {
+        elements.countdownPanel.hidden = true;
+        elements.stopRecordingButton.hidden = true;
+        elements.stopRecordingButton.disabled = false;
+        elements.retrySentenceButton.hidden = false;
+        elements.continueButton.hidden = false;
+        elements.stageLabel.textContent = saved ? "Response saved" : "Recording stopped";
+        elements.stageMessage.textContent = saved
+          ? "Continue when you are ready, or record this sentence again."
+          : "You can record this sentence again.";
+        setStageIcon(saved ? "check" : "microphone", saved ? "ready" : "recording");
+        state.isSequenceActive = false;
+      }
+
+      /* =========================
+         Exercise sequence
+         ========================= */
+      function resetExerciseStage() {
+        stopCurrentPromptAudio();
+        stopCountdownVisuals();
+        stopAutoContinue();
+        state.isRecording = false;
+        state.isSequenceActive = false;
+        state.transcriptVisible = false;
+
+        elements.countdownPanel.hidden = true;
+        elements.stopRecordingButton.hidden = true;
+        elements.stopRecordingButton.disabled = false;
+        elements.retrySentenceButton.hidden = true;
+        elements.continueButton.hidden = true;
+        elements.startExerciseButton.hidden = false;
+        elements.startExerciseButton.textContent = state.currentSentenceIndex === 0 ? "Start exercise" : "Play sentence";
+        elements.toggleTranscriptButton.disabled = false;
+        elements.toggleTranscriptButton.setAttribute("aria-expanded", "false");
+        elements.toggleTranscriptButton.textContent = "Show transcript";
+        elements.transcriptBox.hidden = true;
+        elements.stageLabel.textContent = state.currentSentenceIndex === 0 ? "Ready to begin" : "Ready for the next sentence";
+        elements.stageMessage.textContent = "The sentence will play once, followed by a beep and a 15-second recording.";
+        setStageIcon("speaker", "ready");
+      }
+
+      function updateExerciseMetadata() {
+        const set = state.sets[state.currentSetIndex];
+        const sentenceNumber = state.currentSentenceIndex + 1;
+
+        elements.exerciseSetType.textContent = set.setType === "ORIENTATION" ? "Orientation Set" : "Procedure Set";
+        elements.exerciseTitle.textContent = set.setName;
+        elements.exerciseSituation.textContent = set.situation;
+        elements.exerciseProgressText.textContent = `Sentence ${sentenceNumber} of ${set.sentences.length}`;
+        elements.exerciseProgressFill.style.width = `${(sentenceNumber / set.sentences.length) * 100}%`;
+        elements.transcriptText.textContent = set.sentences[state.currentSentenceIndex].text;
+      }
+
+      async function runCurrentSentence() {
+        if (state.isSequenceActive || state.isRecording) return;
+        stopAutoContinue();
+
+        const sequenceToken = ++state.sequenceToken;
+        const set = state.sets[state.currentSetIndex];
+        const sentence = set.sentences[state.currentSentenceIndex];
+
+        state.isSequenceActive = true;
+        elements.startExerciseButton.disabled = true;
+        elements.toggleTranscriptButton.disabled = false;
+        elements.retrySentenceButton.hidden = true;
+        elements.continueButton.hidden = true;
+        elements.stageLabel.textContent = "Listen carefully";
+        elements.stageMessage.textContent = "The sentence is playing now.";
+        setStageIcon("speaker", "ready");
+        state.isPlayingPrompt = true;
+
+        try {
+          await ensureMicrophone();
+          if (sequenceToken !== state.sequenceToken) return;
+
+          await playPromptSentence(state.currentSetIndex, set, sentence);
+          state.isPlayingPrompt = false;
+          if (sequenceToken !== state.sequenceToken) return;
+
+          elements.stageLabel.textContent = "Get ready";
+          elements.stageMessage.textContent = "Wait for the beep.";
+          await playBeep();
+          if (sequenceToken !== state.sequenceToken) return;
+
+          await startRecordingForCurrentSentence(sequenceToken);
+        } catch (error) {
+          state.isSequenceActive = false;
+          state.isPlayingPrompt = false;
+          elements.startExerciseButton.disabled = false;
+          elements.startExerciseButton.hidden = false;
+          elements.stageLabel.textContent = "Unable to continue";
+          elements.stageMessage.textContent = error instanceof Error ? error.message : String(error);
+          setStageIcon("speaker", "ready");
+          announce(elements.stageMessage.textContent, true);
+        }
+      }
+
+      function advanceExercise() {
+        if (state.isAdvancing) return;
+        state.isAdvancing = true;
+        stopAutoContinue();
+
+        const set = state.sets[state.currentSetIndex];
+
+        if (state.currentSentenceIndex >= set.sentences.length - 1) {
+          state.isAdvancing = false;
+          openReview(state.currentSetIndex);
+          return;
+        }
+
+        state.currentSentenceIndex += 1;
+        state.sequenceToken += 1;
+        updateExerciseMetadata();
+        resetExerciseStage();
+        state.isAdvancing = false;
+
+        window.setTimeout(() => {
+          runCurrentSentence();
+        }, 450);
+      }
+
+      function retryCurrentSentence() {
+        stopAutoContinue();
+        state.sequenceToken += 1;
+        resetExerciseStage();
+        runCurrentSentence();
+      }
+
+      function openExercise(setIndex) {
+        if (!state.sets[setIndex]) return;
+
+        stopAutoContinue();
+        cleanupReviewUrls();
+        state.currentSetIndex = setIndex;
+        state.currentSentenceIndex = 0;
+        state.isAdvancing = false;
+        state.sequenceToken += 1;
+        updateExerciseMetadata();
+        resetExerciseStage();
+        setView("exercise");
+      }
+
+      function toggleTranscript() {
+        state.transcriptVisible = !state.transcriptVisible;
+        elements.transcriptBox.hidden = !state.transcriptVisible;
+        elements.toggleTranscriptButton.setAttribute("aria-expanded", String(state.transcriptVisible));
+        elements.toggleTranscriptButton.textContent = state.transcriptVisible ? "Hide transcript" : "Show transcript";
+      }
+
+      /* =========================
+         Menu and set list
+         ========================= */
+      function renderSetList() {
+        elements.setList.textContent = "";
+
+        state.sets.forEach((set, setIndex) => {
+          const completed = state.completedSetIds.has(set.setId);
+          const recordedCount = set.sentences.reduce((count, sentence) => {
+            return count + (getRecording(set.setId, sentence.sentenceNumber) ? 1 : 0);
+          }, 0);
+
+          const card = document.createElement("article");
+          card.className = "set-card";
+          card.dataset.complete = String(completed);
+
+          const main = document.createElement("div");
+          main.className = "set-card-main";
+
+          const title = document.createElement("h3");
+          title.className = "set-card-title";
+          title.textContent = `${padNumber(setIndex + 1, 2)}. ${set.setName}`;
+
+          const meta = document.createElement("div");
+          meta.className = "set-card-meta";
+
+          const type = document.createElement("span");
+          type.textContent = set.setType === "ORIENTATION" ? "Orientation" : "Procedure";
+
+          const status = document.createElement("span");
+          status.className = "set-status";
+          status.textContent = completed
+            ? `✓ Done · ${recordedCount}/7 saved`
+            : "Not started";
+
+          meta.append(type, status);
+          main.append(title, meta);
+
+          const actions = document.createElement("div");
+          actions.className = "set-actions";
+
+          const exerciseButton = document.createElement("button");
+          exerciseButton.className = "button button--compact";
+          exerciseButton.type = "button";
+          exerciseButton.textContent = "Exercise mode";
+          exerciseButton.addEventListener("click", () => openExercise(setIndex));
+
+          const reviewButton = document.createElement("button");
+          reviewButton.className = "button button--secondary button--compact";
+          reviewButton.type = "button";
+          reviewButton.textContent = "Review mode";
+          reviewButton.addEventListener("click", () => openReview(setIndex));
+
+          actions.append(exerciseButton, reviewButton);
+          card.append(main, actions);
+          elements.setList.appendChild(card);
+        });
+
+        const doneCount = state.sets.filter((set) => state.completedSetIds.has(set.setId)).length;
+        elements.libraryStatus.textContent = `${doneCount} of ${state.sets.length} sets started`;
+        elements.downloadAllButton.disabled = state.recordingsByKey.size === 0;
+      }
+
+      function toggleSetList() {
+        const willOpen = elements.setListPanel.hidden;
+        elements.setListPanel.hidden = !willOpen;
+        elements.toggleSetListButton.setAttribute("aria-expanded", String(willOpen));
+        elements.toggleSetListButton.textContent = willOpen ? "Hide practice sets" : "Show practice sets";
+
+        if (willOpen) {
+          elements.setListPanel.scrollIntoView({ block: "start", behavior: "smooth" });
+        }
+      }
+
+      function openMenu() {
+        stopAutoContinue();
+        state.isAdvancing = false;
+        state.sequenceToken += 1;
+        stopCurrentPromptAudio();
+        if (state.isRecording) stopRecording();
+        cleanupReviewUrls();
+        setView("menu");
+        renderSetList();
+      }
+
+      /* =========================
+         Review
+         ========================= */
+      function cleanupReviewUrls() {
+        state.currentReviewUrls.forEach((url) => URL.revokeObjectURL(url));
+        state.currentReviewUrls = [];
+      }
+
+      function createRecordingDownloadName(setIndex, set, sentence, record) {
+        const extension = mimeTypeToExtension(record.mimeType || record.blob?.type);
+        return [
+          padNumber(setIndex + 1, 3),
+          escapeForFilename(set.setName, 40),
+          `sentence_${padNumber(sentence.sentenceNumber, 2)}`,
+          escapeForFilename(sentence.text, 46)
+        ].join("_") + `.${extension}`;
+      }
+
+      function createDownloadLink(blob, filename, label = "Download recording") {
+        const url = URL.createObjectURL(blob);
+        state.currentReviewUrls.push(url);
+
+        const link = document.createElement("a");
+        link.className = "button button--neutral button--compact";
+        link.href = url;
+        link.download = filename;
+        link.textContent = label;
+        return link;
+      }
+
+      function renderReview(setIndex) {
+        cleanupReviewUrls();
+        elements.reviewList.textContent = "";
+
+        const set = state.sets[setIndex];
+        elements.reviewTitle.textContent = set.setName;
+        elements.reviewSituation.textContent = set.situation;
+
+        set.sentences.forEach((sentence) => {
+          const record = getRecording(set.setId, sentence.sentenceNumber);
+          const item = document.createElement("article");
+          item.className = "review-item";
+
+          const number = document.createElement("p");
+          number.className = "review-item-number";
+          number.textContent = `Sentence ${sentence.sentenceNumber}`;
+
+          const text = document.createElement("p");
+          text.className = "review-sentence";
+          text.textContent = sentence.text;
+
+          const audioGrid = document.createElement("div");
+          audioGrid.className = "audio-grid";
+
+          const promptBlock = document.createElement("section");
+          promptBlock.className = "audio-block";
+          const promptTitle = document.createElement("h4");
+          promptTitle.textContent = "Original sentence";
+          const promptAudio = document.createElement("audio");
+          promptAudio.controls = true;
+          promptAudio.preload = "none";
+
+          const reviewDirectories = state.resolvedAudioDirectory
+            ? [
+                state.resolvedAudioDirectory,
+                ...APP_CONFIG.AUDIO_DIRECTORY_CANDIDATES.filter(
+                  (directory) => directory !== state.resolvedAudioDirectory
+                )
+              ]
+            : APP_CONFIG.AUDIO_DIRECTORY_CANDIDATES;
+
+          reviewDirectories.forEach((directory) => {
+            const source = document.createElement("source");
+            source.src = buildPromptAudioPath(directory, setIndex, set, sentence);
+            source.type = "audio/mpeg";
+            promptAudio.appendChild(source);
+          });
+
+          promptBlock.append(promptTitle, promptAudio);
+
+          const responseBlock = document.createElement("section");
+          responseBlock.className = "audio-block";
+          const responseTitle = document.createElement("h4");
+          responseTitle.textContent = "Your latest response";
+          responseBlock.appendChild(responseTitle);
+
+          if (record?.blob) {
+            const responseUrl = URL.createObjectURL(record.blob);
+            state.currentReviewUrls.push(responseUrl);
+
+            const responseAudio = document.createElement("audio");
+            responseAudio.controls = true;
+            responseAudio.preload = "metadata";
+            responseAudio.src = responseUrl;
+
+            const downloadRow = document.createElement("div");
+            downloadRow.className = "download-row";
+            downloadRow.appendChild(
+              createDownloadLink(
+                record.blob,
+                createRecordingDownloadName(setIndex, set, sentence, record)
+              )
+            );
+
+            responseBlock.append(responseAudio, downloadRow);
+          } else {
+            const missing = document.createElement("p");
+            missing.className = "missing-recording";
+            missing.textContent = "No response has been recorded for this sentence.";
+            responseBlock.appendChild(missing);
+          }
+
+          audioGrid.append(promptBlock, responseBlock);
+          item.append(number, text, audioGrid);
+          elements.reviewList.appendChild(item);
+        });
+
+        elements.downloadSetButton.disabled = !set.sentences.some((sentence) => {
+          return Boolean(getRecording(set.setId, sentence.sentenceNumber));
+        });
+      }
+
+      function openReview(setIndex) {
+        if (!state.sets[setIndex]) return;
+
+        stopAutoContinue();
+        state.isAdvancing = false;
+        state.sequenceToken += 1;
+        stopCurrentPromptAudio();
+        if (state.isRecording) stopRecording();
+
+        state.currentSetIndex = setIndex;
+        renderReview(setIndex);
+        setView("review");
+      }
+
+      /* =========================
+         ZIP generation
+         ========================= */
+      const crcTable = (() => {
+        const table = new Uint32Array(256);
+        for (let n = 0; n < 256; n += 1) {
+          let c = n;
+          for (let k = 0; k < 8; k += 1) {
+            c = (c & 1) ? (0xEDB88320 ^ (c >>> 1)) : (c >>> 1);
+          }
+          table[n] = c >>> 0;
+        }
+        return table;
+      })();
+
+      function crc32(bytes) {
+        let crc = 0xFFFFFFFF;
+        for (let i = 0; i < bytes.length; i += 1) {
+          crc = crcTable[(crc ^ bytes[i]) & 0xFF] ^ (crc >>> 8);
+        }
+        return (crc ^ 0xFFFFFFFF) >>> 0;
+      }
+
+      function dosDateTime(date = new Date()) {
+        const year = Math.max(1980, date.getFullYear());
+        const dosTime =
+          (date.getHours() << 11) |
+          (date.getMinutes() << 5) |
+          Math.floor(date.getSeconds() / 2);
+        const dosDate =
+          ((year - 1980) << 9) |
+          ((date.getMonth() + 1) << 5) |
+          date.getDate();
+        return { dosTime, dosDate };
+      }
+
+      function writeUint16(view, offset, value) {
+        view.setUint16(offset, value, true);
+      }
+
+      function writeUint32(view, offset, value) {
+        view.setUint32(offset, value >>> 0, true);
+      }
+
+      async function makeStoredZip(files) {
+        const encoder = new TextEncoder();
+        const localParts = [];
+        const centralParts = [];
+        let currentOffset = 0;
+
+        for (const file of files) {
+          const nameBytes = encoder.encode(file.name.replace(/\\/g, "/"));
+          const dataBytes = new Uint8Array(await file.blob.arrayBuffer());
+          const checksum = crc32(dataBytes);
+          const { dosTime, dosDate } = dosDateTime(file.date || new Date());
+
+          const localHeader = new Uint8Array(30 + nameBytes.length);
+          const localView = new DataView(localHeader.buffer);
+          writeUint32(localView, 0, 0x04034B50);
+          writeUint16(localView, 4, 20);
+          writeUint16(localView, 6, 0);
+          writeUint16(localView, 8, 0);
+          writeUint16(localView, 10, dosTime);
+          writeUint16(localView, 12, dosDate);
+          writeUint32(localView, 14, checksum);
+          writeUint32(localView, 18, dataBytes.length);
+          writeUint32(localView, 22, dataBytes.length);
+          writeUint16(localView, 26, nameBytes.length);
+          writeUint16(localView, 28, 0);
+          localHeader.set(nameBytes, 30);
+
+          localParts.push(localHeader, dataBytes);
+
+          const centralHeader = new Uint8Array(46 + nameBytes.length);
+          const centralView = new DataView(centralHeader.buffer);
+          writeUint32(centralView, 0, 0x02014B50);
+          writeUint16(centralView, 4, 20);
+          writeUint16(centralView, 6, 20);
+          writeUint16(centralView, 8, 0);
+          writeUint16(centralView, 10, 0);
+          writeUint16(centralView, 12, dosTime);
+          writeUint16(centralView, 14, dosDate);
+          writeUint32(centralView, 16, checksum);
+          writeUint32(centralView, 20, dataBytes.length);
+          writeUint32(centralView, 24, dataBytes.length);
+          writeUint16(centralView, 28, nameBytes.length);
+          writeUint16(centralView, 30, 0);
+          writeUint16(centralView, 32, 0);
+          writeUint16(centralView, 34, 0);
+          writeUint16(centralView, 36, 0);
+          writeUint32(centralView, 38, 0);
+          writeUint32(centralView, 42, currentOffset);
+          centralHeader.set(nameBytes, 46);
+
+          centralParts.push(centralHeader);
+          currentOffset += localHeader.length + dataBytes.length;
+        }
+
+        const centralSize = centralParts.reduce((sum, part) => sum + part.length, 0);
+        const endRecord = new Uint8Array(22);
+        const endView = new DataView(endRecord.buffer);
+        writeUint32(endView, 0, 0x06054B50);
+        writeUint16(endView, 4, 0);
+        writeUint16(endView, 6, 0);
+        writeUint16(endView, 8, files.length);
+        writeUint16(endView, 10, files.length);
+        writeUint32(endView, 12, centralSize);
+        writeUint32(endView, 16, currentOffset);
+        writeUint16(endView, 20, 0);
+
+        return new Blob([...localParts, ...centralParts, endRecord], { type: "application/zip" });
+      }
+
+      function triggerBlobDownload(blob, filename) {
+        const url = URL.createObjectURL(blob);
+        const link = document.createElement("a");
+        link.href = url;
+        link.download = filename;
+        document.body.appendChild(link);
+        link.click();
+        link.remove();
+        window.setTimeout(() => URL.revokeObjectURL(url), 1500);
+      }
+
+      async function collectZipFiles(setFilter = null) {
+        const files = [];
+
+        state.sets.forEach((set, setIndex) => {
+          if (setFilter !== null && setIndex !== setFilter) return;
+
+          set.sentences.forEach((sentence) => {
+            const record = getRecording(set.setId, sentence.sentenceNumber);
+            if (!record?.blob) return;
+
+            const extension = mimeTypeToExtension(record.mimeType || record.blob.type);
+            const folder = `${padNumber(setIndex + 1, 3)}_${escapeForFilename(set.setName, 45)}`;
+            const filename = [
+              `sentence_${padNumber(sentence.sentenceNumber, 2)}`,
+              escapeForFilename(sentence.text, 55)
+            ].join("_") + `.${extension}`;
+
+            files.push({
+              name: `${folder}/${filename}`,
+              blob: record.blob,
+              date: record.createdAt ? new Date(record.createdAt) : new Date()
+            });
+          });
+        });
+
+        return files;
+      }
+
+      async function downloadAllRecordings() {
+        const files = await collectZipFiles();
+        if (!files.length) {
+          announce("No recordings have been saved yet.", true);
+          return;
+        }
+
+        elements.downloadAllButton.disabled = true;
+        elements.downloadAllButton.textContent = "Preparing ZIP…";
+
+        try {
+          const zip = await makeStoredZip(files);
+          const date = new Date().toISOString().slice(0, 10);
+          triggerBlobDownload(zip, `kooshky_listen_repeat_all_recordings_${date}.zip`);
+          announce(`${files.length} recordings were added to the ZIP file.`);
+        } catch (error) {
+          announce(error instanceof Error ? error.message : "The ZIP file could not be created.", true);
+        } finally {
+          elements.downloadAllButton.disabled = false;
+          elements.downloadAllButton.textContent = "Download all recordings";
+        }
+      }
+
+      async function downloadCurrentSet() {
+        const setIndex = state.currentSetIndex;
+        const set = state.sets[setIndex];
+        const files = await collectZipFiles(setIndex);
+
+        if (!files.length) {
+          announce("This set does not have any saved recordings.", true);
+          return;
+        }
+
+        elements.downloadSetButton.disabled = true;
+        elements.downloadSetButton.textContent = "Preparing ZIP…";
+
+        try {
+          const zip = await makeStoredZip(files);
+          const date = new Date().toISOString().slice(0, 10);
+          triggerBlobDownload(
+            zip,
+            `${padNumber(setIndex + 1, 3)}_${escapeForFilename(set.setName, 55)}_responses_${date}.zip`
+          );
+          announce(`${files.length} recordings were added to the ZIP file.`);
+        } catch (error) {
+          announce(error instanceof Error ? error.message : "The ZIP file could not be created.", true);
+        } finally {
+          elements.downloadSetButton.disabled = false;
+          elements.downloadSetButton.textContent = "Download this set";
+        }
+      }
+
+      /* =========================
+         Leave confirmation
+         ========================= */
+      function requestLeave(action) {
+        if (!state.isRecording && !state.isPlayingPrompt && !state.isSequenceActive) {
+          action();
+          return;
+        }
+
+        state.pendingLeaveAction = action;
+        state.lastFocusedElement = document.activeElement;
+        elements.confirmDialogBackdrop.hidden = false;
+        document.body.style.overflow = "hidden";
+        elements.confirmStayButton.focus();
+      }
+
+      function closeConfirmDialog() {
+        elements.confirmDialogBackdrop.hidden = true;
+        document.body.style.overflow = "";
+        state.pendingLeaveAction = null;
+        state.lastFocusedElement?.focus?.();
+      }
+
+      function confirmLeaveExercise() {
+        const action = state.pendingLeaveAction;
+        state.pendingLeaveAction = null;
+        elements.confirmDialogBackdrop.hidden = true;
+        document.body.style.overflow = "";
+
+        stopAutoContinue();
+        state.sequenceToken += 1;
+        stopCurrentPromptAudio();
+        if (state.isRecording) {
+          state.discardCurrentRecording = true;
+          stopRecording();
+        }
+        action?.();
+      }
+
+      /* =========================
+         Events and startup
+         ========================= */
+      function bindEvents() {
+        elements.themeToggle.addEventListener("click", () => {
+          applyTheme(currentTheme() === "dark" ? "light" : "dark");
+        });
+
+        elements.toggleSetListButton.addEventListener("click", toggleSetList);
+        elements.downloadAllButton.addEventListener("click", downloadAllRecordings);
+
+        elements.startExerciseButton.addEventListener("click", runCurrentSentence);
+        elements.stopRecordingButton.addEventListener("click", stopRecording);
+        elements.toggleTranscriptButton.addEventListener("click", toggleTranscript);
+        elements.retrySentenceButton.addEventListener("click", retryCurrentSentence);
+        elements.continueButton.addEventListener("click", advanceExercise);
+
+        elements.exerciseBackButton.addEventListener("click", () => requestLeave(openMenu));
+        elements.exerciseReviewButton.addEventListener("click", () => {
+          requestLeave(() => openReview(state.currentSetIndex));
+        });
+
+        elements.reviewBackButton.addEventListener("click", openMenu);
+        elements.reviewPracticeButton.addEventListener("click", () => openExercise(state.currentSetIndex));
+        elements.downloadSetButton.addEventListener("click", downloadCurrentSet);
+
+        elements.confirmStayButton.addEventListener("click", closeConfirmDialog);
+        elements.confirmLeaveButton.addEventListener("click", confirmLeaveExercise);
+
+        elements.confirmDialogBackdrop.addEventListener("click", (event) => {
+          if (event.target === elements.confirmDialogBackdrop) closeConfirmDialog();
+        });
+
+        document.addEventListener("keydown", (event) => {
+          if (event.key !== "Escape") return;
+          if (!elements.confirmDialogBackdrop.hidden) closeConfirmDialog();
+        });
+
+        window.addEventListener("beforeunload", (event) => {
+          if (state.isRecording) {
+            event.preventDefault();
+            event.returnValue = "";
+          }
+        });
+
+        window.addEventListener("pagehide", () => {
+          stopAutoContinue();
+          stopCurrentPromptAudio();
+          releaseMicrophone();
+          cleanupReviewUrls();
+        });
+      }
+
+      async function initialize() {
+        cacheElements();
+        initializeTheme();
+        setHomeLinks();
+        applyPromotionPreference();
+        bindEvents();
+
+        try {
+          readExternalData();
+        } catch (_) {
+          elements.toggleSetListButton.disabled = true;
+          elements.downloadAllButton.disabled = true;
+          return;
+        }
+
+        try {
+          state.database = await openDatabase();
+          await loadAllRecordings();
+        } catch (error) {
+          announce(
+            "Recordings cannot be saved in browser storage here. Try a current Chrome, Edge, or Firefox browser.",
+            true
+          );
+          console.error(error);
+        }
+
+        renderSetList();
+      }
+
+      initialize().catch((error) => {
+        console.error(error);
+        announce("The practice app could not start correctly.", true);
+      });
+    })();
+  </script>
+</body>
+</html>
