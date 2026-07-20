@@ -59,6 +59,15 @@ window.KOOSHKY_SECTIONS = [
 
 window.KOOSHKY_CONTENT = [
   {
+    "title": "Grammar Workbook for Grammar In Use (Intermediate) Units 1-25",
+    "href": "Grammar/GrammarInUseWorkbook/kooshky_units_1_25_restore_the_timeline_tense_workbook.html",
+    "section": "grammar",
+    "summary": "Amazing set of exercises for activating the grammar you learned from Grammar In Use units 1-25",
+    "date": "2026-07-020",
+    "publishAt": "2026-07-20T00:00:00+03:30",
+    "featured": true
+  },
+  {
     "title": "How to Talk About Traffic",
     "href": "Vocabulary/traffic-in-english-kooshky-guide.html",
     "section": "vocabulary",
@@ -83,7 +92,7 @@ window.KOOSHKY_CONTENT = [
     "summary": "Highly sophisticated grammatical structures using as...as. A must-know for TOEFL Writing!",
     "date": "2026-07-14",
     "publishAt": "2026-07-14T14:55:00+03:30",
-    "featured": true
+    "featured": false
   },
   {
     "title": "Ranked TOEFL Vocabulary Megalist",
@@ -146,7 +155,7 @@ window.KOOSHKY_CONTENT = [
     "summary": "A complete AWL Anki deck with meanings, audio pronunciation, word families, and contextual examples.",
     "date": "2026-07-07",
     "publishAt": "2026-07-07T00:00:00+03:30",
-    "featured": true
+    "featured": false
   },
   {
     "title": "Fill The Blanks Sample Exercises",
@@ -164,7 +173,7 @@ window.KOOSHKY_CONTENT = [
     "summary": "A full guide include important words, ideas, and sample answers.",
     "date": "2026-06-27",
     "publishAt": "2026-06-27T00:00:00+03:30",
-    "featured": true
+    "featured": false
   },
   {
     "title": "Speaking Pack: Culture, Festivals, and Traditions",
