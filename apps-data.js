@@ -23,7 +23,7 @@ window.KOOSHKY_APPS = [
   {
     name: "Dictation",
     href: "Apps/Dictation/kooshky_dictation_practice.html",
-    description: "Practise spelling using the Leitner Method!",
+    description: "Practise spelling using the Leitner Method! This is Jhoana's section.",
     logo: "Apps/Dictation/icon.png",
     featured: true
   },
