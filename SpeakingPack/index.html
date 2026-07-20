@@ -1,0 +1,697 @@
+<!doctype html>
+<html lang="en" data-theme="light">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <meta name="description" content="A collection of TOEFL speaking packs covering common everyday topics, useful vocabulary, ideas, and sample answers.">
+  <meta name="theme-color" content="#F4F0E8">
+  <title>Speaking Packs — Kooshky's TOEFL Guides</title>
+
+  <script>
+    (() => {
+      try {
+        const saved = localStorage.getItem("kooshky-guides:theme:v1");
+        const theme = saved === "dark" ? "dark" : "light";
+
+        document.documentElement.dataset.theme = theme;
+        document.documentElement.style.colorScheme = theme;
+      } catch (_) {
+        document.documentElement.dataset.theme = "light";
+        document.documentElement.style.colorScheme = "light";
+      }
+    })();
+  </script>
+
+  <style>
+    @import url("https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@400;500;600;700&family=Literata:opsz,wght@7..72,600;7..72,700&display=swap");
+
+    :root {
+      --color-page: #F4F0E8;
+      --color-surface: #FCFAF6;
+      --color-text: #182027;
+      --color-text-muted: #59636C;
+      --color-border: #D7D0C3;
+      --color-accent: #A9470D;
+      --color-accent-secondary: #1E5B63;
+      --color-accent-soft: #F3E2D3;
+      --color-secondary-soft: #DDEAE8;
+
+      --font-heading: "Literata", Georgia, "Times New Roman", serif;
+      --font-body: "IBM Plex Sans", Inter, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+
+      --page-width: 78rem;
+      --reading-width: 74ch;
+      --radius: 6px;
+    }
+
+    html[data-theme="dark"] {
+      --color-page: #111417;
+      --color-surface: #181D21;
+      --color-text: #ECE7DD;
+      --color-text-muted: #ADB4B8;
+      --color-border: #30383E;
+      --color-accent: #F28C45;
+      --color-accent-secondary: #70B7B4;
+      --color-accent-soft: #332219;
+      --color-secondary-soft: #193033;
+    }
+
+    *,
+    *::before,
+    *::after {
+      box-sizing: border-box;
+    }
+
+    html {
+      scroll-behavior: smooth;
+    }
+
+    body {
+      margin: 0;
+      background: var(--color-page);
+      color: var(--color-text);
+      font-family: var(--font-body);
+      line-height: 1.65;
+      overflow-x: hidden;
+    }
+
+    a {
+      color: var(--color-accent-secondary);
+      text-underline-offset: .18em;
+    }
+
+    a:hover {
+      color: var(--color-accent);
+    }
+
+    :focus-visible {
+      outline: 3px solid var(--color-accent);
+      outline-offset: 3px;
+    }
+
+    .container {
+      width: min(calc(100% - 2rem), var(--page-width));
+      margin-inline: auto;
+    }
+
+    .skip-link {
+      position: fixed;
+      top: .75rem;
+      left: .75rem;
+      z-index: 1000;
+      padding: .65rem .8rem;
+      border-radius: 4px;
+      background: var(--color-text);
+      color: var(--color-page);
+      transform: translateY(-160%);
+    }
+
+    .skip-link:focus {
+      transform: translateY(0);
+    }
+
+    .site-header {
+      position: sticky;
+      top: 0;
+      z-index: 100;
+      border-bottom: 1px solid var(--color-border);
+      background: var(--color-page);
+    }
+
+    .header-inner {
+      min-height: 4.1rem;
+      display: flex;
+      align-items: center;
+      gap: 1rem;
+    }
+
+    .brand {
+      display: inline-flex;
+      align-items: center;
+      gap: .7rem;
+      color: var(--color-text);
+      text-decoration: none;
+    }
+
+    .brand-mark {
+      width: 2rem;
+      aspect-ratio: 1;
+      display: grid;
+      place-items: center;
+      border: 1px solid var(--color-accent);
+      border-radius: 4px;
+      background: var(--color-accent-soft);
+      color: var(--color-accent);
+      font-family: var(--font-heading);
+      font-weight: 700;
+    }
+
+    .brand-text {
+      line-height: 1.05;
+    }
+
+    .brand-text small,
+    .brand-text strong {
+      display: block;
+    }
+
+    .brand-text small {
+      color: var(--color-text-muted);
+      font-size: .7rem;
+      letter-spacing: .08em;
+      text-transform: uppercase;
+    }
+
+    .brand-text strong {
+      font-family: var(--font-heading);
+      font-size: .98rem;
+    }
+
+    .site-nav {
+      margin-left: auto;
+      display: flex;
+      align-items: center;
+      gap: .3rem;
+    }
+
+    .site-nav a,
+    .theme-toggle {
+      min-height: 2.45rem;
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      padding: .5rem .7rem;
+      border: 1px solid transparent;
+      border-radius: 4px;
+      background: transparent;
+      color: var(--color-text-muted);
+      font: inherit;
+      font-size: .9rem;
+      font-weight: 600;
+      text-decoration: none;
+      cursor: pointer;
+    }
+
+    .site-nav a:hover,
+    .theme-toggle:hover {
+      border-color: var(--color-border);
+      background: var(--color-surface);
+      color: var(--color-text);
+    }
+
+    .theme-toggle {
+      border-color: var(--color-border);
+    }
+
+    .intro {
+      padding: clamp(2.8rem, 7vw, 5rem) 0 2.5rem;
+      border-bottom: 1px solid var(--color-border);
+    }
+
+    .intro-content {
+      max-width: var(--reading-width);
+    }
+
+    .eyebrow {
+      margin: 0 0 .75rem;
+      color: var(--color-accent);
+      font-size: .74rem;
+      font-weight: 800;
+      letter-spacing: .12em;
+      text-transform: uppercase;
+    }
+
+    h1,
+    h2,
+    h3 {
+      margin-top: 0;
+      font-family: var(--font-heading);
+      line-height: 1.18;
+      overflow-wrap: anywhere;
+    }
+
+    h1 {
+      margin-bottom: 1.1rem;
+      font-size: clamp(2.15rem, 6vw, 4.5rem);
+      letter-spacing: -.03em;
+    }
+
+    .intro-copy {
+      margin: 0;
+      color: var(--color-text-muted);
+      font-size: clamp(1.03rem, 1.8vw, 1.18rem);
+    }
+
+    .info-box {
+      max-width: var(--reading-width);
+      margin-top: 1.5rem;
+      padding: 1.15rem 1.25rem;
+      border: 1px solid var(--color-border);
+      border-left: 4px solid var(--color-accent-secondary);
+      border-radius: var(--radius);
+      background: var(--color-surface);
+    }
+
+    .info-box p {
+      margin: 0;
+    }
+
+    .info-label {
+      display: block;
+      margin-bottom: .65rem;
+      color: var(--color-accent-secondary);
+      font-size: .72rem;
+      font-weight: 800;
+      letter-spacing: .1em;
+      text-transform: uppercase;
+    }
+
+    .pack-section {
+      padding: 3rem 0;
+    }
+
+    .section-heading {
+      max-width: var(--reading-width);
+      margin-bottom: 1.5rem;
+    }
+
+    .section-heading h2 {
+      margin-bottom: .65rem;
+      font-size: clamp(1.55rem, 3vw, 2.25rem);
+    }
+
+    .section-heading p {
+      margin: 0;
+      color: var(--color-text-muted);
+    }
+
+    .resource-group {
+      max-width: var(--reading-width);
+    }
+
+    .group-heading {
+      margin: 0 0 1rem;
+      padding-bottom: .6rem;
+      border-bottom: 1px solid var(--color-border);
+    }
+
+    .group-heading h2 {
+      margin: 0;
+      font-size: 1.35rem;
+    }
+
+    /*
+      SIMPLE, NON-RIGID LAYOUT:
+      Packs are ordinary block elements in normal document flow.
+      Add or remove packs without changing any grid or column settings.
+    */
+    .resource-list {
+      display: block;
+    }
+
+    .resource-card {
+      padding: 1.25rem;
+      border: 1px solid var(--color-border);
+      border-left: 4px solid var(--color-accent-secondary);
+      border-radius: var(--radius);
+      background: var(--color-surface);
+    }
+
+    .resource-card + .resource-card {
+      margin-top: 1rem;
+    }
+
+    .resource-number {
+      display: block;
+      margin-bottom: .55rem;
+      color: var(--color-text-muted);
+      font-size: .72rem;
+      font-weight: 800;
+      letter-spacing: .1em;
+      text-transform: uppercase;
+    }
+
+    .resource-card h3 {
+      margin-bottom: .55rem;
+      font-size: clamp(1.1rem, 2vw, 1.3rem);
+    }
+
+    .resource-card h3 a {
+      color: var(--color-text);
+      text-decoration: none;
+    }
+
+    .resource-card h3 a:hover {
+      color: var(--color-accent);
+    }
+
+    .resource-card p {
+      margin: 0 0 .9rem;
+      color: var(--color-text-muted);
+    }
+
+    .resource-link {
+      font-weight: 700;
+      text-decoration: none;
+    }
+
+    .site-footer {
+      margin-top: 3rem;
+      padding: 2rem 0;
+      border-top: 1px solid var(--color-border);
+      color: var(--color-text-muted);
+    }
+
+    .footer-inner {
+      display: flex;
+      flex-wrap: wrap;
+      align-items: center;
+      justify-content: space-between;
+      gap: 1rem;
+    }
+
+    .footer-links {
+      display: flex;
+      flex-wrap: wrap;
+      gap: .8rem 1rem;
+    }
+
+    .footer-links a {
+      color: inherit;
+    }
+
+    @media (max-width: 700px) {
+      .container {
+        width: min(calc(100% - 1.2rem), var(--page-width));
+      }
+
+      .site-nav a:not(.home-link) {
+        display: none;
+      }
+
+      .brand-text small {
+        display: none;
+      }
+
+      .theme-toggle {
+        width: 2.6rem;
+        padding-inline: 0;
+        font-size: 0;
+      }
+
+      .theme-toggle::before {
+        content: "◐";
+        font-size: 1rem;
+      }
+
+      .resource-card,
+      .info-box {
+        padding: 1rem;
+      }
+
+      .footer-inner {
+        align-items: flex-start;
+        flex-direction: column;
+      }
+    }
+
+    @media (prefers-reduced-motion: reduce) {
+      html {
+        scroll-behavior: auto;
+      }
+    }
+  </style>
+</head>
+
+<body>
+  <a class="skip-link" href="#main">Skip to content</a>
+
+  <header class="site-header">
+    <div class="container header-inner">
+      <a class="brand" href="/index.html" aria-label="Kooshky's TOEFL Guides homepage">
+        <span class="brand-mark" aria-hidden="true">K</span>
+
+        <span class="brand-text">
+          <small>Kooshky's</small>
+          <strong>TOEFL Guides</strong>
+        </span>
+      </a>
+
+      <nav class="site-nav" aria-label="Site navigation">
+        <a class="home-link" href="/index.html">Home</a>
+        <a href="/contents.html">All contents</a>
+
+        <button
+          class="theme-toggle"
+          type="button"
+          data-theme-toggle
+          aria-label="Use dark theme"
+          aria-pressed="false"
+        >
+          <span data-theme-label>Dark</span>
+        </button>
+      </nav>
+    </div>
+  </header>
+
+  <main id="main">
+    <section class="intro">
+      <div class="container">
+        <div class="intro-content">
+          <p class="eyebrow">Kooshky's Speaking Collection</p>
+          <h1>Speaking Packs</h1>
+
+          <p class="intro-copy">
+            These packs help you build the vocabulary, ideas, and examples you need to speak clearly and confidently about common TOEFL topics.
+          </p>
+
+          <aside class="info-box">
+            <span class="info-label">How to use the packs</span>
+
+            <p>
+              Choose a topic, study the useful language and idea bank, and then practise producing complete spoken answers without memorising a fixed script.
+            </p>
+          </aside>
+        </div>
+      </div>
+    </section>
+
+    <section class="pack-section">
+      <div class="container">
+        <div class="section-heading">
+          <p class="eyebrow">Topic collection</p>
+          <h2>Choose a speaking topic</h2>
+
+          <p>
+            The packs are independent, so you can study them in any order.
+          </p>
+        </div>
+
+        <section class="resource-group" aria-labelledby="packs-heading">
+          <div class="group-heading">
+            <h2 id="packs-heading">Available packs</h2>
+          </div>
+
+          <div class="resource-list">
+
+            <!-- COPY ONE RESOURCE CARD TO ADD ANOTHER SPEAKING PACK -->
+
+            <article class="resource-card">
+              <span class="resource-number">Speaking Pack 01</span>
+
+              <h3>
+                <a href="/SpeakingPack/Health-KooshkysSpeakingCategories.html">
+                  Health and Wellness
+                </a>
+              </h3>
+
+              <p>
+                Build useful vocabulary and ideas for discussing exercise, healthy habits, physical and mental well-being, medical care, and everyday health choices.
+              </p>
+
+              <a class="resource-link" href="/SpeakingPack/Health-KooshkysSpeakingCategories.html">
+                Open Health and Wellness →
+              </a>
+            </article>
+
+            <article class="resource-card">
+              <span class="resource-number">Speaking Pack 02</span>
+
+              <h3>
+                <a href="/SpeakingPack/Culture-KooshkysSpeakingCategories.html">
+                  Culture, Festivals, and Traditions
+                </a>
+              </h3>
+
+              <p>
+                Learn how to discuss cultural customs, celebrations, family traditions, national festivals, and the importance of preserving cultural practices.
+              </p>
+
+              <a class="resource-link" href="/SpeakingPack/Culture-KooshkysSpeakingCategories.html">
+                Open Culture, Festivals, and Traditions →
+              </a>
+            </article>
+
+            <article class="resource-card">
+              <span class="resource-number">Speaking Pack 03</span>
+
+              <h3>
+                <a href="/SpeakingPack/Tech-KooshkysSpeakingGuides.html">
+                  Technology and Daily Life
+                </a>
+              </h3>
+
+              <p>
+                Practise talking about devices, apps, communication, online services, convenience, distraction, privacy, and the effects of technology on daily routines.
+              </p>
+
+              <a class="resource-link" href="/SpeakingPack/Tech-KooshkysSpeakingGuides.html">
+                Open Technology and Daily Life →
+              </a>
+            </article>
+
+            <article class="resource-card">
+              <span class="resource-number">Speaking Pack 04</span>
+
+              <h3>
+                <a href="/SpeakingPack/Shopping-KooshkysSpeakingPacks.html">
+                  Shopping and Consumer Habits
+                </a>
+              </h3>
+
+              <p>
+                Develop language for discussing online and in-person shopping, prices, product quality, advertising, customer service, and personal buying habits.
+              </p>
+
+              <a class="resource-link" href="/SpeakingPack/Shopping-KooshkysSpeakingPacks.html">
+                Open Shopping and Consumer Habits →
+              </a>
+            </article>
+
+            <article class="resource-card">
+              <span class="resource-number">Speaking Pack 05</span>
+
+              <h3>
+                <a href="/SpeakingPack/Hobbies-KooshkysSpeakingGuides.html">
+                  Leisure Time and Hobbies
+                </a>
+              </h3>
+
+              <p>
+                Learn to speak naturally about hobbies, free-time activities, relaxation, creativity, social activities, and the value of maintaining interests outside work or study.
+              </p>
+
+              <a class="resource-link" href="/SpeakingPack/Hobbies-KooshkysSpeakingGuides.html">
+                Open Leisure Time and Hobbies →
+              </a>
+            </article>
+
+            <!--
+            OPTIONAL NEW PACK TEMPLATE
+
+            Copy this block, remove the comment marks, and edit the text and links:
+
+            <article class="resource-card">
+              <span class="resource-number">Speaking Pack 06</span>
+
+              <h3>
+                <a href="/SpeakingPack/YOUR-FILE.html">
+                  New Speaking Pack Title
+                </a>
+              </h3>
+
+              <p>
+                Briefly describe the vocabulary, ideas, and speaking situations covered in this pack.
+              </p>
+
+              <a class="resource-link" href="/SpeakingPack/YOUR-FILE.html">
+                Open New Speaking Pack →
+              </a>
+            </article>
+            -->
+
+          </div>
+        </section>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-inner">
+      <span>Collected and compiled by Amir Kooshky</span>
+
+      <div class="footer-links">
+        <a href="/contents.html">All contents</a>
+        <a href="/apps.html">Apps</a>
+        <a href="https://telegram.me/KooshkyTOEFL" target="_blank" rel="noopener noreferrer">Telegram</a>
+        <a href="https://instagram.com/kooshkytoefl" target="_blank" rel="noopener noreferrer">Instagram</a>
+      </div>
+    </div>
+  </footer>
+
+  <script>
+    (() => {
+      "use strict";
+
+      const root = document.documentElement;
+      const button = document.querySelector("[data-theme-toggle]");
+      const label = document.querySelector("[data-theme-label]");
+      const themeColor = document.querySelector('meta[name="theme-color"]');
+      const storageKey = "kooshky-guides:theme:v1";
+
+      function saveTheme(theme) {
+        try {
+          localStorage.setItem(storageKey, theme);
+        } catch (_) {}
+      }
+
+      function applyTheme(theme, save = true) {
+        const normalized = theme === "dark" ? "dark" : "light";
+
+        root.dataset.theme = normalized;
+        root.style.colorScheme = normalized;
+
+        if (themeColor) {
+          themeColor.content =
+            normalized === "dark" ? "#111417" : "#F4F0E8";
+        }
+
+        if (button) {
+          const dark = normalized === "dark";
+
+          button.setAttribute("aria-pressed", String(dark));
+          button.setAttribute(
+            "aria-label",
+            dark ? "Use light theme" : "Use dark theme"
+          );
+
+          if (label) {
+            label.textContent = dark ? "Light" : "Dark";
+          }
+        }
+
+        if (save) {
+          saveTheme(normalized);
+        }
+      }
+
+      applyTheme(root.dataset.theme, false);
+
+      button?.addEventListener("click", () => {
+        applyTheme(
+          root.dataset.theme === "dark" ? "light" : "dark"
+        );
+      });
+
+      window.addEventListener("storage", (event) => {
+        if (
+          event.key === storageKey &&
+          (event.newValue === "light" || event.newValue === "dark")
+        ) {
+          applyTheme(event.newValue, false);
+        }
+      });
+    })();
+  </script>
+</body>
+</html>

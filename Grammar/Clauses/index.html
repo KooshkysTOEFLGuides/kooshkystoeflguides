@@ -1,0 +1,727 @@
+<!doctype html>
+<html lang="en" data-theme="light">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <meta name="description" content="A complete study path for learning parts of speech, phrases, clauses, and clause types.">
+  <meta name="theme-color" content="#F4F0E8">
+  <title>Phrases and Clauses — Kooshky's TOEFL Guides</title>
+
+  <script>
+    (() => {
+      try {
+        const saved = localStorage.getItem("kooshky-guides:theme:v1");
+        const theme = saved === "dark" ? "dark" : "light";
+        document.documentElement.dataset.theme = theme;
+        document.documentElement.style.colorScheme = theme;
+      } catch (_) {
+        document.documentElement.dataset.theme = "light";
+        document.documentElement.style.colorScheme = "light";
+      }
+    })();
+  </script>
+
+  <style>
+    @import url("https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@400;500;600;700&family=Literata:opsz,wght@7..72,600;7..72,700&display=swap");
+
+    :root {
+      --color-page: #F4F0E8;
+      --color-surface: #FCFAF6;
+      --color-text: #182027;
+      --color-text-muted: #59636C;
+      --color-border: #D7D0C3;
+      --color-accent: #A9470D;
+      --color-accent-secondary: #1E5B63;
+      --color-accent-soft: #F3E2D3;
+      --color-secondary-soft: #DDEAE8;
+      --font-heading: "Literata", Georgia, "Times New Roman", serif;
+      --font-body: "IBM Plex Sans", Inter, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+      --page-width: 78rem;
+      --reading-width: 74ch;
+      --radius: 6px;
+    }
+
+    html[data-theme="dark"] {
+      --color-page: #111417;
+      --color-surface: #181D21;
+      --color-text: #ECE7DD;
+      --color-text-muted: #ADB4B8;
+      --color-border: #30383E;
+      --color-accent: #F28C45;
+      --color-accent-secondary: #70B7B4;
+      --color-accent-soft: #332219;
+      --color-secondary-soft: #193033;
+    }
+
+    *,
+    *::before,
+    *::after {
+      box-sizing: border-box;
+    }
+
+    html {
+      scroll-behavior: smooth;
+    }
+
+    body {
+      margin: 0;
+      background: var(--color-page);
+      color: var(--color-text);
+      font-family: var(--font-body);
+      line-height: 1.65;
+      overflow-x: hidden;
+    }
+
+    a {
+      color: var(--color-accent-secondary);
+      text-underline-offset: .18em;
+    }
+
+    a:hover {
+      color: var(--color-accent);
+    }
+
+    :focus-visible {
+      outline: 3px solid var(--color-accent);
+      outline-offset: 3px;
+    }
+
+    .container {
+      width: min(calc(100% - 2rem), var(--page-width));
+      margin-inline: auto;
+    }
+
+    .skip-link {
+      position: fixed;
+      top: .75rem;
+      left: .75rem;
+      z-index: 1000;
+      padding: .65rem .8rem;
+      border-radius: 4px;
+      background: var(--color-text);
+      color: var(--color-page);
+      transform: translateY(-160%);
+    }
+
+    .skip-link:focus {
+      transform: translateY(0);
+    }
+
+    .site-header {
+      position: sticky;
+      top: 0;
+      z-index: 100;
+      border-bottom: 1px solid var(--color-border);
+      background: var(--color-page);
+    }
+
+    .header-inner {
+      min-height: 4.1rem;
+      display: flex;
+      align-items: center;
+      gap: 1rem;
+    }
+
+    .brand {
+      display: inline-flex;
+      align-items: center;
+      gap: .7rem;
+      color: var(--color-text);
+      text-decoration: none;
+    }
+
+    .brand-mark {
+      width: 2rem;
+      aspect-ratio: 1;
+      display: grid;
+      place-items: center;
+      border: 1px solid var(--color-accent);
+      border-radius: 4px;
+      background: var(--color-accent-soft);
+      color: var(--color-accent);
+      font-family: var(--font-heading);
+      font-weight: 700;
+    }
+
+    .brand-text {
+      line-height: 1.05;
+    }
+
+    .brand-text small,
+    .brand-text strong {
+      display: block;
+    }
+
+    .brand-text small {
+      color: var(--color-text-muted);
+      font-size: .7rem;
+      letter-spacing: .08em;
+      text-transform: uppercase;
+    }
+
+    .brand-text strong {
+      font-family: var(--font-heading);
+      font-size: .98rem;
+    }
+
+    .site-nav {
+      margin-left: auto;
+      display: flex;
+      align-items: center;
+      gap: .3rem;
+    }
+
+    .site-nav a,
+    .theme-toggle {
+      min-height: 2.45rem;
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      padding: .5rem .7rem;
+      border: 1px solid transparent;
+      border-radius: 4px;
+      background: transparent;
+      color: var(--color-text-muted);
+      font: inherit;
+      font-size: .9rem;
+      font-weight: 600;
+      text-decoration: none;
+      cursor: pointer;
+    }
+
+    .site-nav a:hover,
+    .theme-toggle:hover {
+      border-color: var(--color-border);
+      background: var(--color-surface);
+      color: var(--color-text);
+    }
+
+    .theme-toggle {
+      border-color: var(--color-border);
+    }
+
+    .intro {
+      padding: clamp(2.8rem, 7vw, 5rem) 0 2.5rem;
+      border-bottom: 1px solid var(--color-border);
+    }
+
+    .intro-content {
+      max-width: var(--reading-width);
+    }
+
+    .eyebrow {
+      margin: 0 0 .75rem;
+      color: var(--color-accent);
+      font-size: .74rem;
+      font-weight: 800;
+      letter-spacing: .12em;
+      text-transform: uppercase;
+    }
+
+    h1,
+    h2,
+    h3 {
+      margin-top: 0;
+      font-family: var(--font-heading);
+      line-height: 1.18;
+      overflow-wrap: anywhere;
+    }
+
+    h1 {
+      margin-bottom: 1.1rem;
+      font-size: clamp(2.15rem, 6vw, 4.5rem);
+      letter-spacing: -.03em;
+    }
+
+    .intro-copy {
+      margin: 0;
+      color: var(--color-text-muted);
+      font-size: clamp(1.03rem, 1.8vw, 1.18rem);
+    }
+
+    .example-box {
+      max-width: var(--reading-width);
+      margin-top: 1.5rem;
+      padding: 1.15rem 1.25rem;
+      border: 1px solid var(--color-border);
+      border-left: 4px solid var(--color-accent-secondary);
+      border-radius: var(--radius);
+      background: var(--color-surface);
+    }
+
+    .example-box p {
+      margin: 0;
+    }
+
+    .example-box p + p {
+      margin-top: .75rem;
+    }
+
+    .example-label {
+      display: block;
+      margin-bottom: .65rem;
+      color: var(--color-accent-secondary);
+      font-size: .72rem;
+      font-weight: 800;
+      letter-spacing: .1em;
+      text-transform: uppercase;
+    }
+
+    mark {
+      padding: 0 .12em;
+      background: var(--color-secondary-soft);
+      color: inherit;
+    }
+
+    .study-path {
+      padding: 3rem 0;
+    }
+
+    .section-heading {
+      max-width: var(--reading-width);
+      margin-bottom: 1.5rem;
+    }
+
+    .section-heading h2 {
+      margin-bottom: .65rem;
+      font-size: clamp(1.55rem, 3vw, 2.25rem);
+    }
+
+    .section-heading p {
+      margin: 0;
+      color: var(--color-text-muted);
+    }
+
+    .resource-group {
+      max-width: var(--reading-width);
+    }
+
+    .group-heading {
+      margin: 0 0 1rem;
+      padding-bottom: .6rem;
+      border-bottom: 1px solid var(--color-border);
+    }
+
+    .group-heading h2 {
+      margin: 0;
+      font-size: 1.35rem;
+    }
+
+    /*
+      SIMPLE, NON-RIGID LAYOUT:
+      Cards are ordinary block elements in normal document flow.
+      Add or remove cards without changing columns or grid settings.
+    */
+    .resource-list {
+      display: block;
+    }
+
+    .resource-card {
+      padding: 1.25rem;
+      border: 1px solid var(--color-border);
+      border-left: 4px solid var(--color-accent-secondary);
+      border-radius: var(--radius);
+      background: var(--color-surface);
+    }
+
+    .resource-card + .resource-card {
+      margin-top: 1rem;
+    }
+
+    .resource-number {
+      display: block;
+      margin-bottom: .55rem;
+      color: var(--color-text-muted);
+      font-size: .72rem;
+      font-weight: 800;
+      letter-spacing: .1em;
+      text-transform: uppercase;
+    }
+
+    .resource-card h3 {
+      margin-bottom: .55rem;
+      font-size: clamp(1.1rem, 2vw, 1.3rem);
+    }
+
+    .resource-card h3 a {
+      color: var(--color-text);
+      text-decoration: none;
+    }
+
+    .resource-card h3 a:hover {
+      color: var(--color-accent);
+    }
+
+    .resource-card p {
+      margin: 0 0 .9rem;
+      color: var(--color-text-muted);
+    }
+
+    .resource-link {
+      font-weight: 700;
+      text-decoration: none;
+    }
+
+    .practice-card {
+      border-left-color: var(--color-accent);
+    }
+
+    .recommended-order {
+      max-width: var(--reading-width);
+      margin-top: 1.5rem;
+      padding: 1rem 1.15rem;
+      border: 1px solid var(--color-border);
+      border-left: 4px solid var(--color-accent);
+      border-radius: var(--radius);
+      background: var(--color-accent-soft);
+    }
+
+    .recommended-order h2 {
+      margin-bottom: .35rem;
+      font-size: 1.08rem;
+    }
+
+    .recommended-order p {
+      margin: 0;
+    }
+
+    .site-footer {
+      margin-top: 3rem;
+      padding: 2rem 0;
+      border-top: 1px solid var(--color-border);
+      color: var(--color-text-muted);
+    }
+
+    .footer-inner {
+      display: flex;
+      flex-wrap: wrap;
+      align-items: center;
+      justify-content: space-between;
+      gap: 1rem;
+    }
+
+    .footer-links {
+      display: flex;
+      flex-wrap: wrap;
+      gap: .8rem 1rem;
+    }
+
+    .footer-links a {
+      color: inherit;
+    }
+
+    @media (max-width: 700px) {
+      .container {
+        width: min(calc(100% - 1.2rem), var(--page-width));
+      }
+
+      .site-nav a:not(.home-link) {
+        display: none;
+      }
+
+      .brand-text small {
+        display: none;
+      }
+
+      .theme-toggle {
+        width: 2.6rem;
+        padding-inline: 0;
+        font-size: 0;
+      }
+
+      .theme-toggle::before {
+        content: "◐";
+        font-size: 1rem;
+      }
+
+      .resource-card,
+      .example-box {
+        padding: 1rem;
+      }
+
+      .footer-inner {
+        align-items: flex-start;
+        flex-direction: column;
+      }
+    }
+
+    @media (prefers-reduced-motion: reduce) {
+      html {
+        scroll-behavior: auto;
+      }
+    }
+  </style>
+</head>
+
+<body>
+  <a class="skip-link" href="#main">Skip to content</a>
+
+  <header class="site-header">
+    <div class="container header-inner">
+      <a class="brand" href="/index.html" aria-label="Kooshky's TOEFL Guides homepage">
+        <span class="brand-mark" aria-hidden="true">K</span>
+        <span class="brand-text">
+          <small>Kooshky's</small>
+          <strong>TOEFL Guides</strong>
+        </span>
+      </a>
+
+      <nav class="site-nav" aria-label="Site navigation">
+        <a class="home-link" href="/index.html">Home</a>
+
+        <button
+          class="theme-toggle"
+          type="button"
+          data-theme-toggle
+          aria-label="Use dark theme"
+          aria-pressed="false"
+        >
+          <span data-theme-label>Dark</span>
+        </button>
+      </nav>
+    </div>
+  </header>
+
+  <main id="main">
+    <section class="intro">
+      <div class="container">
+        <div class="intro-content">
+          <p class="eyebrow">Kooshky's Grammar Collection</p>
+          <h1>Phrases and Clauses</h1>
+
+          <p class="intro-copy">
+            This is a must-know subject if you want to learn TOEFL-level grammar. Take the time to work through these notes carefully and in order.
+          </p>
+
+          <aside class="example-box">
+            <span class="example-label">Why this matters</span>
+
+            <p>
+              Punctuation rule:
+              <mark>A semicolon normally joins two closely related independent clauses.</mark>
+            </p>
+
+            <p>
+              If you do not know what an independent clause is, even a simple punctuation rule like this becomes much harder to understand and use correctly.
+            </p>
+          </aside>
+        </div>
+      </div>
+    </section>
+
+    <section class="study-path">
+      <div class="container">
+        <div class="section-heading">
+          <p class="eyebrow">Complete study path</p>
+          <h2>Learn the system part by part</h2>
+          <p>
+            Read the four guides in order and complete the exercises included in each guide.
+          </p>
+        </div>
+
+        <section class="resource-group" aria-labelledby="guides-heading">
+          <div class="group-heading">
+            <h2 id="guides-heading">Study guides</h2>
+          </div>
+
+          <div class="resource-list">
+
+            <!-- COPY ONE RESOURCE CARD TO ADD ANOTHER GUIDE -->
+
+            <article class="resource-card">
+              <span class="resource-number">Guide 01 · Preliminary</span>
+
+              <h3>
+                <a href="/Grammar/Clauses/kooshky_parts_of_speech_sentence_roles.html">
+                  Introduction to Parts of Speech and Words' Functions in Sentences
+                </a>
+              </h3>
+
+              <p>
+                Begin here. Learn the major types of words and the different axes along which words can be classified.
+              </p>
+
+              <a class="resource-link" href="/Grammar/Clauses/kooshky_parts_of_speech_sentence_roles.html">
+                Open Part I →
+              </a>
+            </article>
+
+            <article class="resource-card">
+              <span class="resource-number">Guide 02 · Phrases</span>
+
+              <h3>
+                <a href="/Grammar/Clauses/kooshky_phrases_nesting_with_practice.html">
+                  Introduction to Phrases
+                </a>
+              </h3>
+
+              <p>
+                Learn what phrases are, how they function, and how one phrase can be nested inside another.
+              </p>
+
+              <a class="resource-link" href="/Grammar/Clauses/kooshky_phrases_nesting_with_practice.html">
+                Open Part II →
+              </a>
+            </article>
+
+            <article class="resource-card">
+              <span class="resource-number">Guide 03 · Clauses</span>
+
+              <h3>
+                <a href="/Grammar/Clauses/kooshky_introducing_clauses_with_complements_boundaries_roles_and_practice.html">
+                  Introduction to Clauses
+                </a>
+              </h3>
+
+              <p>
+                Learn what clauses are, where their boundaries are, and how they work inside larger sentences. This is the most important part of the series.
+              </p>
+
+              <a class="resource-link" href="/Grammar/Clauses/kooshky_introducing_clauses_with_complements_boundaries_roles_and_practice.html">
+                Open Part III →
+              </a>
+            </article>
+
+            <article class="resource-card">
+              <span class="resource-number">Guide 04 · Clause Types</span>
+
+              <h3>
+                <a href="/Grammar/Clauses/kooshky_types_of_clauses_three_axes_guide.html">
+                  Types of Clauses
+                </a>
+              </h3>
+
+              <p>
+                Complete the series by learning the main ways clauses are classified and the different axes used in those classifications.
+              </p>
+
+              <a class="resource-link" href="/Grammar/Clauses/kooshky_types_of_clauses_three_axes_guide.html">
+                Open Part IV →
+              </a>
+            </article>
+
+          </div>
+        </section>
+
+        <!--
+        OPTIONAL PRACTICE FILES SECTION
+
+        Remove these comment marks when you want to use it.
+        Copy and paste additional .resource-card blocks as needed.
+
+        <section class="resource-group" aria-labelledby="practice-heading" style="margin-top: 2.5rem;">
+          <div class="group-heading">
+            <h2 id="practice-heading">Practice files</h2>
+          </div>
+
+          <div class="resource-list">
+
+            <article class="resource-card practice-card">
+              <span class="resource-number">Practice 01 · Parts I–II</span>
+
+              <h3>
+                <a href="/PATH/TO/PRACTICE-FILE.html">
+                  Practice File Title
+                </a>
+              </h3>
+
+              <p>
+                Briefly explain what this practice file covers.
+              </p>
+
+              <a class="resource-link" href="/PATH/TO/PRACTICE-FILE.html">
+                Open practice file →
+              </a>
+            </article>
+
+          </div>
+        </section>
+        -->
+
+        <aside class="recommended-order">
+          <h2>Recommended order</h2>
+          <p>Part I → Part II → Part III → Part IV</p>
+        </aside>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-inner">
+      <span>Collected and compiled by Amir Kooshky</span>
+
+      <div class="footer-links">
+        <a href="/contents.html">All contents</a>
+        <a href="/apps.html">Apps</a>
+        <a href="https://telegram.me/KooshkyTOEFL" target="_blank" rel="noopener noreferrer">Telegram</a>
+        <a href="https://instagram.com/kooshkytoefl" target="_blank" rel="noopener noreferrer">Instagram</a>
+      </div>
+    </div>
+  </footer>
+
+  <script>
+    (() => {
+      "use strict";
+
+      const root = document.documentElement;
+      const button = document.querySelector("[data-theme-toggle]");
+      const label = document.querySelector("[data-theme-label]");
+      const themeColor = document.querySelector('meta[name="theme-color"]');
+      const storageKey = "kooshky-guides:theme:v1";
+
+      function saveTheme(theme) {
+        try {
+          localStorage.setItem(storageKey, theme);
+        } catch (_) {}
+      }
+
+      function applyTheme(theme, save = true) {
+        const normalized = theme === "dark" ? "dark" : "light";
+
+        root.dataset.theme = normalized;
+        root.style.colorScheme = normalized;
+
+        if (themeColor) {
+          themeColor.content =
+            normalized === "dark" ? "#111417" : "#F4F0E8";
+        }
+
+        if (button) {
+          const dark = normalized === "dark";
+
+          button.setAttribute("aria-pressed", String(dark));
+          button.setAttribute(
+            "aria-label",
+            dark ? "Use light theme" : "Use dark theme"
+          );
+
+          if (label) {
+            label.textContent = dark ? "Light" : "Dark";
+          }
+        }
+
+        if (save) {
+          saveTheme(normalized);
+        }
+      }
+
+      applyTheme(root.dataset.theme, false);
+
+      button?.addEventListener("click", () => {
+        applyTheme(
+          root.dataset.theme === "dark" ? "light" : "dark"
+        );
+      });
+
+      window.addEventListener("storage", (event) => {
+        if (
+          event.key === storageKey &&
+          (event.newValue === "light" || event.newValue === "dark")
+        ) {
+          applyTheme(event.newValue, false);
+        }
+      });
+    })();
+  </script>
+</body>
+</html>

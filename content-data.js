@@ -167,95 +167,113 @@ window.KOOSHKY_CONTENT = [
     "featured": false
   },
   {
-    "title": "Speaking Pack: Health and Wellness",
-    "href": "SpeakingPack/Health-KooshkysSpeakingCategories.html",
-    "section": "speaking",
-    "summary": "A full guide include important words, ideas, and sample answers.",
-    "date": "2026-06-27",
-    "publishAt": "2026-06-27T00:00:00+03:30",
-    "featured": false
+    title: "Speaking Packs: Vocabulary, Ideas, and Sample Answers",
+    href: "SpeakingPack/index.html",
+    section: "speaking",
+    summary: "A collection of topic-based speaking packs with useful vocabulary, idea banks, and sample answers.",
+    date: "2026-07-10",
+    publishAt: "2026-07-10T00:00:00+03:30",
+    featured: true
   },
+  // {
+  //   "title": "Speaking Pack: Health and Wellness",
+  //   "href": "SpeakingPack/Health-KooshkysSpeakingCategories.html",
+  //   "section": "speaking",
+  //   "summary": "A full guide include important words, ideas, and sample answers.",
+  //   "date": "2026-06-27",
+  //   "publishAt": "2026-06-27T00:00:00+03:30",
+  //   "featured": false
+  // },
+  // {
+  //   "title": "Speaking Pack: Culture, Festivals, and Traditions",
+  //   "href": "SpeakingPack/Culture-KooshkysSpeakingCategories.html",
+  //   "section": "speaking",
+  //   "summary": "A full guide include important words, ideas, and sample answers.",
+  //   "date": "2026-06-29",
+  //   "publishAt": "2026-06-29T00:00:00+03:30",
+  //   "featured": false
+  // },
+  // {
+  //   "title": "Speaking Pack: Technology and Daily Life",
+  //   "href": "SpeakingPack/Tech-KooshkysSpeakingGuides.html",
+  //   "section": "speaking",
+  //   "summary": "A full guide include important words, ideas, and sample answers.",
+  //   "date": "2026-06-30",
+  //   "publishAt": "2026-06-30T00:00:00+03:30",
+  //   "featured": false
+  // },
+  // {
+  //   "title": "Speaking Pack: Shopping and Consumer Habits",
+  //   "href": "SpeakingPack/Shopping-KooshkysSpeakingPacks.html",
+  //   "section": "speaking",
+  //   "summary": "A full guide include important words, ideas, and sample answers.",
+  //   "date": "2026-07-04",
+  //   "publishAt": "2026-07-04T00:00:00+03:30",
+  //   "featured": false
+  // },
+  // {
+  //   "title": "Speaking Pack: Leisure Time and Hobbies",
+  //   "href": "SpeakingPack/Hobbies-KooshkysSpeakingGuides.html",
+  //   "section": "speaking",
+  //   "summary": "A full guide include important words, ideas, and sample answers.",
+  //   "date": "2026-07-10",
+  //   "publishAt": "2026-07-10T00:00:00+03:30",
+  //   "featured": false
+  // },
   {
-    "title": "Speaking Pack: Culture, Festivals, and Traditions",
-    "href": "SpeakingPack/Culture-KooshkysSpeakingCategories.html",
-    "section": "speaking",
-    "summary": "A full guide include important words, ideas, and sample answers.",
-    "date": "2026-06-29",
-    "publishAt": "2026-06-29T00:00:00+03:30",
-    "featured": false
-  },
-  {
-    "title": "Speaking Pack: Technology and Daily Life",
-    "href": "SpeakingPack/Tech-KooshkysSpeakingGuides.html",
-    "section": "speaking",
-    "summary": "A full guide include important words, ideas, and sample answers.",
-    "date": "2026-06-30",
-    "publishAt": "2026-06-30T00:00:00+03:30",
-    "featured": false
-  },
-  {
-    "title": "Speaking Pack: Shopping and Consumer Habits",
-    "href": "SpeakingPack/Shopping-KooshkysSpeakingPacks.html",
-    "section": "speaking",
-    "summary": "A full guide include important words, ideas, and sample answers.",
-    "date": "2026-07-04",
-    "publishAt": "2026-07-04T00:00:00+03:30",
-    "featured": false
-  },
-  {
-    "title": "Speaking Pack: Leisure Time and Hobbies",
-    "href": "SpeakingPack/Hobbies-KooshkysSpeakingGuides.html",
-    "section": "speaking",
-    "summary": "A full guide include important words, ideas, and sample answers.",
-    "date": "2026-07-10",
-    "publishAt": "2026-07-10T00:00:00+03:30",
-    "featured": false
-  },
-  {
-    "title": "Grammar: Relative Clauses, Part I",
-    "href": "Grammar/RelativeClauses/KooshkyRelativeClausesPart1.html",
+    "title": "Grammar: Relative Clauses",
+    "href": "Grammar/RelativeClauses/index.html",
     "section": "grammar",
-    "summary": "Part 1 of the full guide to relative clauses.",
-    "date": "2026-06-23",
-    "publishAt": "2026-06-23T00:00:00+03:30",
-    "featured": false
-  },
-  {
-    "title": "Grammar: Relative Clauses, Part II",
-    "href": "Grammar/RelativeClauses/KooshkyRelativeClausesPart2.html",
-    "section": "grammar",
-    "summary": "Part 2 of the full guide to relative clauses.",
-    "date": "2026-06-24",
-    "publishAt": "2026-06-24T00:00:00+03:30",
-    "featured": false
-  },
-  {
-    "title": "Grammar: Relative Clauses, Part III",
-    "href": "Grammar/RelativeClauses/KooshkyRelativeClausesPart3.html",
-    "section": "grammar",
-    "summary": "Part 3 of the full guide to relative clauses.",
-    "date": "2026-06-25",
-    "publishAt": "2026-06-25T00:00:00+03:30",
-    "featured": false
-  },
-  {
-    "title": "Grammar: Workbook for Relative Clauses: Part I",
-    "href": "Grammar/RelativeClauses/RelativeClauses_I_KooshkysGrammarWorkbooks.html",
-    "section": "grammar",
-    "summary": "Full workbook for activating the grammar you learned in previous guides.",
-    "date": "2026-07-08",
-    "publishAt": "2026-07-08T00:00:00+03:30",
-    "featured": false
-  },
-  {
-    "title": "Grammar: Workbook for Advanced Relative Clauses: Part II and III",
-    "href": "Grammar/RelativeClauses/advanced_relative_clauses_workbook.html",
-    "section": "grammar",
-    "summary": "Full workbook for activating the grammar you learned in part II and III of the relative clause guides.",
-    "date": "2026-07-15",
-    "publishAt": "2026-07-15T14:55:00+03:30",
+    "summary": "The full guide to relative clauses + Exercise workbooks",
+    "date": "2026-07-21",
+    "publishAt": "2026-07-20T00:00:00+03:30",
     "featured": true
   },
+  // {
+  //   "title": "Grammar: Relative Clauses, Part I",
+  //   "href": "Grammar/RelativeClauses/KooshkyRelativeClausesPart1.html",
+  //   "section": "grammar",
+  //   "summary": "Part 1 of the full guide to relative clauses.",
+  //   "date": "2026-06-23",
+  //   "publishAt": "2026-06-23T00:00:00+03:30",
+  //   "featured": false
+  // },
+  // {
+  //   "title": "Grammar: Relative Clauses, Part II",
+  //   "href": "Grammar/RelativeClauses/KooshkyRelativeClausesPart2.html",
+  //   "section": "grammar",
+  //   "summary": "Part 2 of the full guide to relative clauses.",
+  //   "date": "2026-06-24",
+  //   "publishAt": "2026-06-24T00:00:00+03:30",
+  //   "featured": false
+  // },
+  // {
+  //   "title": "Grammar: Relative Clauses, Part III",
+  //   "href": "Grammar/RelativeClauses/KooshkyRelativeClausesPart3.html",
+  //   "section": "grammar",
+  //   "summary": "Part 3 of the full guide to relative clauses.",
+  //   "date": "2026-06-25",
+  //   "publishAt": "2026-06-25T00:00:00+03:30",
+  //   "featured": false
+  // },
+  // {
+  //   "title": "Grammar: Workbook for Relative Clauses: Part I",
+  //   "href": "Grammar/RelativeClauses/RelativeClauses_I_KooshkysGrammarWorkbooks.html",
+  //   "section": "grammar",
+  //   "summary": "Full workbook for activating the grammar you learned in previous guides.",
+  //   "date": "2026-07-08",
+  //   "publishAt": "2026-07-08T00:00:00+03:30",
+  //   "featured": false
+  // },
+  // {
+  //   "title": "Grammar: Workbook for Advanced Relative Clauses: Part II and III",
+  //   "href": "Grammar/RelativeClauses/advanced_relative_clauses_workbook.html",
+  //   "section": "grammar",
+  //   "summary": "Full workbook for activating the grammar you learned in part II and III of the relative clause guides.",
+  //   "date": "2026-07-15",
+  //   "publishAt": "2026-07-15T14:55:00+03:30",
+  //   "featured": true
+  // },
   {
     "title": "Complete Guide to Articles: a/an, the, etc.",
     "href": "Grammar/KooshkysGuideToArticles.html",
@@ -266,41 +284,50 @@ window.KOOSHKY_CONTENT = [
     "featured": false
   },
   {
-    "title": "Introducing Parts of Speech and Sentence Functions",
-    "href": "Grammar/Clauses/kooshky_parts_of_speech_sentence_roles.html",
+    "title": "Full Guide to Phrases and Clauses",
+    "href": "Grammar/Clauses/index.html",
     "section": "grammar",
-    "summary": "Full guide for identifying parts of speech and sentence roles. Part 1 of a 4-part series.",
+    "summary": "Full guide for identifying and using clauses and phrases in grammar.",
     "date": "2026-07-18",
     "publishAt": "2026-06-18T00:00:00+03:30",
     "featured": false
   },
-  {
-    "title": "Introducing Phrases",
-    "href": "Grammar/Clauses/kooshky_phrases_nesting_with_practice.html",
-    "section": "grammar",
-    "summary": "Full guide to understanding and using phrases. Part 2 of a 4-part series.",
-    "date": "2026-07-18",
-    "publishAt": "2026-06-18T00:00:00+03:30",
-    "featured": false
-  },
-  {
-    "title": "Introducing Clauses",
-    "href": "Grammar/Clauses/kooshky_introducing_clauses_with_complements_boundaries_roles_and_practice",
-    "section": "grammar",
-    "summary": "Full guide to identifying and understanding clauses. Part 3 of a 4-part series.",
-    "date": "2026-07-18",
-    "publishAt": "2026-06-18T00:00:00+03:30",
-    "featured": false
-  },
-  {
-    "title": "Types of Clauses",
-    "href": "Grammar/Clauses/kooshky_types_of_clauses_three_axes_guide.html",
-    "section": "grammar",
-    "summary": "Introduction to classification of clauses. Part 4 of a 4-part series.",
-    "date": "2026-07-18",
-    "publishAt": "2026-06-18T00:00:00+03:30",
-    "featured": false
-  },
+  // {
+  //   "title": "Introducing Parts of Speech and Sentence Functions",
+  //   "href": "Grammar/Clauses/kooshky_parts_of_speech_sentence_roles.html",
+  //   "section": "grammar",
+  //   "summary": "Full guide for identifying parts of speech and sentence roles. Part 1 of a 4-part series.",
+  //   "date": "2026-07-18",
+  //   "publishAt": "2026-06-18T00:00:00+03:30",
+  //   "featured": false
+  // },
+  // {
+  //   "title": "Introducing Phrases",
+  //   "href": "Grammar/Clauses/kooshky_phrases_nesting_with_practice.html",
+  //   "section": "grammar",
+  //   "summary": "Full guide to understanding and using phrases. Part 2 of a 4-part series.",
+  //   "date": "2026-07-18",
+  //   "publishAt": "2026-06-18T00:00:00+03:30",
+  //   "featured": false
+  // },
+  // {
+  //   "title": "Introducing Clauses",
+  //   "href": "Grammar/Clauses/kooshky_introducing_clauses_with_complements_boundaries_roles_and_practice",
+  //   "section": "grammar",
+  //   "summary": "Full guide to identifying and understanding clauses. Part 3 of a 4-part series.",
+  //   "date": "2026-07-18",
+  //   "publishAt": "2026-06-18T00:00:00+03:30",
+  //   "featured": false
+  // },
+  // {
+  //   "title": "Types of Clauses",
+  //   "href": "Grammar/Clauses/kooshky_types_of_clauses_three_axes_guide.html",
+  //   "section": "grammar",
+  //   "summary": "Introduction to classification of clauses. Part 4 of a 4-part series.",
+  //   "date": "2026-07-18",
+  //   "publishAt": "2026-06-18T00:00:00+03:30",
+  //   "featured": false
+  // },
   {
     "title": "Describing Problems with Gym Equipment",
     "href": "EmailNames/TOEFL_Gym_Equipment_Problems_Guide_100_Examples.html",

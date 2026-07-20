@@ -1,0 +1,2323 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="light">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
+  <meta name="description" content="A clear, advanced student guide to reduced relative clauses, relative adverbs, content clauses, partitive relatives, agreement, free relatives, and reference clarity.">
+  <meta name="theme-color" content="#F4F0E8">
+  <title>Relative Clauses: Part 4 — Hidden Patterns and Meaning Distinctions | Kooshky’s TOEFL Guides</title>
+  <script>
+    (function () {
+      var theme = 'light';
+      try {
+        var saved = localStorage.getItem('kooshky-guides:theme:v1');
+        if (saved === 'dark' || saved === 'light') theme = saved;
+      } catch (error) {}
+      document.documentElement.dataset.theme = theme;
+      document.documentElement.style.colorScheme = theme;
+    })();
+  </script>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@400;500;600;700&family=Literata:opsz,wght@7..72,600;7..72,700&display=swap" rel="stylesheet">
+  <style>
+    :root {
+      --color-page: #F4F0E8;
+      --color-surface: #FCFAF6;
+      --color-text: #182027;
+      --color-text-muted: #59636C;
+      --color-border: #D7D0C3;
+      --color-accent: #A9470D;
+      --color-accent-secondary: #1E5B63;
+      --color-accent-soft: #F3E2D3;
+      --color-secondary-soft: #DDEAE8;
+      --color-overlay: rgba(17, 20, 23, 0.62);
+      --color-shadow: rgba(24, 32, 39, 0.12);
+      --color-selection: rgba(30, 91, 99, 0.22);
+      --font-heading: "Literata", Georgia, "Times New Roman", serif;
+      --font-body: "IBM Plex Sans", Inter, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+      --space-1: 0.25rem;
+      --space-2: 0.5rem;
+      --space-3: 0.75rem;
+      --space-4: 1rem;
+      --space-5: 1.5rem;
+      --space-6: 2rem;
+      --space-7: 3rem;
+      --space-8: 4.5rem;
+      --radius-small: 4px;
+      --radius-medium: 6px;
+      --radius-large: 10px;
+      --header-height: 4.25rem;
+      --content-width: 74ch;
+      --layout-width: 1180px;
+      --z-header: 100;
+      --z-floating-control: 200;
+      --z-selection-menu: 300;
+      --z-mobile-backdrop: 350;
+      --z-mobile-menu: 360;
+      --z-modal-backdrop: 400;
+      --z-modal: 410;
+      --transition-fast: 180ms ease;
+    }
+
+    html[data-theme="dark"] {
+      --color-page: #111417;
+      --color-surface: #181D21;
+      --color-text: #ECE7DD;
+      --color-text-muted: #ADB4B8;
+      --color-border: #30383E;
+      --color-accent: #F28C45;
+      --color-accent-secondary: #70B7B4;
+      --color-accent-soft: #332219;
+      --color-secondary-soft: #193033;
+      --color-overlay: rgba(0, 0, 0, 0.72);
+      --color-shadow: rgba(0, 0, 0, 0.24);
+      --color-selection: rgba(112, 183, 180, 0.25);
+    }
+
+    *, *::before, *::after { box-sizing: border-box; }
+
+    html {
+      scroll-behavior: smooth;
+      background: var(--color-page);
+      color-scheme: light;
+    }
+
+    html[data-theme="dark"] { color-scheme: dark; }
+
+    body {
+      margin: 0;
+      min-width: 0;
+      overflow-x: hidden;
+      background: var(--color-page);
+      color: var(--color-text);
+      font-family: var(--font-body);
+      font-size: clamp(1rem, 0.96rem + 0.18vw, 1.08rem);
+      line-height: 1.72;
+      text-rendering: optimizeLegibility;
+    }
+
+    ::selection { background: var(--color-selection); }
+
+    a {
+      color: var(--color-accent-secondary);
+      text-decoration-thickness: 0.08em;
+      text-underline-offset: 0.18em;
+      overflow-wrap: anywhere;
+    }
+
+    a:hover { color: var(--color-accent); }
+
+    button, summary, a { -webkit-tap-highlight-color: transparent; }
+
+    button {
+      font: inherit;
+      color: inherit;
+    }
+
+    img, svg { max-width: 100%; }
+
+    code {
+      font-family: "IBM Plex Mono", "SFMono-Regular", Consolas, monospace;
+      font-size: 0.92em;
+      overflow-wrap: anywhere;
+    }
+
+    .skip-link {
+      position: fixed;
+      top: var(--space-3);
+      left: var(--space-3);
+      z-index: calc(var(--z-modal) + 20);
+      transform: translateY(-160%);
+      padding: var(--space-3) var(--space-4);
+      border: 2px solid var(--color-accent);
+      border-radius: var(--radius-medium);
+      background: var(--color-surface);
+      color: var(--color-text);
+      font-weight: 700;
+      transition: transform var(--transition-fast);
+    }
+
+    .skip-link:focus { transform: translateY(0); }
+
+    :focus-visible {
+      outline: 3px solid var(--color-accent-secondary);
+      outline-offset: 3px;
+    }
+
+    .site-header {
+      position: sticky;
+      top: 0;
+      z-index: var(--z-header);
+      min-height: var(--header-height);
+      border-bottom: 1px solid var(--color-border);
+      background: color-mix(in srgb, var(--color-page) 94%, transparent);
+      backdrop-filter: blur(10px);
+    }
+
+    .site-header__inner {
+      width: min(100% - 2rem, var(--layout-width));
+      min-height: var(--header-height);
+      margin-inline: auto;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: var(--space-4);
+    }
+
+    .brand-link {
+      display: inline-flex;
+      align-items: center;
+      gap: var(--space-3);
+      min-width: 0;
+      color: var(--color-text);
+      text-decoration: none;
+      font-family: var(--font-heading);
+      font-weight: 700;
+      line-height: 1.15;
+    }
+
+    .brand-mark {
+      width: 0.38rem;
+      height: 1.9rem;
+      flex: 0 0 auto;
+      background: var(--color-accent);
+    }
+
+    .primary-nav {
+      display: flex;
+      align-items: center;
+      gap: var(--space-2);
+      flex-wrap: wrap;
+    }
+
+    .nav-link, .icon-button, .menu-button {
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      gap: var(--space-2);
+      min-height: 2.65rem;
+      border: 1px solid transparent;
+      border-radius: var(--radius-medium);
+      background: transparent;
+      color: var(--color-text);
+      text-decoration: none;
+      cursor: pointer;
+      padding: var(--space-2) var(--space-3);
+      transition: background var(--transition-fast), border-color var(--transition-fast), color var(--transition-fast);
+    }
+
+    .nav-link:hover, .icon-button:hover, .menu-button:hover {
+      border-color: var(--color-border);
+      background: var(--color-surface);
+      color: var(--color-accent);
+    }
+
+    .menu-button { display: none; }
+
+    .hero {
+      border-bottom: 1px solid var(--color-border);
+      background:
+        linear-gradient(90deg, var(--color-accent-soft) 0, var(--color-accent-soft) 0.55rem, transparent 0.55rem),
+        var(--color-surface);
+    }
+
+    .hero__inner {
+      width: min(100% - 2rem, var(--layout-width));
+      margin-inline: auto;
+      padding: clamp(2.5rem, 6vw, 5.25rem) clamp(0rem, 2vw, 1.5rem);
+      display: grid;
+      grid-template-columns: minmax(0, 1fr) minmax(15rem, 24rem);
+      gap: clamp(2rem, 5vw, 5rem);
+      align-items: end;
+    }
+
+    .eyebrow, .chapter-label, .panel-label, .callout__label, .exercise-label {
+      display: block;
+      margin: 0 0 var(--space-3);
+      color: var(--color-accent);
+      font-size: 0.76rem;
+      font-weight: 800;
+      letter-spacing: 0.13em;
+      text-transform: uppercase;
+    }
+
+    .hero h1 {
+      max-width: 18ch;
+      margin: 0;
+      font-family: var(--font-heading);
+      font-size: clamp(2.15rem, 4.6vw, 4.65rem);
+      line-height: 1.02;
+      letter-spacing: -0.035em;
+      overflow-wrap: anywhere;
+    }
+
+    .hero__subtitle {
+      max-width: 60ch;
+      margin: var(--space-5) 0 0;
+      color: var(--color-text-muted);
+      font-size: clamp(1.04rem, 0.98rem + 0.25vw, 1.24rem);
+    }
+
+    .hero__meta {
+      border-top: 2px solid var(--color-accent);
+      padding-top: var(--space-4);
+      color: var(--color-text-muted);
+    }
+
+    .hero__meta strong { color: var(--color-text); }
+
+    .social-links {
+      display: flex;
+      flex-wrap: wrap;
+      gap: var(--space-2);
+      margin-top: var(--space-4);
+    }
+
+    .social-link {
+      display: inline-flex;
+      align-items: center;
+      min-height: 2.5rem;
+      padding: var(--space-2) var(--space-3);
+      border: 1px solid var(--color-border);
+      border-radius: var(--radius-small);
+      background: var(--color-page);
+      color: var(--color-text);
+      text-decoration: none;
+      font-size: 0.92rem;
+      font-weight: 700;
+    }
+
+    .social-link:hover {
+      border-color: var(--color-accent-secondary);
+      background: var(--color-secondary-soft);
+    }
+
+    .page-layout {
+      width: min(100% - 2rem, var(--layout-width));
+      margin-inline: auto;
+      display: grid;
+      grid-template-columns: minmax(14rem, 18rem) minmax(0, 1fr);
+      gap: clamp(2rem, 4vw, 4.5rem);
+      align-items: start;
+      padding-block: var(--space-7) var(--space-8);
+    }
+
+    .toc-panel {
+      position: sticky;
+      top: calc(var(--header-height) + var(--space-5));
+      max-height: calc(100vh - var(--header-height) - 3rem);
+      overflow: auto;
+      border-top: 3px solid var(--color-accent);
+      border-bottom: 1px solid var(--color-border);
+      padding: var(--space-4) 0;
+      scrollbar-width: thin;
+    }
+
+    .toc-panel h2 {
+      margin: 0 0 var(--space-3);
+      font-family: var(--font-heading);
+      font-size: 1.1rem;
+    }
+
+    .toc-actions {
+      display: flex;
+      gap: var(--space-2);
+      margin-bottom: var(--space-3);
+    }
+
+    .toc-action {
+      border: 1px solid var(--color-border);
+      border-radius: var(--radius-small);
+      background: var(--color-surface);
+      padding: var(--space-1) var(--space-2);
+      color: var(--color-text-muted);
+      font-size: 0.78rem;
+      cursor: pointer;
+    }
+
+    .toc-list, .toc-list ul {
+      list-style: none;
+      margin: 0;
+      padding: 0;
+    }
+
+    .toc-list details { border-top: 1px solid var(--color-border); }
+    .toc-list > li:first-child details { border-top: 0; }
+
+    .toc-list summary {
+      display: grid;
+      grid-template-columns: 1rem minmax(0, 1fr);
+      gap: var(--space-2);
+      align-items: start;
+      padding: var(--space-2) 0;
+      cursor: pointer;
+      color: var(--color-text-muted);
+      font-size: 0.88rem;
+    }
+
+    .toc-list summary::marker { content: ""; }
+    .toc-list summary::before { content: "+"; color: var(--color-accent); font-weight: 800; }
+    .toc-list details[open] > summary::before { content: "−"; }
+
+    .toc-list a {
+      display: block;
+      padding: var(--space-2) var(--space-2) var(--space-2) calc(var(--space-4) + 1rem);
+      border-left: 2px solid transparent;
+      color: var(--color-text-muted);
+      text-decoration: none;
+      font-size: 0.88rem;
+      line-height: 1.35;
+    }
+
+    .toc-list .toc-title-link {
+      padding: 0;
+      border-left: 0;
+      color: inherit;
+      font-weight: 700;
+    }
+
+    .toc-list a:hover, .toc-list a[aria-current="true"] {
+      color: var(--color-accent-secondary);
+      border-left-color: var(--color-accent-secondary);
+    }
+
+    .toc-list .toc-title-link[aria-current="true"] { border-left: 0; color: var(--color-accent-secondary); }
+
+    .article {
+      width: min(100%, var(--content-width));
+      min-width: 0;
+    }
+
+    .article > section {
+      margin-bottom: var(--space-8);
+      scroll-margin-top: calc(var(--header-height) + 1.5rem);
+    }
+
+    .article h2, .article h3, .article h4 {
+      font-family: var(--font-heading);
+      color: var(--color-text);
+      overflow-wrap: anywhere;
+      scroll-margin-top: calc(var(--header-height) + 1.5rem);
+    }
+
+    .article h2 {
+      margin: 0 0 var(--space-5);
+      font-size: clamp(1.75rem, 1.45rem + 1.15vw, 2.6rem);
+      line-height: 1.14;
+      letter-spacing: -0.02em;
+    }
+
+    .article h3 {
+      margin: var(--space-7) 0 var(--space-4);
+      font-size: clamp(1.3rem, 1.16rem + 0.55vw, 1.72rem);
+      line-height: 1.25;
+    }
+
+    .article h4 {
+      margin: var(--space-6) 0 var(--space-3);
+      font-size: 1.1rem;
+    }
+
+    .article p { margin: 0 0 var(--space-4); }
+    .article ul, .article ol { margin: 0 0 var(--space-5); padding-left: 1.35rem; }
+    .article li { margin-bottom: var(--space-2); }
+
+    .lead {
+      color: var(--color-text-muted);
+      font-size: 1.08em;
+    }
+
+    .section-rule {
+      width: 4rem;
+      height: 0.24rem;
+      margin: 0 0 var(--space-5);
+      background: var(--color-accent);
+    }
+
+    .callout, .example-panel, .comparison-card, .exercise-set, .formula-panel {
+      min-width: 0;
+      border: 1px solid var(--color-border);
+      border-radius: var(--radius-medium);
+      background: var(--color-surface);
+    }
+
+    .callout {
+      position: relative;
+      margin: var(--space-5) 0;
+      padding: var(--space-5);
+      border-left-width: 0.38rem;
+    }
+
+    .callout--teal { border-left-color: var(--color-accent-secondary); background: var(--color-secondary-soft); }
+    .callout--saffron { border-left-color: var(--color-accent); background: var(--color-accent-soft); }
+    .callout__label { margin-bottom: var(--space-2); }
+    .callout--teal .callout__label { color: var(--color-accent-secondary); }
+
+    .example-panel {
+      margin: var(--space-4) 0 var(--space-5);
+      padding: var(--space-4) var(--space-5);
+      border-left: 0.28rem solid var(--color-border);
+    }
+
+    .example-panel p:last-child, .callout p:last-child { margin-bottom: 0; }
+
+    .target {
+      padding: 0.04em 0.12em;
+      background: var(--color-secondary-soft);
+      color: var(--color-text);
+      font-weight: 700;
+      box-decoration-break: clone;
+      -webkit-box-decoration-break: clone;
+    }
+
+    .target--warm { background: var(--color-accent-soft); }
+
+    .formula-panel {
+      margin: var(--space-5) 0;
+      padding: var(--space-4) var(--space-5);
+      background: var(--color-page);
+      font-weight: 650;
+    }
+
+    .formula-arrow {
+      display: block;
+      margin: var(--space-2) 0;
+      color: var(--color-accent);
+      font-size: 1.15rem;
+    }
+
+    .comparison-grid {
+      display: grid;
+      grid-template-columns: repeat(2, minmax(0, 1fr));
+      gap: var(--space-4);
+      margin: var(--space-5) 0;
+    }
+
+    .comparison-card { padding: var(--space-4); }
+    .comparison-card h4 { margin-top: 0; }
+    .comparison-card--teal { border-top: 0.3rem solid var(--color-accent-secondary); }
+    .comparison-card--saffron { border-top: 0.3rem solid var(--color-accent); }
+
+    .example-list {
+      display: grid;
+      gap: var(--space-3);
+      margin: var(--space-4) 0 var(--space-5);
+    }
+
+    .example-row {
+      display: grid;
+      grid-template-columns: minmax(7rem, 0.34fr) minmax(0, 1fr);
+      gap: var(--space-4);
+      padding: var(--space-3) 0;
+      border-top: 1px solid var(--color-border);
+    }
+
+    .example-row:last-child { border-bottom: 1px solid var(--color-border); }
+    .example-row__label { color: var(--color-text-muted); font-weight: 700; }
+
+    .mini-grid {
+      display: grid;
+      grid-template-columns: repeat(3, minmax(0, 1fr));
+      gap: var(--space-4);
+      margin: var(--space-5) 0;
+    }
+
+    .mini-card {
+      border-top: 2px solid var(--color-accent-secondary);
+      padding-top: var(--space-3);
+    }
+
+    .mini-card h4 { margin-top: 0; }
+
+    .exercise-set {
+      margin: var(--space-6) 0;
+      padding: var(--space-5);
+      border-top: 0.32rem solid var(--color-accent);
+    }
+
+    .exercise-set h3, .exercise-set h4 { margin-top: 0; }
+
+    .exercise-set ol[type="a"] { padding-left: 1.55rem; }
+
+    details.answer-key {
+      margin-top: var(--space-5);
+      border: 1px solid var(--color-border);
+      border-radius: var(--radius-medium);
+      background: var(--color-page);
+    }
+
+    details.answer-key summary {
+      cursor: pointer;
+      padding: var(--space-4);
+      color: var(--color-accent-secondary);
+      font-weight: 800;
+    }
+
+    details.answer-key[open] summary { border-bottom: 1px solid var(--color-border); }
+    .answer-key__content { padding: var(--space-4) var(--space-5); }
+
+    .answer-key__content > :last-child { margin-bottom: 0; }
+
+    .note-inline {
+      color: var(--color-text-muted);
+      font-size: 0.94em;
+    }
+
+    .site-footer {
+      border-top: 1px solid var(--color-border);
+      background: var(--color-surface);
+    }
+
+    .site-footer__inner {
+      width: min(100% - 2rem, var(--layout-width));
+      margin-inline: auto;
+      padding: var(--space-6) 0;
+      display: flex;
+      align-items: flex-start;
+      justify-content: space-between;
+      gap: var(--space-5);
+      flex-wrap: wrap;
+      color: var(--color-text-muted);
+      font-size: 0.92rem;
+    }
+
+    .footer-links { display: flex; flex-wrap: wrap; gap: var(--space-4); }
+
+    .go-top {
+      position: fixed;
+      right: max(var(--space-4), env(safe-area-inset-right));
+      bottom: max(var(--space-4), env(safe-area-inset-bottom));
+      z-index: var(--z-floating-control);
+      width: 3rem;
+      height: 3rem;
+      border: 1px solid var(--color-border);
+      border-radius: 50%;
+      background: var(--color-surface);
+      color: var(--color-text);
+      box-shadow: 0 0.35rem 1rem var(--color-shadow);
+      cursor: pointer;
+      opacity: 0;
+      pointer-events: none;
+      transform: translateY(0.5rem);
+      transition: opacity var(--transition-fast), transform var(--transition-fast);
+    }
+
+    .go-top.is-visible {
+      opacity: 1;
+      pointer-events: auto;
+      transform: translateY(0);
+    }
+
+    .go-top.is-suppressed { opacity: 0; pointer-events: none; }
+
+    .mobile-backdrop {
+      position: fixed;
+      inset: 0;
+      z-index: var(--z-mobile-backdrop);
+      background: var(--color-overlay);
+      opacity: 0;
+      pointer-events: none;
+      transition: opacity var(--transition-fast);
+    }
+
+    .mobile-backdrop.is-open { opacity: 1; pointer-events: auto; }
+
+    .mobile-drawer {
+      position: fixed;
+      inset: 0 0 0 auto;
+      z-index: var(--z-mobile-menu);
+      width: min(88vw, 23rem);
+      max-width: 100%;
+      height: 100dvh;
+      overflow: auto;
+      border-left: 1px solid var(--color-border);
+      background: var(--color-surface);
+      transform: translateX(105%);
+      transition: transform var(--transition-fast);
+    }
+
+    .mobile-drawer.is-open { transform: translateX(0); }
+
+    .mobile-drawer__header {
+      position: sticky;
+      top: 0;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: var(--space-3);
+      padding: var(--space-4);
+      border-bottom: 1px solid var(--color-border);
+      background: var(--color-surface);
+    }
+
+    .mobile-drawer__body { padding: var(--space-4); }
+    .mobile-drawer .toc-panel { position: static; max-height: none; border-top: 0; }
+
+    .selection-menu {
+      position: fixed;
+      z-index: var(--z-selection-menu);
+      width: min(18rem, calc(100vw - 1.25rem));
+      padding: var(--space-2);
+      border: 1px solid var(--color-border);
+      border-radius: var(--radius-medium);
+      background: var(--color-surface);
+      box-shadow: 0 0.6rem 1.6rem var(--color-shadow);
+      opacity: 0;
+      pointer-events: none;
+      transform: translateY(0.35rem);
+      transition: opacity var(--transition-fast), transform var(--transition-fast);
+    }
+
+    .selection-menu.is-open {
+      opacity: 1;
+      pointer-events: auto;
+      transform: translateY(0);
+    }
+
+    .selection-menu__term {
+      display: block;
+      padding: var(--space-2) var(--space-2) var(--space-1);
+      color: var(--color-text-muted);
+      font-size: 0.8rem;
+      font-weight: 700;
+      overflow-wrap: anywhere;
+    }
+
+    .selection-menu a {
+      display: block;
+      padding: var(--space-2);
+      border-radius: var(--radius-small);
+      color: var(--color-text);
+      text-decoration: none;
+      font-size: 0.88rem;
+    }
+
+    .selection-menu a:hover { background: var(--color-secondary-soft); }
+
+    .modal-backdrop {
+      position: fixed;
+      inset: 0;
+      z-index: var(--z-modal-backdrop);
+      display: grid;
+      place-items: center;
+      padding: max(var(--space-4), env(safe-area-inset-top)) max(var(--space-4), env(safe-area-inset-right)) max(var(--space-4), env(safe-area-inset-bottom)) max(var(--space-4), env(safe-area-inset-left));
+      background: var(--color-overlay);
+      opacity: 0;
+      pointer-events: none;
+      transition: opacity var(--transition-fast);
+    }
+
+    .modal-backdrop.is-open { opacity: 1; pointer-events: auto; }
+
+    .modal {
+      z-index: var(--z-modal);
+      width: min(31rem, 100%);
+      max-height: min(80dvh, 36rem);
+      overflow: auto;
+      border: 1px solid var(--color-border);
+      border-top: 0.42rem solid var(--color-accent);
+      border-radius: var(--radius-large);
+      background: var(--color-surface);
+      box-shadow: 0 1rem 2.6rem var(--color-shadow);
+      transform: translateY(0.75rem);
+      transition: transform var(--transition-fast);
+    }
+
+    .modal-backdrop.is-open .modal { transform: translateY(0); }
+
+    .modal__header {
+      display: flex;
+      align-items: flex-start;
+      justify-content: space-between;
+      gap: var(--space-4);
+      padding: var(--space-5) var(--space-5) 0;
+    }
+
+    .modal__body { padding: var(--space-4) var(--space-5) var(--space-5); }
+    .modal h2 { margin: 0; font-family: var(--font-heading); font-size: 1.55rem; }
+
+    .modal__link {
+      display: inline-flex;
+      align-items: center;
+      min-height: 2.75rem;
+      margin-top: var(--space-3);
+      padding: var(--space-2) var(--space-4);
+      border: 1px solid var(--color-accent-secondary);
+      border-radius: var(--radius-medium);
+      background: var(--color-secondary-soft);
+      color: var(--color-text);
+      text-decoration: none;
+      font-weight: 800;
+    }
+
+    .close-button {
+      flex: 0 0 auto;
+      width: 2.5rem;
+      height: 2.5rem;
+      border: 1px solid var(--color-border);
+      border-radius: 50%;
+      background: transparent;
+      cursor: pointer;
+    }
+
+    .no-scroll { overflow: hidden; }
+
+    @media (max-width: 920px) {
+      .primary-nav .nav-link { display: none; }
+      .menu-button { display: inline-flex; }
+      .hero__inner { grid-template-columns: 1fr; align-items: start; }
+      .hero__meta { max-width: 40rem; }
+      .page-layout { grid-template-columns: 1fr; }
+      .page-layout > .toc-panel { display: none; }
+      .article { width: min(100%, var(--content-width)); margin-inline: auto; }
+      .mini-grid { grid-template-columns: 1fr; }
+    }
+
+    @media (max-width: 640px) {
+      :root { --header-height: 3.9rem; }
+      .site-header__inner, .hero__inner, .page-layout, .site-footer__inner { width: min(100% - 1.25rem, var(--layout-width)); }
+      .brand-link { font-size: 0.88rem; }
+      .primary-nav { gap: var(--space-1); }
+      .icon-button, .menu-button { min-width: 2.55rem; padding-inline: var(--space-2); }
+      .icon-button__text { position: absolute; width: 1px; height: 1px; overflow: hidden; clip: rect(0 0 0 0); white-space: nowrap; }
+      .hero { background: linear-gradient(90deg, var(--color-accent-soft) 0, var(--color-accent-soft) 0.35rem, transparent 0.35rem), var(--color-surface); }
+      .hero__inner { padding-block: var(--space-7); }
+      .hero h1 { max-width: 100%; font-size: clamp(2rem, 12vw, 3.25rem); }
+      .page-layout { padding-top: var(--space-6); }
+      .comparison-grid { grid-template-columns: 1fr; }
+      .example-row { grid-template-columns: 1fr; gap: var(--space-1); }
+      .callout, .exercise-set, .example-panel, .formula-panel { padding: var(--space-4); }
+      .go-top { right: max(var(--space-3), env(safe-area-inset-right)); bottom: max(var(--space-3), env(safe-area-inset-bottom)); }
+    }
+
+    @media (prefers-reduced-motion: reduce) {
+      html { scroll-behavior: auto; }
+      *, *::before, *::after { transition-duration: 0.01ms !important; animation-duration: 0.01ms !important; animation-iteration-count: 1 !important; }
+    }
+  </style>
+</head>
+<body>
+  <a class="skip-link" href="#main-content">Skip to main content</a>
+
+  <header class="site-header">
+    <div class="site-header__inner">
+      <a class="brand-link js-home-link" href="/" aria-label="Kooshky’s TOEFL Guides home">
+        <span class="brand-mark" aria-hidden="true"></span>
+        <span>Kooshky’s TOEFL Guides</span>
+      </a>
+      <nav class="primary-nav" aria-label="Primary navigation">
+        <a class="nav-link js-home-link" href="/">Home</a>
+        <a class="nav-link" href="#guide-introduction">Start reading</a>
+        <button class="icon-button" id="theme-toggle" type="button" aria-label="Switch to dark theme" aria-pressed="false">
+          <span aria-hidden="true" id="theme-icon">☾</span>
+          <span class="icon-button__text" id="theme-text">Dark theme</span>
+        </button>
+        <button class="menu-button" id="menu-open" type="button" aria-controls="mobile-drawer" aria-expanded="false">
+          <span aria-hidden="true">☰</span>
+          <span class="icon-button__text">Open contents</span>
+        </button>
+      </nav>
+    </div>
+  </header>
+
+  <section class="hero" aria-labelledby="page-title">
+    <div class="hero__inner">
+      <div>
+        <span class="eyebrow">Kooshky’s TOEFL Guides · Relative Clauses Part 4</span>
+        <h1 id="page-title">Hidden Patterns and Meaning Distinctions</h1>
+        <p class="hero__subtitle">A practical guide to shorter relative structures, confusing look-alike clauses, advanced patterns, and the choices that make sentences clear and natural.</p>
+      </div>
+      <aside class="hero__meta" aria-label="Guide information">
+        <p><strong>Collected and compiled by Amir Kooshky</strong></p>
+        <p>For more TOEFL lessons, examples, and study materials, visit the Telegram channel and Instagram page.</p>
+        <div class="social-links" data-promotion>
+          <a class="social-link" href="https://telegram.me/KooshkyTOEFL" target="_blank" rel="noopener noreferrer">Telegram channel</a>
+          <a class="social-link" href="https://instagram.com/kooshkytoefl" target="_blank" rel="noopener noreferrer">Instagram</a>
+          <a class="social-link" href="https://telegram.me/kooshkyTOEFL_pv" target="_blank" rel="noopener noreferrer">Personal Telegram</a>
+        </div>
+      </aside>
+    </div>
+  </section>
+
+  <div class="page-layout">
+    <nav class="toc-panel" aria-label="Table of contents">
+      <span class="panel-label">Chapter index</span>
+      <h2>Contents</h2>
+      <div class="toc-actions">
+        <button class="toc-action" type="button" data-toc-action="expand">Expand all</button>
+        <button class="toc-action" type="button" data-toc-action="collapse">Collapse all</button>
+      </div>
+      <ul class="toc-list" id="desktop-toc"></ul>
+    </nav>
+
+    <main id="main-content" class="article" tabindex="-1">
+      <section id="guide-introduction" data-toc-title="Introduction">
+        <span class="chapter-label">Introduction</span>
+        <h2>What This Part Adds</h2>
+        <div class="section-rule" aria-hidden="true"></div>
+        <p class="lead">Relative clauses do much more than begin with <em>who</em>, <em>which</em>, or <em>that</em>. In real English, some are shortened, some disappear partly, and some look almost identical to other kinds of clauses even though they do a different job.</p>
+        <p>This guide focuses on the patterns that often confuse advanced learners. You will learn how to recognize them, how to use them naturally, and how to avoid making a sentence shorter at the cost of changing its meaning.</p>
+        <aside class="callout callout--teal">
+          <span class="callout__label">Key point</span>
+          <p>A shorter structure is not automatically better. The best form is the one that expresses the intended meaning clearly and sounds natural in its context.</p>
+        </aside>
+      </section>
+
+      <section id="reductions-beyond-participles">
+        <span class="chapter-label">Chapter 01</span>
+        <h2>Reductions Beyond <em>-ing</em> and Past Participles</h2>
+        <div class="section-rule" aria-hidden="true"></div>
+        <p>A full relative clause contains a clause with its own verb:</p>
+        <div class="example-panel">
+          <span class="callout__label">Example</span>
+          <p>We need a room <span class="target">that is available this afternoon</span>.</p>
+        </div>
+        <p>English often removes <em>that is</em> or <em>who are</em> when the remaining words can describe the noun directly:</p>
+        <div class="example-panel">
+          <p>We need a room <span class="target">available this afternoon</span>.</p>
+        </div>
+        <p>Teachers often call this a <strong>reduced relative clause</strong>. After the reduction, however, the remaining description may technically be only an adjective phrase or a prepositional phrase. You do not need the technical label to use the pattern correctly.</p>
+
+        <h3 id="be-plus-adjective">1.1 Removing <em>who/which/that + be</em> Before an Adjective</h3>
+        <div class="formula-panel">
+          noun + who/which/that + <strong>be</strong> + adjective
+          <span class="formula-arrow">→</span>
+          noun + adjective
+        </div>
+        <div class="example-list">
+          <div class="example-row"><div class="example-row__label">Full</div><div>The students <span class="target">who are interested in the workshop</span> should register today.</div></div>
+          <div class="example-row"><div class="example-row__label">Reduced</div><div>The students <span class="target">interested in the workshop</span> should register today.</div></div>
+          <div class="example-row"><div class="example-row__label">Full</div><div>The only rooms <span class="target">that are available</span> are on the third floor.</div></div>
+          <div class="example-row"><div class="example-row__label">Reduced</div><div>The only rooms <span class="target">available</span> are on the third floor.</div></div>
+          <div class="example-row"><div class="example-row__label">Full</div><div>Anyone <span class="target">who is responsible for the equipment</span> must sign this form.</div></div>
+          <div class="example-row"><div class="example-row__label">Reduced</div><div>Anyone <span class="target">responsible for the equipment</span> must sign this form.</div></div>
+        </div>
+        <aside class="callout callout--teal">
+          <span class="callout__label">Remember</span>
+          <p>Some adjectives naturally come after the noun in these patterns: <em>the people responsible</em>, <em>the information available</em>, <em>the students present</em>, and <em>something useful</em>.</p>
+        </aside>
+
+        <h3 id="be-plus-prepositional-phrase">1.2 Removing <em>who/which/that + be</em> Before a Place or Other Prepositional Phrase</h3>
+        <p>A prepositional phrase begins with a word such as <em>in</em>, <em>on</em>, <em>at</em>, <em>near</em>, <em>with</em>, or <em>within</em>. Such a phrase can describe a noun directly.</p>
+        <div class="formula-panel">
+          noun + who/which/that + <strong>be</strong> + prepositional phrase
+          <span class="formula-arrow">→</span>
+          noun + prepositional phrase
+        </div>
+        <div class="example-list">
+          <div class="example-row"><div class="example-row__label">Full</div><div>Are you looking for something <span class="target">that is within walking distance</span>?</div></div>
+          <div class="example-row"><div class="example-row__label">Reduced</div><div>Are you looking for something <span class="target">within walking distance</span>?</div></div>
+          <div class="example-row"><div class="example-row__label">Full</div><div>The books <span class="target">that are on the top shelf</span> belong to the professor.</div></div>
+          <div class="example-row"><div class="example-row__label">Reduced</div><div>The books <span class="target">on the top shelf</span> belong to the professor.</div></div>
+          <div class="example-row"><div class="example-row__label">Full</div><div>The students <span class="target">who are in the hallway</span> are waiting for an interview.</div></div>
+          <div class="example-row"><div class="example-row__label">Reduced</div><div>The students <span class="target">in the hallway</span> are waiting for an interview.</div></div>
+          <div class="example-row"><div class="example-row__label">Full</div><div>The woman <span class="target">who is with the blue backpack</span> can help you.</div></div>
+          <div class="example-row"><div class="example-row__label">Reduced</div><div>The woman <span class="target">with the blue backpack</span> can help you.</div></div>
+        </div>
+        <p>The same pattern works with short place words such as <em>inside</em>, <em>outside</em>, <em>upstairs</em>, and <em>nearby</em>:</p>
+        <div class="example-panel">
+          <p>The people <span class="target">who are outside</span> → the people <span class="target">outside</span></p>
+          <p>The office <span class="target">that is upstairs</span> → the office <span class="target">upstairs</span></p>
+        </div>
+
+        <h3 id="infinitive-relatives">1.3 Infinitive Descriptions: <em>to do</em>, <em>to be done</em>, and More</h3>
+        <p>An infinitive is the form <em>to + verb</em>, such as <em>to read</em>, <em>to contact</em>, or <em>to be completed</em>. Infinitives can describe nouns in several different ways.</p>
+
+        <h4 id="infinitive-subject">A. The noun performs the action</h4>
+        <div class="example-panel">
+          <p>Maria was the first student <span class="target">to finish</span>.</p>
+          <p>≈ Maria was the first student <span class="target">who finished</span>.</p>
+        </div>
+        <p>This pattern is especially common after:</p>
+        <ul>
+          <li>ordinal numbers: <em>the first, the second, the next, the last</em>;</li>
+          <li>superlatives: <em>the best, the easiest, the most useful</em>;</li>
+          <li>words such as <em>only</em> and <em>next</em>.</li>
+        </ul>
+        <div class="example-panel">
+          <p>She was the only person <span class="target">to notice the mistake</span>.</p>
+          <p>This is the easiest route <span class="target">to follow</span>.</p>
+          <p>Who is the next speaker <span class="target">to present</span>?</p>
+        </div>
+
+        <h4 id="infinitive-object">B. The noun receives the action</h4>
+        <div class="example-panel">
+          <p>I need something <span class="target">to read</span>.</p>
+          <p>≈ I need something <span class="target">that I can read</span>.</p>
+          <p>Do you have any questions <span class="target">to ask</span>?</p>
+          <p>≈ Do you have any questions <span class="target">that you want to ask</span>?</p>
+        </div>
+        <p>The person who performs the action is often understood from the situation. In <em>I need something to read</em>, the understood reader is <em>I</em>.</p>
+
+        <h4 id="infinitive-preposition">C. The noun follows a preposition in meaning</h4>
+        <p>The necessary preposition usually stays at the end of the infinitive phrase.</p>
+        <div class="example-panel">
+          <p>We need a chair <span class="target">to sit on</span>.</p>
+          <p>She is looking for someone <span class="target">to talk to</span>.</p>
+          <p>This is a difficult topic <span class="target">to write about</span>.</p>
+          <p>They found a safe place <span class="target">to store the equipment in</span>.</p>
+        </div>
+        <aside class="callout callout--saffron">
+          <span class="callout__label">Common error</span>
+          <p>Do not remove a preposition that the verb needs. We <em>sit on</em> a chair, <em>talk to</em> a person, and <em>write about</em> a topic.</p>
+        </aside>
+
+        <h4 id="infinitive-passive">D. Passive infinitives: the action must be done to the noun</h4>
+        <div class="example-panel">
+          <p>There are several forms <span class="target">to be completed</span>.</p>
+          <p>≈ There are several forms <span class="target">that must be completed</span>.</p>
+          <p>The committee identified three issues <span class="target">to be discussed</span>.</p>
+          <p>We still have a number of decisions <span class="target">to be made</span>.</p>
+        </div>
+
+        <h4 id="infinitive-for-subject">E. Naming the person who performs the infinitive action</h4>
+        <p>Use <em>for + person + to + verb</em> when the performer is not obvious or when you want to state it clearly.</p>
+        <div class="example-panel">
+          <p>I have a document <span class="target">for you to sign</span>.</p>
+          <p>We need a quiet room <span class="target">for the students to work in</span>.</p>
+          <p>Is there anyone <span class="target">for me to contact</span>?</p>
+          <p>The professor suggested several articles <span class="target">for us to read</span>.</p>
+        </div>
+
+        <h3 id="negative-and-perfect-reductions">1.4 Negative and Perfect Participial Descriptions</h3>
+        <p>A negative participial description uses <em>not</em> before the participle:</p>
+        <div class="example-panel">
+          <p>Students <span class="target">not wishing to participate</span> may leave.</p>
+          <p>Any document <span class="target">not submitted by Friday</span> will receive a late penalty.</p>
+          <p>People <span class="target">not familiar with the building</span> should follow the signs.</p>
+        </div>
+        <p>A perfect participle uses <em>having + past participle</em>. It emphasizes that one action was completed before another. This form is correct but formal and relatively uncommon.</p>
+        <div class="example-panel">
+          <p>Applicants <span class="target">having completed the first stage</span> will receive an interview invitation.</p>
+          <p>Students <span class="target">having already submitted the form</span> do not need to submit it again.</p>
+        </div>
+        <aside class="callout callout--teal">
+          <span class="callout__label">Natural alternative</span>
+          <p>In ordinary writing, a full relative clause is often clearer: <em>Applicants who have completed the first stage...</em></p>
+        </aside>
+
+        <h3 id="limits-of-reduction">1.5 When a Reduction Sounds Unnatural or Changes the Meaning</h3>
+        <p>Reduction is not a mechanical operation that works equally well with every verb. Some reduced forms are possible but sound unnatural. Others remove an important idea such as future time, ability, obligation, or completed action.</p>
+        <div class="comparison-grid">
+          <article class="comparison-card comparison-card--teal">
+            <h4>Natural reduction</h4>
+            <p>Students <span class="target">who live off campus</span> must register.</p>
+            <p>Students <span class="target">living off campus</span> must register.</p>
+          </article>
+          <article class="comparison-card comparison-card--saffron">
+            <h4>Possible but awkward</h4>
+            <p>Students <span class="target">who know the answer</span> should raise their hands.</p>
+            <p>Students <span class="target">knowing the answer</span> should raise their hands.</p>
+          </article>
+          <article class="comparison-card comparison-card--teal">
+            <h4>Clear future meaning</h4>
+            <p>The people <span class="target">who will attend tomorrow</span> must register today.</p>
+          </article>
+          <article class="comparison-card comparison-card--saffron">
+            <h4>Meaning becomes less exact</h4>
+            <p>The people <span class="target">attending tomorrow</span> must register today.</p>
+            <p class="note-inline">Often acceptable, but the future meaning now depends more heavily on <em>tomorrow</em>.</p>
+          </article>
+          <article class="comparison-card comparison-card--teal">
+            <h4>Ability is explicit</h4>
+            <p>Students <span class="target">who can solve the problem</span> should explain it.</p>
+          </article>
+          <article class="comparison-card comparison-card--saffron">
+            <h4>Different meaning</h4>
+            <p>Students <span class="target">solving the problem</span> should explain it.</p>
+            <p class="note-inline">This refers to students currently engaged in solving it, not everyone who has the ability.</p>
+          </article>
+        </div>
+        <aside class="callout callout--saffron">
+          <span class="callout__label">Decision rule</span>
+          <p>Reduce a relative clause only when the shorter wording keeps the intended meaning and sounds natural. When in doubt, keep the full clause.</p>
+        </aside>
+
+        <h3 id="punctuation-of-reduced-forms">1.6 Commas with Reduced Descriptions</h3>
+        <p>Reduced descriptions follow the same basic meaning distinction as full relative clauses.</p>
+        <div class="comparison-grid">
+          <article class="comparison-card comparison-card--teal">
+            <h4>No commas: identifies a group</h4>
+            <p>Students <span class="target">living off campus</span> must register with the housing office.</p>
+            <p>Only the students who live off campus are being discussed.</p>
+          </article>
+          <article class="comparison-card comparison-card--saffron">
+            <h4>Commas: adds a side comment</h4>
+            <p>Mina, <span class="target">living off campus</span>, had to leave early.</p>
+            <p>We already know who Mina is; the middle phrase adds extra information.</p>
+          </article>
+        </div>
+        <div class="example-panel">
+          <p>The documents <span class="target">submitted before noon</span> have already been processed.</p>
+          <p>The documents, <span class="target">submitted only yesterday</span>, have already been processed.</p>
+        </div>
+
+        <div class="exercise-set">
+          <span class="exercise-label">Practice 1</span>
+          <h3>Reduce the Description Where It Sounds Natural</h3>
+          <ol>
+            <li>We need a hotel that is near the conference center.</li>
+            <li>The students who are interested in the exchange program should attend.</li>
+            <li>She was the first researcher who identified the cause.</li>
+            <li>I need a quiet place where I can study.</li>
+            <li>There are several safety rules that must be followed.</li>
+            <li>The people who can speak Japanese should translate the document.</li>
+            <li>Any applicant who is not available on Monday should contact us.</li>
+            <li>The only seats that are available are at the back.</li>
+          </ol>
+          <details class="answer-key">
+            <summary>Show answer key</summary>
+            <div class="answer-key__content">
+              <ol>
+                <li>We need a hotel <strong>near the conference center</strong>.</li>
+                <li>The students <strong>interested in the exchange program</strong> should attend.</li>
+                <li>She was the first researcher <strong>to identify the cause</strong>.</li>
+                <li>I need a quiet place <strong>to study</strong> / <strong>to study in</strong>. The second version emphasizes the place relationship.</li>
+                <li>There are several safety rules <strong>to be followed</strong>.</li>
+                <li>Keep the full clause: <strong>The people who can speak Japanese...</strong> Changing it to <em>people speaking Japanese</em> changes the meaning.</li>
+                <li>Any applicant <strong>not available on Monday</strong> should contact us.</li>
+                <li>The only seats <strong>available</strong> are at the back.</li>
+              </ol>
+            </div>
+          </details>
+        </div>
+      </section>
+
+      <section id="omission-versus-reduction">
+        <span class="chapter-label">Chapter 02</span>
+        <h2>Omission Is Not the Same as Reduction</h2>
+        <div class="section-rule" aria-hidden="true"></div>
+        <p>Sometimes English simply leaves out an object relative word. The rest of the clause remains a complete clause with its own subject and verb.</p>
+        <div class="example-panel">
+          <p>The book <span class="target">that I bought</span> was expensive.</p>
+          <p>The book <span class="target">I bought</span> was expensive.</p>
+        </div>
+        <p>In both versions, <em>I</em> is the subject of <em>bought</em>. The missing word represents the object: I bought <em>the book</em>.</p>
+
+        <h3 id="when-object-pronouns-can-disappear">2.1 When the Object Relative Word Can Disappear</h3>
+        <p>You may usually omit <em>who</em>, <em>whom</em>, <em>which</em>, or <em>that</em> when all of these conditions are true:</p>
+        <ol>
+          <li>The missing relative word is the <strong>object</strong>, not the subject.</li>
+          <li>The relative clause identifies the noun and therefore has <strong>no commas</strong>.</li>
+          <li>No preposition has been moved in front of the relative word.</li>
+        </ol>
+        <div class="example-list">
+          <div class="example-row"><div class="example-row__label">Object of verb</div><div>The article <span class="target">(that) I read</span> was useful.</div></div>
+          <div class="example-row"><div class="example-row__label">Object of verb</div><div>The professor <span class="target">(whom) we invited</span> accepted.</div></div>
+          <div class="example-row"><div class="example-row__label">Object of preposition</div><div>The person <span class="target">(who) I spoke to</span> was helpful.</div></div>
+          <div class="example-row"><div class="example-row__label">Object of preposition</div><div>The topic <span class="target">(that) they argued about</span> was controversial.</div></div>
+        </div>
+
+        <h3 id="when-relative-words-must-remain">2.2 When the Relative Word Must Remain</h3>
+        <div class="comparison-grid">
+          <article class="comparison-card comparison-card--saffron">
+            <h4>It is the subject</h4>
+            <p>The student <span class="target">who answered</span> received a prize.</p>
+            <p>Not: <s>The student answered received a prize.</s></p>
+          </article>
+          <article class="comparison-card comparison-card--saffron">
+            <h4>The clause has commas</h4>
+            <p>My laptop, <span class="target">which I bought last year</span>, is already broken.</p>
+            <p>Not: <s>My laptop, I bought last year, is already broken.</s></p>
+          </article>
+          <article class="comparison-card comparison-card--saffron">
+            <h4>A preposition comes first</h4>
+            <p>The person <span class="target">to whom I spoke</span> was helpful.</p>
+            <p>Not: <s>The person to I spoke...</s></p>
+          </article>
+          <article class="comparison-card comparison-card--teal">
+            <h4>Stranded preposition allows omission</h4>
+            <p>The person <span class="target">I spoke to</span> was helpful.</p>
+            <p>The preposition remains at the end.</p>
+          </article>
+        </div>
+
+        <h3 id="omission-reduction-comparison">2.3 Compare Omission and True Reduction</h3>
+        <div class="example-list">
+          <div class="example-row"><div class="example-row__label">Full relative</div><div>The students <span class="target">who live nearby</span> usually walk.</div></div>
+          <div class="example-row"><div class="example-row__label">Reduction</div><div>The students <span class="target">living nearby</span> usually walk.</div></div>
+          <div class="example-row"><div class="example-row__label">Full relative</div><div>The students <span class="target">whom I interviewed</span> were prepared.</div></div>
+          <div class="example-row"><div class="example-row__label">Omission</div><div>The students <span class="target">I interviewed</span> were prepared.</div></div>
+        </div>
+        <aside class="callout callout--teal">
+          <span class="callout__label">Simple test</span>
+          <p>If the shorter version still contains a subject and a normal tense-marked verb, it is probably object-pronoun omission. If the verb becomes <em>-ing</em>, a past participle, an adjective, a prepositional phrase, or an infinitive, it is a reduction.</p>
+        </aside>
+
+        <div class="exercise-set">
+          <span class="exercise-label">Practice 2</span>
+          <h3>Can the Bold Relative Word Be Omitted?</h3>
+          <ol>
+            <li>The book <strong>that</strong> I borrowed is overdue.</li>
+            <li>The book <strong>that</strong> explains the theory is overdue.</li>
+            <li>My advisor, <strong>whom</strong> I contacted yesterday, replied quickly.</li>
+            <li>The advisor <strong>whom</strong> I contacted yesterday replied quickly.</li>
+            <li>The organization for <strong>which</strong> she works is expanding.</li>
+            <li>The organization <strong>which</strong> she works for is expanding.</li>
+          </ol>
+          <details class="answer-key">
+            <summary>Show answer key</summary>
+            <div class="answer-key__content">
+              <ol>
+                <li>Yes: <em>The book I borrowed...</em></li>
+                <li>No. <em>That</em> is the subject of <em>explains</em>.</li>
+                <li>No. A relative word cannot normally be omitted from a clause set off by commas.</li>
+                <li>Yes: <em>The advisor I contacted...</em></li>
+                <li>No. The preposition comes before <em>which</em>.</li>
+                <li>Yes: <em>The organization she works for...</em></li>
+              </ol>
+            </div>
+          </details>
+        </div>
+      </section>
+
+      <section id="relative-adverbs-and-internal-meaning">
+        <span class="chapter-label">Chapter 03</span>
+        <h2><em>Where</em>, <em>When</em>, and <em>Why</em>: Choose by Meaning, Not by the Noun Alone</h2>
+        <div class="section-rule" aria-hidden="true"></div>
+        <p>A place noun does not automatically require <em>where</em>, and a time noun does not automatically require <em>when</em>. You must look at the missing relationship inside the relative clause.</p>
+
+        <h3 id="where-versus-that">3.1 <em>Where</em> Versus <em>That/Which</em></h3>
+        <p>Use <em>where</em> when the meaning is <em>in, at, or on that place</em>.</p>
+        <div class="comparison-grid">
+          <article class="comparison-card comparison-card--teal">
+            <h4>Place relationship</h4>
+            <p>The city <span class="target">where I lived</span> was crowded.</p>
+            <p>I lived <strong>in the city</strong>.</p>
+          </article>
+          <article class="comparison-card comparison-card--teal">
+            <h4>The place is the direct object</h4>
+            <p>The city <span class="target">that I visited</span> was crowded.</p>
+            <p>I visited <strong>the city</strong>.</p>
+          </article>
+        </div>
+        <aside class="callout callout--saffron">
+          <span class="callout__label">Common error</span>
+          <p>Do not say <s>the city where I visited</s>. The verb <em>visit</em> directly takes the place as its object: <em>I visited the city</em>.</p>
+        </aside>
+        <div class="example-panel">
+          <p>The restaurant <span class="target">where we ate</span> was quiet. — We ate <em>at the restaurant</em>.</p>
+          <p>The restaurant <span class="target">that the critic reviewed</span> was quiet. — The critic reviewed <em>the restaurant</em>.</p>
+          <p>The room <span class="target">where the meeting took place</span> was small.</p>
+          <p>The room <span class="target">that we reserved</span> was small.</p>
+        </div>
+
+        <h3 id="when-versus-that">3.2 <em>When</em> Versus <em>That/Which</em></h3>
+        <p>Use <em>when</em> when the meaning is <em>at, on, or during that time</em>.</p>
+        <div class="example-panel">
+          <p>I remember the day <span class="target">when we first met</span>. — We met <em>on that day</em>.</p>
+          <p>I remember the day <span class="target">that changed my life</span>. — The day itself caused the change.</p>
+          <p>I remember the day <span class="target">that I described in my essay</span>. — I described the day.</p>
+        </div>
+        <p>In defining clauses, <em>when</em> can sometimes be replaced by <em>that</em> or omitted:</p>
+        <div class="example-panel">
+          <p>The year <span class="target">when I graduated</span></p>
+          <p>The year <span class="target">that I graduated</span></p>
+          <p>The year <span class="target">I graduated</span></p>
+        </div>
+
+        <h3 id="why-and-reason">3.3 <em>Why</em>, <em>Reason</em>, and Unnecessary Repetition</h3>
+        <p><em>Why</em> usually follows the noun <em>reason</em> and means <em>for that reason</em>.</p>
+        <div class="example-panel">
+          <p>The reason <span class="target">why I left</span> was simple.</p>
+          <p>The reason <span class="target">that I left</span> was simple.</p>
+          <p>The reason <span class="target">I left</span> was simple.</p>
+          <p>The reason <span class="target">for which I left</span> was simple. <span class="note-inline">Very formal.</span></p>
+        </div>
+        <aside class="callout callout--saffron">
+          <span class="callout__label">Avoid heavy repetition</span>
+          <p><em>The reason why I left is because I was tired</em> is common in speech, but it repeats the same cause relationship. In careful writing, prefer:</p>
+          <p><strong>The reason I left is that I was tired.</strong><br><strong>I left because I was tired.</strong></p>
+        </aside>
+
+        <h3 id="the-way-pattern">3.4 The Special Pattern with <em>the way</em></h3>
+        <p>Standard English normally uses one of these patterns:</p>
+        <div class="example-panel">
+          <p>I like the way <span class="target">she explains difficult ideas</span>.</p>
+          <p>I like the way <span class="target">that she explains difficult ideas</span>.</p>
+          <p>I like the way <span class="target">in which she explains difficult ideas</span>.</p>
+        </div>
+        <aside class="callout callout--saffron">
+          <span class="callout__label">Common error</span>
+          <p>Avoid <s>the way how she explains difficult ideas</s>. Both <em>the way</em> and <em>how</em> express manner, so the combination is usually unnecessary.</p>
+        </aside>
+
+        <div class="exercise-set">
+          <span class="exercise-label">Practice 3</span>
+          <h3>Choose the Best Relative Word</h3>
+          <ol>
+            <li>The laboratory ___ we conducted the experiment has been renovated.</li>
+            <li>The laboratory ___ the university renovated has reopened.</li>
+            <li>I remember the semester ___ I took three science courses.</li>
+            <li>I remember the semester ___ changed my career plans.</li>
+            <li>The reason ___ the machine stopped is still unclear.</li>
+            <li>The reason ___ the technician gave was not convincing.</li>
+            <li>I admired the way ___ she handled the complaint.</li>
+          </ol>
+          <details class="answer-key">
+            <summary>Show answer key</summary>
+            <div class="answer-key__content">
+              <ol>
+                <li><strong>where</strong> — we conducted the experiment <em>in the laboratory</em>.</li>
+                <li><strong>that/which</strong> — the university renovated <em>the laboratory</em>.</li>
+                <li><strong>when/that</strong>, or no relative word — the action happened during that semester.</li>
+                <li><strong>that/which</strong> — the semester is the subject of <em>changed</em>.</li>
+                <li><strong>why/that</strong>, or no relative word.</li>
+                <li><strong>that/which</strong>, or no relative word — the technician gave <em>the reason</em>.</li>
+                <li>No word, <strong>that</strong>, or <strong>in which</strong>. Do not use <em>how</em> after <em>the way</em>.</li>
+              </ol>
+            </div>
+          </details>
+        </div>
+      </section>
+
+      <section id="relative-versus-content-clauses">
+        <span class="chapter-label">Chapter 04</span>
+        <h2>Relative Clauses Versus Clauses That Explain the Content of a Noun</h2>
+        <div class="section-rule" aria-hidden="true"></div>
+        <p>Some clauses beginning with <em>that</em> describe a noun in the usual relative-clause way. Others tell us the content of an idea, claim, fact, belief, or possibility. The two structures may look almost identical.</p>
+
+        <h3 id="gap-test">4.1 The Missing-Word Test</h3>
+        <p>In a relative clause, the noun has a missing job inside the clause. Imagine an empty space:</p>
+        <div class="example-panel">
+          <p>The claim <span class="target">that she made ___</span> was surprising.</p>
+          <p>She made <strong>the claim</strong>. The noun <em>claim</em> fills the missing object position.</p>
+        </div>
+        <p>In a content clause, nothing is missing. The clause is already complete and tells us what the claim says:</p>
+        <div class="example-panel">
+          <p>The claim <span class="target">that she was innocent</span> was surprising.</p>
+          <p><em>She was innocent</em> is a complete idea. It gives the content of the claim.</p>
+        </div>
+
+        <h3 id="meaning-test">4.2 The Meaning Test</h3>
+        <div class="comparison-grid">
+          <article class="comparison-card comparison-card--teal">
+            <h4>Relative clause: identifies or describes</h4>
+            <p>The evidence <span class="target">that we examined</span> was incomplete.</p>
+            <p>We examined the evidence.</p>
+          </article>
+          <article class="comparison-card comparison-card--saffron">
+            <h4>Content clause: states the idea</h4>
+            <p>The evidence <span class="target">that the treatment works</span> is strong.</p>
+            <p>The clause tells us what the evidence supports.</p>
+          </article>
+          <article class="comparison-card comparison-card--teal">
+            <h4>Relative clause</h4>
+            <p>The idea <span class="target">that he proposed</span> was expensive.</p>
+            <p>He proposed the idea.</p>
+          </article>
+          <article class="comparison-card comparison-card--saffron">
+            <h4>Content clause</h4>
+            <p>The idea <span class="target">that education should be free</span> is controversial.</p>
+            <p>The clause tells us what the idea is.</p>
+          </article>
+        </div>
+
+        <h3 id="common-content-nouns">4.3 Nouns Commonly Followed by Content Clauses</h3>
+        <p>These nouns frequently introduce a clause that states their content:</p>
+        <div class="mini-grid">
+          <div class="mini-card"><h4>Statements and beliefs</h4><p>claim, belief, argument, opinion, assumption, conclusion</p></div>
+          <div class="mini-card"><h4>Information and evidence</h4><p>fact, news, evidence, indication, discovery, finding</p></div>
+          <div class="mini-card"><h4>Possibility and intention</h4><p>possibility, hope, suggestion, proposal, decision, plan</p></div>
+        </div>
+        <div class="example-panel">
+          <p>The fact <span class="target">that the course is free</span> attracts many students.</p>
+          <p>There is a possibility <span class="target">that the event will be cancelled</span>.</p>
+          <p>Her suggestion <span class="target">that we meet earlier</span> was practical.</p>
+          <p>The discovery <span class="target">that the material was toxic</span> changed the project.</p>
+        </div>
+        <aside class="callout callout--teal">
+          <span class="callout__label">Quick question</span>
+          <p>Ask: “Does the clause describe which noun I mean, or does it tell me what the idea, claim, fact, or possibility actually is?”</p>
+        </aside>
+
+        <div class="exercise-set">
+          <span class="exercise-label">Practice 4</span>
+          <h3>Relative Clause or Content Clause?</h3>
+          <ol>
+            <li>The report that the committee published was extremely detailed.</li>
+            <li>The report that unemployment is falling surprised the committee.</li>
+            <li>The possibility that we discussed worried the manager.</li>
+            <li>The possibility that the project may fail worried the manager.</li>
+            <li>The argument that the student presented was well organized.</li>
+            <li>The argument that public transport should be free is difficult to defend.</li>
+          </ol>
+          <details class="answer-key">
+            <summary>Show answer key</summary>
+            <div class="answer-key__content">
+              <ol>
+                <li><strong>Relative.</strong> The committee published the report.</li>
+                <li><strong>Content.</strong> <em>Unemployment is falling</em> states what the report says.</li>
+                <li><strong>Relative.</strong> We discussed the possibility.</li>
+                <li><strong>Content.</strong> The clause states what the possibility is.</li>
+                <li><strong>Relative.</strong> The student presented the argument.</li>
+                <li><strong>Content.</strong> The clause states the argument itself.</li>
+              </ol>
+            </div>
+          </details>
+        </div>
+      </section>
+
+      <section id="partitive-relative-constructions">
+        <span class="chapter-label">Chapter 05</span>
+        <h2><em>Many of Whom</em>, <em>Several of Which</em>, and Similar Patterns</h2>
+        <div class="section-rule" aria-hidden="true"></div>
+        <p>This useful pattern adds information about part or all of a previously named group. It is common in formal and academic English.</p>
+        <div class="formula-panel">
+          noun group, + quantity/number + <strong>of whom</strong> (people) / <strong>of which</strong> (things) + clause
+        </div>
+        <div class="example-panel">
+          <p>The students, <span class="target">many of whom were tired</span>, left early.</p>
+          <p>Ten books were examined, <span class="target">three of which contained major errors</span>.</p>
+          <p>The proposals, <span class="target">none of which were practical</span>, were rejected.</p>
+          <p>The committee has twelve members, <span class="target">two of whom are students</span>.</p>
+        </div>
+
+        <h3 id="common-partitive-words">5.1 Common Words Before <em>of Whom/Which</em></h3>
+        <div class="mini-grid">
+          <div class="mini-card"><h4>Quantities</h4><p>all, both, many, most, some, several, few, none</p></div>
+          <div class="mini-card"><h4>Numbers and fractions</h4><p>two, five, half, one-third, 20 percent</p></div>
+          <div class="mini-card"><h4>Superlative groups</h4><p>the largest of which, the most important of which</p></div>
+        </div>
+        <div class="example-panel">
+          <p>The university offers eight language courses, <span class="target">two of which are available online</span>.</p>
+          <p>She interviewed thirty participants, <span class="target">half of whom were first-year students</span>.</p>
+          <p>The experiment produced four results, <span class="target">the most important of which was unexpected</span>.</p>
+        </div>
+
+        <h3 id="partitive-possession">5.2 Possession Inside the Pattern</h3>
+        <p>Use <em>whose</em> when the people or things in the group possess something.</p>
+        <div class="example-panel">
+          <p>The researchers, <span class="target">all of whose findings were published</span>, attended the conference.</p>
+          <p>The buildings, <span class="target">several of whose windows were broken</span>, were closed for repairs.</p>
+        </div>
+        <aside class="callout callout--teal">
+          <span class="callout__label">Punctuation</span>
+          <p>These structures normally add extra information about an already identified group, so they are usually separated by commas.</p>
+        </aside>
+
+        <h3 id="building-partitive-relatives">5.3 Build the Sentence Step by Step</h3>
+        <div class="example-panel">
+          <p><strong>Separate ideas:</strong> The department hired six assistants. Two of the assistants had previous experience.</p>
+          <p><strong>Combined:</strong> The department hired six assistants, <span class="target">two of whom had previous experience</span>.</p>
+        </div>
+        <div class="example-panel">
+          <p><strong>Separate ideas:</strong> We considered five solutions. None of the solutions was affordable.</p>
+          <p><strong>Combined:</strong> We considered five solutions, <span class="target">none of which was affordable</span>.</p>
+        </div>
+
+        <div class="exercise-set">
+          <span class="exercise-label">Practice 5</span>
+          <h3>Combine the Sentences</h3>
+          <ol>
+            <li>The class has twenty students. Eight of the students are international students.</li>
+            <li>The article discusses six causes. Three of the causes are economic.</li>
+            <li>She interviewed four scientists. All of the scientists supported the proposal.</li>
+            <li>The company owns several buildings. Two of the buildings have solar panels.</li>
+            <li>The researchers submitted their reports. Most of their reports included charts.</li>
+          </ol>
+          <details class="answer-key">
+            <summary>Show sample answers</summary>
+            <div class="answer-key__content">
+              <ol>
+                <li>The class has twenty students, <strong>eight of whom are international students</strong>.</li>
+                <li>The article discusses six causes, <strong>three of which are economic</strong>.</li>
+                <li>She interviewed four scientists, <strong>all of whom supported the proposal</strong>.</li>
+                <li>The company owns several buildings, <strong>two of which have solar panels</strong>.</li>
+                <li>The researchers submitted their reports, <strong>most of which included charts</strong>.</li>
+              </ol>
+            </div>
+          </details>
+        </div>
+      </section>
+
+      <section id="agreement-in-relative-clauses">
+        <span class="chapter-label">Chapter 06</span>
+        <h2>Subject–Verb Agreement Inside Relative Clauses</h2>
+        <div class="section-rule" aria-hidden="true"></div>
+        <p>When <em>who</em>, <em>which</em>, or <em>that</em> is the subject of the relative clause, the verb agrees with the noun that the relative word refers to.</p>
+        <div class="comparison-grid">
+          <article class="comparison-card comparison-card--teal">
+            <h4>Singular noun</h4>
+            <p>The student who <span class="target">works</span> in the laboratory is absent.</p>
+          </article>
+          <article class="comparison-card comparison-card--teal">
+            <h4>Plural noun</h4>
+            <p>The students who <span class="target">work</span> in the laboratory are absent.</p>
+          </article>
+        </div>
+
+        <h3 id="one-of-the-people-who">6.1 <em>One of the Students Who...</em></h3>
+        <p>Look carefully at what <em>who</em> refers to:</p>
+        <div class="example-panel">
+          <p>Leila is one of the students who <span class="target">work</span> in the laboratory.</p>
+          <p>The meaning is: Leila is one member of a group of students, and those students work in the laboratory. Therefore, <em>who</em> refers to plural <em>students</em>.</p>
+        </div>
+
+        <h3 id="the-only-one-who">6.2 <em>The Only One Who...</em></h3>
+        <div class="example-panel">
+          <p>Leila is the only one of the students who <span class="target">works</span> in the laboratory.</p>
+          <p>Here, the meaning is that only Leila works there. The clause describes <em>the only one</em>, so the singular verb is natural.</p>
+        </div>
+        <aside class="callout callout--teal">
+          <span class="callout__label">Meaning controls agreement</span>
+          <p>Do not choose the verb only by looking at the nearest word. Decide which noun the relative clause actually describes.</p>
+        </aside>
+
+        <h3 id="agreement-with-collective-and-quantity-nouns">6.3 Other Useful Agreement Examples</h3>
+        <div class="example-panel">
+          <p>She is one of the few employees who <span class="target">understand</span> the entire system.</p>
+          <p>This is the only device that <span class="target">works</span> without electricity.</p>
+          <p>These are the only devices that <span class="target">work</span> without electricity.</p>
+          <p>The number of students who <span class="target">need</span> assistance has increased.</p>
+          <p>A number of students who <span class="target">need</span> assistance have contacted us.</p>
+        </div>
+
+        <div class="exercise-set">
+          <span class="exercise-label">Practice 6</span>
+          <h3>Choose the Correct Verb</h3>
+          <ol>
+            <li>She is one of the researchers who <strong>studies / study</strong> climate change.</li>
+            <li>She is the only one of the researchers who <strong>studies / study</strong> this particular species.</li>
+            <li>The course that <strong>requires / require</strong> the most reading is history.</li>
+            <li>The courses that <strong>requires / require</strong> the most reading are history and biology.</li>
+            <li>The number of applicants who <strong>needs / need</strong> financial aid is growing.</li>
+          </ol>
+          <details class="answer-key">
+            <summary>Show answer key</summary>
+            <div class="answer-key__content">
+              <ol>
+                <li><strong>study</strong> — <em>who</em> refers to plural <em>researchers</em>.</li>
+                <li><strong>studies</strong> — the intended meaning is that she alone studies this species.</li>
+                <li><strong>requires</strong> — singular <em>course</em>.</li>
+                <li><strong>require</strong> — plural <em>courses</em>.</li>
+                <li><strong>need</strong> — the relative clause describes plural <em>applicants</em>; the main verb <em>is</em> agrees with <em>the number</em>.</li>
+              </ol>
+            </div>
+          </details>
+        </div>
+      </section>
+
+      <section id="free-relatives-and-questions">
+        <span class="chapter-label">Chapter 07</span>
+        <h2>Free Relatives, Embedded Questions, and <em>-ever</em> Clauses</h2>
+        <div class="section-rule" aria-hidden="true"></div>
+        <p>A free relative contains its own noun meaning. For example, <em>what</em> can mean <em>the thing that</em>, and <em>whoever</em> can mean <em>any person who</em>.</p>
+
+        <h3 id="free-relative-versus-embedded-question">7.1 The Same Words Can Introduce Different Structures</h3>
+        <div class="comparison-grid">
+          <article class="comparison-card comparison-card--teal">
+            <h4>Free relative</h4>
+            <p>I ate <span class="target">what she cooked</span>.</p>
+            <p>Meaning: I ate <em>the thing that she cooked</em>.</p>
+          </article>
+          <article class="comparison-card comparison-card--saffron">
+            <h4>Embedded question</h4>
+            <p>I wonder <span class="target">what she cooked</span>.</p>
+            <p>Meaning: I want to know the answer to the question “What did she cook?”</p>
+          </article>
+        </div>
+        <div class="comparison-grid">
+          <article class="comparison-card comparison-card--teal">
+            <h4>Free relative</h4>
+            <p>Take <span class="target">whichever book you prefer</span>.</p>
+            <p>Meaning: take any book that you prefer.</p>
+          </article>
+          <article class="comparison-card comparison-card--saffron">
+            <h4>Embedded question</h4>
+            <p>I do not know <span class="target">which book you prefer</span>.</p>
+            <p>The speaker does not know the answer.</p>
+          </article>
+        </div>
+
+        <h3 id="noun-like-ever-clauses">7.2 Noun-Like <em>-ever</em> Clauses</h3>
+        <div class="example-panel">
+          <p><span class="target">Whoever arrives first</span> should unlock the room.</p>
+          <p>You may choose <span class="target">whichever topic interests you</span>.</p>
+          <p>I will accept <span class="target">whatever you decide</span>.</p>
+          <p>Give the form to <span class="target">whoever is at the front desk</span>.</p>
+        </div>
+        <p>These clauses act like nouns: they can be the subject, object, or object of a preposition.</p>
+
+        <h3 id="concessive-ever-clauses">7.3 <em>-ever</em> Clauses Meaning “No Matter...”</h3>
+        <p>The same words can introduce a side clause meaning <em>no matter who, what, where, when, or how</em>.</p>
+        <div class="example-panel">
+          <p><span class="target">Whatever you choose</span>, I will support you.</p>
+          <p><span class="target">Whoever calls</span>, do not share the password.</p>
+          <p><span class="target">Wherever you study</span>, try to remove distractions.</p>
+          <p><span class="target">However difficult the task becomes</span>, do not give up.</p>
+        </div>
+        <div class="comparison-grid">
+          <article class="comparison-card comparison-card--teal">
+            <h4>Noun-like</h4>
+            <p><span class="target">Whatever you choose</span> will be acceptable.</p>
+            <p>The clause is the subject of <em>will be</em>.</p>
+          </article>
+          <article class="comparison-card comparison-card--saffron">
+            <h4>“No matter” meaning</h4>
+            <p><span class="target">Whatever you choose</span>, I will support you.</p>
+            <p>The main message is <em>I will support you</em>.</p>
+          </article>
+        </div>
+
+        <h3 id="free-relative-meaning-test">7.4 A Simple Meaning Test</h3>
+        <ul>
+          <li>If you can replace the clause with <em>the thing/person/place that...</em>, it is probably a free relative.</li>
+          <li>If the main verb expresses knowing, asking, wondering, discovering, or deciding, the clause may be an embedded question.</li>
+          <li>If the clause means <em>no matter...</em> and the main sentence can stand without it, it is a concessive <em>-ever</em> clause.</li>
+        </ul>
+
+        <div class="exercise-set">
+          <span class="exercise-label">Practice 7</span>
+          <h3>Identify the Meaning</h3>
+          <ol>
+            <li>I cannot remember what the professor recommended.</li>
+            <li>I bought what the professor recommended.</li>
+            <li>Whoever finishes early may leave.</li>
+            <li>Whoever finishes first, the team will celebrate together.</li>
+            <li>Please tell me which route is shorter.</li>
+            <li>Choose whichever route is shorter.</li>
+          </ol>
+          <details class="answer-key">
+            <summary>Show answer key</summary>
+            <div class="answer-key__content">
+              <ol>
+                <li><strong>Embedded question.</strong> The speaker cannot remember the answer.</li>
+                <li><strong>Free relative.</strong> It means <em>I bought the thing that the professor recommended</em>.</li>
+                <li><strong>Noun-like free relative.</strong> The clause is the subject.</li>
+                <li><strong>“No matter who” clause.</strong> The celebration will happen regardless of the winner.</li>
+                <li><strong>Embedded question.</strong> The speaker asks for information.</li>
+                <li><strong>Free relative.</strong> It means <em>choose any route that is shorter</em>.</li>
+              </ol>
+            </div>
+          </details>
+        </div>
+      </section>
+
+      <section id="clear-reference-and-placement">
+        <span class="chapter-label">Chapter 08</span>
+        <h2>Keep the Reference Clear</h2>
+        <div class="section-rule" aria-hidden="true"></div>
+        <p>A relative clause should normally appear close to the noun it describes. When it is placed too far away, readers may connect it to the wrong noun.</p>
+
+        <h3 id="misplaced-relative-clauses">8.1 Misplaced Relative Clauses</h3>
+        <div class="comparison-grid">
+          <article class="comparison-card comparison-card--saffron">
+            <h4>Ambiguous</h4>
+            <p>I discussed the proposal with the professor <span class="target">that had been rejected</span>.</p>
+            <p>Grammatically, the clause appears to describe <em>the professor</em>.</p>
+          </article>
+          <article class="comparison-card comparison-card--teal">
+            <h4>Clear</h4>
+            <p>I discussed <span class="target">the proposal that had been rejected</span> with the professor.</p>
+          </article>
+        </div>
+        <div class="comparison-grid">
+          <article class="comparison-card comparison-card--saffron">
+            <h4>Unclear</h4>
+            <p>She gave the report to the manager <span class="target">which contained several errors</span>.</p>
+          </article>
+          <article class="comparison-card comparison-card--teal">
+            <h4>Clear</h4>
+            <p>She gave <span class="target">the report, which contained several errors</span>, to the manager.</p>
+          </article>
+        </div>
+
+        <h3 id="sentential-which-clarity">8.2 Make Whole-Situation <em>Which</em> Clear</h3>
+        <p>A comma + <em>which</em> clause can refer to an entire previous event:</p>
+        <div class="example-panel">
+          <p>The university cancelled the exam, <span class="target">which surprised the students</span>.</p>
+        </div>
+        <p>Here, <em>which</em> refers to the cancellation, not simply to the noun <em>exam</em>. This is useful, but the previous statement must be clear enough to create only one reasonable interpretation.</p>
+        <div class="comparison-grid">
+          <article class="comparison-card comparison-card--saffron">
+            <h4>Potentially unclear</h4>
+            <p>Ali criticized Reza during the meeting, which upset the manager.</p>
+            <p>Did the criticism, Reza, or the meeting upset the manager?</p>
+          </article>
+          <article class="comparison-card comparison-card--teal">
+            <h4>Clearer rewrites</h4>
+            <p>Ali’s criticism of Reza during the meeting upset the manager.</p>
+            <p>Ali criticized Reza during the meeting. This public criticism upset the manager.</p>
+          </article>
+        </div>
+
+        <h3 id="avoid-overloaded-nesting">8.3 Do Not Overload a Sentence with Nested Clauses</h3>
+        <p>A relative clause can appear inside another relative clause, but too much nesting makes the reader hold several unfinished ideas in memory.</p>
+        <div class="comparison-grid">
+          <article class="comparison-card comparison-card--saffron">
+            <h4>Heavy</h4>
+            <p>The policy that the committee that the university created proposed was controversial.</p>
+          </article>
+          <article class="comparison-card comparison-card--teal">
+            <h4>Clearer</h4>
+            <p>The university created a committee that proposed a controversial policy.</p>
+          </article>
+        </div>
+        <div class="comparison-grid">
+          <article class="comparison-card comparison-card--saffron">
+            <h4>Heavy</h4>
+            <p>The book that the professor who won the award wrote became famous.</p>
+          </article>
+          <article class="comparison-card comparison-card--teal">
+            <h4>Clearer</h4>
+            <p>The professor who won the award wrote a book that later became famous.</p>
+          </article>
+        </div>
+        <aside class="callout callout--teal">
+          <span class="callout__label">Writing strategy</span>
+          <p>Nested clauses are useful to understand while reading. In your own writing, use them only when the sentence remains easy to follow. Clarity is more valuable than visible complexity.</p>
+        </aside>
+
+        <div class="exercise-set">
+          <span class="exercise-label">Practice 8</span>
+          <h3>Rewrite for Clear Reference</h3>
+          <ol>
+            <li>I showed the photograph to my teacher that had been damaged.</li>
+            <li>The company changed its schedule, which annoyed the customers, after several complaints.</li>
+            <li>The article that the researcher who joined our team last month published attracted attention.</li>
+            <li>The assistant placed the files beside the computer which were confidential.</li>
+          </ol>
+          <details class="answer-key">
+            <summary>Show sample answers</summary>
+            <div class="answer-key__content">
+              <ol>
+                <li>I showed <strong>the photograph that had been damaged</strong> to my teacher.</li>
+                <li>After several complaints, the company changed its schedule, <strong>a decision that annoyed the customers</strong>.</li>
+                <li><strong>The researcher who joined our team last month published an article that attracted attention.</strong></li>
+                <li>The assistant placed <strong>the confidential files</strong> beside the computer. / The assistant placed <strong>the files, which were confidential</strong>, beside the computer.</li>
+              </ol>
+            </div>
+          </details>
+        </div>
+      </section>
+
+      <section id="a-note-about-that">
+        <span class="chapter-label">Chapter 09</span>
+        <h2>A Helpful Note About <em>That</em></h2>
+        <div class="section-rule" aria-hidden="true"></div>
+        <p>Traditional grammar often calls <em>that</em> a relative pronoun. Some modern grammar books describe it mainly as a connector that introduces the relative clause. You do not need to choose one analysis for ordinary English study.</p>
+        <p>What matters is that <em>that</em> behaves differently from <em>who</em>, <em>whom</em>, and <em>which</em>.</p>
+        <div class="example-list">
+          <div class="example-row"><div class="example-row__label">No fronted preposition</div><div>the method <span class="target">by which</span> we measured it — not <s>by that</s></div></div>
+          <div class="example-row"><div class="example-row__label">No comma clause</div><div>My phone, <span class="target">which</span> I bought last year, is broken — not <s>, that I bought...</s></div></div>
+          <div class="example-row"><div class="example-row__label">No possessive form</div><div>the student <span class="target">whose</span> laptop was stolen — there is no possessive form of <em>that</em></div></div>
+          <div class="example-row"><div class="example-row__label">Often omissible as object</div><div>the book <span class="target">that I bought</span> → the book <span class="target">I bought</span></div></div>
+        </div>
+        <aside class="callout callout--teal">
+          <span class="callout__label">Practical conclusion</span>
+          <p>Learn the environments in which <em>that</em> is possible. The label used by a particular grammar book is less important than using the word correctly.</p>
+        </aside>
+      </section>
+
+      <section id="comprehensive-practice">
+        <span class="chapter-label">Chapter 10</span>
+        <h2>Comprehensive Practice</h2>
+        <div class="section-rule" aria-hidden="true"></div>
+
+        <div class="exercise-set">
+          <span class="exercise-label">Exercise A</span>
+          <h3>Choose the Most Natural Form</h3>
+          <ol>
+            <li>We need a hotel (that is near / near) the train station.</li>
+            <li>The students (who can use / using) the statistical software should help the group.</li>
+            <li>She was the last person (who left / to leave) the building.</li>
+            <li>I need someone (who I can talk to / to talk to).</li>
+            <li>The files (that were stored / stored) in this folder are confidential.</li>
+            <li>The people (who know / knowing) the password should not share it.</li>
+            <li>There are three questions (that must be answered / to be answered).</li>
+            <li>The only room (that is available / available) has no windows.</li>
+          </ol>
+          <details class="answer-key">
+            <summary>Show answers</summary>
+            <div class="answer-key__content">
+              <ol>
+                <li><strong>near</strong> is concise and natural.</li>
+                <li><strong>who can use</strong> preserves the meaning of ability.</li>
+                <li>Both are correct; <strong>to leave</strong> is especially natural after <em>the last person</em>.</li>
+                <li>Both are correct; <strong>to talk to</strong> is more compact.</li>
+                <li>Both are correct and natural.</li>
+                <li><strong>who know</strong> is more natural.</li>
+                <li>Both are possible; <strong>to be answered</strong> is compact and formal.</li>
+                <li><strong>available</strong> is natural.</li>
+              </ol>
+            </div>
+          </details>
+        </div>
+
+        <div class="exercise-set">
+          <span class="exercise-label">Exercise B</span>
+          <h3>Correct the Error</h3>
+          <ol>
+            <li>The museum where we visited was extremely crowded.</li>
+            <li>My laptop, I bought last year, has stopped working.</li>
+            <li>The person to I sent the message never replied.</li>
+            <li>I admire the way how she explains grammar.</li>
+            <li>The reason why the event was cancelled is because the speaker was ill.</li>
+            <li>Students can speak French should report to the front desk.</li>
+            <li>We need a table to put the equipment.</li>
+            <li>The two buildings, one of who was damaged, are closed.</li>
+          </ol>
+          <details class="answer-key">
+            <summary>Show answers</summary>
+            <div class="answer-key__content">
+              <ol>
+                <li>The museum <strong>that/which we visited</strong> was extremely crowded.</li>
+                <li>My laptop, <strong>which I bought last year</strong>, has stopped working.</li>
+                <li>The person <strong>to whom I sent the message</strong> never replied. / The person <strong>I sent the message to</strong> never replied.</li>
+                <li>I admire <strong>the way she explains grammar</strong>. Other possibilities: <em>the way that...</em> or <em>the way in which...</em></li>
+                <li><strong>The reason the event was cancelled is that the speaker was ill.</strong> / <strong>The event was cancelled because the speaker was ill.</strong></li>
+                <li><strong>Students who can speak French</strong> should report to the front desk.</li>
+                <li>We need a table <strong>to put the equipment on</strong>.</li>
+                <li>The two buildings, <strong>one of which was damaged</strong>, are closed.</li>
+              </ol>
+            </div>
+          </details>
+        </div>
+
+        <div class="exercise-set">
+          <span class="exercise-label">Exercise C</span>
+          <h3>Identify the Clause Type</h3>
+          <p>Choose from: <strong>relative clause</strong>, <strong>content clause</strong>, <strong>free relative</strong>, <strong>embedded question</strong>, or <strong>“no matter” clause</strong>.</p>
+          <ol>
+            <li>The claim that the newspaper printed was false.</li>
+            <li>The claim that the mayor had resigned was false.</li>
+            <li>I cannot decide which course I should take.</li>
+            <li>I will take whichever course fits my schedule.</li>
+            <li>Whatever happens, remain calm.</li>
+            <li>What she suggested solved the problem.</li>
+            <li>The office where we submitted the form is closed.</li>
+            <li>I wonder where we should submit the form.</li>
+          </ol>
+          <details class="answer-key">
+            <summary>Show answers</summary>
+            <div class="answer-key__content">
+              <ol>
+                <li><strong>Relative clause.</strong> The newspaper printed the claim.</li>
+                <li><strong>Content clause.</strong> The clause states the claim.</li>
+                <li><strong>Embedded question.</strong></li>
+                <li><strong>Free relative.</strong></li>
+                <li><strong>“No matter” clause.</strong></li>
+                <li><strong>Free relative.</strong> It means <em>the thing that she suggested</em>.</li>
+                <li><strong>Relative clause.</strong></li>
+                <li><strong>Embedded question.</strong></li>
+              </ol>
+            </div>
+          </details>
+        </div>
+
+        <div class="exercise-set">
+          <span class="exercise-label">Exercise D</span>
+          <h3>Combine or Rewrite</h3>
+          <ol>
+            <li>The program accepted fifty applicants. Twelve of the applicants received scholarships.</li>
+            <li>The laboratory owns six microscopes. Two of the microscopes are currently broken.</li>
+            <li>She is one of the teachers. The teachers use project-based learning.</li>
+            <li>She is the only one of the teachers. She uses project-based learning.</li>
+            <li>I sent the document to the assistant that needed a signature. Rewrite clearly.</li>
+            <li>The committee that the department that hired a new director created met yesterday. Rewrite naturally.</li>
+          </ol>
+          <details class="answer-key">
+            <summary>Show sample answers</summary>
+            <div class="answer-key__content">
+              <ol>
+                <li>The program accepted fifty applicants, <strong>twelve of whom received scholarships</strong>.</li>
+                <li>The laboratory owns six microscopes, <strong>two of which are currently broken</strong>.</li>
+                <li>She is one of the teachers who <strong>use</strong> project-based learning.</li>
+                <li>She is the only one of the teachers who <strong>uses</strong> project-based learning.</li>
+                <li>I sent <strong>the document that needed a signature</strong> to the assistant.</li>
+                <li>The department hired a new director and created a committee that met yesterday. Another possible meaning: <em>The department that hired a new director created a committee, and the committee met yesterday.</em></li>
+              </ol>
+            </div>
+          </details>
+        </div>
+      </section>
+
+      <section id="final-review">
+        <span class="chapter-label">Final Review</span>
+        <h2>A Compact Decision Guide</h2>
+        <div class="section-rule" aria-hidden="true"></div>
+        <div class="example-list">
+          <div class="example-row"><div class="example-row__label">Want a shorter adjective or place description?</div><div>Remove <em>who/which/that + be</em>: <em>students interested</em>, <em>books on the desk</em>.</div></div>
+          <div class="example-row"><div class="example-row__label">Want an infinitive?</div><div>Check who performs the action and whether a preposition is needed: <em>someone to call</em>, <em>a chair to sit on</em>, <em>forms to be completed</em>.</div></div>
+          <div class="example-row"><div class="example-row__label">Want to omit the relative word?</div><div>It must be an object in a defining clause, with no fronted preposition.</div></div>
+          <div class="example-row"><div class="example-row__label">Choosing where/when/why?</div><div>Look for a missing place, time, or reason relationship inside the clause.</div></div>
+          <div class="example-row"><div class="example-row__label">Clause after claim, fact, or idea?</div><div>Ask whether it describes the noun or states its content.</div></div>
+          <div class="example-row"><div class="example-row__label">Using many of whom/which?</div><div>Use <em>whom</em> for people and <em>which</em> for things; commas are normally needed.</div></div>
+          <div class="example-row"><div class="example-row__label">Choosing singular or plural verb?</div><div>Find the noun that <em>who/which/that</em> actually refers to.</div></div>
+          <div class="example-row"><div class="example-row__label">Sentence feels hard to follow?</div><div>Move the relative clause closer to its noun or divide an overloaded sentence.</div></div>
+        </div>
+        <aside class="callout callout--teal">
+          <span class="callout__label">Final principle</span>
+          <p>Advanced grammar is not the art of making every sentence complicated. It is the ability to choose from several structures and use the one that expresses your meaning most clearly.</p>
+        </aside>
+      </section>
+    </main>
+  </div>
+
+  <footer class="site-footer">
+    <div class="site-footer__inner">
+      <div>
+        <strong>Kooshky’s TOEFL Guides</strong><br>
+        Collected and compiled by Amir Kooshky.
+      </div>
+      <nav class="footer-links" aria-label="Footer links" data-promotion>
+        <a href="https://telegram.me/KooshkyTOEFL" target="_blank" rel="noopener noreferrer">Telegram</a>
+        <a href="https://instagram.com/kooshkytoefl" target="_blank" rel="noopener noreferrer">Instagram</a>
+        <a href="https://telegram.me/kooshkyTOEFL_pv" target="_blank" rel="noopener noreferrer">Personal Telegram</a>
+      </nav>
+    </div>
+  </footer>
+
+  <button class="go-top" id="go-top" type="button" aria-label="Go to top">↑</button>
+
+  <div class="mobile-backdrop" id="mobile-backdrop" hidden></div>
+  <aside class="mobile-drawer" id="mobile-drawer" aria-hidden="true" aria-label="Mobile contents">
+    <div class="mobile-drawer__header">
+      <strong>Contents</strong>
+      <button class="close-button" id="menu-close" type="button" aria-label="Close contents">×</button>
+    </div>
+    <div class="mobile-drawer__body">
+      <a class="nav-link js-home-link" href="/">Home</a>
+      <nav class="toc-panel" aria-label="Mobile table of contents">
+        <div class="toc-actions">
+          <button class="toc-action" type="button" data-toc-action="expand">Expand all</button>
+          <button class="toc-action" type="button" data-toc-action="collapse">Collapse all</button>
+        </div>
+        <ul class="toc-list" id="mobile-toc"></ul>
+      </nav>
+    </div>
+  </aside>
+
+  <div class="selection-menu" id="selection-menu" role="menu" aria-label="Dictionary lookup" aria-hidden="true">
+    <span class="selection-menu__term" id="selection-term"></span>
+    <a id="lookup-cambridge" role="menuitem" target="_blank" rel="noopener noreferrer">Cambridge Dictionary</a>
+    <a id="lookup-oxford" role="menuitem" target="_blank" rel="noopener noreferrer">Oxford Learner’s Dictionaries</a>
+    <a id="lookup-merriam" role="menuitem" target="_blank" rel="noopener noreferrer">Merriam-Webster</a>
+    <a id="lookup-google" role="menuitem" target="_blank" rel="noopener noreferrer">Google: meaning of...</a>
+  </div>
+
+  <div class="modal-backdrop" id="telegram-backdrop" hidden>
+    <section class="modal" id="telegram-modal" role="dialog" aria-modal="true" aria-labelledby="telegram-title" aria-describedby="telegram-description">
+      <div class="modal__header">
+        <div>
+          <span class="panel-label">More TOEFL material</span>
+          <h2 id="telegram-title">Continue Studying with Kooshky’s TOEFL Guides</h2>
+        </div>
+        <button class="close-button" id="telegram-close" type="button" aria-label="Close invitation">×</button>
+      </div>
+      <div class="modal__body">
+        <p id="telegram-description">Find more grammar guides, TOEFL examples, vocabulary materials, and practical study resources in the Telegram channel.</p>
+        <a class="modal__link" id="telegram-visit" href="https://telegram.me/KooshkyTOEFL" target="_blank" rel="noopener noreferrer">Visit the Telegram channel</a>
+      </div>
+    </section>
+  </div>
+
+  <script>
+    (() => {
+      'use strict';
+
+      const GUIDE_CONFIG = {
+        // Change this to false to remove promotional links and disable the Telegram invitation.
+        promotionsEnabled: true,
+        themeKey: 'kooshky-guides:theme:v1',
+        title: document.getElementById('page-title')?.textContent?.trim() || document.title
+      };
+
+      const safeStorage = {
+        get(key) {
+          try { return localStorage.getItem(key); } catch (error) { return null; }
+        },
+        set(key, value) {
+          try { localStorage.setItem(key, value); return true; } catch (error) { return false; }
+        }
+      };
+
+      function slugify(value) {
+        return value
+          .toLowerCase()
+          .normalize('NFKD')
+          .replace(/[\u0300-\u036f]/g, '')
+          .replace(/[^a-z0-9]+/g, '-')
+          .replace(/^-+|-+$/g, '') || 'guide';
+      }
+
+      function initializeHomeLinks() {
+        let home = '/';
+        if (location.protocol === 'http:' || location.protocol === 'https:') {
+          home = `${location.origin}/`;
+        }
+        document.querySelectorAll('.js-home-link').forEach(link => { link.href = home; });
+      }
+
+      function applyPromotionPreference() {
+        if (GUIDE_CONFIG.promotionsEnabled) return;
+        document.querySelectorAll('[data-promotion]').forEach(element => element.remove());
+        const modal = document.getElementById('telegram-backdrop');
+        if (modal) modal.remove();
+      }
+
+      function initializeTheme() {
+        const root = document.documentElement;
+        const toggle = document.getElementById('theme-toggle');
+        const icon = document.getElementById('theme-icon');
+        const text = document.getElementById('theme-text');
+        const themeColor = document.querySelector('meta[name="theme-color"]');
+
+        const apply = (theme, save = false) => {
+          const dark = theme === 'dark';
+          root.dataset.theme = dark ? 'dark' : 'light';
+          root.style.colorScheme = dark ? 'dark' : 'light';
+          toggle?.setAttribute('aria-pressed', String(dark));
+          toggle?.setAttribute('aria-label', dark ? 'Switch to light theme' : 'Switch to dark theme');
+          if (icon) icon.textContent = dark ? '☀' : '☾';
+          if (text) text.textContent = dark ? 'Light theme' : 'Dark theme';
+          if (themeColor) themeColor.content = dark ? '#111417' : '#F4F0E8';
+          if (save) safeStorage.set(GUIDE_CONFIG.themeKey, dark ? 'dark' : 'light');
+        };
+
+        const current = root.dataset.theme === 'dark' ? 'dark' : 'light';
+        apply(current);
+        toggle?.addEventListener('click', () => apply(root.dataset.theme === 'dark' ? 'light' : 'dark', true));
+      }
+
+      function makeStableHeadingIds(headings) {
+        const used = new Set();
+        headings.forEach(heading => {
+          let base = heading.id ? slugify(heading.id) : slugify(heading.textContent);
+          let id = base;
+          let index = 2;
+          while (used.has(id) || (document.getElementById(id) && document.getElementById(id) !== heading)) {
+            id = `${base}-${index++}`;
+          }
+          heading.id = id;
+          used.add(id);
+        });
+      }
+
+      function buildTocTree(headings) {
+        const root = [];
+        const stack = [{ level: 1, children: root }];
+        headings.forEach(heading => {
+          const level = Number(heading.tagName.slice(1));
+          const node = { heading, level, children: [] };
+          while (stack.length && stack[stack.length - 1].level >= level) stack.pop();
+          const parent = stack[stack.length - 1] || { children: root };
+          parent.children.push(node);
+          stack.push(node);
+        });
+        return root;
+      }
+
+      function createTocNodes(nodes) {
+        const fragment = document.createDocumentFragment();
+        nodes.forEach(node => {
+          const li = document.createElement('li');
+          const title = node.heading.dataset.tocTitle || node.heading.textContent.trim();
+          const href = `#${node.heading.id}`;
+
+          if (node.children.length) {
+            const details = document.createElement('details');
+            const summary = document.createElement('summary');
+            const link = document.createElement('a');
+            link.href = href;
+            link.textContent = title;
+            link.className = 'toc-title-link';
+            link.dataset.tocTarget = node.heading.id;
+            summary.append(link);
+            details.append(summary);
+
+            const childList = document.createElement('ul');
+            childList.append(createTocNodes(node.children));
+            details.append(childList);
+            li.append(details);
+          } else {
+            const link = document.createElement('a');
+            link.href = href;
+            link.textContent = title;
+            link.dataset.tocTarget = node.heading.id;
+            li.append(link);
+          }
+          fragment.append(li);
+        });
+        return fragment;
+      }
+
+      function initializeToc() {
+        const article = document.querySelector('.article');
+        if (!article) return;
+        const headings = [...article.querySelectorAll('section > h2, section h3, section h4')];
+        makeStableHeadingIds(headings);
+        const tree = buildTocTree(headings);
+
+        ['desktop-toc', 'mobile-toc'].forEach(id => {
+          const list = document.getElementById(id);
+          if (!list) return;
+          list.replaceChildren(createTocNodes(tree));
+        });
+
+        document.querySelectorAll('[data-toc-action]').forEach(button => {
+          button.addEventListener('click', () => {
+            const scope = button.closest('.toc-panel') || document;
+            const shouldOpen = button.dataset.tocAction === 'expand';
+            scope.querySelectorAll('details').forEach(details => { details.open = shouldOpen; });
+          });
+        });
+
+        document.querySelectorAll('.toc-list a').forEach(link => {
+          link.addEventListener('click', () => closeMobileMenu());
+        });
+
+        if ('IntersectionObserver' in window) {
+          const links = [...document.querySelectorAll('[data-toc-target]')];
+          const map = new Map();
+          links.forEach(link => {
+            const target = link.dataset.tocTarget;
+            if (!map.has(target)) map.set(target, []);
+            map.get(target).push(link);
+          });
+
+          const observer = new IntersectionObserver(entries => {
+            const visible = entries
+              .filter(entry => entry.isIntersecting)
+              .sort((a, b) => a.boundingClientRect.top - b.boundingClientRect.top)[0];
+            if (!visible) return;
+            links.forEach(link => link.removeAttribute('aria-current'));
+            (map.get(visible.target.id) || []).forEach(link => link.setAttribute('aria-current', 'true'));
+          }, { rootMargin: '-20% 0px -68% 0px', threshold: 0 });
+
+          headings.forEach(heading => observer.observe(heading));
+        }
+      }
+
+      const mobileMenu = {
+        drawer: null,
+        backdrop: null,
+        openButton: null,
+        closeButton: null,
+        lastFocus: null
+      };
+
+      function openMobileMenu() {
+        if (!mobileMenu.drawer || !mobileMenu.backdrop) return;
+        mobileMenu.lastFocus = document.activeElement;
+        mobileMenu.backdrop.hidden = false;
+        requestAnimationFrame(() => {
+          mobileMenu.drawer.classList.add('is-open');
+          mobileMenu.backdrop.classList.add('is-open');
+        });
+        mobileMenu.drawer.setAttribute('aria-hidden', 'false');
+        mobileMenu.openButton?.setAttribute('aria-expanded', 'true');
+        document.body.classList.add('no-scroll');
+        mobileMenu.closeButton?.focus();
+      }
+
+      function closeMobileMenu() {
+        if (!mobileMenu.drawer || !mobileMenu.backdrop || !mobileMenu.drawer.classList.contains('is-open')) return;
+        mobileMenu.drawer.classList.remove('is-open');
+        mobileMenu.backdrop.classList.remove('is-open');
+        mobileMenu.drawer.setAttribute('aria-hidden', 'true');
+        mobileMenu.openButton?.setAttribute('aria-expanded', 'false');
+        document.body.classList.remove('no-scroll');
+        window.setTimeout(() => { mobileMenu.backdrop.hidden = true; }, 200);
+        mobileMenu.lastFocus?.focus?.();
+      }
+
+      function initializeMobileMenu() {
+        mobileMenu.drawer = document.getElementById('mobile-drawer');
+        mobileMenu.backdrop = document.getElementById('mobile-backdrop');
+        mobileMenu.openButton = document.getElementById('menu-open');
+        mobileMenu.closeButton = document.getElementById('menu-close');
+        mobileMenu.openButton?.addEventListener('click', openMobileMenu);
+        mobileMenu.closeButton?.addEventListener('click', closeMobileMenu);
+        mobileMenu.backdrop?.addEventListener('click', closeMobileMenu);
+      }
+
+      function initializeGoTop() {
+        const button = document.getElementById('go-top');
+        if (!button) return;
+        const update = () => button.classList.toggle('is-visible', window.scrollY > Math.max(500, window.innerHeight * 0.75));
+        window.addEventListener('scroll', update, { passive: true });
+        button.addEventListener('click', () => window.scrollTo({ top: 0, behavior: 'smooth' }));
+        update();
+      }
+
+      function initializeTelegramInvite() {
+        if (!GUIDE_CONFIG.promotionsEnabled) return;
+        const backdrop = document.getElementById('telegram-backdrop');
+        const modal = document.getElementById('telegram-modal');
+        const close = document.getElementById('telegram-close');
+        const visit = document.getElementById('telegram-visit');
+        const goTop = document.getElementById('go-top');
+        if (!backdrop || !modal || !close || !visit) return;
+
+        const key = `kooshky-guides:${slugify(GUIDE_CONFIG.title)}:telegram-invite:v1`;
+        if (safeStorage.get(key)) return;
+
+        let shown = false;
+        let lastFocus = null;
+
+        const dismiss = () => {
+          if (!backdrop.classList.contains('is-open')) return;
+          backdrop.classList.remove('is-open');
+          document.body.classList.remove('no-scroll');
+          goTop?.classList.remove('is-suppressed');
+          safeStorage.set(key, 'dismissed');
+          window.setTimeout(() => { backdrop.hidden = true; }, 200);
+          lastFocus?.focus?.();
+        };
+
+        const show = () => {
+          if (shown || safeStorage.get(key)) return;
+          shown = true;
+          lastFocus = document.activeElement;
+          backdrop.hidden = false;
+          requestAnimationFrame(() => backdrop.classList.add('is-open'));
+          document.body.classList.add('no-scroll');
+          goTop?.classList.add('is-suppressed');
+          close.focus();
+        };
+
+        const check = () => {
+          const scrollable = document.documentElement.scrollHeight - window.innerHeight;
+          if (scrollable > 0 && window.scrollY / scrollable >= 0.48) {
+            show();
+            window.removeEventListener('scroll', check);
+          }
+        };
+
+        close.addEventListener('click', dismiss);
+        visit.addEventListener('click', () => {
+          safeStorage.set(key, 'visited');
+          dismiss();
+        });
+        backdrop.addEventListener('click', event => { if (event.target === backdrop) dismiss(); });
+        window.addEventListener('scroll', check, { passive: true });
+      }
+
+      function validSelectionText(text) {
+        const trimmed = text.trim().replace(/\s+/g, ' ');
+        if (!trimmed || trimmed.length > 80) return '';
+        if (!/[\p{L}\p{N}]/u.test(trimmed)) return '';
+        if (trimmed.split(' ').length > 10) return '';
+        return trimmed;
+      }
+
+      function initializeSelectionLookup() {
+        const menu = document.getElementById('selection-menu');
+        const term = document.getElementById('selection-term');
+        if (!menu || !term) return;
+        const links = {
+          cambridge: document.getElementById('lookup-cambridge'),
+          oxford: document.getElementById('lookup-oxford'),
+          merriam: document.getElementById('lookup-merriam'),
+          google: document.getElementById('lookup-google')
+        };
+        let timer = null;
+
+        const hide = () => {
+          menu.classList.remove('is-open');
+          menu.setAttribute('aria-hidden', 'true');
+        };
+
+        const isBlockedNode = node => {
+          const element = node?.nodeType === Node.ELEMENT_NODE ? node : node?.parentElement;
+          return Boolean(element?.closest('button, nav, input, textarea, select, summary, .selection-menu, .modal, .mobile-drawer'));
+        };
+
+        const positionMenu = rect => {
+          const margin = 10;
+          const width = menu.offsetWidth || 288;
+          const height = menu.offsetHeight || 220;
+          let left = rect && Number.isFinite(rect.left) ? rect.left + rect.width / 2 - width / 2 : window.innerWidth / 2 - width / 2;
+          let top = rect && Number.isFinite(rect.top) ? rect.top - height - 14 : window.innerHeight * 0.25;
+          left = Math.max(margin, Math.min(left, window.innerWidth - width - margin));
+          if (top < margin) top = rect ? rect.bottom + 18 : margin;
+          top = Math.max(margin, Math.min(top, window.innerHeight - height - margin));
+          menu.style.left = `${left}px`;
+          menu.style.top = `${top}px`;
+        };
+
+        const update = () => {
+          const selection = window.getSelection();
+          if (!selection || selection.rangeCount === 0 || selection.isCollapsed || isBlockedNode(selection.anchorNode)) {
+            hide();
+            return;
+          }
+          const text = validSelectionText(selection.toString());
+          if (!text) { hide(); return; }
+          const range = selection.getRangeAt(0);
+          const rect = range.getBoundingClientRect();
+          const encoded = encodeURIComponent(text);
+          term.textContent = `Look up: “${text}”`;
+          links.cambridge.href = `https://dictionary.cambridge.org/dictionary/english/${encoded}`;
+          links.oxford.href = `https://www.oxfordlearnersdictionaries.com/definition/english/${encoded}?q=${encoded}`;
+          links.merriam.href = `https://www.merriam-webster.com/dictionary/${encoded}`;
+          links.google.href = `https://www.google.com/search?q=meaning+of+${encoded}`;
+          menu.classList.add('is-open');
+          menu.setAttribute('aria-hidden', 'false');
+          requestAnimationFrame(() => positionMenu(rect && rect.width >= 0 ? rect : null));
+        };
+
+        const delayedUpdate = () => {
+          clearTimeout(timer);
+          timer = window.setTimeout(update, 90);
+        };
+
+        document.addEventListener('selectionchange', delayedUpdate);
+        document.addEventListener('pointerup', delayedUpdate);
+        document.addEventListener('touchend', () => {
+          clearTimeout(timer);
+          timer = window.setTimeout(update, 180);
+        }, { passive: true });
+        document.addEventListener('pointerdown', event => {
+          if (!menu.contains(event.target)) hide();
+        });
+        document.addEventListener('focusin', event => {
+          if (!menu.contains(event.target) && !event.target.closest('.article')) hide();
+        });
+        window.addEventListener('scroll', hide, { passive: true });
+        window.addEventListener('resize', hide);
+      }
+
+      function initializeGlobalKeyboard() {
+        document.addEventListener('keydown', event => {
+          if (event.key !== 'Escape') return;
+          closeMobileMenu();
+          const selectionMenu = document.getElementById('selection-menu');
+          selectionMenu?.classList.remove('is-open');
+          selectionMenu?.setAttribute('aria-hidden', 'true');
+          const telegramBackdrop = document.getElementById('telegram-backdrop');
+          if (telegramBackdrop?.classList.contains('is-open')) {
+            document.getElementById('telegram-close')?.click();
+          }
+        });
+      }
+
+      function initializeGuide() {
+        const steps = [
+          initializeHomeLinks,
+          applyPromotionPreference,
+          initializeTheme,
+          initializeToc,
+          initializeMobileMenu,
+          initializeGoTop,
+          initializeTelegramInvite,
+          initializeSelectionLookup,
+          initializeGlobalKeyboard
+        ];
+        steps.forEach(step => {
+          try { step(); } catch (error) { console.error(`Guide feature failed: ${step.name}`, error); }
+        });
+      }
+
+      if (document.readyState === 'loading') {
+        document.addEventListener('DOMContentLoaded', initializeGuide, { once: true });
+      } else {
+        initializeGuide();
+      }
+    })();
+  </script>
+</body>
+</html>

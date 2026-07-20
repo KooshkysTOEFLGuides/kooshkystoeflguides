@@ -1,0 +1,1754 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="light">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="description" content="A complete student-friendly introduction to relative clauses, from intuitive examples to sentence building and common errors.">
+<title>Relative Clauses, Part 1: Building the Foundation | Kooshky’s TOEFL Guides</title>
+<script>
+(function(){let t="light";try{const s=localStorage.getItem("kooshky-guides:theme:v1");if(s==="dark"||s==="light")t=s}catch(e){}document.documentElement.dataset.theme=t;document.documentElement.style.colorScheme=t})();
+</script>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:ital,wght@0,400;0,500;0,600;0,700;1,400&family=Literata:opsz,wght@7..72,600;7..72,700&display=swap" rel="stylesheet">
+<style>
+:root{
+--font-heading:"Literata",Georgia,"Times New Roman",serif;
+--font-body:"IBM Plex Sans",Inter,system-ui,-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif;
+--color-page:#F4F0E8;--color-surface:#FCFAF6;--color-raised:#FFFFFF;--color-text:#182027;
+--color-text-muted:#59636C;--color-border:#D7D0C3;--color-accent:#A9470D;
+--color-accent-secondary:#1E5B63;--color-accent-soft:#F3E2D3;--color-secondary-soft:#DDEAE8;
+--color-overlay:rgba(17,20,23,.56);--color-focus:#1E5B63;--color-selection:#E8C4A9;
+--space-1:.25rem;--space-2:.5rem;--space-3:.75rem;--space-4:1rem;--space-5:1.5rem;
+--space-6:2rem;--space-7:3rem;--space-8:4.5rem;
+--radius-small:4px;--radius-medium:6px;--radius-large:10px;
+--content-width:72ch;--sidebar-width:19rem;--header-height:4rem;
+--z-header:100;--z-floating-control:200;--z-selection-menu:300;--z-mobile-backdrop:350;
+--z-mobile-panel:360;--z-modal-backdrop:400;--z-modal:410}
+html[data-theme="dark"]{
+--color-page:#111417;--color-surface:#181D21;--color-raised:#1D2328;--color-text:#ECE7DD;
+--color-text-muted:#ADB4B8;--color-border:#30383E;--color-accent:#F28C45;
+--color-accent-secondary:#70B7B4;--color-accent-soft:#332219;--color-secondary-soft:#193033;
+--color-overlay:rgba(0,0,0,.72);--color-focus:#70B7B4;--color-selection:#5A341F}
+*,*::before,*::after{box-sizing:border-box}
+html{min-width:0;scroll-behavior:smooth;background:var(--color-page)}
+body{margin:0;min-width:0;overflow-x:hidden;background:var(--color-page);color:var(--color-text);
+font-family:var(--font-body);font-size:clamp(1rem,.97rem + .12vw,1.075rem);line-height:1.75;text-rendering:optimizeLegibility}
+body.nav-open,body.modal-open{overflow:hidden}
+::selection{background:var(--color-selection);color:var(--color-text)}
+img,svg,video,iframe{max-width:100%}
+a,button,summary{-webkit-tap-highlight-color:transparent}
+a{color:var(--color-accent-secondary);text-decoration-thickness:.08em;text-underline-offset:.18em;overflow-wrap:anywhere}
+a:hover{color:var(--color-accent)}
+button{font:inherit}
+:focus-visible{outline:3px solid var(--color-focus);outline-offset:3px}
+.skip-link{position:fixed;top:var(--space-3);left:var(--space-3);z-index:500;transform:translateY(-160%);
+background:var(--color-text);color:var(--color-page);padding:var(--space-3) var(--space-4);
+border-radius:var(--radius-small);text-decoration:none;transition:transform 180ms ease}
+.skip-link:focus,.skip-link:focus-visible{transform:translateY(0)}
+.site-bar{position:sticky;top:0;z-index:var(--z-header);min-height:var(--header-height);
+border-bottom:1px solid var(--color-border);background:var(--color-surface)}
+.site-bar__inner{width:min(100% - 2rem,92rem);min-height:var(--header-height);margin-inline:auto;
+display:flex;align-items:center;justify-content:space-between;gap:var(--space-4)}
+.site-brand{display:inline-flex;align-items:center;gap:var(--space-3);min-width:0;color:var(--color-text);
+font-family:var(--font-heading);font-weight:700;text-decoration:none}
+.site-brand__mark{width:.45rem;height:1.65rem;flex:0 0 auto;background:var(--color-accent)}
+.site-brand__text{overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
+.desktop-nav{display:flex;align-items:center;gap:var(--space-4)}
+.desktop-nav a{color:var(--color-text-muted);font-size:.92rem;font-weight:600;text-decoration:none}
+.desktop-nav a:hover{color:var(--color-accent)}
+.icon-button,.text-button{border:1px solid var(--color-border);border-radius:var(--radius-small);
+background:var(--color-surface);color:var(--color-text);cursor:pointer;
+transition:background-color 180ms ease,border-color 180ms ease,color 180ms ease}
+.icon-button{width:2.75rem;height:2.75rem;display:inline-grid;place-items:center;padding:0}
+.text-button{display:inline-flex;align-items:center;justify-content:center;gap:var(--space-2);
+min-height:2.75rem;padding:var(--space-2) var(--space-4);font-weight:600}
+.icon-button:hover,.text-button:hover{border-color:var(--color-accent-secondary);background:var(--color-secondary-soft)}
+.mobile-menu-button{display:none}
+.hero{border-bottom:1px solid var(--color-border);
+background:linear-gradient(90deg,var(--color-accent-soft) 0 .6rem,transparent .6rem),var(--color-surface)}
+.hero__inner{width:min(100% - 2rem,88rem);margin-inline:auto;padding:clamp(2.5rem,6vw,5.5rem) clamp(0rem,2vw,1.5rem);
+display:grid;grid-template-columns:minmax(0,1fr) minmax(15rem,24rem);gap:var(--space-7);align-items:end}
+.eyebrow,.chapter-marker,.editorial-label{display:inline-block;color:var(--color-accent);font-size:.76rem;
+font-weight:700;letter-spacing:.13em;text-transform:uppercase}
+.hero h1{max-width:18ch;margin:var(--space-3) 0 var(--space-4);font-family:var(--font-heading);
+font-size:clamp(2.15rem,5.2vw,4.4rem);line-height:1.06;letter-spacing:-.035em;overflow-wrap:anywhere}
+.hero__subtitle{max-width:62ch;margin:0;color:var(--color-text-muted);font-size:clamp(1.05rem,1rem + .3vw,1.28rem);line-height:1.6}
+.hero__meta{border-top:3px solid var(--color-accent-secondary);padding-top:var(--space-4)}
+.hero__meta p{margin:0 0 var(--space-3);color:var(--color-text-muted)}
+.hero__meta strong{color:var(--color-text)}
+.social-links{display:flex;flex-wrap:wrap;gap:var(--space-2)}
+.social-link{display:inline-flex;align-items:center;min-height:2.4rem;padding:.42rem .72rem;border:1px solid var(--color-border);
+border-radius:var(--radius-small);color:var(--color-text);font-size:.88rem;font-weight:600;text-decoration:none;background:var(--color-raised)}
+.social-link:hover{border-color:var(--color-accent);background:var(--color-accent-soft)}
+.page-shell{width:min(100% - 2rem,92rem);margin-inline:auto;display:grid;
+grid-template-columns:minmax(15rem,var(--sidebar-width)) minmax(0,1fr);gap:clamp(2rem,4vw,4rem);
+align-items:start;padding-block:var(--space-7) var(--space-8)}
+.toc-panel{position:sticky;top:calc(var(--header-height) + var(--space-5));max-height:calc(100vh - var(--header-height) - 3rem);
+overflow:auto;border-top:4px solid var(--color-accent);border-bottom:1px solid var(--color-border);
+padding:var(--space-4) 0 var(--space-5);scrollbar-width:thin}
+.toc-panel__heading{display:flex;align-items:center;justify-content:space-between;gap:var(--space-3);
+margin:0 0 var(--space-3);font-family:var(--font-heading);font-size:1.05rem}
+.toc-actions{display:flex;gap:var(--space-2);margin-bottom:var(--space-3)}
+.toc-actions button{padding:.3rem .55rem;border:1px solid var(--color-border);border-radius:var(--radius-small);
+background:transparent;color:var(--color-text-muted);font-size:.78rem;cursor:pointer}
+.toc-actions button:hover{color:var(--color-accent);border-color:var(--color-accent)}
+.toc-list,.toc-list ul{margin:0;padding:0;list-style:none}
+.toc-list details{border-top:1px solid var(--color-border)}
+.toc-list details:last-child{border-bottom:1px solid var(--color-border)}
+.toc-list summary{position:relative;cursor:pointer;padding:.74rem 1.6rem .74rem .2rem;
+color:var(--color-text);font-size:.9rem;font-weight:600;list-style:none}
+.toc-list summary::-webkit-details-marker{display:none}
+.toc-list summary::after{content:"+";position:absolute;right:.25rem;color:var(--color-accent);font-weight:700}
+.toc-list details[open]>summary::after{content:"−"}
+.toc-list a{display:block;padding:.4rem .5rem .4rem .9rem;border-left:2px solid transparent;
+color:var(--color-text-muted);font-size:.86rem;line-height:1.45;text-decoration:none;overflow-wrap:anywhere}
+.toc-list a:hover,.toc-list a[aria-current="true"]{border-left-color:var(--color-accent);color:var(--color-accent);background:var(--color-accent-soft)}
+.article{width:min(100%,var(--content-width));min-width:0;counter-reset:chapter -1}
+.article>*{min-width:0}
+.article-intro{margin-bottom:var(--space-7);padding-bottom:var(--space-6);border-bottom:1px solid var(--color-border);
+color:var(--color-text-muted);font-size:1.08rem}
+.chapter{counter-increment:chapter;padding-top:var(--space-7);margin-top:var(--space-7);border-top:1px solid var(--color-border)}
+.chapter:first-of-type{margin-top:0;border-top:0;padding-top:0}
+.chapter-marker::after{content:" " counter(chapter,decimal-leading-zero)}
+h2,h3,h4{scroll-margin-top:calc(var(--header-height) + 1.5rem);font-family:var(--font-heading);
+color:var(--color-text);line-height:1.22;overflow-wrap:anywhere}
+h2{margin:var(--space-2) 0 var(--space-5);font-size:clamp(1.8rem,1.45rem + 1.35vw,2.7rem);letter-spacing:-.025em}
+h3{margin:var(--space-7) 0 var(--space-4);font-size:clamp(1.35rem,1.18rem + .55vw,1.75rem)}
+h4{margin:var(--space-6) 0 var(--space-3);font-size:1.1rem}
+p,ul,ol,dl{margin-top:0;margin-bottom:var(--space-4)}
+ul,ol{padding-left:1.35rem}
+li+li{margin-top:var(--space-2)}
+strong{color:var(--color-text)}
+code{padding:.12rem .32rem;border:1px solid var(--color-border);border-radius:var(--radius-small);
+background:var(--color-surface);color:var(--color-accent);font-family:ui-monospace,SFMono-Regular,Consolas,monospace;font-size:.92em;overflow-wrap:anywhere}
+.lead{color:var(--color-text-muted);font-size:1.08rem}
+.signal{margin:var(--space-5) 0;padding:var(--space-4) var(--space-5);border:1px solid var(--color-border);
+border-left-width:.35rem;border-radius:var(--radius-medium);background:var(--color-surface)}
+.signal--teal{border-left-color:var(--color-accent-secondary);background:var(--color-secondary-soft)}
+.signal--saffron{border-left-color:var(--color-accent);background:var(--color-accent-soft)}
+.signal__label{display:block;margin-bottom:var(--space-2);color:var(--color-accent-secondary);
+font-size:.75rem;font-weight:700;letter-spacing:.11em;text-transform:uppercase}
+.signal--saffron .signal__label{color:var(--color-accent)}
+.signal>:last-child{margin-bottom:0}
+.example-panel{margin:var(--space-4) 0;padding:var(--space-4) var(--space-5);border:1px solid var(--color-border);
+border-radius:var(--radius-medium);background:var(--color-surface)}
+.example-panel__label{display:block;margin-bottom:var(--space-2);color:var(--color-text-muted);
+font-size:.73rem;font-weight:700;letter-spacing:.11em;text-transform:uppercase}
+.example-sentence{margin:.45rem 0;font-size:1.045rem}
+.target{padding:0 .08em;color:var(--color-accent-secondary);font-weight:700;
+background:linear-gradient(transparent 72%,var(--color-secondary-soft) 0)}
+.target--saffron{color:var(--color-accent);background:linear-gradient(transparent 72%,var(--color-accent-soft) 0)}
+.muted,.meaning-note{color:var(--color-text-muted)}
+.meaning-note{margin:var(--space-2) 0 0;font-size:.94rem}
+.comparison-grid,.concept-grid,.example-grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:var(--space-4);margin:var(--space-5) 0}
+.concept-grid--three{grid-template-columns:repeat(3,minmax(0,1fr))}
+.comparison-card,.concept-card{min-width:0;padding:var(--space-4);border:1px solid var(--color-border);
+border-radius:var(--radius-medium);background:var(--color-surface);overflow-wrap:anywhere}
+.comparison-card h4,.concept-card h4{margin-top:0}
+.comparison-card>:last-child,.concept-card>:last-child{margin-bottom:0}
+.sentence-map{margin:var(--space-5) 0;border:1px solid var(--color-border);border-radius:var(--radius-medium);
+overflow:hidden;background:var(--color-surface)}
+.sentence-map__row{display:grid;grid-template-columns:8rem minmax(0,1fr);gap:var(--space-4);
+padding:var(--space-3) var(--space-4);border-top:1px solid var(--color-border)}
+.sentence-map__row:first-child{border-top:0}
+.sentence-map__label{color:var(--color-accent);font-size:.82rem;font-weight:700;letter-spacing:.04em;text-transform:uppercase}
+.formula{margin:var(--space-5) 0;padding:var(--space-4);border:1px dashed var(--color-accent-secondary);
+border-radius:var(--radius-medium);background:var(--color-secondary-soft);font-weight:600;text-align:center;overflow-wrap:anywhere}
+.steps{counter-reset:step;margin:var(--space-5) 0;padding:0;list-style:none}
+.steps li{counter-increment:step;position:relative;margin:0;padding:var(--space-4) 0 var(--space-4) 3.2rem;border-top:1px solid var(--color-border)}
+.steps li:last-child{border-bottom:1px solid var(--color-border)}
+.steps li::before{content:counter(step);position:absolute;top:1rem;left:0;width:2rem;height:2rem;display:grid;
+place-items:center;border:1px solid var(--color-accent);border-radius:50%;color:var(--color-accent);font-weight:700}
+.wrong,.right{display:block;margin:var(--space-2) 0}
+.wrong::before{content:"✗ ";color:var(--color-accent);font-weight:700}
+.right::before{content:"✓ ";color:var(--color-accent-secondary);font-weight:700}
+.micro-list{display:grid;gap:var(--space-2);margin:var(--space-4) 0}
+.micro-list>div{padding:var(--space-3) var(--space-4);border-left:3px solid var(--color-border);background:var(--color-surface)}
+.exercise{margin:var(--space-6) 0;padding:var(--space-5);border:1px solid var(--color-border);
+border-top:4px solid var(--color-accent-secondary);border-radius:var(--radius-medium);background:var(--color-surface)}
+.exercise h3,.exercise h4{margin-top:0}
+.exercise__instruction{color:var(--color-text-muted)}
+details.answer-key{margin-top:var(--space-4);border:1px solid var(--color-border);
+border-radius:var(--radius-medium);background:var(--color-raised)}
+details.answer-key summary{cursor:pointer;padding:var(--space-3) var(--space-4);color:var(--color-accent);font-weight:700;list-style:none}
+details.answer-key summary::-webkit-details-marker{display:none}
+details.answer-key summary::before{content:"+";display:inline-block;width:1.25rem;margin-right:var(--space-2)}
+details.answer-key[open] summary::before{content:"−"}
+.answer-key__body{padding:0 var(--space-4) var(--space-4)}
+.answer-key__body>:last-child{margin-bottom:0}
+.inline-link-card{margin:var(--space-5) 0;padding:var(--space-5);border:1px solid var(--color-border);
+border-left:.4rem solid var(--color-accent);border-radius:var(--radius-medium);background:var(--color-accent-soft)}
+.inline-link-card h3{margin-top:0;font-size:1.28rem}
+.inline-link-card a{display:inline-flex;align-items:center;gap:var(--space-2);margin-top:var(--space-2);font-weight:700}
+.chapter-summary{margin-top:var(--space-6);padding-top:var(--space-4);border-top:1px solid var(--color-border)}
+.chapter-summary h3{margin-top:0;font-size:1.2rem}
+.final-checklist{columns:2;column-gap:var(--space-6);padding-left:1.3rem}
+.final-checklist li{break-inside:avoid;margin-bottom:var(--space-3)}
+.footer{border-top:1px solid var(--color-border);background:var(--color-surface)}
+.footer__inner{width:min(100% - 2rem,88rem);margin-inline:auto;padding:var(--space-6) 0;
+display:grid;grid-template-columns:minmax(0,1fr) auto;gap:var(--space-5);align-items:end}
+.footer p{margin:0;color:var(--color-text-muted);font-size:.92rem}
+.footer__links{display:flex;flex-wrap:wrap;justify-content:flex-end;gap:var(--space-3)}
+.footer__links a{font-size:.88rem;font-weight:600}
+.go-top{position:fixed;right:max(1rem,env(safe-area-inset-right));
+bottom:calc(max(1rem,env(safe-area-inset-bottom)) + var(--bottom-ui-offset,0px));z-index:var(--z-floating-control);
+width:3rem;height:3rem;display:grid;place-items:center;border:1px solid var(--color-border);
+border-radius:var(--radius-medium);background:var(--color-surface);color:var(--color-text);cursor:pointer;
+opacity:0;visibility:hidden;transform:translateY(.5rem);transition:opacity 180ms ease,transform 180ms ease,visibility 180ms ease}
+.go-top.is-visible{opacity:1;visibility:visible;transform:translateY(0)}
+.mobile-backdrop,.modal-backdrop{position:fixed;inset:0;display:none;background:var(--color-overlay)}
+.mobile-backdrop{z-index:var(--z-mobile-backdrop)}
+.mobile-backdrop.is-open,.modal-backdrop.is-open{display:block}
+.mobile-panel{position:fixed;top:0;right:0;bottom:0;z-index:var(--z-mobile-panel);width:min(88vw,24rem);
+display:flex;flex-direction:column;border-left:1px solid var(--color-border);background:var(--color-surface);
+transform:translateX(105%);transition:transform 200ms ease}
+.mobile-panel.is-open{transform:translateX(0)}
+.mobile-panel__header{min-height:var(--header-height);display:flex;align-items:center;justify-content:space-between;
+gap:var(--space-4);padding:var(--space-3) var(--space-4);border-bottom:1px solid var(--color-border)}
+.mobile-panel__header strong{font-family:var(--font-heading)}
+.mobile-panel__nav{display:flex;gap:var(--space-3);padding:var(--space-3) var(--space-4);border-bottom:1px solid var(--color-border)}
+.mobile-panel__nav a{font-weight:700;text-decoration:none}
+.mobile-panel__toc{min-height:0;flex:1;overflow-y:auto;padding:var(--space-4)}
+.modal-backdrop{z-index:var(--z-modal-backdrop)}
+.telegram-dialog{position:fixed;left:50%;top:50%;z-index:var(--z-modal);width:min(calc(100% - 2rem),31rem);
+max-height:min(82vh,38rem);overflow:auto;transform:translate(-50%,-50%) scale(.98);
+border:1px solid var(--color-border);border-top:5px solid var(--color-accent);border-radius:var(--radius-large);
+background:var(--color-surface);opacity:0;visibility:hidden;
+transition:opacity 180ms ease,transform 180ms ease,visibility 180ms ease}
+.telegram-dialog.is-open{opacity:1;visibility:visible;transform:translate(-50%,-50%) scale(1)}
+.telegram-dialog__inner{padding:var(--space-6)}
+.telegram-dialog__close{position:absolute;top:var(--space-3);right:var(--space-3)}
+.telegram-dialog h2{margin-top:0;padding-right:2.5rem;font-size:1.7rem}
+.telegram-dialog__actions{display:flex;flex-wrap:wrap;gap:var(--space-3);margin-top:var(--space-5)}
+.telegram-dialog__primary{border-color:var(--color-accent);background:var(--color-accent);color:var(--color-surface);text-decoration:none}
+html[data-theme="dark"] .telegram-dialog__primary{color:var(--color-page)}
+.telegram-dialog__primary:hover{border-color:var(--color-accent-secondary);background:var(--color-accent-secondary);color:var(--color-page)}
+.selection-menu{position:fixed;z-index:var(--z-selection-menu);width:min(18rem,calc(100vw - 1rem));
+display:none;padding:var(--space-2);border:1px solid var(--color-border);border-radius:var(--radius-medium);background:var(--color-raised)}
+.selection-menu.is-open{display:block}
+.selection-menu__title{margin:0;padding:var(--space-2);color:var(--color-text-muted);font-size:.74rem;
+font-weight:700;letter-spacing:.08em;text-transform:uppercase;overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
+.selection-menu a{display:block;padding:var(--space-2) var(--space-3);border-radius:var(--radius-small);
+color:var(--color-text);font-size:.87rem;font-weight:600;text-decoration:none}
+.selection-menu a:hover{background:var(--color-secondary-soft);color:var(--color-accent-secondary)}
+@media(max-width:980px){
+.desktop-nav{display:none}.mobile-menu-button{display:inline-grid}.page-shell{display:block}.toc-panel{display:none}
+.article{margin-inline:auto}.hero__inner{grid-template-columns:1fr;gap:var(--space-6)}.hero h1{max-width:22ch}}
+@media(max-width:720px){
+:root{--header-height:3.65rem}.site-bar__inner,.hero__inner,.page-shell,.footer__inner{width:min(100% - 1.25rem,92rem)}
+.site-brand__text{max-width:13rem}.hero__inner{padding-block:var(--space-7)}
+.hero h1{font-size:clamp(2rem,10vw,3.15rem)}
+.comparison-grid,.concept-grid,.example-grid,.concept-grid--three{grid-template-columns:1fr}
+.sentence-map__row{grid-template-columns:1fr;gap:var(--space-1)}.final-checklist{columns:1}
+.footer__inner{grid-template-columns:1fr}.footer__links{justify-content:flex-start}
+.exercise,.signal,.example-panel,.inline-link-card{padding-inline:var(--space-4)}.telegram-dialog__inner{padding:var(--space-5)}}
+@media(max-width:420px){
+.site-brand__text{max-width:9.4rem;font-size:.9rem}.icon-button{width:2.55rem;height:2.55rem}
+.social-links{display:grid;grid-template-columns:1fr}.social-link{width:100%}.sentence-map__row{padding-inline:var(--space-3)}}
+@media(prefers-reduced-motion:reduce){
+html{scroll-behavior:auto}*,*::before,*::after{scroll-behavior:auto!important;transition-duration:.01ms!important;
+animation-duration:.01ms!important;animation-iteration-count:1!important}}
+</style>
+</head>
+<body>
+<a class="skip-link" href="#main-content">Skip to the lesson</a>
+<header class="site-bar">
+<div class="site-bar__inner">
+<a class="site-brand js-home-link" href="/" aria-label="Kooshky’s TOEFL Guides home">
+<span class="site-brand__mark" aria-hidden="true"></span><span class="site-brand__text">Kooshky’s TOEFL Guides</span></a>
+<nav class="desktop-nav" aria-label="Primary navigation">
+<a class="js-home-link" href="/">Home</a><a href="#chapter-0-an-intuitive-first-look">Start lesson</a>
+<button class="icon-button js-theme-toggle" type="button" aria-label="Switch to dark theme" aria-pressed="false" title="Change theme"><span aria-hidden="true">◐</span></button>
+</nav>
+<button class="icon-button mobile-menu-button js-mobile-open" type="button" aria-label="Open navigation menu" aria-expanded="false" aria-controls="mobile-panel"><span aria-hidden="true">☰</span></button>
+</div>
+</header>
+<section class="hero" aria-labelledby="page-title">
+<div class="hero__inner">
+<div><span class="eyebrow">Kooshky’s TOEFL Guides</span>
+<h1 id="page-title">Relative Clauses, Part 1: Building the Foundation</h1>
+<p class="hero__subtitle">Learn relative clauses from the ground up: first by recognizing what they mean, then by understanding how they are built and how to use them naturally.</p></div>
+<aside class="hero__meta" aria-label="Guide information">
+<p>Collected and compiled by <strong>Amir Kooshky</strong></p>
+<p class="promotion">For more TOEFL lessons, practice material, and study guidance, visit the Telegram channel and Instagram page.</p>
+<div class="social-links promotion">
+<a class="social-link" href="https://telegram.me/KooshkyTOEFL" target="_blank" rel="noopener noreferrer">Telegram channel</a>
+<a class="social-link" href="https://instagram.com/kooshkytoefl" target="_blank" rel="noopener noreferrer">Instagram</a>
+<a class="social-link" href="https://telegram.me/kooshkyTOEFL_pv" target="_blank" rel="noopener noreferrer">Personal Telegram</a>
+</div></aside></div></section>
+<div class="page-shell">
+<aside class="toc-panel" aria-label="Table of contents">
+<h2 class="toc-panel__heading">Chapter index</h2>
+<div class="toc-actions"><button type="button" class="js-toc-expand">Expand all</button><button type="button" class="js-toc-collapse">Collapse all</button></div>
+<nav id="desktop-toc" class="toc-list" aria-label="Contents"></nav>
+</aside>
+<main id="main-content" class="article" tabindex="-1">
+<p class="article-intro">Relative clauses are everywhere in English. You use them when you say which person you mean, describe an object, add a fact about a place, or connect two ideas without repeating the same noun. This guide begins with meaning and examples. The grammar labels come later, after the pattern already feels familiar.</p>
+<article>
+
+<section class="chapter" aria-labelledby="chapter-0-an-intuitive-first-look">
+<span class="chapter-marker">Chapter</span>
+<h2 id="chapter-0-an-intuitive-first-look">An Intuitive First Look at Relative Clauses</h2>
+<p class="lead">Before learning any rules, look at what relative clauses do. In the examples below, the highlighted words give us more information about a person, thing, place, time, or situation.</p>
+
+<div class="signal signal--teal"><span class="signal__label">The basic idea</span>
+<p>A relative clause is a group of words that comes after a noun and helps us understand exactly who or what we are talking about.</p></div>
+
+<h3>Describing a person</h3>
+<div class="example-panel"><span class="example-panel__label">Example</span>
+<p class="example-sentence">The woman <span class="target">who answered the phone</span> was very helpful.</p>
+<p class="meaning-note">Which woman was helpful? The woman who answered the phone. The highlighted part tells us which woman we mean.</p></div>
+
+<div class="example-panel"><span class="example-panel__label">Example</span>
+<p class="example-sentence">I spoke to a student <span class="target">who had taken the course before</span>.</p>
+<p class="meaning-note">The highlighted part gives us information about the student. It tells us that this student had previous experience with the course.</p></div>
+
+<div class="example-panel"><span class="example-panel__label">Example</span>
+<p class="example-sentence">The professor <span class="target">I emailed yesterday</span> has replied.</p>
+<p class="meaning-note">We are not talking about just any professor. We mean the professor whom I emailed yesterday. In everyday English, the word <em>whom</em> is often left out here.</p></div>
+
+<h3>Describing a thing</h3>
+<div class="example-grid">
+<div class="example-panel"><span class="example-panel__label">Example</span>
+<p class="example-sentence">The laptop <span class="target">that I bought last month</span> has stopped working.</p>
+<p class="meaning-note">The highlighted part tells us which laptop has stopped working.</p></div>
+<div class="example-panel"><span class="example-panel__label">Example</span>
+<p class="example-sentence">We need a solution <span class="target">that does not cost too much</span>.</p>
+<p class="meaning-note">The highlighted part describes the kind of solution we need.</p></div>
+<div class="example-panel"><span class="example-panel__label">Example</span>
+<p class="example-sentence">She showed me the article <span class="target">which changed her opinion</span>.</p>
+<p class="meaning-note">The article changed her opinion. The highlighted part tells us something important about it.</p></div>
+<div class="example-panel"><span class="example-panel__label">Example</span>
+<p class="example-sentence">This is the book <span class="target">you were looking for</span>.</p>
+<p class="meaning-note">The highlighted part identifies the book. It means: “You were looking for this book.”</p></div>
+</div>
+
+<h3>Describing a place</h3>
+<div class="example-panel"><span class="example-panel__label">Example</span>
+<p class="example-sentence">That is the café <span class="target">where we first met</span>.</p>
+<p class="meaning-note">The meeting happened in that café. The highlighted part tells us what happened there.</p></div>
+<div class="example-panel"><span class="example-panel__label">Example</span>
+<p class="example-sentence">The neighborhood <span class="target">where I grew up</span> has changed completely.</p>
+<p class="meaning-note">The highlighted part means “I grew up in that neighborhood.”</p></div>
+
+<h3>Describing a time</h3>
+<div class="example-panel"><span class="example-panel__label">Example</span>
+<p class="example-sentence">I still remember the day <span class="target">when I received my TOEFL score</span>.</p>
+<p class="meaning-note">The highlighted part tells us what happened on that day.</p></div>
+<div class="example-panel"><span class="example-panel__label">Example</span>
+<p class="example-sentence">There was a period <span class="target">when I studied English for four hours a day</span>.</p>
+<p class="meaning-note">The highlighted part describes that period of time.</p></div>
+
+<h3>Showing possession</h3>
+<div class="example-panel"><span class="example-panel__label">Example</span>
+<p class="example-sentence">I met a student <span class="target">whose brother studies in Canada</span>.</p>
+<p class="meaning-note">The brother belongs to the student. <em>Whose</em> connects the student to the student’s brother.</p></div>
+<div class="example-panel"><span class="example-panel__label">Example</span>
+<p class="example-sentence">They live in a house <span class="target">whose windows face the sea</span>.</p>
+<p class="meaning-note">The windows belong to the house. <em>Whose</em> can be used for things as well as people.</p></div>
+
+<h3>Adding an extra comment</h3>
+<p>Sometimes the relative clause does not identify the noun. The noun is already clear, and the clause simply adds another fact.</p>
+<div class="example-panel"><span class="example-panel__label">Example</span>
+<p class="example-sentence">My sister, <span class="target">who lives in Tabriz</span>, is visiting us next week.</p>
+<p class="meaning-note">We already know who <em>my sister</em> is. The highlighted part adds the extra information that she lives in Tabriz. Notice the commas.</p></div>
+<div class="example-panel"><span class="example-panel__label">Example</span>
+<p class="example-sentence">The meeting was cancelled, <span class="target">which surprised everyone</span>.</p>
+<p class="meaning-note">Here, <em>which</em> refers to the whole situation: the cancellation of the meeting surprised everyone.</p></div>
+
+<h3>The same pattern in different contexts</h3>
+<div class="concept-grid concept-grid--three">
+<div class="concept-card"><h4>Everyday English</h4><p>The bus <span class="target">that goes downtown</span> stops here.</p><p class="muted">The clause identifies the bus.</p></div>
+<div class="concept-card"><h4>University English</h4><p>Students <span class="target">who miss the deadline</span> must contact the registrar.</p><p class="muted">The clause identifies which students must act.</p></div>
+<div class="concept-card"><h4>Academic English</h4><p>The evidence <span class="target">that supports this theory</span> remains limited.</p><p class="muted">The clause describes the evidence.</p></div>
+</div>
+
+<div class="signal signal--saffron"><span class="signal__label">Do not worry about the labels yet</span>
+<p>At this stage, simply notice the pattern: a noun comes first, and then a group of words gives us more information about that noun. Later chapters will explain exactly how the pattern works.</p></div>
+
+<div class="exercise">
+<h3>Quick recognition practice</h3>
+<p class="exercise__instruction">In each sentence, find the words that describe the bold noun.</p>
+<ol>
+<li>The <strong>man</strong> who fixed our refrigerator was very polite.</li>
+<li>I finally found the <strong>file</strong> that you sent me.</li>
+<li>The <strong>library</strong> where I usually study closes at nine.</li>
+<li>Do you remember the <strong>year</strong> when we first met?</li>
+<li>She is the <strong>student</strong> whose presentation won the competition.</li>
+<li>The exam was postponed, which gave us more time to prepare.</li>
+</ol>
+<details class="answer-key"><summary>Show the answers</summary><div class="answer-key__body"><ol>
+<li><strong>who fixed our refrigerator</strong></li>
+<li><strong>that you sent me</strong></li>
+<li><strong>where I usually study</strong></li>
+<li><strong>when we first met</strong></li>
+<li><strong>whose presentation won the competition</strong></li>
+<li><strong>which gave us more time to prepare</strong> refers to the entire previous situation: the exam was postponed.</li>
+</ol></div></details>
+</div>
+
+<div class="chapter-summary"><h3>What to remember</h3><ul>
+<li>A relative clause gives us information about a noun or, sometimes, about an entire situation.</li>
+<li>It usually comes immediately after the noun it describes.</li>
+<li>Common opening words include <em>who, which, that, whose, where, when,</em> and <em>why</em>.</li>
+<li>Sometimes the opening word can be left out, as in <em>the book I bought</em>.</li>
+</ul></div>
+</section>
+
+<section class="chapter" aria-labelledby="the-minimum-grammar-you-need">
+<span class="chapter-marker">Chapter</span>
+<h2 id="the-minimum-grammar-you-need">The Minimum Grammar You Need</h2>
+<p class="lead">You can use many relative clauses by intuition. However, to build them accurately, you need a few basic ideas: phrase, clause, subject, verb, object, preposition, and noun phrase.</p>
+
+<div class="inline-link-card"><span class="editorial-label">Strong recommendation</span>
+<h3>Read “What Clauses Are” first</h3>
+<p>This guide explains the necessary basics, so you can still understand it on its own. However, relative clauses become much easier when you already understand how clauses work. Read the separate lesson before continuing, especially if terms such as <em>subject</em>, <em>verb</em>, <em>independent clause</em>, and <em>dependent clause</em> are not completely clear to you.</p>
+<a href="/Grammar/Clauses/index.html">Open the lesson: What Clauses Are →</a></div>
+
+<h3>Words, phrases, and clauses</h3>
+<div class="comparison-grid">
+<div class="comparison-card"><h4>A word</h4><p>A single unit such as:</p><p><em>student, useful, study, carefully</em></p></div>
+<div class="comparison-card"><h4>A phrase</h4><p>A group of words that works together but does not contain a complete subject-and-verb structure.</p><p><em>in the library</em></p><p><em>the student near the door</em></p></div>
+</div>
+
+<div class="example-panel"><span class="example-panel__label">Phrase example</span>
+<p class="example-sentence">The student <span class="target">near the door</span> is my friend.</p>
+<p class="meaning-note"><em>Near the door</em> tells us which student, but it does not contain its own subject and verb.</p></div>
+
+<div class="example-panel"><span class="example-panel__label">Clause example</span>
+<p class="example-sentence">The student <span class="target">who is standing near the door</span> is my friend.</p>
+<p class="meaning-note">The highlighted part contains a subject, <em>who</em>, and a verb, <em>is standing</em>. Therefore, it is a clause.</p></div>
+
+<div class="signal signal--teal"><span class="signal__label">Simple definition</span>
+<p>A <strong>clause</strong> is a group of words built around a subject and a verb. The subject is usually the person or thing we are talking about, and the verb tells us what happens, what the subject does, or what the subject is like.</p></div>
+
+<h3>Independent and dependent clauses</h3>
+<p>Some clauses can stand alone as complete sentences. Others need to be attached to a larger sentence.</p>
+<div class="comparison-grid">
+<div class="comparison-card"><h4>Independent clause</h4><p><em>The student received a scholarship.</em></p><p>This expresses a complete message and can stand alone.</p></div>
+<div class="comparison-card"><h4>Dependent clause</h4><p><em>who received a scholarship</em></p><p>This is not a complete message by itself. We need to know who this clause describes.</p></div>
+</div>
+
+<p>A relative clause is normally a <strong>dependent clause</strong>. It becomes part of a larger noun phrase:</p>
+<div class="formula">the student + who received a scholarship</div>
+<div class="example-panel"><span class="example-panel__label">Complete sentence</span>
+<p class="example-sentence">The student <span class="target">who received a scholarship</span> thanked her professor.</p></div>
+
+<h3>Subjects and verbs</h3>
+<p>The <strong>subject</strong> is the person, thing, or idea that the clause is about. The <strong>verb</strong> tells us what the subject does, what happens to it, or what state it is in.</p>
+<div class="sentence-map">
+<div class="sentence-map__row"><div class="sentence-map__label">Clause</div><div><strong>The student</strong> studies every night.</div></div>
+<div class="sentence-map__row"><div class="sentence-map__label">Subject</div><div>the student</div></div>
+<div class="sentence-map__row"><div class="sentence-map__label">Verb</div><div>studies</div></div>
+</div>
+<div class="sentence-map">
+<div class="sentence-map__row"><div class="sentence-map__label">Clause</div><div><strong>The course</strong> is difficult.</div></div>
+<div class="sentence-map__row"><div class="sentence-map__label">Subject</div><div>the course</div></div>
+<div class="sentence-map__row"><div class="sentence-map__label">Verb</div><div>is</div></div>
+</div>
+
+<h3>Objects</h3>
+<p>An <strong>object</strong> is usually the person or thing that receives the action of a verb.</p>
+<div class="sentence-map">
+<div class="sentence-map__row"><div class="sentence-map__label">Clause</div><div>I read <strong>the article</strong>.</div></div>
+<div class="sentence-map__row"><div class="sentence-map__label">Subject</div><div>I</div></div>
+<div class="sentence-map__row"><div class="sentence-map__label">Verb</div><div>read</div></div>
+<div class="sentence-map__row"><div class="sentence-map__label">Object</div><div>the article</div></div>
+</div>
+<p>This matters because relative words can be either the subject or the object inside a relative clause.</p>
+
+<h3>Prepositions</h3>
+<p>Prepositions are short words such as <em>in, on, at, to, with, from, for, about,</em> and <em>of</em>. They express relationships.</p>
+<div class="micro-list">
+<div><strong>in</strong> the library</div><div>speak <strong>to</strong> the professor</div>
+<div>work <strong>with</strong> a partner</div><div>depend <strong>on</strong> technology</div>
+<div>write <strong>about</strong> climate change</div>
+</div>
+<p>A relative word can represent the noun after a preposition:</p>
+<div class="example-panel"><span class="example-panel__label">Example</span>
+<p class="example-sentence">The professor <span class="target">whom I spoke to</span> was helpful.</p>
+<p class="meaning-note">I spoke <em>to the professor</em>. The preposition <em>to</em> is part of the meaning.</p></div>
+
+<h3>Nouns and noun phrases</h3>
+<p>A <strong>noun</strong> names a person, thing, place, or idea: <em>student, laptop, city, freedom</em>.</p>
+<p>A <strong>noun phrase</strong> is a noun together with the words that belong with it:</p>
+<div class="micro-list">
+<div><strong>student</strong></div><div><strong>the student</strong></div><div><strong>the new student</strong></div>
+<div><strong>the new student from Turkey</strong></div>
+<div><strong>the new student from Turkey who joined our class yesterday</strong></div>
+</div>
+<p>In each example, the main noun is <em>student</em>. The other words add information to it.</p>
+
+<div class="signal signal--teal"><span class="signal__label">Useful term: head noun</span>
+<p>The <strong>head noun</strong> is the central noun in a noun phrase. In <em>the new student from Turkey who joined our class</em>, the head noun is <em>student</em>.</p></div>
+
+<h3>The antecedent</h3>
+<p>The noun that a relative word refers back to is called its <strong>antecedent</strong>. This is simply a technical name for “the noun being described.”</p>
+<div class="example-panel"><span class="example-panel__label">Example</span>
+<p class="example-sentence">The article <span class="target">that I read</span> was useful.</p>
+<p class="meaning-note">The antecedent of <em>that</em> is <em>the article</em>. In simple terms, <em>that</em> refers back to <em>the article</em>.</p></div>
+
+<div class="signal signal--saffron"><span class="signal__label">Read the clause lesson if this feels difficult</span>
+<p>If you are still unsure how to find subjects, verbs, objects, or clause boundaries, pause here and read <a href="/Grammar/Clauses/index.html">What Clauses Are</a>. That lesson will make the rest of this guide much easier.</p></div>
+
+<div class="exercise">
+<h3>Practice: phrases, clauses, and basic roles</h3>
+<p class="exercise__instruction">For each highlighted group, decide whether it is a phrase or a clause. If it is a clause, identify its subject and verb.</p>
+<ol>
+<li>The woman <strong>in the blue jacket</strong> is my aunt.</li>
+<li>The woman <strong>who is wearing a blue jacket</strong> is my aunt.</li>
+<li>I found the keys <strong>under the sofa</strong>.</li>
+<li>I found the keys <strong>that had fallen under the sofa</strong>.</li>
+<li>The course <strong>that begins next Monday</strong> is already full.</li>
+<li>The course <strong>in the main building</strong> is already full.</li>
+</ol>
+<details class="answer-key"><summary>Show the answers</summary><div class="answer-key__body"><ol>
+<li><strong>Phrase.</strong> It has no complete subject-and-verb structure.</li>
+<li><strong>Clause.</strong> Subject: <em>who</em>. Verb: <em>is wearing</em>.</li>
+<li><strong>Phrase.</strong> It begins with the preposition <em>under</em>.</li>
+<li><strong>Clause.</strong> Subject: <em>that</em>. Verb: <em>had fallen</em>.</li>
+<li><strong>Clause.</strong> Subject: <em>that</em>. Verb: <em>begins</em>.</li>
+<li><strong>Phrase.</strong> It begins with the preposition <em>in</em>.</li>
+</ol></div></details>
+</div>
+
+<div class="chapter-summary"><h3>What to remember</h3><ul>
+<li>A phrase does not contain its own complete subject-and-verb structure.</li>
+<li>A clause is built around a subject and a verb.</li>
+<li>A relative clause is usually dependent: it cannot stand alone as a complete message.</li>
+<li>The head noun is the main noun being described.</li>
+<li>The antecedent is the noun to which the relative word refers.</li>
+</ul></div>
+</section>
+
+<section class="chapter" aria-labelledby="what-a-relative-clause-does">
+<span class="chapter-marker">Chapter</span>
+<h2 id="what-a-relative-clause-does">What a Relative Clause Does</h2>
+<p class="lead">A relative clause usually performs one of two jobs: it identifies the noun we mean, or it adds more information about a noun that is already clear.</p>
+
+<h3>Job 1: identifying the noun</h3>
+<div class="example-panel"><span class="example-panel__label">Example</span>
+<p class="example-sentence">The student <span class="target">who sits by the window</span> is absent today.</p>
+<p class="meaning-note">There may be many students. The relative clause tells us which student is absent.</p></div>
+<div class="example-panel"><span class="example-panel__label">Example</span>
+<p class="example-sentence">Please send me the document <span class="target">that contains the final schedule</span>.</p>
+<p class="meaning-note">The clause identifies which document should be sent.</p></div>
+<p>
+Notice that in both cases, there is a group (of students or documents) and the relative clause helps us know which member of that group we are referring to.
+</p>
+
+<h3>Job 2: adding another fact</h3>
+<div class="example-panel"><span class="example-panel__label">Example</span>
+<p class="example-sentence">Professor Green, <span class="target">who teaches linguistics</span>, will lead the workshop.</p>
+<p class="meaning-note">The name already tells us who the person is. The clause adds the fact that Professor Green teaches linguistics.</p></div>
+<p>Notice that when doing this job, there is not group of Professors to choose from, because we already know we are talking about Professor Green!</p>
+<p>Part 2 of this course will examine the punctuation and meaning difference between these two uses in detail. For now, simply notice that some relative clauses identify, while others comment.</p>
+
+<h3>Combining two sentences</h3>
+<p>Relative clauses allow us to combine two sentences when both sentences mention the same person or thing.</p>
+<ol class="steps">
+<li><strong>Start with two sentences.</strong><br>I met a student. The student speaks four languages.</li>
+<li><strong>Find the repeated noun.</strong><br>The repeated noun is <em>student</em>.</li>
+<li><strong>Turn one sentence into a description.</strong><br>who speaks four languages</li>
+<li><strong>Place the description immediately after the noun.</strong><br>I met a student <strong>who speaks four languages</strong>.</li>
+</ol>
+
+<div class="comparison-grid">
+<div class="comparison-card"><h4>Before combining</h4><p>The article explains the problem.</p><p>I read the article yesterday.</p></div>
+<div class="comparison-card"><h4>After combining</h4><p>The article <span class="target">that I read yesterday</span> explains the problem.</p></div>
+</div>
+<div class="comparison-grid">
+<div class="comparison-card"><h4>Before combining</h4><p>We visited a village.</p><p>My grandfather was born in the village.</p></div>
+<div class="comparison-card"><h4>After combining</h4><p>We visited the village <span class="target">where my grandfather was born</span>.</p></div>
+</div>
+
+<h3>The normal position of a relative clause</h3>
+<p>A relative clause normally comes immediately after the noun it describes. This keeps the meaning clear.</p>
+<div class="formula">noun + relative clause + rest of the sentence</div>
+<div class="example-panel"><span class="example-panel__label">Sentence pattern</span>
+<p class="example-sentence">The professor <span class="target">who teaches biology</span> has published a new book.</p></div>
+<div class="sentence-map">
+<div class="sentence-map__row"><div class="sentence-map__label">Noun</div><div>the professor</div></div>
+<div class="sentence-map__row"><div class="sentence-map__label">Relative clause</div><div>who teaches biology</div></div>
+<div class="sentence-map__row"><div class="sentence-map__label">Rest of sentence</div><div>has published a new book</div></div>
+</div>
+
+<div class="signal signal--saffron"><span class="signal__label">Common clarity problem</span>
+<p>Do not separate a relative clause from its noun when another noun in between could confuse the reader.</p>
+<p class="wrong">I discussed the proposal with the professor that had been rejected.</p>
+<p class="right">I discussed the proposal that had been rejected with the professor.</p></div>
+
+<h3>Finding the main sentence</h3>
+<p>A relative clause is often inserted inside a larger sentence. To understand the structure, temporarily remove the relative clause.</p>
+<div class="example-panel"><span class="example-panel__label">Full sentence</span>
+<p class="example-sentence">The book <span class="target">that I borrowed from the library</span> is on my desk.</p></div>
+<div class="example-panel"><span class="example-panel__label">Main sentence after removal</span>
+<p class="example-sentence">The book is on my desk.</p></div>
+<p>This is especially useful when the subject of the main sentence is long:</p>
+<div class="example-panel"><span class="example-panel__label">Long subject</span>
+<p class="example-sentence">The students <span class="target">who completed the optional research project</span> received extra credit.</p>
+<p class="meaning-note">Main sentence: <em>The students received extra credit.</em></p></div>
+
+<div class="exercise">
+<h3>Practice: identify the main sentence</h3>
+<p class="exercise__instruction">Remove the relative clause mentally and write the main sentence.</p>
+<ol>
+<li>The café where we usually meet is closed today.</li>
+<li>The students who submitted their essays early received feedback first.</li>
+<li>The phone that I bought last year still works perfectly.</li>
+<li>My uncle, who owns a small bakery, wakes up at four every morning.</li>
+<li>The decision, which surprised the entire team, was announced on Friday.</li>
+</ol>
+<details class="answer-key"><summary>Show the answers</summary><div class="answer-key__body"><ol>
+<li>The café is closed today.</li><li>The students received feedback first.</li>
+<li>The phone still works perfectly.</li><li>My uncle wakes up at four every morning.</li>
+<li>The decision was announced on Friday.</li>
+</ol></div></details>
+</div>
+
+<div class="chapter-summary"><h3>What to remember</h3><ul>
+<li>A relative clause can identify a noun or add another fact about it.</li>
+<li>It often combines two sentences that contain the same noun.</li>
+<li>It normally appears immediately after the noun it describes.</li>
+<li>Removing the relative clause often reveals the main sentence.</li>
+</ul></div>
+</section>
+
+<section class="chapter" aria-labelledby="the-relative-word-does-two-jobs">
+<span class="chapter-marker">Chapter</span>
+<h2 id="the-relative-word-does-two-jobs">The Relative Word Does Two Jobs</h2>
+<p class="lead">Words such as <em>who, which, that, whose, where,</em> and <em>when</em> do more than connect ideas. They also have a role inside the relative clause.</p>
+
+<h3>Job 1: connecting the clause to the noun</h3>
+<div class="example-panel"><span class="example-panel__label">Example</span>
+<p class="example-sentence">The woman <span class="target">who called this morning</span> left a message.</p>
+<p class="meaning-note"><em>Who</em> connects the clause <em>called this morning</em> to the noun <em>the woman</em>.</p></div>
+
+<h3>Job 2: replacing the repeated noun inside the clause</h3>
+<p>Start with two separate sentences:</p>
+<div class="example-panel"><span class="example-panel__label">Two sentences</span>
+<p class="example-sentence">The woman left a message.</p>
+<p class="example-sentence">The woman called this morning.</p></div>
+<p>When we combine them, we do not repeat <em>the woman</em>:</p>
+<div class="example-panel"><span class="example-panel__label">Combined sentence</span>
+<p class="example-sentence">The woman <span class="target">who called this morning</span> left a message.</p></div>
+<p>Inside the smaller clause, <em>who</em> takes the place of <em>the woman</em>:</p>
+<div class="formula">The woman called this morning. → who called this morning</div>
+
+<h3>The missing-position idea</h3>
+<p>Sometimes the relative word appears at the beginning of the clause, but its meaning belongs later in the clause.</p>
+<div class="example-panel"><span class="example-panel__label">Example</span>
+<p class="example-sentence">The book <span class="target">that I bought</span> was expensive.</p></div>
+<p>The original idea is:</p>
+<div class="formula">I bought the book.</div>
+<p>After <em>the book</em> becomes the noun being described, we do not repeat it inside the relative clause:</p>
+<div class="formula">the book that I bought ___</div>
+<p>The blank shows the position where <em>the book</em> would normally appear. You will not see an actual blank in normal writing. It is simply a useful way to understand the structure.</p>
+
+<div class="signal signal--teal"><span class="signal__label">A powerful question</span>
+<p>Ask: “What complete sentence is hidden inside this relative clause?”</p>
+<p><em>the article that she recommended</em> → She recommended the article.</p></div>
+
+<h3>Different jobs inside the relative clause</h3>
+<div class="concept-grid">
+<div class="concept-card"><h4>Subject</h4><p>The student <span class="target">who answered</span> was correct.</p><p class="muted"><em>Who</em> performs the action <em>answered</em>.</p></div>
+<div class="concept-card"><h4>Object</h4><p>The student <span class="target">whom I called</span> was absent.</p><p class="muted"><em>I</em> called the student. The student receives the action.</p></div>
+<div class="concept-card"><h4>After a preposition</h4><p>The person <span class="target">who I work with</span> is very patient.</p><p class="muted">I work <em>with the person</em>.</p></div>
+<div class="concept-card"><h4>Possession</h4><p>The student <span class="target">whose essay won</span> is delighted.</p><p class="muted">The essay belongs to the student.</p></div>
+<div class="concept-card"><h4>Place relationship</h4><p>The room <span class="target">where we met</span> was small.</p><p class="muted">We met <em>in the room</em>.</p></div>
+<div class="concept-card"><h4>Time relationship</h4><p>I remember the day <span class="target">when we met</span>.</p><p class="muted">We met <em>on that day</em>.</p></div>
+</div>
+
+<div class="exercise">
+<h3>Practice: reconstruct the hidden sentence</h3>
+<p class="exercise__instruction">For each noun phrase, write the simpler sentence hidden inside the relative clause.</p>
+<ol>
+<li>the teacher who helped me</li>
+<li>the article that I downloaded</li>
+<li>the city where she studied</li>
+<li>the day when the semester began</li>
+<li>the friend whom I travelled with</li>
+<li>the researcher whose work became famous</li>
+</ol>
+<details class="answer-key"><summary>Show the answers</summary><div class="answer-key__body"><ol>
+<li>The teacher helped me.</li><li>I downloaded the article.</li><li>She studied in the city.</li>
+<li>The semester began on that day.</li><li>I travelled with the friend.</li>
+<li>The researcher’s work became famous.</li>
+</ol></div></details>
+</div>
+
+<div class="chapter-summary"><h3>What to remember</h3><ul>
+<li>The relative word connects the clause to the noun.</li>
+<li>It also represents that noun inside the relative clause.</li>
+<li>Finding the hidden complete sentence helps you understand the relative word’s role.</li>
+<li>The relative word may represent a subject, object, possessor, place, time, or prepositional relationship.</li>
+</ul></div>
+</section>
+
+<section class="chapter" aria-labelledby="subject-and-object-relative-clauses">
+<span class="chapter-marker">Chapter</span>
+<h2 id="subject-and-object-relative-clauses">Subject and Object Relative Clauses</h2>
+<p class="lead">This is one of the most important distinctions in the entire topic. If you understand it well, many other rules become much easier.</p>
+
+<h3>Subject relative clauses</h3>
+<p>In a subject relative clause, the relative word performs the action or is the subject of the verb.</p>
+<div class="example-panel"><span class="example-panel__label">Example</span>
+<p class="example-sentence">The student <span class="target">who answered the question</span> received extra credit.</p></div>
+<p>Inside the relative clause:</p>
+<div class="formula">who answered the question</div>
+<p><em>Who</em> is the subject of <em>answered</em>. It means <em>the student answered the question</em>.</p>
+
+<div class="signal signal--saffron"><span class="signal__label">Important rule</span>
+<p>If the relative word is already the subject, do not add another subject.</p>
+<p class="wrong">The student who he answered the question received extra credit.</p>
+<p class="right">The student who answered the question received extra credit.</p></div>
+
+<div class="example-grid">
+<div class="example-panel"><span class="example-panel__label">Person</span>
+<p class="example-sentence">The woman <span class="target">who lives upstairs</span> is a doctor.</p>
+<p class="meaning-note">Who lives upstairs? The woman.</p></div>
+<div class="example-panel"><span class="example-panel__label">Thing</span>
+<p class="example-sentence">The machine <span class="target">that produces these parts</span> is broken.</p>
+<p class="meaning-note">What produces the parts? The machine.</p></div>
+<div class="example-panel"><span class="example-panel__label">Idea</span>
+<p class="example-sentence">The theory <span class="target">which explains this behavior</span> remains controversial.</p>
+<p class="meaning-note">What explains the behavior? The theory.</p></div>
+<div class="example-panel"><span class="example-panel__label">Animal</span>
+<p class="example-sentence">The dog <span class="target">that followed us home</span> had no collar.</p>
+<p class="meaning-note">What followed us home? The dog.</p></div>
+</div>
+
+<h3>Object relative clauses</h3>
+<p>In an object relative clause, someone or something else performs the action. The noun being described receives the action.</p>
+<div class="example-panel"><span class="example-panel__label">Example</span>
+<p class="example-sentence">The student <span class="target">whom I interviewed</span> received a scholarship.</p></div>
+<p>Inside the relative clause:</p>
+<div class="formula">I interviewed the student.</div>
+<p><em>I</em> is the subject. <em>The student</em> is the object of <em>interviewed</em>. In the relative clause, <em>whom</em> represents the student.</p>
+
+<div class="signal signal--saffron"><span class="signal__label">Important rule</span>
+<p>If the relative word is the object, the relative clause still needs its own subject.</p>
+<p class="wrong">The article that read yesterday was useful.</p>
+<p class="right">The article that I read yesterday was useful.</p></div>
+
+<div class="example-grid">
+<div class="example-panel"><span class="example-panel__label">Person</span>
+<p class="example-sentence">The professor <span class="target">whom we invited</span> accepted our offer.</p>
+<p class="meaning-note">We invited the professor.</p></div>
+<div class="example-panel"><span class="example-panel__label">Thing</span>
+<p class="example-sentence">The book <span class="target">that she recommended</span> was excellent.</p>
+<p class="meaning-note">She recommended the book.</p></div>
+<div class="example-panel"><span class="example-panel__label">Idea</span>
+<p class="example-sentence">The argument <span class="target">which the author presents</span> is not convincing.</p>
+<p class="meaning-note">The author presents the argument.</p></div>
+<div class="example-panel"><span class="example-panel__label">No relative word</span>
+<p class="example-sentence">The film <span class="target">we watched</span> was surprisingly good.</p>
+<p class="meaning-note">We watched the film. The object relative word has been omitted.</p></div>
+</div>
+
+<h3>A quick test: what comes immediately after the relative word?</h3>
+<p>This shortcut is not perfect in every advanced structure, but it works very well for basic relative clauses.</p>
+<div class="comparison-grid">
+<div class="comparison-card"><h4>Relative word + verb</h4>
+<p>The student <strong>who answered</strong>...</p><p>The machine <strong>that broke</strong>...</p>
+<p class="muted">The relative word is probably the subject.</p></div>
+<div class="comparison-card"><h4>Relative word + noun/pronoun + verb</h4>
+<p>The student <strong>whom I called</strong>...</p><p>The machine <strong>that the technician repaired</strong>...</p>
+<p class="muted">The relative word is probably the object.</p></div>
+</div>
+
+<h3>Objects of prepositions</h3>
+<p>Sometimes the noun is connected to a preposition rather than directly to the verb.</p>
+<div class="example-panel"><span class="example-panel__label">Example</span>
+<p class="example-sentence">The colleague <span class="target">who I work with</span> is very reliable.</p>
+<p class="meaning-note">Hidden sentence: I work <em>with the colleague</em>.</p></div>
+<div class="example-panel"><span class="example-panel__label">Example</span>
+<p class="example-sentence">The topic <span class="target">that we talked about</span> was complicated.</p>
+<p class="meaning-note">Hidden sentence: We talked <em>about the topic</em>.</p></div>
+
+<p>In more formal English, the preposition can come before the relative word:</p>
+<div class="comparison-grid">
+<div class="comparison-card"><h4>Natural everyday form</h4><p>The professor <strong>who I spoke to</strong></p><p>The theory <strong>which the argument is based on</strong></p></div>
+<div class="comparison-card"><h4>Formal form</h4><p>The professor <strong>to whom I spoke</strong></p><p>The theory <strong>on which the argument is based</strong></p></div>
+</div>
+<p>Part 2 will explain these formal patterns fully. For now, the main point is that the preposition must remain somewhere because it is part of the meaning.</p>
+<div class="signal signal--saffron"><span class="signal__label">Common error</span>
+<p class="wrong">The professor whom I spoke was helpful.</p>
+<p class="right">The professor whom I spoke to was helpful.</p>
+<p class="right">The professor to whom I spoke was helpful.</p></div>
+
+<h3>Subject or object? Use the hidden sentence</h3>
+<div class="comparison-grid">
+<div class="comparison-card"><h4>Subject</h4><p>The student <strong>who called me</strong></p><p>Hidden sentence: <strong>The student</strong> called me.</p></div>
+<div class="comparison-card"><h4>Object</h4><p>The student <strong>whom I called</strong></p><p>Hidden sentence: I called <strong>the student</strong>.</p></div>
+</div>
+
+<div class="exercise">
+<h3>Practice: subject or object?</h3>
+<p class="exercise__instruction">Decide whether the relative word is the subject, the object of the verb, or the object of a preposition.</p>
+<ol>
+<li>The researcher who developed the method received an award.</li>
+<li>The researcher whom the university hired received an award.</li>
+<li>The book that explains the theory is difficult.</li>
+<li>The book that our professor recommended is difficult.</li>
+<li>The person who I travelled with was my cousin.</li>
+<li>The topic that everyone was talking about became controversial.</li>
+<li>The device which measures air quality is expensive.</li>
+<li>The device which the laboratory purchased is expensive.</li>
+</ol>
+<details class="answer-key"><summary>Show the answers</summary><div class="answer-key__body"><ol>
+<li><strong>Subject.</strong> The researcher developed the method.</li>
+<li><strong>Object of the verb.</strong> The university hired the researcher.</li>
+<li><strong>Subject.</strong> The book explains the theory.</li>
+<li><strong>Object of the verb.</strong> Our professor recommended the book.</li>
+<li><strong>Object of a preposition.</strong> I travelled with the person.</li>
+<li><strong>Object of a preposition.</strong> Everyone was talking about the topic.</li>
+<li><strong>Subject.</strong> The device measures air quality.</li>
+<li><strong>Object of the verb.</strong> The laboratory purchased the device.</li>
+</ol></div></details>
+</div>
+
+<div class="chapter-summary"><h3>What to remember</h3><ul>
+<li>In a subject relative clause, the relative word is the subject of the verb.</li>
+<li>In an object relative clause, another subject performs the action.</li>
+<li>Do not add a second subject after a subject relative word.</li>
+<li>Do not forget the subject inside an object relative clause.</li>
+<li>Use the hidden complete sentence to identify the role accurately.</li>
+</ul></div>
+</section>
+
+<section class="chapter" aria-labelledby="choosing-the-basic-relative-word">
+<span class="chapter-marker">Chapter</span>
+<h2 id="choosing-the-basic-relative-word">Choosing the Basic Relative Word</h2>
+<p class="lead">The best relative word depends on two questions: what kind of noun are you describing, and what role does the relative word have inside the clause?</p>
+
+<h3>Who</h3>
+<p>Use <strong>who</strong> for people, especially when the relative word is the subject.</p>
+<div class="example-grid">
+<div class="example-panel"><span class="example-panel__label">Subject</span>
+<p class="example-sentence">The teacher <span class="target">who helped me</span> was very patient.</p></div>
+<div class="example-panel"><span class="example-panel__label">Object in everyday English</span>
+<p class="example-sentence">The teacher <span class="target">who I asked</span> did not know the answer.</p></div>
+</div>
+<p>In modern everyday English, <em>who</em> is also common as an object, especially when the preposition remains at the end:</p>
+<div class="example-panel"><span class="example-panel__label">Natural everyday English</span>
+<p class="example-sentence">The person <span class="target">who I spoke to</span> was helpful.</p></div>
+
+<h3>Whom</h3>
+<p>Use <strong>whom</strong> for people when the person is the object. It is more formal than <em>who</em> and is especially common after a fronted preposition.</p>
+<div class="example-grid">
+<div class="example-panel"><span class="example-panel__label">Object</span>
+<p class="example-sentence">The applicant <span class="target">whom we interviewed</span> had excellent qualifications.</p></div>
+<div class="example-panel"><span class="example-panel__label">After a preposition</span>
+<p class="example-sentence">The applicant <span class="target">to whom we offered the position</span> accepted it.</p></div>
+</div>
+<div class="signal signal--teal"><span class="signal__label">Practical advice</span>
+<p>Use <em>who</em> naturally in speech and ordinary writing. Learn <em>whom</em> so you can understand and use formal structures accurately, especially forms such as <em>to whom, with whom,</em> and <em>for whom</em>.</p></div>
+
+<h3>Which</h3>
+<p>Use <strong>which</strong> for things, animals, ideas, and sometimes an entire previous situation.</p>
+<div class="example-grid">
+<div class="example-panel"><span class="example-panel__label">Thing as subject</span>
+<p class="example-sentence">The device <span class="target">which measures temperature</span> is extremely sensitive.</p></div>
+<div class="example-panel"><span class="example-panel__label">Thing as object</span>
+<p class="example-sentence">The device <span class="target">which we tested</span> worked well.</p></div>
+<div class="example-panel"><span class="example-panel__label">Idea</span>
+<p class="example-sentence">The proposal <span class="target">which the committee discussed</span> was rejected.</p></div>
+<div class="example-panel"><span class="example-panel__label">Entire situation</span>
+<p class="example-sentence">The deadline was extended, <span class="target">which gave us more time</span>.</p></div>
+</div>
+
+<h3>That</h3>
+<p>Use <strong>that</strong> for people or things in identifying relative clauses. At this stage, think of an identifying clause as a clause that helps us know exactly which person or thing is meant.</p>
+<div class="example-grid">
+<div class="example-panel"><span class="example-panel__label">Person</span>
+<p class="example-sentence">The students <span class="target">that arrived late</span> had to wait outside.</p></div>
+<div class="example-panel"><span class="example-panel__label">Thing</span>
+<p class="example-sentence">The information <span class="target">that you provided</span> was useful.</p></div>
+</div>
+<p>For people, <em>who</em> is often more natural than <em>that</em>, especially in careful writing:</p>
+<div class="comparison-grid">
+<div class="comparison-card"><h4>Natural</h4><p>The professor <strong>who teaches the course</strong></p></div>
+<div class="comparison-card"><h4>Also possible</h4><p>The professor <strong>that teaches the course</strong></p></div>
+</div>
+
+<h3>Whose</h3>
+<p>Use <strong>whose</strong> to show possession or another close relationship. It means that something belongs to or is connected with the person or thing before it.</p>
+<div class="example-grid">
+<div class="example-panel"><span class="example-panel__label">Person</span>
+<p class="example-sentence">The student <span class="target">whose laptop was stolen</span> reported the incident.</p>
+<p class="meaning-note">The student’s laptop was stolen.</p></div>
+<div class="example-panel"><span class="example-panel__label">Thing</span>
+<p class="example-sentence">We visited a museum <span class="target">whose entrance was decorated with tiles</span>.</p>
+<p class="meaning-note">The museum’s entrance was decorated.</p></div>
+</div>
+
+<h3>Where</h3>
+<p>Use <strong>where</strong> when the relative clause expresses a place relationship. It often means <em>in that place, at that place,</em> or <em>to that place</em>.</p>
+<div class="example-grid">
+<div class="example-panel"><span class="example-panel__label">In that place</span>
+<p class="example-sentence">The library <span class="target">where I study</span> is open all night.</p>
+<p class="meaning-note">I study in the library.</p></div>
+<div class="example-panel"><span class="example-panel__label">At that place</span>
+<p class="example-sentence">The station <span class="target">where we met</span> has been renovated.</p>
+<p class="meaning-note">We met at the station.</p></div>
+</div>
+<div class="signal signal--saffron"><span class="signal__label">Do not choose where only because the noun is a place</span>
+<p>Use <em>where</em> only when the meaning includes a place relationship.</p>
+<p class="wrong">The city where I visited was beautiful.</p>
+<p class="right">The city that I visited was beautiful.</p>
+<p class="muted">We say <em>visit the city</em>, not <em>visit in the city</em>. Therefore, the city is the object of <em>visited</em>.</p></div>
+
+<h3>When</h3>
+<p>Use <strong>when</strong> for a time relationship. It often means <em>on that day, in that year, during that period,</em> or <em>at that moment</em>.</p>
+<div class="example-grid">
+<div class="example-panel"><span class="example-panel__label">Day</span>
+<p class="example-sentence">I remember the day <span class="target">when the results were announced</span>.</p></div>
+<div class="example-panel"><span class="example-panel__label">Period</span>
+<p class="example-sentence">There was a period <span class="target">when few people owned computers</span>.</p></div>
+</div>
+
+<h3>Why</h3>
+<p>Use <strong>why</strong> mainly after the noun <em>reason</em>. It means <em>for that reason</em>.</p>
+<div class="example-panel"><span class="example-panel__label">Example</span>
+<p class="example-sentence">The reason <span class="target">why I left early</span> was that I felt ill.</p></div>
+<p>In many sentences, <em>why</em> can be omitted:</p>
+<div class="example-panel"><span class="example-panel__label">Also natural</span>
+<p class="example-sentence">The reason <span class="target">I left early</span> was that I felt ill.</p></div>
+
+<h3>Why what is different</h3>
+<p><strong>What</strong> usually means <em>the thing that</em>. Because it already contains the meaning of a noun, it normally does not follow another noun.</p>
+<div class="comparison-grid">
+<div class="comparison-card"><h4>Normal relative clause</h4><p>The thing <strong>that I need</strong> is more time.</p></div>
+<div class="comparison-card"><h4>What-clause</h4><p><strong>What I need</strong> is more time.</p><p class="muted">What = the thing that</p></div>
+</div>
+<div class="signal signal--saffron"><span class="signal__label">Common error</span>
+<p class="wrong">The thing what I need is more time.</p>
+<p class="right">The thing that I need is more time.</p>
+<p class="right">What I need is more time.</p></div>
+
+<h3>A practical selection guide</h3>
+<div class="sentence-map">
+<div class="sentence-map__row"><div class="sentence-map__label">People</div><div><strong>who</strong>; formal object <strong>whom</strong>; identifying <strong>that</strong></div></div>
+<div class="sentence-map__row"><div class="sentence-map__label">Things or ideas</div><div><strong>which</strong> or identifying <strong>that</strong></div></div>
+<div class="sentence-map__row"><div class="sentence-map__label">Possession</div><div><strong>whose</strong></div></div>
+<div class="sentence-map__row"><div class="sentence-map__label">Place relationship</div><div><strong>where</strong></div></div>
+<div class="sentence-map__row"><div class="sentence-map__label">Time relationship</div><div><strong>when</strong></div></div>
+<div class="sentence-map__row"><div class="sentence-map__label">Reason</div><div><strong>why</strong>, mainly after <em>reason</em></div></div>
+<div class="sentence-map__row"><div class="sentence-map__label">The thing that</div><div><strong>what</strong>, without a noun before it</div></div>
+</div>
+
+<div class="exercise">
+<h3>Practice: choose the best relative word</h3>
+<p class="exercise__instruction">Complete each sentence with a suitable relative word. In some object clauses, more than one answer may be possible.</p>
+<ol>
+<li>The student ________ sits next to me is from Oman.</li>
+<li>The article ________ we discussed in class was difficult.</li>
+<li>The professor to ________ I sent the email replied immediately.</li>
+<li>The village ________ my grandmother was born is near the border.</li>
+<li>I remember the moment ________ I realized I had passed.</li>
+<li>The researcher ________ findings were published became well known.</li>
+<li>The reason ________ the machine failed is still unclear.</li>
+<li>________ I need most is a quiet place to study.</li>
+<li>The method ________ produces the best results is expensive.</li>
+<li>The method ________ the researchers used was expensive.</li>
+</ol>
+<details class="answer-key"><summary>Show the answers</summary><div class="answer-key__body"><ol>
+<li><strong>who</strong> or <strong>that</strong></li>
+<li><strong>that</strong>, <strong>which</strong>, or no relative word</li>
+<li><strong>whom</strong></li><li><strong>where</strong></li><li><strong>when</strong></li>
+<li><strong>whose</strong></li><li><strong>why</strong> or no relative word</li>
+<li><strong>What</strong></li><li><strong>that</strong> or <strong>which</strong></li>
+<li><strong>that</strong>, <strong>which</strong>, or no relative word</li>
+</ol></div></details>
+</div>
+
+<div class="chapter-summary"><h3>What to remember</h3><ul>
+<li>Choose the relative word according to both the noun and the role inside the clause.</li>
+<li><em>Who</em> and <em>whom</em> refer to people; <em>which</em> refers to things and ideas.</li>
+<li><em>That</em> can refer to people or things in identifying clauses.</li>
+<li><em>Whose</em> shows possession and can refer to people or things.</li>
+<li><em>Where, when,</em> and <em>why</em> express place, time, and reason relationships.</li>
+<li><em>What</em> normally means “the thing that” and does not follow another noun.</li>
+</ul></div>
+</section>
+
+<section class="chapter" aria-labelledby="building-different-types-of-relative-clauses">
+<span class="chapter-marker">Chapter</span>
+<h2 id="building-different-types-of-relative-clauses">Building Different Types of Relative Clauses</h2>
+<p class="lead">This chapter brings the pieces together. Instead of memorizing isolated rules, learn the main sentence patterns that relative clauses express.</p>
+
+<h3>A person performs an action</h3>
+<div class="formula">person + who/that + verb</div>
+<div class="example-grid">
+<div class="example-panel"><span class="example-panel__label">Everyday</span><p class="example-sentence">The neighbor <span class="target">who feeds the stray cats</span> is moving away.</p></div>
+<div class="example-panel"><span class="example-panel__label">University</span><p class="example-sentence">Students <span class="target">who complete the survey</span> will enter a prize draw.</p></div>
+<div class="example-panel"><span class="example-panel__label">Academic</span><p class="example-sentence">Researchers <span class="target">who study migration</span> often use tracking devices.</p></div>
+<div class="example-panel"><span class="example-panel__label">Workplace</span><p class="example-sentence">Employees <span class="target">who handle customer data</span> must follow strict rules.</p></div>
+</div>
+
+<h3>A person receives an action</h3>
+<div class="formula">person + whom/who/that + subject + verb</div>
+<div class="example-grid">
+<div class="example-panel"><span class="example-panel__label">Everyday</span><p class="example-sentence">The mechanic <span class="target">whom my father recommended</span> was honest.</p></div>
+<div class="example-panel"><span class="example-panel__label">University</span><p class="example-sentence">The advisor <span class="target">who I contacted</span> explained the process clearly.</p></div>
+<div class="example-panel"><span class="example-panel__label">No relative word</span><p class="example-sentence">The student <span class="target">we selected</span> will represent the class.</p></div>
+<div class="example-panel"><span class="example-panel__label">Formal</span><p class="example-sentence">The candidate <span class="target">whom the committee selected</span> accepted the offer.</p></div>
+</div>
+
+<h3>A thing performs an action</h3>
+<div class="formula">thing + that/which + verb</div>
+<div class="example-grid">
+<div class="example-panel"><span class="example-panel__label">Object</span><p class="example-sentence">The alarm <span class="target">that detects smoke</span> is not working.</p></div>
+<div class="example-panel"><span class="example-panel__label">Academic idea</span><p class="example-sentence">A theory <span class="target">which explains every case</span> is difficult to develop.</p></div>
+</div>
+
+<h3>A thing receives an action</h3>
+<div class="formula">thing + that/which + subject + verb</div>
+<div class="example-grid">
+<div class="example-panel"><span class="example-panel__label">Everyday</span><p class="example-sentence">The package <span class="target">that I ordered</span> arrived damaged.</p></div>
+<div class="example-panel"><span class="example-panel__label">Academic</span><p class="example-sentence">The data <span class="target">which the researchers collected</span> were incomplete.</p></div>
+</div>
+
+<h3>An action happens in a place</h3>
+<div class="formula">place + where + subject + verb</div>
+<div class="example-grid">
+<div class="example-panel"><span class="example-panel__label">Everyday</span><p class="example-sentence">This is the room <span class="target">where we keep the tools</span>.</p></div>
+<div class="example-panel"><span class="example-panel__label">University</span><p class="example-sentence">The laboratory <span class="target">where the experiment was conducted</span> has been renovated.</p></div>
+</div>
+
+<h3>An action happens at a time</h3>
+<div class="formula">time noun + when + subject + verb</div>
+<div class="example-grid">
+<div class="example-panel"><span class="example-panel__label">Moment</span><p class="example-sentence">That was the moment <span class="target">when everything changed</span>.</p></div>
+<div class="example-panel"><span class="example-panel__label">Period</span><p class="example-sentence">The 1990s were a period <span class="target">when internet access expanded rapidly</span>.</p></div>
+</div>
+
+<h3>A reason explains an action</h3>
+<div class="formula">reason + why + subject + verb</div>
+<div class="example-grid">
+<div class="example-panel"><span class="example-panel__label">Everyday</span><p class="example-sentence">The reason <span class="target">why she missed the meeting</span> was simple.</p></div>
+<div class="example-panel"><span class="example-panel__label">Academic</span><p class="example-sentence">One reason <span class="target">why the policy failed</span> was poor communication.</p></div>
+</div>
+
+<h3>Possession or connection</h3>
+<div class="formula">person/thing + whose + noun + verb</div>
+<div class="example-grid">
+<div class="example-panel"><span class="example-panel__label">Person</span><p class="example-sentence">The author <span class="target">whose novel won the award</span> gave a speech.</p></div>
+<div class="example-panel"><span class="example-panel__label">Thing</span><p class="example-sentence">The company <span class="target">whose products are sold worldwide</span> began as a small workshop.</p></div>
+</div>
+
+<h3>A whole event causes another result</h3>
+<div class="formula">complete statement, which + verb</div>
+<div class="example-grid">
+<div class="example-panel"><span class="example-panel__label">Result</span><p class="example-sentence">The power went out, <span class="target">which stopped the presentation</span>.</p></div>
+<div class="example-panel"><span class="example-panel__label">Reaction</span><p class="example-sentence">She received a full scholarship, <span class="target">which delighted her family</span>.</p></div>
+</div>
+
+<div class="exercise">
+<h3>Practice: build the correct pattern</h3>
+<p class="exercise__instruction">Combine each pair into one sentence using a relative clause. Keep the first sentence as the main idea.</p>
+<ol>
+<li>I met a nurse. The nurse works at the new clinic.</li>
+<li>We bought a table. A local carpenter made the table.</li>
+<li>They visited the town. Their parents first met in the town.</li>
+<li>I remember the summer. I learned to swim that summer.</li>
+<li>The student received an award. Her research focused on water pollution.</li>
+<li>The bus was thirty minutes late. This made me miss my appointment.</li>
+</ol>
+<details class="answer-key"><summary>Show possible answers</summary><div class="answer-key__body"><ol>
+<li>I met a nurse <strong>who works at the new clinic</strong>.</li>
+<li>We bought a table <strong>that a local carpenter made</strong>.</li>
+<li>They visited the town <strong>where their parents first met</strong>.</li>
+<li>I remember the summer <strong>when I learned to swim</strong>.</li>
+<li>The student <strong>whose research focused on water pollution</strong> received an award.</li>
+<li>The bus was thirty minutes late, <strong>which made me miss my appointment</strong>.</li>
+</ol></div></details>
+</div>
+
+<div class="chapter-summary"><h3>What to remember</h3>
+<p>Do not choose a relative word by looking only at the noun. First reconstruct the hidden relationship: Did the noun perform the action, receive it, belong to someone, locate an event, or refer to a time or reason?</p></div>
+</section>
+
+<section class="chapter" aria-labelledby="a-reliable-method-for-combining-sentences">
+<span class="chapter-marker">Chapter</span>
+<h2 id="a-reliable-method-for-combining-sentences">A Reliable Method for Combining Sentences</h2>
+<p class="lead">Sentence combining is not just an exercise. It teaches you how relative clauses are actually built. Use the following method until the process becomes automatic.</p>
+
+<h3>Step 1: find the repeated person or thing</h3>
+<div class="example-panel"><span class="example-panel__label">Two sentences</span>
+<p class="example-sentence">The professor gave us an extension.</p>
+<p class="example-sentence">The professor teaches statistics.</p></div>
+<p>The repeated noun is <em>the professor</em>.</p>
+
+<h3>Step 2: decide which sentence carries the main message</h3>
+<p>Ask what you mainly want to say.</p>
+<div class="comparison-grid">
+<div class="comparison-card"><h4>Main message: extension</h4><p>The professor <strong>who teaches statistics</strong> gave us an extension.</p></div>
+<div class="comparison-card"><h4>Main message: teaching</h4><p>The professor <strong>who gave us an extension</strong> teaches statistics.</p></div>
+</div>
+<p>Both sentences are grammatical, but they place different information in the main clause.</p>
+
+<h3>Step 3: reconstruct the smaller sentence</h3>
+<p>Determine the repeated noun’s role in the sentence that will become the relative clause.</p>
+<div class="comparison-grid">
+<div class="comparison-card"><h4>Repeated noun is the subject</h4><p><strong>The professor</strong> teaches statistics.</p><p>→ who teaches statistics</p></div>
+<div class="comparison-card"><h4>Repeated noun is the object</h4><p>I emailed <strong>the professor</strong>.</p><p>→ whom I emailed</p></div>
+</div>
+
+<h3>Step 4: choose the relative word</h3>
+<div class="micro-list">
+<div>person as subject → <strong>who</strong></div>
+<div>person as object → <strong>whom/who/that</strong></div>
+<div>thing → <strong>which/that</strong></div>
+<div>place relationship → <strong>where</strong></div>
+<div>time relationship → <strong>when</strong></div>
+<div>possession → <strong>whose</strong></div>
+</div>
+
+<h3>Step 5: place the relative clause after the noun</h3>
+<div class="example-panel"><span class="example-panel__label">Result</span>
+<p class="example-sentence">The professor <span class="target">who teaches statistics</span> gave us an extension.</p></div>
+
+<h3>Step 6: check for repetition</h3>
+<p>Do not repeat the noun or add an unnecessary pronoun inside the relative clause.</p>
+<div class="signal signal--saffron"><span class="signal__label">Check the combined sentence</span>
+<p class="wrong">The professor who she teaches statistics gave us an extension.</p>
+<p class="wrong">The professor whom I emailed her replied.</p>
+<p class="right">The professor who teaches statistics gave us an extension.</p>
+<p class="right">The professor whom I emailed replied.</p></div>
+
+<h3>Combining when the repeated noun follows a preposition</h3>
+<div class="example-panel"><span class="example-panel__label">Two sentences</span>
+<p class="example-sentence">The colleague was very helpful.</p><p class="example-sentence">I worked with the colleague.</p></div>
+<div class="comparison-grid">
+<div class="comparison-card"><h4>Natural</h4><p>The colleague <strong>who I worked with</strong> was very helpful.</p></div>
+<div class="comparison-card"><h4>Formal</h4><p>The colleague <strong>with whom I worked</strong> was very helpful.</p></div>
+</div>
+
+<h3>Combining possession</h3>
+<div class="example-panel"><span class="example-panel__label">Two sentences</span>
+<p class="example-sentence">The student won the prize.</p><p class="example-sentence">The student’s essay was excellent.</p></div>
+<div class="example-panel"><span class="example-panel__label">Combined</span>
+<p class="example-sentence">The student <span class="target">whose essay was excellent</span> won the prize.</p></div>
+
+<h3>Combining a place or time relationship</h3>
+<div class="comparison-grid">
+<div class="comparison-card"><h4>Place</h4>
+<p>We visited the university.</p><p>My mother studied at the university.</p>
+<p><strong>We visited the university where my mother studied.</strong></p></div>
+<div class="comparison-card"><h4>Time</h4>
+<p>I remember the year.</p><p>We moved abroad in that year.</p>
+<p><strong>I remember the year when we moved abroad.</strong></p></div>
+</div>
+
+<h3>Do not force every pair into one sentence</h3>
+<p>Sometimes two sentences contain separate important ideas. Combining them can make the result heavy or unclear.</p>
+<div class="comparison-grid">
+<div class="comparison-card"><h4>Overloaded</h4>
+<p>The professor who teaches biology and whose research focuses on insects and whom I met at a conference last year has written a book.</p></div>
+<div class="comparison-card"><h4>Clearer</h4>
+<p>The professor teaches biology and studies insects. I met her at a conference last year, and she has now written a book.</p></div>
+</div>
+<div class="signal signal--teal"><span class="signal__label">Writing principle</span>
+<p>A relative clause should connect ideas more clearly. It is not automatically better simply because it makes the sentence longer or more complex.</p></div>
+
+<div class="exercise">
+<h3>Practice: combine in two different ways</h3>
+<p class="exercise__instruction">Combine each pair twice. First make sentence A the main message; then make sentence B the main message.</p>
+<ol>
+<li>A. The student received a scholarship.<br>B. The student organized the charity event.</li>
+<li>A. The documentary won an award.<br>B. We watched the documentary in class.</li>
+<li>A. The town attracts many tourists.<br>B. My father grew up in the town.</li>
+</ol>
+<details class="answer-key"><summary>Show possible answers</summary><div class="answer-key__body"><ol>
+<li>The student <strong>who organized the charity event</strong> received a scholarship.<br>The student <strong>who received a scholarship</strong> organized the charity event.</li>
+<li>The documentary <strong>that we watched in class</strong> won an award.<br>We watched the documentary <strong>that won an award</strong> in class.</li>
+<li>The town <strong>where my father grew up</strong> attracts many tourists.<br>My father grew up in a town <strong>that attracts many tourists</strong>.</li>
+</ol></div></details>
+</div>
+
+<div class="chapter-summary"><h3>The six-step method</h3><ol>
+<li>Find the repeated noun.</li><li>Choose the main message.</li>
+<li>Find the repeated noun’s role in the smaller sentence.</li><li>Choose the relative word.</li>
+<li>Place the relative clause after the noun.</li><li>Remove repetition and check clarity.</li>
+</ol></div>
+</section>
+
+<section class="chapter" aria-labelledby="essential-beginner-errors">
+<span class="chapter-marker">Chapter</span>
+<h2 id="essential-beginner-errors">Essential Beginner Errors</h2>
+<p class="lead">Most mistakes with relative clauses are not random. They come from a small number of misunderstandings. Learn the reason behind each error rather than memorizing the correction alone.</p>
+
+<h3>Error 1: adding a second subject</h3>
+<div class="signal signal--saffron"><span class="signal__label">Common error</span>
+<p class="wrong">The woman who she works at the bank is my aunt.</p>
+<p class="right">The woman who works at the bank is my aunt.</p>
+<p><em>Who</em> already means <em>the woman</em> and is already the subject of <em>works</em>. Adding <em>she</em> creates two subjects.</p></div>
+
+<h3>Error 2: forgetting the subject in an object relative clause</h3>
+<div class="signal signal--saffron"><span class="signal__label">Common error</span>
+<p class="wrong">The book that recommended was useful.</p>
+<p class="right">The book that my teacher recommended was useful.</p>
+<p>Here, the book does not perform the action. Someone must recommend it. The relative clause therefore needs a subject such as <em>my teacher</em>.</p></div>
+
+<h3>Error 3: repeating the object</h3>
+<div class="signal signal--saffron"><span class="signal__label">Common error</span>
+<p class="wrong">The laptop that I bought it is already broken.</p>
+<p class="right">The laptop that I bought is already broken.</p>
+<p><em>That</em> already represents <em>the laptop</em> inside the clause. Do not repeat it with <em>it</em>.</p></div>
+
+<h3>Error 4: using what after a noun</h3>
+<div class="signal signal--saffron"><span class="signal__label">Common error</span>
+<p class="wrong">The information what you gave me was useful.</p>
+<p class="right">The information that you gave me was useful.</p>
+<p class="right">What you gave me was useful.</p>
+<p><em>What</em> normally means <em>the thing that</em>. It already contains a noun meaning, so it does not normally follow another noun.</p></div>
+
+<h3>Error 5: choosing where simply because the noun is a place</h3>
+<div class="signal signal--saffron"><span class="signal__label">Common error</span>
+<p class="wrong">The restaurant where we visited was expensive.</p>
+<p class="right">The restaurant that we visited was expensive.</p>
+<p class="right">The restaurant where we ate was expensive.</p>
+<p>We <em>visit a restaurant</em>, so the restaurant is the object of <em>visit</em>. We <em>eat at a restaurant</em>, so <em>where</em> works with <em>ate</em>.</p></div>
+
+<h3>Error 6: losing a necessary preposition</h3>
+<div class="signal signal--saffron"><span class="signal__label">Common error</span>
+<p class="wrong">The person whom I spoke was helpful.</p>
+<p class="right">The person whom I spoke to was helpful.</p>
+<p class="right">The person to whom I spoke was helpful.</p>
+<p>The verb pattern is <em>speak to someone</em>. A relative clause does not remove the preposition from the meaning.</p></div>
+
+<h3>Error 7: putting the clause next to the wrong noun</h3>
+<div class="signal signal--saffron"><span class="signal__label">Clarity problem</span>
+<p class="wrong">I showed the photograph to my sister that I had taken in Shiraz.</p>
+<p class="right">I showed my sister the photograph that I had taken in Shiraz.</p>
+<p>In the incorrect version, <em>that I had taken in Shiraz</em> appears next to <em>my sister</em>, so the sentence briefly sounds as if the speaker took the sister in Shiraz.</p></div>
+
+<h3>Error 8: adding an unnecessary be verb</h3>
+<div class="signal signal--saffron"><span class="signal__label">Common error</span>
+<p class="wrong">The machine that is produces these parts is expensive.</p>
+<p class="right">The machine that produces these parts is expensive.</p>
+<p class="right">The machine that is producing these parts is expensive.</p>
+<p>Use either a simple verb, <em>produces</em>, or a complete continuous form, <em>is producing</em>. Do not combine <em>is</em> with the simple form <em>produces</em>.</p></div>
+
+<h3>Error 9: confusing the main verb with the relative-clause verb</h3>
+<div class="example-panel"><span class="example-panel__label">Example</span>
+<p class="example-sentence">The students <span class="target">who study regularly</span> usually perform well.</p></div>
+<div class="sentence-map">
+<div class="sentence-map__row"><div class="sentence-map__label">Relative verb</div><div>study</div></div>
+<div class="sentence-map__row"><div class="sentence-map__label">Main verb</div><div>perform</div></div>
+</div>
+<p>A long subject may contain a verb inside its relative clause, but the entire sentence still needs a main verb.</p>
+<div class="signal signal--saffron"><span class="signal__label">Incomplete sentence</span>
+<p class="wrong">The students who completed the project on time.</p>
+<p class="right">The students who completed the project on time received extra credit.</p></div>
+
+<h3>Error 10: using a relative clause where the reference is unclear</h3>
+<div class="comparison-grid">
+<div class="comparison-card"><h4>Unclear</h4><p>The manager spoke to the assistant who was angry.</p>
+<p class="muted">Grammar suggests that the assistant was angry, but the writer may have meant the manager.</p></div>
+<div class="comparison-card"><h4>Clear alternatives</h4><p>The angry assistant spoke to the manager.</p>
+<p>The manager, who was angry, spoke to the assistant.</p></div>
+</div>
+
+<div class="exercise">
+<h3>Practice: correct the errors</h3>
+<p class="exercise__instruction">Each sentence contains one relative-clause error. Rewrite it correctly.</p>
+<ol>
+<li>The professor who she teaches chemistry is on leave.</li>
+<li>The article that read last night was confusing.</li>
+<li>The shoes that I ordered them are too small.</li>
+<li>The place what we visited was beautiful.</li>
+<li>The city where I visited last summer was crowded.</li>
+<li>The colleague whom I work is very experienced.</li>
+<li>I returned the book to the librarian that I had borrowed.</li>
+<li>The device which is measures humidity is expensive.</li>
+<li>The students who joined the research project.</li>
+<li>The reason why I was late was because the bus broke down.</li>
+</ol>
+<details class="answer-key"><summary>Show possible corrections</summary><div class="answer-key__body"><ol>
+<li>The professor <strong>who teaches chemistry</strong> is on leave.</li>
+<li>The article <strong>that I read last night</strong> was confusing.</li>
+<li>The shoes <strong>that I ordered</strong> are too small.</li>
+<li>The place <strong>that we visited</strong> was beautiful.</li>
+<li>The city <strong>that I visited last summer</strong> was crowded.</li>
+<li>The colleague <strong>whom I work with</strong> is very experienced.</li>
+<li>I returned <strong>the book that I had borrowed</strong> to the librarian.</li>
+<li>The device <strong>which measures humidity</strong> is expensive.</li>
+<li>The students who joined the research project <strong>received certificates</strong>. Any suitable main clause is possible.</li>
+<li><strong>The reason I was late was that the bus broke down.</strong> Another natural option is: <strong>I was late because the bus broke down.</strong></li>
+</ol></div></details>
+</div>
+
+<div class="chapter-summary"><h3>A useful editing routine</h3><ol>
+<li>Find the noun being described.</li><li>Find the relative clause.</li>
+<li>Reconstruct the hidden sentence.</li><li>Check whether the relative word is the subject or object.</li>
+<li>Check that no noun or pronoun is repeated.</li><li>Check that necessary prepositions remain.</li>
+<li>Check that the full sentence has a main verb.</li>
+</ol></div>
+</section>
+
+<section class="chapter" aria-labelledby="part-1-comprehensive-practice">
+<span class="chapter-marker">Chapter</span>
+<h2 id="part-1-comprehensive-practice">Part 1 Comprehensive Practice</h2>
+<p class="lead">The exercises below review the complete foundation: recognizing relative clauses, identifying roles, choosing relative words, combining sentences, and correcting errors.</p>
+
+<div class="exercise">
+<h3>Exercise 1: find the structure</h3>
+<p class="exercise__instruction">For each sentence, identify (a) the noun being described, (b) the relative clause, and (c) the main sentence after the relative clause is removed.</p>
+<ol>
+<li>The student who borrowed my notes returned them today.</li>
+<li>The documentary that we watched in class raised several important questions.</li>
+<li>The building where the conference will be held is near the station.</li>
+<li>My cousin, who recently moved to Ankara, has started a new job.</li>
+<li>The proposal, which surprised several committee members, was approved.</li>
+<li>The researcher whose article we discussed will visit our university.</li>
+</ol>
+<details class="answer-key"><summary>Show the answers</summary><div class="answer-key__body"><ol>
+<li>Noun: <strong>the student</strong><br>Relative clause: <strong>who borrowed my notes</strong><br>Main sentence: <strong>The student returned them today.</strong></li>
+<li>Noun: <strong>the documentary</strong><br>Relative clause: <strong>that we watched in class</strong><br>Main sentence: <strong>The documentary raised several important questions.</strong></li>
+<li>Noun: <strong>the building</strong><br>Relative clause: <strong>where the conference will be held</strong><br>Main sentence: <strong>The building is near the station.</strong></li>
+<li>Noun: <strong>my cousin</strong><br>Relative clause: <strong>who recently moved to Ankara</strong><br>Main sentence: <strong>My cousin has started a new job.</strong></li>
+<li>Noun: <strong>the proposal</strong><br>Relative clause: <strong>which surprised several committee members</strong><br>Main sentence: <strong>The proposal was approved.</strong></li>
+<li>Noun: <strong>the researcher</strong><br>Relative clause: <strong>whose article we discussed</strong><br>Main sentence: <strong>The researcher will visit our university.</strong></li>
+</ol></div></details>
+</div>
+
+<div class="exercise">
+<h3>Exercise 2: identify the relative word’s job</h3>
+<p class="exercise__instruction">Choose from: subject, object of a verb, object of a preposition, possession, place relationship, time relationship, or whole previous situation.</p>
+<ol>
+<li>The engineer who designed the bridge received an award.</li>
+<li>The engineer whom the company hired received an award.</li>
+<li>The engineer who I spoke to was very helpful.</li>
+<li>The engineer whose design was selected received an award.</li>
+<li>The office where the engineer works is downtown.</li>
+<li>I remember the year when the bridge opened.</li>
+<li>The bridge opened early, which pleased local residents.</li>
+</ol>
+<details class="answer-key"><summary>Show the answers</summary><div class="answer-key__body"><ol>
+<li>Subject</li><li>Object of a verb</li><li>Object of a preposition</li><li>Possession</li>
+<li>Place relationship</li><li>Time relationship</li><li>Whole previous situation</li>
+</ol></div></details>
+</div>
+
+<div class="exercise">
+<h3>Exercise 3: choose the relative word</h3>
+<p class="exercise__instruction">Fill each blank with the most natural option. Some sentences allow more than one answer.</p>
+<ol>
+<li>The technician ________ repaired the printer arrived at noon.</li>
+<li>The printer ________ the technician repaired is working again.</li>
+<li>The office ________ the printer is kept is locked.</li>
+<li>The day ________ the system failed was extremely stressful.</li>
+<li>The manager ________ office is upstairs is on vacation.</li>
+<li>The employee to ________ I sent the report has not replied.</li>
+<li>The reason ________ the report was delayed is still unclear.</li>
+<li>________ the team needs is a clearer schedule.</li>
+<li>The update was released early, ________ surprised many users.</li>
+<li>The policy ________ affects international students will change next year.</li>
+</ol>
+<details class="answer-key"><summary>Show the answers</summary><div class="answer-key__body"><ol>
+<li><strong>who</strong> or <strong>that</strong></li>
+<li><strong>that</strong>, <strong>which</strong>, or no relative word</li>
+<li><strong>where</strong></li><li><strong>when</strong></li><li><strong>whose</strong></li>
+<li><strong>whom</strong></li><li><strong>why</strong> or no relative word</li>
+<li><strong>What</strong></li><li><strong>which</strong></li><li><strong>that</strong> or <strong>which</strong></li>
+</ol></div></details>
+</div>
+
+<div class="exercise">
+<h3>Exercise 4: combine the sentences</h3>
+<p class="exercise__instruction">Combine each pair using a relative clause. Keep the first sentence as the main sentence.</p>
+<ol>
+<li>The woman gave me directions. She was waiting at the bus stop.</li>
+<li>I returned the headphones. I bought them online.</li>
+<li>We toured the laboratory. The new vaccine was developed there.</li>
+<li>I will never forget the evening. We received the good news that evening.</li>
+<li>The professor has published a new book. Her lectures are always popular.</li>
+<li>The train was delayed for two hours. This caused us to miss the opening ceremony.</li>
+<li>The organization supports rural schools. My sister works for the organization.</li>
+<li>They rejected the explanation. The witness had provided the explanation.</li>
+</ol>
+<details class="answer-key"><summary>Show possible answers</summary><div class="answer-key__body"><ol>
+<li>The woman <strong>who was waiting at the bus stop</strong> gave me directions.</li>
+<li>I returned the headphones <strong>that I bought online</strong>.</li>
+<li>We toured the laboratory <strong>where the new vaccine was developed</strong>.</li>
+<li>I will never forget the evening <strong>when we received the good news</strong>.</li>
+<li>The professor <strong>whose lectures are always popular</strong> has published a new book.</li>
+<li>The train was delayed for two hours, <strong>which caused us to miss the opening ceremony</strong>.</li>
+<li>The organization <strong>that my sister works for</strong> supports rural schools.</li>
+<li>They rejected the explanation <strong>that the witness had provided</strong>.</li>
+</ol></div></details>
+</div>
+
+<div class="exercise">
+<h3>Exercise 5: edit the paragraph</h3>
+<p class="exercise__instruction">The paragraph contains eight problems with relative clauses. Correct them.</p>
+<div class="example-panel">
+<p>Last semester, I took a course <strong>what focused on environmental policy</strong>. The professor <strong>who she taught the course</strong> had worked for several international organizations. She assigned a book <strong>that explained different policies in cities where had serious pollution problems</strong>. One chapter discussed a city <strong>where the author had visited</strong> in 2018. The researcher <strong>whom wrote the chapter</strong> also described the people <strong>who he interviewed them</strong>. The final project, <strong>that required us to design a local policy</strong>, was difficult. However, the classmates <strong>which I worked with</strong> were very supportive.</p>
+</div>
+<details class="answer-key"><summary>Show a corrected version</summary><div class="answer-key__body">
+<p>Last semester, I took a course <strong>that focused on environmental policy</strong>. The professor <strong>who taught the course</strong> had worked for several international organizations. She assigned a book <strong>that explained different policies in cities that had serious pollution problems</strong>. One chapter discussed a city <strong>that the author had visited</strong> in 2018. The researcher <strong>who wrote the chapter</strong> also described the people <strong>whom he interviewed</strong>. The final project, <strong>which required us to design a local policy</strong>, was difficult. However, the classmates <strong>whom I worked with</strong> were very supportive.</p>
+<p class="muted">In ordinary English, <em>the people he interviewed</em> and <em>the classmates I worked with</em> would also be natural.</p>
+</div></details>
+</div>
+
+<div class="exercise">
+<h3>Exercise 6: write your own sentences</h3>
+<p class="exercise__instruction">Write one natural sentence for each instruction.</p>
+<ol>
+<li>Describe a person using a subject relative clause.</li>
+<li>Describe a thing using an object relative clause.</li>
+<li>Describe a place using <em>where</em>.</li>
+<li>Describe a time using <em>when</em>.</li>
+<li>Show possession using <em>whose</em>.</li>
+<li>Use <em>which</em> to refer to an entire previous situation.</li>
+<li>Write one formal sentence using <em>to whom</em>, <em>with whom</em>, or <em>for whom</em>.</li>
+<li>Write one sentence using <em>what</em> to mean “the thing that.”</li>
+</ol>
+<details class="answer-key"><summary>Show sample answers</summary><div class="answer-key__body"><ol>
+<li>The neighbor <strong>who lives across the hall</strong> is a musician.</li>
+<li>The documentary <strong>that we watched last night</strong> was fascinating.</li>
+<li>The park <strong>where I usually go running</strong> is closed today.</li>
+<li>I remember the week <strong>when I began university</strong>.</li>
+<li>The student <strong>whose phone was missing</strong> spoke to the receptionist.</li>
+<li>The university extended the deadline, <strong>which reduced everyone’s stress</strong>.</li>
+<li>The advisor <strong>to whom I sent my application</strong> replied this morning.</li>
+<li><strong>What I need</strong> is a few hours of uninterrupted study time.</li>
+</ol></div></details>
+</div>
+
+<div class="signal signal--teal"><span class="signal__label">Before moving to Part 2</span>
+<p>Make sure you can identify the noun being described, reconstruct the hidden sentence, and decide whether the relative word is the subject or the object. Those three skills are the foundation for comma rules, omission, formal prepositions, and other advanced patterns.</p></div>
+
+<div class="chapter-summary"><h3>Part 1 final checklist</h3>
+<ul class="final-checklist">
+<li>I can recognize a relative clause in a sentence.</li>
+<li>I can identify the noun it describes.</li>
+<li>I can separate the main sentence from the relative clause.</li>
+<li>I can reconstruct the hidden complete sentence.</li>
+<li>I can identify subject and object relative clauses.</li>
+<li>I can use <em>who, whom, which, that, whose, where, when,</em> and <em>why</em>.</li>
+<li>I understand why <em>what</em> is different.</li>
+<li>I can combine two sentences without repeating the noun.</li>
+<li>I can keep necessary prepositions.</li>
+<li>I can avoid double subjects and repeated objects.</li>
+<li>I can keep a relative clause near the noun it describes.</li>
+<li>I can choose clarity instead of unnecessary complexity.</li>
+</ul></div>
+</section>
+</article>
+</main>
+</div>
+
+<footer class="footer">
+<div class="footer__inner">
+<div><p><strong>Kooshky’s TOEFL Guides</strong></p><p>Collected and compiled by Amir Kooshky.</p></div>
+<nav class="footer__links promotion" aria-label="Social links">
+<a href="https://telegram.me/KooshkyTOEFL" target="_blank" rel="noopener noreferrer">Telegram</a>
+<a href="https://instagram.com/kooshkytoefl" target="_blank" rel="noopener noreferrer">Instagram</a>
+<a href="https://telegram.me/kooshkyTOEFL_pv" target="_blank" rel="noopener noreferrer">Personal Telegram</a>
+</nav></div>
+</footer>
+
+<button class="go-top js-go-top" type="button" aria-label="Go to the top of the page" title="Go to top"><span aria-hidden="true">↑</span></button>
+
+<div class="mobile-backdrop js-mobile-backdrop" aria-hidden="true"></div>
+<aside id="mobile-panel" class="mobile-panel" aria-label="Mobile navigation" aria-hidden="true">
+<div class="mobile-panel__header"><strong>Guide navigation</strong>
+<button class="icon-button js-mobile-close" type="button" aria-label="Close navigation menu"><span aria-hidden="true">×</span></button></div>
+<nav class="mobile-panel__nav" aria-label="Mobile primary navigation">
+<a class="js-home-link" href="/">Home</a>
+<button class="text-button js-theme-toggle" type="button" aria-label="Switch to dark theme" aria-pressed="false">Change theme</button>
+</nav>
+<div class="mobile-panel__toc">
+<div class="toc-actions"><button type="button" class="js-toc-expand">Expand all</button><button type="button" class="js-toc-collapse">Collapse all</button></div>
+<nav id="mobile-toc" class="toc-list" aria-label="Mobile contents"></nav>
+</div>
+</aside>
+
+<div class="modal-backdrop js-telegram-backdrop" aria-hidden="true"></div>
+<section class="telegram-dialog js-telegram-dialog" role="dialog" aria-modal="true" aria-labelledby="telegram-dialog-title" aria-describedby="telegram-dialog-description">
+<button class="icon-button telegram-dialog__close js-telegram-close" type="button" aria-label="Close invitation"><span aria-hidden="true">×</span></button>
+<div class="telegram-dialog__inner">
+<span class="editorial-label">More TOEFL material</span>
+<h2 id="telegram-dialog-title">Continue studying with Kooshky’s TOEFL Guides</h2>
+<p id="telegram-dialog-description">The Telegram channel includes more TOEFL lessons, vocabulary material, practice tasks, and study guidance.</p>
+<div class="telegram-dialog__actions">
+<a class="text-button telegram-dialog__primary js-telegram-action" href="https://telegram.me/KooshkyTOEFL" target="_blank" rel="noopener noreferrer">Visit the Telegram channel</a>
+<button class="text-button js-telegram-dismiss" type="button">Not now</button>
+</div></div>
+</section>
+
+<div class="selection-menu js-selection-menu" role="menu" aria-label="Dictionary lookup">
+<p class="selection-menu__title js-selection-title">Look up selection</p>
+<a class="js-dictionary-link" data-dictionary="cambridge" role="menuitem" target="_blank" rel="noopener noreferrer">Cambridge Dictionary</a>
+<a class="js-dictionary-link" data-dictionary="oxford" role="menuitem" target="_blank" rel="noopener noreferrer">Oxford Learner’s Dictionaries</a>
+<a class="js-dictionary-link" data-dictionary="merriam" role="menuitem" target="_blank" rel="noopener noreferrer">Merriam-Webster</a>
+<a class="js-dictionary-link" data-dictionary="google" role="menuitem" target="_blank" rel="noopener noreferrer">Google meaning search</a>
+</div>
+
+<script>
+(()=>{
+"use strict";
+
+/*
+  PROMOTION SWITCH
+  Change promotionsEnabled to false to remove Telegram/Instagram/DM links
+  and completely disable the mid-page Telegram invitation.
+*/
+const GUIDE_CONFIG={
+promotionsEnabled:true,
+title:"Relative Clauses, Part 1: Building the Foundation",
+themeKey:"kooshky-guides:theme:v1"
+};
+
+const state={mobileOpen:false,modalOpen:false,lastFocused:null,telegramShown:false,selectionTimer:null,activeHeadingId:""};
+
+const safeStorage={
+get(key){try{return localStorage.getItem(key)}catch(e){return null}},
+set(key,value){try{localStorage.setItem(key,value)}catch(e){}}
+};
+
+function slugify(text){
+return text.toLowerCase().trim().replace(/['’]/g,"").replace(/[^a-z0-9]+/g,"-").replace(/^-+|-+$/g,"")||"guide"
+}
+
+const telegramKey=`kooshky-guides:${slugify(GUIDE_CONFIG.title)}:telegram-invite:v1`;
+
+function initHomeLinks(){
+let home="/";
+try{home=location.origin&&location.origin!=="null"?`${location.origin}/`:"./"}catch(e){}
+document.querySelectorAll(".js-home-link").forEach(a=>a.href=home)
+}
+
+function applyPromotions(){
+if(GUIDE_CONFIG.promotionsEnabled)return;
+document.querySelectorAll(".promotion").forEach(el=>el.remove());
+document.querySelector(".js-telegram-dialog")?.remove();
+document.querySelector(".js-telegram-backdrop")?.remove()
+}
+
+function currentTheme(){return document.documentElement.dataset.theme==="dark"?"dark":"light"}
+
+function updateThemeButtons(theme){
+const dark=theme==="dark";
+document.querySelectorAll(".js-theme-toggle").forEach(button=>{
+button.setAttribute("aria-pressed",String(dark));
+button.setAttribute("aria-label",dark?"Switch to light theme":"Switch to dark theme");
+if(button.classList.contains("text-button"))button.textContent=dark?"Use light theme":"Use dark theme"
+})
+}
+
+function setTheme(theme){
+const value=theme==="dark"?"dark":"light";
+document.documentElement.dataset.theme=value;
+document.documentElement.style.colorScheme=value;
+safeStorage.set(GUIDE_CONFIG.themeKey,value);
+updateThemeButtons(value)
+}
+
+function initTheme(){
+const saved=safeStorage.get(GUIDE_CONFIG.themeKey);
+setTheme(saved==="dark"||saved==="light"?saved:"light");
+document.querySelectorAll(".js-theme-toggle").forEach(button=>{
+button.addEventListener("click",()=>setTheme(currentTheme()==="dark"?"light":"dark"))
+})
+}
+
+function uniqueHeadingIds(headings){
+const used=new Set();
+headings.forEach(heading=>{
+let base=heading.id||slugify(heading.textContent),candidate=base,n=2;
+while(used.has(candidate)){candidate=`${base}-${n++}`}
+heading.id=candidate;used.add(candidate)
+})
+}
+
+function buildToc(){
+const chapters=[...document.querySelectorAll(".article article>.chapter")];
+return chapters.map(chapter=>{
+const h2=chapter.querySelector(":scope>h2");if(!h2)return"";
+const h3s=[...chapter.querySelectorAll(":scope>h3,:scope>.exercise>h3")];
+const children=h3s.map(h3=>`<li><a href="#${h3.id}" data-heading-id="${h3.id}">${h3.textContent.trim()}</a></li>`).join("");
+return `<details><summary>${h2.textContent.trim()}</summary><ul><li><a href="#${h2.id}" data-heading-id="${h2.id}">Chapter opening</a></li>${children}</ul></details>`
+}).join("")
+}
+
+function setActiveHeading(id){
+if(!id||id===state.activeHeadingId)return;
+state.activeHeadingId=id;
+document.querySelectorAll(".toc-list a").forEach(link=>{
+const active=link.dataset.headingId===id;
+if(active){link.setAttribute("aria-current","true");link.closest("details")?.setAttribute("open","")}
+else link.removeAttribute("aria-current")
+})
+}
+
+function initActiveHeadings(headings){
+if(!("IntersectionObserver"in window))return;
+const observer=new IntersectionObserver(entries=>{
+const visible=entries.filter(e=>e.isIntersecting).sort((a,b)=>a.boundingClientRect.top-b.boundingClientRect.top);
+if(visible[0])setActiveHeading(visible[0].target.id)
+},{rootMargin:"-18% 0px -72% 0px",threshold:[0,1]});
+headings.forEach(h=>observer.observe(h))
+}
+
+function initToc(){
+const headings=[...document.querySelectorAll(".article h2,.article h3")];
+uniqueHeadingIds(headings);
+const markup=buildToc();
+["desktop-toc","mobile-toc"].forEach(id=>{const el=document.getElementById(id);if(el)el.innerHTML=markup});
+document.querySelectorAll(".toc-list a").forEach(link=>link.addEventListener("click",()=>{if(state.mobileOpen)closeMobile()}));
+document.querySelectorAll(".js-toc-expand").forEach(button=>button.addEventListener("click",()=>{
+button.closest(".toc-panel,.mobile-panel")?.querySelectorAll(".toc-list details").forEach(d=>d.open=true)
+}));
+document.querySelectorAll(".js-toc-collapse").forEach(button=>button.addEventListener("click",()=>{
+button.closest(".toc-panel,.mobile-panel")?.querySelectorAll(".toc-list details").forEach(d=>d.open=false)
+}));
+initActiveHeadings(headings)
+}
+
+function focusables(container){
+return [...container.querySelectorAll('a[href],button:not([disabled]),summary,[tabindex]:not([tabindex="-1"])')]
+}
+
+function openMobile(){
+const panel=document.querySelector(".mobile-panel"),backdrop=document.querySelector(".js-mobile-backdrop"),button=document.querySelector(".js-mobile-open");
+if(!panel||!backdrop||!button)return;
+state.mobileOpen=true;state.lastFocused=document.activeElement;document.body.classList.add("nav-open");
+panel.classList.add("is-open");backdrop.classList.add("is-open");panel.setAttribute("aria-hidden","false");
+backdrop.setAttribute("aria-hidden","false");button.setAttribute("aria-expanded","true");
+panel.querySelector(".js-mobile-close")?.focus()
+}
+
+function closeMobile(){
+const panel=document.querySelector(".mobile-panel"),backdrop=document.querySelector(".js-mobile-backdrop"),button=document.querySelector(".js-mobile-open");
+if(!panel||!backdrop||!button)return;
+state.mobileOpen=false;document.body.classList.remove("nav-open");panel.classList.remove("is-open");
+backdrop.classList.remove("is-open");panel.setAttribute("aria-hidden","true");backdrop.setAttribute("aria-hidden","true");
+button.setAttribute("aria-expanded","false");if(state.lastFocused instanceof HTMLElement)state.lastFocused.focus()
+}
+
+function initMobile(){
+document.querySelector(".js-mobile-open")?.addEventListener("click",openMobile);
+document.querySelector(".js-mobile-close")?.addEventListener("click",closeMobile);
+document.querySelector(".js-mobile-backdrop")?.addEventListener("click",closeMobile)
+}
+
+function initGoTop(){
+const button=document.querySelector(".js-go-top");if(!button)return;
+const update=()=>button.classList.toggle("is-visible",scrollY>Math.max(500,innerHeight*.7));
+addEventListener("scroll",update,{passive:true});update();
+button.addEventListener("click",()=>scrollTo({top:0,behavior:"smooth"}))
+}
+
+function openTelegram(){
+if(!GUIDE_CONFIG.promotionsEnabled||state.modalOpen)return;
+const dialog=document.querySelector(".js-telegram-dialog"),backdrop=document.querySelector(".js-telegram-backdrop");
+if(!dialog||!backdrop)return;
+state.modalOpen=true;state.telegramShown=true;state.lastFocused=document.activeElement;
+document.body.classList.add("modal-open");dialog.classList.add("is-open");backdrop.classList.add("is-open");
+backdrop.setAttribute("aria-hidden","false");safeStorage.set(telegramKey,"dismissed");
+dialog.querySelector(".js-telegram-close")?.focus()
+}
+
+function closeTelegram(){
+const dialog=document.querySelector(".js-telegram-dialog"),backdrop=document.querySelector(".js-telegram-backdrop");
+if(!dialog||!backdrop)return;
+state.modalOpen=false;document.body.classList.remove("modal-open");dialog.classList.remove("is-open");
+backdrop.classList.remove("is-open");backdrop.setAttribute("aria-hidden","true");safeStorage.set(telegramKey,"dismissed");
+if(state.lastFocused instanceof HTMLElement)state.lastFocused.focus()
+}
+
+function initTelegram(){
+if(!GUIDE_CONFIG.promotionsEnabled||safeStorage.get(telegramKey))return;
+const chapters=[...document.querySelectorAll(".article .chapter")],target=chapters[Math.floor(chapters.length/2)];
+if(target&&"IntersectionObserver"in window){
+const observer=new IntersectionObserver(entries=>{
+if(entries.some(e=>e.isIntersecting)&&!state.telegramShown){openTelegram();observer.disconnect()}
+},{threshold:.2});
+observer.observe(target)
+}
+document.querySelector(".js-telegram-close")?.addEventListener("click",closeTelegram);
+document.querySelector(".js-telegram-dismiss")?.addEventListener("click",closeTelegram);
+document.querySelector(".js-telegram-backdrop")?.addEventListener("click",closeTelegram);
+document.querySelector(".js-telegram-action")?.addEventListener("click",closeTelegram)
+}
+
+function selectionData(){
+const selection=getSelection();
+if(!selection||selection.rangeCount===0||selection.isCollapsed)return null;
+const text=selection.toString().trim().replace(/\s+/g," ");
+if(!text||text.length>100||!/[\p{L}\p{N}]/u.test(text))return null;
+const range=selection.getRangeAt(0),node=range.commonAncestorContainer;
+const element=node.nodeType===Node.ELEMENT_NODE?node:node.parentElement;
+if(!element||!element.closest(".article")||element.closest("button,a,nav,input,textarea,select,summary,.selection-menu"))return null;
+return{text,range}
+}
+
+function hideSelection(){document.querySelector(".js-selection-menu")?.classList.remove("is-open")}
+
+function showSelection(){
+const data=selectionData();if(!data){hideSelection();return}
+const menu=document.querySelector(".js-selection-menu"),title=document.querySelector(".js-selection-title");
+if(!menu||!title)return;
+const encoded=encodeURIComponent(data.text),urls={
+cambridge:`https://dictionary.cambridge.org/dictionary/english/${encoded}`,
+oxford:`https://www.oxfordlearnersdictionaries.com/definition/english/${encoded}?q=${encoded}`,
+merriam:`https://www.merriam-webster.com/dictionary/${encoded}`,
+google:`https://www.google.com/search?q=meaning+of+${encoded}`
+};
+title.textContent=`Look up: ${data.text}`;
+menu.querySelectorAll(".js-dictionary-link").forEach(a=>a.href=urls[a.dataset.dictionary]);
+menu.classList.add("is-open");
+const rects=data.range.getClientRects(),rect=rects.length?rects[rects.length-1]:data.range.getBoundingClientRect();
+const margin=8,width=Math.min(288,innerWidth-margin*2),height=menu.offsetHeight||210;
+let left=(Number.isFinite(rect.left)?rect.left+rect.width/2:innerWidth/2)-width/2;
+let top=Number.isFinite(rect.bottom)?rect.bottom+12:innerHeight/3;
+left=Math.max(margin,Math.min(left,innerWidth-width-margin));
+if(top+height>innerHeight-margin)top=rect.top-height-14;
+top=Math.max(margin,Math.min(top,innerHeight-height-margin));
+menu.style.width=`${width}px`;menu.style.left=`${left}px`;menu.style.top=`${top}px`
+}
+
+function scheduleSelection(){clearTimeout(state.selectionTimer);state.selectionTimer=setTimeout(showSelection,180)}
+
+function initSelection(){
+document.addEventListener("selectionchange",()=>{const s=getSelection();if(!s||s.isCollapsed)hideSelection()});
+document.addEventListener("pointerup",scheduleSelection);
+document.addEventListener("touchend",scheduleSelection,{passive:true});
+document.addEventListener("keyup",e=>{if(e.key.startsWith("Arrow")||e.key==="Shift")scheduleSelection()});
+document.addEventListener("pointerdown",e=>{const m=document.querySelector(".js-selection-menu");if(m&&!m.contains(e.target))hideSelection()});
+addEventListener("scroll",hideSelection,{passive:true});addEventListener("resize",hideSelection,{passive:true})
+}
+
+function keyboard(event){
+if(event.key==="Escape"){
+if(state.modalOpen)return closeTelegram();
+if(state.mobileOpen)return closeMobile();
+hideSelection()
+}
+if(event.key!=="Tab")return;
+const container=state.modalOpen?document.querySelector(".js-telegram-dialog"):state.mobileOpen?document.querySelector(".mobile-panel"):null;
+if(!container)return;
+const items=focusables(container);if(!items.length)return;
+const first=items[0],last=items[items.length-1];
+if(event.shiftKey&&document.activeElement===first){event.preventDefault();last.focus()}
+else if(!event.shiftKey&&document.activeElement===last){event.preventDefault();first.focus()}
+}
+
+function init(){
+[initHomeLinks,applyPromotions,initTheme,initToc,initMobile,initGoTop,initTelegram,initSelection].forEach(fn=>{
+try{fn()}catch(error){console.error(`Feature failed: ${fn.name}`,error)}
+});
+document.addEventListener("keydown",keyboard)
+}
+
+document.readyState==="loading"?document.addEventListener("DOMContentLoaded",init):init()
+})();
+</script>
+</body>
+</html>
