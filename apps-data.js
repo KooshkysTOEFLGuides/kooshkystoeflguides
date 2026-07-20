@@ -21,10 +21,17 @@
 
 window.KOOSHKY_APPS = [
   {
+    name: "Dictation",
+    href: "Apps/Dictation/kooshky_dictation_practice.html",
+    description: "Practise spelling using the Leitner Method!",
+    logo: "Apps/Dictation/icon.png",
+    featured: true
+  },
+  {
     name: "Listen and Repeat",
-    href: "ListenAndRepeat/toefl_listen_repeat_practice.html",
+    href: "Apps/ListenAndRepeat/toefl_listen_repeat_practice.html",
     description: "Practise TOEFL Listen and Repeat sets, record your voice, and review your attempts.",
-    logo: "ListenAndRepeat/icon.png",
+    logo: "Apps/ListenAndRepeat/icon.png",
     featured: true
   },
   /*
