@@ -1,0 +1,578 @@
+<!doctype html>
+<html lang="en" data-theme="light">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <meta name="description" content="A four-part study path for mastering English relative clauses, from the foundations to advanced structures.">
+  <meta name="theme-color" content="#F4F0E8">
+  <title>Relative Clauses — Kooshky's TOEFL Guides</title>
+
+  <script>
+    (() => {
+      try {
+        const saved = localStorage.getItem("kooshky-guides:theme:v1");
+        const theme = saved === "dark" ? "dark" : "light";
+        document.documentElement.dataset.theme = theme;
+        document.documentElement.style.colorScheme = theme;
+      } catch (_) {
+        document.documentElement.dataset.theme = "light";
+        document.documentElement.style.colorScheme = "light";
+      }
+    })();
+  </script>
+
+  <style>
+    @import url("https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@400;500;600;700&family=Literata:opsz,wght@7..72,600;7..72,700&display=swap");
+
+    :root {
+      --page: #F4F0E8;
+      --surface: #FCFAF6;
+      --text: #182027;
+      --muted: #59636C;
+      --border: #D7D0C3;
+      --accent: #A9470D;
+      --teal: #1E5B63;
+      --accent-soft: #F3E2D3;
+      --teal-soft: #DDEAE8;
+      --heading: "Literata", Georgia, "Times New Roman", serif;
+      --body: "IBM Plex Sans", Inter, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+      --page-width: 78rem;
+      --reading-width: 74ch;
+      --radius: 6px;
+    }
+
+    html[data-theme="dark"] {
+      --page: #111417;
+      --surface: #181D21;
+      --text: #ECE7DD;
+      --muted: #ADB4B8;
+      --border: #30383E;
+      --accent: #F28C45;
+      --teal: #70B7B4;
+      --accent-soft: #332219;
+      --teal-soft: #193033;
+    }
+
+    *, *::before, *::after { box-sizing: border-box; }
+    html { scroll-behavior: smooth; }
+
+    body {
+      margin: 0;
+      background: var(--page);
+      color: var(--text);
+      font-family: var(--body);
+      line-height: 1.65;
+      overflow-x: hidden;
+    }
+
+    a { color: var(--teal); text-underline-offset: .18em; }
+    a:hover { color: var(--accent); }
+    :focus-visible { outline: 3px solid var(--accent); outline-offset: 3px; }
+
+    .container {
+      width: min(calc(100% - 2rem), var(--page-width));
+      margin-inline: auto;
+    }
+
+    .skip-link {
+      position: fixed;
+      top: .75rem;
+      left: .75rem;
+      z-index: 1000;
+      padding: .65rem .8rem;
+      border-radius: 4px;
+      background: var(--text);
+      color: var(--page);
+      transform: translateY(-160%);
+    }
+
+    .skip-link:focus { transform: translateY(0); }
+
+    .site-header {
+      position: sticky;
+      top: 0;
+      z-index: 100;
+      border-bottom: 1px solid var(--border);
+      background: var(--page);
+    }
+
+    .header-inner {
+      min-height: 4.1rem;
+      display: flex;
+      align-items: center;
+      gap: 1rem;
+    }
+
+    .brand {
+      display: inline-flex;
+      align-items: center;
+      gap: .7rem;
+      color: var(--text);
+      text-decoration: none;
+    }
+
+    .brand-mark {
+      width: 2rem;
+      aspect-ratio: 1;
+      display: grid;
+      place-items: center;
+      border: 1px solid var(--accent);
+      border-radius: 4px;
+      background: var(--accent-soft);
+      color: var(--accent);
+      font-family: var(--heading);
+      font-weight: 700;
+    }
+
+    .brand-text { line-height: 1.05; }
+    .brand-text small, .brand-text strong { display: block; }
+    .brand-text small {
+      color: var(--muted);
+      font-size: .7rem;
+      letter-spacing: .08em;
+      text-transform: uppercase;
+    }
+    .brand-text strong { font-family: var(--heading); font-size: .98rem; }
+
+    .site-nav {
+      margin-left: auto;
+      display: flex;
+      align-items: center;
+      gap: .3rem;
+    }
+
+    .site-nav a,
+    .theme-toggle {
+      min-height: 2.45rem;
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      padding: .5rem .7rem;
+      border: 1px solid transparent;
+      border-radius: 4px;
+      background: transparent;
+      color: var(--muted);
+      font: inherit;
+      font-size: .9rem;
+      font-weight: 600;
+      text-decoration: none;
+      cursor: pointer;
+    }
+
+    .site-nav a:hover,
+    .theme-toggle:hover {
+      border-color: var(--border);
+      background: var(--surface);
+      color: var(--text);
+    }
+
+    .theme-toggle { border-color: var(--border); }
+
+    .intro {
+      padding: clamp(2.8rem, 7vw, 5rem) 0 2.5rem;
+      border-bottom: 1px solid var(--border);
+    }
+
+    .intro-content,
+    .section-heading,
+    .resource-group,
+    .recommended-order {
+      max-width: var(--reading-width);
+    }
+
+    .eyebrow {
+      margin: 0 0 .75rem;
+      color: var(--accent);
+      font-size: .74rem;
+      font-weight: 800;
+      letter-spacing: .12em;
+      text-transform: uppercase;
+    }
+
+    h1, h2, h3 {
+      margin-top: 0;
+      font-family: var(--heading);
+      line-height: 1.18;
+      overflow-wrap: anywhere;
+    }
+
+    h1 {
+      margin-bottom: 1.1rem;
+      font-size: clamp(2.15rem, 6vw, 4.5rem);
+      letter-spacing: -.03em;
+    }
+
+    .intro-copy {
+      margin: 0;
+      color: var(--muted);
+      font-size: clamp(1.03rem, 1.8vw, 1.18rem);
+    }
+
+    .example-box {
+      max-width: var(--reading-width);
+      margin-top: 1.5rem;
+      padding: 1.15rem 1.25rem;
+      border: 1px solid var(--border);
+      border-left: 4px solid var(--teal);
+      border-radius: var(--radius);
+      background: var(--surface);
+    }
+
+    .example-box p { margin: 0; }
+    .example-box p + p { margin-top: .75rem; }
+
+    .example-label {
+      display: block;
+      margin-bottom: .65rem;
+      color: var(--teal);
+      font-size: .72rem;
+      font-weight: 800;
+      letter-spacing: .1em;
+      text-transform: uppercase;
+    }
+
+    mark {
+      padding: 0 .12em;
+      background: var(--teal-soft);
+      color: inherit;
+    }
+
+    .study-path { padding: 3rem 0; }
+
+    .section-heading { margin-bottom: 1.5rem; }
+    .section-heading h2 {
+      margin-bottom: .65rem;
+      font-size: clamp(1.55rem, 3vw, 2.25rem);
+    }
+    .section-heading p { margin: 0; color: var(--muted); }
+
+    .group-heading {
+      margin: 0 0 1rem;
+      padding-bottom: .6rem;
+      border-bottom: 1px solid var(--border);
+    }
+
+    .group-heading h2 { margin: 0; font-size: 1.35rem; }
+
+    /* Simple vertical list: add or remove cards without changing CSS. */
+    .resource-list { display: block; }
+
+    .resource-card {
+      padding: 1.25rem;
+      border: 1px solid var(--border);
+      border-left: 4px solid var(--teal);
+      border-radius: var(--radius);
+      background: var(--surface);
+    }
+
+    .resource-card + .resource-card { margin-top: 1rem; }
+
+    .resource-number {
+      display: block;
+      margin-bottom: .55rem;
+      color: var(--muted);
+      font-size: .72rem;
+      font-weight: 800;
+      letter-spacing: .1em;
+      text-transform: uppercase;
+    }
+
+    .resource-card h3 {
+      margin-bottom: .55rem;
+      font-size: clamp(1.1rem, 2vw, 1.3rem);
+    }
+
+    .resource-card h3 a { color: var(--text); text-decoration: none; }
+    .resource-card h3 a:hover { color: var(--accent); }
+    .resource-card p { margin: 0 0 .9rem; color: var(--muted); }
+    .resource-link { font-weight: 700; text-decoration: none; }
+    .practice-card { border-left-color: var(--accent); }
+
+    .recommended-order {
+      margin-top: 1.5rem;
+      padding: 1rem 1.15rem;
+      border: 1px solid var(--border);
+      border-left: 4px solid var(--accent);
+      border-radius: var(--radius);
+      background: var(--accent-soft);
+    }
+
+    .recommended-order h2 { margin-bottom: .35rem; font-size: 1.08rem; }
+    .recommended-order p { margin: 0; }
+
+    .site-footer {
+      margin-top: 3rem;
+      padding: 2rem 0;
+      border-top: 1px solid var(--border);
+      color: var(--muted);
+    }
+
+    .footer-inner {
+      display: flex;
+      flex-wrap: wrap;
+      align-items: center;
+      justify-content: space-between;
+      gap: 1rem;
+    }
+
+    .footer-links { display: flex; flex-wrap: wrap; gap: .8rem 1rem; }
+    .footer-links a { color: inherit; }
+
+    @media (max-width: 700px) {
+      .container { width: min(calc(100% - 1.2rem), var(--page-width)); }
+      .site-nav a:not(.home-link) { display: none; }
+      .brand-text small { display: none; }
+      .theme-toggle { width: 2.6rem; padding-inline: 0; font-size: 0; }
+      .theme-toggle::before { content: "◐"; font-size: 1rem; }
+      .resource-card, .example-box { padding: 1rem; }
+      .footer-inner { align-items: flex-start; flex-direction: column; }
+    }
+
+    @media (prefers-reduced-motion: reduce) {
+      html { scroll-behavior: auto; }
+    }
+  </style>
+</head>
+
+<body>
+  <a class="skip-link" href="#main">Skip to content</a>
+
+  <header class="site-header">
+    <div class="container header-inner">
+      <a class="brand" href="/index.html" aria-label="Kooshky's TOEFL Guides homepage">
+        <span class="brand-mark" aria-hidden="true">K</span>
+        <span class="brand-text">
+          <small>Kooshky's</small>
+          <strong>TOEFL Guides</strong>
+        </span>
+      </a>
+
+      <nav class="site-nav" aria-label="Site navigation">
+        <a class="home-link" href="/index.html">Home</a>
+        <a href="/contents.html">All contents</a>
+
+        <button class="theme-toggle" type="button" data-theme-toggle aria-label="Use dark theme" aria-pressed="false">
+          <span data-theme-label>Dark</span>
+        </button>
+      </nav>
+    </div>
+  </header>
+
+  <main id="main">
+    <section class="intro">
+      <div class="container">
+        <div class="intro-content">
+          <p class="eyebrow">Kooshky's Grammar Collection</p>
+          <h1>Relative Clauses</h1>
+
+          <p class="intro-copy">
+            Relative clauses let you identify, describe, and add information about nouns inside a larger sentence. Mastering them makes your writing more precise, compact, and sophisticated.
+          </p>
+
+          <aside class="example-box">
+            <span class="example-label">Why this matters</span>
+
+            <p>
+              Separate sentences:
+              <mark>I spoke to the professor. She teaches syntax.</mark>
+            </p>
+
+            <p>
+              With a relative clause:
+              <strong>I spoke to the professor who teaches syntax.</strong>
+            </p>
+          </aside>
+        </div>
+      </div>
+    </section>
+
+    <section class="study-path">
+      <div class="container">
+        <div class="section-heading">
+          <p class="eyebrow">Complete study path</p>
+          <h2>Build the system one stage at a time</h2>
+          <p>
+            Read the four guides in order. Each part assumes that you understand the main ideas introduced in the earlier parts.
+          </p>
+        </div>
+
+        <section class="resource-group" aria-labelledby="guides-heading">
+          <div class="group-heading">
+            <h2 id="guides-heading">Study guides</h2>
+          </div>
+
+          <div class="resource-list">
+            <!-- COPY ONE RESOURCE CARD TO ADD ANOTHER GUIDE -->
+
+            <article class="resource-card">
+              <span class="resource-number">Part 01 · Foundation</span>
+              <h3>
+                <a href="/Grammar/RelativeClausesNew/Kooshky_Relative_Clauses_Part_1.html">
+                  Building the Foundation
+                </a>
+              </h3>
+              <p>
+                Introduces relative clauses from the ground up, including antecedents, sentence roles, identifying versus added information, relative words, gaps, and hidden sentence structure.
+              </p>
+              <a class="resource-link" href="/Grammar/RelativeClausesNew/Kooshky_Relative_Clauses_Part_1.html">
+                Open Part I →
+              </a>
+            </article>
+
+            <article class="resource-card">
+              <span class="resource-number">Part 02 · Finite Relative Clauses</span>
+              <h3>
+                <a href="/Grammar/RelativeClausesNew/Kooshky_Relative_Clauses_Part_2.html">
+                  The Complete Finite System
+                </a>
+              </h3>
+              <p>
+                Covers defining and non-defining clauses, punctuation, omission, prepositions, relative adverbs, possession, agreement, multiple clauses, and relative versus content clauses.
+              </p>
+              <a class="resource-link" href="/Grammar/RelativeClausesNew/Kooshky_Relative_Clauses_Part_2.html">
+                Open Part II →
+              </a>
+            </article>
+
+            <article class="resource-card">
+              <span class="resource-number">Part 03 · Reduction</span>
+              <h3>
+                <a href="/Grammar/RelativeClausesNew/Kooshky_Relative_Clauses_Part_3.html">
+                  Reduced and Non-Finite Structures
+                </a>
+              </h3>
+              <p>
+                Explains how full relative clauses become participial, adjective, prepositional, and infinitive modifiers—and when reduction changes meaning or sounds unnatural.
+              </p>
+              <a class="resource-link" href="/Grammar/RelativeClausesNew/Kooshky_Relative_Clauses_Part_3.html">
+                Open Part III →
+              </a>
+            </article>
+
+            <article class="resource-card">
+              <span class="resource-number">Part 04 · Advanced Structures</span>
+              <h3>
+                <a href="/Grammar/RelativeClausesNew/Kooshky_Relative_Clauses_Part_4.html">
+                  Advanced Relative Structures
+                </a>
+              </h3>
+              <p>
+                Explores free relatives, embedded questions, partitive and advanced possessive relatives, <em>as</em> and <em>which</em> clauses, relative connectors, nesting, ambiguity, and advanced editing.
+              </p>
+              <a class="resource-link" href="/Grammar/RelativeClausesNew/Kooshky_Relative_Clauses_Part_4.html">
+                Open Part IV →
+              </a>
+            </article>
+          </div>
+        </section>
+
+        <!--
+        OPTIONAL PRACTICE FILES SECTION
+
+        Remove these comment marks when you want to use it.
+        Copy and paste additional .resource-card blocks as needed.
+
+        <section class="resource-group" aria-labelledby="practice-heading" style="margin-top: 2.5rem;">
+          <div class="group-heading">
+            <h2 id="practice-heading">Practice files</h2>
+          </div>
+
+          <div class="resource-list">
+            <article class="resource-card practice-card">
+              <span class="resource-number">Practice 01 · Part I</span>
+              <h3>
+                <a href="/Grammar/RelativeClausesNew/YOUR-PRACTICE-FILE.html">
+                  Practice File Title
+                </a>
+              </h3>
+              <p>
+                Briefly explain what this practice file covers.
+              </p>
+              <a class="resource-link" href="/Grammar/RelativeClausesNew/YOUR-PRACTICE-FILE.html">
+                Open practice file →
+              </a>
+            </article>
+          </div>
+        </section>
+        -->
+
+        <aside class="recommended-order">
+          <h2>Recommended order</h2>
+          <p>Part I → Part II → Part III → Part IV</p>
+        </aside>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-inner">
+      <span>Collected and compiled by Amir Kooshky</span>
+
+      <div class="footer-links">
+        <a href="/contents.html">All contents</a>
+        <a href="/apps.html">Apps</a>
+        <a href="https://telegram.me/KooshkyTOEFL" target="_blank" rel="noopener noreferrer">Telegram</a>
+        <a href="https://instagram.com/kooshkytoefl" target="_blank" rel="noopener noreferrer">Instagram</a>
+      </div>
+    </div>
+  </footer>
+
+  <script>
+    (() => {
+      "use strict";
+
+      const root = document.documentElement;
+      const button = document.querySelector("[data-theme-toggle]");
+      const label = document.querySelector("[data-theme-label]");
+      const themeColor = document.querySelector('meta[name="theme-color"]');
+      const storageKey = "kooshky-guides:theme:v1";
+
+      function saveTheme(theme) {
+        try {
+          localStorage.setItem(storageKey, theme);
+        } catch (_) {}
+      }
+
+      function applyTheme(theme, save = true) {
+        const normalized = theme === "dark" ? "dark" : "light";
+
+        root.dataset.theme = normalized;
+        root.style.colorScheme = normalized;
+
+        if (themeColor) {
+          themeColor.content = normalized === "dark" ? "#111417" : "#F4F0E8";
+        }
+
+        if (button) {
+          const dark = normalized === "dark";
+          button.setAttribute("aria-pressed", String(dark));
+          button.setAttribute("aria-label", dark ? "Use light theme" : "Use dark theme");
+
+          if (label) {
+            label.textContent = dark ? "Light" : "Dark";
+          }
+        }
+
+        if (save) {
+          saveTheme(normalized);
+        }
+      }
+
+      applyTheme(root.dataset.theme, false);
+
+      button?.addEventListener("click", () => {
+        applyTheme(root.dataset.theme === "dark" ? "light" : "dark");
+      });
+
+      window.addEventListener("storage", (event) => {
+        if (
+          event.key === storageKey &&
+          (event.newValue === "light" || event.newValue === "dark")
+        ) {
+          applyTheme(event.newValue, false);
+        }
+      });
+    })();
+  </script>
+</body>
+</html>

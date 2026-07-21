@@ -221,13 +221,22 @@ window.KOOSHKY_CONTENT = [
   //   "featured": false
   // },
   {
+    "title": "Grammar: Relative Clauses (Second Edition)",
+    "href": "Grammar/RelativeClausesNew/index.html",
+    "section": "grammar",
+    "summary": "The full guide to relative clauses, with improved notes!",
+    "date": "2026-07-21",
+    "publishAt": "2026-07-21T00:00:00+03:30",
+    "featured": true
+  },
+  {
     "title": "Grammar: Relative Clauses",
     "href": "Grammar/RelativeClauses/index.html",
     "section": "grammar",
     "summary": "The full guide to relative clauses + Exercise workbooks",
-    "date": "2026-07-21",
+    "date": "2026-07-20",
     "publishAt": "2026-07-20T00:00:00+03:30",
-    "featured": true
+    "featured": false
   },
   // {
   //   "title": "Grammar: Relative Clauses, Part I",
