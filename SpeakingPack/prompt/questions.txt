@@ -1,0 +1,155 @@
+# STEP 3 — TOEFL-STYLE INTERVIEW QUESTION SETS
+
+## Input
+
+**MAIN TOPIC:**
+[Insert topic]
+
+**ORIGINAL SEED SUBTOPICS:**
+[Insert original taxonomy]
+
+**APPROVED EXPANDED COVERAGE MAP:**
+[Paste approved topic structure]
+
+**APPROVED IDEA BANK:**
+[Paste approved Step 2 material]
+
+---
+
+## Prompt
+
+You are an expert writer of realistic TOEFL Speaking Interview question sets.
+
+Create linked interview sets about:
+
+**MAIN TOPIC:** [INSERT TOPIC]
+
+Use the following approved coverage structure and idea bank:
+
+[PASTE APPROVED COVERAGE MAP AND IDEA BANK]
+
+My original subtopics were:
+
+[INSERT ORIGINAL SEED SUBTOPICS]
+
+These are minimum coverage requirements, not a closed list. Include the additional subtopics already identified in the approved material, and add another question angle when the main topic still has an important natural gap.
+
+Do not force every possible social, technological, environmental, educational, or policy angle into the questions. Include such angles only when they genuinely fit the topic.
+
+## Set structure
+
+Create approximately **12–20 interview sets**, depending on the breadth of the topic.
+
+Each set must contain exactly four connected questions.
+
+The four questions should feel like part of one short interview rather than four unrelated prompts.
+
+A common progression is:
+
+1. an accessible personal question;
+2. a request for a concrete description, example, routine, or experience;
+3. a question asking for reasons, effects, benefits, disadvantages, or comparison;
+4. a broader opinion, recommendation, prediction, solution, or judgment.
+
+Do not use this sequence mechanically in every set. Vary the progression naturally.
+
+Other useful progressions include:
+
+* preference → explanation → comparison → recommendation;
+* past experience → lesson learned → general effect → advice;
+* description → problem → solution → responsibility;
+* current habit → change over time → social consequence → future prediction;
+* personal example → children or family → school or workplace → broader opinion;
+* traditional practice → modern alternative → advantages and disadvantages → balanced judgment.
+
+## Question quality
+
+Questions must:
+
+* be understandable immediately when heard once;
+* contain one clear main task;
+* be answerable in approximately 45 seconds;
+* invite explanation rather than one-word answers;
+* sound conversational rather than academic;
+* use natural interviewer transitions;
+* cover varied dimensions of the topic;
+* encourage students to use the approved vocabulary and ideas naturally;
+* allow different reasonable answers.
+
+Avoid:
+
+* questions that contain several separate tasks;
+* excessively long setups;
+* specialized knowledge requirements;
+* questions that are really essay prompts;
+* near-duplicate questions;
+* repeated “Do you agree or disagree?” wording;
+* vague prompts such as “What do you think about this topic?”;
+* leading questions that strongly suggest one correct answer;
+* forced public-policy questions where the topic is mainly personal;
+* four questions that all ask for the same opinion in different words.
+
+## Variety
+
+Across the complete collection, include a balanced mixture of:
+
+* personal habits;
+* preferences;
+* descriptions;
+* recent or memorable experiences;
+* comparisons;
+* causes and effects;
+* advantages and disadvantages;
+* problems and obstacles;
+* advice and recommendations;
+* hypothetical situations;
+* changes across age groups or generations;
+* school, workplace, family, and community contexts;
+* future predictions;
+* broader social questions when relevant.
+
+Use interview transitions such as “Thank you,” “Interesting,” “Can you tell me more about that?” and “Finally,” but vary them. Do not begin every question with the same formula.
+
+## Output format
+
+Return plain text only.
+
+Do not provide answers at this stage.
+
+Use this format:
+
+# SET 1 — [SHORT SET TITLE]
+
+**Q1.** [Question]
+
+**Q2.** [Question]
+
+**Q3.** [Question]
+
+**Q4.** [Question]
+
+# SET 2 — [SHORT SET TITLE]
+
+Continue until the topic has been covered thoroughly.
+
+## Final audit
+
+At the end, include:
+
+# Question Coverage Audit
+
+* **Set 1:** [subtopics and question functions covered]
+* **Set 2:** [subtopics and question functions covered]
+* etc.
+
+Then list:
+
+* seed subtopics that received direct coverage;
+* additional subtopics included;
+* any important subtopic not covered and the reason it was excluded.
+
+Do not write sample answers, teaching notes, HTML, or vocabulary explanations.
+
+Do not ask follow-up questions. Make reasonable decisions yourself.
+
+---

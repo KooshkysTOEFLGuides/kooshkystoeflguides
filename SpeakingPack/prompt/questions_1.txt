@@ -1,0 +1,557 @@
+# STEP 3 — CORPUS-CALIBRATED TOEFL SPEAKING INTERVIEW SETS
+
+## Input
+
+****MAKE SURE TO ATTACH THE CORPUS OF SPEAKING
+
+**MAIN TOPIC:**
+[Insert the main topic]
+
+**ORIGINAL SEED SUBTOPICS:**
+[Insert the original taxonomy]
+
+**APPROVED EXPANDED COVERAGE MAP:**
+[Paste the approved coverage map]
+
+**APPROVED IDEA BANK:**
+[Paste the approved idea bank]
+
+**REAL TOEFL SPEAKING CORPUS:**
+[Attach or paste the corpus containing real Speaking tasks]
+
+---
+
+## Prompt
+
+You are an expert writer and analyst of TOEFL Speaking Interview materials.
+
+Create realistic TOEFL Speaking Interview question sets about:
+
+**MAIN TOPIC:**
+[INSERT MAIN TOPIC]
+
+My original seed subtopics were:
+
+**ORIGINAL SEED SUBTOPICS:**
+[INSERT ORIGINAL SEED SUBTOPICS]
+
+Use the following approved coverage map and idea bank:
+
+**APPROVED EXPANDED COVERAGE MAP:**
+[PASTE APPROVED COVERAGE MAP]
+
+**APPROVED IDEA BANK:**
+[PASTE APPROVED IDEA BANK]
+
+A corpus of real TOEFL Speaking tasks is also provided 
+[ATTACH CORPUS]
+
+Before writing, silently analyze the corpus carefully.
+
+The corpus contains both:
+
+1. Listen and Repeat tasks;
+2. Speaking Interview tasks.
+
+Ignore all Listen and Repeat material completely.
+
+Analyze only the four-question Interview portions, generally labeled as `ITEM 2` and containing the instruction:
+
+`Please answer the interviewer's questions.`
+
+Use the real Interview questions as the primary calibration model for:
+
+* interview setup;
+* question sequencing;
+* breadth;
+* subject matter;
+* difficulty;
+* wording;
+* level of abstraction;
+* use of examples;
+* use of interviewer transitions;
+* balance between personal and general questions;
+* the relationship between the four questions.
+
+Do not copy existing questions verbatim.
+
+Do not imitate transcription mistakes, encoding problems, grammatical errors, or awkward punctuation found in the corpus. Reproduce the underlying task design in clean, natural English.
+
+---
+
+# Core Principle: Broad Topical Connection
+
+Each set must contain exactly four questions about the same broad main topic.
+
+The questions should feel like four turns in one short research interview, but they do **not** need to form a tightly chained discussion of one narrow subtopic.
+
+In authentic-style sets, the connection is often simply the broad research topic.
+
+For example, a sports interview might move across:
+
+* current sports participation;
+* a sport the participant would like to learn;
+* a memorable physical-activity experience;
+* an opinion about children and contact sports.
+
+These questions belong together because they concern sports, even though each examines a different angle.
+
+Do not design every set as a four-stage investigation of one microtopic.
+
+Avoid structures such as:
+
+* four questions entirely about sports injuries;
+* four questions entirely about athletic leadership;
+* four questions entirely about early specialization;
+* four questions entirely about fitness technology;
+* four questions entirely about professional-sports ethics.
+
+A narrower angle may appear in one question, especially Question 3 or Question 4. It should not normally dominate all four questions.
+
+Each set should usually sample **three or four distinct but naturally related subtopics** from the broader topic.
+
+---
+
+# Coverage Principle
+
+Treat my seed subtopics as minimum coverage requirements, not as a closed taxonomy.
+
+Include useful additional subtopics identified in the approved coverage material.
+
+However, distribute these subtopics **across the complete question bank**. Do not assume that every subtopic deserves its own four-question set.
+
+Do not create one set for every item in the coverage map.
+
+Several minor or related subtopics may be:
+
+* combined;
+* represented by one question;
+* distributed across different sets;
+* omitted when they would produce questions that are too technical, repetitive, or unlike the corpus.
+
+Prefer fewer authentic sets over a larger number of narrow, artificial sets.
+
+For a broad topic, create approximately **12–18 alternative interview sets**. A narrower topic may need fewer.
+
+This is not a quota. Do not pad the collection or divide natural subject matter into increasingly specialized sets merely to reach a number.
+
+Some overlap between sets is acceptable. Realistic alternative tests may revisit broad functions such as personal habits, preferences, experiences, comparisons, and social opinions from different angles.
+
+---
+
+# Typical Four-Question Shape
+
+Use the following as a corpus-based tendency, not an inflexible formula.
+
+## Question 1 — Accessible Entry Point
+
+Question 1 should usually establish the participant’s personal relationship with the broad topic.
+
+Common functions include:
+
+* current habits;
+* frequency;
+* participation;
+* personal experience;
+* familiar preferences;
+* past experience;
+* the experience of a friend or family member;
+* an immediately accessible opinion.
+
+Question 1 should normally be answerable without specialized knowledge or extensive reflection.
+
+It may ask one or more tightly connected subquestions.
+
+Examples of suitable functions include:
+
+* whether the person currently does something;
+* how often they do it;
+* what kind they prefer;
+* whether they have experienced it;
+* how important it is in their daily life;
+* what they or people close to them normally do.
+
+Do not routinely begin with an abstract social, institutional, ethical, or professional question.
+
+## Question 2 — Concrete Development
+
+Question 2 should commonly ask for something concrete, descriptive, personal, or hypothetical.
+
+Suitable functions include:
+
+* describing a routine;
+* describing an activity;
+* giving a personal example;
+* recalling an experience;
+* choosing between familiar alternatives;
+* imagining a realistic situation;
+* describing what the participant, a friend, or a family member would do;
+* explaining an accessible benefit or disadvantage.
+
+This question does not always need to follow directly from the participant’s answer to Question 1.
+
+It should remain independently understandable.
+
+## Question 3 — Flexible Bridge
+
+Question 3 may move somewhat beyond direct description.
+
+Suitable functions include:
+
+* a memorable experience;
+* a realistic hypothetical;
+* a personal change;
+* an obstacle;
+* a motivation;
+* a cause or effect;
+* an accessible comparison;
+* a recommendation;
+* a future possibility;
+* a moderately broader opinion.
+
+Question 3 may remain personal, or it may begin widening the discussion.
+
+Do not force it to be more abstract than the topic naturally supports.
+
+## Question 4 — Broader Opinion
+
+Question 4 should usually ask for a broader judgment connected to the main topic.
+
+Common forms include:
+
+* “Some people believe that …”
+* “Some people prefer X, while others prefer Y.”
+* “Do you agree or disagree?”
+* “Which approach do you think is better?”
+* “Do you think this will become more or less common?”
+* “Should schools, families, employers, or communities …?”
+* “What do you think about this issue?”
+
+The final question may concern:
+
+* children;
+* education;
+* society;
+* work;
+* the future;
+* a general benefit or disadvantage;
+* a familiar social choice;
+* an accessible institutional decision.
+
+Use only one broader angle at a time.
+
+Do not turn Question 4 into a technical policy, medical, legal, scientific, or professional decision that an ordinary test taker would not be expected to understand.
+
+Not every final question must use “Some people believe.” Vary the form while preserving the general level and function found in the corpus.
+
+---
+
+# Breadth and Narrowness
+
+The subject matter must remain accessible to an ordinary university-age test taker regardless of academic major, employment, athletic ability, cultural background, or technical knowledge.
+
+Questions may touch on:
+
+* health;
+* education;
+* family;
+* children;
+* community life;
+* technology;
+* social effects;
+* the future;
+* cost and convenience.
+
+However, these angles must remain broad and familiar.
+
+Avoid requiring knowledge of:
+
+* sports medicine;
+* professional coaching;
+* exercise physiology;
+* detailed injury rehabilitation;
+* return-to-play protocols;
+* athletic administration;
+* sponsorship economics;
+* specialized training theory;
+* technical equipment;
+* detailed public policy;
+* professional ethics specific to an industry.
+
+For example, prefer:
+
+* “What can make it difficult for someone to exercise regularly?”
+
+over:
+
+* “What should someone change if harder training is no longer improving their performance?”
+
+Prefer:
+
+* “Do you think children should participate in contact sports?”
+
+over:
+
+* “Who should make the final return-to-play decision after a young athlete’s injury?”
+
+A specialized term may be used only when:
+
+* it is common enough for ordinary speakers;
+* its meaning is clear from context;
+* or the interviewer briefly explains it with an example.
+
+---
+
+# Language and Sophistication
+
+Use natural, accessible spoken English.
+
+The intellectual level should allow meaningful reasoning, but the wording itself should not sound like:
+
+* an academic seminar;
+* a professional consultation;
+* a policy hearing;
+* a sports-science examination;
+* a formal essay prompt.
+
+Prefer familiar wording over compressed technical phrasing.
+
+Do not make questions artificially sophisticated through expressions such as:
+
+* institutional responsibility;
+* performance optimization;
+* return-to-play decisions;
+* commercial value to stakeholders;
+* specialized intervention;
+* data-driven athletic development.
+
+A moderately advanced concept is acceptable when expressed clearly and supported by context.
+
+When a topic or contrast may be unfamiliar, briefly explain it or give examples inside the interviewer’s turn.
+
+For example:
+
+* “Contact sports, such as rugby or hockey, involve physical contact between players.”
+* “Fitness technology can include exercise apps, online classes, or wearable trackers.”
+
+Do not overexplain familiar ideas.
+
+---
+
+# Question Construction
+
+Each question should have one central response direction.
+
+However, it may contain two or three **tightly connected** subquestions, as real Interview questions often do.
+
+Acceptable:
+
+* “Can you describe a sports experience you remember well? What made it memorable?”
+* “How often do you exercise, and what kinds of activities do you usually do?”
+* “Which sport would you like to learn, and why would you choose it?”
+
+Avoid combining unrelated tasks:
+
+* “Describe your exercise routine, explain whether schools should require sports, and predict how technology will change fitness.”
+
+The participant should be able to understand the complete task after hearing it once.
+
+The question should support a natural response of approximately 45 seconds.
+
+Do not make every question the same length.
+
+Do not make every question a single short sentence merely for neatness.
+
+Use enough context to make the task clear, but avoid long lectures before the question.
+
+---
+
+# Prerecorded Interview Logic
+
+Treat the interview as prerecorded.
+
+The interviewer does not know what the participant actually said.
+
+Use generic transitions such as:
+
+* Thank you.
+* Interesting.
+* I see.
+* That is helpful.
+* Moving on.
+* Great.
+* For my final question …
+
+Do not use reactions that assume specific content from the participant’s response.
+
+Avoid:
+
+* “That was a difficult injury.”
+* “I agree that swimming is the best choice.”
+* “Your experience with your coach is interesting.”
+
+A later question may refer to an earlier question only when the earlier question established a fixed scenario.
+
+For example:
+
+* Question 2 asks the participant to create an exercise plan for a friend.
+* Question 3 asks what challenge that same friend might face.
+
+Do not make frequent use of this structure. Most questions should be independently understandable.
+
+---
+
+# Interview Framing
+
+Give every set a short research-interview setup similar in function to the corpus.
+
+The setup should ordinarily say that the participant has:
+
+* volunteered for a university research study;
+* agreed to take part in a short online interview;
+* or been invited to answer questions for a research project.
+
+Keep the setup brief and natural.
+
+Question 1 should include a full interviewer opening, such as:
+
+“Thank you for agreeing to participate. I’d like to ask you some questions about sports and physical activity. First, do you currently play any sports or exercise regularly?”
+
+Questions 2–4 should normally include brief generic transitions.
+
+Do not overuse exactly the same transition sequence in every set.
+
+The editorial set title is not spoken by the interviewer.
+
+---
+
+# Set Variety
+
+Across the complete collection, vary the order and combination of question functions.
+
+Possible authentic-style combinations include:
+
+### Pattern A
+
+1. current habit;
+2. hypothetical preference;
+3. memorable experience;
+4. broader social opinion.
+
+### Pattern B
+
+1. personal preference;
+2. concrete description;
+3. advantage or obstacle;
+4. comparison between two general approaches.
+
+### Pattern C
+
+1. recent experience;
+2. usual behavior;
+3. future possibility;
+4. broader consequence.
+
+### Pattern D
+
+1. experience of the participant or someone they know;
+2. descriptive example;
+3. cause or motivation;
+4. agree–disagree statement.
+
+### Pattern E
+
+1. simple personal opinion;
+2. realistic recommendation;
+3. challenge and possible response;
+4. another accessible judgment connected to the scenario.
+
+These are models, not mandatory templates.
+
+Do not mechanically apply the same progression to every set.
+
+Do not make all Question 1 items personal routines, all Question 2 items descriptions, all Question 3 items obstacles, and all Question 4 items agree–disagree statements.
+
+Preserve corpus-like variation.
+
+---
+
+# Avoid Overengineering
+
+Do not attempt to demonstrate every item in the idea bank through the questions.
+
+Do not design the question bank as a complete academic taxonomy of the main topic.
+
+The vocabulary and idea bank may be exhaustive. The Interview questions should be **selective, ordinary, and test-like**.
+
+The questions should look simpler and broader than the supporting teaching material.
+
+Do not add a separate set merely because the idea bank includes:
+
+* leadership;
+* accessibility;
+* technology;
+* ethics;
+* body image;
+* age differences;
+* professional contexts;
+* environmental effects.
+
+Use such material only when it produces a natural, accessible Interview question.
+
+---
+
+# Output Format
+
+Return plain text only.
+
+Do not provide sample answers.
+
+Use this format:
+
+# SET 1 — [SHORT EDITORIAL TITLE]
+
+**Interview setup:**
+[One or two sentences establishing the university research interview.]
+
+**Q1.** [Full interviewer opening and first question.]
+
+**Q2.** [Generic transition and second question.]
+
+**Q3.** [Generic transition and third question.]
+
+**Q4.** [Final transition and fourth question.]
+
+# SET 2 — [SHORT EDITORIAL TITLE]
+
+Continue until the topic has been covered with a sufficient number of varied, corpus-calibrated alternative sets.
+
+---
+
+# Corpus-Calibration Audit
+
+After the sets, provide a concise audit.
+
+For each set, identify:
+
+* the function of Question 1;
+* the function of Question 2;
+* the function of Question 3;
+* the function of Question 4;
+* the broad subtopics sampled.
+
+Then confirm that:
+
+* the Listen and Repeat material was ignored;
+* each set contains exactly four Interview questions;
+* each set samples multiple angles rather than one microtopic;
+* Question 1 is normally accessible and personal or familiar;
+* Question 2 is normally concrete, descriptive, or hypothetical;
+* Question 3 provides flexible development;
+* Question 4 is normally broader but remains accessible;
+* no set requires specialized knowledge;
+* no set has been added merely to give every subtopic its own interview;
+* interviewer transitions are generic and compatible with prerecorded delivery;
+* wording has been corrected rather than copied with corpus transcription errors.
+
+Do not ask follow-up questions. Make reasonable decisions yourself.

@@ -1,0 +1,362 @@
+# STEP 1 — VOCABULARY, COLLOCATIONS, AND USEFUL SPEAKING CHUNKS
+
+## Input
+
+**MAIN TOPIC:**
+[Insert the broad topic, such as Style and Fashion]
+
+**SEED SUBTOPICS:**
+[Paste the subtopics already included in the taxonomy]
+
+**OPTIONAL ADJACENT PACKS:**
+[Name other topic packs whose specialized content should not be duplicated excessively. For example: Shopping, Culture, Environmental Practices]
+
+---
+
+## Prompt
+
+You are an expert designer of vocabulary materials for the TOEFL Speaking Interview task.
+
+I am developing a topic pack about:
+
+**MAIN TOPIC:**
+[INSERT MAIN TOPIC]
+
+My current seed subtopics are:
+
+**SEED SUBTOPICS:**
+[INSERT SEED SUBTOPICS]
+
+Related topic packs whose specialized content should not be duplicated excessively:
+
+**OPTIONAL ADJACENT PACKS:**
+[INSERT ADJACENT PACKS, OR WRITE “NONE PROVIDED”]
+
+Treat the seed subtopics as **minimum coverage requirements, not as a complete or closed taxonomy**.
+
+Before producing the vocabulary, silently examine the main topic and identify additional useful subtopics, question angles, situations, contrasts, and speaking needs that I may have overlooked. Add them whenever they genuinely belong under the main topic.
+
+Possible dimensions to consider include, when relevant:
+
+* personal habits and routines;
+* preferences and personality;
+* past experiences and memories;
+* descriptions of people, objects, places, activities, or processes;
+* benefits and disadvantages;
+* motivations and obstacles;
+* costs, convenience, and accessibility;
+* skill development and personal growth;
+* family, friendship, and social life;
+* children, teenagers, and education;
+* workplace or professional contexts;
+* technology and social media;
+* culture, identity, and generational differences;
+* environmental or ethical concerns;
+* community action or public policy;
+* current changes and future developments;
+* comparisons between traditional and modern alternatives.
+
+Do not force every dimension into every topic. Include only angles that naturally create useful TOEFL interview questions and useful speaking language.
+
+## Main task
+
+Create a comprehensive lexical plan for discussing this topic in spoken English.
+
+Prioritize vocabulary that B1–B2 learners can realistically move into their **active speaking vocabulary**. Most of the material should be natural, flexible, and easy enough to use smoothly under time pressure.
+
+Include some advanced vocabulary, but do not allow rare, literary, excessively formal, highly technical, or essay-only language to dominate the pack.
+
+As a general balance:
+
+* most items should be high-utility B1–B2 language;
+* some should be strong upper-B2 language;
+* a smaller number may be useful C1-level upgrades.
+
+Do not confuse “advanced” with “unnatural.” A simple expression that students can use accurately and flexibly is more valuable than a sophisticated expression they are unlikely to use in spontaneous speech.
+
+## Organize the material
+
+Divide the topic into clear thematic sections.
+
+You may:
+
+* expand my seed subtopics;
+* divide a broad seed subtopic into multiple sections;
+* combine closely related seed subtopics;
+* rename sections for clarity;
+* reorganize the taxonomy;
+* add important sections that I omitted.
+
+The resulting structure should reflect the natural lexical needs of the topic rather than mechanically copying my original taxonomy.
+
+Under each thematic section, provide two separate parts.
+
+---
+
+## A. Headwords and Their Collocations
+
+For each useful headword, give:
+
+**headword** — collocation 1; collocation 2; collocation 3; collocation 4; etc.
+
+Include a useful mixture of:
+
+* nouns;
+* verbs;
+* adjectives;
+* adverbs when genuinely useful;
+* phrasal verbs;
+* transparent idiomatic expressions that are realistic in speaking.
+
+Give several natural collocations for each headword. Include different grammatical patterns when useful, such as:
+
+* adjective + noun;
+* verb + noun;
+* noun + noun;
+* verb + preposition;
+* adjective + preposition;
+* common clause patterns;
+* comparative patterns;
+* contrastive patterns.
+
+Do not manufacture collocations merely to reach a number.
+
+### Variable quantity requirement
+
+Do **not** give every thematic section the same number of headwords.
+
+Do not default to:
+
+* exactly 8 headwords;
+* exactly 10 headwords;
+* another repeated round number;
+* a visually symmetrical number of entries across all sections.
+
+Each section should receive as many headwords as its lexical importance and breadth genuinely justify.
+
+A narrow section may need only a small number of headwords. A central or lexically rich section may require considerably more.
+
+Try to include all genuinely useful speaking vocabulary related to each section, but remain selective enough to avoid padding, repetition, obscure terminology, and weak entries.
+
+Use approximately **30 headwords as a soft upper limit for one thematic section**, not as a target.
+
+Do not aim for 30. Do not try to get close to 30 merely because the limit exists.
+
+The number of headwords should vary naturally from section to section. For example, one section might merit 7 entries, another 13, another 19, and another 25. These are illustrations only, not targets.
+
+The goal is **exhaustive usefulness**, not numerical symmetry.
+
+---
+
+## B. Useful Phrases, Sentence Parts, and Free Collocations
+
+After the headwords in each section, provide a separate list of useful multi-word chunks that students can learn and reuse as speaking units.
+
+These may include:
+
+* sentence openings;
+* sentence fragments;
+* clause fragments;
+* verb phrases;
+* noun phrases;
+* adjective phrases;
+* preference structures;
+* ways to describe experiences;
+* cause-and-effect chunks;
+* comparison structures;
+* concession structures;
+* phrases for discussing advantages and disadvantages;
+* phrases for explaining habits and routines;
+* phrases for recommendations and solutions;
+* natural phrasal verbs;
+* common conversational collocations;
+* flexible sentence frames;
+* topic-specific expressions that do not need to be treated as headwords.
+
+Do not force every useful expression into a headword entry. Keep simpler multi-word language in the phrase bank when that is more pedagogically sensible.
+
+### Phrase-bank form requirement
+
+Prioritize **reusable fragments and sentence parts**, not complete general statements about the topic.
+
+For example, avoid presenting the item only as:
+
+* Technology makes it easier to track personal progress.
+* Online classes allow people to exercise from home.
+* People may become too dependent on numbers and devices.
+
+Instead, isolate the reusable speaking material:
+
+* **[make it easier to track personal progress]**
+* **[allow people to exercise from home]**
+* **[become too dependent on numbers and devices]**
+* **[change the way athletes train and recover]**
+* **[cannot fully replace face-to-face interaction]**
+* **[become more personalized and data-driven]**
+
+The reusable fragment must appear in **bold square brackets** so that it stands out clearly.
+
+Use this format:
+
+* **[reusable fragment]**
+* **[reusable fragment]**
+* **[reusable sentence frame + something]**
+
+When a complete sentence is genuinely necessary to show the structure, still place the reusable core in brackets.
+
+For example:
+
+* Although **[technology can make training more efficient]**, it may also create too much dependence on data.
+* One reason I prefer this option is that it **[fits more easily into a busy schedule]**.
+* Compared with traditional methods, this approach **[provides more immediate feedback]**.
+
+Do not turn the phrase bank into a list of miniature opinion statements or undeveloped ideas. The focus is the language students can extract and reuse.
+
+### Variable phrase quantity requirement
+
+Do **not** give exactly the same number of useful phrases in every section.
+
+In particular, do not default to exactly 8 phrases per section.
+
+Give each section as many useful fragments, sentence parts, and free collocations as it genuinely merits.
+
+Some sections may need only several highly useful chunks. Others may need a much larger phrase bank because they involve more comparisons, descriptions, experiences, advantages, disadvantages, or opinion structures.
+
+Do not aim for a fixed number.
+
+Do not create filler phrases merely to make sections look equal.
+
+The number of phrases should vary naturally according to:
+
+* the breadth of the section;
+* the number of likely interview questions;
+* the range of communicative functions involved;
+* the number of genuinely reusable structures available.
+
+Again, the goal is **exhaustive usefulness**, not numerical symmetry.
+
+---
+
+## Selection Standards
+
+Include language that helps students:
+
+* answer personal questions;
+* name and classify relevant things;
+* describe concrete experiences;
+* describe qualities and characteristics;
+* explain reasons;
+* compare alternatives;
+* discuss positive and negative effects;
+* express preferences;
+* give advice;
+* suggest solutions;
+* discuss changes over time;
+* express balanced opinions;
+* discuss hypothetical situations;
+* talk about children, society, institutions, or the future when relevant.
+
+Avoid:
+
+* duplicate headwords appearing in several sections;
+* duplicate phrases appearing in several sections;
+* several entries expressing essentially the same thing;
+* multiple phrases that differ by only one insignificant word;
+* obvious inflectional variations presented as separate entries;
+* highly technical terminology with little speaking value;
+* empty academic expressions that could apply to every topic;
+* unnatural or invented collocations;
+* expressions that are mainly useful in formal essays;
+* full sentences that communicate ideas but do not isolate reusable language;
+* excessive repetition of words such as *good*, *bad*, *important*, *interesting*, and *useful* without more precise alternatives;
+* artificial numerical balance across sections.
+
+Where overlap between sections is unavoidable, place the item in the section where it is most natural and teachable.
+
+When a useful expression overlaps strongly with an adjacent topic pack, include it only when it is necessary for discussing the current topic. Avoid rebuilding large specialized sections that properly belong in another pack.
+
+## Internal Quality Check
+
+Before giving the final output, silently verify that:
+
+* the seed subtopics have all been covered;
+* useful missing subtopics have been added;
+* section sizes vary naturally;
+* headword counts are based on lexical merit rather than a template;
+* phrase-bank sizes vary naturally;
+* no section has been mechanically given exactly 8 items;
+* useful language has not been omitted merely to preserve symmetry;
+* weak language has not been added merely to make a section longer;
+* phrase-bank entries are primarily reusable fragments rather than generic full-sentence claims;
+* reusable material is clearly marked in bold square brackets;
+* advanced language remains natural enough for speaking;
+* duplicate or near-duplicate entries have been removed.
+
+Do not display this internal check.
+
+## Output Rules
+
+Return plain text only.
+
+Do not give:
+
+* definitions;
+* example sentences for the headwords;
+* explanations of meanings;
+* teaching notes;
+* an introductory essay;
+* an HTML file;
+* an idea bank;
+* interview questions;
+* sample answers;
+* commentary about your process.
+
+Use this exact general structure:
+
+# Expanded Coverage Map
+
+1. [Subtopic]
+2. [Subtopic]
+3. [Additional subtopic you identified]
+4. [Additional subtopic you identified]
+   ...
+
+# 1. [THEMATIC SECTION]
+
+## Headwords and Collocations
+
+* **word** — collocation; collocation; collocation
+* **word** — collocation; collocation; collocation
+* **word** — collocation; collocation; collocation
+
+## Useful Phrases, Sentence Parts, and Free Collocations
+
+* **[reusable fragment]**
+* **[reusable fragment]**
+* **[reusable sentence frame + something]**
+* Although **[reusable clause fragment]**, ...
+* Compared with ..., **[reusable comparison fragment]**
+
+# 2. [THEMATIC SECTION]
+
+## Headwords and Collocations
+
+Continue with however many headwords this particular section genuinely merits.
+
+## Useful Phrases, Sentence Parts, and Free Collocations
+
+Continue with however many reusable chunks this particular section genuinely merits.
+
+Continue until the topic has been covered thoroughly.
+
+At the end, include:
+
+# Coverage Notes
+
+* **Seed subtopics fully covered:** [list]
+* **Additional subtopics added:** [list]
+* **Potential overlap with other topic packs:** [brief list]
+* **Sections intentionally kept narrower:** [briefly identify any narrow sections]
+* **Sections requiring especially broad lexical coverage:** [briefly identify the richest sections]
+
+Do not ask follow-up questions. Make reasonable decisions yourself.

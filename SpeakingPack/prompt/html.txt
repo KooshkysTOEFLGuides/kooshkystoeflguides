@@ -1,0 +1,416 @@
+# STEP 4 — BUILD THE COMPLETE SPEAKING TOPIC PACK
+
+## Input
+
+**MAIN TOPIC:**
+[Insert the main topic]
+
+**APPROVED PART 1 — VOCABULARY PLAN:**
+[Paste the approved headwords, collocations, and useful speaking chunks]
+
+**APPROVED PART 2 — IDEA BANK:**
+[Paste the approved idea bank]
+
+**APPROVED PART 3 — INTERVIEW QUESTIONS:**
+[Paste the approved question sets]
+
+---
+
+## Prompt
+
+You are now producing the final student-facing TOEFL Speaking Interview topic pack.
+
+The main topic is:
+
+**MAIN TOPIC:**
+[INSERT MAIN TOPIC]
+
+The following three parts have already been developed and approved:
+
+# APPROVED PART 1 — VOCABULARY, COLLOCATIONS, AND SPEAKING CHUNKS
+
+[PASTE APPROVED PART 1]
+
+# APPROVED PART 2 — IDEA BANK
+
+[PASTE APPROVED PART 2]
+
+# APPROVED PART 3 — INTERVIEW QUESTION SETS
+
+[PASTE APPROVED PART 3]
+
+Use the approved material as the source of truth.
+
+Do not silently omit, merge, replace, or substantially rewrite approved educational content. You may correct clear errors in grammar, spelling, punctuation, capitalization, naturalness, or categorization, but preserve the intended coverage and meaning.
+
+Do not add major new subtopics, vocabulary sections, idea categories, or interview sets at this stage. Content expansion belongs in the earlier stages.
+
+The full general HTML, CSS, JavaScript, branding, navigation, theme, accessibility, mobile, dictionary, modal, and visual-design specification will be provided separately after this prompt. Do not duplicate or replace that specification.
+
+Apply the following requirements that are specific to these TOEFL Speaking topic packs.
+
+---
+
+# PART 1 — VOCABULARY, COLLOCATIONS, AND SPEAKING CHUNKS
+
+## Headword entries
+
+For every approved headword, provide:
+
+* the headword;
+* its part of speech;
+* a clear B1–B2 definition for the meaning relevant to this topic;
+* one natural topic-specific example sentence;
+* all approved collocations;
+* a pronunciation button.
+
+Definitions should be short, accurate, and learner-friendly.
+
+Do not define a word using vocabulary substantially more difficult than the word itself unless necessary.
+
+The example sentence must:
+
+* clearly demonstrate the intended meaning;
+* relate directly to the current topic;
+* sound natural in spoken English;
+* model language that a student could realistically use in a TOEFL response;
+* avoid unnecessary complexity.
+
+Do not create several definitions for a headword unless more than one meaning is genuinely useful for discussing the current topic.
+
+## Pronunciation buttons
+
+Place a clearly recognizable pronunciation button beside every headword.
+
+The button must pronounce the headword using the browser’s built-in Web Speech API:
+
+```javascript
+window.speechSynthesis
+```
+
+Use `SpeechSynthesisUtterance` and set the utterance language to an appropriate English locale, such as:
+
+```javascript
+utterance.lang = "en-US";
+```
+
+The pronunciation feature must:
+
+* require no external audio files;
+* require no paid API;
+* work on a static GitHub Pages site;
+* pronounce only the relevant headword when its button is pressed;
+* cancel any speech already playing before starting a new word;
+* use a real `<button>` element;
+* have an accessible label such as `Hear the pronunciation of stamina`;
+* visually indicate that it is an audio or pronunciation control;
+* fail gracefully when speech synthesis is unavailable.
+
+Use logic equivalent to:
+
+```javascript
+speechSynthesis.cancel();
+
+const utterance = new SpeechSynthesisUtterance(word);
+utterance.lang = "en-US";
+
+speechSynthesis.speak(utterance);
+```
+
+Do not autoplay pronunciation.
+
+Do not create or embed an audio file for every word.
+
+Do not depend on a specific installed voice. Allow the browser to choose a suitable English voice, although you may prefer an available English voice when one can be detected safely.
+
+## Collocations as clickable lookup items
+
+Display every approved collocation as a clickable compact item.
+
+Clicking a collocation must open a Google search for its meaning in a new tab.
+
+Construct the query in this form:
+
+```text
+meaning of [COLLOCATION]
+```
+
+For example:
+
+```text
+meaning of build endurance
+```
+
+Generate the URL safely in JavaScript or during HTML creation using URL encoding:
+
+```javascript
+const url =
+  "https://www.google.com/search?q=" +
+  encodeURIComponent("meaning of " + collocation);
+```
+
+Every collocation lookup link must use:
+
+```html
+target="_blank" rel="noopener noreferrer"
+```
+
+Do not manually write unsafe or partially encoded URLs.
+
+The visible link text should be the collocation itself, not “Search Google.”
+
+Long collocations must remain readable and wrap naturally.
+
+Do not make the example sentence or definition clickable.
+
+## Useful phrases and speaking chunks
+
+Keep the approved useful phrases, sentence parts, free collocations, and sentence frames separate from the headword entries.
+
+Do not invent artificial dictionary definitions for these chunks.
+
+Present the reusable core prominently.
+
+When the approved material marks a reusable component with square brackets, preserve the distinction visually but do not necessarily display literal square brackets if the design can highlight the reusable core more clearly.
+
+For example, approved material such as:
+
+```text
+Although [contact sports can build confidence], ...
+```
+
+may be displayed as a sentence frame in which:
+
+```text
+contact sports can build confidence
+```
+
+is visually highlighted.
+
+Phrase-bank entries may also be made clickable Google meaning searches when they are self-contained lexical expressions. Do not create a lookup link for an entire long sentence whose meaning is already obvious from its structure.
+
+---
+
+# PART 2 — IDEA BANK
+
+Present every approved reusable idea.
+
+Each idea entry must contain:
+
+* its number;
+* its concise reusable idea;
+* its approved “Use in context” explanation.
+
+The concise idea should remain visible.
+
+Place the longer “Use in context” material inside a semantic collapsible element when appropriate:
+
+```html
+<details>
+  <summary>Use in context</summary>
+  ...
+</details>
+```
+
+Keep this expansion collapsed by default.
+
+Do not place the `open` attribute on these `<details>` elements.
+
+The idea bank must remain a bank of reusable reasoning rather than a collection of memorized full answers.
+
+Do not rewrite every idea into first-person form. Preserve a mixture of:
+
+* personal ideas;
+* general observations;
+* causes and effects;
+* comparisons;
+* advantages and disadvantages;
+* recommendations;
+* balanced arguments;
+* future-oriented ideas.
+
+Number ideas consistently. If the approved content already uses continuous numbering, preserve it.
+
+---
+
+# PART 3 — INTERVIEW QUESTIONS AND SAMPLE ANSWERS
+
+Preserve:
+
+* every approved interview set;
+* every set title;
+* the order of the sets;
+* all four questions in each set;
+* the intended progression between the questions.
+
+Do not convert the collection into a flat, unrelated list of questions.
+
+## Sample-answer generation
+
+Write one sample answer for every question.
+
+Each answer should generally be approximately **80–110 words**, unless a slightly shorter or longer answer sounds substantially more natural.
+
+The answer should be suitable for a spoken response of roughly 45 seconds.
+
+Each sample answer must:
+
+* answer the exact question immediately;
+* maintain one clear central response;
+* develop that response with a reason, example, explanation, consequence, comparison, or qualification;
+* sound conversational rather than essay-like;
+* be realistic for a strong B1–B2 learner or developing C1 learner;
+* use relevant vocabulary and ideas from Parts 1 and 2 naturally;
+* demonstrate useful spoken organization;
+* avoid unnecessary formal language;
+* avoid sounding memorized;
+* avoid trying to include too many target words;
+* remain internally consistent with the other answers in the same interview set.
+
+Do not make every answer use the same structure.
+
+In particular, avoid repeatedly beginning with:
+
+* “I think that …”
+* “In my opinion …”
+* “There are many reasons …”
+* “This is an interesting question …”
+
+Also avoid repeatedly ending with:
+
+* “Overall, I believe …”
+* “In conclusion …”
+* “For these reasons …”
+
+Use varied, natural spoken openings.
+
+## Collapsed sample answers
+
+Every sample answer must be hidden by default inside semantic `<details>` and `<summary>` elements.
+
+Use a structure equivalent to:
+
+```html
+<details class="sample-answer">
+  <summary>Sample 45-second answer</summary>
+  <div class="sample-answer__content">
+    <p>...</p>
+  </div>
+</details>
+```
+
+Do not add the `open` attribute.
+
+Students must see the question before seeing the answer and should be able to attempt it independently.
+
+The summary label should clearly identify the hidden material, for example:
+
+* `Sample 45-second answer`
+* `Open sample answer`
+
+Use one consistent label throughout the guide unless variation improves clarity.
+
+Opening one sample answer must not automatically open every other answer.
+
+The answers must remain accessible even when JavaScript is disabled because native `<details>` elements should control the basic interaction.
+
+## Question presentation
+
+Clearly distinguish:
+
+* the set title;
+* question numbers;
+* question text;
+* the collapsed sample answer.
+
+Keep the four questions belonging to one set visibly grouped together.
+
+Do not place sample answers in a separate answer-key section far away from their questions.
+
+---
+
+# SPEAKING-PACK CONTENT AUDIT
+
+Before creating the final file, silently verify all of the following:
+
+## Vocabulary
+
+* Every approved thematic vocabulary section is present.
+* Every approved headword is present.
+* Every headword has a suitable definition.
+* Every headword has a natural topic-specific example.
+* Every headword has a working pronunciation button.
+* Every approved collocation is present.
+* Every collocation links to a safely encoded Google search for its meaning.
+* Useful phrase-bank material has not been incorrectly converted into headword entries.
+* Reusable fragments remain visually identifiable.
+
+## Idea bank
+
+* Every approved idea is present.
+* Every approved “Use in context” expansion is present.
+* Idea numbering is accurate.
+* Contextual expansions are collapsed by default when `<details>` is used.
+* The ideas have not been transformed into long memorized speeches.
+
+## Questions and answers
+
+* Every approved interview set is present.
+* Every set contains all four approved questions.
+* Every question has exactly one sample answer.
+* Every sample answer directly answers its question.
+* Sample answers are collapsed by default.
+* No sample-answer `<details>` element contains the `open` attribute.
+* Answers vary in structure, examples, and wording.
+* Answers make natural use of the vocabulary and idea bank without becoming overloaded.
+* No approved question or set has been accidentally truncated.
+
+## Technical speaking-pack features
+
+* Pronunciation uses browser speech synthesis rather than external audio files.
+* Starting a new pronunciation cancels speech already playing.
+* Pronunciation buttons have useful accessible labels.
+* Missing speech-synthesis support does not break the rest of the page.
+* Collocation links use `encodeURIComponent()` or equivalently safe encoding.
+* Lookup links open in a new tab with `rel="noopener noreferrer"`.
+* Native `<details>` elements preserve access to sample answers without JavaScript.
+
+Do not show this audit in the finished student-facing page.
+
+---
+
+# FINAL INSTRUCTION
+
+After this prompt, I will paste my complete standard specification for producing a standalone Kooshky Editorial Signal HTML study guide.
+
+Follow that specification for the page’s:
+
+* visual design;
+* semantic structure;
+* responsive layout;
+* branding;
+* navigation;
+* generated table of contents;
+* mobile menu;
+* theme system;
+* accessibility;
+* dictionary selection tool;
+* Telegram invitation;
+* go-to-top control;
+* JavaScript organization;
+* file creation and download delivery.
+
+Use the present prompt only for the requirements unique to a TOEFL Speaking Interview topic pack.
+
+Where the two prompts address different matters, follow both.
+
+If a direct conflict occurs:
+
+* this prompt controls the speaking-pack educational content and speaking-specific interactions;
+* the later standard specification controls the general page design and site-wide behavior.
+
+Return the complete finished standalone HTML file and provide a direct download link.
+
+Do not return a partial code fragment or a description of what the file would contain.
+
+[INSERT SPECS]

@@ -1,0 +1,193 @@
+## Prompt
+
+You are an expert designer of vocabulary materials for the TOEFL Speaking Interview task.
+
+I am developing a topic pack about:
+
+MAIN TOPIC: Sports and Fitness
+
+My current seed subtopics are:
+
+SEED SUBTOPICS:
+    types of sports
+    descriptions of sports
+    sports participation
+    types of physical strength
+    experiences with sports
+    contact vs. noncontact sports
+
+Treat these subtopics as **minimum coverage requirements, not as a complete or closed taxonomy**.
+
+Before producing the vocabulary, silently examine the main topic and identify additional useful subtopics, question angles, situations, contrasts, and speaking needs that I may have overlooked. Add them whenever they genuinely belong under the main topic.
+
+Possible dimensions to consider include, when relevant:
+
+* personal habits and routines;
+* preferences and personality;
+* past experiences and memories;
+* descriptions of people, objects, places, activities, or processes;
+* benefits and disadvantages;
+* motivations and obstacles;
+* costs, convenience, and accessibility;
+* skill development and personal growth;
+* family, friendship, and social life;
+* children, teenagers, and education;
+* workplace or professional contexts;
+* technology and social media;
+* culture, identity, and generational differences;
+* environmental or ethical concerns;
+* community action or public policy;
+* current changes and future developments;
+* comparisons between traditional and modern alternatives.
+
+Do not force every dimension into every topic. Include only angles that naturally create useful TOEFL interview questions.
+
+## Main task
+
+Create a comprehensive lexical plan for discussing this topic in spoken English.
+
+Prioritize vocabulary that B1–B2 learners can realistically move into their **active speaking vocabulary**. Most of the material should be natural, flexible, and easy enough to use smoothly under time pressure.
+
+Include some advanced vocabulary, but do not allow rare, literary, excessively formal, or essay-only language to dominate the pack.
+
+As a general balance:
+
+* most items should be high-utility B1–B2 language;
+* some should be strong upper-B2 language;
+* a smaller number may be useful C1-level upgrades.
+
+Do not confuse “advanced” with “unnatural.” A simple expression that students can use accurately is more valuable than a sophisticated expression they are unlikely to use.
+
+## Organize the material
+
+Divide the topic into clear thematic sections. Expand, combine, rename, or reorganize my seed subtopics when that produces a more complete and logical structure.
+
+Under each thematic section, provide two separate parts.
+
+### A. Headwords and their collocations
+
+For each useful headword, give:
+
+**headword** — collocation 1; collocation 2; collocation 3; collocation 4; etc.
+
+Include a useful mixture of:
+
+* nouns;
+* verbs;
+* adjectives;
+* adverbs when genuinely useful;
+* phrasal verbs;
+* common idiomatic expressions that are transparent enough for speaking.
+
+Give several natural collocations for each headword. Include different grammatical patterns when useful, such as:
+
+* adjective + noun;
+* verb + noun;
+* noun + noun;
+* verb + preposition;
+* adjective + preposition;
+* common clause patterns;
+* comparative or contrastive patterns.
+
+Do not manufacture collocations merely to reach a number.
+
+### B. Useful phrases, sentence parts, and free collocations
+
+After the headwords in each section, provide a separate list of useful multi-word chunks that should be learned as complete speaking units.
+
+These may include:
+
+* sentence openings;
+* preference structures;
+* ways to describe experiences;
+* cause-and-effect chunks;
+* comparison structures;
+* concession structures;
+* phrases for discussing advantages and disadvantages;
+* phrases for explaining personal habits;
+* phrases for recommendations and solutions;
+* natural phrasal verbs;
+* common conversational collocations;
+* flexible sentence frames;
+* topic-specific expressions that do not need to be treated as headwords.
+
+Do not force every useful expression into a headword entry. Keep simpler multi-word language in the phrase bank when that is more pedagogically sensible.
+
+## Selection standards
+
+Include language that helps students:
+
+* answer personal questions;
+* describe concrete experiences;
+* explain reasons;
+* compare alternatives;
+* discuss positive and negative effects;
+* give advice;
+* suggest solutions;
+* discuss changes over time;
+* express balanced opinions;
+* talk about children, society, institutions, or the future when relevant.
+
+Avoid:
+
+* duplicate headwords appearing in several sections;
+* multiple phrases that differ by only one insignificant word;
+* obvious inflectional variations presented as separate entries;
+* highly technical terminology with little speaking value;
+* empty academic expressions that could apply to every topic;
+* unnatural collocations;
+* expressions that are mainly useful in formal essays;
+* excessive repetition of words such as good, bad, important, interesting, and useful without better alternatives.
+
+Where overlap between sections is unavoidable, place the item in the section where it is most teachable.
+
+## Output rules
+
+Return plain text only.
+
+Do not give:
+
+* definitions;
+* example sentences;
+* explanations;
+* teaching notes;
+* an introduction;
+* an HTML file;
+* an idea bank;
+* interview questions.
+
+Use this exact general structure:
+
+# Expanded Coverage Map
+
+1. [Subtopic]
+2. [Subtopic]
+3. [Additional subtopic you identified]
+   ...
+
+# 1. [THEMATIC SECTION]
+
+## Headwords and Collocations
+
+* **word** — collocation; collocation; collocation
+* **word** — collocation; collocation; collocation
+
+## Useful Phrases, Sentence Parts, and Free Collocations
+
+* phrase
+* phrase
+* phrase
+
+# 2. [THEMATIC SECTION]
+
+Continue until the topic has been covered thoroughly.
+
+At the end, include:
+
+# Coverage Notes
+
+* **Seed subtopics fully covered:** [list]
+* **Additional subtopics added:** [list]
+* **Potential overlap with other topic packs:** [brief list]
+
+Do not ask follow-up questions. Make reasonable decisions yourself.

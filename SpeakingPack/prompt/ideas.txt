@@ -1,0 +1,163 @@
+# STEP 2 — REUSABLE IDEA BANK
+
+## Input
+
+**MAIN TOPIC:**
+[Insert topic]
+
+**SEED SUBTOPICS:**
+[Insert original taxonomy]
+
+**APPROVED EXPANDED COVERAGE MAP:**
+[Paste the approved section structure from Step 1]
+
+**APPROVED VOCABULARY PLAN:**
+[Paste the approved vocabulary and phrase material from Step 1]
+
+---
+
+## Prompt
+
+You are an expert writer of reusable idea banks for the TOEFL Speaking Interview task.
+
+Create a comprehensive idea bank for:
+
+**MAIN TOPIC:** [INSERT TOPIC]
+
+My original seed subtopics were:
+
+[INSERT SEED SUBTOPICS]
+
+Here is the approved expanded coverage map and vocabulary plan:
+
+[PASTE APPROVED STEP 1 MATERIAL]
+
+The approved structure should guide your organization, but do not assume it covers every possible idea. My original subtopics and the approved sections are **minimum coverage requirements, not strict boundaries**.
+
+Add another idea category when you notice a genuinely useful TOEFL interview angle that is still missing. Do not add categories merely to make the bank look larger.
+
+## Purpose of the idea bank
+
+The ideas should help B1–B2 students answer many different questions without memorizing one complete answer for each question.
+
+Each idea must be:
+
+* reusable across several possible questions;
+* specific enough to produce meaningful development;
+* simple enough to explain naturally in spoken English;
+* suitable for a response of approximately 30–45 seconds;
+* distinct from the surrounding ideas;
+* realistic for students and ordinary adults;
+* adaptable to personal, social, educational, professional, or public contexts when relevant.
+
+The idea bank should not merely repeat facts about the topic. It should give students useful **answer angles**.
+
+## Coverage
+
+Include a broad and balanced mixture of ideas involving, when relevant:
+
+* personal preferences;
+* habits and routines;
+* memorable experiences;
+* convenience and practicality;
+* enjoyment and emotional effects;
+* physical or mental benefits;
+* skill development;
+* identity and self-expression;
+* confidence and independence;
+* social connection;
+* family relationships;
+* children and education;
+* costs and accessibility;
+* obstacles and disadvantages;
+* risks and unintended consequences;
+* fairness and social inequality;
+* environmental or ethical concerns;
+* traditional versus modern approaches;
+* individual responsibility;
+* institutional or government responsibility;
+* short-term versus long-term effects;
+* present conditions and future developments.
+
+Do not force irrelevant political, environmental, technological, or child-related ideas into the topic. Use them only when they create natural speaking content.
+
+Include positive, negative, and balanced ideas. Do not make the entire bank promotional or one-sided.
+
+## Idea quality
+
+Avoid generic claims such as:
+
+* “It is good for people.”
+* “It has many advantages.”
+* “It makes life better.”
+* “People can learn many things.”
+
+Replace them with precise, reusable claims, such as:
+
+* the activity creates structure in a person’s week;
+* the habit reduces decision fatigue;
+* the option is accessible to people with limited time;
+* the experience gives people a shared topic of conversation;
+* the policy may help one group while creating costs for another.
+
+Avoid repeating the same underlying idea with slightly different wording.
+
+For example, “reduces stress,” “helps people relax,” and “makes people feel calmer” should not become three separate ideas unless each one presents a genuinely different mechanism or context.
+
+## Relationship to the vocabulary plan
+
+Use the approved vocabulary and collocations naturally where they fit, but do not turn the idea bank into a vocabulary demonstration.
+
+Do not force advanced vocabulary into every item.
+
+The ideas should remain understandable to B1–B2 students.
+
+## Output format
+
+Return plain text only.
+
+Organize the ideas into numbered thematic sections.
+
+For every idea, use this format:
+
+### [NUMBER]. [Concise reusable idea]
+
+**Use in context:** [Two or three natural sentences showing how the idea could be developed in a TOEFL speaking answer.]
+
+Example of the required level of development:
+
+### 1. A regular activity can create structure in a person’s week.
+
+**Use in context:** If someone attends a class every Saturday morning, the activity gives the week a clear rhythm. It can also motivate the person to organize other responsibilities around it.
+
+The heading should express the reusable idea clearly. The “Use in context” section should explain, illustrate, qualify, or apply the idea rather than simply repeat it.
+
+## Quantity
+
+For each major category, normally provide approximately 8–12 strong ideas.
+
+For a broad topic, the complete bank will usually contain approximately **80–140 ideas**. A particularly broad topic may justify more, while a narrow one may justify fewer.
+
+Do not pad the bank with weak or repetitive ideas merely to reach a target.
+
+## Additional requirements
+
+* Make the ideas varied in grammatical form.
+* Use concrete examples from ordinary life.
+* Include some nuanced ideas with limitations or conditions.
+* Include useful contrasts.
+* Include both individual and broader social angles when appropriate.
+* Do not write complete 45-second sample answers.
+* Do not generate interview questions.
+* Do not reproduce the vocabulary lists.
+* Do not produce HTML.
+* Do not include instructions addressed to students.
+* Do not ask me follow-up questions.
+
+At the end, include:
+
+# Coverage Audit
+
+For each thematic section, briefly state which seed or added subtopics it covers. Also identify any new category you added beyond the approved Step 1 structure.
+
+---
