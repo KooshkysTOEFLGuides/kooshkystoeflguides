@@ -29,7 +29,7 @@ window.KOOSHKY_SECTIONS = [
   },
   {
     "id": "academic_passages_and_lectures",
-    "label": "Academic Passages and Lectures"
+    "label": "Reading and Listening"
   },
   {
     "id": "speaking",
@@ -65,6 +65,15 @@ window.KOOSHKY_CONTENT = [
     "summary": "Amazing set of exercises for activating the grammar you learned from Grammar In Use units 1-25",
     "date": "2026-07-20",
     "publishAt": "2026-07-20T00:00:00+03:30",
+    "featured": true
+  },
+  {
+    "title": "TOEFL Reading and Listening Question and Distractor Types",
+    "href": "Distractors/kooshky_toefl_question_types_distractor_taxonomy.html",
+    "section": "academic_passages_and_lectures",
+    "summary": "Full description of all TOEFL reading and listening question types + full explanation of all distractor types.",
+    "date": "2026-07-23",
+    "publishAt": "2026-07-23T00:00:00+03:30",
     "featured": true
   },
   {
