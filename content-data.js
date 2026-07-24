@@ -59,13 +59,22 @@ window.KOOSHKY_SECTIONS = [
 
 window.KOOSHKY_CONTENT = [
   {
+    "title": "Full Grammar Guide to Embedded Questions",
+    "href": "Grammar/EmbeddedQuestions/embedded_questions_complete_guide.html",
+    "section": "grammar",
+    "summary": "Complete guide to using and understanding embedded questions",
+    "date": "2026-07-24",
+    "publishAt": "2026-07-24T00:00:00+03:30",
+    "featured": true
+  },
+  {
     "title": "Grammar Workbook for Grammar In Use (Intermediate) Units 1-25",
     "href": "Grammar/GrammarInUseWorkbook/kooshky_units_1_25_restore_the_timeline_tense_workbook.html",
     "section": "grammar",
     "summary": "Amazing set of exercises for activating the grammar you learned from Grammar In Use units 1-25",
     "date": "2026-07-20",
     "publishAt": "2026-07-20T00:00:00+03:30",
-    "featured": true
+    "featured": false
   },
   {
     "title": "TOEFL Reading and Listening Question and Distractor Types",
@@ -83,7 +92,7 @@ window.KOOSHKY_CONTENT = [
     "summary": "Persian speakers always struggle with collocations about traffic. So learn it all once and for all!",
     "date": "2026-07-19",
     "publishAt": "2026-07-19T00:00:00+03:30",
-    "featured": true
+    "featured": false
   },
   {
     "title": "Advanced Usages for Comparative Grammars",
@@ -110,7 +119,7 @@ window.KOOSHKY_CONTENT = [
     "summary": "Thousands of words from major TOEFL and academic vocabulary resources, combined and ranked by study priority.",
     "date": "2026-06-26",
     "publishAt": "2026-06-26T00:00:00+03:30",
-    "featured": true
+    "featured": false
   },
   {
     "title": "Kooshky's Transitions, Part I: The Most Useful Transition Words and Phrases",
@@ -236,7 +245,7 @@ window.KOOSHKY_CONTENT = [
     "summary": "The full guide to relative clauses, with improved notes!",
     "date": "2026-07-21",
     "publishAt": "2026-07-21T00:00:00+03:30",
-    "featured": true
+    "featured": false
   },
   {
     "title": "Grammar: Relative Clauses",

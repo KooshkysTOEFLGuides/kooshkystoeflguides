@@ -175,7 +175,83 @@ window.KOOSHKY_WORDS = [
     word: "Pioneer",
     date: "2026-07-26",
     href: "WordOfTheDay/generated/pioneer-extended.html",
+  },
+  {
+    word: "Democratize",
+    date: "2026-07-27",
+    href: "WordOfTheDay/generated/democratize-extended.html",
+  },
+  {
+    word: "Echelon",
+    date: "2026-07-28",
+    href: "WordOfTheDay/generated/echelon-extended.html",
+  },
+  {
+    word: "Residual",
+    date: "2026-07-29",
+    href: "WordOfTheDay/generated/residual-extended.html",
+  },
+  {
+    word: "Clairvoyant",
+    date: "2026-07-30",
+    href: "WordOfTheDay/generated/clairvoyant-extended.html",
+  },
+  {
+    word: "Concurrent",
+    date: "2026-07-31",
+    href: "WordOfTheDay/generated/concurrent-extended.html",
+  },
+  {
+    word: "Globalization",
+    date: "2026-08-01",
+    href: "WordOfTheDay/generated/globalization-extended.html",
+  },
+  {
+    word: "Delimit",
+    date: "2026-08-02",
+    href: "WordOfTheDay/generated/delimit-extended.html",
+  },
+  {
+    word: "Denote",
+    date: "2026-08-03",
+    href: "WordOfTheDay/generated/denote-extended.html",
+  },
+  {
+    word: "Connotation",
+    date: "2026-08-04",
+    href: "WordOfTheDay/generated/connotation-extended.html",
+  },
+  {
+    word: "Delegate",
+    date: "2026-08-05",
+    href: "WordOfTheDay/generated/delegate-extended.html",
+  },
+  {
+    word: "Complacent",
+    date: "2026-08-06",
+    href: "WordOfTheDay/generated/complacent-extended.html",
+  },
+  {
+    word: "Complaisant",
+    date: "2026-08-07",
+    href: "WordOfTheDay/generated/complaisant-extended.html",
+  },
+  {
+    word: "Subjective",
+    date: "2026-08-08",
+    href: "WordOfTheDay/generated/subjective-extended.html",
+  },
+  {
+    word: "Objective",
+    date: "2026-08-09",
+    href: "WordOfTheDay/generated/objective-extended.html",
+  },
+  {
+    word: "Attribute",
+    date: "2026-08-10",
+    href: "WordOfTheDay/generated/attribute-extended.html",
   }
+  
   /*
   {
     word: "Foster",
