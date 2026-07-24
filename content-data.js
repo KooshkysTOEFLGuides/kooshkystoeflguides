@@ -68,6 +68,15 @@ window.KOOSHKY_CONTENT = [
     "featured": true
   },
   {
+    "title": "Comprehensive Transitions Workbook",
+    "href": "Grammar/Transitions/kooshky_toefl_transitions_workbook.html",
+    "section": "grammar",
+    "summary": "Full workbook for practicing transition words and phrases.",
+    "date": "2026-07-25",
+    "publishAt": "2026-07-25T00:00:00+03:30",
+    "featured": false
+  },
+  {
     "title": "Grammar Workbook for Grammar In Use (Intermediate) Units 1-25",
     "href": "Grammar/GrammarInUseWorkbook/kooshky_units_1_25_restore_the_timeline_tense_workbook.html",
     "section": "grammar",
