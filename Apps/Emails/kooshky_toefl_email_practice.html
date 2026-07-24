@@ -1,0 +1,2562 @@
+<!doctype html>
+<html lang="en" data-theme="light">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <meta name="description"
+    content="Practice TOEFL email-writing prompts in timed exam or untimed practice sessions, with automatic local saving and backup support.">
+  <title>TOEFL Email Practice | Kooshky’s TOEFL Guides</title>
+
+  <script>
+    (function () {
+      const THEME_KEY = "kooshky-guides:theme:v1";
+      let theme = "light";
+      try {
+        const saved = localStorage.getItem(THEME_KEY);
+        if (saved === "dark" || saved === "light") theme = saved;
+      } catch (_) { }
+      document.documentElement.dataset.theme = theme;
+      document.documentElement.style.colorScheme = theme;
+    })();
+  </script>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@400;500;600;700&family=Literata:opsz,wght@7..72,600;7..72,700&display=swap"
+    rel="stylesheet">
+  <link id="app-favicon" rel="icon"
+    href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='14' fill='%23FCFAF6'/%3E%3Cpath d='M17 17h30v30H17z' fill='none' stroke='%231E5B63' stroke-width='5'/%3E%3Cpath d='M24 25h16M24 33h16M24 41h10' stroke='%23A9470D' stroke-width='4' stroke-linecap='round'/%3E%3C/svg%3E">
+
+  <style>
+    :root {
+      --page: #F4F0E8;
+      --surface: #FCFAF6;
+      --surface-raised: #FFFFFF;
+      --text: #182027;
+      --muted: #59636C;
+      --border: #D7D0C3;
+      --saffron: #A9470D;
+      --teal: #1E5B63;
+      --saffron-soft: #F3E2D3;
+      --teal-soft: #DDEAE8;
+      --danger: #963B32;
+      --danger-soft: #F3DEDA;
+      --success: #2C684E;
+      --success-soft: #DDEAE2;
+      --warning: #8A5A0B;
+      --shadow: 0 12px 28px rgba(24, 32, 39, 0.08);
+      --radius-sm: 8px;
+      --radius-md: 12px;
+      --radius-lg: 18px;
+      --focus: 0 0 0 3px rgba(30, 91, 99, 0.26);
+      --header-height: 62px;
+    }
+
+    html[data-theme="dark"] {
+      --page: #111417;
+      --surface: #181D21;
+      --surface-raised: #20262B;
+      --text: #ECE7DD;
+      --muted: #ADB4B8;
+      --border: #30383E;
+      --saffron: #F28C45;
+      --teal: #70B7B4;
+      --saffron-soft: #332219;
+      --teal-soft: #193033;
+      --danger: #F19A91;
+      --danger-soft: #3B2322;
+      --success: #8BC7A7;
+      --success-soft: #1D352A;
+      --warning: #F0C36B;
+      --shadow: 0 14px 32px rgba(0, 0, 0, 0.24);
+      --focus: 0 0 0 3px rgba(112, 183, 180, 0.28);
+    }
+
+    * {
+      box-sizing: border-box;
+    }
+
+    html {
+      min-width: 320px;
+      background: var(--page);
+      scroll-behavior: smooth;
+    }
+
+    body {
+      margin: 0;
+      min-height: 100vh;
+      background: var(--page);
+      color: var(--text);
+      font-family: "IBM Plex Sans", system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+      line-height: 1.55;
+      transition: background-color 160ms ease, color 160ms ease;
+    }
+
+    button,
+    input,
+    textarea,
+    select {
+      font: inherit;
+    }
+
+    button,
+    a,
+    input,
+    textarea {
+      -webkit-tap-highlight-color: transparent;
+    }
+
+    a {
+      color: var(--teal);
+    }
+
+    img,
+    svg {
+      display: block;
+    }
+
+    .skip-link {
+      position: fixed;
+      z-index: 1000;
+      top: 8px;
+      left: 8px;
+      transform: translateY(-150%);
+      padding: 10px 14px;
+      background: var(--surface-raised);
+      color: var(--text);
+      border: 1px solid var(--border);
+      border-radius: var(--radius-sm);
+      text-decoration: none;
+      box-shadow: var(--shadow);
+    }
+
+    .skip-link:focus {
+      transform: translateY(0);
+    }
+
+    :focus-visible {
+      outline: 2px solid var(--teal);
+      outline-offset: 2px;
+      box-shadow: var(--focus);
+    }
+
+    .site-header {
+      position: sticky;
+      top: 0;
+      z-index: 50;
+      min-height: var(--header-height);
+      background: color-mix(in srgb, var(--surface) 94%, transparent);
+      border-bottom: 1px solid var(--border);
+      backdrop-filter: blur(10px);
+    }
+
+    .header-inner,
+    .main-shell,
+    .footer-inner {
+      width: min(1180px, calc(100% - 32px));
+      margin-inline: auto;
+    }
+
+    .header-inner {
+      min-height: var(--header-height);
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 16px;
+    }
+
+    .brand {
+      min-width: 0;
+      display: inline-flex;
+      align-items: center;
+      gap: 10px;
+      color: var(--text);
+      text-decoration: none;
+      font-family: "Literata", Georgia, serif;
+      font-weight: 700;
+      letter-spacing: -0.015em;
+    }
+
+    .brand-mark {
+      width: 34px;
+      height: 34px;
+      flex: 0 0 auto;
+      border: 2px solid var(--teal);
+      border-radius: 9px;
+      display: grid;
+      place-items: center;
+      color: var(--saffron);
+      font-family: "IBM Plex Sans", sans-serif;
+      font-weight: 700;
+      font-size: 15px;
+      background: var(--surface);
+    }
+
+    .brand-name {
+      overflow: hidden;
+      text-overflow: ellipsis;
+      white-space: nowrap;
+    }
+
+    .header-actions {
+      display: flex;
+      align-items: center;
+      gap: 8px;
+      flex: 0 0 auto;
+    }
+
+    .header-link,
+    .icon-button {
+      min-height: 40px;
+      border: 1px solid transparent;
+      border-radius: var(--radius-sm);
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      gap: 8px;
+      padding: 8px 12px;
+      color: var(--text);
+      background: transparent;
+      text-decoration: none;
+      cursor: pointer;
+    }
+
+    .header-link:hover,
+    .icon-button:hover {
+      background: var(--teal-soft);
+    }
+
+    .icon-button svg {
+      width: 19px;
+      height: 19px;
+    }
+
+    .main-shell {
+      padding-block: 28px 54px;
+    }
+
+    .app-heading {
+      display: flex;
+      align-items: end;
+      justify-content: space-between;
+      gap: 18px;
+      margin-bottom: 22px;
+    }
+
+    .app-heading h1 {
+      margin: 0;
+      font-family: "Literata", Georgia, serif;
+      font-size: clamp(1.8rem, 3vw, 2.6rem);
+      line-height: 1.14;
+      letter-spacing: -0.025em;
+    }
+
+    .app-heading p {
+      max-width: 720px;
+      margin: 7px 0 0;
+      color: var(--muted);
+    }
+
+    .status-chip {
+      flex: 0 0 auto;
+      display: inline-flex;
+      align-items: center;
+      gap: 8px;
+      padding: 8px 11px;
+      border: 1px solid var(--border);
+      border-radius: 999px;
+      color: var(--muted);
+      background: var(--surface);
+      font-size: 0.91rem;
+      white-space: nowrap;
+    }
+
+    .status-dot {
+      width: 8px;
+      height: 8px;
+      border-radius: 50%;
+      background: var(--success);
+    }
+
+    .storage-warning {
+      display: none;
+      margin-bottom: 16px;
+      padding: 12px 14px;
+      border: 1px solid var(--danger);
+      border-radius: var(--radius-md);
+      background: var(--danger-soft);
+      color: var(--text);
+    }
+
+    .storage-warning.is-visible {
+      display: block;
+    }
+
+    .view {
+      display: none;
+    }
+
+    .view.is-active {
+      display: block;
+    }
+
+    .toolbar {
+      display: grid;
+      grid-template-columns: minmax(220px, 1fr) auto auto;
+      gap: 12px;
+      align-items: end;
+      margin-bottom: 16px;
+      padding: 14px;
+      border: 1px solid var(--border);
+      border-radius: var(--radius-lg);
+      background: var(--surface);
+    }
+
+    .field {
+      min-width: 0;
+    }
+
+    .field label,
+    .control-label {
+      display: block;
+      margin-bottom: 6px;
+      color: var(--muted);
+      font-size: 0.88rem;
+      font-weight: 600;
+    }
+
+    .text-input {
+      width: 100%;
+      min-height: 42px;
+      padding: 9px 12px;
+      color: var(--text);
+      background: var(--surface-raised);
+      border: 1px solid var(--border);
+      border-radius: var(--radius-sm);
+    }
+
+    .text-input::placeholder {
+      color: color-mix(in srgb, var(--muted) 72%, transparent);
+    }
+
+    .filter-group,
+    .backup-actions,
+    .button-row,
+    .editor-actions {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 8px;
+    }
+
+    .button {
+      min-height: 42px;
+      border: 1px solid var(--border);
+      border-radius: var(--radius-sm);
+      padding: 9px 14px;
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      gap: 8px;
+      color: var(--text);
+      background: var(--surface-raised);
+      font-weight: 600;
+      line-height: 1.2;
+      cursor: pointer;
+      text-decoration: none;
+      transition: background-color 120ms ease, border-color 120ms ease, color 120ms ease, transform 120ms ease;
+    }
+
+    .button:hover:not(:disabled) {
+      border-color: var(--teal);
+      transform: translateY(-1px);
+    }
+
+    .button:active:not(:disabled) {
+      transform: translateY(0);
+    }
+
+    .button:disabled {
+      opacity: 0.5;
+      cursor: not-allowed;
+    }
+
+    .button.primary {
+      color: var(--surface);
+      background: var(--teal);
+      border-color: var(--teal);
+    }
+
+    html[data-theme="dark"] .button.primary {
+      color: #111417;
+    }
+
+    .button.secondary {
+      color: var(--saffron);
+      background: var(--saffron-soft);
+      border-color: color-mix(in srgb, var(--saffron) 45%, var(--border));
+    }
+
+    .button.danger {
+      color: var(--danger);
+      background: var(--danger-soft);
+      border-color: color-mix(in srgb, var(--danger) 48%, var(--border));
+    }
+
+    .button.ghost {
+      background: transparent;
+    }
+
+    .button.small {
+      min-height: 36px;
+      padding: 7px 11px;
+      font-size: 0.91rem;
+    }
+
+    .button svg {
+      width: 18px;
+      height: 18px;
+      flex: 0 0 auto;
+    }
+
+    .filter-button[aria-pressed="true"] {
+      color: var(--surface);
+      background: var(--teal);
+      border-color: var(--teal);
+    }
+
+    html[data-theme="dark"] .filter-button[aria-pressed="true"] {
+      color: #111417;
+    }
+
+    .overview {
+      display: flex;
+      justify-content: space-between;
+      gap: 14px;
+      align-items: center;
+      margin-bottom: 13px;
+      color: var(--muted);
+      font-size: 0.94rem;
+    }
+
+    .progress-track {
+      width: min(320px, 45vw);
+      height: 8px;
+      overflow: hidden;
+      background: var(--border);
+      border-radius: 999px;
+    }
+
+    .progress-fill {
+      width: 0%;
+      height: 100%;
+      background: var(--teal);
+      transition: width 180ms ease;
+    }
+
+    .prompt-grid {
+      display: grid;
+      grid-template-columns: repeat(2, minmax(0, 1fr));
+      gap: 14px;
+    }
+
+    .prompt-card {
+      min-width: 0;
+      display: flex;
+      flex-direction: column;
+      gap: 14px;
+      padding: 18px;
+      border: 1px solid var(--border);
+      border-radius: var(--radius-lg);
+      background: var(--surface);
+      box-shadow: 0 1px 0 rgba(24, 32, 39, 0.02);
+    }
+
+    .prompt-card.has-answer {
+      border-color: color-mix(in srgb, var(--success) 56%, var(--border));
+    }
+
+    .card-top {
+      min-width: 0;
+      display: flex;
+      align-items: start;
+      justify-content: space-between;
+      gap: 12px;
+    }
+
+    .prompt-id {
+      display: inline-block;
+      margin-bottom: 5px;
+      color: var(--saffron);
+      font-weight: 700;
+      font-size: 0.83rem;
+      letter-spacing: 0.055em;
+      text-transform: uppercase;
+    }
+
+    .prompt-card h2 {
+      margin: 0;
+      font-family: "Literata", Georgia, serif;
+      font-size: 1.16rem;
+      line-height: 1.3;
+      overflow-wrap: anywhere;
+    }
+
+    .answer-badge {
+      flex: 0 0 auto;
+      display: inline-flex;
+      align-items: center;
+      gap: 6px;
+      padding: 5px 8px;
+      border-radius: 999px;
+      color: var(--muted);
+      background: color-mix(in srgb, var(--border) 55%, transparent);
+      font-size: 0.8rem;
+      font-weight: 600;
+    }
+
+    .answer-badge.complete {
+      color: var(--success);
+      background: var(--success-soft);
+    }
+
+    .card-summary {
+      margin: 0;
+      color: var(--muted);
+      display: -webkit-box;
+      -webkit-box-orient: vertical;
+      -webkit-line-clamp: 3;
+      overflow: hidden;
+    }
+
+    .card-meta {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 8px 14px;
+      color: var(--muted);
+      font-size: 0.86rem;
+    }
+
+    .card-actions {
+      margin-top: auto;
+      display: flex;
+      flex-wrap: wrap;
+      gap: 8px;
+    }
+
+    .empty-state {
+      grid-column: 1 / -1;
+      padding: 34px 18px;
+      text-align: center;
+      color: var(--muted);
+      border: 1px dashed var(--border);
+      border-radius: var(--radius-lg);
+      background: var(--surface);
+    }
+
+    .workspace-header {
+      display: grid;
+      grid-template-columns: auto minmax(0, 1fr) auto;
+      gap: 14px;
+      align-items: center;
+      margin-bottom: 14px;
+    }
+
+    .workspace-title {
+      min-width: 0;
+    }
+
+    .workspace-title .prompt-id {
+      margin: 0 0 2px;
+    }
+
+    .workspace-title h2 {
+      margin: 0;
+      font-family: "Literata", Georgia, serif;
+      font-size: clamp(1.35rem, 2.6vw, 2rem);
+      line-height: 1.2;
+      overflow-wrap: anywhere;
+    }
+
+    .timer-box {
+      min-width: 138px;
+      padding: 9px 12px;
+      border: 1px solid var(--border);
+      border-radius: var(--radius-md);
+      background: var(--surface);
+      text-align: right;
+    }
+
+    .timer-label {
+      display: block;
+      color: var(--muted);
+      font-size: 0.77rem;
+      font-weight: 600;
+      text-transform: uppercase;
+      letter-spacing: 0.06em;
+    }
+
+    .timer-value {
+      display: block;
+      font-variant-numeric: tabular-nums;
+      font-size: 1.34rem;
+      font-weight: 700;
+      line-height: 1.2;
+    }
+
+    .timer-box.warning {
+      border-color: var(--saffron);
+      background: var(--saffron-soft);
+    }
+
+    .timer-box.critical {
+      border-color: var(--danger);
+      background: var(--danger-soft);
+    }
+
+    .workspace-grid {
+      display: grid;
+      grid-template-columns: minmax(290px, 0.9fr) minmax(360px, 1.3fr);
+      gap: 16px;
+      align-items: start;
+    }
+
+    .prompt-panel,
+    .answer-panel {
+      min-width: 0;
+      border: 1px solid var(--border);
+      border-radius: var(--radius-lg);
+      background: var(--surface);
+    }
+
+    .prompt-panel {
+      position: sticky;
+      top: calc(var(--header-height) + 16px);
+      padding: 20px;
+    }
+
+    .prompt-panel p {
+      margin-top: 0;
+    }
+
+    .prompt-panel h3,
+    .answer-panel h3 {
+      margin: 0 0 12px;
+      font-family: "Literata", Georgia, serif;
+      font-size: 1.12rem;
+    }
+
+    .task-list {
+      margin: 13px 0 17px;
+      padding-left: 21px;
+    }
+
+    .task-list li+li {
+      margin-top: 7px;
+    }
+
+    .email-meta {
+      display: grid;
+      gap: 7px;
+      padding: 12px 14px;
+      background: var(--teal-soft);
+      border-left: 4px solid var(--teal);
+      border-radius: var(--radius-sm);
+      overflow-wrap: anywhere;
+    }
+
+    .email-meta strong {
+      color: var(--teal);
+    }
+
+    .mode-note {
+      margin: 16px 0 0;
+      padding-top: 13px;
+      border-top: 1px solid var(--border);
+      color: var(--muted);
+      font-size: 0.9rem;
+    }
+
+    .answer-panel {
+      padding: 18px;
+    }
+
+    .answer-head {
+      display: flex;
+      justify-content: space-between;
+      gap: 12px;
+      align-items: center;
+      margin-bottom: 10px;
+    }
+
+    .answer-head h3 {
+      margin: 0;
+    }
+
+    .save-state {
+      color: var(--muted);
+      font-size: 0.86rem;
+      text-align: right;
+    }
+
+    .answer-textarea {
+      width: 100%;
+      min-height: 480px;
+      resize: vertical;
+      padding: 16px;
+      color: var(--text);
+      background: var(--surface-raised);
+      border: 1px solid var(--border);
+      border-radius: var(--radius-md);
+      line-height: 1.65;
+    }
+
+    .answer-textarea::placeholder {
+      color: color-mix(in srgb, var(--muted) 72%, transparent);
+    }
+
+    .answer-footer {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 14px;
+      margin-top: 12px;
+    }
+
+    .word-count {
+      flex: 0 0 auto;
+      color: var(--muted);
+      font-variant-numeric: tabular-nums;
+      font-weight: 600;
+    }
+
+    .word-count strong {
+      color: var(--text);
+    }
+
+    .site-footer {
+      border-top: 1px solid var(--border);
+      background: var(--surface);
+    }
+
+    .footer-inner {
+      min-height: 92px;
+      padding-block: 18px;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 18px;
+      color: var(--muted);
+      font-size: 0.91rem;
+    }
+
+    .footer-links {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 12px 18px;
+    }
+
+    .footer-links a {
+      color: var(--muted);
+      text-decoration: none;
+    }
+
+    .footer-links a:hover {
+      color: var(--teal);
+      text-decoration: underline;
+    }
+
+    dialog {
+      width: min(580px, calc(100% - 28px));
+      max-height: min(84vh, 760px);
+      overflow: auto;
+      padding: 0;
+      color: var(--text);
+      background: var(--surface);
+      border: 1px solid var(--border);
+      border-radius: var(--radius-lg);
+      box-shadow: var(--shadow);
+    }
+
+    dialog::backdrop {
+      background: rgba(10, 14, 17, 0.62);
+      backdrop-filter: blur(2px);
+    }
+
+    .dialog-body {
+      padding: 22px;
+    }
+
+    .dialog-head {
+      display: flex;
+      align-items: start;
+      justify-content: space-between;
+      gap: 16px;
+      margin-bottom: 14px;
+    }
+
+    .dialog-head h2 {
+      margin: 0;
+      font-family: "Literata", Georgia, serif;
+      font-size: 1.45rem;
+      line-height: 1.25;
+    }
+
+    .dialog-head p,
+    .dialog-body>p {
+      color: var(--muted);
+    }
+
+    .dialog-close {
+      width: 38px;
+      height: 38px;
+      padding: 0;
+      flex: 0 0 auto;
+    }
+
+    .mode-options {
+      display: grid;
+      grid-template-columns: repeat(2, minmax(0, 1fr));
+      gap: 12px;
+      margin-top: 18px;
+    }
+
+    .mode-card {
+      min-width: 0;
+      min-height: 150px;
+      padding: 17px;
+      border: 1px solid var(--border);
+      border-radius: var(--radius-md);
+      color: var(--text);
+      background: var(--surface-raised);
+      text-align: left;
+      cursor: pointer;
+    }
+
+    .mode-card:hover {
+      border-color: var(--teal);
+      background: var(--teal-soft);
+    }
+
+    .mode-card strong {
+      display: block;
+      margin-bottom: 7px;
+      font-size: 1.06rem;
+    }
+
+    .mode-card span {
+      color: var(--muted);
+    }
+
+    .answer-preview {
+      max-height: 50vh;
+      overflow: auto;
+      margin: 14px 0;
+      padding: 16px;
+      border: 1px solid var(--border);
+      border-radius: var(--radius-md);
+      background: var(--surface-raised);
+      white-space: pre-wrap;
+      overflow-wrap: anywhere;
+      line-height: 1.65;
+    }
+
+    .preview-meta {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 8px 16px;
+      color: var(--muted);
+      font-size: 0.9rem;
+    }
+
+    .dialog-actions {
+      display: flex;
+      justify-content: flex-end;
+      flex-wrap: wrap;
+      gap: 8px;
+      margin-top: 18px;
+    }
+
+    .toast-region {
+      position: fixed;
+      z-index: 200;
+      right: max(16px, env(safe-area-inset-right));
+      bottom: max(16px, env(safe-area-inset-bottom));
+      width: min(360px, calc(100% - 32px));
+      display: grid;
+      gap: 8px;
+      pointer-events: none;
+    }
+
+    .toast {
+      padding: 12px 14px;
+      color: var(--text);
+      background: var(--surface-raised);
+      border: 1px solid var(--border);
+      border-left: 4px solid var(--teal);
+      border-radius: var(--radius-md);
+      box-shadow: var(--shadow);
+      animation: toastIn 160ms ease-out;
+    }
+
+    .toast.error {
+      border-left-color: var(--danger);
+    }
+
+    .toast.success {
+      border-left-color: var(--success);
+    }
+
+    @keyframes toastIn {
+      from {
+        transform: translateY(8px);
+        opacity: 0;
+      }
+
+      to {
+        transform: translateY(0);
+        opacity: 1;
+      }
+    }
+
+    .time-flash {
+      position: fixed;
+      inset: 0;
+      z-index: 180;
+      pointer-events: none;
+      opacity: 0;
+      border: 10px solid var(--saffron);
+    }
+
+    .time-flash.is-active {
+      animation: timeFlash 900ms ease-out 2;
+    }
+
+    @keyframes timeFlash {
+
+      0%,
+      100% {
+        opacity: 0;
+      }
+
+      35% {
+        opacity: 1;
+        background: color-mix(in srgb, var(--saffron-soft) 36%, transparent);
+      }
+    }
+
+    [hidden] {
+      display: none !important;
+    }
+
+    .sr-only {
+      position: absolute !important;
+      width: 1px !important;
+      height: 1px !important;
+      padding: 0 !important;
+      margin: -1px !important;
+      overflow: hidden !important;
+      clip: rect(0, 0, 0, 0) !important;
+      white-space: nowrap !important;
+      border: 0 !important;
+    }
+
+    @media (max-width: 900px) {
+      .toolbar {
+        grid-template-columns: 1fr;
+        align-items: stretch;
+      }
+
+      .prompt-grid {
+        grid-template-columns: 1fr;
+      }
+
+      .workspace-grid {
+        grid-template-columns: 1fr;
+      }
+
+      .prompt-panel {
+        position: static;
+      }
+
+      .answer-textarea {
+        min-height: 420px;
+      }
+    }
+
+    @media (max-width: 640px) {
+
+      .header-inner,
+      .main-shell,
+      .footer-inner {
+        width: min(100% - 22px, 1180px);
+      }
+
+      .header-link .link-text {
+        display: none;
+      }
+
+      .app-heading {
+        align-items: start;
+        flex-direction: column;
+      }
+
+      .status-chip {
+        align-self: flex-start;
+      }
+
+      .overview {
+        align-items: stretch;
+        flex-direction: column;
+      }
+
+      .progress-track {
+        width: 100%;
+      }
+
+      .workspace-header {
+        grid-template-columns: auto minmax(0, 1fr);
+      }
+
+      .timer-box {
+        grid-column: 1 / -1;
+        width: 100%;
+        text-align: left;
+      }
+
+      .timer-box>* {
+        display: inline;
+      }
+
+      .timer-label {
+        margin-right: 8px;
+      }
+
+      .answer-footer {
+        align-items: stretch;
+        flex-direction: column-reverse;
+      }
+
+      .editor-actions {
+        width: 100%;
+      }
+
+      .editor-actions .button {
+        flex: 1 1 auto;
+      }
+
+      .word-count {
+        align-self: flex-end;
+      }
+
+      .mode-options {
+        grid-template-columns: 1fr;
+      }
+
+      .footer-inner {
+        align-items: flex-start;
+        flex-direction: column;
+      }
+    }
+
+    @media (max-width: 390px) {
+      .main-shell {
+        padding-top: 20px;
+      }
+
+      .brand-name {
+        max-width: 190px;
+      }
+
+      .prompt-card,
+      .prompt-panel,
+      .answer-panel {
+        padding: 15px;
+      }
+
+      .card-actions .button {
+        flex: 1 1 auto;
+      }
+
+      .filter-group .button {
+        flex: 1 1 30%;
+      }
+
+      .backup-actions .button {
+        flex: 1 1 auto;
+      }
+
+      .dialog-body {
+        padding: 18px;
+      }
+    }
+
+    @media (prefers-reduced-motion: reduce) {
+
+      *,
+      *::before,
+      *::after {
+        scroll-behavior: auto !important;
+        animation-duration: 0.01ms !important;
+        animation-iteration-count: 1 !important;
+        transition-duration: 0.01ms !important;
+      }
+
+      .time-flash.is-active {
+        opacity: 1;
+        background: transparent;
+      }
+    }
+  </style>
+</head>
+
+<body>
+  <a class="skip-link" href="#app-main">Skip to app</a>
+
+  <header class="site-header">
+    <div class="header-inner">
+      <a class="brand home-link" href="/" aria-label="Kooshky’s TOEFL Guides home">
+        <span class="brand-mark" aria-hidden="true">KT</span>
+        <span class="brand-name">Kooshky’s TOEFL Guides</span>
+      </a>
+
+      <nav class="header-actions" aria-label="Primary navigation">
+        <a class="header-link home-link" href="/">
+          <svg viewBox="0 0 24 24" aria-hidden="true">
+            <path d="M3 11.5 12 4l9 7.5v8a1 1 0 0 1-1 1h-5.5v-6h-5v6H4a1 1 0 0 1-1-1z" fill="none" stroke="currentColor"
+              stroke-width="1.8" stroke-linejoin="round" />
+          </svg>
+          <span class="link-text">Home</span>
+        </a>
+        <button class="icon-button" id="theme-toggle" type="button" aria-pressed="false"
+          aria-label="Switch to dark mode">
+          <svg id="theme-icon" viewBox="0 0 24 24" aria-hidden="true"></svg>
+          <span class="link-text" id="theme-label">Dark</span>
+        </button>
+      </nav>
+    </div>
+  </header>
+
+  <main class="main-shell" id="app-main" tabindex="-1">
+    <section class="app-heading" aria-labelledby="app-title">
+      <div>
+        <h1 id="app-title">TOEFL Email Practice</h1>
+        <p>Choose a prompt, write in practice or exam mode, and keep your work saved automatically on this device.</p>
+      </div>
+      <div class="status-chip" id="storage-status" title="Answers are saved in this browser">
+        <span class="status-dot" aria-hidden="true"></span>
+        <span>Local autosave active</span>
+      </div>
+    </section>
+
+    <div class="storage-warning" id="storage-warning" role="status">
+      Browser storage is unavailable. Your answers will remain available only until this page is closed, so download a
+      backup before leaving.
+    </div>
+
+    <section class="view is-active" id="list-view" aria-labelledby="prompt-list-title">
+      <h2 id="prompt-list-title" class="sr-only">Prompt list</h2>
+
+      <div class="toolbar">
+        <div class="field">
+          <label for="prompt-search">Search prompts</label>
+          <input class="text-input" id="prompt-search" type="search" placeholder="Search by ID, title, or topic"
+            autocomplete="off">
+        </div>
+
+        <div>
+          <span class="control-label">Show</span>
+          <div class="filter-group" role="group" aria-label="Filter prompts">
+            <button class="button small filter-button" type="button" data-filter="all" aria-pressed="true">All</button>
+            <button class="button small filter-button" type="button" data-filter="answered"
+              aria-pressed="false">Answered</button>
+            <button class="button small filter-button" type="button" data-filter="unanswered"
+              aria-pressed="false">Unanswered</button>
+          </div>
+        </div>
+
+        <div>
+          <span class="control-label">Backup</span>
+          <div class="backup-actions">
+            <button class="button small" id="export-button" type="button">
+              <svg viewBox="0 0 24 24" aria-hidden="true">
+                <path d="M12 3v12m0 0 4-4m-4 4-4-4M5 17v3h14v-3" fill="none" stroke="currentColor" stroke-width="1.8"
+                  stroke-linecap="round" stroke-linejoin="round" />
+              </svg>
+              Download
+            </button>
+            <button class="button small" id="import-button" type="button">
+              <svg viewBox="0 0 24 24" aria-hidden="true">
+                <path d="M12 15V3m0 0 4 4m-4-4L8 7M5 17v3h14v-3" fill="none" stroke="currentColor" stroke-width="1.8"
+                  stroke-linecap="round" stroke-linejoin="round" />
+              </svg>
+              Load
+            </button>
+            <input id="import-file" class="sr-only" type="file" accept="application/json,.json">
+          </div>
+        </div>
+      </div>
+
+      <div class="overview">
+        <div id="progress-text">0 of 9 prompts answered</div>
+        <div class="progress-track" role="progressbar" aria-label="Answered prompts" aria-valuemin="0" aria-valuemax="9"
+          aria-valuenow="0">
+          <div class="progress-fill" id="progress-fill"></div>
+        </div>
+      </div>
+
+      <div class="prompt-grid" id="prompt-grid"></div>
+    </section>
+
+    <section class="view" id="workspace-view" aria-labelledby="workspace-prompt-title">
+      <div class="workspace-header">
+        <button class="button ghost small" id="back-button" type="button">
+          <svg viewBox="0 0 24 24" aria-hidden="true">
+            <path d="m15 5-7 7 7 7" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linecap="round"
+              stroke-linejoin="round" />
+          </svg>
+          Back
+        </button>
+
+        <div class="workspace-title">
+          <span class="prompt-id" id="workspace-prompt-id"></span>
+          <h2 id="workspace-prompt-title"></h2>
+        </div>
+
+        <div class="timer-box" id="timer-box" aria-live="off">
+          <span class="timer-label" id="timer-label">Practice time</span>
+          <output class="timer-value" id="timer-value">00:00</output>
+        </div>
+      </div>
+
+      <div class="workspace-grid">
+        <article class="prompt-panel" aria-labelledby="prompt-panel-title">
+          <h3 id="prompt-panel-title">Your task</h3>
+          <div id="prompt-context"></div>
+          <p><strong>Write an email to <span id="prompt-recipient-inline"></span>. In your email, do the
+              following:</strong></p>
+          <ul class="task-list" id="prompt-tasks"></ul>
+          <p id="prompt-instruction"></p>
+          <div class="email-meta">
+            <div><strong>To:</strong> <span id="prompt-recipient"></span></div>
+            <div><strong>Subject:</strong> <span id="prompt-subject"></span></div>
+          </div>
+          <p class="mode-note" id="mode-note"></p>
+        </article>
+
+        <section class="answer-panel" aria-labelledby="answer-heading">
+          <div class="answer-head">
+            <h3 id="answer-heading">Your response</h3>
+            <span class="save-state" id="save-state" aria-live="polite">Saved</span>
+          </div>
+
+          <label class="sr-only" for="answer-box">Type your email response</label>
+          <textarea class="answer-textarea" id="answer-box" spellcheck="true"
+            placeholder="Write your email here…"></textarea>
+
+          <div class="answer-footer">
+            <div class="editor-actions">
+              <button class="button small" id="finish-practice-button" type="button">Finish and return</button>
+              <button class="button small danger" id="clear-answer-button" type="button">Clear answer</button>
+            </div>
+            <output class="word-count" id="word-count" aria-live="polite"><strong>0</strong> words</output>
+          </div>
+        </section>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="footer-inner">
+      <div>© <span id="current-year"></span> Amir Kooshky</div>
+      <nav class="footer-links" aria-label="Footer navigation">
+        <a class="home-link" href="/">Home</a>
+        <a href="https://telegram.me/KooshkyTOEFL" target="_blank" rel="noopener noreferrer">Telegram</a>
+        <a href="https://instagram.com/kooshkytoefl" target="_blank" rel="noopener noreferrer">Instagram</a>
+        <a href="https://telegram.me/kooshkyTOEFL_pv" target="_blank" rel="noopener noreferrer">Direct message</a>
+      </nav>
+    </div>
+  </footer>
+
+  <dialog id="mode-dialog" aria-labelledby="mode-dialog-title">
+    <div class="dialog-body">
+      <div class="dialog-head">
+        <div>
+          <h2 id="mode-dialog-title">Choose a mode</h2>
+          <p id="mode-dialog-subtitle">Select how you want to complete this prompt.</p>
+        </div>
+        <button class="button ghost dialog-close" id="mode-close" type="button" aria-label="Close mode selection">
+          <svg viewBox="0 0 24 24" aria-hidden="true">
+            <path d="m6 6 12 12M18 6 6 18" fill="none" stroke="currentColor" stroke-width="1.8"
+              stroke-linecap="round" />
+          </svg>
+        </button>
+      </div>
+
+      <div class="mode-options">
+        <button class="mode-card" id="practice-mode-button" type="button">
+          <strong>Practice mode</strong>
+          <span>The timer counts up. At seven minutes, you receive a reminder but may continue writing.</span>
+        </button>
+        <button class="mode-card" id="exam-mode-button" type="button">
+          <strong>Exam mode</strong>
+          <span>The timer counts down from seven minutes. When time ends, the response closes automatically.</span>
+        </button>
+      </div>
+    </div>
+  </dialog>
+
+  <dialog id="answer-dialog" aria-labelledby="answer-dialog-title">
+    <div class="dialog-body">
+      <div class="dialog-head">
+        <div>
+          <h2 id="answer-dialog-title">Saved answer</h2>
+          <p id="answer-dialog-subtitle"></p>
+        </div>
+        <button class="button ghost dialog-close" id="answer-dialog-close" type="button"
+          aria-label="Close saved answer">
+          <svg viewBox="0 0 24 24" aria-hidden="true">
+            <path d="m6 6 12 12M18 6 6 18" fill="none" stroke="currentColor" stroke-width="1.8"
+              stroke-linecap="round" />
+          </svg>
+        </button>
+      </div>
+      <div class="preview-meta" id="answer-preview-meta"></div>
+      <div class="answer-preview" id="answer-preview"></div>
+      <div class="dialog-actions">
+        <button class="button" id="copy-answer-button" type="button">Copy answer</button>
+        <button class="button primary" id="answer-dialog-done" type="button">Close</button>
+      </div>
+    </div>
+  </dialog>
+
+  <dialog id="practice-time-dialog" aria-labelledby="practice-time-title">
+    <div class="dialog-body">
+      <div class="dialog-head">
+        <div>
+          <h2 id="practice-time-title">Seven minutes reached</h2>
+          <p>You have reached the recommended TOEFL writing time. Your answer is saved, and you may continue if you need
+            more time.</p>
+        </div>
+      </div>
+      <div class="dialog-actions">
+        <button class="button" id="practice-return-button" type="button">Return to prompt list</button>
+        <button class="button primary" id="practice-continue-button" type="button">Continue writing</button>
+      </div>
+    </div>
+  </dialog>
+
+  <dialog id="exam-complete-dialog" aria-labelledby="exam-complete-title">
+    <div class="dialog-body">
+      <div class="dialog-head">
+        <div>
+          <h2 id="exam-complete-title">Time is up</h2>
+          <p>Your response has been saved. Review what you wrote below.</p>
+        </div>
+      </div>
+      <div class="preview-meta" id="exam-preview-meta"></div>
+      <div class="answer-preview" id="exam-answer-preview"></div>
+      <div class="dialog-actions">
+        <button class="button primary" id="exam-return-button" type="button">Return to prompt list</button>
+      </div>
+    </div>
+  </dialog>
+
+  <dialog id="confirm-dialog" aria-labelledby="confirm-dialog-title">
+    <div class="dialog-body">
+      <div class="dialog-head">
+        <div>
+          <h2 id="confirm-dialog-title">Clear this answer?</h2>
+          <p id="confirm-dialog-text">This removes the saved response for this prompt from the browser.</p>
+        </div>
+      </div>
+      <div class="dialog-actions">
+        <button class="button" id="confirm-cancel-button" type="button">Cancel</button>
+        <button class="button danger" id="confirm-clear-button" type="button">Clear answer</button>
+      </div>
+    </div>
+  </dialog>
+
+  <div class="toast-region" id="toast-region" aria-live="polite" aria-atomic="true"></div>
+  <div class="time-flash" id="time-flash" aria-hidden="true"></div>
+
+  <script>
+    "use strict";
+
+    /* ======================================================================
+       PROMPT DATA — EDIT THIS BLOCK TO ADD, REMOVE, OR CHANGE QUESTIONS.
+
+       Each prompt follows this schema:
+       {
+         id: "TE-001",             // unique ID
+         title: "Prompt title",     // title shown in the list
+         recipient: "Ms. Name",     // email recipient
+         subject: "Email subject",  // supplied subject line
+         context: "Scenario text",  // situation shown before the requirements
+         tasks: [                    // exactly three required content points
+           "First requirement.",
+           "Second requirement.",
+           "Third requirement."
+         ],
+         instruction: "Write as much as you can and in complete sentences."
+       }
+       ====================================================================== */
+
+    const PROMPTS = [
+      {
+        id: "TE-001",
+        title: "Interview Recording Room",
+        recipient: "Ms. Bennett",
+        subject: "Request to Change Interview Recording Room",
+        context: "You recently agreed to record an interview for your university’s student radio station. However, the recording room you reserved is located next to an area where construction work has unexpectedly begun. You are concerned that the noise may affect the quality of the interview. You need to contact the station coordinator, Ms. Bennett, about the situation.",
+        tasks: [
+          "Explain when the interview is scheduled and why it is important.",
+          "Describe your concerns about recording in the reserved room.",
+          "Ask whether a quieter room or another suitable arrangement is available."
+        ],
+        instruction: "Write as much as you can and in complete sentences."
+      },
+      {
+        id: "TE-002",
+        title: "Correction to a Published Article",
+        recipient: "Mr. Harris",
+        subject: "Request to Correct Published Article",
+        context: "You recently wrote an article for your university’s student newspaper. After the article was published, you noticed that an important fact in it was presented incorrectly. You are concerned that readers may misunderstand the topic, so you need to contact the newspaper editor, Mr. Harris.",
+        tasks: [
+          "Identify the article and describe the incorrect information.",
+          "Explain why correcting the information is important.",
+          "Ask whether a correction can be published in the next edition."
+        ],
+        instruction: "Write as much as you can and in complete sentences."
+      },
+      {
+        id: "TE-003",
+        title: "Peer Mentor Training Conflict",
+        recipient: "Ms. Wilson",
+        subject: "Conflict with Peer Mentor Training",
+        context: "You have volunteered to serve as a peer mentor for new students at your university. However, the required mentor-training session is scheduled at the same time as one of your laboratory classes. You need to contact the program coordinator, Ms. Wilson, about the conflict.",
+        tasks: [
+          "Explain the scheduling conflict.",
+          "Describe why you would still like to participate in the mentoring program.",
+          "Ask whether you can attend another training session or complete the training in a different way."
+        ],
+        instruction: "Write as much as you can and in complete sentences."
+      },
+      {
+        id: "TE-004",
+        title: "Borrowing Media Equipment",
+        recipient: "Ms. Green",
+        subject: "Inquiry About Borrowing Media Equipment",
+        context: "You are preparing a short documentary for one of your university courses and need to borrow a camera and microphone from the campus media center. You have never borrowed equipment from the center before, so you want to contact the equipment manager, Ms. Green, for information.",
+        tasks: [
+          "Explain the documentary project and when you need the equipment.",
+          "Ask which cameras and microphones are available for students.",
+          "Inquire about the borrowing procedure and any training requirements."
+        ],
+        instruction: "Write as much as you can and in complete sentences."
+      },
+      {
+        id: "TE-005",
+        title: "Language-Exchange Partner Issue",
+        recipient: "Ms. Foster",
+        subject: "Language-Exchange Partner Issue",
+        context: "You recently signed up to participate in a language-exchange program at your university. However, you have not been able to contact the student assigned as your conversation partner. You want to inform the program coordinator, Ms. Foster, about the situation.",
+        tasks: [
+          "Explain when you joined the program and how you tried to contact your partner.",
+          "Describe why participating in the language exchange is important to you.",
+          "Ask whether she can help you contact your partner or assign you a new one."
+        ],
+        instruction: "Write as much as you can and in complete sentences."
+      },
+      {
+        id: "TE-006",
+        title: "New Campus Shuttle Stop",
+        recipient: "Mr. Walker",
+        subject: "Concern About New Shuttle Stop Location",
+        context: "Your university recently changed the location of one of the campus shuttle stops. The new location is difficult for many students to reach, especially in the evening. You want to share your concerns with the transportation coordinator, Mr. Walker.",
+        tasks: [
+          "Describe the change to the shuttle stop location.",
+          "Explain how the new location is affecting you and other students.",
+          "Suggest a more convenient location or another possible solution."
+        ],
+        instruction: "Write as much as you can and in complete sentences."
+      },
+      {
+        id: "TE-007",
+        title: "Increasing Tutoring Attendance",
+        recipient: "Ms. Reed",
+        subject: "Ideas for Increasing Tutoring Attendance",
+        context: "You have been volunteering as a tutor in an after-school program for local children. Recently, fewer children have been attending the tutoring sessions. You have some ideas for increasing participation and want to share them with the volunteer coordinator, Ms. Reed.",
+        tasks: [
+          "Describe the change you have noticed in student attendance.",
+          "Explain why increasing participation would benefit the children.",
+          "Suggest ways to encourage more students to attend and offer to help."
+        ],
+        instruction: "Write as much as you can and in complete sentences."
+      },
+      {
+        id: "TE-008",
+        title: "Study Room Reservation Error",
+        recipient: "Mr. Cooper",
+        subject: "Problem with Study Room Reservation",
+        context: "You recently reserved a small study room in the university library for an important group presentation rehearsal. When your group arrived, another group was using the room because of an apparent reservation error. You want to report the problem to the library services manager, Mr. Cooper.",
+        tasks: [
+          "Explain when you reserved the room and what happened when you arrived.",
+          "Describe how the situation affected your group’s preparation.",
+          "Ask how similar reservation problems can be prevented in the future."
+        ],
+        instruction: "Write as much as you can and in complete sentences."
+      },
+      {
+        id: "TE-009",
+        title: "Campus Exhibition Space",
+        recipient: "Ms. Morgan",
+        subject: "Request to Use Campus Space for Exhibition",
+        context: "Your class is planning to create a small exhibition of student projects in a campus building. You have identified an empty area that may be suitable for the exhibition and need permission to use it. You want to contact the building manager, Ms. Morgan.",
+        tasks: [
+          "Explain the purpose of the exhibition and when it will take place.",
+          "Describe why the proposed area would be suitable.",
+          "Ask for permission to use the space and inquire about any rules you must follow."
+        ],
+        instruction: "Write as much as you can and in complete sentences."
+      },
+      {
+        id: "TE-010",
+        title: "Problem with Student ID Card",
+        recipient: "Ms. Price",
+        subject: "Problem with Student ID Card",
+        context: "You recently received a new student identification card from your university. However, the card has not been working properly, and this has caused some difficulties for you. You need to contact the student services manager, Ms. Price.",
+        tasks: [
+          "Describe the problems you have experienced with the card.",
+          "Explain how these problems have affected you.",
+          "Ask what can be done to repair or replace the card."
+        ],
+        instruction: "Write as much as you can and in complete sentences."
+      },
+      {
+        id: "TE-011",
+        title: "Student Photography Contest Submission",
+        recipient: "Mr. Brooks",
+        subject: "Problem with Photography Contest Submission",
+        context: "You recently submitted a photograph to a student photography contest organized by your university. However, you did not receive a confirmation message, and the submission deadline has now passed. You need to contact the contest coordinator, Mr. Brooks.",
+        tasks: [
+          "Explain when and how you submitted your photograph.",
+          "Describe why you are concerned that the submission may not have been received.",
+          "Ask him to confirm your entry or allow you to submit the photograph again."
+        ],
+        instruction: "Write as much as you can and in complete sentences."
+      },
+      {
+        id: "TE-012",
+        title: "Dietary Information at Campus Café",
+        recipient: "Ms. Patel",
+        subject: "Inquiry About Café Ingredients",
+        context: "You often eat at a café near your university. You recently developed a food allergy and need more information about the ingredients used in the café’s meals. You want to contact the café manager, Ms. Patel, before visiting again.",
+        tasks: [
+          "Explain which meals you usually purchase from the café.",
+          "Describe your dietary concern and the information you need.",
+          "Ask whether suitable meal options or ingredient lists are available."
+        ],
+        instruction: "Write as much as you can and in complete sentences."
+      },
+      {
+        id: "TE-013",
+        title: "Guest Speaker for Debate Club",
+        recipient: "Dr. Collins",
+        subject: "Invitation to Speak at Debate Club Meeting",
+        context: "You are helping organize an upcoming meeting of your university’s debate club. The club would like to invite a professor, Dr. Collins, to speak about effective public speaking and argumentation. You need to contact her about the event.",
+        tasks: [
+          "Explain the purpose of the meeting and when it will take place.",
+          "Describe why you believe her experience would benefit the club members.",
+          "Invite her to speak and ask whether she has any special requirements."
+        ],
+        instruction: "Write as much as you can and in complete sentences."
+      },
+      {
+        id: "TE-014",
+        title: "Problem with Residence Hall Laundry Machine",
+        recipient: "Mr. Hughes",
+        subject: "Laundry Machine Problem in Residence Hall",
+        context: "You recently used a washing machine in your university residence hall. The machine stopped before completing the washing cycle, but it did not return your payment. You want to report the problem to the residence hall facilities manager, Mr. Hughes.",
+        tasks: [
+          "Describe which machine you used and what happened.",
+          "Explain how the problem inconvenienced you.",
+          "Request a refund and ask when the machine will be repaired."
+        ],
+        instruction: "Write as much as you can and in complete sentences."
+      },
+      {
+        id: "TE-015",
+        title: "Delayed Textbook Order",
+        recipient: "Mr. Carter",
+        subject: "Problem with Textbook Order",
+        context: "You recently ordered a textbook from your university bookstore for one of your courses. The book has not arrived, and you are concerned about falling behind in the class. You need to contact the bookstore manager, Mr. Carter.",
+        tasks: [
+          "Explain which textbook you ordered and when you placed the order.",
+          "Describe how the delay is affecting your studies.",
+          "Ask what options are available while you wait for the book."
+        ],
+        instruction: "Write as much as you can and in complete sentences."
+      },
+      {
+        id: "TE-016",
+        title: "Missing Materials on Course Website",
+        recipient: "Dr. Wilson",
+        subject: "Missing Materials on Course Website",
+        context: "You are taking a university course that uses an online website for assignments and study materials. Recently, some important materials have not been available on the website. You want to inform your professor, Dr. Wilson.",
+        tasks: [
+          "Describe which course materials you have been unable to access.",
+          "Explain how this problem is affecting your preparation for the course.",
+          "Ask for help obtaining the materials or resolving the problem."
+        ],
+        instruction: "Write as much as you can and in complete sentences."
+      },
+      {
+        id: "TE-017",
+        title: "Change to Volunteer Schedule",
+        recipient: "Ms. Evans",
+        subject: "Request to Change Volunteer Schedule",
+        context: "You recently began volunteering at a local community centre. Your current volunteer schedule has become difficult for you to follow, but you would still like to continue helping. You need to contact the volunteer coordinator, Ms. Evans.",
+        tasks: [
+          "Explain why the current schedule has become difficult for you.",
+          "Describe why you would like to continue volunteering.",
+          "Suggest another schedule and ask whether it can be arranged."
+        ],
+        instruction: "Write as much as you can and in complete sentences."
+      },
+      {
+        id: "TE-018",
+        title: "Concerns About a Class Presentation",
+        recipient: "Professor Adams",
+        subject: "Question About Class Presentation",
+        context: "You are preparing an important presentation for one of your university courses. You are uncertain about some of the presentation requirements and want to make sure that you prepare appropriately. You need to contact your professor, Professor Adams.",
+        tasks: [
+          "Explain the topic of your presentation and how you have prepared so far.",
+          "Describe the requirements that are unclear to you.",
+          "Ask for clarification and any advice on improving your presentation."
+        ],
+        instruction: "Write as much as you can and in complete sentences."
+      },
+      {
+        id: "TE-019",
+        title: "Noise in the Library Study Area",
+        recipient: "Ms. Bennett",
+        subject: "Concern About Library Study Area",
+        context: "You regularly use a study area in your university library. Recently, the area has often been too noisy for students to work effectively. You want to report the problem to the library manager, Ms. Bennett.",
+        tasks: [
+          "Describe the noise problems you have noticed in the study area.",
+          "Explain how the situation is affecting you and other students.",
+          "Suggest ways the library could make the area more suitable for studying."
+        ],
+        instruction: "Write as much as you can and in complete sentences."
+      },
+      {
+        id: "TE-020",
+        title: "Request to Join a Full Course",
+        recipient: "Dr. Morgan",
+        subject: "Request to Join Your Course",
+        context: "You are interested in taking a university course taught by Dr. Morgan, but the course is currently full. You believe the course would be valuable for your academic goals and want to ask whether joining it may still be possible.",
+        tasks: [
+          "Explain why you are interested in taking the course.",
+          "Describe how the course relates to your academic goals or experience.",
+          "Ask whether you can join the course or be considered if a place becomes available."
+        ],
+        instruction: "Write as much as you can and in complete sentences."
+      },
+      {
+        id: "TE-021",
+        title: "Changes to Local Bus Service",
+        recipient: "Mr. Lewis",
+        subject: "Concerns About Local Bus Service",
+        context: "You regularly use a local bus service to travel around your area. Recently, some changes to the service have made your journeys less convenient. You want to share your concerns with the transportation manager, Mr. Lewis.",
+        tasks: [
+          "Describe the changes you have noticed in the bus service.",
+          "Explain how these changes have affected you and other passengers.",
+          "Suggest ways the service could be improved."
+        ],
+        instruction: "Write as much as you can and in complete sentences."
+      },
+      {
+        id: "TE-022",
+        title: "Feedback on Grocery Delivery Service",
+        recipient: "Ms. Harris",
+        subject: "Feedback on Grocery Delivery Service",
+        context: "You have recently started using a grocery delivery service. Although you find the service convenient, you have experienced some problems with your orders. You want to provide feedback to the customer service manager, Ms. Harris.",
+        tasks: [
+          "Explain what you find useful about the delivery service.",
+          "Describe the problems you have experienced with your orders.",
+          "Ask how the company can resolve these problems in the future."
+        ],
+        instruction: "Write as much as you can and in complete sentences."
+      },
+      {
+        id: "TE-023",
+        title: "Request to Change Music Lesson Time",
+        recipient: "Mr. Foster",
+        subject: "Request to Change Music Lesson Schedule",
+        context: "You take weekly music lessons at a local music school. Your current lesson time has become difficult for you, but you would like to continue studying with the same instructor. You need to contact the school coordinator, Mr. Foster.",
+        tasks: [
+          "Explain why the current lesson time is no longer convenient.",
+          "Describe why you would like to continue taking the lessons.",
+          "Suggest alternative times and ask whether the schedule can be changed."
+        ],
+        instruction: "Write as much as you can and in complete sentences."
+      },
+      {
+        id: "TE-024",
+        title: "Feedback on Public Swimming Pool",
+        recipient: "Ms. Turner",
+        subject: "Feedback on Swimming Pool Facilities",
+        context: "You regularly visit a public swimming pool in your area. You enjoy using the facility, but you have noticed several issues that affect visitors. You want to contact the pool manager, Ms. Turner.",
+        tasks: [
+          "Describe what you enjoy about the swimming pool.",
+          "Explain the issues you have noticed at the facility.",
+          "Suggest changes that could improve the experience for visitors."
+        ],
+        instruction: "Write as much as you can and in complete sentences."
+      },
+      {
+        id: "TE-025",
+        title: "Inquiry About Photography Workshop",
+        recipient: "Mr. Bennett",
+        subject: "Inquiry About Photography Workshop",
+        context: "You recently learned about a photography workshop being offered at a local arts center. You are interested in attending but need more information before registering. You want to contact the workshop organizer, Mr. Bennett.",
+        tasks: [
+          "Explain why you are interested in the photography workshop.",
+          "Ask about the workshop schedule and the topics it will cover.",
+          "Inquire about registration, cost, and any materials participants need."
+        ],
+        instruction: "Write as much as you can and in complete sentences."
+      },
+      {
+        id: "TE-026",
+        title: "Support for Neighborhood Event",
+        recipient: "Ms. Clark",
+        subject: "Request for Support for Neighborhood Event",
+        context: "You are helping organize an event for people in your neighborhood. You would like to ask a local business owner, Ms. Clark, to support the event in some way.",
+        tasks: [
+          "Describe the event and its purpose.",
+          "Explain how the event will benefit the local community.",
+          "Ask whether her business can provide support and suggest how it could help."
+        ],
+        instruction: "Write as much as you can and in complete sentences."
+      },
+      {
+        id: "TE-027",
+        title: "Problem with Mobile Phone Repair",
+        recipient: "Mr. Daniels",
+        subject: "Problem After Mobile Phone Repair",
+        context: "You recently had your mobile phone repaired at a local repair shop. After receiving the phone, you discovered that it was still not working properly. You need to contact the shop manager, Mr. Daniels.",
+        tasks: [
+          "Explain why you originally took the phone to the repair shop.",
+          "Describe the problems you are experiencing now.",
+          "Ask what the shop can do to resolve the situation."
+        ],
+        instruction: "Write as much as you can and in complete sentences."
+      },
+      {
+        id: "TE-028",
+        title: "Plans for a Relative’s Visit",
+        recipient: "Alex",
+        subject: "Ideas for My Relative’s Visit",
+        context: "A relative will soon visit you for several days. You want to plan an enjoyable visit and would like advice from your friend Alex, who knows the area well.",
+        tasks: [
+          "Explain when your relative is visiting and what kinds of activities they enjoy.",
+          "Ask Alex to recommend places to visit or things to do.",
+          "Invite Alex to join you for one of the activities."
+        ],
+        instruction: "Write as much as you can and in complete sentences."
+      },
+      {
+        id: "TE-029",
+        title: "Suggestions for a Neighborhood Park",
+        recipient: "Ms. Roberts",
+        subject: "Suggestions for Improving Neighborhood Park",
+        context: "You often visit a public park in your neighborhood. Although the park is popular, you believe some changes would make it more useful and enjoyable. You want to share your suggestions with the local parks manager, Ms. Roberts.",
+        tasks: [
+          "Describe how you and other people use the park.",
+          "Explain the problems or limitations you have noticed.",
+          "Suggest improvements that would benefit park visitors."
+        ],
+        instruction: "Write as much as you can and in complete sentences."
+      },
+      {
+        id: "TE-030",
+        title: "Problem Purchasing Event Tickets",
+        recipient: "Mr. Collins",
+        subject: "Problem with Event Ticket Purchase",
+        context: "You recently tried to purchase tickets for a local event through an online ticket service. You experienced a problem during the process and are unsure whether your purchase was completed successfully. You need to contact the ticket service manager, Mr. Collins.",
+        tasks: [
+          "Explain which event you wanted to attend and why.",
+          "Describe the problem you experienced while purchasing the tickets.",
+          "Ask the manager to confirm the purchase or help you complete it."
+        ],
+        instruction: "Write as much as you can and in complete sentences."
+      },
+      {
+        id: "TE-031",
+        title: "Change to Club Meeting Location",
+        recipient: "Ms. Howard",
+        subject: "Problem with Club Meeting Location",
+        context: "You are a member of a university club that meets regularly on campus. The club’s usual meeting room is no longer available, and the new location is causing some difficulties. You want to contact the club coordinator, Ms. Howard.",
+        tasks: [
+          "Describe the problems with the new meeting location.",
+          "Explain how these problems are affecting club members.",
+          "Suggest another location or a different arrangement."
+        ],
+        instruction: "Write as much as you can and in complete sentences."
+      },
+      {
+        id: "TE-032",
+        title: "Problem with Local Library Membership",
+        recipient: "Mr. Grant",
+        subject: "Problem with Library Membership",
+        context: "You recently joined a public library in your area. However, you have experienced some problems when trying to use its services. You need to contact the library manager, Mr. Grant.",
+        tasks: [
+          "Explain which library services you would like to use.",
+          "Describe the problems you have experienced.",
+          "Ask what can be done to resolve the situation."
+        ],
+        instruction: "Write as much as you can and in complete sentences."
+      },
+      {
+        id: "TE-033",
+        title: "Request to Change Work Schedule",
+        recipient: "Ms. Miller",
+        subject: "Request for a Schedule Change",
+        context: "You have a part-time job at a local shop. A recent change in your schedule has made it difficult for you to manage your other responsibilities. You want to discuss the situation with your supervisor, Ms. Miller.",
+        tasks: [
+          "Explain why the new schedule is difficult for you.",
+          "Describe how you have tried to manage the situation.",
+          "Suggest a different schedule and ask whether it can be arranged."
+        ],
+        instruction: "Write as much as you can and in complete sentences."
+      },
+      {
+        id: "TE-034",
+        title: "Request for a Recommendation",
+        recipient: "Dr. Nelson",
+        subject: "Request for a Recommendation Letter",
+        context: "You are applying for an opportunity related to your studies and need a recommendation letter. You would like to ask one of your professors, Dr. Nelson, to write it for you.",
+        tasks: [
+          "Explain what you are applying for and why it interests you.",
+          "Describe the experience or qualities you hope the letter will mention.",
+          "Ask whether Dr. Nelson can write the letter and provide the necessary deadline."
+        ],
+        instruction: "Write as much as you can and in complete sentences."
+      },
+      {
+        id: "TE-035",
+        title: "Inquiry About a Guided Tour",
+        recipient: "Ms. Cooper",
+        subject: "Inquiry About Group Tour",
+        context: "You are planning a visit to a local museum with a group of friends. You are interested in arranging a guided tour and need more information from the visitor services manager, Ms. Cooper.",
+        tasks: [
+          "Explain when your group plans to visit and why you chose the museum.",
+          "Ask about the guided tours available for groups.",
+          "Inquire about the cost, length, and reservation process."
+        ],
+        instruction: "Write as much as you can and in complete sentences."
+      }
+    ];
+
+    (() => {
+      const APP_VERSION = 1;
+      const STORAGE_KEY = "kooshky-apps:toefl-email-practice:answers:v1";
+      const PRE_IMPORT_KEY = "kooshky-apps:toefl-email-practice:pre-import-snapshot:v1";
+      const THEME_KEY = "kooshky-guides:theme:v1";
+      const EXAM_SECONDS = 7 * 60;
+
+      const state = {
+        answers: {},
+        storageAvailable: true,
+        selectedPromptId: null,
+        pendingPromptId: null,
+        activeMode: null,
+        filter: "all",
+        query: "",
+        timerId: null,
+        timerStartedAt: 0,
+        practiceReminderShown: false,
+        currentPreviewPromptId: null,
+        saveMessageTimer: null
+      };
+
+      const els = {
+        listView: document.getElementById("list-view"),
+        workspaceView: document.getElementById("workspace-view"),
+        promptGrid: document.getElementById("prompt-grid"),
+        search: document.getElementById("prompt-search"),
+        filterButtons: Array.from(document.querySelectorAll(".filter-button")),
+        progressText: document.getElementById("progress-text"),
+        progressFill: document.getElementById("progress-fill"),
+        progressTrack: document.querySelector(".progress-track"),
+        storageWarning: document.getElementById("storage-warning"),
+        storageStatus: document.getElementById("storage-status"),
+        exportButton: document.getElementById("export-button"),
+        importButton: document.getElementById("import-button"),
+        importFile: document.getElementById("import-file"),
+        backButton: document.getElementById("back-button"),
+        workspacePromptId: document.getElementById("workspace-prompt-id"),
+        workspacePromptTitle: document.getElementById("workspace-prompt-title"),
+        promptContext: document.getElementById("prompt-context"),
+        promptRecipientInline: document.getElementById("prompt-recipient-inline"),
+        promptTasks: document.getElementById("prompt-tasks"),
+        promptInstruction: document.getElementById("prompt-instruction"),
+        promptRecipient: document.getElementById("prompt-recipient"),
+        promptSubject: document.getElementById("prompt-subject"),
+        modeNote: document.getElementById("mode-note"),
+        answerBox: document.getElementById("answer-box"),
+        wordCount: document.getElementById("word-count"),
+        saveState: document.getElementById("save-state"),
+        timerBox: document.getElementById("timer-box"),
+        timerLabel: document.getElementById("timer-label"),
+        timerValue: document.getElementById("timer-value"),
+        finishPracticeButton: document.getElementById("finish-practice-button"),
+        clearAnswerButton: document.getElementById("clear-answer-button"),
+        modeDialog: document.getElementById("mode-dialog"),
+        modeDialogSubtitle: document.getElementById("mode-dialog-subtitle"),
+        modeClose: document.getElementById("mode-close"),
+        practiceModeButton: document.getElementById("practice-mode-button"),
+        examModeButton: document.getElementById("exam-mode-button"),
+        answerDialog: document.getElementById("answer-dialog"),
+        answerDialogTitle: document.getElementById("answer-dialog-title"),
+        answerDialogSubtitle: document.getElementById("answer-dialog-subtitle"),
+        answerDialogClose: document.getElementById("answer-dialog-close"),
+        answerDialogDone: document.getElementById("answer-dialog-done"),
+        answerPreviewMeta: document.getElementById("answer-preview-meta"),
+        answerPreview: document.getElementById("answer-preview"),
+        copyAnswerButton: document.getElementById("copy-answer-button"),
+        practiceTimeDialog: document.getElementById("practice-time-dialog"),
+        practiceReturnButton: document.getElementById("practice-return-button"),
+        practiceContinueButton: document.getElementById("practice-continue-button"),
+        examCompleteDialog: document.getElementById("exam-complete-dialog"),
+        examPreviewMeta: document.getElementById("exam-preview-meta"),
+        examAnswerPreview: document.getElementById("exam-answer-preview"),
+        examReturnButton: document.getElementById("exam-return-button"),
+        confirmDialog: document.getElementById("confirm-dialog"),
+        confirmCancelButton: document.getElementById("confirm-cancel-button"),
+        confirmClearButton: document.getElementById("confirm-clear-button"),
+        toastRegion: document.getElementById("toast-region"),
+        timeFlash: document.getElementById("time-flash"),
+        themeToggle: document.getElementById("theme-toggle"),
+        themeIcon: document.getElementById("theme-icon"),
+        themeLabel: document.getElementById("theme-label"),
+        favicon: document.getElementById("app-favicon")
+      };
+
+      function safeParse(value, fallback) {
+        try { return JSON.parse(value); } catch (_) { return fallback; }
+      }
+
+      function countWords(text) {
+        const clean = String(text || "").trim();
+        if (!clean) return 0;
+        return clean.split(/\s+/u).filter(Boolean).length;
+      }
+
+      function formatTime(totalSeconds) {
+        const safe = Math.max(0, Math.floor(totalSeconds));
+        const minutes = Math.floor(safe / 60);
+        const seconds = safe % 60;
+        return `${String(minutes).padStart(2, "0")}:${String(seconds).padStart(2, "0")}`;
+      }
+
+      function formatDate(isoString) {
+        if (!isoString) return "Not available";
+        const date = new Date(isoString);
+        if (Number.isNaN(date.getTime())) return "Not available";
+        return new Intl.DateTimeFormat("en-GB", {
+          dateStyle: "medium",
+          timeStyle: "short"
+        }).format(date);
+      }
+
+      function slugDate() {
+        return new Date().toISOString().replace(/[:.]/g, "-");
+      }
+
+      function getPrompt(id) {
+        return PROMPTS.find((prompt) => prompt.id === id) || null;
+      }
+
+      function getAnswerRecord(id) {
+        const record = state.answers[id];
+        if (!record || typeof record !== "object") return { text: "", updatedAt: null };
+        return {
+          text: typeof record.text === "string" ? record.text : "",
+          updatedAt: typeof record.updatedAt === "string" ? record.updatedAt : null
+        };
+      }
+
+      function hasAnswer(id) {
+        return getAnswerRecord(id).text.trim().length > 0;
+      }
+
+      function loadAnswers() {
+        try {
+          const raw = localStorage.getItem(STORAGE_KEY);
+          if (!raw) return;
+          const parsed = safeParse(raw, null);
+          if (!parsed || typeof parsed !== "object") return;
+          const source = parsed.answers && typeof parsed.answers === "object" ? parsed.answers : parsed;
+          state.answers = sanitizeAnswers(source);
+        } catch (error) {
+          state.storageAvailable = false;
+          showStorageWarning();
+        }
+      }
+
+      function sanitizeAnswers(source) {
+        const clean = {};
+        if (!source || typeof source !== "object") return clean;
+        for (const prompt of PROMPTS) {
+          const value = source[prompt.id];
+          if (typeof value === "string") {
+            clean[prompt.id] = { text: value, updatedAt: null };
+          } else if (value && typeof value === "object" && typeof value.text === "string") {
+            clean[prompt.id] = {
+              text: value.text,
+              updatedAt: typeof value.updatedAt === "string" ? value.updatedAt : null
+            };
+          }
+        }
+        return clean;
+      }
+
+      function persistAnswers() {
+        const payload = {
+          app: "kooshky-toefl-email-practice",
+          version: APP_VERSION,
+          savedAt: new Date().toISOString(),
+          answers: state.answers
+        };
+        try {
+          localStorage.setItem(STORAGE_KEY, JSON.stringify(payload));
+          state.storageAvailable = true;
+          return true;
+        } catch (error) {
+          state.storageAvailable = false;
+          showStorageWarning();
+          return false;
+        }
+      }
+
+      function showStorageWarning() {
+        els.storageWarning.classList.add("is-visible");
+        els.storageStatus.innerHTML = '<span class="status-dot" aria-hidden="true" style="background:var(--danger)"></span><span>Autosave unavailable</span>';
+      }
+
+      function saveCurrentAnswer() {
+        if (!state.selectedPromptId) return;
+        const text = els.answerBox.value;
+        if (text.trim()) {
+          state.answers[state.selectedPromptId] = {
+            text,
+            updatedAt: new Date().toISOString()
+          };
+        } else {
+          delete state.answers[state.selectedPromptId];
+        }
+        const saved = persistAnswers();
+        updateWordCount();
+        announceSave(saved);
+      }
+
+      function announceSave(saved) {
+        clearTimeout(state.saveMessageTimer);
+        els.saveState.textContent = saved ? "Saved" : "Saved for this session";
+        state.saveMessageTimer = window.setTimeout(() => {
+          els.saveState.textContent = saved ? "Autosave active" : "Browser storage unavailable";
+        }, 1200);
+      }
+
+      function updateWordCount() {
+        const words = countWords(els.answerBox.value);
+        els.wordCount.innerHTML = `<strong>${words}</strong> ${words === 1 ? "word" : "words"}`;
+      }
+
+      function getVisiblePrompts() {
+        const query = state.query.trim().toLocaleLowerCase();
+        return PROMPTS.filter((prompt) => {
+          const answered = hasAnswer(prompt.id);
+          const statusMatch = state.filter === "all" ||
+            (state.filter === "answered" && answered) ||
+            (state.filter === "unanswered" && !answered);
+          if (!statusMatch) return false;
+          if (!query) return true;
+          const searchable = [prompt.id, prompt.title, prompt.context, prompt.subject, ...prompt.tasks]
+            .join(" ")
+            .toLocaleLowerCase();
+          return searchable.includes(query);
+        });
+      }
+
+      function renderPromptList() {
+        els.promptGrid.textContent = "";
+        const visible = getVisiblePrompts();
+
+        if (!visible.length) {
+          const empty = document.createElement("div");
+          empty.className = "empty-state";
+          empty.textContent = "No prompts match the current search and filter.";
+          els.promptGrid.appendChild(empty);
+        } else {
+          const fragment = document.createDocumentFragment();
+          for (const prompt of visible) {
+            fragment.appendChild(createPromptCard(prompt));
+          }
+          els.promptGrid.appendChild(fragment);
+        }
+
+        updateProgress();
+      }
+
+      function createPromptCard(prompt) {
+        const answered = hasAnswer(prompt.id);
+        const record = getAnswerRecord(prompt.id);
+        const words = countWords(record.text);
+        const card = document.createElement("article");
+        card.className = `prompt-card${answered ? " has-answer" : ""}`;
+
+        const top = document.createElement("div");
+        top.className = "card-top";
+
+        const titleWrap = document.createElement("div");
+        titleWrap.style.minWidth = "0";
+
+        const id = document.createElement("span");
+        id.className = "prompt-id";
+        id.textContent = prompt.id;
+
+        const title = document.createElement("h2");
+        title.textContent = prompt.title;
+
+        titleWrap.append(id, title);
+
+        const badge = document.createElement("span");
+        badge.className = `answer-badge${answered ? " complete" : ""}`;
+        badge.textContent = answered ? "Answered" : "No answer";
+
+        top.append(titleWrap, badge);
+
+        const summary = document.createElement("p");
+        summary.className = "card-summary";
+        summary.textContent = prompt.context;
+
+        const meta = document.createElement("div");
+        meta.className = "card-meta";
+        const recipient = document.createElement("span");
+        recipient.textContent = `To: ${prompt.recipient}`;
+        const count = document.createElement("span");
+        count.textContent = answered ? `${words} ${words === 1 ? "word" : "words"}` : "Not started";
+        meta.append(recipient, count);
+
+        const actions = document.createElement("div");
+        actions.className = "card-actions";
+
+        const start = document.createElement("button");
+        start.type = "button";
+        start.className = "button primary small";
+        start.textContent = answered ? "Continue" : "Start";
+        start.addEventListener("click", () => openModeDialog(prompt.id));
+        actions.appendChild(start);
+
+        if (answered) {
+          const view = document.createElement("button");
+          view.type = "button";
+          view.className = "button small";
+          view.textContent = "View answer";
+          view.addEventListener("click", () => openAnswerDialog(prompt.id));
+          actions.appendChild(view);
+        }
+
+        card.append(top, summary, meta, actions);
+        return card;
+      }
+
+      function updateProgress() {
+        const answered = PROMPTS.filter((prompt) => hasAnswer(prompt.id)).length;
+        const total = PROMPTS.length;
+        const percent = total ? (answered / total) * 100 : 0;
+        els.progressText.textContent = `${answered} of ${total} prompts answered`;
+        els.progressFill.style.width = `${percent}%`;
+        els.progressTrack.setAttribute("aria-valuemax", String(total));
+        els.progressTrack.setAttribute("aria-valuenow", String(answered));
+      }
+
+      function openModeDialog(promptId) {
+        const prompt = getPrompt(promptId);
+        if (!prompt) return;
+        state.pendingPromptId = promptId;
+        els.modeDialogSubtitle.textContent = `${prompt.id}: ${prompt.title}`;
+        showDialog(els.modeDialog);
+      }
+
+      function enterPrompt(mode) {
+        const prompt = getPrompt(state.pendingPromptId);
+        if (!prompt) return;
+        closeDialog(els.modeDialog);
+        state.selectedPromptId = prompt.id;
+        state.pendingPromptId = null;
+        state.activeMode = mode;
+        state.practiceReminderShown = false;
+        renderWorkspace(prompt);
+        showView("workspace");
+        startTimer(mode);
+        window.setTimeout(() => els.answerBox.focus(), 50);
+      }
+
+      function renderWorkspace(prompt) {
+        const record = getAnswerRecord(prompt.id);
+        els.workspacePromptId.textContent = prompt.id;
+        els.workspacePromptTitle.textContent = prompt.title;
+        els.promptContext.textContent = "";
+        const paragraph = document.createElement("p");
+        paragraph.textContent = prompt.context;
+        els.promptContext.appendChild(paragraph);
+        els.promptRecipientInline.textContent = prompt.recipient;
+        els.promptTasks.textContent = "";
+        prompt.tasks.forEach((task) => {
+          const li = document.createElement("li");
+          li.textContent = task;
+          els.promptTasks.appendChild(li);
+        });
+        els.promptInstruction.textContent = prompt.instruction;
+        els.promptRecipient.textContent = prompt.recipient;
+        els.promptSubject.textContent = prompt.subject;
+        els.answerBox.value = record.text;
+        els.answerBox.disabled = false;
+        els.finishPracticeButton.hidden = state.activeMode !== "practice";
+        els.clearAnswerButton.hidden = state.activeMode === "exam";
+        els.modeNote.textContent = state.activeMode === "exam"
+          ? "Exam mode: writing closes automatically when the seven-minute timer reaches zero."
+          : "Practice mode: the timer counts up, and you may continue after the seven-minute reminder.";
+        els.timerLabel.textContent = state.activeMode === "exam" ? "Time remaining" : "Practice time";
+        updateWordCount();
+        els.saveState.textContent = state.storageAvailable ? "Autosave active" : "Saved for this session";
+      }
+
+      function showView(viewName) {
+        const listActive = viewName === "list";
+        els.listView.classList.toggle("is-active", listActive);
+        els.workspaceView.classList.toggle("is-active", !listActive);
+        if (listActive) {
+          renderPromptList();
+          document.title = "TOEFL Email Practice | Kooshky’s TOEFL Guides";
+          window.scrollTo({ top: 0, behavior: "smooth" });
+          window.setTimeout(() => els.search.focus({ preventScroll: true }), 50);
+        } else {
+          const prompt = getPrompt(state.selectedPromptId);
+          document.title = `${prompt ? prompt.id + " — " + prompt.title : "Writing Prompt"} | TOEFL Email Practice`;
+          window.scrollTo({ top: 0, behavior: "smooth" });
+        }
+      }
+
+      function returnToList() {
+        saveCurrentAnswer();
+        stopTimer();
+        state.activeMode = null;
+        state.selectedPromptId = null;
+        els.answerBox.disabled = false;
+        showView("list");
+      }
+
+      function startTimer(mode) {
+        stopTimer();
+        state.timerStartedAt = Date.now();
+        updateTimerDisplay();
+        state.timerId = window.setInterval(updateTimerDisplay, 250);
+      }
+
+      function stopTimer() {
+        if (state.timerId !== null) {
+          clearInterval(state.timerId);
+          state.timerId = null;
+        }
+        els.timerBox.classList.remove("warning", "critical");
+      }
+
+      function updateTimerDisplay() {
+        if (!state.activeMode) return;
+        const elapsed = Math.floor((Date.now() - state.timerStartedAt) / 1000);
+
+        if (state.activeMode === "practice") {
+          els.timerValue.textContent = formatTime(elapsed);
+          if (elapsed >= EXAM_SECONDS && !state.practiceReminderShown) {
+            state.practiceReminderShown = true;
+            saveCurrentAnswer();
+            flashTimeAlert();
+            showDialog(els.practiceTimeDialog);
+          }
+          if (elapsed >= EXAM_SECONDS) els.timerBox.classList.add("warning");
+          return;
+        }
+
+        const remaining = EXAM_SECONDS - elapsed;
+        els.timerValue.textContent = formatTime(remaining);
+        els.timerBox.classList.toggle("warning", remaining <= 60 && remaining > 30);
+        els.timerBox.classList.toggle("critical", remaining <= 30);
+
+        if (remaining <= 0) finishExam();
+      }
+
+      function flashTimeAlert() {
+        els.timeFlash.classList.remove("is-active");
+        void els.timeFlash.offsetWidth;
+        els.timeFlash.classList.add("is-active");
+        window.setTimeout(() => els.timeFlash.classList.remove("is-active"), 2000);
+      }
+
+      function finishExam() {
+        if (state.activeMode !== "exam") return;
+        saveCurrentAnswer();
+        stopTimer();
+        els.answerBox.disabled = true;
+        const prompt = getPrompt(state.selectedPromptId);
+        const text = els.answerBox.value;
+        const words = countWords(text);
+        els.examPreviewMeta.textContent = "";
+        els.examPreviewMeta.append(
+          createMetaSpan(prompt ? `${prompt.id}: ${prompt.title}` : "Completed response"),
+          createMetaSpan(`${words} ${words === 1 ? "word" : "words"}`)
+        );
+        els.examAnswerPreview.textContent = text.trim() || "No response was entered.";
+        flashTimeAlert();
+        showDialog(els.examCompleteDialog);
+      }
+
+      function openAnswerDialog(promptId) {
+        const prompt = getPrompt(promptId);
+        if (!prompt) return;
+        const record = getAnswerRecord(promptId);
+        state.currentPreviewPromptId = promptId;
+        els.answerDialogTitle.textContent = prompt.title;
+        els.answerDialogSubtitle.textContent = `${prompt.id} · To: ${prompt.recipient}`;
+        els.answerPreviewMeta.textContent = "";
+        const words = countWords(record.text);
+        els.answerPreviewMeta.append(
+          createMetaSpan(`${words} ${words === 1 ? "word" : "words"}`),
+          createMetaSpan(`Last saved: ${formatDate(record.updatedAt)}`)
+        );
+        els.answerPreview.textContent = record.text.trim() || "No saved answer.";
+        els.copyAnswerButton.disabled = !record.text.trim();
+        showDialog(els.answerDialog);
+      }
+
+      function createMetaSpan(text) {
+        const span = document.createElement("span");
+        span.textContent = text;
+        return span;
+      }
+
+      async function copyCurrentPreview() {
+        const record = getAnswerRecord(state.currentPreviewPromptId);
+        if (!record.text.trim()) return;
+        try {
+          await navigator.clipboard.writeText(record.text);
+          showToast("Answer copied to the clipboard.", "success");
+        } catch (_) {
+          showToast("The answer could not be copied automatically.", "error");
+        }
+      }
+
+      function clearCurrentAnswer() {
+        if (!state.selectedPromptId) return;
+        els.answerBox.value = "";
+        delete state.answers[state.selectedPromptId];
+        persistAnswers();
+        updateWordCount();
+        closeDialog(els.confirmDialog);
+        showToast("The answer has been cleared.", "success");
+      }
+
+      function createBackupPayload() {
+        return {
+          app: "kooshky-toefl-email-practice",
+          version: APP_VERSION,
+          exportedAt: new Date().toISOString(),
+          prompts: PROMPTS.map(({ id, title }) => ({ id, title })),
+          answers: state.answers
+        };
+      }
+
+      function downloadBackup(prefix = "kooshky-toefl-email-practice-backup") {
+        const payload = createBackupPayload();
+        const blob = new Blob([JSON.stringify(payload, null, 2)], { type: "application/json" });
+        const url = URL.createObjectURL(blob);
+        const link = document.createElement("a");
+        link.href = url;
+        link.download = `${prefix}-${slugDate()}.json`;
+        document.body.appendChild(link);
+        link.click();
+        link.remove();
+        window.setTimeout(() => URL.revokeObjectURL(url), 1000);
+      }
+
+      async function importBackup(file) {
+        if (!file) return;
+        try {
+          const text = await file.text();
+          const parsed = JSON.parse(text);
+          if (!parsed || typeof parsed !== "object") throw new Error("Invalid backup structure");
+          const incoming = parsed.answers && typeof parsed.answers === "object" ? parsed.answers : null;
+          if (!incoming) throw new Error("No answers found in backup");
+
+          const currentSnapshot = createBackupPayload();
+          try {
+            localStorage.setItem(PRE_IMPORT_KEY, JSON.stringify(currentSnapshot));
+          } catch (_) { }
+          downloadBackup("kooshky-toefl-email-practice-before-import");
+
+          state.answers = sanitizeAnswers(incoming);
+          persistAnswers();
+          renderPromptList();
+          showToast("Backup loaded. Your previous data was downloaded first.", "success");
+        } catch (error) {
+          showToast("That file is not a valid backup for this app.", "error");
+        } finally {
+          els.importFile.value = "";
+        }
+      }
+
+      function showToast(message, type = "") {
+        const toast = document.createElement("div");
+        toast.className = `toast${type ? ` ${type}` : ""}`;
+        toast.textContent = message;
+        els.toastRegion.appendChild(toast);
+        window.setTimeout(() => toast.remove(), 3600);
+      }
+
+      function showDialog(dialog) {
+        if (typeof dialog.showModal === "function") {
+          if (!dialog.open) dialog.showModal();
+        } else {
+          dialog.setAttribute("open", "");
+        }
+      }
+
+      function closeDialog(dialog) {
+        if (typeof dialog.close === "function" && dialog.open) dialog.close();
+        else dialog.removeAttribute("open");
+      }
+
+      function getTheme() {
+        return document.documentElement.dataset.theme === "dark" ? "dark" : "light";
+      }
+
+      function setTheme(theme) {
+        const safeTheme = theme === "dark" ? "dark" : "light";
+        document.documentElement.dataset.theme = safeTheme;
+        document.documentElement.style.colorScheme = safeTheme;
+        try { localStorage.setItem(THEME_KEY, safeTheme); } catch (_) { }
+        updateThemeControl();
+      }
+
+      function updateThemeControl() {
+        const dark = getTheme() === "dark";
+        els.themeToggle.setAttribute("aria-pressed", String(dark));
+        els.themeToggle.setAttribute("aria-label", dark ? "Switch to light mode" : "Switch to dark mode");
+        els.themeLabel.textContent = dark ? "Light" : "Dark";
+        els.themeIcon.innerHTML = dark
+          ? '<circle cx="12" cy="12" r="4" fill="none" stroke="currentColor" stroke-width="1.8"/><path d="M12 2v2m0 16v2M4.93 4.93l1.42 1.42m11.3 11.3 1.42 1.42M2 12h2m16 0h2M4.93 19.07l1.42-1.42m11.3-11.3 1.42-1.42" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"/>'
+          : '<path d="M20.5 14.1A8.4 8.4 0 0 1 9.9 3.5 8.5 8.5 0 1 0 20.5 14.1Z" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linejoin="round"/>';
+        updateFavicon(dark);
+      }
+
+      function updateFavicon(dark) {
+        const background = dark ? "%23181D21" : "%23FCFAF6";
+        const teal = dark ? "%2370B7B4" : "%231E5B63";
+        const saffron = dark ? "%23F28C45" : "%23A9470D";
+        els.favicon.href = `data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='14' fill='${background}'/%3E%3Cpath d='M17 17h30v30H17z' fill='none' stroke='${teal}' stroke-width='5'/%3E%3Cpath d='M24 25h16M24 33h16M24 41h10' stroke='${saffron}' stroke-width='4' stroke-linecap='round'/%3E%3C/svg%3E`;
+      }
+
+      function setHomeLinks() {
+        let homeHref = "/";
+        try { homeHref = new URL("/", window.location.href).href; } catch (_) { }
+        document.querySelectorAll(".home-link").forEach((link) => { link.href = homeHref; });
+      }
+
+      function bindEvents() {
+        els.search.addEventListener("input", () => {
+          state.query = els.search.value;
+          renderPromptList();
+        });
+
+        els.filterButtons.forEach((button) => {
+          button.addEventListener("click", () => {
+            state.filter = button.dataset.filter || "all";
+            els.filterButtons.forEach((item) => item.setAttribute("aria-pressed", String(item === button)));
+            renderPromptList();
+          });
+        });
+
+        els.answerBox.addEventListener("input", saveCurrentAnswer);
+        els.backButton.addEventListener("click", returnToList);
+        els.finishPracticeButton.addEventListener("click", returnToList);
+        els.clearAnswerButton.addEventListener("click", () => showDialog(els.confirmDialog));
+
+        els.modeClose.addEventListener("click", () => closeDialog(els.modeDialog));
+        els.practiceModeButton.addEventListener("click", () => enterPrompt("practice"));
+        els.examModeButton.addEventListener("click", () => enterPrompt("exam"));
+
+        els.answerDialogClose.addEventListener("click", () => closeDialog(els.answerDialog));
+        els.answerDialogDone.addEventListener("click", () => closeDialog(els.answerDialog));
+        els.copyAnswerButton.addEventListener("click", copyCurrentPreview);
+
+        els.practiceContinueButton.addEventListener("click", () => {
+          closeDialog(els.practiceTimeDialog);
+          els.answerBox.focus();
+        });
+        els.practiceReturnButton.addEventListener("click", () => {
+          closeDialog(els.practiceTimeDialog);
+          returnToList();
+        });
+
+        els.examReturnButton.addEventListener("click", () => {
+          closeDialog(els.examCompleteDialog);
+          returnToList();
+        });
+
+        els.confirmCancelButton.addEventListener("click", () => closeDialog(els.confirmDialog));
+        els.confirmClearButton.addEventListener("click", clearCurrentAnswer);
+
+        els.exportButton.addEventListener("click", () => {
+          downloadBackup();
+          showToast("Backup downloaded.", "success");
+        });
+        els.importButton.addEventListener("click", () => els.importFile.click());
+        els.importFile.addEventListener("change", () => importBackup(els.importFile.files?.[0]));
+
+        els.themeToggle.addEventListener("click", () => setTheme(getTheme() === "dark" ? "light" : "dark"));
+
+        els.practiceTimeDialog.addEventListener("cancel", (event) => {
+          event.preventDefault();
+          closeDialog(els.practiceTimeDialog);
+          els.answerBox.focus();
+        });
+
+        els.examCompleteDialog.addEventListener("cancel", (event) => event.preventDefault());
+
+        window.addEventListener("beforeunload", saveCurrentAnswer);
+        document.addEventListener("visibilitychange", () => {
+          if (document.visibilityState === "hidden") saveCurrentAnswer();
+        });
+      }
+
+      function initialise() {
+        setHomeLinks();
+        updateThemeControl();
+        document.getElementById("current-year").textContent = String(new Date().getFullYear());
+        loadAnswers();
+        bindEvents();
+        renderPromptList();
+      }
+
+      initialise();
+    })();
+  </script>
+</body>
+
+</html>

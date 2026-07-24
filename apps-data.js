@@ -21,6 +21,13 @@
 
 window.KOOSHKY_APPS = [
   {
+    name: "Emails",
+    href: "Apps/Emails/kooshky_toefl_email_practice.html",
+    description: "Realistic, standard TOEFL Write an Email Prompts",
+    logo: "Apps/Emails/icon.png",
+    featured: true
+  },
+  {
     name: "Dictation",
     href: "Apps/Dictation/kooshky_dictation_practice.html",
     description: "Practise spelling using the Leitner Method! This is Jhoana's section.",
