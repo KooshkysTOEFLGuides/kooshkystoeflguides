@@ -1,0 +1,752 @@
+<!doctype html>
+<html lang="en" data-theme="light">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <meta name="description" content="A growing collection of TOEFL Academic Discussion topic packs with high-value vocabulary, reusable ideas, original practice questions, and realistic model responses.">
+  <meta name="theme-color" content="#F4F0E8">
+  <title>Academic Discussion Packs — Kooshky's TOEFL Guides</title>
+
+  <script>
+    (() => {
+      try {
+        const saved = localStorage.getItem("kooshky-guides:theme:v1");
+        const theme = saved === "dark" ? "dark" : "light";
+
+        document.documentElement.dataset.theme = theme;
+        document.documentElement.style.colorScheme = theme;
+      } catch (_) {
+        document.documentElement.dataset.theme = "light";
+        document.documentElement.style.colorScheme = "light";
+      }
+    })();
+  </script>
+
+  <style>
+    @import url("https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@400;500;600;700&family=Literata:opsz,wght@7..72,600;7..72,700&display=swap");
+
+    :root {
+      --color-page: #F4F0E8;
+      --color-surface: #FCFAF6;
+      --color-text: #182027;
+      --color-text-muted: #59636C;
+      --color-border: #D7D0C3;
+      --color-accent: #A9470D;
+      --color-accent-secondary: #1E5B63;
+      --color-accent-soft: #F3E2D3;
+      --color-secondary-soft: #DDEAE8;
+
+      --font-heading: "Literata", Georgia, "Times New Roman", serif;
+      --font-body: "IBM Plex Sans", Inter, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+
+      --page-width: 78rem;
+      --reading-width: 74ch;
+      --radius: 6px;
+    }
+
+    html[data-theme="dark"] {
+      --color-page: #111417;
+      --color-surface: #181D21;
+      --color-text: #ECE7DD;
+      --color-text-muted: #ADB4B8;
+      --color-border: #30383E;
+      --color-accent: #F28C45;
+      --color-accent-secondary: #70B7B4;
+      --color-accent-soft: #332219;
+      --color-secondary-soft: #193033;
+    }
+
+    *,
+    *::before,
+    *::after {
+      box-sizing: border-box;
+    }
+
+    html {
+      scroll-behavior: smooth;
+    }
+
+    body {
+      margin: 0;
+      background: var(--color-page);
+      color: var(--color-text);
+      font-family: var(--font-body);
+      line-height: 1.65;
+      overflow-x: hidden;
+    }
+
+    a {
+      color: var(--color-accent-secondary);
+      text-underline-offset: .18em;
+      overflow-wrap: anywhere;
+    }
+
+    a:hover {
+      color: var(--color-accent);
+    }
+
+    :focus-visible {
+      outline: 3px solid var(--color-accent);
+      outline-offset: 3px;
+    }
+
+    .container {
+      width: min(calc(100% - 2rem), var(--page-width));
+      margin-inline: auto;
+    }
+
+    .skip-link {
+      position: fixed;
+      top: .75rem;
+      left: .75rem;
+      z-index: 1000;
+      padding: .65rem .8rem;
+      border-radius: 4px;
+      background: var(--color-text);
+      color: var(--color-page);
+      transform: translateY(-160%);
+    }
+
+    .skip-link:focus {
+      transform: translateY(0);
+    }
+
+    .site-header {
+      position: sticky;
+      top: 0;
+      z-index: 100;
+      border-bottom: 1px solid var(--color-border);
+      background: var(--color-page);
+    }
+
+    .header-inner {
+      min-height: 4.1rem;
+      display: flex;
+      align-items: center;
+      gap: 1rem;
+    }
+
+    .brand {
+      display: inline-flex;
+      align-items: center;
+      gap: .7rem;
+      color: var(--color-text);
+      text-decoration: none;
+    }
+
+    .brand-mark {
+      width: 2rem;
+      aspect-ratio: 1;
+      display: grid;
+      place-items: center;
+      border: 1px solid var(--color-accent);
+      border-radius: 4px;
+      background: var(--color-accent-soft);
+      color: var(--color-accent);
+      font-family: var(--font-heading);
+      font-weight: 700;
+    }
+
+    .brand-text {
+      line-height: 1.05;
+    }
+
+    .brand-text small,
+    .brand-text strong {
+      display: block;
+    }
+
+    .brand-text small {
+      color: var(--color-text-muted);
+      font-size: .7rem;
+      letter-spacing: .08em;
+      text-transform: uppercase;
+    }
+
+    .brand-text strong {
+      font-family: var(--font-heading);
+      font-size: .98rem;
+    }
+
+    .site-nav {
+      margin-left: auto;
+      display: flex;
+      align-items: center;
+      gap: .3rem;
+    }
+
+    .site-nav a,
+    .theme-toggle {
+      min-height: 2.45rem;
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      padding: .5rem .7rem;
+      border: 1px solid transparent;
+      border-radius: 4px;
+      background: transparent;
+      color: var(--color-text-muted);
+      font: inherit;
+      font-size: .9rem;
+      font-weight: 600;
+      text-decoration: none;
+      cursor: pointer;
+    }
+
+    .site-nav a:hover,
+    .theme-toggle:hover {
+      border-color: var(--color-border);
+      background: var(--color-surface);
+      color: var(--color-text);
+    }
+
+    .theme-toggle {
+      border-color: var(--color-border);
+    }
+
+    .intro {
+      padding: clamp(2.8rem, 7vw, 5rem) 0 2.5rem;
+      border-bottom: 1px solid var(--color-border);
+    }
+
+    .intro-content {
+      max-width: var(--reading-width);
+    }
+
+    .eyebrow {
+      margin: 0 0 .75rem;
+      color: var(--color-accent);
+      font-size: .74rem;
+      font-weight: 800;
+      letter-spacing: .12em;
+      text-transform: uppercase;
+    }
+
+    h1,
+    h2,
+    h3 {
+      margin-top: 0;
+      font-family: var(--font-heading);
+      line-height: 1.18;
+      overflow-wrap: anywhere;
+    }
+
+    h1 {
+      margin-bottom: 1.1rem;
+      font-size: clamp(2.15rem, 6vw, 4.5rem);
+      letter-spacing: -.03em;
+    }
+
+    .intro-copy {
+      margin: 0;
+      color: var(--color-text-muted);
+      font-size: clamp(1.03rem, 1.8vw, 1.18rem);
+    }
+
+    .info-box {
+      max-width: var(--reading-width);
+      margin-top: 1.5rem;
+      padding: 1.15rem 1.25rem;
+      border: 1px solid var(--color-border);
+      border-left: 4px solid var(--color-accent-secondary);
+      border-radius: var(--radius);
+      background: var(--color-surface);
+    }
+
+    .info-box p {
+      margin: 0;
+    }
+
+    .info-box ol {
+      margin: .65rem 0 0;
+      padding-left: 1.25rem;
+    }
+
+    .info-label {
+      display: block;
+      margin-bottom: .65rem;
+      color: var(--color-accent-secondary);
+      font-size: .72rem;
+      font-weight: 800;
+      letter-spacing: .1em;
+      text-transform: uppercase;
+    }
+
+    .pack-section {
+      padding: 3rem 0;
+    }
+
+    .section-heading {
+      max-width: var(--reading-width);
+      margin-bottom: 1.5rem;
+    }
+
+    .section-heading h2 {
+      margin-bottom: .65rem;
+      font-size: clamp(1.55rem, 3vw, 2.25rem);
+    }
+
+    .section-heading p {
+      margin: 0;
+      color: var(--color-text-muted);
+    }
+
+    .resource-group {
+      max-width: var(--reading-width);
+    }
+
+    .group-heading {
+      margin: 0 0 1rem;
+      padding-bottom: .6rem;
+      border-bottom: 1px solid var(--color-border);
+    }
+
+    .group-heading h2 {
+      margin: 0;
+      font-size: 1.35rem;
+    }
+
+    /*
+      SIMPLE, NON-RIGID LAYOUT:
+      Packs are ordinary block elements in normal document flow.
+      Add or remove packs without changing any grid or column settings.
+    */
+    .resource-list {
+      display: block;
+    }
+
+    .resource-card {
+      padding: 1.25rem;
+      border: 1px solid var(--color-border);
+      border-left: 4px solid var(--color-accent-secondary);
+      border-radius: var(--radius);
+      background: var(--color-surface);
+    }
+
+    .resource-card + .resource-card {
+      margin-top: 1rem;
+    }
+
+    .resource-number {
+      display: block;
+      margin-bottom: .55rem;
+      color: var(--color-text-muted);
+      font-size: .72rem;
+      font-weight: 800;
+      letter-spacing: .1em;
+      text-transform: uppercase;
+    }
+
+    .resource-card h3 {
+      margin-bottom: .55rem;
+      font-size: clamp(1.1rem, 2vw, 1.3rem);
+    }
+
+    .resource-card h3 a {
+      color: var(--color-text);
+      text-decoration: none;
+    }
+
+    .resource-card h3 a:hover {
+      color: var(--color-accent);
+    }
+
+    .resource-card p {
+      margin: 0 0 .9rem;
+      color: var(--color-text-muted);
+    }
+
+    .resource-link {
+      font-weight: 700;
+      text-decoration: none;
+    }
+
+    .empty-state {
+      padding: 1.25rem;
+      border: 1px solid var(--color-border);
+      border-radius: var(--radius);
+      background: var(--color-surface);
+      color: var(--color-text-muted);
+    }
+
+    .site-footer {
+      margin-top: 3rem;
+      padding: 2rem 0;
+      border-top: 1px solid var(--color-border);
+      color: var(--color-text-muted);
+    }
+
+    .footer-inner {
+      display: flex;
+      flex-wrap: wrap;
+      align-items: center;
+      justify-content: space-between;
+      gap: 1rem;
+    }
+
+    .footer-links {
+      display: flex;
+      flex-wrap: wrap;
+      gap: .8rem 1rem;
+    }
+
+    .footer-links a {
+      color: inherit;
+    }
+
+    @media (max-width: 700px) {
+      .container {
+        width: min(calc(100% - 1.2rem), var(--page-width));
+      }
+
+      .site-nav a:not(.home-link) {
+        display: none;
+      }
+
+      .brand-text small {
+        display: none;
+      }
+
+      .theme-toggle {
+        width: 2.6rem;
+        padding-inline: 0;
+        font-size: 0;
+      }
+
+      .theme-toggle::before {
+        content: "◐";
+        font-size: 1rem;
+      }
+
+      .resource-card,
+      .info-box {
+        padding: 1rem;
+      }
+
+      .footer-inner {
+        align-items: flex-start;
+        flex-direction: column;
+      }
+    }
+
+    @media (prefers-reduced-motion: reduce) {
+      html {
+        scroll-behavior: auto;
+      }
+    }
+  </style>
+</head>
+
+<body>
+  <a class="skip-link" href="#main">Skip to content</a>
+
+  <header class="site-header">
+    <div class="container header-inner">
+      <a class="brand" href="/index.html" aria-label="Kooshky's TOEFL Guides homepage">
+        <span class="brand-mark" aria-hidden="true">K</span>
+
+        <span class="brand-text">
+          <small>Kooshky's</small>
+          <strong>TOEFL Guides</strong>
+        </span>
+      </a>
+
+      <nav class="site-nav" aria-label="Site navigation">
+        <a class="home-link" href="/index.html">Home</a>
+        <a href="/contents.html">All contents</a>
+
+        <button
+          class="theme-toggle"
+          type="button"
+          data-theme-toggle
+          aria-label="Use dark theme"
+          aria-pressed="false"
+        >
+          <span data-theme-label>Dark</span>
+        </button>
+      </nav>
+    </div>
+  </header>
+
+  <main id="main">
+    <section class="intro">
+      <div class="container">
+        <div class="intro-content">
+          <p class="eyebrow">Kooshky's Writing Collection</p>
+          <h1>Academic Discussion Packs</h1>
+
+          <p class="intro-copy">
+            Build the vocabulary, reusable ideas, examples, and argument patterns needed to respond clearly and quickly to common TOEFL Academic Discussion topics.
+          </p>
+
+          <aside class="info-box">
+            <span class="info-label">How to use the packs</span>
+            <p>Each pack is an independent topic resource. Study it in this order:</p>
+            <ol>
+              <li>Learn the high-value vocabulary and collocations.</li>
+              <li>Study the small reusable ideas instead of memorising fixed positions.</li>
+              <li>Answer the original Academic Discussion questions before opening the models.</li>
+              <li>Compare how the model responses reuse the bank within a realistic ten-minute answer.</li>
+            </ol>
+          </aside>
+        </div>
+      </div>
+    </section>
+
+    <section class="pack-section">
+      <div class="container">
+        <div class="section-heading">
+          <p class="eyebrow">Topic collection</p>
+          <h2>Choose an Academic Discussion subject</h2>
+
+          <p>
+            The packs are independent, so you may study them in any order. More subjects will appear here as they are released.
+          </p>
+        </div>
+
+        <section class="resource-group" aria-labelledby="packs-heading">
+          <div class="group-heading">
+            <h2 id="packs-heading">Available packs</h2>
+          </div>
+
+          <!--
+            DO NOT ADD CARD HTML HERE.
+
+            Add, remove, release, or reorder packs only in the
+            ACADEMIC_DISCUSSION_PACKS array near the bottom of this file.
+          -->
+          <div class="resource-list" id="academic-discussion-pack-list"></div>
+
+          <noscript>
+            <div class="empty-state">
+              JavaScript must be enabled to display the Academic Discussion packs.
+            </div>
+          </noscript>
+        </section>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-inner">
+      <span>Collected and compiled by Amir Kooshky</span>
+
+      <div class="footer-links">
+        <a href="/contents.html">All contents</a>
+        <a href="/apps.html">Apps</a>
+        <a href="https://telegram.me/KooshkyTOEFL" target="_blank" rel="noopener noreferrer">Telegram</a>
+        <a href="https://instagram.com/kooshkytoefl" target="_blank" rel="noopener noreferrer">Instagram</a>
+      </div>
+    </div>
+  </footer>
+
+  <script>
+    (() => {
+      "use strict";
+
+      /*
+        =====================================================================
+        EDIT ONLY THIS ARRAY TO ADD, RELEASE, REMOVE, OR REORDER THE AD PACKS
+        =====================================================================
+
+        The Education pack is currently live.
+
+        Every future pack is already written below inside its own comment
+        block. When that file is ready, remove only the surrounding
+        comment markers for that one object.
+
+        Each commented object begins with a comma, so it can be uncommented
+        safely after the live Education object.
+      */
+
+      const ACADEMIC_DISCUSSION_PACKS = [
+        {
+          title: "Education and Learning",
+          href: "/ADPack/kooshky_toefl_education_academic_discussion_master_bank.html",
+          description: "Build high-value education vocabulary, reusable arguments, flexible examples, and realistic ten-minute responses for questions about teaching, learning, assessment, curriculum, technology, fairness, and school policy."
+        }
+
+        /*
+        ,{
+          title: "Technology, AI, and Automation",
+          href: "/ADPack/kooshky_toefl_technology_ai_automation_academic_discussion_master_bank.html",
+          description: "Prepare for discussions of artificial intelligence, privacy, surveillance, automation, productivity, job displacement, algorithmic bias, regulation, and the human effects of technological change."
+        }
+        */
+
+        /*
+        ,{
+          title: "Digital Media, Communication, and Relationships",
+          href: "/ADPack/kooshky_toefl_digital_media_communication_relationships_academic_discussion_master_bank.html",
+          description: "Develop ideas and language for digital communication, personal relationships, social media, public opinion, misinformation, echo chambers, mental health, connection, and isolation."
+        }
+        */
+
+        /*
+        ,{
+          title: "Business, Marketing, and Consumer Behaviour",
+          href: "/ADPack/kooshky_toefl_business_marketing_consumer_behaviour_academic_discussion_master_bank.html",
+          description: "Build arguments about advertising, corporate transparency, brand loyalty, personalisation, influencer marketing, customer feedback, innovation, growth, trust, and consumer decisions."
+        }
+        */
+
+        /*
+        ,{
+          title: "Work, Careers, and Professional Life",
+          href: "/ADPack/kooshky_toefl_work_careers_professional_life_academic_discussion_master_bank.html",
+          description: "Prepare for questions about salary, fulfilment, job security, work-life balance, emotional intelligence, technical competence, teamwork, stress, burnout, and career sustainability."
+        }
+        */
+
+        /*
+        ,{
+          title: "Society, Culture, Identity, and Human Behaviour",
+          href: "/ADPack/kooshky_toefl_society_culture_identity_human_behaviour_academic_discussion_master_bank.html",
+          description: "Develop vocabulary and reusable ideas for nature and nurture, social norms, cultural globalisation, traditions, indigenous cultures, identity, conformity, freedom, art, and social change."
+        }
+        */
+
+        /*
+        ,{
+          title: "Government, Economics, History, and International Institutions",
+          href: "/ADPack/kooshky_toefl_government_economics_history_institutions_academic_discussion_master_bank.html",
+          description: "Build arguments about regulation, markets, consumer protection, historical change, leadership, structural forces, international organisations, cooperation, enforcement, and institutional reform."
+        }
+        */
+
+        /*
+        ,{
+          title: "Environment, Sustainability, and Urban Development",
+          href: "/ADPack/kooshky_toefl_environment_sustainability_urban_development_academic_discussion_master_bank.html",
+          description: "Prepare for environmental questions involving energy, pollution, sustainable consumption, corporate and individual responsibility, public transport, green spaces, technology, education, and long-term policy."
+        }
+        */
+      ];
+
+      function escapeHTML(value) {
+        return String(value)
+          .replaceAll("&", "&amp;")
+          .replaceAll("<", "&lt;")
+          .replaceAll(">", "&gt;")
+          .replaceAll('"', "&quot;")
+          .replaceAll("'", "&#039;");
+      }
+
+      function isValidPack(pack) {
+        return Boolean(
+          pack &&
+          typeof pack.title === "string" && pack.title.trim() &&
+          typeof pack.href === "string" && pack.href.trim() &&
+          typeof pack.description === "string" && pack.description.trim()
+        );
+      }
+
+      function renderAcademicDiscussionPacks() {
+        const list = document.getElementById("academic-discussion-pack-list");
+
+        if (!list) return;
+
+        const validPacks = ACADEMIC_DISCUSSION_PACKS.filter((pack, index) => {
+          const valid = isValidPack(pack);
+
+          if (!valid) {
+            console.warn(
+              `Skipped invalid Academic Discussion pack at position ${index + 1}.`,
+              pack
+            );
+          }
+
+          return valid;
+        });
+
+        if (!validPacks.length) {
+          list.innerHTML =
+            '<div class="empty-state">No Academic Discussion packs have been added yet.</div>';
+          return;
+        }
+
+        list.innerHTML = validPacks.map((pack, index) => {
+          const number = String(index + 1).padStart(2, "0");
+          const title = escapeHTML(pack.title.trim());
+          const href = escapeHTML(pack.href.trim());
+          const description = escapeHTML(pack.description.trim());
+
+          return `
+            <article class="resource-card">
+              <span class="resource-number">Academic Discussion Pack ${number}</span>
+
+              <h3><a href="${href}">${title}</a></h3>
+
+              <p>${description}</p>
+
+              <a class="resource-link" href="${href}">
+                Open ${title} →
+              </a>
+            </article>
+          `;
+        }).join("");
+      }
+
+      const root = document.documentElement;
+      const button = document.querySelector("[data-theme-toggle]");
+      const label = document.querySelector("[data-theme-label]");
+      const themeColor = document.querySelector('meta[name="theme-color"]');
+      const storageKey = "kooshky-guides:theme:v1";
+
+      function saveTheme(theme) {
+        try {
+          localStorage.setItem(storageKey, theme);
+        } catch (_) {}
+      }
+
+      function applyTheme(theme, save = true) {
+        const normalized = theme === "dark" ? "dark" : "light";
+
+        root.dataset.theme = normalized;
+        root.style.colorScheme = normalized;
+
+        if (themeColor) {
+          themeColor.content =
+            normalized === "dark" ? "#111417" : "#F4F0E8";
+        }
+
+        if (button) {
+          const dark = normalized === "dark";
+
+          button.setAttribute("aria-pressed", String(dark));
+          button.setAttribute(
+            "aria-label",
+            dark ? "Use light theme" : "Use dark theme"
+          );
+
+          if (label) {
+            label.textContent = dark ? "Light" : "Dark";
+          }
+        }
+
+        if (save) {
+          saveTheme(normalized);
+        }
+      }
+
+      applyTheme(root.dataset.theme, false);
+      renderAcademicDiscussionPacks();
+
+      button?.addEventListener("click", () => {
+        applyTheme(
+          root.dataset.theme === "dark" ? "light" : "dark"
+        );
+      });
+
+      window.addEventListener("storage", (event) => {
+        if (
+          event.key === storageKey &&
+          (event.newValue === "light" || event.newValue === "dark")
+        ) {
+          applyTheme(event.newValue, false);
+        }
+      });
+    })();
+  </script>
+</body>
+</html>

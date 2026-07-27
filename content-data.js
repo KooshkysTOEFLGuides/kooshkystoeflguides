@@ -59,6 +59,15 @@ window.KOOSHKY_SECTIONS = [
 
 window.KOOSHKY_CONTENT = [
   {
+    title: "Academic Discussion Topic Packs",
+    href: "ADPack/index.html",
+    section: "writing",
+    summary: "Topic-based Academic Discussion packs with high-value vocabulary, reusable ideas, original practice questions, and realistic ten-minute model responses.",
+    date: "2026-07-28",
+    publishAt: "2026-07-28T00:00:00+03:30",
+    featured: true
+  },
+  {
     title: "Too, Either, Neither, and Nor: Guide and Workbook",
     href: "Grammar/EitherOr/index.html",
     section: "grammar",
