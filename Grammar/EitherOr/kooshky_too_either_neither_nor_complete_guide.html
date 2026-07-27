@@ -1,0 +1,1651 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="light">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="A complete TOEFL grammar guide to too, either, neither, nor, so, paired conjunctions, inversion, alternatives, degree, and related structures.">
+  <title>Too, Either, Neither, Nor & Related Structures | Kooshky’s TOEFL Guides</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:ital,wght@0,400;0,500;0,600;0,700;1,400&family=Literata:opsz,wght@7..72,600;7..72,700&display=swap" rel="stylesheet">
+  <script>
+    (function () {
+      try {
+        const saved = localStorage.getItem("kooshky-guides:theme:v1");
+        const theme = saved === "dark" ? "dark" : "light";
+        document.documentElement.dataset.theme = theme;
+        document.documentElement.style.colorScheme = theme;
+      } catch (_) {
+        document.documentElement.dataset.theme = "light";
+        document.documentElement.style.colorScheme = "light";
+      }
+    }());
+  </script>
+  <style>
+    :root {
+      --color-page: #F4F0E8;
+      --color-surface: #FCFAF6;
+      --color-text: #182027;
+      --color-text-muted: #59636C;
+      --color-border: #D7D0C3;
+      --color-accent: #A9470D;
+      --color-accent-secondary: #1E5B63;
+      --color-accent-soft: #F3E2D3;
+      --color-secondary-soft: #DDEAE8;
+      --font-heading: "Literata", Georgia, "Times New Roman", serif;
+      --font-body: "IBM Plex Sans", Inter, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+      --space-1: .25rem;
+      --space-2: .5rem;
+      --space-3: .75rem;
+      --space-4: 1rem;
+      --space-5: 1.5rem;
+      --space-6: 2rem;
+      --space-7: 3rem;
+      --space-8: 4.5rem;
+      --radius-small: 4px;
+      --radius-medium: 6px;
+      --radius-large: 10px;
+      --z-header: 100;
+      --z-floating-control: 200;
+      --z-selection-menu: 300;
+      --z-modal-backdrop: 400;
+      --z-modal: 410;
+      --shadow-light: 0 10px 30px rgba(24,32,39,.08);
+      --header-height: 4.25rem;
+    }
+    html[data-theme="dark"] {
+      --color-page: #111417;
+      --color-surface: #181D21;
+      --color-text: #ECE7DD;
+      --color-text-muted: #ADB4B8;
+      --color-border: #30383E;
+      --color-accent: #F28C45;
+      --color-accent-secondary: #70B7B4;
+      --color-accent-soft: #332219;
+      --color-secondary-soft: #193033;
+      --shadow-light: 0 10px 30px rgba(0,0,0,.25);
+    }
+    * { box-sizing: border-box; min-width: 0; }
+    html { scroll-behavior: smooth; overflow-x: hidden; }
+    body {
+      margin: 0;
+      background: var(--color-page);
+      color: var(--color-text);
+      font-family: var(--font-body);
+      font-size: 1rem;
+      line-height: 1.7;
+      overflow-wrap: anywhere;
+    }
+    a { color: var(--color-accent-secondary); text-underline-offset: .18em; }
+    a:hover { color: var(--color-accent); }
+    button, summary { font: inherit; }
+    button { color: inherit; }
+    :focus-visible { outline: 3px solid var(--color-accent); outline-offset: 3px; }
+    .skip-link {
+      position: fixed; top: .75rem; left: .75rem; transform: translateY(-180%);
+      background: var(--color-text); color: var(--color-page); padding: .65rem .9rem;
+      z-index: calc(var(--z-modal) + 10); border-radius: var(--radius-small);
+    }
+    .skip-link:focus { transform: none; }
+    .site-header {
+      position: sticky; top: 0; z-index: var(--z-header);
+      background: color-mix(in srgb, var(--color-page) 94%, transparent);
+      border-bottom: 1px solid var(--color-border);
+      backdrop-filter: blur(10px);
+    }
+    .header-inner {
+      max-width: 1260px; margin: auto; min-height: var(--header-height);
+      display: flex; align-items: center; justify-content: space-between;
+      gap: var(--space-4); padding: .75rem clamp(1rem, 3vw, 2rem);
+    }
+    .brand-link {
+      color: var(--color-text); text-decoration: none; font-family: var(--font-heading);
+      font-weight: 700; letter-spacing: -.02em;
+    }
+    .desktop-nav { display: flex; align-items: center; gap: .4rem; }
+    .desktop-nav a, .icon-button {
+      border: 1px solid transparent; background: transparent; text-decoration: none;
+      padding: .5rem .65rem; border-radius: var(--radius-small);
+    }
+    .desktop-nav a:hover, .icon-button:hover { background: var(--color-secondary-soft); }
+    .mobile-menu-button { display: none; }
+    .hero {
+      border-bottom: 1px solid var(--color-border);
+      background:
+        linear-gradient(90deg, var(--color-accent) 0 6px, transparent 6px),
+        var(--color-surface);
+    }
+    .hero-inner { max-width: 1120px; margin: auto; padding: clamp(2.5rem, 7vw, 5rem) clamp(1rem, 4vw, 3rem); }
+    .eyebrow, .chapter-marker, .label {
+      font-size: .78rem; font-weight: 700; letter-spacing: .12em; text-transform: uppercase;
+    }
+    .eyebrow { color: var(--color-accent); }
+    h1, h2, h3, h4 {
+      font-family: var(--font-heading); line-height: 1.2; margin-top: 0;
+      scroll-margin-top: calc(var(--header-height) + 1.2rem);
+    }
+    h1 { font-size: clamp(2.15rem, 6vw, 4.6rem); max-width: 16ch; margin-bottom: 1rem; letter-spacing: -.04em; }
+    h2 { font-size: clamp(1.65rem, 3.7vw, 2.45rem); letter-spacing: -.025em; }
+    h3 { font-size: clamp(1.22rem, 2.5vw, 1.55rem); margin-top: 2rem; }
+    h4 { font-size: 1.08rem; margin-top: 1.5rem; }
+    .hero-subtitle { max-width: 68ch; font-size: clamp(1.05rem, 2.3vw, 1.25rem); color: var(--color-text-muted); }
+    .hero-meta { display: flex; flex-wrap: wrap; gap: .75rem 1.2rem; margin-top: 1.5rem; color: var(--color-text-muted); }
+    .social-links { display: flex; flex-wrap: wrap; gap: .65rem; margin-top: 1.25rem; }
+    .social-links a {
+      border: 1px solid var(--color-border); background: var(--color-page);
+      padding: .55rem .7rem; border-radius: var(--radius-small); text-decoration: none;
+    }
+    .layout {
+      max-width: 1280px; margin: auto; display: grid; grid-template-columns: minmax(230px, 290px) minmax(0, 1fr);
+      gap: clamp(2rem, 4vw, 4rem); padding: 2rem clamp(1rem, 3vw, 2rem) 5rem;
+    }
+    .toc-panel { position: sticky; top: calc(var(--header-height) + 1rem); align-self: start; max-height: calc(100vh - var(--header-height) - 2rem); overflow: auto; }
+    .toc-title { margin: 0 0 .7rem; font-family: var(--font-heading); font-size: 1.05rem; }
+    .toc-tree, .toc-tree ul { list-style: none; margin: 0; padding: 0; }
+    .toc-tree ul { margin-left: .75rem; padding-left: .75rem; border-left: 1px solid var(--color-border); }
+    .toc-row { display: grid; grid-template-columns: 1.5rem minmax(0,1fr); gap: .2rem; align-items: start; }
+    .toc-toggle { width: 1.4rem; height: 1.4rem; padding: 0; border: 0; background: transparent; color: var(--color-text-muted); }
+    .toc-link { display: block; padding: .3rem .25rem; text-decoration: none; color: var(--color-text-muted); line-height: 1.35; }
+    .toc-link.active { color: var(--color-accent); font-weight: 700; }
+    .toc-children[hidden] { display: none; }
+    article { max-width: 74ch; }
+    .chapter { padding: 0 0 var(--space-8); border-bottom: 1px solid var(--color-border); margin-bottom: var(--space-8); }
+    .chapter-marker { color: var(--color-accent); margin-bottom: .55rem; }
+    p { margin: .75rem 0 1rem; }
+    ul, ol { padding-left: 1.3rem; }
+    li + li { margin-top: .38rem; }
+    .lead { font-size: 1.1rem; color: var(--color-text-muted); }
+    .callout, .example, .practice, .answer-block, .comparison-card {
+      border: 1px solid var(--color-border); border-radius: var(--radius-medium);
+      background: var(--color-surface); padding: var(--space-5); margin: var(--space-5) 0;
+    }
+    .callout { border-left: 5px solid var(--color-accent-secondary); background: var(--color-secondary-soft); }
+    .warning { border-left-color: var(--color-accent); background: var(--color-accent-soft); }
+    .label { display: block; color: var(--color-accent-secondary); margin-bottom: .45rem; }
+    .warning .label { color: var(--color-accent); }
+    .example { background: var(--color-surface); }
+    .example p:last-child, .callout p:last-child { margin-bottom: 0; }
+    .target { font-weight: 700; color: var(--color-accent); }
+    .formula {
+      display: block; border: 1px solid var(--color-border); background: var(--color-page);
+      padding: .85rem 1rem; margin: .8rem 0; font-weight: 700; font-family: ui-monospace, SFMono-Regular, Menlo, monospace;
+      white-space: normal;
+    }
+    .compare-grid, .mini-grid { display: grid; grid-template-columns: repeat(2, minmax(0,1fr)); gap: 1rem; margin: 1rem 0; }
+    .mini-grid { grid-template-columns: repeat(3, minmax(0,1fr)); }
+    .comparison-card h4 { margin-top: 0; }
+    .table-wrap { overflow-x: auto; margin: 1.2rem 0; border: 1px solid var(--color-border); border-radius: var(--radius-medium); }
+    table { width: 100%; border-collapse: collapse; min-width: 560px; background: var(--color-surface); }
+    th, td { text-align: left; vertical-align: top; padding: .8rem; border-bottom: 1px solid var(--color-border); }
+    th { background: var(--color-secondary-soft); }
+    tr:last-child td { border-bottom: 0; }
+    .practice { border-left: 5px solid var(--color-accent-secondary); }
+    .practice h3 { margin-top: 0; }
+    .practice ol { margin-bottom: 0; }
+    details { border-top: 1px solid var(--color-border); padding-top: .8rem; margin-top: 1rem; }
+    summary { cursor: pointer; font-weight: 700; color: var(--color-accent-secondary); }
+    .answer-list > li { margin-bottom: .8rem; }
+    .advanced-list {
+      margin: 1rem 0;
+      padding-left: 2.75rem;
+      list-style-position: outside;
+    }
+    .advanced-list li {
+      display: list-item;
+      padding: .8rem .25rem .8rem .4rem;
+      border-bottom: 1px solid var(--color-border);
+    }
+    .advanced-list li::marker {
+      color: var(--color-accent);
+      font-weight: 700;
+      font-variant-numeric: tabular-nums;
+    }
+    .advanced-note {
+      display: block;
+      width: 100%;
+      max-width: 100%;
+      margin-top: .7rem;
+      padding: .75rem .9rem;
+      border-left: 3px solid var(--color-accent);
+      background: var(--color-accent-soft);
+      border-radius: var(--radius-small);
+      color: var(--color-text-muted);
+      font-size: .95rem;
+    }
+    .advanced-note strong { color: var(--color-accent); }
+    .mobile-drawer, .drawer-backdrop { display: none; }
+    .go-top {
+      position: fixed; right: max(1rem, env(safe-area-inset-right)); bottom: max(1rem, env(safe-area-inset-bottom));
+      width: 3rem; height: 3rem; border: 1px solid var(--color-border); border-radius: 50%;
+      background: var(--color-surface); box-shadow: var(--shadow-light); z-index: var(--z-floating-control);
+      opacity: 0; pointer-events: none; transform: translateY(.5rem); transition: 180ms ease;
+    }
+    .go-top.visible { opacity: 1; pointer-events: auto; transform: none; }
+    .go-top.modal-open { bottom: 5.5rem; }
+    .dictionary-menu {
+      position: fixed; z-index: var(--z-selection-menu); display: none; width: min(300px, calc(100vw - 1.5rem));
+      background: var(--color-surface); border: 1px solid var(--color-border); border-radius: var(--radius-medium);
+      box-shadow: var(--shadow-light); padding: .5rem;
+    }
+    .dictionary-menu.open { display: block; }
+    .dictionary-menu strong { display: block; padding: .35rem .45rem; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
+    .dictionary-menu a { display: block; padding: .45rem; text-decoration: none; border-radius: var(--radius-small); }
+    .dictionary-menu a:hover { background: var(--color-secondary-soft); }
+    .modal-backdrop {
+      position: fixed; inset: 0; background: rgba(0,0,0,.45); z-index: var(--z-modal-backdrop);
+      display: none; padding: 1rem; place-items: center;
+    }
+    .modal-backdrop.open { display: grid; }
+    .modal {
+      width: min(520px, 100%); max-height: calc(100vh - 2rem); overflow: auto;
+      background: var(--color-surface); border: 1px solid var(--color-border); border-radius: var(--radius-large);
+      box-shadow: var(--shadow-light); padding: 1.5rem; z-index: var(--z-modal);
+    }
+    .modal-header { display: flex; justify-content: space-between; gap: 1rem; align-items: start; }
+    .modal h2 { font-size: 1.6rem; }
+    .close-button { border: 1px solid var(--color-border); background: transparent; border-radius: var(--radius-small); padding: .35rem .6rem; }
+    .primary-link {
+      display: inline-block; background: var(--color-accent); color: white; text-decoration: none;
+      padding: .65rem .85rem; border-radius: var(--radius-small); font-weight: 700;
+    }
+    footer { border-top: 1px solid var(--color-border); padding: 2rem 1rem; color: var(--color-text-muted); }
+    .footer-inner { max-width: 1120px; margin: auto; display: flex; justify-content: space-between; gap: 1rem; flex-wrap: wrap; }
+    .promo-note { font-size: .9rem; color: var(--color-text-muted); }
+    @media (max-width: 900px) {
+      .desktop-nav { display: none; }
+      .mobile-menu-button { display: inline-flex; }
+      .layout { display: block; }
+      .toc-panel { display: none; }
+      .mobile-drawer {
+        display: block; position: fixed; top: 0; right: 0; width: min(360px, 92vw); height: 100dvh;
+        transform: translateX(105%); transition: transform 200ms ease; z-index: calc(var(--z-header) + 2);
+        background: var(--color-surface); border-left: 1px solid var(--color-border); padding: 1rem; overflow: auto;
+      }
+      .mobile-drawer.open { transform: none; }
+      .drawer-backdrop {
+        position: fixed; inset: 0; z-index: calc(var(--z-header) + 1); background: rgba(0,0,0,.35);
+      }
+      .drawer-backdrop.open { display: block; }
+      .drawer-head { display: flex; justify-content: space-between; gap: 1rem; align-items: center; margin-bottom: 1rem; }
+      .compare-grid, .mini-grid { grid-template-columns: 1fr; }
+    }
+    @media (max-width: 520px) {
+      .header-inner { padding-inline: .8rem; }
+      h1 { font-size: clamp(2rem, 12vw, 3rem); }
+      .hero-inner { padding-inline: 1rem; }
+      .callout, .example, .practice, .answer-block, .comparison-card { padding: 1rem; }
+      table { min-width: 500px; }
+    }
+    @media (prefers-reduced-motion: reduce) {
+      *, *::before, *::after { scroll-behavior: auto !important; transition: none !important; animation: none !important; }
+    }
+  </style>
+</head>
+<body>
+<a class="skip-link" href="#main-content">Skip to main content</a>
+
+<header class="site-header">
+  <div class="header-inner">
+    <a class="brand-link home-link" href="/" aria-label="Kooshky’s TOEFL Guides homepage">Kooshky’s TOEFL Guides</a>
+    <nav class="desktop-nav" aria-label="Primary navigation">
+      <a class="home-link" href="/">Home</a>
+      <a href="#chapter-01">Start learning</a>
+      <button class="icon-button" id="theme-toggle" type="button" aria-label="Switch to dark theme" aria-pressed="false">Day / Night</button>
+    </nav>
+    <button class="icon-button mobile-menu-button" id="mobile-menu-button" type="button" aria-label="Open navigation" aria-expanded="false" aria-controls="mobile-drawer">Menu</button>
+  </div>
+</header>
+
+<div class="drawer-backdrop" id="drawer-backdrop"></div>
+<nav class="mobile-drawer" id="mobile-drawer" aria-label="Mobile navigation" aria-hidden="true">
+  <div class="drawer-head">
+    <strong>Guide navigation</strong>
+    <button class="close-button" id="drawer-close" type="button">Close</button>
+  </div>
+  <p><a class="home-link" href="/">Home</a></p>
+  <div id="mobile-toc"></div>
+  <p><button class="icon-button" id="mobile-theme-toggle" type="button">Day / Night</button></p>
+</nav>
+
+<section class="hero">
+  <div class="hero-inner">
+    <div class="eyebrow">Kooshky’s TOEFL Guides</div>
+    <h1>Too, Either, Neither, Nor & Related Structures</h1>
+    <p class="hero-subtitle">A complete guide to addition, agreement, alternatives, paired conjunctions, negative coordination, inversion, degree, and the advanced patterns that connect them.</p>
+    <div class="hero-meta">
+      <span>Collected and compiled by <strong>Amir Kooshky</strong></span>
+      <span>Student-facing grammar reference and workbook</span>
+    </div>
+    <div class="social-links promo-links">
+      <a href="https://telegram.me/KooshkyTOEFL" target="_blank" rel="noopener noreferrer">Telegram channel</a>
+      <a href="https://instagram.com/kooshkytoefl" target="_blank" rel="noopener noreferrer">Instagram</a>
+      <a href="https://telegram.me/kooshkyTOEFL_pv" target="_blank" rel="noopener noreferrer">Personal Telegram</a>
+    </div>
+    <p class="promo-note promo-links">Visit the Telegram channel and Instagram for more TOEFL lessons, practice, and study materials.</p>
+  </div>
+</section>
+
+<div class="layout">
+  <aside class="toc-panel" aria-label="Table of contents">
+    <p class="toc-title">Chapter index</p>
+    <nav id="desktop-toc"></nav>
+  </aside>
+
+  <main id="main-content">
+    <article>
+      <section class="chapter" id="chapter-01">
+        <div class="chapter-marker">Chapter 01</div>
+        <h2>The Big Picture: Four Connected Ideas</h2>
+        <p class="lead">The words in this guide belong to a connected system. They help us add information, agree with another speaker, choose between alternatives, exclude alternatives, and show that something is excessive.</p>
+        <div class="mini-grid">
+          <div class="comparison-card"><h3>Addition</h3><p><strong>too, also, as well</strong></p><p>These add a similar positive fact.</p></div>
+          <div class="comparison-card"><h3>Negative addition</h3><p><strong>either, neither, nor</strong></p><p>These add, combine, or refer to negative ideas.</p></div>
+          <div class="comparison-card"><h3>Alternatives</h3><p><strong>either...or, neither...nor, whether...or</strong></p><p>These organize two choices or possibilities.</p></div>
+        </div>
+        <div class="callout">
+          <span class="label">Key point</span>
+          <p>The same word can have more than one grammatical job. For example, <strong>either</strong> can mean “one of two,” can introduce two alternatives, and can appear at the end of a negative sentence to mean “also not.” Always identify the structure, not just the word.</p>
+        </div>
+        <div class="practice">
+          <h3>Practice 1: Identify the general meaning</h3>
+          <ol>
+            <li>I enjoyed the documentary too.</li>
+            <li>Neither answer is convincing.</li>
+            <li>You may either submit a report or give a presentation.</li>
+            <li>The task is too complicated for beginners.</li>
+          </ol>
+          <details>
+            <summary>Answer key and explanations</summary>
+            <ol class="answer-list">
+              <li><strong>Addition.</strong> <em>Too</em> means “also.”</li>
+              <li><strong>Negative reference to two.</strong> <em>Neither</em> means “not the first and not the second.”</li>
+              <li><strong>Alternatives.</strong> <em>Either...or</em> presents two choices.</li>
+              <li><strong>Excessive degree.</strong> <em>Too</em> means “more complicated than is acceptable or manageable.”</li>
+            </ol>
+          </details>
+        </div>
+      </section>
+
+      <section class="chapter" id="chapter-02">
+        <div class="chapter-marker">Chapter 02</div>
+        <h2>Inversion: A Tool You Will Use Repeatedly</h2>
+        <p>Inversion means putting an auxiliary verb or the verb <em>be</em> before the subject. English uses this order in questions and in several formal or emphatic structures. Learning inversion now will make later sections much easier, especially <em>so do I</em>, <em>neither do I</em>, <em>nor did she</em>, and sentence-opening <em>not only</em>.</p>
+
+        <h3>2.1 The basic inversion formula</h3>
+        <span class="formula">Trigger + auxiliary / modal / be + subject + rest of clause</span>
+        <p>The “trigger” may be a question word, <em>so</em>, <em>neither</em>, <em>nor</em>, or a negative expression placed at the beginning.</p>
+
+        <h3>2.2 If the original clause contains <em>be</em></h3>
+        <p>Move the correct form of <em>be</em> before the subject. Do not add <em>do</em>.</p>
+        <div class="example">
+          <span class="label">Examples</span>
+          <p>She <strong>is</strong> ready. → So <strong>is she</strong>.</p>
+          <p>They <strong>were</strong> not informed. → Neither <strong>were they</strong>.</p>
+        </div>
+
+        <h3>2.3 If the original clause contains a modal</h3>
+        <p>Move the modal before the subject. Modals include <em>can, could, may, might, must, should, will, would</em>, and similar verbs.</p>
+        <div class="example">
+          <p>I <strong>can</strong> help. → So <strong>can I</strong>.</p>
+          <p>She <strong>should not</strong> leave. → Neither <strong>should he</strong>.</p>
+        </div>
+
+        <h3>2.4 If the original clause already contains an auxiliary</h3>
+        <p>Move that auxiliary before the subject. Common auxiliaries include forms of <em>have</em> in perfect tenses and forms of <em>be</em> in continuous or passive structures.</p>
+        <div class="example">
+          <p>They <strong>have</strong> finished. → So <strong>have we</strong>.</p>
+          <p>She <strong>was</strong> being observed. → So <strong>was he</strong>.</p>
+          <p>The results <strong>had</strong> not been published. → Nor <strong>had the methods</strong> been explained.</p>
+        </div>
+
+        <h3>2.5 If there is no auxiliary: use <em>do, does,</em> or <em>did</em></h3>
+        <p>Simple present and simple past statements often contain no visible auxiliary. In that case, add the correct form of <em>do</em>. The main verb returns to its base form after <em>do/does/did</em>.</p>
+        <div class="table-wrap">
+          <table>
+            <thead><tr><th>Original tense</th><th>Auxiliary for inversion</th><th>Example</th></tr></thead>
+            <tbody>
+              <tr><td>Simple present with I/you/we/they</td><td>do</td><td>I agree. → So do I.</td></tr>
+              <tr><td>Simple present with he/she/it</td><td>does</td><td>She agrees. → So does he.</td></tr>
+              <tr><td>Simple past</td><td>did</td><td>They agreed. → So did we.</td></tr>
+            </tbody>
+          </table>
+        </div>
+        <div class="warning callout">
+          <span class="label">Common error</span>
+          <p>Do not repeat the past or third-person ending after <em>did</em> or <em>does</em>: <strong>So did she agree</strong>, not <s>So did she agreed</s>; <strong>So does he study</strong>, not <s>So does he studies</s>.</p>
+        </div>
+
+        <div class="practice">
+          <h3>Practice 2: Build the inversion</h3>
+          <p>Complete each response.</p>
+          <ol>
+            <li>A: I am exhausted. B: So ___ I.</li>
+            <li>A: Sara studies biology. B: So ___ Mina.</li>
+            <li>A: They have not replied. B: Neither ___ we.</li>
+            <li>A: He could not attend. B: Nor ___ his supervisor.</li>
+            <li>A: The article did not explain the cause. B: Nor ___ it propose a solution.</li>
+          </ol>
+          <details>
+            <summary>Answer key and explanations</summary>
+            <ol class="answer-list">
+              <li><strong>am.</strong> The original verb is <em>be</em>.</li>
+              <li><strong>does.</strong> Simple present with a third-person singular subject requires <em>does</em>.</li>
+              <li><strong>have.</strong> The present perfect already contains the auxiliary <em>have</em>.</li>
+              <li><strong>could.</strong> Move the modal before the new subject.</li>
+              <li><strong>did.</strong> The second clause is simple past, so use <em>did</em> and the base verb <em>propose</em>.</li>
+            </ol>
+          </details>
+        </div>
+      </section>
+
+      <section class="chapter" id="chapter-03">
+        <div class="chapter-marker">Chapter 03</div>
+        <h2>Additive <em>Too</em>, <em>Also</em>, and <em>As Well</em></h2>
+        <h3>3.1 <em>Too</em> meaning “also”</h3>
+        <p>At the end of a positive statement, <em>too</em> adds a second similar fact. It does not normally introduce the first fact; it tells us that the same idea is true for another person, thing, or situation.</p>
+        <div class="example">
+          <p>I enjoyed the lecture <span class="target">too</span>.</p>
+          <p>The new policy affects graduate students <span class="target">too</span>.</p>
+          <p>She has completed the survey <span class="target">too</span>.</p>
+        </div>
+        <p>In formal writing, <em>too</em> may appear after the subject and be separated by commas. This gives the added subject special emphasis.</p>
+        <div class="example"><p>The researchers, <span class="target">too</span>, questioned the reliability of the data.</p></div>
+
+        <h3>3.2 Position of <em>also</em></h3>
+        <p><em>Also</em> usually appears before the main verb, but after the verb <em>be</em>. With an auxiliary or modal, it normally appears after the first auxiliary.</p>
+        <div class="example">
+          <p>She <span class="target">also studies</span> chemistry.</p>
+          <p>She <span class="target">is also</span> interested in physics.</p>
+          <p>She <span class="target">has also completed</span> the laboratory course.</p>
+          <p>She <span class="target">can also explain</span> the procedure.</p>
+        </div>
+
+        <h3>3.3 <em>As well</em></h3>
+        <p><em>As well</em> normally appears at the end of a clause. Its meaning is close to additive <em>too</em>, although it can sound slightly more neutral or formal in some contexts.</p>
+        <div class="example"><p>The course develops writing skills <span class="target">as well</span>.</p></div>
+
+        <div class="practice">
+          <h3>Practice 3: Choose and position the additive</h3>
+          <ol>
+            <li>Rewrite with <em>too</em>: “Nina attended the workshop. Reza attended the workshop.”</li>
+            <li>Place <em>also</em> correctly: “The method is reliable.”</li>
+            <li>Place <em>also</em> correctly: “The team has repeated the experiment.”</li>
+            <li>Rewrite formally with parenthetical <em>too</em>: “The reviewers questioned the conclusion.”</li>
+          </ol>
+          <details>
+            <summary>Answer key and explanations</summary>
+            <ol class="answer-list">
+              <li><strong>Reza attended the workshop too.</strong> End-position <em>too</em> adds the same positive fact.</li>
+              <li><strong>The method is also reliable.</strong> <em>Also</em> follows the verb <em>be</em>.</li>
+              <li><strong>The team has also repeated the experiment.</strong> <em>Also</em> follows the first auxiliary.</li>
+              <li><strong>The reviewers, too, questioned the conclusion.</strong> The commas mark the formal parenthetical position.</li>
+            </ol>
+          </details>
+        </div>
+      </section>
+
+      <section class="chapter" id="chapter-04">
+        <div class="chapter-marker">Chapter 04</div>
+        <h2>Negative Additive <em>Either</em></h2>
+        <p>At the end of a negative clause, <em>either</em> means “also not.” It adds a second negative fact. This use is different from the “one of two” meaning introduced later.</p>
+        <div class="compare-grid">
+          <div class="comparison-card"><h3>Positive</h3><p>I agree <strong>too</strong>.</p><p>She is ready <strong>too</strong>.</p></div>
+          <div class="comparison-card"><h3>Negative</h3><p>I do not agree <strong>either</strong>.</p><p>She is not ready <strong>either</strong>.</p></div>
+        </div>
+        <p>In standard formal English, do not normally use additive <em>too</em> after a negative clause. Use <em>either</em>.</p>
+        <div class="warning callout">
+          <span class="label">Common error</span>
+          <p><s>I do not understand too.</s> → <strong>I do not understand either.</strong></p>
+        </div>
+        <div class="practice">
+          <h3>Practice 4: Complete with <em>too</em> or <em>either</em></h3>
+          <ol>
+            <li>Mina enjoyed the seminar, and I did ___.</li>
+            <li>Mina did not enjoy the seminar, and I did not ___.</li>
+            <li>The proposal is not affordable, and it is not practical ___.</li>
+            <li>The revised version addresses the cost problem and improves accessibility ___.</li>
+          </ol>
+          <details>
+            <summary>Answer key and explanations</summary>
+            <ol>
+              <li><strong>too</strong>: the clause is positive.</li>
+              <li><strong>either</strong>: the clause is negative.</li>
+              <li><strong>either</strong>: it adds a second negative description.</li>
+              <li><strong>too</strong>: it adds a second positive benefit.</li>
+            </ol>
+          </details>
+        </div>
+      </section>
+
+      <section class="chapter" id="chapter-05">
+        <div class="chapter-marker">Chapter 05</div>
+        <h2>Agreement: <em>So Do I</em>, <em>Neither Do I</em>, and Related Forms</h2>
+        <p>Agreement responses show that the same statement is true for another person. Positive agreement begins with <em>so</em>; negative agreement begins with <em>neither</em> or, more formally, <em>nor</em>.</p>
+        <span class="formula">Positive: So + auxiliary/modal/be + subject</span>
+        <span class="formula">Negative: Neither/Nor + auxiliary/modal/be + subject</span>
+        <div class="table-wrap">
+          <table>
+            <thead><tr><th>Statement</th><th>Full response</th><th>Inverted response</th></tr></thead>
+            <tbody>
+              <tr><td>I like it.</td><td>I do too.</td><td>So do I.</td></tr>
+              <tr><td>I am tired.</td><td>I am too.</td><td>So am I.</td></tr>
+              <tr><td>I have finished.</td><td>I have too.</td><td>So have I.</td></tr>
+              <tr><td>I do not like it.</td><td>I do not either.</td><td>Neither do I.</td></tr>
+              <tr><td>I am not tired.</td><td>I am not either.</td><td>Neither am I.</td></tr>
+              <tr><td>I cannot attend.</td><td>I cannot either.</td><td>Neither can I.</td></tr>
+            </tbody>
+          </table>
+        </div>
+        <p>Informal spoken English also uses <em>Me too</em> and <em>Me neither</em>. These are natural in conversation, but the full patterns give you more grammatical control and are useful in formal speaking practice.</p>
+        <div class="practice">
+          <h3>Practice 5: Respond with agreement</h3>
+          <ol>
+            <li>I enjoy historical documentaries. (positive agreement)</li>
+            <li>I am not convinced. (negative agreement)</li>
+            <li>I have completed the survey. (positive agreement)</li>
+            <li>I could not identify the main cause. (negative agreement)</li>
+            <li>The researchers had underestimated the cost. (positive agreement)</li>
+          </ol>
+          <details>
+            <summary>Answer key and explanations</summary>
+            <ol>
+              <li><strong>So do I.</strong> Simple present requires <em>do</em>.</li>
+              <li><strong>Neither am I.</strong> Move <em>am</em> before the subject.</li>
+              <li><strong>So have I.</strong> Reuse the perfect auxiliary <em>have</em>.</li>
+              <li><strong>Neither could I.</strong> Reuse the modal <em>could</em>.</li>
+              <li><strong>So had I.</strong> Reuse the past-perfect auxiliary <em>had</em>.</li>
+            </ol>
+          </details>
+        </div>
+      </section>
+
+      <section class="chapter" id="chapter-06">
+        <div class="chapter-marker">Chapter 06</div>
+        <h2><em>Either</em> as a Determiner or Pronoun</h2>
+        <p>When referring to two people or things, <em>either</em> means “one or the other.” As a determiner, it comes before a singular count noun. As a pronoun, it stands alone because the noun is already understood.</p>
+        <div class="compare-grid">
+          <div class="comparison-card"><h3>Determiner</h3><p><strong>Either answer</strong> is acceptable.</p><p>You may use <strong>either method</strong>.</p></div>
+          <div class="comparison-card"><h3>Pronoun</h3><p><strong>Either</strong> is acceptable.</p><p>I can work with <strong>either</strong>.</p></div>
+        </div>
+        <p>The noun after determiner <em>either</em> is singular: <em>either answer</em>, not <s>either answers</s>.</p>
+        <div class="practice">
+          <h3>Practice 6: Use determiner or pronoun <em>either</em></h3>
+          <ol>
+            <li>There are two routes. ___ route will take about an hour.</li>
+            <li>Would you prefer the morning class or the evening class? ___ is fine.</li>
+            <li>Correct the error: “Either solutions would work.”</li>
+            <li>Rewrite without repeating the noun: “Either proposal could be adopted.”</li>
+          </ol>
+          <details>
+            <summary>Answer key and explanations</summary>
+            <ol>
+              <li><strong>Either</strong>: it modifies singular <em>route</em>.</li>
+              <li><strong>Either</strong>: it stands alone as a pronoun.</li>
+              <li><strong>Either solution would work.</strong> The noun must be singular.</li>
+              <li><strong>Either could be adopted.</strong> The noun is understood from context.</li>
+            </ol>
+          </details>
+        </div>
+      </section>
+
+      <section class="chapter" id="chapter-07">
+        <div class="chapter-marker">Chapter 07</div>
+        <h2><em>Neither</em> as a Determiner or Pronoun</h2>
+        <p><em>Neither</em> means “not the first and not the second.” It normally refers to two people or things. Like <em>either</em>, it can modify a singular noun or stand alone.</p>
+        <div class="compare-grid">
+          <div class="comparison-card"><h3>Determiner</h3><p><strong>Neither answer</strong> is correct.</p><p><strong>Neither student</strong> responded.</p></div>
+          <div class="comparison-card"><h3>Pronoun</h3><p><strong>Neither</strong> is correct.</p><p>I invited both students, but <strong>neither</strong> responded.</p></div>
+        </div>
+        <p>In formal English, the verb is usually singular because <em>neither</em> means “not either one”: <em>Neither is</em>, <em>neither has</em>, <em>neither works</em>.</p>
+        <div class="practice">
+          <h3>Practice 7: Use <em>neither</em> accurately</h3>
+          <ol>
+            <li>___ explanation accounts for all the evidence.</li>
+            <li>Both candidates were interviewed, but ___ was selected.</li>
+            <li>Correct the error: “Neither students has submitted the form.”</li>
+            <li>Choose the more formal verb: “Neither of the theories (is/are) persuasive.”</li>
+          </ol>
+          <details>
+            <summary>Answer key and explanations</summary>
+            <ol>
+              <li><strong>Neither</strong>: it modifies singular <em>explanation</em>.</li>
+              <li><strong>neither</strong>: it is a pronoun replacing “neither candidate.”</li>
+              <li><strong>Neither student has submitted the form.</strong> Use a singular noun.</li>
+              <li><strong>is</strong>: singular agreement is the safer formal choice.</li>
+            </ol>
+          </details>
+        </div>
+      </section>
+
+      <section class="chapter" id="chapter-08">
+        <div class="chapter-marker">Chapter 08</div>
+        <h2><em>Either of</em>, <em>Neither of</em>, and <em>Both of</em></h2>
+        <p>Use these forms before plural noun phrases or object pronouns. The noun phrase after <em>of</em> is plural, even though <em>either</em> and <em>neither</em> select or reject one member at a time.</p>
+        <div class="example">
+          <p>either of <strong>the options</strong> / either of <strong>them</strong></p>
+          <p>neither of <strong>the students</strong> / neither of <strong>us</strong></p>
+          <p>both of <strong>the methods</strong> / both of <strong>these</strong></p>
+        </div>
+        <p>In careful formal writing, use singular agreement with <em>either of</em> and <em>neither of</em>: <em>Either of the methods is acceptable</em>. Plural verbs occur in everyday English, especially after <em>neither of</em>, but singular agreement is clearer for formal TOEFL writing.</p>
+        <div class="practice">
+          <h3>Practice 8: Complete the structure</h3>
+          <ol>
+            <li>Either of the two solutions ___ acceptable. (is/are)</li>
+            <li>Neither of ___ understood the instruction. (we/us)</li>
+            <li>Both ___ the articles discuss migration. (of/from)</li>
+            <li>Correct the error: “Neither of the student was prepared.”</li>
+          </ol>
+          <details>
+            <summary>Answer key and explanations</summary>
+            <ol>
+              <li><strong>is</strong>: formal singular agreement.</li>
+              <li><strong>us</strong>: a pronoun after a preposition must be in object form.</li>
+              <li><strong>of</strong>: the structure is <em>both of + plural noun phrase</em>.</li>
+              <li><strong>Neither of the students was prepared.</strong> The noun after <em>of</em> must be plural.</li>
+            </ol>
+          </details>
+        </div>
+      </section>
+
+      <section class="chapter" id="chapter-09">
+        <div class="chapter-marker">Chapter 09</div>
+        <h2><em>Both...and</em>, <em>Either...or</em>, and <em>Neither...nor</em></h2>
+        <p>These are correlative conjunctions: paired words that connect grammatically equal elements. They may connect nouns, adjectives, verbs, phrases, or entire clauses.</p>
+        <div class="table-wrap">
+          <table>
+            <thead><tr><th>Structure</th><th>Core meaning</th><th>Example</th></tr></thead>
+            <tbody>
+              <tr><td>both X and Y</td><td>X and Y are included</td><td>Both the lecture and the article were useful.</td></tr>
+              <tr><td>either X or Y</td><td>one alternative</td><td>You may either revise the essay or replace it.</td></tr>
+              <tr><td>neither X nor Y</td><td>not X and not Y</td><td>The explanation is neither clear nor accurate.</td></tr>
+            </tbody>
+          </table>
+        </div>
+
+        <h3>9.1 Parallel structure</h3>
+        <p>The material after the first connector should match the grammatical form after the second connector. Parallel structure makes the relationship clear and balanced.</p>
+        <div class="example">
+          <p>Correct: either <strong>to postpone the trial</strong> or <strong>to reduce its scope</strong></p>
+          <p>Correct: neither <strong>economically realistic</strong> nor <strong>politically acceptable</strong></p>
+          <p>Incorrect: either <strong>postponing the trial</strong> or <strong>to reduce its scope</strong></p>
+        </div>
+
+        <h3>9.2 Position controls meaning</h3>
+        <p>Place <em>either</em> or <em>neither</em> immediately before the first element being contrasted. Moving the connector can change what the listener understands as the two alternatives.</p>
+        <div class="example">
+          <p>She either <strong>forgot the appointment</strong> or <strong>decided not to attend</strong>. <em>(two actions)</em></p>
+          <p>She forgot either <strong>the appointment time</strong> or <strong>the room number</strong>. <em>(two objects)</em></p>
+        </div>
+
+        <h3>9.3 Subject–verb agreement</h3>
+        <p>With <em>both...and</em>, the subject is plural. With <em>either...or</em> and <em>neither...nor</em>, the verb usually agrees with the nearer subject.</p>
+        <div class="example">
+          <p>Both the director and the assistants <strong>are</strong> attending.</p>
+          <p>Either the professor or the students <strong>are</strong> presenting.</p>
+          <p>Either the students or the professor <strong>is</strong> presenting.</p>
+        </div>
+
+        <h3>9.4 Avoid double negatives</h3>
+        <p><em>Neither</em> already contains a negative meaning. Do not usually combine it with another ordinary negative.</p>
+        <div class="warning callout">
+          <p><s>I do not like neither option.</s></p>
+          <p><strong>I like neither option.</strong> / <strong>I do not like either option.</strong></p>
+        </div>
+
+        <div class="practice">
+          <h3>Practice 9: Paired conjunctions</h3>
+          <ol>
+            <li>Complete: The course develops ___ accuracy ___ confidence.</li>
+            <li>Complete: You may ___ submit the form online ___ deliver it in person.</li>
+            <li>Correct the parallelism: “She neither explained the delay nor offering an apology.”</li>
+            <li>Choose the verb: “Neither the assistants nor the director (was/were) informed.”</li>
+            <li>Rewrite without a double negative: “We did not accept neither proposal.”</li>
+          </ol>
+          <details>
+            <summary>Answer key and explanations</summary>
+            <ol>
+              <li><strong>both...and</strong>: both benefits are included.</li>
+              <li><strong>either...or</strong>: two alternatives are offered.</li>
+              <li><strong>She neither explained the delay nor offered an apology.</strong> Both connected items are past-tense verb phrases.</li>
+              <li><strong>was</strong>: the nearer subject, <em>director</em>, is singular.</li>
+              <li><strong>We accepted neither proposal</strong> or <strong>We did not accept either proposal.</strong></li>
+            </ol>
+          </details>
+        </div>
+
+        <h3>9.5 Fifty advanced examples</h3>
+        <p>The following sentences show <em>either...or</em> and <em>neither...nor</em> connecting different structures: subjects, objects, complements, verb phrases, infinitives, participles, subordinate clauses, and complete propositions.</p>
+        <ol class="advanced-list">
+          <li>Either the underlying assumptions are flawed, or the statistical model has been applied beyond the conditions for which it was designed.</li>
+          <li>Neither the unusually high response rate nor the apparent consistency of the findings eliminates the possibility of sampling bias.</li>
+          <li>The committee must either revise the eligibility criteria or explain why the current exclusions remain ethically defensible.</li>
+          <li>The intervention was neither sufficiently targeted to address the root cause nor flexible enough to accommodate regional variation.</li>
+          <li>Either by reducing administrative duplication or by reallocating existing personnel, the institution could improve efficiency without cutting essential services.</li>
+          <li>Neither accepting the preliminary estimate at face value nor rejecting it without analysis would constitute a responsible response.</li>
+          <li>The discrepancy may reflect either an error in measurement or a genuine shift in participant behaviour.</li>
+          <li>The proposal neither identifies who would bear the additional cost nor specifies how compliance would be monitored.</li>
+          <li>Either what the witnesses remembered was incomplete, or what they reported was influenced by later discussion.</li>
+          <li>Neither what the policy promises nor what its advocates assume is fully supported by the available evidence.</li>
+          <li>The researchers could either repeat the experiment under more controlled conditions or acknowledge the limits of causal interpretation.</li>
+          <li>The revised framework is neither a minor extension of the earlier theory nor a complete rejection of its central principles.</li>
+          <li>Either the apparent improvement resulted from the treatment itself, or participants changed their behaviour because they knew they were being observed.</li>
+          <li>Neither because the issue is politically sensitive nor because the data are difficult to collect should it be excluded from serious analysis.</li>
+          <li>The regulation applies either when an organisation stores personal data or when it transfers such data to an external provider.</li>
+          <li>The results were neither as decisive as the press release suggested nor as inconclusive as several critics later claimed.</li>
+          <li>Either to preserve comparability across studies or to reflect local realities, researchers must make their methodological priorities explicit.</li>
+          <li>Neither having secured initial funding nor having recruited experienced staff guarantees that the project will remain sustainable.</li>
+          <li>The author presents the conflict as arising either from incompatible values or from unequal access to political influence.</li>
+          <li>The final decision was shaped neither exclusively by scientific advice nor solely by public pressure.</li>
+          <li>Either the agency underestimated the scale of the problem, or it overestimated the capacity of local institutions to respond.</li>
+          <li>Neither the frequency with which a claim is repeated nor the confidence with which it is expressed makes it reliable.</li>
+          <li>The university should either provide the promised facilities before enrolment or allow affected students to withdraw without penalty.</li>
+          <li>The material is neither too technical for advanced undergraduates nor sufficiently elementary for students with no background in the field.</li>
+          <li>Either those responsible for the error were not consulted, or their warnings were ignored during the final review.</li>
+          <li>Neither to dismiss the concern as irrational nor to exaggerate it for political advantage would help resolve the dispute.</li>
+          <li>The new evidence may either strengthen the original interpretation or require a more fundamental revision of the theory.</li>
+          <li>The report neither distinguishes short-term fluctuation from long-term change nor explains why the distinction matters.</li>
+          <li>Either the system must be redesigned so that failure is less likely, or procedures must be introduced to limit the consequences when failure occurs.</li>
+          <li>Neither the claim that markets always correct themselves nor the claim that regulation always succeeds survives careful historical examination.</li>
+          <li>The candidate was selected either because her experience directly matched the role or because the panel valued her broader strategic perspective.</li>
+          <li>The decline cannot be attributed either to a single economic shock or to one isolated policy decision.</li>
+          <li>Either the participants misunderstood the scale, or the instructions failed to distinguish frequency from intensity.</li>
+          <li>The changes affected neither how decisions were recorded nor who ultimately had authority to approve them.</li>
+          <li>Either by accident or by design, the revised wording shifts responsibility away from the institution.</li>
+          <li>Neither reducing class size without improving instruction nor introducing technology without teacher support is likely to produce lasting gains.</li>
+          <li>The policy will succeed only if it is either inexpensive enough to maintain or valuable enough to justify its continuing cost.</li>
+          <li>The evidence is neither so weak that it can be ignored nor so conclusive that further research is unnecessary.</li>
+          <li>Either whoever drafted the contract overlooked the inconsistency, or whoever approved it assumed the contradiction would never be challenged.</li>
+          <li>Neither whoever raises the objection nor whoever answers it should be allowed to redefine the terms midway through the debate.</li>
+          <li>The organisation can either disclose the limitation now and preserve trust or conceal it temporarily and risk greater reputational damage later.</li>
+          <li>The lecturer neither simplified the concept to the point of distortion nor presented it in a form inaccessible to non-specialists.</li>
+          <li>Either the reform will redistribute existing opportunities, or it will create new ones; it cannot plausibly do neither.</li>
+          <li>Neither the fact that the policy is popular nor the fact that it is inexpensive establishes that it is just.</li>
+          <li>The data may have been distorted either during collection, when respondents interpreted the questions differently, or during analysis, when categories were merged.</li>
+          <li>The institution neither denied that mistakes had occurred nor accepted that those mistakes revealed a systemic problem.</li>
+          <li>Either we treat the anomaly as evidence against the theory, or we explain independently why the anomaly should not count.</li>
+          <li>Neither had the negotiations collapsed entirely, nor had the parties reached a settlement that could survive domestic opposition.</li>
+          <li>The conclusion follows only if either the initial premise is accepted without qualification or the counterexamples are excluded by definition.</li>
+          <li>Neither the immediate benefits that supporters emphasise nor the long-term risks that critics predict can be evaluated without more transparent data.</li>
+        </ol>
+        <div class="callout warning">
+          <span class="label">Negative-verb reminder</span>
+          <p>After an already negative verb such as <em>cannot be attributed</em>, use <strong>either...or</strong>, not <strong>neither...nor</strong>: “The decline cannot be attributed either to a single economic shock or to one isolated policy decision.”</p>
+        </div>
+      </section>
+
+      <section class="chapter" id="chapter-10">
+        <div class="chapter-marker">Chapter 10</div>
+        <h2><em>Nor</em> After a Negative Clause</h2>
+        <p><em>Nor</em> can connect a second negative clause to an earlier negative clause. This is a formal and compact alternative to adding <em>and...not...either</em>.</p>
+        <span class="formula">Negative clause, nor + auxiliary/modal/be + subject + rest</span>
+        <div class="compare-grid">
+          <div class="comparison-card"><h3>Ordinary coordination</h3><p>The study did not identify the cause, and it did not propose a solution either.</p></div>
+          <div class="comparison-card"><h3>Formal coordination</h3><p>The study did not identify the cause, nor did it propose a solution.</p></div>
+        </div>
+        <p>The clause after <em>nor</em> uses inversion. Choose the auxiliary using the formula from Chapter 2.</p>
+        <div class="example">
+          <p>She had not read the report, nor <strong>had she attended</strong> the briefing.</p>
+          <p>The plan is not affordable, nor <strong>is it practical</strong>.</p>
+          <p>He rarely participated, nor <strong>did he complete</strong> the assignments.</p>
+        </div>
+        <div class="practice">
+          <h3>Practice 10: Rewrite with <em>nor</em></h3>
+          <ol>
+            <li>The article did not define the term, and it did not provide an example either.</li>
+            <li>The measure is not accurate, and it is not reliable either.</li>
+            <li>They had not tested the device, and they had not inspected the wiring either.</li>
+            <li>Correct the inversion: “She did not object, nor she offered an alternative.”</li>
+          </ol>
+          <details>
+            <summary>Answer key and explanations</summary>
+            <ol>
+              <li>The article did not define the term, <strong>nor did it provide</strong> an example.</li>
+              <li>The measure is not accurate, <strong>nor is it reliable</strong>.</li>
+              <li>They had not tested the device, <strong>nor had they inspected</strong> the wiring.</li>
+              <li>She did not object, <strong>nor did she offer</strong> an alternative.</li>
+            </ol>
+          </details>
+        </div>
+      </section>
+
+      <section class="chapter" id="chapter-11">
+        <div class="chapter-marker">Chapter 11</div>
+        <h2><em>Not Only...But Also</em></h2>
+        <p>This pair adds two related ideas while emphasising that the second is additional or surprising. The two connected elements should be parallel.</p>
+        <div class="example">
+          <p>The programme develops not only <strong>knowledge</strong> but also <strong>confidence</strong>.</p>
+          <p>She not only <strong>completed the project</strong> but also <strong>presented the results</strong>.</p>
+        </div>
+        <h3>11.1 Inversion after sentence-opening <em>not only</em></h3>
+        <p>When <em>not only</em> begins the whole sentence and introduces a clause, that first clause uses inversion. The second clause normally has ordinary word order.</p>
+        <span class="formula">Not only + auxiliary/modal/be + subject + rest, but subject + also + verb...</span>
+        <div class="example">
+          <p>Not only <strong>did she complete</strong> the project, but she also presented the results.</p>
+          <p>Not only <strong>is the policy expensive</strong>, but it is also ineffective.</p>
+        </div>
+        <div class="practice">
+          <h3>Practice 11: Build balanced sentences</h3>
+          <ol>
+            <li>Combine: “The course improves accuracy. It improves fluency.”</li>
+            <li>Correct: “The system is not only expensive but also it wastes time.”</li>
+            <li>Rewrite beginning with <em>Not only</em>: “She identified the flaw and proposed a solution.”</li>
+            <li>Complete: “Not only ___ the sample small, but it was also unrepresentative.”</li>
+          </ol>
+          <details>
+            <summary>Answer key and explanations</summary>
+            <ol>
+              <li>The course improves <strong>not only accuracy but also fluency</strong>.</li>
+              <li>The system is <strong>not only expensive but also time-consuming</strong>, or: It <strong>not only costs too much but also wastes time</strong>.</li>
+              <li><strong>Not only did she identify the flaw, but she also proposed a solution.</strong></li>
+              <li><strong>was</strong>: invert the verb <em>be</em>.</li>
+            </ol>
+          </details>
+        </div>
+
+        <h3>11.2 Fifty advanced examples</h3>
+        <p>These sentences demonstrate <em>not only...but also</em> with noun phrases, adjectives, verb phrases, infinitives, prepositional phrases, embedded clauses, and full clauses. In sentence-opening patterns, inversion appears in the first clause, while <em>also</em> normally follows the subject in the second clause.</p>
+        <ol class="advanced-list">
+          <li>The revised curriculum develops not only technical competence but also the ability to evaluate evidence critically.</li>
+          <li>The policy affected not only full-time employees but also contractors whose work depended on the same administrative system.</li>
+          <li>The explanation is not only logically consistent but also compatible with the most recent experimental findings.</li>
+          <li>The proposed intervention is not only more affordable than the existing programme but also easier to implement across rural regions.</li>
+          <li>The committee not only rejected the initial recommendation but also requested a complete reassessment of the underlying evidence.</li>
+          <li>The researchers not only replicated the original result but also identified the conditions under which it disappears.</li>
+          <li>The new archive allows historians not only to reconstruct the sequence of events but also to compare competing interpretations of them.</li>
+          <li>The course encourages students not only to identify an author's claim but also to examine the assumptions on which that claim depends.</li>
+          <li>The reform was designed not only to reduce unnecessary expenditure but also to make decision-making more transparent.</li>
+          <li>The technology can be used not only for detecting structural damage but also for predicting where future failures are most likely to occur.</li>
+          <li>The organisation improved its performance not only by simplifying internal procedures but also by giving local offices greater authority.</li>
+          <li>The theory gained influence not only because it explained the existing data but also because it generated precise, testable predictions.</li>
+          <li>The decline occurred not only in regions directly exposed to the drought but also in neighbouring areas that depended on the same water system.</li>
+          <li>The findings matter not only to specialists in molecular biology but also to clinicians deciding how the treatment should be administered.</li>
+          <li>The debate concerns not only whether the measure is economically efficient but also whether it distributes costs fairly.</li>
+          <li>The investigation examined not only what decisions had been made but also who had possessed the authority to make them.</li>
+          <li>The study demonstrates not only that the two variables are associated but also that the strength of the association changes over time.</li>
+          <li>The report explains not only why the earlier strategy failed but also how a revised strategy could avoid the same weaknesses.</li>
+          <li>The evidence suggests not only that public attitudes have shifted but also that the reasons behind those attitudes have become more complex.</li>
+          <li>The discovery altered not only how scientists understood the disease but also how they designed subsequent clinical trials.</li>
+          <li>Not only did the revised procedure shorten processing time, but it also reduced the number of applications returned for correction.</li>
+          <li>Not only did the witnesses provide inconsistent accounts, but they also changed important details during later interviews.</li>
+          <li>Not only does the model underestimate long-term costs, but it also assumes a rate of growth that the historical data do not support.</li>
+          <li>Not only does the policy fail to protect vulnerable workers, but it also creates incentives for employers to avoid formal contracts.</li>
+          <li>Not only is the proposed solution technically demanding, but it is also dependent on infrastructure that many regions do not possess.</li>
+          <li>Not only are the available estimates imprecise, but they are also based on samples that exclude several relevant populations.</li>
+          <li>Not only was the initial interpretation incomplete, but it was also shaped by assumptions that later evidence directly contradicted.</li>
+          <li>Not only were participants unaware of the study's true purpose, but they were also given information intended to influence their responses.</li>
+          <li>Not only has the company failed to meet its original targets, but it has also stopped publishing the data needed to evaluate its progress.</li>
+          <li>Not only have researchers documented the immediate effects of the intervention, but they have also followed participants long enough to assess whether those effects persist.</li>
+          <li>Not only had the administration ignored repeated warnings, but it had also removed the safeguards that might have limited the damage.</li>
+          <li>Not only had the earlier studies relied on small samples, but they had also used definitions that made meaningful comparison difficult.</li>
+          <li>Not only can the device detect unusually small changes in pressure, but it can also distinguish genuine signals from background noise.</li>
+          <li>Not only could the reform increase access to higher education, but it could also reduce the financial uncertainty faced by low-income students.</li>
+          <li>Not only should governments publish the criteria used to allocate funding, but they should also explain how exceptions to those criteria are approved.</li>
+          <li>Not only must the revised theory account for the original observations, but it must also explain the anomalies that the earlier model dismissed.</li>
+          <li>Not only will the new regulation affect companies that collect personal data, but it will also apply to organisations that process such data on their behalf.</li>
+          <li>Not only would the proposed merger reduce competition, but it would also place control of essential infrastructure in the hands of a single provider.</li>
+          <li>Not only may the apparent improvement reflect changes in measurement, but it may also result from participants becoming familiar with the test.</li>
+          <li>Not only might the policy produce unintended economic consequences, but it might also weaken the institutions responsible for correcting them.</li>
+          <li>The revised account is valuable not only for what it includes but also for what it reveals about the limitations of earlier sources.</li>
+          <li>The decision should be judged not only by its immediate outcome but also by the precedent it establishes for future cases.</li>
+          <li>Students were asked not only to summarise the competing theories but also to determine which evidence would discriminate between them.</li>
+          <li>The programme succeeded not only in attracting qualified applicants but also in retaining them after the initial training period.</li>
+          <li>The agreement protects not only those who are currently employed but also those whose contracts will begin during the transition period.</li>
+          <li>The mechanism explains not only how the reaction begins but also why it stops once a particular threshold has been reached.</li>
+          <li>The lecturer clarified not only which interpretation was historically dominant but also why scholars have increasingly challenged it.</li>
+          <li>The crisis revealed not only how dependent the region was on imported fuel but also how unevenly the resulting shortages affected different communities.</li>
+          <li>The research raises questions not only about the accuracy of the published figures but also about the institutional pressures under which those figures were produced.</li>
+          <li>Not only did the final ruling resolve the immediate dispute, but it also redefined the legal standard that later courts would be expected to apply.</li>
+        </ol>
+      </section>
+
+      <section class="chapter" id="chapter-12">
+        <div class="chapter-marker">Chapter 12</div>
+        <h2>Negative and Restrictive Expressions That Trigger Inversion</h2>
+        <p>The inversion pattern extends beyond <em>neither</em>, <em>nor</em>, and <em>not only</em>. When certain negative or restrictive expressions are moved to the beginning for emphasis, the following clause often uses question-like order.</p>
+        <div class="example">
+          <p><strong>Never have I seen</strong> such rapid growth.</p>
+          <p><strong>Rarely do students receive</strong> immediate feedback.</p>
+          <p><strong>Under no circumstances should personal data be shared.</strong></p>
+          <p><strong>Little did they know</strong> that the experiment would fail.</p>
+        </div>
+        <p>This is useful because it reveals one general principle: a negative or strongly restrictive expression at the beginning can pull the auxiliary in front of the subject.</p>
+        <div class="practice">
+          <h3>Practice 12: Apply the general inversion rule</h3>
+          <ol>
+            <li>Rewrite beginning with <em>Never</em>: “I have never encountered such resistance.”</li>
+            <li>Rewrite beginning with <em>Rarely</em>: “Researchers rarely obtain perfectly clean data.”</li>
+            <li>Correct: “Under no circumstances students should share passwords.”</li>
+            <li>Rewrite beginning with <em>Little</em>: “They little knew how serious the problem was.”</li>
+          </ol>
+          <details>
+            <summary>Answer key and explanations</summary>
+            <ol>
+              <li><strong>Never have I encountered such resistance.</strong></li>
+              <li><strong>Rarely do researchers obtain perfectly clean data.</strong></li>
+              <li><strong>Under no circumstances should students share passwords.</strong></li>
+              <li><strong>Little did they know how serious the problem was.</strong></li>
+            </ol>
+          </details>
+        </div>
+      </section>
+
+      <section class="chapter" id="chapter-13">
+        <div class="chapter-marker">Chapter 13</div>
+        <h2><em>Or</em>: Choice, Reformulation, Warning, and Approximation</h2>
+        <p><em>Or</em> does not always mean a simple exclusive choice. Context determines the relationship.</p>
+        <div class="mini-grid">
+          <div class="comparison-card"><h3>Choice</h3><p>You can submit an essay or give a presentation.</p></div>
+          <div class="comparison-card"><h3>Reformulation</h3><p>The animal is nocturnal, or active mainly at night.</p></div>
+          <div class="comparison-card"><h3>Warning</h3><p>Leave now, or you will miss the bus.</p></div>
+        </div>
+        <p>It can also express approximation: <em>five or six days</em>. In scientific explanation, it may present several possible causes without claiming that only one can be true.</p>
+        <div class="practice">
+          <h3>Practice 13: Identify the relationship</h3>
+          <ol>
+            <li>The process takes seven or eight hours.</li>
+            <li>Reduce the file size, or the system may reject the upload.</li>
+            <li>The species is arboreal, or adapted to living in trees.</li>
+            <li>The decline may result from habitat loss or climate variation.</li>
+          </ol>
+          <details>
+            <summary>Answer key and explanations</summary>
+            <ol>
+              <li><strong>Approximation.</strong></li>
+              <li><strong>Warning or consequence.</strong></li>
+              <li><strong>Reformulation or explanation.</strong></li>
+              <li><strong>Possible causes.</strong> The possibilities are not necessarily mutually exclusive.</li>
+            </ol>
+          </details>
+        </div>
+      </section>
+
+      <section class="chapter" id="chapter-14">
+        <div class="chapter-marker">Chapter 14</div>
+        <h2><em>Whether...or</em>, <em>Whether or Not</em>, <em>Or Else</em>, and <em>Otherwise</em></h2>
+        <p><em>Whether...or</em> presents alternatives inside a larger sentence. It commonly follows verbs of uncertainty, decision, investigation, or discussion.</p>
+        <div class="example">
+          <p>I do not know <strong>whether the class is online or in person</strong>.</p>
+          <p>We must decide <strong>whether to continue or stop</strong>.</p>
+          <p><strong>Whether students agree or disagree</strong>, they should support their position.</p>
+        </div>
+        <p><em>Whether or not</em> means that the result remains true in both cases.</p>
+        <div class="example"><p>The policy will continue <strong>whether or not students support it</strong>.</p></div>
+        <p><em>Or else</em> and <em>otherwise</em> introduce an undesirable consequence. <em>Otherwise</em> often begins a new independent clause after a semicolon or period.</p>
+        <div class="example">
+          <p>Submit the form today, <strong>or else</strong> your application may be delayed.</p>
+          <p>Submit the form today; <strong>otherwise</strong>, your application may be delayed.</p>
+        </div>
+        <div class="practice">
+          <h3>Practice 14: Choose the connector</h3>
+          <ol>
+            <li>I am unsure ___ to accept or decline.</li>
+            <li>The experiment must be documented carefully; ___, others cannot reproduce it.</li>
+            <li>The deadline will not change ___ or not the committee approves the request.</li>
+            <li>Complete: “Back up the files, ___ you may lose your work.”</li>
+          </ol>
+          <details>
+            <summary>Answer key and explanations</summary>
+            <ol>
+              <li><strong>whether</strong>: use <em>whether + to-infinitive</em>.</li>
+              <li><strong>otherwise</strong>: it introduces the negative consequence in a new clause.</li>
+              <li><strong>whether</strong>: the pattern is <em>whether or not</em>.</li>
+              <li><strong>or else</strong> or simply <strong>or</strong>.</li>
+            </ol>
+          </details>
+        </div>
+      </section>
+
+      <section class="chapter" id="chapter-15">
+        <div class="chapter-marker">Chapter 15</div>
+        <h2><em>Either</em> Meaning “Each of Two”</h2>
+        <p>In certain spatial expressions, <em>either</em> can mean “each of the two.” This use is especially common with <em>side</em> and <em>end</em>.</p>
+        <div class="example">
+          <p>There were trees on <strong>either side</strong> of the road. <em>(on both sides)</em></p>
+          <p>A door stood at <strong>either end</strong> of the hallway. <em>(at both ends)</em></p>
+        </div>
+        <p>Context distinguishes this meaning from free choice.</p>
+        <div class="compare-grid">
+          <div class="comparison-card"><p>You may sit on <strong>either side</strong>.</p><p>Choose one side.</p></div>
+          <div class="comparison-card"><p>Trees were planted on <strong>either side</strong>.</p><p>Trees were planted on both sides.</p></div>
+        </div>
+        <div class="practice">
+          <h3>Practice 15: Interpret <em>either</em></h3>
+          <ol>
+            <li>There was an exit at either end of the platform.</li>
+            <li>You can enter through either door.</li>
+            <li>Students were seated on either side of the aisle.</li>
+          </ol>
+          <details>
+            <summary>Answer key and explanations</summary>
+            <ol>
+              <li><strong>Each of the two ends.</strong></li>
+              <li><strong>One door or the other.</strong></li>
+              <li><strong>Both sides of the aisle.</strong></li>
+            </ol>
+          </details>
+        </div>
+      </section>
+
+      <section class="chapter" id="chapter-16">
+        <div class="chapter-marker">Chapter 16</div>
+        <h2><em>Any</em> vs. <em>Either</em>; <em>None</em> vs. <em>Neither</em></h2>
+        <p>For clear formal usage, use <em>either</em> and <em>neither</em> when exactly two alternatives are involved. Use <em>any</em> and <em>none</em> when the set contains three or more.</p>
+        <div class="table-wrap">
+          <table>
+            <thead><tr><th>Number in the set</th><th>Positive possibility</th><th>Negative quantity</th></tr></thead>
+            <tbody>
+              <tr><td>Two</td><td>either</td><td>neither</td></tr>
+              <tr><td>Three or more</td><td>any</td><td>none</td></tr>
+            </tbody>
+          </table>
+        </div>
+        <div class="example">
+          <p>You can choose <strong>either colour</strong>. <em>(two colours)</em></p>
+          <p>You can choose <strong>any colour</strong>. <em>(several colours)</em></p>
+          <p><strong>Neither of the two explanations</strong> is convincing.</p>
+          <p><strong>None of the four explanations</strong> is convincing.</p>
+        </div>
+        <div class="practice">
+          <h3>Practice 16: Choose the precise word</h3>
+          <ol>
+            <li>There are two available times. ___ would work for me.</li>
+            <li>There are six available times. ___ would work for me.</li>
+            <li>Of the two proposals, ___ addresses the funding problem.</li>
+            <li>Of the five proposals, ___ addresses the funding problem.</li>
+          </ol>
+          <details>
+            <summary>Answer key and explanations</summary>
+            <ol>
+              <li><strong>Either</strong>.</li>
+              <li><strong>Any</strong>.</li>
+              <li><strong>Neither</strong>.</li>
+              <li><strong>None</strong>.</li>
+            </ol>
+          </details>
+        </div>
+      </section>
+
+      <section class="chapter" id="chapter-17">
+        <div class="chapter-marker">Chapter 17</div>
+        <h2><em>Too</em> Meaning “Excessively”</h2>
+        <p>This use of <em>too</em> is completely different from additive <em>too</em>. Degree <em>too</em> means “more than is acceptable, desirable, useful, or possible.” It usually implies a negative result.</p>
+        <div class="example">
+          <p>The article is <strong>too technical</strong>. <em>(Its level causes a problem.)</em></p>
+          <p>The evidence is <strong>too limited for us to draw a conclusion</strong>.</p>
+        </div>
+        <h3>17.1 Main patterns</h3>
+        <div class="table-wrap">
+          <table>
+            <thead><tr><th>Pattern</th><th>Example</th></tr></thead>
+            <tbody>
+              <tr><td>too + adjective/adverb</td><td>too expensive; too slowly</td></tr>
+              <tr><td>too much + uncountable noun</td><td>too much information</td></tr>
+              <tr><td>too many + plural count noun</td><td>too many variables</td></tr>
+              <tr><td>too + adjective + to-infinitive</td><td>too weak to be convincing</td></tr>
+              <tr><td>too + adjective + for + person + to-infinitive</td><td>too difficult for beginners to understand</td></tr>
+            </tbody>
+          </table>
+        </div>
+        <div class="practice">
+          <h3>Practice 17: Complete the degree structure</h3>
+          <ol>
+            <li>There is ___ information to process in one hour.</li>
+            <li>The survey contains ___ questions.</li>
+            <li>The box is ___ heavy for one person to lift.</li>
+            <li>Rewrite using a to-infinitive: “The evidence is excessively weak; therefore, it cannot support the claim.”</li>
+          </ol>
+          <details>
+            <summary>Answer key and explanations</summary>
+            <ol>
+              <li><strong>too much</strong>: <em>information</em> is uncountable.</li>
+              <li><strong>too many</strong>: <em>questions</em> is plural and countable.</li>
+              <li><strong>too</strong>.</li>
+              <li><strong>The evidence is too weak to support the claim.</strong></li>
+            </ol>
+          </details>
+        </div>
+      </section>
+
+      <section class="chapter" id="chapter-18">
+        <div class="chapter-marker">Chapter 18</div>
+        <h2><em>Very</em> vs. <em>Too</em>; <em>So...That</em> vs. <em>Too...To</em></h2>
+        <p><em>Very</em> describes a high degree. It does not automatically say that the degree creates a problem. <em>Too</em> says the degree crosses a limit and causes an undesirable or impossible result.</p>
+        <div class="compare-grid">
+          <div class="comparison-card"><h3>Very</h3><p>The test was <strong>very difficult</strong>, but I completed it.</p></div>
+          <div class="comparison-card"><h3>Too</h3><p>The test was <strong>too difficult</strong>, so I could not complete it.</p></div>
+        </div>
+        <p><em>So...that</em> states a result explicitly. <em>Too...to</em> usually implies inability or prevention.</p>
+        <div class="example">
+          <p>The lecture was <strong>so interesting that</strong> I took extra notes.</p>
+          <p>The lecture was <strong>too complicated for beginners to follow</strong>.</p>
+        </div>
+        <div class="practice">
+          <h3>Practice 18: Choose the intended degree</h3>
+          <ol>
+            <li>The room was very/too cold, but we stayed for the entire meeting.</li>
+            <li>The room was very/too cold to use safely.</li>
+            <li>Complete: The explanation was so clear ___ everyone understood it.</li>
+            <li>Rewrite: “The passage was so complex that the beginners could not understand it.”</li>
+          </ol>
+          <details>
+            <summary>Answer key and explanations</summary>
+            <ol>
+              <li><strong>very</strong>: the sentence says the meeting still continued.</li>
+              <li><strong>too</strong>: the cold prevents safe use.</li>
+              <li><strong>that</strong>.</li>
+              <li><strong>The passage was too complex for the beginners to understand.</strong></li>
+            </ol>
+          </details>
+        </div>
+      </section>
+
+      <section class="chapter" id="chapter-19">
+        <div class="chapter-marker">Chapter 19</div>
+        <h2><em>Too...To</em> and <em>Enough To</em></h2>
+        <p>These structures often describe opposite sides of a limit. <em>Too</em> comes before an adjective or adverb. <em>Enough</em> comes after an adjective or adverb but before a noun.</p>
+        <span class="formula">too + adjective/adverb + to-infinitive</span>
+        <span class="formula">adjective/adverb + enough + to-infinitive</span>
+        <span class="formula">enough + noun + to-infinitive</span>
+        <div class="example">
+          <p>The room is <strong>too dark to read</strong>.</p>
+          <p>The room is not <strong>bright enough to read</strong>.</p>
+          <p>We have <strong>enough evidence to continue</strong>.</p>
+        </div>
+        <p>Transformations are not always equally natural. The opposite adjective may sound awkward or change the emphasis, so focus on meaning rather than mechanically replacing every word.</p>
+        <div class="practice">
+          <h3>Practice 19: Use the correct order</h3>
+          <ol>
+            <li>Correct: “The task is enough easy to complete.”</li>
+            <li>Correct: “We have time enough to repeat the test.”</li>
+            <li>Rewrite with <em>enough</em>: “She is too young to apply.”</li>
+            <li>Complete: The evidence is not strong ___ to justify the conclusion.</li>
+          </ol>
+          <details>
+            <summary>Answer key and explanations</summary>
+            <ol>
+              <li><strong>The task is easy enough to complete.</strong></li>
+              <li><strong>We have enough time to repeat the test.</strong></li>
+              <li><strong>She is not old enough to apply.</strong></li>
+              <li><strong>enough</strong>: it follows the adjective <em>strong</em>.</li>
+            </ol>
+          </details>
+        </div>
+      </section>
+
+      <section class="chapter" id="chapter-20">
+        <div class="chapter-marker">Chapter 20</div>
+        <h2>Negation, Ambiguity, and Scope</h2>
+        <p>The position of a negative word can change which part of the sentence is denied. This is called the scope of negation. Advanced readers must ask: what exactly does <em>not</em> apply to?</p>
+
+        <h3>20.1 Ambiguous <em>both...not</em></h3>
+        <p>The sentence <em>Both students did not pass</em> is unclear. It may mean that neither passed, or merely that not both passed. Rewrite it.</p>
+        <div class="example">
+          <p><strong>Neither student passed.</strong> <em>(zero passed)</em></p>
+          <p><strong>Not both students passed.</strong> <em>(possibly one passed)</em></p>
+          <p><strong>Only one student passed.</strong> <em>(exactly one passed)</em></p>
+        </div>
+
+        <h3>20.2 Negative modals and <em>either</em></h3>
+        <p>Compare prohibition, lack of necessity, and inability carefully.</p>
+        <div class="example">
+          <p>You <strong>must not contact either professor</strong>. <em>(contacting either one is prohibited)</em></p>
+          <p>You <strong>do not need to contact either professor</strong>. <em>(contacting them is unnecessary)</em></p>
+          <p>You <strong>cannot choose either option</strong>. <em>(both choices are unavailable)</em></p>
+        </div>
+        <div class="practice">
+          <h3>Practice 20: Clarify the meaning</h3>
+          <ol>
+            <li>Rewrite “Both proposals were not accepted” to mean zero proposals were accepted.</li>
+            <li>Rewrite it to mean only one was accepted.</li>
+            <li>Explain: “You do not have to answer either question.”</li>
+            <li>Correct: “The decline cannot be explained neither by cost nor by quality.”</li>
+          </ol>
+          <details>
+            <summary>Answer key and explanations</summary>
+            <ol>
+              <li><strong>Neither proposal was accepted.</strong></li>
+              <li><strong>Only one proposal was accepted</strong> or <strong>Not both proposals were accepted.</strong></li>
+              <li>It means answering the questions is not required; it does not normally prohibit answering.</li>
+              <li><strong>The decline cannot be explained either by cost or by quality.</strong> The negative verb requires <em>either...or</em>, not <em>neither...nor</em>.</li>
+            </ol>
+          </details>
+        </div>
+      </section>
+
+      <section class="chapter" id="chapter-21">
+        <div class="chapter-marker">Chapter 21</div>
+        <h2>Comprehensive Error Clinic</h2>
+        <div class="table-wrap">
+          <table>
+            <thead><tr><th>Incorrect</th><th>Correct</th><th>Reason</th></tr></thead>
+            <tbody>
+              <tr><td>I do not agree too.</td><td>I do not agree either.</td><td>Negative addition uses <em>either</em>.</td></tr>
+              <tr><td>Neither I do.</td><td>Neither do I.</td><td>Agreement requires inversion.</td></tr>
+              <tr><td>Neither of the student...</td><td>Neither of the students...</td><td>The noun after <em>of</em> is plural.</td></tr>
+              <tr><td>Either students...</td><td>Either student...</td><td>Determiner <em>either</em> takes a singular noun.</td></tr>
+              <tr><td>Neither John or Sara...</td><td>Neither John nor Sara...</td><td>The correct pair is <em>neither...nor</em>.</td></tr>
+              <tr><td>Either John nor Sara...</td><td>Either John or Sara...</td><td>The correct pair is <em>either...or</em>.</td></tr>
+              <tr><td>Not only she disagreed...</td><td>Not only did she disagree...</td><td>Sentence-opening <em>not only</em> triggers inversion.</td></tr>
+              <tr><td>The task is enough easy.</td><td>The task is easy enough.</td><td><em>Enough</em> follows adjectives.</td></tr>
+            </tbody>
+          </table>
+        </div>
+        <div class="practice">
+          <h3>Practice 21: Correct the errors</h3>
+          <ol>
+            <li>I cannot attend too.</li>
+            <li>Neither the cost or the schedule is acceptable.</li>
+            <li>Either of the answer may be correct.</li>
+            <li>Nor the report explained the discrepancy.</li>
+            <li>Not only the plan was expensive, but it was also ineffective.</li>
+            <li>The students either could submit an essay or making a presentation.</li>
+          </ol>
+          <details>
+            <summary>Answer key and explanations</summary>
+            <ol>
+              <li><strong>I cannot attend either.</strong></li>
+              <li><strong>Neither the cost nor the schedule is acceptable.</strong></li>
+              <li><strong>Either of the answers may be correct.</strong></li>
+              <li><strong>Nor did the report explain the discrepancy.</strong></li>
+              <li><strong>Not only was the plan expensive, but it was also ineffective.</strong></li>
+              <li><strong>The students could either submit an essay or make a presentation.</strong> The two verb phrases are parallel.</li>
+            </ol>
+          </details>
+        </div>
+      </section>
+
+      <section class="chapter" id="chapter-22">
+        <div class="chapter-marker">Chapter 22</div>
+        <h2>Final Mixed Practice</h2>
+        <p>Complete or correct each item. The questions become progressively more demanding.</p>
+        <div class="practice">
+          <ol>
+            <li>I enjoyed the reading, and my classmate did ___.</li>
+            <li>I did not understand the final paragraph ___.</li>
+            <li>A: I am ready. B: So ___ I.</li>
+            <li>A: I have not finished. B: Neither ___ I.</li>
+            <li>___ of the two answers is acceptable.</li>
+            <li>___ of the two answers is acceptable; both are wrong.</li>
+            <li>Correct: “Neither of the applicant were interviewed.”</li>
+            <li>Complete: “The policy is neither affordable ___ effective.”</li>
+            <li>Choose: “Either the assistants or the director (is/are) responsible.”</li>
+            <li>Correct: “She either plans to revise the article or submitting it elsewhere.”</li>
+            <li>Rewrite with <em>nor</em>: “The study did not identify the cause, and it did not test an alternative explanation either.”</li>
+            <li>Rewrite beginning with <em>Not only</em>: “The reform reduced costs and improved access.”</li>
+            <li>Correct: “Under no circumstances participants should reveal their passwords.”</li>
+            <li>Choose <em>very</em> or <em>too</em>: “The data were ___ limited to support a firm conclusion.”</li>
+            <li>Rewrite with <em>enough</em>: “The sample was too small to represent the population.”</li>
+            <li>Explain the ambiguity: “Both explanations are not correct.”</li>
+            <li>Correct: “The result cannot be explained neither by measurement error nor by random variation.”</li>
+            <li>Combine with parallel <em>not only...but also</em>: “The programme trains teachers. It gives them continuing support.”</li>
+            <li>Rewrite with formal inversion: “The committee had never faced a dispute of this scale.”</li>
+            <li>Correct and improve: “Either the evidence was ignored, or because the reviewers misunderstood its significance.”</li>
+          </ol>
+          <details>
+            <summary>Final answer key and explanations</summary>
+            <ol class="answer-list">
+              <li><strong>too</strong>.</li>
+              <li><strong>either</strong>.</li>
+              <li><strong>am</strong>.</li>
+              <li><strong>have</strong>.</li>
+              <li><strong>Either</strong>: one of the two is acceptable.</li>
+              <li><strong>Neither</strong>: zero of the two is acceptable.</li>
+              <li><strong>Neither of the applicants was interviewed.</strong> Plural noun after <em>of</em>; formal singular verb.</li>
+              <li><strong>nor</strong>.</li>
+              <li><strong>is</strong>: agreement with the nearer subject.</li>
+              <li><strong>She plans either to revise the article or to submit it elsewhere.</strong></li>
+              <li><strong>The study did not identify the cause, nor did it test an alternative explanation.</strong></li>
+              <li><strong>Not only did the reform reduce costs, but it also improved access.</strong></li>
+              <li><strong>Under no circumstances should participants reveal their passwords.</strong></li>
+              <li><strong>too</strong>: the limitation prevents a firm conclusion.</li>
+              <li><strong>The sample was not large enough to represent the population.</strong></li>
+              <li>It may mean that neither explanation is correct, or that only one is correct. Rewrite as <strong>Neither explanation is correct</strong> or <strong>Only one explanation is correct</strong>.</li>
+              <li><strong>The result cannot be explained either by measurement error or by random variation.</strong></li>
+              <li><strong>The programme not only trains teachers but also gives them continuing support.</strong></li>
+              <li><strong>Never had the committee faced a dispute of this scale.</strong></li>
+              <li><strong>Either the evidence was ignored, or the reviewers misunderstood its significance.</strong> Both sides must be parallel complete clauses.</li>
+            </ol>
+          </details>
+        </div>
+
+        <div class="callout">
+          <span class="label">Final strategy</span>
+          <p>When you meet one of these words, ask three questions: What meaning does it express? What grammatical job does it perform? Does the structure require parallelism or inversion? This three-step check prevents most errors.</p>
+        </div>
+      </section>
+    </article>
+  </main>
+</div>
+
+<footer>
+  <div class="footer-inner">
+    <div>Kooshky’s TOEFL Guides · Collected and compiled by Amir Kooshky</div>
+    <div class="promo-links">
+      <a href="https://telegram.me/KooshkyTOEFL" target="_blank" rel="noopener noreferrer">Telegram</a> ·
+      <a href="https://instagram.com/kooshkytoefl" target="_blank" rel="noopener noreferrer">Instagram</a> ·
+      <a href="https://telegram.me/kooshkyTOEFL_pv" target="_blank" rel="noopener noreferrer">Personal Telegram</a>
+    </div>
+  </div>
+</footer>
+
+<button class="go-top" id="go-top" type="button" aria-label="Go to top">↑</button>
+
+<div class="dictionary-menu" id="dictionary-menu" role="menu" aria-label="Dictionary lookup">
+  <strong id="dictionary-term"></strong>
+  <a id="cambridge-link" target="_blank" rel="noopener noreferrer">Cambridge Dictionary</a>
+  <a id="oxford-link" target="_blank" rel="noopener noreferrer">Oxford Learner’s Dictionaries</a>
+  <a id="mw-link" target="_blank" rel="noopener noreferrer">Merriam-Webster</a>
+  <a id="google-link" target="_blank" rel="noopener noreferrer">Google meaning search</a>
+</div>
+
+<div class="modal-backdrop promo-links" id="telegram-backdrop" role="presentation">
+  <section class="modal" id="telegram-modal" role="dialog" aria-modal="true" aria-labelledby="telegram-title" tabindex="-1">
+    <div class="modal-header">
+      <div>
+        <div class="eyebrow">More TOEFL material</div>
+        <h2 id="telegram-title">Continue studying with Kooshky’s TOEFL Guides</h2>
+      </div>
+      <button class="close-button" id="telegram-close" type="button" aria-label="Close invitation">Close</button>
+    </div>
+    <p>Find more grammar guides, vocabulary lessons, and TOEFL practice on the Telegram channel.</p>
+    <a class="primary-link" id="telegram-visit" href="https://telegram.me/KooshkyTOEFL" target="_blank" rel="noopener noreferrer">Visit the Telegram channel</a>
+  </section>
+</div>
+
+<script>
+(() => {
+  "use strict";
+
+  const THEME_KEY = "kooshky-guides:theme:v1";
+  const GUIDE_SLUG = "too-either-neither-nor-related-structures";
+  const INVITE_KEY = `kooshky-guides:${GUIDE_SLUG}:telegram-invite:v1`;
+  let lastFocusedElement = null;
+
+  const safeStorage = {
+    get(key) { try { return localStorage.getItem(key); } catch (_) { return null; } },
+    set(key, value) { try { localStorage.setItem(key, value); } catch (_) {} }
+  };
+
+  function setHomeLinks() {
+    const root = `${window.location.origin}/`;
+    document.querySelectorAll(".home-link").forEach(link => link.href = root);
+  }
+
+  function setTheme(theme) {
+    const next = theme === "dark" ? "dark" : "light";
+    document.documentElement.dataset.theme = next;
+    document.documentElement.style.colorScheme = next;
+    safeStorage.set(THEME_KEY, next);
+    const isDark = next === "dark";
+    const button = document.getElementById("theme-toggle");
+    if (button) {
+      button.setAttribute("aria-pressed", String(isDark));
+      button.setAttribute("aria-label", isDark ? "Switch to light theme" : "Switch to dark theme");
+    }
+  }
+
+  function toggleTheme() {
+    setTheme(document.documentElement.dataset.theme === "dark" ? "light" : "dark");
+  }
+
+  function slugify(text) {
+    return text.toLowerCase().trim()
+      .replace(/<[^>]*>/g, "")
+      .replace(/['’]/g, "")
+      .replace(/[^a-z0-9]+/g, "-")
+      .replace(/^-+|-+$/g, "") || "section";
+  }
+
+  function buildToc(container) {
+    const headings = [...document.querySelectorAll("article h2, article h3")];
+    const used = new Set();
+    headings.forEach((heading, index) => {
+      if (!heading.id) {
+        let base = slugify(heading.textContent);
+        let id = base;
+        let n = 2;
+        while (used.has(id) || document.getElementById(id)) id = `${base}-${n++}`;
+        heading.id = id;
+      }
+      used.add(heading.id);
+    });
+
+    const root = document.createElement("ul");
+    root.className = "toc-tree";
+    let currentChildren = null;
+
+    headings.forEach(heading => {
+      if (heading.tagName === "H2") {
+        const item = document.createElement("li");
+        const row = document.createElement("div");
+        row.className = "toc-row";
+        const toggle = document.createElement("button");
+        toggle.className = "toc-toggle";
+        toggle.type = "button";
+        toggle.textContent = "›";
+        toggle.setAttribute("aria-label", `Expand ${heading.textContent}`);
+        toggle.setAttribute("aria-expanded", "false");
+
+        const link = document.createElement("a");
+        link.className = "toc-link";
+        link.href = `#${heading.id}`;
+        link.textContent = heading.textContent;
+
+        const children = document.createElement("ul");
+        children.className = "toc-children";
+        children.hidden = true;
+
+        toggle.addEventListener("click", () => {
+          const expanded = toggle.getAttribute("aria-expanded") === "true";
+          toggle.setAttribute("aria-expanded", String(!expanded));
+          toggle.textContent = expanded ? "›" : "⌄";
+          children.hidden = expanded;
+        });
+
+        row.append(toggle, link);
+        item.append(row, children);
+        root.append(item);
+        currentChildren = children;
+      } else if (currentChildren) {
+        const item = document.createElement("li");
+        const link = document.createElement("a");
+        link.className = "toc-link";
+        link.href = `#${heading.id}`;
+        link.textContent = heading.textContent;
+        item.append(link);
+        currentChildren.append(item);
+      }
+    });
+
+    container.replaceChildren(root);
+    return headings;
+  }
+
+  function setupActiveHeading(headings) {
+    const links = [...document.querySelectorAll(".toc-link")];
+    const map = new Map(links.map(link => [link.getAttribute("href").slice(1), link]));
+    const observer = new IntersectionObserver(entries => {
+      const visible = entries.filter(e => e.isIntersecting).sort((a,b) => a.boundingClientRect.top - b.boundingClientRect.top);
+      if (!visible.length) return;
+      links.forEach(link => link.classList.remove("active"));
+      const link = map.get(visible[0].target.id);
+      if (link) link.classList.add("active");
+    }, { rootMargin: "-18% 0px -70% 0px", threshold: 0 });
+    headings.forEach(h => observer.observe(h));
+  }
+
+  function setupDrawer() {
+    const drawer = document.getElementById("mobile-drawer");
+    const backdrop = document.getElementById("drawer-backdrop");
+    const openButton = document.getElementById("mobile-menu-button");
+    const closeButton = document.getElementById("drawer-close");
+
+    function openDrawer() {
+      lastFocusedElement = document.activeElement;
+      drawer.classList.add("open");
+      backdrop.classList.add("open");
+      drawer.setAttribute("aria-hidden", "false");
+      openButton.setAttribute("aria-expanded", "true");
+      closeButton.focus();
+    }
+    function closeDrawer() {
+      drawer.classList.remove("open");
+      backdrop.classList.remove("open");
+      drawer.setAttribute("aria-hidden", "true");
+      openButton.setAttribute("aria-expanded", "false");
+      if (lastFocusedElement) lastFocusedElement.focus();
+    }
+    openButton.addEventListener("click", openDrawer);
+    closeButton.addEventListener("click", closeDrawer);
+    backdrop.addEventListener("click", closeDrawer);
+    drawer.addEventListener("click", e => {
+      if (e.target.closest("a[href^='#']")) closeDrawer();
+    });
+    document.addEventListener("keydown", e => {
+      if (e.key === "Escape" && drawer.classList.contains("open")) closeDrawer();
+    });
+  }
+
+  function setupGoTop() {
+    const button = document.getElementById("go-top");
+    const update = () => button.classList.toggle("visible", window.scrollY > 700);
+    window.addEventListener("scroll", update, { passive: true });
+    button.addEventListener("click", () => window.scrollTo({ top: 0, behavior: "smooth" }));
+    update();
+  }
+
+  function setupTelegramInvite() {
+    const backdrop = document.getElementById("telegram-backdrop");
+    const modal = document.getElementById("telegram-modal");
+    const closeButton = document.getElementById("telegram-close");
+    const visit = document.getElementById("telegram-visit");
+    const goTop = document.getElementById("go-top");
+    if (!backdrop || safeStorage.get(INVITE_KEY)) return;
+
+    let shown = false;
+    function closeInvite(mark = true) {
+      backdrop.classList.remove("open");
+      goTop.classList.remove("modal-open");
+      if (mark) safeStorage.set(INVITE_KEY, "dismissed");
+      if (lastFocusedElement) lastFocusedElement.focus();
+    }
+    function openInvite() {
+      if (shown || safeStorage.get(INVITE_KEY)) return;
+      shown = true;
+      lastFocusedElement = document.activeElement;
+      backdrop.classList.add("open");
+      goTop.classList.add("modal-open");
+      modal.focus();
+    }
+    function checkPosition() {
+      const maxScroll = document.documentElement.scrollHeight - window.innerHeight;
+      if (maxScroll > 0 && window.scrollY / maxScroll >= .48) {
+        openInvite();
+        window.removeEventListener("scroll", checkPosition);
+      }
+    }
+    closeButton.addEventListener("click", () => closeInvite(true));
+    visit.addEventListener("click", () => closeInvite(true));
+    backdrop.addEventListener("click", e => {
+      if (e.target === backdrop) closeInvite(true);
+    });
+    document.addEventListener("keydown", e => {
+      if (e.key === "Escape" && backdrop.classList.contains("open")) closeInvite(true);
+    });
+    window.addEventListener("scroll", checkPosition, { passive: true });
+  }
+
+  function setupDictionary() {
+    const menu = document.getElementById("dictionary-menu");
+    const termBox = document.getElementById("dictionary-term");
+    const links = {
+      cambridge: document.getElementById("cambridge-link"),
+      oxford: document.getElementById("oxford-link"),
+      mw: document.getElementById("mw-link"),
+      google: document.getElementById("google-link")
+    };
+    function closeMenu() { menu.classList.remove("open"); }
+    function validSelection(text) {
+      return text && text.length <= 80 && /[A-Za-z]/.test(text) && !/^\W+$/.test(text);
+    }
+    function selectionInsideBlockedElement(range) {
+      const node = range.commonAncestorContainer.nodeType === 1 ? range.commonAncestorContainer : range.commonAncestorContainer.parentElement;
+      return !!node.closest("button, nav, input, textarea, select, summary, .dictionary-menu");
+    }
+    function showMenu() {
+      const selection = window.getSelection();
+      if (!selection || selection.rangeCount === 0 || selection.isCollapsed) return closeMenu();
+      const text = selection.toString().trim().replace(/\s+/g, " ");
+      const range = selection.getRangeAt(0);
+      if (!validSelection(text) || selectionInsideBlockedElement(range)) return closeMenu();
+
+      const encoded = encodeURIComponent(text);
+      termBox.textContent = text;
+      links.cambridge.href = `https://dictionary.cambridge.org/dictionary/english/${encoded}`;
+      links.oxford.href = `https://www.oxfordlearnersdictionaries.com/definition/english/${encoded}?q=${encoded}`;
+      links.mw.href = `https://www.merriam-webster.com/dictionary/${encoded}`;
+      links.google.href = `https://www.google.com/search?q=meaning+of+${encoded}`;
+
+      let rect = range.getBoundingClientRect();
+      if (!rect || (!rect.width && !rect.height)) rect = { left: 16, top: 100, bottom: 100, width: 0 };
+      menu.classList.add("open");
+      const menuRect = menu.getBoundingClientRect();
+      let left = rect.left + rect.width / 2 - menuRect.width / 2;
+      let top = rect.bottom + 14;
+      left = Math.max(8, Math.min(left, window.innerWidth - menuRect.width - 8));
+      if (top + menuRect.height > window.innerHeight - 8) top = Math.max(8, rect.top - menuRect.height - 14);
+      menu.style.left = `${left}px`;
+      menu.style.top = `${top}px`;
+    }
+    let timer;
+    function delayedShow() {
+      clearTimeout(timer);
+      timer = setTimeout(showMenu, 90);
+    }
+    document.addEventListener("pointerup", delayedShow);
+    document.addEventListener("touchend", delayedShow, { passive: true });
+    document.addEventListener("selectionchange", () => {
+      const s = window.getSelection();
+      if (!s || s.isCollapsed) closeMenu();
+    });
+    document.addEventListener("click", e => {
+      if (!e.target.closest(".dictionary-menu")) {
+        const s = window.getSelection();
+        if (!s || s.isCollapsed) closeMenu();
+      }
+    });
+    window.addEventListener("scroll", closeMenu, { passive: true });
+    window.addEventListener("resize", closeMenu);
+    document.addEventListener("keydown", e => {
+      if (e.key === "Escape") closeMenu();
+    });
+  }
+
+  function init() {
+    setHomeLinks();
+    setTheme(document.documentElement.dataset.theme);
+    document.getElementById("theme-toggle").addEventListener("click", toggleTheme);
+    document.getElementById("mobile-theme-toggle").addEventListener("click", toggleTheme);
+
+    const headings = buildToc(document.getElementById("desktop-toc"));
+    const mobileContainer = document.getElementById("mobile-toc");
+    buildToc(mobileContainer);
+    setupActiveHeading(headings);
+    setupDrawer();
+    setupGoTop();
+    setupTelegramInvite();
+    setupDictionary();
+
+    /*
+      PROMOTION-REMOVAL SWITCH
+      To remove all promotional links and the Telegram invitation, uncomment the next two lines:
+      document.querySelectorAll(".promo-links").forEach(element => element.remove());
+      safeStorage.set(INVITE_KEY, "disabled");
+    */
+  }
+
+  try { init(); } catch (error) { console.error("Guide feature failed:", error); }
+})();
+</script>
+</body>
+</html>
