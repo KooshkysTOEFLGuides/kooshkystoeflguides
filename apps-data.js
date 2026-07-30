@@ -21,6 +21,13 @@
 
 window.KOOSHKY_APPS = [
   {
+    name: "Word Stats",
+    href: "Apps/WordStats/real_toefl_word_stats.html",
+    description: "Find out how many times each word has appeared in real TOEFL tests, both new and old formats!",
+    logo: "Apps/WordStats/icon.png",
+    featured: true
+  },
+  {
     name: "Emails",
     href: "Apps/Emails/kooshky_toefl_email_practice.html",
     description: "Realistic, standard TOEFL Write an Email Prompts",

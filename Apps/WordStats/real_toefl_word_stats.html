@@ -1,0 +1,1651 @@
+<!doctype html>
+<html lang="en" data-theme="light">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Look up a word or inflected form and compare its frequency, observed forms, and parts of speech across real old- and new-format TOEFL tests.">
+  <meta name="color-scheme" content="light dark">
+  <title>Real TOEFL Word Stats | Kooshky’s TOEFL Guides</title>
+
+  <script>
+    (() => {
+      const key = "kooshky-guides:theme:v1";
+      let theme = "light";
+      try {
+        const saved = localStorage.getItem(key);
+        if (saved === "dark" || saved === "light") theme = saved;
+      } catch (_) {}
+      document.documentElement.dataset.theme = theme;
+      document.documentElement.style.colorScheme = theme;
+    })();
+  </script>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@400;500;600;700&family=Literata:opsz,wght@7..72,600;7..72,700&display=swap" rel="stylesheet">
+
+  <style>
+    :root {
+      --page: #F4F0E8;
+      --surface: #FCFAF6;
+      --text: #182027;
+      --muted: #59636C;
+      --border: #D7D0C3;
+      --saffron: #A9470D;
+      --teal: #1E5B63;
+      --saffron-soft: #F3E2D3;
+      --teal-soft: #DDEAE8;
+      --danger: #9B2C1F;
+      --danger-soft: #F5DFDA;
+      --shadow: 0 1px 2px rgba(24, 32, 39, 0.08);
+      --radius-sm: 8px;
+      --radius-md: 12px;
+      --radius-lg: 16px;
+      --content: 1120px;
+      --control-height: 46px;
+    }
+
+    html[data-theme="dark"] {
+      --page: #111417;
+      --surface: #181D21;
+      --text: #ECE7DD;
+      --muted: #ADB4B8;
+      --border: #30383E;
+      --saffron: #F28C45;
+      --teal: #70B7B4;
+      --saffron-soft: #332219;
+      --teal-soft: #193033;
+      --danger: #F0A091;
+      --danger-soft: #3A211E;
+      --shadow: 0 1px 2px rgba(0, 0, 0, 0.28);
+    }
+
+    * { box-sizing: border-box; }
+
+    html {
+      min-width: 320px;
+      background: var(--page);
+      color: var(--text);
+      scroll-behavior: smooth;
+    }
+
+    body {
+      min-width: 320px;
+      min-height: 100vh;
+      margin: 0;
+      background: var(--page);
+      color: var(--text);
+      font-family: "IBM Plex Sans", system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+      line-height: 1.55;
+      text-rendering: optimizeLegibility;
+    }
+
+    button, input { font: inherit; }
+    button, a { -webkit-tap-highlight-color: transparent; }
+
+    a {
+      color: var(--teal);
+      text-underline-offset: 0.18em;
+    }
+
+    a:hover { text-decoration-thickness: 2px; }
+
+    button:focus-visible,
+    input:focus-visible,
+    a:focus-visible,
+    [tabindex="-1"]:focus-visible {
+      outline: 2px solid var(--saffron);
+      outline-offset: 3px;
+      box-shadow: none;
+    }
+
+    .skip-link {
+      position: fixed;
+      z-index: 1000;
+      top: 10px;
+      left: 10px;
+      transform: translateY(-160%);
+      padding: 10px 14px;
+      border: 1px solid var(--border);
+      border-radius: var(--radius-sm);
+      background: var(--surface);
+      color: var(--text);
+      font-weight: 700;
+      text-decoration: none;
+    }
+
+    .skip-link:focus { transform: translateY(0); }
+
+    .site-header {
+      border-bottom: 1px solid var(--border);
+      background: var(--surface);
+    }
+
+    .site-header__inner,
+    .page-shell,
+    .site-footer__inner {
+      width: min(100% - 32px, var(--content));
+      margin-inline: auto;
+    }
+
+    .site-header__inner {
+      min-height: 62px;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 16px;
+      padding-block: 8px;
+    }
+
+    .brand {
+      min-width: 0;
+      display: inline-flex;
+      align-items: center;
+      gap: 10px;
+      color: var(--text);
+      font-weight: 700;
+      text-decoration: none;
+    }
+
+    .brand__mark {
+      width: 34px;
+      height: 34px;
+      flex: 0 0 34px;
+      display: grid;
+      place-items: center;
+      border: 1px solid var(--saffron);
+      border-radius: var(--radius-sm);
+      background: var(--saffron-soft);
+      color: var(--saffron);
+      font-family: "Literata", Georgia, serif;
+    }
+
+    .brand__text {
+      min-width: 0;
+      overflow-wrap: anywhere;
+    }
+
+    .header-actions {
+      display: flex;
+      align-items: center;
+      gap: 8px;
+      flex: 0 0 auto;
+    }
+
+    .header-link,
+    .theme-toggle {
+      min-height: 40px;
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      gap: 7px;
+      padding: 8px 11px;
+      border: 1px solid var(--border);
+      border-radius: var(--radius-sm);
+      background: var(--surface);
+      color: var(--text);
+      font-weight: 600;
+      text-decoration: none;
+      cursor: pointer;
+    }
+
+    .header-link:hover,
+    .theme-toggle:hover {
+      border-color: var(--teal);
+      background: var(--teal-soft);
+    }
+
+    .header-link svg,
+    .theme-toggle svg {
+      width: 18px;
+      height: 18px;
+      flex: 0 0 18px;
+    }
+
+    .page-shell { padding-block: 28px 52px; }
+
+    .app-intro {
+      display: flex;
+      align-items: flex-end;
+      justify-content: space-between;
+      gap: 24px;
+      margin-bottom: 18px;
+    }
+
+    .app-intro__copy { min-width: 0; }
+
+    h1, h2, h3, h4 {
+      margin-top: 0;
+      color: var(--text);
+    }
+
+    h1, h2, h3 {
+      font-family: "Literata", Georgia, serif;
+      line-height: 1.22;
+    }
+
+    h1 {
+      margin-bottom: 6px;
+      font-size: clamp(1.65rem, 4vw, 2.35rem);
+      letter-spacing: -0.025em;
+    }
+
+    .app-intro p {
+      max-width: 760px;
+      margin: 0;
+      color: var(--muted);
+    }
+
+    .corpus-state {
+      flex: 0 0 auto;
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: flex-end;
+      gap: 7px;
+    }
+
+    .state-chip {
+      min-height: 31px;
+      display: inline-flex;
+      align-items: center;
+      gap: 7px;
+      padding: 5px 9px;
+      border: 1px solid var(--border);
+      border-radius: 999px;
+      background: var(--surface);
+      color: var(--muted);
+      font-size: 0.82rem;
+      font-weight: 600;
+      white-space: nowrap;
+    }
+
+    .state-chip::before {
+      width: 8px;
+      height: 8px;
+      flex: 0 0 8px;
+      border-radius: 50%;
+      background: var(--border);
+      content: "";
+    }
+
+    .state-chip[data-state="ready"] {
+      border-color: var(--teal);
+      color: var(--teal);
+      background: var(--teal-soft);
+    }
+
+    .state-chip[data-state="ready"]::before { background: var(--teal); }
+
+    .state-chip[data-state="error"] {
+      border-color: var(--danger);
+      color: var(--danger);
+      background: var(--danger-soft);
+    }
+
+    .state-chip[data-state="error"]::before { background: var(--danger); }
+
+    .search-panel {
+      padding: 18px;
+      border: 1px solid var(--border);
+      border-radius: var(--radius-lg);
+      background: var(--surface);
+      box-shadow: var(--shadow);
+    }
+
+    .search-form {
+      display: grid;
+      grid-template-columns: minmax(0, 1fr) auto auto;
+      align-items: end;
+      gap: 10px;
+    }
+
+    .field { min-width: 0; }
+
+    .field label {
+      display: block;
+      margin-bottom: 7px;
+      color: var(--text);
+      font-weight: 700;
+    }
+
+    .search-input {
+      width: 100%;
+      height: var(--control-height);
+      padding: 0 13px;
+      border: 1px solid var(--border);
+      border-radius: var(--radius-sm);
+      background: var(--page);
+      color: var(--text);
+    }
+
+    .search-input::placeholder {
+      color: var(--muted);
+      opacity: 0.82;
+    }
+
+    .search-input:hover { border-color: var(--teal); }
+
+    .button {
+      min-height: var(--control-height);
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      gap: 8px;
+      padding: 0 16px;
+      border: 1px solid transparent;
+      border-radius: var(--radius-sm);
+      font-weight: 700;
+      cursor: pointer;
+    }
+
+    .button svg {
+      width: 18px;
+      height: 18px;
+      flex: 0 0 18px;
+    }
+
+    .button--primary {
+      background: var(--saffron);
+      color: var(--surface);
+    }
+
+    html[data-theme="dark"] .button--primary { color: var(--page); }
+
+    .button--primary:hover:not(:disabled) { filter: brightness(0.94); }
+
+    .button--secondary {
+      border-color: var(--border);
+      background: var(--surface);
+      color: var(--text);
+    }
+
+    .button--secondary:hover:not(:disabled) {
+      border-color: var(--teal);
+      background: var(--teal-soft);
+    }
+
+    .button:disabled {
+      cursor: not-allowed;
+      opacity: 0.52;
+    }
+
+    .search-feedback {
+      min-height: 24px;
+      margin: 10px 0 0;
+      color: var(--muted);
+      font-size: 0.92rem;
+    }
+
+    .search-feedback[data-kind="error"] {
+      color: var(--danger);
+      font-weight: 600;
+    }
+
+    .examples {
+      display: flex;
+      flex-wrap: wrap;
+      align-items: center;
+      gap: 7px;
+      margin-top: 10px;
+      color: var(--muted);
+      font-size: 0.88rem;
+    }
+
+    .example-button {
+      padding: 3px 8px;
+      border: 1px solid var(--border);
+      border-radius: 999px;
+      background: var(--page);
+      color: var(--teal);
+      font: inherit;
+      font-weight: 600;
+      cursor: pointer;
+    }
+
+    .example-button:hover {
+      border-color: var(--teal);
+      background: var(--teal-soft);
+    }
+
+    .results {
+      min-width: 0;
+      margin-top: 20px;
+    }
+
+    .empty-state {
+      padding: 34px 22px;
+      border: 1px dashed var(--border);
+      border-radius: var(--radius-lg);
+      background: var(--surface);
+      text-align: center;
+    }
+
+    .empty-state h2 {
+      margin-bottom: 7px;
+      font-size: 1.25rem;
+    }
+
+    .empty-state p {
+      max-width: 650px;
+      margin: 0 auto;
+      color: var(--muted);
+    }
+
+    .result-summary {
+      padding: 18px;
+      border: 1px solid var(--border);
+      border-left: 5px solid var(--saffron);
+      border-radius: var(--radius-md);
+      background: var(--surface);
+      box-shadow: var(--shadow);
+    }
+
+    .result-summary__top {
+      display: flex;
+      align-items: flex-start;
+      justify-content: space-between;
+      gap: 16px;
+    }
+
+    .result-summary h2 {
+      margin-bottom: 5px;
+      font-size: clamp(1.25rem, 3vw, 1.6rem);
+      overflow-wrap: anywhere;
+    }
+
+    .result-summary p {
+      margin: 0;
+      color: var(--muted);
+    }
+
+    .summary-count {
+      flex: 0 0 auto;
+      padding: 6px 10px;
+      border-radius: 999px;
+      background: var(--saffron-soft);
+      color: var(--saffron);
+      font-size: 0.86rem;
+      font-weight: 700;
+      white-space: nowrap;
+    }
+
+    .summary-grid {
+      display: grid;
+      grid-template-columns: repeat(3, minmax(0, 1fr));
+      gap: 9px;
+      margin-top: 14px;
+    }
+
+    .summary-item {
+      min-width: 0;
+      padding: 10px 12px;
+      border: 1px solid var(--border);
+      border-radius: var(--radius-sm);
+      background: var(--page);
+    }
+
+    .summary-item__label {
+      display: block;
+      margin-bottom: 2px;
+      color: var(--muted);
+      font-size: 0.78rem;
+      font-weight: 700;
+      letter-spacing: 0.03em;
+      text-transform: uppercase;
+    }
+
+    .summary-item__value {
+      display: block;
+      color: var(--text);
+      font-size: 1.12rem;
+      font-weight: 700;
+      overflow-wrap: anywhere;
+    }
+
+    .summary-note {
+      margin-top: 10px !important;
+      font-size: 0.86rem;
+    }
+
+    .dataset-section {
+      min-width: 0;
+      margin-top: 16px;
+      border: 1px solid var(--border);
+      border-radius: var(--radius-lg);
+      background: var(--surface);
+      box-shadow: var(--shadow);
+      overflow: clip;
+    }
+
+    .dataset-header {
+      display: flex;
+      align-items: flex-start;
+      justify-content: space-between;
+      gap: 16px;
+      padding: 17px 18px;
+      border-bottom: 1px solid var(--border);
+      background: var(--page);
+    }
+
+    .dataset-header h2 {
+      margin-bottom: 3px;
+      font-size: 1.22rem;
+    }
+
+    .dataset-header p {
+      margin: 0;
+      color: var(--muted);
+      font-size: 0.9rem;
+    }
+
+    .presence-badge {
+      flex: 0 0 auto;
+      padding: 5px 9px;
+      border: 1px solid var(--border);
+      border-radius: 999px;
+      color: var(--muted);
+      font-size: 0.8rem;
+      font-weight: 700;
+      white-space: nowrap;
+    }
+
+    .presence-badge[data-kind="found"] {
+      border-color: var(--teal);
+      background: var(--teal-soft);
+      color: var(--teal);
+    }
+
+    .dataset-empty {
+      padding: 22px 18px;
+      color: var(--muted);
+    }
+
+    .record {
+      min-width: 0;
+      padding: 18px;
+    }
+
+    .record + .record { border-top: 1px solid var(--border); }
+
+    .record-titlebar {
+      display: flex;
+      align-items: flex-start;
+      justify-content: space-between;
+      gap: 14px;
+      margin-bottom: 13px;
+    }
+
+    .record-titlebar h3 {
+      margin-bottom: 3px;
+      font-size: 1.12rem;
+      overflow-wrap: anywhere;
+    }
+
+    .match-explanation {
+      margin: 0;
+      color: var(--muted);
+      font-size: 0.88rem;
+    }
+
+    .entry-number {
+      flex: 0 0 auto;
+      color: var(--muted);
+      font-size: 0.82rem;
+      font-weight: 600;
+    }
+
+    .key-stats {
+      display: grid;
+      grid-template-columns: repeat(3, minmax(0, 1fr));
+      gap: 9px;
+      margin: 0 0 17px;
+    }
+
+    .key-stat {
+      min-width: 0;
+      padding: 11px 12px;
+      border: 1px solid var(--border);
+      border-radius: var(--radius-sm);
+      background: var(--page);
+    }
+
+    .key-stat dt {
+      margin-bottom: 3px;
+      color: var(--muted);
+      font-size: 0.79rem;
+      font-weight: 700;
+      letter-spacing: 0.025em;
+      text-transform: uppercase;
+    }
+
+    .key-stat dd {
+      margin: 0;
+      color: var(--text);
+      font-size: 1.06rem;
+      font-weight: 700;
+      overflow-wrap: anywhere;
+    }
+
+    .section-label {
+      margin: 0 0 9px;
+      color: var(--text);
+      font-size: 0.95rem;
+      font-weight: 700;
+    }
+
+    .observed-forms {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 7px;
+      margin-bottom: 18px;
+    }
+
+    .form-chip {
+      min-width: 0;
+      display: inline-flex;
+      align-items: baseline;
+      gap: 6px;
+      padding: 5px 8px;
+      border: 1px solid var(--border);
+      border-radius: 999px;
+      background: var(--page);
+      color: var(--text);
+      overflow-wrap: anywhere;
+    }
+
+    .form-chip strong {
+      color: var(--muted);
+      font-size: 0.8rem;
+    }
+
+    .form-chip.is-match {
+      border-color: var(--saffron);
+      background: var(--saffron-soft);
+      color: var(--saffron);
+      font-weight: 700;
+    }
+
+    .form-chip.is-match strong { color: inherit; }
+
+    .pos-grid {
+      display: grid;
+      grid-template-columns: repeat(4, minmax(0, 1fr));
+      gap: 8px;
+      margin: 0;
+    }
+
+    .pos-item {
+      min-width: 0;
+      padding: 9px 10px;
+      border: 1px solid var(--border);
+      border-radius: var(--radius-sm);
+      background: var(--page);
+    }
+
+    .pos-item.is-zero { opacity: 0.68; }
+
+    .pos-item dt {
+      color: var(--muted);
+      font-size: 0.78rem;
+      font-weight: 600;
+    }
+
+    .pos-item dd {
+      display: flex;
+      align-items: baseline;
+      justify-content: space-between;
+      gap: 7px;
+      margin: 2px 0 0;
+      color: var(--text);
+      font-weight: 700;
+    }
+
+    .pos-share {
+      color: var(--muted);
+      font-size: 0.75rem;
+      font-weight: 500;
+      white-space: nowrap;
+    }
+
+    .site-footer {
+      border-top: 1px solid var(--border);
+      background: var(--surface);
+    }
+
+    .site-footer__inner {
+      min-height: 92px;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 22px;
+      padding-block: 18px;
+    }
+
+    .footer-copy {
+      min-width: 0;
+      color: var(--muted);
+      font-size: 0.88rem;
+    }
+
+    .footer-copy strong {
+      display: block;
+      color: var(--text);
+      font-family: "Literata", Georgia, serif;
+      font-size: 0.96rem;
+    }
+
+    .footer-links {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: flex-end;
+      gap: 8px 14px;
+    }
+
+    .footer-links a { font-weight: 600; }
+
+    .visually-hidden {
+      position: absolute !important;
+      width: 1px !important;
+      height: 1px !important;
+      padding: 0 !important;
+      margin: -1px !important;
+      overflow: hidden !important;
+      clip: rect(0, 0, 0, 0) !important;
+      white-space: nowrap !important;
+      border: 0 !important;
+    }
+
+    @media (max-width: 760px) {
+      .app-intro {
+        align-items: flex-start;
+        flex-direction: column;
+        gap: 12px;
+      }
+
+      .corpus-state { justify-content: flex-start; }
+
+      .summary-grid,
+      .key-stats { grid-template-columns: 1fr; }
+
+      .pos-grid { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+
+      .site-footer__inner {
+        align-items: flex-start;
+        flex-direction: column;
+      }
+
+      .footer-links { justify-content: flex-start; }
+    }
+
+    @media (max-width: 560px) {
+      .site-header__inner,
+      .page-shell,
+      .site-footer__inner {
+        width: min(100% - 22px, var(--content));
+      }
+
+      .site-header__inner {
+        align-items: flex-start;
+        flex-wrap: wrap;
+      }
+
+      .brand { flex: 1 1 190px; }
+      .header-actions { margin-left: auto; }
+
+      .header-link__text,
+      .theme-toggle__text { display: none; }
+
+      .header-link,
+      .theme-toggle {
+        width: 40px;
+        padding-inline: 0;
+      }
+
+      .page-shell { padding-block: 21px 40px; }
+
+      .search-panel,
+      .record,
+      .dataset-header,
+      .result-summary {
+        padding-left: 14px;
+        padding-right: 14px;
+      }
+
+      .search-form { grid-template-columns: 1fr 1fr; }
+      .field { grid-column: 1 / -1; }
+
+      .button {
+        width: 100%;
+        padding-inline: 10px;
+      }
+
+      .result-summary__top,
+      .dataset-header,
+      .record-titlebar {
+        align-items: flex-start;
+        flex-direction: column;
+        gap: 8px;
+      }
+
+      .summary-count,
+      .presence-badge,
+      .entry-number { align-self: flex-start; }
+    }
+
+    @media (max-width: 380px) {
+      .pos-grid { grid-template-columns: 1fr; }
+      .state-chip { white-space: normal; }
+    }
+
+    @media (prefers-reduced-motion: reduce) {
+      html { scroll-behavior: auto; }
+
+      *,
+      *::before,
+      *::after {
+        transition-duration: 0.01ms !important;
+        animation-duration: 0.01ms !important;
+        animation-iteration-count: 1 !important;
+      }
+    }
+  </style>
+</head>
+
+<body>
+  <a class="skip-link" href="#app">Skip to word lookup</a>
+
+  <header class="site-header">
+    <div class="site-header__inner">
+      <a class="brand js-home-link" href="/" aria-label="Kooshky’s TOEFL Guides home">
+        <span class="brand__mark" aria-hidden="true">K</span>
+        <span class="brand__text">Kooshky’s TOEFL Guides</span>
+      </a>
+
+      <nav class="header-actions" aria-label="Site navigation">
+        <a class="header-link js-home-link" href="/">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" aria-hidden="true">
+            <path d="M3 10.8 12 3l9 7.8"></path>
+            <path d="M5.5 9.5V21h13V9.5"></path>
+            <path d="M9.5 21v-6h5v6"></path>
+          </svg>
+          <span class="header-link__text">Home</span>
+        </a>
+
+        <button class="theme-toggle" id="theme-toggle" type="button" aria-pressed="false" aria-label="Switch to dark mode">
+          <svg class="theme-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" aria-hidden="true"></svg>
+          <span class="theme-toggle__text">Dark</span>
+        </button>
+      </nav>
+    </div>
+  </header>
+
+  <main class="page-shell" id="app">
+    <section class="app-intro" aria-labelledby="app-title">
+      <div class="app-intro__copy">
+        <h1 id="app-title">Real TOEFL Word Stats</h1>
+        <p>Search any word or inflected form to compare its frequency, observed forms, and parts of speech across real TOEFL tests.</p>
+      </div>
+
+      <div class="corpus-state" id="corpus-state" aria-label="Corpus status">
+        <span class="state-chip" id="manifest-state" data-state="loading">Index: loading</span>
+      </div>
+    </section>
+
+    <section class="search-panel" aria-labelledby="search-heading">
+      <h2 class="visually-hidden" id="search-heading">Word lookup</h2>
+
+      <form class="search-form" id="search-form" novalidate>
+        <div class="field">
+          <label for="word-input">Enter one word or inflected form</label>
+          <input
+            class="search-input"
+            id="word-input"
+            name="word"
+            type="search"
+            inputmode="text"
+            autocomplete="off"
+            autocapitalize="none"
+            spellcheck="false"
+            placeholder="For example: is, children, environmental"
+            disabled
+          >
+        </div>
+
+        <button class="button button--primary" id="search-button" type="submit" disabled>
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.9" aria-hidden="true">
+            <circle cx="10.8" cy="10.8" r="6.8"></circle>
+            <path d="m16 16 5 5"></path>
+          </svg>
+          Search
+        </button>
+
+        <button class="button button--secondary" id="clear-button" type="button" disabled>
+          Clear
+        </button>
+      </form>
+
+      <p class="search-feedback" id="search-feedback" role="status" aria-live="polite">Loading the compact word index…</p>
+
+      <div class="examples" aria-label="Example searches">
+        <span>Try:</span>
+        <button class="example-button" type="button" data-example="is" disabled>is</button>
+        <button class="example-button" type="button" data-example="children" disabled>children</button>
+        <button class="example-button" type="button" data-example="environmental" disabled>environmental</button>
+      </div>
+    </section>
+
+    <section class="results" id="results" aria-label="Word statistics">
+      <div class="empty-state">
+        <h2>Search the real TOEFL corpus</h2>
+        <p>Only a tiny shard is loaded for each search. The app checks lemmas and all listed observed forms, so <strong>is</strong>, <strong>was</strong>, and <strong>being</strong> can find the lemma <strong>be</strong>.</p>
+      </div>
+    </section>
+
+    <div class="visually-hidden" id="result-announcer" role="status" aria-live="polite"></div>
+  </main>
+
+  <footer class="site-footer">
+    <div class="site-footer__inner">
+      <div class="footer-copy">
+        <strong>Kooshky’s TOEFL Guides</strong>
+        Real-test vocabulary data for focused TOEFL study.
+      </div>
+
+      <nav class="footer-links" aria-label="Footer links">
+        <a class="js-home-link" href="/">Home</a>
+        <a href="https://telegram.me/KooshkyTOEFL" target="_blank" rel="noopener noreferrer">Telegram</a>
+        <a href="https://instagram.com/kooshkytoefl" target="_blank" rel="noopener noreferrer">Instagram</a>
+        <a href="https://telegram.me/kooshkyTOEFL_pv" target="_blank" rel="noopener noreferrer">Direct message</a>
+      </nav>
+    </div>
+  </footer>
+
+  <script>
+    (() => {
+      "use strict";
+
+      const THEME_KEY = "kooshky-guides:theme:v1";
+      const numberFormatter = new Intl.NumberFormat("en-US");
+      const percentFormatter = new Intl.NumberFormat("en-US", {
+        maximumFractionDigits: 1
+      });
+
+      const DATASET_DESCRIPTIONS = {
+        new: "Occurrences in the scraped new-format real TOEFL tests.",
+        merged: "Combined occurrences from the old- and new-format test collections.",
+        old: "Occurrences in the scraped old-format real TOEFL tests."
+      };
+
+      const registry = {
+        manifest: null,
+        shards: new Map(),
+
+        registerManifest(payload) {
+          this.manifest = payload;
+        },
+
+        registerShard(payload) {
+          if (payload && typeof payload.id === "string") {
+            this.shards.set(payload.id, payload);
+          }
+        }
+      };
+
+      window.__KOOSHKY_TOEFL_WORD_STATS__ = registry;
+
+      const state = {
+        activeBase: null,
+        candidateBases: [],
+        manifest: null,
+        shardPromises: new Map(),
+        searchSequence: 0
+      };
+
+      const elements = {
+        form: document.getElementById("search-form"),
+        input: document.getElementById("word-input"),
+        searchButton: document.getElementById("search-button"),
+        clearButton: document.getElementById("clear-button"),
+        feedback: document.getElementById("search-feedback"),
+        results: document.getElementById("results"),
+        announcer: document.getElementById("result-announcer"),
+        manifestState: document.getElementById("manifest-state"),
+        themeToggle: document.getElementById("theme-toggle"),
+        themeIcon: document.querySelector(".theme-icon"),
+        themeText: document.querySelector(".theme-toggle__text"),
+        exampleButtons: [...document.querySelectorAll("[data-example]")]
+      };
+
+      function safeStorageGet(key) {
+        try {
+          return localStorage.getItem(key);
+        } catch (_) {
+          return null;
+        }
+      }
+
+      function safeStorageSet(key, value) {
+        try {
+          localStorage.setItem(key, value);
+        } catch (_) {}
+      }
+
+      function currentTheme() {
+        return document.documentElement.dataset.theme === "dark" ? "dark" : "light";
+      }
+
+      function updateFavicon(theme) {
+        const background = theme === "dark" ? "#F28C45" : "#A9470D";
+        const foreground = theme === "dark" ? "#111417" : "#FCFAF6";
+        const svg = `
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64">
+            <rect width="64" height="64" rx="13" fill="${background}"/>
+            <text x="32" y="43" text-anchor="middle" font-family="Georgia,serif" font-size="38" font-weight="700" fill="${foreground}">K</text>
+          </svg>
+        `.trim();
+
+        let favicon = document.querySelector('link[rel="icon"]');
+        if (!favicon) {
+          favicon = document.createElement("link");
+          favicon.rel = "icon";
+          document.head.appendChild(favicon);
+        }
+        favicon.href = `data:image/svg+xml,${encodeURIComponent(svg)}`;
+      }
+
+      function updateThemeControl() {
+        const isDark = currentTheme() === "dark";
+        elements.themeToggle.setAttribute("aria-pressed", String(isDark));
+        elements.themeToggle.setAttribute("aria-label", isDark ? "Switch to light mode" : "Switch to dark mode");
+        elements.themeText.textContent = isDark ? "Light" : "Dark";
+        elements.themeIcon.innerHTML = isDark
+          ? '<circle cx="12" cy="12" r="4"></circle><path d="M12 2v2M12 20v2M4.93 4.93l1.42 1.42M17.65 17.65l1.42 1.42M2 12h2M20 12h2M4.93 19.07l1.42-1.42M17.65 6.35l1.42-1.42"></path>'
+          : '<path d="M20.3 15.2A8.5 8.5 0 1 1 8.8 3.7a7 7 0 0 0 11.5 11.5Z"></path>';
+        updateFavicon(currentTheme());
+      }
+
+      function setTheme(theme) {
+        const validTheme = theme === "dark" ? "dark" : "light";
+        document.documentElement.dataset.theme = validTheme;
+        document.documentElement.style.colorScheme = validTheme;
+        safeStorageSet(THEME_KEY, validTheme);
+        updateThemeControl();
+      }
+
+      elements.themeToggle.addEventListener("click", () => {
+        setTheme(currentTheme() === "dark" ? "light" : "dark");
+      });
+
+      const savedTheme = safeStorageGet(THEME_KEY);
+      setTheme(savedTheme === "dark" || savedTheme === "light" ? savedTheme : "light");
+
+      function getSiteRoot() {
+        if (location.protocol === "http:" || location.protocol === "https:") {
+          return new URL("/", location.origin);
+        }
+        return new URL("./", location.href);
+      }
+
+      const siteRoot = getSiteRoot();
+
+      document.querySelectorAll(".js-home-link").forEach((link) => {
+        link.href = siteRoot.href;
+      });
+
+      function getCandidateBases() {
+        const candidates = [];
+
+        if (location.protocol === "http:" || location.protocol === "https:") {
+          candidates.push(
+            new URL("/Vocabulary/RealTOEFLPack/word_stats_shards/", location.origin)
+          );
+        }
+
+        // Supports a temporary copy of this HTML placed beside the CSV files and
+        // the generated word_stats_shards directory, including file:// testing.
+        candidates.push(new URL("./word_stats_shards/", location.href));
+
+        const seen = new Set();
+        return candidates.filter((url) => {
+          const key = url.href;
+          if (seen.has(key)) return false;
+          seen.add(key);
+          return true;
+        });
+      }
+
+      function loadScript(url) {
+        return new Promise((resolve, reject) => {
+          const script = document.createElement("script");
+          script.src = url.href;
+          script.async = true;
+
+          const timeout = window.setTimeout(() => {
+            script.remove();
+            reject(new Error(`Timed out loading ${url.href}`));
+          }, 15000);
+
+          script.addEventListener("load", () => {
+            window.clearTimeout(timeout);
+            resolve();
+          }, { once: true });
+
+          script.addEventListener("error", () => {
+            window.clearTimeout(timeout);
+            script.remove();
+            reject(new Error(`Could not load ${url.href}`));
+          }, { once: true });
+
+          document.head.appendChild(script);
+        });
+      }
+
+      function escapeHTML(value) {
+        return String(value)
+          .replaceAll("&", "&amp;")
+          .replaceAll("<", "&lt;")
+          .replaceAll(">", "&gt;")
+          .replaceAll('"', "&quot;")
+          .replaceAll("'", "&#039;");
+      }
+
+      function normalizeToken(value) {
+        return String(value ?? "")
+          .normalize("NFKC")
+          .replace(/[’‘]/g, "'")
+          .trim()
+          .toLocaleLowerCase("en-US")
+          .replace(/^[^\p{L}\p{N}]+|[^\p{L}\p{N}]+$/gu, "");
+      }
+
+      function fnv1a32UTF8(value) {
+        const bytes = new TextEncoder().encode(value);
+        let hash = 0x811c9dc5;
+
+        for (const byte of bytes) {
+          hash ^= byte;
+          hash = Math.imul(hash, 0x01000193) >>> 0;
+        }
+
+        return hash >>> 0;
+      }
+
+      function shardIdFor(term) {
+        const manifest = state.manifest;
+        const bucket = fnv1a32UTF8(term) % manifest.shard_count;
+        return bucket.toString(16).padStart(manifest.shard_hex_width, "0");
+      }
+
+      function setControlsEnabled(enabled) {
+        elements.input.disabled = !enabled;
+        elements.searchButton.disabled = !enabled;
+        elements.clearButton.disabled = !enabled;
+        elements.exampleButtons.forEach((button) => {
+          button.disabled = !enabled;
+        });
+      }
+
+      function formatNumber(value) {
+        return numberFormatter.format(Number.isFinite(value) ? value : 0);
+      }
+
+      async function loadManifest() {
+        state.candidateBases = getCandidateBases();
+
+        for (const base of state.candidateBases) {
+          registry.manifest = null;
+
+          try {
+            await loadScript(new URL("manifest.js", base));
+            const manifest = registry.manifest;
+
+            if (
+              manifest &&
+              manifest.v === 1 &&
+              Number.isInteger(manifest.shard_count) &&
+              Array.isArray(manifest.datasets)
+            ) {
+              state.activeBase = base;
+              state.manifest = manifest;
+              return manifest;
+            }
+          } catch (error) {
+            console.warn(error);
+          }
+        }
+
+        throw new Error("No compatible shard manifest could be loaded.");
+      }
+
+      function shardURL(base, shardId) {
+        const manifest = state.manifest;
+        return new URL(
+          `${manifest.shard_prefix}${shardId}${manifest.shard_suffix}`,
+          base
+        );
+      }
+
+      async function ensureShard(shardId) {
+        const cached = registry.shards.get(shardId);
+        if (cached && cached.b === state.manifest.build_id) {
+          return cached;
+        }
+
+        if (state.shardPromises.has(shardId)) {
+          return state.shardPromises.get(shardId);
+        }
+
+        const promise = (async () => {
+          const orderedBases = [
+            state.activeBase,
+            ...state.candidateBases.filter((base) => base.href !== state.activeBase.href)
+          ];
+
+          for (const base of orderedBases) {
+            registry.shards.delete(shardId);
+
+            try {
+              await loadScript(shardURL(base, shardId));
+              const payload = registry.shards.get(shardId);
+
+              if (
+                payload &&
+                payload.v === 1 &&
+                payload.id === shardId &&
+                payload.b === state.manifest.build_id &&
+                Array.isArray(payload.r) &&
+                payload.t &&
+                typeof payload.t === "object"
+              ) {
+                return payload;
+              }
+            } catch (error) {
+              console.warn(error);
+            }
+          }
+
+          throw new Error(`Shard ${shardId} could not be loaded.`);
+        })();
+
+        state.shardPromises.set(shardId, promise);
+
+        try {
+          return await promise;
+        } finally {
+          state.shardPromises.delete(shardId);
+        }
+      }
+
+      function datasetDefinition(index) {
+        return state.manifest.datasets[index] || {
+          key: `dataset-${index}`,
+          label: `Dataset ${index + 1}`,
+          rows: 0
+        };
+      }
+
+      function posDefinitions() {
+        return state.manifest.pos_columns || [];
+      }
+
+      function recordFromCompact(compact, exactCount) {
+        return {
+          datasetIndex: compact[0],
+          lemma: compact[1],
+          count: compact[2],
+          observedForms: compact[3] || [],
+          posCounts: compact[4] || [],
+          exactCount
+        };
+      }
+
+      function getMatchExplanation(record, normalizedQuery) {
+        const lemmaMatch = normalizeToken(record.lemma) === normalizedQuery;
+        const formMatch = record.observedForms.some(
+          ([form]) => normalizeToken(form) === normalizedQuery
+        );
+
+        if (lemmaMatch && formMatch) {
+          return "The search matches both the lemma and an observed surface form.";
+        }
+        if (lemmaMatch) {
+          return "The search matches the lemma.";
+        }
+        return `The search matches an observed form of the lemma “${record.lemma}”.`;
+      }
+
+      function renderObservedForms(record, normalizedQuery) {
+        if (record.observedForms.length === 0) {
+          return '<p class="match-explanation">No observed forms were listed for this entry.</p>';
+        }
+
+        return `
+          <div class="observed-forms" role="list">
+            ${record.observedForms.map(([form, count]) => {
+              const isMatch = normalizeToken(form) === normalizedQuery;
+              return `
+                <span class="form-chip${isMatch ? " is-match" : ""}" role="listitem">
+                  <span>${escapeHTML(form)}</span>
+                  <strong>${formatNumber(count)}</strong>
+                </span>
+              `;
+            }).join("")}
+          </div>
+        `;
+      }
+
+      function renderPOS(record) {
+        const definitions = posDefinitions();
+        const taggedTotal = record.posCounts.reduce(
+          (sum, value) => sum + (Number(value) || 0),
+          0
+        );
+
+        return `
+          <dl class="pos-grid">
+            ${definitions.map((definition, index) => {
+              const value = Number(record.posCounts[index]) || 0;
+              const share = taggedTotal > 0 ? (value / taggedTotal) * 100 : 0;
+
+              return `
+                <div class="pos-item${value === 0 ? " is-zero" : ""}">
+                  <dt>${escapeHTML(definition.label)}</dt>
+                  <dd>
+                    <span>${formatNumber(value)}</span>
+                    <span class="pos-share">${percentFormatter.format(share)}%</span>
+                  </dd>
+                </div>
+              `;
+            }).join("")}
+          </dl>
+        `;
+      }
+
+      function renderRecord(record, normalizedQuery, index, totalEntries) {
+        const exactSurfaceDisplay = record.exactCount > 0
+          ? formatNumber(record.exactCount)
+          : "Not listed";
+
+        return `
+          <article class="record">
+            <div class="record-titlebar">
+              <div>
+                <h3>Lemma: ${escapeHTML(record.lemma)}</h3>
+                <p class="match-explanation">${escapeHTML(getMatchExplanation(record, normalizedQuery))}</p>
+              </div>
+              ${totalEntries > 1 ? `<span class="entry-number">Entry ${index + 1} of ${totalEntries}</span>` : ""}
+            </div>
+
+            <dl class="key-stats">
+              <div class="key-stat">
+                <dt>Lemma</dt>
+                <dd>${escapeHTML(record.lemma)}</dd>
+              </div>
+              <div class="key-stat">
+                <dt>All forms total</dt>
+                <dd>${formatNumber(record.count)}</dd>
+              </div>
+              <div class="key-stat">
+                <dt>Entered form count</dt>
+                <dd>${exactSurfaceDisplay}</dd>
+              </div>
+            </dl>
+
+            <h4 class="section-label">Observed forms and counts</h4>
+            ${renderObservedForms(record, normalizedQuery)}
+
+            <h4 class="section-label">Part-of-speech counts</h4>
+            ${renderPOS(record)}
+          </article>
+        `;
+      }
+
+      function renderDatasetSection(datasetIndex, records, normalizedQuery) {
+        const dataset = datasetDefinition(datasetIndex);
+        const description = DATASET_DESCRIPTIONS[dataset.key] || "";
+
+        if (records.length === 0) {
+          return `
+            <section class="dataset-section" aria-labelledby="${escapeHTML(dataset.key)}-heading">
+              <header class="dataset-header">
+                <div>
+                  <h2 id="${escapeHTML(dataset.key)}-heading">${escapeHTML(dataset.label)}</h2>
+                  <p>${escapeHTML(description)}</p>
+                </div>
+                <span class="presence-badge">Not found</span>
+              </header>
+              <div class="dataset-empty">This form does not appear as a lemma or observed form in this word list.</div>
+            </section>
+          `;
+        }
+
+        const exactTotal = records.reduce((sum, record) => sum + record.exactCount, 0);
+        const matchedFormsTotal = records.reduce((sum, record) => sum + record.count, 0);
+
+        return `
+          <section class="dataset-section" aria-labelledby="${escapeHTML(dataset.key)}-heading">
+            <header class="dataset-header">
+              <div>
+                <h2 id="${escapeHTML(dataset.key)}-heading">${escapeHTML(dataset.label)}</h2>
+                <p>
+                  ${escapeHTML(description)}
+                  ${records.length > 1 ? ` ${records.length} matching lemma entries were found.` : ""}
+                  Entered form: ${formatNumber(exactTotal)} occurrence${exactTotal === 1 ? "" : "s"};
+                  all matched forms: ${formatNumber(matchedFormsTotal)}.
+                </p>
+              </div>
+              <span class="presence-badge" data-kind="found">Found</span>
+            </header>
+
+            ${records.map((record, index) => (
+              renderRecord(record, normalizedQuery, index, records.length)
+            )).join("")}
+          </section>
+        `;
+      }
+
+      function renderSearchResults(rawQuery, normalizedQuery, shard) {
+        const termEntries = Object.prototype.hasOwnProperty.call(shard.t, normalizedQuery)
+          ? shard.t[normalizedQuery]
+          : [];
+
+        const grouped = state.manifest.datasets.map(() => []);
+
+        for (const [recordIndex, exactCount] of termEntries) {
+          const compact = shard.r[recordIndex];
+          if (!compact) continue;
+
+          const record = recordFromCompact(compact, exactCount);
+          if (grouped[record.datasetIndex]) {
+            grouped[record.datasetIndex].push(record);
+          }
+        }
+
+        const foundDatasets = grouped.filter((records) => records.length > 0).length;
+        const foundText = foundDatasets > 0
+          ? `Found in ${foundDatasets} ${foundDatasets === 1 ? "corpus" : "corpora"}.`
+          : "Not found in any corpus.";
+
+        elements.results.innerHTML = `
+          <section class="result-summary" aria-labelledby="result-title">
+            <div class="result-summary__top">
+              <div>
+                <h2 id="result-title" tabindex="-1">Results for “${escapeHTML(rawQuery.trim())}”</h2>
+                <p>${foundText} Searches are case-insensitive and include every listed observed form.</p>
+              </div>
+              <span class="summary-count">${foundDatasets} of ${grouped.length}</span>
+            </div>
+
+            <div class="summary-grid">
+              ${state.manifest.datasets.map((dataset, index) => {
+                const exactTotal = grouped[index].reduce(
+                  (sum, record) => sum + record.exactCount,
+                  0
+                );
+
+                return `
+                  <div class="summary-item">
+                    <span class="summary-item__label">${escapeHTML(dataset.key)}</span>
+                    <span class="summary-item__value">
+                      ${grouped[index].length > 0 ? `${formatNumber(exactTotal)} exact-form` : "Not found"}
+                    </span>
+                  </div>
+                `;
+              }).join("")}
+            </div>
+
+            <p class="summary-note">The merged corpus contains both old- and new-format data, so its count should not be added to the other two counts.</p>
+          </section>
+
+          ${state.manifest.datasets.map((_dataset, index) => (
+            renderDatasetSection(index, grouped[index], normalizedQuery)
+          )).join("")}
+        `;
+
+        elements.announcer.textContent = `${foundText} Results are shown in new, merged, then old order.`;
+
+        const resultTitle = document.getElementById("result-title");
+        if (resultTitle) {
+          resultTitle.focus({ preventScroll: true });
+        }
+      }
+
+      function updateURL(rawQuery) {
+        if (location.protocol !== "http:" && location.protocol !== "https:") return;
+
+        try {
+          const url = new URL(location.href);
+          if (rawQuery) {
+            url.searchParams.set("word", rawQuery.trim());
+          } else {
+            url.searchParams.delete("word");
+          }
+          history.replaceState(null, "", url);
+        } catch (_) {}
+      }
+
+      async function performSearch(rawValue) {
+        const rawQuery = String(rawValue ?? "").trim();
+        const normalizedQuery = normalizeToken(rawQuery);
+
+        if (!rawQuery || !normalizedQuery) {
+          elements.feedback.dataset.kind = "error";
+          elements.feedback.textContent = "Enter a word before searching.";
+          elements.input.focus();
+          return;
+        }
+
+        if (/\s/u.test(normalizedQuery)) {
+          elements.feedback.dataset.kind = "error";
+          elements.feedback.textContent = "Enter one word at a time, not a phrase.";
+          elements.input.focus();
+          return;
+        }
+
+        if (!state.manifest) {
+          elements.feedback.dataset.kind = "error";
+          elements.feedback.textContent = "The compact index is not ready.";
+          return;
+        }
+
+        const sequence = ++state.searchSequence;
+        const shardId = shardIdFor(normalizedQuery);
+
+        elements.searchButton.disabled = true;
+        elements.feedback.dataset.kind = "";
+        elements.feedback.textContent = `Loading the small index shard for “${rawQuery}”…`;
+
+        try {
+          const shard = await ensureShard(shardId);
+          if (sequence !== state.searchSequence) return;
+
+          renderSearchResults(rawQuery, normalizedQuery, shard);
+          updateURL(rawQuery);
+          elements.feedback.textContent = `Showing corpus statistics for “${rawQuery}”.`;
+        } catch (error) {
+          if (sequence !== state.searchSequence) return;
+
+          console.error(error);
+          elements.feedback.dataset.kind = "error";
+          elements.feedback.textContent = "The required word-index shard could not be loaded.";
+        } finally {
+          if (sequence === state.searchSequence) {
+            elements.searchButton.disabled = false;
+          }
+        }
+      }
+
+      function clearSearch() {
+        state.searchSequence += 1;
+        elements.input.value = "";
+        elements.feedback.dataset.kind = "";
+        elements.feedback.textContent = "Enter a word or inflected form.";
+        elements.results.innerHTML = `
+          <div class="empty-state">
+            <h2>Search the real TOEFL corpus</h2>
+            <p>Only a tiny shard is loaded for each search. The app checks lemmas and all listed observed forms, so <strong>is</strong>, <strong>was</strong>, and <strong>being</strong> can find the lemma <strong>be</strong>.</p>
+          </div>
+        `;
+        elements.announcer.textContent = "Search cleared.";
+        updateURL("");
+        elements.input.focus();
+      }
+
+      elements.form.addEventListener("submit", (event) => {
+        event.preventDefault();
+        performSearch(elements.input.value);
+      });
+
+      elements.clearButton.addEventListener("click", clearSearch);
+
+      elements.exampleButtons.forEach((button) => {
+        button.addEventListener("click", () => {
+          const example = button.dataset.example || "";
+          elements.input.value = example;
+          performSearch(example);
+        });
+      });
+
+      async function initialize() {
+        setControlsEnabled(false);
+
+        try {
+          const manifest = await loadManifest();
+          const totalRows = manifest.datasets.reduce(
+            (sum, dataset) => sum + (Number(dataset.rows) || 0),
+            0
+          );
+
+          elements.manifestState.dataset.state = "ready";
+          elements.manifestState.textContent = `Index: ${formatNumber(totalRows)} rows`;
+          elements.feedback.dataset.kind = "";
+          elements.feedback.textContent = "The compact index is ready. Only one small shard loads per search.";
+          setControlsEnabled(true);
+
+          const initialQuery = (
+            location.protocol === "http:" || location.protocol === "https:"
+          )
+            ? new URL(location.href).searchParams.get("word")
+            : null;
+
+          if (initialQuery) {
+            elements.input.value = initialQuery;
+            performSearch(initialQuery);
+          } else {
+            elements.input.focus();
+          }
+        } catch (error) {
+          console.error(error);
+          elements.manifestState.dataset.state = "error";
+          elements.manifestState.textContent = "Index: unavailable";
+          elements.feedback.dataset.kind = "error";
+          elements.feedback.textContent = "The generated word_stats_shards directory could not be found.";
+          setControlsEnabled(false);
+        }
+      }
+
+      initialize();
+    })();
+  </script>
+</body>
+</html>
