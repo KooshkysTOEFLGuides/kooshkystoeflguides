@@ -693,6 +693,84 @@ progress {
 }
 
 .exercise-hint,
+
+.grammar-term-box {
+  margin: var(--space-5) 0 var(--space-6);
+  padding: var(--space-4) var(--space-5);
+  border: 1px solid var(--color-border);
+  border-left: 4px solid var(--color-accent-secondary);
+  border-radius: var(--radius-medium);
+  background: var(--color-secondary-soft);
+}
+
+.grammar-term-box__title {
+  margin: 0 0 var(--space-3);
+  font-family: var(--font-heading);
+  font-size: 1rem;
+  color: var(--color-accent-secondary);
+}
+
+.grammar-term-list {
+  margin: 0;
+  display: grid;
+  gap: var(--space-3);
+}
+
+.grammar-term-list > div {
+  display: grid;
+  grid-template-columns: minmax(8rem, 0.34fr) minmax(0, 1fr);
+  gap: var(--space-3);
+  padding-top: var(--space-3);
+  border-top: 1px solid color-mix(in srgb, var(--color-accent-secondary) 28%, var(--color-border));
+}
+
+.grammar-term-list > div:first-child {
+  padding-top: 0;
+  border-top: 0;
+}
+
+.grammar-term-list dt {
+  font-weight: 700;
+  color: var(--color-text);
+}
+
+.grammar-term-list dd {
+  margin: 0;
+  color: var(--color-text-muted);
+}
+
+.answer-options {
+  margin: var(--space-3) 0 0;
+  padding-left: 1.35rem;
+  display: grid;
+  gap: var(--space-3);
+}
+
+.answer-options > li {
+  padding-left: var(--space-1);
+}
+
+.answer-options p {
+  margin: var(--space-1) 0 0;
+}
+
+.answer-option-tag {
+  display: inline-block;
+  font-size: 0.76rem;
+  line-height: 1.25;
+  font-weight: 700;
+  letter-spacing: 0.035em;
+  text-transform: uppercase;
+  color: var(--color-accent-secondary);
+}
+
+@media (max-width: 640px) {
+  .grammar-term-list > div {
+    grid-template-columns: 1fr;
+    gap: var(--space-1);
+  }
+}
+
 .answer-label {
   color: var(--color-accent-secondary);
   font-size: 0.76rem;
@@ -1236,6 +1314,15 @@ body.dialog-open {
   <h2>What a non-finite clause is</h2>
   <p>A non-finite clause contains a verb form such as <em>doing</em>, <em>having done</em>, <em>done</em>, or <em>to do</em>, but it does not carry an ordinary tense of its own. It normally depends on another part of the sentence for its time, subject, or interpretation.</p>
 
+  <aside class="grammar-term-box" aria-labelledby="grammar-terms-orientation">
+    <h3 class="grammar-term-box__title" id="grammar-terms-orientation">Grammar terms, if you want them</h3>
+    <dl class="grammar-term-list">
+      <div><dt>Clause</dt><dd>A group built around a verb. It may be a complete sentence, or it may function as one part of a larger sentence.</dd></div>
+      <div><dt>Finite clause</dt><dd>A clause whose verb can show ordinary tense and often agreement: <em>she works</em>, <em>she worked</em>, <em>they work</em>.</dd></div>
+      <div><dt>Non-finite clause</dt><dd>A shortened clause built with a form such as <em>doing</em>, <em>done</em>, <em>having done</em>, or <em>to do</em>. That verb form does not itself show ordinary tense.</dd></div>
+    </dl>
+  </aside>
+
   <div class="comparison-grid">
     <div class="compare-card">
       <div class="editorial-label">FINITE</div>
@@ -1274,6 +1361,15 @@ body.dialog-open {
   <div class="chapter-marker">CHAPTER 01</div>
   <h2><em>-ing</em> clauses: one form, many relationships</h2>
   <p>An <em>-ing</em> clause usually attaches a secondary situation to the main clause. It has no tense by itself. In <em>She walked home, listening to music</em>, both actions are understood as past because the main verb is <em>walked</em>.</p>
+
+  <aside class="grammar-term-box" aria-labelledby="grammar-terms-ing">
+    <h3 class="grammar-term-box__title" id="grammar-terms-ing">Grammar terms, if you want them</h3>
+    <dl class="grammar-term-list">
+      <div><dt>-ing participle</dt><dd>The verb form ending in <em>-ing</em>, such as <em>trying</em> or <em>playing</em>. It is also traditionally called the <em>present participle</em>, although it does not necessarily refer to present time.</dd></div>
+      <div><dt>Participial clause</dt><dd>A non-finite clause built around a participle: <em>trying to stop her</em>, <em>walking through the city</em>.</dd></div>
+      <div><dt>Supplement / adjunct</dt><dd>A side part that adds information such as time, reason, method, result, intention, condition, or contrast without becoming the sentence’s main statement.</dd></div>
+    </dl>
+  </aside>
 
   <h3>1. <em>While</em> or <em>as</em>: simultaneous action</h3>
   <p>The two actions happen together or overlap.</p>
@@ -1512,7 +1608,7 @@ body.dialog-open {
   
     <div class="exercise-toolbar" aria-label="Exercise progress">
       <span class="editorial-label">PRACTICE</span>
-      <p>Rewrite each finite version by replacing the highlighted logical relationship with the requested non-finite structure. Keep the original meaning. More than one answer may be possible.</p>
+      <p>Rewrite each finite version with one or more natural non-finite structures. Keep the original meaning. Some prompts allow several structurally different answers; the answer key shows all expected alternatives.</p>
       <div class="progress-line">
         <span class="progress-text">0 of 36 completed</span>
         <progress max="36" value="0">0 of 36</progress>
@@ -2041,6 +2137,14 @@ body.dialog-open {
   <h2>Perfect participial clauses: <em>having done</em></h2>
   <p>The pattern <strong>having + past participle</strong> presents one action as completed before the main action. It is especially useful when the earlier event must be clear.</p>
 
+  <aside class="grammar-term-box" aria-labelledby="grammar-terms-perfect-participle">
+    <h3 class="grammar-term-box__title" id="grammar-terms-perfect-participle">Grammar terms, if you want them</h3>
+    <dl class="grammar-term-list">
+      <div><dt>Perfect participle</dt><dd>The pattern <em>having + past participle</em>: <em>having finished</em>, <em>having seen</em>. Here, <em>perfect</em> means “earlier than another reference point,” not simply “past.”</dd></div>
+      <div><dt>Perfect passive participle</dt><dd>The pattern <em>having been + past participle</em>: <em>having been warned</em>. It marks an earlier action that the subject received.</dd></div>
+    </dl>
+  </aside>
+
   <h3>1. <em>After</em>: completed sequence</h3>
   
     <div class="signal-block signal-block--neutral">
@@ -2182,7 +2286,7 @@ body.dialog-open {
   
     <div class="exercise-toolbar" aria-label="Exercise progress">
       <span class="editorial-label">PRACTICE</span>
-      <p>Rewrite each finite version by replacing the highlighted logical relationship with the requested non-finite structure. Keep the original meaning. More than one answer may be possible.</p>
+      <p>Rewrite each finite version with one or more natural non-finite structures. Keep the original meaning. Some prompts allow several structurally different answers; the answer key shows all expected alternatives.</p>
       <div class="progress-line">
         <span class="progress-text">0 of 32 completed</span>
         <progress max="32" value="0">0 of 32</progress>
@@ -2655,6 +2759,15 @@ body.dialog-open {
   <h2>Past-participle clauses: <em>damaged, invited, surrounded</em></h2>
   <p>A past-participle clause usually presents the subject as receiving an action or being in a resulting state. The form itself does not necessarily refer to past time.</p>
 
+  <aside class="grammar-term-box" aria-labelledby="grammar-terms-past-participle">
+    <h3 class="grammar-term-box__title" id="grammar-terms-past-participle">Grammar terms, if you want them</h3>
+    <dl class="grammar-term-list">
+      <div><dt>Past participle</dt><dd>The form used in expressions such as <em>was damaged</em>, <em>has written</em>, and <em>broken glass</em>. It is often the “third form” of a verb: <em>write–wrote–written</em>.</dd></div>
+      <div><dt>Passive meaning</dt><dd>The subject receives the action: in <em>frightened by the noise</em>, the person experiences the frightening; the person does not cause it.</dd></div>
+      <div><dt>Resulting state</dt><dd>The form may describe the condition left by an earlier event: <em>the door locked</em>, <em>the village covered in snow</em>.</dd></div>
+    </dl>
+  </aside>
+
   <div class="comparison-grid">
     <div class="compare-card">
       <div class="editorial-label">ACTIVE -ING</div>
@@ -2823,7 +2936,7 @@ body.dialog-open {
   
     <div class="exercise-toolbar" aria-label="Exercise progress">
       <span class="editorial-label">PRACTICE</span>
-      <p>Rewrite each finite version by replacing the highlighted logical relationship with the requested non-finite structure. Keep the original meaning. More than one answer may be possible.</p>
+      <p>Rewrite each finite version with one or more natural non-finite structures. Keep the original meaning. Some prompts allow several structurally different answers; the answer key shows all expected alternatives.</p>
       <div class="progress-line">
         <span class="progress-text">0 of 32 completed</span>
         <progress max="32" value="0">0 of 32</progress>
@@ -3296,6 +3409,16 @@ body.dialog-open {
   <h2>Infinitival clauses: <em>to do</em>, <em>to have done</em>, <em>to be done</em></h2>
   <p>An infinitival clause normally begins with <em>to + base verb</em>. Its meaning comes from the structure around it. It frequently expresses purpose, a later result, possibility, obligation, evaluation, or an earlier action.</p>
 
+  <aside class="grammar-term-box" aria-labelledby="grammar-terms-infinitive">
+    <h3 class="grammar-term-box__title" id="grammar-terms-infinitive">Grammar terms, if you want them</h3>
+    <dl class="grammar-term-list">
+      <div><dt>To-infinitive</dt><dd>The pattern <em>to + base form</em>: <em>to leave</em>, <em>to understand</em>. A clause built around it is called an <em>infinitival clause</em>.</dd></div>
+      <div><dt>Perfect infinitive</dt><dd><em>To have + past participle</em>, as in <em>to have forgotten</em>, places the infinitive’s event earlier than the main verb’s viewpoint.</dd></div>
+      <div><dt>Passive infinitive</dt><dd><em>To be + past participle</em>, as in <em>to be repaired</em>, shows that the subject receives the action.</dd></div>
+      <div><dt>For-subject infinitive</dt><dd>The pattern <em>for + noun/pronoun + to do</em> gives the infinitive its own stated subject: <em>for students to practise</em>.</dd></div>
+    </dl>
+  </aside>
+
   <h3>1. Purpose: <em>in order to</em></h3>
   
     <div class="signal-block signal-block--teal">
@@ -3572,7 +3695,7 @@ body.dialog-open {
   
     <div class="exercise-toolbar" aria-label="Exercise progress">
       <span class="editorial-label">PRACTICE</span>
-      <p>Rewrite each finite version by replacing the highlighted logical relationship with the requested non-finite structure. Keep the original meaning. More than one answer may be possible.</p>
+      <p>Rewrite each finite version with one or more natural non-finite structures. Keep the original meaning. Some prompts allow several structurally different answers; the answer key shows all expected alternatives.</p>
       <div class="progress-line">
         <span class="progress-text">0 of 38 completed</span>
         <progress max="38" value="0">0 of 38</progress>
@@ -4130,6 +4253,15 @@ body.dialog-open {
   <h2>Absolute constructions: a side clause with its own subject</h2>
   <p>Most participial clauses borrow the subject of the main clause: <em>Walking home, Sara called her brother</em> means that Sara was walking. An absolute construction states a different subject inside the side clause: <em>Her phone battery dying, Sara ended the call.</em></p>
 
+  <aside class="grammar-term-box" aria-labelledby="grammar-terms-absolute">
+    <h3 class="grammar-term-box__title" id="grammar-terms-absolute">Grammar terms, if you want them</h3>
+    <dl class="grammar-term-list">
+      <div><dt>Absolute construction</dt><dd>A side construction with its own stated subject: <em>the weather improving</em>, <em>the work completed</em>, <em>his hands in his pockets</em>.</dd></div>
+      <div><dt>Verbless absolute</dt><dd>An absolute construction in which a form of <em>be</em> is understood rather than written: <em>his face pale</em> means roughly <em>his face being pale</em>.</dd></div>
+      <div><dt>With-absolute</dt><dd>The same type introduced by <em>with</em>: <em>with the roads closed</em>, <em>with everyone watching</em>. This is often more natural in everyday English.</dd></div>
+    </dl>
+  </aside>
+
   <div class="comparison-grid">
     <div class="compare-card">
       <div class="editorial-label">SHARED SUBJECT</div>
@@ -4309,7 +4441,7 @@ body.dialog-open {
   
     <div class="exercise-toolbar" aria-label="Exercise progress">
       <span class="editorial-label">PRACTICE</span>
-      <p>Rewrite each finite version by replacing the highlighted logical relationship with the requested non-finite structure. Keep the original meaning. More than one answer may be possible.</p>
+      <p>Rewrite each finite version with one or more natural non-finite structures. Keep the original meaning. Some prompts allow several structurally different answers; the answer key shows all expected alternatives.</p>
       <div class="progress-line">
         <span class="progress-text">0 of 32 completed</span>
         <progress max="32" value="0">0 of 32</progress>
@@ -4793,7 +4925,7 @@ body.dialog-open {
   
     <div class="exercise-toolbar" aria-label="Exercise progress">
       <span class="editorial-label">PRACTICE</span>
-      <p>Rewrite each finite version by replacing the highlighted logical relationship with the requested non-finite structure. Keep the original meaning. More than one answer may be possible.</p>
+      <p>Rewrite each finite version with one or more natural non-finite structures. Keep the original meaning. Some prompts allow several structurally different answers; the answer key shows all expected alternatives.</p>
       <div class="progress-line">
         <span class="progress-text">0 of 100 completed</span>
         <progress max="100" value="0">0 of 100</progress>
@@ -5803,410 +5935,1587 @@ body.dialog-open {
         </li>
     </ol>
     <details class="answer-key">
-      <summary><span class="editorial-label">ANSWER KEY</span> Show model answers</summary>
+      <summary><span class="editorial-label">ANSWER KEY</span> Show all accepted answers</summary>
       <div class="answer-key__body">
-        <p class="muted">These are model answers. Small changes in word order, punctuation, or wording can also be correct if the meaning remains clear.</p>
+        <p class="muted">The key lists the natural, structurally distinct answers expected for each prompt. It does not attempt to list unlimited synonym substitutions. Small punctuation and word-order changes are also acceptable when the subject, time relationship, and meaning remain clear.</p>
         <ol>
         <li>
-          <span class="answer-label">-ing clause</span>
-          <p>Comparing household surveys from three decades, the economist noticed a persistent regional divide.</p>
-        </li>
-        <li>
-          <span class="answer-label">perfect participial clause</span>
-          <p>Having interviewed dozens of residents, the commission published a sharply critical report.</p>
-        </li>
-        <li>
-          <span class="answer-label">past-participle clause</span>
-          <p>Battered by successive storms, the coastline required extensive reinforcement.</p>
-        </li>
-        <li>
-          <span class="answer-label">infinitival clause</span>
-          <p>The agency released the preliminary map to allow local communities to identify omissions.</p>
-        </li>
-        <li>
-          <span class="answer-label">absolute construction</span>
-          <p>The moon hidden behind dense cloud, the rescue team relied on thermal cameras.</p>
-        </li>
-        <li>
-          <span class="answer-label">-ing clause</span>
-          <p>Wanting to preserve the fragile textiles, the museum reduced the gallery’s light levels.</p>
-        </li>
-        <li>
-          <span class="answer-label">perfect participial clause</span>
-          <p>Having ignored repeated safety warnings, the retailer faced a costly recall.</p>
-        </li>
-        <li>
-          <span class="answer-label">past-participle clause</span>
-          <p>Examined under ultraviolet light, the manuscript shows several erased passages.</p>
-        </li>
-        <li>
-          <span class="answer-label">infinitival clause</span>
-          <p>The expedition reached the plateau to discover that the research station had been abandoned.</p>
-        </li>
-        <li>
-          <span class="answer-label">absolute construction</span>
-          <p>Her notes spread across the floor, Shirin reconstructed the sequence of events.</p>
-        </li>
-        <li>
-          <span class="answer-label">-ing clause</span>
-          <p>The algorithm made the archive easier to search by grouping related documents.</p>
-        </li>
-        <li>
-          <span class="answer-label">perfect participial clause</span>
-          <p>Having corrected for atmospheric distortion, the astronomers obtained a far clearer image.</p>
-        </li>
-        <li>
-          <span class="answer-label">past-participle clause</span>
-          <p>Praised for its ambition, the proposal was criticized for lacking practical detail.</p>
-        </li>
-        <li>
-          <span class="answer-label">infinitival clause</span>
-          <p>The committee revised the proposal repeatedly, only to have it rejected by the funding body.</p>
-        </li>
-        <li>
-          <span class="answer-label">absolute construction</span>
-          <p>The electricity having failed, the laboratory switched to emergency power.</p>
-        </li>
-        <li>
-          <span class="answer-label">-ing clause</span>
-          <p>The mayor rejected the compromise, intensifying the conflict with the council.</p>
-        </li>
-        <li>
-          <span class="answer-label">perfect participial clause</span>
-          <p>Not having encountered the notation before, Laleh interpreted the formula incorrectly.</p>
-        </li>
-        <li>
-          <span class="answer-label">past-participle clause</span>
-          <p>The delegates remained in the chamber, divided into two hostile blocs.</p>
-        </li>
-        <li>
-          <span class="answer-label">infinitival clause</span>
-          <p>The handwriting was too faint for even specialists to decipher.</p>
-        </li>
-        <li>
-          <span class="answer-label">absolute construction</span>
-          <p>With the principal investigator absent, the ethics officer chaired the review.</p>
-        </li>
-        <li>
-          <span class="answer-label">-ing clause</span>
-          <p>The defense lawyer questioned the timeline, hoping to expose an inconsistency.</p>
-        </li>
-        <li>
-          <span class="answer-label">perfect participial clause</span>
-          <p>Having been cleaned and catalogued, the ancient coins were transferred to the national collection.</p>
-        </li>
-        <li>
-          <span class="answer-label">past-participle clause</span>
-          <p>The regulations adopted after the crisis remain controversial.</p>
-        </li>
-        <li>
-          <span class="answer-label">infinitival clause</span>
-          <p>The sample was large enough for the researchers to detect a modest effect.</p>
-        </li>
-        <li>
-          <span class="answer-label">absolute construction</span>
-          <p>With dozens of reporters waiting outside, the cabinet met in private.</p>
-        </li>
-        <li>
-          <span class="answer-label">-ing clause</span>
-          <p>Admiring her subject, the biographer did not conceal his moral failures.</p>
-        </li>
-        <li>
-          <span class="answer-label">perfect participial clause</span>
-          <p>Having abandoned three earlier drafts, the novelist finally discovered the story’s proper structure.</p>
-        </li>
-        <li>
-          <span class="answer-label">past-participle clause</span>
-          <p>Intimidated by the hostile questioning, the witness gave increasingly brief answers.</p>
-        </li>
-        <li>
-          <span class="answer-label">infinitival clause</span>
-          <p>The curator was delighted to learn that the missing panel had survived.</p>
-        </li>
-        <li>
-          <span class="answer-label">absolute construction</span>
-          <p>The final measurements recorded, the instruments were packed for transport.</p>
-        </li>
-        <li>
-          <span class="answer-label">-ing clause</span>
-          <p>Examining the distribution rather than the average, you can see how unequal the gains were.</p>
-        </li>
-        <li>
-          <span class="answer-label">perfect participial clause</span>
-          <p>Having promised greater transparency, the administration could not easily justify withholding the records.</p>
-        </li>
-        <li>
-          <span class="answer-label">past-participle clause</span>
-          <p>Cooled gradually, the metal becomes less likely to fracture.</p>
-        </li>
-        <li>
-          <span class="answer-label">infinitival clause</span>
-          <p>The publisher was reckless to print the accusation without verification.</p>
-        </li>
-        <li>
-          <span class="answer-label">absolute construction</span>
-          <p>His expression unreadable, the jurors could not tell how he had received the news.</p>
-        </li>
-        <li>
-          <span class="answer-label">-ing clause</span>
-          <p>Crossing the polar region, the satellite transmitted unusually detailed images.</p>
-        </li>
-        <li>
-          <span class="answer-label">perfect participial clause</span>
-          <p>Having reproduced the finding independently, the laboratory announced the result.</p>
-        </li>
-        <li>
-          <span class="answer-label">past-participle clause</span>
-          <p>Abandoned for centuries, the settlement preserved traces of an elaborate irrigation system.</p>
-        </li>
-        <li>
-          <span class="answer-label">infinitival clause</span>
-          <p>The council has several competing priorities to reconcile.</p>
-        </li>
-        <li>
-          <span class="answer-label">absolute construction</span>
-          <p>A map open on the table, the commanders debated the safest route.</p>
-        </li>
-        <li>
-          <span class="answer-label">-ing clause</span>
-          <p>Doubting the forecast, the board requested an independent review.</p>
-        </li>
-        <li>
-          <span class="answer-label">perfect participial clause</span>
-          <p>Not having received reliable rainfall for two years, the village imposed strict water limits.</p>
-        </li>
-        <li>
-          <span class="answer-label">past-participle clause</span>
-          <p>The scientist spoke to the press, visibly frustrated by the inaccurate coverage.</p>
-        </li>
-        <li>
-          <span class="answer-label">infinitival clause</span>
-          <p>It is essential for future studies to distinguish correlation from causation.</p>
-        </li>
-        <li>
-          <span class="answer-label">absolute construction</span>
-          <p>All conventional explanations having been eliminated, the researchers considered a more radical hypothesis.</p>
-        </li>
-        <li>
-          <span class="answer-label">-ing clause</span>
-          <p>The translator retained much of the original voice by preserving the author’s unusual syntax.</p>
-        </li>
-        <li>
-          <span class="answer-label">perfect participial clause</span>
-          <p>Having been ratified by all participating states, the treaty entered into force.</p>
-        </li>
-        <li>
-          <span class="answer-label">past-participle clause</span>
-          <p>The letters discovered behind the wall transformed historians’ understanding of the dispute.</p>
-        </li>
-        <li>
-          <span class="answer-label">infinitival clause</span>
-          <p>The archive seems to have lost several boxes during the relocation.</p>
-        </li>
-        <li>
-          <span class="answer-label">absolute construction</span>
-          <p>With several key positions still vacant, the institution postponed the launch.</p>
-        </li>
-        <li>
-          <span class="answer-label">-ing clause</span>
-          <p>The company postponed maintenance for years, creating a much more expensive failure.</p>
-        </li>
-        <li>
-          <span class="answer-label">perfect participial clause</span>
-          <p>Having traced the payments through several shell companies, the journalist identified the true beneficiary.</p>
-        </li>
-        <li>
-          <span class="answer-label">past-participle clause</span>
-          <p>Driven upward by artificial shortages, prices rose far above normal levels.</p>
-        </li>
-        <li>
-          <span class="answer-label">infinitival clause</span>
-          <p>The bridge needs to be inspected before heavy traffic is permitted.</p>
-        </li>
-        <li>
-          <span class="answer-label">absolute construction</span>
-          <p>With protesters gathering at both entrances, staff were advised to leave through the rear gate.</p>
-        </li>
-        <li>
-          <span class="answer-label">-ing clause</span>
-          <p>The diplomat avoided direct accusations, trying to keep negotiations alive.</p>
-        </li>
-        <li>
-          <span class="answer-label">perfect participial clause</span>
-          <p>Having underestimated the soil instability, the architect had to redesign the foundation.</p>
-        </li>
-        <li>
-          <span class="answer-label">past-participle clause</span>
-          <p>Performed by experienced staff, the procedure carries relatively little risk.</p>
-        </li>
-        <li>
-          <span class="answer-label">infinitival clause</span>
-          <p>The laboratory installed a second ventilation system to reduce contamination risk.</p>
-        </li>
-        <li>
-          <span class="answer-label">absolute construction</span>
-          <p>The source code independently audited, the security team approved deployment.</p>
-        </li>
-        <li>
-          <span class="answer-label">-ing clause</span>
-          <p>Removing the final layer of soil, the archaeologists uncovered a stone inscription.</p>
-        </li>
-        <li>
-          <span class="answer-label">perfect participial clause</span>
-          <p>Having agreed on the central weakness, the reviewers drafted a joint recommendation.</p>
-        </li>
-        <li>
-          <span class="answer-label">past-participle clause</span>
-          <p>Suppressed by the authorities, the movement continued through informal networks.</p>
-        </li>
-        <li>
-          <span class="answer-label">infinitival clause</span>
-          <p>She opened the historical register to find her family name appearing several times.</p>
-        </li>
-        <li>
-          <span class="answer-label">absolute construction</span>
-          <p>Her face partly concealed, the witness could not identify the woman with confidence.</p>
-        </li>
-        <li>
-          <span class="answer-label">-ing clause</span>
-          <p>The policy expands access to childcare and reduces household costs, supporting greater workforce participation.</p>
-        </li>
-        <li>
-          <span class="answer-label">perfect participial clause</span>
-          <p>Not having been told about the route change, the passengers became increasingly anxious.</p>
-        </li>
-        <li>
-          <span class="answer-label">past-participle clause</span>
-          <p>The sculpture stood in the courtyard, partially concealed by climbing plants.</p>
-        </li>
-        <li>
-          <span class="answer-label">infinitival clause</span>
-          <p>The negotiators accepted a temporary pause, only to allow the underlying dispute to deepen.</p>
-        </li>
-        <li>
-          <span class="answer-label">absolute construction</span>
-          <p>A flashlight in one hand and the radio in the other, the ranger entered the tunnel.</p>
-        </li>
-        <li>
-          <span class="answer-label">-ing clause</span>
-          <p>Remembering a minor but distinctive detail, the witness was able to identify the vehicle.</p>
-        </li>
-        <li>
-          <span class="answer-label">perfect participial clause</span>
-          <p>Having been attributed to a major artist, the portrait’s market value increased dramatically.</p>
-        </li>
-        <li>
-          <span class="answer-label">past-participle clause</span>
-          <p>The assumptions embedded in the model deserve closer examination.</p>
-        </li>
-        <li>
-          <span class="answer-label">infinitival clause</span>
-          <p>The concept was too abstract for younger students to grasp without examples.</p>
-        </li>
-        <li>
-          <span class="answer-label">absolute construction</span>
-          <p>The ceasefire having collapsed, humanitarian agencies prepared for a new wave of displacement.</p>
-        </li>
-        <li>
-          <span class="answer-label">-ing clause</span>
-          <p>The editor gave the essay a clearer direction by rearranging the opening paragraphs.</p>
-        </li>
-        <li>
-          <span class="answer-label">perfect participial clause</span>
-          <p>Having ruled out infection, the physician investigated possible autoimmune causes.</p>
-        </li>
-        <li>
-          <span class="answer-label">past-participle clause</span>
-          <p>Separated from their families, the refugees experienced severe emotional distress.</p>
-        </li>
-        <li>
-          <span class="answer-label">infinitival clause</span>
-          <p>The instructions were precise enough for an inexperienced assistant to reproduce the procedure.</p>
-        </li>
-        <li>
-          <span class="answer-label">absolute construction</span>
-          <p>With the evidence incomplete, no responsible conclusion could yet be drawn.</p>
-        </li>
-        <li>
-          <span class="answer-label">-ing clause</span>
-          <p>The volcano released a vast cloud of ash, disrupting flights across the region.</p>
-        </li>
-        <li>
-          <span class="answer-label">perfect participial clause</span>
-          <p>Having expanded too quickly, the company lacked the systems needed to coordinate its offices.</p>
-        </li>
-        <li>
-          <span class="answer-label">past-participle clause</span>
-          <p>Interpreted too literally, the theory appears to contradict the evidence.</p>
-        </li>
-        <li>
-          <span class="answer-label">infinitival clause</span>
-          <p>We were disturbed to discover how extensively the records had been altered.</p>
-        </li>
-        <li>
-          <span class="answer-label">absolute construction</span>
-          <p>With water leaking through the ceiling, the archivists moved the collection downstairs.</p>
-        </li>
-        <li>
-          <span class="answer-label">-ing clause</span>
-          <p>The candidate cited several local examples, wanting to make the abstract policy more concrete.</p>
-        </li>
-        <li>
-          <span class="answer-label">perfect participial clause</span>
-          <p>Having reconstructed the sound changes, the linguists could explain several puzzling spellings.</p>
-        </li>
-        <li>
-          <span class="answer-label">past-participle clause</span>
-          <p>Implicated in the scandal, the minister retained considerable support within the party.</p>
-        </li>
-        <li>
-          <span class="answer-label">infinitival clause</span>
-          <p>The researchers were prudent to register their hypotheses in advance.</p>
-        </li>
-        <li>
-          <span class="answer-label">absolute construction</span>
-          <p>The opposing arguments summarized, the chair opened the floor for questions.</p>
-        </li>
-        <li>
-          <span class="answer-label">-ing clause</span>
-          <p>Understanding the symbolic importance of the monument, he opposed the cost of restoring it.</p>
-        </li>
-        <li>
-          <span class="answer-label">perfect participial clause</span>
-          <p>Not having preserved the raw measurements, Amir could not verify the disputed calculation.</p>
-        </li>
-        <li>
-          <span class="answer-label">past-participle clause</span>
-          <p>The ship drifted toward the reef, disabled by an engine failure.</p>
-        </li>
-        <li>
-          <span class="answer-label">infinitival clause</span>
-          <p>They developed a flexible framework to accommodate regional differences.</p>
-        </li>
-        <li>
-          <span class="answer-label">absolute construction</span>
-          <p>His attention elsewhere, the driver failed to notice the temporary signal.</p>
-        </li>
-        <li>
-          <span class="answer-label">-ing clause</span>
-          <p>Considering the patient’s history, the physician ruled out several common explanations.</p>
-        </li>
-        <li>
-          <span class="answer-label">perfect participial clause</span>
-          <p>Having been granted access to legal counsel, the prisoners withdrew their earlier statements.</p>
-        </li>
-        <li>
-          <span class="answer-label">past-participle clause</span>
-          <p>The techniques refined during the space program later entered commercial medicine.</p>
-        </li>
-        <li>
-          <span class="answer-label">infinitival clause</span>
-          <p>The settlement is believed to have been destroyed by a combination of drought and conflict.</p>
-        </li>
+          <span class="answer-label">Natural answers</span>
+          <ol class="answer-options" type="a">
+              <li>
+                <span class="answer-option-tag">-ing clause</span>
+                <p>Comparing household surveys from three decades, the economist noticed a persistent regional divide.</p>
+              </li>
+              <li>
+                <span class="answer-option-tag">while + -ing clause</span>
+                <p>While comparing household surveys from three decades, the economist noticed a persistent regional divide.</p>
+              </li>
+              <li>
+                <span class="answer-option-tag">trailing -ing clause</span>
+                <p>The economist noticed a persistent regional divide while comparing household surveys from three decades.</p>
+              </li>
+          </ol>
+        </li>
+        <li>
+          <span class="answer-label">Natural answers</span>
+          <ol class="answer-options" type="a">
+              <li>
+                <span class="answer-option-tag">perfect participial clause</span>
+                <p>Having interviewed dozens of residents, the commission published a sharply critical report.</p>
+              </li>
+              <li>
+                <span class="answer-option-tag">after + -ing clause</span>
+                <p>After interviewing dozens of residents, the commission published a sharply critical report.</p>
+              </li>
+              <li>
+                <span class="answer-option-tag">inserted perfect participial clause</span>
+                <p>The commission, having interviewed dozens of residents, published a sharply critical report.</p>
+              </li>
+          </ol>
+        </li>
+        <li>
+          <span class="answer-label">Natural answers</span>
+          <ol class="answer-options" type="a">
+              <li>
+                <span class="answer-option-tag">past-participle clause</span>
+                <p>Battered by successive storms, the coastline required extensive reinforcement.</p>
+              </li>
+              <li>
+                <span class="answer-option-tag">perfect passive participial clause</span>
+                <p>Having been battered by successive storms, the coastline required extensive reinforcement.</p>
+              </li>
+              <li>
+                <span class="answer-option-tag">inserted past-participle clause</span>
+                <p>The coastline, battered by successive storms, required extensive reinforcement.</p>
+              </li>
+          </ol>
+        </li>
+        <li>
+          <span class="answer-label">Natural answers</span>
+          <ol class="answer-options" type="a">
+              <li>
+                <span class="answer-option-tag">purpose infinitive</span>
+                <p>The agency released the preliminary map to allow local communities to identify omissions.</p>
+              </li>
+              <li>
+                <span class="answer-option-tag">for-subject infinitive</span>
+                <p>The agency released the preliminary map for local communities to identify omissions.</p>
+              </li>
+              <li>
+                <span class="answer-option-tag">fronted purpose infinitive</span>
+                <p>To allow local communities to identify omissions, the agency released the preliminary map.</p>
+              </li>
+          </ol>
+        </li>
+        <li>
+          <span class="answer-label">Natural answers</span>
+          <ol class="answer-options" type="a">
+              <li>
+                <span class="answer-option-tag">absolute construction</span>
+                <p>The moon hidden behind dense cloud, the rescue team relied on thermal cameras.</p>
+              </li>
+              <li>
+                <span class="answer-option-tag">with-absolute</span>
+                <p>With the moon hidden behind dense cloud, the rescue team relied on thermal cameras.</p>
+              </li>
+              <li>
+                <span class="answer-option-tag">-ing absolute</span>
+                <p>The moon remaining hidden behind dense cloud, the rescue team relied on thermal cameras.</p>
+              </li>
+          </ol>
+        </li>
+        <li>
+          <span class="answer-label">Natural answers</span>
+          <ol class="answer-options" type="a">
+              <li>
+                <span class="answer-option-tag">reason -ing clause</span>
+                <p>Wanting to preserve the fragile textiles, the museum reduced the gallery’s light levels.</p>
+              </li>
+              <li>
+                <span class="answer-option-tag">purpose infinitive</span>
+                <p>To preserve the fragile textiles, the museum reduced the gallery’s light levels.</p>
+              </li>
+              <li>
+                <span class="answer-option-tag">inserted -ing clause</span>
+                <p>The museum, wanting to preserve the fragile textiles, reduced the gallery’s light levels.</p>
+              </li>
+          </ol>
+        </li>
         <li>
-          <span class="answer-label">absolute construction</span>
-          <p>The preliminary phase having ended, the project entered a more demanding stage.</p>
-        </li></ol>
+          <span class="answer-label">Natural answers</span>
+          <ol class="answer-options" type="a">
+              <li>
+                <span class="answer-option-tag">perfect participial clause</span>
+                <p>Having ignored repeated safety warnings, the retailer faced a costly recall.</p>
+              </li>
+              <li>
+                <span class="answer-option-tag">after + -ing clause</span>
+                <p>After ignoring repeated safety warnings, the retailer faced a costly recall.</p>
+              </li>
+              <li>
+                <span class="answer-option-tag">inserted perfect participial clause</span>
+                <p>The retailer, having ignored repeated safety warnings, faced a costly recall.</p>
+              </li>
+          </ol>
+        </li>
+        <li>
+          <span class="answer-label">Natural answers</span>
+          <ol class="answer-options" type="a">
+              <li>
+                <span class="answer-option-tag">past-participle clause</span>
+                <p>Examined under ultraviolet light, the manuscript shows several erased passages.</p>
+              </li>
+              <li>
+                <span class="answer-option-tag">when + past participle</span>
+                <p>When examined under ultraviolet light, the manuscript shows several erased passages.</p>
+              </li>
+              <li>
+                <span class="answer-option-tag">if + past participle</span>
+                <p>If examined under ultraviolet light, the manuscript shows several erased passages.</p>
+              </li>
+          </ol>
+        </li>
+        <li>
+          <span class="answer-label">Natural answers</span>
+          <ol class="answer-options" type="a">
+              <li>
+                <span class="answer-option-tag">result infinitive</span>
+                <p>The expedition reached the plateau to discover that the research station had been abandoned.</p>
+              </li>
+              <li>
+                <span class="answer-option-tag">upon + -ing clause</span>
+                <p>Upon reaching the plateau, the expedition discovered that the research station had been abandoned.</p>
+              </li>
+              <li>
+                <span class="answer-option-tag">immediate-sequence -ing clause</span>
+                <p>Reaching the plateau, the expedition discovered that the research station had been abandoned.</p>
+              </li>
+          </ol>
+        </li>
+        <li>
+          <span class="answer-label">Natural answers</span>
+          <ol class="answer-options" type="a">
+              <li>
+                <span class="answer-option-tag">absolute construction</span>
+                <p>Her notes spread across the floor, Shirin reconstructed the sequence of events.</p>
+              </li>
+              <li>
+                <span class="answer-option-tag">with-absolute</span>
+                <p>With her notes spread across the floor, Shirin reconstructed the sequence of events.</p>
+              </li>
+          </ol>
+        </li>
+        <li>
+          <span class="answer-label">Natural answers</span>
+          <ol class="answer-options" type="a">
+              <li>
+                <span class="answer-option-tag">by + -ing clause</span>
+                <p>The algorithm made the archive easier to search by grouping related documents.</p>
+              </li>
+              <li>
+                <span class="answer-option-tag">fronted method clause</span>
+                <p>By grouping related documents, the algorithm made the archive easier to search.</p>
+              </li>
+              <li>
+                <span class="answer-option-tag">result -ing clause</span>
+                <p>The algorithm grouped related documents, making the archive easier to search.</p>
+              </li>
+          </ol>
+        </li>
+        <li>
+          <span class="answer-label">Natural answers</span>
+          <ol class="answer-options" type="a">
+              <li>
+                <span class="answer-option-tag">perfect participial clause</span>
+                <p>Having corrected for atmospheric distortion, the astronomers obtained a far clearer image.</p>
+              </li>
+              <li>
+                <span class="answer-option-tag">after + -ing clause</span>
+                <p>After correcting for atmospheric distortion, the astronomers obtained a far clearer image.</p>
+              </li>
+              <li>
+                <span class="answer-option-tag">inserted perfect participial clause</span>
+                <p>The astronomers, having corrected for atmospheric distortion, obtained a far clearer image.</p>
+              </li>
+          </ol>
+        </li>
+        <li>
+          <span class="answer-label">Natural answers</span>
+          <ol class="answer-options" type="a">
+              <li>
+                <span class="answer-option-tag">past-participle clause</span>
+                <p>Praised for its ambition, the proposal was criticized for lacking practical detail.</p>
+              </li>
+              <li>
+                <span class="answer-option-tag">although + past participle</span>
+                <p>Although praised for its ambition, the proposal was criticized for lacking practical detail.</p>
+              </li>
+              <li>
+                <span class="answer-option-tag">inserted past-participle clause</span>
+                <p>The proposal, praised for its ambition, was criticized for lacking practical detail.</p>
+              </li>
+          </ol>
+        </li>
+        <li>
+          <span class="answer-label">Natural answers</span>
+          <ol class="answer-options" type="a">
+              <li>
+                <span class="answer-option-tag">only-to passive infinitive</span>
+                <p>The committee revised the proposal repeatedly, only to have it rejected by the funding body.</p>
+              </li>
+              <li>
+                <span class="answer-option-tag">only-for infinitive</span>
+                <p>The committee revised the proposal repeatedly, only for the funding body to reject it.</p>
+              </li>
+              <li>
+                <span class="answer-option-tag">only-to discovery infinitive</span>
+                <p>The committee revised the proposal repeatedly, only to see the funding body reject it.</p>
+              </li>
+          </ol>
+        </li>
+        <li>
+          <span class="answer-label">Natural answers</span>
+          <ol class="answer-options" type="a">
+              <li>
+                <span class="answer-option-tag">perfect absolute construction</span>
+                <p>The electricity having failed, the laboratory switched to emergency power.</p>
+              </li>
+              <li>
+                <span class="answer-option-tag">with + perfect absolute</span>
+                <p>With the electricity having failed, the laboratory switched to emergency power.</p>
+              </li>
+          </ol>
+        </li>
+        <li>
+          <span class="answer-label">Natural answers</span>
+          <ol class="answer-options" type="a">
+              <li>
+                <span class="answer-option-tag">result -ing clause</span>
+                <p>The mayor rejected the compromise, intensifying the conflict with the council.</p>
+              </li>
+              <li>
+                <span class="answer-option-tag">thereby + -ing clause</span>
+                <p>The mayor rejected the compromise, thereby intensifying the conflict with the council.</p>
+              </li>
+          </ol>
+        </li>
+        <li>
+          <span class="answer-label">Natural answers</span>
+          <ol class="answer-options" type="a">
+              <li>
+                <span class="answer-option-tag">negative perfect participial clause</span>
+                <p>Not having encountered the notation before, Laleh interpreted the formula incorrectly.</p>
+              </li>
+              <li>
+                <span class="answer-option-tag">never + perfect participial clause</span>
+                <p>Never having encountered the notation before, Laleh interpreted the formula incorrectly.</p>
+              </li>
+              <li>
+                <span class="answer-option-tag">inserted perfect participial clause</span>
+                <p>Laleh, not having encountered the notation before, interpreted the formula incorrectly.</p>
+              </li>
+          </ol>
+        </li>
+        <li>
+          <span class="answer-label">Natural answers</span>
+          <ol class="answer-options" type="a">
+              <li>
+                <span class="answer-option-tag">trailing past-participle clause</span>
+                <p>The delegates remained in the chamber, divided into two hostile blocs.</p>
+              </li>
+              <li>
+                <span class="answer-option-tag">inserted past-participle clause</span>
+                <p>The delegates, divided into two hostile blocs, remained in the chamber.</p>
+              </li>
+              <li>
+                <span class="answer-option-tag">while + past participle</span>
+                <p>While divided into two hostile blocs, the delegates remained in the chamber.</p>
+              </li>
+          </ol>
+        </li>
+        <li>
+          <span class="answer-label">Natural answers</span>
+          <ol class="answer-options" type="a">
+              <li>
+                <span class="answer-option-tag">too + adjective + for-infinitive</span>
+                <p>The handwriting was too faint for even specialists to decipher.</p>
+              </li>
+              <li>
+                <span class="answer-option-tag">passive infinitive</span>
+                <p>The handwriting was too faint to be deciphered even by specialists.</p>
+              </li>
+          </ol>
+        </li>
+        <li>
+          <span class="answer-label">Natural answers</span>
+          <ol class="answer-options" type="a">
+              <li>
+                <span class="answer-option-tag">with-absolute</span>
+                <p>With the principal investigator absent, the ethics officer chaired the review.</p>
+              </li>
+              <li>
+                <span class="answer-option-tag">verbless absolute</span>
+                <p>The principal investigator absent, the ethics officer chaired the review.</p>
+              </li>
+              <li>
+                <span class="answer-option-tag">being-absolute</span>
+                <p>The principal investigator being absent, the ethics officer chaired the review.</p>
+              </li>
+          </ol>
+        </li>
+        <li>
+          <span class="answer-label">Natural answers</span>
+          <ol class="answer-options" type="a">
+              <li>
+                <span class="answer-option-tag">intention -ing clause</span>
+                <p>The defense lawyer questioned the timeline, hoping to expose an inconsistency.</p>
+              </li>
+              <li>
+                <span class="answer-option-tag">fronted reason -ing clause</span>
+                <p>Hoping to expose an inconsistency, the defense lawyer questioned the timeline.</p>
+              </li>
+              <li>
+                <span class="answer-option-tag">purpose infinitive</span>
+                <p>The defense lawyer questioned the timeline to expose a possible inconsistency.</p>
+              </li>
+          </ol>
+        </li>
+        <li>
+          <span class="answer-label">Natural answers</span>
+          <ol class="answer-options" type="a">
+              <li>
+                <span class="answer-option-tag">perfect passive participial clause</span>
+                <p>Having been cleaned and catalogued, the ancient coins were transferred to the national collection.</p>
+              </li>
+              <li>
+                <span class="answer-option-tag">after + passive -ing clause</span>
+                <p>After being cleaned and catalogued, the ancient coins were transferred to the national collection.</p>
+              </li>
+              <li>
+                <span class="answer-option-tag">past-participle clause</span>
+                <p>Cleaned and catalogued, the ancient coins were transferred to the national collection.</p>
+              </li>
+          </ol>
+        </li>
+        <li>
+          <span class="answer-label">Natural answer</span>
+          <ol class="answer-options" type="a">
+              <li>
+                <span class="answer-option-tag">reduced relative clause</span>
+                <p>The regulations adopted after the crisis remain controversial.</p>
+              </li>
+          </ol>
+        </li>
+        <li>
+          <span class="answer-label">Natural answers</span>
+          <ol class="answer-options" type="a">
+              <li>
+                <span class="answer-option-tag">enough + for-infinitive</span>
+                <p>The sample was large enough for the researchers to detect a modest effect.</p>
+              </li>
+              <li>
+                <span class="answer-option-tag">infinitive with allow</span>
+                <p>The sample was sufficiently large to allow the researchers to detect a modest effect.</p>
+              </li>
+          </ol>
+        </li>
+        <li>
+          <span class="answer-label">Natural answers</span>
+          <ol class="answer-options" type="a">
+              <li>
+                <span class="answer-option-tag">with-absolute</span>
+                <p>With dozens of reporters waiting outside, the cabinet met in private.</p>
+              </li>
+              <li>
+                <span class="answer-option-tag">absolute construction</span>
+                <p>Dozens of reporters waiting outside, the cabinet met in private.</p>
+              </li>
+          </ol>
+        </li>
+        <li>
+          <span class="answer-label">Natural answers</span>
+          <ol class="answer-options" type="a">
+              <li>
+                <span class="answer-option-tag">contrastive -ing clause</span>
+                <p>Admiring her subject, the biographer did not conceal his moral failures.</p>
+              </li>
+              <li>
+                <span class="answer-option-tag">although + -ing clause</span>
+                <p>Although admiring her subject, the biographer did not conceal his moral failures.</p>
+              </li>
+              <li>
+                <span class="answer-option-tag">despite + -ing clause</span>
+                <p>Despite admiring her subject, the biographer did not conceal his moral failures.</p>
+              </li>
+          </ol>
+        </li>
+        <li>
+          <span class="answer-label">Natural answers</span>
+          <ol class="answer-options" type="a">
+              <li>
+                <span class="answer-option-tag">perfect participial clause</span>
+                <p>Having abandoned three earlier drafts, the novelist finally discovered the story’s proper structure.</p>
+              </li>
+              <li>
+                <span class="answer-option-tag">after + -ing clause</span>
+                <p>After abandoning three earlier drafts, the novelist finally discovered the story’s proper structure.</p>
+              </li>
+              <li>
+                <span class="answer-option-tag">inserted perfect participial clause</span>
+                <p>The novelist, having abandoned three earlier drafts, finally discovered the story’s proper structure.</p>
+              </li>
+          </ol>
+        </li>
+        <li>
+          <span class="answer-label">Natural answers</span>
+          <ol class="answer-options" type="a">
+              <li>
+                <span class="answer-option-tag">past-participle clause</span>
+                <p>Intimidated by the hostile questioning, the witness gave increasingly brief answers.</p>
+              </li>
+              <li>
+                <span class="answer-option-tag">perfect passive participial clause</span>
+                <p>Having been intimidated by the hostile questioning, the witness gave increasingly brief answers.</p>
+              </li>
+              <li>
+                <span class="answer-option-tag">inserted past-participle clause</span>
+                <p>The witness, intimidated by the hostile questioning, gave increasingly brief answers.</p>
+              </li>
+          </ol>
+        </li>
+        <li>
+          <span class="answer-label">Natural answers</span>
+          <ol class="answer-options" type="a">
+              <li>
+                <span class="answer-option-tag">reaction infinitive</span>
+                <p>The curator was delighted to learn that the missing panel had survived.</p>
+              </li>
+              <li>
+                <span class="answer-option-tag">on + -ing clause</span>
+                <p>On learning that the missing panel had survived, the curator was delighted.</p>
+              </li>
+              <li>
+                <span class="answer-option-tag">upon + -ing clause</span>
+                <p>Upon learning that the missing panel had survived, the curator was delighted.</p>
+              </li>
+          </ol>
+        </li>
+        <li>
+          <span class="answer-label">Natural answers</span>
+          <ol class="answer-options" type="a">
+              <li>
+                <span class="answer-option-tag">past-participle absolute</span>
+                <p>The final measurements recorded, the instruments were packed for transport.</p>
+              </li>
+              <li>
+                <span class="answer-option-tag">perfect passive absolute</span>
+                <p>The final measurements having been recorded, the instruments were packed for transport.</p>
+              </li>
+              <li>
+                <span class="answer-option-tag">with-absolute</span>
+                <p>With the final measurements recorded, the instruments were packed for transport.</p>
+              </li>
+          </ol>
+        </li>
+        <li>
+          <span class="answer-label">Natural answers</span>
+          <ol class="answer-options" type="a">
+              <li>
+                <span class="answer-option-tag">conditional -ing clause</span>
+                <p>Examining the distribution rather than the average, you can see how unequal the gains were.</p>
+              </li>
+              <li>
+                <span class="answer-option-tag">by + -ing clause</span>
+                <p>By examining the distribution rather than the average, you can see how unequal the gains were.</p>
+              </li>
+          </ol>
+        </li>
+        <li>
+          <span class="answer-label">Natural answers</span>
+          <ol class="answer-options" type="a">
+              <li>
+                <span class="answer-option-tag">perfect participial clause</span>
+                <p>Having promised greater transparency, the administration could not easily justify withholding the records.</p>
+              </li>
+              <li>
+                <span class="answer-option-tag">after + -ing clause</span>
+                <p>After promising greater transparency, the administration could not easily justify withholding the records.</p>
+              </li>
+              <li>
+                <span class="answer-option-tag">inserted perfect participial clause</span>
+                <p>The administration, having promised greater transparency, could not easily justify withholding the records.</p>
+              </li>
+          </ol>
+        </li>
+        <li>
+          <span class="answer-label">Natural answers</span>
+          <ol class="answer-options" type="a">
+              <li>
+                <span class="answer-option-tag">past-participle clause</span>
+                <p>Cooled gradually, the metal becomes less likely to fracture.</p>
+              </li>
+              <li>
+                <span class="answer-option-tag">if + past participle</span>
+                <p>If cooled gradually, the metal becomes less likely to fracture.</p>
+              </li>
+              <li>
+                <span class="answer-option-tag">when + past participle</span>
+                <p>When cooled gradually, the metal becomes less likely to fracture.</p>
+              </li>
+          </ol>
+        </li>
+        <li>
+          <span class="answer-label">Natural answers</span>
+          <ol class="answer-options" type="a">
+              <li>
+                <span class="answer-option-tag">judgment infinitive</span>
+                <p>The publisher was reckless to print the accusation without verification.</p>
+              </li>
+              <li>
+                <span class="answer-option-tag">of-subject infinitive</span>
+                <p>It was reckless of the publisher to print the accusation without verification.</p>
+              </li>
+          </ol>
+        </li>
+        <li>
+          <span class="answer-label">Natural answers</span>
+          <ol class="answer-options" type="a">
+              <li>
+                <span class="answer-option-tag">verbless absolute</span>
+                <p>His expression unreadable, the jurors could not tell how he had received the news.</p>
+              </li>
+              <li>
+                <span class="answer-option-tag">with-absolute</span>
+                <p>With his expression unreadable, the jurors could not tell how he had received the news.</p>
+              </li>
+              <li>
+                <span class="answer-option-tag">being-absolute</span>
+                <p>His expression being unreadable, the jurors could not tell how he had received the news.</p>
+              </li>
+          </ol>
+        </li>
+        <li>
+          <span class="answer-label">Natural answers</span>
+          <ol class="answer-options" type="a">
+              <li>
+                <span class="answer-option-tag">simultaneous -ing clause</span>
+                <p>Crossing the polar region, the satellite transmitted unusually detailed images.</p>
+              </li>
+              <li>
+                <span class="answer-option-tag">while + -ing clause</span>
+                <p>While crossing the polar region, the satellite transmitted unusually detailed images.</p>
+              </li>
+              <li>
+                <span class="answer-option-tag">trailing -ing clause</span>
+                <p>The satellite transmitted unusually detailed images while crossing the polar region.</p>
+              </li>
+          </ol>
+        </li>
+        <li>
+          <span class="answer-label">Natural answers</span>
+          <ol class="answer-options" type="a">
+              <li>
+                <span class="answer-option-tag">perfect participial clause</span>
+                <p>Having reproduced the finding independently, the laboratory announced the result.</p>
+              </li>
+              <li>
+                <span class="answer-option-tag">after + -ing clause</span>
+                <p>After reproducing the finding independently, the laboratory announced the result.</p>
+              </li>
+              <li>
+                <span class="answer-option-tag">inserted perfect participial clause</span>
+                <p>The laboratory, having reproduced the finding independently, announced the result.</p>
+              </li>
+          </ol>
+        </li>
+        <li>
+          <span class="answer-label">Natural answers</span>
+          <ol class="answer-options" type="a">
+              <li>
+                <span class="answer-option-tag">past-participle clause</span>
+                <p>Abandoned for centuries, the settlement preserved traces of an elaborate irrigation system.</p>
+              </li>
+              <li>
+                <span class="answer-option-tag">although + past participle</span>
+                <p>Although abandoned for centuries, the settlement preserved traces of an elaborate irrigation system.</p>
+              </li>
+              <li>
+                <span class="answer-option-tag">perfect passive participial clause</span>
+                <p>Having been abandoned for centuries, the settlement preserved traces of an elaborate irrigation system.</p>
+              </li>
+          </ol>
+        </li>
+        <li>
+          <span class="answer-label">Natural answers</span>
+          <ol class="answer-options" type="a">
+              <li>
+                <span class="answer-option-tag">noun + infinitive</span>
+                <p>The council has several competing priorities to reconcile.</p>
+              </li>
+              <li>
+                <span class="answer-option-tag">for-subject infinitive</span>
+                <p>There are several competing priorities for the council to reconcile.</p>
+              </li>
+          </ol>
+        </li>
+        <li>
+          <span class="answer-label">Natural answers</span>
+          <ol class="answer-options" type="a">
+              <li>
+                <span class="answer-option-tag">verbless absolute</span>
+                <p>A map open on the table, the commanders debated the safest route.</p>
+              </li>
+              <li>
+                <span class="answer-option-tag">with-absolute</span>
+                <p>With a map open on the table, the commanders debated the safest route.</p>
+              </li>
+              <li>
+                <span class="answer-option-tag">-ing absolute</span>
+                <p>A map lying open on the table, the commanders debated the safest route.</p>
+              </li>
+          </ol>
+        </li>
+        <li>
+          <span class="answer-label">Natural answers</span>
+          <ol class="answer-options" type="a">
+              <li>
+                <span class="answer-option-tag">reason -ing clause</span>
+                <p>Doubting the forecast, the board requested an independent review.</p>
+              </li>
+              <li>
+                <span class="answer-option-tag">inserted -ing clause</span>
+                <p>The board, doubting the forecast, requested an independent review.</p>
+              </li>
+          </ol>
+        </li>
+        <li>
+          <span class="answer-label">Natural answers</span>
+          <ol class="answer-options" type="a">
+              <li>
+                <span class="answer-option-tag">negative perfect participial clause</span>
+                <p>Not having received reliable rainfall for two years, the village imposed strict water limits.</p>
+              </li>
+              <li>
+                <span class="answer-option-tag">perfect participial clause with negative noun phrase</span>
+                <p>Having received no reliable rainfall for two years, the village imposed strict water limits.</p>
+              </li>
+          </ol>
+        </li>
+        <li>
+          <span class="answer-label">Natural answers</span>
+          <ol class="answer-options" type="a">
+              <li>
+                <span class="answer-option-tag">trailing past-participle clause</span>
+                <p>The scientist spoke to the press, visibly frustrated by the inaccurate coverage.</p>
+              </li>
+              <li>
+                <span class="answer-option-tag">inserted past-participle clause</span>
+                <p>The scientist, visibly frustrated by the inaccurate coverage, spoke to the press.</p>
+              </li>
+              <li>
+                <span class="answer-option-tag">while + past participle</span>
+                <p>While visibly frustrated by the inaccurate coverage, the scientist spoke to the press.</p>
+              </li>
+          </ol>
+        </li>
+        <li>
+          <span class="answer-label">Natural answers</span>
+          <ol class="answer-options" type="a">
+              <li>
+                <span class="answer-option-tag">for-subject infinitive</span>
+                <p>It is essential for future studies to distinguish correlation from causation.</p>
+              </li>
+              <li>
+                <span class="answer-option-tag">infinitival subject</span>
+                <p>For future studies to distinguish correlation from causation is essential.</p>
+              </li>
+          </ol>
+        </li>
+        <li>
+          <span class="answer-label">Natural answers</span>
+          <ol class="answer-options" type="a">
+              <li>
+                <span class="answer-option-tag">perfect passive absolute</span>
+                <p>All conventional explanations having been eliminated, the researchers considered a more radical hypothesis.</p>
+              </li>
+              <li>
+                <span class="answer-option-tag">with + perfect passive absolute</span>
+                <p>With all conventional explanations having been eliminated, the researchers considered a more radical hypothesis.</p>
+              </li>
+              <li>
+                <span class="answer-option-tag">past-participle absolute</span>
+                <p>All conventional explanations eliminated, the researchers considered a more radical hypothesis.</p>
+              </li>
+          </ol>
+        </li>
+        <li>
+          <span class="answer-label">Natural answers</span>
+          <ol class="answer-options" type="a">
+              <li>
+                <span class="answer-option-tag">by + -ing clause</span>
+                <p>The translator retained much of the original voice by preserving the author’s unusual syntax.</p>
+              </li>
+              <li>
+                <span class="answer-option-tag">fronted method clause</span>
+                <p>By preserving the author’s unusual syntax, the translator retained much of the original voice.</p>
+              </li>
+              <li>
+                <span class="answer-option-tag">result -ing clause</span>
+                <p>The translator preserved the author’s unusual syntax, thereby retaining much of the original voice.</p>
+              </li>
+          </ol>
+        </li>
+        <li>
+          <span class="answer-label">Natural answers</span>
+          <ol class="answer-options" type="a">
+              <li>
+                <span class="answer-option-tag">perfect passive participial clause</span>
+                <p>Having been ratified by all participating states, the treaty entered into force.</p>
+              </li>
+              <li>
+                <span class="answer-option-tag">after + passive -ing clause</span>
+                <p>After being ratified by all participating states, the treaty entered into force.</p>
+              </li>
+              <li>
+                <span class="answer-option-tag">past-participle clause</span>
+                <p>Ratified by all participating states, the treaty entered into force.</p>
+              </li>
+          </ol>
+        </li>
+        <li>
+          <span class="answer-label">Natural answers</span>
+          <ol class="answer-options" type="a">
+              <li>
+                <span class="answer-option-tag">reduced relative clause</span>
+                <p>The letters discovered behind the wall transformed historians’ understanding of the dispute.</p>
+              </li>
+          </ol>
+        </li>
+        <li>
+          <span class="answer-label">Natural answers</span>
+          <ol class="answer-options" type="a">
+              <li>
+                <span class="answer-option-tag">perfect infinitive</span>
+                <p>The archive seems to have lost several boxes during the relocation.</p>
+              </li>
+              <li>
+                <span class="answer-option-tag">perfect infinitive with appear</span>
+                <p>The archive appears to have lost several boxes during the relocation.</p>
+              </li>
+          </ol>
+        </li>
+        <li>
+          <span class="answer-label">Natural answers</span>
+          <ol class="answer-options" type="a">
+              <li>
+                <span class="answer-option-tag">with-absolute</span>
+                <p>With several key positions still vacant, the institution postponed the launch.</p>
+              </li>
+              <li>
+                <span class="answer-option-tag">verbless absolute</span>
+                <p>Several key positions still vacant, the institution postponed the launch.</p>
+              </li>
+              <li>
+                <span class="answer-option-tag">-ing absolute</span>
+                <p>Several key positions remaining vacant, the institution postponed the launch.</p>
+              </li>
+          </ol>
+        </li>
+        <li>
+          <span class="answer-label">Natural answers</span>
+          <ol class="answer-options" type="a">
+              <li>
+                <span class="answer-option-tag">result -ing clause</span>
+                <p>The company postponed maintenance for years, creating a much more expensive failure.</p>
+              </li>
+              <li>
+                <span class="answer-option-tag">thereby + -ing clause</span>
+                <p>The company postponed maintenance for years, thereby creating a much more expensive failure.</p>
+              </li>
+          </ol>
+        </li>
+        <li>
+          <span class="answer-label">Natural answers</span>
+          <ol class="answer-options" type="a">
+              <li>
+                <span class="answer-option-tag">perfect participial clause</span>
+                <p>Having traced the payments through several shell companies, the journalist identified the true beneficiary.</p>
+              </li>
+              <li>
+                <span class="answer-option-tag">after + -ing clause</span>
+                <p>After tracing the payments through several shell companies, the journalist identified the true beneficiary.</p>
+              </li>
+              <li>
+                <span class="answer-option-tag">inserted perfect participial clause</span>
+                <p>The journalist, having traced the payments through several shell companies, identified the true beneficiary.</p>
+              </li>
+          </ol>
+        </li>
+        <li>
+          <span class="answer-label">Natural answers</span>
+          <ol class="answer-options" type="a">
+              <li>
+                <span class="answer-option-tag">past-participle clause</span>
+                <p>Driven upward by artificial shortages, prices rose far above normal levels.</p>
+              </li>
+              <li>
+                <span class="answer-option-tag">perfect passive participial clause</span>
+                <p>Having been driven upward by artificial shortages, prices rose far above normal levels.</p>
+              </li>
+              <li>
+                <span class="answer-option-tag">inserted past-participle clause</span>
+                <p>Prices, driven upward by artificial shortages, rose far above normal levels.</p>
+              </li>
+          </ol>
+        </li>
+        <li>
+          <span class="answer-label">Natural answers</span>
+          <ol class="answer-options" type="a">
+              <li>
+                <span class="answer-option-tag">passive infinitive</span>
+                <p>The bridge needs to be inspected before heavy traffic is permitted.</p>
+              </li>
+              <li>
+                <span class="answer-option-tag">be + infinitive of requirement</span>
+                <p>The bridge is to be inspected before heavy traffic is permitted.</p>
+              </li>
+              <li>
+                <span class="answer-option-tag">-ing complement</span>
+                <p>The bridge requires inspecting before heavy traffic is permitted.</p>
+              </li>
+          </ol>
+        </li>
+        <li>
+          <span class="answer-label">Natural answers</span>
+          <ol class="answer-options" type="a">
+              <li>
+                <span class="answer-option-tag">with-absolute</span>
+                <p>With protesters gathering at both entrances, staff were advised to leave through the rear gate.</p>
+              </li>
+              <li>
+                <span class="answer-option-tag">absolute construction</span>
+                <p>Protesters gathering at both entrances, staff were advised to leave through the rear gate.</p>
+              </li>
+          </ol>
+        </li>
+        <li>
+          <span class="answer-label">Natural answers</span>
+          <ol class="answer-options" type="a">
+              <li>
+                <span class="answer-option-tag">intention -ing clause</span>
+                <p>The diplomat avoided direct accusations, trying to keep negotiations alive.</p>
+              </li>
+              <li>
+                <span class="answer-option-tag">fronted intention clause</span>
+                <p>Trying to keep negotiations alive, the diplomat avoided direct accusations.</p>
+              </li>
+              <li>
+                <span class="answer-option-tag">purpose infinitive</span>
+                <p>To keep negotiations alive, the diplomat avoided direct accusations.</p>
+              </li>
+          </ol>
+        </li>
+        <li>
+          <span class="answer-label">Natural answers</span>
+          <ol class="answer-options" type="a">
+              <li>
+                <span class="answer-option-tag">perfect participial clause</span>
+                <p>Having underestimated the soil instability, the architect had to redesign the foundation.</p>
+              </li>
+              <li>
+                <span class="answer-option-tag">after + -ing clause</span>
+                <p>After underestimating the soil instability, the architect had to redesign the foundation.</p>
+              </li>
+              <li>
+                <span class="answer-option-tag">inserted perfect participial clause</span>
+                <p>The architect, having underestimated the soil instability, had to redesign the foundation.</p>
+              </li>
+          </ol>
+        </li>
+        <li>
+          <span class="answer-label">Natural answers</span>
+          <ol class="answer-options" type="a">
+              <li>
+                <span class="answer-option-tag">past-participle clause</span>
+                <p>Performed by experienced staff, the procedure carries relatively little risk.</p>
+              </li>
+              <li>
+                <span class="answer-option-tag">when + past participle</span>
+                <p>When performed by experienced staff, the procedure carries relatively little risk.</p>
+              </li>
+              <li>
+                <span class="answer-option-tag">if + past participle</span>
+                <p>If performed by experienced staff, the procedure carries relatively little risk.</p>
+              </li>
+          </ol>
+        </li>
+        <li>
+          <span class="answer-label">Natural answers</span>
+          <ol class="answer-options" type="a">
+              <li>
+                <span class="answer-option-tag">purpose infinitive</span>
+                <p>The laboratory installed a second ventilation system to reduce contamination risk.</p>
+              </li>
+              <li>
+                <span class="answer-option-tag">in-order-to infinitive</span>
+                <p>The laboratory installed a second ventilation system in order to reduce contamination risk.</p>
+              </li>
+              <li>
+                <span class="answer-option-tag">fronted purpose infinitive</span>
+                <p>To reduce contamination risk, the laboratory installed a second ventilation system.</p>
+              </li>
+          </ol>
+        </li>
+        <li>
+          <span class="answer-label">Natural answers</span>
+          <ol class="answer-options" type="a">
+              <li>
+                <span class="answer-option-tag">past-participle absolute</span>
+                <p>The source code independently audited, the security team approved deployment.</p>
+              </li>
+              <li>
+                <span class="answer-option-tag">perfect passive absolute</span>
+                <p>The source code having been independently audited, the security team approved deployment.</p>
+              </li>
+              <li>
+                <span class="answer-option-tag">with-absolute</span>
+                <p>With the source code independently audited, the security team approved deployment.</p>
+              </li>
+          </ol>
+        </li>
+        <li>
+          <span class="answer-label">Natural answers</span>
+          <ol class="answer-options" type="a">
+              <li>
+                <span class="answer-option-tag">immediate-sequence -ing clause</span>
+                <p>Removing the final layer of soil, the archaeologists uncovered a stone inscription.</p>
+              </li>
+              <li>
+                <span class="answer-option-tag">on + -ing clause</span>
+                <p>On removing the final layer of soil, the archaeologists uncovered a stone inscription.</p>
+              </li>
+              <li>
+                <span class="answer-option-tag">perfect participial clause</span>
+                <p>Having removed the final layer of soil, the archaeologists uncovered a stone inscription.</p>
+              </li>
+          </ol>
+        </li>
+        <li>
+          <span class="answer-label">Natural answers</span>
+          <ol class="answer-options" type="a">
+              <li>
+                <span class="answer-option-tag">perfect participial clause</span>
+                <p>Having agreed on the central weakness, the reviewers drafted a joint recommendation.</p>
+              </li>
+              <li>
+                <span class="answer-option-tag">after + -ing clause</span>
+                <p>After agreeing on the central weakness, the reviewers drafted a joint recommendation.</p>
+              </li>
+              <li>
+                <span class="answer-option-tag">inserted perfect participial clause</span>
+                <p>The reviewers, having agreed on the central weakness, drafted a joint recommendation.</p>
+              </li>
+          </ol>
+        </li>
+        <li>
+          <span class="answer-label">Natural answers</span>
+          <ol class="answer-options" type="a">
+              <li>
+                <span class="answer-option-tag">past-participle clause</span>
+                <p>Suppressed by the authorities, the movement continued through informal networks.</p>
+              </li>
+              <li>
+                <span class="answer-option-tag">although + past participle</span>
+                <p>Although suppressed by the authorities, the movement continued through informal networks.</p>
+              </li>
+              <li>
+                <span class="answer-option-tag">despite + passive -ing clause</span>
+                <p>Despite being suppressed by the authorities, the movement continued through informal networks.</p>
+              </li>
+          </ol>
+        </li>
+        <li>
+          <span class="answer-label">Natural answers</span>
+          <ol class="answer-options" type="a">
+              <li>
+                <span class="answer-option-tag">result infinitive</span>
+                <p>She opened the historical register to find that her family name appeared several times.</p>
+              </li>
+              <li>
+                <span class="answer-option-tag">on + -ing clause</span>
+                <p>On opening the historical register, she found that her family name appeared several times.</p>
+              </li>
+              <li>
+                <span class="answer-option-tag">immediate-sequence -ing clause</span>
+                <p>Opening the historical register, she found her family name appearing several times.</p>
+              </li>
+          </ol>
+        </li>
+        <li>
+          <span class="answer-label">Natural answers</span>
+          <ol class="answer-options" type="a">
+              <li>
+                <span class="answer-option-tag">past-participle absolute</span>
+                <p>Her face partly concealed, the witness could not identify the woman with confidence.</p>
+              </li>
+              <li>
+                <span class="answer-option-tag">with-absolute</span>
+                <p>With her face partly concealed, the witness could not identify the woman with confidence.</p>
+              </li>
+              <li>
+                <span class="answer-option-tag">being-absolute</span>
+                <p>Her face being partly concealed, the witness could not identify the woman with confidence.</p>
+              </li>
+          </ol>
+        </li>
+        <li>
+          <span class="answer-label">Natural answers</span>
+          <ol class="answer-options" type="a">
+              <li>
+                <span class="answer-option-tag">result -ing clause</span>
+                <p>The policy expands access to childcare and reduces household costs, supporting greater workforce participation.</p>
+              </li>
+              <li>
+                <span class="answer-option-tag">thereby + -ing clause</span>
+                <p>The policy expands access to childcare and reduces household costs, thereby supporting greater workforce participation.</p>
+              </li>
+          </ol>
+        </li>
+        <li>
+          <span class="answer-label">Natural answers</span>
+          <ol class="answer-options" type="a">
+              <li>
+                <span class="answer-option-tag">negative perfect passive participial clause</span>
+                <p>Not having been told about the route change, the passengers became increasingly anxious.</p>
+              </li>
+              <li>
+                <span class="answer-option-tag">past-participle clause</span>
+                <p>Not informed about the route change, the passengers became increasingly anxious.</p>
+              </li>
+              <li>
+                <span class="answer-option-tag">perfect participial clause with receive</span>
+                <p>Having received no information about the route change, the passengers became increasingly anxious.</p>
+              </li>
+          </ol>
+        </li>
+        <li>
+          <span class="answer-label">Natural answers</span>
+          <ol class="answer-options" type="a">
+              <li>
+                <span class="answer-option-tag">trailing past-participle clause</span>
+                <p>The sculpture stood in the courtyard, partially concealed by climbing plants.</p>
+              </li>
+              <li>
+                <span class="answer-option-tag">inserted past-participle clause</span>
+                <p>The sculpture, partially concealed by climbing plants, stood in the courtyard.</p>
+              </li>
+              <li>
+                <span class="answer-option-tag">while + past participle</span>
+                <p>While partially concealed by climbing plants, the sculpture stood in the courtyard.</p>
+              </li>
+          </ol>
+        </li>
+        <li>
+          <span class="answer-label">Natural answers</span>
+          <ol class="answer-options" type="a">
+              <li>
+                <span class="answer-option-tag">only-for infinitive</span>
+                <p>The negotiators accepted a temporary pause, only for the underlying dispute to deepen.</p>
+              </li>
+              <li>
+                <span class="answer-option-tag">only-to infinitive</span>
+                <p>The negotiators accepted a temporary pause, only to see the underlying dispute deepen.</p>
+              </li>
+              <li>
+                <span class="answer-option-tag">result infinitive</span>
+                <p>The negotiators accepted a temporary pause, only to allow the underlying dispute to deepen.</p>
+              </li>
+          </ol>
+        </li>
+        <li>
+          <span class="answer-label">Natural answers</span>
+          <ol class="answer-options" type="a">
+              <li>
+                <span class="answer-option-tag">verbless absolute</span>
+                <p>A flashlight in one hand and the radio in the other, the ranger entered the tunnel.</p>
+              </li>
+              <li>
+                <span class="answer-option-tag">with-absolute</span>
+                <p>With a flashlight in one hand and the radio in the other, the ranger entered the tunnel.</p>
+              </li>
+              <li>
+                <span class="answer-option-tag">shared-subject -ing clause</span>
+                <p>Holding a flashlight in one hand and the radio in the other, the ranger entered the tunnel.</p>
+              </li>
+          </ol>
+        </li>
+        <li>
+          <span class="answer-label">Natural answers</span>
+          <ol class="answer-options" type="a">
+              <li>
+                <span class="answer-option-tag">reason -ing clause</span>
+                <p>Remembering a minor but distinctive detail, the witness was able to identify the vehicle.</p>
+              </li>
+              <li>
+                <span class="answer-option-tag">perfect participial clause</span>
+                <p>Having remembered a minor but distinctive detail, the witness was able to identify the vehicle.</p>
+              </li>
+          </ol>
+        </li>
+        <li>
+          <span class="answer-label">Natural answers</span>
+          <ol class="answer-options" type="a">
+              <li>
+                <span class="answer-option-tag">perfect absolute construction</span>
+                <p>The portrait having been attributed to a major artist, its market value increased dramatically.</p>
+              </li>
+              <li>
+                <span class="answer-option-tag">with-absolute</span>
+                <p>With the portrait attributed to a major artist, its market value increased dramatically.</p>
+              </li>
+              <li>
+                <span class="answer-option-tag">after + passive -ing clause</span>
+                <p>After being attributed to a major artist, the portrait increased dramatically in market value.</p>
+              </li>
+          </ol>
+        </li>
+        <li>
+          <span class="answer-label">Natural answer</span>
+          <ol class="answer-options" type="a">
+              <li>
+                <span class="answer-option-tag">reduced relative clause</span>
+                <p>The assumptions embedded in the model deserve closer examination.</p>
+              </li>
+          </ol>
+        </li>
+        <li>
+          <span class="answer-label">Natural answers</span>
+          <ol class="answer-options" type="a">
+              <li>
+                <span class="answer-option-tag">too + adjective + for-infinitive</span>
+                <p>The concept was too abstract for younger students to grasp without examples.</p>
+              </li>
+              <li>
+                <span class="answer-option-tag">passive infinitive</span>
+                <p>The concept was too abstract to be grasped by younger students without examples.</p>
+              </li>
+          </ol>
+        </li>
+        <li>
+          <span class="answer-label">Natural answers</span>
+          <ol class="answer-options" type="a">
+              <li>
+                <span class="answer-option-tag">perfect absolute construction</span>
+                <p>The ceasefire having collapsed, humanitarian agencies prepared for a new wave of displacement.</p>
+              </li>
+              <li>
+                <span class="answer-option-tag">with + perfect absolute</span>
+                <p>With the ceasefire having collapsed, humanitarian agencies prepared for a new wave of displacement.</p>
+              </li>
+              <li>
+                <span class="answer-option-tag">verbless absolute</span>
+                <p>The ceasefire over, humanitarian agencies prepared for a new wave of displacement.</p>
+              </li>
+          </ol>
+        </li>
+        <li>
+          <span class="answer-label">Natural answers</span>
+          <ol class="answer-options" type="a">
+              <li>
+                <span class="answer-option-tag">by + -ing clause</span>
+                <p>The editor gave the essay a clearer direction by rearranging the opening paragraphs.</p>
+              </li>
+              <li>
+                <span class="answer-option-tag">fronted method clause</span>
+                <p>By rearranging the opening paragraphs, the editor gave the essay a clearer direction.</p>
+              </li>
+              <li>
+                <span class="answer-option-tag">result -ing clause</span>
+                <p>The editor rearranged the opening paragraphs, thereby giving the essay a clearer direction.</p>
+              </li>
+          </ol>
+        </li>
+        <li>
+          <span class="answer-label">Natural answers</span>
+          <ol class="answer-options" type="a">
+              <li>
+                <span class="answer-option-tag">perfect participial clause</span>
+                <p>Having ruled out infection, the physician investigated possible autoimmune causes.</p>
+              </li>
+              <li>
+                <span class="answer-option-tag">after + -ing clause</span>
+                <p>After ruling out infection, the physician investigated possible autoimmune causes.</p>
+              </li>
+              <li>
+                <span class="answer-option-tag">inserted perfect participial clause</span>
+                <p>The physician, having ruled out infection, investigated possible autoimmune causes.</p>
+              </li>
+          </ol>
+        </li>
+        <li>
+          <span class="answer-label">Natural answers</span>
+          <ol class="answer-options" type="a">
+              <li>
+                <span class="answer-option-tag">past-participle clause</span>
+                <p>Separated from their families, the refugees experienced severe emotional distress.</p>
+              </li>
+              <li>
+                <span class="answer-option-tag">perfect passive participial clause</span>
+                <p>Having been separated from their families, the refugees experienced severe emotional distress.</p>
+              </li>
+              <li>
+                <span class="answer-option-tag">inserted past-participle clause</span>
+                <p>The refugees, separated from their families, experienced severe emotional distress.</p>
+              </li>
+          </ol>
+        </li>
+        <li>
+          <span class="answer-label">Natural answers</span>
+          <ol class="answer-options" type="a">
+              <li>
+                <span class="answer-option-tag">enough + for-infinitive</span>
+                <p>The instructions were precise enough for an inexperienced assistant to reproduce the procedure.</p>
+              </li>
+              <li>
+                <span class="answer-option-tag">infinitive with enable</span>
+                <p>The instructions were sufficiently precise to enable an inexperienced assistant to reproduce the procedure.</p>
+              </li>
+          </ol>
+        </li>
+        <li>
+          <span class="answer-label">Natural answers</span>
+          <ol class="answer-options" type="a">
+              <li>
+                <span class="answer-option-tag">with-absolute</span>
+                <p>With the evidence incomplete, no responsible conclusion could yet be drawn.</p>
+              </li>
+              <li>
+                <span class="answer-option-tag">verbless absolute</span>
+                <p>The evidence incomplete, no responsible conclusion could yet be drawn.</p>
+              </li>
+              <li>
+                <span class="answer-option-tag">being-absolute</span>
+                <p>The evidence being incomplete, no responsible conclusion could yet be drawn.</p>
+              </li>
+          </ol>
+        </li>
+        <li>
+          <span class="answer-label">Natural answers</span>
+          <ol class="answer-options" type="a">
+              <li>
+                <span class="answer-option-tag">result -ing clause</span>
+                <p>The volcano released a vast cloud of ash, disrupting flights across the region.</p>
+              </li>
+              <li>
+                <span class="answer-option-tag">thereby + -ing clause</span>
+                <p>The volcano released a vast cloud of ash, thereby disrupting flights across the region.</p>
+              </li>
+          </ol>
+        </li>
+        <li>
+          <span class="answer-label">Natural answers</span>
+          <ol class="answer-options" type="a">
+              <li>
+                <span class="answer-option-tag">perfect participial clause</span>
+                <p>Having expanded too quickly, the company lacked the systems needed to coordinate its offices.</p>
+              </li>
+              <li>
+                <span class="answer-option-tag">after + -ing clause</span>
+                <p>After expanding too quickly, the company lacked the systems needed to coordinate its offices.</p>
+              </li>
+              <li>
+                <span class="answer-option-tag">inserted perfect participial clause</span>
+                <p>The company, having expanded too quickly, lacked the systems needed to coordinate its offices.</p>
+              </li>
+          </ol>
+        </li>
+        <li>
+          <span class="answer-label">Natural answers</span>
+          <ol class="answer-options" type="a">
+              <li>
+                <span class="answer-option-tag">past-participle clause</span>
+                <p>Interpreted too literally, the theory appears to contradict the evidence.</p>
+              </li>
+              <li>
+                <span class="answer-option-tag">if + past participle</span>
+                <p>If interpreted too literally, the theory appears to contradict the evidence.</p>
+              </li>
+              <li>
+                <span class="answer-option-tag">when + past participle</span>
+                <p>When interpreted too literally, the theory appears to contradict the evidence.</p>
+              </li>
+          </ol>
+        </li>
+        <li>
+          <span class="answer-label">Natural answers</span>
+          <ol class="answer-options" type="a">
+              <li>
+                <span class="answer-option-tag">reaction infinitive</span>
+                <p>We were disturbed to discover how extensively the records had been altered.</p>
+              </li>
+              <li>
+                <span class="answer-option-tag">on + -ing clause</span>
+                <p>On discovering how extensively the records had been altered, we were disturbed.</p>
+              </li>
+              <li>
+                <span class="answer-option-tag">upon + -ing clause</span>
+                <p>Upon discovering how extensively the records had been altered, we were disturbed.</p>
+              </li>
+          </ol>
+        </li>
+        <li>
+          <span class="answer-label">Natural answers</span>
+          <ol class="answer-options" type="a">
+              <li>
+                <span class="answer-option-tag">with-absolute</span>
+                <p>With water leaking through the ceiling, the archivists moved the collection downstairs.</p>
+              </li>
+              <li>
+                <span class="answer-option-tag">absolute construction</span>
+                <p>Water leaking through the ceiling, the archivists moved the collection downstairs.</p>
+              </li>
+          </ol>
+        </li>
+        <li>
+          <span class="answer-label">Natural answers</span>
+          <ol class="answer-options" type="a">
+              <li>
+                <span class="answer-option-tag">intention -ing clause</span>
+                <p>The candidate cited several local examples, wanting to make the abstract policy more concrete.</p>
+              </li>
+              <li>
+                <span class="answer-option-tag">fronted reason -ing clause</span>
+                <p>Wanting to make the abstract policy more concrete, the candidate cited several local examples.</p>
+              </li>
+              <li>
+                <span class="answer-option-tag">purpose infinitive</span>
+                <p>To make the abstract policy more concrete, the candidate cited several local examples.</p>
+              </li>
+          </ol>
+        </li>
+        <li>
+          <span class="answer-label">Natural answers</span>
+          <ol class="answer-options" type="a">
+              <li>
+                <span class="answer-option-tag">perfect participial clause</span>
+                <p>Having reconstructed the sound changes, the linguists could explain several puzzling spellings.</p>
+              </li>
+              <li>
+                <span class="answer-option-tag">after + -ing clause</span>
+                <p>After reconstructing the sound changes, the linguists could explain several puzzling spellings.</p>
+              </li>
+              <li>
+                <span class="answer-option-tag">inserted perfect participial clause</span>
+                <p>The linguists, having reconstructed the sound changes, could explain several puzzling spellings.</p>
+              </li>
+          </ol>
+        </li>
+        <li>
+          <span class="answer-label">Natural answers</span>
+          <ol class="answer-options" type="a">
+              <li>
+                <span class="answer-option-tag">past-participle clause</span>
+                <p>Implicated in the scandal, the minister retained considerable support within the party.</p>
+              </li>
+              <li>
+                <span class="answer-option-tag">although + past participle</span>
+                <p>Although implicated in the scandal, the minister retained considerable support within the party.</p>
+              </li>
+              <li>
+                <span class="answer-option-tag">despite + passive -ing clause</span>
+                <p>Despite being implicated in the scandal, the minister retained considerable support within the party.</p>
+              </li>
+          </ol>
+        </li>
+        <li>
+          <span class="answer-label">Natural answers</span>
+          <ol class="answer-options" type="a">
+              <li>
+                <span class="answer-option-tag">judgment infinitive</span>
+                <p>The researchers were prudent to register their hypotheses in advance.</p>
+              </li>
+              <li>
+                <span class="answer-option-tag">of-subject infinitive</span>
+                <p>It was prudent of the researchers to register their hypotheses in advance.</p>
+              </li>
+          </ol>
+        </li>
+        <li>
+          <span class="answer-label">Natural answers</span>
+          <ol class="answer-options" type="a">
+              <li>
+                <span class="answer-option-tag">past-participle absolute</span>
+                <p>The opposing arguments summarized, the chair opened the floor for questions.</p>
+              </li>
+              <li>
+                <span class="answer-option-tag">perfect passive absolute</span>
+                <p>The opposing arguments having been summarized, the chair opened the floor for questions.</p>
+              </li>
+              <li>
+                <span class="answer-option-tag">with-absolute</span>
+                <p>With the opposing arguments summarized, the chair opened the floor for questions.</p>
+              </li>
+          </ol>
+        </li>
+        <li>
+          <span class="answer-label">Natural answers</span>
+          <ol class="answer-options" type="a">
+              <li>
+                <span class="answer-option-tag">contrastive -ing clause</span>
+                <p>Understanding the symbolic importance of the monument, he opposed the cost of restoring it.</p>
+              </li>
+              <li>
+                <span class="answer-option-tag">although + -ing clause</span>
+                <p>Although understanding the symbolic importance of the monument, he opposed the cost of restoring it.</p>
+              </li>
+              <li>
+                <span class="answer-option-tag">despite + -ing clause</span>
+                <p>Despite understanding the symbolic importance of the monument, he opposed the cost of restoring it.</p>
+              </li>
+          </ol>
+        </li>
+        <li>
+          <span class="answer-label">Natural answers</span>
+          <ol class="answer-options" type="a">
+              <li>
+                <span class="answer-option-tag">negative perfect participial clause</span>
+                <p>Not having preserved the raw measurements, Amir could not verify the disputed calculation.</p>
+              </li>
+              <li>
+                <span class="answer-option-tag">perfect participial clause with fail</span>
+                <p>Having failed to preserve the raw measurements, Amir could not verify the disputed calculation.</p>
+              </li>
+              <li>
+                <span class="answer-option-tag">without + perfect -ing clause</span>
+                <p>Without having preserved the raw measurements, Amir could not verify the disputed calculation.</p>
+              </li>
+          </ol>
+        </li>
+        <li>
+          <span class="answer-label">Natural answers</span>
+          <ol class="answer-options" type="a">
+              <li>
+                <span class="answer-option-tag">trailing past-participle clause</span>
+                <p>The ship drifted toward the reef, disabled by an engine failure.</p>
+              </li>
+              <li>
+                <span class="answer-option-tag">fronted past-participle clause</span>
+                <p>Disabled by an engine failure, the ship drifted toward the reef.</p>
+              </li>
+              <li>
+                <span class="answer-option-tag">absolute construction</span>
+                <p>Its engine disabled by a failure, the ship drifted toward the reef.</p>
+              </li>
+          </ol>
+        </li>
+        <li>
+          <span class="answer-label">Natural answers</span>
+          <ol class="answer-options" type="a">
+              <li>
+                <span class="answer-option-tag">noun + purpose/function infinitive</span>
+                <p>They developed a flexible framework to accommodate regional differences.</p>
+              </li>
+              <li>
+                <span class="answer-option-tag">past-participle clause + infinitive</span>
+                <p>They developed a flexible framework designed to accommodate regional differences.</p>
+              </li>
+              <li>
+                <span class="answer-option-tag">adjective + infinitive</span>
+                <p>They developed a flexible framework able to accommodate regional differences.</p>
+              </li>
+          </ol>
+        </li>
+        <li>
+          <span class="answer-label">Natural answers</span>
+          <ol class="answer-options" type="a">
+              <li>
+                <span class="answer-option-tag">verbless absolute</span>
+                <p>His attention elsewhere, the driver failed to notice the temporary signal.</p>
+              </li>
+              <li>
+                <span class="answer-option-tag">with-absolute</span>
+                <p>With his attention elsewhere, the driver failed to notice the temporary signal.</p>
+              </li>
+              <li>
+                <span class="answer-option-tag">being-absolute</span>
+                <p>His attention being elsewhere, the driver failed to notice the temporary signal.</p>
+              </li>
+          </ol>
+        </li>
+        <li>
+          <span class="answer-label">Natural answers</span>
+          <ol class="answer-options" type="a">
+              <li>
+                <span class="answer-option-tag">simultaneous -ing clause</span>
+                <p>Considering the patient’s history, the physician ruled out several common explanations.</p>
+              </li>
+              <li>
+                <span class="answer-option-tag">while + -ing clause</span>
+                <p>While considering the patient’s history, the physician ruled out several common explanations.</p>
+              </li>
+              <li>
+                <span class="answer-option-tag">inserted -ing clause</span>
+                <p>The physician, considering the patient’s history, ruled out several common explanations.</p>
+              </li>
+          </ol>
+        </li>
+        <li>
+          <span class="answer-label">Natural answers</span>
+          <ol class="answer-options" type="a">
+              <li>
+                <span class="answer-option-tag">perfect passive participial clause</span>
+                <p>Having been granted access to legal counsel, the prisoners withdrew their earlier statements.</p>
+              </li>
+              <li>
+                <span class="answer-option-tag">after + passive -ing clause</span>
+                <p>After being granted access to legal counsel, the prisoners withdrew their earlier statements.</p>
+              </li>
+              <li>
+                <span class="answer-option-tag">past-participle clause</span>
+                <p>Granted access to legal counsel, the prisoners withdrew their earlier statements.</p>
+              </li>
+          </ol>
+        </li>
+        <li>
+          <span class="answer-label">Natural answers</span>
+          <ol class="answer-options" type="a">
+              <li>
+                <span class="answer-option-tag">reduced relative clause</span>
+                <p>The techniques refined during the space program later entered commercial medicine.</p>
+              </li>
+          </ol>
+        </li>
+        <li>
+          <span class="answer-label">Natural answers</span>
+          <ol class="answer-options" type="a">
+              <li>
+                <span class="answer-option-tag">perfect passive infinitive</span>
+                <p>The settlement is believed to have been destroyed by a combination of drought and conflict.</p>
+              </li>
+              <li>
+                <span class="answer-option-tag">perfect passive infinitive with thought</span>
+                <p>The settlement is thought to have been destroyed by a combination of drought and conflict.</p>
+              </li>
+          </ol>
+        </li>
+        <li>
+          <span class="answer-label">Natural answers</span>
+          <ol class="answer-options" type="a">
+              <li>
+                <span class="answer-option-tag">perfect absolute construction</span>
+                <p>The preliminary phase having ended, the project entered a more demanding stage.</p>
+              </li>
+              <li>
+                <span class="answer-option-tag">with + perfect absolute</span>
+                <p>With the preliminary phase having ended, the project entered a more demanding stage.</p>
+              </li>
+              <li>
+                <span class="answer-option-tag">verbless absolute</span>
+                <p>The preliminary phase over, the project entered a more demanding stage.</p>
+              </li>
+          </ol>
+        </li>
+        </ol>
       </div>
     </details>
     
