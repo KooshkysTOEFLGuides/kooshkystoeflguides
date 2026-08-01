@@ -59,6 +59,15 @@ window.KOOSHKY_SECTIONS = [
 
 window.KOOSHKY_CONTENT = [
   {
+    title: "Full Guide and Exercises for Nonfinite Clauses",
+    href: "Grammar/NonfiniteClauses/nonfinite_clauses_complete_guide.html",
+    section: "writing",
+    summary: "Learn the most important nonfinite clauses using complete notes and ample exercise!",
+    date: "2026-08-01",
+    publishAt: "2026-08-01T00:00:00+03:30",
+    featured: true
+  },
+  {
     title: "Academic Discussion Topic Packs",
     href: "ADPack/index.html",
     section: "writing",
