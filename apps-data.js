@@ -21,6 +21,13 @@
 
 window.KOOSHKY_APPS = [
   {
+    name: "Fill The Blanks",
+    href: "Apps/FillTheBlanks/kooshky_toefl_complete_the_words.html",
+    description: "Practice fill the blanks exercises",
+    logo: "Apps/FillTheBlanks/icon.png",
+    featured: true
+  },
+  {
     name: "Word Stats",
     href: "Apps/WordStats/real_toefl_word_stats.html",
     description: "Find out how many times each word has appeared in real TOEFL tests, both new and old formats!",

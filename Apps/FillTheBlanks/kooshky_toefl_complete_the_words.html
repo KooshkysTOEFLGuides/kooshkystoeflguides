@@ -1,0 +1,2482 @@
+<!doctype html>
+<html lang="en" data-theme="light">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <meta name="description" content="Practice TOEFL 2026 Complete the Words reading exercises with saved progress, detailed feedback, timing, and mistake review.">
+  <title>TOEFL Complete the Words Practice — Separate Character Fields | Kooshky’s TOEFL Guides</title>
+
+  <!-- BUILD: separate-character-fields-v2-20260802 -->
+  <script>
+    (() => {
+      const THEME_KEY = "kooshky-guides:theme:v1";
+      let theme = "light";
+      try {
+        const saved = localStorage.getItem(THEME_KEY);
+        if (saved === "light" || saved === "dark") theme = saved;
+      } catch (_) {}
+      document.documentElement.dataset.theme = theme;
+      document.documentElement.style.colorScheme = theme;
+    })();
+  </script>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@400;500;600;700&family=Literata:opsz,wght@7..72,600;7..72,700&display=swap" rel="stylesheet">
+
+  <style>
+    :root {
+      --page: #F4F0E8;
+      --surface: #FCFAF6;
+      --surface-elevated: #FFFFFF;
+      --text: #182027;
+      --muted: #59636C;
+      --border: #D7D0C3;
+      --accent: #A9470D;
+      --accent-strong: #873708;
+      --teal: #1E5B63;
+      --teal-strong: #17474D;
+      --accent-soft: #F3E2D3;
+      --teal-soft: #DDEAE8;
+      --success: #24663B;
+      --success-soft: #E0EEE4;
+      --danger: #9B2F2F;
+      --danger-soft: #F2DEDC;
+      --warning: #805B16;
+      --warning-soft: #F3E8CB;
+      --focus: #1E5B63;
+      --shadow: 0 10px 28px rgba(24, 32, 39, 0.08);
+      --radius-sm: 8px;
+      --radius-md: 13px;
+      --radius-lg: 18px;
+      --header-h: 62px;
+      --content-max: 1160px;
+      --font-ui: "IBM Plex Sans", system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+      --font-heading: "Literata", Georgia, serif;
+    }
+
+    html[data-theme="dark"] {
+      --page: #111417;
+      --surface: #181D21;
+      --surface-elevated: #20262B;
+      --text: #ECE7DD;
+      --muted: #ADB4B8;
+      --border: #30383E;
+      --accent: #F28C45;
+      --accent-strong: #FFAA70;
+      --teal: #70B7B4;
+      --teal-strong: #9BD0CD;
+      --accent-soft: #332219;
+      --teal-soft: #193033;
+      --success: #78C68E;
+      --success-soft: #193022;
+      --danger: #F08B84;
+      --danger-soft: #371F20;
+      --warning: #E5BF66;
+      --warning-soft: #332B18;
+      --focus: #70B7B4;
+      --shadow: 0 12px 32px rgba(0, 0, 0, 0.28);
+    }
+
+    *, *::before, *::after { box-sizing: border-box; }
+
+    html { scroll-behavior: smooth; }
+
+    body {
+      margin: 0;
+      min-width: 320px;
+      min-height: 100vh;
+      background: var(--page);
+      color: var(--text);
+      font-family: var(--font-ui);
+      font-size: 16px;
+      line-height: 1.55;
+      text-rendering: optimizeLegibility;
+    }
+
+    button, input, select { font: inherit; }
+    button, a, input, select { -webkit-tap-highlight-color: transparent; }
+    button { color: inherit; }
+    a { color: var(--teal); text-underline-offset: 0.18em; }
+    img, svg { display: block; }
+    [hidden] { display: none !important; }
+
+    :focus-visible {
+      outline: 3px solid var(--focus);
+      outline-offset: 3px;
+    }
+
+    .skip-link {
+      position: fixed;
+      z-index: 1000;
+      top: 8px;
+      left: 8px;
+      transform: translateY(-150%);
+      padding: 10px 14px;
+      border-radius: var(--radius-sm);
+      background: var(--surface-elevated);
+      color: var(--text);
+      border: 1px solid var(--border);
+    }
+
+    .skip-link:focus { transform: translateY(0); }
+
+    .site-header {
+      position: sticky;
+      z-index: 50;
+      top: 0;
+      min-height: var(--header-h);
+      border-bottom: 1px solid var(--border);
+      background: var(--surface);
+    }
+
+    .header-inner {
+      width: min(calc(100% - 32px), var(--content-max));
+      min-height: var(--header-h);
+      margin-inline: auto;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 18px;
+    }
+
+    .brand-link {
+      min-width: 0;
+      display: inline-flex;
+      align-items: center;
+      gap: 10px;
+      color: var(--text);
+      text-decoration: none;
+      font-weight: 700;
+      white-space: nowrap;
+    }
+
+    .brand-mark {
+      width: 30px;
+      height: 30px;
+      flex: 0 0 auto;
+      display: grid;
+      place-items: center;
+      border: 1px solid var(--accent);
+      color: var(--accent);
+      font-family: var(--font-heading);
+      border-radius: 50%;
+      font-size: 15px;
+    }
+
+    .header-actions {
+      min-width: 0;
+      display: flex;
+      align-items: center;
+      justify-content: flex-end;
+      gap: 6px;
+    }
+
+    .nav-link, .icon-button, .compact-button {
+      min-height: 40px;
+      border-radius: var(--radius-sm);
+      border: 1px solid transparent;
+      background: transparent;
+      color: var(--text);
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      gap: 7px;
+      padding: 8px 11px;
+      text-decoration: none;
+      font-weight: 600;
+      cursor: pointer;
+    }
+
+    .nav-link:hover, .icon-button:hover, .compact-button:hover {
+      border-color: var(--border);
+      background: var(--surface-elevated);
+    }
+
+    .nav-link[aria-current="page"] {
+      color: var(--teal);
+      background: var(--teal-soft);
+      border-color: color-mix(in srgb, var(--teal) 34%, var(--border));
+    }
+
+    .icon-button {
+      width: 42px;
+      padding: 8px;
+    }
+
+    .icon {
+      width: 18px;
+      height: 18px;
+      flex: 0 0 auto;
+    }
+
+    .app-shell {
+      width: min(calc(100% - 32px), var(--content-max));
+      margin-inline: auto;
+      padding: 24px 0 52px;
+    }
+
+    .title-row {
+      display: flex;
+      align-items: flex-end;
+      justify-content: space-between;
+      gap: 20px;
+      margin-bottom: 18px;
+    }
+
+    .title-copy { min-width: 0; }
+
+    h1, h2, h3 {
+      font-family: var(--font-heading);
+      line-height: 1.18;
+      margin-top: 0;
+    }
+
+    h1 {
+      margin-bottom: 5px;
+      font-size: clamp(1.7rem, 3vw, 2.45rem);
+      letter-spacing: -0.025em;
+    }
+
+    h2 { font-size: clamp(1.35rem, 2.2vw, 1.8rem); }
+    h3 { font-size: 1.07rem; }
+
+    .subtitle {
+      margin: 0;
+      color: var(--muted);
+      max-width: 760px;
+    }
+
+    .title-actions {
+      flex: 0 0 auto;
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: flex-end;
+      gap: 8px;
+    }
+
+    .button {
+      min-height: 42px;
+      border: 1px solid var(--border);
+      border-radius: var(--radius-sm);
+      padding: 9px 14px;
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      gap: 8px;
+      background: var(--surface-elevated);
+      color: var(--text);
+      font-weight: 650;
+      cursor: pointer;
+      text-decoration: none;
+      transition: background-color 120ms ease, border-color 120ms ease, transform 120ms ease;
+    }
+
+    .button:hover:not(:disabled) {
+      border-color: color-mix(in srgb, var(--teal) 48%, var(--border));
+      background: var(--teal-soft);
+    }
+
+    .button:active:not(:disabled) { transform: translateY(1px); }
+    .button:disabled { opacity: 0.55; cursor: not-allowed; }
+
+    .button.primary {
+      border-color: var(--accent);
+      background: var(--accent);
+      color: #fff;
+    }
+
+    html[data-theme="dark"] .button.primary { color: #1A130F; }
+
+    .button.primary:hover:not(:disabled) {
+      background: var(--accent-strong);
+      border-color: var(--accent-strong);
+    }
+
+    .button.teal {
+      border-color: var(--teal);
+      background: var(--teal);
+      color: #fff;
+    }
+
+    html[data-theme="dark"] .button.teal { color: #102123; }
+
+    .button.danger {
+      border-color: color-mix(in srgb, var(--danger) 55%, var(--border));
+      color: var(--danger);
+      background: var(--danger-soft);
+    }
+
+    .panel {
+      background: var(--surface);
+      border: 1px solid var(--border);
+      border-radius: var(--radius-lg);
+      box-shadow: var(--shadow);
+    }
+
+    .overview-grid {
+      display: grid;
+      grid-template-columns: repeat(4, minmax(0, 1fr));
+      gap: 12px;
+      margin-bottom: 16px;
+    }
+
+    .stat-card {
+      min-width: 0;
+      padding: 16px;
+      background: var(--surface);
+      border: 1px solid var(--border);
+      border-radius: var(--radius-md);
+    }
+
+    .stat-value {
+      display: block;
+      font-family: var(--font-heading);
+      font-size: 1.55rem;
+      font-weight: 700;
+      line-height: 1.1;
+      overflow-wrap: anywhere;
+    }
+
+    .stat-label {
+      display: block;
+      margin-top: 4px;
+      color: var(--muted);
+      font-size: 0.89rem;
+    }
+
+    .dashboard-toolbar {
+      display: grid;
+      grid-template-columns: minmax(220px, 1fr) minmax(160px, 230px) auto;
+      gap: 10px;
+      align-items: end;
+      padding: 15px;
+      margin-bottom: 14px;
+    }
+
+    .field { min-width: 0; }
+
+    .field label {
+      display: block;
+      margin-bottom: 5px;
+      color: var(--muted);
+      font-size: 0.84rem;
+      font-weight: 650;
+    }
+
+    .text-input, .select-input {
+      width: 100%;
+      min-height: 42px;
+      border: 1px solid var(--border);
+      border-radius: var(--radius-sm);
+      background: var(--surface-elevated);
+      color: var(--text);
+      padding: 9px 11px;
+    }
+
+    .text-input::placeholder { color: color-mix(in srgb, var(--muted) 76%, transparent); }
+
+    .exercise-list {
+      display: grid;
+      grid-template-columns: repeat(2, minmax(0, 1fr));
+      gap: 12px;
+    }
+
+    .exercise-card {
+      min-width: 0;
+      width: 100%;
+      display: grid;
+      grid-template-columns: auto minmax(0, 1fr) auto;
+      align-items: center;
+      gap: 14px;
+      padding: 16px;
+      background: var(--surface);
+      color: var(--text);
+      text-align: left;
+      font: inherit;
+      border: 1px solid var(--border);
+      border-radius: var(--radius-md);
+      transition: border-color 120ms ease, transform 120ms ease, background-color 120ms ease;
+    }
+
+    .exercise-card:hover {
+      border-color: color-mix(in srgb, var(--teal) 48%, var(--border));
+      background: color-mix(in srgb, var(--teal-soft) 36%, var(--surface));
+      transform: translateY(-1px);
+    }
+
+    .exercise-number {
+      width: 38px;
+      height: 38px;
+      display: grid;
+      place-items: center;
+      border-radius: 50%;
+      background: var(--accent-soft);
+      color: var(--accent);
+      font-weight: 700;
+    }
+
+    .exercise-card-copy { min-width: 0; }
+
+    .exercise-card h3 {
+      margin: 0 0 5px;
+      overflow-wrap: anywhere;
+    }
+
+    .exercise-card-meta {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 7px 12px;
+      color: var(--muted);
+      font-size: 0.88rem;
+    }
+
+    .status {
+      display: inline-flex;
+      align-items: center;
+      gap: 6px;
+      font-weight: 650;
+    }
+
+    .status-dot {
+      width: 8px;
+      height: 8px;
+      border-radius: 50%;
+      background: var(--muted);
+    }
+
+    .status.in-progress { color: var(--warning); }
+    .status.in-progress .status-dot { background: var(--warning); }
+    .status.completed { color: var(--success); }
+    .status.completed .status-dot { background: var(--success); }
+
+    .score-chip {
+      min-width: 74px;
+      text-align: center;
+      padding: 7px 9px;
+      border: 1px solid color-mix(in srgb, var(--success) 45%, var(--border));
+      border-radius: var(--radius-sm);
+      background: var(--success-soft);
+      color: var(--success);
+      font-weight: 700;
+      white-space: nowrap;
+    }
+
+    .open-card-button {
+      position: absolute;
+      opacity: 0;
+      pointer-events: none;
+    }
+
+    .exercise-card[data-clickable="true"] { cursor: pointer; }
+
+    .empty-state {
+      padding: 34px 20px;
+      text-align: center;
+      color: var(--muted);
+    }
+
+    .empty-state h2, .empty-state h3 { color: var(--text); margin-bottom: 8px; }
+    .empty-state p { margin: 0 auto 16px; max-width: 560px; }
+
+    /* Exercise view */
+    .exercise-topbar {
+      display: grid;
+      grid-template-columns: minmax(0, 1fr) auto;
+      gap: 16px;
+      align-items: center;
+      margin-bottom: 14px;
+    }
+
+    .exercise-heading-wrap { min-width: 0; }
+
+    .back-button {
+      margin-bottom: 9px;
+      padding-left: 0;
+      min-height: 32px;
+      border: 0;
+      background: transparent;
+      color: var(--teal);
+      font-weight: 650;
+      cursor: pointer;
+      display: inline-flex;
+      align-items: center;
+      gap: 5px;
+    }
+
+    .exercise-heading-wrap h2 {
+      margin: 0;
+      overflow-wrap: anywhere;
+    }
+
+    .timer-card {
+      min-width: 132px;
+      padding: 11px 14px;
+      border: 1px solid var(--border);
+      border-radius: var(--radius-md);
+      background: var(--surface);
+      text-align: center;
+    }
+
+    .timer-label {
+      display: block;
+      color: var(--muted);
+      font-size: 0.78rem;
+      font-weight: 650;
+      text-transform: uppercase;
+      letter-spacing: 0.06em;
+    }
+
+    .timer-value {
+      display: block;
+      margin-top: 2px;
+      font-variant-numeric: tabular-nums;
+      font-size: 1.25rem;
+      font-weight: 700;
+    }
+
+    .exercise-layout {
+      display: grid;
+      grid-template-columns: minmax(0, 1fr) 280px;
+      gap: 16px;
+      align-items: start;
+    }
+
+    .passage-panel { min-width: 0; overflow: hidden; }
+
+    .instruction-strip {
+      padding: 13px 18px;
+      border-bottom: 1px solid var(--border);
+      background: var(--teal-soft);
+      color: var(--teal-strong);
+      font-weight: 650;
+    }
+
+    .passage {
+      min-width: 0;
+      padding: clamp(22px, 4.3vw, 46px);
+      font-family: var(--font-ui);
+      font-size: clamp(1.08rem, 1.35vw, 1.25rem);
+      line-height: 2.05;
+      white-space: pre-wrap;
+      overflow-wrap: break-word;
+    }
+
+    .word-cloze {
+      white-space: nowrap;
+      display: inline-flex;
+      align-items: flex-end;
+      vertical-align: baseline;
+      margin-inline: 0.02em;
+      max-width: 100%;
+    }
+
+    .word-cloze.is-active .cloze-prefix {
+      color: var(--teal-strong);
+    }
+
+    .cloze-prefix { white-space: pre; }
+
+    .cloze-char-list {
+      display: inline-flex;
+      align-items: flex-end;
+      gap: 0.18em;
+      margin-inline-start: 0.08em;
+    }
+
+    .cloze-char {
+      width: 1.02em;
+      min-width: 1.02em;
+      height: 1.34em;
+      border: 0;
+      border-bottom: 2px solid var(--teal);
+      border-radius: 0;
+      background: transparent;
+      color: var(--text);
+      padding: 0 0.02em 0.06em;
+      font-weight: 700;
+      line-height: 1;
+      caret-color: var(--accent);
+      text-align: center;
+      box-shadow: none;
+    }
+
+    .cloze-char::placeholder {
+      color: transparent;
+    }
+
+    .cloze-char.is-filled {
+      background: color-mix(in srgb, var(--teal-soft) 34%, transparent);
+    }
+
+    .cloze-char.is-active {
+      border-bottom-color: var(--accent);
+      background: color-mix(in srgb, var(--accent-soft) 48%, transparent);
+    }
+
+    .cloze-char:focus,
+    .cloze-char:focus-visible {
+      outline: none;
+      border-bottom-width: 3px;
+      border-bottom-color: var(--accent);
+      background: color-mix(in srgb, var(--accent-soft) 58%, transparent);
+      box-shadow: none;
+    }
+
+    .feedback-stack {
+      display: inline-flex;
+      flex-direction: column;
+      align-items: flex-start;
+      gap: 3px;
+      margin-inline: 0.08em;
+      vertical-align: middle;
+      transform: translateY(0.2em);
+    }
+
+    .feedback-row {
+      display: inline-flex;
+      align-items: center;
+      gap: 3px;
+      white-space: nowrap;
+    }
+
+    .feedback-char {
+      min-width: 1.22em;
+      height: 1.45em;
+      padding-inline: 0.12em;
+      display: inline-grid;
+      place-items: center;
+      border-radius: 4px;
+      border: 1px solid var(--border);
+      background: var(--surface-elevated);
+      font-weight: 700;
+      line-height: 1;
+    }
+
+    .feedback-char.correct {
+      border-color: color-mix(in srgb, var(--success) 58%, var(--border));
+      background: var(--success-soft);
+      color: var(--success);
+    }
+
+    .feedback-char.wrong {
+      border-color: color-mix(in srgb, var(--danger) 58%, var(--border));
+      background: var(--danger-soft);
+      color: var(--danger);
+    }
+
+    .feedback-char.answer {
+      min-width: 1.05em;
+      height: 1.1em;
+      border: 0;
+      background: transparent;
+      color: var(--muted);
+      font-size: 0.71em;
+    }
+
+    .feedback-word-correct .cloze-prefix { color: var(--success); }
+    .feedback-word-wrong .cloze-prefix { color: var(--danger); }
+
+    .sidebar {
+      min-width: 0;
+      position: sticky;
+      top: calc(var(--header-h) + 14px);
+      display: grid;
+      gap: 12px;
+    }
+
+    .side-panel { padding: 15px; }
+    .side-panel h3 { margin: 0 0 10px; }
+
+    .blank-progress-label {
+      display: flex;
+      justify-content: space-between;
+      gap: 10px;
+      margin-bottom: 7px;
+      color: var(--muted);
+      font-size: 0.88rem;
+    }
+
+    .progress-track {
+      height: 8px;
+      overflow: hidden;
+      border-radius: 999px;
+      background: color-mix(in srgb, var(--border) 70%, transparent);
+    }
+
+    .progress-fill {
+      width: 0;
+      height: 100%;
+      background: var(--teal);
+      border-radius: inherit;
+      transition: width 160ms ease;
+    }
+
+    .blank-nav {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 8px;
+      margin-top: 12px;
+    }
+
+    .keyboard-help {
+      margin: 0;
+      padding-left: 18px;
+      color: var(--muted);
+      font-size: 0.86rem;
+    }
+
+    .keyboard-help li + li { margin-top: 5px; }
+
+    kbd {
+      min-width: 1.65em;
+      display: inline-block;
+      padding: 1px 5px;
+      border: 1px solid var(--border);
+      border-bottom-width: 2px;
+      border-radius: 4px;
+      background: var(--surface-elevated);
+      color: var(--text);
+      font-family: var(--font-ui);
+      font-size: 0.78em;
+      text-align: center;
+    }
+
+    .score-panel {
+      padding: 16px;
+      border: 1px solid color-mix(in srgb, var(--success) 45%, var(--border));
+      background: var(--success-soft);
+    }
+
+    .score-main {
+      display: flex;
+      align-items: baseline;
+      justify-content: space-between;
+      gap: 10px;
+    }
+
+    .score-main strong {
+      font-family: var(--font-heading);
+      font-size: 2rem;
+      line-height: 1;
+      color: var(--success);
+    }
+
+    .score-note {
+      margin: 8px 0 0;
+      color: var(--muted);
+      font-size: 0.86rem;
+    }
+
+    .sidebar-actions { display: grid; gap: 8px; }
+    .sidebar-actions .button { width: 100%; }
+
+    .exercise-bottom-actions {
+      display: none;
+      gap: 8px;
+      margin-top: 14px;
+    }
+
+    /* Mistakes */
+    .mistakes-summary {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 16px;
+      padding: 15px 17px;
+      margin-bottom: 14px;
+    }
+
+    .mistakes-summary p { margin: 0; color: var(--muted); }
+
+    .mistake-list { display: grid; gap: 10px; }
+
+    .mistake-card {
+      min-width: 0;
+      display: grid;
+      grid-template-columns: minmax(150px, 1.1fr) repeat(3, minmax(110px, 0.8fr)) auto;
+      gap: 12px;
+      align-items: center;
+      padding: 15px 16px;
+      background: var(--surface);
+      border: 1px solid var(--border);
+      border-radius: var(--radius-md);
+    }
+
+    .mistake-card-title { min-width: 0; }
+    .mistake-card-title strong { display: block; overflow-wrap: anywhere; }
+    .mistake-card-title span { display: block; margin-top: 3px; color: var(--muted); font-size: 0.82rem; }
+
+    .mistake-field { min-width: 0; }
+    .mistake-field-label { display: block; color: var(--muted); font-size: 0.76rem; font-weight: 650; }
+    .mistake-field-value { display: block; margin-top: 3px; font-weight: 700; overflow-wrap: anywhere; }
+    .mistake-field-value.danger { color: var(--danger); }
+    .mistake-field-value.success { color: var(--success); }
+
+    /* Dialogs and notifications */
+    dialog {
+      width: min(92vw, 520px);
+      max-height: min(84vh, 720px);
+      overflow: auto;
+      border: 1px solid var(--border);
+      border-radius: var(--radius-lg);
+      padding: 0;
+      background: var(--surface);
+      color: var(--text);
+      box-shadow: var(--shadow);
+    }
+
+    dialog::backdrop { background: rgba(0, 0, 0, 0.48); }
+
+    .dialog-body { padding: 22px; }
+    .dialog-body h2 { margin-bottom: 9px; }
+    .dialog-body p { color: var(--muted); }
+    .dialog-actions {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: flex-end;
+      gap: 8px;
+      padding: 14px 22px;
+      border-top: 1px solid var(--border);
+      background: color-mix(in srgb, var(--surface-elevated) 62%, var(--surface));
+    }
+
+    .toast-region {
+      position: fixed;
+      z-index: 100;
+      right: max(16px, env(safe-area-inset-right));
+      bottom: max(16px, calc(env(safe-area-inset-bottom) + 10px));
+      width: min(390px, calc(100vw - 32px));
+      pointer-events: none;
+    }
+
+    .toast {
+      padding: 12px 14px;
+      border: 1px solid var(--border);
+      border-left: 4px solid var(--teal);
+      border-radius: var(--radius-sm);
+      background: var(--surface-elevated);
+      color: var(--text);
+      box-shadow: var(--shadow);
+      pointer-events: auto;
+    }
+
+    .toast.error { border-left-color: var(--danger); }
+    .toast.success { border-left-color: var(--success); }
+
+    .site-footer {
+      border-top: 1px solid var(--border);
+      background: var(--surface);
+    }
+
+    .footer-inner {
+      width: min(calc(100% - 32px), var(--content-max));
+      margin-inline: auto;
+      padding: 22px 0 calc(22px + env(safe-area-inset-bottom));
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 18px;
+      color: var(--muted);
+      font-size: 0.88rem;
+    }
+
+    .footer-links { display: flex; flex-wrap: wrap; gap: 12px; }
+
+    .visually-hidden {
+      position: absolute !important;
+      width: 1px !important;
+      height: 1px !important;
+      padding: 0 !important;
+      margin: -1px !important;
+      overflow: hidden !important;
+      clip: rect(0, 0, 0, 0) !important;
+      white-space: nowrap !important;
+      border: 0 !important;
+    }
+
+    @media (max-width: 900px) {
+      .overview-grid { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+      .exercise-layout { grid-template-columns: 1fr; }
+      .sidebar { position: static; grid-template-columns: repeat(2, minmax(0, 1fr)); }
+      .sidebar .score-panel, .sidebar .sidebar-actions { grid-column: span 2; }
+      .exercise-bottom-actions { display: flex; }
+      .mistake-card { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+      .mistake-card-title { grid-column: span 2; }
+      .mistake-card .button { justify-self: start; }
+    }
+
+    @media (max-width: 720px) {
+      .header-inner, .app-shell, .footer-inner { width: min(calc(100% - 22px), var(--content-max)); }
+      .brand-text { display: none; }
+      .header-actions .nav-label { display: none; }
+      .nav-link, .compact-button { padding-inline: 9px; }
+      .title-row { align-items: flex-start; flex-direction: column; }
+      .title-actions { width: 100%; justify-content: flex-start; }
+      .dashboard-toolbar { grid-template-columns: 1fr 1fr; }
+      .dashboard-toolbar .toolbar-actions { grid-column: span 2; }
+      .exercise-list { grid-template-columns: 1fr; }
+      .exercise-topbar { grid-template-columns: 1fr; }
+      .timer-card { justify-self: start; min-width: 118px; }
+      .passage { padding: 22px 18px; line-height: 1.95; }
+      .footer-inner { flex-direction: column; align-items: flex-start; }
+    }
+
+    @media (max-width: 520px) {
+      .app-shell { padding-top: 18px; }
+      .overview-grid { grid-template-columns: 1fr 1fr; gap: 8px; }
+      .stat-card { padding: 13px; }
+      .dashboard-toolbar { grid-template-columns: 1fr; }
+      .dashboard-toolbar .toolbar-actions { grid-column: auto; }
+      .title-actions .button { flex: 1 1 145px; }
+      .exercise-card { grid-template-columns: auto minmax(0, 1fr); }
+      .score-chip { grid-column: 2; justify-self: start; }
+      .sidebar { grid-template-columns: 1fr; }
+      .sidebar .score-panel, .sidebar .sidebar-actions { grid-column: auto; }
+      .exercise-bottom-actions { flex-direction: column; }
+      .mistakes-summary { align-items: flex-start; flex-direction: column; }
+      .mistake-card { grid-template-columns: 1fr; }
+      .mistake-card-title { grid-column: auto; }
+      .dialog-actions .button { flex: 1 1 140px; }
+    }
+
+    @media (max-width: 380px) {
+      .header-actions { gap: 1px; }
+      .nav-link, .icon-button, .compact-button { min-width: 38px; padding-inline: 7px; }
+      .overview-grid { grid-template-columns: 1fr; }
+      .passage { padding-inline: 14px; font-size: 1.03rem; }
+      .cloze-char { width: 0.98em; min-width: 0.98em; }
+    }
+
+    @media (prefers-reduced-motion: reduce) {
+      *, *::before, *::after {
+        scroll-behavior: auto !important;
+        transition-duration: 0.01ms !important;
+        animation-duration: 0.01ms !important;
+        animation-iteration-count: 1 !important;
+      }
+    }
+  </style>
+</head>
+<body>
+  <a class="skip-link" href="#app-main">Skip to practice</a>
+
+  <header class="site-header">
+    <div class="header-inner">
+      <a class="brand-link" id="brand-home-link" href="/" aria-label="Kooshky’s TOEFL Guides home">
+        <span class="brand-mark" aria-hidden="true">K</span>
+        <span class="brand-text">Kooshky’s TOEFL Guides</span>
+      </a>
+
+      <nav class="header-actions" aria-label="Primary navigation">
+        <a class="nav-link" id="header-home-link" href="/">
+          <svg class="icon" viewBox="0 0 24 24" aria-hidden="true"><path fill="currentColor" d="M12 3.2 3.5 10v10.2h6v-6.1h5v6.1h6V10L12 3.2Zm6.5 15h-2v-6.1h-9v6.1h-2V11l6.5-5.2 6.5 5.2v7.2Z"/></svg>
+          <span class="nav-label">Home</span>
+        </a>
+        <button class="nav-link" id="nav-practice" type="button" aria-current="page">
+          <svg class="icon" viewBox="0 0 24 24" aria-hidden="true"><path fill="currentColor" d="M5 3h10.5L19 6.5V21H5V3Zm2 2v14h10V8h-3V5H7Zm2 6h6v2H9v-2Zm0 4h6v2H9v-2Z"/></svg>
+          <span class="nav-label">Practice</span>
+        </button>
+        <button class="nav-link" id="nav-mistakes" type="button">
+          <svg class="icon" viewBox="0 0 24 24" aria-hidden="true"><path fill="currentColor" d="M12 2.8 22 20H2L12 2.8Zm0 4L5.5 18h13L12 6.8Zm-1 3.2h2v4.5h-2V10Zm0 6h2v2h-2v-2Z"/></svg>
+          <span class="nav-label">Mistakes</span>
+        </button>
+        <button class="icon-button" id="theme-toggle" type="button" aria-label="Switch to dark mode" aria-pressed="false">
+          <svg class="icon theme-icon-light" viewBox="0 0 24 24" aria-hidden="true"><path fill="currentColor" d="M12 7a5 5 0 1 0 0 10 5 5 0 0 0 0-10Zm0-5h1v3h-2V2h1Zm0 17h1v3h-2v-3h1ZM2 11h3v2H2v-2Zm17 0h3v2h-3v-2ZM4.9 3.5 7 5.6 5.6 7 3.5 4.9l1.4-1.4Zm13.5 13.5 2.1 2.1-1.4 1.4-2.1-2.1 1.4-1.4Zm.7-13.5 1.4 1.4L18.4 7 17 5.6l2.1-2.1ZM5.6 17 7 18.4l-2.1 2.1-1.4-1.4L5.6 17Z"/></svg>
+        </button>
+      </nav>
+    </div>
+  </header>
+
+  <main id="app-main" class="app-shell" tabindex="-1">
+    <div class="title-row">
+      <div class="title-copy">
+        <h1 id="app-title">TOEFL Complete the Words</h1>
+        <p class="subtitle" id="app-subtitle">Complete the missing letters, check each word, and review your recurring mistakes.</p>
+      </div>
+      <div class="title-actions" id="global-data-actions">
+        <button class="button" id="export-button" type="button">
+          <svg class="icon" viewBox="0 0 24 24" aria-hidden="true"><path fill="currentColor" d="M11 3h2v10.2l3.1-3.1 1.4 1.4-5.5 5.5-5.5-5.5 1.4-1.4 3.1 3.1V3ZM4 18h16v3H4v-3Z"/></svg>
+          Export progress
+        </button>
+        <button class="button" id="import-button" type="button">
+          <svg class="icon" viewBox="0 0 24 24" aria-hidden="true"><path fill="currentColor" d="M11 21h2V10.8l3.1 3.1 1.4-1.4L12 7l-5.5 5.5 1.4 1.4 3.1-3.1V21ZM4 3h16v3H4V3Z"/></svg>
+          Import progress
+        </button>
+        <input class="visually-hidden" id="import-file" type="file" accept="application/json,.json">
+      </div>
+    </div>
+
+    <section id="dashboard-view" aria-labelledby="dashboard-heading">
+      <h2 id="dashboard-heading" class="visually-hidden">Exercise list</h2>
+      <div class="overview-grid" id="overview-grid"></div>
+
+      <div class="dashboard-toolbar panel">
+        <div class="field">
+          <label for="exercise-search">Find an exercise</label>
+          <input class="text-input" id="exercise-search" type="search" placeholder="Search by title" autocomplete="off">
+        </div>
+        <div class="field">
+          <label for="status-filter">Show</label>
+          <select class="select-input" id="status-filter">
+            <option value="all">All exercises</option>
+            <option value="not-started">Not started</option>
+            <option value="in-progress">In progress</option>
+            <option value="completed">Completed</option>
+          </select>
+        </div>
+        <div class="toolbar-actions">
+          <button class="button danger" id="reset-all-button" type="button">Reset all progress</button>
+        </div>
+      </div>
+
+      <div class="exercise-list" id="exercise-list"></div>
+    </section>
+
+    <section id="exercise-view" hidden aria-labelledby="exercise-title">
+      <div class="exercise-topbar">
+        <div class="exercise-heading-wrap">
+          <button class="back-button" id="back-to-list" type="button">
+            <svg class="icon" viewBox="0 0 24 24" aria-hidden="true"><path fill="currentColor" d="m14.7 5.3-1.4-1.4L5.2 12l8.1 8.1 1.4-1.4L8 12l6.7-6.7Z"/></svg>
+            All exercises
+          </button>
+          <h2 id="exercise-title"></h2>
+        </div>
+        <div class="timer-card" aria-label="Time spent on this exercise">
+          <span class="timer-label">Time</span>
+          <output class="timer-value" id="timer-output">00:00</output>
+        </div>
+      </div>
+
+      <div class="exercise-layout">
+        <article class="passage-panel panel">
+          <div class="instruction-strip" id="exercise-instruction">Fill in the missing letters in the paragraph.</div>
+          <div class="passage" id="passage-container"></div>
+        </article>
+
+        <aside class="sidebar" aria-label="Exercise controls">
+          <section class="side-panel panel" id="progress-panel">
+            <h3>Progress</h3>
+            <div class="blank-progress-label">
+              <span id="filled-label">0 of 0 filled</span>
+              <span id="current-blank-label">Blank 1 of 1</span>
+            </div>
+            <div class="progress-track" aria-hidden="true"><div class="progress-fill" id="progress-fill"></div></div>
+            <div class="blank-nav">
+              <button class="button" id="previous-blank" type="button">Previous</button>
+              <button class="button" id="next-blank" type="button">Next</button>
+            </div>
+          </section>
+
+          <section class="side-panel panel">
+            <h3>Keyboard</h3>
+            <ul class="keyboard-help">
+              <li><kbd>Tab</kbd> and <kbd>Shift</kbd>+<kbd>Tab</kbd> move between blanks.</li>
+              <li><kbd>↑</kbd>/<kbd>↓</kbd> move to the previous or next blank.</li>
+              <li><kbd>←</kbd>/<kbd>→</kbd> cross blanks at the input edges.</li>
+              <li><kbd>Ctrl</kbd>/<kbd>⌘</kbd>+<kbd>Enter</kbd> checks answers.</li>
+            </ul>
+          </section>
+
+          <section class="score-panel panel" id="score-panel" hidden aria-live="polite"></section>
+
+          <div class="sidebar-actions">
+            <button class="button primary" id="check-answers-button" type="button">Check answers</button>
+            <button class="button teal" id="revise-button" type="button" hidden>Revise answers</button>
+            <button class="button" id="previous-exercise-button" type="button">Previous exercise</button>
+            <button class="button" id="next-exercise-button" type="button">Next exercise</button>
+            <button class="button danger" id="reset-exercise-button" type="button">Reset exercise</button>
+          </div>
+        </aside>
+      </div>
+
+      <div class="exercise-bottom-actions" aria-hidden="true">
+        <button class="button" id="mobile-prev-exercise" type="button">Previous exercise</button>
+        <button class="button" id="mobile-next-exercise" type="button">Next exercise</button>
+      </div>
+    </section>
+
+    <section id="mistakes-view" hidden aria-labelledby="mistakes-heading">
+      <div class="mistakes-summary panel">
+        <div>
+          <h2 id="mistakes-heading" style="margin-bottom:4px">Mistake review</h2>
+          <p id="mistakes-description">The words missed in your most recent checked attempt for each exercise.</p>
+        </div>
+        <button class="button" id="mistakes-back-button" type="button">Back to exercises</button>
+      </div>
+      <div class="mistake-list" id="mistake-list"></div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="footer-inner">
+      <span>Kooshky’s TOEFL Guides</span>
+      <nav class="footer-links" aria-label="Footer links">
+        <a id="footer-home-link" href="/">Home</a>
+        <a href="https://telegram.me/KooshkyTOEFL" target="_blank" rel="noopener noreferrer">Telegram</a>
+        <a href="https://instagram.com/kooshkytoefl" target="_blank" rel="noopener noreferrer">Instagram</a>
+        <a href="https://telegram.me/kooshkyTOEFL_pv" target="_blank" rel="noopener noreferrer">Direct message</a>
+      </nav>
+    </div>
+  </footer>
+
+  <dialog id="import-choice-dialog" aria-labelledby="import-choice-title">
+    <div class="dialog-body">
+      <h2 id="import-choice-title">Import progress</h2>
+      <p>The selected file is valid. Merge it with this browser’s progress, or replace the current progress completely.</p>
+      <p><strong>Merge</strong> keeps the newest checked attempt and combines compatible saved answers. <strong>Replace</strong> removes the current data first.</p>
+    </div>
+    <div class="dialog-actions">
+      <button class="button" id="cancel-import" type="button">Cancel</button>
+      <button class="button teal" id="merge-import" type="button">Merge progress</button>
+      <button class="button danger" id="begin-replace-import" type="button">Replace current progress</button>
+    </div>
+  </dialog>
+
+  <dialog id="replace-confirm-dialog" aria-labelledby="replace-confirm-title">
+    <div class="dialog-body">
+      <h2 id="replace-confirm-title">Replace current progress?</h2>
+      <p>A backup export of your current progress has just been prepared. Replacing will remove the progress currently stored in this browser and load the imported file instead.</p>
+    </div>
+    <div class="dialog-actions">
+      <button class="button" id="cancel-replace" type="button">Keep current progress</button>
+      <button class="button danger" id="confirm-replace" type="button">Yes, replace it</button>
+    </div>
+  </dialog>
+
+  <dialog id="reset-exercise-dialog" aria-labelledby="reset-exercise-title">
+    <div class="dialog-body">
+      <h2 id="reset-exercise-title">Reset this exercise?</h2>
+      <p>Your saved letters, timer, and most recent checked result for this exercise will be removed.</p>
+    </div>
+    <div class="dialog-actions">
+      <button class="button" id="cancel-reset-exercise" type="button">Cancel</button>
+      <button class="button danger" id="confirm-reset-exercise" type="button">Reset exercise</button>
+    </div>
+  </dialog>
+
+  <dialog id="reset-all-dialog" aria-labelledby="reset-all-title">
+    <div class="dialog-body">
+      <h2 id="reset-all-title">Reset all progress?</h2>
+      <p>A backup export will be prepared first. This action removes every saved answer, score, mistake, and timer from this browser.</p>
+    </div>
+    <div class="dialog-actions">
+      <button class="button" id="cancel-reset-all" type="button">Cancel</button>
+      <button class="button danger" id="confirm-reset-all" type="button">Export backup and reset</button>
+    </div>
+  </dialog>
+
+  <div class="toast-region" id="toast-region" aria-live="polite" aria-atomic="true"></div>
+
+  <!-- BUILD: separate-character-fields-v2-20260802 -->
+  <script>
+    (() => {
+      "use strict";
+
+      /* ======================================================================
+         EXERCISE BANK
+         Add, remove, or edit exercises only in this array.
+
+         Keep each `id` unique and stable forever. A stable id lets imported
+         progress reconnect to the same exercise after the bank is updated.
+
+         Syntax: visible letters#(missing letters)
+         Example: "yo#(ur)" displays "yo" followed by a two-letter blank.
+         ====================================================================== */
+      const EXERCISES = [
+        {
+          id: "sample-campus-garden",
+          title: "A Campus Garden",
+          text: "A community garden can transform an unused corner of a university campus. Students of#(ten) work together to pl#(ant) vegetables, maintain the soil, and sh#(are) the harvest. The project al#(so) creates a quiet place where people can relax between classes. Because participants meet regu#(larly), they learn respo#(nsibility) and develop a stronger sense of commu#(nity). They must solve practi#(cal) problems together, and bo#(th) cooperation and patience are necessary for the garden to remain succe#(ssful)."
+        },
+        {
+          id: "sample-sleep-and-memory",
+          title: "Sleep and Memory",
+          text: "Sleep plays an important role in learning. During the ni#(ght), the brain does not simply stop working; inst#(ead), it organizes recently acquired information. Researchers have fo#(und) that people often remember material better after adequate sleep. This pattern sugg#(ests) that rest helps fragile new memories become more sta#(ble). Adequate sleep may al#(so) improve atten#(tion), allowing students to work more effe#(ctively). For this reason, suffi#(cient) rest and consistent sleep hab#(its) can support academic performance."
+        },
+        {
+          id: "sample-public-libraries",
+          title: "Public Libraries Today",
+          text: "Modern public libraries provide far more than shelves of printed books. Many offer internet access, digital media, workshops, and quiet rooms for study. These services are particu#(larly) valuable to people who lack reliable techno#(logy) at home. Librarians al#(so) help visitors evaluate sources and locate trustworthy informa#(tion). By keeping useful resou#(rces) freely acces#(sible), libraries support borro#(wers) of many ages and backgrounds. As commu#(nity) needs change, libraries cont#(inue) to adapt while preserving broad access to knowledge and opportu#(nity)."
+        }
+      ];
+
+      const APP_ID = "kooshky-toefl-2026-complete-words";
+      const APP_VERSION = "1.2.0";
+      const SCHEMA_VERSION = 3;
+      const STORAGE_KEY = "kooshky-apps:toefl-2026-complete-words:progress:v1:4f2d91b7-7e6a-4b52-a6f8-20260802";
+      const THEME_KEY = "kooshky-guides:theme:v1";
+
+      const els = {
+        dashboardView: document.getElementById("dashboard-view"),
+        exerciseView: document.getElementById("exercise-view"),
+        mistakesView: document.getElementById("mistakes-view"),
+        appTitle: document.getElementById("app-title"),
+        appSubtitle: document.getElementById("app-subtitle"),
+        globalDataActions: document.getElementById("global-data-actions"),
+        overviewGrid: document.getElementById("overview-grid"),
+        exerciseList: document.getElementById("exercise-list"),
+        exerciseSearch: document.getElementById("exercise-search"),
+        statusFilter: document.getElementById("status-filter"),
+        exerciseTitle: document.getElementById("exercise-title"),
+        exerciseInstruction: document.getElementById("exercise-instruction"),
+        timerOutput: document.getElementById("timer-output"),
+        passageContainer: document.getElementById("passage-container"),
+        filledLabel: document.getElementById("filled-label"),
+        currentBlankLabel: document.getElementById("current-blank-label"),
+        progressFill: document.getElementById("progress-fill"),
+        previousBlank: document.getElementById("previous-blank"),
+        nextBlank: document.getElementById("next-blank"),
+        scorePanel: document.getElementById("score-panel"),
+        checkAnswersButton: document.getElementById("check-answers-button"),
+        reviseButton: document.getElementById("revise-button"),
+        previousExerciseButton: document.getElementById("previous-exercise-button"),
+        nextExerciseButton: document.getElementById("next-exercise-button"),
+        mobilePrevExercise: document.getElementById("mobile-prev-exercise"),
+        mobileNextExercise: document.getElementById("mobile-next-exercise"),
+        resetExerciseButton: document.getElementById("reset-exercise-button"),
+        backToList: document.getElementById("back-to-list"),
+        navPractice: document.getElementById("nav-practice"),
+        navMistakes: document.getElementById("nav-mistakes"),
+        mistakesBackButton: document.getElementById("mistakes-back-button"),
+        mistakeList: document.getElementById("mistake-list"),
+        mistakesDescription: document.getElementById("mistakes-description"),
+        exportButton: document.getElementById("export-button"),
+        importButton: document.getElementById("import-button"),
+        importFile: document.getElementById("import-file"),
+        resetAllButton: document.getElementById("reset-all-button"),
+        themeToggle: document.getElementById("theme-toggle"),
+        toastRegion: document.getElementById("toast-region"),
+        importChoiceDialog: document.getElementById("import-choice-dialog"),
+        replaceConfirmDialog: document.getElementById("replace-confirm-dialog"),
+        resetExerciseDialog: document.getElementById("reset-exercise-dialog"),
+        resetAllDialog: document.getElementById("reset-all-dialog"),
+        cancelImport: document.getElementById("cancel-import"),
+        mergeImport: document.getElementById("merge-import"),
+        beginReplaceImport: document.getElementById("begin-replace-import"),
+        cancelReplace: document.getElementById("cancel-replace"),
+        confirmReplace: document.getElementById("confirm-replace"),
+        cancelResetExercise: document.getElementById("cancel-reset-exercise"),
+        confirmResetExercise: document.getElementById("confirm-reset-exercise"),
+        cancelResetAll: document.getElementById("cancel-reset-all"),
+        confirmResetAll: document.getElementById("confirm-reset-all")
+      };
+
+      const parsedExercises = EXERCISES.map(parseExercise);
+      const exerciseIds = new Set();
+      for (const exercise of parsedExercises) {
+        if (exerciseIds.has(exercise.id)) throw new Error(`Duplicate exercise id: ${exercise.id}`);
+        exerciseIds.add(exercise.id);
+      }
+      const parsedById = new Map(parsedExercises.map(exercise => [exercise.id, exercise]));
+
+      let progress = loadProgress();
+      let pendingImport = null;
+      let currentExerciseId = null;
+      let activeBlankIndex = 0;
+      let showFeedback = false;
+      let timerInterval = null;
+      let timerStartedAt = 0;
+      let toastTimer = null;
+
+      init();
+
+      function init() {
+        setRootLinks();
+        syncThemeControls();
+        updateFavicon();
+        bindEvents();
+        routeFromHash();
+      }
+
+      function bindEvents() {
+        window.addEventListener("hashchange", routeFromHash);
+        window.addEventListener("beforeunload", stopTimerAndSave);
+        document.addEventListener("visibilitychange", () => {
+          if (document.hidden) stopTimerAndSave();
+          else if (currentExerciseId && !showFeedback && !els.exerciseView.hidden) startTimer();
+        });
+
+        els.exerciseSearch.addEventListener("input", renderDashboard);
+        els.statusFilter.addEventListener("change", renderDashboard);
+        els.navPractice.addEventListener("click", () => navigateToDashboard());
+        els.navMistakes.addEventListener("click", () => navigateToMistakes());
+        els.mistakesBackButton.addEventListener("click", () => navigateToDashboard());
+        els.backToList.addEventListener("click", () => navigateToDashboard());
+
+        els.previousBlank.addEventListener("click", () => focusBlank(activeBlankIndex - 1));
+        els.nextBlank.addEventListener("click", () => focusBlank(activeBlankIndex + 1));
+        els.checkAnswersButton.addEventListener("click", checkAnswers);
+        els.reviseButton.addEventListener("click", reviseAnswers);
+        els.resetExerciseButton.addEventListener("click", () => openDialog(els.resetExerciseDialog));
+        els.cancelResetExercise.addEventListener("click", () => els.resetExerciseDialog.close());
+        els.confirmResetExercise.addEventListener("click", resetCurrentExercise);
+
+        const previousExercise = () => moveExercise(-1);
+        const nextExercise = () => moveExercise(1);
+        els.previousExerciseButton.addEventListener("click", previousExercise);
+        els.mobilePrevExercise.addEventListener("click", previousExercise);
+        els.nextExerciseButton.addEventListener("click", nextExercise);
+        els.mobileNextExercise.addEventListener("click", nextExercise);
+
+        els.exportButton.addEventListener("click", () => exportProgress("progress"));
+        els.importButton.addEventListener("click", () => els.importFile.click());
+        els.importFile.addEventListener("change", handleImportFile);
+        els.cancelImport.addEventListener("click", cancelPendingImport);
+        els.mergeImport.addEventListener("click", mergePendingImport);
+        els.beginReplaceImport.addEventListener("click", beginReplaceImport);
+        els.cancelReplace.addEventListener("click", () => els.replaceConfirmDialog.close());
+        els.confirmReplace.addEventListener("click", replaceWithPendingImport);
+
+        els.resetAllButton.addEventListener("click", () => openDialog(els.resetAllDialog));
+        els.cancelResetAll.addEventListener("click", () => els.resetAllDialog.close());
+        els.confirmResetAll.addEventListener("click", resetAllProgress);
+
+        els.themeToggle.addEventListener("click", toggleTheme);
+
+        document.addEventListener("keydown", event => {
+          if ((event.ctrlKey || event.metaKey) && event.key === "Enter" && currentExerciseId && !els.exerciseView.hidden) {
+            event.preventDefault();
+            checkAnswers();
+          }
+        });
+      }
+
+      function setRootLinks() {
+        const root = location.protocol === "http:" || location.protocol === "https:" ? `${location.origin}/` : "./";
+        ["brand-home-link", "header-home-link", "footer-home-link"].forEach(id => {
+          const link = document.getElementById(id);
+          if (link) link.href = root;
+        });
+      }
+
+      function routeFromHash() {
+        stopTimerAndSave();
+        const hash = decodeURIComponent(location.hash || "");
+        if (hash.startsWith("#exercise/")) {
+          const id = hash.slice("#exercise/".length);
+          if (parsedById.has(id)) {
+            showExercise(id);
+            return;
+          }
+          showToast("That exercise is no longer in this version of the app.", "error");
+          navigateToDashboard(true);
+          return;
+        }
+        if (hash === "#mistakes") {
+          showMistakes();
+          return;
+        }
+        showDashboard();
+      }
+
+      function navigateToDashboard(replace = false) {
+        const target = `${location.pathname}${location.search}`;
+        if (replace) {
+          history.replaceState(null, "", target);
+          showDashboard();
+        } else if (location.hash) location.hash = "";
+        else showDashboard();
+      }
+
+      function navigateToMistakes() {
+        if (location.hash === "#mistakes") showMistakes();
+        else location.hash = "mistakes";
+      }
+
+      function navigateToExercise(id) {
+        const nextHash = `exercise/${encodeURIComponent(id)}`;
+        if (location.hash === `#${nextHash}`) showExercise(id);
+        else location.hash = nextHash;
+      }
+
+      function setView(view) {
+        els.dashboardView.hidden = view !== "dashboard";
+        els.exerciseView.hidden = view !== "exercise";
+        els.mistakesView.hidden = view !== "mistakes";
+        els.navPractice.setAttribute("aria-current", view === "dashboard" || view === "exercise" ? "page" : "false");
+        els.navMistakes.setAttribute("aria-current", view === "mistakes" ? "page" : "false");
+        document.getElementById("app-main").focus({ preventScroll: true });
+      }
+
+      function showDashboard() {
+        currentExerciseId = null;
+        showFeedback = false;
+        setView("dashboard");
+        els.appTitle.textContent = "TOEFL Complete the Words";
+        els.appSubtitle.textContent = "Complete the missing letters, check each word, and review your recurring mistakes.";
+        els.globalDataActions.hidden = false;
+        renderDashboard();
+      }
+
+      function renderDashboard() {
+        const query = els.exerciseSearch.value.trim().toLocaleLowerCase();
+        const filter = els.statusFilter.value;
+        const stats = getDashboardStats();
+
+        const statItems = [
+          [String(parsedExercises.length), "Exercises"],
+          [String(stats.completed), "Completed"],
+          [String(stats.inProgress), "In progress"],
+          [stats.totalChecked ? `${stats.totalCorrect}/${stats.totalChecked}` : "—", "Points in latest checks"]
+        ];
+        els.overviewGrid.replaceChildren(...statItems.map(([value, label]) => {
+          const card = createElement("div", "stat-card");
+          card.append(createElement("span", "stat-value", value), createElement("span", "stat-label", label));
+          return card;
+        }));
+
+        const matching = parsedExercises.filter(exercise => {
+          const state = getExerciseState(exercise.id, false);
+          const status = getExerciseStatus(state);
+          const queryMatches = !query || exercise.title.toLocaleLowerCase().includes(query);
+          const statusMatches = filter === "all" || filter === status;
+          return queryMatches && statusMatches;
+        });
+
+        if (!matching.length) {
+          const empty = createElement("div", "empty-state panel");
+          empty.innerHTML = "<h3>No matching exercises</h3><p>Try a different title or status filter.</p>";
+          els.exerciseList.replaceChildren(empty);
+          return;
+        }
+
+        els.exerciseList.replaceChildren(...matching.map(exercise => renderExerciseCard(exercise)));
+      }
+
+      function renderExerciseCard(exercise) {
+        const originalIndex = parsedExercises.findIndex(item => item.id === exercise.id);
+        const state = getExerciseState(exercise.id, false);
+        const status = getExerciseStatus(state);
+        const card = createElement("button", "exercise-card");
+        card.type = "button";
+        card.dataset.clickable = "true";
+        card.setAttribute("aria-label", `Open ${exercise.title}`);
+
+        const number = createElement("div", "exercise-number", String(originalIndex + 1));
+        number.setAttribute("aria-hidden", "true");
+
+        const copy = createElement("div", "exercise-card-copy");
+        const title = createElement("h3", "", exercise.title);
+        const meta = createElement("div", "exercise-card-meta");
+        const statusEl = createElement("span", `status ${status}`);
+        statusEl.append(createElement("span", "status-dot"), document.createTextNode(statusLabel(status)));
+        const blankCount = createElement("span", "", `${exercise.blanks.length} blanks`);
+        const time = state && state.elapsedMs ? createElement("span", "", formatTime(state.elapsedMs)) : null;
+        meta.append(statusEl, blankCount);
+        if (time) meta.append(time);
+        copy.append(title, meta);
+
+        card.append(number, copy);
+        if (state?.lastCheck) {
+          const score = createElement("div", "score-chip", `${state.lastCheck.score} / ${state.lastCheck.total}`);
+          score.setAttribute("aria-label", `Most recent score ${state.lastCheck.score} out of ${state.lastCheck.total}`);
+          card.append(score);
+        }
+
+        const open = () => navigateToExercise(exercise.id);
+        card.addEventListener("click", open);
+        return card;
+      }
+
+      function getDashboardStats() {
+        let completed = 0;
+        let inProgress = 0;
+        let totalCorrect = 0;
+        let totalChecked = 0;
+        for (const exercise of parsedExercises) {
+          const state = getExerciseState(exercise.id, false);
+          const status = getExerciseStatus(state);
+          if (status === "completed") completed += 1;
+          else if (status === "in-progress") inProgress += 1;
+          if (state?.lastCheck) {
+            totalCorrect += Number(state.lastCheck.score) || 0;
+            totalChecked += Number(state.lastCheck.total) || 0;
+          }
+        }
+        return { completed, inProgress, totalCorrect, totalChecked };
+      }
+
+      function getExerciseStatus(state) {
+        if (state?.lastCheck) return "completed";
+        if (!state) return "not-started";
+        const hasAnswers = Object.values(state.answers || {}).some(value => String(value).length > 0) || (state.indexAnswers || []).some(Boolean);
+        if (hasAnswers || state.elapsedMs > 0) return "in-progress";
+        return "not-started";
+      }
+
+      function statusLabel(status) {
+        if (status === "completed") return "Completed";
+        if (status === "in-progress") return "In progress";
+        return "Not started";
+      }
+
+      function showExercise(id) {
+        const exercise = parsedById.get(id);
+        if (!exercise) return;
+        currentExerciseId = id;
+        activeBlankIndex = 0;
+        const state = getExerciseState(id, true);
+        state.lastOpenedAt = new Date().toISOString();
+        state.updatedAt = state.lastOpenedAt;
+        showFeedback = Boolean(state.lastCheck && !state.modifiedAfterCheck);
+        saveProgress();
+
+        setView("exercise");
+        els.appTitle.textContent = "Complete the Words";
+        els.appSubtitle.textContent = "Fill every missing letter. A word earns one point only when its entire blank is correct.";
+        els.globalDataActions.hidden = true;
+        els.exerciseTitle.textContent = exercise.title;
+        renderExercise();
+        updateExerciseNavigationButtons();
+        if (!showFeedback) startTimer();
+      }
+
+      function renderExercise() {
+        const exercise = parsedById.get(currentExerciseId);
+        if (!exercise) return;
+        const state = getExerciseState(currentExerciseId, true);
+        els.passageContainer.replaceChildren();
+        els.exerciseInstruction.textContent = showFeedback
+          ? "Top row: your letters. Smaller row underneath: correct letters."
+          : "Fill in the missing letters in the paragraph.";
+
+        for (const segment of exercise.segments) {
+          if (segment.type === "text") {
+            els.passageContainer.append(document.createTextNode(segment.value));
+          } else {
+            els.passageContainer.append(showFeedback ? renderFeedbackBlank(segment, state) : renderEditableBlank(segment, state));
+          }
+        }
+
+        renderScorePanel(state);
+        updateBlankProgress();
+        updateTimerDisplay();
+
+        if (!showFeedback) {
+          requestAnimationFrame(() => {
+            const firstIncomplete = exercise.blanks.findIndex(blank => !blankIsComplete(state, blank));
+            activeBlankIndex = firstIncomplete >= 0 ? firstIncomplete : Math.min(activeBlankIndex, Math.max(0, exercise.blanks.length - 1));
+            updateBlankProgress();
+          });
+        }
+      }
+
+      function renderEditableBlank(blank, state) {
+        const group = createElement("span", "word-cloze");
+        const prefix = createElement("span", "cloze-prefix", blank.prefix);
+        const charList = createElement("span", "cloze-char-list");
+        const savedSlots = getSavedSlots(state, blank);
+
+        for (let charIndex = 0; charIndex < blank.answer.length; charIndex += 1) {
+          const input = document.createElement("input");
+          input.type = "text";
+          input.className = "cloze-char";
+          input.maxLength = 1;
+          input.autocomplete = "off";
+          input.autocapitalize = "none";
+          input.spellcheck = false;
+          input.inputMode = "text";
+          input.dataset.blankIndex = String(blank.index);
+          input.dataset.charIndex = String(charIndex);
+          input.dataset.blankKey = blank.key;
+          input.setAttribute("aria-label", `Blank ${blank.index + 1} of ${parsedById.get(currentExerciseId).blanks.length}, letter ${charIndex + 1} of ${blank.answer.length}, after ${blank.prefix || "the preceding text"}`);
+          input.value = savedSlots[charIndex] || "";
+          input.classList.toggle("is-filled", Boolean(input.value));
+
+          input.addEventListener("focus", () => {
+            activeBlankIndex = blank.index;
+            group.classList.add("is-active");
+            input.classList.add("is-active");
+            updateBlankProgress();
+          });
+          input.addEventListener("blur", () => {
+            input.classList.remove("is-active");
+            window.setTimeout(() => {
+              if (!group.contains(document.activeElement)) group.classList.remove("is-active");
+            }, 0);
+          });
+          input.addEventListener("click", () => input.select());
+          input.addEventListener("input", () => handleCharInput(input, blank, charIndex));
+          input.addEventListener("keydown", event => handleCharKeydown(event, input, blank, charIndex));
+          input.addEventListener("paste", event => handleCharPaste(event, blank.index, charIndex));
+          charList.append(input);
+        }
+
+        group.append(prefix, charList);
+        return group;
+      }
+
+      function renderFeedbackBlank(blank, state) {
+        const check = state.lastCheck || {};
+        const userSlots = getCheckedSlots(check, blank);
+        const userAnswer = userSlots.join("");
+        const wordCorrect = userAnswer === blank.answer;
+        const group = createElement("span", `word-cloze ${wordCorrect ? "feedback-word-correct" : "feedback-word-wrong"}`);
+        const prefix = createElement("span", "cloze-prefix", blank.prefix);
+        const stack = createElement("span", "feedback-stack");
+        const userRow = createElement("span", "feedback-row");
+        const answerRow = createElement("span", "feedback-row");
+
+        for (let i = 0; i < blank.answer.length; i += 1) {
+          const actual = userSlots[i] || "·";
+          const expected = blank.answer[i];
+          const char = createElement("span", `feedback-char ${actual === expected ? "correct" : "wrong"}`, actual);
+          userRow.append(char);
+          answerRow.append(createElement("span", "feedback-char answer", expected));
+        }
+
+        const sr = createElement("span", "visually-hidden", `${blank.prefix}${userSlots.map(char => char || "blank").join(" ")}; correct word ${blank.fullWord}`);
+        stack.title = `Your letters: ${userSlots.map(char => char || "·").join("")} · Correct letters: ${blank.answer}`;
+        stack.append(userRow, answerRow, sr);
+        group.append(prefix, stack);
+        return group;
+      }
+
+      function handleCharInput(input, blank, charIndex) {
+        const state = getExerciseState(currentExerciseId, true);
+        const normalized = normalizeAnswer(input.value, 2);
+        const char = normalized ? Array.from(normalized)[0] || "" : "";
+        if (input.value !== char) input.value = char;
+
+        const slots = getSavedSlots(state, blank);
+        slots[charIndex] = char;
+        commitBlankSlots(state, blank, slots);
+        state.fingerprint = parsedById.get(currentExerciseId).fingerprint;
+        state.titleSnapshot = parsedById.get(currentExerciseId).title;
+        state.modifiedAfterCheck = Boolean(state.lastCheck);
+        state.updatedAt = new Date().toISOString();
+        input.classList.toggle("is-filled", Boolean(char));
+        saveProgress();
+        updateBlankProgress();
+
+        if (char) {
+          if (charIndex < blank.answer.length - 1) focusChar(blank.index, charIndex + 1);
+          else focusBlank(blank.index + 1);
+        }
+      }
+
+      function handleCharKeydown(event, input, blank, charIndex) {
+        const hasValue = Boolean(input.value);
+        if (event.key === "ArrowRight") {
+          event.preventDefault();
+          if (charIndex < blank.answer.length - 1) focusChar(blank.index, charIndex + 1);
+          else focusBlank(blank.index + 1);
+        } else if (event.key === "ArrowLeft") {
+          event.preventDefault();
+          if (charIndex > 0) focusChar(blank.index, charIndex - 1);
+          else focusLastChar(blank.index - 1);
+        } else if (event.key === "ArrowDown") {
+          event.preventDefault();
+          focusBlank(blank.index + 1);
+        } else if (event.key === "ArrowUp") {
+          event.preventDefault();
+          focusBlank(blank.index - 1);
+        } else if (event.key === "Tab") {
+          event.preventDefault();
+          focusBlank(blank.index + (event.shiftKey ? -1 : 1));
+        } else if (event.key === "Backspace") {
+          if (hasValue) {
+            event.preventDefault();
+            input.value = "";
+            const state = getExerciseState(currentExerciseId, true);
+            const slots = getSavedSlots(state, blank);
+            slots[charIndex] = "";
+            commitBlankSlots(state, blank, slots);
+            state.fingerprint = parsedById.get(currentExerciseId).fingerprint;
+            state.titleSnapshot = parsedById.get(currentExerciseId).title;
+            state.modifiedAfterCheck = Boolean(state.lastCheck);
+            state.updatedAt = new Date().toISOString();
+            input.classList.remove("is-filled");
+            saveProgress();
+            updateBlankProgress();
+          } else {
+            event.preventDefault();
+            if (charIndex > 0) focusChar(blank.index, charIndex - 1);
+            else focusLastChar(blank.index - 1);
+          }
+        } else if (event.key === "Delete") {
+          event.preventDefault();
+          input.value = "";
+          const state = getExerciseState(currentExerciseId, true);
+          const slots = getSavedSlots(state, blank);
+          slots[charIndex] = "";
+          commitBlankSlots(state, blank, slots);
+          state.fingerprint = parsedById.get(currentExerciseId).fingerprint;
+          state.titleSnapshot = parsedById.get(currentExerciseId).title;
+          state.modifiedAfterCheck = Boolean(state.lastCheck);
+          state.updatedAt = new Date().toISOString();
+          input.classList.remove("is-filled");
+          saveProgress();
+          updateBlankProgress();
+        } else if (event.key === "Home") {
+          event.preventDefault();
+          focusChar(blank.index, 0);
+        } else if (event.key === "End") {
+          event.preventDefault();
+          focusChar(blank.index, blank.answer.length - 1);
+        }
+      }
+
+      function handleCharPaste(event, startBlankIndex, startCharIndex) {
+        const pasted = event.clipboardData?.getData("text");
+        if (!pasted) return;
+        const compact = Array.from(String(pasted).normalize("NFC").replace(/\s+/g, ""));
+        if (!compact.length) return;
+        event.preventDefault();
+
+        const exercise = parsedById.get(currentExerciseId);
+        const state = getExerciseState(currentExerciseId, true);
+        let cursor = 0;
+
+        for (let blankIndex = startBlankIndex; blankIndex < exercise.blanks.length && cursor < compact.length; blankIndex += 1) {
+          const blank = exercise.blanks[blankIndex];
+          const slots = getSavedSlots(state, blank);
+          const offset = blankIndex === startBlankIndex ? startCharIndex : 0;
+          for (let charIndex = offset; charIndex < blank.answer.length && cursor < compact.length; charIndex += 1) {
+            slots[charIndex] = compact[cursor] || "";
+            cursor += 1;
+          }
+          commitBlankSlots(state, blank, slots);
+        }
+
+        state.fingerprint = parsedById.get(currentExerciseId).fingerprint;
+        state.titleSnapshot = parsedById.get(currentExerciseId).title;
+        state.modifiedAfterCheck = Boolean(state.lastCheck);
+        state.updatedAt = new Date().toISOString();
+        saveProgress();
+        renderExercise();
+        requestAnimationFrame(() => {
+          const firstIncomplete = exercise.blanks.findIndex(blank => !blankIsComplete(state, blank));
+          focusBlank(firstIncomplete >= 0 ? firstIncomplete : Math.min(exercise.blanks.length - 1, startBlankIndex));
+        });
+      }
+
+      function focusBlank(index) {
+        if (showFeedback) return;
+        const exercise = parsedById.get(currentExerciseId);
+        if (!exercise || !exercise.blanks.length) return;
+        const bounded = Math.max(0, Math.min(index, exercise.blanks.length - 1));
+        activeBlankIndex = bounded;
+        const state = getExerciseState(currentExerciseId, true);
+        const blank = exercise.blanks[bounded];
+        const slots = getSavedSlots(state, blank);
+        const firstEmpty = slots.findIndex(char => !char);
+        const targetCharIndex = firstEmpty >= 0 ? firstEmpty : 0;
+        focusChar(bounded, targetCharIndex, true);
+        updateBlankProgress();
+      }
+
+      function focusChar(blankIndex, charIndex, shouldScroll = false) {
+        if (showFeedback) return;
+        const inputs = getCharInputsForBlank(blankIndex);
+        if (!inputs.length) return;
+        const boundedChar = Math.max(0, Math.min(charIndex, inputs.length - 1));
+        activeBlankIndex = blankIndex;
+        const input = inputs[boundedChar];
+        input.focus({ preventScroll: !shouldScroll });
+        input.select();
+        if (shouldScroll) input.scrollIntoView({ behavior: "smooth", block: "center", inline: "nearest" });
+        updateBlankProgress();
+      }
+
+      function focusLastChar(blankIndex) {
+        const inputs = getCharInputsForBlank(blankIndex);
+        if (!inputs.length) {
+          focusBlank(blankIndex);
+          return;
+        }
+        focusChar(blankIndex, inputs.length - 1, true);
+      }
+
+      function getCharInputsForBlank(blankIndex) {
+        return Array.from(els.passageContainer.querySelectorAll(`.cloze-char[data-blank-index="${blankIndex}"]`));
+      }
+
+      function getBlankInputs() {
+        return Array.from(els.passageContainer.querySelectorAll('.cloze-char[data-char-index="0"]'));
+      }
+
+      function updateBlankProgress() {
+        const exercise = parsedById.get(currentExerciseId);
+        if (!exercise) return;
+        const state = getExerciseState(currentExerciseId, true);
+        const filled = exercise.blanks.reduce((count, blank) => count + (blankIsComplete(state, blank) ? 1 : 0), 0);
+        const total = exercise.blanks.length;
+        els.filledLabel.textContent = `${filled} of ${total} filled`;
+        els.currentBlankLabel.textContent = showFeedback ? `${total} checked` : `Blank ${Math.min(activeBlankIndex + 1, total)} of ${total}`;
+        els.progressFill.style.width = total ? `${(filled / total) * 100}%` : "0%";
+        els.previousBlank.disabled = showFeedback || activeBlankIndex <= 0;
+        els.nextBlank.disabled = showFeedback || activeBlankIndex >= total - 1;
+      }
+
+      function checkAnswers() {
+        if (!currentExerciseId) return;
+        const exercise = parsedById.get(currentExerciseId);
+        const state = getExerciseState(currentExerciseId, true);
+        stopTimerAndSave();
+
+        const checkedAnswers = {};
+        const checkedSlotAnswers = {};
+        const mistakes = [];
+        let score = 0;
+
+        exercise.blanks.forEach(blank => {
+          const userSlots = getSavedSlots(state, blank);
+          const userAnswer = userSlots.join("");
+          checkedAnswers[blank.key] = userAnswer;
+          checkedSlotAnswers[blank.key] = [...userSlots];
+          if (userAnswer === blank.answer) {
+            score += 1;
+          } else {
+            mistakes.push({
+              blankKey: blank.key,
+              blankIndex: blank.index,
+              fullWord: blank.fullWord,
+              visiblePart: blank.prefix,
+              blankedPart: blank.answer,
+              userAnswer,
+              userDisplay: userSlots.map(char => char || "·").join(""),
+              checkedAt: new Date().toISOString()
+            });
+          }
+        });
+
+        state.lastCheck = {
+          checkedAt: new Date().toISOString(),
+          score,
+          total: exercise.blanks.length,
+          elapsedMs: state.elapsedMs || 0,
+          answers: checkedAnswers,
+          slotAnswers: checkedSlotAnswers,
+          mistakes,
+          exerciseTitle: exercise.title,
+          exerciseFingerprint: exercise.fingerprint
+        };
+        state.modifiedAfterCheck = false;
+        state.updatedAt = state.lastCheck.checkedAt;
+        state.titleSnapshot = exercise.title;
+        state.fingerprint = exercise.fingerprint;
+        showFeedback = true;
+        saveProgress();
+        renderExercise();
+        showToast(`Score: ${score} out of ${exercise.blanks.length}.`, score === exercise.blanks.length ? "success" : "info");
+      }
+
+      function reviseAnswers() {
+        if (!currentExerciseId) return;
+        showFeedback = false;
+        const state = getExerciseState(currentExerciseId, true);
+        state.modifiedAfterCheck = true;
+        state.updatedAt = new Date().toISOString();
+        saveProgress();
+        renderExercise();
+        startTimer();
+        requestAnimationFrame(() => focusBlank(0));
+      }
+
+      function renderScorePanel(state) {
+        if (!state.lastCheck) {
+          els.scorePanel.hidden = true;
+          els.reviseButton.hidden = true;
+          els.checkAnswersButton.hidden = false;
+          return;
+        }
+
+        const { score, total, checkedAt } = state.lastCheck;
+        const percent = total ? Math.round((score / total) * 100) : 0;
+        const label = state.modifiedAfterCheck && !showFeedback ? "Most recent checked score" : "Score";
+        els.scorePanel.innerHTML = "";
+        const main = createElement("div", "score-main");
+        main.append(createElement("span", "", label), createElement("strong", "", `${score}/${total}`));
+        const note = createElement("p", "score-note", `${percent}% · ${formatDateTime(checkedAt)}${state.modifiedAfterCheck && !showFeedback ? " · Your current edits have not been checked yet." : ""}`);
+        els.scorePanel.append(main, note);
+        els.scorePanel.hidden = false;
+        els.reviseButton.hidden = !showFeedback;
+        els.checkAnswersButton.hidden = showFeedback;
+      }
+
+      function moveExercise(direction) {
+        if (!currentExerciseId) return;
+        const index = parsedExercises.findIndex(exercise => exercise.id === currentExerciseId);
+        const nextIndex = index + direction;
+        if (nextIndex >= 0 && nextIndex < parsedExercises.length) navigateToExercise(parsedExercises[nextIndex].id);
+      }
+
+      function updateExerciseNavigationButtons() {
+        const index = parsedExercises.findIndex(exercise => exercise.id === currentExerciseId);
+        const isFirst = index <= 0;
+        const isLast = index >= parsedExercises.length - 1;
+        [els.previousExerciseButton, els.mobilePrevExercise].forEach(button => button.disabled = isFirst);
+        [els.nextExerciseButton, els.mobileNextExercise].forEach(button => button.disabled = isLast);
+      }
+
+      function resetCurrentExercise() {
+        if (!currentExerciseId) return;
+        stopTimerAndSave();
+        delete progress.exercises[currentExerciseId];
+        progress.updatedAt = new Date().toISOString();
+        saveProgress();
+        els.resetExerciseDialog.close();
+        showFeedback = false;
+        activeBlankIndex = 0;
+        renderExercise();
+        startTimer();
+        showToast("Exercise progress reset.", "success");
+      }
+
+      function showMistakes() {
+        currentExerciseId = null;
+        showFeedback = false;
+        setView("mistakes");
+        els.appTitle.textContent = "Mistake Review";
+        els.appSubtitle.textContent = "Review the missing letters that were incorrect in each exercise’s most recent checked attempt.";
+        els.globalDataActions.hidden = false;
+        renderMistakes();
+      }
+
+      function renderMistakes() {
+        const rows = [];
+        for (const [exerciseId, state] of Object.entries(progress.exercises || {})) {
+          if (!state?.lastCheck?.mistakes?.length) continue;
+          for (const mistake of state.lastCheck.mistakes) {
+            rows.push({
+              exerciseId,
+              exerciseTitle: state.lastCheck.exerciseTitle || state.titleSnapshot || exerciseId,
+              checkedAt: state.lastCheck.checkedAt,
+              ...mistake
+            });
+          }
+        }
+        rows.sort((a, b) => String(b.checkedAt).localeCompare(String(a.checkedAt)) || a.exerciseTitle.localeCompare(b.exerciseTitle));
+        els.mistakesDescription.textContent = rows.length
+          ? `${rows.length} incorrect ${rows.length === 1 ? "word" : "words"} across the latest checked attempts.`
+          : "No mistakes are currently saved from checked attempts.";
+
+        if (!rows.length) {
+          const empty = createElement("div", "empty-state panel");
+          empty.innerHTML = "<h3>No saved mistakes</h3><p>Check an exercise to add any incorrect words here. A perfect latest attempt removes that exercise’s earlier mistakes.</p>";
+          const button = createElement("button", "button teal", "Open exercises");
+          button.type = "button";
+          button.addEventListener("click", () => navigateToDashboard());
+          empty.append(button);
+          els.mistakeList.replaceChildren(empty);
+          return;
+        }
+
+        els.mistakeList.replaceChildren(...rows.map(row => {
+          const card = createElement("article", "mistake-card");
+          const title = createElement("div", "mistake-card-title");
+          title.append(createElement("strong", "", row.exerciseTitle), createElement("span", "", formatDateTime(row.checkedAt)));
+          card.append(
+            title,
+            mistakeField("Correct word", row.fullWord || `${row.visiblePart || ""}${row.blankedPart || ""}`, "success"),
+            mistakeField("Blanked letters", row.blankedPart || "—", ""),
+            mistakeField("Your answer", row.userDisplay || row.userAnswer || "(blank)", "danger")
+          );
+          const openButton = createElement("button", "button", parsedById.has(row.exerciseId) ? "Open exercise" : "Unavailable");
+          openButton.type = "button";
+          openButton.disabled = !parsedById.has(row.exerciseId);
+          openButton.addEventListener("click", () => navigateToExercise(row.exerciseId));
+          card.append(openButton);
+          return card;
+        }));
+      }
+
+      function mistakeField(label, value, extraClass) {
+        const field = createElement("div", "mistake-field");
+        field.append(createElement("span", "mistake-field-label", label), createElement("span", `mistake-field-value ${extraClass}`.trim(), value));
+        return field;
+      }
+
+      function startTimer() {
+        if (!currentExerciseId || showFeedback || timerInterval) return;
+        timerStartedAt = Date.now();
+        timerInterval = window.setInterval(updateTimerDisplay, 250);
+        updateTimerDisplay();
+      }
+
+      function stopTimerAndSave() {
+        if (!timerInterval || !currentExerciseId) return;
+        const state = getExerciseState(currentExerciseId, true);
+        state.elapsedMs = Math.max(0, Number(state.elapsedMs) || 0) + Math.max(0, Date.now() - timerStartedAt);
+        state.updatedAt = new Date().toISOString();
+        window.clearInterval(timerInterval);
+        timerInterval = null;
+        timerStartedAt = 0;
+        saveProgress();
+        updateTimerDisplay();
+      }
+
+      function updateTimerDisplay() {
+        if (!currentExerciseId) {
+          els.timerOutput.textContent = "00:00";
+          return;
+        }
+        const state = getExerciseState(currentExerciseId, true);
+        const running = timerInterval ? Math.max(0, Date.now() - timerStartedAt) : 0;
+        els.timerOutput.textContent = formatTime((state.elapsedMs || 0) + running);
+      }
+
+      function parseExercise(source) {
+        if (!source || typeof source.id !== "string" || !source.id.trim()) throw new Error("Every exercise needs a stable id.");
+        if (typeof source.title !== "string" || typeof source.text !== "string") throw new Error(`Invalid exercise: ${source.id}`);
+
+        const marker = /#\(([^)]*)\)/g;
+        const segments = [];
+        const blanks = [];
+        const occurrenceCounts = new Map();
+        let cursor = 0;
+        let match;
+
+        while ((match = marker.exec(source.text)) !== null) {
+          const rawBefore = source.text.slice(cursor, match.index);
+          const prefixMatch = rawBefore.match(/([\p{L}\p{M}\p{N}'’\-]+)$/u);
+          const prefix = prefixMatch ? prefixMatch[1] : "";
+          const precedingText = prefix ? rawBefore.slice(0, -prefix.length) : rawBefore;
+          if (precedingText) segments.push({ type: "text", value: precedingText });
+
+          const answer = match[1];
+          if (!answer.length) throw new Error(`Empty blank in exercise: ${source.id}`);
+          const leftContext = cleanContext(source.text.slice(Math.max(0, match.index - 44), match.index));
+          const rightContext = cleanContext(source.text.slice(match.index + match[0].length, match.index + match[0].length + 44));
+          const base = `${source.id}|${prefix}|${answer}|${leftContext}|${rightContext}`;
+          const occurrence = (occurrenceCounts.get(base) || 0) + 1;
+          occurrenceCounts.set(base, occurrence);
+          const key = `b-${hashString(base)}-${occurrence}`;
+          const blank = {
+            type: "blank",
+            index: blanks.length,
+            key,
+            prefix,
+            answer,
+            fullWord: `${prefix}${answer}`
+          };
+          blanks.push(blank);
+          segments.push(blank);
+          cursor = match.index + match[0].length;
+        }
+
+        const tail = source.text.slice(cursor);
+        if (tail) segments.push({ type: "text", value: tail });
+        const fingerprint = hashString(`${source.id}|${source.title}|${source.text}`);
+        return { id: source.id, title: source.title, text: source.text, segments, blanks, fingerprint };
+      }
+
+      function cleanContext(value) {
+        return value.replace(/#\(([^)]*)\)/g, "$1").replace(/\s+/g, " ").trim().toLocaleLowerCase();
+      }
+
+      function hashString(value) {
+        let hash = 2166136261;
+        for (let i = 0; i < value.length; i += 1) {
+          hash ^= value.charCodeAt(i);
+          hash = Math.imul(hash, 16777619);
+        }
+        return (hash >>> 0).toString(36);
+      }
+
+      function emptyProgress() {
+        return {
+          appId: APP_ID,
+          schemaVersion: SCHEMA_VERSION,
+          createdAt: new Date().toISOString(),
+          updatedAt: new Date().toISOString(),
+          exercises: {}
+        };
+      }
+
+      function loadProgress() {
+        try {
+          const raw = localStorage.getItem(STORAGE_KEY);
+          if (!raw) return emptyProgress();
+          const parsed = JSON.parse(raw);
+          return normalizeImportedProgress(parsed);
+        } catch (error) {
+          console.warn("Could not load saved progress.", error);
+          return emptyProgress();
+        }
+      }
+
+      function saveProgress() {
+        progress.updatedAt = new Date().toISOString();
+        try {
+          localStorage.setItem(STORAGE_KEY, JSON.stringify(progress));
+        } catch (error) {
+          console.warn("Could not save progress.", error);
+          showToast("Progress could not be saved in this browser. Export it before leaving the page.", "error");
+        }
+      }
+
+      function getExerciseState(id, create) {
+        let state = progress.exercises[id];
+        if (!state && create) {
+          const exercise = parsedById.get(id);
+          state = {
+            titleSnapshot: exercise?.title || id,
+            fingerprint: exercise?.fingerprint || "",
+            answers: {},
+            slotAnswers: {},
+            indexAnswers: [],
+            indexSlotAnswers: [],
+            elapsedMs: 0,
+            lastOpenedAt: null,
+            lastCheck: null,
+            modifiedAfterCheck: false,
+            updatedAt: new Date().toISOString()
+          };
+          progress.exercises[id] = state;
+        }
+        return state || null;
+      }
+
+      function getSavedSlots(state, blank) {
+        if (!state) return Array(blank.answer.length).fill("");
+        const directSlots = state.slotAnswers?.[blank.key];
+        if (Array.isArray(directSlots)) return normalizeSlots(directSlots, blank.answer.length);
+        const direct = state.answers?.[blank.key];
+        if (typeof direct === "string") return stringToSlots(direct, blank.answer.length);
+        const exercise = parsedById.get(currentExerciseId || "");
+        if (exercise && state.fingerprint === exercise.fingerprint) {
+          const indexedSlots = state.indexSlotAnswers?.[blank.index];
+          if (Array.isArray(indexedSlots)) return normalizeSlots(indexedSlots, blank.answer.length);
+          if (typeof state.indexAnswers?.[blank.index] === "string") return stringToSlots(state.indexAnswers[blank.index], blank.answer.length);
+        }
+        return Array(blank.answer.length).fill("");
+      }
+
+      function getSavedAnswer(state, blank) {
+        return getSavedSlots(state, blank).join("");
+      }
+
+      function commitBlankSlots(state, blank, slots) {
+        const normalized = normalizeSlots(slots, blank.answer.length);
+        state.slotAnswers = state.slotAnswers && typeof state.slotAnswers === "object" ? state.slotAnswers : {};
+        state.indexSlotAnswers = Array.isArray(state.indexSlotAnswers) ? state.indexSlotAnswers : [];
+        state.answers = state.answers && typeof state.answers === "object" ? state.answers : {};
+        state.indexAnswers = Array.isArray(state.indexAnswers) ? state.indexAnswers : [];
+        state.slotAnswers[blank.key] = [...normalized];
+        state.indexSlotAnswers[blank.index] = [...normalized];
+        state.answers[blank.key] = normalized.join("");
+        state.indexAnswers[blank.index] = normalized.join("");
+      }
+
+      function blankIsComplete(state, blank) {
+        return getSavedSlots(state, blank).every(char => String(char || "").length === 1);
+      }
+
+      function getCheckedSlots(lastCheck, blank) {
+        const directSlots = lastCheck?.slotAnswers?.[blank.key];
+        if (Array.isArray(directSlots)) return normalizeSlots(directSlots, blank.answer.length);
+        const direct = lastCheck?.answers?.[blank.key] ?? lastCheck?.answers?.[String(blank.index)] ?? "";
+        return stringToSlots(direct, blank.answer.length);
+      }
+
+      function stringToSlots(value, maxLength) {
+        return normalizeSlots(Array.from(normalizeAnswer(value, maxLength)), maxLength);
+      }
+
+      function normalizeSlots(value, maxLength) {
+        const source = Array.isArray(value) ? value : Array.from(String(value ?? ""));
+        return Array.from({ length: maxLength }, (_, index) => {
+          const raw = source[index] == null ? "" : String(source[index]);
+          return normalizeAnswer(raw, 2).slice(0, 1);
+        });
+      }
+
+      function normalizeAnswer(value, maxLength) {
+        return String(value ?? "").normalize("NFC").replace(/[\r\n\t]/g, "").slice(0, maxLength);
+      }
+
+      function exportProgress(label = "progress") {
+        stopTimerAndSave();
+        const payload = {
+          appId: APP_ID,
+          schemaVersion: SCHEMA_VERSION,
+          appVersion: APP_VERSION,
+          exportedAt: new Date().toISOString(),
+          progress: structuredCloneSafe(progress),
+          exerciseCatalog: parsedExercises.map(exercise => ({
+            id: exercise.id,
+            title: exercise.title,
+            fingerprint: exercise.fingerprint,
+            blankKeys: exercise.blanks.map(blank => blank.key)
+          }))
+        };
+        const stamp = new Date().toISOString().replace(/[:.]/g, "-");
+        const filename = `kooshky-complete-words-${label}-${stamp}.json`;
+        const success = downloadJson(payload, filename);
+        if (success) showToast("Progress export prepared.", "success");
+        return success;
+      }
+
+      function downloadJson(data, filename) {
+        try {
+          const blob = new Blob([JSON.stringify(data, null, 2)], { type: "application/json" });
+          const url = URL.createObjectURL(blob);
+          const anchor = document.createElement("a");
+          anchor.href = url;
+          anchor.download = filename;
+          document.body.append(anchor);
+          anchor.click();
+          anchor.remove();
+          window.setTimeout(() => URL.revokeObjectURL(url), 1500);
+          return true;
+        } catch (error) {
+          console.warn("Export failed.", error);
+          showToast("The export could not be created.", "error");
+          return false;
+        }
+      }
+
+      async function handleImportFile(event) {
+        const file = event.target.files?.[0];
+        event.target.value = "";
+        if (!file) return;
+        try {
+          const text = await file.text();
+          const parsed = JSON.parse(text);
+          const candidate = parsed?.progress ? parsed.progress : parsed;
+          pendingImport = normalizeImportedProgress(candidate);
+          openDialog(els.importChoiceDialog);
+        } catch (error) {
+          console.warn("Import failed.", error);
+          pendingImport = null;
+          showToast("That file is not a valid Complete the Words progress export.", "error");
+        }
+      }
+
+      function normalizeImportedProgress(candidate) {
+        if (!candidate || typeof candidate !== "object") throw new Error("Missing progress object.");
+        if (candidate.appId && candidate.appId !== APP_ID) throw new Error("Wrong app export.");
+        if (!candidate.exercises || typeof candidate.exercises !== "object" || Array.isArray(candidate.exercises)) throw new Error("Missing exercise progress.");
+        const normalized = emptyProgress();
+        normalized.createdAt = typeof candidate.createdAt === "string" ? candidate.createdAt : normalized.createdAt;
+        normalized.updatedAt = typeof candidate.updatedAt === "string" ? candidate.updatedAt : normalized.updatedAt;
+        const sourceExercises = candidate.exercises && typeof candidate.exercises === "object" ? candidate.exercises : {};
+
+        for (const [id, raw] of Object.entries(sourceExercises)) {
+          if (!raw || typeof raw !== "object") continue;
+          const answers = {};
+          if (raw.answers && typeof raw.answers === "object") {
+            for (const [key, value] of Object.entries(raw.answers)) answers[String(key)] = String(value ?? "");
+          }
+          const slotAnswers = {};
+          if (raw.slotAnswers && typeof raw.slotAnswers === "object") {
+            for (const [key, value] of Object.entries(raw.slotAnswers)) slotAnswers[String(key)] = Array.isArray(value) ? value.map(char => String(char ?? "")) : [];
+          }
+          normalized.exercises[id] = {
+            titleSnapshot: String(raw.titleSnapshot || id),
+            fingerprint: String(raw.fingerprint || ""),
+            answers,
+            slotAnswers,
+            indexAnswers: Array.isArray(raw.indexAnswers) ? raw.indexAnswers.map(value => String(value ?? "")) : [],
+            indexSlotAnswers: Array.isArray(raw.indexSlotAnswers) ? raw.indexSlotAnswers.map(value => Array.isArray(value) ? value.map(char => String(char ?? "")) : []) : [],
+            elapsedMs: Math.max(0, Number(raw.elapsedMs) || 0),
+            lastOpenedAt: raw.lastOpenedAt || null,
+            lastCheck: normalizeLastCheck(raw.lastCheck),
+            modifiedAfterCheck: Boolean(raw.modifiedAfterCheck),
+            updatedAt: typeof raw.updatedAt === "string" ? raw.updatedAt : normalized.updatedAt
+          };
+        }
+        return normalized;
+      }
+
+      function normalizeLastCheck(raw) {
+        if (!raw || typeof raw !== "object") return null;
+        const answers = {};
+        if (raw.answers && typeof raw.answers === "object") {
+          for (const [key, value] of Object.entries(raw.answers)) answers[String(key)] = String(value ?? "");
+        }
+        const slotAnswers = {};
+        if (raw.slotAnswers && typeof raw.slotAnswers === "object") {
+          for (const [key, value] of Object.entries(raw.slotAnswers)) slotAnswers[String(key)] = Array.isArray(value) ? value.map(char => String(char ?? "")) : [];
+        }
+        const mistakes = Array.isArray(raw.mistakes) ? raw.mistakes.map(item => ({
+          blankKey: String(item?.blankKey || ""),
+          blankIndex: Math.max(0, Number(item?.blankIndex) || 0),
+          fullWord: String(item?.fullWord || ""),
+          visiblePart: String(item?.visiblePart || ""),
+          blankedPart: String(item?.blankedPart || ""),
+          userAnswer: String(item?.userAnswer || ""),
+          userDisplay: String(item?.userDisplay || item?.userAnswer || ""),
+          checkedAt: item?.checkedAt || raw.checkedAt || null
+        })) : [];
+        return {
+          checkedAt: raw.checkedAt || new Date(0).toISOString(),
+          score: Math.max(0, Number(raw.score) || 0),
+          total: Math.max(0, Number(raw.total) || 0),
+          elapsedMs: Math.max(0, Number(raw.elapsedMs) || 0),
+          answers,
+          slotAnswers,
+          mistakes,
+          exerciseTitle: String(raw.exerciseTitle || ""),
+          exerciseFingerprint: String(raw.exerciseFingerprint || "")
+        };
+      }
+
+      function mergePendingImport() {
+        if (!pendingImport) return;
+        progress = mergeProgress(progress, pendingImport);
+        saveProgress();
+        pendingImport = null;
+        els.importChoiceDialog.close();
+        refreshCurrentView();
+        showToast("Imported progress merged successfully.", "success");
+      }
+
+      function mergeProgress(current, incoming) {
+        const merged = structuredCloneSafe(current);
+        for (const [id, incomingState] of Object.entries(incoming.exercises || {})) {
+          const currentState = merged.exercises[id];
+          if (!currentState) {
+            merged.exercises[id] = structuredCloneSafe(incomingState);
+            continue;
+          }
+          const incomingNewer = String(incomingState.updatedAt || "") > String(currentState.updatedAt || "");
+          const primary = incomingNewer ? incomingState : currentState;
+          const secondary = incomingNewer ? currentState : incomingState;
+          const lastCheck = newerCheck(currentState.lastCheck, incomingState.lastCheck);
+          merged.exercises[id] = {
+            ...structuredCloneSafe(secondary),
+            ...structuredCloneSafe(primary),
+            answers: { ...(secondary.answers || {}), ...(primary.answers || {}) },
+            slotAnswers: { ...(secondary.slotAnswers || {}), ...(primary.slotAnswers || {}) },
+            indexAnswers: incomingNewer ? [...(incomingState.indexAnswers || [])] : [...(currentState.indexAnswers || [])],
+            indexSlotAnswers: incomingNewer ? [...(incomingState.indexSlotAnswers || [])] : [...(currentState.indexSlotAnswers || [])],
+            elapsedMs: Math.max(Number(currentState.elapsedMs) || 0, Number(incomingState.elapsedMs) || 0),
+            lastCheck: lastCheck ? structuredCloneSafe(lastCheck) : null,
+            modifiedAfterCheck: Boolean(primary.modifiedAfterCheck),
+            updatedAt: incomingNewer ? incomingState.updatedAt : currentState.updatedAt
+          };
+        }
+        merged.updatedAt = new Date().toISOString();
+        return merged;
+      }
+
+      function newerCheck(a, b) {
+        if (!a) return b || null;
+        if (!b) return a;
+        return String(b.checkedAt || "") > String(a.checkedAt || "") ? b : a;
+      }
+
+      function beginReplaceImport() {
+        if (!pendingImport) return;
+        const backedUp = exportProgress("backup-before-import");
+        if (!backedUp) {
+          showToast("Replacement was stopped because the safety backup could not be prepared.", "error");
+          return;
+        }
+        els.importChoiceDialog.close();
+        openDialog(els.replaceConfirmDialog);
+      }
+
+      function replaceWithPendingImport() {
+        if (!pendingImport) return;
+        progress = structuredCloneSafe(pendingImport);
+        pendingImport = null;
+        saveProgress();
+        els.replaceConfirmDialog.close();
+        refreshCurrentView();
+        showToast("Current progress replaced with the imported backup.", "success");
+      }
+
+      function cancelPendingImport() {
+        pendingImport = null;
+        els.importChoiceDialog.close();
+      }
+
+      function resetAllProgress() {
+        const backedUp = exportProgress("backup-before-reset");
+        if (!backedUp) {
+          showToast("Reset was stopped because the safety backup could not be prepared.", "error");
+          return;
+        }
+        stopTimerAndSave();
+        progress = emptyProgress();
+        saveProgress();
+        els.resetAllDialog.close();
+        navigateToDashboard(true);
+        showDashboard();
+        showToast("All progress reset.", "success");
+      }
+
+      function refreshCurrentView() {
+        if (currentExerciseId && parsedById.has(currentExerciseId)) showExercise(currentExerciseId);
+        else if (location.hash === "#mistakes") showMistakes();
+        else showDashboard();
+      }
+
+      function toggleTheme() {
+        const next = document.documentElement.dataset.theme === "dark" ? "light" : "dark";
+        document.documentElement.dataset.theme = next;
+        document.documentElement.style.colorScheme = next;
+        try { localStorage.setItem(THEME_KEY, next); } catch (_) {}
+        syncThemeControls();
+        updateFavicon();
+      }
+
+      function syncThemeControls() {
+        const dark = document.documentElement.dataset.theme === "dark";
+        els.themeToggle.setAttribute("aria-pressed", String(dark));
+        els.themeToggle.setAttribute("aria-label", dark ? "Switch to light mode" : "Switch to dark mode");
+        els.themeToggle.title = dark ? "Switch to light mode" : "Switch to dark mode";
+      }
+
+      function updateFavicon() {
+        const dark = document.documentElement.dataset.theme === "dark";
+        const bg = dark ? "%23181D21" : "%23FCFAF6";
+        const fg = dark ? "%23F28C45" : "%23A9470D";
+        const svg = `<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'><rect width='64' height='64' rx='14' fill='${bg}'/><circle cx='32' cy='32' r='22' fill='none' stroke='${fg}' stroke-width='4'/><path d='M22 18v28M23 33l17-15M28 29l15 17' stroke='${fg}' stroke-width='5' stroke-linecap='round' stroke-linejoin='round'/></svg>`;
+        let link = document.querySelector("link[rel='icon']");
+        if (!link) {
+          link = document.createElement("link");
+          link.rel = "icon";
+          document.head.append(link);
+        }
+        link.href = `data:image/svg+xml,${svg}`;
+      }
+
+      function openDialog(dialog) {
+        if (typeof dialog.showModal === "function") dialog.showModal();
+        else dialog.setAttribute("open", "");
+      }
+
+      function showToast(message, type = "info") {
+        window.clearTimeout(toastTimer);
+        const toast = createElement("div", `toast ${type}`, message);
+        els.toastRegion.replaceChildren(toast);
+        toastTimer = window.setTimeout(() => els.toastRegion.replaceChildren(), 4200);
+      }
+
+      function createElement(tag, className = "", text = "") {
+        const element = document.createElement(tag);
+        if (className) element.className = className;
+        if (text !== "") element.textContent = text;
+        return element;
+      }
+
+      function formatTime(milliseconds) {
+        const totalSeconds = Math.max(0, Math.floor((Number(milliseconds) || 0) / 1000));
+        const hours = Math.floor(totalSeconds / 3600);
+        const minutes = Math.floor((totalSeconds % 3600) / 60);
+        const seconds = totalSeconds % 60;
+        if (hours > 0) return `${String(hours).padStart(2, "0")}:${String(minutes).padStart(2, "0")}:${String(seconds).padStart(2, "0")}`;
+        return `${String(minutes).padStart(2, "0")}:${String(seconds).padStart(2, "0")}`;
+      }
+
+      function formatDateTime(value) {
+        if (!value) return "Unknown time";
+        const date = new Date(value);
+        if (Number.isNaN(date.getTime())) return "Unknown time";
+        return new Intl.DateTimeFormat(undefined, { dateStyle: "medium", timeStyle: "short" }).format(date);
+      }
+
+      function structuredCloneSafe(value) {
+        if (typeof structuredClone === "function") return structuredClone(value);
+        return JSON.parse(JSON.stringify(value));
+      }
+    })();
+  </script>
+</body>
+</html>
