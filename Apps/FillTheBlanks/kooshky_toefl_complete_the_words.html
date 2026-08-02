@@ -558,6 +558,7 @@
       font-family: var(--font-ui);
       font-size: clamp(1.08rem, 1.35vw, 1.25rem);
       line-height: 2.05;
+      word-spacing: 0.18em;
       white-space: pre-wrap;
       overflow-wrap: break-word;
     }
@@ -565,7 +566,7 @@
     .word-cloze {
       white-space: nowrap;
       display: inline-flex;
-      align-items: flex-end;
+      align-items: baseline;
       vertical-align: baseline;
       margin-inline: 0.02em;
       max-width: 100%;
@@ -579,25 +580,28 @@
 
     .cloze-char-list {
       display: inline-flex;
-      align-items: flex-end;
-      gap: 0.18em;
-      margin-inline-start: 0.08em;
+      align-items: baseline;
+      gap: 0.13em;
+      margin-inline-start: 0.015em;
+      transform: translateY(-0.14em);
     }
 
     .cloze-char {
-      width: 1.02em;
-      min-width: 1.02em;
-      height: 1.34em;
+      width: 0.92em;
+      min-width: 0.92em;
+      height: 1.16em;
       border: 0;
       border-bottom: 2px solid var(--teal);
       border-radius: 0;
       background: transparent;
       color: var(--text);
-      padding: 0 0.02em 0.06em;
+      padding: 0 0.02em 0.01em;
+      font: inherit;
       font-weight: 700;
-      line-height: 1;
+      line-height: 1.02;
       caret-color: var(--accent);
       text-align: center;
+      vertical-align: baseline;
       box-shadow: none;
     }
 
@@ -944,7 +948,7 @@
       .header-actions { gap: 1px; }
       .nav-link, .icon-button, .compact-button { min-width: 38px; padding-inline: 7px; }
       .overview-grid { grid-template-columns: 1fr; }
-      .passage { padding-inline: 14px; font-size: 1.03rem; }
+      .passage { padding-inline: 14px; font-size: 1.03rem; word-spacing: 0.13em; }
       .cloze-char { width: 0.98em; min-width: 0.98em; }
     }
 
@@ -1184,25 +1188,55 @@
          Example: "yo#(ur)" displays "yo" followed by a two-letter blank.
          ====================================================================== */
       const EXERCISES = [
-        {
-          id: "sample-campus-garden",
-          title: "A Campus Garden",
-          text: "A community garden can transform an unused corner of a university campus. Students of#(ten) work together to pl#(ant) vegetables, maintain the soil, and sh#(are) the harvest. The project al#(so) creates a quiet place where people can relax between classes. Because participants meet regu#(larly), they learn respo#(nsibility) and develop a stronger sense of commu#(nity). They must solve practi#(cal) problems together, and bo#(th) cooperation and patience are necessary for the garden to remain succe#(ssful)."
-        },
-        {
-          id: "sample-sleep-and-memory",
-          title: "Sleep and Memory",
-          text: "Sleep plays an important role in learning. During the ni#(ght), the brain does not simply stop working; inst#(ead), it organizes recently acquired information. Researchers have fo#(und) that people often remember material better after adequate sleep. This pattern sugg#(ests) that rest helps fragile new memories become more sta#(ble). Adequate sleep may al#(so) improve atten#(tion), allowing students to work more effe#(ctively). For this reason, suffi#(cient) rest and consistent sleep hab#(its) can support academic performance."
-        },
-        {
-          id: "sample-public-libraries",
-          title: "Public Libraries Today",
-          text: "Modern public libraries provide far more than shelves of printed books. Many offer internet access, digital media, workshops, and quiet rooms for study. These services are particu#(larly) valuable to people who lack reliable techno#(logy) at home. Librarians al#(so) help visitors evaluate sources and locate trustworthy informa#(tion). By keeping useful resou#(rces) freely acces#(sible), libraries support borro#(wers) of many ages and backgrounds. As commu#(nity) needs change, libraries cont#(inue) to adapt while preserving broad access to knowledge and opportu#(nity)."
-        }
+              {
+                      "id": "mars-water-evidence",
+                      "title": "Mars: Evidence of Ancient Water",
+                      "text": "Despite Mars's bleak, cold climate today, there is abundant geologic evidence that liquid water once flowed on the Martian surface (and even recent evidence that some water still periodically flows today). The evid#(ence) of pa#(st) flows inc#(ludes) river chan#(nels), now d#(ry), that were on#(ce) carved by powe#(rful) floods, valley networks of branching str#(eams) and tributaries indic#(ating) precipitation falling over wide areas, river deltas and layered sediments sugge#(sting) flow in#(to) standing bodies of liq#(uid) water, and salt and other mine#(rals) that diss#(olved) in liquid water and were left behind when water evap#(orated). When that anc#(ient) wet period existed and when it ended is difficult to say."
+              },
+              {
+                      "id": "dating-mars-surface",
+                      "title": "Dating a Surface",
+                      "text": "The best method for dating a surface uses radioactivity, the process by which certain elements decay over time. O#(ne) collects rocks fr#(om) the sur#(face) and meas#(ures) their radio#(active) elements to see how much of the de#(cay) products have accum#(ulated) in the rock si#(nce) it formed. Transferring th#(is) age to the age of the surface can be tri#(cky) unless one knows wh#(ere) the rock came from. And one needs to collect the samples and bring them to a well-equ#(ipped) laboratory."
+              },
+              {
+                      "id": "mars-wet-but-not-warm",
+                      "title": "Was Mars Warm?",
+                      "text": "We know that Mars was wet billions of years ago, but was it also warm? There co#(uld) have been catast#(rophic) floods rele#(ased) from under#(ground) aquifers (layers of rocks that can contain water) where the top sur#(face) of the water fr#(oze) like the top of a Hawaiian lava flow. The solid crust forms an insu#(lating) layer, trap#(ping) the heat of the liquid and allowing it to flow for great dist#(ances) without freezing. La#(va) tubes on Hawaii are empty chan#(nels) where lava once flo#(wed) in this way. Thus, the cli#(mate) of Mars could have been wet but not warm, with the water flowing enti#(rely) under the ice. Ice sheets and glac#(iers) on Earth today have exte#(nsive) plumbing systems that allow water to flow and then dra#(in) away. Liquid water at the base of glaciers acts as a temporary lubr#(icant) and allows them to surge and sl#(ide) downhill. Flood channels, river deltas, and standing bodies of liquid water all could have existed on Mars under thick layers of ice. The wet-but-not-warm hypothesis has the most trouble with areas that imply sources like precipitation over a wide area rather than the bursting of an underground aquifer. Further study of Mars's geology will clarify these issues."
+              },
+              {
+                      "id": "guam-native-species",
+                      "title": "Guam and the Brown Tree Snake",
+                      "text": "Guam is the largest island of Micronesia and, like many islands, once provided a home to a fantastic assemblage of native birds, reptiles, and mammals. The va#(st) majority of these spe#(cies) are now ext#(inct), and the rema#(ining) ones are thre#(atened) with ext#(inction). Although many factors contr#(ibuted) to the lo#(ss) of species, the prin#(cipal) cause is the inva#(sive) brown tree snake."
+              },
+              {
+                      "id": "brown-tree-snake-arrival",
+                      "title": "How the Snake Reached Guam",
+                      "text": "During the Second World War, the United States Navy established a large naval base on Guam. With the end of the war in 1945, the base pro#(ved) useful for reco#(vering) abandoned war mate#(rials) from the reg#(ion), in particular, vehi#(cles), airc#(raft), and other supp#(lies) from New Guinea where these items may have sat unu#(sed) for some time. The brown tree snake is nat#(ive) to New Guinea and other regions of Australasia. It is typically nocturnal, and during the day, rests wit#(hin) crevices and ho#(les) that pro#(vide) good cover. It is com#(monly) found in wheel wells on airplanes, under the ho#(ods) of cars, and in boxes of car#(go), and most biologists think the brown tree snake was a hitch#(hiker) within surp#(lus) Navy equipment brought to Guam from New Guinea in the postwar years of 1945-1950."
+              },
+              {
+                      "id": "guam-food-web",
+                      "title": "Changes in Guam's Food Web",
+                      "text": "There have been many losses of native forest animals on Guam. Conse#(quently), the fo#(od) web of Guam's fore#(sts) (the domi#(nant) native hab#(itat)) has shi#(fted) dramatically. The most stri#(king) change is the reorgan#(ization) of the web to one i#(n) which most compo#(nents) are nonna#(tive). Beyond the brown tree snake, the Polynesian rat, Philippine turtledove, and the house mouse, among other nonnative species, have been success#(ively) established. Three native lizards sur#(vive) in Guam's forests. All the lizards are small and active during day#(light). O#(ne) would ass#(ume) that, with the destr#(uction) of the native food web, the brown tree snake would suf#(fer) from a lack of food reso#(urces), but the avai#(lable) pool of invasive pr#(ey) and native lizards main#(tains) tree snake densi#(ties). Consequently, native species went extinct with no corres#(ponding) negative effect on the tree snake. The tree snake even seems to be adap#(ting) to the diurnal habits of the remaining native lizards, since biologists have docu#(mented) a shift in the tree snake's previ#(ously) nocturnal activity pat#(tern) to one that incre#(asingly) includes activity during daylight hours."
+              },
+              {
+                      "id": "guam-web-complexity",
+                      "title": "Consequences for Guam",
+                      "text": "The redu#(ction) in the compl#(exity) of the Guam food web has had conse#(quences) bey#(ond) the lo#(ss) of native animals. The loss of mammalian and avian insectivores presu#(mably) increased insect abund#(ances) at some cost to agric#(ultural) crops and to crop prod#(uction). And newly intro#(duced) nonnative species may find it easy to inv#(ade) Guam given the many \"open niches\" le#(ft) by the loss of native species."
+              },
+              {
+                      "id": "early-metallurgy",
+                      "title": "The Rise of Metallurgy",
+                      "text": "Metal-production technologies (metallurgy) have had a profound influence on the course of human history. As#(ide) from gold, used for jew#(elry) and orname#(ntation), the first metal to be wid#(ely) used was copper, with smelting (the process of extra#(cting) metal from ore by hea#(ting)) beginning by 5000 B.C.E. in mod#(ern)-day Serbia. Production of bronze from copper and tin began by 2800 B.C.E. in Anatolia, in what is mod#(ern)-day Turkey. Ne#(xt) was iron, with smelting starting around 1500 B.C.E. in Anatolia and spre#(ading) to Europe by 1100 B.C.E. Although iron production was difficult and com#(plex), this metal's greater hard#(ness) made tools and wea#(pons) far supe#(rior) to those made from copper and bronze."
+              },
+              {
+                      "id": "iron-in-africa",
+                      "title": "Iron Production in Africa",
+                      "text": "For a long time, scholars believed that iron production came to sub-Saharan Africa from Anatolia. One rea#(son) for this is th#(at) iron smelting requ#(ires) conside#(rable) knowledge and exper#(ience), yet there was no evid#(ence) for prev#(ious) metals technology in Africa. In part#(icular), there seemed to have been no copper metallurgy, a likely precu#(rsor) to iron production. Since Anatolia did possess the nece#(ssary) knowledge and skill, it seemed to be a plau#(sible) source."
+              }
       ];
 
       const APP_ID = "kooshky-toefl-2026-complete-words";
-      const APP_VERSION = "1.2.0";
+      const APP_VERSION = "1.5.0";
       const SCHEMA_VERSION = 3;
       const STORAGE_KEY = "kooshky-apps:toefl-2026-complete-words:progress:v1:4f2d91b7-7e6a-4b52-a6f8-20260802";
       const THEME_KEY = "kooshky-guides:theme:v1";
