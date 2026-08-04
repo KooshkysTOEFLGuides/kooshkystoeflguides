@@ -1,9 +1,11 @@
 <!doctype html>
 <html lang="en" data-theme="light">
+
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
-  <meta name="description" content="Practice TOEFL 2026 Complete the Words reading exercises with saved progress, detailed feedback, timing, and mistake review.">
+  <meta name="description"
+    content="Practice TOEFL 2026 Complete the Words reading exercises with saved progress, detailed feedback, timing, and mistake review.">
   <title>TOEFL Complete the Words Practice — Separate Character Fields | Kooshky’s TOEFL Guides</title>
 
   <!-- BUILD: separate-character-fields-v2-20260802 -->
@@ -14,7 +16,7 @@
       try {
         const saved = localStorage.getItem(THEME_KEY);
         if (saved === "light" || saved === "dark") theme = saved;
-      } catch (_) {}
+      } catch (_) { }
       document.documentElement.dataset.theme = theme;
       document.documentElement.style.colorScheme = theme;
     })();
@@ -22,7 +24,9 @@
 
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@400;500;600;700&family=Literata:opsz,wght@7..72,600;7..72,700&display=swap" rel="stylesheet">
+  <link
+    href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@400;500;600;700&family=Literata:opsz,wght@7..72,600;7..72,700&display=swap"
+    rel="stylesheet">
 
   <style>
     :root {
@@ -78,9 +82,15 @@
       --shadow: 0 12px 32px rgba(0, 0, 0, 0.28);
     }
 
-    *, *::before, *::after { box-sizing: border-box; }
+    *,
+    *::before,
+    *::after {
+      box-sizing: border-box;
+    }
 
-    html { scroll-behavior: smooth; }
+    html {
+      scroll-behavior: smooth;
+    }
 
     body {
       margin: 0;
@@ -94,12 +104,36 @@
       text-rendering: optimizeLegibility;
     }
 
-    button, input, select { font: inherit; }
-    button, a, input, select { -webkit-tap-highlight-color: transparent; }
-    button { color: inherit; }
-    a { color: var(--teal); text-underline-offset: 0.18em; }
-    img, svg { display: block; }
-    [hidden] { display: none !important; }
+    button,
+    input,
+    select {
+      font: inherit;
+    }
+
+    button,
+    a,
+    input,
+    select {
+      -webkit-tap-highlight-color: transparent;
+    }
+
+    button {
+      color: inherit;
+    }
+
+    a {
+      color: var(--teal);
+      text-underline-offset: 0.18em;
+    }
+
+    img,
+    svg {
+      display: block;
+    }
+
+    [hidden] {
+      display: none !important;
+    }
 
     :focus-visible {
       outline: 3px solid var(--focus);
@@ -119,7 +153,9 @@
       border: 1px solid var(--border);
     }
 
-    .skip-link:focus { transform: translateY(0); }
+    .skip-link:focus {
+      transform: translateY(0);
+    }
 
     .site-header {
       position: sticky;
@@ -172,7 +208,9 @@
       gap: 6px;
     }
 
-    .nav-link, .icon-button, .compact-button {
+    .nav-link,
+    .icon-button,
+    .compact-button {
       min-height: 40px;
       border-radius: var(--radius-sm);
       border: 1px solid transparent;
@@ -188,7 +226,9 @@
       cursor: pointer;
     }
 
-    .nav-link:hover, .icon-button:hover, .compact-button:hover {
+    .nav-link:hover,
+    .icon-button:hover,
+    .compact-button:hover {
       border-color: var(--border);
       background: var(--surface-elevated);
     }
@@ -224,9 +264,13 @@
       margin-bottom: 18px;
     }
 
-    .title-copy { min-width: 0; }
+    .title-copy {
+      min-width: 0;
+    }
 
-    h1, h2, h3 {
+    h1,
+    h2,
+    h3 {
       font-family: var(--font-heading);
       line-height: 1.18;
       margin-top: 0;
@@ -238,8 +282,13 @@
       letter-spacing: -0.025em;
     }
 
-    h2 { font-size: clamp(1.35rem, 2.2vw, 1.8rem); }
-    h3 { font-size: 1.07rem; }
+    h2 {
+      font-size: clamp(1.35rem, 2.2vw, 1.8rem);
+    }
+
+    h3 {
+      font-size: 1.07rem;
+    }
 
     .subtitle {
       margin: 0;
@@ -277,8 +326,14 @@
       background: var(--teal-soft);
     }
 
-    .button:active:not(:disabled) { transform: translateY(1px); }
-    .button:disabled { opacity: 0.55; cursor: not-allowed; }
+    .button:active:not(:disabled) {
+      transform: translateY(1px);
+    }
+
+    .button:disabled {
+      opacity: 0.55;
+      cursor: not-allowed;
+    }
 
     .button.primary {
       border-color: var(--accent);
@@ -286,7 +341,9 @@
       color: #fff;
     }
 
-    html[data-theme="dark"] .button.primary { color: #1A130F; }
+    html[data-theme="dark"] .button.primary {
+      color: #1A130F;
+    }
 
     .button.primary:hover:not(:disabled) {
       background: var(--accent-strong);
@@ -299,7 +356,9 @@
       color: #fff;
     }
 
-    html[data-theme="dark"] .button.teal { color: #102123; }
+    html[data-theme="dark"] .button.teal {
+      color: #102123;
+    }
 
     .button.danger {
       border-color: color-mix(in srgb, var(--danger) 55%, var(--border));
@@ -354,7 +413,9 @@
       margin-bottom: 14px;
     }
 
-    .field { min-width: 0; }
+    .field {
+      min-width: 0;
+    }
 
     .field label {
       display: block;
@@ -364,7 +425,8 @@
       font-weight: 650;
     }
 
-    .text-input, .select-input {
+    .text-input,
+    .select-input {
       width: 100%;
       min-height: 42px;
       border: 1px solid var(--border);
@@ -374,7 +436,9 @@
       padding: 9px 11px;
     }
 
-    .text-input::placeholder { color: color-mix(in srgb, var(--muted) 76%, transparent); }
+    .text-input::placeholder {
+      color: color-mix(in srgb, var(--muted) 76%, transparent);
+    }
 
     .exercise-list {
       display: grid;
@@ -416,7 +480,9 @@
       font-weight: 700;
     }
 
-    .exercise-card-copy { min-width: 0; }
+    .exercise-card-copy {
+      min-width: 0;
+    }
 
     .exercise-card h3 {
       margin: 0 0 5px;
@@ -445,10 +511,21 @@
       background: var(--muted);
     }
 
-    .status.in-progress { color: var(--warning); }
-    .status.in-progress .status-dot { background: var(--warning); }
-    .status.completed { color: var(--success); }
-    .status.completed .status-dot { background: var(--success); }
+    .status.in-progress {
+      color: var(--warning);
+    }
+
+    .status.in-progress .status-dot {
+      background: var(--warning);
+    }
+
+    .status.completed {
+      color: var(--success);
+    }
+
+    .status.completed .status-dot {
+      background: var(--success);
+    }
 
     .score-chip {
       min-width: 74px;
@@ -468,7 +545,9 @@
       pointer-events: none;
     }
 
-    .exercise-card[data-clickable="true"] { cursor: pointer; }
+    .exercise-card[data-clickable="true"] {
+      cursor: pointer;
+    }
 
     .empty-state {
       padding: 34px 20px;
@@ -476,8 +555,16 @@
       color: var(--muted);
     }
 
-    .empty-state h2, .empty-state h3 { color: var(--text); margin-bottom: 8px; }
-    .empty-state p { margin: 0 auto 16px; max-width: 560px; }
+    .empty-state h2,
+    .empty-state h3 {
+      color: var(--text);
+      margin-bottom: 8px;
+    }
+
+    .empty-state p {
+      margin: 0 auto 16px;
+      max-width: 560px;
+    }
 
     /* Exercise view */
     .exercise-topbar {
@@ -488,7 +575,9 @@
       margin-bottom: 14px;
     }
 
-    .exercise-heading-wrap { min-width: 0; }
+    .exercise-heading-wrap {
+      min-width: 0;
+    }
 
     .back-button {
       margin-bottom: 9px;
@@ -542,7 +631,10 @@
       align-items: start;
     }
 
-    .passage-panel { min-width: 0; overflow: hidden; }
+    .passage-panel {
+      min-width: 0;
+      overflow: hidden;
+    }
 
     .instruction-strip {
       padding: 13px 18px;
@@ -576,7 +668,9 @@
       color: var(--teal-strong);
     }
 
-    .cloze-prefix { white-space: pre; }
+    .cloze-prefix {
+      white-space: pre;
+    }
 
     .cloze-char-list {
       display: inline-flex;
@@ -678,8 +772,13 @@
       font-size: 0.71em;
     }
 
-    .feedback-word-correct .cloze-prefix { color: var(--success); }
-    .feedback-word-wrong .cloze-prefix { color: var(--danger); }
+    .feedback-word-correct .cloze-prefix {
+      color: var(--success);
+    }
+
+    .feedback-word-wrong .cloze-prefix {
+      color: var(--danger);
+    }
 
     .sidebar {
       min-width: 0;
@@ -689,8 +788,13 @@
       gap: 12px;
     }
 
-    .side-panel { padding: 15px; }
-    .side-panel h3 { margin: 0 0 10px; }
+    .side-panel {
+      padding: 15px;
+    }
+
+    .side-panel h3 {
+      margin: 0 0 10px;
+    }
 
     .blank-progress-label {
       display: flex;
@@ -730,7 +834,9 @@
       font-size: 0.86rem;
     }
 
-    .keyboard-help li + li { margin-top: 5px; }
+    .keyboard-help li+li {
+      margin-top: 5px;
+    }
 
     kbd {
       min-width: 1.65em;
@@ -772,8 +878,14 @@
       font-size: 0.86rem;
     }
 
-    .sidebar-actions { display: grid; gap: 8px; }
-    .sidebar-actions .button { width: 100%; }
+    .sidebar-actions {
+      display: grid;
+      gap: 8px;
+    }
+
+    .sidebar-actions .button {
+      width: 100%;
+    }
 
     .exercise-bottom-actions {
       display: none;
@@ -791,9 +903,15 @@
       margin-bottom: 14px;
     }
 
-    .mistakes-summary p { margin: 0; color: var(--muted); }
+    .mistakes-summary p {
+      margin: 0;
+      color: var(--muted);
+    }
 
-    .mistake-list { display: grid; gap: 10px; }
+    .mistake-list {
+      display: grid;
+      gap: 10px;
+    }
 
     .mistake-card {
       min-width: 0;
@@ -807,15 +925,47 @@
       border-radius: var(--radius-md);
     }
 
-    .mistake-card-title { min-width: 0; }
-    .mistake-card-title strong { display: block; overflow-wrap: anywhere; }
-    .mistake-card-title span { display: block; margin-top: 3px; color: var(--muted); font-size: 0.82rem; }
+    .mistake-card-title {
+      min-width: 0;
+    }
 
-    .mistake-field { min-width: 0; }
-    .mistake-field-label { display: block; color: var(--muted); font-size: 0.76rem; font-weight: 650; }
-    .mistake-field-value { display: block; margin-top: 3px; font-weight: 700; overflow-wrap: anywhere; }
-    .mistake-field-value.danger { color: var(--danger); }
-    .mistake-field-value.success { color: var(--success); }
+    .mistake-card-title strong {
+      display: block;
+      overflow-wrap: anywhere;
+    }
+
+    .mistake-card-title span {
+      display: block;
+      margin-top: 3px;
+      color: var(--muted);
+      font-size: 0.82rem;
+    }
+
+    .mistake-field {
+      min-width: 0;
+    }
+
+    .mistake-field-label {
+      display: block;
+      color: var(--muted);
+      font-size: 0.76rem;
+      font-weight: 650;
+    }
+
+    .mistake-field-value {
+      display: block;
+      margin-top: 3px;
+      font-weight: 700;
+      overflow-wrap: anywhere;
+    }
+
+    .mistake-field-value.danger {
+      color: var(--danger);
+    }
+
+    .mistake-field-value.success {
+      color: var(--success);
+    }
 
     /* Dialogs and notifications */
     dialog {
@@ -830,11 +980,22 @@
       box-shadow: var(--shadow);
     }
 
-    dialog::backdrop { background: rgba(0, 0, 0, 0.48); }
+    dialog::backdrop {
+      background: rgba(0, 0, 0, 0.48);
+    }
 
-    .dialog-body { padding: 22px; }
-    .dialog-body h2 { margin-bottom: 9px; }
-    .dialog-body p { color: var(--muted); }
+    .dialog-body {
+      padding: 22px;
+    }
+
+    .dialog-body h2 {
+      margin-bottom: 9px;
+    }
+
+    .dialog-body p {
+      color: var(--muted);
+    }
+
     .dialog-actions {
       display: flex;
       flex-wrap: wrap;
@@ -865,8 +1026,13 @@
       pointer-events: auto;
     }
 
-    .toast.error { border-left-color: var(--danger); }
-    .toast.success { border-left-color: var(--success); }
+    .toast.error {
+      border-left-color: var(--danger);
+    }
+
+    .toast.success {
+      border-left-color: var(--success);
+    }
 
     .site-footer {
       border-top: 1px solid var(--border);
@@ -885,7 +1051,11 @@
       font-size: 0.88rem;
     }
 
-    .footer-links { display: flex; flex-wrap: wrap; gap: 12px; }
+    .footer-links {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 12px;
+    }
 
     .visually-hidden {
       position: absolute !important;
@@ -900,60 +1070,203 @@
     }
 
     @media (max-width: 900px) {
-      .overview-grid { grid-template-columns: repeat(2, minmax(0, 1fr)); }
-      .exercise-layout { grid-template-columns: 1fr; }
-      .sidebar { position: static; grid-template-columns: repeat(2, minmax(0, 1fr)); }
-      .sidebar .score-panel, .sidebar .sidebar-actions { grid-column: span 2; }
-      .exercise-bottom-actions { display: flex; }
-      .mistake-card { grid-template-columns: repeat(2, minmax(0, 1fr)); }
-      .mistake-card-title { grid-column: span 2; }
-      .mistake-card .button { justify-self: start; }
+      .overview-grid {
+        grid-template-columns: repeat(2, minmax(0, 1fr));
+      }
+
+      .exercise-layout {
+        grid-template-columns: 1fr;
+      }
+
+      .sidebar {
+        position: static;
+        grid-template-columns: repeat(2, minmax(0, 1fr));
+      }
+
+      .sidebar .score-panel,
+      .sidebar .sidebar-actions {
+        grid-column: span 2;
+      }
+
+      .exercise-bottom-actions {
+        display: flex;
+      }
+
+      .mistake-card {
+        grid-template-columns: repeat(2, minmax(0, 1fr));
+      }
+
+      .mistake-card-title {
+        grid-column: span 2;
+      }
+
+      .mistake-card .button {
+        justify-self: start;
+      }
     }
 
     @media (max-width: 720px) {
-      .header-inner, .app-shell, .footer-inner { width: min(calc(100% - 22px), var(--content-max)); }
-      .brand-text { display: none; }
-      .header-actions .nav-label { display: none; }
-      .nav-link, .compact-button { padding-inline: 9px; }
-      .title-row { align-items: flex-start; flex-direction: column; }
-      .title-actions { width: 100%; justify-content: flex-start; }
-      .dashboard-toolbar { grid-template-columns: 1fr 1fr; }
-      .dashboard-toolbar .toolbar-actions { grid-column: span 2; }
-      .exercise-list { grid-template-columns: 1fr; }
-      .exercise-topbar { grid-template-columns: 1fr; }
-      .timer-card { justify-self: start; min-width: 118px; }
-      .passage { padding: 22px 18px; line-height: 1.95; }
-      .footer-inner { flex-direction: column; align-items: flex-start; }
+
+      .header-inner,
+      .app-shell,
+      .footer-inner {
+        width: min(calc(100% - 22px), var(--content-max));
+      }
+
+      .brand-text {
+        display: none;
+      }
+
+      .header-actions .nav-label {
+        display: none;
+      }
+
+      .nav-link,
+      .compact-button {
+        padding-inline: 9px;
+      }
+
+      .title-row {
+        align-items: flex-start;
+        flex-direction: column;
+      }
+
+      .title-actions {
+        width: 100%;
+        justify-content: flex-start;
+      }
+
+      .dashboard-toolbar {
+        grid-template-columns: 1fr 1fr;
+      }
+
+      .dashboard-toolbar .toolbar-actions {
+        grid-column: span 2;
+      }
+
+      .exercise-list {
+        grid-template-columns: 1fr;
+      }
+
+      .exercise-topbar {
+        grid-template-columns: 1fr;
+      }
+
+      .timer-card {
+        justify-self: start;
+        min-width: 118px;
+      }
+
+      .passage {
+        padding: 22px 18px;
+        line-height: 1.95;
+      }
+
+      .footer-inner {
+        flex-direction: column;
+        align-items: flex-start;
+      }
     }
 
     @media (max-width: 520px) {
-      .app-shell { padding-top: 18px; }
-      .overview-grid { grid-template-columns: 1fr 1fr; gap: 8px; }
-      .stat-card { padding: 13px; }
-      .dashboard-toolbar { grid-template-columns: 1fr; }
-      .dashboard-toolbar .toolbar-actions { grid-column: auto; }
-      .title-actions .button { flex: 1 1 145px; }
-      .exercise-card { grid-template-columns: auto minmax(0, 1fr); }
-      .score-chip { grid-column: 2; justify-self: start; }
-      .sidebar { grid-template-columns: 1fr; }
-      .sidebar .score-panel, .sidebar .sidebar-actions { grid-column: auto; }
-      .exercise-bottom-actions { flex-direction: column; }
-      .mistakes-summary { align-items: flex-start; flex-direction: column; }
-      .mistake-card { grid-template-columns: 1fr; }
-      .mistake-card-title { grid-column: auto; }
-      .dialog-actions .button { flex: 1 1 140px; }
+      .app-shell {
+        padding-top: 18px;
+      }
+
+      .overview-grid {
+        grid-template-columns: 1fr 1fr;
+        gap: 8px;
+      }
+
+      .stat-card {
+        padding: 13px;
+      }
+
+      .dashboard-toolbar {
+        grid-template-columns: 1fr;
+      }
+
+      .dashboard-toolbar .toolbar-actions {
+        grid-column: auto;
+      }
+
+      .title-actions .button {
+        flex: 1 1 145px;
+      }
+
+      .exercise-card {
+        grid-template-columns: auto minmax(0, 1fr);
+      }
+
+      .score-chip {
+        grid-column: 2;
+        justify-self: start;
+      }
+
+      .sidebar {
+        grid-template-columns: 1fr;
+      }
+
+      .sidebar .score-panel,
+      .sidebar .sidebar-actions {
+        grid-column: auto;
+      }
+
+      .exercise-bottom-actions {
+        flex-direction: column;
+      }
+
+      .mistakes-summary {
+        align-items: flex-start;
+        flex-direction: column;
+      }
+
+      .mistake-card {
+        grid-template-columns: 1fr;
+      }
+
+      .mistake-card-title {
+        grid-column: auto;
+      }
+
+      .dialog-actions .button {
+        flex: 1 1 140px;
+      }
     }
 
     @media (max-width: 380px) {
-      .header-actions { gap: 1px; }
-      .nav-link, .icon-button, .compact-button { min-width: 38px; padding-inline: 7px; }
-      .overview-grid { grid-template-columns: 1fr; }
-      .passage { padding-inline: 14px; font-size: 1.03rem; word-spacing: 0.13em; }
-      .cloze-char { width: 0.98em; min-width: 0.98em; }
+      .header-actions {
+        gap: 1px;
+      }
+
+      .nav-link,
+      .icon-button,
+      .compact-button {
+        min-width: 38px;
+        padding-inline: 7px;
+      }
+
+      .overview-grid {
+        grid-template-columns: 1fr;
+      }
+
+      .passage {
+        padding-inline: 14px;
+        font-size: 1.03rem;
+        word-spacing: 0.13em;
+      }
+
+      .cloze-char {
+        width: 0.98em;
+        min-width: 0.98em;
+      }
     }
 
     @media (prefers-reduced-motion: reduce) {
-      *, *::before, *::after {
+
+      *,
+      *::before,
+      *::after {
         scroll-behavior: auto !important;
         transition-duration: 0.01ms !important;
         animation-duration: 0.01ms !important;
@@ -962,6 +1275,7 @@
     }
   </style>
 </head>
+
 <body>
   <a class="skip-link" href="#app-main">Skip to practice</a>
 
@@ -974,19 +1288,31 @@
 
       <nav class="header-actions" aria-label="Primary navigation">
         <a class="nav-link" id="header-home-link" href="/">
-          <svg class="icon" viewBox="0 0 24 24" aria-hidden="true"><path fill="currentColor" d="M12 3.2 3.5 10v10.2h6v-6.1h5v6.1h6V10L12 3.2Zm6.5 15h-2v-6.1h-9v6.1h-2V11l6.5-5.2 6.5 5.2v7.2Z"/></svg>
+          <svg class="icon" viewBox="0 0 24 24" aria-hidden="true">
+            <path fill="currentColor"
+              d="M12 3.2 3.5 10v10.2h6v-6.1h5v6.1h6V10L12 3.2Zm6.5 15h-2v-6.1h-9v6.1h-2V11l6.5-5.2 6.5 5.2v7.2Z" />
+          </svg>
           <span class="nav-label">Home</span>
         </a>
         <button class="nav-link" id="nav-practice" type="button" aria-current="page">
-          <svg class="icon" viewBox="0 0 24 24" aria-hidden="true"><path fill="currentColor" d="M5 3h10.5L19 6.5V21H5V3Zm2 2v14h10V8h-3V5H7Zm2 6h6v2H9v-2Zm0 4h6v2H9v-2Z"/></svg>
+          <svg class="icon" viewBox="0 0 24 24" aria-hidden="true">
+            <path fill="currentColor" d="M5 3h10.5L19 6.5V21H5V3Zm2 2v14h10V8h-3V5H7Zm2 6h6v2H9v-2Zm0 4h6v2H9v-2Z" />
+          </svg>
           <span class="nav-label">Practice</span>
         </button>
         <button class="nav-link" id="nav-mistakes" type="button">
-          <svg class="icon" viewBox="0 0 24 24" aria-hidden="true"><path fill="currentColor" d="M12 2.8 22 20H2L12 2.8Zm0 4L5.5 18h13L12 6.8Zm-1 3.2h2v4.5h-2V10Zm0 6h2v2h-2v-2Z"/></svg>
+          <svg class="icon" viewBox="0 0 24 24" aria-hidden="true">
+            <path fill="currentColor"
+              d="M12 2.8 22 20H2L12 2.8Zm0 4L5.5 18h13L12 6.8Zm-1 3.2h2v4.5h-2V10Zm0 6h2v2h-2v-2Z" />
+          </svg>
           <span class="nav-label">Mistakes</span>
         </button>
-        <button class="icon-button" id="theme-toggle" type="button" aria-label="Switch to dark mode" aria-pressed="false">
-          <svg class="icon theme-icon-light" viewBox="0 0 24 24" aria-hidden="true"><path fill="currentColor" d="M12 7a5 5 0 1 0 0 10 5 5 0 0 0 0-10Zm0-5h1v3h-2V2h1Zm0 17h1v3h-2v-3h1ZM2 11h3v2H2v-2Zm17 0h3v2h-3v-2ZM4.9 3.5 7 5.6 5.6 7 3.5 4.9l1.4-1.4Zm13.5 13.5 2.1 2.1-1.4 1.4-2.1-2.1 1.4-1.4Zm.7-13.5 1.4 1.4L18.4 7 17 5.6l2.1-2.1ZM5.6 17 7 18.4l-2.1 2.1-1.4-1.4L5.6 17Z"/></svg>
+        <button class="icon-button" id="theme-toggle" type="button" aria-label="Switch to dark mode"
+          aria-pressed="false">
+          <svg class="icon theme-icon-light" viewBox="0 0 24 24" aria-hidden="true">
+            <path fill="currentColor"
+              d="M12 7a5 5 0 1 0 0 10 5 5 0 0 0 0-10Zm0-5h1v3h-2V2h1Zm0 17h1v3h-2v-3h1ZM2 11h3v2H2v-2Zm17 0h3v2h-3v-2ZM4.9 3.5 7 5.6 5.6 7 3.5 4.9l1.4-1.4Zm13.5 13.5 2.1 2.1-1.4 1.4-2.1-2.1 1.4-1.4Zm.7-13.5 1.4 1.4L18.4 7 17 5.6l2.1-2.1ZM5.6 17 7 18.4l-2.1 2.1-1.4-1.4L5.6 17Z" />
+          </svg>
         </button>
       </nav>
     </div>
@@ -996,15 +1322,22 @@
     <div class="title-row">
       <div class="title-copy">
         <h1 id="app-title">TOEFL Complete the Words</h1>
-        <p class="subtitle" id="app-subtitle">Complete the missing letters, check each word, and review your recurring mistakes.</p>
+        <p class="subtitle" id="app-subtitle">Complete the missing letters, check each word, and review your recurring
+          mistakes.</p>
       </div>
       <div class="title-actions" id="global-data-actions">
         <button class="button" id="export-button" type="button">
-          <svg class="icon" viewBox="0 0 24 24" aria-hidden="true"><path fill="currentColor" d="M11 3h2v10.2l3.1-3.1 1.4 1.4-5.5 5.5-5.5-5.5 1.4-1.4 3.1 3.1V3ZM4 18h16v3H4v-3Z"/></svg>
+          <svg class="icon" viewBox="0 0 24 24" aria-hidden="true">
+            <path fill="currentColor"
+              d="M11 3h2v10.2l3.1-3.1 1.4 1.4-5.5 5.5-5.5-5.5 1.4-1.4 3.1 3.1V3ZM4 18h16v3H4v-3Z" />
+          </svg>
           Export progress
         </button>
         <button class="button" id="import-button" type="button">
-          <svg class="icon" viewBox="0 0 24 24" aria-hidden="true"><path fill="currentColor" d="M11 21h2V10.8l3.1 3.1 1.4-1.4L12 7l-5.5 5.5 1.4 1.4 3.1-3.1V21ZM4 3h16v3H4V3Z"/></svg>
+          <svg class="icon" viewBox="0 0 24 24" aria-hidden="true">
+            <path fill="currentColor"
+              d="M11 21h2V10.8l3.1 3.1 1.4-1.4L12 7l-5.5 5.5 1.4 1.4 3.1-3.1V21ZM4 3h16v3H4V3Z" />
+          </svg>
           Import progress
         </button>
         <input class="visually-hidden" id="import-file" type="file" accept="application/json,.json">
@@ -1041,7 +1374,9 @@
       <div class="exercise-topbar">
         <div class="exercise-heading-wrap">
           <button class="back-button" id="back-to-list" type="button">
-            <svg class="icon" viewBox="0 0 24 24" aria-hidden="true"><path fill="currentColor" d="m14.7 5.3-1.4-1.4L5.2 12l8.1 8.1 1.4-1.4L8 12l6.7-6.7Z"/></svg>
+            <svg class="icon" viewBox="0 0 24 24" aria-hidden="true">
+              <path fill="currentColor" d="m14.7 5.3-1.4-1.4L5.2 12l8.1 8.1 1.4-1.4L8 12l6.7-6.7Z" />
+            </svg>
             All exercises
           </button>
           <h2 id="exercise-title"></h2>
@@ -1065,7 +1400,9 @@
               <span id="filled-label">0 of 0 filled</span>
               <span id="current-blank-label">Blank 1 of 1</span>
             </div>
-            <div class="progress-track" aria-hidden="true"><div class="progress-fill" id="progress-fill"></div></div>
+            <div class="progress-track" aria-hidden="true">
+              <div class="progress-fill" id="progress-fill"></div>
+            </div>
             <div class="blank-nav">
               <button class="button" id="previous-blank" type="button">Previous</button>
               <button class="button" id="next-blank" type="button">Next</button>
@@ -1127,8 +1464,11 @@
   <dialog id="import-choice-dialog" aria-labelledby="import-choice-title">
     <div class="dialog-body">
       <h2 id="import-choice-title">Import progress</h2>
-      <p>The selected file is valid. Merge it with this browser’s progress, or replace the current progress completely.</p>
-      <p><strong>Merge</strong> keeps the newest checked attempt and combines compatible saved answers. <strong>Replace</strong> removes the current data first.</p>
+      <p>The selected file is valid. Merge it with this browser’s progress, or replace the current progress completely.
+      </p>
+      <p><strong>Merge</strong> keeps the newest checked attempt and combines compatible saved answers.
+        <strong>Replace</strong> removes the current data first.
+      </p>
     </div>
     <div class="dialog-actions">
       <button class="button" id="cancel-import" type="button">Cancel</button>
@@ -1140,7 +1480,8 @@
   <dialog id="replace-confirm-dialog" aria-labelledby="replace-confirm-title">
     <div class="dialog-body">
       <h2 id="replace-confirm-title">Replace current progress?</h2>
-      <p>A backup export of your current progress has just been prepared. Replacing will remove the progress currently stored in this browser and load the imported file instead.</p>
+      <p>A backup export of your current progress has just been prepared. Replacing will remove the progress currently
+        stored in this browser and load the imported file instead.</p>
     </div>
     <div class="dialog-actions">
       <button class="button" id="cancel-replace" type="button">Keep current progress</button>
@@ -1162,7 +1503,8 @@
   <dialog id="reset-all-dialog" aria-labelledby="reset-all-title">
     <div class="dialog-body">
       <h2 id="reset-all-title">Reset all progress?</h2>
-      <p>A backup export will be prepared first. This action removes every saved answer, score, mistake, and timer from this browser.</p>
+      <p>A backup export will be prepared first. This action removes every saved answer, score, mistake, and timer from
+        this browser.</p>
     </div>
     <div class="dialog-actions">
       <button class="button" id="cancel-reset-all" type="button">Cancel</button>
@@ -1188,51 +1530,126 @@
          Example: "yo#(ur)" displays "yo" followed by a two-letter blank.
          ====================================================================== */
       const EXERCISES = [
-              {
-                      "id": "mars-water-evidence",
-                      "title": "Mars: Evidence of Ancient Water",
-                      "text": "Despite Mars's bleak, cold climate today, there is abundant geologic evidence that liquid water once flowed on the Martian surface (and even recent evidence that some water still periodically flows today). The evid#(ence) of pa#(st) flows inc#(ludes) river chan#(nels), now d#(ry), that were on#(ce) carved by powe#(rful) floods, valley networks of branching str#(eams) and tributaries indic#(ating) precipitation falling over wide areas, river deltas and layered sediments sugge#(sting) flow in#(to) standing bodies of liq#(uid) water, and salt and other mine#(rals) that diss#(olved) in liquid water and were left behind when water evap#(orated). When that anc#(ient) wet period existed and when it ended is difficult to say."
-              },
-              {
-                      "id": "dating-mars-surface",
-                      "title": "Dating a Surface",
-                      "text": "The best method for dating a surface uses radioactivity, the process by which certain elements decay over time. O#(ne) collects rocks fr#(om) the sur#(face) and meas#(ures) their radio#(active) elements to see how much of the de#(cay) products have accum#(ulated) in the rock si#(nce) it formed. Transferring th#(is) age to the age of the surface can be tri#(cky) unless one knows wh#(ere) the rock came from. And one needs to collect the samples and bring them to a well-equ#(ipped) laboratory."
-              },
-              {
-                      "id": "mars-wet-but-not-warm",
-                      "title": "Was Mars Warm?",
-                      "text": "We know that Mars was wet billions of years ago, but was it also warm? There co#(uld) have been catast#(rophic) floods rele#(ased) from under#(ground) aquifers (layers of rocks that can contain water) where the top sur#(face) of the water fr#(oze) like the top of a Hawaiian lava flow. The solid crust forms an insu#(lating) layer, trap#(ping) the heat of the liquid and allowing it to flow for great dist#(ances) without freezing. La#(va) tubes on Hawaii are empty chan#(nels) where lava once flo#(wed) in this way. Thus, the cli#(mate) of Mars could have been wet but not warm, with the water flowing enti#(rely) under the ice. Ice sheets and glac#(iers) on Earth today have exte#(nsive) plumbing systems that allow water to flow and then dra#(in) away. Liquid water at the base of glaciers acts as a temporary lubr#(icant) and allows them to surge and sl#(ide) downhill. Flood channels, river deltas, and standing bodies of liquid water all could have existed on Mars under thick layers of ice. The wet-but-not-warm hypothesis has the most trouble with areas that imply sources like precipitation over a wide area rather than the bursting of an underground aquifer. Further study of Mars's geology will clarify these issues."
-              },
-              {
-                      "id": "guam-native-species",
-                      "title": "Guam and the Brown Tree Snake",
-                      "text": "Guam is the largest island of Micronesia and, like many islands, once provided a home to a fantastic assemblage of native birds, reptiles, and mammals. The va#(st) majority of these spe#(cies) are now ext#(inct), and the rema#(ining) ones are thre#(atened) with ext#(inction). Although many factors contr#(ibuted) to the lo#(ss) of species, the prin#(cipal) cause is the inva#(sive) brown tree snake."
-              },
-              {
-                      "id": "brown-tree-snake-arrival",
-                      "title": "How the Snake Reached Guam",
-                      "text": "During the Second World War, the United States Navy established a large naval base on Guam. With the end of the war in 1945, the base pro#(ved) useful for reco#(vering) abandoned war mate#(rials) from the reg#(ion), in particular, vehi#(cles), airc#(raft), and other supp#(lies) from New Guinea where these items may have sat unu#(sed) for some time. The brown tree snake is nat#(ive) to New Guinea and other regions of Australasia. It is typically nocturnal, and during the day, rests wit#(hin) crevices and ho#(les) that pro#(vide) good cover. It is com#(monly) found in wheel wells on airplanes, under the ho#(ods) of cars, and in boxes of car#(go), and most biologists think the brown tree snake was a hitch#(hiker) within surp#(lus) Navy equipment brought to Guam from New Guinea in the postwar years of 1945-1950."
-              },
-              {
-                      "id": "guam-food-web",
-                      "title": "Changes in Guam's Food Web",
-                      "text": "There have been many losses of native forest animals on Guam. Conse#(quently), the fo#(od) web of Guam's fore#(sts) (the domi#(nant) native hab#(itat)) has shi#(fted) dramatically. The most stri#(king) change is the reorgan#(ization) of the web to one i#(n) which most compo#(nents) are nonna#(tive). Beyond the brown tree snake, the Polynesian rat, Philippine turtledove, and the house mouse, among other nonnative species, have been success#(ively) established. Three native lizards sur#(vive) in Guam's forests. All the lizards are small and active during day#(light). O#(ne) would ass#(ume) that, with the destr#(uction) of the native food web, the brown tree snake would suf#(fer) from a lack of food reso#(urces), but the avai#(lable) pool of invasive pr#(ey) and native lizards main#(tains) tree snake densi#(ties). Consequently, native species went extinct with no corres#(ponding) negative effect on the tree snake. The tree snake even seems to be adap#(ting) to the diurnal habits of the remaining native lizards, since biologists have docu#(mented) a shift in the tree snake's previ#(ously) nocturnal activity pat#(tern) to one that incre#(asingly) includes activity during daylight hours."
-              },
-              {
-                      "id": "guam-web-complexity",
-                      "title": "Consequences for Guam",
-                      "text": "The redu#(ction) in the compl#(exity) of the Guam food web has had conse#(quences) bey#(ond) the lo#(ss) of native animals. The loss of mammalian and avian insectivores presu#(mably) increased insect abund#(ances) at some cost to agric#(ultural) crops and to crop prod#(uction). And newly intro#(duced) nonnative species may find it easy to inv#(ade) Guam given the many \"open niches\" le#(ft) by the loss of native species."
-              },
-              {
-                      "id": "early-metallurgy",
-                      "title": "The Rise of Metallurgy",
-                      "text": "Metal-production technologies (metallurgy) have had a profound influence on the course of human history. As#(ide) from gold, used for jew#(elry) and orname#(ntation), the first metal to be wid#(ely) used was copper, with smelting (the process of extra#(cting) metal from ore by hea#(ting)) beginning by 5000 B.C.E. in mod#(ern)-day Serbia. Production of bronze from copper and tin began by 2800 B.C.E. in Anatolia, in what is mod#(ern)-day Turkey. Ne#(xt) was iron, with smelting starting around 1500 B.C.E. in Anatolia and spre#(ading) to Europe by 1100 B.C.E. Although iron production was difficult and com#(plex), this metal's greater hard#(ness) made tools and wea#(pons) far supe#(rior) to those made from copper and bronze."
-              },
-              {
-                      "id": "iron-in-africa",
-                      "title": "Iron Production in Africa",
-                      "text": "For a long time, scholars believed that iron production came to sub-Saharan Africa from Anatolia. One rea#(son) for this is th#(at) iron smelting requ#(ires) conside#(rable) knowledge and exper#(ience), yet there was no evid#(ence) for prev#(ious) metals technology in Africa. In part#(icular), there seemed to have been no copper metallurgy, a likely precu#(rsor) to iron production. Since Anatolia did possess the nece#(ssary) knowledge and skill, it seemed to be a plau#(sible) source."
-              }
+        {
+          id: "the-first-transcontinental-railroad",
+          title: "The First Transcontinental Railroad",
+          text: "The First Transcontinental Railroad, completed in 1869, was a major transportation route in the United States that connected the eastern rail network with the Pacific coast. Its constr#(uction) was an extrao#(rdinary) engineering achiev#(ement) and requ#(ired) the develo#(pment) of new meth#(ods) for crossing mount#(ains) and difficult terr#(ain). The railroad grea#(tly) reduced tra#(vel) time and ship#(ping) costs betw#(een) the two sides of the country, encouraging migra#(tion), trade, and economic gro#(wth). The success of the transcontinental line stimu#(lated) the expan#(sion) of additional railways and transpo#(rtation) networks throu#(ghout) the United States."
+        },
+        {
+          id: "expansion-of-vaccination-programs",
+          title: "Expansion Of Vaccination Programs",
+          text: "The expansion of vaccination programs during the nineteenth and twentieth centuries greatly strengthened public health. Scientific adva#(nces) such as impr#(oved) vaccines and organ#(ized) immunization camp#(aigns) grew fr#(om) a better underst#(anding) of how infec#(tious) diseases spr#(ead) and helped cont#(rol) illnesses su#(ch) as smallpox, polio, and measles. Public educa#(tion) efforts, suppo#(rted) by governments and healt#(hcare) workers, informed commun#(ities) about the val#(ue) and saf#(ety) of vaccination. These meas#(ures) played a vit#(al) role in reducing death ra#(tes), preventing epide#(mics), and increasing life expec#(tancy)."
+        },
+        {
+          id: "fern-anatomy",
+          title: "Fern Anatomy",
+          text: "Ferns consist of two main structures: the underground stem and the visible fronds. The stem, kn#(own) as a rhizome, surv#(ives) for ma#(ny) years, whi#(le) new fronds eme#(rge) when temper#(ature) and mois#(ture) conditions are favor#(able). Usually hid#(den) beneath the so#(il), the rhizome prod#(uces) roots that abs#(orb) water and nutri#(ents) from the surro#(unding) ground. The fronds gr#(ow) above the sur#(face) and are respo#(nsible) for photosynthesis and reprod#(uction). Tiny spores deve#(lop) beneath th#(eir) leaves and a#(re) eventually rele#(ased) to pro#(duce) new ferns."
+        },
+        {
+          id: "ice-and-archaeology",
+          title: "Ice And Archaeology",
+          text: "Archaeologists usually investigate human history and prehistory by examining objects preserved in soil and ancient ruins. Occasi#(onally), however, impor#(tant) rema#(ins) are disco#(vered) beneath lay#(ers) of ice. In 1991, hik#(ers) found a natur#(ally) preserved hu#(man) body in the European Alps that dat#(es) back mo#(re) than 5,000 years. Researchers bel#(ieve) the man, now kn#(own) as Ötzi, lived dur#(ing) the Copper Age and died while cros#(sing) the mountains. His clot#(hing), too#(ls), and weap#(ons) rema#(ined) remarkably well preserved, provi#(ding) rare evid#(ence) about prehistoric techn#(ology) and da#(ily) life. The disco#(very) is consi#(dered) one of the most signif#(icant) archaeological fi#(nds) of the twentieth century."
+        },
+        {
+          id: "dyes",
+          title: "Dyes",
+          text: "Dyes are substances used to add color to fabrics, and they can be obtained from many natural sources, including flowers, roots, insects, and minerals. In the pa#(st), textile mak#(ers) often prep#(ared) their o#(wn) dyes by extra#(cting) and combi#(ning) several mater#(ials). This met#(hod) was labor-in#(tensive) and dema#(nded) exten#(sive) knowledge of dyes—their chemical beha#(vior), their react#(ions) with different fibers, and the#(ir) resistance to fad#(ing). However, it also enab#(led) craftspeople to produce textiles with distin#(ctive) and highly indiv#(idual) color combin#(ations)."
+        },
+        {
+          id: "language-development",
+          title: "Language Development",
+          text: "Language development stages are important indicators of a child’s growing communication abilities. They invo#(lve) several are#(as) of progress, incl#(uding) recognizing sou#(nds), understanding wor#(ds), and for#(ming) sentences. One exa#(mple) is spea#(king) a first meani#(ngful) word, which comm#(only) occurs ne#(ar) the age o#(f) twelve mon#(ths). These sta#(ges) help parents and careg#(ivers) observe h#(ow) a child’s commun#(ication) skills are devel#(oping). It is essential to reco#(gnize), however, that th#(ey) serve only as gene#(ral) guidelines, and children may re#(ach) them at different ages."
+        },
+        {
+          id: "study-of-glaciers",
+          title: "Study Of Glaciers",
+          text: "Glaciers are enormous masses of ice that move gradually across Earth’s surface, and their study is essential for understanding environmental and geological change. These fro#(zen) formations res#(hape) the landscape by carv#(ing) valleys, transp#(orting) sediment, and creating lakes as they adva#(nce) and retr#(eat). Scientists exam#(ine) glacier move#(ment) to better understand pa#(st) climates and the ways i#(n) which ris#(ing) temperatures aff#(ect) the planet. Prog#(ress) in this fi#(eld) has greatly impr#(oved) our ability to tr#(ack) climate change, pre#(dict) sea-level ri#(se), and pre#(pare) communities for its conseq#(uences)."
+        },
+        {
+          id: "the-history-of-the-caribbean",
+          title: "The History Of The Caribbean",
+          text: "The history of the Caribbean is shaped by diverse peoples and major historical transformations. Indigenous commun#(ities) established comp#(lex) societies wi#(th) distinctive tradi#(tions), trade netw#(orks), and political syst#(ems). The region’s soc#(ial) and economic struc#(tures) changed dramat#(ically) follo#(wing) European colonization and the expan#(sion) of plantation agricu#(lture). Studying this history prov#(ides) a dee#(per) understanding of cultural exch#(ange) and the las#(ting) influence of pa#(st) events on modern Caribbean societies. Maritime know#(ledge) supported travel and comm#(erce) among the islands, wh#(ile) contemporary movements emph#(asize) cultural preser#(vation), political auto#(nomy), econ#(omic) development, and responses to environmental thr#(eats) affecting coas#(tal) communities."
+        },
+        {
+          id: "planets-in-the-solar-system",
+          title: "Planets In The Solar System",
+          text: "The planets in our solar system are large celestial bodies that travel around the Sun. Ear#(th) is one of the#(se), and it ha#(s) the conditions neces#(sary) to supp#(ort) life. These wor#(lds) differ greatly in si#(ze), temperature, and compos#(ition). Some are roc#(ky), while others cons#(ist) mainly of g#(as) and ice. Scientists kno#(wn) as planetary astronomers stu#(dy) these dist#(ant) bodies to lea#(rn) more about the forma#(tion) of solar systems and the possib#(ility) of life elsewhere."
+        },
+        {
+          id: "art-in-the-bronze-age",
+          title: "Art In The Bronze Age",
+          text: "During the Bronze Age, artisans began producing textiles that fulfilled both practical and symbolic purposes. Initi#(ally) woven to prov#(ide) clothing and prote#(ction), the#(se) fabrics gradually incorporated decorative feat#(ures) such as dyed patt#(erns), embroidered deta#(ils), and comp#(lex) designs. This combin#(ation) of func#(tion) and ornament repre#(sents) an ear#(ly) example of ever#(yday) materials devel#(oping) into for#(ms) of artistic expression. The improv#(ement) of textile techn#(iques), including spinning, weaving, and dyeing, revealed incre#(asing) technical exper#(tise) and refle#(cted) the social val#(ues) of ancient commun#(ities)."
+        },
+        {
+          id: "memory",
+          title: "Memory",
+          text: "Memory refers to the mental systems responsible for encoding, preserving, and recalling information, including experiences, facts, and learned skills. Scientists exam#(ine) the proce#(sses) that supp#(ort) memory forma#(tion), seeking to expl#(ain) how the brain organ#(izes) and reta#(ins) knowledge. Forgetting, the grad#(ual) loss or distortion of sto#(red) information, rema#(ins) a particularly comp#(lex) feature of memory. Theo#(ries) of forgetting invest#(igate) whether memories disap#(pear) over time or bec#(ome) inaccessible because of interf#(erence) from newer experi#(ences). Adva#(nces) in brain-imaging technology prov#(ide) valuable insi#(ghts) into the neural founda#(tions) of memory."
+        },
+        {
+          id: "mobile-banking",
+          title: "Mobile Banking",
+          text: "The growth of mobile banking has changed how people manage and obtain financial services. Mobile banking platf#(orms) allow use#(rs) to tran#(sfer) money, pay bi#(lls), and store fu#(nds) without visi#(ting) a conven#(tional) bank. These serv#(ices) enable indivi#(duals) in rem#(ote) or underserved areas to partic#(ipate) more fully in econ#(omic) activity. By reducing transa#(ction) costs and expan#(ding) access to sec#(ure) payment systems, mobile banking supports finan#(cial) inclusion, encourages entrepre#(neurship), and strengthens local econo#(mies). Understanding this techn#(ology) helps policymakers deve#(lop) effective strat#(egies) for increasing finan#(cial) access."
+        },
+        {
+          id: "naturalism-in-theater",
+          title: "Naturalism In Theater",
+          text: "Naturalism in theater is a movement that developed in the late nineteenth century, seeking to represent human life with scientific accuracy and close attention to detail. It avo#(ids) idealized chara#(cters) and artificial plo#(ts), instead emphas#(izing) ordinary spe#(ech), realistic sett#(ings), and behavior sha#(ped) by social condi#(tions). Naturalist pla#(ys) often exam#(ine) poverty, heredity, and social inequ#(ality), highlighting the powe#(rful) influence of enviro#(nment) and circum#(stance) on individual choices. Naturalism continues to sha#(pe) modern theater by promo#(ting) detailed, unsentimental portr#(ayals) of everyday experience."
+        },
+        {
+          id: "literature-and-the-human-condition",
+          title: "Literature And The Human Condition",
+          text: "Literature has long captured human experience, reflecting society’s values, conflicts, and aspirations. Acr#(oss) different peri#(ods), writers ha#(ve) explored emot#(ions), prese#(rved) traditions, and quest#(ioned) accepted ide#(as). During the Enlightenment, figu#(res) such as Voltaire and Jonathan Swift used rea#(son) and satire to examine poli#(tics) and social injus#(tice), reflecting the era’s emph#(asis) on intellectual free#(dom). Later, movem#(ents) such as Romanticism and Modernism trans#(formed) conventional for#(ms) of storytelling. These traditions encou#(raged) readers to cons#(ider) life from new perspe#(ctives), demonstrating literature’s endu#(ring) power to stimu#(late) thought, influ#(ence) society, and dee#(pen) our understanding of the human condition."
+        },
+        {
+          id: "the-renaissance",
+          title: "The Renaissance",
+          text: "The Renaissance was a period of cultural and intellectual renewal in Europe that lasted from approximately the fourteenth to the seventeenth century. This e#(ra) brought maj#(or) developments, partic#(ularly) the revi#(val) of classical knowl#(edge) and the gro#(wth) of new arti#(stic) and scien#(tific) ideas. Although the move#(ment) began mai#(nly) in weal#(thy) Italian cities, it gradu#(ally) spread acr#(oss) Europe, inspi#(ring) influential achievements in liter#(ature), pain#(ting), archit#(ecture), and explor#(ation) and helping shape the trans#(ition) from the medieval wor#(ld) to the modern a#(ge)."
+        },
+        {
+          id: "wormholes",
+          title: "Wormholes",
+          text: "Space contains countless phenomena that continue to challenge our understanding of the cosmos. Wormholes are hypoth#(etical) passages that cou#(ld) connect distant regi#(ons) of the universe thro#(ugh) a shor#(tcut) in spacetime. Alth#(ough) no wormhole h#(as) ever been obse#(rved), scientists study th#(em) through mathem#(atical) models based o#(n) Einstein’s theory of gravity. Research into wormholes contri#(butes) to modern astrophysics by rais#(ing) important questions about cos#(mic) travel, the struc#(ture) of spacetime, and the fundam#(ental) laws gover#(ning) the universe."
+        },
+        {
+          id: "continental-drift-1",
+          title: "Continental Drift 1",
+          text: "Continental drift refers to the idea that the present continents once formed a single, giant continent called Pangaea, and since that time have been slowly drifting apart. In 1915, the originator of th#(is) idea, the German meteorologist Alfred Wegener, was impre#(ssed) by the close resemb#(lance) of coastlines of continents on oppo#(site) sides of the Atlantic Ocean, partic#(ularly) South America and Africa. Howe#(ver), the configuration of the coastlines resu#(lts) from erosional and depositional proce#(sses) and therefore is const#(antly) being modified, so even if Wegener was right and the continents had separ#(ated) in the dist#(ant) past, it is not likely that the coastlines would fit exac#(tly). But deca#(des) later it was sho#(wn) that the continents fit together well along the continental slope (the broad underwater shelf on the edg#(es) of continents), where eros#(ion) is minimal, and rec#(ent) studies have confi#(rmed) the clo#(se) fit between continents when they are reassembled to form Pangaea."
+        },
+        {
+          id: "stone-sculpture",
+          title: "Stone Sculpture",
+          text: "Stone sculpture was something of a latecomer to Chinese art, starting a thousand years after figures were being made in jade and bronze. Under the first period of the Han dyna#(sty), known as the Western Han (206 B.C.E. - 9 C.E.), it was used mai#(nly) for the tom#(bs) (burial chambers) of empe#(rors) or local rulers, but by the Eastern Han (25 C.E. - 220 C.E.), the second period of Han rule, it had spr#(ead) more wid#(ely). This change was larg#(ely) the result of the incre#(ased) importance of the to#(mb) in the polit#(ical) philosophy of the time. The early Western Han empe#(rors), faced wi#(th) the problem of forging a unified emp#(ire) threatened by upris#(ings) on the part of ambit#(ious) rival kingdoms, had reta#(ined) many of the first emper#(or's) policies based on military for#(ce) and har#(sh) laws. But by the middle of the first century B.C.E., these were being repl#(aced) by an adapt#(ation) of the ideas of the fifth-century B.C.E. philosopher, Confucius, whose philosophy empha#(sized) personal and govern#(mental) morality, to the conditions of a united empire. Believing that in the lo#(ng) run, stability depe#(nded) on an accep#(tance) of the legitimacy of the ruler (and dyna#(sty)) rather than on military for#(ce), Han intelle#(ctuals) and officials adop#(ted) a moral philosophy based on the bel#(ief) that humans are perfectible thro#(ugh) education, and that a hierar#(chical) society consists of a network of recip#(rocal) duties and obliga#(tions): the subject's duty to ob#(ey) the ruler was matched by the ruler's obligation to ca#(re) for his subjects."
+        },
+        {
+          id: "aztec-artifacts",
+          title: "Aztec Artifacts",
+          text: "Most of the material objects produced by the Aztec people of central Mexico during the Late Postclassic period (1350-1521) were manufactured in household settings by household members. Craft skills and knowl#(edge), from weaving to metalwork, were pas#(sed) from parent t#(o) child. Some obje#(cts) were prod#(uced) in small amou#(nts) strictly f#(or) household consumption, b#(ut) many goo#(ds) were produced in larger quant#(ities) and destined f#(or) market exchange. Specialization in the produ#(ction) of goods reac#(hed) a high level of diver#(sity) and inten#(sity) during these tim#(es). In pa#(rt), this was poss#(ible) because o#(f) the food surpl#(uses) created b#(y) increasingly intense systems of agricu#(lture), comple#(mented) by an abund#(ance) of nonagric#(ultural) resources. These surpl#(uses) released some persons, either parti#(ally) or fully, from food-getting activ#(ities), allowing them to concen#(trate) their time and ene#(rgy) in purs#(uing) other production activ#(ities). High levels of craft production were al#(so) related somewhat t#(o) the population sur#(ge) in the Late Postclassic period, providing large groups of producers and consumers of goo#(ds). Also in part, these specializations were stimu#(lated) and maint#(ained) by the increasing commercialization of the Late Postclassic period, facili#(tating) relatively effic#(ient) and effec#(tive) flows of raw mater#(ials) and finished goo#(ds) on local, regional, and extraregional levels."
+        },
+        {
+          id: "paternal-care-in-fish",
+          title: "Paternal Care In Fish",
+          text: "Although paternal care of young (fathers caring for their young) is common among fishes, the trait is rare among other animals, vertebrates and invertebrates alike. Amo#(ng) the few paternal inse#(cts) are the giant water bugs. In Lethocerus water bugs, males gua#(rd) and moisten clutches o#(f) eggs (eggs deposited dur#(ing) a single episode of laying) th#(at) females glue on#(to) the stems of aquatic vegetation loca#(ted) above the waterline. Other kin#(ds) of male water bugs (e.g., Abedus and Belostoma) permit the#(ir) mates to l#(ay) eggs dire#(ctly) on their backs, after wh#(ich) the male assu#(mes) responsibility f#(or) their welfare. A male Abedus caring for its eggs spe#(nds) hours perched ne#(ar) the water's surface, pumping his body u#(p) and do#(wn) to keep well-aerated water moving over the eggs. Clutches of Abedus eggs th#(at) are experimentally separ#(ated) from a male attendant do not deve#(lop), demonst#(rating) that male parental care is essen#(tial) for offspring surv#(ival) in this ca#(se)."
+        },
+        {
+          id: "leaning-in-animals",
+          title: "Leaning In Animals",
+          text: "Almost all animals learn novel tasks more easily if they can observe a knowledgeable demonstrator. Biologist Tom Langen trai#(ned) individual magpie jays to pry op#(en) a door on #(a) box that conta#(ined) food. Subseq#(uently), birds who#(se) social groups incl#(uded) a demonstrator lear#(ned) how to open doo#(rs) much more rapi#(dly) than birds who#(se) groups did not. Ind#(eed), birds in groups that lac#(ked) a demonstrator did not even real#(ize) that there w#(as) food in t#(he) boxes. Simil#(arly), i#(n) captivity, many monkeys c#(an) learn to use rudime#(ntary) tools to obt#(ain) food, and they do s#(o) more quic#(kly) and accur#(ately) in the pres#(ence) of a demonstrator. If monkeys lear#(ned) like humans d#(o), it would be safe to ass#(ume) that the monkeys learn to perf#(orm) the tasks b#(y) watching th#(e) demonstrator and imita#(ting) his actions. This would imp#(ly) that the monkeys under#(stand) the demonstrator's inten#(tions) and goals. But this does not seem to be the ca#(se)."
+        },
+        {
+          id: "roman-and-chinese-metalworking",
+          title: "Roman And Chinese Metalworking",
+          text: "Chinese steel was highly valued in the Roman Empire (which controlled much of the western world between 27 B.C.E. and 476 A.D.), since Roman workshops could not mass-produce metals with comparable strength and sharpness. Steel is a metal alloy (mixture) manufa#(ctured) by heat#(ing) iron ore (raw iron) to high temper#(atures), then combi#(ning) the molten (melted) metal with carbon or other strengthening elem#(ents). The qual#(ity) of steel prod#(uced) by these techn#(iques) depends o#(n) the sustained temper#(ature) of the furnace and the quan#(tity) and condition of the ad#(ded) compounds. Good-quality steel is har#(der) than iron an#(d) has mu#(ch) greater flexib#(ility) and stre#(ngth). Blades made from steel, there#(fore), maintain a shar#(per) edge f#(or) a longer time and have a grea#(ter) resistance to ru#(st) than their equivalent in iron. Western civiliz#(ations) did not have suffi#(cient) knowledge of the carbon compo#(unds) that needed to be added to molten iron to prod#(uce) reliable steel. Instead, the Romans produced wrought iron (iron with very low carbon cont#(ent)) by first heat#(ing) iron ore in a furnace (oven) to sepa#(rate) metal from impur#(ities) in a process kno#(wn) as smelting. This techn#(ique) was used throu#(ghout) the Roman Empire to ma#(ke) tools and bladed weap#(ons). The resultant iron also acqu#(ired) a trace of strengthening carbon from the charcoal fuel#(ing) the furnaces."
+        },
+        {
+          id: "early-chinese-silk-production",
+          title: "Early Chinese Silk Production",
+          text: "China is justly famous for its silk production, which probably began more than 6,000 years ago. Excava#(tions) of Neolithic sit#(es) have revealed cl#(ay) artifacts with impressions made apparently b#(y) silk cloth, as we#(ll) as stone ornam#(ents) carved i#(n) the shape o#(f) silkworms. The earl#(iest) find of silk itself, da#(ted) to around 2800 B.C., is from Zhejiang province, whe#(re) a fragment of clo#(th) was prese#(rved) in damp condi#(tions) inside a bamboo box. Zhejiang province, in southeast China, has always been an impor#(tant) silk-producing area and was prob#(ably) also the cen#(ter) of one of the maj#(or) prehistoric cultures."
+        },
+        {
+          id: "murals-frescoes-and-easel-paintings",
+          title: "Murals, Frescoes, And Easel Paintings",
+          text: "Murals are pictures on walls or ceilings that become a part of the building's architectural decoration. Archaeologists ha#(ve) excav#(ated) and saved mural paintings from Pompeii and Herculaneum, cities that were buried by an erup#(tion) of Mount Vesuvius in 79 C.E. Unfortu#(nately), outd#(oor) painting of any kind has little cha#(nce) of surviving the effects of the enviro#(nment) for very long. Richard Haas's famous mural Homage to Cincinnatus, whi#(ch) was painted in 1983 and is displ#(ayed) on the Brotherhood Building in Cincinnati, in the United States, has fad#(ed) considerably. Indoors, where walls can be kept d#(ry), murals have traditi#(onally) fared much bet#(ter) when they were painted in fresco. The Italian word fresco means \"fresh.\" Michelangelo's Sistine Chapel ceiling, painted in the sixteenth century, is a perf#(ect) example of fresco painting. In true fresco, water-based paints are appl#(ied) to fresh, we#(t) plaster so that the pigment (color) soaks in#(to) the plaster. The paint actually beco#(mes) part of the wall. The lime of the plaster, changing to calcium carbonate when it dries, binds the pigments perman#(ently) in the wall. The colors are matte, not glossy. They stay bright for hund#(reds) of years, and as lo#(ng) as the wall lasts, the fresco lasts."
+        }
       ];
 
       const APP_ID = "kooshky-toefl-2026-complete-words";
@@ -2445,7 +2862,7 @@
         const next = document.documentElement.dataset.theme === "dark" ? "light" : "dark";
         document.documentElement.dataset.theme = next;
         document.documentElement.style.colorScheme = next;
-        try { localStorage.setItem(THEME_KEY, next); } catch (_) {}
+        try { localStorage.setItem(THEME_KEY, next); } catch (_) { }
         syncThemeControls();
         updateFavicon();
       }
@@ -2513,4 +2930,5 @@
     })();
   </script>
 </body>
+
 </html>
