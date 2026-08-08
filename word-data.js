@@ -250,6 +250,121 @@ window.KOOSHKY_WORDS = [
     word: "Attribute",
     date: "2026-08-10",
     href: "WordOfTheDay/generated/attribute-extended.html",
+  },
+  {
+    word: "Unequivocally",
+    date: "2026-08-11",
+    href: "WordOfTheDay/generated/unequivocally-extended.html",
+  },
+  {
+    word: "Deflect",
+    date: "2026-08-12",
+    href: "WordOfTheDay/generated/deflect-extended.html",
+  },
+  {
+    word: "Misattribute",
+    date: "2026-08-13",
+    href: "WordOfTheDay/generated/misattribute-extended.html",
+  },
+  {
+    word: "Propel",
+    date: "2026-08-14",
+    href: "WordOfTheDay/generated/propel-extended.html",
+  },
+  {
+    word: "Rigid",
+    date: "2026-08-15",
+    href: "WordOfTheDay/generated/rigid-extended.html",
+  },
+  {
+    word: "Pervasive",
+    date: "2026-08-16",
+    href: "WordOfTheDay/generated/pervasive-extended.html",
+  },
+  {
+    word: "Ubiquitous",
+    date: "2026-08-17",
+    href: "WordOfTheDay/generated/ubiquitous-extended.html",
+  },
+  {
+    word: "Obsolete",
+    date: "2026-08-18",
+    href: "WordOfTheDay/generated/obsolete-extended.html",
+  },
+  {
+    word: "Dovatail",
+    date: "2026-08-19",
+    href: "WordOfTheDay/generated/dovetail-extended.html",
+  },
+  {
+    word: "Trite",
+    date: "2026-08-20",
+    href: "WordOfTheDay/generated/trite-extended.html",
+  },
+  {
+    word: "Contrite",
+    date: "2026-08-21",
+    href: "WordOfTheDay/generated/contrite-extended.html",
+  },
+  {
+    word: "Construe",
+    date: "2026-08-22",
+    href: "WordOfTheDay/generated/construe-extended.html",
+  },
+  {
+    word: "Linger",
+    date: "2026-08-23",
+    href: "WordOfTheDay/generated/linger-extended.html",
+  },
+  {
+    word: "Misconstrue",
+    date: "2026-08-24",
+    href: "WordOfTheDay/generated/misconstrue-extended.html",
+  },
+  {
+    word: "Devious",
+    date: "2026-08-25",
+    href: "WordOfTheDay/generated/devious-extended.html",
+  },
+  {
+    word: "Impose",
+    date: "2026-08-26",
+    href: "WordOfTheDay/generated/impose-extended.html",
+  },
+  {
+    word: "Sanction",
+    date: "2026-08-27",
+    href: "WordOfTheDay/generated/sanction-extended.html",
+  },
+  {
+    word: "Turmoil",
+    date: "2026-08-28",
+    href: "WordOfTheDay/generated/turmoil-extended.html",
+  },
+  {
+    word: "Calamity",
+    date: "2026-08-29",
+    href: "WordOfTheDay/generated/calamity-extended.html",
+  },
+  {
+    word: "Repository",
+    date: "2026-08-30",
+    href: "WordOfTheDay/generated/repository-extended.html",
+  },
+  {
+    word: "Inventory",
+    date: "2026-08-31",
+    href: "WordOfTheDay/generated/inventory-extended.html",
+  },
+  {
+    word: "Propriety",
+    date: "2026-09-01",
+    href: "WordOfTheDay/generated/propriety-extended.html",
+  },
+  {
+    word: "Corresponding",
+    date: "2026-09-02",
+    href: "WordOfTheDay/generated/corresponding-extended.html",
   }
   
   /*
