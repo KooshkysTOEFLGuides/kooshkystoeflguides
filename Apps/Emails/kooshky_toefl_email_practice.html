@@ -1108,6 +1108,18 @@
         background: transparent;
       }
     }
+
+    /* Email simulator v2: question types, multi-save timelines */
+    .type-browser{margin-bottom:16px;padding:14px;border:1px solid var(--border);border-radius:var(--radius-lg);background:var(--surface)}
+    .type-browser-head{display:flex;align-items:end;justify-content:space-between;gap:12px;margin-bottom:10px}.type-browser h2{margin:0;font-family:"Literata",Georgia,serif;font-size:1.05rem}.type-browser p{margin:3px 0 0;color:var(--muted);font-size:.88rem}
+    .type-tabs{display:flex;flex-wrap:wrap;gap:8px}.type-tab{min-height:38px;padding:7px 11px;display:inline-flex;align-items:center;gap:7px;border:1px solid var(--border);border-radius:999px;background:var(--surface-raised);color:var(--text);cursor:pointer;font-weight:600}.type-tab[aria-pressed="true"]{color:var(--surface);background:var(--teal);border-color:var(--teal)}html[data-theme="dark"] .type-tab[aria-pressed="true"]{color:#111417}.type-count{color:var(--muted);font-size:.82rem;font-variant-numeric:tabular-nums}.type-tab[aria-pressed="true"] .type-count{color:currentColor;opacity:.8}
+    .card-kicker,.workspace-kicker{display:flex;flex-wrap:wrap;align-items:center;gap:7px}.card-kicker .prompt-id,.workspace-kicker .prompt-id{margin-bottom:0}.type-badge{display:inline-flex;align-items:center;min-height:24px;padding:3px 8px;border-radius:999px;color:var(--teal);background:var(--teal-soft);font-size:.76rem;font-weight:700;line-height:1.1}
+    .save-toolbar{display:flex;align-items:center;justify-content:space-between;gap:12px;margin-bottom:10px;padding:10px 12px;border:1px solid var(--border);border-radius:var(--radius-md);background:color-mix(in srgb,var(--teal-soft) 48%,var(--surface))}.active-save-info{min-width:0;display:grid;grid-template-columns:auto auto;align-items:baseline;gap:2px 8px}.active-save-kicker{grid-column:1/-1;color:var(--muted);font-size:.72rem;font-weight:700;letter-spacing:.055em;text-transform:uppercase}.active-save-meta{color:var(--muted);font-size:.84rem;font-variant-numeric:tabular-nums}.save-toolbar-actions,.saves-dialog-actions,.save-row-actions{display:flex;flex-wrap:wrap;gap:8px}.saves-dialog-actions{margin-bottom:12px}
+    .save-list{display:grid;gap:9px}.save-row{display:grid;grid-template-columns:auto minmax(0,1fr) auto;align-items:center;gap:10px;padding:11px;border:1px solid var(--border);border-radius:var(--radius-md);background:var(--surface-raised)}.save-row.is-active{border-color:color-mix(in srgb,var(--teal) 62%,var(--border));background:color-mix(in srgb,var(--teal-soft) 48%,var(--surface-raised))}.save-row-main{min-width:0}.save-row-title{display:flex;flex-wrap:wrap;align-items:center;gap:8px}.save-row-meta{margin-top:3px;color:var(--muted);font-size:.84rem}.save-row-badge{padding:2px 6px;border-radius:999px;background:var(--success-soft);color:var(--success);font-size:.72rem;font-weight:700}.save-row-select{display:grid;place-items:center;align-self:stretch}.save-select-all{min-height:42px;padding:8px 10px;display:inline-flex;align-items:center;gap:7px;border:1px solid var(--border);border-radius:var(--radius-sm);background:var(--surface-raised);color:var(--muted);font-size:.9rem;font-weight:600;cursor:pointer}.save-select-all input,.save-row-select input,.timeline-toggle-row input{width:18px;height:18px;accent-color:var(--teal);cursor:pointer}
+    .settings-grid{display:grid;gap:13px}.interval-input-wrap{display:grid;grid-template-columns:minmax(100px,180px) auto;align-items:center;gap:9px}.timeline-toggle-row{display:flex;align-items:center;justify-content:space-between;gap:18px;padding:13px 14px;border:1px solid var(--border);border-radius:var(--radius-md);background:var(--surface-raised);cursor:pointer}.timeline-toggle-row>span{min-width:0;display:grid;gap:3px}.timeline-toggle-row small{color:var(--muted);font-size:.86rem;font-weight:400}.timeline-toggle-row input{flex:0 0 auto;width:22px;height:22px}#snapshot-interval-field.is-disabled{opacity:.5}.settings-note{margin:0;color:var(--muted);font-size:.87rem}.storage-cleanup{display:flex;align-items:center;justify-content:space-between;gap:16px;padding:13px 14px;border:1px solid color-mix(in srgb,var(--danger) 32%,var(--border));border-radius:var(--radius-md);background:color-mix(in srgb,var(--danger-soft) 55%,var(--surface))}.storage-cleanup p{margin:3px 0 0;color:var(--muted);font-size:.86rem}
+    .timeline-shell{display:grid;gap:14px;padding:18px;border:1px solid var(--border);border-radius:var(--radius-lg);background:var(--surface)}.timeline-topbar{display:grid;grid-template-columns:minmax(220px,.45fr) minmax(0,1fr);gap:16px;align-items:end}.timeline-summary{color:var(--muted);font-size:.9rem}.timeline-player{display:grid;gap:12px}.timeline-screen{overflow:hidden;border:1px solid var(--border);border-radius:var(--radius-md);background:var(--surface-raised)}.timeline-screen-head{min-height:44px;padding:9px 13px;display:flex;justify-content:space-between;align-items:center;gap:12px;border-bottom:1px solid var(--border);color:var(--muted);font-size:.86rem}.timeline-screen-head strong{color:var(--text)}.timeline-text{min-height:430px;max-height:62vh;overflow:auto;padding:18px;white-space:pre-wrap;overflow-wrap:anywhere;line-height:1.65}.timeline-controls{display:grid;grid-template-columns:auto auto auto minmax(220px,1fr);gap:8px;align-items:center}.timeline-range-wrap{min-width:0;display:grid;gap:2px}.timeline-range{width:100%;accent-color:var(--teal)}.timeline-range-labels{display:flex;justify-content:space-between;color:var(--muted);font-size:.76rem;font-variant-numeric:tabular-nums}
+    @media(max-width:760px){.timeline-topbar,.timeline-controls{grid-template-columns:1fr}.timeline-text{min-height:340px}.save-toolbar,.storage-cleanup,.timeline-toggle-row{align-items:stretch;flex-direction:column}.save-row{grid-template-columns:auto minmax(0,1fr)}.save-row-actions{grid-column:1/-1}.timeline-toggle-row input{align-self:flex-start}}
+
   </style>
 </head>
 
@@ -1129,6 +1141,12 @@
           </svg>
           <span class="link-text">Home</span>
         </a>
+        <button class="icon-button" id="settings-button" type="button" aria-label="Open settings">
+          <svg viewBox="0 0 24 24" aria-hidden="true">
+            <path d="M12 8.5a3.5 3.5 0 1 0 0 7 3.5 3.5 0 0 0 0-7Zm8 3.5-2.1-.8a6.7 6.7 0 0 0-.6-1.5l.9-2-1.9-1.9-2 .9a6.7 6.7 0 0 0-1.5-.6L12 4H9.3l-.8 2.1a6.7 6.7 0 0 0-1.5.6l-2-.9-1.9 1.9.9 2a6.7 6.7 0 0 0-.6 1.5L1.3 12v2.7l2.1.8c.2.5.4 1 .6 1.5l-.9 2 1.9 1.9 2-.9c.5.3 1 .5 1.5.6l.8 2.1H12l.8-2.1c.5-.2 1-.4 1.5-.6l2 .9 1.9-1.9-.9-2c.3-.5.5-1 .6-1.5l2.1-.8V12Z" fill="none" stroke="currentColor" stroke-width="1.55" stroke-linecap="round" stroke-linejoin="round"/>
+          </svg>
+          <span class="link-text">Settings</span>
+        </button>
         <button class="icon-button" id="theme-toggle" type="button" aria-pressed="false"
           aria-label="Switch to dark mode">
           <svg id="theme-icon" viewBox="0 0 24 24" aria-hidden="true"></svg>
@@ -1157,6 +1175,16 @@
 
     <section class="view is-active" id="list-view" aria-labelledby="prompt-list-title">
       <h2 id="prompt-list-title" class="sr-only">Prompt list</h2>
+
+      <section class="type-browser" aria-labelledby="type-browser-title">
+        <div class="type-browser-head">
+          <div>
+            <h2 id="type-browser-title">Question types</h2>
+            <p>Choose a question type to practice a specific set, or view everything together.</p>
+          </div>
+        </div>
+        <div class="type-tabs" id="type-tabs" role="group" aria-label="Question types"></div>
+      </section>
 
       <div class="toolbar">
         <div class="field">
@@ -1199,8 +1227,8 @@
       </div>
 
       <div class="overview">
-        <div id="progress-text">0 of 9 prompts answered</div>
-        <div class="progress-track" role="progressbar" aria-label="Answered prompts" aria-valuemin="0" aria-valuemax="9"
+        <div id="progress-text">0 of 35 prompts answered</div>
+        <div class="progress-track" role="progressbar" aria-label="Answered prompts" aria-valuemin="0" aria-valuemax="35"
           aria-valuenow="0">
           <div class="progress-fill" id="progress-fill"></div>
         </div>
@@ -1220,7 +1248,10 @@
         </button>
 
         <div class="workspace-title">
-          <span class="prompt-id" id="workspace-prompt-id"></span>
+          <div class="workspace-kicker">
+            <span class="prompt-id" id="workspace-prompt-id"></span>
+            <span class="type-badge" id="workspace-type-label"></span>
+          </div>
           <h2 id="workspace-prompt-title"></h2>
         </div>
 
@@ -1251,6 +1282,18 @@
             <span class="save-state" id="save-state" aria-live="polite">Saved</span>
           </div>
 
+          <div class="save-toolbar" id="save-toolbar">
+            <div class="active-save-info">
+              <span class="active-save-kicker">Active save</span>
+              <strong id="active-save-name">Save 1</strong>
+              <span class="active-save-meta" id="active-save-time">00:00 total</span>
+            </div>
+            <div class="save-toolbar-actions">
+              <button class="button small" id="manage-saves-button" type="button">Saves</button>
+              <button class="button small secondary" id="new-save-button" type="button">New save</button>
+            </div>
+          </div>
+
           <label class="sr-only" for="answer-box">Type your email response</label>
           <textarea class="answer-textarea" id="answer-box" spellcheck="true"
             placeholder="Write your email here…"></textarea>
@@ -1258,11 +1301,42 @@
           <div class="answer-footer">
             <div class="editor-actions">
               <button class="button small" id="finish-practice-button" type="button">Finish and return</button>
-              <button class="button small danger" id="clear-answer-button" type="button">Clear answer</button>
+              <button class="button small danger" id="clear-answer-button" type="button">Clear this save</button>
             </div>
             <output class="word-count" id="word-count" aria-live="polite"><strong>0</strong> words</output>
           </div>
         </section>
+      </div>
+    </section>
+
+    <section class="view" id="timeline-view" aria-labelledby="timeline-title">
+      <div class="workspace-header timeline-header">
+        <button class="button ghost small" id="timeline-back-button" type="button">
+          <svg viewBox="0 0 24 24" aria-hidden="true"><path d="m15 5-7 7 7 7" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round"/></svg>
+          Back
+        </button>
+        <div class="workspace-title"><span class="prompt-id">Timeline review</span><h2 id="timeline-title">Writing progress</h2></div>
+      </div>
+      <div class="timeline-shell">
+        <div class="timeline-topbar">
+          <div class="field timeline-save-field"><label for="timeline-save-select">Save</label><select class="text-input" id="timeline-save-select"></select></div>
+          <div class="timeline-summary" id="timeline-summary"></div>
+        </div>
+        <div class="timeline-player" aria-label="Writing timeline player">
+          <div class="timeline-screen">
+            <div class="timeline-screen-head"><strong id="timeline-snapshot-label">Snapshot</strong><span id="timeline-snapshot-meta"></span></div>
+            <div class="timeline-text" id="timeline-text" tabindex="0"></div>
+          </div>
+          <div class="timeline-controls">
+            <button class="button small" id="timeline-prev-button" type="button">Previous</button>
+            <button class="button small primary" id="timeline-play-button" type="button">Play</button>
+            <button class="button small" id="timeline-next-button" type="button">Next</button>
+            <div class="timeline-range-wrap">
+              <input class="timeline-range" id="timeline-range" type="range" min="0" max="0" value="0" step="1" aria-label="Writing timeline position">
+              <div class="timeline-range-labels"><span>Start</span><span id="timeline-end-time">00:00</span></div>
+            </div>
+          </div>
+        </div>
       </div>
     </section>
   </main>
@@ -1367,14 +1441,42 @@
     <div class="dialog-body">
       <div class="dialog-head">
         <div>
-          <h2 id="confirm-dialog-title">Clear this answer?</h2>
-          <p id="confirm-dialog-text">This removes the saved response for this prompt from the browser.</p>
+          <h2 id="confirm-dialog-title">Clear this save?</h2>
+          <p id="confirm-dialog-text">This clears the text in the active save. The save itself and its earlier timeline snapshots remain available.</p>
         </div>
       </div>
       <div class="dialog-actions">
         <button class="button" id="confirm-cancel-button" type="button">Cancel</button>
-        <button class="button danger" id="confirm-clear-button" type="button">Clear answer</button>
+        <button class="button danger" id="confirm-clear-button" type="button">Clear save</button>
       </div>
+    </div>
+  </dialog>
+
+  <dialog id="saves-dialog" aria-labelledby="saves-dialog-title">
+    <div class="dialog-body saves-dialog-body">
+      <div class="dialog-head"><div><h2 id="saves-dialog-title">Saves</h2><p id="saves-dialog-subtitle">Choose an attempt to continue or review.</p></div>
+        <button class="button ghost dialog-close" id="saves-dialog-close" type="button" aria-label="Close saves"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="m6 6 12 12M18 6 6 18" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"/></svg></button></div>
+      <div class="saves-dialog-actions">
+        <button class="button secondary" id="saves-new-button" type="button">New save</button>
+        <label class="save-select-all"><input id="saves-select-all" type="checkbox"><span>Select all</span></label>
+        <button class="button danger" id="delete-selected-saves-button" type="button" disabled>Delete selected</button>
+        <button class="button danger ghost" id="delete-all-prompt-saves-button" type="button">Delete all for this question</button>
+      </div>
+      <div class="save-list" id="save-list"></div>
+    </div>
+  </dialog>
+
+  <dialog id="settings-dialog" aria-labelledby="settings-dialog-title">
+    <div class="dialog-body">
+      <div class="dialog-head"><div><h2 id="settings-dialog-title">Settings</h2><p>Configure how writing progress is recorded.</p></div>
+        <button class="button ghost dialog-close" id="settings-dialog-close" type="button" aria-label="Close settings"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="m6 6 12 12M18 6 6 18" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"/></svg></button></div>
+      <div class="settings-grid">
+        <label class="timeline-toggle-row" for="timeline-enabled"><span><strong>Save writing timeline</strong><small>Store intermediate versions so the response can be replayed over time.</small></span><input id="timeline-enabled" type="checkbox" checked></label>
+        <div class="field" id="snapshot-interval-field"><label for="snapshot-interval">Timeline snapshot interval</label><div class="interval-input-wrap"><input class="text-input" id="snapshot-interval" type="number" min="2" max="300" step="1" inputmode="numeric" value="10"><span>seconds</span></div></div>
+        <p class="settings-note" id="timeline-settings-note">When timeline saving is on, intermediate text versions are stored locally with each save and included in backups.</p>
+        <div class="storage-cleanup"><div><strong>Clear saved attempts</strong><p>Delete every save from every question on this device. Prompt content and app settings are not affected.</p></div><button class="button danger" id="delete-all-saves-global-button" type="button">Delete all saved attempts</button></div>
+      </div>
+      <div class="dialog-actions"><button class="button primary" id="settings-done-button" type="button">Done</button></div>
     </div>
   </dialog>
 
@@ -1390,6 +1492,7 @@
        Each prompt follows this schema:
        {
          id: "TE-001",             // unique ID
+         type: "original",         // question type
          title: "Prompt title",     // title shown in the list
          recipient: "Ms. Name",     // email recipient
          subject: "Email subject",  // supplied subject line
@@ -1406,6 +1509,7 @@
     const PROMPTS = [
       {
         id: "TE-001",
+        type: "original",
         title: "Interview Recording Room",
         recipient: "Ms. Bennett",
         subject: "Request to Change Interview Recording Room",
@@ -1419,6 +1523,7 @@
       },
       {
         id: "TE-002",
+        type: "original",
         title: "Correction to a Published Article",
         recipient: "Mr. Harris",
         subject: "Request to Correct Published Article",
@@ -1432,6 +1537,7 @@
       },
       {
         id: "TE-003",
+        type: "original",
         title: "Peer Mentor Training Conflict",
         recipient: "Ms. Wilson",
         subject: "Conflict with Peer Mentor Training",
@@ -1445,6 +1551,7 @@
       },
       {
         id: "TE-004",
+        type: "original",
         title: "Borrowing Media Equipment",
         recipient: "Ms. Green",
         subject: "Inquiry About Borrowing Media Equipment",
@@ -1458,6 +1565,7 @@
       },
       {
         id: "TE-005",
+        type: "original",
         title: "Language-Exchange Partner Issue",
         recipient: "Ms. Foster",
         subject: "Language-Exchange Partner Issue",
@@ -1471,6 +1579,7 @@
       },
       {
         id: "TE-006",
+        type: "original",
         title: "New Campus Shuttle Stop",
         recipient: "Mr. Walker",
         subject: "Concern About New Shuttle Stop Location",
@@ -1484,6 +1593,7 @@
       },
       {
         id: "TE-007",
+        type: "original",
         title: "Increasing Tutoring Attendance",
         recipient: "Ms. Reed",
         subject: "Ideas for Increasing Tutoring Attendance",
@@ -1497,6 +1607,7 @@
       },
       {
         id: "TE-008",
+        type: "original",
         title: "Study Room Reservation Error",
         recipient: "Mr. Cooper",
         subject: "Problem with Study Room Reservation",
@@ -1510,6 +1621,7 @@
       },
       {
         id: "TE-009",
+        type: "original",
         title: "Campus Exhibition Space",
         recipient: "Ms. Morgan",
         subject: "Request to Use Campus Space for Exhibition",
@@ -1523,6 +1635,7 @@
       },
       {
         id: "TE-010",
+        type: "original",
         title: "Problem with Student ID Card",
         recipient: "Ms. Price",
         subject: "Problem with Student ID Card",
@@ -1536,6 +1649,7 @@
       },
       {
         id: "TE-011",
+        type: "original",
         title: "Student Photography Contest Submission",
         recipient: "Mr. Brooks",
         subject: "Problem with Photography Contest Submission",
@@ -1549,6 +1663,7 @@
       },
       {
         id: "TE-012",
+        type: "original",
         title: "Dietary Information at Campus Café",
         recipient: "Ms. Patel",
         subject: "Inquiry About Café Ingredients",
@@ -1562,6 +1677,7 @@
       },
       {
         id: "TE-013",
+        type: "original",
         title: "Guest Speaker for Debate Club",
         recipient: "Dr. Collins",
         subject: "Invitation to Speak at Debate Club Meeting",
@@ -1575,6 +1691,7 @@
       },
       {
         id: "TE-014",
+        type: "original",
         title: "Problem with Residence Hall Laundry Machine",
         recipient: "Mr. Hughes",
         subject: "Laundry Machine Problem in Residence Hall",
@@ -1588,6 +1705,7 @@
       },
       {
         id: "TE-015",
+        type: "original",
         title: "Delayed Textbook Order",
         recipient: "Mr. Carter",
         subject: "Problem with Textbook Order",
@@ -1601,6 +1719,7 @@
       },
       {
         id: "TE-016",
+        type: "original",
         title: "Missing Materials on Course Website",
         recipient: "Dr. Wilson",
         subject: "Missing Materials on Course Website",
@@ -1614,6 +1733,7 @@
       },
       {
         id: "TE-017",
+        type: "original",
         title: "Change to Volunteer Schedule",
         recipient: "Ms. Evans",
         subject: "Request to Change Volunteer Schedule",
@@ -1627,6 +1747,7 @@
       },
       {
         id: "TE-018",
+        type: "original",
         title: "Concerns About a Class Presentation",
         recipient: "Professor Adams",
         subject: "Question About Class Presentation",
@@ -1640,6 +1761,7 @@
       },
       {
         id: "TE-019",
+        type: "original",
         title: "Noise in the Library Study Area",
         recipient: "Ms. Bennett",
         subject: "Concern About Library Study Area",
@@ -1653,6 +1775,7 @@
       },
       {
         id: "TE-020",
+        type: "original",
         title: "Request to Join a Full Course",
         recipient: "Dr. Morgan",
         subject: "Request to Join Your Course",
@@ -1666,6 +1789,7 @@
       },
       {
         id: "TE-021",
+        type: "original",
         title: "Changes to Local Bus Service",
         recipient: "Mr. Lewis",
         subject: "Concerns About Local Bus Service",
@@ -1679,6 +1803,7 @@
       },
       {
         id: "TE-022",
+        type: "original",
         title: "Feedback on Grocery Delivery Service",
         recipient: "Ms. Harris",
         subject: "Feedback on Grocery Delivery Service",
@@ -1692,6 +1817,7 @@
       },
       {
         id: "TE-023",
+        type: "original",
         title: "Request to Change Music Lesson Time",
         recipient: "Mr. Foster",
         subject: "Request to Change Music Lesson Schedule",
@@ -1705,6 +1831,7 @@
       },
       {
         id: "TE-024",
+        type: "original",
         title: "Feedback on Public Swimming Pool",
         recipient: "Ms. Turner",
         subject: "Feedback on Swimming Pool Facilities",
@@ -1718,6 +1845,7 @@
       },
       {
         id: "TE-025",
+        type: "original",
         title: "Inquiry About Photography Workshop",
         recipient: "Mr. Bennett",
         subject: "Inquiry About Photography Workshop",
@@ -1731,6 +1859,7 @@
       },
       {
         id: "TE-026",
+        type: "original",
         title: "Support for Neighborhood Event",
         recipient: "Ms. Clark",
         subject: "Request for Support for Neighborhood Event",
@@ -1744,6 +1873,7 @@
       },
       {
         id: "TE-027",
+        type: "original",
         title: "Problem with Mobile Phone Repair",
         recipient: "Mr. Daniels",
         subject: "Problem After Mobile Phone Repair",
@@ -1757,6 +1887,7 @@
       },
       {
         id: "TE-028",
+        type: "original",
         title: "Plans for a Relative’s Visit",
         recipient: "Alex",
         subject: "Ideas for My Relative’s Visit",
@@ -1770,6 +1901,7 @@
       },
       {
         id: "TE-029",
+        type: "original",
         title: "Suggestions for a Neighborhood Park",
         recipient: "Ms. Roberts",
         subject: "Suggestions for Improving Neighborhood Park",
@@ -1783,6 +1915,7 @@
       },
       {
         id: "TE-030",
+        type: "original",
         title: "Problem Purchasing Event Tickets",
         recipient: "Mr. Collins",
         subject: "Problem with Event Ticket Purchase",
@@ -1796,6 +1929,7 @@
       },
       {
         id: "TE-031",
+        type: "original",
         title: "Change to Club Meeting Location",
         recipient: "Ms. Howard",
         subject: "Problem with Club Meeting Location",
@@ -1809,6 +1943,7 @@
       },
       {
         id: "TE-032",
+        type: "original",
         title: "Problem with Local Library Membership",
         recipient: "Mr. Grant",
         subject: "Problem with Library Membership",
@@ -1822,6 +1957,7 @@
       },
       {
         id: "TE-033",
+        type: "original",
         title: "Request to Change Work Schedule",
         recipient: "Ms. Miller",
         subject: "Request for a Schedule Change",
@@ -1835,6 +1971,7 @@
       },
       {
         id: "TE-034",
+        type: "original",
         title: "Request for a Recommendation",
         recipient: "Dr. Nelson",
         subject: "Request for a Recommendation Letter",
@@ -1848,6 +1985,7 @@
       },
       {
         id: "TE-035",
+        type: "original",
         title: "Inquiry About a Guided Tour",
         recipient: "Ms. Cooper",
         subject: "Inquiry About Group Tour",
@@ -1862,92 +2000,78 @@
     ];
 
     (() => {
-      const APP_VERSION = 1;
-      const STORAGE_KEY = "kooshky-apps:toefl-email-practice:answers:v1";
-      const PRE_IMPORT_KEY = "kooshky-apps:toefl-email-practice:pre-import-snapshot:v1";
+      const TYPE_DEFINITIONS = {
+        "original": {
+          label: "Original",
+          description: "Original TOEFL-style email practice questions.",
+          order: 10
+        }
+      };
+
+      const APP_VERSION = 2;
+      const STORAGE_KEY = "kooshky-apps:toefl-email-practice:saves:v2";
+      const OLD_STORAGE_KEY = "kooshky-apps:toefl-email-practice:answers:v1";
+      const PRE_IMPORT_KEY = "kooshky-apps:toefl-email-practice:pre-import-snapshot:v2";
       const THEME_KEY = "kooshky-guides:theme:v1";
       const EXAM_SECONDS = 7 * 60;
+      const DEFAULT_SNAPSHOT_INTERVAL = 10;
+      const MIN_SNAPSHOT_INTERVAL = 2;
+      const MAX_SNAPSHOT_INTERVAL = 300;
+      const MAX_SNAPSHOTS_PER_SAVE = 3600;
 
       const state = {
-        answers: {},
+        promptData: {},
+        settings: { snapshotIntervalSec: DEFAULT_SNAPSHOT_INTERVAL, timelineEnabled: true },
         storageAvailable: true,
         selectedPromptId: null,
         pendingPromptId: null,
+        pendingSaveId: null,
         activeMode: null,
         filter: "all",
+        typeFilter: "all",
         query: "",
         timerId: null,
         timerStartedAt: 0,
         practiceReminderShown: false,
+        saveSessionStartedAt: 0,
+        snapshotTimerId: null,
+        saveMessageTimer: null,
+        persistTimer: null,
+        saveManagerPromptId: null,
         currentPreviewPromptId: null,
-        saveMessageTimer: null
+        timelinePromptId: null,
+        timelineSaveId: null,
+        timelinePosition: 0,
+        timelinePlayTimer: null,
+        timelineReturn: null,
+        selectedSaveIds: new Set()
       };
 
       const els = {
-        listView: document.getElementById("list-view"),
-        workspaceView: document.getElementById("workspace-view"),
-        promptGrid: document.getElementById("prompt-grid"),
-        search: document.getElementById("prompt-search"),
-        filterButtons: Array.from(document.querySelectorAll(".filter-button")),
-        progressText: document.getElementById("progress-text"),
-        progressFill: document.getElementById("progress-fill"),
-        progressTrack: document.querySelector(".progress-track"),
-        storageWarning: document.getElementById("storage-warning"),
-        storageStatus: document.getElementById("storage-status"),
-        exportButton: document.getElementById("export-button"),
-        importButton: document.getElementById("import-button"),
-        importFile: document.getElementById("import-file"),
-        backButton: document.getElementById("back-button"),
-        workspacePromptId: document.getElementById("workspace-prompt-id"),
-        workspacePromptTitle: document.getElementById("workspace-prompt-title"),
-        promptContext: document.getElementById("prompt-context"),
-        promptRecipientInline: document.getElementById("prompt-recipient-inline"),
-        promptTasks: document.getElementById("prompt-tasks"),
-        promptInstruction: document.getElementById("prompt-instruction"),
-        promptRecipient: document.getElementById("prompt-recipient"),
-        promptSubject: document.getElementById("prompt-subject"),
-        modeNote: document.getElementById("mode-note"),
-        answerBox: document.getElementById("answer-box"),
-        wordCount: document.getElementById("word-count"),
-        saveState: document.getElementById("save-state"),
-        timerBox: document.getElementById("timer-box"),
-        timerLabel: document.getElementById("timer-label"),
-        timerValue: document.getElementById("timer-value"),
-        finishPracticeButton: document.getElementById("finish-practice-button"),
-        clearAnswerButton: document.getElementById("clear-answer-button"),
-        modeDialog: document.getElementById("mode-dialog"),
-        modeDialogSubtitle: document.getElementById("mode-dialog-subtitle"),
-        modeClose: document.getElementById("mode-close"),
-        practiceModeButton: document.getElementById("practice-mode-button"),
-        examModeButton: document.getElementById("exam-mode-button"),
-        answerDialog: document.getElementById("answer-dialog"),
-        answerDialogTitle: document.getElementById("answer-dialog-title"),
-        answerDialogSubtitle: document.getElementById("answer-dialog-subtitle"),
-        answerDialogClose: document.getElementById("answer-dialog-close"),
-        answerDialogDone: document.getElementById("answer-dialog-done"),
-        answerPreviewMeta: document.getElementById("answer-preview-meta"),
-        answerPreview: document.getElementById("answer-preview"),
-        copyAnswerButton: document.getElementById("copy-answer-button"),
-        practiceTimeDialog: document.getElementById("practice-time-dialog"),
-        practiceReturnButton: document.getElementById("practice-return-button"),
-        practiceContinueButton: document.getElementById("practice-continue-button"),
-        examCompleteDialog: document.getElementById("exam-complete-dialog"),
-        examPreviewMeta: document.getElementById("exam-preview-meta"),
-        examAnswerPreview: document.getElementById("exam-answer-preview"),
-        examReturnButton: document.getElementById("exam-return-button"),
-        confirmDialog: document.getElementById("confirm-dialog"),
-        confirmCancelButton: document.getElementById("confirm-cancel-button"),
-        confirmClearButton: document.getElementById("confirm-clear-button"),
-        toastRegion: document.getElementById("toast-region"),
-        timeFlash: document.getElementById("time-flash"),
-        themeToggle: document.getElementById("theme-toggle"),
-        themeIcon: document.getElementById("theme-icon"),
-        themeLabel: document.getElementById("theme-label"),
-        favicon: document.getElementById("app-favicon")
+        listView: document.getElementById("list-view"), workspaceView: document.getElementById("workspace-view"), timelineView: document.getElementById("timeline-view"),
+        promptGrid: document.getElementById("prompt-grid"), typeTabs: document.getElementById("type-tabs"), search: document.getElementById("prompt-search"), filterButtons: Array.from(document.querySelectorAll(".filter-button")),
+        progressText: document.getElementById("progress-text"), progressFill: document.getElementById("progress-fill"), progressTrack: document.querySelector(".progress-track"), storageWarning: document.getElementById("storage-warning"), storageStatus: document.getElementById("storage-status"),
+        exportButton: document.getElementById("export-button"), importButton: document.getElementById("import-button"), importFile: document.getElementById("import-file"), backButton: document.getElementById("back-button"),
+        workspacePromptId: document.getElementById("workspace-prompt-id"), workspaceTypeLabel: document.getElementById("workspace-type-label"), workspacePromptTitle: document.getElementById("workspace-prompt-title"),
+        promptContext: document.getElementById("prompt-context"), promptRecipientInline: document.getElementById("prompt-recipient-inline"), promptTasks: document.getElementById("prompt-tasks"), promptInstruction: document.getElementById("prompt-instruction"), promptRecipient: document.getElementById("prompt-recipient"), promptSubject: document.getElementById("prompt-subject"), modeNote: document.getElementById("mode-note"),
+        answerBox: document.getElementById("answer-box"), wordCount: document.getElementById("word-count"), saveState: document.getElementById("save-state"), activeSaveName: document.getElementById("active-save-name"), activeSaveTime: document.getElementById("active-save-time"), manageSavesButton: document.getElementById("manage-saves-button"), newSaveButton: document.getElementById("new-save-button"),
+        timerBox: document.getElementById("timer-box"), timerLabel: document.getElementById("timer-label"), timerValue: document.getElementById("timer-value"), finishPracticeButton: document.getElementById("finish-practice-button"), clearAnswerButton: document.getElementById("clear-answer-button"),
+        modeDialog: document.getElementById("mode-dialog"), modeDialogSubtitle: document.getElementById("mode-dialog-subtitle"), modeClose: document.getElementById("mode-close"), practiceModeButton: document.getElementById("practice-mode-button"), examModeButton: document.getElementById("exam-mode-button"),
+        answerDialog: document.getElementById("answer-dialog"), answerDialogTitle: document.getElementById("answer-dialog-title"), answerDialogSubtitle: document.getElementById("answer-dialog-subtitle"), answerDialogClose: document.getElementById("answer-dialog-close"), answerDialogDone: document.getElementById("answer-dialog-done"), answerPreviewMeta: document.getElementById("answer-preview-meta"), answerPreview: document.getElementById("answer-preview"), copyAnswerButton: document.getElementById("copy-answer-button"),
+        practiceTimeDialog: document.getElementById("practice-time-dialog"), practiceReturnButton: document.getElementById("practice-return-button"), practiceContinueButton: document.getElementById("practice-continue-button"), examCompleteDialog: document.getElementById("exam-complete-dialog"), examPreviewMeta: document.getElementById("exam-preview-meta"), examAnswerPreview: document.getElementById("exam-answer-preview"), examReturnButton: document.getElementById("exam-return-button"),
+        confirmDialog: document.getElementById("confirm-dialog"), confirmCancelButton: document.getElementById("confirm-cancel-button"), confirmClearButton: document.getElementById("confirm-clear-button"),
+        savesDialog: document.getElementById("saves-dialog"), savesDialogTitle: document.getElementById("saves-dialog-title"), savesDialogSubtitle: document.getElementById("saves-dialog-subtitle"), savesDialogClose: document.getElementById("saves-dialog-close"), savesNewButton: document.getElementById("saves-new-button"), savesSelectAll: document.getElementById("saves-select-all"), deleteSelectedSavesButton: document.getElementById("delete-selected-saves-button"), deleteAllPromptSavesButton: document.getElementById("delete-all-prompt-saves-button"), saveList: document.getElementById("save-list"),
+        settingsButton: document.getElementById("settings-button"), settingsDialog: document.getElementById("settings-dialog"), settingsDialogClose: document.getElementById("settings-dialog-close"), settingsDoneButton: document.getElementById("settings-done-button"), timelineEnabled: document.getElementById("timeline-enabled"), snapshotIntervalField: document.getElementById("snapshot-interval-field"), timelineSettingsNote: document.getElementById("timeline-settings-note"), deleteAllSavesGlobalButton: document.getElementById("delete-all-saves-global-button"), snapshotInterval: document.getElementById("snapshot-interval"),
+        timelineBackButton: document.getElementById("timeline-back-button"), timelineTitle: document.getElementById("timeline-title"), timelineSaveSelect: document.getElementById("timeline-save-select"), timelineSummary: document.getElementById("timeline-summary"), timelineSnapshotLabel: document.getElementById("timeline-snapshot-label"), timelineSnapshotMeta: document.getElementById("timeline-snapshot-meta"), timelineText: document.getElementById("timeline-text"), timelinePrevButton: document.getElementById("timeline-prev-button"), timelinePlayButton: document.getElementById("timeline-play-button"), timelineNextButton: document.getElementById("timeline-next-button"), timelineRange: document.getElementById("timeline-range"), timelineEndTime: document.getElementById("timeline-end-time"),
+        toastRegion: document.getElementById("toast-region"), timeFlash: document.getElementById("time-flash"), themeToggle: document.getElementById("theme-toggle"), themeIcon: document.getElementById("theme-icon"), themeLabel: document.getElementById("theme-label"), favicon: document.getElementById("app-favicon")
       };
 
       function safeParse(value, fallback) {
         try { return JSON.parse(value); } catch (_) { return fallback; }
+      }
+
+      function clamp(value, min, max) {
+        return Math.min(max, Math.max(min, value));
       }
 
       function countWords(text) {
@@ -1963,84 +2087,281 @@
         return `${String(minutes).padStart(2, "0")}:${String(seconds).padStart(2, "0")}`;
       }
 
+      function formatDurationMs(ms) {
+        return formatTime(Math.floor(Math.max(0, Number(ms) || 0) / 1000));
+      }
+
       function formatDate(isoString) {
         if (!isoString) return "Not available";
         const date = new Date(isoString);
         if (Number.isNaN(date.getTime())) return "Not available";
-        return new Intl.DateTimeFormat("en-GB", {
-          dateStyle: "medium",
-          timeStyle: "short"
-        }).format(date);
+        return new Intl.DateTimeFormat("en-GB", { dateStyle: "medium", timeStyle: "short" }).format(date);
       }
 
       function slugDate() {
         return new Date().toISOString().replace(/[:.]/g, "-");
       }
 
+      function makeId() {
+        if (window.crypto && typeof window.crypto.randomUUID === "function") return window.crypto.randomUUID();
+        return `save-${Date.now().toString(36)}-${Math.random().toString(36).slice(2, 10)}`;
+      }
+
       function getPrompt(id) {
         return PROMPTS.find((prompt) => prompt.id === id) || null;
       }
 
-      function getAnswerRecord(id) {
-        const record = state.answers[id];
-        if (!record || typeof record !== "object") return { text: "", updatedAt: null };
-        return {
-          text: typeof record.text === "string" ? record.text : "",
-          updatedAt: typeof record.updatedAt === "string" ? record.updatedAt : null
-        };
+      function humanizeTypeKey(key) {
+        return String(key || "other").replace(/[-_]+/g, " ").replace(/\b\w/g, (char) => char.toUpperCase());
       }
 
-      function hasAnswer(id) {
-        return getAnswerRecord(id).text.trim().length > 0;
+      function getPromptTypeKey(prompt) {
+        return String(prompt?.type || "original");
       }
 
-      function loadAnswers() {
-        try {
-          const raw = localStorage.getItem(STORAGE_KEY);
-          if (!raw) return;
-          const parsed = safeParse(raw, null);
-          if (!parsed || typeof parsed !== "object") return;
-          const source = parsed.answers && typeof parsed.answers === "object" ? parsed.answers : parsed;
-          state.answers = sanitizeAnswers(source);
-        } catch (error) {
-          state.storageAvailable = false;
-          showStorageWarning();
+      function getTypeMeta(key) {
+        const known = TYPE_DEFINITIONS[key];
+        return known ? { key, ...known } : { key, label: humanizeTypeKey(key), description: "Practice questions in this category.", order: 1000 };
+      }
+
+      function getPresentTypes() {
+        return [...new Set(PROMPTS.map(getPromptTypeKey))].map(getTypeMeta).sort((a,b)=>(a.order-b.order)||a.label.localeCompare(b.label));
+      }
+
+      function createEmptyPromptState() {
+        return { activeSaveId: null, saves: [] };
+      }
+
+      function getPromptState(promptId, create = true) {
+        let record = state.promptData[promptId];
+        if ((!record || typeof record !== "object") && create) {
+          record = createEmptyPromptState();
+          state.promptData[promptId] = record;
         }
+        return record || createEmptyPromptState();
       }
 
-      function sanitizeAnswers(source) {
+      function getSave(promptId, saveId) {
+        if (!saveId) return null;
+        const promptState = getPromptState(promptId, false);
+        return promptState?.saves?.find((save) => save.id === saveId) || null;
+      }
+
+      function getLatestSave(promptId) {
+        const saves = getPromptState(promptId, false)?.saves || [];
+        if (!saves.length) return null;
+        return [...saves].sort((a, b) => {
+          const aTime = Date.parse(a.updatedAt || a.createdAt || "") || 0;
+          const bTime = Date.parse(b.updatedAt || b.createdAt || "") || 0;
+          return bTime - aTime;
+        })[0];
+      }
+
+      function getActiveSave() {
+        if (!state.selectedPromptId) return null;
+        const promptState = getPromptState(state.selectedPromptId, false);
+        if (!promptState) return null;
+        return getSave(state.selectedPromptId, promptState.activeSaveId);
+      }
+
+      function nextSaveName(promptId) {
+        const saves = getPromptState(promptId).saves;
+        const used = new Set(saves.map((save) => save.name));
+        let index = saves.length + 1;
+        while (used.has(`Save ${index}`)) index += 1;
+        return `Save ${index}`;
+      }
+
+      function createSave(promptId, name = null) {
+        const promptState = getPromptState(promptId);
+        const now = new Date().toISOString();
+        const save = {
+          id: makeId(),
+          name: name || nextSaveName(promptId),
+          text: "",
+          createdAt: now,
+          updatedAt: now,
+          elapsedMs: 0,
+          lastMode: null,
+          legacySingleFrame: false,
+          snapshots: [{ elapsedMs: 0, text: "", capturedAt: now }]
+        };
+        promptState.saves.push(save);
+        promptState.activeSaveId = save.id;
+        persistData();
+        return save;
+      }
+
+      function sanitizeSnapshot(snapshot) {
+        if (!snapshot || typeof snapshot !== "object") return null;
+        const elapsedMs = Math.max(0, Number(snapshot.elapsedMs) || 0);
+        const text = typeof snapshot.text === "string" ? snapshot.text : "";
+        const capturedAt = typeof snapshot.capturedAt === "string" ? snapshot.capturedAt : null;
+        return { elapsedMs, text, capturedAt };
+      }
+
+      function sanitizeSave(save, index) {
+        if (!save || typeof save !== "object") return null;
+        const now = new Date().toISOString();
+        const text = typeof save.text === "string" ? save.text : "";
+        const elapsedMs = Math.max(0, Number(save.elapsedMs) || 0);
+        const legacySingleFrame = save.legacySingleFrame === true;
+        const snapshots = Array.isArray(save.snapshots) ? save.snapshots.map(sanitizeSnapshot).filter(Boolean).sort((a,b)=>a.elapsedMs-b.elapsedMs) : [];
+        if (!snapshots.length) snapshots.push({ elapsedMs, text, capturedAt: save.updatedAt || save.createdAt || now });
+        if (!legacySingleFrame) {
+          const last=snapshots[snapshots.length-1];
+          if (last.text!==text || Math.abs(last.elapsedMs-elapsedMs)>250) snapshots.push({elapsedMs,text,capturedAt:save.updatedAt||now});
+        }
+        return { id: typeof save.id==="string"&&save.id?save.id:makeId(), name: typeof save.name==="string"&&save.name.trim()?save.name.trim():`Save ${index+1}`, text,
+          createdAt: typeof save.createdAt==="string"?save.createdAt:now, updatedAt: typeof save.updatedAt==="string"?save.updatedAt:now, elapsedMs,
+          lastMode: save.lastMode==="exam"||save.lastMode==="practice"?save.lastMode:null, legacySingleFrame, snapshots:snapshots.slice(-MAX_SNAPSHOTS_PER_SAVE) };
+      }
+
+      function sanitizePromptData(source) {
         const clean = {};
-        if (!source || typeof source !== "object") return clean;
         for (const prompt of PROMPTS) {
-          const value = source[prompt.id];
-          if (typeof value === "string") {
-            clean[prompt.id] = { text: value, updatedAt: null };
-          } else if (value && typeof value === "object" && typeof value.text === "string") {
-            clean[prompt.id] = {
-              text: value.text,
-              updatedAt: typeof value.updatedAt === "string" ? value.updatedAt : null
-            };
-          }
+          const raw = source && typeof source === "object" ? source[prompt.id] : null;
+          const saves = Array.isArray(raw?.saves)
+            ? raw.saves.map(sanitizeSave).filter(Boolean)
+            : [];
+          let activeSaveId = typeof raw?.activeSaveId === "string" ? raw.activeSaveId : null;
+          if (!saves.some((save) => save.id === activeSaveId)) activeSaveId = saves.at(-1)?.id || null;
+          clean[prompt.id] = { activeSaveId, saves };
         }
         return clean;
       }
 
-      function persistAnswers() {
-        const payload = {
+      function migrateLegacyAnswers(source) {
+        const migrated = {};
+        for (const prompt of PROMPTS) {
+          const raw = source?.[prompt.id];
+          const text = typeof raw === "string" ? raw : (raw && typeof raw.text === "string" ? raw.text : "");
+          const updatedAt = raw && typeof raw === "object" && typeof raw.updatedAt === "string"
+            ? raw.updatedAt
+            : new Date().toISOString();
+          if (!text) {
+            migrated[prompt.id] = createEmptyPromptState();
+            continue;
+          }
+          const save = sanitizeSave({
+            id: `legacy-${prompt.id.toLowerCase()}`,
+            name: "Save 1",
+            text,
+            createdAt: updatedAt,
+            updatedAt,
+            elapsedMs: 0,
+            legacySingleFrame: true,
+            snapshots: [{ elapsedMs: 0, text, capturedAt: updatedAt }]
+          }, 0);
+          migrated[prompt.id] = { activeSaveId: save.id, saves: [save] };
+        }
+        return migrated;
+      }
+
+      function sanitizeInterval(value) {
+        const parsed = Number.parseInt(value, 10);
+        if (!Number.isFinite(parsed)) return DEFAULT_SNAPSHOT_INTERVAL;
+        return clamp(parsed, MIN_SNAPSHOT_INTERVAL, MAX_SNAPSHOT_INTERVAL);
+      }
+
+      function sanitizeTimelineEnabled(value) {
+        return value !== false;
+      }
+
+      function pruneSaveToTwoFrameStorage(save) {
+        if (!save) return;
+        const snapshots = Array.isArray(save.snapshots)
+          ? save.snapshots.map(sanitizeSnapshot).filter(Boolean).sort((a, b) => a.elapsedMs - b.elapsedMs)
+          : [];
+        const first = snapshots[0] || {
+          elapsedMs: 0,
+          text: "",
+          capturedAt: save.createdAt || new Date().toISOString()
+        };
+        save.snapshots = [{
+          elapsedMs: Math.max(0, Number(first.elapsedMs) || 0),
+          text: typeof first.text === "string" ? first.text : "",
+          capturedAt: first.capturedAt || save.createdAt || null
+        }];
+      }
+
+      function pruneAllTimelines() {
+        for (const promptState of Object.values(state.promptData)) {
+          for (const save of promptState?.saves || []) pruneSaveToTwoFrameStorage(save);
+        }
+      }
+
+      function updateTimelineSettingsUI() {
+        const enabled = state.settings.timelineEnabled;
+        els.timelineEnabled.checked = enabled;
+        els.snapshotInterval.disabled = !enabled;
+        els.snapshotIntervalField.classList.toggle("is-disabled", !enabled);
+        els.timelineSettingsNote.textContent = enabled
+          ? "Intermediate versions are stored locally with each save and included in backups."
+          : "Timeline history is off. Intermediate snapshots are not stored. Each save keeps only its starting state, latest/final text, and total writing time; playback therefore has two frames.";
+      }
+
+      function loadData() {
+        try {
+          const raw = localStorage.getItem(STORAGE_KEY);
+          if (raw) {
+            const parsed = safeParse(raw, null);
+            if (parsed && typeof parsed === "object") {
+              state.promptData = sanitizePromptData(parsed.promptData || {});
+              state.settings.snapshotIntervalSec = sanitizeInterval(parsed.settings?.snapshotIntervalSec);
+              state.settings.timelineEnabled = sanitizeTimelineEnabled(parsed.settings?.timelineEnabled);
+              if (!state.settings.timelineEnabled) pruneAllTimelines();
+              return;
+            }
+          }
+
+          const oldRaw = localStorage.getItem(OLD_STORAGE_KEY);
+          if (oldRaw) {
+            const parsedOld = safeParse(oldRaw, null);
+            const source = parsedOld?.answers && typeof parsedOld.answers === "object" ? parsedOld.answers : parsedOld;
+            if (source && typeof source === "object") {
+              state.promptData = migrateLegacyAnswers(source);
+              persistData();
+              return;
+            }
+          }
+          state.promptData = sanitizePromptData({});
+        } catch (_) {
+          state.storageAvailable = false;
+          state.promptData = sanitizePromptData({});
+          showStorageWarning();
+        }
+      }
+
+      function createStoragePayload() {
+        return {
           app: "kooshky-toefl-email-practice",
           version: APP_VERSION,
           savedAt: new Date().toISOString(),
-          answers: state.answers
+          settings: state.settings,
+          promptData: state.promptData
         };
+      }
+
+      function persistData() {
+        const payload = createStoragePayload();
         try {
           localStorage.setItem(STORAGE_KEY, JSON.stringify(payload));
           state.storageAvailable = true;
           return true;
-        } catch (error) {
+        } catch (_) {
           state.storageAvailable = false;
           showStorageWarning();
           return false;
         }
+      }
+
+      function schedulePersist() {
+        clearTimeout(state.persistTimer);
+        state.persistTimer = window.setTimeout(() => {
+          const saved = persistData();
+          announceSave(saved);
+        }, 180);
       }
 
       function showStorageWarning() {
@@ -2048,20 +2369,32 @@
         els.storageStatus.innerHTML = '<span class="status-dot" aria-hidden="true" style="background:var(--danger)"></span><span>Autosave unavailable</span>';
       }
 
-      function saveCurrentAnswer() {
-        if (!state.selectedPromptId) return;
-        const text = els.answerBox.value;
-        if (text.trim()) {
-          state.answers[state.selectedPromptId] = {
-            text,
-            updatedAt: new Date().toISOString()
-          };
-        } else {
-          delete state.answers[state.selectedPromptId];
-        }
-        const saved = persistAnswers();
+      function hasAnswer(promptId) {
+        return (getPromptState(promptId, false)?.saves || []).some((save) => save.text.trim().length > 0);
+      }
+
+      function getActiveElapsedMs() {
+        const save = getActiveSave();
+        if (!save) return 0;
+        const running = state.saveSessionStartedAt ? Math.max(0, Date.now() - state.saveSessionStartedAt) : 0;
+        return save.elapsedMs + running;
+      }
+
+      function syncCurrentSave({ announce = true, persist = true } = {}) {
+        const save = getActiveSave();
+        if (!save || !state.selectedPromptId) return false;
+        const nextText = els.answerBox.value;
+        if (save.legacySingleFrame && nextText !== save.text) save.legacySingleFrame = false;
+        save.text = nextText;
+        save.updatedAt = new Date().toISOString();
+        save.lastMode = state.activeMode;
         updateWordCount();
-        announceSave(saved);
+        updateActiveSaveMeta();
+        if (persist) {
+          if (announce) schedulePersist();
+          else persistData();
+        }
+        return true;
       }
 
       function announceSave(saved) {
@@ -2069,7 +2402,7 @@
         els.saveState.textContent = saved ? "Saved" : "Saved for this session";
         state.saveMessageTimer = window.setTimeout(() => {
           els.saveState.textContent = saved ? "Autosave active" : "Browser storage unavailable";
-        }, 1200);
+        }, 1100);
       }
 
       function updateWordCount() {
@@ -2077,120 +2410,160 @@
         els.wordCount.innerHTML = `<strong>${words}</strong> ${words === 1 ? "word" : "words"}`;
       }
 
+      function updateActiveSaveMeta() {
+        const save = getActiveSave();
+        if (!save) {
+          els.activeSaveName.textContent = "No save";
+          els.activeSaveTime.textContent = "00:00 total";
+          return;
+        }
+        els.activeSaveName.textContent = save.name;
+        els.activeSaveTime.textContent = `${formatDurationMs(getActiveElapsedMs())} total`;
+      }
+
+      function captureSnapshot(force = false, elapsedOverride = null) {
+        const save = getActiveSave();
+        if (!save) return false;
+        let elapsedMs;
+        if (elapsedOverride === null) {
+          elapsedMs = getActiveElapsedMs();
+          // Commit accumulated writing time at each checkpoint whether or not
+          // intermediate timeline history is being stored.
+          if (state.saveSessionStartedAt) {
+            save.elapsedMs = elapsedMs;
+            state.saveSessionStartedAt = Date.now();
+          }
+        } else {
+          elapsedMs = Math.max(0, elapsedOverride);
+        }
+
+        const text = els.answerBox.value;
+        const now = new Date().toISOString();
+
+        // Migrated v1 answers remain true single-frame timelines until the
+        // student actually changes their text.
+        if (save.legacySingleFrame) {
+          save.text = text;
+          save.updatedAt = now;
+          persistData();
+          return true;
+        }
+
+        if (!state.settings.timelineEnabled) {
+          pruneSaveToTwoFrameStorage(save);
+          save.text = text;
+          save.updatedAt = now;
+          persistData();
+          return true;
+        }
+
+        const last = save.snapshots.at(-1);
+        const intervalMs = state.settings.snapshotIntervalSec * 1000;
+
+        if (!force && last && elapsedMs - last.elapsedMs < Math.max(500, intervalMs * 0.72)) return false;
+        if (force && last && Math.abs(last.elapsedMs - elapsedMs) < 300 && last.text === text) return false;
+
+        save.snapshots.push({ elapsedMs, text, capturedAt: now });
+        if (save.snapshots.length > MAX_SNAPSHOTS_PER_SAVE) {
+          save.snapshots.splice(0, save.snapshots.length - MAX_SNAPSHOTS_PER_SAVE);
+        }
+        save.text = text;
+        save.updatedAt = now;
+        persistData();
+        return true;
+      }
+
+      function clearSnapshotTimer() {
+        if (state.snapshotTimerId !== null) {
+          clearInterval(state.snapshotTimerId);
+          state.snapshotTimerId = null;
+        }
+      }
+
+      function scheduleSnapshotTimer() {
+        clearSnapshotTimer();
+        if (!state.saveSessionStartedAt || !state.selectedPromptId) return;
+        const delay = state.settings.snapshotIntervalSec * 1000;
+        state.snapshotTimerId = window.setInterval(() => captureSnapshot(false), delay);
+      }
+
+      function startSaveSession() {
+        state.saveSessionStartedAt = Date.now();
+        captureSnapshot(true);
+        scheduleSnapshotTimer();
+        updateActiveSaveMeta();
+      }
+
+      function finalizeSaveSession() {
+        const save = getActiveSave();
+        if (!save) {
+          state.saveSessionStartedAt = 0;
+          clearSnapshotTimer();
+          return;
+        }
+        syncCurrentSave({ announce: false, persist: false });
+        const elapsedMs = getActiveElapsedMs();
+        captureSnapshot(true, elapsedMs);
+        save.elapsedMs = elapsedMs;
+        save.updatedAt = new Date().toISOString();
+        state.saveSessionStartedAt = 0;
+        clearSnapshotTimer();
+        persistData();
+        updateActiveSaveMeta();
+      }
+
       function getVisiblePrompts() {
         const query = state.query.trim().toLocaleLowerCase();
         return PROMPTS.filter((prompt) => {
-          const answered = hasAnswer(prompt.id);
-          const statusMatch = state.filter === "all" ||
-            (state.filter === "answered" && answered) ||
-            (state.filter === "unanswered" && !answered);
+          const typeKey=getPromptTypeKey(prompt);
+          if (state.typeFilter!=="all" && typeKey!==state.typeFilter) return false;
+          const answered=hasAnswer(prompt.id);
+          const statusMatch=state.filter==="all"||(state.filter==="answered"&&answered)||(state.filter==="unanswered"&&!answered);
           if (!statusMatch) return false;
           if (!query) return true;
-          const searchable = [prompt.id, prompt.title, prompt.context, prompt.subject, ...prompt.tasks]
-            .join(" ")
-            .toLocaleLowerCase();
-          return searchable.includes(query);
+          const type=getTypeMeta(typeKey);
+          return [prompt.id,prompt.title,prompt.recipient,prompt.subject,prompt.context,prompt.instruction,type.label,type.description,...(prompt.tasks||[])].join(" ").toLocaleLowerCase().includes(query);
         });
       }
 
+      function renderTypeBrowser() {
+        els.typeTabs.textContent="";
+        const types=getPresentTypes();
+        const choices=[{key:"all",label:"All types",total:PROMPTS.length,answered:PROMPTS.filter(p=>hasAnswer(p.id)).length},...types.map(type=>{const ps=PROMPTS.filter(p=>getPromptTypeKey(p)===type.key);return {...type,total:ps.length,answered:ps.filter(p=>hasAnswer(p.id)).length};})];
+        choices.forEach(choice=>{const b=document.createElement("button");b.type="button";b.className="type-tab";b.dataset.type=choice.key;b.setAttribute("aria-pressed",String(state.typeFilter===choice.key));const l=document.createElement("span");l.textContent=choice.label;const c=document.createElement("span");c.className="type-count";c.textContent=`${choice.answered}/${choice.total}`;b.append(l,c);b.addEventListener("click",()=>{state.typeFilter=choice.key;renderPromptList();});els.typeTabs.appendChild(b);});
+      }
+
       function renderPromptList() {
-        els.promptGrid.textContent = "";
-        const visible = getVisiblePrompts();
-
-        if (!visible.length) {
-          const empty = document.createElement("div");
-          empty.className = "empty-state";
-          empty.textContent = "No prompts match the current search and filter.";
-          els.promptGrid.appendChild(empty);
-        } else {
-          const fragment = document.createDocumentFragment();
-          for (const prompt of visible) {
-            fragment.appendChild(createPromptCard(prompt));
-          }
-          els.promptGrid.appendChild(fragment);
-        }
-
-        updateProgress();
+        els.promptGrid.textContent=""; renderTypeBrowser(); const visible=getVisiblePrompts();
+        if(!visible.length){const e=document.createElement("div");e.className="empty-state";e.textContent="No prompts match the current question type, search, and filter.";els.promptGrid.appendChild(e);} else {const f=document.createDocumentFragment();visible.forEach(p=>f.appendChild(createPromptCard(p)));els.promptGrid.appendChild(f);} updateProgress();
       }
 
       function createPromptCard(prompt) {
-        const answered = hasAnswer(prompt.id);
-        const record = getAnswerRecord(prompt.id);
-        const words = countWords(record.text);
-        const card = document.createElement("article");
-        card.className = `prompt-card${answered ? " has-answer" : ""}`;
-
-        const top = document.createElement("div");
-        top.className = "card-top";
-
-        const titleWrap = document.createElement("div");
-        titleWrap.style.minWidth = "0";
-
-        const id = document.createElement("span");
-        id.className = "prompt-id";
-        id.textContent = prompt.id;
-
-        const title = document.createElement("h2");
-        title.textContent = prompt.title;
-
-        titleWrap.append(id, title);
-
-        const badge = document.createElement("span");
-        badge.className = `answer-badge${answered ? " complete" : ""}`;
-        badge.textContent = answered ? "Answered" : "No answer";
-
-        top.append(titleWrap, badge);
-
-        const summary = document.createElement("p");
-        summary.className = "card-summary";
-        summary.textContent = prompt.context;
-
-        const meta = document.createElement("div");
-        meta.className = "card-meta";
-        const recipient = document.createElement("span");
-        recipient.textContent = `To: ${prompt.recipient}`;
-        const count = document.createElement("span");
-        count.textContent = answered ? `${words} ${words === 1 ? "word" : "words"}` : "Not started";
-        meta.append(recipient, count);
-
-        const actions = document.createElement("div");
-        actions.className = "card-actions";
-
-        const start = document.createElement("button");
-        start.type = "button";
-        start.className = "button primary small";
-        start.textContent = answered ? "Continue" : "Start";
-        start.addEventListener("click", () => openModeDialog(prompt.id));
-        actions.appendChild(start);
-
-        if (answered) {
-          const view = document.createElement("button");
-          view.type = "button";
-          view.className = "button small";
-          view.textContent = "View answer";
-          view.addEventListener("click", () => openAnswerDialog(prompt.id));
-          actions.appendChild(view);
-        }
-
-        card.append(top, summary, meta, actions);
-        return card;
+        const ps=getPromptState(prompt.id,false), saves=ps?.saves||[], answered=hasAnswer(prompt.id), latest=getLatestSave(prompt.id), words=countWords(latest?.text||""), type=getTypeMeta(getPromptTypeKey(prompt));
+        const card=document.createElement("article");card.className=`prompt-card${answered?" has-answer":""}`;
+        const top=document.createElement("div");top.className="card-top";const tw=document.createElement("div");tw.style.minWidth="0";const kicker=document.createElement("div");kicker.className="card-kicker";const id=document.createElement("span");id.className="prompt-id";id.textContent=prompt.id;const tb=document.createElement("span");tb.className="type-badge";tb.textContent=type.label;kicker.append(id,tb);const title=document.createElement("h2");title.textContent=prompt.title;tw.append(kicker,title);const badge=document.createElement("span");badge.className=`answer-badge${answered?" complete":""}`;badge.textContent=saves.length?`${saves.length} ${saves.length===1?"save":"saves"}`:"Not started";top.append(tw,badge);
+        const summary=document.createElement("p");summary.className="card-summary";summary.textContent=prompt.context;
+        const meta=document.createElement("div");meta.className="card-meta";meta.append(createMetaSpan(`To: ${prompt.recipient}`),createMetaSpan(latest?`${words} ${words===1?"word":"words"} · ${formatDurationMs(latest.elapsedMs)}`:"Not started"));
+        const actions=document.createElement("div");actions.className="card-actions";const start=document.createElement("button");start.type="button";start.className="button primary small";start.textContent=latest?"Continue latest":"Start";start.addEventListener("click",()=>openModeDialog(prompt.id,latest?.id||null));actions.appendChild(start);
+        if(saves.length){const sb=document.createElement("button");sb.type="button";sb.className="button small";sb.textContent="Saves";sb.addEventListener("click",()=>openSavesDialog(prompt.id));const view=document.createElement("button");view.type="button";view.className="button small";view.textContent="View latest";view.addEventListener("click",()=>openAnswerDialog(prompt.id));actions.append(sb,view);} card.append(top,summary,meta,actions);return card;
       }
+
+      function createMetaSpan(text) { const span=document.createElement("span"); span.textContent=text; return span; }
 
       function updateProgress() {
-        const answered = PROMPTS.filter((prompt) => hasAnswer(prompt.id)).length;
-        const total = PROMPTS.length;
-        const percent = total ? (answered / total) * 100 : 0;
-        els.progressText.textContent = `${answered} of ${total} prompts answered`;
-        els.progressFill.style.width = `${percent}%`;
-        els.progressTrack.setAttribute("aria-valuemax", String(total));
-        els.progressTrack.setAttribute("aria-valuenow", String(answered));
+        const pool=state.typeFilter==="all"?PROMPTS:PROMPTS.filter(p=>getPromptTypeKey(p)===state.typeFilter), answered=pool.filter(p=>hasAnswer(p.id)).length,total=pool.length,percent=total?(answered/total)*100:0,label=state.typeFilter==="all"?"prompts":`${getTypeMeta(state.typeFilter).label} prompts`;
+        els.progressText.textContent=`${answered} of ${total} ${label} answered`;els.progressFill.style.width=`${percent}%`;els.progressTrack.setAttribute("aria-valuemax",String(total));els.progressTrack.setAttribute("aria-valuenow",String(answered));
       }
 
-      function openModeDialog(promptId) {
+      function openModeDialog(promptId, saveId = null) {
         const prompt = getPrompt(promptId);
         if (!prompt) return;
         state.pendingPromptId = promptId;
-        els.modeDialogSubtitle.textContent = `${prompt.id}: ${prompt.title}`;
+        state.pendingSaveId = saveId || getLatestSave(promptId)?.id || null;
+        const save = state.pendingSaveId ? getSave(promptId, state.pendingSaveId) : null;
+        els.modeDialogSubtitle.textContent = save
+          ? `${prompt.id}: ${prompt.title} · ${save.name}`
+          : `${prompt.id}: ${prompt.title} · new save`;
         showDialog(els.modeDialog);
       }
 
@@ -2199,64 +2572,54 @@
         if (!prompt) return;
         closeDialog(els.modeDialog);
         state.selectedPromptId = prompt.id;
-        state.pendingPromptId = null;
         state.activeMode = mode;
         state.practiceReminderShown = false;
+        let save = state.pendingSaveId ? getSave(prompt.id, state.pendingSaveId) : null;
+        if (!save) save = createSave(prompt.id);
+        getPromptState(prompt.id).activeSaveId = save.id;
+        save.lastMode = mode;
+        state.pendingPromptId = null;
+        state.pendingSaveId = null;
         renderWorkspace(prompt);
         showView("workspace");
+        startSaveSession();
         startTimer(mode);
+        persistData();
         window.setTimeout(() => els.answerBox.focus(), 50);
       }
 
       function renderWorkspace(prompt) {
-        const record = getAnswerRecord(prompt.id);
-        els.workspacePromptId.textContent = prompt.id;
-        els.workspacePromptTitle.textContent = prompt.title;
-        els.promptContext.textContent = "";
-        const paragraph = document.createElement("p");
-        paragraph.textContent = prompt.context;
-        els.promptContext.appendChild(paragraph);
-        els.promptRecipientInline.textContent = prompt.recipient;
-        els.promptTasks.textContent = "";
-        prompt.tasks.forEach((task) => {
-          const li = document.createElement("li");
-          li.textContent = task;
-          els.promptTasks.appendChild(li);
-        });
-        els.promptInstruction.textContent = prompt.instruction;
-        els.promptRecipient.textContent = prompt.recipient;
-        els.promptSubject.textContent = prompt.subject;
-        els.answerBox.value = record.text;
-        els.answerBox.disabled = false;
-        els.finishPracticeButton.hidden = state.activeMode !== "practice";
-        els.clearAnswerButton.hidden = state.activeMode === "exam";
-        els.modeNote.textContent = state.activeMode === "exam"
-          ? "Exam mode: writing closes automatically when the seven-minute timer reaches zero."
-          : "Practice mode: the timer counts up, and you may continue after the seven-minute reminder.";
-        els.timerLabel.textContent = state.activeMode === "exam" ? "Time remaining" : "Practice time";
-        updateWordCount();
-        els.saveState.textContent = state.storageAvailable ? "Autosave active" : "Saved for this session";
+        const ps=getPromptState(prompt.id); let save=getSave(prompt.id,ps.activeSaveId)||getLatestSave(prompt.id); if(!save) save=createSave(prompt.id); ps.activeSaveId=save.id;
+        els.workspacePromptId.textContent=prompt.id; els.workspaceTypeLabel.textContent=getTypeMeta(getPromptTypeKey(prompt)).label; els.workspacePromptTitle.textContent=prompt.title;
+        els.promptContext.textContent=""; const p=document.createElement("p");p.textContent=prompt.context;els.promptContext.appendChild(p);
+        els.promptRecipientInline.textContent=prompt.recipient; els.promptTasks.textContent=""; prompt.tasks.forEach(task=>{const li=document.createElement("li");li.textContent=task;els.promptTasks.appendChild(li);}); els.promptInstruction.textContent=prompt.instruction;els.promptRecipient.textContent=prompt.recipient;els.promptSubject.textContent=prompt.subject;
+        els.answerBox.value=save.text;els.answerBox.disabled=false;els.finishPracticeButton.hidden=state.activeMode!=="practice";els.clearAnswerButton.hidden=state.activeMode==="exam";const locked=state.activeMode==="exam";els.manageSavesButton.disabled=locked;els.newSaveButton.disabled=locked;els.manageSavesButton.title=locked?"Finish exam mode before switching saves.":"View and switch saves";els.newSaveButton.title=locked?"Finish exam mode before starting another save.":"Start a fresh save";
+        els.modeNote.textContent=locked?"Exam mode: writing closes automatically when the seven-minute timer reaches zero. Save switching is disabled during the timed attempt.":"Practice mode: the timer counts up, and you may continue after the seven-minute reminder. Your active save also tracks cumulative writing time.";els.timerLabel.textContent=locked?"Time remaining":"Practice time";updateWordCount();updateActiveSaveMeta();els.saveState.textContent=state.storageAvailable?"Autosave active":"Saved for this session";
       }
 
       function showView(viewName) {
-        const listActive = viewName === "list";
-        els.listView.classList.toggle("is-active", listActive);
-        els.workspaceView.classList.toggle("is-active", !listActive);
-        if (listActive) {
+        document.body.dataset.appView = viewName;
+        els.listView.classList.toggle("is-active", viewName === "list");
+        els.workspaceView.classList.toggle("is-active", viewName === "workspace");
+        els.timelineView.classList.toggle("is-active", viewName === "timeline");
+        if (viewName === "list") {
           renderPromptList();
           document.title = "TOEFL Email Practice | Kooshky’s TOEFL Guides";
           window.scrollTo({ top: 0, behavior: "smooth" });
-          window.setTimeout(() => els.search.focus({ preventScroll: true }), 50);
-        } else {
+        } else if (viewName === "workspace") {
           const prompt = getPrompt(state.selectedPromptId);
-          document.title = `${prompt ? prompt.id + " — " + prompt.title : "Writing Prompt"} | TOEFL Email Practice`;
+          document.title = `${prompt ? `${prompt.id} — ${prompt.title}` : "Writing Prompt"} | TOEFL Email Practice`;
+          window.scrollTo({ top: 0, behavior: "smooth" });
+        } else {
+          document.title = "Writing Timeline | TOEFL Email Practice";
           window.scrollTo({ top: 0, behavior: "smooth" });
         }
       }
 
       function returnToList() {
-        saveCurrentAnswer();
+        if (state.selectedPromptId) finalizeSaveSession();
         stopTimer();
+        stopTimelinePlayback();
         state.activeMode = null;
         state.selectedPromptId = null;
         els.answerBox.disabled = false;
@@ -2266,6 +2629,7 @@
       function startTimer(mode) {
         stopTimer();
         state.timerStartedAt = Date.now();
+        state.practiceReminderShown = false;
         updateTimerDisplay();
         state.timerId = window.setInterval(updateTimerDisplay, 250);
       }
@@ -2281,16 +2645,18 @@
       function updateTimerDisplay() {
         if (!state.activeMode) return;
         const elapsed = Math.floor((Date.now() - state.timerStartedAt) / 1000);
+        updateActiveSaveMeta();
 
         if (state.activeMode === "practice") {
           els.timerValue.textContent = formatTime(elapsed);
           if (elapsed >= EXAM_SECONDS && !state.practiceReminderShown) {
             state.practiceReminderShown = true;
-            saveCurrentAnswer();
+            syncCurrentSave({ announce: false });
+            captureSnapshot(true);
             flashTimeAlert();
             showDialog(els.practiceTimeDialog);
           }
-          if (elapsed >= EXAM_SECONDS) els.timerBox.classList.add("warning");
+          els.timerBox.classList.toggle("warning", elapsed >= EXAM_SECONDS);
           return;
         }
 
@@ -2298,7 +2664,6 @@
         els.timerValue.textContent = formatTime(remaining);
         els.timerBox.classList.toggle("warning", remaining <= 60 && remaining > 30);
         els.timerBox.classList.toggle("critical", remaining <= 30);
-
         if (remaining <= 0) finishExam();
       }
 
@@ -2311,75 +2676,459 @@
 
       function finishExam() {
         if (state.activeMode !== "exam") return;
-        saveCurrentAnswer();
-        stopTimer();
-        els.answerBox.disabled = true;
+        syncCurrentSave({ announce: false, persist: false });
         const prompt = getPrompt(state.selectedPromptId);
         const text = els.answerBox.value;
         const words = countWords(text);
+        finalizeSaveSession();
+        stopTimer();
+        els.answerBox.disabled = true;
         els.examPreviewMeta.textContent = "";
         els.examPreviewMeta.append(
           createMetaSpan(prompt ? `${prompt.id}: ${prompt.title}` : "Completed response"),
-          createMetaSpan(`${words} ${words === 1 ? "word" : "words"}`)
+          createMetaSpan(`${words} ${words === 1 ? "word" : "words"}`),
+          createMetaSpan(`Save time: ${formatDurationMs(getActiveSave()?.elapsedMs || 0)}`)
         );
         els.examAnswerPreview.textContent = text.trim() || "No response was entered.";
         flashTimeAlert();
         showDialog(els.examCompleteDialog);
       }
 
-      function openAnswerDialog(promptId) {
-        const prompt = getPrompt(promptId);
-        if (!prompt) return;
-        const record = getAnswerRecord(promptId);
-        state.currentPreviewPromptId = promptId;
-        els.answerDialogTitle.textContent = prompt.title;
-        els.answerDialogSubtitle.textContent = `${prompt.id} · To: ${prompt.recipient}`;
-        els.answerPreviewMeta.textContent = "";
-        const words = countWords(record.text);
-        els.answerPreviewMeta.append(
-          createMetaSpan(`${words} ${words === 1 ? "word" : "words"}`),
-          createMetaSpan(`Last saved: ${formatDate(record.updatedAt)}`)
-        );
-        els.answerPreview.textContent = record.text.trim() || "No saved answer.";
-        els.copyAnswerButton.disabled = !record.text.trim();
-        showDialog(els.answerDialog);
+      function switchToSave(saveId) {
+        if (!state.selectedPromptId || state.activeMode === "exam") {
+          if (state.activeMode === "exam") showToast("Finish exam mode before switching saves.", "error");
+          return;
+        }
+        const save = getSave(state.selectedPromptId, saveId);
+        if (!save) return;
+        finalizeSaveSession();
+        getPromptState(state.selectedPromptId).activeSaveId = save.id;
+        renderWorkspace(getPrompt(state.selectedPromptId));
+        startSaveSession();
+        startTimer(state.activeMode || "practice");
+        closeDialog(els.savesDialog);
+        showToast(`${save.name} loaded.`, "success");
+        window.setTimeout(() => els.answerBox.focus(), 30);
       }
 
-      function createMetaSpan(text) {
-        const span = document.createElement("span");
-        span.textContent = text;
-        return span;
-      }
-
-      async function copyCurrentPreview() {
-        const record = getAnswerRecord(state.currentPreviewPromptId);
-        if (!record.text.trim()) return;
-        try {
-          await navigator.clipboard.writeText(record.text);
-          showToast("Answer copied to the clipboard.", "success");
-        } catch (_) {
-          showToast("The answer could not be copied automatically.", "error");
+      function startNewSaveForPrompt(promptId) {
+        if (state.selectedPromptId === promptId && state.activeMode === "exam") {
+          showToast("Finish exam mode before starting a new save.", "error");
+          return;
+        }
+        // Finalize the current save before createSave changes activeSaveId.
+        if (state.selectedPromptId === promptId) finalizeSaveSession();
+        const save = createSave(promptId);
+        if (state.selectedPromptId === promptId) {
+          getPromptState(promptId).activeSaveId = save.id;
+          renderWorkspace(getPrompt(promptId));
+          startSaveSession();
+          startTimer(state.activeMode || "practice");
+          closeDialog(els.savesDialog);
+          showToast(`${save.name} started.`, "success");
+          window.setTimeout(() => els.answerBox.focus(), 30);
+        } else {
+          closeDialog(els.savesDialog);
+          openModeDialog(promptId, save.id);
         }
       }
 
-      function clearCurrentAnswer() {
-        if (!state.selectedPromptId) return;
+      function openSavesDialog(promptId) {
+        if (state.activeMode === "exam" && state.selectedPromptId === promptId) {
+          showToast("Finish exam mode before opening the save manager.", "error");
+          return;
+        }
+        const prompt = getPrompt(promptId);
+        if (!prompt) return;
+        if (state.selectedPromptId === promptId) syncCurrentSave({ announce: false });
+        state.saveManagerPromptId = promptId;
+        state.selectedSaveIds.clear();
+        els.savesSelectAll.checked = false;
+        els.savesSelectAll.indeterminate = false;
+        els.savesDialogTitle.textContent = `Saves · ${prompt.id}`;
+        els.savesDialogSubtitle.textContent = `${prompt.title} — choose an attempt to continue or review.`;
+        renderSaveList();
+        showDialog(els.savesDialog);
+      }
+
+      function updateSaveSelectionControls() {
+        const saves = getPromptState(state.saveManagerPromptId, false)?.saves || [];
+        const existingIds = new Set(saves.map((save) => save.id));
+        for (const id of [...state.selectedSaveIds]) {
+          if (!existingIds.has(id)) state.selectedSaveIds.delete(id);
+        }
+        const selectedCount = state.selectedSaveIds.size;
+        els.deleteSelectedSavesButton.disabled = selectedCount === 0;
+        els.deleteSelectedSavesButton.textContent = selectedCount
+          ? `Delete selected (${selectedCount})`
+          : "Delete selected";
+        els.deleteAllPromptSavesButton.disabled = saves.length === 0;
+        els.savesSelectAll.disabled = saves.length === 0;
+        els.savesSelectAll.checked = saves.length > 0 && selectedCount === saves.length;
+        els.savesSelectAll.indeterminate = selectedCount > 0 && selectedCount < saves.length;
+      }
+
+      function renderSaveList() {
+        const promptId = state.saveManagerPromptId;
+        const promptState = getPromptState(promptId, false);
+        const saves = promptState?.saves || [];
+        els.saveList.textContent = "";
+        updateSaveSelectionControls();
+
+        if (!saves.length) {
+          const empty = document.createElement("div");
+          empty.className = "empty-state";
+          empty.textContent = "No saves yet. Start a new save to create your first attempt.";
+          els.saveList.appendChild(empty);
+          return;
+        }
+
+        [...saves].sort((a, b) => (Date.parse(b.updatedAt) || 0) - (Date.parse(a.updatedAt) || 0)).forEach((save) => {
+          const row = document.createElement("div");
+          const isActive = state.selectedPromptId === promptId && getPromptState(promptId).activeSaveId === save.id;
+          row.className = `save-row${isActive ? " is-active" : ""}`;
+
+          const selectWrap = document.createElement("label");
+          selectWrap.className = "save-row-select";
+          selectWrap.title = `Select ${save.name}`;
+          const checkbox = document.createElement("input");
+          checkbox.type = "checkbox";
+          checkbox.checked = state.selectedSaveIds.has(save.id);
+          checkbox.setAttribute("aria-label", `Select ${save.name}`);
+          checkbox.addEventListener("change", () => {
+            if (checkbox.checked) state.selectedSaveIds.add(save.id);
+            else state.selectedSaveIds.delete(save.id);
+            updateSaveSelectionControls();
+          });
+          selectWrap.appendChild(checkbox);
+
+          const main = document.createElement("div");
+          main.className = "save-row-main";
+          const title = document.createElement("div");
+          title.className = "save-row-title";
+          const strong = document.createElement("strong");
+          strong.textContent = save.name;
+          title.appendChild(strong);
+          if (isActive) {
+            const badge = document.createElement("span");
+            badge.className = "save-row-badge";
+            badge.textContent = "Active";
+            title.appendChild(badge);
+          }
+
+          const meta = document.createElement("div");
+          meta.className = "save-row-meta";
+          const words = countWords(save.text);
+          const displayElapsed = isActive ? getActiveElapsedMs() : save.elapsedMs;
+          const frameCount = getTimelineSnapshots(save).length;
+          const timelineMeta = save.legacySingleFrame
+            ? "legacy single-frame timeline"
+            : (state.settings.timelineEnabled ? `${frameCount} timeline ${frameCount === 1 ? "frame" : "frames"}` : `${frameCount}-frame playback · history off`);
+          meta.textContent = `${words} ${words === 1 ? "word" : "words"} · ${formatDurationMs(displayElapsed)} writing time · ${timelineMeta} · updated ${formatDate(save.updatedAt)}`;
+          main.append(title, meta);
+
+          const actions = document.createElement("div");
+          actions.className = "save-row-actions";
+
+          const open = document.createElement("button");
+          open.type = "button";
+          open.className = "button small primary";
+          open.textContent = isActive ? "Continue" : "Open";
+          open.addEventListener("click", () => {
+            if (state.selectedPromptId === promptId) switchToSave(save.id);
+            else {
+              closeDialog(els.savesDialog);
+              openModeDialog(promptId, save.id);
+            }
+          });
+
+          const timeline = document.createElement("button");
+          timeline.type = "button";
+          timeline.className = "button small";
+          timeline.textContent = "Timeline";
+          timeline.addEventListener("click", () => openTimeline(promptId, save.id));
+
+          const deleteButton = document.createElement("button");
+          deleteButton.type = "button";
+          deleteButton.className = "button small danger";
+          deleteButton.textContent = "Delete";
+          deleteButton.addEventListener("click", () => {
+            if (window.confirm(`Delete ${save.name}? This cannot be undone.`)) {
+              deleteSaves(promptId, [save.id]);
+            }
+          });
+
+          actions.append(open, timeline, deleteButton);
+          row.append(selectWrap, main, actions);
+          els.saveList.appendChild(row);
+        });
+
+        updateSaveSelectionControls();
+      }
+
+      function deleteSaves(promptId, saveIds) {
+        const ids = new Set(saveIds || []);
+        if (!ids.size) return;
+        if (state.activeMode === "exam" && state.selectedPromptId === promptId) {
+          showToast("Finish exam mode before deleting saves.", "error");
+          return;
+        }
+
+        const promptState = getPromptState(promptId, false);
+        if (!promptState) return;
+        const deletingActiveWorkspaceSave =
+          state.selectedPromptId === promptId &&
+          ids.has(promptState.activeSaveId);
+
+        if (deletingActiveWorkspaceSave) {
+          finalizeSaveSession();
+          stopTimer();
+        } else if (state.selectedPromptId === promptId) {
+          syncCurrentSave({ announce: false, persist: false });
+        }
+
+        promptState.saves = (promptState.saves || []).filter((save) => !ids.has(save.id));
+        for (const id of ids) state.selectedSaveIds.delete(id);
+
+        if (!promptState.saves.some((save) => save.id === promptState.activeSaveId)) {
+          promptState.activeSaveId = getLatestSave(promptId)?.id || null;
+        }
+
+        if (state.timelinePromptId === promptId && ids.has(state.timelineSaveId)) {
+          stopTimelinePlayback();
+          state.timelineSaveId = promptState.saves[0]?.id || null;
+          state.timelinePosition = 0;
+        }
+
+        persistData();
+
+        if (deletingActiveWorkspaceSave && state.selectedPromptId === promptId) {
+          let replacement = getSave(promptId, promptState.activeSaveId);
+          if (!replacement) replacement = createSave(promptId);
+          promptState.activeSaveId = replacement.id;
+          renderWorkspace(getPrompt(promptId));
+          startSaveSession();
+          startTimer(state.activeMode || "practice");
+        }
+
+        renderSaveList();
+        renderPromptList();
+        showToast(ids.size === 1 ? "Save deleted." : `${ids.size} saves deleted.`, "success");
+      }
+
+      function deleteAllSavesGlobal() {
+        if (!window.confirm("Delete every saved attempt from every question? This cannot be undone.")) return;
+        if (state.selectedPromptId) {
+          finalizeSaveSession();
+          stopTimer();
+        }
+        stopTimelinePlayback();
+        state.promptData = sanitizePromptData({});
+        state.selectedSaveIds.clear();
+        state.selectedPromptId = null;
+        state.activeMode = null;
+        state.timelinePromptId = null;
+        state.timelineSaveId = null;
+        persistData();
+        closeDialog(els.savesDialog);
+        closeDialog(els.settingsDialog);
+        showView("list");
+        showToast("All saved attempts were deleted.", "success");
+      }
+
+
+      function openAnswerDialog(promptId) {
+        const prompt=getPrompt(promptId), save=getLatestSave(promptId); if(!prompt||!save) return;
+        state.currentPreviewPromptId=promptId; els.answerDialogTitle.textContent=prompt.title; els.answerDialogSubtitle.textContent=`${prompt.id} · ${save.name} · To: ${prompt.recipient}`; els.answerPreviewMeta.textContent=""; const words=countWords(save.text); els.answerPreviewMeta.append(createMetaSpan(`${words} ${words===1?"word":"words"}`),createMetaSpan(`Writing time: ${formatDurationMs(save.elapsedMs)}`),createMetaSpan(`Last saved: ${formatDate(save.updatedAt)}`)); els.answerPreview.textContent=save.text.trim()||"No saved answer.";els.copyAnswerButton.disabled=!save.text.trim();showDialog(els.answerDialog);
+      }
+
+      async function copyCurrentPreview() {
+        const save=getLatestSave(state.currentPreviewPromptId); if(!save?.text.trim()) return; try{await navigator.clipboard.writeText(save.text);showToast("Answer copied to the clipboard.","success");}catch(_){showToast("The answer could not be copied automatically.","error");}
+      }
+
+      function clearCurrentSave() {
+        const save = getActiveSave();
+        if (!save || state.activeMode === "exam") return;
         els.answerBox.value = "";
-        delete state.answers[state.selectedPromptId];
-        persistAnswers();
+        syncCurrentSave({ announce: false, persist: false });
+        captureSnapshot(true);
+        persistData();
         updateWordCount();
         closeDialog(els.confirmDialog);
-        showToast("The answer has been cleared.", "success");
+        showToast(
+          state.settings.timelineEnabled
+            ? "This save was cleared. Earlier timeline snapshots were kept."
+            : "This save was cleared. Timeline history is off, so only the start and latest states are available.",
+          "success"
+        );
+      }
+
+      function openTimeline(promptId, saveId) {
+        if (state.activeMode === "exam") {
+          showToast("Finish exam mode before reviewing a timeline.", "error");
+          return;
+        }
+        const prompt = getPrompt(promptId);
+        const save = getSave(promptId, saveId);
+        if (!prompt || !save) return;
+
+        const returningFromWorkspace = state.selectedPromptId === promptId && state.activeMode === "practice";
+        state.timelineReturn = returningFromWorkspace
+          ? { view: "workspace", promptId, saveId: getPromptState(promptId).activeSaveId, mode: "practice" }
+          : { view: "list" };
+
+        if (returningFromWorkspace) {
+          finalizeSaveSession();
+          stopTimer();
+        }
+        closeDialog(els.savesDialog);
+        state.timelinePromptId = promptId;
+        state.timelineSaveId = saveId;
+        state.timelinePosition = 0;
+        renderTimeline(true);
+        showView("timeline");
+      }
+
+      function getTimelineSnapshots(save) {
+        if(!save) return [];
+        const snapshots=Array.isArray(save.snapshots)?save.snapshots.map(sanitizeSnapshot).filter(Boolean).sort((a,b)=>a.elapsedMs-b.elapsedMs):[];
+        if(save.legacySingleFrame===true) return snapshots.length?[snapshots[0]]:[{elapsedMs:0,text:save.text||"",capturedAt:save.updatedAt||null}];
+        if(!state.settings.timelineEnabled){const first=snapshots[0]||{elapsedMs:0,text:"",capturedAt:save.createdAt||null};const finalFrame={elapsedMs:Math.max(0,Number(save.elapsedMs)||0),text:typeof save.text==="string"?save.text:"",capturedAt:save.updatedAt||null};if(first.text===finalFrame.text&&Math.abs(first.elapsedMs-finalFrame.elapsedMs)<250)return[first];return[first,finalFrame];}
+        if(!snapshots.length)return[{elapsedMs:save.elapsedMs,text:save.text,capturedAt:save.updatedAt||null}];const last=snapshots.at(-1);if(last.text!==save.text||Math.abs(last.elapsedMs-save.elapsedMs)>250)snapshots.push({elapsedMs:save.elapsedMs,text:save.text,capturedAt:save.updatedAt});return snapshots;
+      }
+
+      function renderTimeline(resetPosition = false) {
+        stopTimelinePlayback();
+        const prompt = getPrompt(state.timelinePromptId);
+        const promptState = getPromptState(state.timelinePromptId, false);
+        if (!prompt || !promptState) {
+          showView("list");
+          return;
+        }
+        const saves = promptState.saves;
+        let save = getSave(state.timelinePromptId, state.timelineSaveId) || saves[0];
+        if (!save) {
+          showToast("This prompt has no saves to review.", "error");
+          showView("list");
+          return;
+        }
+        state.timelineSaveId = save.id;
+        els.timelineTitle.textContent = `${prompt.id}: ${prompt.title}`;
+        els.timelineSaveSelect.textContent = "";
+        saves.forEach((item) => {
+          const option = document.createElement("option");
+          option.value = item.id;
+          option.textContent = item.name;
+          option.selected = item.id === save.id;
+          els.timelineSaveSelect.appendChild(option);
+        });
+        const frameCount = getTimelineSnapshots(save).length;
+        const timelineStatus = save.legacySingleFrame ? "legacy answer · single-frame timeline" : (state.settings.timelineEnabled ? `${frameCount} timeline ${frameCount === 1 ? "frame" : "frames"}` : `${frameCount}-frame playback · timeline history off`);
+        els.timelineSummary.textContent = `${save.name} · ${countWords(save.text)} words now · ${formatDurationMs(save.elapsedMs)} total writing time · ${timelineStatus}`;
+        const snapshots = getTimelineSnapshots(save);
+        if (resetPosition) state.timelinePosition = 0;
+        state.timelinePosition = clamp(state.timelinePosition, 0, snapshots.length - 1);
+        els.timelineRange.min = "0";
+        els.timelineRange.max = String(Math.max(0, snapshots.length - 1));
+        els.timelineRange.value = String(state.timelinePosition);
+        els.timelineEndTime.textContent = formatDurationMs(snapshots.at(-1)?.elapsedMs || 0);
+        renderTimelineFrame();
+      }
+
+      function renderTimelineFrame() {
+        const save = getSave(state.timelinePromptId, state.timelineSaveId);
+        if (!save) return;
+        const snapshots = getTimelineSnapshots(save);
+        state.timelinePosition = clamp(state.timelinePosition, 0, snapshots.length - 1);
+        const snapshot = snapshots[state.timelinePosition];
+        els.timelineRange.value = String(state.timelinePosition);
+        els.timelineSnapshotLabel.textContent = `Snapshot ${state.timelinePosition + 1} of ${snapshots.length}`;
+        const words = countWords(snapshot.text);
+        els.timelineSnapshotMeta.textContent = `${formatDurationMs(snapshot.elapsedMs)} · ${words} ${words === 1 ? "word" : "words"}${snapshot.capturedAt ? ` · ${formatDate(snapshot.capturedAt)}` : ""}`;
+        els.timelineText.textContent = snapshot.text || "Nothing had been written yet.";
+        els.timelineText.classList.toggle("is-empty", !snapshot.text);
+        els.timelinePrevButton.disabled = state.timelinePosition <= 0;
+        els.timelineNextButton.disabled = state.timelinePosition >= snapshots.length - 1;
+      }
+
+      function moveTimeline(delta) {
+        const save = getSave(state.timelinePromptId, state.timelineSaveId);
+        if (!save) return;
+        const snapshots = getTimelineSnapshots(save);
+        state.timelinePosition = clamp(state.timelinePosition + delta, 0, snapshots.length - 1);
+        renderTimelineFrame();
+      }
+
+      function stopTimelinePlayback() {
+        if (state.timelinePlayTimer !== null) {
+          clearInterval(state.timelinePlayTimer);
+          state.timelinePlayTimer = null;
+        }
+        if (els.timelinePlayButton) els.timelinePlayButton.textContent = "Play";
+      }
+
+      function toggleTimelinePlayback() {
+        if (state.timelinePlayTimer !== null) {
+          stopTimelinePlayback();
+          return;
+        }
+        const save = getSave(state.timelinePromptId, state.timelineSaveId);
+        if (!save) return;
+        const snapshots = getTimelineSnapshots(save);
+        if (snapshots.length <= 1) return;
+        if (state.timelinePosition >= snapshots.length - 1) state.timelinePosition = 0;
+        renderTimelineFrame();
+        els.timelinePlayButton.textContent = "Pause";
+        state.timelinePlayTimer = window.setInterval(() => {
+          const current = getSave(state.timelinePromptId, state.timelineSaveId);
+          const frames = getTimelineSnapshots(current);
+          if (state.timelinePosition >= frames.length - 1) {
+            stopTimelinePlayback();
+            return;
+          }
+          state.timelinePosition += 1;
+          renderTimelineFrame();
+        }, 700);
+      }
+
+      function leaveTimeline() {
+        stopTimelinePlayback();
+        const target = state.timelineReturn;
+        state.timelinePromptId = null;
+        state.timelineSaveId = null;
+        state.timelineReturn = null;
+        if (target?.view === "workspace") {
+          state.selectedPromptId = target.promptId;
+          state.activeMode = target.mode || "practice";
+          const promptState = getPromptState(target.promptId);
+          if (getSave(target.promptId, target.saveId)) promptState.activeSaveId = target.saveId;
+          renderWorkspace(getPrompt(target.promptId));
+          showView("workspace");
+          startSaveSession();
+          startTimer(state.activeMode);
+          return;
+        }
+        state.selectedPromptId = null;
+        state.activeMode = null;
+        showView("list");
       }
 
       function createBackupPayload() {
+        finalizeIfWritingForBackup();
         return {
           app: "kooshky-toefl-email-practice",
           version: APP_VERSION,
           exportedAt: new Date().toISOString(),
-          prompts: PROMPTS.map(({ id, title }) => ({ id, title })),
-          answers: state.answers
+          prompts: PROMPTS.map(({ id, title, type }) => ({ id, title, type })),
+          settings: state.settings,
+          promptData: state.promptData
         };
+      }
+
+      function finalizeIfWritingForBackup() {
+        if (!state.selectedPromptId || !state.saveSessionStartedAt) return;
+        syncCurrentSave({ announce: false, persist: false });
+        captureSnapshot(true);
       }
 
       function downloadBackup(prefix = "kooshky-toefl-email-practice-backup") {
@@ -2398,23 +3147,33 @@
       async function importBackup(file) {
         if (!file) return;
         try {
+          if (state.selectedPromptId) returnToList();
           const text = await file.text();
           const parsed = JSON.parse(text);
           if (!parsed || typeof parsed !== "object") throw new Error("Invalid backup structure");
-          const incoming = parsed.answers && typeof parsed.answers === "object" ? parsed.answers : null;
-          if (!incoming) throw new Error("No answers found in backup");
 
-          const currentSnapshot = createBackupPayload();
-          try {
-            localStorage.setItem(PRE_IMPORT_KEY, JSON.stringify(currentSnapshot));
-          } catch (_) { }
+          const currentSnapshot = createStoragePayload();
+          try { localStorage.setItem(PRE_IMPORT_KEY, JSON.stringify(currentSnapshot)); } catch (_) { }
           downloadBackup("kooshky-toefl-email-practice-before-import");
 
-          state.answers = sanitizeAnswers(incoming);
-          persistAnswers();
+          if (parsed.promptData && typeof parsed.promptData === "object") {
+            state.promptData = sanitizePromptData(parsed.promptData);
+            state.settings.snapshotIntervalSec = sanitizeInterval(parsed.settings?.snapshotIntervalSec);
+            state.settings.timelineEnabled = sanitizeTimelineEnabled(parsed.settings?.timelineEnabled);
+            if (!state.settings.timelineEnabled) pruneAllTimelines();
+          } else {
+            const incoming = parsed.answers && typeof parsed.answers === "object"
+              ? parsed.answers
+              : (Object.keys(parsed).some((key) => /^TE-\d+$/.test(key)) ? parsed : null);
+            if (!incoming) throw new Error("No compatible saves found");
+            state.promptData = migrateLegacyAnswers(incoming);
+          }
+          persistData();
+          els.snapshotInterval.value = String(state.settings.snapshotIntervalSec);
+          updateTimelineSettingsUI();
           renderPromptList();
           showToast("Backup loaded. Your previous data was downloaded first.", "success");
-        } catch (error) {
+        } catch (_) {
           showToast("That file is not a valid backup for this app.", "error");
         } finally {
           els.importFile.value = "";
@@ -2430,14 +3189,14 @@
       }
 
       function showDialog(dialog) {
+        if (!dialog) return;
         if (typeof dialog.showModal === "function") {
           if (!dialog.open) dialog.showModal();
-        } else {
-          dialog.setAttribute("open", "");
-        }
+        } else dialog.setAttribute("open", "");
       }
 
       function closeDialog(dialog) {
+        if (!dialog) return;
         if (typeof dialog.close === "function" && dialog.open) dialog.close();
         else dialog.removeAttribute("open");
       }
@@ -2478,6 +3237,61 @@
         document.querySelectorAll(".home-link").forEach((link) => { link.href = homeHref; });
       }
 
+      function applySnapshotInterval({ notify = true } = {}) {
+        const value = sanitizeInterval(els.snapshotInterval.value);
+        state.settings.snapshotIntervalSec = value;
+        els.snapshotInterval.value = String(value);
+        persistData();
+        if (state.saveSessionStartedAt) scheduleSnapshotTimer();
+        if (notify && state.settings.timelineEnabled) {
+          showToast(`Timeline snapshots will be taken every ${value} seconds.`, "success");
+        }
+      }
+
+      function applyTimelineEnabled(nextEnabled) {
+        const enabled = Boolean(nextEnabled);
+        if (enabled === state.settings.timelineEnabled) {
+          updateTimelineSettingsUI();
+          return true;
+        }
+
+        if (!enabled) {
+          const confirmed = window.confirm(
+            "Turn off timeline saving? Intermediate snapshots already stored in your saves will be removed to free space. Each save will keep only its starting state, latest/final text, and total writing time."
+          );
+          if (!confirmed) {
+            updateTimelineSettingsUI();
+            return false;
+          }
+
+          if (state.selectedPromptId) {
+            syncCurrentSave({ announce: false, persist: false });
+            const save = getActiveSave();
+            if (save && state.saveSessionStartedAt) {
+              save.elapsedMs = getActiveElapsedMs();
+              state.saveSessionStartedAt = Date.now();
+            }
+          }
+          state.settings.timelineEnabled = false;
+          pruneAllTimelines();
+          persistData();
+          updateTimelineSettingsUI();
+          if (state.saveSessionStartedAt) scheduleSnapshotTimer();
+          showToast("Timeline history disabled. Intermediate snapshots were removed.", "success");
+          return true;
+        }
+
+        state.settings.timelineEnabled = true;
+        persistData();
+        updateTimelineSettingsUI();
+        if (state.saveSessionStartedAt) {
+          captureSnapshot(true);
+          scheduleSnapshotTimer();
+        }
+        showToast("Timeline history enabled. New intermediate snapshots will be recorded.", "success");
+        return true;
+      }
+
       function bindEvents() {
         els.search.addEventListener("input", () => {
           state.query = els.search.value;
@@ -2492,10 +3306,19 @@
           });
         });
 
-        els.answerBox.addEventListener("input", saveCurrentAnswer);
+        els.answerBox.addEventListener("input", () => syncCurrentSave());
         els.backButton.addEventListener("click", returnToList);
         els.finishPracticeButton.addEventListener("click", returnToList);
-        els.clearAnswerButton.addEventListener("click", () => showDialog(els.confirmDialog));
+        els.clearAnswerButton.addEventListener("click", () => {
+          document.getElementById("confirm-dialog-text").textContent = state.settings.timelineEnabled
+            ? "This clears the text in the active save. The save itself and its earlier timeline snapshots remain available."
+            : "This clears the current text in the active save. Timeline history is off, so only the starting state and the new latest/final state will remain.";
+          showDialog(els.confirmDialog);
+        });
+        els.manageSavesButton.addEventListener("click", () => openSavesDialog(state.selectedPromptId));
+        els.newSaveButton.addEventListener("click", () => {
+          if (state.selectedPromptId) startNewSaveForPrompt(state.selectedPromptId);
+        });
 
         els.modeClose.addEventListener("click", () => closeDialog(els.modeDialog));
         els.practiceModeButton.addEventListener("click", () => enterPrompt("practice"));
@@ -2513,14 +3336,73 @@
           closeDialog(els.practiceTimeDialog);
           returnToList();
         });
-
         els.examReturnButton.addEventListener("click", () => {
           closeDialog(els.examCompleteDialog);
           returnToList();
         });
 
         els.confirmCancelButton.addEventListener("click", () => closeDialog(els.confirmDialog));
-        els.confirmClearButton.addEventListener("click", clearCurrentAnswer);
+        els.confirmClearButton.addEventListener("click", clearCurrentSave);
+
+        els.savesDialogClose.addEventListener("click", () => closeDialog(els.savesDialog));
+        els.savesNewButton.addEventListener("click", () => {
+          if (state.saveManagerPromptId) startNewSaveForPrompt(state.saveManagerPromptId);
+        });
+        els.savesSelectAll.addEventListener("change", () => {
+          const saves = getPromptState(state.saveManagerPromptId, false)?.saves || [];
+          state.selectedSaveIds.clear();
+          if (els.savesSelectAll.checked) saves.forEach((save) => state.selectedSaveIds.add(save.id));
+          renderSaveList();
+        });
+        els.deleteSelectedSavesButton.addEventListener("click", () => {
+          const count = state.selectedSaveIds.size;
+          if (!count) return;
+          if (window.confirm(`Delete ${count} selected ${count === 1 ? "save" : "saves"}? This cannot be undone.`)) {
+            deleteSaves(state.saveManagerPromptId, [...state.selectedSaveIds]);
+          }
+        });
+        els.deleteAllPromptSavesButton.addEventListener("click", () => {
+          const saves = getPromptState(state.saveManagerPromptId, false)?.saves || [];
+          if (!saves.length) return;
+          if (window.confirm(`Delete all ${saves.length} saves for this question? This cannot be undone.`)) {
+            deleteSaves(state.saveManagerPromptId, saves.map((save) => save.id));
+          }
+        });
+
+        els.settingsButton.addEventListener("click", () => {
+          els.snapshotInterval.value = String(state.settings.snapshotIntervalSec);
+          updateTimelineSettingsUI();
+          showDialog(els.settingsDialog);
+        });
+        els.settingsDialogClose.addEventListener("click", () => {
+          updateTimelineSettingsUI();
+          closeDialog(els.settingsDialog);
+        });
+        els.settingsDoneButton.addEventListener("click", () => {
+          applySnapshotInterval({ notify: false });
+          updateTimelineSettingsUI();
+          closeDialog(els.settingsDialog);
+        });
+        els.timelineEnabled.addEventListener("change", () => {
+          applyTimelineEnabled(els.timelineEnabled.checked);
+        });
+        els.snapshotInterval.addEventListener("change", () => applySnapshotInterval());
+        els.deleteAllSavesGlobalButton.addEventListener("click", deleteAllSavesGlobal);
+
+        els.timelineBackButton.addEventListener("click", leaveTimeline);
+        els.timelineSaveSelect.addEventListener("change", () => {
+          state.timelineSaveId = els.timelineSaveSelect.value;
+          state.timelinePosition = 0;
+          renderTimeline(true);
+        });
+        els.timelineRange.addEventListener("input", () => {
+          stopTimelinePlayback();
+          state.timelinePosition = Number.parseInt(els.timelineRange.value, 10) || 0;
+          renderTimelineFrame();
+        });
+        els.timelinePrevButton.addEventListener("click", () => { stopTimelinePlayback(); moveTimeline(-1); });
+        els.timelineNextButton.addEventListener("click", () => { stopTimelinePlayback(); moveTimeline(1); });
+        els.timelinePlayButton.addEventListener("click", toggleTimelinePlayback);
 
         els.exportButton.addEventListener("click", () => {
           downloadBackup();
@@ -2528,7 +3410,6 @@
         });
         els.importButton.addEventListener("click", () => els.importFile.click());
         els.importFile.addEventListener("change", () => importBackup(els.importFile.files?.[0]));
-
         els.themeToggle.addEventListener("click", () => setTheme(getTheme() === "dark" ? "light" : "dark"));
 
         els.practiceTimeDialog.addEventListener("cancel", (event) => {
@@ -2536,12 +3417,23 @@
           closeDialog(els.practiceTimeDialog);
           els.answerBox.focus();
         });
-
         els.examCompleteDialog.addEventListener("cancel", (event) => event.preventDefault());
 
-        window.addEventListener("beforeunload", saveCurrentAnswer);
+        window.addEventListener("beforeunload", () => {
+          if (state.selectedPromptId) {
+            syncCurrentSave({ announce: false, persist: false });
+            const save = getActiveSave();
+            if (save && state.saveSessionStartedAt) save.elapsedMs = getActiveElapsedMs();
+            persistData();
+          }
+        });
+
         document.addEventListener("visibilitychange", () => {
-          if (document.visibilityState === "hidden") saveCurrentAnswer();
+          if (document.visibilityState === "hidden" && state.selectedPromptId) {
+            syncCurrentSave({ announce: false, persist: false });
+            captureSnapshot(true);
+            persistData();
+          }
         });
       }
 
@@ -2549,7 +3441,9 @@
         setHomeLinks();
         updateThemeControl();
         document.getElementById("current-year").textContent = String(new Date().getFullYear());
-        loadAnswers();
+        loadData();
+        els.snapshotInterval.value = String(state.settings.snapshotIntervalSec);
+        updateTimelineSettingsUI();
         bindEvents();
         renderPromptList();
       }
