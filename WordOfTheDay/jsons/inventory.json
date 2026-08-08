@@ -1,0 +1,438 @@
+{
+    "document_type": "kooshky_toefl_word_of_the_day",
+    "schema_version": "1.3",
+    "slug": "inventory",
+    "word": "inventory",
+    "date": "August 31st 2026",
+    "pronunciation": {
+      "primary_ipa": "/ˈɪnvənˌtɔːri/"
+    },
+    "hero": {
+      "part_of_speech_summary": "countable or uncountable noun; transitive verb",
+      "short_meanings": [
+        "goods kept for use or sale",
+        "a detailed list of items",
+        "make a detailed list"
+      ],
+      "one_line_summary": "Inventory can refer to the goods an organization has, a detailed list of those items, or the act of making such a list.",
+      "memorable_example": "Retailers often increase their inventory before major shopping seasons."
+    },
+    "meanings": [
+      {
+        "sense_title": "Goods kept for use or sale",
+        "part_of_speech": "countable or uncountable noun",
+        "ipa": "/ˈɪnvənˌtɔːri/",
+        "definition": "the goods, materials, or products that a business or organization has available or stored for future use or sale",
+        "examples": [
+          "The company reduced its inventory after demand for the product declined.",
+          "Retailers often increase their inventory before major shopping seasons.",
+          "The factory keeps enough raw materials in inventory to avoid interruptions in production.",
+          "Poor inventory management can cause both shortages and unnecessary storage costs.",
+          "The store has a large inventory of electronic devices.",
+          "Manufacturers try to avoid keeping excessive inventory when demand is uncertain.",
+          "The company sold much of its remaining inventory at a discount.",
+          "Supply chain problems made it difficult for businesses to maintain adequate inventory."
+        ],
+        "plain_english_equivalent": "the products or materials a business has in stock",
+        "typical_pattern": "inventory of + products or materials; keep or hold + inventory; in inventory",
+        "register": "neutral to formal; very common in business, economics, manufacturing, retail, and supply-chain contexts",
+        "nuance": {
+          "central_nuance": "Inventory refers to goods or materials that are currently available rather than goods that have already been sold or consumed.",
+          "usual_implication": "Businesses often need to balance having enough inventory to meet demand against the cost of storing too much.",
+          "contrast_term": "sales",
+          "contrast_explanation": "Inventory consists of goods a business still has available, while sales refer to goods that have already been sold."
+        },
+        "grammar": {
+          "how_to_use": "Inventory can be uncountable when referring generally to a company's stock of goods, but it can also be countable when referring to a particular stock or range of items.",
+          "what_can_follow": "It often appears with verbs such as keep, hold, maintain, reduce, increase, manage, sell, or replenish.",
+          "preposition_note": "Use in inventory or in stock for goods currently available. Use inventory of when naming the type of goods.",
+          "noun_use": "In business English, inventory is often uncountable: The company has too much inventory. A large inventory is also possible when referring to a particular quantity or collection of stock."
+        },
+        "patterns": [
+          {
+            "pattern": "keep or hold inventory",
+            "use": "Use this for goods or materials a company stores for future use or sale.",
+            "example": "The retailer keeps relatively little inventory in its smaller stores."
+          },
+          {
+            "pattern": "inventory of + products or materials",
+            "use": "Use this when naming what kinds of items a business has available.",
+            "example": "The warehouse contains a large inventory of replacement parts."
+          },
+          {
+            "pattern": "in inventory",
+            "use": "Use this for goods currently being held by a business or organization.",
+            "example": "The company still has several thousand units in inventory."
+          },
+          {
+            "pattern": "reduce or increase inventory",
+            "use": "Use this when a business changes the quantity of goods it stores.",
+            "example": "The manufacturer reduced inventory after orders began to fall."
+          },
+          {
+            "pattern": "inventory management",
+            "use": "Use this for the process of controlling how much stock a business keeps and when it replaces it.",
+            "example": "Effective inventory management can reduce storage costs."
+          }
+        ],
+        "errors": [
+          {
+            "wrong": "The company has many inventory in its warehouse.",
+            "correct": "The company has a lot of inventory in its warehouse.",
+            "explanation": "When inventory means stock in general, it is often uncountable, so use a lot of rather than many."
+          },
+          {
+            "wrong": "The store increased its inventories before the holiday season.",
+            "correct": "The store increased its inventory before the holiday season.",
+            "explanation": "When referring generally to the store's total stock, the singular or uncountable form inventory is more natural."
+          },
+          {
+            "wrong": "The products are on inventory.",
+            "correct": "The products are in inventory.",
+            "explanation": "Use in inventory, not on inventory."
+          }
+        ]
+      },
+      {
+        "sense_title": "Detailed list of items",
+        "part_of_speech": "countable noun",
+        "ipa": "/ˈɪnvənˌtɔːri/",
+        "definition": "a complete and detailed list of the items, resources, or materials that a person or organization has",
+        "examples": [
+          "The museum created an inventory of all the artifacts in its collection.",
+          "Researchers prepared an inventory of plant species found in the protected area.",
+          "The laboratory maintains a detailed inventory of its chemicals and equipment.",
+          "Before the building was renovated, staff compiled an inventory of its historical features.",
+          "The agency developed an inventory of available water resources.",
+          "Archaeologists made an inventory of the objects recovered from the site.",
+          "The school keeps an inventory of computers and other electronic equipment.",
+          "Officials used the inventory to determine which supplies were missing."
+        ],
+        "plain_english_equivalent": "a complete list of what is available",
+        "typical_pattern": "an inventory of + objects, species, resources, equipment, or materials",
+        "register": "neutral to formal; common in museums, science, administration, environmental studies, archaeology, and resource management",
+        "nuance": {
+          "central_nuance": "An inventory is usually systematic and comprehensive rather than a quick or informal list.",
+          "usual_implication": "The purpose is often to record what exists, where it is, how much there is, or what condition it is in.",
+          "contrast_term": "sample",
+          "contrast_explanation": "A sample contains only some items selected from a larger group, while an inventory aims to record all or nearly all relevant items."
+        },
+        "grammar": {
+          "how_to_use": "This meaning is countable. Say an inventory for one detailed list and inventories for more than one.",
+          "what_can_follow": "It is commonly followed by of and the category being recorded.",
+          "preposition_note": "Use an inventory of something: an inventory of equipment, an inventory of species.",
+          "noun_use": "The singular normally needs a determiner such as an, the, or this."
+        },
+        "patterns": [
+          {
+            "pattern": "an inventory of + items",
+            "use": "Use this for a detailed record of a collection or group of things.",
+            "example": "The researchers compiled an inventory of native plant species."
+          },
+          {
+            "pattern": "create or compile an inventory",
+            "use": "Use this when people systematically produce a detailed list.",
+            "example": "The museum compiled an inventory of objects damaged in the flood."
+          },
+          {
+            "pattern": "maintain an inventory",
+            "use": "Use this when an organization keeps a list accurate and up to date.",
+            "example": "The laboratory maintains an inventory of hazardous chemicals."
+          },
+          {
+            "pattern": "detailed or comprehensive inventory",
+            "use": "Use these adjectives when emphasizing completeness or detail.",
+            "example": "The survey produced a comprehensive inventory of the region's wetlands."
+          }
+        ],
+        "errors": [
+          {
+            "wrong": "Researchers made an inventory for the species in the forest.",
+            "correct": "Researchers made an inventory of the species in the forest.",
+            "explanation": "Use an inventory of something when naming the items included in the list."
+          },
+          {
+            "wrong": "The museum prepared inventory of its paintings.",
+            "correct": "The museum prepared an inventory of its paintings.",
+            "explanation": "This meaning is countable, so the singular needs a determiner such as an."
+          },
+          {
+            "wrong": "An inventory is just one example taken from a larger collection.",
+            "correct": "An inventory is a detailed list of the items in a collection.",
+            "explanation": "A sample contains only selected examples; an inventory aims to record the collection systematically."
+          }
+        ]
+      },
+      {
+        "sense_title": "Make a detailed list",
+        "part_of_speech": "transitive verb",
+        "ipa": "/ˈɪnvənˌtɔːri/",
+        "definition": "to make a detailed list of the items or resources in a place or collection",
+        "examples": [
+          "Museum staff inventoried thousands of objects before moving the collection.",
+          "Researchers inventoried the plant species found in each study area.",
+          "The organization inventoried its equipment to determine what needed to be replaced.",
+          "Archaeologists carefully inventoried every object recovered from the site.",
+          "Employees spent several days inventorying the contents of the warehouse.",
+          "The agency inventoried available water resources throughout the region.",
+          "Before closing the laboratory, staff inventoried all remaining chemicals."
+        ],
+        "plain_english_equivalent": "make a complete list of",
+        "typical_pattern": "inventory + objects, equipment, resources, species, or supplies",
+        "register": "formal; common in administration, science, museums, archaeology, business, and resource management",
+        "nuance": {
+          "central_nuance": "As a verb, inventory means systematically identify and record what is present.",
+          "usual_implication": "The process often includes counting, describing, locating, or assessing the condition of the items."
+        },
+        "grammar": {
+          "how_to_use": "This verb normally needs a direct object: inventory the equipment, inventory the collection.",
+          "what_can_follow": "Common objects include equipment, supplies, objects, resources, species, assets, and collections.",
+          "position_note": "The -ing form is inventorying, with the y kept: inventorying the supplies."
+        },
+        "patterns": [
+          {
+            "pattern": "inventory + equipment or supplies",
+            "use": "Use this when systematically recording what equipment or materials are available.",
+            "example": "Staff inventoried the emergency supplies before the hurricane season."
+          },
+          {
+            "pattern": "inventory + collection",
+            "use": "Use this when recording the contents of a museum, archive, or other collection.",
+            "example": "The museum began inventorying its entire archaeological collection."
+          },
+          {
+            "pattern": "inventory + species or resources",
+            "use": "Use this in scientific or environmental contexts when recording what exists in an area.",
+            "example": "Scientists inventoried the species living in the wetland."
+          }
+        ],
+        "errors": [
+          {
+            "wrong": "The researchers inventoried about the species in the forest.",
+            "correct": "The researchers inventoried the species in the forest.",
+            "explanation": "Inventory is transitive as a verb, so put the thing being recorded directly after it."
+          },
+          {
+            "wrong": "The staff was inventory the equipment.",
+            "correct": "The staff was inventorying the equipment.",
+            "explanation": "After was, use the -ing form inventorying."
+          }
+        ]
+      }
+    ],
+    "word_family": [
+      {
+        "word": "inventorial",
+        "part_of_speech": "adjective",
+        "definition": "relating to an inventory or the process of making one",
+        "examples": [
+          "The archive contains inventorial records describing the collection.",
+          "Researchers used inventorial data to compare the available resources."
+        ],
+        "ipa": "/ˌɪnvənˈtɔːriəl/",
+        "relationship_to_headword": "This adjective describes records or information connected with an inventory.",
+        "grammar_pattern": "inventorial + record, data, or description",
+        "usage_note": "This word is uncommon and mainly appears in specialized formal contexts."
+      }
+    ],
+    "collocations": [
+      {
+        "collocation": "inventory management",
+        "example": "Better inventory management helped the company reduce storage costs.",
+        "applies_to_sense": "Goods kept for use or sale",
+        "meaning": "the process of controlling how much stock a business keeps"
+      },
+      {
+        "collocation": "inventory levels",
+        "example": "Retailers increased inventory levels before the holiday season.",
+        "applies_to_sense": "Goods kept for use or sale",
+        "meaning": "the amount of stock currently available"
+      },
+      {
+        "collocation": "reduce inventory",
+        "example": "The manufacturer reduced inventory when demand began to decline.",
+        "applies_to_sense": "Goods kept for use or sale",
+        "meaning": "decrease the amount of goods or materials being stored"
+      },
+      {
+        "collocation": "increase inventory",
+        "example": "The company increased inventory to prepare for stronger demand.",
+        "applies_to_sense": "Goods kept for use or sale",
+        "meaning": "increase the amount of goods being held"
+      },
+      {
+        "collocation": "excess inventory",
+        "example": "The retailer offered discounts to sell excess inventory.",
+        "applies_to_sense": "Goods kept for use or sale",
+        "meaning": "more stock than is currently needed"
+      },
+      {
+        "collocation": "inventory of goods",
+        "example": "The warehouse contains a large inventory of imported goods.",
+        "applies_to_sense": "Goods kept for use or sale",
+        "meaning": "a stock of products available for sale or use"
+      },
+      {
+        "collocation": "in inventory",
+        "example": "The company still has thousands of unsold units in inventory.",
+        "applies_to_sense": "Goods kept for use or sale",
+        "meaning": "currently held as stock"
+      },
+      {
+        "collocation": "inventory of species",
+        "example": "The survey produced an inventory of species found in the wetland.",
+        "applies_to_sense": "Detailed list of items",
+        "meaning": "a systematic list of species present in an area"
+      },
+      {
+        "collocation": "inventory of resources",
+        "example": "The agency prepared an inventory of available water resources.",
+        "applies_to_sense": "Detailed list of items",
+        "meaning": "a detailed record of available resources"
+      },
+      {
+        "collocation": "compile an inventory",
+        "example": "Researchers compiled an inventory of historical buildings in the city.",
+        "applies_to_sense": "Detailed list of items",
+        "meaning": "systematically create a detailed list"
+      },
+      {
+        "collocation": "maintain an inventory",
+        "example": "The laboratory maintains an inventory of all hazardous substances.",
+        "applies_to_sense": "Detailed list of items",
+        "meaning": "keep a detailed list accurate and up to date"
+      }
+    ],
+    "synonyms": [
+      {
+        "word": "stock",
+        "part_of_speech": "countable or uncountable noun",
+        "applies_to_sense": "Goods kept for use or sale",
+        "difference": "Stock is the common everyday business word for goods available for sale or use. Inventory is especially common in American business English and often emphasizes the quantity being stored and managed.",
+        "example": "The store does not have enough stock to meet current demand.",
+        "shared_meaning": "Both can refer to goods that a business currently has available."
+      },
+      {
+        "word": "supply",
+        "part_of_speech": "countable noun",
+        "applies_to_sense": "Goods kept for use or sale",
+        "difference": "A supply is an amount of something available for use, especially something that may be consumed. Inventory more often refers to goods or materials systematically held and tracked by an organization.",
+        "example": "The hospital maintains an emergency supply of medicine.",
+        "shared_meaning": "Both can refer to materials kept for future use."
+      },
+      {
+        "word": "catalog",
+        "part_of_speech": "countable noun",
+        "applies_to_sense": "Detailed list of items",
+        "difference": "A catalog is an organized list, often with descriptions and sometimes intended for users or customers. An inventory is mainly a record of what items actually exist or are currently held.",
+        "example": "The library published an online catalog of its rare books.",
+        "shared_meaning": "Both can be organized lists of items."
+      },
+      {
+        "word": "list",
+        "part_of_speech": "countable noun",
+        "applies_to_sense": "Detailed list of items",
+        "difference": "List is the general word. Inventory usually suggests a systematic and relatively complete record of possessions, resources, or items in a collection.",
+        "example": "The researcher made a list of the samples collected that day.",
+        "shared_meaning": "Both can record a group of items."
+      }
+    ],
+    "antonyms": [
+      {
+        "word": "shortage",
+        "part_of_speech": "countable noun",
+        "applies_to_sense": "Goods kept for use or sale",
+        "opposition": "Inventory is the stock of goods or materials available, while a shortage is a situation in which there is not enough of something to meet demand.",
+        "example": "The factory experienced a shortage of essential components.",
+        "usage_note": "This is a useful contrast rather than a perfect dictionary antonym."
+      }
+    ],
+    "confusables": [
+      {
+        "word": "stock",
+        "key_difference": "Inventory can mean the goods a business holds, especially in American business English. Stock can have the same meaning, but it also has several unrelated meanings, including shares in a company.",
+        "headword_example": "The retailer has too much inventory in its warehouses.",
+        "confusable_example": "The retailer has too much stock in its warehouses.",
+        "part_of_speech": "noun",
+        "why_confused": "The two words overlap strongly when referring to goods available for sale."
+      },
+      {
+        "word": "catalog",
+        "key_difference": "An inventory records what items are actually present or owned. A catalog is an organized list or presentation of items and may include things that are available, described, or offered rather than physically present.",
+        "headword_example": "The museum completed an inventory of all objects in storage.",
+        "confusable_example": "The museum published a catalog describing the exhibition.",
+        "part_of_speech": "countable noun",
+        "why_confused": "Both can refer to organized lists of objects."
+      },
+      {
+        "word": "invent",
+        "key_difference": "Inventory refers to stock or a detailed list, and as a verb means make such a list. Invent means create or design something new.",
+        "headword_example": "Staff inventoried all the equipment in the laboratory.",
+        "confusable_example": "The engineer invented a new type of sensor.",
+        "part_of_speech": "verb",
+        "why_confused": "The words begin similarly but have different modern meanings and uses."
+      }
+    ],
+    "etymology": {
+      "origin": "Inventory comes through Medieval Latin and French from a word referring to a detailed list of goods or possessions.",
+      "development": "The meaning expanded from the written list itself to the goods or stock recorded on that list.",
+      "memory_link": "An inventory originally focuses on recording what you have; today the word can mean either the list or the actual goods on that list."
+    },
+    "exercises": {
+      "correct_or_incorrect": [
+        {
+          "sentence": "The retailer increased its inventory before the holiday season.",
+          "verdict": "Correct",
+          "explanation": "Inventory naturally refers to goods a business keeps available for sale."
+        },
+        {
+          "sentence": "The company has many inventory in its warehouse.",
+          "verdict": "Incorrect",
+          "corrected_sentence": "The company has a lot of inventory in its warehouse.",
+          "explanation": "When inventory means stock in general, it is commonly uncountable."
+        },
+        {
+          "sentence": "Researchers compiled an inventory of the species found in the wetland.",
+          "verdict": "Correct",
+          "explanation": "An inventory of something is a systematic list of the items present."
+        },
+        {
+          "sentence": "The museum made an inventory for all its artifacts.",
+          "verdict": "Incorrect",
+          "corrected_sentence": "The museum made an inventory of all its artifacts.",
+          "explanation": "Use an inventory of when naming the items included in the list."
+        },
+        {
+          "sentence": "Staff inventoried the laboratory equipment before the move.",
+          "verdict": "Correct",
+          "explanation": "As a transitive verb, inventory means make a detailed record of the items."
+        }
+      ],
+      "collocation_practice": [
+        {
+          "prompt_sentence": "Effective inventory _____ can help a company avoid both shortages and excessive storage costs.",
+          "answer": "management",
+          "completed_sentence": "Effective inventory management can help a company avoid both shortages and excessive storage costs.",
+          "explanation": "Inventory management is the process of controlling and organizing a company's stock."
+        },
+        {
+          "prompt_sentence": "The museum compiled an inventory _____ all the objects in its collection.",
+          "answer": "of",
+          "completed_sentence": "The museum compiled an inventory of all the objects in its collection.",
+          "explanation": "Use an inventory of something when naming what the list contains."
+        },
+        {
+          "prompt_sentence": "The retailer reduced _____ after sales declined.",
+          "answer": "inventory",
+          "completed_sentence": "The retailer reduced inventory after sales declined.",
+          "explanation": "Reduce inventory means decrease the amount of stock being held."
+        },
+        {
+          "prompt_sentence": "Scientists prepared a detailed inventory of plant _____ in the protected area.",
+          "answer": "species",
+          "completed_sentence": "Scientists prepared a detailed inventory of plant species in the protected area.",
+          "explanation": "An inventory of species is a systematic record of the species present in an area."
+        }
+      ]
+    }
+  }

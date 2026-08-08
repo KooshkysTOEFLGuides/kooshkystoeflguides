@@ -1,0 +1,423 @@
+{
+    "document_type": "kooshky_toefl_word_of_the_day",
+    "schema_version": "1.3",
+    "slug": "rigid",
+    "word": "rigid",
+    "date": "August 15th 2026",
+    "pronunciation": {
+      "primary_ipa": "/ˈrɪdʒɪd/"
+    },
+    "hero": {
+      "part_of_speech_summary": "adjective",
+      "short_meanings": [
+        "stiff and unable to bend",
+        "strict or difficult to change"
+      ],
+      "one_line_summary": "Rigid describes something that cannot bend physically or something such as a rule, system, or attitude that does not easily change.",
+      "memorable_example": "A rigid system may work well in normal conditions but fail when circumstances change."
+    },
+    "meanings": [
+      {
+        "sense_title": "Stiff and unable to bend",
+        "part_of_speech": "adjective",
+        "ipa": "/ˈrɪdʒɪd/",
+        "definition": "stiff and not able to bend, change shape, or move easily",
+        "examples": [
+          "The building is supported by a rigid steel frame.",
+          "Unlike flexible cartilage, bone is relatively rigid.",
+          "The container must be rigid enough to protect the equipment during transportation.",
+          "The insect's rigid outer covering helps protect its internal organs.",
+          "Engineers needed a lightweight but rigid material for the structure.",
+          "The cold temperature made the plastic more rigid and easier to break.",
+          "A rigid surface does not absorb impact as easily as a flexible one.",
+          "The telescope requires a rigid support to prevent small movements from affecting the measurements."
+        ],
+        "plain_english_equivalent": "hard to bend",
+        "typical_pattern": "rigid + structure, frame, material, surface, or support",
+        "register": "neutral to formal; common in science, engineering, biology, medicine, and descriptions of materials",
+        "nuance": {
+          "central_nuance": "Rigid emphasizes resistance to bending or changing shape.",
+          "usual_implication": "Rigidity can provide strength and stability, but it can also make an object more likely to crack or break under certain forces.",
+          "contrast_term": "flexible",
+          "contrast_explanation": "A flexible object can bend or change shape relatively easily. A rigid object strongly resists bending or deformation."
+        },
+        "grammar": {
+          "how_to_use": "Use it before a noun, as in a rigid frame, or after a linking verb, as in The frame is rigid.",
+          "what_can_follow": "It commonly describes materials, structures, surfaces, containers, supports, and parts of the body.",
+          "position_note": "Words such as highly, relatively, completely, and sufficiently can appear before rigid."
+        },
+        "patterns": [
+          {
+            "pattern": "a rigid + material or structure",
+            "use": "Use this for something that strongly resists bending or changing shape.",
+            "example": "The device is enclosed in a rigid plastic shell."
+          },
+          {
+            "pattern": "remain rigid",
+            "use": "Use this when something continues to keep its shape despite pressure or movement.",
+            "example": "The frame must remain rigid under heavy loads."
+          },
+          {
+            "pattern": "rigid enough to + verb",
+            "use": "Use this when a certain level of stiffness is necessary for a purpose.",
+            "example": "The panel is rigid enough to support the weight."
+          },
+          {
+            "pattern": "become more or less rigid",
+            "use": "Use this when the stiffness of a material changes.",
+            "example": "Some plastics become more rigid at low temperatures."
+          }
+        ],
+        "errors": [
+          {
+            "wrong": "The metal is very rigidity.",
+            "correct": "The metal is very rigid.",
+            "explanation": "Use the adjective rigid after is. Rigidity is a noun."
+          },
+          {
+            "wrong": "The frame is too rigid to bend easily, which means it is very flexible.",
+            "correct": "The frame is too rigid to bend easily, which means it is not very flexible.",
+            "explanation": "Rigid and flexible have opposite meanings in physical descriptions."
+          },
+          {
+            "wrong": "The material has a rigid.",
+            "correct": "The material is rigid.",
+            "explanation": "Rigid is an adjective, not a countable noun."
+          }
+        ]
+      },
+      {
+        "sense_title": "Strict or difficult to change",
+        "part_of_speech": "adjective",
+        "ipa": "/ˈrɪdʒɪd/",
+        "definition": "very strict, fixed, or unwilling to change, even when different circumstances might require flexibility",
+        "examples": [
+          "A rigid schedule can make it difficult for employees to respond to unexpected problems.",
+          "The school abandoned its rigid rules and gave teachers greater freedom in the classroom.",
+          "Critics argued that the government's rigid approach prevented it from adapting to changing economic conditions.",
+          "The organization once had a rigid hierarchy in which junior employees had little influence.",
+          "A rigid interpretation of the law may produce unfair results in unusual cases.",
+          "The researchers warned against using a rigid classification system for such a complex phenomenon.",
+          "His rigid views made productive discussion difficult.",
+          "Some companies are replacing rigid working hours with more flexible arrangements."
+        ],
+        "plain_english_equivalent": "too fixed or strict",
+        "typical_pattern": "rigid + rule, system, schedule, structure, approach, hierarchy, or attitude",
+        "register": "neutral to formal; common in academic, organizational, social, political, and educational contexts",
+        "nuance": {
+          "central_nuance": "This sense transfers the physical idea of something that cannot bend to rules, systems, plans, or attitudes that cannot easily adapt.",
+          "usual_implication": "The word is often negative because too little flexibility can make a system or person unable to respond well to new circumstances.",
+          "contrast_term": "flexible",
+          "contrast_explanation": "A flexible rule, system, or approach can be adjusted when circumstances change. A rigid one remains fixed and allows little adjustment."
+        },
+        "grammar": {
+          "how_to_use": "Use it before nouns such as rule, schedule, system, approach, hierarchy, structure, or attitude, or after a linking verb.",
+          "what_can_follow": "It frequently describes policies, institutions, ways of thinking, organizational structures, and procedures.",
+          "position_note": "Too rigid and overly rigid are common when criticizing a lack of flexibility."
+        },
+        "patterns": [
+          {
+            "pattern": "a rigid system or structure",
+            "use": "Use this for an organization or arrangement that allows little change.",
+            "example": "The rigid administrative system made reform extremely slow."
+          },
+          {
+            "pattern": "a rigid schedule",
+            "use": "Use this for a timetable that allows little or no adjustment.",
+            "example": "Parents with young children may struggle with a rigid work schedule."
+          },
+          {
+            "pattern": "a rigid approach to + noun or -ing form",
+            "use": "Use this for a method that does not adapt easily to different situations.",
+            "example": "A rigid approach to teaching may not meet the needs of every student."
+          },
+          {
+            "pattern": "too or overly rigid",
+            "use": "Use this when strictness or lack of adaptability creates problems.",
+            "example": "The regulations were criticized for being overly rigid."
+          },
+          {
+            "pattern": "rigid views or beliefs",
+            "use": "Use this for opinions that a person is unwilling to reconsider.",
+            "example": "Rigid beliefs can make compromise difficult."
+          }
+        ],
+        "errors": [
+          {
+            "wrong": "The company follows rigidly rules.",
+            "correct": "The company follows rigid rules.",
+            "explanation": "Use the adjective rigid before a noun such as rules."
+          },
+          {
+            "wrong": "The schedule is rigid to changes.",
+            "correct": "The schedule is rigid and difficult to change.",
+            "explanation": "Rigid is not normally followed by to changes in this meaning."
+          },
+          {
+            "wrong": "The manager was rigidly about working hours.",
+            "correct": "The manager was rigid about working hours.",
+            "explanation": "Use the adjective rigid after was. Rigidly is an adverb."
+          },
+          {
+            "wrong": "A rigid policy is always better because everyone follows the same rule.",
+            "correct": "A rigid policy applies fixed rules but may be unsuitable when circumstances differ.",
+            "explanation": "Rigid does not mean fair or effective; it emphasizes lack of flexibility."
+          }
+        ]
+      }
+    ],
+    "word_family": [
+      {
+        "word": "rigidity",
+        "part_of_speech": "uncountable noun",
+        "definition": "the quality of being physically stiff or of being too fixed and unwilling or unable to change",
+        "examples": [
+          "The rigidity of the structure helps it resist strong winds.",
+          "Critics blamed the system's rigidity for its inability to respond quickly to the crisis.",
+          "Excessive organizational rigidity can discourage innovation."
+        ],
+        "ipa": "/rɪˈdʒɪdəti/",
+        "relationship_to_headword": "This noun names the physical stiffness or lack of flexibility described by rigid.",
+        "grammar_pattern": "the rigidity of + object or system",
+        "usage_note": "It is normally uncountable."
+      },
+      {
+        "word": "rigidly",
+        "part_of_speech": "adverb",
+        "definition": "in a strict, fixed, or inflexible way",
+        "examples": [
+          "The organization rigidly enforced its traditional procedures.",
+          "The categories should not be applied too rigidly because some cases overlap."
+        ],
+        "ipa": "/ˈrɪdʒɪdli/",
+        "relationship_to_headword": "This adverb describes an action performed in a rigid or inflexible way.",
+        "grammar_pattern": "rigidly + enforce, follow, apply, control, or define"
+      }
+    ],
+    "collocations": [
+      {
+        "collocation": "rigid structure",
+        "example": "The bridge requires a rigid structure that can withstand strong winds.",
+        "applies_to_sense": "Stiff and unable to bend",
+        "meaning": "a structure that strongly resists bending or changing shape"
+      },
+      {
+        "collocation": "rigid material",
+        "example": "The device is made from a rigid but lightweight material.",
+        "applies_to_sense": "Stiff and unable to bend",
+        "meaning": "a material that does not bend easily"
+      },
+      {
+        "collocation": "rigid frame",
+        "example": "A rigid frame supports the outer shell of the vehicle.",
+        "applies_to_sense": "Stiff and unable to bend",
+        "meaning": "a stiff supporting structure"
+      },
+      {
+        "collocation": "rigid surface",
+        "example": "The instrument must be placed on a rigid surface.",
+        "applies_to_sense": "Stiff and unable to bend",
+        "meaning": "a surface that does not easily bend or deform"
+      },
+      {
+        "collocation": "rigid rules",
+        "example": "Rigid rules prevented employees from responding creatively to unusual situations.",
+        "applies_to_sense": "Strict or difficult to change",
+        "meaning": "rules that allow very little flexibility"
+      },
+      {
+        "collocation": "rigid schedule",
+        "example": "The rigid schedule left no time for unexpected delays.",
+        "applies_to_sense": "Strict or difficult to change",
+        "meaning": "a timetable that is difficult to adjust"
+      },
+      {
+        "collocation": "rigid system",
+        "example": "The old rigid system was gradually replaced by a more flexible one.",
+        "applies_to_sense": "Strict or difficult to change",
+        "meaning": "a system whose rules or structure are difficult to alter"
+      },
+      {
+        "collocation": "rigid hierarchy",
+        "example": "A rigid hierarchy separated senior managers from ordinary employees.",
+        "applies_to_sense": "Strict or difficult to change",
+        "meaning": "a strongly fixed ranking system with clearly separated levels"
+      },
+      {
+        "collocation": "rigid approach",
+        "example": "A rigid approach to language teaching may ignore differences among learners.",
+        "applies_to_sense": "Strict or difficult to change",
+        "meaning": "a method that allows little adjustment",
+        "grammar_pattern": "a rigid approach to + noun or -ing form"
+      },
+      {
+        "collocation": "rigid thinking",
+        "example": "Rigid thinking can make it difficult to consider alternative explanations.",
+        "applies_to_sense": "Strict or difficult to change",
+        "meaning": "a way of thinking that resists new ideas or perspectives"
+      },
+      {
+        "collocation": "too rigid",
+        "example": "The classification system is too rigid to describe every case accurately.",
+        "applies_to_sense": "Strict or difficult to change",
+        "meaning": "so inflexible that it causes difficulties",
+        "grammar_pattern": "be too rigid to + verb"
+      },
+      {
+        "collocation": "institutional rigidity",
+        "example": "Institutional rigidity slowed the implementation of the reforms.",
+        "applies_to_sense": "Strict or difficult to change",
+        "meaning": "the inability of an institution to adapt easily",
+        "usage_note": "Rigidity is the noun form."
+      }
+    ],
+    "synonyms": [
+      {
+        "word": "stiff",
+        "part_of_speech": "adjective",
+        "applies_to_sense": "Stiff and unable to bend",
+        "difference": "Stiff is the more common everyday word for something difficult to bend or move. Rigid is more formal and often suggests stronger resistance to changing shape.",
+        "example": "The cardboard becomes stiff when several layers are glued together.",
+        "shared_meaning": "Both can describe something that does not bend easily."
+      },
+      {
+        "word": "inflexible",
+        "part_of_speech": "adjective",
+        "applies_to_sense": "all senses",
+        "difference": "Inflexible is especially common for rules, plans, attitudes, and people that cannot or will not change. Rigid can describe both this figurative lack of flexibility and literal physical stiffness.",
+        "example": "The company's inflexible policies made it difficult for employees with family responsibilities.",
+        "shared_meaning": "Both can describe something that does not adapt or bend easily."
+      },
+      {
+        "word": "strict",
+        "part_of_speech": "adjective",
+        "applies_to_sense": "Strict or difficult to change",
+        "difference": "Strict means demanding that rules be followed carefully. Rigid goes further by suggesting that the rules or approach allow too little adjustment when circumstances change.",
+        "example": "The laboratory follows strict safety procedures.",
+        "shared_meaning": "Both can describe rules or systems that place strong limits on behavior."
+      },
+      {
+        "word": "fixed",
+        "part_of_speech": "adjective",
+        "applies_to_sense": "Strict or difficult to change",
+        "difference": "Fixed means established and not changing. Rigid often adds a negative idea that the lack of change creates difficulties or prevents adaptation.",
+        "example": "The course follows a fixed timetable throughout the semester.",
+        "shared_meaning": "Both can describe something that does not change easily."
+      }
+    ],
+    "antonyms": [
+      {
+        "word": "flexible",
+        "part_of_speech": "adjective",
+        "applies_to_sense": "all senses",
+        "opposition": "Flexible describes something that can bend physically or adapt to changing circumstances, while rigid describes something that strongly resists bending or change.",
+        "example": "The flexible material can bend without breaking."
+      },
+      {
+        "word": "adaptable",
+        "part_of_speech": "adjective",
+        "applies_to_sense": "Strict or difficult to change",
+        "opposition": "An adaptable person, system, or approach can change to suit new circumstances, while a rigid one changes with difficulty.",
+        "example": "Successful organizations need adaptable systems that can respond to unexpected conditions."
+      }
+    ],
+    "confusables": [
+      {
+        "word": "rigorous",
+        "key_difference": "Rigid means physically stiff or unwilling or unable to change. Rigorous means extremely careful, thorough, or demanding.",
+        "headword_example": "The rigid schedule allowed almost no changes.",
+        "confusable_example": "The researchers used a rigorous method to test the hypothesis.",
+        "part_of_speech": "adjective",
+        "why_confused": "Both are formal adjectives beginning with rig- and can describe demanding systems or procedures, but their meanings are different."
+      },
+      {
+        "word": "strict",
+        "key_difference": "Strict emphasizes strong rules and careful enforcement. Rigid emphasizes lack of flexibility and often suggests that adjustment is difficult or impossible.",
+        "headword_example": "The rigid policy could not be adapted to unusual cases.",
+        "confusable_example": "The laboratory has strict rules about handling dangerous chemicals.",
+        "part_of_speech": "adjective",
+        "why_confused": "Both can describe rules and systems that strongly limit behavior."
+      }
+    ],
+    "etymology": {
+      "origin": "Rigid comes from Latin rigidus, meaning stiff or hard.",
+      "memory_link": "The original idea of physical stiffness helps explain the figurative meaning: a rigid rule or attitude cannot easily bend or adapt."
+    },
+    "exercises": {
+      "word_family_choice": [
+        {
+          "prompt_sentence": "The _____ of the old administrative system made rapid reform difficult.",
+          "answer": "rigidity",
+          "completed_sentence": "The rigidity of the old administrative system made rapid reform difficult.",
+          "explanation": "Use the noun rigidity for the quality of being inflexible."
+        },
+        {
+          "prompt_sentence": "The categories should not be applied too _____.",
+          "answer": "rigidly",
+          "completed_sentence": "The categories should not be applied too rigidly.",
+          "explanation": "Use the adverb rigidly to describe how the categories are applied."
+        },
+        {
+          "prompt_sentence": "The container must be sufficiently _____ to protect the equipment.",
+          "answer": "rigid",
+          "completed_sentence": "The container must be sufficiently rigid to protect the equipment.",
+          "explanation": "Use the adjective rigid after be."
+        }
+      ],
+      "correct_or_incorrect": [
+        {
+          "sentence": "The rigid steel frame helps the structure maintain its shape.",
+          "verdict": "Correct",
+          "explanation": "Rigid correctly describes a frame that strongly resists bending."
+        },
+        {
+          "sentence": "The company follows a very rigidity schedule.",
+          "verdict": "Incorrect",
+          "corrected_sentence": "The company follows a very rigid schedule.",
+          "explanation": "Use the adjective rigid before the noun schedule."
+        },
+        {
+          "sentence": "A rigid approach may become ineffective when conditions change.",
+          "verdict": "Correct",
+          "explanation": "Rigid appropriately describes an approach that does not adapt easily."
+        },
+        {
+          "sentence": "The researchers used a rigid method, meaning that it was extremely careful and thorough.",
+          "verdict": "Incorrect",
+          "corrected_sentence": "The researchers used a rigorous method, meaning that it was extremely careful and thorough.",
+          "explanation": "Rigorous means careful and thorough. Rigid means stiff or inflexible."
+        },
+        {
+          "sentence": "The organization rigidly enforced the same procedure in every case.",
+          "verdict": "Correct",
+          "explanation": "Rigidly correctly describes inflexible enforcement."
+        }
+      ],
+      "collocation_practice": [
+        {
+          "prompt_sentence": "The company replaced its rigid _____ with a more flexible timetable.",
+          "answer": "schedule",
+          "completed_sentence": "The company replaced its rigid schedule with a more flexible timetable.",
+          "explanation": "A rigid schedule is one that allows little adjustment."
+        },
+        {
+          "prompt_sentence": "The machine requires a _____ frame to keep all of its components properly aligned.",
+          "answer": "rigid",
+          "completed_sentence": "The machine requires a rigid frame to keep all of its components properly aligned.",
+          "explanation": "A rigid frame strongly resists bending or changing shape."
+        },
+        {
+          "prompt_sentence": "A rigid approach _____ teaching may not work equally well for every student.",
+          "answer": "to",
+          "completed_sentence": "A rigid approach to teaching may not work equally well for every student.",
+          "explanation": "Use an approach to followed by a noun or -ing form."
+        },
+        {
+          "prompt_sentence": "Excessive institutional _____ can prevent organizations from adapting to change.",
+          "answer": "rigidity",
+          "completed_sentence": "Excessive institutional rigidity can prevent organizations from adapting to change.",
+          "explanation": "Institutional rigidity means lack of flexibility within an institution."
+        }
+      ]
+    }
+  }

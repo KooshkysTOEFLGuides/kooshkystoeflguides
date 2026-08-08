@@ -1,0 +1,335 @@
+{
+    "document_type": "kooshky_toefl_word_of_the_day",
+    "schema_version": "1.3",
+    "slug": "construe",
+    "word": "construe",
+    "date": "August 22nd 2026",
+    "pronunciation": {
+      "primary_ipa": "/kənˈstruː/"
+    },
+    "hero": {
+      "part_of_speech_summary": "transitive verb",
+      "short_meanings": [
+        "interpret in a particular way"
+      ],
+      "one_line_summary": "To construe something is to interpret what it means, especially when a statement, action, or piece of evidence could be understood in different ways.",
+      "memorable_example": "His silence could be construed as agreement with the proposal."
+    },
+    "meanings": [
+      {
+        "sense_title": "Interpret in a particular way",
+        "part_of_speech": "transitive verb",
+        "ipa": "/kənˈstruː/",
+        "definition": "to understand or interpret the meaning of a statement, action, situation, or piece of information in a particular way",
+        "examples": [
+          "His silence could be construed as agreement with the proposal.",
+          "The researchers cautioned that the results should not be construed as proof of a causal relationship.",
+          "Some employees construed the new policy as an attempt to reduce their independence.",
+          "Her criticism was construed by some listeners as a personal attack.",
+          "The law has traditionally been construed narrowly by the courts.",
+          "A sudden decline in sales should not necessarily be construed as evidence that demand has permanently weakened.",
+          "The committee construed the wording of the regulation differently from the previous administration.",
+          "His decision to leave the meeting early was mistakenly construed as a sign of disrespect."
+        ],
+        "plain_english_equivalent": "interpret or understand in a certain way",
+        "typical_pattern": "construe + something + as + something",
+        "register": "formal; common in academic, legal, political, professional, and analytical writing",
+        "nuance": {
+          "central_nuance": "Construe emphasizes the interpretation someone gives to words, behavior, evidence, or a situation rather than simply noticing what happened.",
+          "usual_implication": "The thing being interpreted may allow more than one possible meaning, so different people may construe it differently.",
+          "contrast_term": "observe",
+          "contrast_explanation": "To observe something is to notice or examine it. To construe it is to decide what it means or what significance it has."
+        },
+        "grammar": {
+          "how_to_use": "This verb normally needs the statement, action, evidence, or situation being interpreted directly after it.",
+          "what_can_follow": "The most important pattern is construe something as something, where as introduces the interpretation.",
+          "preposition_note": "Use as after construe when stating the meaning given to something, as in construe silence as agreement.",
+          "position_note": "The passive form is extremely common: something can be construed as something."
+        },
+        "patterns": [
+          {
+            "pattern": "construe + something + as + something",
+            "use": "Use this when saying how a statement, action, or situation is interpreted.",
+            "example": "Some voters construed the announcement as a change in government policy."
+          },
+          {
+            "pattern": "be construed as + noun or -ing form",
+            "use": "Use the passive form when the interpretation itself is more important than the person making it.",
+            "example": "The comment could be construed as criticism of the existing system."
+          },
+          {
+            "pattern": "construe something broadly or narrowly",
+            "use": "Use this especially in legal or formal contexts when rules or language are given a wide or limited interpretation.",
+            "example": "The court construed the law narrowly."
+          },
+          {
+            "pattern": "construe something differently",
+            "use": "Use this when people give different interpretations to the same information or behavior.",
+            "example": "Different readers may construe the final paragraph differently."
+          },
+          {
+            "pattern": "should not be construed as",
+            "use": "Use this formal pattern to warn readers against a particular interpretation.",
+            "example": "These findings should not be construed as evidence that the treatment is effective in every patient."
+          }
+        ],
+        "errors": [
+          {
+            "wrong": "The researchers construed the decline like evidence of failure.",
+            "correct": "The researchers construed the decline as evidence of failure.",
+            "explanation": "Use construe something as something, not like."
+          },
+          {
+            "wrong": "His silence was construed to agreement.",
+            "correct": "His silence was construed as agreement.",
+            "explanation": "Use as before the interpretation."
+          },
+          {
+            "wrong": "The statement can construe as a threat.",
+            "correct": "The statement can be construed as a threat.",
+            "explanation": "When the statement receives the interpretation, use the passive form be construed."
+          },
+          {
+            "wrong": "Construe means prove what something really means.",
+            "correct": "Construe means interpret what something means.",
+            "explanation": "A construal is an interpretation and may be disputed or incorrect; construe does not imply that the interpretation has been proved."
+          }
+        ]
+      }
+    ],
+    "word_family": [
+      {
+        "word": "construal",
+        "part_of_speech": "countable or uncountable noun",
+        "definition": "a particular way of understanding or interpreting something, or the act of interpreting it",
+        "examples": [
+          "That construal of the law has been challenged by several legal scholars.",
+          "Different construals of the same evidence can lead to very different conclusions.",
+          "The court rejected the government's broad construal of the regulation."
+        ],
+        "ipa": "/kənˈstruːəl/",
+        "relationship_to_headword": "This noun names an interpretation or the process of construing something.",
+        "grammar_pattern": "a construal of + statement, law, evidence, or situation",
+        "usage_note": "It is formal and is especially common in legal, linguistic, philosophical, and academic writing."
+      },
+      {
+        "word": "misconstrue",
+        "part_of_speech": "transitive verb",
+        "definition": "to interpret the meaning or intention of something incorrectly",
+        "examples": [
+          "Please do not misconstrue my criticism as opposition to the entire project.",
+          "The public may misconstrue the findings if the limitations are not explained clearly.",
+          "His hesitation was misconstrued as a lack of interest."
+        ],
+        "ipa": "/ˌmɪskənˈstruː/",
+        "relationship_to_headword": "Misconstrue is formed by adding mis-, meaning wrongly, to construe.",
+        "grammar_pattern": "misconstrue + something + as + something"
+      }
+    ],
+    "collocations": [
+      {
+        "collocation": "construe as",
+        "example": "The decision could be construed as a rejection of the earlier policy.",
+        "applies_to_sense": "Interpret in a particular way",
+        "meaning": "interpret something as having a particular meaning",
+        "grammar_pattern": "construe + something + as + something"
+      },
+      {
+        "collocation": "be construed as",
+        "example": "The statement was widely construed as criticism of the government.",
+        "applies_to_sense": "Interpret in a particular way",
+        "meaning": "be interpreted as having a particular meaning",
+        "grammar_pattern": "be construed as + noun or -ing form"
+      },
+      {
+        "collocation": "should not be construed as",
+        "example": "The absence of evidence should not be construed as proof that no effect exists.",
+        "applies_to_sense": "Interpret in a particular way",
+        "meaning": "should not be interpreted to mean something",
+        "grammar_pattern": "should not be construed as + noun or -ing form"
+      },
+      {
+        "collocation": "could be construed as",
+        "example": "His refusal to answer could be construed as an admission of uncertainty.",
+        "applies_to_sense": "Interpret in a particular way",
+        "meaning": "could reasonably be interpreted in a particular way"
+      },
+      {
+        "collocation": "construe broadly",
+        "example": "The agency construed its authority broadly and introduced several new regulations.",
+        "applies_to_sense": "Interpret in a particular way",
+        "meaning": "give words or rules a relatively wide interpretation"
+      },
+      {
+        "collocation": "construe narrowly",
+        "example": "The court construed the exception narrowly.",
+        "applies_to_sense": "Interpret in a particular way",
+        "meaning": "give words or rules a relatively limited interpretation"
+      },
+      {
+        "collocation": "construe differently",
+        "example": "The two groups construed the same historical event differently.",
+        "applies_to_sense": "Interpret in a particular way",
+        "meaning": "give different meanings or interpretations to the same thing"
+      },
+      {
+        "collocation": "mistakenly construe",
+        "example": "Readers may mistakenly construe uncertainty as evidence that the research has no value.",
+        "applies_to_sense": "Interpret in a particular way",
+        "meaning": "interpret something incorrectly"
+      },
+      {
+        "collocation": "a construal of",
+        "example": "The judge rejected that construal of the statute.",
+        "applies_to_sense": "Interpret in a particular way",
+        "meaning": "a particular interpretation of something",
+        "grammar_pattern": "a construal of + law, statement, evidence, or event",
+        "usage_note": "Construal is the noun form."
+      }
+    ],
+    "synonyms": [
+      {
+        "word": "interpret",
+        "part_of_speech": "transitive verb",
+        "applies_to_sense": "Interpret in a particular way",
+        "difference": "Interpret is the general and much more common word. Construe is more formal and is especially useful when discussing how words, actions, laws, or evidence are understood.",
+        "example": "Different historians interpret the event in different ways.",
+        "shared_meaning": "Both mean understand something as having a particular meaning."
+      },
+      {
+        "word": "understand",
+        "part_of_speech": "transitive verb",
+        "applies_to_sense": "Interpret in a particular way",
+        "difference": "Understand is much broader and can simply mean know what something means. Construe emphasizes choosing or forming a particular interpretation.",
+        "example": "She understood his comment as a warning.",
+        "shared_meaning": "Both can describe the meaning someone gives to words or behavior."
+      },
+      {
+        "word": "read",
+        "part_of_speech": "transitive verb",
+        "applies_to_sense": "Interpret in a particular way",
+        "difference": "Read can informally mean interpret the significance of a situation or action. Construe is more formal and especially common in academic and legal contexts.",
+        "example": "Analysts read the announcement as a sign that the company was changing direction.",
+        "shared_meaning": "Both can mean interpret something as having a particular significance."
+      }
+    ],
+    "antonyms": [
+      {
+        "word": "misconstrue",
+        "part_of_speech": "transitive verb",
+        "applies_to_sense": "Interpret in a particular way",
+        "opposition": "Misconstrue means interpret something incorrectly, while construe itself is neutral about whether the interpretation is correct.",
+        "example": "Some readers misconstrued the author's criticism as a complete rejection of the theory.",
+        "usage_note": "This is not a perfect opposite because construe does not necessarily mean interpret correctly, but the contrast is educationally useful."
+      }
+    ],
+    "confusables": [
+      {
+        "word": "construct",
+        "key_difference": "Construe means interpret the meaning of something. Construct means build something physically or create something by putting parts together.",
+        "headword_example": "The remark was construed as a criticism.",
+        "confusable_example": "Engineers constructed a bridge across the river.",
+        "part_of_speech": "transitive verb",
+        "why_confused": "The words look similar and share a historical root, but their modern meanings are different."
+      },
+      {
+        "word": "misconstrue",
+        "key_difference": "Construe means interpret something in a particular way and is neutral about accuracy. Misconstrue specifically means interpret it incorrectly.",
+        "headword_example": "The court construed the law as applying to digital records.",
+        "confusable_example": "Some readers misconstrued the warning as a complete prohibition.",
+        "part_of_speech": "transitive verb",
+        "why_confused": "Misconstrue is formed directly from construe by adding the prefix mis-, meaning wrongly."
+      },
+      {
+        "word": "infer",
+        "key_difference": "Construe means give a particular meaning to words, actions, or evidence. Infer means reach a conclusion from evidence or information that does not state the conclusion directly.",
+        "headword_example": "She construed his silence as disagreement.",
+        "confusable_example": "From his silence, she inferred that he disagreed.",
+        "part_of_speech": "transitive verb",
+        "why_confused": "Both involve drawing meaning from information, but infer emphasizes reaching a conclusion while construe emphasizes interpretation."
+      }
+    ],
+    "etymology": {
+      "origin": "Construe ultimately comes from Latin construere, meaning to build or put together.",
+      "development": "The word developed from the idea of arranging or analyzing the parts of a sentence to the broader modern meaning of interpreting words, actions, or situations.",
+      "memory_link": "When you construe something, you mentally put its pieces together to build an interpretation."
+    },
+    "exercises": {
+      "word_family_choice": [
+        {
+          "prompt_sentence": "The court rejected the government's broad _____ of the law.",
+          "answer": "construal",
+          "completed_sentence": "The court rejected the government's broad construal of the law.",
+          "explanation": "Use the noun construal for a particular interpretation."
+        },
+        {
+          "prompt_sentence": "Readers may _____ the author's criticism as opposition to the entire proposal.",
+          "answer": "misconstrue",
+          "completed_sentence": "Readers may misconstrue the author's criticism as opposition to the entire proposal.",
+          "explanation": "Use misconstrue when the interpretation is incorrect."
+        },
+        {
+          "prompt_sentence": "The committee chose to _____ the regulation narrowly.",
+          "answer": "construe",
+          "completed_sentence": "The committee chose to construe the regulation narrowly.",
+          "explanation": "Use the base verb construe after to."
+        }
+      ],
+      "correct_or_incorrect": [
+        {
+          "sentence": "His silence was construed as agreement.",
+          "verdict": "Correct",
+          "explanation": "Be construed as is the standard passive pattern."
+        },
+        {
+          "sentence": "The evidence should not be construed like proof of causation.",
+          "verdict": "Incorrect",
+          "corrected_sentence": "The evidence should not be construed as proof of causation.",
+          "explanation": "Use construe something as something."
+        },
+        {
+          "sentence": "Different courts may construe the same law differently.",
+          "verdict": "Correct",
+          "explanation": "Construe something differently naturally describes different interpretations of the same text."
+        },
+        {
+          "sentence": "The statement can construe as a threat.",
+          "verdict": "Incorrect",
+          "corrected_sentence": "The statement can be construed as a threat.",
+          "explanation": "Use the passive form because the statement receives the interpretation."
+        },
+        {
+          "sentence": "To construe something means to prove its true meaning beyond doubt.",
+          "verdict": "Incorrect",
+          "corrected_sentence": "To construe something means to interpret its meaning in a particular way.",
+          "explanation": "A construal is an interpretation and may be disputed or mistaken."
+        }
+      ],
+      "collocation_practice": [
+        {
+          "prompt_sentence": "The remark could be construed _____ criticism of the new policy.",
+          "answer": "as",
+          "completed_sentence": "The remark could be construed as criticism of the new policy.",
+          "explanation": "Use construe something as something."
+        },
+        {
+          "prompt_sentence": "The findings should not be _____ as proof that the treatment works in every case.",
+          "answer": "construed",
+          "completed_sentence": "The findings should not be construed as proof that the treatment works in every case.",
+          "explanation": "Should not be construed as is a common formal pattern for warning against an interpretation."
+        },
+        {
+          "prompt_sentence": "The court chose to construe the exception _____.",
+          "answer": "narrowly",
+          "completed_sentence": "The court chose to construe the exception narrowly.",
+          "explanation": "Construe narrowly means give a rule or statement a limited interpretation."
+        },
+        {
+          "prompt_sentence": "Different observers may _____ the same behavior differently.",
+          "answer": "construe",
+          "completed_sentence": "Different observers may construe the same behavior differently.",
+          "explanation": "Construe differently means interpret the same thing in different ways."
+        }
+      ]
+    }
+  }

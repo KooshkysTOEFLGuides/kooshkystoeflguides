@@ -1,0 +1,391 @@
+{
+    "document_type": "kooshky_toefl_word_of_the_day",
+    "schema_version": "1.3",
+    "slug": "propriety",
+    "word": "propriety",
+    "date": "September 1st 2026",
+    "pronunciation": {
+      "primary_ipa": "/prəˈpraɪəti/"
+    },
+    "hero": {
+      "part_of_speech_summary": "uncountable noun; plural countable noun",
+      "short_meanings": [
+        "correct and appropriate behavior",
+        "accepted rules of polite behavior"
+      ],
+      "one_line_summary": "Propriety refers to behavior or decisions that meet accepted moral, social, professional, or procedural standards.",
+      "memorable_example": "The committee questioned the propriety of allowing the director to approve a contract involving his own company."
+    },
+    "meanings": [
+      {
+        "sense_title": "Correct and appropriate behavior",
+        "part_of_speech": "uncountable noun",
+        "ipa": "/prəˈpraɪəti/",
+        "definition": "behavior that is considered morally, socially, or professionally correct and appropriate",
+        "examples": [
+          "The committee questioned the propriety of allowing the director to approve a contract involving his own company.",
+          "Employees are expected to observe professional propriety when dealing with confidential information.",
+          "The debate focused on the propriety of using public funds for the project.",
+          "Several scholars raised concerns about the ethical propriety of conducting the experiment without full consent.",
+          "The judge considered whether the official's actions met accepted standards of propriety.",
+          "Critics questioned the propriety of giving government contracts to close political allies.",
+          "The organization introduced new rules to ensure propriety in its financial decisions.",
+          "Questions about the propriety of the procedure delayed the final decision."
+        ],
+        "plain_english_equivalent": "being correct and appropriate",
+        "typical_pattern": "the propriety of + action or decision",
+        "register": "formal; common in legal, ethical, professional, political, and institutional contexts",
+        "nuance": {
+          "central_nuance": "Propriety is about whether behavior or a decision fits accepted standards of what is proper, appropriate, ethical, or respectable.",
+          "usual_implication": "The word often appears when people are evaluating whether an action crosses a moral, professional, or procedural boundary.",
+          "contrast_term": "impropriety",
+          "contrast_explanation": "Propriety means behavior that meets accepted standards, while impropriety means behavior that violates those standards."
+        },
+        "grammar": {
+          "how_to_use": "In this meaning, propriety is normally uncountable. It often appears in formal expressions such as the propriety of an action or questions about propriety.",
+          "what_can_follow": "It is commonly followed by of and then the action, decision, or behavior being evaluated.",
+          "preposition_note": "Use the propriety of + noun or -ing form, as in the propriety of the decision or the propriety of accepting the gift.",
+          "noun_use": "Do not normally use a or an before propriety in this meaning.",
+          "position_note": "It often appears after words such as question, doubt, consider, discuss, ensure, or observe."
+        },
+        "patterns": [
+          {
+            "pattern": "the propriety of + noun or -ing form",
+            "use": "Use this when evaluating whether an action or decision is appropriate.",
+            "example": "The board debated the propriety of accepting donations from the company."
+          },
+          {
+            "pattern": "question the propriety of + action",
+            "use": "Use this when expressing doubt about whether something is proper or acceptable.",
+            "example": "Several members questioned the propriety of holding the vote in private."
+          },
+          {
+            "pattern": "standards of propriety",
+            "use": "Use this for accepted rules about proper conduct.",
+            "example": "Public officials are expected to follow high standards of propriety."
+          },
+          {
+            "pattern": "professional propriety",
+            "use": "Use this for behavior that meets accepted professional standards.",
+            "example": "The investigation examined whether the lawyer had maintained professional propriety."
+          },
+          {
+            "pattern": "ethical propriety",
+            "use": "Use this when judging whether an action is ethically acceptable.",
+            "example": "The researchers debated the ethical propriety of the proposed experiment."
+          }
+        ],
+        "errors": [
+          {
+            "wrong": "The committee discussed about the propriety of the decision.",
+            "correct": "The committee discussed the propriety of the decision.",
+            "explanation": "Discuss normally takes its object directly, without about."
+          },
+          {
+            "wrong": "They questioned a propriety of using public funds.",
+            "correct": "They questioned the propriety of using public funds.",
+            "explanation": "In this meaning, propriety is normally uncountable and commonly appears as the propriety of."
+          },
+          {
+            "wrong": "Propriety means that something is legal.",
+            "correct": "Propriety means that something is considered appropriate or proper.",
+            "explanation": "An action can be legal but still be considered improper. Propriety is broader than legality."
+          },
+          {
+            "wrong": "The official acted with many proprieties.",
+            "correct": "The official acted with propriety.",
+            "explanation": "When referring generally to proper conduct, use the uncountable noun propriety."
+          }
+        ]
+      },
+      {
+        "sense_title": "Accepted rules of polite behavior",
+        "part_of_speech": "plural countable noun",
+        "ipa": "/prəˈpraɪəti/",
+        "definition": "the accepted rules of polite and socially appropriate behavior",
+        "examples": [
+          "Guests were expected to observe the proprieties of formal diplomatic events.",
+          "He cared little about social proprieties and often spoke very directly.",
+          "The novel shows how strictly the proprieties of upper-class society controlled personal behavior.",
+          "She followed all the usual proprieties when meeting the ambassador.",
+          "Changes in social attitudes have weakened some of the proprieties that governed public behavior in the past.",
+          "The ceremony was conducted according to the traditional proprieties of the community."
+        ],
+        "plain_english_equivalent": "rules of proper social behavior",
+        "typical_pattern": "observe, follow, ignore, or respect + the proprieties",
+        "register": "formal and somewhat old-fashioned; mainly used in discussions of etiquette, social customs, literature, and history",
+        "nuance": {
+          "central_nuance": "The plural proprieties refers to specific conventions about how people are expected to behave politely or respectably.",
+          "usual_implication": "These rules are usually created by social tradition rather than formal law.",
+          "contrast_term": "breach of etiquette",
+          "contrast_explanation": "Observing the proprieties means following accepted social conventions, while a breach of etiquette means violating one of them."
+        },
+        "grammar": {
+          "how_to_use": "This meaning is normally plural and commonly appears as the proprieties or social proprieties.",
+          "what_can_follow": "It often appears after verbs such as observe, follow, respect, maintain, or ignore.",
+          "noun_use": "Use the plural proprieties when referring to particular social conventions or rules of polite behavior.",
+          "position_note": "The expression observe the proprieties is especially common in formal writing."
+        },
+        "patterns": [
+          {
+            "pattern": "observe the proprieties",
+            "use": "Use this when someone follows accepted rules of polite or respectable behavior.",
+            "example": "Despite their disagreement, both diplomats carefully observed the proprieties."
+          },
+          {
+            "pattern": "social proprieties",
+            "use": "Use this for accepted social conventions about correct behavior.",
+            "example": "The novel frequently challenges the social proprieties of the period."
+          },
+          {
+            "pattern": "ignore the proprieties",
+            "use": "Use this when someone does not follow expected social conventions.",
+            "example": "He ignored the proprieties and openly criticized his host during dinner."
+          }
+        ],
+        "errors": [
+          {
+            "wrong": "She followed the propriety of formal dinners.",
+            "correct": "She followed the proprieties of formal dinners.",
+            "explanation": "When referring to specific rules of social behavior, the plural proprieties is normally used."
+          },
+          {
+            "wrong": "Social proprieties are official laws.",
+            "correct": "Social proprieties are accepted conventions of proper behavior.",
+            "explanation": "Proprieties are social expectations, not necessarily legal rules."
+          }
+        ]
+      }
+    ],
+    "word_family": [
+      {
+        "word": "proper",
+        "part_of_speech": "adjective",
+        "definition": "correct, suitable, or appropriate for a particular situation",
+        "examples": [
+          "Researchers must follow proper procedures when collecting personal data.",
+          "The equipment cannot function safely without proper maintenance."
+        ],
+        "ipa": "/ˈprɑːpər/",
+        "relationship_to_headword": "Proper expresses the basic idea of being correct or appropriate that is contained in propriety.",
+        "grammar_pattern": "proper + behavior, procedure, method, care, or use"
+      },
+      {
+        "word": "impropriety",
+        "part_of_speech": "countable or uncountable noun",
+        "definition": "behavior that is considered improper, unethical, or unacceptable",
+        "examples": [
+          "The investigation found no evidence of financial impropriety.",
+          "The official resigned after allegations of serious impropriety.",
+          "Several procedural improprieties were identified during the review."
+        ],
+        "ipa": "/ˌɪmprəˈpraɪəti/",
+        "relationship_to_headword": "Impropriety is the opposite form of propriety and refers to behavior that violates accepted standards.",
+        "grammar_pattern": "financial, ethical, professional, or procedural + impropriety",
+        "usage_note": "The plural improprieties is possible when referring to separate improper acts."
+      }
+    ],
+    "collocations": [
+      {
+        "collocation": "the propriety of",
+        "example": "The committee debated the propriety of accepting the donation.",
+        "applies_to_sense": "Correct and appropriate behavior",
+        "meaning": "whether an action or decision is proper or appropriate",
+        "grammar_pattern": "the propriety of + noun or -ing form"
+      },
+      {
+        "collocation": "question the propriety of",
+        "example": "Critics questioned the propriety of allowing officials to regulate companies in which they owned shares.",
+        "applies_to_sense": "Correct and appropriate behavior",
+        "meaning": "express doubt about whether something is appropriate"
+      },
+      {
+        "collocation": "standards of propriety",
+        "example": "Judges are expected to maintain strict standards of propriety.",
+        "applies_to_sense": "Correct and appropriate behavior",
+        "meaning": "accepted standards of proper behavior"
+      },
+      {
+        "collocation": "professional propriety",
+        "example": "The guidelines are intended to protect professional propriety and public trust.",
+        "applies_to_sense": "Correct and appropriate behavior",
+        "meaning": "behavior that meets accepted professional standards"
+      },
+      {
+        "collocation": "ethical propriety",
+        "example": "The study raised questions about the ethical propriety of experimenting on vulnerable populations.",
+        "applies_to_sense": "Correct and appropriate behavior",
+        "meaning": "the ethical acceptability of an action"
+      },
+      {
+        "collocation": "observe the proprieties",
+        "example": "Both sides observed the proprieties during the formal negotiations.",
+        "applies_to_sense": "Accepted rules of polite behavior",
+        "meaning": "follow accepted rules of polite or respectable behavior"
+      },
+      {
+        "collocation": "social proprieties",
+        "example": "The author criticized the rigid social proprieties of the nineteenth century.",
+        "applies_to_sense": "Accepted rules of polite behavior",
+        "meaning": "accepted conventions governing social behavior"
+      },
+      {
+        "collocation": "financial impropriety",
+        "example": "The audit found evidence of financial impropriety.",
+        "applies_to_sense": "Correct and appropriate behavior",
+        "meaning": "dishonest or improper behavior involving money",
+        "usage_note": "Impropriety is the opposite word-family member."
+      }
+    ],
+    "synonyms": [
+      {
+        "word": "appropriateness",
+        "part_of_speech": "uncountable noun",
+        "applies_to_sense": "Correct and appropriate behavior",
+        "difference": "Appropriateness is the general quality of being suitable for a situation. Propriety is more formal and often carries moral, professional, or social judgment.",
+        "example": "The committee considered the appropriateness of using the material in a classroom setting.",
+        "shared_meaning": "Both can refer to whether something is suitable or proper."
+      },
+      {
+        "word": "decorum",
+        "part_of_speech": "uncountable noun",
+        "applies_to_sense": "Accepted rules of polite behavior",
+        "difference": "Decorum emphasizes polite, dignified behavior, especially in formal situations. Propriety is broader and can refer to social, ethical, or professional correctness.",
+        "example": "Members of the audience were expected to maintain decorum during the ceremony.",
+        "shared_meaning": "Both can refer to behavior that follows accepted social standards."
+      },
+      {
+        "word": "correctness",
+        "part_of_speech": "uncountable noun",
+        "applies_to_sense": "Correct and appropriate behavior",
+        "difference": "Correctness is broader and can refer to factual, grammatical, or procedural accuracy. Propriety specifically concerns whether conduct or a decision is proper or acceptable.",
+        "example": "The researchers checked the correctness of the calculations.",
+        "shared_meaning": "Both can express the idea of meeting an accepted standard."
+      }
+    ],
+    "antonyms": [
+      {
+        "word": "impropriety",
+        "part_of_speech": "countable or uncountable noun",
+        "applies_to_sense": "Correct and appropriate behavior",
+        "opposition": "Propriety means proper or appropriate conduct, while impropriety means conduct that violates accepted moral, professional, or social standards.",
+        "example": "The investigation found evidence of serious financial impropriety."
+      },
+      {
+        "word": "indecorum",
+        "part_of_speech": "uncountable noun",
+        "applies_to_sense": "Accepted rules of polite behavior",
+        "opposition": "Indecorum means behavior that violates accepted standards of politeness or dignity, while observing the proprieties means following those standards.",
+        "example": "His behavior at the formal ceremony was criticized as indecorum.",
+        "usage_note": "Indecorum is formal and relatively uncommon."
+      }
+    ],
+    "confusables": [
+      {
+        "word": "property",
+        "key_difference": "Propriety means proper or acceptable behavior. Property means something owned by a person or organization, or a characteristic of a substance or object.",
+        "headword_example": "The committee questioned the propriety of the arrangement.",
+        "confusable_example": "The company owns property in several cities.",
+        "part_of_speech": "noun",
+        "why_confused": "The words are spelled and pronounced somewhat similarly but have very different modern meanings."
+      },
+      {
+        "word": "proprietary",
+        "key_difference": "Propriety concerns proper or acceptable conduct. Proprietary means relating to ownership or to something legally owned and controlled by a person or company.",
+        "headword_example": "There were doubts about the propriety of the official's behavior.",
+        "confusable_example": "The company refused to reveal its proprietary technology.",
+        "part_of_speech": "noun versus adjective",
+        "why_confused": "The words share a similar form and historical connection with ideas of what belongs or is proper."
+      },
+      {
+        "word": "impropriety",
+        "key_difference": "Propriety means appropriate or acceptable conduct. Impropriety means conduct that is inappropriate, unethical, or unacceptable.",
+        "headword_example": "The official acted with complete propriety.",
+        "confusable_example": "The audit uncovered evidence of financial impropriety.",
+        "part_of_speech": "noun",
+        "why_confused": "Impropriety is formed by adding the negative prefix im- to propriety."
+      }
+    ],
+    "etymology": {
+      "origin": "Propriety comes through French from Latin proprietas, which referred to ownership, a particular character, or what properly belongs to something.",
+      "development": "The word gradually developed the sense of what is proper or appropriate, especially in behavior and social conduct.",
+      "memory_link": "Think of propriety as behaving in the way that is considered proper."
+    },
+    "exercises": {
+      "word_family_choice": [
+        {
+          "prompt_sentence": "The investigation found no evidence of financial _____.",
+          "answer": "impropriety",
+          "completed_sentence": "The investigation found no evidence of financial impropriety.",
+          "explanation": "Impropriety means improper or unethical behavior."
+        },
+        {
+          "prompt_sentence": "Employees are expected to follow _____ procedures when handling confidential records.",
+          "answer": "proper",
+          "completed_sentence": "Employees are expected to follow proper procedures when handling confidential records.",
+          "explanation": "Use the adjective proper before procedures."
+        },
+        {
+          "prompt_sentence": "The committee questioned the _____ of allowing the official to participate in the decision.",
+          "answer": "propriety",
+          "completed_sentence": "The committee questioned the propriety of allowing the official to participate in the decision.",
+          "explanation": "The propriety of means whether an action is proper or appropriate."
+        }
+      ],
+      "correct_or_incorrect": [
+        {
+          "sentence": "The committee questioned the propriety of accepting the donation.",
+          "verdict": "Correct",
+          "explanation": "The propriety of is a standard formal pattern for evaluating whether an action is appropriate."
+        },
+        {
+          "sentence": "The official's behavior showed a propriety.",
+          "verdict": "Incorrect",
+          "corrected_sentence": "The official's behavior showed propriety.",
+          "explanation": "When propriety means proper conduct in general, it is normally uncountable."
+        },
+        {
+          "sentence": "Guests were expected to observe the social proprieties.",
+          "verdict": "Correct",
+          "explanation": "The plural proprieties can refer to accepted social conventions."
+        },
+        {
+          "sentence": "Propriety simply means that an action is legal.",
+          "verdict": "Incorrect",
+          "corrected_sentence": "Propriety means that an action is considered proper or appropriate.",
+          "explanation": "Propriety can concern ethical, professional, social, or procedural standards, not just legality."
+        },
+        {
+          "sentence": "The audit raised concerns about financial impropriety.",
+          "verdict": "Correct",
+          "explanation": "Financial impropriety is a common formal expression for improper or unethical financial behavior."
+        }
+      ],
+      "collocation_practice": [
+        {
+          "prompt_sentence": "Several members questioned the propriety _____ holding the meeting in private.",
+          "answer": "of",
+          "completed_sentence": "Several members questioned the propriety of holding the meeting in private.",
+          "explanation": "Use the propriety of + noun or -ing form."
+        },
+        {
+          "prompt_sentence": "Public officials are expected to maintain high standards _____ propriety.",
+          "answer": "of",
+          "completed_sentence": "Public officials are expected to maintain high standards of propriety.",
+          "explanation": "Standards of propriety means accepted standards of proper conduct."
+        },
+        {
+          "prompt_sentence": "The guests carefully observed the social _____.",
+          "answer": "proprieties",
+          "completed_sentence": "The guests carefully observed the social proprieties.",
+          "explanation": "Social proprieties are accepted rules of polite behavior."
+        },
+        {
+          "prompt_sentence": "The audit uncovered evidence of financial _____.",
+          "answer": "impropriety",
+          "completed_sentence": "The audit uncovered evidence of financial impropriety.",
+          "explanation": "Financial impropriety means improper or unethical behavior involving money."
+        }
+      ]
+    }
+  }

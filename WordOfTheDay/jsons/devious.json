@@ -1,0 +1,387 @@
+{
+    "document_type": "kooshky_toefl_word_of_the_day",
+    "schema_version": "1.3",
+    "slug": "devious",
+    "word": "devious",
+    "date": "August 25th 2026",
+    "pronunciation": {
+      "primary_ipa": "/ˈdiːviəs/"
+    },
+    "hero": {
+      "part_of_speech_summary": "adjective",
+      "short_meanings": [
+        "dishonest and cleverly indirect",
+        "indirect or winding"
+      ],
+      "one_line_summary": "Devious usually describes dishonest or manipulative behavior, but it can also describe a route that is indirect or winding.",
+      "memorable_example": "Investigators uncovered a devious scheme to avoid paying taxes."
+    },
+    "meanings": [
+      {
+        "sense_title": "Dishonest and cleverly indirect",
+        "part_of_speech": "adjective",
+        "ipa": "/ˈdiːviəs/",
+        "definition": "using dishonest, secretive, or clever methods to get what you want",
+        "examples": [
+          "The manager used devious tactics to hide the true cost of the project.",
+          "Investigators uncovered a devious scheme to avoid paying taxes.",
+          "The character is intelligent but devious and frequently manipulates people for his own benefit.",
+          "The company was accused of using devious methods to discourage customers from canceling their subscriptions.",
+          "His devious plan depended on keeping several important facts secret.",
+          "The politician's opponents described the campaign strategy as devious and misleading.",
+          "She suspected that he had a devious motive for offering to help.",
+          "A devious negotiator may appear cooperative while secretly trying to gain an unfair advantage."
+        ],
+        "plain_english_equivalent": "sneaky and dishonest",
+        "typical_pattern": "devious + tactic, scheme, method, plan, motive, or person",
+        "register": "neutral to formal; strongly negative and common in descriptions of dishonest, manipulative, or secretive behavior",
+        "nuance": {
+          "central_nuance": "Devious suggests dishonesty combined with cleverness or indirectness rather than simple open wrongdoing.",
+          "usual_implication": "A devious person often hides their true intentions and uses complicated or manipulative methods to gain an advantage.",
+          "contrast_term": "straightforward",
+          "contrast_explanation": "A straightforward person or method is open, direct, and easy to understand. A devious one achieves its purpose through hidden, indirect, or dishonest means."
+        },
+        "grammar": {
+          "how_to_use": "Use it before a noun, as in a devious plan, or after a linking verb, as in His methods were devious.",
+          "what_can_follow": "It commonly describes people, tactics, schemes, plans, methods, strategies, and motives.",
+          "position_note": "Words such as extremely, highly, particularly, and remarkably can appear before devious."
+        },
+        "patterns": [
+          {
+            "pattern": "a devious plan or scheme",
+            "use": "Use this for a dishonest plan involving secrecy or manipulation.",
+            "example": "The group developed a devious scheme to obtain confidential information."
+          },
+          {
+            "pattern": "devious tactics or methods",
+            "use": "Use this for dishonest or manipulative ways of achieving a goal.",
+            "example": "The investigation revealed that the firm had used devious tactics to eliminate competitors."
+          },
+          {
+            "pattern": "a devious person",
+            "use": "Use this for someone who regularly uses dishonest or indirect methods.",
+            "example": "He was a devious businessman who rarely revealed his true intentions."
+          },
+          {
+            "pattern": "a devious motive",
+            "use": "Use this when someone's hidden reason for doing something is dishonest or manipulative.",
+            "example": "She wondered whether there was a devious motive behind the generous offer."
+          }
+        ],
+        "errors": [
+          {
+            "wrong": "He is devious because he likes solving difficult puzzles.",
+            "correct": "He is clever because he likes solving difficult puzzles.",
+            "explanation": "Devious is negative and suggests dishonesty or manipulation, not simply intelligence."
+          },
+          {
+            "wrong": "The company used deviously tactics.",
+            "correct": "The company used devious tactics.",
+            "explanation": "Use the adjective devious before the noun tactics."
+          },
+          {
+            "wrong": "She made a devious because she wanted to win.",
+            "correct": "She made a devious plan because she wanted to win.",
+            "explanation": "Devious is an adjective, so it normally needs a noun in this position."
+          },
+          {
+            "wrong": "His devious behavior was honest and completely transparent.",
+            "correct": "His behavior was honest and completely transparent.",
+            "explanation": "Devious normally implies hidden, dishonest, or manipulative behavior, so it conflicts with honest and transparent."
+          }
+        ]
+      },
+      {
+        "sense_title": "Indirect or winding",
+        "part_of_speech": "adjective",
+        "ipa": "/ˈdiːviəs/",
+        "definition": "indirect and complicated rather than following the simplest or most direct route",
+        "examples": [
+          "Because the main road was closed, we had to take a devious route through several small villages.",
+          "The river follows a devious course through the mountains.",
+          "The hikers reached the valley by a long and devious path.",
+          "The old road takes a devious route around the steepest part of the hill.",
+          "Explorers followed a devious trail through the dense forest.",
+          "The stream takes a devious course before eventually reaching the lake."
+        ],
+        "plain_english_equivalent": "indirect and winding",
+        "typical_pattern": "devious + route, path, course, or way",
+        "register": "formal and less common than the dishonest meaning; mainly used for routes, paths, and courses",
+        "nuance": {
+          "central_nuance": "This sense describes physical movement that does not follow a direct line.",
+          "usual_implication": "The route may contain many turns or require extra distance.",
+          "contrast_term": "direct",
+          "contrast_explanation": "A direct route follows the shortest or simplest path. A devious route turns away from that direct path."
+        },
+        "grammar": {
+          "how_to_use": "Use it before nouns such as route, path, course, or way.",
+          "what_can_follow": "It most naturally describes a route or physical course rather than a person.",
+          "position_note": "This meaning is less common in everyday English than the dishonest meaning."
+        },
+        "patterns": [
+          {
+            "pattern": "a devious route",
+            "use": "Use this for a route that reaches a destination in an indirect way.",
+            "example": "The travelers took a devious route around the flooded area."
+          },
+          {
+            "pattern": "a devious path",
+            "use": "Use this for a path with many turns or changes in direction.",
+            "example": "A devious path led through the forest to the old village."
+          },
+          {
+            "pattern": "a devious course",
+            "use": "Use this for a river, road, or other line of movement that follows an indirect direction.",
+            "example": "The river follows a devious course across the plain."
+          }
+        ],
+        "errors": [
+          {
+            "wrong": "We took a devious route because it was the shortest and most direct road.",
+            "correct": "We took a direct route because it was the shortest road.",
+            "explanation": "A devious route is indirect or winding, not the shortest and most direct route."
+          },
+          {
+            "wrong": "The road moved devious through the mountains.",
+            "correct": "The road followed a devious route through the mountains.",
+            "explanation": "Use the adjective devious before a noun such as route or course."
+          }
+        ]
+      }
+    ],
+    "word_family": [
+      {
+        "word": "deviously",
+        "part_of_speech": "adverb",
+        "definition": "in a dishonest, secretive, or manipulative way",
+        "examples": [
+          "He deviously concealed important information from the other negotiators.",
+          "The company was accused of deviously manipulating its pricing system."
+        ],
+        "ipa": "/ˈdiːviəsli/",
+        "relationship_to_headword": "This adverb describes an action performed in a devious way.",
+        "grammar_pattern": "deviously + manipulate, conceal, obtain, or plan",
+        "usage_note": "It is less common than devious."
+      },
+      {
+        "word": "deviousness",
+        "part_of_speech": "uncountable noun",
+        "definition": "the quality of being dishonest, secretive, or cleverly manipulative",
+        "examples": [
+          "The deviousness of the scheme surprised investigators.",
+          "His reputation for deviousness made colleagues reluctant to trust him."
+        ],
+        "ipa": "/ˈdiːviəsnəs/",
+        "relationship_to_headword": "This noun names the dishonest or manipulative quality described by devious.",
+        "grammar_pattern": "the deviousness of + person, method, plan, or scheme",
+        "usage_note": "It is considerably less common than devious."
+      }
+    ],
+    "collocations": [
+      {
+        "collocation": "devious tactics",
+        "example": "The company was accused of using devious tactics against its competitors.",
+        "applies_to_sense": "Dishonest and cleverly indirect",
+        "meaning": "dishonest or manipulative methods used to achieve a goal"
+      },
+      {
+        "collocation": "devious scheme",
+        "example": "Investigators uncovered a devious scheme involving several false companies.",
+        "applies_to_sense": "Dishonest and cleverly indirect",
+        "meaning": "a complicated and dishonest plan"
+      },
+      {
+        "collocation": "devious plan",
+        "example": "The character develops a devious plan to gain control of the organization.",
+        "applies_to_sense": "Dishonest and cleverly indirect",
+        "meaning": "a secretive or dishonest plan designed to achieve an advantage"
+      },
+      {
+        "collocation": "devious methods",
+        "example": "The organization used devious methods to obtain confidential information.",
+        "applies_to_sense": "Dishonest and cleverly indirect",
+        "meaning": "dishonest or indirect ways of accomplishing something"
+      },
+      {
+        "collocation": "devious strategy",
+        "example": "The negotiator adopted a devious strategy intended to confuse the opposing side.",
+        "applies_to_sense": "Dishonest and cleverly indirect",
+        "meaning": "a clever but dishonest or manipulative strategy"
+      },
+      {
+        "collocation": "devious motive",
+        "example": "Investigators suspected that he had a devious motive for offering financial assistance.",
+        "applies_to_sense": "Dishonest and cleverly indirect",
+        "meaning": "a hidden and dishonest reason for acting"
+      },
+      {
+        "collocation": "devious route",
+        "example": "The road takes a devious route through the mountains.",
+        "applies_to_sense": "Indirect or winding",
+        "meaning": "an indirect route with many changes in direction"
+      },
+      {
+        "collocation": "devious path",
+        "example": "The hikers followed a devious path through the forest.",
+        "applies_to_sense": "Indirect or winding",
+        "meaning": "a winding or indirect path"
+      },
+      {
+        "collocation": "devious course",
+        "example": "The river follows a devious course toward the coast.",
+        "applies_to_sense": "Indirect or winding",
+        "meaning": "an indirect or winding line of movement"
+      }
+    ],
+    "synonyms": [
+      {
+        "word": "sly",
+        "part_of_speech": "adjective",
+        "applies_to_sense": "Dishonest and cleverly indirect",
+        "difference": "Sly often describes clever behavior that is secretive or slightly dishonest and can sometimes sound playful. Devious is more strongly negative and suggests deliberate manipulation or dishonesty.",
+        "example": "He gave a sly smile after secretly changing the plan.",
+        "shared_meaning": "Both can describe clever behavior that is not completely open or honest."
+      },
+      {
+        "word": "underhanded",
+        "part_of_speech": "adjective",
+        "applies_to_sense": "Dishonest and cleverly indirect",
+        "difference": "Underhanded strongly emphasizes unfair or dishonest behavior carried out secretly. Devious also emphasizes cleverness and indirectness.",
+        "example": "The company was accused of using underhanded methods to eliminate competition.",
+        "shared_meaning": "Both describe dishonest methods that are not open or straightforward."
+      },
+      {
+        "word": "cunning",
+        "part_of_speech": "adjective",
+        "applies_to_sense": "Dishonest and cleverly indirect",
+        "difference": "Cunning emphasizes skill in achieving goals through clever planning and may be positive or negative depending on context. Devious is normally negative and emphasizes dishonesty or manipulation.",
+        "example": "The animal uses a cunning strategy to obtain food.",
+        "shared_meaning": "Both can describe clever strategies that are not obvious."
+      },
+      {
+        "word": "winding",
+        "part_of_speech": "adjective",
+        "applies_to_sense": "Indirect or winding",
+        "difference": "Winding simply describes something with many bends or turns. Devious is more formal and emphasizes that the route is indirect.",
+        "example": "A winding road climbs through the mountains.",
+        "shared_meaning": "Both can describe a route that is not straight."
+      }
+    ],
+    "antonyms": [
+      {
+        "word": "straightforward",
+        "part_of_speech": "adjective",
+        "applies_to_sense": "Dishonest and cleverly indirect",
+        "opposition": "Straightforward behavior is open, honest, and direct, while devious behavior relies on hidden or manipulative methods.",
+        "example": "She gave a straightforward explanation of what had happened."
+      },
+      {
+        "word": "direct",
+        "part_of_speech": "adjective",
+        "applies_to_sense": "Indirect or winding",
+        "opposition": "A direct route follows the simplest path toward a destination, while a devious route is indirect and winding.",
+        "example": "We took the most direct route to the village."
+      }
+    ],
+    "confusables": [
+      {
+        "word": "deviant",
+        "key_difference": "Devious means dishonest and manipulative or, less commonly, indirect and winding. Deviant describes behavior or a person that differs significantly from accepted social norms.",
+        "headword_example": "The executive used devious tactics to hide the company's losses.",
+        "confusable_example": "The study examined behavior considered deviant by the surrounding society.",
+        "part_of_speech": "adjective",
+        "why_confused": "The words look similar and both come from roots connected with turning away from a normal path."
+      },
+      {
+        "word": "deviate",
+        "key_difference": "Devious is an adjective describing dishonest behavior or an indirect route. Deviate is a verb meaning move away from an expected path, standard, or plan.",
+        "headword_example": "They developed a devious plan to avoid the regulations.",
+        "confusable_example": "The aircraft had to deviate from its original route because of bad weather.",
+        "part_of_speech": "adjective versus verb",
+        "why_confused": "The words share a similar form and both contain the idea of moving away from a direct or expected path."
+      }
+    ],
+    "etymology": {
+      "origin": "Devious comes from Latin devius, meaning out of the way or away from the road.",
+      "development": "The original idea of leaving the direct path developed into the figurative meaning of using indirect, secretive, or dishonest methods.",
+      "memory_link": "A devious person does not take the straight path toward a goal; they use indirect and often dishonest methods."
+    },
+    "exercises": {
+      "word_family_choice": [
+        {
+          "prompt_sentence": "The _____ of the scheme made it difficult for investigators to discover how it worked.",
+          "answer": "deviousness",
+          "completed_sentence": "The deviousness of the scheme made it difficult for investigators to discover how it worked.",
+          "explanation": "Use the noun deviousness for the quality of being dishonest or manipulative."
+        },
+        {
+          "prompt_sentence": "The company _____ concealed several important fees from customers.",
+          "answer": "deviously",
+          "completed_sentence": "The company deviously concealed several important fees from customers.",
+          "explanation": "Use the adverb deviously to describe how the company concealed the fees."
+        },
+        {
+          "prompt_sentence": "Investigators uncovered a _____ plan to hide the money.",
+          "answer": "devious",
+          "completed_sentence": "Investigators uncovered a devious plan to hide the money.",
+          "explanation": "Use the adjective devious before plan."
+        }
+      ],
+      "correct_or_incorrect": [
+        {
+          "sentence": "The company used devious tactics to hide information from customers.",
+          "verdict": "Correct",
+          "explanation": "Devious tactics naturally describes dishonest or manipulative methods."
+        },
+        {
+          "sentence": "She is devious because she is very intelligent and solves problems quickly.",
+          "verdict": "Incorrect",
+          "corrected_sentence": "She is clever because she is very intelligent and solves problems quickly.",
+          "explanation": "Devious has a negative meaning and suggests dishonesty or manipulation, not merely intelligence."
+        },
+        {
+          "sentence": "The road follows a devious course through the mountains.",
+          "verdict": "Correct",
+          "explanation": "Devious can describe an indirect or winding physical route."
+        },
+        {
+          "sentence": "The company used deviously methods to avoid the rule.",
+          "verdict": "Incorrect",
+          "corrected_sentence": "The company used devious methods to avoid the rule.",
+          "explanation": "Use the adjective devious before the noun methods."
+        },
+        {
+          "sentence": "His devious behavior was completely honest and transparent.",
+          "verdict": "Incorrect",
+          "corrected_sentence": "His behavior was completely honest and transparent.",
+          "explanation": "Devious behavior is normally dishonest, secretive, or manipulative."
+        }
+      ],
+      "collocation_practice": [
+        {
+          "prompt_sentence": "Investigators uncovered a devious _____ designed to hide the company's profits.",
+          "answer": "scheme",
+          "completed_sentence": "Investigators uncovered a devious scheme designed to hide the company's profits.",
+          "explanation": "A devious scheme is a dishonest and carefully planned arrangement."
+        },
+        {
+          "prompt_sentence": "The politician was accused of using devious _____ to mislead voters.",
+          "answer": "tactics",
+          "completed_sentence": "The politician was accused of using devious tactics to mislead voters.",
+          "explanation": "Devious tactics are dishonest or manipulative methods."
+        },
+        {
+          "prompt_sentence": "Because the bridge was closed, we had to take a devious _____ through the hills.",
+          "answer": "route",
+          "completed_sentence": "Because the bridge was closed, we had to take a devious route through the hills.",
+          "explanation": "A devious route is indirect and winding."
+        },
+        {
+          "prompt_sentence": "She suspected that he had a devious _____ for offering to help.",
+          "answer": "motive",
+          "completed_sentence": "She suspected that he had a devious motive for offering to help.",
+          "explanation": "A devious motive is a hidden or dishonest reason for doing something."
+        }
+      ]
+    }
+  }

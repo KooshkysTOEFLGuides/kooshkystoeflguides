@@ -1,0 +1,313 @@
+{
+  "document_type": "kooshky_toefl_word_of_the_day",
+  "schema_version": "1.3",
+  "slug": "misconstrue",
+  "word": "misconstrue",
+  "date": "August 24th 2026",
+  "pronunciation": {
+    "primary_ipa": "/ˌmɪskənˈstruː/"
+  },
+  "hero": {
+    "part_of_speech_summary": "transitive verb",
+    "short_meanings": [
+      "interpret something incorrectly"
+    ],
+    "one_line_summary": "To misconstrue something is to give it the wrong meaning or interpret someone's words, actions, intentions, or evidence incorrectly.",
+    "memorable_example": "The findings should not be misconstrued as proof that the treatment works in every case."
+  },
+  "meanings": [
+    {
+      "sense_title": "Interpret something incorrectly",
+      "part_of_speech": "transitive verb",
+      "ipa": "/ˌmɪskənˈstruː/",
+      "definition": "to understand or interpret the meaning, intention, or importance of something incorrectly",
+      "examples": [
+        "Some readers misconstrued the author's criticism as a rejection of the entire theory.",
+        "The findings should not be misconstrued as proof that the treatment works in every case.",
+        "She worried that her silence might be misconstrued as a lack of interest.",
+        "The public initially misconstrued the announcement as a promise of immediate tax cuts.",
+        "His hesitation was misconstrued as unwillingness to cooperate.",
+        "Students sometimes misconstrue constructive feedback as personal criticism.",
+        "The researchers warned that the correlation could easily be misconstrued as evidence of causation.",
+        "Her attempt to remain neutral was misconstrued by both sides as support for their opponents."
+      ],
+      "plain_english_equivalent": "understand something the wrong way",
+      "typical_pattern": "misconstrue + something + as + something",
+      "register": "formal; common in academic, legal, political, professional, and analytical writing",
+      "nuance": {
+        "central_nuance": "Misconstrue means more than simply fail to understand something. It means form a particular interpretation that is wrong.",
+        "usual_implication": "The mistake often happens because words, behavior, evidence, or intentions are ambiguous or taken out of context.",
+        "contrast_term": "construe",
+        "contrast_explanation": "Construe means interpret something in a particular way and does not say whether the interpretation is correct. Misconstrue specifically means interpret it incorrectly."
+      },
+      "grammar": {
+        "how_to_use": "Place the statement, action, intention, evidence, or situation being misunderstood directly after misconstrue.",
+        "what_can_follow": "The most important pattern is misconstrue something as something, where as introduces the incorrect interpretation.",
+        "preposition_note": "Use as when stating the wrong meaning given to something, as in misconstrue silence as agreement.",
+        "position_note": "The passive form is very common: something is, was, or could be misconstrued as something."
+      },
+      "patterns": [
+        {
+          "pattern": "misconstrue + something + as + something",
+          "use": "Use this when someone gives words, actions, or evidence the wrong interpretation.",
+          "example": "Some employees misconstrued the new policy as a threat to their jobs."
+        },
+        {
+          "pattern": "be misconstrued as + noun or -ing form",
+          "use": "Use the passive form when the incorrect interpretation is more important than the person making it.",
+          "example": "Her refusal to comment was misconstrued as an admission of guilt."
+        },
+        {
+          "pattern": "should not be misconstrued as",
+          "use": "Use this formal pattern to warn readers against an incorrect interpretation.",
+          "example": "The improvement should not be misconstrued as evidence that the problem has been completely solved."
+        },
+        {
+          "pattern": "could be misconstrued as",
+          "use": "Use this when there is a risk that something may be interpreted incorrectly.",
+          "example": "The informal remark could be misconstrued as an official statement."
+        },
+        {
+          "pattern": "misconstrue someone's intentions",
+          "use": "Use this when someone incorrectly understands why another person acted in a certain way.",
+          "example": "Please do not misconstrue my intentions; I am trying to improve the proposal, not block it."
+        }
+      ],
+      "errors": [
+        {
+          "wrong": "The students misconstrued the warning like a threat.",
+          "correct": "The students misconstrued the warning as a threat.",
+          "explanation": "Use misconstrue something as something, not like."
+        },
+        {
+          "wrong": "His silence was misconstrued to agreement.",
+          "correct": "His silence was misconstrued as agreement.",
+          "explanation": "Use as before the incorrect interpretation."
+        },
+        {
+          "wrong": "The statement can misconstrue as criticism.",
+          "correct": "The statement can be misconstrued as criticism.",
+          "explanation": "Use the passive form because the statement receives the interpretation."
+        },
+        {
+          "wrong": "I misconstrued what he said incorrectly.",
+          "correct": "I misconstrued what he said.",
+          "explanation": "Misconstrue already means interpret incorrectly, so incorrectly is usually unnecessary."
+        }
+      ]
+    }
+  ],
+  "word_family": [
+    {
+      "word": "construe",
+      "part_of_speech": "transitive verb",
+      "definition": "to understand or interpret the meaning of something in a particular way",
+      "examples": [
+        "The court construed the law narrowly.",
+        "His silence could be construed as agreement."
+      ],
+      "ipa": "/kənˈstruː/",
+      "relationship_to_headword": "Misconstrue is formed from construe with the prefix mis-, meaning wrongly or incorrectly.",
+      "grammar_pattern": "construe + something + as + something"
+    },
+    {
+      "word": "misconstrual",
+      "part_of_speech": "countable or uncountable noun",
+      "definition": "an incorrect interpretation of the meaning or intention of something",
+      "examples": [
+        "The dispute resulted from a serious misconstrual of the original agreement.",
+        "The author tried to prevent misconstrual of the study's conclusions."
+      ],
+      "ipa": "/ˌmɪskənˈstruːəl/",
+      "relationship_to_headword": "This noun names the incorrect interpretation produced when something is misconstrued.",
+      "grammar_pattern": "a misconstrual of + statement, action, evidence, or intention",
+      "usage_note": "It is formal and much less common than the verb misconstrue."
+    }
+  ],
+  "collocations": [
+    {
+      "collocation": "misconstrue as",
+      "example": "Some readers misconstrued the author's caution as opposition to the project.",
+      "applies_to_sense": "Interpret something incorrectly",
+      "meaning": "incorrectly interpret something as having a particular meaning",
+      "grammar_pattern": "misconstrue + something + as + something"
+    },
+    {
+      "collocation": "be misconstrued as",
+      "example": "The statement was misconstrued as a criticism of the entire organization.",
+      "applies_to_sense": "Interpret something incorrectly",
+      "meaning": "be interpreted incorrectly as meaning something",
+      "grammar_pattern": "be misconstrued as + noun or -ing form"
+    },
+    {
+      "collocation": "should not be misconstrued as",
+      "example": "The absence of evidence should not be misconstrued as proof that no effect exists.",
+      "applies_to_sense": "Interpret something incorrectly",
+      "meaning": "should not be wrongly interpreted to mean something"
+    },
+    {
+      "collocation": "could be misconstrued as",
+      "example": "The decision could be misconstrued as favoritism if the criteria are not explained clearly.",
+      "applies_to_sense": "Interpret something incorrectly",
+      "meaning": "could possibly be interpreted in the wrong way"
+    },
+    {
+      "collocation": "misconstrue someone's intentions",
+      "example": "She worried that colleagues might misconstrue her intentions.",
+      "applies_to_sense": "Interpret something incorrectly",
+      "meaning": "incorrectly understand why someone acted or spoke in a particular way"
+    },
+    {
+      "collocation": "misconstrue a statement",
+      "example": "Several news reports misconstrued the scientist's statement.",
+      "applies_to_sense": "Interpret something incorrectly",
+      "meaning": "give a statement a meaning that the speaker did not intend"
+    },
+    {
+      "collocation": "misconstrue the evidence",
+      "example": "It is easy to misconstrue the evidence if the broader context is ignored.",
+      "applies_to_sense": "Interpret something incorrectly",
+      "meaning": "draw an incorrect interpretation from evidence"
+    },
+    {
+      "collocation": "easily misconstrued",
+      "example": "Short written messages can be easily misconstrued because they provide little information about tone.",
+      "applies_to_sense": "Interpret something incorrectly",
+      "meaning": "likely to be interpreted incorrectly"
+    }
+  ],
+  "synonyms": [
+    {
+      "word": "misinterpret",
+      "part_of_speech": "transitive verb",
+      "applies_to_sense": "Interpret something incorrectly",
+      "difference": "Misinterpret is the general and more common word. Misconstrue is more formal and is especially common when discussing the meaning or intention of words, actions, evidence, or rules.",
+      "example": "The students misinterpreted the graph and reached the wrong conclusion.",
+      "shared_meaning": "Both mean understand or interpret something incorrectly."
+    },
+    {
+      "word": "misunderstand",
+      "part_of_speech": "transitive verb",
+      "applies_to_sense": "Interpret something incorrectly",
+      "difference": "Misunderstand is much broader and can describe any failure to understand correctly. Misconstrue specifically suggests forming the wrong interpretation of something.",
+      "example": "I misunderstood the instructions and submitted the wrong document.",
+      "shared_meaning": "Both describe an incorrect understanding."
+    },
+    {
+      "word": "misread",
+      "part_of_speech": "transitive verb",
+      "applies_to_sense": "Interpret something incorrectly",
+      "difference": "Misread can mean read written words incorrectly or, figuratively, judge a situation or person's behavior wrongly. Misconstrue is more formal and focuses on assigning the wrong meaning.",
+      "example": "The manager misread the employees' silence as support for the proposal.",
+      "shared_meaning": "Both can describe giving behavior or a situation the wrong interpretation."
+    }
+  ],
+  "confusables": [
+    {
+      "word": "construe",
+      "key_difference": "Construe means interpret something in a particular way and is neutral about whether that interpretation is correct. Misconstrue means the interpretation is wrong.",
+      "headword_example": "The public misconstrued the announcement as a promise of immediate action.",
+      "confusable_example": "The court construed the phrase as applying to all public institutions.",
+      "part_of_speech": "transitive verb",
+      "why_confused": "Misconstrue is formed directly from construe by adding the prefix mis-, meaning wrongly."
+    },
+    {
+      "word": "misinterpret",
+      "key_difference": "Misinterpret and misconstrue are very close, but misinterpret is broader and more common. Misconstrue is especially associated with wrongly interpreting words, intentions, actions, evidence, or formal language.",
+      "headword_example": "His hesitation was misconstrued as opposition.",
+      "confusable_example": "The student misinterpreted the meaning of the graph.",
+      "part_of_speech": "transitive verb",
+      "why_confused": "The two verbs overlap strongly in meaning and can sometimes be used in the same context."
+    },
+    {
+      "word": "misquote",
+      "key_difference": "Misconstrue means interpret the meaning of someone's words incorrectly. Misquote means report the actual words incorrectly.",
+      "headword_example": "The reporter misconstrued the scientist's statement as a prediction.",
+      "confusable_example": "The reporter misquoted the scientist by changing several important words.",
+      "part_of_speech": "transitive verb",
+      "why_confused": "Both can involve errors in reporting or understanding what someone said."
+    }
+  ],
+  "etymology": {
+    "origin": "Misconstrue is formed from the prefix mis-, meaning wrongly or incorrectly, and construe, meaning to interpret.",
+    "memory_link": "If construe means build an interpretation, misconstrue means build the wrong interpretation."
+  },
+  "exercises": {
+    "word_family_choice": [
+      {
+        "prompt_sentence": "The disagreement resulted from a serious _____ of the original statement.",
+        "answer": "misconstrual",
+        "completed_sentence": "The disagreement resulted from a serious misconstrual of the original statement.",
+        "explanation": "Use the noun misconstrual for an incorrect interpretation."
+      },
+      {
+        "prompt_sentence": "The court chose to _____ the rule narrowly.",
+        "answer": "construe",
+        "completed_sentence": "The court chose to construe the rule narrowly.",
+        "explanation": "Use construe when the interpretation is not necessarily incorrect."
+      },
+      {
+        "prompt_sentence": "Readers may _____ the author's criticism as a rejection of the whole theory.",
+        "answer": "misconstrue",
+        "completed_sentence": "Readers may misconstrue the author's criticism as a rejection of the whole theory.",
+        "explanation": "Use misconstrue when the interpretation is incorrect."
+      }
+    ],
+    "correct_or_incorrect": [
+      {
+        "sentence": "Her silence was misconstrued as agreement.",
+        "verdict": "Correct",
+        "explanation": "Be misconstrued as is a standard passive pattern."
+      },
+      {
+        "sentence": "The evidence should not be misconstrued like proof of causation.",
+        "verdict": "Incorrect",
+        "corrected_sentence": "The evidence should not be misconstrued as proof of causation.",
+        "explanation": "Use misconstrue something as something."
+      },
+      {
+        "sentence": "Some readers misconstrued the author's intentions.",
+        "verdict": "Correct",
+        "explanation": "Misconstrue someone's intentions means understand their purpose incorrectly."
+      },
+      {
+        "sentence": "The statement can misconstrue as criticism.",
+        "verdict": "Incorrect",
+        "corrected_sentence": "The statement can be misconstrued as criticism.",
+        "explanation": "Use the passive form because the statement receives the interpretation."
+      },
+      {
+        "sentence": "The researchers misconstrued the results incorrectly.",
+        "verdict": "Incorrect",
+        "corrected_sentence": "The researchers misconstrued the results.",
+        "explanation": "Misconstrue already means interpret incorrectly, so incorrectly is redundant."
+      }
+    ],
+    "collocation_practice": [
+      {
+        "prompt_sentence": "The remark could easily be misconstrued _____ an insult.",
+        "answer": "as",
+        "completed_sentence": "The remark could easily be misconstrued as an insult.",
+        "explanation": "Use misconstrue something as something."
+      },
+      {
+        "prompt_sentence": "The findings should not be _____ as evidence that the problem has disappeared.",
+        "answer": "misconstrued",
+        "completed_sentence": "The findings should not be misconstrued as evidence that the problem has disappeared.",
+        "explanation": "Should not be misconstrued as warns against an incorrect interpretation."
+      },
+      {
+        "prompt_sentence": "Please do not misconstrue my _____; I am trying to improve the proposal, not oppose it.",
+        "answer": "intentions",
+        "completed_sentence": "Please do not misconstrue my intentions; I am trying to improve the proposal, not oppose it.",
+        "explanation": "Misconstrue someone's intentions means misunderstand why they are acting in a certain way."
+      },
+      {
+        "prompt_sentence": "Without enough context, readers may easily _____ the statement.",
+        "answer": "misconstrue",
+        "completed_sentence": "Without enough context, readers may easily misconstrue the statement.",
+        "explanation": "Misconstrue a statement means give it an incorrect meaning."
+      }
+    ]
+  }
+}

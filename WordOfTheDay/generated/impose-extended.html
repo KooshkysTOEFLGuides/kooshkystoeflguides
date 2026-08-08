@@ -1,0 +1,1198 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="color-scheme" content="light dark">
+  <meta name="description" content="A complete TOEFL learner guide to impose, created by Amir Kooshky.">
+  <title>impose | Kooshky TOEFL Word of the Day</title>
+  <style>
+/*
+  Kooshky TOEFL Word of the Day
+  Original dictionary-editorial visual system for Amir Kooshky.
+  Mobile-first, print-aware, local-file friendly, and fully usable without JavaScript.
+*/
+:root {
+  color-scheme: light;
+  --paper: #f4f0e7;
+  --surface: #fffdf8;
+  --surface-2: #eee8dc;
+  --ink: #1c1a18;
+  --muted: #69635d;
+  --rule: #d6cdbf;
+  --rule-strong: #a99f92;
+  --accent: #a51f2d;
+  --accent-deep: #72131e;
+  --accent-soft: #f4e3e5;
+  --good: #315f4c;
+  --good-soft: #e5efe9;
+  --warn: #8a5719;
+  --warn-soft: #f8ebd8;
+  --info: #315f76;
+  --info-soft: #e4eef3;
+  --shadow: 0 18px 46px rgba(47, 37, 27, .09);
+  --serif: Georgia, "Times New Roman", Times, serif;
+  --sans: Inter, ui-sans-serif, -apple-system, BlinkMacSystemFont, "Segoe UI", Arial, sans-serif;
+  --mono: "SFMono-Regular", Consolas, "Liberation Mono", monospace;
+  --radius: .95rem;
+  --radius-sm: .55rem;
+  --content: 75rem;
+}
+
+html[data-theme="dark"] {
+  color-scheme: dark;
+  --paper: #171614;
+  --surface: #211f1c;
+  --surface-2: #2a2723;
+  --ink: #f3eee5;
+  --muted: #b9b0a5;
+  --rule: #443f39;
+  --rule-strong: #675e56;
+  --accent: #e35d68;
+  --accent-deep: #ff7f88;
+  --accent-soft: #3a2225;
+  --good: #95c8ad;
+  --good-soft: #20342a;
+  --warn: #dfb06e;
+  --warn-soft: #3a2c1d;
+  --info: #91c2d8;
+  --info-soft: #21343e;
+  --shadow: 0 18px 46px rgba(0, 0, 0, .34);
+}
+
+@media (prefers-color-scheme: dark) {
+  html:not([data-theme="light"]) {
+    color-scheme: dark;
+    --paper: #171614;
+    --surface: #211f1c;
+    --surface-2: #2a2723;
+    --ink: #f3eee5;
+    --muted: #b9b0a5;
+    --rule: #443f39;
+    --rule-strong: #675e56;
+    --accent: #e35d68;
+    --accent-deep: #ff7f88;
+    --accent-soft: #3a2225;
+    --good: #95c8ad;
+    --good-soft: #20342a;
+    --warn: #dfb06e;
+    --warn-soft: #3a2c1d;
+    --info: #91c2d8;
+    --info-soft: #21343e;
+    --shadow: 0 18px 46px rgba(0, 0, 0, .34);
+  }
+}
+
+*, *::before, *::after { box-sizing: border-box; }
+html { scroll-behavior: smooth; text-size-adjust: 100%; }
+body {
+  margin: 0;
+  background: var(--paper);
+  color: var(--ink);
+  font-family: var(--serif);
+  font-size: 1rem;
+  line-height: 1.72;
+  -webkit-font-smoothing: antialiased;
+}
+a { color: var(--accent-deep); text-underline-offset: .18em; text-decoration-thickness: .075em; }
+a:hover { color: var(--accent); }
+a.pronunciation-button:hover { color: var(--accent-soft); }
+button { font: inherit; }
+:focus-visible { outline: 3px solid var(--accent); outline-offset: 3px; }
+::selection { background: var(--accent); color: white; }
+
+.skip-link {
+  position: fixed;
+  left: .75rem;
+  top: .75rem;
+  z-index: 1000;
+  transform: translateY(-180%);
+  padding: .62rem .82rem;
+  border-radius: var(--radius-sm);
+  background: var(--ink);
+  color: var(--paper);
+  font-family: var(--sans);
+  font-weight: 800;
+  text-decoration: none;
+}
+.skip-link:focus { transform: translateY(0); }
+
+.no-js-hidden { display: none !important; }
+html.js .no-js-hidden { display: inline-flex !important; }
+
+.masthead {
+  border-bottom: 1px solid var(--rule);
+  background: color-mix(in srgb, var(--surface) 94%, transparent);
+}
+.masthead-inner {
+  width: min(calc(100% - 1.4rem), var(--content));
+  min-height: 4.4rem;
+  margin-inline: auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: .9rem;
+}
+.brand { color: inherit; text-decoration: none; line-height: 1.05; }
+.brand strong { display: block; font-size: 1.04rem; letter-spacing: -.02em; }
+.brand span {
+  display: block;
+  margin-top: .18rem;
+  color: var(--accent);
+  font-family: var(--sans);
+  font-size: .65rem;
+  font-weight: 850;
+  letter-spacing: .15em;
+  text-transform: uppercase;
+}
+.utility-actions { display: none; gap: .42rem; align-items: center; }
+html.js .utility-actions { display: flex; }
+.utility-button {
+  min-height: 2.35rem;
+  padding: .42rem .7rem;
+  border: 1px solid var(--rule-strong);
+  border-radius: 999px;
+  background: transparent;
+  color: var(--ink);
+  font-family: var(--sans);
+  font-size: .74rem;
+  font-weight: 800;
+  cursor: pointer;
+}
+.utility-button:hover { border-color: var(--accent); color: var(--accent); }
+
+.page {
+  width: min(calc(100% - 1.4rem), var(--content));
+  margin-inline: auto;
+  padding: 1.2rem 0 4rem;
+}
+
+.hero {
+  position: relative;
+  overflow: hidden;
+  padding: clamp(2rem, 10vw, 5.5rem) 0 clamp(2.4rem, 8vw, 4.5rem);
+  border-bottom: 1px solid var(--rule);
+}
+.hero::after {
+  content: "";
+  position: absolute;
+  right: -7rem;
+  top: -9rem;
+  width: 19rem;
+  aspect-ratio: 1;
+  border: 1px solid color-mix(in srgb, var(--accent) 22%, transparent);
+  border-radius: 50%;
+  box-shadow: 0 0 0 2.4rem color-mix(in srgb, var(--accent) 4%, transparent), 0 0 0 5rem color-mix(in srgb, var(--accent) 3%, transparent);
+  pointer-events: none;
+}
+.kicker, .section-kicker, .eyebrow {
+  margin: 0;
+  color: var(--accent);
+  font-family: var(--sans);
+  font-size: .7rem;
+  font-weight: 900;
+  letter-spacing: .16em;
+  text-transform: uppercase;
+}
+.hero h1 {
+  position: relative;
+  z-index: 1;
+  max-width: 13ch;
+  margin: .45rem 0 0;
+  font-size: clamp(3.2rem, 17vw, 8.7rem);
+  line-height: .88;
+  letter-spacing: -.065em;
+  overflow-wrap: anywhere;
+}
+.hero-pronunciation {
+  margin: 1.25rem 0 .15rem;
+  color: var(--accent-deep);
+  font-family: var(--sans);
+  font-size: clamp(1.05rem, 4vw, 1.45rem);
+  font-weight: 750;
+}
+.pronunciation-tools {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: .65rem;
+  max-width: 42rem;
+  margin: .75rem 0 .25rem;
+}
+.pronunciation-audio {
+  width: min(100%, 22rem);
+  height: 2.5rem;
+}
+.listen-link {
+  display: inline-flex;
+  align-items: center;
+  min-height: 2.35rem;
+  padding: .45rem .72rem;
+  border: 1px solid var(--accent);
+  border-radius: 999px;
+  color: var(--accent);
+  font-family: var(--sans);
+  font-size: .78rem;
+  font-weight: 820;
+  text-decoration: none;
+}
+.listen-link:hover { background: var(--accent); color: var(--accent-ink); }
+.listen-link.secondary { border-color: var(--rule-strong); color: var(--ink); }
+.listen-link.secondary:hover { border-color: var(--accent); background: var(--surface-strong); color: var(--accent); }
+.audio-note { margin: 0 0 .35rem; color: var(--muted); font-family: var(--sans); font-size: .72rem; }
+.hero-pos { margin: 0; color: var(--muted); font-family: var(--sans); font-weight: 720; }
+.hero-summary { max-width: 50rem; margin: 1rem 0 0; font-size: clamp(1.08rem, 3.2vw, 1.34rem); line-height: 1.55; }
+.short-meaning-row { display: flex; flex-wrap: wrap; gap: .45rem; margin-top: 1.2rem; }
+.short-meaning {
+  padding: .36rem .62rem;
+  border: 1px solid var(--rule-strong);
+  border-radius: 999px;
+  background: var(--surface);
+  font-family: var(--sans);
+  font-size: .78rem;
+  font-weight: 760;
+}
+.hero-example {
+  max-width: 53rem;
+  margin: 1.6rem 0 0;
+  padding: 1rem 1.1rem 1rem 1.25rem;
+  border-left: 3px solid var(--accent);
+  background: color-mix(in srgb, var(--surface) 80%, transparent);
+  font-size: clamp(1.05rem, 3vw, 1.3rem);
+  font-style: italic;
+}
+.meta-strip {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: .65rem;
+  margin-top: 1.5rem;
+}
+.meta-item { padding: .75rem .85rem; border: 1px solid var(--rule); border-radius: var(--radius-sm); background: var(--surface); }
+.meta-label { display: block; color: var(--muted); font-family: var(--sans); font-size: .66rem; font-weight: 850; letter-spacing: .12em; text-transform: uppercase; }
+.meta-value { display: block; margin-top: .12rem; font-family: var(--sans); font-weight: 800; }
+
+.toc {
+  margin: 1rem 0 0;
+  padding: .95rem;
+  border: 1px solid var(--rule);
+  border-radius: var(--radius);
+  background: var(--surface);
+}
+.toc-title { margin: 0 0 .55rem; font-family: var(--sans); font-size: .78rem; font-weight: 900; text-transform: uppercase; letter-spacing: .12em; }
+.toc-links { display: flex; flex-wrap: wrap; gap: .45rem .8rem; }
+.toc a { font-family: var(--sans); font-size: .82rem; font-weight: 760; }
+
+.section { padding: clamp(2.5rem, 8vw, 5rem) 0 0; }
+.section-head { max-width: 48rem; margin-bottom: 1.25rem; }
+.section h2 {
+  margin: .22rem 0 .4rem;
+  font-size: clamp(2rem, 7vw, 3.35rem);
+  line-height: 1.02;
+  letter-spacing: -.035em;
+}
+.section-intro { margin: 0; color: var(--muted); font-size: 1.03rem; }
+
+.overview-grid, .card-grid, .compare-grid, .exercise-grid, .info-grid {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: .85rem;
+}
+.card, .overview-card, .family-card, .collocation-card, .compare-card, .exercise-card {
+  min-width: 0;
+  padding: 1rem;
+  border: 1px solid var(--rule);
+  border-radius: var(--radius);
+  background: var(--surface);
+  box-shadow: 0 7px 20px rgba(40, 30, 20, .035);
+}
+.card h3, .card h4, .overview-card h3, .family-card h3, .collocation-card h3, .compare-card h3, .exercise-card h3 { margin: 0 0 .45rem; line-height: 1.25; }
+.card p:last-child, .overview-card p:last-child, .family-card p:last-child, .collocation-card p:last-child, .compare-card p:last-child, .exercise-card p:last-child { margin-bottom: 0; }
+.label {
+  color: var(--muted);
+  font-family: var(--sans);
+  font-size: .69rem;
+  font-weight: 850;
+  letter-spacing: .1em;
+  text-transform: uppercase;
+}
+.value { font-weight: 700; }
+
+.sense-card {
+  overflow: hidden;
+  margin-top: 1.1rem;
+  border: 1px solid var(--rule);
+  border-radius: calc(var(--radius) + .15rem);
+  background: var(--surface);
+  box-shadow: var(--shadow);
+}
+.sense-head {
+  padding: 1rem;
+  border-top: 4px solid var(--accent);
+  border-bottom: 1px solid var(--rule);
+  background: color-mix(in srgb, var(--surface-2) 42%, var(--surface));
+}
+.sense-number { color: var(--accent); font-family: var(--sans); font-size: .7rem; font-weight: 900; letter-spacing: .13em; text-transform: uppercase; }
+.sense-head h3 { margin: .2rem 0 .55rem; font-size: clamp(1.55rem, 5vw, 2.2rem); line-height: 1.1; }
+.badge-row { display: flex; flex-wrap: wrap; gap: .38rem; }
+.badge { padding: .27rem .5rem; border: 1px solid var(--rule-strong); border-radius: 999px; font-family: var(--sans); font-size: .72rem; font-weight: 780; }
+.sense-body { padding: 1rem; }
+.definition { margin: 0; font-size: clamp(1.08rem, 3.5vw, 1.28rem); font-weight: 700; }
+.plain-equivalent { margin: .65rem 0 0; color: var(--muted); }
+.pattern-banner {
+  margin: 1rem 0;
+  padding: .8rem .9rem;
+  border-left: 3px solid var(--accent);
+  background: var(--accent-soft);
+  border-radius: 0 var(--radius-sm) var(--radius-sm) 0;
+}
+.pattern-banner strong { font-family: var(--sans); }
+.context-row { display: flex; flex-wrap: wrap; gap: .38rem; margin-top: .55rem; }
+.context-pill { padding: .25rem .48rem; border-radius: 999px; background: var(--surface-2); font-family: var(--sans); font-size: .73rem; font-weight: 740; }
+.subsection-title { margin: 1.35rem 0 .55rem; font-family: var(--sans); font-size: .82rem; font-weight: 900; letter-spacing: .08em; text-transform: uppercase; }
+.example-list, .clean-list { margin: .5rem 0 0; padding-left: 1.35rem; }
+.example-list li, .clean-list li { padding-left: .25rem; margin: .42rem 0; }
+.info-card { padding: .9rem; border: 1px solid var(--rule); border-radius: var(--radius-sm); background: var(--surface); }
+.info-card h4 { margin: 0 0 .35rem; font-family: var(--sans); font-size: .9rem; }
+.info-card p { margin: .3rem 0 0; }
+.info-card.good { border-color: color-mix(in srgb, var(--good) 54%, var(--rule)); background: var(--good-soft); }
+.info-card.warning { border-color: color-mix(in srgb, var(--warn) 54%, var(--rule)); background: var(--warn-soft); }
+.info-card.tip { border-color: color-mix(in srgb, var(--info) 54%, var(--rule)); background: var(--info-soft); }
+.grammar-list { display: grid; gap: .55rem; margin: 0; }
+.grammar-item { padding-bottom: .55rem; border-bottom: 1px solid var(--rule); }
+.grammar-item:last-child { padding-bottom: 0; border-bottom: 0; }
+.grammar-item dt { font-family: var(--sans); font-size: .74rem; font-weight: 900; letter-spacing: .07em; text-transform: uppercase; }
+.grammar-item dd { margin: .12rem 0 0; }
+.pattern-list, .error-list { display: grid; gap: .7rem; }
+.pattern-card, .error-card { padding: .82rem; border: 1px solid var(--rule); border-radius: var(--radius-sm); background: color-mix(in srgb, var(--surface-2) 25%, var(--surface)); }
+.pattern-code { display: block; font-family: var(--mono); font-size: .84rem; font-weight: 800; overflow-wrap: anywhere; }
+.pattern-use { margin: .3rem 0; color: var(--muted); }
+.error-wrong, .error-correct { margin: .25rem 0; }
+.error-wrong { color: var(--warn); }
+.error-correct { color: var(--good); }
+.error-explanation { margin: .35rem 0 0; font-size: .93rem; }
+
+.family-card .ipa, .compare-card .meta { color: var(--muted); font-family: var(--sans); font-size: .8rem; }
+.collocation-card h3 { color: var(--accent-deep); }
+.mini-facts { display: grid; gap: .42rem; margin-top: .6rem; }
+.mini-fact { padding-top: .42rem; border-top: 1px solid var(--rule); }
+.mini-fact strong { font-family: var(--sans); font-size: .78rem; }
+.word-pill { display: inline-block; padding: .24rem .5rem; border: 1px solid var(--accent); border-radius: 999px; color: var(--accent-deep); font-family: var(--sans); font-size: .75rem; font-weight: 850; }
+
+.etymology-flow { display: grid; gap: .7rem; }
+.etymology-step { position: relative; padding: .9rem 1rem .9rem 1.15rem; border-left: 3px solid var(--accent); background: var(--surface); border-radius: 0 var(--radius-sm) var(--radius-sm) 0; }
+.etymology-step h3 { margin: 0 0 .25rem; font-family: var(--sans); font-size: .83rem; text-transform: uppercase; letter-spacing: .08em; }
+
+.exercise-card { counter-increment: exercise; }
+.exercise-card h3 { font-family: var(--sans); }
+.exercise-instruction { color: var(--muted); }
+details.answer-key { margin-top: 1rem; border: 1px solid var(--rule-strong); border-radius: var(--radius); background: var(--surface); }
+details.answer-key summary { padding: 1rem; font-family: var(--sans); font-weight: 900; cursor: pointer; }
+.answer-content { padding: 0 1rem 1rem; }
+.answer-group + .answer-group { margin-top: 1.3rem; padding-top: 1rem; border-top: 1px solid var(--rule); }
+.answer-group h3 { margin: 0 0 .5rem; font-family: var(--sans); }
+.answer-item { margin: .65rem 0; }
+.answer-item strong { font-family: var(--sans); }
+
+.footer {
+  margin-top: 4.5rem;
+  padding: 1.5rem 0 0;
+  border-top: 1px solid var(--rule);
+  color: var(--muted);
+  font-family: var(--sans);
+  font-size: .82rem;
+}
+.footer-row { display: flex; flex-direction: column; gap: .55rem; }
+.footer-links { display: flex; flex-wrap: wrap; gap: .4rem .8rem; }
+
+.back-to-top {
+  position: fixed;
+  right: 1rem;
+  bottom: 1rem;
+  z-index: 100;
+  width: 2.8rem;
+  height: 2.8rem;
+  align-items: center;
+  justify-content: center;
+  border: 1px solid var(--rule-strong);
+  border-radius: 50%;
+  background: var(--surface);
+  color: var(--ink);
+  box-shadow: var(--shadow);
+  cursor: pointer;
+  opacity: 0;
+  transform: translateY(.7rem);
+  pointer-events: none;
+  transition: opacity .2s ease, transform .2s ease;
+}
+.back-to-top.visible { opacity: 1; transform: translateY(0); pointer-events: auto; }
+
+@media (min-width: 38rem) {
+  .meta-strip { grid-template-columns: repeat(3, 1fr); }
+  .overview-grid, .info-grid { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+  .card-grid, .compare-grid, .exercise-grid { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+  .sense-head, .sense-body { padding: 1.25rem; }
+  .footer-row { flex-direction: row; justify-content: space-between; align-items: center; }
+}
+
+@media (min-width: 62rem) {
+  .page, .masthead-inner { width: min(calc(100% - 3rem), var(--content)); }
+  .toc { position: sticky; top: .7rem; z-index: 20; }
+  .overview-grid { grid-template-columns: repeat(4, minmax(0, 1fr)); }
+  .card-grid.three { grid-template-columns: repeat(3, minmax(0, 1fr)); }
+  .compare-grid { grid-template-columns: repeat(3, minmax(0, 1fr)); }
+  .exercise-grid { grid-template-columns: repeat(3, minmax(0, 1fr)); }
+  .sense-head, .sense-body { padding: 1.5rem; }
+  .sense-body > .info-grid { grid-template-columns: 1.05fr .95fr; }
+}
+
+.pronunciation-tools {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: .65rem;
+  margin-top: .8rem;
+}
+.pronunciation-button {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: .45rem;
+  min-height: 2.7rem;
+  padding: .62rem .9rem;
+  border: 1px solid var(--accent);
+  border-radius: 999px;
+  background: var(--accent);
+  color: #fff;
+  font-family: var(--sans);
+  font-size: .82rem;
+  font-weight: 850;
+  line-height: 1.2;
+  text-decoration: none;
+  cursor: pointer;
+  transition: transform .15s ease, box-shadow .15s ease, opacity .15s ease;
+}
+.pronunciation-button:hover { transform: translateY(-1px); box-shadow: 0 7px 18px rgba(91, 20, 31, .18); }
+.pronunciation-button:focus-visible { outline: 3px solid color-mix(in srgb, var(--accent) 35%, transparent); outline-offset: 3px; }
+.pronunciation-button.is-playing { opacity: .78; }
+.pronunciation-button.compact,
+.pronunciation-button.sense { min-height: 2.35rem; padding: .48rem .72rem; font-size: .75rem; }
+.audio-status { min-height: 1.2em; color: var(--muted); font-family: var(--sans); font-size: .76rem; }
+.audio-note { margin: .55rem 0 0; color: var(--muted); font-size: .82rem; }
+.audio-note code { font-family: var(--mono); overflow-wrap: anywhere; }
+.pronunciation-change-panel {
+  margin-top: 1.25rem;
+  padding: 1rem;
+  border: 2px solid var(--accent);
+  border-radius: var(--radius);
+  background: var(--accent-soft);
+}
+.pronunciation-change-kicker {
+  margin: 0;
+  color: var(--accent-deep);
+  font-family: var(--sans);
+  font-size: .7rem;
+  font-weight: 900;
+  letter-spacing: .1em;
+  text-transform: uppercase;
+}
+.pronunciation-change-panel h2 { margin: .25rem 0 .35rem; font-size: clamp(1.25rem, 4vw, 1.7rem); }
+.pronunciation-change-panel > p:last-of-type { margin-bottom: .8rem; }
+.pronunciation-variant-grid { display: grid; grid-template-columns: 1fr; gap: .7rem; }
+.pronunciation-variant {
+  padding: .8rem;
+  border: 1px solid var(--rule-strong);
+  border-radius: var(--radius-sm);
+  background: var(--surface);
+}
+.variant-label { margin: 0; font-family: var(--sans); font-size: .76rem; font-weight: 900; text-transform: uppercase; letter-spacing: .07em; }
+.variant-ipa { margin: .18rem 0; color: var(--accent-deep); font-size: 1.12rem; font-weight: 800; }
+.variant-senses { margin: 0 0 .6rem; color: var(--muted); font-size: .84rem; }
+.sense-pronunciation-row { display: grid; gap: .55rem; margin-top: .75rem; }
+.sense-pronunciation-row .pronunciation-button { justify-self: start; }
+.sense-pronunciation-change {
+  margin: 0;
+  padding: .65rem .75rem;
+  border-left: 3px solid var(--accent);
+  border-radius: 0 var(--radius-sm) var(--radius-sm) 0;
+  background: var(--accent-soft);
+  font-size: .88rem;
+}
+
+@media (min-width: 38rem) {
+  .pronunciation-variant-grid { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+  .sense-pronunciation-row { grid-template-columns: auto minmax(0, 1fr); align-items: center; }
+}
+
+
+  </style>
+</head>
+<body>
+  <a class="skip-link" href="#main-content">Skip to the guide</a>
+
+  <header class="masthead">
+    <div class="masthead-inner">
+      <a class="brand" href="/">
+        <strong>Kooshky TOEFL</strong>
+        <span>Word of the Day</span>
+      </a>
+      <div class="utility-actions" aria-label="Page tools">
+        <button class="utility-button" type="button" data-theme-toggle>Dark mode</button>
+      </div>
+    </div>
+  </header>
+
+  <main class="page" id="main-content">
+    <section class="hero" aria-labelledby="headword">
+      <p class="kicker">TOEFL Word of the Day</p>
+      <h1 id="headword">impose</h1>
+      <p class="hero-pronunciation">/ɪmˈpoʊz/</p>
+      <div class="pronunciation-tools" aria-label="Pronunciation audio">
+        <a class="pronunciation-button primary"
+           href="audios/impose.mp3"
+           data-pronunciation-button
+           data-pronunciation-phrase="impose"
+           data-audio-src="audios/impose.mp3"
+           aria-label="Hear the pronunciation of impose">
+          <span aria-hidden="true">🔊</span>
+          <span>Hear pronunciation</span>
+        </a>
+        <span class="audio-status" data-audio-status aria-live="polite"></span>
+      </div>
+      <p class="audio-note">Uses the local audio file <code>audios/impose.mp3</code>. If it is unavailable, the browser voice is used automatically.</p>
+
+      <p class="hero-pos">transitive verb</p>
+      <div class="short-meaning-row" aria-label="Meanings at a glance">
+<span class="short-meaning">officially introduce and enforce</span><span class="short-meaning">force something unwanted on someone</span><span class="short-meaning">burden someone with your presence or demands</span>      </div>
+<p class="hero-summary">Impose usually involves making people accept something they did not freely choose, such as a rule, tax, burden, belief, or demand.</p><blockquote class="hero-example">“The government imposed stricter limits on industrial pollution.”</blockquote>      <div class="meta-strip">
+        <div class="meta-item"><span class="meta-label">Date</span><span class="meta-value">August 26th 2026</span></div>
+        <div class="meta-item"><span class="meta-label">Level</span><span class="meta-value">B1–mid-B2 TOEFL</span></div>
+        <div class="meta-item"><span class="meta-label">Created by</span><span class="meta-value">Amir Kooshky</span></div>
+      </div>
+    </section>
+
+    <nav class="toc" aria-label="Study sections">
+      <p class="toc-title">In this guide</p>
+      <div class="toc-links">
+        <a href="#meanings">Meanings</a>
+<a href="#family">Word family</a><a href="#collocations">Collocations</a><a href="#relations">Synonyms & antonyms</a><a href="#confusables">Often confused</a><a href="#etymology">Etymology</a><a href="#exercises">Exercises</a>      </div>
+    </nav>
+
+
+    <section class="section" id="meanings">
+      <div class="section-head">
+        <p class="section-kicker">Dictionary guide</p>
+        <h2>Meanings and usage</h2>
+        <p class="section-intro">The core definition and examples are always included. Additional notes appear only when they are accurate and useful.</p>
+      </div>
+
+      <article class="sense-card" id="meaning-1">
+        <header class="sense-head">
+          <span class="sense-number">Meaning 1</span>
+          <h3>Officially introduce and enforce</h3>
+          <div class="badge-row">
+            <span class="badge">transitive verb</span>
+            <span class="badge">/ɪmˈpoʊz/</span>
+<span class="badge">neutral to formal; very common in academic, legal, political, economic, and policy contexts</span>          </div>
+          <div class="sense-pronunciation-row">
+            <a class="pronunciation-button sense"
+               href="audios/impose.mp3"
+               data-pronunciation-button
+               data-pronunciation-phrase="impose"
+               data-audio-src="audios/impose.mp3"
+               aria-label="Hear the transitive verb pronunciation">
+              <span aria-hidden="true">🔊</span>
+              <span>Hear transitive verb pronunciation</span>
+            </a>
+          </div>
+        </header>
+        <div class="sense-body">
+          <p class="definition">to officially introduce a rule, tax, punishment, restriction, or other requirement and make people obey or accept it</p>
+<p class="plain-equivalent"><strong>In simpler words:</strong> officially make a rule or requirement apply</p><div class="pattern-banner"><strong>Typical pattern:</strong> impose + tax, fine, ban, restriction, limit, penalty, sentence, or requirement</div>
+
+          <p class="subsection-title">Natural examples</p>
+          <ol class="example-list">
+<li>The government imposed stricter limits on industrial pollution.</li><li>The court imposed a substantial fine on the company.</li><li>Several countries imposed new taxes on imported goods.</li><li>The university imposed a temporary ban on parking near the construction site.</li><li>Authorities imposed restrictions on water use during the drought.</li><li>The treaty imposed strict limits on the country&#39;s military activities.</li><li>The judge imposed a sentence of three years in prison.</li><li>New regulations impose additional safety requirements on manufacturers.</li>          </ol>
+
+          <div class="info-grid">
+            <section class="info-card good">
+              <h4>Nuance and implication</h4>
+<p><strong>Central nuance:</strong> Impose emphasizes authority and lack of free choice: a government, court, institution, or other authority makes something apply to people.</p><p><strong>Usual implication:</strong> The people affected may not agree with or welcome the rule, tax, restriction, or punishment.</p><p><strong>Compared with “recommend”:</strong> To recommend something is to advise people to do it. To impose it is to make it compulsory or officially apply it.</p>            </section>
+
+            <section class="info-card">
+              <h4>Grammar notes</h4>
+              <dl class="grammar-list">
+<div class="grammar-item"><dt>How to use it</dt><dd>Put the rule, tax, punishment, or restriction directly after impose.</dd></div><div class="grammar-item"><dt>What can follow it</dt><dd>Common objects include tax, fine, penalty, ban, restriction, limit, requirement, condition, sanction, and sentence.</dd></div><div class="grammar-item"><dt>Common preposition</dt><dd>When naming the people or organization affected, use on or upon: impose a tax on consumers, impose restrictions on factories.</dd></div><div class="grammar-item"><dt>Position in a sentence</dt><dd>The passive form is also common: A fine was imposed on the company.</dd></div>              </dl>
+            </section>
+          </div>
+
+          <p class="subsection-title">Useful patterns</p>
+          <div class="pattern-list">
+            <article class="pattern-card">
+              <code class="pattern-code">impose + tax or fee + on + person or group</code>
+<p class="pattern-use">Use this when an authority officially requires people to pay money.</p>              <p><strong>Example:</strong> The city imposed a new fee on property developers.</p>
+            </article>
+            <article class="pattern-card">
+              <code class="pattern-code">impose + restriction or limit + on + activity</code>
+<p class="pattern-use">Use this when an authority officially limits what people can do.</p>              <p><strong>Example:</strong> The government imposed restrictions on commercial fishing.</p>
+            </article>
+            <article class="pattern-card">
+              <code class="pattern-code">impose + fine or penalty + on + person or organization</code>
+<p class="pattern-use">Use this when an authority officially punishes someone.</p>              <p><strong>Example:</strong> Regulators imposed a heavy fine on the company.</p>
+            </article>
+            <article class="pattern-card">
+              <code class="pattern-code">impose + ban</code>
+<p class="pattern-use">Use this when an authority officially prohibits something.</p>              <p><strong>Example:</strong> The city imposed a temporary ban on outdoor fires.</p>
+            </article>
+            <article class="pattern-card">
+              <code class="pattern-code">be imposed on + person, group, or activity</code>
+<p class="pattern-use">Use the passive form when the rule or punishment is the main focus.</p>              <p><strong>Example:</strong> Strict limits were imposed on groundwater use.</p>
+            </article>
+          </div>
+
+          <p class="subsection-title">Common wrong usage</p>
+          <div class="error-list">
+            <article class="error-card">
+              <p class="error-wrong"><strong>Wrong:</strong> The government imposed to companies stricter regulations.</p>
+              <p class="error-correct"><strong>Correct:</strong> The government imposed stricter regulations on companies.</p>
+<p class="error-explanation">Put the thing being imposed directly after impose, and use on before the people or organizations affected.</p>            </article>
+            <article class="error-card">
+              <p class="error-wrong"><strong>Wrong:</strong> The court imposed the company a fine.</p>
+              <p class="error-correct"><strong>Correct:</strong> The court imposed a fine on the company.</p>
+<p class="error-explanation">The normal pattern is impose something on someone.</p>            </article>
+            <article class="error-card">
+              <p class="error-wrong"><strong>Wrong:</strong> The government imposed people to follow the new rule.</p>
+              <p class="error-correct"><strong>Correct:</strong> The government required people to follow the new rule.</p>
+<p class="error-explanation">Do not use impose + person + to + verb. Use impose a rule on someone, or use require someone to do something.</p>            </article>
+          </div>
+
+        </div>
+      </article>
+      <article class="sense-card" id="meaning-2">
+        <header class="sense-head">
+          <span class="sense-number">Meaning 2</span>
+          <h3>Force something unwanted on someone</h3>
+          <div class="badge-row">
+            <span class="badge">transitive verb</span>
+            <span class="badge">/ɪmˈpoʊz/</span>
+<span class="badge">neutral to formal; common in academic discussions of policy, economics, society, education, and ethics</span>          </div>
+          <div class="sense-pronunciation-row">
+            <a class="pronunciation-button sense"
+               href="audios/impose.mp3"
+               data-pronunciation-button
+               data-pronunciation-phrase="impose"
+               data-audio-src="audios/impose.mp3"
+               aria-label="Hear the transitive verb pronunciation">
+              <span aria-hidden="true">🔊</span>
+              <span>Hear transitive verb pronunciation</span>
+            </a>
+          </div>
+        </header>
+        <div class="sense-body">
+          <p class="definition">to force an unwanted burden, idea, condition, or responsibility on someone</p>
+<p class="plain-equivalent"><strong>In simpler words:</strong> force someone to accept or deal with something</p><div class="pattern-banner"><strong>Typical pattern:</strong> impose + burden, cost, pressure, condition, belief, responsibility, or demand + on + someone</div>
+
+          <p class="subsection-title">Natural examples</p>
+          <ol class="example-list">
+<li>Parents should be careful not to impose their own career ambitions on their children.</li><li>The new reporting requirements impose a significant burden on small businesses.</li><li>Critics argued that the policy imposed unnecessary costs on local communities.</li><li>A teacher should not impose personal political beliefs on students.</li><li>The project imposed additional responsibilities on employees who were already overworked.</li><li>Rapid population growth can impose severe pressure on public services.</li><li>The agreement imposed several difficult conditions on the smaller company.</li><li>The disaster imposed enormous financial costs on the region.</li>          </ol>
+
+          <div class="info-grid">
+            <section class="info-card good">
+              <h4>Nuance and implication</h4>
+<p><strong>Central nuance:</strong> This sense focuses on making someone carry, accept, or deal with something they did not freely choose.</p><p><strong>Usual implication:</strong> The imposed thing is often difficult, unwanted, restrictive, expensive, or unfair.</p><p><strong>Compared with “offer”:</strong> Something offered can be accepted or refused. Something imposed is forced on the person or group.</p>            </section>
+
+            <section class="info-card">
+              <h4>Grammar notes</h4>
+              <dl class="grammar-list">
+<div class="grammar-item"><dt>How to use it</dt><dd>Put the burden, idea, condition, or responsibility directly after impose.</dd></div><div class="grammar-item"><dt>What can follow it</dt><dd>Common objects include burden, cost, pressure, condition, responsibility, demand, belief, value, and expectation.</dd></div><div class="grammar-item"><dt>Common preposition</dt><dd>Use on or upon before the person or group receiving the unwanted thing: impose a burden on taxpayers.</dd></div><div class="grammar-item"><dt>Position in a sentence</dt><dd>The passive is common when focusing on the affected person or group: Extra responsibilities were imposed on staff.</dd></div>              </dl>
+            </section>
+          </div>
+
+          <p class="subsection-title">Useful patterns</p>
+          <div class="pattern-list">
+            <article class="pattern-card">
+              <code class="pattern-code">impose a burden on + person or group</code>
+<p class="pattern-use">Use this when something creates extra difficulty, work, or expense.</p>              <p><strong>Example:</strong> The paperwork imposes a heavy burden on small businesses.</p>
+            </article>
+            <article class="pattern-card">
+              <code class="pattern-code">impose costs on + person or group</code>
+<p class="pattern-use">Use this when a decision causes people to pay or lose money.</p>              <p><strong>Example:</strong> Environmental damage can impose substantial costs on future generations.</p>
+            </article>
+            <article class="pattern-card">
+              <code class="pattern-code">impose pressure on + person, system, or resource</code>
+<p class="pattern-use">Use this when something creates strain or difficulty.</p>              <p><strong>Example:</strong> Rapid urban growth imposes pressure on transportation systems.</p>
+            </article>
+            <article class="pattern-card">
+              <code class="pattern-code">impose beliefs or values on + someone</code>
+<p class="pattern-use">Use this when someone tries to force another person to accept particular ideas.</p>              <p><strong>Example:</strong> Schools should educate students without imposing a particular political ideology on them.</p>
+            </article>
+            <article class="pattern-card">
+              <code class="pattern-code">impose conditions on + someone</code>
+<p class="pattern-use">Use this when someone must accept certain requirements.</p>              <p><strong>Example:</strong> The lender imposed strict conditions on the borrower.</p>
+            </article>
+          </div>
+
+          <p class="subsection-title">Common wrong usage</p>
+          <div class="error-list">
+            <article class="error-card">
+              <p class="error-wrong"><strong>Wrong:</strong> Parents should not impose their children their beliefs.</p>
+              <p class="error-correct"><strong>Correct:</strong> Parents should not impose their beliefs on their children.</p>
+<p class="error-explanation">Use impose something on someone.</p>            </article>
+            <article class="error-card">
+              <p class="error-wrong"><strong>Wrong:</strong> The policy imposed many pressures to small businesses.</p>
+              <p class="error-correct"><strong>Correct:</strong> The policy imposed considerable pressure on small businesses.</p>
+<p class="error-explanation">Use on, not to. Pressure is also commonly uncountable in this meaning.</p>            </article>
+            <article class="error-card">
+              <p class="error-wrong"><strong>Wrong:</strong> She imposed me to accept her opinion.</p>
+              <p class="error-correct"><strong>Correct:</strong> She tried to impose her opinion on me.</p>
+<p class="error-explanation">Do not use impose someone to do something. Use impose something on someone.</p>            </article>
+          </div>
+
+        </div>
+      </article>
+      <article class="sense-card" id="meaning-3">
+        <header class="sense-head">
+          <span class="sense-number">Meaning 3</span>
+          <h3>Burden someone with your presence or demands</h3>
+          <div class="badge-row">
+            <span class="badge">transitive verb</span>
+            <span class="badge">/ɪmˈpoʊz/</span>
+<span class="badge">neutral; often used politely when discussing favors, hospitality, personal space, or unwanted attention</span>          </div>
+          <div class="sense-pronunciation-row">
+            <a class="pronunciation-button sense"
+               href="audios/impose.mp3"
+               data-pronunciation-button
+               data-pronunciation-phrase="impose"
+               data-audio-src="audios/impose.mp3"
+               aria-label="Hear the transitive verb pronunciation">
+              <span aria-hidden="true">🔊</span>
+              <span>Hear transitive verb pronunciation</span>
+            </a>
+          </div>
+        </header>
+        <div class="sense-body">
+          <p class="definition">to force your presence, attention, or demands on someone when they may not want them</p>
+<p class="plain-equivalent"><strong>In simpler words:</strong> cause someone inconvenience by asking too much or staying when not wanted</p><div class="pattern-banner"><strong>Typical pattern:</strong> impose on + someone, or impose yourself on + someone</div>
+
+          <p class="subsection-title">Natural examples</p>
+          <ol class="example-list">
+<li>I did not want to impose on my neighbors by asking them to drive me to the airport.</li><li>She felt that staying for another week would impose on her hosts.</li><li>He was careful not to impose himself on colleagues who were already extremely busy.</li><li>I hope I am not imposing, but could I use your phone for a moment?</li><li>They offered us dinner, but we did not want to impose on their hospitality.</li><li>She disliked imposing on friends for help unless it was absolutely necessary.</li><li>The visitor imposed himself on the family and stayed far longer than expected.</li>          </ol>
+
+          <div class="info-grid">
+            <section class="info-card good">
+              <h4>Nuance and implication</h4>
+<p><strong>Central nuance:</strong> This sense often expresses concern that your request, presence, or behavior may inconvenience another person.</p><p><strong>Usual implication:</strong> It is frequently used in polite language when someone wants to avoid taking advantage of another person&#39;s kindness.</p><p><strong>Compared with “respect someone&#39;s space”:</strong> Respecting someone&#39;s space means avoiding unwanted demands or intrusion. Imposing on someone means creating an unwanted burden through your presence or requests.</p>            </section>
+
+            <section class="info-card">
+              <h4>Grammar notes</h4>
+              <dl class="grammar-list">
+<div class="grammar-item"><dt>How to use it</dt><dd>Use impose on someone when your request or presence may burden them. Use impose yourself on someone when you force your company or attention on them.</dd></div><div class="grammar-item"><dt>What can follow it</dt><dd>After impose on, name the person or group affected. You can also say impose on someone&#39;s hospitality or generosity.</dd></div><div class="grammar-item"><dt>Common preposition</dt><dd>On is essential in this pattern: impose on someone.</dd></div><div class="grammar-item"><dt>Position in a sentence</dt><dd>This meaning often appears in negative or polite expressions such as I don&#39;t want to impose or I hope I&#39;m not imposing.</dd></div>              </dl>
+            </section>
+          </div>
+
+          <p class="subsection-title">Useful patterns</p>
+          <div class="pattern-list">
+            <article class="pattern-card">
+              <code class="pattern-code">impose on + someone</code>
+<p class="pattern-use">Use this when asking a favor or staying with someone might inconvenience them.</p>              <p><strong>Example:</strong> I do not want to impose on you, so I can find a hotel instead.</p>
+            </article>
+            <article class="pattern-card">
+              <code class="pattern-code">impose on someone&#39;s hospitality</code>
+<p class="pattern-use">Use this when you worry that you are accepting too much kindness from a host.</p>              <p><strong>Example:</strong> We decided to leave early rather than impose on their hospitality.</p>
+            </article>
+            <article class="pattern-card">
+              <code class="pattern-code">impose yourself on + someone</code>
+<p class="pattern-use">Use this when a person forces their presence or attention on someone else.</p>              <p><strong>Example:</strong> He had a habit of imposing himself on people who wanted to be left alone.</p>
+            </article>
+            <article class="pattern-card">
+              <code class="pattern-code">I hope I&#39;m not imposing</code>
+<p class="pattern-use">Use this polite expression before or after making a request that may inconvenience someone.</p>              <p><strong>Example:</strong> I hope I&#39;m not imposing, but could I stay here tonight?</p>
+            </article>
+          </div>
+
+          <p class="subsection-title">Common wrong usage</p>
+          <div class="error-list">
+            <article class="error-card">
+              <p class="error-wrong"><strong>Wrong:</strong> I don&#39;t want to impose you.</p>
+              <p class="error-correct"><strong>Correct:</strong> I don&#39;t want to impose on you.</p>
+<p class="error-explanation">When impose means inconvenience someone through a request or your presence, use impose on someone.</p>            </article>
+            <article class="error-card">
+              <p class="error-wrong"><strong>Wrong:</strong> He imposed himself to his neighbors.</p>
+              <p class="error-correct"><strong>Correct:</strong> He imposed himself on his neighbors.</p>
+<p class="error-explanation">The correct pattern is impose yourself on someone.</p>            </article>
+            <article class="error-card">
+              <p class="error-wrong"><strong>Wrong:</strong> I hope I don&#39;t impose to ask for another favor.</p>
+              <p class="error-correct"><strong>Correct:</strong> I hope I&#39;m not imposing by asking for another favor.</p>
+<p class="error-explanation">A natural pattern is be imposing by + -ing form.</p>            </article>
+          </div>
+
+        </div>
+      </article>
+    </section>
+
+    <section class="section" id="family">
+      <div class="section-head">
+        <p class="section-kicker">Morphology</p>
+        <h2>Word family</h2>
+        <p class="section-intro">Only common and educationally useful family members are included.</p>
+      </div>
+      <div class="card-grid three">
+        <article class="family-card">
+          <p class="eyebrow">countable noun</p>
+          <h3>imposition</h3>
+<p class="ipa">/ˌɪmpəˈzɪʃən/</p>          <p>an unfair or inconvenient demand or burden placed on someone</p>
+          <div class="mini-facts">
+<p class="mini-fact"><strong>Relationship:</strong> This noun can refer to a burden or demand that has been imposed on someone.</p><p class="mini-fact"><strong>Pattern:</strong> an imposition on + person or group</p><p class="mini-fact"><strong>Usage note:</strong> It is especially common when talking about inconvenience or an unreasonable demand.</p>          </div>
+          <ol class="example-list"><li>Requiring employees to work every weekend would be a considerable imposition.</li><li>She apologized for the imposition and thanked her neighbors for helping.</li><li>The additional paperwork was seen as an unnecessary imposition.</li></ol>
+        </article>
+        <article class="family-card">
+          <p class="eyebrow">adjective</p>
+          <h3>imposing</h3>
+<p class="ipa">/ɪmˈpoʊzɪŋ/</p>          <p>large, impressive, and likely to attract attention because of appearance or size</p>
+          <div class="mini-facts">
+<p class="mini-fact"><strong>Relationship:</strong> This adjective is historically related to impose but has developed the separate common meaning of impressive in size or appearance.</p><p class="mini-fact"><strong>Pattern:</strong> imposing + building, structure, figure, entrance, or appearance</p><p class="mini-fact"><strong>Usage note:</strong> Do not assume that imposing means forcing something in this adjective use.</p>          </div>
+          <ol class="example-list"><li>The museum occupies an imposing stone building in the center of the city.</li><li>The mountain presents an imposing sight from the valley below.</li></ol>
+        </article>
+      </div>
+    </section>
+
+    <section class="section" id="collocations">
+      <div class="section-head">
+        <p class="section-kicker">Natural combinations</p>
+        <h2>Common collocations</h2>
+        <p class="section-intro">These are established combinations, not merely grammatically possible phrases.</p>
+      </div>
+      <div class="card-grid three">
+        <article class="collocation-card">
+<p class="eyebrow">Officially introduce and enforce</p>          <h3>impose a tax</h3>
+<p>officially require a tax to be paid</p>          <div class="mini-facts">
+<p class="mini-fact"><strong>Pattern:</strong> impose a tax on + person, product, or activity</p>            <p class="mini-fact"><strong>Example:</strong> The government imposed a tax on luxury goods.</p>
+          </div>
+        </article>
+        <article class="collocation-card">
+<p class="eyebrow">Officially introduce and enforce</p>          <h3>impose a fine</h3>
+<p>officially require someone to pay money as punishment</p>          <div class="mini-facts">
+<p class="mini-fact"><strong>Pattern:</strong> impose a fine on + person or organization</p>            <p class="mini-fact"><strong>Example:</strong> The regulator imposed a fine on the company for violating safety rules.</p>
+          </div>
+        </article>
+        <article class="collocation-card">
+<p class="eyebrow">Officially introduce and enforce</p>          <h3>impose a penalty</h3>
+<p>officially give a punishment</p>          <div class="mini-facts">
+            <p class="mini-fact"><strong>Example:</strong> The law allows courts to impose severe penalties for repeated violations.</p>
+          </div>
+        </article>
+        <article class="collocation-card">
+<p class="eyebrow">Officially introduce and enforce</p>          <h3>impose restrictions</h3>
+<p>officially limit what people are allowed to do</p>          <div class="mini-facts">
+<p class="mini-fact"><strong>Pattern:</strong> impose restrictions on + activity or group</p>            <p class="mini-fact"><strong>Example:</strong> Authorities imposed restrictions on construction near the protected area.</p>
+          </div>
+        </article>
+        <article class="collocation-card">
+<p class="eyebrow">Officially introduce and enforce</p>          <h3>impose a ban</h3>
+<p>officially prohibit something</p>          <div class="mini-facts">
+<p class="mini-fact"><strong>Pattern:</strong> impose a ban on + activity or product</p>            <p class="mini-fact"><strong>Example:</strong> The government imposed a ban on the sale of the chemical.</p>
+          </div>
+        </article>
+        <article class="collocation-card">
+<p class="eyebrow">Officially introduce and enforce</p>          <h3>impose limits</h3>
+<p>officially restrict the amount or extent of something</p>          <div class="mini-facts">
+<p class="mini-fact"><strong>Pattern:</strong> impose limits on + activity or quantity</p>            <p class="mini-fact"><strong>Example:</strong> The law imposes strict limits on industrial emissions.</p>
+          </div>
+        </article>
+        <article class="collocation-card">
+<p class="eyebrow">Officially introduce and enforce</p>          <h3>impose sanctions</h3>
+<p>officially introduce economic or political penalties</p>          <div class="mini-facts">
+<p class="mini-fact"><strong>Pattern:</strong> impose sanctions on + country, organization, or individual</p>            <p class="mini-fact"><strong>Example:</strong> Several countries imposed economic sanctions on the regime.</p>
+          </div>
+        </article>
+        <article class="collocation-card">
+<p class="eyebrow">Force something unwanted on someone</p>          <h3>impose a burden</h3>
+<p>make someone carry an extra difficulty, responsibility, or cost</p>          <div class="mini-facts">
+<p class="mini-fact"><strong>Pattern:</strong> impose a burden on + person or group</p>            <p class="mini-fact"><strong>Example:</strong> The new rules impose an additional burden on small businesses.</p>
+          </div>
+        </article>
+        <article class="collocation-card">
+<p class="eyebrow">Force something unwanted on someone</p>          <h3>impose costs</h3>
+<p>cause someone or society to bear financial or other costs</p>          <div class="mini-facts">
+<p class="mini-fact"><strong>Pattern:</strong> impose costs on + person, group, or society</p>            <p class="mini-fact"><strong>Example:</strong> Pollution imposes substantial costs on society.</p>
+          </div>
+        </article>
+        <article class="collocation-card">
+<p class="eyebrow">Force something unwanted on someone</p>          <h3>impose conditions</h3>
+<p>require someone to accept particular terms</p>          <div class="mini-facts">
+<p class="mini-fact"><strong>Pattern:</strong> impose conditions on + person, agreement, or activity</p>            <p class="mini-fact"><strong>Example:</strong> The bank imposed strict conditions on the loan.</p>
+          </div>
+        </article>
+        <article class="collocation-card">
+<p class="eyebrow">Force something unwanted on someone</p>          <h3>impose one&#39;s views</h3>
+<p>force other people to accept your opinions</p>          <div class="mini-facts">
+<p class="mini-fact"><strong>Pattern:</strong> impose one&#39;s views on + someone</p>            <p class="mini-fact"><strong>Example:</strong> Teachers should avoid imposing their personal views on students.</p>
+          </div>
+        </article>
+        <article class="collocation-card">
+<p class="eyebrow">Burden someone with your presence or demands</p>          <h3>impose on someone</h3>
+<p>cause someone inconvenience through your requests or presence</p>          <div class="mini-facts">
+            <p class="mini-fact"><strong>Example:</strong> I do not want to impose on you by staying another night.</p>
+          </div>
+        </article>
+        <article class="collocation-card">
+<p class="eyebrow">Burden someone with your presence or demands</p>          <h3>impose on someone&#39;s hospitality</h3>
+<p>take unfair advantage of someone&#39;s willingness to host or help you</p>          <div class="mini-facts">
+            <p class="mini-fact"><strong>Example:</strong> We did not want to impose on our hosts&#39; hospitality.</p>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <section class="section" id="relations">
+      <div class="section-head">
+        <p class="section-kicker">Meaning relations</p>
+        <h2>Synonyms and antonyms</h2>
+        <p class="section-intro">Only clear and useful relationships are included.</p>
+      </div>
+      <h3>Close synonyms</h3>
+      <div class="compare-grid">
+        <article class="compare-card">
+          <span class="word-pill">enforce</span>
+          <p class="meta">transitive verb · Officially introduce and enforce</p>
+<p><strong>Shared meaning:</strong> Both involve authority and compulsory rules.</p>          <p><strong>Difference:</strong> Enforce means make sure an existing law or rule is obeyed. Impose means introduce or place the rule, restriction, or punishment on people in the first place.</p>
+          <p><strong>Example:</strong> Police are responsible for enforcing traffic laws.</p>
+        </article>
+        <article class="compare-card">
+          <span class="word-pill">levy</span>
+          <p class="meta">transitive verb · Officially introduce and enforce</p>
+<p><strong>Shared meaning:</strong> Both can mean officially require a tax or financial charge.</p>          <p><strong>Difference:</strong> Levy is a more specialized formal verb used mainly for officially imposing taxes, fees, or other financial charges. Impose can be used much more broadly.</p>
+          <p><strong>Example:</strong> The city levied a tax on vacant properties.</p>
+        </article>
+        <article class="compare-card">
+          <span class="word-pill">force</span>
+          <p class="meta">transitive verb · Force something unwanted on someone</p>
+<p><strong>Shared meaning:</strong> Both involve lack of free choice.</p>          <p><strong>Difference:</strong> Force is broader and often focuses on making a person perform an action. Impose usually focuses on placing a rule, burden, belief, condition, or cost on someone.</p>
+          <p><strong>Example:</strong> The circumstances forced the company to reduce production.</p>
+        </article>
+        <article class="compare-card">
+          <span class="word-pill">burden</span>
+          <p class="meta">transitive verb · Force something unwanted on someone</p>
+<p><strong>Shared meaning:</strong> Both can describe causing someone to carry an unwanted difficulty.</p>          <p><strong>Difference:</strong> Burden emphasizes giving someone difficult responsibilities, costs, or problems. Impose is broader and can also refer to rules, beliefs, restrictions, or conditions.</p>
+          <p><strong>Example:</strong> The complicated process burdens small businesses with unnecessary paperwork.</p>
+        </article>
+        <article class="compare-card">
+          <span class="word-pill">intrude</span>
+          <p class="meta">intransitive verb · Burden someone with your presence or demands</p>
+<p><strong>Shared meaning:</strong> Both can describe unwanted interference with another person.</p>          <p><strong>Difference:</strong> Intrude emphasizes entering someone&#39;s space, privacy, or activity without permission. Impose on emphasizes causing inconvenience by asking too much or taking advantage of someone&#39;s hospitality.</p>
+          <p><strong>Example:</strong> I did not want to intrude on their private conversation.</p>
+        </article>
+      </div>
+
+      <h3 style="margin-top: 2rem;">Direct or useful antonyms</h3>
+      <div class="compare-grid">
+        <article class="compare-card">
+          <span class="word-pill">lift</span>
+          <p class="meta">transitive verb · Officially introduce and enforce</p>
+          <p><strong>Opposition:</strong> To impose a restriction or ban is to introduce it; to lift it is to officially remove it.</p>
+<p><strong>Usage note:</strong> This is a strong opposite specifically for restrictions, bans, sanctions, and similar measures.</p>          <p><strong>Example:</strong> Authorities lifted the restrictions after conditions improved.</p>
+        </article>
+        <article class="compare-card">
+          <span class="word-pill">remove</span>
+          <p class="meta">transitive verb · Officially introduce and enforce</p>
+          <p><strong>Opposition:</strong> Impose can mean place a requirement or restriction on someone, while remove means take that requirement or restriction away.</p>
+          <p><strong>Example:</strong> The government removed several unnecessary restrictions.</p>
+        </article>
+      </div>
+    </section>
+
+    <section class="section" id="confusables">
+      <div class="section-head">
+        <p class="section-kicker">Precision</p>
+        <h2>Words learners may confuse</h2>
+      </div>
+      <div class="compare-grid">
+        <article class="compare-card">
+          <span class="word-pill">enforce</span>
+<p class="meta">transitive verb</p><p><strong>Why it is confusing:</strong> Both commonly appear in discussions of laws, rules, and government authority.</p>          <p><strong>Key difference:</strong> Impose means introduce or place a rule, tax, punishment, or restriction on someone. Enforce means make sure an existing rule or law is obeyed.</p>
+          <p><strong>impose:</strong> The city imposed a new parking restriction.</p>
+          <p><strong>enforce:</strong> Police began enforcing the new parking restriction on Monday.</p>
+        </article>
+        <article class="compare-card">
+          <span class="word-pill">propose</span>
+<p class="meta">transitive verb</p><p><strong>Why it is confusing:</strong> The words look somewhat similar but represent very different stages of decision-making.</p>          <p><strong>Key difference:</strong> Impose means make something apply without giving the affected people a choice. Propose means suggest something for consideration.</p>
+          <p><strong>impose:</strong> The government imposed a new tax.</p>
+          <p><strong>propose:</strong> The government proposed a new tax, but parliament had not yet approved it.</p>
+        </article>
+        <article class="compare-card">
+          <span class="word-pill">imposing</span>
+<p class="meta">verb versus adjective</p><p><strong>Why it is confusing:</strong> Imposing looks like the -ing form of impose but also has an established adjective meaning that learners may not expect.</p>          <p><strong>Key difference:</strong> Impose is a verb meaning force or officially place something on someone. Imposing is commonly an adjective meaning large, impressive, and visually powerful.</p>
+          <p><strong>impose:</strong> The court imposed a heavy fine on the company.</p>
+          <p><strong>imposing:</strong> The courthouse is an imposing stone building.</p>
+        </article>
+      </div>
+    </section>
+
+    <section class="section" id="etymology">
+      <div class="section-head">
+        <p class="section-kicker">Word history</p>
+        <h2>Etymology</h2>
+        <p class="section-intro">Only confidently documented details are shown.</p>
+      </div>
+      <div class="etymology-flow">
+<article class="etymology-step"><h3>Origin</h3><p>Impose comes through French from Latin elements meaning to put or place upon.</p></article><article class="etymology-step"><h3>Development</h3><p>The idea of placing something upon another thing developed into the modern meanings of placing a rule, burden, duty, tax, or demand on someone.</p></article><article class="etymology-step"><h3>Memory link</h3><p>Think of impose as putting something on someone: a tax, rule, burden, belief, or demand.</p></article>      </div>
+    </section>
+
+    <section class="section" id="exercises">
+      <div class="section-head">
+        <p class="section-kicker">Active practice</p>
+        <h2>Practice exercises</h2>
+      </div>
+      <div class="exercise-grid">
+        <article class="exercise-card">
+          <h3>Word family choice</h3>
+          <p class="exercise-instruction">Choose the best member of the word family for each blank.</p>
+          <ol class="clean-list"><li>Requiring employees to attend unpaid meetings every weekend would be a serious _____.</li><li>The museum is housed in an _____ nineteenth-century building.</li><li>The government decided to _____ stricter limits on industrial emissions.</li></ol>
+        </article>
+        <article class="exercise-card">
+          <h3>Correct or incorrect?</h3>
+          <p class="exercise-instruction">Decide whether each sentence is correct. Correct the inaccurate ones.</p>
+          <ol class="clean-list"><li>The court imposed a heavy fine on the company.</li><li>The government imposed citizens to follow the new rule.</li><li>The new regulations impose additional costs on manufacturers.</li><li>Parents should not impose their ambitions to their children.</li><li>I do not want to impose on you by asking for another favor.</li></ol>
+        </article>
+        <article class="exercise-card">
+          <h3>Collocation practice</h3>
+          <p class="exercise-instruction">Complete each sentence with a natural collocation.</p>
+          <ol class="clean-list"><li>The government imposed new restrictions _____ industrial water use.</li><li>The court decided to impose a substantial _____ on the company.</li><li>Complex regulations can impose a heavy _____ on small businesses.</li><li>Teachers should avoid imposing their personal views _____ students.</li><li>I hope I am not imposing _____ you by staying another night.</li></ol>
+        </article>
+      </div>
+
+      <details class="answer-key">
+        <summary>Open the complete answer key</summary>
+        <div class="answer-content">
+          <section class="answer-group">
+            <h3>Word family choice</h3>
+            <p class="answer-item"><strong>1. imposition</strong><br>Requiring employees to attend unpaid meetings every weekend would be a serious imposition.<br><em>Use the noun imposition for an unreasonable or inconvenient burden.</em></p>
+            <p class="answer-item"><strong>2. imposing</strong><br>The museum is housed in an imposing nineteenth-century building.<br><em>The adjective imposing means large and impressive in appearance.</em></p>
+            <p class="answer-item"><strong>3. impose</strong><br>The government decided to impose stricter limits on industrial emissions.<br><em>Use the base verb impose after to.</em></p>
+          </section>
+          <section class="answer-group">
+            <h3>Correct or incorrect?</h3>
+            <p class="answer-item"><strong>1. Correct</strong><br><em>Impose something on someone is the standard pattern.</em></p>
+            <p class="answer-item"><strong>2. Incorrect</strong><br>The government required citizens to follow the new rule.<br><em>Do not use impose + person + to + verb.</em></p>
+            <p class="answer-item"><strong>3. Correct</strong><br><em>Impose costs on someone means cause them to bear those costs.</em></p>
+            <p class="answer-item"><strong>4. Incorrect</strong><br>Parents should not impose their ambitions on their children.<br><em>Use impose something on someone.</em></p>
+            <p class="answer-item"><strong>5. Correct</strong><br><em>Impose on someone means inconvenience or burden them through your requests or presence.</em></p>
+          </section>
+          <section class="answer-group">
+            <h3>Collocation practice</h3>
+            <p class="answer-item"><strong>1. on</strong><br>The government imposed new restrictions on industrial water use.<br><em>Use impose restrictions on something.</em></p>
+            <p class="answer-item"><strong>2. fine</strong><br>The court decided to impose a substantial fine on the company.<br><em>Impose a fine is a common legal collocation.</em></p>
+            <p class="answer-item"><strong>3. burden</strong><br>Complex regulations can impose a heavy burden on small businesses.<br><em>Impose a burden on someone means cause them extra difficulty, work, or expense.</em></p>
+            <p class="answer-item"><strong>4. on</strong><br>Teachers should avoid imposing their personal views on students.<br><em>Use impose one&#39;s views on someone.</em></p>
+            <p class="answer-item"><strong>5. on</strong><br>I hope I am not imposing on you by staying another night.<br><em>Impose on someone means cause them inconvenience through your presence or requests.</em></p>
+          </section>
+        </div>
+      </details>
+    </section>
+
+    <footer class="footer">
+      <div class="footer-row">
+        <span>Created and compiled by <strong>Amir Kooshky</strong></span>
+        <nav class="footer-links" aria-label="Creator links">
+          <a href="https://t.me/KooshkyTOEFL" target="_blank" rel="noopener">Telegram channel</a>
+          <a href="https://www.instagram.com/kooshkytoefl" target="_blank" rel="noopener">Instagram</a>
+          <a href="https://t.me/KooshkyTOEFL_pv" target="_blank" rel="noopener">Personal Telegram</a>
+        </nav>
+      </div>
+    </footer>
+  </main>
+
+  <button class="back-to-top no-js-hidden" type="button" data-back-to-top aria-label="Go to the top">↑</button>
+  <script>
+(() => {
+  "use strict";
+
+  const root = document.documentElement;
+  root.classList.add("js");
+
+  const storageKey = "kooshky-wotd-theme";
+  const themeButton = document.querySelector("[data-theme-toggle]");
+  const topButton = document.querySelector("[data-back-to-top]");
+  const audioButtons = document.querySelectorAll("[data-pronunciation-button]");
+  const statusNode = document.querySelector("[data-audio-status]");
+
+  const applyTheme = (theme) => {
+    if (theme === "light" || theme === "dark") root.dataset.theme = theme;
+    else delete root.dataset.theme;
+
+    if (themeButton) {
+      const active = root.dataset.theme || "system";
+      themeButton.textContent = active === "dark" ? "Light mode" : "Dark mode";
+      themeButton.setAttribute("aria-label", `Switch from ${active} theme`);
+    }
+  };
+
+  let savedTheme = null;
+  try { savedTheme = localStorage.getItem(storageKey); } catch (_) { /* nonessential */ }
+  applyTheme(savedTheme);
+
+  themeButton?.addEventListener("click", () => {
+    const systemDark = window.matchMedia?.("(prefers-color-scheme: dark)").matches;
+    const current = root.dataset.theme || (systemDark ? "dark" : "light");
+    const next = current === "dark" ? "light" : "dark";
+    applyTheme(next);
+    try { localStorage.setItem(storageKey, next); } catch (_) { /* local files may block storage */ }
+  });
+
+  const speakWithBrowser = (phrase, button) => {
+    if (!("speechSynthesis" in window) || typeof SpeechSynthesisUtterance === "undefined") {
+      if (statusNode) statusNode.textContent = "The audio file is unavailable and this browser has no speech fallback.";
+      window.location.href = button.href;
+      return;
+    }
+
+    window.speechSynthesis.cancel();
+    const utterance = new SpeechSynthesisUtterance(phrase);
+    utterance.lang = "en-US";
+    utterance.rate = 0.88;
+    utterance.onstart = () => {
+      button.classList.add("is-playing");
+      if (statusNode) statusNode.textContent = "Using the browser voice because the local MP3 was unavailable.";
+    };
+    utterance.onend = utterance.onerror = () => button.classList.remove("is-playing");
+    window.speechSynthesis.speak(utterance);
+  };
+
+  audioButtons.forEach((button) => {
+    button.addEventListener("click", (event) => {
+      event.preventDefault();
+      const phrase = button.dataset.pronunciationPhrase || "";
+      const src = button.dataset.audioSrc || button.getAttribute("href") || "";
+      let fallbackStarted = false;
+
+      const fallback = () => {
+        if (fallbackStarted) return;
+        fallbackStarted = true;
+        speakWithBrowser(phrase, button);
+      };
+
+      const audio = new Audio();
+      audio.preload = "auto";
+      audio.src = src;
+      audio.addEventListener("play", () => {
+        button.classList.add("is-playing");
+        if (statusNode) statusNode.textContent = `Playing local pronunciation: “${phrase}”.`;
+      }, { once: true });
+      audio.addEventListener("ended", () => button.classList.remove("is-playing"), { once: true });
+      audio.addEventListener("error", fallback, { once: true });
+
+      const playResult = audio.play();
+      if (playResult && typeof playResult.catch === "function") playResult.catch(fallback);
+    });
+  });
+
+  if (topButton) {
+    const updateTopButton = () => topButton.classList.toggle("visible", window.scrollY > 700);
+    window.addEventListener("scroll", updateTopButton, { passive: true });
+    updateTopButton();
+    topButton.addEventListener("click", () => window.scrollTo({ top: 0, behavior: "smooth" }));
+  }
+})();
+
+  </script>
+</body>
+</html>

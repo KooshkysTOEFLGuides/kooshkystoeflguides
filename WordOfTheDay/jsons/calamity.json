@@ -1,0 +1,328 @@
+{
+    "document_type": "kooshky_toefl_word_of_the_day",
+    "schema_version": "1.3",
+    "slug": "calamity",
+    "word": "calamity",
+    "date": "August 29th 2026",
+    "pronunciation": {
+      "primary_ipa": "/kəˈlæməti/"
+    },
+    "hero": {
+      "part_of_speech_summary": "countable noun",
+      "short_meanings": [
+        "a terrible and damaging event"
+      ],
+      "one_line_summary": "A calamity is a very serious event that causes widespread damage, suffering, or loss.",
+      "memorable_example": "Crop failure could become a national calamity if food supplies are already limited."
+    },
+    "meanings": [
+      {
+        "sense_title": "Terrible and damaging event",
+        "part_of_speech": "countable noun",
+        "ipa": "/kəˈlæməti/",
+        "definition": "a terrible event that causes great damage, suffering, or loss",
+        "examples": [
+          "The earthquake was a major calamity that left thousands of people without homes.",
+          "Crop failure could become a national calamity if food supplies are already limited.",
+          "Better warning systems can help communities prepare for natural calamities.",
+          "The destruction of the harvest was a calamity for families who depended entirely on farming.",
+          "Officials hoped that early evacuation would prevent the approaching storm from becoming a human calamity.",
+          "The collapse of the irrigation system would have been a calamity for the entire region.",
+          "Historians disagree about whether the famine was an unavoidable natural calamity or the result of poor government decisions.",
+          "Years of careful planning helped the city avoid a far greater calamity when the river flooded."
+        ],
+        "plain_english_equivalent": "a terrible disaster",
+        "typical_pattern": "a major, great, national, or natural calamity",
+        "register": "formal and somewhat literary; common in serious discussions of disasters, history, war, famine, and large-scale suffering",
+        "nuance": {
+          "central_nuance": "Calamity emphasizes the severe suffering, damage, or loss caused by an event rather than simply the fact that something went wrong.",
+          "usual_implication": "The event is serious enough to affect many people or have major consequences.",
+          "contrast_term": "minor setback",
+          "contrast_explanation": "A minor setback causes a limited problem or delay. A calamity causes severe damage, suffering, or loss."
+        },
+        "grammar": {
+          "how_to_use": "Calamity is usually a countable noun. Say a calamity for one event and calamities for more than one.",
+          "what_can_follow": "It is often modified by words such as natural, national, major, great, terrible, or widespread.",
+          "preposition_note": "Use a calamity for someone or something when naming who is badly affected, as in The drought was a calamity for local farmers.",
+          "noun_use": "The singular normally needs a determiner such as a, the, or this. The plural is calamities."
+        },
+        "patterns": [
+          {
+            "pattern": "a natural calamity",
+            "use": "Use this for a disastrous event caused by natural forces.",
+            "example": "The region has experienced several natural calamities, including floods and earthquakes."
+          },
+          {
+            "pattern": "a national calamity",
+            "use": "Use this for a disaster severe enough to affect an entire country or be regarded as a major national tragedy.",
+            "example": "The famine developed into a national calamity."
+          },
+          {
+            "pattern": "a calamity for + person or group",
+            "use": "Use this to identify the people who suffer badly because of an event.",
+            "example": "The loss of the bridge was a calamity for isolated rural communities."
+          },
+          {
+            "pattern": "avert or prevent a calamity",
+            "use": "Use this when action stops a serious disaster from occurring.",
+            "example": "Emergency repairs helped avert a much greater calamity."
+          },
+          {
+            "pattern": "become or turn into a calamity",
+            "use": "Use this when a difficult situation develops into a serious disaster.",
+            "example": "Without immediate assistance, the food shortage could become a humanitarian calamity."
+          }
+        ],
+        "errors": [
+          {
+            "wrong": "Missing the bus was a terrible calamity for me.",
+            "correct": "Missing the bus was an inconvenience for me.",
+            "explanation": "Calamity is normally reserved for events causing very serious damage, suffering, or loss, so it is too strong for an ordinary inconvenience."
+          },
+          {
+            "wrong": "The earthquake caused a great calamity disaster.",
+            "correct": "The earthquake caused a great calamity.",
+            "explanation": "Calamity already means a serious disaster, so calamity disaster is unnecessary."
+          },
+          {
+            "wrong": "The country experienced many calamitys.",
+            "correct": "The country experienced many calamities.",
+            "explanation": "The plural of calamity is calamities."
+          },
+          {
+            "wrong": "The drought was calamity for local farmers.",
+            "correct": "The drought was a calamity for local farmers.",
+            "explanation": "Calamity is countable, so the singular normally needs a determiner such as a."
+          }
+        ]
+      }
+    ],
+    "word_family": [
+      {
+        "word": "calamitous",
+        "part_of_speech": "adjective",
+        "definition": "causing or involving very great damage, suffering, or loss",
+        "examples": [
+          "The war had calamitous effects on the country's economy.",
+          "A prolonged failure of the water supply would have calamitous consequences for the city.",
+          "The species suffered a calamitous decline after its habitat was destroyed."
+        ],
+        "ipa": "/kəˈlæmətəs/",
+        "relationship_to_headword": "This adjective describes an event, result, or situation that causes the kind of severe damage associated with a calamity.",
+        "grammar_pattern": "calamitous + consequences, effects, decline, event, or decision",
+        "usage_note": "It is formal and much less common in everyday speech than words such as disastrous."
+      },
+      {
+        "word": "calamitously",
+        "part_of_speech": "adverb",
+        "definition": "in a way that causes very serious damage, suffering, or loss",
+        "examples": [
+          "The policy failed calamitously and created severe shortages.",
+          "The expedition ended calamitously after supplies were lost in a storm."
+        ],
+        "ipa": "/kəˈlæmətəsli/",
+        "relationship_to_headword": "This adverb describes an action or event that ends or develops with disastrous consequences.",
+        "grammar_pattern": "fail, end, or go wrong + calamitously",
+        "usage_note": "It is uncommon and mainly found in formal writing."
+      }
+    ],
+    "collocations": [
+      {
+        "collocation": "natural calamity",
+        "example": "The government created an emergency fund for communities affected by natural calamities.",
+        "applies_to_sense": "Terrible and damaging event",
+        "meaning": "a severe disaster caused by natural forces"
+      },
+      {
+        "collocation": "national calamity",
+        "example": "The prolonged famine was regarded as a national calamity.",
+        "applies_to_sense": "Terrible and damaging event",
+        "meaning": "a disaster with major consequences for an entire country"
+      },
+      {
+        "collocation": "major calamity",
+        "example": "Quick action prevented the industrial accident from becoming a major calamity.",
+        "applies_to_sense": "Terrible and damaging event",
+        "meaning": "a very serious disaster"
+      },
+      {
+        "collocation": "great calamity",
+        "example": "The destruction of the city's water system would have been a great calamity.",
+        "applies_to_sense": "Terrible and damaging event",
+        "meaning": "an event causing severe damage or suffering"
+      },
+      {
+        "collocation": "humanitarian calamity",
+        "example": "Aid organizations warned that the conflict could produce a humanitarian calamity.",
+        "applies_to_sense": "Terrible and damaging event",
+        "meaning": "a disaster involving severe human suffering"
+      },
+      {
+        "collocation": "avert a calamity",
+        "example": "Engineers repaired the dam in time to avert a calamity.",
+        "applies_to_sense": "Terrible and damaging event",
+        "meaning": "prevent a serious disaster from happening"
+      },
+      {
+        "collocation": "prevent a calamity",
+        "example": "Early detection of the disease helped prevent a much larger calamity.",
+        "applies_to_sense": "Terrible and damaging event",
+        "meaning": "stop a serious disaster from occurring"
+      },
+      {
+        "collocation": "calamitous consequences",
+        "example": "A complete failure of the power grid could have calamitous consequences.",
+        "applies_to_sense": "Terrible and damaging event",
+        "meaning": "extremely damaging results",
+        "usage_note": "Calamitous is the adjective form."
+      },
+      {
+        "collocation": "calamitous effects",
+        "example": "The invasion had calamitous effects on agriculture and trade.",
+        "applies_to_sense": "Terrible and damaging event",
+        "meaning": "extremely harmful effects",
+        "usage_note": "Calamitous is the adjective form."
+      }
+    ],
+    "synonyms": [
+      {
+        "word": "disaster",
+        "part_of_speech": "countable noun",
+        "applies_to_sense": "Terrible and damaging event",
+        "difference": "Disaster is the more common and general word. Calamity is more formal and often emphasizes widespread suffering or severe consequences.",
+        "example": "The earthquake was one of the worst natural disasters in the country's history.",
+        "shared_meaning": "Both describe events that cause serious damage, suffering, or loss."
+      },
+      {
+        "word": "catastrophe",
+        "part_of_speech": "countable noun",
+        "applies_to_sense": "Terrible and damaging event",
+        "difference": "Catastrophe usually suggests an extremely severe or sudden disaster with enormous consequences. Calamity is also very serious but does not always imply the same extreme scale.",
+        "example": "A sudden collapse of the dam would create an environmental catastrophe.",
+        "shared_meaning": "Both refer to very serious disastrous events."
+      },
+      {
+        "word": "tragedy",
+        "part_of_speech": "countable noun",
+        "applies_to_sense": "Terrible and damaging event",
+        "difference": "Tragedy emphasizes human suffering, death, or deep sadness. Calamity emphasizes severe damage and misfortune and can apply to social, economic, or natural disasters.",
+        "example": "The deaths of so many civilians were a terrible tragedy.",
+        "shared_meaning": "Both can describe events involving severe suffering and loss."
+      },
+      {
+        "word": "cataclysm",
+        "part_of_speech": "countable noun",
+        "applies_to_sense": "Terrible and damaging event",
+        "difference": "Cataclysm is stronger and less common, usually referring to a sudden event that causes enormous destruction or major social change. Calamity is broader.",
+        "example": "The eruption was a geological cataclysm that transformed the surrounding landscape.",
+        "shared_meaning": "Both can refer to extremely destructive events."
+      }
+    ],
+    "confusables": [
+      {
+        "word": "casualty",
+        "key_difference": "A calamity is the disastrous event itself. A casualty is a person who is killed or injured in an accident, war, or disaster, or sometimes something lost or damaged because of an event.",
+        "headword_example": "The earthquake was a major calamity for the region.",
+        "confusable_example": "The earthquake caused hundreds of casualties.",
+        "part_of_speech": "countable noun",
+        "why_confused": "Both frequently appear in discussions of disasters and serious accidents."
+      },
+      {
+        "word": "catastrophe",
+        "key_difference": "Both words describe serious disasters, but catastrophe often suggests even greater or more sudden destruction. Calamity is formal and strongly emphasizes serious misfortune and suffering.",
+        "headword_example": "The crop failure became a national calamity.",
+        "confusable_example": "Scientists warned that complete collapse of the ecosystem would be a global catastrophe.",
+        "part_of_speech": "countable noun",
+        "why_confused": "The two words overlap strongly and are often used in similar serious contexts."
+      },
+      {
+        "word": "calamitous",
+        "key_difference": "Calamity is a noun naming a disastrous event. Calamitous is an adjective describing something that causes or involves disastrous consequences.",
+        "headword_example": "The flood was a calamity for the farming communities.",
+        "confusable_example": "The flood had calamitous effects on agriculture.",
+        "part_of_speech": "noun versus adjective",
+        "why_confused": "They belong to the same word family but have different grammatical roles."
+      }
+    ],
+    "etymology": {
+      "origin": "Calamity comes from Latin calamitas, meaning damage, loss, or disaster.",
+      "memory_link": "Think of a calamity as an event serious enough to bring major damage, loss, or suffering."
+    },
+    "exercises": {
+      "word_family_choice": [
+        {
+          "prompt_sentence": "The collapse of the irrigation system would have _____ consequences for the farming region.",
+          "answer": "calamitous",
+          "completed_sentence": "The collapse of the irrigation system would have calamitous consequences for the farming region.",
+          "explanation": "Use the adjective calamitous before consequences."
+        },
+        {
+          "prompt_sentence": "The expedition ended _____ after the group lost most of its supplies.",
+          "answer": "calamitously",
+          "completed_sentence": "The expedition ended calamitously after the group lost most of its supplies.",
+          "explanation": "Use the adverb calamitously to describe how the expedition ended."
+        },
+        {
+          "prompt_sentence": "The drought developed into a national _____.",
+          "answer": "calamity",
+          "completed_sentence": "The drought developed into a national calamity.",
+          "explanation": "Use the noun calamity after a national."
+        }
+      ],
+      "correct_or_incorrect": [
+        {
+          "sentence": "The earthquake was a major calamity for the region.",
+          "verdict": "Correct",
+          "explanation": "Calamity naturally describes an event causing widespread damage and suffering."
+        },
+        {
+          "sentence": "Forgetting my pencil was a serious calamity.",
+          "verdict": "Incorrect",
+          "corrected_sentence": "Forgetting my pencil was a minor inconvenience.",
+          "explanation": "Calamity is much too strong for an ordinary small problem."
+        },
+        {
+          "sentence": "The country experienced several natural calamities during the century.",
+          "verdict": "Correct",
+          "explanation": "Calamity is countable, and its plural is calamities."
+        },
+        {
+          "sentence": "The drought was calamity for local farmers.",
+          "verdict": "Incorrect",
+          "corrected_sentence": "The drought was a calamity for local farmers.",
+          "explanation": "The singular countable noun calamity normally needs a determiner such as a."
+        },
+        {
+          "sentence": "Emergency measures helped avert a much greater calamity.",
+          "verdict": "Correct",
+          "explanation": "Avert a calamity is a natural formal collocation meaning prevent a disaster."
+        }
+      ],
+      "collocation_practice": [
+        {
+          "prompt_sentence": "Early evacuation helped _____ a much greater calamity.",
+          "answer": "avert",
+          "completed_sentence": "Early evacuation helped avert a much greater calamity.",
+          "explanation": "Avert a calamity means prevent a serious disaster."
+        },
+        {
+          "prompt_sentence": "The prolonged famine became a national _____.",
+          "answer": "calamity",
+          "completed_sentence": "The prolonged famine became a national calamity.",
+          "explanation": "A national calamity is a disaster with severe consequences for an entire country."
+        },
+        {
+          "prompt_sentence": "The storm was a calamity _____ communities that depended on the coastal fishing industry.",
+          "answer": "for",
+          "completed_sentence": "The storm was a calamity for communities that depended on the coastal fishing industry.",
+          "explanation": "Use a calamity for someone or something to identify who was badly affected."
+        },
+        {
+          "prompt_sentence": "The policy failure had _____ consequences for the country's food supply.",
+          "answer": "calamitous",
+          "completed_sentence": "The policy failure had calamitous consequences for the country's food supply.",
+          "explanation": "Calamitous consequences are extremely damaging results."
+        }
+      ]
+    }
+  }

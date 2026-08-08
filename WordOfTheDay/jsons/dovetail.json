@@ -1,0 +1,362 @@
+{
+  "document_type": "kooshky_toefl_word_of_the_day",
+  "schema_version": "1.3",
+  "slug": "dovetail",
+  "word": "dovetail",
+  "date": "August 19th 2026",
+  "pronunciation": {
+    "primary_ipa": "/ˈdʌvˌteɪl/"
+  },
+  "hero": {
+    "part_of_speech_summary": "intransitive and transitive verb; countable noun",
+    "short_meanings": [
+      "fit together closely",
+      "a tightly fitting woodworking joint"
+    ],
+    "one_line_summary": "Dovetail usually means that two ideas, plans, or pieces of evidence fit together very well; it also names the woodworking joint behind this figurative meaning.",
+    "memorable_example": "Her explanation dovetails neatly with the evidence presented earlier."
+  },
+  "meanings": [
+    {
+      "sense_title": "Fit together closely",
+      "part_of_speech": "intransitive and transitive verb",
+      "ipa": "/ˈdʌvˌteɪl/",
+      "definition": "to fit together closely and successfully, or to make two things fit together in this way",
+      "examples": [
+        "The results of the two studies dovetail with each other and support the same conclusion.",
+        "The new training program was designed to dovetail with employees' existing responsibilities.",
+        "Her explanation dovetails neatly with the evidence presented earlier.",
+        "The historical records dovetail with archaeological evidence from the same period.",
+        "The two departments adjusted their schedules so that their activities would dovetail.",
+        "The author's economic argument does not fully dovetail with the social evidence discussed later.",
+        "The researchers tried to dovetail their different methods into a single investigation.",
+        "The proposed reforms dovetail closely with the university's long-term goals."
+      ],
+      "plain_english_equivalent": "fit together very well",
+      "typical_pattern": "dovetail with + idea, evidence, plan, schedule, or goal",
+      "register": "neutral to formal; common in academic, professional, organizational, and analytical writing",
+      "nuance": {
+        "central_nuance": "Dovetail suggests more than simple similarity. The different parts complement one another and fit together in a useful or logical way.",
+        "usual_implication": "The things being compared often support, reinforce, or coordinate with one another.",
+        "contrast_term": "conflict",
+        "contrast_explanation": "Things that dovetail fit together successfully, while things that conflict are inconsistent or interfere with one another."
+      },
+      "grammar": {
+        "how_to_use": "It is often used without a direct object and followed by with, as in The findings dovetail with earlier research. It can also be used with an object when someone deliberately combines things.",
+        "what_can_follow": "Common subjects and objects include findings, evidence, theories, plans, schedules, goals, policies, and activities.",
+        "preposition_note": "Use dovetail with when saying that one thing fits well with another.",
+        "position_note": "Adverbs such as neatly, closely, perfectly, and well often appear with dovetail."
+      },
+      "patterns": [
+        {
+          "pattern": "dovetail with + noun",
+          "use": "Use this when two ideas, findings, plans, or activities fit together well.",
+          "example": "The new evidence dovetails with the earlier findings."
+        },
+        {
+          "pattern": "dovetail neatly or closely with + noun",
+          "use": "Use an adverb to emphasize how well two things fit together.",
+          "example": "The policy dovetails closely with the government's environmental goals."
+        },
+        {
+          "pattern": "dovetail + activities, plans, or methods",
+          "use": "Use this when people deliberately coordinate different things.",
+          "example": "The two teams dovetailed their research activities to avoid unnecessary duplication."
+        },
+        {
+          "pattern": "dovetail into + larger whole",
+          "use": "Use this when separate parts combine smoothly into a broader plan or system.",
+          "example": "The individual projects dovetail into a broader regional development strategy."
+        },
+        {
+          "pattern": "fail to dovetail with + noun",
+          "use": "Use this when two ideas or plans do not fit together as expected.",
+          "example": "The theory fails to dovetail with several important observations."
+        }
+      ],
+      "errors": [
+        {
+          "wrong": "The new findings dovetail to the previous research.",
+          "correct": "The new findings dovetail with the previous research.",
+          "explanation": "Use dovetail with when two things fit together well."
+        },
+        {
+          "wrong": "The two theories are dovetail each other.",
+          "correct": "The two theories dovetail with each other.",
+          "explanation": "Use dovetail with each other rather than be dovetail each other."
+        },
+        {
+          "wrong": "The evidence dovetails similarly with the theory because both are identical.",
+          "correct": "The evidence dovetails with the theory because the two fit together well.",
+          "explanation": "Dovetail does not mean identical. It means that different things fit together successfully."
+        },
+        {
+          "wrong": "The manager dovetailed with the two schedules.",
+          "correct": "The manager dovetailed the two schedules.",
+          "explanation": "When a person deliberately coordinates two things, those things can be direct objects of dovetail."
+        }
+      ]
+    },
+    {
+      "sense_title": "Tightly fitting woodworking joint",
+      "part_of_speech": "countable noun",
+      "ipa": "/ˈdʌvˌteɪl/",
+      "definition": "a type of joint in which projecting pieces of wood fit tightly into matching spaces in another piece",
+      "examples": [
+        "The carpenter used dovetails to join the sides of the wooden drawer.",
+        "Well-made dovetails can create a strong joint without relying entirely on nails or screws.",
+        "Archaeologists found furniture fragments containing carefully cut dovetails.",
+        "Traditional cabinetmakers often used dovetails because the joint resists being pulled apart.",
+        "The wooden box was assembled with several hand-cut dovetails.",
+        "The shape of each dovetail allows two pieces of wood to lock together firmly.",
+        "Students in the woodworking class practiced cutting dovetails by hand."
+      ],
+      "plain_english_equivalent": "a strong interlocking wood joint",
+      "typical_pattern": "cut, make, or use + dovetails",
+      "register": "neutral; mainly used in woodworking, craftsmanship, archaeology, and descriptions of furniture construction",
+      "nuance": {
+        "central_nuance": "The projecting part is wider at the end than at its base, creating an interlocking shape that resists being pulled apart.",
+        "usual_implication": "The physical way the pieces fit together gave rise to the figurative verb meaning of fitting together successfully."
+      },
+      "grammar": {
+        "how_to_use": "Use a dovetail for one joint or projecting piece and dovetails for more than one.",
+        "what_can_follow": "It often appears with words such as joint, drawer, cabinet, wood, cut, and hand-cut.",
+        "noun_use": "This is a countable noun, so the singular normally needs a, an, or the."
+      },
+      "patterns": [
+        {
+          "pattern": "a dovetail joint",
+          "use": "Use this for the complete interlocking woodworking joint.",
+          "example": "The cabinet is held together with traditional dovetail joints."
+        },
+        {
+          "pattern": "cut dovetails",
+          "use": "Use this for making the interlocking shapes in wood.",
+          "example": "Experienced woodworkers can cut dovetails by hand."
+        },
+        {
+          "pattern": "hand-cut dovetails",
+          "use": "Use this for dovetails made manually rather than by a machine.",
+          "example": "The antique drawer contains finely made hand-cut dovetails."
+        }
+      ],
+      "errors": [
+        {
+          "wrong": "The carpenter made a dovetail with two boards together.",
+          "correct": "The carpenter joined the two boards with a dovetail joint.",
+          "explanation": "Use with a dovetail joint when naming the type of joint used to connect pieces of wood."
+        },
+        {
+          "wrong": "The drawer has dovetail to make it stronger.",
+          "correct": "The drawer has dovetails to make it stronger.",
+          "explanation": "Dovetail is countable, so use the plural when referring to several joints or interlocking parts."
+        }
+      ]
+    }
+  ],
+  "word_family": [
+    {
+      "word": "dovetailed",
+      "part_of_speech": "adjective",
+      "definition": "joined or coordinated so that different parts fit together closely",
+      "examples": [
+        "The project depended on several carefully dovetailed activities.",
+        "The cabinet has dovetailed corners that provide additional strength."
+      ],
+      "ipa": "/ˈdʌvˌteɪld/",
+      "relationship_to_headword": "This adjective describes things that have been physically joined or carefully coordinated so that they fit together.",
+      "grammar_pattern": "dovetailed + activities, plans, joints, or corners",
+      "usage_note": "It is less common than the verb dovetail."
+    }
+  ],
+  "collocations": [
+    {
+      "collocation": "dovetail with",
+      "example": "The findings dovetail with previous research on the same population.",
+      "applies_to_sense": "Fit together closely",
+      "meaning": "fit or agree closely with something",
+      "grammar_pattern": "dovetail with + evidence, finding, plan, goal, or theory"
+    },
+    {
+      "collocation": "dovetail neatly with",
+      "example": "The new explanation dovetails neatly with the archaeological evidence.",
+      "applies_to_sense": "Fit together closely",
+      "meaning": "fit together in a particularly smooth or logical way"
+    },
+    {
+      "collocation": "dovetail closely with",
+      "example": "The course objectives dovetail closely with the department's broader goals.",
+      "applies_to_sense": "Fit together closely",
+      "meaning": "correspond or coordinate very well with something"
+    },
+    {
+      "collocation": "dovetail perfectly with",
+      "example": "The revised schedule dovetails perfectly with the transportation timetable.",
+      "applies_to_sense": "Fit together closely",
+      "meaning": "fit together extremely well"
+    },
+    {
+      "collocation": "dovetail with existing plans",
+      "example": "The new initiative was designed to dovetail with existing development plans.",
+      "applies_to_sense": "Fit together closely",
+      "meaning": "coordinate successfully with plans that already exist"
+    },
+    {
+      "collocation": "dovetail with the evidence",
+      "example": "Her account dovetails with the physical evidence collected at the site.",
+      "applies_to_sense": "Fit together closely",
+      "meaning": "be consistent with and supported by available evidence"
+    },
+    {
+      "collocation": "dovetail joint",
+      "example": "A dovetail joint connects the side of the drawer to its front.",
+      "applies_to_sense": "Tightly fitting woodworking joint",
+      "meaning": "a woodworking joint formed by interlocking wedge-shaped projections"
+    },
+    {
+      "collocation": "hand-cut dovetails",
+      "example": "The antique cabinet contains carefully made hand-cut dovetails.",
+      "applies_to_sense": "Tightly fitting woodworking joint",
+      "meaning": "dovetail joints shaped manually rather than by machine"
+    }
+  ],
+  "synonyms": [
+    {
+      "word": "correspond",
+      "part_of_speech": "intransitive verb",
+      "applies_to_sense": "Fit together closely",
+      "difference": "Correspond means match or be similar in a relevant way. Dovetail more strongly suggests that separate things complement each other and fit together into a coherent whole.",
+      "example": "The survey results correspond closely with earlier estimates.",
+      "shared_meaning": "Both can describe agreement between findings, ideas, or information."
+    },
+    {
+      "word": "align",
+      "part_of_speech": "intransitive or transitive verb",
+      "applies_to_sense": "Fit together closely",
+      "difference": "Align often means bring ideas, goals, or activities into agreement or the same direction. Dovetail suggests that different parts complement each other and fit together closely.",
+      "example": "The new policy aligns with the organization's long-term goals.",
+      "shared_meaning": "Both can describe plans or goals that work well together."
+    },
+    {
+      "word": "mesh",
+      "part_of_speech": "intransitive verb",
+      "applies_to_sense": "Fit together closely",
+      "difference": "Mesh is an informal to neutral synonym meaning work or fit together successfully. Dovetail is often more formal and suggests a particularly neat or complementary fit.",
+      "example": "The two teaching methods mesh well together.",
+      "shared_meaning": "Both can mean that different parts work successfully together."
+    },
+    {
+      "word": "integrate",
+      "part_of_speech": "transitive or intransitive verb",
+      "applies_to_sense": "Fit together closely",
+      "difference": "Integrate means combine parts into a larger whole. Dovetail emphasizes how well those different parts fit or coordinate with one another.",
+      "example": "The researchers integrated several sources of data into one model.",
+      "shared_meaning": "Both can describe combining separate elements successfully."
+    }
+  ],
+  "antonyms": [
+    {
+      "word": "conflict",
+      "part_of_speech": "intransitive verb",
+      "applies_to_sense": "Fit together closely",
+      "opposition": "Things that conflict are inconsistent or interfere with one another, while things that dovetail fit together successfully.",
+      "example": "The witness's account conflicts with the physical evidence."
+    },
+    {
+      "word": "clash",
+      "part_of_speech": "intransitive verb",
+      "applies_to_sense": "Fit together closely",
+      "opposition": "Things that clash do not combine or work well together, while things that dovetail complement one another.",
+      "example": "The two departments' schedules clash on several important dates."
+    }
+  ],
+  "confusables": [
+    {
+      "word": "overlap",
+      "key_difference": "Overlap means share some of the same area, time, features, or content. Dovetail means fit together successfully, often because different parts complement one another.",
+      "headword_example": "The two research methods dovetail well because each provides information the other lacks.",
+      "confusable_example": "The two courses overlap because they cover several of the same topics.",
+      "part_of_speech": "verb",
+      "why_confused": "Both can describe relationships between activities, ideas, or areas of study, but overlap emphasizes shared content rather than complementary fit."
+    },
+    {
+      "word": "align",
+      "key_difference": "Align emphasizes agreement in direction, position, or goals. Dovetail emphasizes different parts fitting together neatly and complementing one another.",
+      "headword_example": "The new evidence dovetails with earlier findings.",
+      "confusable_example": "The department changed its priorities to align with the university's strategy.",
+      "part_of_speech": "verb",
+      "why_confused": "Both are frequently used when discussing ideas, plans, goals, and organizational activities that work well together."
+    }
+  ],
+  "etymology": {
+    "origin": "Dovetail comes from the woodworking joint whose projecting pieces resemble the spread tail of a dove.",
+    "development": "Because the pieces of a dovetail joint fit tightly together, the word later developed the figurative meaning of ideas, plans, or activities fitting together successfully.",
+    "memory_link": "Imagine two pieces of wood locking neatly together: ideas that dovetail also fit together neatly."
+  },
+  "exercises": {
+    "word_family_choice": [
+      {
+        "prompt_sentence": "The project involved several carefully _____ activities that had to be completed in sequence.",
+        "answer": "dovetailed",
+        "completed_sentence": "The project involved several carefully dovetailed activities that had to be completed in sequence.",
+        "explanation": "Use the adjective dovetailed to describe activities coordinated so that they fit together."
+      },
+      {
+        "prompt_sentence": "The new findings _____ closely with the results of the earlier study.",
+        "answer": "dovetail",
+        "completed_sentence": "The new findings dovetail closely with the results of the earlier study.",
+        "explanation": "Use the verb dovetail when two sets of findings fit together well."
+      }
+    ],
+    "correct_or_incorrect": [
+      {
+        "sentence": "The new evidence dovetails with the earlier findings.",
+        "verdict": "Correct",
+        "explanation": "Dovetail with is the standard pattern when two pieces of evidence fit together well."
+      },
+      {
+        "sentence": "The new policy dovetails to the university's existing plans.",
+        "verdict": "Incorrect",
+        "corrected_sentence": "The new policy dovetails with the university's existing plans.",
+        "explanation": "Use dovetail with, not dovetail to."
+      },
+      {
+        "sentence": "The two theories dovetail because they are completely identical.",
+        "verdict": "Incorrect",
+        "corrected_sentence": "The two theories dovetail because their different explanations complement each other.",
+        "explanation": "Dovetail means fit together well, not necessarily be identical."
+      },
+      {
+        "sentence": "The researchers dovetailed their methods into a single study.",
+        "verdict": "Correct",
+        "explanation": "Dovetail can be transitive when someone deliberately coordinates or combines different things."
+      }
+    ],
+    "collocation_practice": [
+      {
+        "prompt_sentence": "The new findings dovetail _____ earlier research on the same topic.",
+        "answer": "with",
+        "completed_sentence": "The new findings dovetail with earlier research on the same topic.",
+        "explanation": "Use dovetail with when two things fit together successfully."
+      },
+      {
+        "prompt_sentence": "The training program was designed to dovetail _____ employees' existing responsibilities.",
+        "answer": "with",
+        "completed_sentence": "The training program was designed to dovetail with employees' existing responsibilities.",
+        "explanation": "Dovetail with means coordinate well with something else."
+      },
+      {
+        "prompt_sentence": "Her explanation dovetails _____ with the available evidence.",
+        "answer": "neatly",
+        "completed_sentence": "Her explanation dovetails neatly with the available evidence.",
+        "explanation": "Dovetail neatly with emphasizes a particularly good fit."
+      },
+      {
+        "prompt_sentence": "The antique drawer was constructed using hand-cut _____.",
+        "answer": "dovetails",
+        "completed_sentence": "The antique drawer was constructed using hand-cut dovetails.",
+        "explanation": "Dovetails are the interlocking parts used in a traditional woodworking joint."
+      }
+    ]
+  }
+}

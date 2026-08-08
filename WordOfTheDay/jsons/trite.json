@@ -1,0 +1,337 @@
+{
+    "document_type": "kooshky_toefl_word_of_the_day",
+    "schema_version": "1.3",
+    "slug": "trite",
+    "word": "trite",
+    "date": "August 20th 2026",
+    "pronunciation": {
+      "primary_ipa": "/traɪt/"
+    },
+    "hero": {
+      "part_of_speech_summary": "adjective",
+      "short_meanings": [
+        "overused and no longer original"
+      ],
+      "one_line_summary": "Trite describes words, ideas, or expressions that have been repeated so often that they have lost their freshness or impact.",
+      "memorable_example": "His advice to simply follow your dreams sounded trite to the students."
+    },
+    "meanings": [
+      {
+        "sense_title": "Overused and no longer original",
+        "part_of_speech": "adjective",
+        "ipa": "/traɪt/",
+        "definition": "expressed or used so often that it no longer seems interesting, original, or effective",
+        "examples": [
+          "The essay relies on trite phrases instead of developing its ideas clearly.",
+          "His advice to simply follow your dreams sounded trite to the students.",
+          "The advertisement was criticized for using trite images of success and happiness.",
+          "The speaker avoided trite statements and supported her argument with specific evidence.",
+          "Although the message was sincere, its wording seemed trite and predictable.",
+          "The novel contains several trite observations about love and relationships.",
+          "Teachers encouraged students to replace trite expressions with more precise language.",
+          "The conclusion that technology has both advantages and disadvantages can sound trite unless it is developed with specific examples."
+        ],
+        "plain_english_equivalent": "used so much that it feels boring or unoriginal",
+        "typical_pattern": "trite + phrase, expression, saying, remark, observation, idea, or argument",
+        "register": "neutral to formal; usually disapproving and common in discussions of writing, speech, art, advertising, and ideas",
+        "nuance": {
+          "central_nuance": "Trite does not simply mean common or simple. It means something has been repeated so often that it has lost much of its originality, freshness, or emotional effect.",
+          "usual_implication": "The speaker or writer is criticizing the expression or idea as predictable and insufficiently thoughtful.",
+          "contrast_term": "original",
+          "contrast_explanation": "An original expression or idea feels fresh or distinctive. A trite one feels familiar because it has been used too many times."
+        },
+        "grammar": {
+          "how_to_use": "Use it before a noun, as in a trite expression, or after a linking verb, as in The conclusion sounds trite.",
+          "what_can_follow": "It commonly describes phrases, expressions, sayings, remarks, observations, ideas, arguments, themes, and advice.",
+          "position_note": "It often appears after sound, seem, become, or feel when judging language or an idea."
+        },
+        "patterns": [
+          {
+            "pattern": "a trite phrase or expression",
+            "use": "Use this for wording that has been repeated so often that it no longer sounds fresh.",
+            "example": "The introduction begins with a trite phrase about the importance of education."
+          },
+          {
+            "pattern": "a trite remark or observation",
+            "use": "Use this for a comment that is familiar and lacks originality.",
+            "example": "The article ends with the trite observation that change is inevitable."
+          },
+          {
+            "pattern": "sound or seem trite",
+            "use": "Use this when an idea may be sincere but its wording feels overused.",
+            "example": "It may sound trite, but careful preparation really does improve performance."
+          },
+          {
+            "pattern": "avoid trite + noun",
+            "use": "Use this when recommending more original or precise language.",
+            "example": "Academic writers should avoid trite expressions when a more precise statement is possible."
+          }
+        ],
+        "errors": [
+          {
+            "wrong": "The phrase is trite because it is easy to understand.",
+            "correct": "The phrase is trite because it has been used so often that it no longer sounds original.",
+            "explanation": "Trite does not mean simple or easy to understand. It means overused and lacking freshness."
+          },
+          {
+            "wrong": "The author made a tritely argument.",
+            "correct": "The author made a trite argument.",
+            "explanation": "Use the adjective trite before a noun such as argument."
+          },
+          {
+            "wrong": "This expression is very trite because nobody has used it before.",
+            "correct": "This expression is very original because nobody has used it before.",
+            "explanation": "A trite expression is familiar because it has been used many times."
+          },
+          {
+            "wrong": "The speaker trited several common ideas.",
+            "correct": "The speaker repeated several trite ideas.",
+            "explanation": "Trite is an adjective, not a verb."
+          }
+        ]
+      }
+    ],
+    "word_family": [
+      {
+        "word": "triteness",
+        "part_of_speech": "uncountable noun",
+        "definition": "the quality of being overused and no longer original or interesting",
+        "examples": [
+          "The triteness of the slogan made it easy to ignore.",
+          "Critics complained about the triteness of the film's message."
+        ],
+        "ipa": "/ˈtraɪtnəs/",
+        "relationship_to_headword": "This noun names the quality of being trite.",
+        "grammar_pattern": "the triteness of + phrase, idea, remark, or theme",
+        "usage_note": "It is much less common than trite."
+      },
+      {
+        "word": "tritely",
+        "part_of_speech": "adverb",
+        "definition": "in an overused, predictable, or unoriginal way",
+        "examples": [
+          "The article tritely concludes that there are two sides to every issue.",
+          "The character tritely describes love as the answer to every problem."
+        ],
+        "ipa": "/ˈtraɪtli/",
+        "relationship_to_headword": "This adverb describes something said or expressed in a trite way.",
+        "grammar_pattern": "tritely + say, conclude, observe, or describe",
+        "usage_note": "It is uncommon; trite is much more useful for learners."
+      }
+    ],
+    "collocations": [
+      {
+        "collocation": "trite phrase",
+        "example": "The essay begins with a trite phrase about living life to the fullest.",
+        "applies_to_sense": "Overused and no longer original",
+        "meaning": "a phrase that has been repeated so often that it has lost its freshness"
+      },
+      {
+        "collocation": "trite expression",
+        "example": "The editor removed several trite expressions from the article.",
+        "applies_to_sense": "Overused and no longer original",
+        "meaning": "an overused way of expressing an idea"
+      },
+      {
+        "collocation": "trite saying",
+        "example": "The speech was filled with trite sayings about hard work and success.",
+        "applies_to_sense": "Overused and no longer original",
+        "meaning": "a familiar saying that no longer seems fresh or insightful"
+      },
+      {
+        "collocation": "trite remark",
+        "example": "His trite remark added little to the discussion.",
+        "applies_to_sense": "Overused and no longer original",
+        "meaning": "a predictable and unoriginal comment"
+      },
+      {
+        "collocation": "trite observation",
+        "example": "The author offers the trite observation that money cannot buy happiness.",
+        "applies_to_sense": "Overused and no longer original",
+        "meaning": "a familiar comment presented as an insight"
+      },
+      {
+        "collocation": "trite idea",
+        "example": "A familiar topic does not have to produce a trite idea if it is developed carefully.",
+        "applies_to_sense": "Overused and no longer original",
+        "meaning": "an idea that has been repeated so often that it seems unoriginal"
+      },
+      {
+        "collocation": "trite argument",
+        "example": "The article repeats the trite argument that all technological change is necessarily progress.",
+        "applies_to_sense": "Overused and no longer original",
+        "meaning": "an argument that is familiar, predictable, and insufficiently original"
+      },
+      {
+        "collocation": "sound trite",
+        "example": "The advice may sound trite, but it is still useful.",
+        "applies_to_sense": "Overused and no longer original",
+        "meaning": "seem unoriginal because the wording is very familiar",
+        "grammar_pattern": "sound trite"
+      },
+      {
+        "collocation": "seem trite",
+        "example": "The conclusion seems trite because similar statements appear throughout the literature.",
+        "applies_to_sense": "Overused and no longer original",
+        "meaning": "appear predictable or overused"
+      },
+      {
+        "collocation": "avoid trite expressions",
+        "example": "Good writers avoid trite expressions and choose more precise language.",
+        "applies_to_sense": "Overused and no longer original",
+        "meaning": "choose not to use familiar expressions that have lost their impact"
+      }
+    ],
+    "synonyms": [
+      {
+        "word": "clichéd",
+        "part_of_speech": "adjective",
+        "applies_to_sense": "Overused and no longer original",
+        "difference": "Clichéd describes something that uses familiar clichés or predictable conventions. Trite is very close in meaning but can apply more broadly to remarks, ideas, observations, and advice that have become dull through repetition.",
+        "example": "The film was criticized for its clichéd characters and predictable ending.",
+        "shared_meaning": "Both describe something that has lost originality because it has been used too often."
+      },
+      {
+        "word": "hackneyed",
+        "part_of_speech": "adjective",
+        "applies_to_sense": "Overused and no longer original",
+        "difference": "Hackneyed is a stronger and somewhat more literary word for language or ideas that have become dull through excessive use. Trite is more common and straightforward.",
+        "example": "The writer relied on hackneyed images of heroic leaders and helpless victims.",
+        "shared_meaning": "Both mean overused and no longer fresh or original."
+      },
+      {
+        "word": "banal",
+        "part_of_speech": "adjective",
+        "applies_to_sense": "Overused and no longer original",
+        "difference": "Banal emphasizes that an idea or remark is boring because it is ordinary and lacks originality. Trite more specifically emphasizes loss of freshness through repeated use.",
+        "example": "The interview produced several banal comments about the importance of teamwork.",
+        "shared_meaning": "Both can criticize ideas or remarks for lacking originality."
+      },
+      {
+        "word": "stale",
+        "part_of_speech": "adjective",
+        "applies_to_sense": "Overused and no longer original",
+        "difference": "Stale can figuratively describe ideas, jokes, or language that no longer feel fresh. Trite specifically suggests that repeated use has made them unoriginal and ineffective.",
+        "example": "The campaign relied on stale slogans that no longer attracted voters.",
+        "shared_meaning": "Both can describe language or ideas that have lost their freshness."
+      }
+    ],
+    "antonyms": [
+      {
+        "word": "original",
+        "part_of_speech": "adjective",
+        "applies_to_sense": "Overused and no longer original",
+        "opposition": "Original describes an idea or expression that is fresh or distinctive, while trite describes one that has lost its originality through repeated use.",
+        "example": "The student offered an original explanation that none of the other essays had considered."
+      },
+      {
+        "word": "fresh",
+        "part_of_speech": "adjective",
+        "applies_to_sense": "Overused and no longer original",
+        "opposition": "A fresh idea or expression feels new and interesting, while a trite one feels familiar and overused.",
+        "example": "The author brings a fresh perspective to a familiar topic.",
+        "usage_note": "This opposite applies to the figurative meaning of fresh."
+      }
+    ],
+    "confusables": [
+      {
+        "word": "cliché",
+        "key_difference": "Trite is an adjective describing something as overused and unoriginal. A cliché is a countable noun referring to an overused phrase, idea, or image itself.",
+        "headword_example": "The conclusion sounds trite.",
+        "confusable_example": "The phrase time heals all wounds is often treated as a cliché.",
+        "part_of_speech": "adjective versus countable noun",
+        "why_confused": "The two words express almost the same basic idea but have different grammatical roles."
+      },
+      {
+        "word": "trivial",
+        "key_difference": "Trite means overused and unoriginal. Trivial means unimportant or too minor to deserve much attention.",
+        "headword_example": "The speech contained several trite remarks about success.",
+        "confusable_example": "The disagreement concerned a trivial detail and was resolved quickly.",
+        "part_of_speech": "adjective",
+        "why_confused": "Both are negative adjectives beginning with tri-, but they criticize different qualities."
+      }
+    ],
+    "etymology": {
+      "origin": "Trite ultimately comes from Latin tritus, meaning rubbed or worn.",
+      "development": "The physical idea of something being worn down through repeated use developed into the modern figurative meaning of an expression or idea being worn out through repetition.",
+      "memory_link": "A trite phrase is like a path that has been walked on so many times that it feels worn out."
+    },
+    "exercises": {
+      "word_family_choice": [
+        {
+          "prompt_sentence": "The _____ of the slogan made it ineffective despite its positive message.",
+          "answer": "triteness",
+          "completed_sentence": "The triteness of the slogan made it ineffective despite its positive message.",
+          "explanation": "Use the noun triteness for the quality of being overused and unoriginal."
+        },
+        {
+          "prompt_sentence": "The article _____ concludes that people should simply learn from their mistakes.",
+          "answer": "tritely",
+          "completed_sentence": "The article tritely concludes that people should simply learn from their mistakes.",
+          "explanation": "Use the adverb tritely to describe how the conclusion is expressed."
+        },
+        {
+          "prompt_sentence": "The speech contained several _____ observations about the importance of hard work.",
+          "answer": "trite",
+          "completed_sentence": "The speech contained several trite observations about the importance of hard work.",
+          "explanation": "Use the adjective trite before observations."
+        }
+      ],
+      "correct_or_incorrect": [
+        {
+          "sentence": "The essay contains several trite phrases that have appeared in countless similar essays.",
+          "verdict": "Correct",
+          "explanation": "Trite correctly describes phrases that have become unoriginal through repeated use."
+        },
+        {
+          "sentence": "The explanation is trite because it is simple and easy to understand.",
+          "verdict": "Incorrect",
+          "corrected_sentence": "The explanation is simple and easy to understand.",
+          "explanation": "Trite does not mean simple. It means overused and no longer original or effective."
+        },
+        {
+          "sentence": "His advice sounded trite, although he sincerely believed it.",
+          "verdict": "Correct",
+          "explanation": "An idea can be sincere or true and still sound trite because its wording is overused."
+        },
+        {
+          "sentence": "The writer presented a tritely argument.",
+          "verdict": "Incorrect",
+          "corrected_sentence": "The writer presented a trite argument.",
+          "explanation": "Use the adjective trite before the noun argument."
+        },
+        {
+          "sentence": "The phrase is trite because nobody has ever used it before.",
+          "verdict": "Incorrect",
+          "corrected_sentence": "The phrase is original because nobody has ever used it before.",
+          "explanation": "Trite describes something that has been used too often, not something completely new."
+        }
+      ],
+      "collocation_practice": [
+        {
+          "prompt_sentence": "The editor advised the writer to avoid trite _____ and use more precise language.",
+          "answer": "expressions",
+          "completed_sentence": "The editor advised the writer to avoid trite expressions and use more precise language.",
+          "explanation": "Trite expressions are familiar expressions that have lost their freshness through repeated use."
+        },
+        {
+          "prompt_sentence": "The conclusion may _____ trite, but the underlying point is important.",
+          "answer": "sound",
+          "completed_sentence": "The conclusion may sound trite, but the underlying point is important.",
+          "explanation": "Sound trite means seem unoriginal or overused."
+        },
+        {
+          "prompt_sentence": "The author ends with the trite _____ that money cannot guarantee happiness.",
+          "answer": "observation",
+          "completed_sentence": "The author ends with the trite observation that money cannot guarantee happiness.",
+          "explanation": "A trite observation is a familiar comment presented as an insight."
+        },
+        {
+          "prompt_sentence": "Students should avoid relying on _____ phrases when a more specific explanation is possible.",
+          "answer": "trite",
+          "completed_sentence": "Students should avoid relying on trite phrases when a more specific explanation is possible.",
+          "explanation": "A trite phrase has been repeated so often that it no longer sounds fresh or original."
+        }
+      ]
+    }
+  }

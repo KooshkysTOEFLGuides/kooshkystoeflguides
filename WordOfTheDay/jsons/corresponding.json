@@ -1,0 +1,436 @@
+{
+    "document_type": "kooshky_toefl_word_of_the_day",
+    "schema_version": "1.3",
+    "slug": "corresponding",
+    "word": "corresponding",
+    "date": "September 2nd 2026",
+    "pronunciation": {
+      "primary_ipa": "/ˌkɔːrəˈspɑːndɪŋ/"
+    },
+    "hero": {
+      "part_of_speech_summary": "adjective",
+      "short_meanings": [
+        "directly related or matching",
+        "equivalent in another system or group"
+      ],
+      "one_line_summary": "Corresponding describes things that are directly connected, match each other, or occupy equivalent positions.",
+      "memorable_example": "An increase in production was accompanied by a corresponding increase in energy use."
+    },
+    "meanings": [
+      {
+        "sense_title": "Directly related or matching",
+        "part_of_speech": "adjective",
+        "ipa": "/ˌkɔːrəˈspɑːndɪŋ/",
+        "definition": "directly related to something else, especially because the two things change together, belong together, or have matching positions",
+        "examples": [
+          "An increase in production was accompanied by a corresponding increase in energy use.",
+          "Each number on the map refers to a corresponding location in the table.",
+          "Higher levels of education are often associated with a corresponding rise in average income.",
+          "The decline in rainfall led to a corresponding reduction in crop yields.",
+          "As the population grew, there was a corresponding increase in demand for housing.",
+          "Each category in the chart has a corresponding symbol on the map.",
+          "The researchers observed a corresponding change in behavior after the environmental conditions were altered.",
+          "Lower transportation costs produced a corresponding decrease in the final price of the goods."
+        ],
+        "plain_english_equivalent": "matching or directly connected",
+        "typical_pattern": "a corresponding + increase, decrease, change, number, section, or item",
+        "register": "neutral to formal; very common in academic, scientific, technical, and analytical writing",
+        "nuance": {
+          "central_nuance": "Corresponding emphasizes a direct relationship or match between two things rather than a general similarity.",
+          "usual_implication": "When one thing changes, appears, or occupies a particular position, the corresponding thing is the one directly connected with it.",
+          "contrast_term": "unrelated",
+          "contrast_explanation": "Corresponding things have a clear relationship or match, while unrelated things have no such direct connection."
+        },
+        "grammar": {
+          "how_to_use": "Use corresponding before a noun when identifying the thing that directly matches or relates to another thing.",
+          "what_can_follow": "Common nouns include increase, decrease, change, rise, fall, number, section, category, value, and item.",
+          "preposition_note": "When the other thing must be stated explicitly, corresponding to is common, as in the value corresponding to each category.",
+          "position_note": "Corresponding is especially common before nouns, as in a corresponding increase or the corresponding section."
+        },
+        "patterns": [
+          {
+            "pattern": "a corresponding increase or rise",
+            "use": "Use this when one increase is directly connected with another.",
+            "example": "The expansion of the city produced a corresponding increase in traffic."
+          },
+          {
+            "pattern": "a corresponding decrease or reduction",
+            "use": "Use this when a decrease is directly related to another change.",
+            "example": "Greater efficiency resulted in a corresponding reduction in fuel consumption."
+          },
+          {
+            "pattern": "a corresponding change",
+            "use": "Use this for a change that matches or results from another change.",
+            "example": "The shift in temperature caused a corresponding change in the animals' behavior."
+          },
+          {
+            "pattern": "the corresponding + item, number, section, or category",
+            "use": "Use this to identify the item that matches another item in a different list, table, diagram, or system.",
+            "example": "Match each definition with the corresponding term."
+          },
+          {
+            "pattern": "corresponding to + noun",
+            "use": "Use this when explicitly identifying what something matches.",
+            "example": "The values corresponding to each age group are shown in the final column."
+          }
+        ],
+        "errors": [
+          {
+            "wrong": "The population increased, with a correspond increase in housing demand.",
+            "correct": "The population increased, with a corresponding increase in housing demand.",
+            "explanation": "Use the adjective corresponding before a noun such as increase."
+          },
+          {
+            "wrong": "Each number has a corresponding with a location on the map.",
+            "correct": "Each number has a corresponding location on the map.",
+            "explanation": "Corresponding can directly modify a noun; with is not needed in this structure."
+          },
+          {
+            "wrong": "The corresponding increase means the two increases are exactly equal.",
+            "correct": "The corresponding increase means the two changes are directly related.",
+            "explanation": "Corresponding does not necessarily mean identical in size. It means directly related or matching in some relevant way."
+          }
+        ]
+      },
+      {
+        "sense_title": "Equivalent in another system or group",
+        "part_of_speech": "adjective",
+        "ipa": "/ˌkɔːrəˈspɑːndɪŋ/",
+        "definition": "having the same or a very similar function, position, or meaning as something in another system, group, or situation",
+        "examples": [
+          "Researchers compared each region with the corresponding region in the earlier survey.",
+          "The French term has no exact corresponding expression in English.",
+          "Students should enter each answer in the corresponding box on the form.",
+          "Each department sends its report to the corresponding office at the national level.",
+          "The two diagrams use different colors to identify corresponding parts of the structure.",
+          "The researchers compared the experimental group with the corresponding control group.",
+          "Each chapter in the revised edition includes a corresponding section in the online materials.",
+          "The numbered samples were placed beside their corresponding labels."
+        ],
+        "plain_english_equivalent": "the matching equivalent",
+        "typical_pattern": "the corresponding + part, section, term, position, value, or item",
+        "register": "neutral to formal; common in academic, technical, administrative, and comparative contexts",
+        "nuance": {
+          "central_nuance": "This sense emphasizes equivalence of role, position, or meaning across two separate systems, groups, documents, or sets.",
+          "usual_implication": "The two things are not necessarily identical, but each occupies a comparable place or performs a comparable function.",
+          "contrast_term": "identical",
+          "contrast_explanation": "Corresponding things match in role, position, or relationship, but they do not have to be completely identical."
+        },
+        "grammar": {
+          "how_to_use": "Use corresponding before the noun that has an equivalent in another group or system.",
+          "what_can_follow": "Common nouns include term, section, position, value, part, office, category, and label.",
+          "preposition_note": "Corresponding to can identify the thing that provides the match: the English term corresponding to the French expression.",
+          "position_note": "The definite article the is common when a unique matching item is intended: the corresponding section."
+        },
+        "patterns": [
+          {
+            "pattern": "the corresponding section or part",
+            "use": "Use this when identifying the equivalent part of another document, object, or system.",
+            "example": "The same information appears in the corresponding section of the second report."
+          },
+          {
+            "pattern": "the corresponding term or expression",
+            "use": "Use this when comparing vocabulary or terminology across languages or fields.",
+            "example": "There is no precise corresponding term in English."
+          },
+          {
+            "pattern": "the corresponding value",
+            "use": "Use this for a value that matches a particular variable, category, or position.",
+            "example": "Find the temperature and record the corresponding pressure value."
+          },
+          {
+            "pattern": "corresponding parts",
+            "use": "Use this for parts in separate objects or diagrams that occupy equivalent positions.",
+            "example": "The corresponding parts of the two organisms perform similar functions."
+          }
+        ],
+        "errors": [
+          {
+            "wrong": "Write your answer in the correspondingly box.",
+            "correct": "Write your answer in the corresponding box.",
+            "explanation": "Use the adjective corresponding before the noun box."
+          },
+          {
+            "wrong": "Corresponding means completely identical.",
+            "correct": "Corresponding means matching in position, function, relationship, or meaning.",
+            "explanation": "Corresponding things may differ in details even though they occupy equivalent roles."
+          },
+          {
+            "wrong": "The English word is corresponding with the French term.",
+            "correct": "The English word corresponds to the French term.",
+            "explanation": "When using the verb correspond to describe equivalence, correspond to is usually more natural than be corresponding with."
+          }
+        ]
+      }
+    ],
+    "word_family": [
+      {
+        "word": "correspond",
+        "part_of_speech": "intransitive verb",
+        "definition": "to match, agree with, or be closely related to something",
+        "examples": [
+          "The results correspond closely to the predictions of the model.",
+          "Each symbol corresponds to a particular type of material.",
+          "The boundaries shown on the map do not correspond exactly with modern political borders."
+        ],
+        "ipa": "/ˌkɔːrəˈspɑːnd/",
+        "relationship_to_headword": "Corresponding is formed from the verb correspond and describes something that matches or is directly related to another thing.",
+        "grammar_pattern": "correspond to or correspond with + noun",
+        "usage_note": "Correspond to is especially common for equivalence or matching. Correspond with can also mean agree with, and it has a separate meaning of exchange letters or messages."
+      },
+      {
+        "word": "correspondence",
+        "part_of_speech": "countable or uncountable noun",
+        "definition": "a close similarity or relationship between two things",
+        "examples": [
+          "Researchers found a close correspondence between the two sets of data.",
+          "There is no exact correspondence between the categories used by the two studies."
+        ],
+        "ipa": "/ˌkɔːrəˈspɑːndəns/",
+        "relationship_to_headword": "This noun can name the matching relationship expressed by corresponding.",
+        "grammar_pattern": "a correspondence between + two things",
+        "usage_note": "Correspondence also commonly means letters or messages exchanged between people."
+      },
+      {
+        "word": "correspondingly",
+        "part_of_speech": "adverb",
+        "definition": "in a way that matches or changes in relation to something else",
+        "examples": [
+          "Production costs fell, and prices decreased correspondingly.",
+          "As demand increased, the company correspondingly expanded its workforce."
+        ],
+        "ipa": "/ˌkɔːrəˈspɑːndɪŋli/",
+        "relationship_to_headword": "This adverb describes an action or change that occurs in a matching or related way.",
+        "grammar_pattern": "verb + correspondingly, or correspondingly + verb",
+        "usage_note": "It is formal and less common than the adjective corresponding."
+      }
+    ],
+    "collocations": [
+      {
+        "collocation": "corresponding increase",
+        "example": "The increase in population produced a corresponding increase in demand for water.",
+        "applies_to_sense": "Directly related or matching",
+        "meaning": "an increase directly related to another increase or change"
+      },
+      {
+        "collocation": "corresponding decrease",
+        "example": "The reduction in production led to a corresponding decrease in energy consumption.",
+        "applies_to_sense": "Directly related or matching",
+        "meaning": "a decrease directly associated with another change"
+      },
+      {
+        "collocation": "corresponding rise",
+        "example": "Higher temperatures were accompanied by a corresponding rise in evaporation.",
+        "applies_to_sense": "Directly related or matching",
+        "meaning": "a rise that occurs in relation to another change"
+      },
+      {
+        "collocation": "corresponding reduction",
+        "example": "Improved efficiency produced a corresponding reduction in operating costs.",
+        "applies_to_sense": "Directly related or matching",
+        "meaning": "a reduction directly related to another development"
+      },
+      {
+        "collocation": "corresponding change",
+        "example": "The change in diet produced a corresponding change in growth rates.",
+        "applies_to_sense": "Directly related or matching",
+        "meaning": "a change that matches or is directly related to another change"
+      },
+      {
+        "collocation": "corresponding value",
+        "example": "Students recorded the temperature and its corresponding pressure value.",
+        "applies_to_sense": "Equivalent in another system or group",
+        "meaning": "the value that matches a particular item, category, or variable"
+      },
+      {
+        "collocation": "corresponding section",
+        "example": "Additional details appear in the corresponding section of the report.",
+        "applies_to_sense": "Equivalent in another system or group",
+        "meaning": "the section occupying an equivalent position in another document or system"
+      },
+      {
+        "collocation": "corresponding part",
+        "example": "The corresponding parts of the two structures were compared.",
+        "applies_to_sense": "Equivalent in another system or group",
+        "meaning": "a part that occupies the same or a similar position or function"
+      },
+      {
+        "collocation": "corresponding term",
+        "example": "The language has no exact corresponding term for the concept.",
+        "applies_to_sense": "Equivalent in another system or group",
+        "meaning": "a word or expression with an equivalent meaning"
+      },
+      {
+        "collocation": "corresponding to",
+        "example": "The numbers corresponding to each category are shown in the table.",
+        "applies_to_sense": "all senses",
+        "meaning": "matching or directly related to something",
+        "grammar_pattern": "corresponding to + noun"
+      }
+    ],
+    "synonyms": [
+      {
+        "word": "matching",
+        "part_of_speech": "adjective",
+        "applies_to_sense": "Equivalent in another system or group",
+        "difference": "Matching is the more general and everyday word. Corresponding is more formal and often emphasizes equivalent position, function, or relationship rather than visual similarity.",
+        "example": "Place each card beside its matching label.",
+        "shared_meaning": "Both can describe things that belong together or have equivalent roles."
+      },
+      {
+        "word": "equivalent",
+        "part_of_speech": "adjective",
+        "applies_to_sense": "Equivalent in another system or group",
+        "difference": "Equivalent emphasizes having the same value, function, meaning, or effect. Corresponding emphasizes that two things occupy matching positions or are directly related.",
+        "example": "The two qualifications are considered academically equivalent.",
+        "shared_meaning": "Both can describe things with comparable roles or meanings."
+      },
+      {
+        "word": "related",
+        "part_of_speech": "adjective",
+        "applies_to_sense": "Directly related or matching",
+        "difference": "Related is much broader and simply means connected in some way. Corresponding suggests a more specific one-to-one or parallel relationship.",
+        "example": "The researchers examined several related environmental factors.",
+        "shared_meaning": "Both describe a connection between things."
+      },
+      {
+        "word": "parallel",
+        "part_of_speech": "adjective",
+        "applies_to_sense": "Directly related or matching",
+        "difference": "Parallel often describes similar developments occurring side by side. Corresponding more directly identifies one thing as the match or counterpart of another.",
+        "example": "The two countries experienced parallel economic changes.",
+        "shared_meaning": "Both can describe similar or related developments."
+      }
+    ],
+    "antonyms": [
+      {
+        "word": "unrelated",
+        "part_of_speech": "adjective",
+        "applies_to_sense": "Directly related or matching",
+        "opposition": "Corresponding things have a direct relationship or match, while unrelated things have no meaningful connection.",
+        "example": "The two changes appear to be unrelated."
+      },
+      {
+        "word": "nonmatching",
+        "part_of_speech": "adjective",
+        "applies_to_sense": "Equivalent in another system or group",
+        "opposition": "Corresponding items match in position, role, or relationship, while nonmatching items do not.",
+        "example": "The software highlighted the nonmatching entries in the two datasets.",
+        "usage_note": "This contrast is useful in technical contexts but is less common than unrelated."
+      }
+    ],
+    "confusables": [
+      {
+        "word": "correspondent",
+        "key_difference": "Corresponding is usually an adjective meaning matching or related. A correspondent is normally a person who reports news or exchanges letters or messages with someone.",
+        "headword_example": "Enter each number in the corresponding box.",
+        "confusable_example": "The newspaper sent a foreign correspondent to report on the conflict.",
+        "part_of_speech": "adjective versus countable noun",
+        "why_confused": "The words come from the same verb and look very similar."
+      },
+      {
+        "word": "correspond",
+        "key_difference": "Correspond is a verb meaning match, agree, or be equivalent. Corresponding is the adjective used before a noun to describe the matching thing.",
+        "headword_example": "Each diagram has a corresponding explanation.",
+        "confusable_example": "Each diagram corresponds to an explanation in the text.",
+        "part_of_speech": "adjective versus intransitive verb",
+        "why_confused": "They express the same basic relationship but have different grammatical roles."
+      },
+      {
+        "word": "respective",
+        "key_difference": "Respective means belonging separately to each of two or more people or things already mentioned. Corresponding means matching or occupying an equivalent position.",
+        "headword_example": "Match each graph with its corresponding description.",
+        "confusable_example": "The two researchers returned to their respective universities.",
+        "part_of_speech": "adjective",
+        "why_confused": "Both are often used when pairing or distinguishing items in formal writing."
+      }
+    ],
+    "etymology": {
+      "origin": "Corresponding comes from correspond, which ultimately comes from Latin elements meaning to answer together or respond in agreement.",
+      "development": "The idea of things answering or matching one another developed into the modern sense of having a direct relationship or equivalent position.",
+      "memory_link": "If two things correspond, they match each other; the corresponding item is the one that matches."
+    },
+    "exercises": {
+      "word_family_choice": [
+        {
+          "prompt_sentence": "The values in the second table _____ closely to those reported in the first study.",
+          "answer": "correspond",
+          "completed_sentence": "The values in the second table correspond closely to those reported in the first study.",
+          "explanation": "Use the verb correspond when saying that two sets of values match."
+        },
+        {
+          "prompt_sentence": "Researchers found a close _____ between the two patterns.",
+          "answer": "correspondence",
+          "completed_sentence": "Researchers found a close correspondence between the two patterns.",
+          "explanation": "Use the noun correspondence for a close matching relationship."
+        },
+        {
+          "prompt_sentence": "As production increased, energy consumption rose _____.",
+          "answer": "correspondingly",
+          "completed_sentence": "As production increased, energy consumption rose correspondingly.",
+          "explanation": "Use the adverb correspondingly to describe a matching change."
+        },
+        {
+          "prompt_sentence": "Each symbol has a _____ explanation in the table.",
+          "answer": "corresponding",
+          "completed_sentence": "Each symbol has a corresponding explanation in the table.",
+          "explanation": "Use the adjective corresponding before explanation."
+        }
+      ],
+      "correct_or_incorrect": [
+        {
+          "sentence": "The rise in production was accompanied by a corresponding increase in energy use.",
+          "verdict": "Correct",
+          "explanation": "A corresponding increase is an increase directly related to another change."
+        },
+        {
+          "sentence": "Each number has a correspondingly symbol on the map.",
+          "verdict": "Incorrect",
+          "corrected_sentence": "Each number has a corresponding symbol on the map.",
+          "explanation": "Use the adjective corresponding before the noun symbol."
+        },
+        {
+          "sentence": "The two corresponding parts must be completely identical in every detail.",
+          "verdict": "Incorrect",
+          "corrected_sentence": "The two corresponding parts occupy equivalent positions or have related functions.",
+          "explanation": "Corresponding does not require complete identity."
+        },
+        {
+          "sentence": "The value corresponding to each category is shown in the final column.",
+          "verdict": "Correct",
+          "explanation": "Corresponding to is a natural pattern for identifying a matching value."
+        },
+        {
+          "sentence": "The English term corresponds to the expression used in French.",
+          "verdict": "Correct",
+          "explanation": "Correspond to is commonly used when two things are equivalent or match."
+        }
+      ],
+      "collocation_practice": [
+        {
+          "prompt_sentence": "The increase in demand produced a corresponding _____ in prices.",
+          "answer": "rise",
+          "completed_sentence": "The increase in demand produced a corresponding rise in prices.",
+          "explanation": "A corresponding rise is a rise directly related to another change."
+        },
+        {
+          "prompt_sentence": "Match each diagram with the _____ description.",
+          "answer": "corresponding",
+          "completed_sentence": "Match each diagram with the corresponding description.",
+          "explanation": "The corresponding description is the one that matches a particular diagram."
+        },
+        {
+          "prompt_sentence": "The values _____ to each age group appear in the second column.",
+          "answer": "corresponding",
+          "completed_sentence": "The values corresponding to each age group appear in the second column.",
+          "explanation": "Corresponding to identifies the values associated with each group."
+        },
+        {
+          "prompt_sentence": "A reduction in rainfall led to a corresponding _____ in agricultural output.",
+          "answer": "decrease",
+          "completed_sentence": "A reduction in rainfall led to a corresponding decrease in agricultural output.",
+          "explanation": "A corresponding decrease is a decrease directly associated with another change."
+        }
+      ]
+    }
+  }

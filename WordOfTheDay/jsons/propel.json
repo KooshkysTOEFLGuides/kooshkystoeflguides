@@ -1,0 +1,441 @@
+{
+    "document_type": "kooshky_toefl_word_of_the_day",
+    "schema_version": "1.3",
+    "slug": "propel",
+    "word": "propel",
+    "date": "August 14th 2026",
+    "pronunciation": {
+      "primary_ipa": "/prəˈpɛl/"
+    },
+    "hero": {
+      "part_of_speech_summary": "transitive verb",
+      "short_meanings": [
+        "push or drive something forward",
+        "cause rapid progress or advancement"
+      ],
+      "one_line_summary": "Propel means to drive something forward physically or to cause rapid progress toward a new position or situation.",
+      "memorable_example": "Her discovery propelled her to international recognition."
+    },
+    "meanings": [
+      {
+        "sense_title": "Push or drive forward",
+        "part_of_speech": "transitive verb",
+        "ipa": "/prəˈpɛl/",
+        "definition": "to push, drive, or cause a person or object to move forward or in a particular direction",
+        "examples": [
+          "Powerful engines propel the aircraft through the air.",
+          "The squid propels itself through the water by forcing water out of its body.",
+          "A strong current propelled the boat toward the shore.",
+          "Gas released from the rocket engine propels the spacecraft forward.",
+          "The swimmer used her legs to propel herself across the pool.",
+          "Wind can propel small seeds over considerable distances.",
+          "The explosion propelled pieces of rock high into the air.",
+          "Some marine animals propel themselves by rapidly moving their tails."
+        ],
+        "plain_english_equivalent": "push or drive forward",
+        "typical_pattern": "propel + object + forward, through, toward, or into + place",
+        "register": "neutral to formal; common in science, engineering, biology, transportation, and descriptions of movement",
+        "nuance": {
+          "central_nuance": "Propel emphasizes the force or mechanism that produces movement, especially forward movement.",
+          "usual_implication": "The subject supplies energy or force that causes another object, or itself, to move.",
+          "contrast_term": "carry",
+          "contrast_explanation": "Carry means support and transport something from one place to another. Propel emphasizes the force that makes something move."
+        },
+        "grammar": {
+          "how_to_use": "This verb normally needs the person or thing being moved directly after it.",
+          "what_can_follow": "After the object, you can add a direction or destination with words such as forward, through, toward, across, or into.",
+          "preposition_note": "Say propel something through the water, toward the shore, or into the air.",
+          "position_note": "When the subject moves itself, use a reflexive form such as propel itself or propel herself."
+        },
+        "patterns": [
+          {
+            "pattern": "propel + object + forward",
+            "use": "Use this when a force or mechanism causes something to move ahead.",
+            "example": "The motor propels the vehicle forward."
+          },
+          {
+            "pattern": "propel + object + through + substance or space",
+            "use": "Use this to describe movement through water, air, or another environment.",
+            "example": "The fins help propel the animal through the water."
+          },
+          {
+            "pattern": "propel + object + toward + destination",
+            "use": "Use this when movement is directed toward a particular place.",
+            "example": "The current propelled the raft toward the waterfall."
+          },
+          {
+            "pattern": "propel oneself + direction",
+            "use": "Use this when a person or animal creates the force for its own movement.",
+            "example": "The diver propelled herself upward with a powerful kick."
+          },
+          {
+            "pattern": "be propelled by + force or mechanism",
+            "use": "Use the passive form when emphasizing what provides the force.",
+            "example": "The vessel is propelled by two electric motors."
+          }
+        ],
+        "errors": [
+          {
+            "wrong": "The engine propels forward the boat.",
+            "correct": "The engine propels the boat forward.",
+            "explanation": "Place the object directly after propel, and put forward after the object."
+          },
+          {
+            "wrong": "The fish propels through the water with its tail.",
+            "correct": "The fish propels itself through the water with its tail.",
+            "explanation": "Propel is normally transitive, so when the subject causes its own movement, use a reflexive pronoun such as itself."
+          },
+          {
+            "wrong": "The rocket was propelled from powerful engines.",
+            "correct": "The rocket was propelled by powerful engines.",
+            "explanation": "Use by to identify the force or mechanism that causes the movement."
+          }
+        ]
+      },
+      {
+        "sense_title": "Cause rapid progress or advancement",
+        "part_of_speech": "transitive verb",
+        "ipa": "/prəˈpɛl/",
+        "definition": "to cause a person, organization, idea, or process to advance quickly or reach a new position, level, or situation",
+        "examples": [
+          "Her discovery propelled her to international recognition.",
+          "Rapid technological change has propelled the industry into a period of intense competition.",
+          "Increased demand helped propel the company's growth during its first five years.",
+          "The successful campaign propelled the candidate into national politics.",
+          "A series of influential studies propelled the theory to the center of scientific debate.",
+          "Strong export growth helped propel the economy out of recession.",
+          "The novel's popularity propelled its author to fame.",
+          "New investment could propel the region toward faster economic development."
+        ],
+        "plain_english_equivalent": "make someone or something advance quickly",
+        "typical_pattern": "propel + person or thing + to, into, or toward + new position or situation",
+        "register": "neutral to formal; common in academic, business, political, historical, and journalistic writing",
+        "nuance": {
+          "central_nuance": "This figurative sense presents progress or change as if a force were pushing someone or something forward.",
+          "usual_implication": "The change is often significant and relatively rapid, moving the person, organization, or idea into a noticeably different position.",
+          "contrast_term": "promote",
+          "contrast_explanation": "Promote can mean actively support or help something develop. Propel emphasizes the strong effect that causes rapid advancement or movement into a new position."
+        },
+        "grammar": {
+          "how_to_use": "Place the person, organization, idea, or process directly after propel.",
+          "what_can_follow": "Use to for a new status or level, into for a new situation or field, and toward for movement in the direction of a goal.",
+          "preposition_note": "Common patterns include propel someone to fame, propel someone into leadership, and propel a country toward recovery.",
+          "position_note": "The passive form is also common, as in She was propelled to fame by the success of her first novel."
+        },
+        "patterns": [
+          {
+            "pattern": "propel + person + to + fame, success, or prominence",
+            "use": "Use this when an event causes someone's status to rise rapidly.",
+            "example": "The award propelled the young scientist to international prominence."
+          },
+          {
+            "pattern": "propel + person or organization + into + position or situation",
+            "use": "Use this when something causes entry into a new role, field, or condition.",
+            "example": "The election propelled the movement into national politics."
+          },
+          {
+            "pattern": "propel + thing + toward + goal or change",
+            "use": "Use this for rapid movement in the direction of a desired or expected result.",
+            "example": "New investment could propel the country toward economic recovery."
+          },
+          {
+            "pattern": "propel growth or development",
+            "use": "Use this when a factor strongly accelerates an economic, social, or organizational process.",
+            "example": "Rising demand propelled the growth of the renewable energy industry."
+          },
+          {
+            "pattern": "be propelled by + event or factor",
+            "use": "Use this when emphasizing what caused the rapid advancement.",
+            "example": "The company's expansion was propelled by strong overseas demand."
+          }
+        ],
+        "errors": [
+          {
+            "wrong": "The discovery propelled her for international fame.",
+            "correct": "The discovery propelled her to international fame.",
+            "explanation": "Use propel someone to a new level, status, or achievement."
+          },
+          {
+            "wrong": "The new investment propelled to the company's growth.",
+            "correct": "The new investment propelled the company's growth.",
+            "explanation": "Propel normally takes the thing being advanced directly as its object."
+          },
+          {
+            "wrong": "The election propelled him in national politics.",
+            "correct": "The election propelled him into national politics.",
+            "explanation": "Use into when someone enters a new field, role, or situation."
+          },
+          {
+            "wrong": "The policy propelled the economy to recover.",
+            "correct": "The policy helped propel the economy toward recovery.",
+            "explanation": "For movement in the direction of a process or goal, propel something toward a noun such as recovery is more natural."
+          }
+        ]
+      }
+    ],
+    "word_family": [
+      {
+        "word": "propulsion",
+        "part_of_speech": "uncountable noun",
+        "definition": "the force or system that causes a vehicle or object to move forward",
+        "examples": [
+          "The spacecraft uses an electric propulsion system.",
+          "Engineers are developing more efficient methods of marine propulsion.",
+          "Jet propulsion made much faster aircraft possible."
+        ],
+        "ipa": "/prəˈpʌlʃən/",
+        "relationship_to_headword": "This noun refers to the force, process, or technology used to propel something.",
+        "grammar_pattern": "propulsion system, method of propulsion, or propulsion technology",
+        "usage_note": "It is especially common in engineering, transportation, aerospace, and physics."
+      },
+      {
+        "word": "propellant",
+        "part_of_speech": "countable or uncountable noun",
+        "definition": "a substance used to produce the force that moves a rocket, projectile, or other object",
+        "examples": [
+          "The rocket carries both fuel and an oxidizer as propellants.",
+          "Scientists tested a new propellant for use in small spacecraft."
+        ],
+        "ipa": "/prəˈpɛlənt/",
+        "relationship_to_headword": "A propellant is a substance that produces the force needed to propel something.",
+        "grammar_pattern": "rocket propellant, solid propellant, or liquid propellant",
+        "usage_note": "This is mainly a scientific and technical term."
+      },
+      {
+        "word": "propeller",
+        "part_of_speech": "countable noun",
+        "definition": "a device with rotating blades that pushes against air or water to move a vehicle forward",
+        "examples": [
+          "The boat's propeller was damaged by underwater debris.",
+          "Each aircraft engine turns a large propeller."
+        ],
+        "ipa": "/prəˈpɛlər/",
+        "relationship_to_headword": "A propeller is a device that propels a boat, aircraft, or other vehicle.",
+        "grammar_pattern": "boat, aircraft, or ship + propeller"
+      }
+    ],
+    "collocations": [
+      {
+        "collocation": "propel forward",
+        "example": "The rear wheels propel the vehicle forward.",
+        "applies_to_sense": "Push or drive forward",
+        "meaning": "cause something to move ahead",
+        "grammar_pattern": "propel + object + forward"
+      },
+      {
+        "collocation": "propel through the water",
+        "example": "Powerful tail movements propel the whale through the water.",
+        "applies_to_sense": "Push or drive forward",
+        "meaning": "cause an animal or object to move through water",
+        "grammar_pattern": "propel + object + through the water"
+      },
+      {
+        "collocation": "propel itself",
+        "example": "The squid propels itself by rapidly expelling water.",
+        "applies_to_sense": "Push or drive forward",
+        "meaning": "cause one's own body or structure to move",
+        "grammar_pattern": "propel itself, himself, herself, or themselves + direction"
+      },
+      {
+        "collocation": "be propelled by",
+        "example": "The submarine is propelled by an electric motor.",
+        "applies_to_sense": "Push or drive forward",
+        "meaning": "be moved by a particular force or mechanism",
+        "grammar_pattern": "be propelled by + force or mechanism"
+      },
+      {
+        "collocation": "propel to fame",
+        "example": "The unexpected success of the film propelled the actor to fame.",
+        "applies_to_sense": "Cause rapid progress or advancement",
+        "meaning": "cause someone to become famous very quickly",
+        "grammar_pattern": "propel + person + to fame"
+      },
+      {
+        "collocation": "propel to prominence",
+        "example": "The discovery propelled the researcher to international prominence.",
+        "applies_to_sense": "Cause rapid progress or advancement",
+        "meaning": "cause someone to become important or well known",
+        "grammar_pattern": "propel + person + to prominence"
+      },
+      {
+        "collocation": "propel into",
+        "example": "The crisis propelled the issue into the center of public debate.",
+        "applies_to_sense": "Cause rapid progress or advancement",
+        "meaning": "cause someone or something to enter a new position or situation",
+        "grammar_pattern": "propel + person or thing + into + situation"
+      },
+      {
+        "collocation": "propel growth",
+        "example": "Low interest rates helped propel economic growth.",
+        "applies_to_sense": "Cause rapid progress or advancement",
+        "meaning": "cause growth to occur more rapidly"
+      },
+      {
+        "collocation": "propel development",
+        "example": "Investment in transportation infrastructure propelled the development of the region.",
+        "applies_to_sense": "Cause rapid progress or advancement",
+        "meaning": "cause development to advance more rapidly"
+      },
+      {
+        "collocation": "propel toward",
+        "example": "The reforms could propel the country toward greater economic stability.",
+        "applies_to_sense": "Cause rapid progress or advancement",
+        "meaning": "cause movement in the direction of a new condition or goal",
+        "grammar_pattern": "propel + person or thing + toward + goal"
+      },
+      {
+        "collocation": "propulsion system",
+        "example": "The spacecraft uses a highly efficient propulsion system.",
+        "applies_to_sense": "Push or drive forward",
+        "meaning": "a system that provides the force necessary for movement",
+        "usage_note": "Propulsion is the noun form."
+      }
+    ],
+    "synonyms": [
+      {
+        "word": "drive",
+        "part_of_speech": "transitive verb",
+        "applies_to_sense": "Push or drive forward",
+        "difference": "Drive is broader and can mean make something move, operate a vehicle, or strongly motivate change. Propel specifically emphasizes producing forward movement.",
+        "example": "The strong wind drove the boat toward the coast.",
+        "shared_meaning": "Both can describe a force causing movement."
+      },
+      {
+        "word": "push",
+        "part_of_speech": "transitive verb",
+        "applies_to_sense": "Push or drive forward",
+        "difference": "Push is the ordinary general word for applying force to move something away from you. Propel is more formal and often describes continuous or powerful forward movement.",
+        "example": "The workers pushed the cart across the warehouse.",
+        "shared_meaning": "Both can mean apply force that causes movement."
+      },
+      {
+        "word": "accelerate",
+        "part_of_speech": "transitive verb",
+        "applies_to_sense": "Cause rapid progress or advancement",
+        "difference": "Accelerate means make a process happen faster. Propel suggests both speed and movement toward a new stage, position, or outcome.",
+        "example": "New technology accelerated the development of renewable energy systems.",
+        "shared_meaning": "Both can describe making progress occur more rapidly."
+      },
+      {
+        "word": "advance",
+        "part_of_speech": "transitive verb",
+        "applies_to_sense": "Cause rapid progress or advancement",
+        "difference": "Advance means help something develop or move forward. Propel is stronger and often suggests a powerful factor causing rapid or dramatic progress.",
+        "example": "The discovery advanced scientists' understanding of the disease.",
+        "shared_meaning": "Both can refer to causing progress."
+      }
+    ],
+    "confusables": [
+      {
+        "word": "compel",
+        "key_difference": "Propel means push or cause movement or progress. Compel means force someone to do something.",
+        "headword_example": "Strong demand propelled the company into new markets.",
+        "confusable_example": "The law compels employers to provide basic safety equipment.",
+        "part_of_speech": "transitive verb",
+        "why_confused": "The words have similar spellings and both can suggest a strong force, but the type of force is different."
+      },
+      {
+        "word": "propagate",
+        "key_difference": "Propel means cause physical movement or rapid advancement. Propagate means spread an idea, belief, signal, organism, or other thing.",
+        "headword_example": "The engine propels the aircraft forward.",
+        "confusable_example": "Radio waves propagate through the atmosphere.",
+        "part_of_speech": "verb",
+        "why_confused": "Both formal verbs may appear in scientific descriptions of movement, but they describe different processes."
+      }
+    ],
+    "etymology": {
+      "origin": "Propel comes from Latin propellere, meaning to drive or push forward.",
+      "source_form": "Latin propellere",
+      "early_meaning": "to drive forward or push away",
+      "memory_link": "The idea of pushing forward remains central in both the physical and figurative meanings of propel."
+    },
+    "exercises": {
+      "word_family_choice": [
+        {
+          "prompt_sentence": "The spacecraft's new _____ system uses electric power rather than conventional chemical rockets.",
+          "answer": "propulsion",
+          "completed_sentence": "The spacecraft's new propulsion system uses electric power rather than conventional chemical rockets.",
+          "explanation": "Use propulsion for the system or force that moves a vehicle."
+        },
+        {
+          "prompt_sentence": "The rocket requires a specially designed _____ to generate thrust.",
+          "answer": "propellant",
+          "completed_sentence": "The rocket requires a specially designed propellant to generate thrust.",
+          "explanation": "A propellant is a substance used to produce the force needed for movement."
+        },
+        {
+          "prompt_sentence": "The boat's _____ converts engine power into forward motion.",
+          "answer": "propeller",
+          "completed_sentence": "The boat's propeller converts engine power into forward motion.",
+          "explanation": "A propeller is the rotating device that helps propel a boat or aircraft."
+        },
+        {
+          "prompt_sentence": "The new evidence could _____ the theory to greater prominence.",
+          "answer": "propel",
+          "completed_sentence": "The new evidence could propel the theory to greater prominence.",
+          "explanation": "Use the base verb propel after could."
+        }
+      ],
+      "correct_or_incorrect": [
+        {
+          "sentence": "The engine propels the boat forward.",
+          "verdict": "Correct",
+          "explanation": "Propel the boat forward is a standard physical use of the verb."
+        },
+        {
+          "sentence": "The fish propels through the water by moving its tail.",
+          "verdict": "Incorrect",
+          "corrected_sentence": "The fish propels itself through the water by moving its tail.",
+          "explanation": "Propel normally needs an object, so use itself when the animal causes its own movement."
+        },
+        {
+          "sentence": "The successful novel propelled the author to international fame.",
+          "verdict": "Correct",
+          "explanation": "Propel someone to fame is a common figurative pattern."
+        },
+        {
+          "sentence": "The election propelled her in national politics.",
+          "verdict": "Incorrect",
+          "corrected_sentence": "The election propelled her into national politics.",
+          "explanation": "Use into when someone is moved into a new field, role, or situation."
+        },
+        {
+          "sentence": "Strong consumer demand propelled the company's growth.",
+          "verdict": "Correct",
+          "explanation": "Propel growth naturally means cause growth to advance rapidly."
+        }
+      ],
+      "collocation_practice": [
+        {
+          "prompt_sentence": "The vessel is propelled _____ two powerful electric motors.",
+          "answer": "by",
+          "completed_sentence": "The vessel is propelled by two powerful electric motors.",
+          "explanation": "Use by to identify the force or mechanism that causes movement."
+        },
+        {
+          "prompt_sentence": "The award propelled the young researcher _____ international prominence.",
+          "answer": "to",
+          "completed_sentence": "The award propelled the young researcher to international prominence.",
+          "explanation": "Propel someone to prominence means cause them to become important or well known quickly."
+        },
+        {
+          "prompt_sentence": "The squid propels _____ through the water by expelling water from its body.",
+          "answer": "itself",
+          "completed_sentence": "The squid propels itself through the water by expelling water from its body.",
+          "explanation": "Use a reflexive pronoun when an animal or person causes its own movement."
+        },
+        {
+          "prompt_sentence": "Rapid investment helped _____ the region's economic growth.",
+          "answer": "propel",
+          "completed_sentence": "Rapid investment helped propel the region's economic growth.",
+          "explanation": "Propel growth means cause growth to advance quickly."
+        },
+        {
+          "prompt_sentence": "The unexpected victory propelled the movement _____ national politics.",
+          "answer": "into",
+          "completed_sentence": "The unexpected victory propelled the movement into national politics.",
+          "explanation": "Propel something into a new situation means cause it to enter that situation rapidly."
+        }
+      ]
+    }
+  }

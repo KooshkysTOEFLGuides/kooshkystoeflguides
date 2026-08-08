@@ -1,0 +1,436 @@
+{
+    "document_type": "kooshky_toefl_word_of_the_day",
+    "schema_version": "1.3",
+    "slug": "deflect",
+    "word": "deflect",
+    "date": "August 12th 2026",
+    "pronunciation": {
+      "primary_ipa": "/dɪˈflɛkt/"
+    },
+    "hero": {
+      "part_of_speech_summary": "transitive and intransitive verb",
+      "short_meanings": [
+        "cause something to change direction",
+        "change direction",
+        "redirect attention or criticism"
+      ],
+      "one_line_summary": "To deflect something is to turn it away from its original direction, either physically or figuratively.",
+      "memorable_example": "Earth's magnetic field helps deflect charged particles from the Sun."
+    },
+    "meanings": [
+      {
+        "sense_title": "Cause to change direction",
+        "part_of_speech": "transitive verb",
+        "ipa": "/dɪˈflɛkt/",
+        "definition": "to cause something that is moving to change direction",
+        "examples": [
+          "The protective shield is designed to deflect small pieces of flying debris.",
+          "Earth's magnetic field helps deflect charged particles from the Sun.",
+          "The angled surface deflects wind away from the entrance.",
+          "The barrier can deflect waves before they reach the harbor.",
+          "Engineers added a panel to deflect heat away from sensitive equipment.",
+          "The curved structure helps deflect rainwater toward the drainage system.",
+          "The material was strong enough to deflect some of the impact."
+        ],
+        "plain_english_equivalent": "make something turn away",
+        "typical_pattern": "deflect + object + away from or toward + direction",
+        "register": "neutral to formal; common in science, engineering, physics, and technical descriptions",
+        "nuance": {
+          "central_nuance": "The object continues moving, but its path is changed by a force, surface, barrier, or other influence.",
+          "usual_implication": "The change may protect something, redirect energy, or alter where a moving object eventually goes.",
+          "contrast_term": "stop",
+          "contrast_explanation": "To stop something is to end its movement. To deflect it is to change its direction while it continues moving."
+        },
+        "grammar": {
+          "how_to_use": "This verb normally needs the moving object or force after it.",
+          "what_can_follow": "It is commonly followed by nouns such as light, radiation, wind, water, debris, particles, heat, or an object in motion.",
+          "preposition_note": "Use away from when showing what the object is being redirected away from, as in deflect heat away from the engine.",
+          "position_note": "The thing causing the change normally comes before the verb, and the moving object comes directly after it."
+        },
+        "patterns": [
+          {
+            "pattern": "deflect + object",
+            "use": "Use this when something causes a moving object or force to change direction.",
+            "example": "The shield deflected the incoming particles."
+          },
+          {
+            "pattern": "deflect + object + away from + noun",
+            "use": "Use this when showing what is being protected from the moving object or force.",
+            "example": "The device deflects heat away from the battery."
+          },
+          {
+            "pattern": "be designed to deflect + noun",
+            "use": "Use this for equipment or structures created to redirect something.",
+            "example": "The wall was designed to deflect strong winds."
+          }
+        ],
+        "errors": [
+          {
+            "wrong": "The shield deflected away the particles.",
+            "correct": "The shield deflected the particles away.",
+            "explanation": "Place the object directly after deflect."
+          },
+          {
+            "wrong": "The barrier deflected the water to hit the building.",
+            "correct": "The barrier deflected the water away from the building.",
+            "explanation": "Use away from when the purpose is to redirect something so that it does not hit a particular place."
+          }
+        ]
+      },
+      {
+        "sense_title": "Change direction",
+        "part_of_speech": "intransitive verb",
+        "ipa": "/dɪˈflɛkt/",
+        "definition": "to change direction after hitting something or being affected by a force",
+        "examples": [
+          "The ball deflected off a defender and entered the goal.",
+          "Some of the incoming radiation is deflected by particles in the atmosphere.",
+          "The stream of water deflected to the side when it struck the metal plate.",
+          "The projectile deflected upward after striking the hard surface.",
+          "Light can deflect as it passes through certain materials.",
+          "The ball deflected off the post and rolled across the field.",
+          "The beam deflected slightly when the equipment was moved."
+        ],
+        "plain_english_equivalent": "turn in a different direction",
+        "typical_pattern": "deflect off + surface or deflect to + direction",
+        "register": "neutral to formal; common in physical descriptions and technical contexts",
+        "nuance": {
+          "central_nuance": "Here the subject itself changes direction rather than causing another thing to change direction.",
+          "usual_implication": "The change often happens because the moving object strikes a surface or encounters another force."
+        },
+        "grammar": {
+          "how_to_use": "In this meaning, the moving object itself is the subject, so the verb does not need an object.",
+          "what_can_follow": "It is often followed by off and the surface that was hit, or by a word showing the new direction.",
+          "preposition_note": "Use deflect off something when the object changes direction after contact, as in The ball deflected off the wall."
+        },
+        "patterns": [
+          {
+            "pattern": "deflect off + surface or object",
+            "use": "Use this when something changes direction after hitting another object.",
+            "example": "The ball deflected off the goalkeeper."
+          },
+          {
+            "pattern": "deflect to + direction",
+            "use": "Use this to state the direction in which something turns.",
+            "example": "The stream deflected to the left."
+          },
+          {
+            "pattern": "be deflected by + force or object",
+            "use": "Use the passive form when emphasizing what caused the change in direction.",
+            "example": "The particles were deflected by the magnetic field."
+          }
+        ],
+        "errors": [
+          {
+            "wrong": "The ball deflected from the defender and changed direction.",
+            "correct": "The ball deflected off the defender and changed direction.",
+            "explanation": "Use deflect off when something changes direction after hitting another object."
+          },
+          {
+            "wrong": "The beam was deflected from the magnetic field.",
+            "correct": "The beam was deflected by the magnetic field.",
+            "explanation": "Use by to identify the force or object that causes the deflection."
+          }
+        ]
+      },
+      {
+        "sense_title": "Redirect attention or criticism",
+        "part_of_speech": "transitive verb",
+        "ipa": "/dɪˈflɛkt/",
+        "definition": "to turn attention, criticism, blame, or a difficult question away from a person or subject",
+        "examples": [
+          "The spokesperson tried to deflect criticism by emphasizing the company's recent achievements.",
+          "The minister deflected questions about the failed project and discussed future plans instead.",
+          "Some leaders attempt to deflect blame onto other departments when problems arise.",
+          "The company tried to deflect attention away from the environmental impact of the project.",
+          "Rather than answering directly, he deflected the question with a joke.",
+          "Officials accused the organization of trying to deflect responsibility for the accident.",
+          "The advertisement was intended to deflect public attention from the recent controversy."
+        ],
+        "plain_english_equivalent": "turn attention or blame away",
+        "typical_pattern": "deflect + criticism, blame, attention, question, or responsibility",
+        "register": "neutral to formal; common in politics, journalism, business, and discussions of communication",
+        "nuance": {
+          "central_nuance": "This figurative use treats attention, blame, or criticism as if it were something moving toward a person and being turned elsewhere.",
+          "usual_implication": "It often suggests avoiding responsibility, an uncomfortable topic, or a direct answer.",
+          "contrast_term": "address",
+          "contrast_explanation": "To address criticism or a question is to deal with it directly. To deflect it is to redirect attention away from it."
+        },
+        "grammar": {
+          "how_to_use": "This verb normally needs the criticism, blame, attention, question, or responsibility after it.",
+          "what_can_follow": "Common objects include criticism, blame, attention, questions, responsibility, suspicion, and pressure.",
+          "preposition_note": "Use away from to show what attention is being redirected from. With blame, onto is common when naming the new target, as in deflect blame onto someone else.",
+          "position_note": "It is often followed by by and an -ing form to explain how the deflection happens."
+        },
+        "patterns": [
+          {
+            "pattern": "deflect criticism",
+            "use": "Use this when someone tries to reduce or redirect criticism.",
+            "example": "The company released new figures in an attempt to deflect criticism."
+          },
+          {
+            "pattern": "deflect attention away from + noun",
+            "use": "Use this when someone tries to make people focus on something else.",
+            "example": "The announcement deflected attention away from the budget problems."
+          },
+          {
+            "pattern": "deflect blame onto + person or group",
+            "use": "Use this when someone tries to make another person appear responsible.",
+            "example": "The manager tried to deflect blame onto junior employees."
+          },
+          {
+            "pattern": "deflect a question",
+            "use": "Use this when someone avoids answering a question directly.",
+            "example": "The politician deflected the question and changed the subject."
+          },
+          {
+            "pattern": "deflect something by + -ing form",
+            "use": "Use this to explain the method used to redirect criticism or attention.",
+            "example": "The company tried to deflect criticism by announcing a new environmental program."
+          }
+        ],
+        "errors": [
+          {
+            "wrong": "The minister deflected from the question.",
+            "correct": "The minister deflected the question.",
+            "explanation": "When deflect means avoid or redirect a question, place the question directly after the verb."
+          },
+          {
+            "wrong": "The company deflected blame to its suppliers.",
+            "correct": "The company deflected blame onto its suppliers.",
+            "explanation": "Use onto when blame is redirected toward another person or group."
+          },
+          {
+            "wrong": "She deflected attention from herself to not answer.",
+            "correct": "She deflected attention away from herself to avoid answering.",
+            "explanation": "Use away from for the original focus and to avoid when explaining the purpose."
+          }
+        ]
+      }
+    ],
+    "word_family": [
+      {
+        "word": "deflection",
+        "part_of_speech": "countable or uncountable noun",
+        "definition": "a change in direction, or an attempt to redirect attention, criticism, or responsibility",
+        "examples": [
+          "The magnetic field caused a slight deflection of the particles.",
+          "Critics described his response as a deflection rather than a direct answer.",
+          "Engineers measured the deflection of the beam under pressure."
+        ],
+        "ipa": "/dɪˈflɛkʃən/",
+        "relationship_to_headword": "This noun names the physical change in direction or the figurative act of redirecting attention or criticism.",
+        "grammar_pattern": "the deflection of + object or a deflection from + issue",
+        "usage_note": "It is common in physics and engineering, and it is also used figuratively in discussions of communication."
+      },
+      {
+        "word": "deflector",
+        "part_of_speech": "countable noun",
+        "definition": "a device or surface designed to change the direction of something such as air, heat, water, or particles",
+        "examples": [
+          "The machine uses a metal deflector to direct hot air away from the motor.",
+          "A wind deflector was installed above the entrance."
+        ],
+        "ipa": "/dɪˈflɛktər/",
+        "relationship_to_headword": "A deflector is something designed to deflect a moving substance or force.",
+        "grammar_pattern": "air, wind, heat, or water + deflector",
+        "usage_note": "It is mainly used in technical and engineering contexts."
+      }
+    ],
+    "collocations": [
+      {
+        "collocation": "deflect attention",
+        "example": "The announcement was intended to deflect attention from the investigation.",
+        "applies_to_sense": "Redirect attention or criticism",
+        "meaning": "cause people to focus on something else",
+        "grammar_pattern": "deflect attention away from + issue"
+      },
+      {
+        "collocation": "deflect criticism",
+        "example": "Officials attempted to deflect criticism by promising an independent review.",
+        "applies_to_sense": "Redirect attention or criticism",
+        "meaning": "redirect or reduce criticism directed at someone"
+      },
+      {
+        "collocation": "deflect blame",
+        "example": "The executive tried to deflect blame onto the previous management team.",
+        "applies_to_sense": "Redirect attention or criticism",
+        "meaning": "redirect responsibility for a problem toward someone else",
+        "grammar_pattern": "deflect blame onto + person or group"
+      },
+      {
+        "collocation": "deflect a question",
+        "example": "The spokesperson deflected the question and returned to the prepared statement.",
+        "applies_to_sense": "Redirect attention or criticism",
+        "meaning": "avoid answering a question directly"
+      },
+      {
+        "collocation": "deflect responsibility",
+        "example": "The report accused senior managers of trying to deflect responsibility for the failure.",
+        "applies_to_sense": "Redirect attention or criticism",
+        "meaning": "avoid accepting responsibility by directing it elsewhere"
+      },
+      {
+        "collocation": "deflect heat",
+        "example": "The reflective surface helps deflect heat away from the building.",
+        "applies_to_sense": "Cause to change direction",
+        "meaning": "redirect heat away from a particular place",
+        "grammar_pattern": "deflect heat away from + object"
+      },
+      {
+        "collocation": "deflect radiation",
+        "example": "The magnetic field can deflect some forms of charged radiation.",
+        "applies_to_sense": "Cause to change direction",
+        "meaning": "cause radiation or charged particles to move in another direction"
+      },
+      {
+        "collocation": "deflect off",
+        "example": "The ball deflected off the wall and returned toward the player.",
+        "applies_to_sense": "Change direction",
+        "meaning": "change direction after hitting something",
+        "grammar_pattern": "deflect off + surface or object"
+      },
+      {
+        "collocation": "be deflected by",
+        "example": "The particles were deflected by Earth's magnetic field.",
+        "applies_to_sense": "Change direction",
+        "meaning": "have one's direction changed by a force or object",
+        "grammar_pattern": "be deflected by + force or object"
+      },
+      {
+        "collocation": "slight deflection",
+        "example": "The experiment produced a slight deflection in the path of the beam.",
+        "applies_to_sense": "Change direction",
+        "meaning": "a small change in direction",
+        "usage_note": "Deflection is the noun form."
+      }
+    ],
+    "synonyms": [
+      {
+        "word": "redirect",
+        "part_of_speech": "transitive verb",
+        "applies_to_sense": "all senses",
+        "difference": "Redirect is a broad, neutral word for sending something in a different direction. Deflect often suggests that the change happens because of contact, force, resistance, or an attempt to avoid something.",
+        "example": "The system redirects excess water into a storage tank.",
+        "shared_meaning": "Both verbs can mean cause something to move or focus in a different direction."
+      },
+      {
+        "word": "divert",
+        "part_of_speech": "transitive verb",
+        "applies_to_sense": "all senses",
+        "difference": "Divert often means deliberately send something along a different route or shift resources or attention elsewhere. Deflect often suggests turning something aside from its original path or target.",
+        "example": "Traffic was diverted around the damaged bridge.",
+        "shared_meaning": "Both verbs can describe changing direction or shifting attention."
+      },
+      {
+        "word": "avoid",
+        "part_of_speech": "transitive verb",
+        "applies_to_sense": "Redirect attention or criticism",
+        "difference": "Avoid means stay away from or not deal with something. Deflect is more specific and suggests redirecting the question, criticism, or attention elsewhere.",
+        "example": "The official avoided answering the most difficult question.",
+        "shared_meaning": "Both can describe not dealing directly with an uncomfortable issue."
+      }
+    ],
+    "antonyms": [
+      {
+        "word": "address",
+        "part_of_speech": "transitive verb",
+        "applies_to_sense": "Redirect attention or criticism",
+        "opposition": "To address a question or criticism is to deal with it directly, while to deflect it is to redirect attention away from it.",
+        "example": "The minister directly addressed concerns about the new policy."
+      }
+    ],
+    "confusables": [
+      {
+        "word": "reflect",
+        "key_difference": "Deflect means change the direction of something. Reflect can mean send light, sound, or heat back from a surface, often toward the side it came from.",
+        "headword_example": "The shield deflects charged particles away from the spacecraft.",
+        "confusable_example": "The mirror reflects light back toward the observer.",
+        "part_of_speech": "verb",
+        "why_confused": "Both verbs can describe a change in the path of energy or moving particles."
+      },
+      {
+        "word": "distract",
+        "key_difference": "Deflect attention means deliberately redirect attention away from a subject. Distract means make it difficult for someone to concentrate, often without giving the attention a specific new target.",
+        "headword_example": "The spokesperson tried to deflect attention from the scandal.",
+        "confusable_example": "Noise from the hallway distracted the students during the test.",
+        "part_of_speech": "transitive verb",
+        "why_confused": "Both can involve changing what someone is paying attention to."
+      }
+    ],
+    "etymology": {
+      "origin": "Deflect comes from Latin deflectere, meaning to bend or turn aside."
+    },
+    "exercises": {
+      "word_family_choice": [
+        {
+          "prompt_sentence": "Engineers measured the _____ of the metal beam under heavy pressure.",
+          "answer": "deflection",
+          "completed_sentence": "Engineers measured the deflection of the metal beam under heavy pressure.",
+          "explanation": "Use the noun deflection for a change in position or direction."
+        },
+        {
+          "prompt_sentence": "The machine includes a heat _____ that protects sensitive components.",
+          "answer": "deflector",
+          "completed_sentence": "The machine includes a heat deflector that protects sensitive components.",
+          "explanation": "Use deflector for a device designed to redirect heat."
+        },
+        {
+          "prompt_sentence": "The shield helps _____ small particles away from the spacecraft.",
+          "answer": "deflect",
+          "completed_sentence": "The shield helps deflect small particles away from the spacecraft.",
+          "explanation": "Use the base verb deflect after helps."
+        }
+      ],
+      "correct_or_incorrect": [
+        {
+          "sentence": "The barrier deflects wind away from the building.",
+          "verdict": "Correct",
+          "explanation": "Deflect something away from something is a natural physical pattern."
+        },
+        {
+          "sentence": "The ball deflected from the wall and changed direction.",
+          "verdict": "Incorrect",
+          "corrected_sentence": "The ball deflected off the wall and changed direction.",
+          "explanation": "Use deflect off when something changes direction after hitting a surface."
+        },
+        {
+          "sentence": "The politician tried to deflect the question by discussing another issue.",
+          "verdict": "Correct",
+          "explanation": "Deflect a question correctly means avoid answering it directly by redirecting attention."
+        },
+        {
+          "sentence": "The manager deflected blame to junior employees.",
+          "verdict": "Incorrect",
+          "corrected_sentence": "The manager deflected blame onto junior employees.",
+          "explanation": "Use onto when blame is redirected toward another person or group."
+        }
+      ],
+      "collocation_practice": [
+        {
+          "prompt_sentence": "The reflective surface helps deflect heat _____ from the equipment.",
+          "answer": "away",
+          "completed_sentence": "The reflective surface helps deflect heat away from the equipment.",
+          "explanation": "Deflect something away from something means redirect it so that it does not reach the target."
+        },
+        {
+          "prompt_sentence": "The spokesperson attempted to deflect _____ by blaming outside contractors.",
+          "answer": "criticism",
+          "completed_sentence": "The spokesperson attempted to deflect criticism by blaming outside contractors.",
+          "explanation": "Deflect criticism means redirect or reduce criticism aimed at someone."
+        },
+        {
+          "prompt_sentence": "The ball deflected _____ the defender and changed direction.",
+          "answer": "off",
+          "completed_sentence": "The ball deflected off the defender and changed direction.",
+          "explanation": "Use deflect off when a moving object changes direction after contact."
+        },
+        {
+          "prompt_sentence": "The company tried to deflect blame _____ its suppliers.",
+          "answer": "onto",
+          "completed_sentence": "The company tried to deflect blame onto its suppliers.",
+          "explanation": "Deflect blame onto someone means redirect responsibility toward that person or group."
+        }
+      ]
+    }
+  }

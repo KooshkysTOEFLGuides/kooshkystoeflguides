@@ -1,0 +1,343 @@
+{
+    "document_type": "kooshky_toefl_word_of_the_day",
+    "schema_version": "1.3",
+    "slug": "obsolete",
+    "word": "obsolete",
+    "date": "August 18th 2026",
+    "pronunciation": {
+      "primary_ipa": "/ˌɑːbsəˈliːt/"
+    },
+    "hero": {
+      "part_of_speech_summary": "adjective",
+      "short_meanings": [
+        "no longer used or useful"
+      ],
+      "one_line_summary": "Obsolete describes something that is no longer used, needed, or useful because circumstances have changed or a newer alternative has replaced it.",
+      "memorable_example": "Many older computer systems became obsolete as faster and cheaper technology was developed."
+    },
+    "meanings": [
+      {
+        "sense_title": "No longer used or useful",
+        "part_of_speech": "adjective",
+        "ipa": "/ˌɑːbsəˈliːt/",
+        "definition": "no longer used, needed, or useful, usually because something newer or more effective has replaced it",
+        "examples": [
+          "Many older computer systems became obsolete as faster and cheaper technology was developed.",
+          "The company replaced its obsolete equipment with modern automated machines.",
+          "Some traditional skills become obsolete when new technologies change the way work is performed.",
+          "The invention of digital photography made some types of photographic equipment obsolete.",
+          "Scientists abandoned the obsolete classification system after new genetic evidence became available.",
+          "The factory continued to rely on obsolete machinery that was expensive to maintain.",
+          "Changes in transportation gradually made the old trade route obsolete.",
+          "Online databases have rendered many older methods of storing and retrieving information obsolete."
+        ],
+        "plain_english_equivalent": "old and no longer useful",
+        "typical_pattern": "become, make, or render + something + obsolete",
+        "register": "neutral to formal; common in technology, business, science, industry, history, and discussions of social change",
+        "nuance": {
+          "central_nuance": "Obsolete does not simply mean old. Something is obsolete because it is no longer useful, necessary, or commonly used under current conditions.",
+          "usual_implication": "The thing has often been replaced by a newer technology, method, system, or practice.",
+          "contrast_term": "outdated",
+          "contrast_explanation": "Outdated means old-fashioned or no longer fully suitable for current conditions. Obsolete is stronger and usually means something is no longer used or useful at all."
+        },
+        "grammar": {
+          "how_to_use": "Use it before a noun, as in obsolete equipment, or after a linking verb, as in The equipment is obsolete.",
+          "what_can_follow": "It commonly describes technology, equipment, machinery, methods, systems, skills, ideas, laws, and practices.",
+          "position_note": "It often appears after become or be rendered when describing a change over time."
+        },
+        "patterns": [
+          {
+            "pattern": "become obsolete",
+            "use": "Use this when something gradually stops being useful or commonly used.",
+            "example": "Many specialized devices became obsolete after smartphones became widely available."
+          },
+          {
+            "pattern": "make + object + obsolete",
+            "use": "Use this when a new development causes an older thing to lose its usefulness.",
+            "example": "The new manufacturing process could make several older machines obsolete."
+          },
+          {
+            "pattern": "render + object + obsolete",
+            "use": "This is a more formal way to say that something causes another thing to become obsolete.",
+            "example": "Advances in navigation technology rendered the old system obsolete."
+          },
+          {
+            "pattern": "obsolete + technology, equipment, or machinery",
+            "use": "Use this for physical technology that has been replaced by newer alternatives.",
+            "example": "The factory still operates with obsolete machinery."
+          },
+          {
+            "pattern": "obsolete + method, system, or practice",
+            "use": "Use this for a way of doing something that is no longer useful or appropriate.",
+            "example": "The researchers rejected the obsolete method in favor of a more accurate technique."
+          }
+        ],
+        "errors": [
+          {
+            "wrong": "The computer is obsolete because it is five years old.",
+            "correct": "The computer may be outdated because it is five years old, but it is obsolete only if it is no longer useful or supported.",
+            "explanation": "Old does not automatically mean obsolete. Obsolete strongly suggests that something is no longer useful or commonly used."
+          },
+          {
+            "wrong": "The new technology became the old machines obsolete.",
+            "correct": "The new technology made the old machines obsolete.",
+            "explanation": "Use make something obsolete, not become something obsolete."
+          },
+          {
+            "wrong": "The old system was obsoleted by the new one.",
+            "correct": "The old system was made obsolete by the new one.",
+            "explanation": "For learners, make something obsolete or render something obsolete is much more natural than using obsolete as a verb."
+          },
+          {
+            "wrong": "The equipment is very obsoletely.",
+            "correct": "The equipment is very obsolete.",
+            "explanation": "Use the adjective obsolete after is."
+          }
+        ]
+      }
+    ],
+    "word_family": [
+      {
+        "word": "obsolescence",
+        "part_of_speech": "uncountable noun",
+        "definition": "the process or condition of becoming no longer useful or used because something newer has replaced it",
+        "examples": [
+          "Rapid technological change has increased the rate of obsolescence in the electronics industry.",
+          "Companies must consider equipment obsolescence when planning long-term investments.",
+          "The rapid obsolescence of digital devices creates large amounts of electronic waste."
+        ],
+        "ipa": "/ˌɑːbsəˈlɛsəns/",
+        "relationship_to_headword": "This noun names the process or state of becoming obsolete.",
+        "grammar_pattern": "the obsolescence of + technology or equipment, or technological obsolescence",
+        "usage_note": "It is formal and normally used without a or an."
+      },
+      {
+        "word": "obsolescent",
+        "part_of_speech": "adjective",
+        "definition": "becoming obsolete but not yet completely out of use",
+        "examples": [
+          "The company gradually replaced its obsolescent computer systems.",
+          "Some obsolescent technologies remain in use because replacing them is expensive."
+        ],
+        "ipa": "/ˌɑːbsəˈlɛsənt/",
+        "relationship_to_headword": "Obsolescent describes something that is in the process of becoming obsolete.",
+        "grammar_pattern": "obsolescent + technology, equipment, system, or practice",
+        "usage_note": "It is considerably less common than obsolete and is mainly used in formal or technical writing."
+      }
+    ],
+    "collocations": [
+      {
+        "collocation": "become obsolete",
+        "example": "Printed telephone directories became obsolete as people began searching for contact information online.",
+        "applies_to_sense": "No longer used or useful",
+        "meaning": "stop being useful or commonly used"
+      },
+      {
+        "collocation": "make something obsolete",
+        "example": "The introduction of digital maps made many paper navigation tools obsolete.",
+        "applies_to_sense": "No longer used or useful",
+        "meaning": "cause something to stop being useful or necessary",
+        "grammar_pattern": "make + object + obsolete"
+      },
+      {
+        "collocation": "render something obsolete",
+        "example": "The discovery rendered the earlier theory obsolete.",
+        "applies_to_sense": "No longer used or useful",
+        "meaning": "cause something to become no longer useful or relevant",
+        "grammar_pattern": "render + object + obsolete",
+        "usage_note": "Render obsolete is more formal than make obsolete."
+      },
+      {
+        "collocation": "obsolete technology",
+        "example": "The hospital replaced obsolete technology with newer diagnostic equipment.",
+        "applies_to_sense": "No longer used or useful",
+        "meaning": "technology that has been replaced by newer alternatives"
+      },
+      {
+        "collocation": "obsolete equipment",
+        "example": "Maintaining obsolete equipment can be expensive because replacement parts are difficult to find.",
+        "applies_to_sense": "No longer used or useful",
+        "meaning": "equipment that is no longer suitable for current use"
+      },
+      {
+        "collocation": "obsolete machinery",
+        "example": "The factory's obsolete machinery limited its productivity.",
+        "applies_to_sense": "No longer used or useful",
+        "meaning": "old machines that have been replaced by more effective technology"
+      },
+      {
+        "collocation": "obsolete system",
+        "example": "The government is replacing an obsolete system for storing public records.",
+        "applies_to_sense": "No longer used or useful",
+        "meaning": "a system that no longer meets current needs"
+      },
+      {
+        "collocation": "obsolete method",
+        "example": "The laboratory stopped using the obsolete method after a more accurate test became available.",
+        "applies_to_sense": "No longer used or useful",
+        "meaning": "a method that has been replaced by a newer or better one"
+      },
+      {
+        "collocation": "obsolete skills",
+        "example": "Automation can make some occupational skills obsolete while creating demand for new ones.",
+        "applies_to_sense": "No longer used or useful",
+        "meaning": "skills that are no longer needed because work practices or technologies have changed"
+      },
+      {
+        "collocation": "technological obsolescence",
+        "example": "Rapid technological obsolescence encourages consumers to replace electronic devices frequently.",
+        "applies_to_sense": "No longer used or useful",
+        "meaning": "the process by which technology becomes outdated and no longer useful",
+        "usage_note": "Obsolescence is the noun form."
+      },
+      {
+        "collocation": "planned obsolescence",
+        "example": "Critics of planned obsolescence argue that products should be designed to last longer.",
+        "applies_to_sense": "No longer used or useful",
+        "meaning": "a business practice in which products are designed or marketed so that consumers will replace them after a limited period",
+        "usage_note": "This is an established business and economics term using the noun obsolescence."
+      }
+    ],
+    "synonyms": [
+      {
+        "word": "outdated",
+        "part_of_speech": "adjective",
+        "applies_to_sense": "No longer used or useful",
+        "difference": "Outdated means old-fashioned or no longer suitable for current conditions. Something outdated may still be used, while obsolete more strongly suggests that it has been replaced and is no longer useful or necessary.",
+        "example": "The textbook contains outdated information about computer technology.",
+        "shared_meaning": "Both describe something that has fallen behind current developments."
+      },
+      {
+        "word": "outmoded",
+        "part_of_speech": "adjective",
+        "applies_to_sense": "No longer used or useful",
+        "difference": "Outmoded means no longer fashionable or suitable because newer ideas or methods exist. Obsolete more strongly emphasizes that something has effectively fallen out of use.",
+        "example": "The company abandoned its outmoded management practices.",
+        "shared_meaning": "Both can describe methods, ideas, or systems that have been replaced by newer alternatives."
+      },
+      {
+        "word": "superseded",
+        "part_of_speech": "adjective",
+        "applies_to_sense": "No longer used or useful",
+        "difference": "Superseded specifically means replaced by something newer or more effective. Obsolete describes the resulting condition of no longer being useful or commonly used.",
+        "example": "The old standard has been superseded by a newer international standard.",
+        "shared_meaning": "Both can describe something that has been displaced by a newer alternative."
+      }
+    ],
+    "antonyms": [
+      {
+        "word": "current",
+        "part_of_speech": "adjective",
+        "applies_to_sense": "No longer used or useful",
+        "opposition": "Current describes something presently used, accepted, or up to date, while obsolete describes something no longer useful or used.",
+        "example": "The website provides information about current safety regulations."
+      },
+      {
+        "word": "state-of-the-art",
+        "part_of_speech": "adjective",
+        "applies_to_sense": "No longer used or useful",
+        "opposition": "State-of-the-art describes technology or equipment using the most advanced available methods, while obsolete technology has been replaced by newer alternatives.",
+        "example": "The laboratory contains state-of-the-art imaging equipment.",
+        "usage_note": "This opposite is especially useful when talking about technology or equipment."
+      }
+    ],
+    "confusables": [
+      {
+        "word": "outdated",
+        "key_difference": "Outdated means no longer modern or fully suitable. Obsolete is usually stronger and means no longer useful, necessary, or commonly used because something newer has replaced it.",
+        "headword_example": "The company can no longer obtain parts for its obsolete computers.",
+        "confusable_example": "The website looks outdated, but it still works properly.",
+        "part_of_speech": "adjective",
+        "why_confused": "Both describe things that have fallen behind newer developments."
+      },
+      {
+        "word": "obsolescent",
+        "key_difference": "Obsolete means already no longer useful or commonly used. Obsolescent means becoming obsolete but not yet completely out of use.",
+        "headword_example": "The obsolete system was finally removed.",
+        "confusable_example": "The obsolescent system is still operating but will soon be replaced.",
+        "part_of_speech": "adjective",
+        "why_confused": "The words belong to the same family but describe different stages of the process."
+      }
+    ],
+    "etymology": {
+      "origin": "Obsolete comes from Latin obsolescere, meaning to wear out, fall out of use, or become old.",
+      "memory_link": "Something obsolete has effectively worn out its usefulness because newer conditions or alternatives have replaced it."
+    },
+    "exercises": {
+      "word_family_choice": [
+        {
+          "prompt_sentence": "Rapid technological _____ can force companies to replace expensive equipment frequently.",
+          "answer": "obsolescence",
+          "completed_sentence": "Rapid technological obsolescence can force companies to replace expensive equipment frequently.",
+          "explanation": "Use the noun obsolescence for the process of becoming obsolete."
+        },
+        {
+          "prompt_sentence": "The company is gradually replacing its _____ computer systems before they become completely obsolete.",
+          "answer": "obsolescent",
+          "completed_sentence": "The company is gradually replacing its obsolescent computer systems before they become completely obsolete.",
+          "explanation": "Obsolescent means in the process of becoming obsolete."
+        },
+        {
+          "prompt_sentence": "The old communication system became _____ after the introduction of mobile networks.",
+          "answer": "obsolete",
+          "completed_sentence": "The old communication system became obsolete after the introduction of mobile networks.",
+          "explanation": "Use the adjective obsolete after became."
+        }
+      ],
+      "correct_or_incorrect": [
+        {
+          "sentence": "The invention of digital cameras made some older photographic technologies obsolete.",
+          "verdict": "Correct",
+          "explanation": "Make something obsolete is a standard pattern."
+        },
+        {
+          "sentence": "The machine is obsolete simply because it is ten years old.",
+          "verdict": "Incorrect",
+          "corrected_sentence": "The machine may be outdated because it is ten years old, but it is obsolete only if it is no longer useful or has been replaced.",
+          "explanation": "Age alone does not make something obsolete."
+        },
+        {
+          "sentence": "The new software rendered the old system obsolete.",
+          "verdict": "Correct",
+          "explanation": "Render something obsolete is a common formal pattern meaning cause it to become no longer useful."
+        },
+        {
+          "sentence": "The new technology became the old equipment obsolete.",
+          "verdict": "Incorrect",
+          "corrected_sentence": "The new technology made the old equipment obsolete.",
+          "explanation": "Use make something obsolete, not become something obsolete."
+        },
+        {
+          "sentence": "The factory still relies on obsolete machinery that is difficult to repair.",
+          "verdict": "Correct",
+          "explanation": "Obsolete machinery naturally describes machines that have been replaced by newer technology but may still remain in use."
+        }
+      ],
+      "collocation_practice": [
+        {
+          "prompt_sentence": "Rapid advances in technology can make older devices _____.",
+          "answer": "obsolete",
+          "completed_sentence": "Rapid advances in technology can make older devices obsolete.",
+          "explanation": "Make something obsolete means cause it to become no longer useful or necessary."
+        },
+        {
+          "prompt_sentence": "The factory replaced its obsolete _____ with newer automated machines.",
+          "answer": "machinery",
+          "completed_sentence": "The factory replaced its obsolete machinery with newer automated machines.",
+          "explanation": "Obsolete machinery is a common expression for equipment that has been replaced by newer technology."
+        },
+        {
+          "prompt_sentence": "The new discovery rendered the previous classification system _____.",
+          "answer": "obsolete",
+          "completed_sentence": "The new discovery rendered the previous classification system obsolete.",
+          "explanation": "Render something obsolete is a formal way to say that something causes it to become no longer useful."
+        },
+        {
+          "prompt_sentence": "Rapid technological _____ is a major concern for manufacturers of electronic devices.",
+          "answer": "obsolescence",
+          "completed_sentence": "Rapid technological obsolescence is a major concern for manufacturers of electronic devices.",
+          "explanation": "Technological obsolescence is the process by which technology becomes outdated and loses its usefulness."
+        }
+      ]
+    }
+  }

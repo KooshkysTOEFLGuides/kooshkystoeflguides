@@ -1,0 +1,360 @@
+{
+    "document_type": "kooshky_toefl_word_of_the_day",
+    "schema_version": "1.3",
+    "slug": "pervasive",
+    "word": "pervasive",
+    "date": "August 16th 2026",
+    "pronunciation": {
+      "primary_ipa": "/pərˈveɪsɪv/"
+    },
+    "hero": {
+      "part_of_speech_summary": "adjective",
+      "short_meanings": [
+        "widespread throughout a place or system"
+      ],
+      "one_line_summary": "Pervasive describes something that spreads through or affects many parts of a place, society, system, or situation.",
+      "memorable_example": "Smartphones have had a pervasive influence on modern communication."
+    },
+    "meanings": [
+      {
+        "sense_title": "Widespread throughout a place or system",
+        "part_of_speech": "adjective",
+        "ipa": "/pərˈveɪsɪv/",
+        "definition": "spreading through or affecting many parts of a place, group, system, or situation",
+        "examples": [
+          "Smartphones have had a pervasive influence on modern communication.",
+          "The report describes a pervasive sense of distrust among employees.",
+          "Air pollution remains a pervasive problem in many large cities.",
+          "Researchers found that social inequality was pervasive throughout the region.",
+          "A pervasive smell of smoke remained in the building after the fire.",
+          "The study examined the pervasive effects of advertising on consumer behavior.",
+          "Corruption had become pervasive across several levels of government.",
+          "The internet has become a pervasive part of everyday life."
+        ],
+        "plain_english_equivalent": "present almost everywhere",
+        "typical_pattern": "pervasive + influence, problem, effect, presence, attitude, or sense",
+        "register": "formal; common in academic, social, political, environmental, and professional writing",
+        "nuance": {
+          "central_nuance": "Pervasive does not simply mean common. It suggests that something has spread deeply or widely enough to be present in many different parts of a system or environment.",
+          "usual_implication": "The word is often used for problems, influences, attitudes, or effects that are difficult to avoid because they are widely present.",
+          "contrast_term": "isolated",
+          "contrast_explanation": "An isolated problem exists only in a limited place or situation. A pervasive problem is widespread and affects many different areas or people."
+        },
+        "grammar": {
+          "how_to_use": "Use it before a noun, as in a pervasive influence, or after a linking verb, as in The problem is pervasive.",
+          "what_can_follow": "It commonly describes influence, effect, problem, presence, attitude, belief, culture, smell, atmosphere, or feeling.",
+          "preposition_note": "When describing where something is widespread, use throughout, across, or in, as in pervasive throughout society.",
+          "position_note": "Words such as highly, increasingly, deeply, and extremely can appear before pervasive."
+        },
+        "patterns": [
+          {
+            "pattern": "a pervasive influence",
+            "use": "Use this for an influence that affects many areas of life or behavior.",
+            "example": "Mass media has a pervasive influence on public attitudes."
+          },
+          {
+            "pattern": "a pervasive problem",
+            "use": "Use this for a problem that exists widely throughout a society, organization, or system.",
+            "example": "Housing insecurity is a pervasive problem in many rapidly growing cities."
+          },
+          {
+            "pattern": "a pervasive sense of + feeling",
+            "use": "Use this when a feeling is shared widely by many people.",
+            "example": "There was a pervasive sense of uncertainty after the announcement."
+          },
+          {
+            "pattern": "be pervasive throughout + place or system",
+            "use": "Use this when emphasizing that something exists in many parts of a larger whole.",
+            "example": "The practice was pervasive throughout the industry."
+          },
+          {
+            "pattern": "pervasive effects of + cause",
+            "use": "Use this for consequences that spread across many areas.",
+            "example": "The researchers studied the pervasive effects of prolonged drought on rural communities."
+          }
+        ],
+        "errors": [
+          {
+            "wrong": "The problem is pervasive in only one small department.",
+            "correct": "The problem is limited to one small department.",
+            "explanation": "Pervasive suggests that something is widespread, so it is usually inappropriate for something restricted to one small area."
+          },
+          {
+            "wrong": "Technology has pervasively influence on education.",
+            "correct": "Technology has a pervasive influence on education.",
+            "explanation": "Use the adjective pervasive before the noun influence."
+          },
+          {
+            "wrong": "Pollution is a pervasive throughout the city.",
+            "correct": "Pollution is pervasive throughout the city.",
+            "explanation": "Pervasive is an adjective, so do not use a before it unless it directly modifies a countable noun."
+          },
+          {
+            "wrong": "The smell was very pervasively.",
+            "correct": "The smell was very pervasive.",
+            "explanation": "Use the adjective pervasive after was. Pervasively is an adverb."
+          }
+        ]
+      }
+    ],
+    "word_family": [
+      {
+        "word": "pervade",
+        "part_of_speech": "transitive verb",
+        "definition": "to spread through and be present in every or many parts of something",
+        "examples": [
+          "A strong smell of smoke pervaded the building.",
+          "A sense of optimism pervaded the organization after the announcement.",
+          "Digital technology now pervades many aspects of daily life."
+        ],
+        "ipa": "/pərˈveɪd/",
+        "relationship_to_headword": "Pervade is the verb from which pervasive is formed.",
+        "grammar_pattern": "pervade + place, system, atmosphere, or aspect of life",
+        "usage_note": "It is formal and often used for smells, feelings, attitudes, influences, and ideas."
+      },
+      {
+        "word": "pervasiveness",
+        "part_of_speech": "uncountable noun",
+        "definition": "the quality of existing or spreading throughout many parts of a place, system, or situation",
+        "examples": [
+          "The study highlights the pervasiveness of digital technology in modern life.",
+          "Researchers were surprised by the pervasiveness of the problem across different age groups."
+        ],
+        "ipa": "/pərˈveɪsɪvnəs/",
+        "relationship_to_headword": "This noun names the quality of being pervasive.",
+        "grammar_pattern": "the pervasiveness of + influence, problem, technology, or practice",
+        "usage_note": "It is formal and mainly used in academic or analytical writing."
+      },
+      {
+        "word": "pervasively",
+        "part_of_speech": "adverb",
+        "definition": "in a way that spreads through or affects many parts of something",
+        "examples": [
+          "Digital systems are now pervasively integrated into modern workplaces.",
+          "The belief was pervasively present across the organization."
+        ],
+        "ipa": "/pərˈveɪsɪvli/",
+        "relationship_to_headword": "This adverb describes something that exists or operates in a widespread way.",
+        "grammar_pattern": "pervasively + present, distributed, integrated, or used",
+        "usage_note": "It is much less common than pervasive."
+      }
+    ],
+    "collocations": [
+      {
+        "collocation": "pervasive influence",
+        "example": "Social media has a pervasive influence on how people receive news.",
+        "applies_to_sense": "Widespread throughout a place or system",
+        "meaning": "an influence that affects many areas or people"
+      },
+      {
+        "collocation": "pervasive problem",
+        "example": "Food insecurity remains a pervasive problem in some regions.",
+        "applies_to_sense": "Widespread throughout a place or system",
+        "meaning": "a problem that exists widely across a population or system"
+      },
+      {
+        "collocation": "pervasive effect",
+        "example": "Urbanization has had pervasive effects on local ecosystems.",
+        "applies_to_sense": "Widespread throughout a place or system",
+        "meaning": "an effect that reaches many parts of something",
+        "grammar_pattern": "pervasive effects of + cause"
+      },
+      {
+        "collocation": "pervasive presence",
+        "example": "The pervasive presence of advertising shapes consumer choices.",
+        "applies_to_sense": "Widespread throughout a place or system",
+        "meaning": "the condition of being present almost everywhere"
+      },
+      {
+        "collocation": "pervasive sense of",
+        "example": "There was a pervasive sense of anxiety among employees.",
+        "applies_to_sense": "Widespread throughout a place or system",
+        "meaning": "a feeling shared widely across a group",
+        "grammar_pattern": "a pervasive sense of + feeling"
+      },
+      {
+        "collocation": "pervasive culture",
+        "example": "The investigation revealed a pervasive culture of secrecy within the organization.",
+        "applies_to_sense": "Widespread throughout a place or system",
+        "meaning": "a set of attitudes or practices that exists throughout an organization or society",
+        "grammar_pattern": "a pervasive culture of + noun"
+      },
+      {
+        "collocation": "pervasive attitude",
+        "example": "A pervasive attitude of distrust made cooperation difficult.",
+        "applies_to_sense": "Widespread throughout a place or system",
+        "meaning": "an attitude shared by many people"
+      },
+      {
+        "collocation": "pervasive inequality",
+        "example": "The report documents pervasive inequality in access to education.",
+        "applies_to_sense": "Widespread throughout a place or system",
+        "meaning": "inequality that exists broadly across a society or system"
+      },
+      {
+        "collocation": "pervasive throughout",
+        "example": "The practice became pervasive throughout the industry.",
+        "applies_to_sense": "Widespread throughout a place or system",
+        "meaning": "present in many or nearly all parts of something",
+        "grammar_pattern": "be pervasive throughout + place, organization, or system"
+      },
+      {
+        "collocation": "increasingly pervasive",
+        "example": "Digital surveillance has become increasingly pervasive in public spaces.",
+        "applies_to_sense": "Widespread throughout a place or system",
+        "meaning": "becoming more widespread over time"
+      },
+      {
+        "collocation": "the pervasiveness of",
+        "example": "Researchers examined the pervasiveness of social media use among teenagers.",
+        "applies_to_sense": "Widespread throughout a place or system",
+        "meaning": "the degree to which something is widespread",
+        "grammar_pattern": "the pervasiveness of + phenomenon",
+        "usage_note": "Pervasiveness is the noun form."
+      }
+    ],
+    "synonyms": [
+      {
+        "word": "widespread",
+        "part_of_speech": "adjective",
+        "applies_to_sense": "Widespread throughout a place or system",
+        "difference": "Widespread means existing in many places or among many people. Pervasive often goes further by suggesting that something has spread deeply through many parts of a system or environment.",
+        "example": "The policy received widespread public support.",
+        "shared_meaning": "Both describe something that exists over a large area or among many people."
+      },
+      {
+        "word": "prevalent",
+        "part_of_speech": "adjective",
+        "applies_to_sense": "Widespread throughout a place or system",
+        "difference": "Prevalent means common or frequently found in a particular group or place. Pervasive emphasizes how extensively something spreads through or affects the whole environment.",
+        "example": "The disease is particularly prevalent among older adults.",
+        "shared_meaning": "Both can describe something commonly found across a population or area."
+      },
+      {
+        "word": "ubiquitous",
+        "part_of_speech": "adjective",
+        "applies_to_sense": "Widespread throughout a place or system",
+        "difference": "Ubiquitous means seeming to be everywhere. Pervasive emphasizes spreading through and influencing many parts of a system or situation.",
+        "example": "Smartphones have become ubiquitous in many countries.",
+        "shared_meaning": "Both describe something that is present very widely."
+      },
+      {
+        "word": "extensive",
+        "part_of_speech": "adjective",
+        "applies_to_sense": "Widespread throughout a place or system",
+        "difference": "Extensive means covering a large amount, area, or range. Pervasive specifically suggests that something penetrates or affects many different parts of a whole.",
+        "example": "The storm caused extensive damage across the region.",
+        "shared_meaning": "Both can describe something that reaches a large area or scope."
+      }
+    ],
+    "antonyms": [
+      {
+        "word": "isolated",
+        "part_of_speech": "adjective",
+        "applies_to_sense": "Widespread throughout a place or system",
+        "opposition": "Isolated describes something limited to a small number of cases or locations, while pervasive describes something spread throughout many parts of a system or area.",
+        "example": "Investigators concluded that the failures were isolated incidents rather than evidence of a larger problem."
+      },
+      {
+        "word": "localized",
+        "part_of_speech": "adjective",
+        "applies_to_sense": "Widespread throughout a place or system",
+        "opposition": "Localized means restricted to a particular place or area, while pervasive means widely present across many areas.",
+        "example": "The environmental damage remained localized near the factory."
+      }
+    ],
+    "confusables": [
+      {
+        "word": "prevalent",
+        "key_difference": "Prevalent means common or frequently occurring. Pervasive suggests something is not only common but spread deeply or widely through many parts of a system or environment.",
+        "headword_example": "A pervasive culture of mistrust affected every department.",
+        "confusable_example": "Seasonal allergies are prevalent during the spring.",
+        "part_of_speech": "adjective",
+        "why_confused": "Both are formal adjectives used to describe things that are common or widespread."
+      },
+      {
+        "word": "pervasive",
+        "key_difference": "Pervasive describes something widespread throughout a system. Persuasive, which has a similar spelling, means able to convince people.",
+        "headword_example": "The report identified a pervasive problem with workplace stress.",
+        "confusable_example": "The researcher presented a persuasive argument for changing the policy.",
+        "part_of_speech": "adjective",
+        "why_confused": "Pervasive and persuasive look and sound somewhat similar but have unrelated meanings."
+      }
+    ],
+    "etymology": {
+      "origin": "Pervasive comes from the Latin verb pervadere, meaning to go through or spread through.",
+      "memory_link": "Think of something pervasive as spreading through many parts of a place or system."
+    },
+    "exercises": {
+      "word_family_choice": [
+        {
+          "prompt_sentence": "A strong smell of smoke seemed to _____ the entire building.",
+          "answer": "pervade",
+          "completed_sentence": "A strong smell of smoke seemed to pervade the entire building.",
+          "explanation": "Use the verb pervade after to."
+        },
+        {
+          "prompt_sentence": "The study examined the _____ of digital technology in modern education.",
+          "answer": "pervasiveness",
+          "completed_sentence": "The study examined the pervasiveness of digital technology in modern education.",
+          "explanation": "Use the noun pervasiveness after the."
+        },
+        {
+          "prompt_sentence": "The problem had become _____ throughout the organization.",
+          "answer": "pervasive",
+          "completed_sentence": "The problem had become pervasive throughout the organization.",
+          "explanation": "Use the adjective pervasive after become."
+        }
+      ],
+      "correct_or_incorrect": [
+        {
+          "sentence": "The organization faced a pervasive culture of distrust.",
+          "verdict": "Correct",
+          "explanation": "Pervasive correctly describes a culture that exists widely throughout the organization."
+        },
+        {
+          "sentence": "The problem was pervasive in one isolated office and nowhere else.",
+          "verdict": "Incorrect",
+          "corrected_sentence": "The problem was limited to one isolated office and occurred nowhere else.",
+          "explanation": "Pervasive implies that something is widespread, not restricted to one small location."
+        },
+        {
+          "sentence": "Digital technology has had a pervasive influence on modern society.",
+          "verdict": "Correct",
+          "explanation": "Pervasive influence is a natural collocation for an influence that reaches many areas of life."
+        },
+        {
+          "sentence": "The report showed that unemployment was very pervasively.",
+          "verdict": "Incorrect",
+          "corrected_sentence": "The report showed that unemployment was very pervasive.",
+          "explanation": "Use the adjective pervasive after was."
+        }
+      ],
+      "collocation_practice": [
+        {
+          "prompt_sentence": "The investigation revealed a pervasive _____ of secrecy throughout the organization.",
+          "answer": "culture",
+          "completed_sentence": "The investigation revealed a pervasive culture of secrecy throughout the organization.",
+          "explanation": "A pervasive culture is a set of attitudes or practices found widely across a group."
+        },
+        {
+          "prompt_sentence": "There was a pervasive sense _____ uncertainty among the employees.",
+          "answer": "of",
+          "completed_sentence": "There was a pervasive sense of uncertainty among the employees.",
+          "explanation": "Use a pervasive sense of followed by a feeling or condition."
+        },
+        {
+          "prompt_sentence": "The practice became pervasive _____ the entire industry.",
+          "answer": "throughout",
+          "completed_sentence": "The practice became pervasive throughout the entire industry.",
+          "explanation": "Pervasive throughout emphasizes that something exists in many parts of a larger system."
+        },
+        {
+          "prompt_sentence": "Researchers studied the pervasive _____ of advertising on consumer behavior.",
+          "answer": "effects",
+          "completed_sentence": "Researchers studied the pervasive effects of advertising on consumer behavior.",
+          "explanation": "Pervasive effects are consequences that reach many different areas."
+        }
+      ]
+    }
+  }

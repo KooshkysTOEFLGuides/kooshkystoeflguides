@@ -1,0 +1,534 @@
+{
+    "document_type": "kooshky_toefl_word_of_the_day",
+    "schema_version": "1.3",
+    "slug": "sanction",
+    "word": "sanction",
+    "date": "August 27th 2026",
+    "pronunciation": {
+      "primary_ipa": "/ˈsæŋkʃən/"
+    },
+    "hero": {
+      "part_of_speech_summary": "countable or uncountable noun; transitive verb",
+      "short_meanings": [
+        "official approval",
+        "official penalty",
+        "officially approve",
+        "officially punish"
+      ],
+      "one_line_summary": "Sanction is unusual because it can refer either to official approval or to official punishment, so context is essential.",
+      "memorable_example": "The government imposed economic sanctions on the country."
+    },
+    "meanings": [
+      {
+        "sense_title": "Official approval or permission",
+        "part_of_speech": "countable or uncountable noun",
+        "ipa": "/ˈsæŋkʃən/",
+        "definition": "official approval or permission for an action, decision, or activity",
+        "examples": [
+          "The project could not proceed without the official sanction of the local authorities.",
+          "The policy was introduced with the sanction of the university administration.",
+          "Military action would require government sanction.",
+          "The agreement received formal sanction from the governing board.",
+          "The researchers could not begin the experiment without institutional sanction.",
+          "The proposal eventually gained the sanction of senior officials.",
+          "The organization acted without the sanction of its members."
+        ],
+        "plain_english_equivalent": "official permission or approval",
+        "typical_pattern": "with, without, receive, gain, or require + sanction",
+        "register": "formal; common in legal, governmental, institutional, and political contexts",
+        "nuance": {
+          "central_nuance": "Sanction in this sense is not casual agreement. It usually means approval given by a person or institution with authority.",
+          "usual_implication": "The action may not be considered officially legitimate or permitted until the appropriate authority approves it.",
+          "contrast_term": "prohibition",
+          "contrast_explanation": "Sanction gives official permission, while prohibition officially prevents an action."
+        },
+        "grammar": {
+          "how_to_use": "Use sanction as a noun for official approval. It often appears after words such as receive, obtain, require, or without.",
+          "what_can_follow": "It is often followed by of when naming the approving authority, as in the sanction of the court.",
+          "preposition_note": "Common patterns include with the sanction of, without sanction, and receive sanction from.",
+          "noun_use": "Sanction can be used without a or an when referring generally to official approval, as in government sanction. A sanction is possible when referring to a specific act of approval, but this use is less common than the penalty meaning."
+        },
+        "patterns": [
+          {
+            "pattern": "with the sanction of + authority",
+            "use": "Use this when an action has official approval.",
+            "example": "The program was launched with the sanction of the governing board."
+          },
+          {
+            "pattern": "without sanction",
+            "use": "Use this when an action lacks official approval.",
+            "example": "The department changed the policy without sanction from senior administrators."
+          },
+          {
+            "pattern": "receive or gain sanction",
+            "use": "Use this when a proposal or action obtains official approval.",
+            "example": "The project received government sanction after months of review."
+          },
+          {
+            "pattern": "require sanction",
+            "use": "Use this when official approval is necessary before an action can occur.",
+            "example": "Any major change to the agreement requires board sanction."
+          }
+        ],
+        "errors": [
+          {
+            "wrong": "The project received a sanction, so it was punished.",
+            "correct": "The project received official sanction, so it was approved.",
+            "explanation": "In this sense, sanction means approval. Because the word can also mean a penalty, context must make the intended meaning clear."
+          },
+          {
+            "wrong": "The plan proceeded without the sanction from the board.",
+            "correct": "The plan proceeded without the sanction of the board.",
+            "explanation": "When naming the approving authority after the noun sanction, of is a common formal pattern."
+          }
+        ]
+      },
+      {
+        "sense_title": "Official penalty or restriction",
+        "part_of_speech": "countable noun",
+        "ipa": "/ˈsæŋkʃən/",
+        "definition": "an official penalty or restriction used to punish a person, organization, or country for breaking a rule or behaving in an unacceptable way",
+        "examples": [
+          "The government imposed economic sanctions on the country.",
+          "The organization may face sanctions for violating environmental regulations.",
+          "International sanctions severely limited the country's access to foreign markets.",
+          "The regulator threatened additional sanctions if the company failed to comply.",
+          "The court has several sanctions available for serious violations of its rules.",
+          "Trade sanctions can reduce a country's ability to import certain goods.",
+          "Officials debated whether stronger sanctions would change the government's behavior.",
+          "The athlete faced disciplinary sanctions after breaking competition rules."
+        ],
+        "plain_english_equivalent": "official punishment",
+        "typical_pattern": "impose, face, lift, tighten, ease, or violate + sanctions",
+        "register": "formal; very common in politics, international relations, law, business, and regulation",
+        "nuance": {
+          "central_nuance": "A sanction is an official measure intended to punish or pressure someone into changing behavior.",
+          "usual_implication": "Sanctions may involve fines, trade restrictions, travel restrictions, loss of privileges, or other penalties.",
+          "contrast_term": "incentive",
+          "contrast_explanation": "A sanction discourages behavior through punishment or restriction, while an incentive encourages behavior by offering a benefit."
+        },
+        "grammar": {
+          "how_to_use": "This meaning is countable. Use a sanction for one penalty and sanctions for several or for a group of official restrictions.",
+          "what_can_follow": "Common modifiers include economic, financial, trade, international, disciplinary, and legal.",
+          "preposition_note": "Use sanctions on or against a person, organization, or country, and sanctions for a violation.",
+          "noun_use": "The plural sanctions is especially common when talking about measures taken against countries, governments, companies, or individuals."
+        },
+        "patterns": [
+          {
+            "pattern": "impose sanctions on + country, organization, or person",
+            "use": "Use this when an authority officially introduces penalties.",
+            "example": "Several countries imposed sanctions on the regime."
+          },
+          {
+            "pattern": "face sanctions",
+            "use": "Use this when a person or organization may receive official punishment.",
+            "example": "Companies that violate the law may face severe sanctions."
+          },
+          {
+            "pattern": "economic or financial sanctions",
+            "use": "Use this for penalties that restrict trade, banking, money, or other economic activity.",
+            "example": "Economic sanctions reduced the country's access to international credit."
+          },
+          {
+            "pattern": "lift sanctions",
+            "use": "Use this when official penalties are removed.",
+            "example": "The government agreed to lift some sanctions after the agreement was signed."
+          },
+          {
+            "pattern": "sanctions against + person, group, or country",
+            "use": "Use this when identifying the target of official penalties.",
+            "example": "The organization called for stronger sanctions against companies involved in illegal trade."
+          }
+        ],
+        "errors": [
+          {
+            "wrong": "The government put sanctions to the country.",
+            "correct": "The government imposed sanctions on the country.",
+            "explanation": "The standard pattern is impose sanctions on someone or something."
+          },
+          {
+            "wrong": "The company received sanction for breaking the law.",
+            "correct": "The company faced sanctions for breaking the law.",
+            "explanation": "When sanction means punishment, the plural sanctions is very common, and face sanctions is a natural collocation."
+          },
+          {
+            "wrong": "The country was punished by an economic sanctionings.",
+            "correct": "The country was subjected to economic sanctions.",
+            "explanation": "Use the noun sanctions, not sanctionings."
+          }
+        ]
+      },
+      {
+        "sense_title": "Officially approve or permit",
+        "part_of_speech": "transitive verb",
+        "ipa": "/ˈsæŋkʃən/",
+        "definition": "to officially approve or give permission for an action, decision, or activity",
+        "examples": [
+          "The committee sanctioned the use of additional funds for the project.",
+          "The government refused to sanction the proposed military operation.",
+          "The university sanctioned the construction of a new research facility.",
+          "The board sanctioned the agreement after reviewing its financial consequences.",
+          "The law does not sanction discrimination against employees on the basis of age.",
+          "Senior officials sanctioned the release of the confidential documents.",
+          "The governing body sanctioned the new competition rules.",
+          "Critics argued that the policy effectively sanctioned behavior that had previously been prohibited."
+        ],
+        "plain_english_equivalent": "officially approve",
+        "typical_pattern": "sanction + action, plan, policy, agreement, use, or activity",
+        "register": "formal; common in legal, governmental, institutional, and political writing",
+        "nuance": {
+          "central_nuance": "As a verb, sanction can mean give formal authority or permission for something to happen.",
+          "usual_implication": "The approval usually comes from a person or organization with the power to authorize the action.",
+          "contrast_term": "forbid",
+          "contrast_explanation": "To sanction an action is to officially permit it, while to forbid it is to officially prevent it."
+        },
+        "grammar": {
+          "how_to_use": "This verb normally takes the approved action, policy, plan, or activity directly as its object.",
+          "what_can_follow": "Common objects include plan, action, policy, agreement, operation, use, and construction.",
+          "position_note": "The passive form is also common: The operation was sanctioned by the government."
+        },
+        "patterns": [
+          {
+            "pattern": "sanction + action or plan",
+            "use": "Use this when an authority gives official approval.",
+            "example": "The board sanctioned the proposed expansion."
+          },
+          {
+            "pattern": "sanction the use of + something",
+            "use": "Use this when an authority officially permits something to be used.",
+            "example": "The agency sanctioned the use of the new treatment under limited conditions."
+          },
+          {
+            "pattern": "be sanctioned by + authority",
+            "use": "Use the passive when the action receiving approval is the main focus.",
+            "example": "The project was sanctioned by the national planning agency."
+          },
+          {
+            "pattern": "refuse to sanction + action",
+            "use": "Use this when an authority declines to give official permission.",
+            "example": "The committee refused to sanction the proposed changes."
+          }
+        ],
+        "errors": [
+          {
+            "wrong": "The government sanctioned to build the new facility.",
+            "correct": "The government sanctioned the construction of the new facility.",
+            "explanation": "Sanction normally takes a noun or noun phrase directly as its object, not to + verb."
+          },
+          {
+            "wrong": "The committee sanctioned for the project.",
+            "correct": "The committee sanctioned the project.",
+            "explanation": "When sanction means officially approve, put the approved thing directly after the verb."
+          }
+        ]
+      },
+      {
+        "sense_title": "Officially punish",
+        "part_of_speech": "transitive verb",
+        "ipa": "/ˈsæŋkʃən/",
+        "definition": "to officially punish a person, organization, or country for breaking a rule or behaving in an unacceptable way",
+        "examples": [
+          "The agency can sanction companies that repeatedly violate safety regulations.",
+          "Several officials were sanctioned for their involvement in the illegal activity.",
+          "Governments may sanction foreign organizations involved in prohibited trade.",
+          "The professional association sanctioned the member for violating its ethical rules.",
+          "Regulators can sanction firms that provide false information to consumers.",
+          "The athlete was sanctioned after testing positive for a prohibited substance.",
+          "The international body threatened to sanction members that failed to follow the agreement."
+        ],
+        "plain_english_equivalent": "officially punish",
+        "typical_pattern": "sanction + person, company, organization, or country + for + violation",
+        "register": "formal; common in legal, regulatory, professional, and international contexts",
+        "nuance": {
+          "central_nuance": "In this sense, sanction means use official authority to punish or restrict someone.",
+          "usual_implication": "The punishment usually follows a violation of a law, rule, agreement, or professional standard.",
+          "contrast_term": "authorize",
+          "contrast_explanation": "To authorize someone is to give permission or authority. To sanction someone in this punishment sense is to penalize them."
+        },
+        "grammar": {
+          "how_to_use": "Put the person, organization, or country receiving the punishment directly after sanction.",
+          "what_can_follow": "Use for to state the reason for the punishment.",
+          "preposition_note": "A common pattern is sanction someone for violating a rule.",
+          "position_note": "The passive is very common: The company was sanctioned for breaking environmental regulations."
+        },
+        "patterns": [
+          {
+            "pattern": "sanction + person or organization",
+            "use": "Use this when an authority officially punishes someone.",
+            "example": "The regulator sanctioned three firms involved in the scheme."
+          },
+          {
+            "pattern": "sanction + someone + for + wrongdoing",
+            "use": "Use for to explain the reason for the punishment.",
+            "example": "The lawyer was sanctioned for violating professional rules."
+          },
+          {
+            "pattern": "be sanctioned for + wrongdoing",
+            "use": "Use the passive when the punished person or organization is the focus.",
+            "example": "The company was sanctioned for repeatedly ignoring safety requirements."
+          }
+        ],
+        "errors": [
+          {
+            "wrong": "The company was sanctioned because the government approved its project.",
+            "correct": "The company's project was sanctioned because the government approved it.",
+            "explanation": "Sanctioning a project usually means approving it. Sanctioning a company usually means punishing it. The object and context determine the meaning."
+          },
+          {
+            "wrong": "The regulator sanctioned to the company for the violation.",
+            "correct": "The regulator sanctioned the company for the violation.",
+            "explanation": "Put the person or organization being punished directly after sanction."
+          }
+        ]
+      }
+    ],
+    "word_family": [
+      {
+        "word": "sanctioned",
+        "part_of_speech": "adjective",
+        "definition": "officially approved or permitted",
+        "examples": [
+          "Only officially sanctioned activities are allowed in the protected area.",
+          "The organization provided a list of sanctioned events."
+        ],
+        "ipa": "/ˈsæŋkʃənd/",
+        "relationship_to_headword": "This adjective commonly describes something that has received official approval.",
+        "grammar_pattern": "officially or government-sanctioned + activity, event, program, or action",
+        "usage_note": "Context matters because sanctioned can also mean subjected to official penalties when it describes a person, company, or country."
+      }
+    ],
+    "collocations": [
+      {
+        "collocation": "official sanction",
+        "example": "The project received official sanction from the ministry.",
+        "applies_to_sense": "Official approval or permission",
+        "meaning": "formal approval from an authority"
+      },
+      {
+        "collocation": "government sanction",
+        "example": "The operation could not proceed without government sanction.",
+        "applies_to_sense": "Official approval or permission",
+        "meaning": "formal approval from the government"
+      },
+      {
+        "collocation": "receive sanction",
+        "example": "The proposal received sanction from the governing board.",
+        "applies_to_sense": "Official approval or permission",
+        "meaning": "obtain official approval"
+      },
+      {
+        "collocation": "economic sanctions",
+        "example": "Economic sanctions restricted the country's access to international markets.",
+        "applies_to_sense": "Official penalty or restriction",
+        "meaning": "official economic penalties or restrictions"
+      },
+      {
+        "collocation": "impose sanctions",
+        "example": "Several governments imposed sanctions on the regime.",
+        "applies_to_sense": "Official penalty or restriction",
+        "meaning": "officially introduce penalties",
+        "grammar_pattern": "impose sanctions on + person, organization, or country"
+      },
+      {
+        "collocation": "face sanctions",
+        "example": "Companies that violate the regulations may face sanctions.",
+        "applies_to_sense": "Official penalty or restriction",
+        "meaning": "risk receiving official punishment"
+      },
+      {
+        "collocation": "lift sanctions",
+        "example": "The countries agreed to lift some sanctions after negotiations.",
+        "applies_to_sense": "Official penalty or restriction",
+        "meaning": "officially remove penalties or restrictions"
+      },
+      {
+        "collocation": "tighten sanctions",
+        "example": "The government threatened to tighten sanctions if the violations continued.",
+        "applies_to_sense": "Official penalty or restriction",
+        "meaning": "make existing penalties or restrictions stronger"
+      },
+      {
+        "collocation": "sanction an action",
+        "example": "The committee refused to sanction the proposed action.",
+        "applies_to_sense": "Officially approve or permit",
+        "meaning": "give official approval to an action"
+      },
+      {
+        "collocation": "sanction the use of",
+        "example": "The agency sanctioned the use of the new procedure.",
+        "applies_to_sense": "Officially approve or permit",
+        "meaning": "officially allow something to be used"
+      },
+      {
+        "collocation": "sanction a company",
+        "example": "The regulator sanctioned the company for repeated safety violations.",
+        "applies_to_sense": "Officially punish",
+        "meaning": "officially punish a company"
+      },
+      {
+        "collocation": "be sanctioned for",
+        "example": "The organization was sanctioned for breaking competition rules.",
+        "applies_to_sense": "Officially punish",
+        "meaning": "receive official punishment because of wrongdoing",
+        "grammar_pattern": "be sanctioned for + violation or wrongdoing"
+      }
+    ],
+    "synonyms": [
+      {
+        "word": "approval",
+        "part_of_speech": "uncountable noun",
+        "applies_to_sense": "Official approval or permission",
+        "difference": "Approval is the general word for agreeing with or permitting something. Sanction is more formal and often suggests approval from an authority.",
+        "example": "The project cannot begin without government approval.",
+        "shared_meaning": "Both can mean official permission."
+      },
+      {
+        "word": "penalty",
+        "part_of_speech": "countable noun",
+        "applies_to_sense": "Official penalty or restriction",
+        "difference": "Penalty is a broad word for a punishment. Sanction often refers specifically to an official measure imposed by a government, court, regulator, institution, or other authority.",
+        "example": "The company received a substantial financial penalty.",
+        "shared_meaning": "Both can refer to official punishment."
+      },
+      {
+        "word": "authorize",
+        "part_of_speech": "transitive verb",
+        "applies_to_sense": "Officially approve or permit",
+        "difference": "Authorize means officially give permission or authority. Sanction is similar but is more formal and can also carry the opposite punishment meaning in other contexts.",
+        "example": "The director authorized the release of additional funds.",
+        "shared_meaning": "Both can mean officially approve an action."
+      },
+      {
+        "word": "penalize",
+        "part_of_speech": "transitive verb",
+        "applies_to_sense": "Officially punish",
+        "difference": "Penalize simply means punish someone for breaking a rule or performing poorly. Sanction is more formal and usually refers to punishment by an authority or institution.",
+        "example": "The regulator penalized the company for failing to disclose important information.",
+        "shared_meaning": "Both can mean officially punish."
+      }
+    ],
+    "antonyms": [
+      {
+        "word": "prohibition",
+        "part_of_speech": "countable or uncountable noun",
+        "applies_to_sense": "Official approval or permission",
+        "opposition": "Sanction in the approval sense gives official permission, while prohibition prevents or forbids an action.",
+        "example": "The law introduced a prohibition on the sale of the substance."
+      },
+      {
+        "word": "forbid",
+        "part_of_speech": "transitive verb",
+        "applies_to_sense": "Officially approve or permit",
+        "opposition": "To sanction an action is to officially permit it, while to forbid it is to officially prevent it.",
+        "example": "The regulations forbid construction in the protected area."
+      }
+    ],
+    "confusables": [
+      {
+        "word": "sanction",
+        "key_difference": "The same word can mean either approval or punishment. Sanction a project usually means approve it, while sanction a company or country often means punish it.",
+        "headword_example": "The board sanctioned the construction project.",
+        "confusable_example": "The regulator sanctioned the company for violating safety rules.",
+        "part_of_speech": "noun and transitive verb",
+        "why_confused": "Sanction is a contronym: two common meanings of the same word can point in opposite directions."
+      },
+      {
+        "word": "authorize",
+        "key_difference": "Authorize only means officially permit or give authority. Sanction can mean either approve or punish, depending on context.",
+        "headword_example": "The committee sanctioned the new procedure.",
+        "confusable_example": "The committee authorized the use of the new procedure.",
+        "part_of_speech": "transitive verb",
+        "why_confused": "The words overlap when sanction is used in its approval sense."
+      },
+      {
+        "word": "sanctions",
+        "key_difference": "The plural noun sanctions very often refers to penalties, especially economic or political restrictions. The singular or uncountable noun sanction can refer to official approval.",
+        "headword_example": "The government imposed sanctions on the foreign company.",
+        "confusable_example": "The operation proceeded with government sanction.",
+        "part_of_speech": "plural noun versus countable or uncountable noun",
+        "why_confused": "Different grammatical forms strongly favor different meanings, even though they come from the same word."
+      }
+    ],
+    "etymology": {
+      "origin": "Sanction comes from Latin sanctio, referring to a binding law or decree.",
+      "development": "Because an authoritative decree could either authorize conduct or attach penalties to violations, sanction developed both its approval meaning and its punishment meaning.",
+      "memory_link": "Think of sanction as an official act of authority: authority can either give permission or impose punishment."
+    },
+    "exercises": {
+      "word_family_choice": [
+        {
+          "prompt_sentence": "Only officially _____ events may be held in the protected area.",
+          "answer": "sanctioned",
+          "completed_sentence": "Only officially sanctioned events may be held in the protected area.",
+          "explanation": "Here sanctioned means officially approved."
+        },
+        {
+          "prompt_sentence": "The regulator may _____ companies that repeatedly violate safety rules.",
+          "answer": "sanction",
+          "completed_sentence": "The regulator may sanction companies that repeatedly violate safety rules.",
+          "explanation": "Here sanction is a verb meaning officially punish."
+        }
+      ],
+      "correct_or_incorrect": [
+        {
+          "sentence": "The project received government sanction and was allowed to proceed.",
+          "verdict": "Correct",
+          "explanation": "Here sanction means official approval."
+        },
+        {
+          "sentence": "The government imposed sanctions on the country for violating the agreement.",
+          "verdict": "Correct",
+          "explanation": "Here sanctions means official penalties or restrictions."
+        },
+        {
+          "sentence": "The committee sanctioned to build the new laboratory.",
+          "verdict": "Incorrect",
+          "corrected_sentence": "The committee sanctioned the construction of the new laboratory.",
+          "explanation": "Sanction normally takes a noun or noun phrase directly as its object."
+        },
+        {
+          "sentence": "The company was sanctioned for repeatedly breaking environmental regulations.",
+          "verdict": "Correct",
+          "explanation": "Here sanctioned means officially punished."
+        },
+        {
+          "sentence": "Sanction always means punishment.",
+          "verdict": "Incorrect",
+          "corrected_sentence": "Sanction can mean either official punishment or official approval.",
+          "explanation": "The word has two common meanings that can appear opposite, so context is essential."
+        }
+      ],
+      "collocation_practice": [
+        {
+          "prompt_sentence": "Several countries decided to impose economic _____ on the regime.",
+          "answer": "sanctions",
+          "completed_sentence": "Several countries decided to impose economic sanctions on the regime.",
+          "explanation": "Economic sanctions are official economic penalties or restrictions."
+        },
+        {
+          "prompt_sentence": "The project could not begin without official _____ from the ministry.",
+          "answer": "sanction",
+          "completed_sentence": "The project could not begin without official sanction from the ministry.",
+          "explanation": "Here sanction means official approval."
+        },
+        {
+          "prompt_sentence": "Companies that violate the regulation may _____ serious sanctions.",
+          "answer": "face",
+          "completed_sentence": "Companies that violate the regulation may face serious sanctions.",
+          "explanation": "Face sanctions means risk receiving official punishment."
+        },
+        {
+          "prompt_sentence": "The committee refused to _____ the proposed operation.",
+          "answer": "sanction",
+          "completed_sentence": "The committee refused to sanction the proposed operation.",
+          "explanation": "Here sanction means officially approve."
+        },
+        {
+          "prompt_sentence": "The regulator sanctioned the firm _____ misleading consumers.",
+          "answer": "for",
+          "completed_sentence": "The regulator sanctioned the firm for misleading consumers.",
+          "explanation": "Use sanction someone for the wrongdoing that caused the punishment."
+        }
+      ]
+    }
+  }

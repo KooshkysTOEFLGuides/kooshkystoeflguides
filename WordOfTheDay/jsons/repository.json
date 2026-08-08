@@ -1,0 +1,330 @@
+{
+    "document_type": "kooshky_toefl_word_of_the_day",
+    "schema_version": "1.3",
+    "slug": "repository",
+    "word": "repository",
+    "date": "August 30th 2026",
+    "pronunciation": {
+      "primary_ipa": "/rɪˈpɑːzəˌtɔːri/"
+    },
+    "hero": {
+      "part_of_speech_summary": "countable noun",
+      "short_meanings": [
+        "place or system for storing things",
+        "source containing much knowledge"
+      ],
+      "one_line_summary": "A repository is a place, system, or source in which valuable information, documents, objects, or knowledge are stored and preserved.",
+      "memorable_example": "The university created a digital repository for research papers produced by its faculty."
+    },
+    "meanings": [
+      {
+        "sense_title": "Place or system for storing things",
+        "part_of_speech": "countable noun",
+        "ipa": "/rɪˈpɑːzəˌtɔːri/",
+        "definition": "a place or system where large amounts of information, documents, objects, or other materials are stored and kept",
+        "examples": [
+          "The university created a digital repository for research papers produced by its faculty.",
+          "The museum serves as a repository for thousands of historical documents and artifacts.",
+          "Scientists stored the genetic data in a central online repository.",
+          "The national archive acts as a repository for government records of historical importance.",
+          "Researchers can download the dataset from a public repository.",
+          "The institution maintains a secure repository for confidential documents.",
+          "Archaeologists transferred the recovered objects to a repository where they could be properly preserved.",
+          "Many universities now maintain institutional repositories containing theses, articles, and other academic work."
+        ],
+        "plain_english_equivalent": "a place where things are stored",
+        "typical_pattern": "repository for + materials, or repository of + information or objects",
+        "register": "formal; common in academic, scientific, archival, museum, library, and computing contexts",
+        "nuance": {
+          "central_nuance": "Repository usually suggests organized, purposeful storage rather than simply putting things somewhere temporarily.",
+          "usual_implication": "The stored material is often valuable, important, or intended to be preserved and accessed later.",
+          "contrast_term": "temporary storage",
+          "contrast_explanation": "Temporary storage holds something only briefly. A repository is generally intended to preserve and organize material for continued use or safekeeping."
+        },
+        "grammar": {
+          "how_to_use": "Repository is a countable noun. Use a repository for one storage place or system and repositories for more than one.",
+          "what_can_follow": "Use for when emphasizing what the repository is designed to store, and of when describing what it contains.",
+          "preposition_note": "Both repository for and repository of are common: a repository for research data; a repository of historical records.",
+          "noun_use": "The singular normally needs a determiner such as a, the, or this."
+        },
+        "patterns": [
+          {
+            "pattern": "a repository for + material",
+            "use": "Use this when emphasizing the purpose of the storage place or system.",
+            "example": "The database was designed as a repository for environmental data."
+          },
+          {
+            "pattern": "a repository of + material",
+            "use": "Use this when emphasizing what the repository contains.",
+            "example": "The archive is a repository of rare manuscripts and government records."
+          },
+          {
+            "pattern": "digital repository",
+            "use": "Use this for an electronic system used to store and provide access to digital material.",
+            "example": "The university's digital repository contains thousands of dissertations."
+          },
+          {
+            "pattern": "institutional repository",
+            "use": "Use this for a system maintained by an institution, especially a university, to preserve its research and publications.",
+            "example": "The article is freely available through the university's institutional repository."
+          },
+          {
+            "pattern": "central repository",
+            "use": "Use this for one main location where information or material from different sources is collected.",
+            "example": "All laboratory results are uploaded to a central repository."
+          }
+        ],
+        "errors": [
+          {
+            "wrong": "The university keeps its papers in a repository place.",
+            "correct": "The university keeps its papers in a repository.",
+            "explanation": "Repository already means a place or system for storing things, so place is unnecessary."
+          },
+          {
+            "wrong": "The database is a repository to scientific data.",
+            "correct": "The database is a repository for scientific data.",
+            "explanation": "Use repository for when describing what a storage system is intended to hold."
+          },
+          {
+            "wrong": "The archive contains many repository of documents.",
+            "correct": "The archive contains many repositories of documents.",
+            "explanation": "Repository is countable, so use the plural repositories after many."
+          }
+        ]
+      },
+      {
+        "sense_title": "Source containing much knowledge",
+        "part_of_speech": "countable noun",
+        "ipa": "/rɪˈpɑːzəˌtɔːri/",
+        "definition": "a person, book, organization, or other source that contains or preserves a large amount of knowledge or information",
+        "examples": [
+          "The archive is an important repository of information about the region's history.",
+          "Traditional stories can serve as a repository of a community's cultural knowledge.",
+          "For decades, the professor was regarded as a repository of knowledge about ancient languages.",
+          "The encyclopedia remains a valuable repository of information for researchers.",
+          "Religious texts often function as repositories of a society's values and historical traditions.",
+          "The library became a repository of knowledge collected over several centuries.",
+          "Older community members may serve as repositories of local history that has never been written down."
+        ],
+        "plain_english_equivalent": "a source that holds a lot of knowledge",
+        "typical_pattern": "a repository of + knowledge, information, memory, tradition, or culture",
+        "register": "formal; especially common in academic, historical, cultural, and literary writing",
+        "nuance": {
+          "central_nuance": "In this figurative use, repository emphasizes that knowledge or cultural information has been accumulated and preserved in a particular source.",
+          "usual_implication": "The source is valuable because it preserves information that might otherwise be difficult to access or could be lost."
+        },
+        "grammar": {
+          "how_to_use": "Use repository of followed by the kind of knowledge, information, memory, or tradition being preserved.",
+          "what_can_follow": "Common nouns after of include knowledge, information, wisdom, memory, tradition, and culture.",
+          "preposition_note": "Of is especially common in this meaning: a repository of knowledge.",
+          "noun_use": "This meaning is countable, so say a repository of knowledge when referring to one source."
+        },
+        "patterns": [
+          {
+            "pattern": "a repository of knowledge",
+            "use": "Use this for a person, institution, text, or collection containing a large amount of accumulated knowledge.",
+            "example": "The monastery library became an important repository of knowledge during the medieval period."
+          },
+          {
+            "pattern": "a repository of information",
+            "use": "Use this for a source containing large amounts of useful information.",
+            "example": "The database is a valuable repository of information about endangered species."
+          },
+          {
+            "pattern": "a repository of cultural memory",
+            "use": "Use this when something preserves the experiences, traditions, or history of a community.",
+            "example": "Oral literature can act as a repository of cultural memory."
+          },
+          {
+            "pattern": "serve as a repository of + noun",
+            "use": "Use this when something performs the function of preserving knowledge or information.",
+            "example": "Museums often serve as repositories of cultural knowledge."
+          }
+        ],
+        "errors": [
+          {
+            "wrong": "The professor is a repository for knowledge about the subject.",
+            "correct": "The professor is a repository of knowledge about the subject.",
+            "explanation": "When describing the knowledge contained in a person or source, repository of is the more natural pattern."
+          },
+          {
+            "wrong": "The book is repository of historical information.",
+            "correct": "The book is a repository of historical information.",
+            "explanation": "Repository is a singular countable noun, so it normally needs a determiner such as a."
+          }
+        ]
+      }
+    ],
+    "collocations": [
+      {
+        "collocation": "digital repository",
+        "example": "The documents are available through a digital repository maintained by the university.",
+        "applies_to_sense": "Place or system for storing things",
+        "meaning": "an electronic system for storing and providing access to digital materials"
+      },
+      {
+        "collocation": "institutional repository",
+        "example": "Researchers deposited copies of their articles in the university's institutional repository.",
+        "applies_to_sense": "Place or system for storing things",
+        "meaning": "a digital collection maintained by an institution, especially for its research output"
+      },
+      {
+        "collocation": "data repository",
+        "example": "The research team uploaded its results to a public data repository.",
+        "applies_to_sense": "Place or system for storing things",
+        "meaning": "a system or location where data is stored and organized"
+      },
+      {
+        "collocation": "central repository",
+        "example": "The agency created a central repository for records collected by regional offices.",
+        "applies_to_sense": "Place or system for storing things",
+        "meaning": "one main location where material from different sources is stored"
+      },
+      {
+        "collocation": "public repository",
+        "example": "The dataset can be downloaded from a public repository.",
+        "applies_to_sense": "Place or system for storing things",
+        "meaning": "a repository that can be accessed by the public"
+      },
+      {
+        "collocation": "repository for",
+        "example": "The archive serves as a repository for official documents.",
+        "applies_to_sense": "Place or system for storing things",
+        "meaning": "a place or system intended to store particular materials",
+        "grammar_pattern": "repository for + material"
+      },
+      {
+        "collocation": "repository of information",
+        "example": "The website has become a major repository of information about the region's wildlife.",
+        "applies_to_sense": "Source containing much knowledge",
+        "meaning": "a source containing a large amount of information",
+        "grammar_pattern": "repository of + information"
+      },
+      {
+        "collocation": "repository of knowledge",
+        "example": "The library served as a repository of scientific knowledge.",
+        "applies_to_sense": "Source containing much knowledge",
+        "meaning": "a source in which a large amount of knowledge is preserved",
+        "grammar_pattern": "repository of + knowledge"
+      },
+      {
+        "collocation": "repository of cultural memory",
+        "example": "Traditional songs can function as a repository of cultural memory.",
+        "applies_to_sense": "Source containing much knowledge",
+        "meaning": "a source that preserves a group's shared history and traditions"
+      }
+    ],
+    "synonyms": [
+      {
+        "word": "archive",
+        "part_of_speech": "countable noun",
+        "applies_to_sense": "Place or system for storing things",
+        "difference": "An archive specifically stores records, documents, or historical materials for long-term preservation. Repository is broader and can contain data, objects, software, documents, or many other kinds of material.",
+        "example": "The national archive preserves government documents dating back several centuries.",
+        "shared_meaning": "Both can refer to organized places or systems used to preserve valuable material."
+      },
+      {
+        "word": "database",
+        "part_of_speech": "countable noun",
+        "applies_to_sense": "Place or system for storing things",
+        "difference": "A database is a structured electronic collection of data designed for searching and processing. A repository is a broader concept and may store files, documents, objects, datasets, or other materials.",
+        "example": "The researchers entered the survey responses into a database.",
+        "shared_meaning": "Both can be electronic systems that store information."
+      },
+      {
+        "word": "store",
+        "part_of_speech": "countable noun",
+        "applies_to_sense": "Source containing much knowledge",
+        "difference": "Store can figuratively mean a supply of knowledge or information, but repository is more formal and emphasizes preservation and accumulation.",
+        "example": "The community possesses a rich store of traditional knowledge.",
+        "shared_meaning": "Both can refer to a large accumulated supply of information or knowledge."
+      }
+    ],
+    "confusables": [
+      {
+        "word": "depository",
+        "key_difference": "A repository is any place or system where things are stored and preserved, especially information, documents, or collections. A depository is more specifically a place where something is deposited for safekeeping, especially money, securities, or valuable items.",
+        "headword_example": "The university maintains a repository for research data.",
+        "confusable_example": "The institution acts as a depository for financial securities.",
+        "part_of_speech": "countable noun",
+        "why_confused": "Both refer to places where things are kept and have similar forms."
+      },
+      {
+        "word": "archive",
+        "key_difference": "An archive usually preserves historical records or documents. Repository is broader and can store many kinds of material, including digital data and research outputs.",
+        "headword_example": "The dataset is stored in an online repository.",
+        "confusable_example": "The letters are preserved in the university archive.",
+        "part_of_speech": "countable noun",
+        "why_confused": "Both are frequently used for organized collections intended for long-term preservation."
+      },
+      {
+        "word": "repertory",
+        "key_difference": "Repository means a place or source where things are stored. Repertory refers to a collection of works, skills, or performances available for use, especially in music or theater.",
+        "headword_example": "The museum is a repository of historical artifacts.",
+        "confusable_example": "The theater company added several new plays to its repertory.",
+        "part_of_speech": "countable noun",
+        "why_confused": "The words look and sound somewhat similar but have different meanings."
+      }
+    ],
+    "etymology": {
+      "origin": "Repository comes from Latin repositorium, referring to a place where things are stored or put away.",
+      "memory_link": "Think of a repository as a place where important material is put away safely so it can be preserved and retrieved later."
+    },
+    "exercises": {
+      "correct_or_incorrect": [
+        {
+          "sentence": "The university maintains a digital repository for research papers.",
+          "verdict": "Correct",
+          "explanation": "A digital repository is an electronic system for storing and preserving digital material."
+        },
+        {
+          "sentence": "The database is a repository to scientific data.",
+          "verdict": "Incorrect",
+          "corrected_sentence": "The database is a repository for scientific data.",
+          "explanation": "Use repository for when describing what a storage system is intended to contain."
+        },
+        {
+          "sentence": "The archive serves as a repository of historical documents.",
+          "verdict": "Correct",
+          "explanation": "Repository of naturally describes the material contained in a repository."
+        },
+        {
+          "sentence": "The professor was repository of knowledge about ancient history.",
+          "verdict": "Incorrect",
+          "corrected_sentence": "The professor was a repository of knowledge about ancient history.",
+          "explanation": "Repository is a singular countable noun and normally requires a determiner such as a."
+        },
+        {
+          "sentence": "Many universities maintain institutional repositories for academic research.",
+          "verdict": "Correct",
+          "explanation": "Institutional repository is a standard term for a system that preserves an institution's research output."
+        }
+      ],
+      "collocation_practice": [
+        {
+          "prompt_sentence": "The university created a digital _____ for dissertations and research papers.",
+          "answer": "repository",
+          "completed_sentence": "The university created a digital repository for dissertations and research papers.",
+          "explanation": "A digital repository stores electronic documents and other digital materials."
+        },
+        {
+          "prompt_sentence": "The archive serves as a repository _____ thousands of historical records.",
+          "answer": "for",
+          "completed_sentence": "The archive serves as a repository for thousands of historical records.",
+          "explanation": "Repository for emphasizes what the repository is intended to store."
+        },
+        {
+          "prompt_sentence": "The library became an important repository _____ scientific knowledge.",
+          "answer": "of",
+          "completed_sentence": "The library became an important repository of scientific knowledge.",
+          "explanation": "Repository of emphasizes what knowledge or information the source contains."
+        },
+        {
+          "prompt_sentence": "All experimental data are uploaded to a _____ repository maintained by the research institute.",
+          "answer": "central",
+          "completed_sentence": "All experimental data are uploaded to a central repository maintained by the research institute.",
+          "explanation": "A central repository is one main location where information from different sources is collected."
+        }
+      ]
+    }
+  }

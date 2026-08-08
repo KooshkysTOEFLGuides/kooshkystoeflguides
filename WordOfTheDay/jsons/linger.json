@@ -1,0 +1,472 @@
+{
+    "document_type": "kooshky_toefl_word_of_the_day",
+    "schema_version": "1.3",
+    "slug": "linger",
+    "word": "linger",
+    "date": "August 23rd 2026",
+    "pronunciation": {
+      "primary_ipa": "/ˈlɪŋɡər/"
+    },
+    "hero": {
+      "part_of_speech_summary": "intransitive verb",
+      "short_meanings": [
+        "stay longer than expected",
+        "continue to exist or have an effect",
+        "spend extra time on something"
+      ],
+      "one_line_summary": "Linger can mean remaining somewhere longer than expected, continuing to exist after something ends, or spending extra time considering or enjoying something.",
+      "memorable_example": "The effects of the economic crisis lingered for several years."
+    },
+    "meanings": [
+      {
+        "sense_title": "Stay longer than expected",
+        "part_of_speech": "intransitive verb",
+        "ipa": "/ˈlɪŋɡər/",
+        "definition": "to stay somewhere longer than necessary or expected, often because you do not want to leave",
+        "examples": [
+          "Several students lingered after class to ask the professor additional questions.",
+          "Visitors often linger in the museum's central hall before moving to the next exhibit.",
+          "She lingered by the door for a few moments before finally leaving.",
+          "A few guests lingered after the conference had officially ended.",
+          "The tourists lingered near the ruins to watch the sunset.",
+          "He lingered outside the office, unsure whether to go inside.",
+          "Some customers linger in cafés for hours while working on their laptops.",
+          "The audience lingered in the theater lobby to discuss the performance."
+        ],
+        "plain_english_equivalent": "stay for longer than expected",
+        "typical_pattern": "linger + in, near, by, outside, or after + place or event",
+        "register": "neutral; common in both everyday and formal writing",
+        "nuance": {
+          "central_nuance": "Linger suggests remaining after the normal or expected time to leave.",
+          "usual_implication": "The person may stay because of interest, hesitation, enjoyment, curiosity, or reluctance to leave.",
+          "contrast_term": "depart",
+          "contrast_explanation": "Depart means leave a place. Linger means remain there for some additional time instead of leaving promptly."
+        },
+        "grammar": {
+          "how_to_use": "This meaning normally does not take a direct object. The person who stays is the subject.",
+          "what_can_follow": "It is often followed by a word or phrase showing place or time, such as in the room, near the entrance, or after class.",
+          "preposition_note": "Common patterns include linger in a place, linger near or by something, and linger after an event.",
+          "position_note": "Adverbs such as briefly, momentarily, or longer can be used to describe how long someone lingers."
+        },
+        "patterns": [
+          {
+            "pattern": "linger in + place",
+            "use": "Use this when someone remains inside a place longer than expected.",
+            "example": "Several visitors lingered in the gallery after the tour ended."
+          },
+          {
+            "pattern": "linger near or by + place or object",
+            "use": "Use this when someone stays close to a particular location.",
+            "example": "The children lingered near the entrance waiting for their parents."
+          },
+          {
+            "pattern": "linger after + event",
+            "use": "Use this when someone stays after an activity has officially ended.",
+            "example": "A few participants lingered after the lecture."
+          },
+          {
+            "pattern": "linger outside + place",
+            "use": "Use this when someone waits or remains outside rather than entering or leaving.",
+            "example": "Reporters lingered outside the courthouse."
+          }
+        ],
+        "errors": [
+          {
+            "wrong": "The students lingered the classroom after class.",
+            "correct": "The students lingered in the classroom after class.",
+            "explanation": "Linger is normally intransitive, so use a preposition such as in before the place."
+          },
+          {
+            "wrong": "She lingered to the door for several minutes.",
+            "correct": "She lingered by the door for several minutes.",
+            "explanation": "Use by or near for the place where someone remains."
+          },
+          {
+            "wrong": "The guests were lingered after dinner.",
+            "correct": "The guests lingered after dinner.",
+            "explanation": "Use linger directly in the active form. Do not add were."
+          }
+        ]
+      },
+      {
+        "sense_title": "Continue to exist or have an effect",
+        "part_of_speech": "intransitive verb",
+        "ipa": "/ˈlɪŋɡər/",
+        "definition": "to continue to exist, be noticeable, or have an effect after the original cause or event has ended",
+        "examples": [
+          "The smell of smoke lingered in the room long after the fire had been extinguished.",
+          "Doubts about the safety of the product continued to linger among consumers.",
+          "The effects of the economic crisis lingered for several years.",
+          "A sense of uncertainty lingered after the meeting.",
+          "The memory of the disaster lingered in the community for decades.",
+          "Tension between the two groups continued to linger despite the agreement.",
+          "The taste of the medicine lingered in his mouth.",
+          "Questions about the reliability of the data still linger."
+        ],
+        "plain_english_equivalent": "remain or continue after something ends",
+        "typical_pattern": "linger + in, among, after, for, or on",
+        "register": "neutral to formal; common in academic, historical, social, medical, and descriptive writing",
+        "nuance": {
+          "central_nuance": "This sense emphasizes persistence: something remains even though the event or cause that produced it is already over.",
+          "usual_implication": "The remaining thing may be physical, such as a smell or taste, or abstract, such as doubt, fear, memory, tension, or an economic effect.",
+          "contrast_term": "disappear",
+          "contrast_explanation": "Something that disappears stops being present. Something that lingers remains noticeable or influential for some time."
+        },
+        "grammar": {
+          "how_to_use": "The thing that continues to exist is the subject, so this use does not normally take a direct object.",
+          "what_can_follow": "Common subjects include smell, taste, memory, doubt, question, fear, tension, effect, and uncertainty.",
+          "preposition_note": "Use linger in for a place or memory, linger among for a group of people, linger after for an event, and linger for for a length of time.",
+          "position_note": "Still and continue to frequently appear with linger when emphasizing persistence."
+        },
+        "patterns": [
+          {
+            "pattern": "a smell or taste lingers",
+            "use": "Use this when a physical sensation remains noticeable.",
+            "example": "The smell of paint lingered in the hallway."
+          },
+          {
+            "pattern": "doubts or questions linger",
+            "use": "Use this when uncertainty remains unresolved.",
+            "example": "Questions linger about the long-term effects of the treatment."
+          },
+          {
+            "pattern": "effects linger",
+            "use": "Use this when the consequences of an event continue after the event itself.",
+            "example": "The effects of the drought lingered for several seasons."
+          },
+          {
+            "pattern": "linger for + period of time",
+            "use": "Use this to say how long something continues.",
+            "example": "The economic effects lingered for more than a decade."
+          },
+          {
+            "pattern": "continue to linger",
+            "use": "Use this to strongly emphasize that something has still not disappeared.",
+            "example": "Concerns about data privacy continue to linger."
+          }
+        ],
+        "errors": [
+          {
+            "wrong": "The smell lingered the room.",
+            "correct": "The smell lingered in the room.",
+            "explanation": "Use in before the place where a smell or effect remains."
+          },
+          {
+            "wrong": "The effects of the crisis lingered during five years.",
+            "correct": "The effects of the crisis lingered for five years.",
+            "explanation": "Use for to state a duration."
+          },
+          {
+            "wrong": "Many doubts are still lingering them.",
+            "correct": "Many doubts are still lingering.",
+            "explanation": "Linger is intransitive here and does not take a direct object."
+          }
+        ]
+      },
+      {
+        "sense_title": "Spend extra time on something",
+        "part_of_speech": "intransitive verb",
+        "ipa": "/ˈlɪŋɡər/",
+        "definition": "to spend more time than usual considering, looking at, or enjoying something",
+        "examples": [
+          "The report lingers over the causes of the conflict but says little about its consequences.",
+          "She lingered over her coffee while reading the morning newspaper.",
+          "The documentary lingers on several images of the damaged landscape.",
+          "The author lingers over small details that reveal the character's personality.",
+          "He lingered over the final question because it required careful thought.",
+          "The camera lingers on the empty street before the scene changes.",
+          "The lecturer did not linger on the historical background because time was limited.",
+          "Readers may want to linger over the final chapter because it contains several complex arguments."
+        ],
+        "plain_english_equivalent": "spend extra time looking at or thinking about something",
+        "typical_pattern": "linger over or linger on + subject, detail, image, question, or activity",
+        "register": "neutral to formal; common in descriptions of writing, discussion, film, reading, and leisurely activities",
+        "nuance": {
+          "central_nuance": "This use suggests giving something more time or attention than is strictly necessary.",
+          "usual_implication": "The extra time may come from enjoyment, interest, careful thought, or deliberate emphasis."
+        },
+        "grammar": {
+          "how_to_use": "Use over or on before the thing receiving extra time or attention.",
+          "what_can_follow": "Common objects after over or on include a meal, question, detail, topic, image, memory, or point.",
+          "preposition_note": "Linger over often suggests spending extra time considering or enjoying something. Linger on often emphasizes continued attention to a topic, detail, or image.",
+          "position_note": "The subject may be a person, writer, report, camera, or discussion."
+        },
+        "patterns": [
+          {
+            "pattern": "linger over + meal, drink, question, or detail",
+            "use": "Use this when someone spends extra time enjoying or considering something.",
+            "example": "The students lingered over the final question before submitting their answers."
+          },
+          {
+            "pattern": "linger on + topic, image, or point",
+            "use": "Use this when attention remains focused on something for longer than usual.",
+            "example": "The documentary lingers on images of abandoned factories."
+          },
+          {
+            "pattern": "not linger on + topic",
+            "use": "Use this when someone chooses not to spend much time discussing something.",
+            "example": "The professor mentioned the disagreement but did not linger on it."
+          }
+        ],
+        "errors": [
+          {
+            "wrong": "The report lingers about the causes of the crisis.",
+            "correct": "The report lingers over the causes of the crisis.",
+            "explanation": "Use linger over when extra time or attention is given to a subject."
+          },
+          {
+            "wrong": "The camera lingered the image for several seconds.",
+            "correct": "The camera lingered on the image for several seconds.",
+            "explanation": "Use linger on before the thing receiving continued attention."
+          }
+        ]
+      }
+    ],
+    "word_family": [
+      {
+        "word": "lingering",
+        "part_of_speech": "adjective",
+        "definition": "continuing for longer than expected or remaining after the main event or cause has ended",
+        "examples": [
+          "The country continues to face the lingering effects of the recession.",
+          "There are lingering doubts about the accuracy of the original study.",
+          "A lingering smell of smoke remained in the building."
+        ],
+        "ipa": "/ˈlɪŋɡərɪŋ/",
+        "relationship_to_headword": "This adjective describes something that continues to remain or have an effect.",
+        "grammar_pattern": "lingering + doubt, concern, effect, question, smell, memory, or problem",
+        "usage_note": "This is especially common with abstract problems and effects that have not completely disappeared."
+      }
+    ],
+    "collocations": [
+      {
+        "collocation": "linger after",
+        "example": "Several students lingered after the lecture to speak with the professor.",
+        "applies_to_sense": "Stay longer than expected",
+        "meaning": "remain after an event has ended",
+        "grammar_pattern": "linger after + event"
+      },
+      {
+        "collocation": "linger near",
+        "example": "Visitors lingered near the entrance while waiting for the tour to begin.",
+        "applies_to_sense": "Stay longer than expected",
+        "meaning": "remain close to a particular place",
+        "grammar_pattern": "linger near + place"
+      },
+      {
+        "collocation": "linger in",
+        "example": "The smell of smoke lingered in the room for hours.",
+        "applies_to_sense": "Continue to exist or have an effect",
+        "meaning": "remain present in a place",
+        "grammar_pattern": "linger in + place"
+      },
+      {
+        "collocation": "doubts linger",
+        "example": "Doubts linger about whether the policy will achieve its goals.",
+        "applies_to_sense": "Continue to exist or have an effect",
+        "meaning": "uncertainty continues to exist"
+      },
+      {
+        "collocation": "questions linger",
+        "example": "Important questions linger about the long-term environmental effects.",
+        "applies_to_sense": "Continue to exist or have an effect",
+        "meaning": "questions remain unresolved"
+      },
+      {
+        "collocation": "effects linger",
+        "example": "The effects of prolonged unemployment can linger for years.",
+        "applies_to_sense": "Continue to exist or have an effect",
+        "meaning": "consequences continue after their original cause"
+      },
+      {
+        "collocation": "memory lingers",
+        "example": "The memory of the disaster still lingers in the community.",
+        "applies_to_sense": "Continue to exist or have an effect",
+        "meaning": "a memory remains strong for a long time"
+      },
+      {
+        "collocation": "linger for years",
+        "example": "Political tensions created by the conflict lingered for years.",
+        "applies_to_sense": "Continue to exist or have an effect",
+        "meaning": "continue for a long period",
+        "grammar_pattern": "linger for + period of time"
+      },
+      {
+        "collocation": "lingering doubts",
+        "example": "The new evidence removed some lingering doubts about the theory.",
+        "applies_to_sense": "Continue to exist or have an effect",
+        "meaning": "doubts that continue to remain",
+        "usage_note": "Lingering is the adjective form."
+      },
+      {
+        "collocation": "lingering effects",
+        "example": "The report examines the lingering effects of childhood poverty.",
+        "applies_to_sense": "Continue to exist or have an effect",
+        "meaning": "effects that continue long after their original cause",
+        "usage_note": "Lingering is the adjective form."
+      },
+      {
+        "collocation": "linger over",
+        "example": "The author lingers over the social consequences of industrialization.",
+        "applies_to_sense": "Spend extra time on something",
+        "meaning": "spend extra time considering, discussing, or enjoying something",
+        "grammar_pattern": "linger over + noun"
+      },
+      {
+        "collocation": "linger on",
+        "example": "The camera lingers on the damaged building before moving to the next scene.",
+        "applies_to_sense": "Spend extra time on something",
+        "meaning": "keep attention focused on something",
+        "grammar_pattern": "linger on + topic, detail, or image"
+      }
+    ],
+    "synonyms": [
+      {
+        "word": "remain",
+        "part_of_speech": "intransitive verb",
+        "applies_to_sense": "Stay longer than expected",
+        "difference": "Remain simply means continue to stay somewhere. Linger adds the idea of staying longer than expected, often because of hesitation, interest, or reluctance to leave.",
+        "example": "Several guests remained in the hall after the ceremony.",
+        "shared_meaning": "Both can mean continue to stay in a place."
+      },
+      {
+        "word": "persist",
+        "part_of_speech": "intransitive verb",
+        "applies_to_sense": "Continue to exist or have an effect",
+        "difference": "Persist emphasizes continuing despite time, difficulty, or attempts to stop something. Linger often suggests gradually remaining after the main cause or event has ended.",
+        "example": "The symptoms persisted despite treatment.",
+        "shared_meaning": "Both can describe something that continues to exist."
+      },
+      {
+        "word": "endure",
+        "part_of_speech": "intransitive verb",
+        "applies_to_sense": "Continue to exist or have an effect",
+        "difference": "Endure often suggests lasting for a long time and sometimes surviving difficult conditions. Linger more often describes a remaining effect, feeling, smell, memory, or doubt.",
+        "example": "The tradition endured for centuries.",
+        "shared_meaning": "Both can describe something continuing over time."
+      },
+      {
+        "word": "dwell on",
+        "part_of_speech": "verb phrase",
+        "applies_to_sense": "Spend extra time on something",
+        "difference": "Dwell on usually means think or talk about something for a long time, often something unpleasant. Linger on or over is broader and can involve thought, discussion, visual attention, or enjoyment.",
+        "example": "The report does not dwell on the causes of the failure.",
+        "shared_meaning": "Both can describe giving a subject extended attention."
+      }
+    ],
+    "antonyms": [
+      {
+        "word": "depart",
+        "part_of_speech": "intransitive verb",
+        "applies_to_sense": "Stay longer than expected",
+        "opposition": "Depart means leave a place, while linger means remain there for additional time.",
+        "example": "Most visitors departed immediately after the ceremony."
+      },
+      {
+        "word": "disappear",
+        "part_of_speech": "intransitive verb",
+        "applies_to_sense": "Continue to exist or have an effect",
+        "opposition": "Disappear means stop being present or noticeable, while linger means continue to remain noticeable.",
+        "example": "The smell gradually disappeared after the windows were opened."
+      }
+    ],
+    "confusables": [
+      {
+        "word": "persist",
+        "key_difference": "Linger often describes something remaining after its original cause has ended, while persist more strongly emphasizes continuing despite time, difficulty, or attempts to stop it.",
+        "headword_example": "A faint smell of smoke lingered in the room.",
+        "confusable_example": "The infection persisted despite several weeks of treatment.",
+        "part_of_speech": "intransitive verb",
+        "why_confused": "Both can mean continue to exist for longer than expected."
+      },
+      {
+        "word": "loiter",
+        "key_difference": "Linger can simply mean remain somewhere because of interest, hesitation, or enjoyment. Loiter usually means stay in a public place without a clear purpose and can have a negative or legal implication.",
+        "headword_example": "Visitors lingered in the gallery to admire the paintings.",
+        "confusable_example": "The sign warned people not to loiter outside the entrance.",
+        "part_of_speech": "intransitive verb",
+        "why_confused": "Both can describe remaining in a place instead of leaving."
+      }
+    ],
+    "etymology": {
+      "origin": "Linger comes from Middle English and has long carried the idea of remaining, delaying, or staying longer.",
+      "memory_link": "If something lingers, it stays behind instead of disappearing or moving on quickly."
+    },
+    "exercises": {
+      "word_family_choice": [
+        {
+          "prompt_sentence": "The country is still dealing with the _____ effects of the financial crisis.",
+          "answer": "lingering",
+          "completed_sentence": "The country is still dealing with the lingering effects of the financial crisis.",
+          "explanation": "Use the adjective lingering before effects."
+        },
+        {
+          "prompt_sentence": "Several important questions continue to _____ about the study's methodology.",
+          "answer": "linger",
+          "completed_sentence": "Several important questions continue to linger about the study's methodology.",
+          "explanation": "Use the base verb linger after continue to."
+        }
+      ],
+      "correct_or_incorrect": [
+        {
+          "sentence": "The smell of smoke lingered in the room for several hours.",
+          "verdict": "Correct",
+          "explanation": "Linger in a place naturally describes a smell that remains noticeable."
+        },
+        {
+          "sentence": "The students lingered the classroom after the lesson.",
+          "verdict": "Incorrect",
+          "corrected_sentence": "The students lingered in the classroom after the lesson.",
+          "explanation": "Linger is normally intransitive, so use in before the place."
+        },
+        {
+          "sentence": "Doubts about the accuracy of the data continue to linger.",
+          "verdict": "Correct",
+          "explanation": "Continue to linger is a common pattern for doubts or concerns that remain unresolved."
+        },
+        {
+          "sentence": "The economic effects lingered during several years.",
+          "verdict": "Incorrect",
+          "corrected_sentence": "The economic effects lingered for several years.",
+          "explanation": "Use for to state how long something continues."
+        },
+        {
+          "sentence": "The documentary lingers on images of the abandoned city.",
+          "verdict": "Correct",
+          "explanation": "Linger on naturally means keep attention focused on something for extra time."
+        }
+      ],
+      "collocation_practice": [
+        {
+          "prompt_sentence": "The effects of the recession continued to _____ for several years.",
+          "answer": "linger",
+          "completed_sentence": "The effects of the recession continued to linger for several years.",
+          "explanation": "Effects can linger when they continue after the original event."
+        },
+        {
+          "prompt_sentence": "A few students lingered _____ class to speak with the professor.",
+          "answer": "after",
+          "completed_sentence": "A few students lingered after class to speak with the professor.",
+          "explanation": "Linger after an event means remain after it has ended."
+        },
+        {
+          "prompt_sentence": "Important doubts still _____ about the reliability of the results.",
+          "answer": "linger",
+          "completed_sentence": "Important doubts still linger about the reliability of the results.",
+          "explanation": "Doubts linger means uncertainty remains."
+        },
+        {
+          "prompt_sentence": "The author lingers _____ the social consequences of the policy.",
+          "answer": "over",
+          "completed_sentence": "The author lingers over the social consequences of the policy.",
+          "explanation": "Linger over means spend extra time discussing or considering something."
+        },
+        {
+          "prompt_sentence": "The report examines the _____ effects of prolonged unemployment.",
+          "answer": "lingering",
+          "completed_sentence": "The report examines the lingering effects of prolonged unemployment.",
+          "explanation": "Lingering effects are consequences that continue after the original cause or event."
+        }
+      ]
+    }
+  }

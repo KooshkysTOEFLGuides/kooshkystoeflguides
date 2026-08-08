@@ -1,0 +1,533 @@
+{
+    "document_type": "kooshky_toefl_word_of_the_day",
+    "schema_version": "1.3",
+    "slug": "impose",
+    "word": "impose",
+    "date": "August 26th 2026",
+    "pronunciation": {
+      "primary_ipa": "/ɪmˈpoʊz/"
+    },
+    "hero": {
+      "part_of_speech_summary": "transitive verb",
+      "short_meanings": [
+        "officially introduce and enforce",
+        "force something unwanted on someone",
+        "burden someone with your presence or demands"
+      ],
+      "one_line_summary": "Impose usually involves making people accept something they did not freely choose, such as a rule, tax, burden, belief, or demand.",
+      "memorable_example": "The government imposed stricter limits on industrial pollution."
+    },
+    "meanings": [
+      {
+        "sense_title": "Officially introduce and enforce",
+        "part_of_speech": "transitive verb",
+        "ipa": "/ɪmˈpoʊz/",
+        "definition": "to officially introduce a rule, tax, punishment, restriction, or other requirement and make people obey or accept it",
+        "examples": [
+          "The government imposed stricter limits on industrial pollution.",
+          "The court imposed a substantial fine on the company.",
+          "Several countries imposed new taxes on imported goods.",
+          "The university imposed a temporary ban on parking near the construction site.",
+          "Authorities imposed restrictions on water use during the drought.",
+          "The treaty imposed strict limits on the country's military activities.",
+          "The judge imposed a sentence of three years in prison.",
+          "New regulations impose additional safety requirements on manufacturers."
+        ],
+        "plain_english_equivalent": "officially make a rule or requirement apply",
+        "typical_pattern": "impose + tax, fine, ban, restriction, limit, penalty, sentence, or requirement",
+        "register": "neutral to formal; very common in academic, legal, political, economic, and policy contexts",
+        "nuance": {
+          "central_nuance": "Impose emphasizes authority and lack of free choice: a government, court, institution, or other authority makes something apply to people.",
+          "usual_implication": "The people affected may not agree with or welcome the rule, tax, restriction, or punishment.",
+          "contrast_term": "recommend",
+          "contrast_explanation": "To recommend something is to advise people to do it. To impose it is to make it compulsory or officially apply it."
+        },
+        "grammar": {
+          "how_to_use": "Put the rule, tax, punishment, or restriction directly after impose.",
+          "what_can_follow": "Common objects include tax, fine, penalty, ban, restriction, limit, requirement, condition, sanction, and sentence.",
+          "preposition_note": "When naming the people or organization affected, use on or upon: impose a tax on consumers, impose restrictions on factories.",
+          "position_note": "The passive form is also common: A fine was imposed on the company."
+        },
+        "patterns": [
+          {
+            "pattern": "impose + tax or fee + on + person or group",
+            "use": "Use this when an authority officially requires people to pay money.",
+            "example": "The city imposed a new fee on property developers."
+          },
+          {
+            "pattern": "impose + restriction or limit + on + activity",
+            "use": "Use this when an authority officially limits what people can do.",
+            "example": "The government imposed restrictions on commercial fishing."
+          },
+          {
+            "pattern": "impose + fine or penalty + on + person or organization",
+            "use": "Use this when an authority officially punishes someone.",
+            "example": "Regulators imposed a heavy fine on the company."
+          },
+          {
+            "pattern": "impose + ban",
+            "use": "Use this when an authority officially prohibits something.",
+            "example": "The city imposed a temporary ban on outdoor fires."
+          },
+          {
+            "pattern": "be imposed on + person, group, or activity",
+            "use": "Use the passive form when the rule or punishment is the main focus.",
+            "example": "Strict limits were imposed on groundwater use."
+          }
+        ],
+        "errors": [
+          {
+            "wrong": "The government imposed to companies stricter regulations.",
+            "correct": "The government imposed stricter regulations on companies.",
+            "explanation": "Put the thing being imposed directly after impose, and use on before the people or organizations affected."
+          },
+          {
+            "wrong": "The court imposed the company a fine.",
+            "correct": "The court imposed a fine on the company.",
+            "explanation": "The normal pattern is impose something on someone."
+          },
+          {
+            "wrong": "The government imposed people to follow the new rule.",
+            "correct": "The government required people to follow the new rule.",
+            "explanation": "Do not use impose + person + to + verb. Use impose a rule on someone, or use require someone to do something."
+          }
+        ]
+      },
+      {
+        "sense_title": "Force something unwanted on someone",
+        "part_of_speech": "transitive verb",
+        "ipa": "/ɪmˈpoʊz/",
+        "definition": "to force an unwanted burden, idea, condition, or responsibility on someone",
+        "examples": [
+          "Parents should be careful not to impose their own career ambitions on their children.",
+          "The new reporting requirements impose a significant burden on small businesses.",
+          "Critics argued that the policy imposed unnecessary costs on local communities.",
+          "A teacher should not impose personal political beliefs on students.",
+          "The project imposed additional responsibilities on employees who were already overworked.",
+          "Rapid population growth can impose severe pressure on public services.",
+          "The agreement imposed several difficult conditions on the smaller company.",
+          "The disaster imposed enormous financial costs on the region."
+        ],
+        "plain_english_equivalent": "force someone to accept or deal with something",
+        "typical_pattern": "impose + burden, cost, pressure, condition, belief, responsibility, or demand + on + someone",
+        "register": "neutral to formal; common in academic discussions of policy, economics, society, education, and ethics",
+        "nuance": {
+          "central_nuance": "This sense focuses on making someone carry, accept, or deal with something they did not freely choose.",
+          "usual_implication": "The imposed thing is often difficult, unwanted, restrictive, expensive, or unfair.",
+          "contrast_term": "offer",
+          "contrast_explanation": "Something offered can be accepted or refused. Something imposed is forced on the person or group."
+        },
+        "grammar": {
+          "how_to_use": "Put the burden, idea, condition, or responsibility directly after impose.",
+          "what_can_follow": "Common objects include burden, cost, pressure, condition, responsibility, demand, belief, value, and expectation.",
+          "preposition_note": "Use on or upon before the person or group receiving the unwanted thing: impose a burden on taxpayers.",
+          "position_note": "The passive is common when focusing on the affected person or group: Extra responsibilities were imposed on staff."
+        },
+        "patterns": [
+          {
+            "pattern": "impose a burden on + person or group",
+            "use": "Use this when something creates extra difficulty, work, or expense.",
+            "example": "The paperwork imposes a heavy burden on small businesses."
+          },
+          {
+            "pattern": "impose costs on + person or group",
+            "use": "Use this when a decision causes people to pay or lose money.",
+            "example": "Environmental damage can impose substantial costs on future generations."
+          },
+          {
+            "pattern": "impose pressure on + person, system, or resource",
+            "use": "Use this when something creates strain or difficulty.",
+            "example": "Rapid urban growth imposes pressure on transportation systems."
+          },
+          {
+            "pattern": "impose beliefs or values on + someone",
+            "use": "Use this when someone tries to force another person to accept particular ideas.",
+            "example": "Schools should educate students without imposing a particular political ideology on them."
+          },
+          {
+            "pattern": "impose conditions on + someone",
+            "use": "Use this when someone must accept certain requirements.",
+            "example": "The lender imposed strict conditions on the borrower."
+          }
+        ],
+        "errors": [
+          {
+            "wrong": "Parents should not impose their children their beliefs.",
+            "correct": "Parents should not impose their beliefs on their children.",
+            "explanation": "Use impose something on someone."
+          },
+          {
+            "wrong": "The policy imposed many pressures to small businesses.",
+            "correct": "The policy imposed considerable pressure on small businesses.",
+            "explanation": "Use on, not to. Pressure is also commonly uncountable in this meaning."
+          },
+          {
+            "wrong": "She imposed me to accept her opinion.",
+            "correct": "She tried to impose her opinion on me.",
+            "explanation": "Do not use impose someone to do something. Use impose something on someone."
+          }
+        ]
+      },
+      {
+        "sense_title": "Burden someone with your presence or demands",
+        "part_of_speech": "transitive verb",
+        "ipa": "/ɪmˈpoʊz/",
+        "definition": "to force your presence, attention, or demands on someone when they may not want them",
+        "examples": [
+          "I did not want to impose on my neighbors by asking them to drive me to the airport.",
+          "She felt that staying for another week would impose on her hosts.",
+          "He was careful not to impose himself on colleagues who were already extremely busy.",
+          "I hope I am not imposing, but could I use your phone for a moment?",
+          "They offered us dinner, but we did not want to impose on their hospitality.",
+          "She disliked imposing on friends for help unless it was absolutely necessary.",
+          "The visitor imposed himself on the family and stayed far longer than expected."
+        ],
+        "plain_english_equivalent": "cause someone inconvenience by asking too much or staying when not wanted",
+        "typical_pattern": "impose on + someone, or impose yourself on + someone",
+        "register": "neutral; often used politely when discussing favors, hospitality, personal space, or unwanted attention",
+        "nuance": {
+          "central_nuance": "This sense often expresses concern that your request, presence, or behavior may inconvenience another person.",
+          "usual_implication": "It is frequently used in polite language when someone wants to avoid taking advantage of another person's kindness.",
+          "contrast_term": "respect someone's space",
+          "contrast_explanation": "Respecting someone's space means avoiding unwanted demands or intrusion. Imposing on someone means creating an unwanted burden through your presence or requests."
+        },
+        "grammar": {
+          "how_to_use": "Use impose on someone when your request or presence may burden them. Use impose yourself on someone when you force your company or attention on them.",
+          "what_can_follow": "After impose on, name the person or group affected. You can also say impose on someone's hospitality or generosity.",
+          "preposition_note": "On is essential in this pattern: impose on someone.",
+          "position_note": "This meaning often appears in negative or polite expressions such as I don't want to impose or I hope I'm not imposing."
+        },
+        "patterns": [
+          {
+            "pattern": "impose on + someone",
+            "use": "Use this when asking a favor or staying with someone might inconvenience them.",
+            "example": "I do not want to impose on you, so I can find a hotel instead."
+          },
+          {
+            "pattern": "impose on someone's hospitality",
+            "use": "Use this when you worry that you are accepting too much kindness from a host.",
+            "example": "We decided to leave early rather than impose on their hospitality."
+          },
+          {
+            "pattern": "impose yourself on + someone",
+            "use": "Use this when a person forces their presence or attention on someone else.",
+            "example": "He had a habit of imposing himself on people who wanted to be left alone."
+          },
+          {
+            "pattern": "I hope I'm not imposing",
+            "use": "Use this polite expression before or after making a request that may inconvenience someone.",
+            "example": "I hope I'm not imposing, but could I stay here tonight?"
+          }
+        ],
+        "errors": [
+          {
+            "wrong": "I don't want to impose you.",
+            "correct": "I don't want to impose on you.",
+            "explanation": "When impose means inconvenience someone through a request or your presence, use impose on someone."
+          },
+          {
+            "wrong": "He imposed himself to his neighbors.",
+            "correct": "He imposed himself on his neighbors.",
+            "explanation": "The correct pattern is impose yourself on someone."
+          },
+          {
+            "wrong": "I hope I don't impose to ask for another favor.",
+            "correct": "I hope I'm not imposing by asking for another favor.",
+            "explanation": "A natural pattern is be imposing by + -ing form."
+          }
+        ]
+      }
+    ],
+    "word_family": [
+      {
+        "word": "imposition",
+        "part_of_speech": "countable noun",
+        "definition": "an unfair or inconvenient demand or burden placed on someone",
+        "examples": [
+          "Requiring employees to work every weekend would be a considerable imposition.",
+          "She apologized for the imposition and thanked her neighbors for helping.",
+          "The additional paperwork was seen as an unnecessary imposition."
+        ],
+        "ipa": "/ˌɪmpəˈzɪʃən/",
+        "relationship_to_headword": "This noun can refer to a burden or demand that has been imposed on someone.",
+        "grammar_pattern": "an imposition on + person or group",
+        "usage_note": "It is especially common when talking about inconvenience or an unreasonable demand."
+      },
+      {
+        "word": "imposing",
+        "part_of_speech": "adjective",
+        "definition": "large, impressive, and likely to attract attention because of appearance or size",
+        "examples": [
+          "The museum occupies an imposing stone building in the center of the city.",
+          "The mountain presents an imposing sight from the valley below."
+        ],
+        "ipa": "/ɪmˈpoʊzɪŋ/",
+        "relationship_to_headword": "This adjective is historically related to impose but has developed the separate common meaning of impressive in size or appearance.",
+        "grammar_pattern": "imposing + building, structure, figure, entrance, or appearance",
+        "usage_note": "Do not assume that imposing means forcing something in this adjective use."
+      }
+    ],
+    "collocations": [
+      {
+        "collocation": "impose a tax",
+        "example": "The government imposed a tax on luxury goods.",
+        "applies_to_sense": "Officially introduce and enforce",
+        "meaning": "officially require a tax to be paid",
+        "grammar_pattern": "impose a tax on + person, product, or activity"
+      },
+      {
+        "collocation": "impose a fine",
+        "example": "The regulator imposed a fine on the company for violating safety rules.",
+        "applies_to_sense": "Officially introduce and enforce",
+        "meaning": "officially require someone to pay money as punishment",
+        "grammar_pattern": "impose a fine on + person or organization"
+      },
+      {
+        "collocation": "impose a penalty",
+        "example": "The law allows courts to impose severe penalties for repeated violations.",
+        "applies_to_sense": "Officially introduce and enforce",
+        "meaning": "officially give a punishment"
+      },
+      {
+        "collocation": "impose restrictions",
+        "example": "Authorities imposed restrictions on construction near the protected area.",
+        "applies_to_sense": "Officially introduce and enforce",
+        "meaning": "officially limit what people are allowed to do",
+        "grammar_pattern": "impose restrictions on + activity or group"
+      },
+      {
+        "collocation": "impose a ban",
+        "example": "The government imposed a ban on the sale of the chemical.",
+        "applies_to_sense": "Officially introduce and enforce",
+        "meaning": "officially prohibit something",
+        "grammar_pattern": "impose a ban on + activity or product"
+      },
+      {
+        "collocation": "impose limits",
+        "example": "The law imposes strict limits on industrial emissions.",
+        "applies_to_sense": "Officially introduce and enforce",
+        "meaning": "officially restrict the amount or extent of something",
+        "grammar_pattern": "impose limits on + activity or quantity"
+      },
+      {
+        "collocation": "impose sanctions",
+        "example": "Several countries imposed economic sanctions on the regime.",
+        "applies_to_sense": "Officially introduce and enforce",
+        "meaning": "officially introduce economic or political penalties",
+        "grammar_pattern": "impose sanctions on + country, organization, or individual"
+      },
+      {
+        "collocation": "impose a burden",
+        "example": "The new rules impose an additional burden on small businesses.",
+        "applies_to_sense": "Force something unwanted on someone",
+        "meaning": "make someone carry an extra difficulty, responsibility, or cost",
+        "grammar_pattern": "impose a burden on + person or group"
+      },
+      {
+        "collocation": "impose costs",
+        "example": "Pollution imposes substantial costs on society.",
+        "applies_to_sense": "Force something unwanted on someone",
+        "meaning": "cause someone or society to bear financial or other costs",
+        "grammar_pattern": "impose costs on + person, group, or society"
+      },
+      {
+        "collocation": "impose conditions",
+        "example": "The bank imposed strict conditions on the loan.",
+        "applies_to_sense": "Force something unwanted on someone",
+        "meaning": "require someone to accept particular terms",
+        "grammar_pattern": "impose conditions on + person, agreement, or activity"
+      },
+      {
+        "collocation": "impose one's views",
+        "example": "Teachers should avoid imposing their personal views on students.",
+        "applies_to_sense": "Force something unwanted on someone",
+        "meaning": "force other people to accept your opinions",
+        "grammar_pattern": "impose one's views on + someone"
+      },
+      {
+        "collocation": "impose on someone",
+        "example": "I do not want to impose on you by staying another night.",
+        "applies_to_sense": "Burden someone with your presence or demands",
+        "meaning": "cause someone inconvenience through your requests or presence"
+      },
+      {
+        "collocation": "impose on someone's hospitality",
+        "example": "We did not want to impose on our hosts' hospitality.",
+        "applies_to_sense": "Burden someone with your presence or demands",
+        "meaning": "take unfair advantage of someone's willingness to host or help you"
+      }
+    ],
+    "synonyms": [
+      {
+        "word": "enforce",
+        "part_of_speech": "transitive verb",
+        "applies_to_sense": "Officially introduce and enforce",
+        "difference": "Enforce means make sure an existing law or rule is obeyed. Impose means introduce or place the rule, restriction, or punishment on people in the first place.",
+        "example": "Police are responsible for enforcing traffic laws.",
+        "shared_meaning": "Both involve authority and compulsory rules."
+      },
+      {
+        "word": "levy",
+        "part_of_speech": "transitive verb",
+        "applies_to_sense": "Officially introduce and enforce",
+        "difference": "Levy is a more specialized formal verb used mainly for officially imposing taxes, fees, or other financial charges. Impose can be used much more broadly.",
+        "example": "The city levied a tax on vacant properties.",
+        "shared_meaning": "Both can mean officially require a tax or financial charge."
+      },
+      {
+        "word": "force",
+        "part_of_speech": "transitive verb",
+        "applies_to_sense": "Force something unwanted on someone",
+        "difference": "Force is broader and often focuses on making a person perform an action. Impose usually focuses on placing a rule, burden, belief, condition, or cost on someone.",
+        "example": "The circumstances forced the company to reduce production.",
+        "shared_meaning": "Both involve lack of free choice."
+      },
+      {
+        "word": "burden",
+        "part_of_speech": "transitive verb",
+        "applies_to_sense": "Force something unwanted on someone",
+        "difference": "Burden emphasizes giving someone difficult responsibilities, costs, or problems. Impose is broader and can also refer to rules, beliefs, restrictions, or conditions.",
+        "example": "The complicated process burdens small businesses with unnecessary paperwork.",
+        "shared_meaning": "Both can describe causing someone to carry an unwanted difficulty."
+      },
+      {
+        "word": "intrude",
+        "part_of_speech": "intransitive verb",
+        "applies_to_sense": "Burden someone with your presence or demands",
+        "difference": "Intrude emphasizes entering someone's space, privacy, or activity without permission. Impose on emphasizes causing inconvenience by asking too much or taking advantage of someone's hospitality.",
+        "example": "I did not want to intrude on their private conversation.",
+        "shared_meaning": "Both can describe unwanted interference with another person."
+      }
+    ],
+    "antonyms": [
+      {
+        "word": "lift",
+        "part_of_speech": "transitive verb",
+        "applies_to_sense": "Officially introduce and enforce",
+        "opposition": "To impose a restriction or ban is to introduce it; to lift it is to officially remove it.",
+        "example": "Authorities lifted the restrictions after conditions improved.",
+        "usage_note": "This is a strong opposite specifically for restrictions, bans, sanctions, and similar measures."
+      },
+      {
+        "word": "remove",
+        "part_of_speech": "transitive verb",
+        "applies_to_sense": "Officially introduce and enforce",
+        "opposition": "Impose can mean place a requirement or restriction on someone, while remove means take that requirement or restriction away.",
+        "example": "The government removed several unnecessary restrictions."
+      }
+    ],
+    "confusables": [
+      {
+        "word": "enforce",
+        "key_difference": "Impose means introduce or place a rule, tax, punishment, or restriction on someone. Enforce means make sure an existing rule or law is obeyed.",
+        "headword_example": "The city imposed a new parking restriction.",
+        "confusable_example": "Police began enforcing the new parking restriction on Monday.",
+        "part_of_speech": "transitive verb",
+        "why_confused": "Both commonly appear in discussions of laws, rules, and government authority."
+      },
+      {
+        "word": "propose",
+        "key_difference": "Impose means make something apply without giving the affected people a choice. Propose means suggest something for consideration.",
+        "headword_example": "The government imposed a new tax.",
+        "confusable_example": "The government proposed a new tax, but parliament had not yet approved it.",
+        "part_of_speech": "transitive verb",
+        "why_confused": "The words look somewhat similar but represent very different stages of decision-making."
+      },
+      {
+        "word": "imposing",
+        "key_difference": "Impose is a verb meaning force or officially place something on someone. Imposing is commonly an adjective meaning large, impressive, and visually powerful.",
+        "headword_example": "The court imposed a heavy fine on the company.",
+        "confusable_example": "The courthouse is an imposing stone building.",
+        "part_of_speech": "verb versus adjective",
+        "why_confused": "Imposing looks like the -ing form of impose but also has an established adjective meaning that learners may not expect."
+      }
+    ],
+    "etymology": {
+      "origin": "Impose comes through French from Latin elements meaning to put or place upon.",
+      "development": "The idea of placing something upon another thing developed into the modern meanings of placing a rule, burden, duty, tax, or demand on someone.",
+      "memory_link": "Think of impose as putting something on someone: a tax, rule, burden, belief, or demand."
+    },
+    "exercises": {
+      "word_family_choice": [
+        {
+          "prompt_sentence": "Requiring employees to attend unpaid meetings every weekend would be a serious _____.",
+          "answer": "imposition",
+          "completed_sentence": "Requiring employees to attend unpaid meetings every weekend would be a serious imposition.",
+          "explanation": "Use the noun imposition for an unreasonable or inconvenient burden."
+        },
+        {
+          "prompt_sentence": "The museum is housed in an _____ nineteenth-century building.",
+          "answer": "imposing",
+          "completed_sentence": "The museum is housed in an imposing nineteenth-century building.",
+          "explanation": "The adjective imposing means large and impressive in appearance."
+        },
+        {
+          "prompt_sentence": "The government decided to _____ stricter limits on industrial emissions.",
+          "answer": "impose",
+          "completed_sentence": "The government decided to impose stricter limits on industrial emissions.",
+          "explanation": "Use the base verb impose after to."
+        }
+      ],
+      "correct_or_incorrect": [
+        {
+          "sentence": "The court imposed a heavy fine on the company.",
+          "verdict": "Correct",
+          "explanation": "Impose something on someone is the standard pattern."
+        },
+        {
+          "sentence": "The government imposed citizens to follow the new rule.",
+          "verdict": "Incorrect",
+          "corrected_sentence": "The government required citizens to follow the new rule.",
+          "explanation": "Do not use impose + person + to + verb."
+        },
+        {
+          "sentence": "The new regulations impose additional costs on manufacturers.",
+          "verdict": "Correct",
+          "explanation": "Impose costs on someone means cause them to bear those costs."
+        },
+        {
+          "sentence": "Parents should not impose their ambitions to their children.",
+          "verdict": "Incorrect",
+          "corrected_sentence": "Parents should not impose their ambitions on their children.",
+          "explanation": "Use impose something on someone."
+        },
+        {
+          "sentence": "I do not want to impose on you by asking for another favor.",
+          "verdict": "Correct",
+          "explanation": "Impose on someone means inconvenience or burden them through your requests or presence."
+        }
+      ],
+      "collocation_practice": [
+        {
+          "prompt_sentence": "The government imposed new restrictions _____ industrial water use.",
+          "answer": "on",
+          "completed_sentence": "The government imposed new restrictions on industrial water use.",
+          "explanation": "Use impose restrictions on something."
+        },
+        {
+          "prompt_sentence": "The court decided to impose a substantial _____ on the company.",
+          "answer": "fine",
+          "completed_sentence": "The court decided to impose a substantial fine on the company.",
+          "explanation": "Impose a fine is a common legal collocation."
+        },
+        {
+          "prompt_sentence": "Complex regulations can impose a heavy _____ on small businesses.",
+          "answer": "burden",
+          "completed_sentence": "Complex regulations can impose a heavy burden on small businesses.",
+          "explanation": "Impose a burden on someone means cause them extra difficulty, work, or expense."
+        },
+        {
+          "prompt_sentence": "Teachers should avoid imposing their personal views _____ students.",
+          "answer": "on",
+          "completed_sentence": "Teachers should avoid imposing their personal views on students.",
+          "explanation": "Use impose one's views on someone."
+        },
+        {
+          "prompt_sentence": "I hope I am not imposing _____ you by staying another night.",
+          "answer": "on",
+          "completed_sentence": "I hope I am not imposing on you by staying another night.",
+          "explanation": "Impose on someone means cause them inconvenience through your presence or requests."
+        }
+      ]
+    }
+  }

@@ -1,0 +1,338 @@
+{
+    "document_type": "kooshky_toefl_word_of_the_day",
+    "schema_version": "1.3",
+    "slug": "unequivocally",
+    "word": "unequivocally",
+    "date": "August 11th 2026",
+    "pronunciation": {
+      "primary_ipa": "/ˌʌnɪˈkwɪvəkəli/"
+    },
+    "hero": {
+      "part_of_speech_summary": "adverb",
+      "short_meanings": [
+        "clearly and without any doubt"
+      ],
+      "one_line_summary": "Unequivocally emphasizes that a statement, position, conclusion, or fact is completely clear and allows no reasonable doubt.",
+      "memorable_example": "The researchers stated unequivocally that the evidence did not support the original theory."
+    },
+    "meanings": [
+      {
+        "sense_title": "Clearly and without any doubt",
+        "part_of_speech": "adverb",
+        "ipa": "/ˌʌnɪˈkwɪvəkəli/",
+        "definition": "in a completely clear and definite way that leaves no doubt about what is meant, believed, or true",
+        "examples": [
+          "The researchers stated unequivocally that the evidence did not support the original theory.",
+          "The university unequivocally rejected the accusation of discrimination.",
+          "The data show unequivocally that average temperatures have increased over the study period.",
+          "The mayor unequivocally supported the proposal to expand public transportation.",
+          "Medical experts have unequivocally condemned the use of the unsafe treatment.",
+          "The court ruled unequivocally in favor of the workers.",
+          "She answered unequivocally that she would not participate in the project.",
+          "The results do not unequivocally prove that the new method is superior."
+        ],
+        "plain_english_equivalent": "very clearly and with no doubt",
+        "typical_pattern": "unequivocally + state, reject, support, condemn, show, or demonstrate",
+        "register": "formal; common in academic, legal, political, journalistic, and professional writing",
+        "nuance": {
+          "central_nuance": "The word is stronger than simply clearly. It emphasizes that there is no ambiguity, hesitation, or uncertainty in the statement, position, or conclusion.",
+          "usual_implication": "It is often used when the writer or speaker wants to emphasize a firm position or a conclusion that they consider especially clear.",
+          "contrast_term": "apparently",
+          "contrast_explanation": "Apparently suggests that something seems to be true but may still be uncertain. Unequivocally indicates that there is no such uncertainty or ambiguity."
+        },
+        "grammar": {
+          "how_to_use": "Use it to describe a verb, adjective, or complete statement when you want to emphasize complete clarity or certainty.",
+          "what_can_follow": "It often comes before verbs such as reject, support, condemn, demonstrate, show, state, and deny. It can also come before adjectives such as positive or clear.",
+          "position_note": "It commonly appears before the main verb, as in The committee unequivocally rejected the proposal. With verbs such as state or say, it can also appear after the verb, as in She stated unequivocally that she opposed the plan."
+        },
+        "patterns": [
+          {
+            "pattern": "unequivocally + reject, support, condemn, or deny",
+            "use": "Use this to emphasize that a position is firm and leaves no uncertainty.",
+            "example": "The organization unequivocally condemned the attack."
+          },
+          {
+            "pattern": "state or say unequivocally that + clause",
+            "use": "Use this when someone expresses a position in completely clear terms.",
+            "example": "The director stated unequivocally that the policy would remain in effect."
+          },
+          {
+            "pattern": "show or demonstrate unequivocally that + clause",
+            "use": "Use this when evidence is considered clear enough to leave no reasonable doubt about a conclusion.",
+            "example": "The experiment did not demonstrate unequivocally that the treatment was effective."
+          },
+          {
+            "pattern": "unequivocally in favor of or opposed to + noun",
+            "use": "Use this to express a completely clear position for or against something.",
+            "example": "The committee was unequivocally in favor of stricter safety standards."
+          },
+          {
+            "pattern": "not unequivocally + verb",
+            "use": "Use this when the evidence or statement is not clear enough to support a definite conclusion.",
+            "example": "The available evidence does not unequivocally establish a causal relationship."
+          }
+        ],
+        "errors": [
+          {
+            "wrong": "The evidence unequivocally maybe supports the theory.",
+            "correct": "The evidence may support the theory, but it does not do so unequivocally.",
+            "explanation": "Unequivocally expresses complete clarity or certainty, so combining it directly with maybe creates a contradiction."
+          },
+          {
+            "wrong": "The government gave an unequivocally response.",
+            "correct": "The government gave an unequivocal response.",
+            "explanation": "Use the adjective unequivocal before a noun. Unequivocally is an adverb."
+          },
+          {
+            "wrong": "She unequivocal rejected the proposal.",
+            "correct": "She unequivocally rejected the proposal.",
+            "explanation": "Use the adverb unequivocally to describe the verb rejected."
+          },
+          {
+            "wrong": "The results unequivocally suggest that the treatment might possibly work.",
+            "correct": "The results suggest that the treatment might work.",
+            "explanation": "Unequivocally is usually inappropriate when the rest of the statement deliberately expresses uncertainty."
+          }
+        ]
+      }
+    ],
+    "word_family": [
+      {
+        "word": "unequivocal",
+        "part_of_speech": "adjective",
+        "definition": "completely clear and definite, with no possibility of being understood in more than one way",
+        "examples": [
+          "The committee gave its unequivocal support to the proposal.",
+          "The evidence did not provide an unequivocal answer to the question."
+        ],
+        "ipa": "/ˌʌnɪˈkwɪvəkəl/",
+        "relationship_to_headword": "This adjective describes a statement, answer, position, or result that is completely clear and definite.",
+        "grammar_pattern": "unequivocal + support, rejection, answer, evidence, statement, or position"
+      },
+      {
+        "word": "equivocal",
+        "part_of_speech": "adjective",
+        "definition": "not completely clear or definite and therefore open to more than one interpretation",
+        "examples": [
+          "The results were equivocal and did not clearly support either explanation.",
+          "His equivocal response made it difficult to determine whether he supported the proposal."
+        ],
+        "ipa": "/ɪˈkwɪvəkəl/",
+        "relationship_to_headword": "Unequivocal is formed by adding un- to equivocal, reversing its meaning.",
+        "grammar_pattern": "equivocal + result, answer, response, evidence, or statement",
+        "usage_note": "Equivocal is formal and often describes evidence, statements, or results that are unclear or inconclusive."
+      }
+    ],
+    "collocations": [
+      {
+        "collocation": "unequivocally reject",
+        "example": "The committee unequivocally rejected the claim that the data had been altered.",
+        "applies_to_sense": "Clearly and without any doubt",
+        "meaning": "reject something in completely clear and definite terms"
+      },
+      {
+        "collocation": "unequivocally support",
+        "example": "The organization unequivocally supports equal access to education.",
+        "applies_to_sense": "Clearly and without any doubt",
+        "meaning": "express complete and definite support for something"
+      },
+      {
+        "collocation": "unequivocally condemn",
+        "example": "The international organization unequivocally condemned the violence.",
+        "applies_to_sense": "Clearly and without any doubt",
+        "meaning": "express complete and definite disapproval"
+      },
+      {
+        "collocation": "unequivocally deny",
+        "example": "The company unequivocally denied that it had violated environmental regulations.",
+        "applies_to_sense": "Clearly and without any doubt",
+        "meaning": "deny something firmly and without leaving any uncertainty"
+      },
+      {
+        "collocation": "state unequivocally",
+        "example": "The report states unequivocally that further testing is necessary.",
+        "applies_to_sense": "Clearly and without any doubt",
+        "meaning": "express something in completely clear and definite terms",
+        "grammar_pattern": "state unequivocally that + clause"
+      },
+      {
+        "collocation": "show unequivocally",
+        "example": "The available evidence does not show unequivocally that the two events are related.",
+        "applies_to_sense": "Clearly and without any doubt",
+        "meaning": "provide evidence that supports a conclusion without ambiguity",
+        "grammar_pattern": "show unequivocally that + clause"
+      },
+      {
+        "collocation": "demonstrate unequivocally",
+        "example": "No experiment has yet demonstrated unequivocally that the effect is permanent.",
+        "applies_to_sense": "Clearly and without any doubt",
+        "meaning": "establish something through evidence in a completely convincing way",
+        "grammar_pattern": "demonstrate unequivocally that + clause"
+      },
+      {
+        "collocation": "unequivocally in favor of",
+        "example": "The researchers were unequivocally in favor of making the data publicly available.",
+        "applies_to_sense": "Clearly and without any doubt",
+        "meaning": "completely and clearly supportive of something",
+        "grammar_pattern": "be unequivocally in favor of + noun or -ing form"
+      },
+      {
+        "collocation": "unequivocal evidence",
+        "example": "The study did not produce unequivocal evidence of a causal relationship.",
+        "applies_to_sense": "Clearly and without any doubt",
+        "meaning": "evidence that supports only one clear conclusion",
+        "usage_note": "Unequivocal is the adjective form."
+      },
+      {
+        "collocation": "unequivocal support",
+        "example": "The proposal received unequivocal support from the scientific committee.",
+        "applies_to_sense": "Clearly and without any doubt",
+        "meaning": "complete and definite support",
+        "usage_note": "Unequivocal is the adjective form."
+      }
+    ],
+    "synonyms": [
+      {
+        "word": "unambiguously",
+        "part_of_speech": "adverb",
+        "applies_to_sense": "Clearly and without any doubt",
+        "difference": "Unambiguously emphasizes that something has only one clear interpretation. Unequivocally can also emphasize firmness, certainty, or lack of hesitation in a position or statement.",
+        "example": "The instructions unambiguously state that all applicants must submit two references.",
+        "shared_meaning": "Both mean in a way that leaves no uncertainty about the intended meaning."
+      },
+      {
+        "word": "categorically",
+        "part_of_speech": "adverb",
+        "applies_to_sense": "Clearly and without any doubt",
+        "difference": "Categorically is especially common with strong statements, denials, and refusals. Unequivocally is broader and can also describe evidence, support, conclusions, and positions.",
+        "example": "The minister categorically denied the allegation.",
+        "shared_meaning": "Both can emphasize a firm statement with no qualification or uncertainty."
+      },
+      {
+        "word": "definitively",
+        "part_of_speech": "adverb",
+        "applies_to_sense": "Clearly and without any doubt",
+        "difference": "Definitively often emphasizes that a question has been settled conclusively or finally. Unequivocally emphasizes that the meaning, evidence, or position is completely clear.",
+        "example": "The new evidence definitively established the age of the artifact.",
+        "shared_meaning": "Both can express a high degree of certainty."
+      },
+      {
+        "word": "clearly",
+        "part_of_speech": "adverb",
+        "applies_to_sense": "Clearly and without any doubt",
+        "difference": "Clearly is much more common and can simply mean in an understandable or obvious way. Unequivocally is stronger and more formal, emphasizing that no serious ambiguity or doubt remains.",
+        "example": "The results clearly indicate a decline in water quality.",
+        "shared_meaning": "Both can describe something expressed or demonstrated in an easy-to-understand way."
+      }
+    ],
+    "antonyms": [
+      {
+        "word": "ambiguously",
+        "part_of_speech": "adverb",
+        "applies_to_sense": "Clearly and without any doubt",
+        "opposition": "Ambiguously means in a way that allows more than one interpretation, while unequivocally means in a completely clear way that leaves no such uncertainty.",
+        "example": "The rule was ambiguously worded and produced several competing interpretations."
+      },
+      {
+        "word": "equivocally",
+        "part_of_speech": "adverb",
+        "applies_to_sense": "Clearly and without any doubt",
+        "opposition": "Equivocally means in an unclear or deliberately noncommittal way, while unequivocally means clearly and without hesitation or ambiguity.",
+        "example": "The spokesperson answered equivocally and avoided taking a definite position.",
+        "usage_note": "Equivocally is formal and much less common than unequivocally."
+      }
+    ],
+    "confusables": [
+      {
+        "word": "unequivocal",
+        "key_difference": "Unequivocal is an adjective that describes a noun or follows a linking verb. Unequivocally is an adverb that usually describes a verb, adjective, or entire statement.",
+        "headword_example": "The committee unequivocally rejected the proposal.",
+        "confusable_example": "The committee gave the proposal an unequivocal rejection.",
+        "part_of_speech": "adverb versus adjective",
+        "why_confused": "The two forms have the same core meaning but different grammatical roles."
+      },
+      {
+        "word": "equivocally",
+        "key_difference": "Unequivocally means clearly and without doubt. Equivocally means unclearly, ambiguously, or without taking a firm position.",
+        "headword_example": "The organization unequivocally supported the reform.",
+        "confusable_example": "The organization responded equivocally and did not clearly support either side.",
+        "part_of_speech": "adverb",
+        "why_confused": "The words differ only by the negative prefix un-, but their meanings are opposites."
+      }
+    ],
+    "etymology": {
+      "origin": "Unequivocally is formed from unequivocal and the adverb ending -ly. Unequivocal combines un-, meaning not, with equivocal, meaning ambiguous or open to more than one interpretation."
+    },
+    "exercises": {
+      "word_family_choice": [
+        {
+          "prompt_sentence": "The report provides _____ evidence that the species once lived in this region.",
+          "answer": "unequivocal",
+          "completed_sentence": "The report provides unequivocal evidence that the species once lived in this region.",
+          "explanation": "Use the adjective unequivocal before the noun evidence."
+        },
+        {
+          "prompt_sentence": "The organization _____ rejected the accusation.",
+          "answer": "unequivocally",
+          "completed_sentence": "The organization unequivocally rejected the accusation.",
+          "explanation": "Use the adverb unequivocally to describe the verb rejected."
+        },
+        {
+          "prompt_sentence": "The results were _____, so the researchers could not determine which explanation was correct.",
+          "answer": "equivocal",
+          "completed_sentence": "The results were equivocal, so the researchers could not determine which explanation was correct.",
+          "explanation": "Use equivocal for evidence or results that are unclear or inconclusive."
+        }
+      ],
+      "correct_or_incorrect": [
+        {
+          "sentence": "The university unequivocally denied the allegation.",
+          "verdict": "Correct",
+          "explanation": "Unequivocally correctly emphasizes a firm and completely clear denial."
+        },
+        {
+          "sentence": "The researchers found unequivocally evidence of contamination.",
+          "verdict": "Incorrect",
+          "corrected_sentence": "The researchers found unequivocal evidence of contamination.",
+          "explanation": "Use the adjective unequivocal before the noun evidence."
+        },
+        {
+          "sentence": "The results do not unequivocally establish that the treatment is effective.",
+          "verdict": "Correct",
+          "explanation": "This means the results are not clear or conclusive enough to establish the claim without doubt."
+        },
+        {
+          "sentence": "The evidence unequivocally maybe proves the theory.",
+          "verdict": "Incorrect",
+          "corrected_sentence": "The evidence may support the theory, but it does not prove it unequivocally.",
+          "explanation": "Unequivocally expresses a degree of clarity or certainty that conflicts with maybe in the original wording."
+        }
+      ],
+      "collocation_practice": [
+        {
+          "prompt_sentence": "The organization unequivocally _____ all forms of discrimination.",
+          "answer": "condemns",
+          "completed_sentence": "The organization unequivocally condemns all forms of discrimination.",
+          "explanation": "Unequivocally condemn is a common formal collocation for expressing complete disapproval."
+        },
+        {
+          "prompt_sentence": "The report states _____ that the existing system must be changed.",
+          "answer": "unequivocally",
+          "completed_sentence": "The report states unequivocally that the existing system must be changed.",
+          "explanation": "State unequivocally that is a common pattern for expressing something in completely clear terms."
+        },
+        {
+          "prompt_sentence": "The experiment did not demonstrate _____ that the new material was safer.",
+          "answer": "unequivocally",
+          "completed_sentence": "The experiment did not demonstrate unequivocally that the new material was safer.",
+          "explanation": "Demonstrate unequivocally means establish something through evidence without significant doubt."
+        },
+        {
+          "prompt_sentence": "The committee expressed _____ support for the proposal.",
+          "answer": "unequivocal",
+          "completed_sentence": "The committee expressed unequivocal support for the proposal.",
+          "explanation": "Unequivocal support means complete and definite support."
+        }
+      ]
+    }
+  }

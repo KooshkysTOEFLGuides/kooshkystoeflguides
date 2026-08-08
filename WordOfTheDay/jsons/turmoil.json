@@ -1,0 +1,314 @@
+{
+    "document_type": "kooshky_toefl_word_of_the_day",
+    "schema_version": "1.3",
+    "slug": "turmoil",
+    "word": "turmoil",
+    "date": "August 28th 2026",
+    "pronunciation": {
+      "primary_ipa": "/ˈtɝːmɔɪl/"
+    },
+    "hero": {
+      "part_of_speech_summary": "uncountable noun",
+      "short_meanings": [
+        "serious confusion or disorder"
+      ],
+      "one_line_summary": "Turmoil describes a period or condition of serious confusion, uncertainty, disorder, or conflict.",
+      "memorable_example": "The sudden leadership change threw the organization into turmoil."
+    },
+    "meanings": [
+      {
+        "sense_title": "Serious confusion or disorder",
+        "part_of_speech": "uncountable noun",
+        "ipa": "/ˈtɝːmɔɪl/",
+        "definition": "a state of great confusion, uncertainty, or disorder, especially during a period of serious change or conflict",
+        "examples": [
+          "The country experienced years of political turmoil after the government collapsed.",
+          "Financial turmoil caused investors to become much more cautious.",
+          "The sudden leadership change threw the organization into turmoil.",
+          "The region remained in turmoil following months of violent conflict.",
+          "Economic turmoil led many businesses to postpone major investments.",
+          "The unexpected announcement created considerable turmoil within the university.",
+          "The industry went through a period of turmoil as new technologies disrupted traditional business models.",
+          "Social turmoil often increases when people lose confidence in public institutions."
+        ],
+        "plain_english_equivalent": "serious confusion and disorder",
+        "typical_pattern": "in turmoil; throw or plunge something into turmoil; political or economic turmoil",
+        "register": "neutral to formal; common in news, history, politics, economics, business, and academic writing",
+        "nuance": {
+          "central_nuance": "Turmoil suggests more than ordinary confusion. It usually describes a serious and unstable situation in which normal order has been disrupted.",
+          "usual_implication": "The situation is often changing rapidly, difficult to control, and stressful for the people or institutions involved.",
+          "contrast_term": "stability",
+          "contrast_explanation": "Stability means conditions are relatively steady and predictable. Turmoil means conditions are highly unsettled, confused, or disorderly."
+        },
+        "grammar": {
+          "how_to_use": "Turmoil is normally used as an uncountable noun, so we usually do not say a turmoil or turmoils.",
+          "what_can_follow": "It often appears after in, into, amid, or during. It is also frequently modified by words such as political, economic, financial, social, or emotional.",
+          "preposition_note": "Use in turmoil for a state of disorder and into turmoil after verbs such as throw or plunge.",
+          "noun_use": "Turmoil is usually uncountable. Say political turmoil, a period of turmoil, or the country was in turmoil rather than a turmoil.",
+          "position_note": "It commonly appears after be or remain in, and after verbs such as cause, create, throw, or plunge."
+        },
+        "patterns": [
+          {
+            "pattern": "be in turmoil",
+            "use": "Use this when a country, organization, market, or other system is experiencing serious disorder or uncertainty.",
+            "example": "The company was in turmoil after several senior executives resigned."
+          },
+          {
+            "pattern": "throw + something + into turmoil",
+            "use": "Use this when an event suddenly creates serious confusion or instability.",
+            "example": "The unexpected court ruling threw the industry into turmoil."
+          },
+          {
+            "pattern": "plunge + something + into turmoil",
+            "use": "Use this for a sudden and serious move into disorder or instability.",
+            "example": "The political crisis plunged the country into turmoil."
+          },
+          {
+            "pattern": "political or economic turmoil",
+            "use": "Use these common combinations to describe instability in government or the economy.",
+            "example": "Years of economic turmoil reduced public confidence in financial institutions."
+          },
+          {
+            "pattern": "amid or during turmoil",
+            "use": "Use this when something happens while serious disorder or uncertainty is continuing.",
+            "example": "Several companies failed amid the financial turmoil."
+          }
+        ],
+        "errors": [
+          {
+            "wrong": "The country experienced a turmoil after the election.",
+            "correct": "The country experienced turmoil after the election.",
+            "explanation": "Turmoil is normally uncountable, so do not usually use a before it."
+          },
+          {
+            "wrong": "The company was on turmoil after the director resigned.",
+            "correct": "The company was in turmoil after the director resigned.",
+            "explanation": "The standard expression is in turmoil."
+          },
+          {
+            "wrong": "The announcement threw the company in turmoil.",
+            "correct": "The announcement threw the company into turmoil.",
+            "explanation": "Use into turmoil after throw or plunge."
+          },
+          {
+            "wrong": "There were several turmoils in the economy.",
+            "correct": "There were several periods of turmoil in the economy.",
+            "explanation": "Turmoil is normally uncountable, so use periods of turmoil rather than turmoils."
+          }
+        ]
+      }
+    ],
+    "word_family": [
+      {
+        "word": "tumultuous",
+        "part_of_speech": "adjective",
+        "definition": "full of confusion, disorder, strong emotion, or rapid change",
+        "examples": [
+          "The country went through a tumultuous period of political change.",
+          "The company had a tumultuous year marked by resignations and financial losses.",
+          "The reform was introduced during a tumultuous period in the nation's history."
+        ],
+        "ipa": "/tuːˈmʌltʃuəs/",
+        "relationship_to_headword": "Tumultuous is not a direct morphological form of turmoil, but it is a closely related academic adjective often used for situations characterized by turmoil.",
+        "grammar_pattern": "tumultuous + period, year, history, relationship, or change",
+        "usage_note": "Use tumultuous to describe a period or situation; use turmoil as the noun for the state of disorder itself."
+      }
+    ],
+    "collocations": [
+      {
+        "collocation": "political turmoil",
+        "example": "The country entered a period of political turmoil after the disputed election.",
+        "applies_to_sense": "Serious confusion or disorder",
+        "meaning": "serious instability or disorder in government or politics"
+      },
+      {
+        "collocation": "economic turmoil",
+        "example": "The recession created economic turmoil across the region.",
+        "applies_to_sense": "Serious confusion or disorder",
+        "meaning": "serious instability in the economy"
+      },
+      {
+        "collocation": "financial turmoil",
+        "example": "Financial turmoil caused several banks to restrict lending.",
+        "applies_to_sense": "Serious confusion or disorder",
+        "meaning": "serious instability in financial markets or institutions"
+      },
+      {
+        "collocation": "social turmoil",
+        "example": "Rapid economic change contributed to social turmoil.",
+        "applies_to_sense": "Serious confusion or disorder",
+        "meaning": "serious disorder or tension within society"
+      },
+      {
+        "collocation": "in turmoil",
+        "example": "The organization was in turmoil after the sudden resignation of its president.",
+        "applies_to_sense": "Serious confusion or disorder",
+        "meaning": "in a state of serious confusion or instability",
+        "grammar_pattern": "be or remain in turmoil"
+      },
+      {
+        "collocation": "throw into turmoil",
+        "example": "The announcement threw the entire industry into turmoil.",
+        "applies_to_sense": "Serious confusion or disorder",
+        "meaning": "suddenly cause serious confusion or instability",
+        "grammar_pattern": "throw + person, organization, country, or system + into turmoil"
+      },
+      {
+        "collocation": "plunge into turmoil",
+        "example": "The collapse of the coalition plunged the government into turmoil.",
+        "applies_to_sense": "Serious confusion or disorder",
+        "meaning": "cause something to enter a state of serious disorder",
+        "grammar_pattern": "plunge + something + into turmoil"
+      },
+      {
+        "collocation": "period of turmoil",
+        "example": "The institution survived a long period of turmoil.",
+        "applies_to_sense": "Serious confusion or disorder",
+        "meaning": "a period during which serious confusion or instability exists"
+      },
+      {
+        "collocation": "amid turmoil",
+        "example": "The company continued operating amid considerable financial turmoil.",
+        "applies_to_sense": "Serious confusion or disorder",
+        "meaning": "while serious disorder or uncertainty is occurring"
+      }
+    ],
+    "synonyms": [
+      {
+        "word": "chaos",
+        "part_of_speech": "uncountable noun",
+        "applies_to_sense": "Serious confusion or disorder",
+        "difference": "Chaos suggests an extreme lack of order or organization. Turmoil often includes instability, conflict, and uncertainty and does not always mean complete disorder.",
+        "example": "The sudden evacuation created chaos at the airport.",
+        "shared_meaning": "Both can describe serious disorder and confusion."
+      },
+      {
+        "word": "upheaval",
+        "part_of_speech": "countable or uncountable noun",
+        "applies_to_sense": "Serious confusion or disorder",
+        "difference": "Upheaval emphasizes a major change or disruption to an existing system. Turmoil emphasizes the confusion, uncertainty, and instability that may accompany such change.",
+        "example": "Industrialization caused major social upheaval in many communities.",
+        "shared_meaning": "Both often describe unstable periods of major social, political, or economic change."
+      },
+      {
+        "word": "disorder",
+        "part_of_speech": "uncountable noun",
+        "applies_to_sense": "Serious confusion or disorder",
+        "difference": "Disorder is broader and simply means lack of order. Turmoil usually suggests a more intense, unstable, and emotionally or politically charged situation.",
+        "example": "The collapse of local authority led to widespread disorder.",
+        "shared_meaning": "Both can describe a situation in which normal order has broken down."
+      },
+      {
+        "word": "unrest",
+        "part_of_speech": "uncountable noun",
+        "applies_to_sense": "Serious confusion or disorder",
+        "difference": "Unrest usually refers specifically to social or political dissatisfaction that may lead to protests, strikes, or violence. Turmoil is broader and can also describe economic, institutional, or personal instability.",
+        "example": "Rising food prices contributed to widespread social unrest.",
+        "shared_meaning": "Both can describe unstable social or political conditions."
+      }
+    ],
+    "antonyms": [
+      {
+        "word": "stability",
+        "part_of_speech": "uncountable noun",
+        "applies_to_sense": "Serious confusion or disorder",
+        "opposition": "Stability is a condition in which things remain relatively steady and predictable, while turmoil involves serious uncertainty, disorder, or instability.",
+        "example": "The reforms were intended to restore economic stability."
+      },
+      {
+        "word": "order",
+        "part_of_speech": "uncountable noun",
+        "applies_to_sense": "Serious confusion or disorder",
+        "opposition": "Order means that people, systems, or activities are organized and controlled, while turmoil means normal order has been seriously disrupted.",
+        "example": "Authorities gradually restored order after the crisis."
+      }
+    ],
+    "confusables": [
+      {
+        "word": "chaos",
+        "key_difference": "Chaos usually suggests almost complete disorder. Turmoil can describe serious instability and confusion even when some structure still remains.",
+        "headword_example": "The company was in turmoil after its chief executive resigned.",
+        "confusable_example": "The evacuation descended into chaos when the communication system failed.",
+        "part_of_speech": "uncountable noun",
+        "why_confused": "Both describe serious disorder, but chaos is often more extreme."
+      },
+      {
+        "word": "unrest",
+        "key_difference": "Unrest usually involves dissatisfaction among a group of people, often expressed through protests or conflict. Turmoil is broader and can describe political, economic, organizational, or emotional instability.",
+        "headword_example": "The banking system was in turmoil after several institutions collapsed.",
+        "confusable_example": "The government faced growing unrest among workers and students.",
+        "part_of_speech": "uncountable noun",
+        "why_confused": "Both are common in news and academic discussions of unstable situations."
+      },
+      {
+        "word": "upheaval",
+        "key_difference": "Upheaval emphasizes a major disruption or change itself. Turmoil emphasizes the confused and unstable condition that results from or accompanies such disruption.",
+        "headword_example": "The country remained in turmoil for months after the revolution.",
+        "confusable_example": "The revolution caused a major political upheaval.",
+        "part_of_speech": "countable or uncountable noun",
+        "why_confused": "Both frequently appear in descriptions of major political, economic, and social change."
+      }
+    ],
+    "etymology": {
+      "origin": "Turmoil entered English several centuries ago, but its deeper origin is uncertain.",
+      "accuracy_note": "The early history of the word is not completely clear, so uncertain claims about a specific source language or original form are best avoided.",
+      "memory_link": "Think of turmoil as a situation in which normal order has been badly disturbed and everything feels unstable."
+    },
+    "exercises": {
+      "correct_or_incorrect": [
+        {
+          "sentence": "The country experienced severe political turmoil after the election.",
+          "verdict": "Correct",
+          "explanation": "Political turmoil is a common expression for serious instability in politics."
+        },
+        {
+          "sentence": "The organization was on turmoil after its director resigned.",
+          "verdict": "Incorrect",
+          "corrected_sentence": "The organization was in turmoil after its director resigned.",
+          "explanation": "The standard expression is in turmoil."
+        },
+        {
+          "sentence": "The crisis threw the financial markets into turmoil.",
+          "verdict": "Correct",
+          "explanation": "Throw something into turmoil is a common pattern meaning cause serious confusion or instability."
+        },
+        {
+          "sentence": "The country went through several turmoils during the decade.",
+          "verdict": "Incorrect",
+          "corrected_sentence": "The country went through several periods of turmoil during the decade.",
+          "explanation": "Turmoil is normally uncountable, so use periods of turmoil rather than turmoils."
+        },
+        {
+          "sentence": "Economic turmoil can reduce investment and consumer confidence.",
+          "verdict": "Correct",
+          "explanation": "Turmoil naturally describes serious instability in an economy."
+        }
+      ],
+      "collocation_practice": [
+        {
+          "prompt_sentence": "The sudden resignation threw the entire organization _____ turmoil.",
+          "answer": "into",
+          "completed_sentence": "The sudden resignation threw the entire organization into turmoil.",
+          "explanation": "Use throw something into turmoil."
+        },
+        {
+          "prompt_sentence": "The country remained _____ turmoil for several months after the crisis.",
+          "answer": "in",
+          "completed_sentence": "The country remained in turmoil for several months after the crisis.",
+          "explanation": "In turmoil means in a state of serious confusion or instability."
+        },
+        {
+          "prompt_sentence": "The recession caused considerable economic _____.",
+          "answer": "turmoil",
+          "completed_sentence": "The recession caused considerable economic turmoil.",
+          "explanation": "Economic turmoil is a common collocation for serious instability in the economy."
+        },
+        {
+          "prompt_sentence": "The institution survived a difficult period _____ turmoil.",
+          "answer": "of",
+          "completed_sentence": "The institution survived a difficult period of turmoil.",
+          "explanation": "A period of turmoil is a natural way to refer to a limited time of serious instability."
+        }
+      ]
+    }
+  }
