@@ -42,6 +42,13 @@ window.KOOSHKY_APPS = [
     featured: true
   },
   {
+    name: "Academic Discussion",
+    href: "Apps/AcademicDiscussion/toefl_academic_discussion_simulator.html",
+    description: "Realistic, standard TOEFL Academic Discussion Prompts",
+    logo: "Apps/AcademicDiscussion/icon.png",
+    featured: true
+  },
+  {
     name: "Dictation",
     href: "Apps/Dictation/kooshky_dictation_practice.html",
     description: "Practise spelling using the Leitner Method! This is Jhoana's section.",
