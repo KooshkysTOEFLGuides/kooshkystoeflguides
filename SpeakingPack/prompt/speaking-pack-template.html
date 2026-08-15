@@ -40,7 +40,7 @@
     body { margin: 0; background: var(--page); color: var(--text); font: 1rem/1.68 var(--sans); }
     body.drawer-open, body.modal-open { overflow: hidden; }
     a { color: var(--teal); text-underline-offset: .18em; }
-    button, input { font: inherit; }
+    button, input, textarea, select { font: inherit; }
     button:focus-visible, a:focus-visible, summary:focus-visible { outline: 3px solid var(--accent); outline-offset: 3px; }
     .skip-link { position: fixed; z-index: 100; top: .5rem; left: .5rem; transform: translateY(-160%); padding: .7rem 1rem; background: var(--text); color: var(--page); }
     .skip-link:focus { transform: none; }
@@ -116,6 +116,32 @@
     .question-list { display: grid; gap: 1rem; margin-top: 1rem; }
     .question-number { color: var(--accent); font-weight: 800; }
     .sample-answer__content { padding: 0 .2rem .8rem; color: var(--muted); }
+    .recording-library { margin: 0 0 2rem; padding: clamp(1rem, 3vw, 1.5rem); border: 1px solid var(--border); border-top: .35rem solid var(--teal); border-radius: var(--radius); background: var(--surface); box-shadow: 0 12px 30px rgb(24 32 39 / .07); }
+    .recording-library__head, .recording-toolbar, .recording-actions, .take-head, .take-actions { display: flex; flex-wrap: wrap; align-items: center; gap: .65rem; }
+    .recording-library__head { justify-content: space-between; align-items: flex-start; }
+    .recording-library h3 { font-size: 1.35rem; }
+    .recording-library p { margin: .45rem 0; color: var(--muted); }
+    .recording-toolbar { margin-top: 1rem; }
+    .recording-toolbar button, .recording-toolbar select, .recording-actions button, .take-actions button, .import-label { min-height: 2.45rem; padding: .45rem .72rem; border: 1px solid var(--border); border-radius: .6rem; background: var(--raised); color: var(--text); font-weight: 700; cursor: pointer; }
+    .recording-toolbar button:hover, .recording-actions button:hover, .take-actions button:hover, .import-label:hover { border-color: var(--teal); }
+    .recording-toolbar .danger, .take-actions .danger { color: #a52b20; }
+    .storage-meter { width: min(100%, 28rem); height: .65rem; overflow: hidden; border: 1px solid var(--border); border-radius: 999px; background: var(--raised); }
+    .storage-meter span { display: block; width: 0; height: 100%; background: var(--teal); transition: width .2s; }
+    .storage-status { font-size: .86rem; }
+    .transcript-option { display: inline-flex; align-items: center; gap: .45rem; font-weight: 700; }
+    .privacy-note { padding: .75rem; border-radius: .65rem; background: var(--accent-soft); font-size: .9rem; }
+    .recording-panel { margin-top: 1rem; padding-top: 1rem; border-top: 1px solid var(--border); }
+    .recording-actions { justify-content: space-between; }
+    .record-button { background: var(--teal) !important; color: #fff !important; }
+    .record-button.is-recording { background: #a52b20 !important; }
+    .recording-countdown { min-width: 5.5rem; font-weight: 800; color: var(--accent); }
+    .takes { display: grid; gap: .75rem; margin-top: .85rem; }
+    .take { padding: .8rem; border: 1px solid var(--border); border-radius: .7rem; background: var(--raised); }
+    .take-head { justify-content: space-between; }
+    .take audio { width: 100%; margin-top: .65rem; }
+    .take textarea { width: 100%; min-height: 6rem; margin-top: .65rem; padding: .65rem; border: 1px solid var(--border); border-radius: .55rem; background: var(--surface); color: var(--text); resize: vertical; }
+    .take-note { color: var(--muted); font-size: .83rem; }
+    .recording-message { min-height: 1.5em; margin-top: .7rem !important; font-weight: 700; }
     .site-footer { border-top: 1px solid var(--border); background: var(--surface); }
     .footer-inner { width: min(calc(100% - 2rem), var(--content)); margin: auto; padding: 2rem 0; display: flex; justify-content: space-between; gap: 2rem; }
     .go-top { position: fixed; right: 1rem; bottom: 1rem; width: 3rem; height: 3rem; border: 1px solid var(--border); border-radius: 50%; background: var(--text); color: var(--page); opacity: 0; visibility: hidden; cursor: pointer; transition: .18s; }
@@ -173,7 +199,7 @@
       <article>
         <section class="part" aria-labelledby="part-vocabulary"><header class="part-header"><div class="part-kicker">PART 1</div><h2 id="part-vocabulary">Vocabulary, Collocations, and Speaking Chunks</h2><p>Definitions, examples, pronunciation, and reusable topic language.</p></header>{{VOCABULARY_CONTENT}}</section>
         <section class="part" aria-labelledby="part-ideas"><header class="part-header"><div class="part-kicker">PART 2</div><h2 id="part-ideas">Reusable Idea Bank</h2><p>Flexible reasoning that can support many different answers.</p></header>{{IDEA_CONTENT}}</section>
-        <section class="part" aria-labelledby="part-interviews"><header class="part-header"><div class="part-kicker">PART 3</div><h2 id="part-interviews">Interview Practice</h2><p>Corpus-calibrated four-question sets with collapsed sample answers.</p></header>{{QUESTION_CONTENT}}</section>
+        <section class="part" aria-labelledby="part-interviews"><header class="part-header"><div class="part-kicker">PART 3</div><h2 id="part-interviews">Interview Practice</h2><p>Corpus-calibrated four-question sets with collapsed sample answers.</p></header><section class="recording-library" id="recording-library" aria-labelledby="recording-library-title"><div class="recording-library__head"><div><div class="editorial-label">YOUR LOCAL PRACTICE LIBRARY</div><h3 id="recording-library-title">45-second voice responses</h3><p>Recordings stay on this browser and device. They are not uploaded to this website.</p></div><div><div class="storage-meter" role="meter" aria-label="Browser storage used" aria-valuemin="0" aria-valuemax="100"><span id="storage-meter-fill"></span></div><div class="storage-status" id="storage-status">Checking available storage…</div></div></div><p class="privacy-note"><strong>Back up anything important.</strong> Browsers can remove site data when storage is low, in private browsing, or when you clear browsing data. Download a ZIP regularly; browser storage is a working library, not a permanent archive. Optional speech recognition may be processed by your browser provider’s online service.</p><div class="recording-toolbar"><label for="microphone-select">Microphone</label><select id="microphone-select"><option value="">System default microphone</option></select><label class="transcript-option"><input id="transcribe-new" type="checkbox"> Create a transcript while I record</label><button id="request-persistence" type="button">Protect local storage</button><button id="download-recordings" type="button">Download all as ZIP</button><label class="import-label" for="import-recordings">Load backup ZIP</label><input class="sr-only" id="import-recordings" type="file" accept=".zip,application/zip"><button class="danger" id="clear-recordings" type="button">Clear all voice data</button></div><p class="recording-message" id="recording-message" role="status" aria-live="polite"></p></section>{{QUESTION_CONTENT}}</section>
       </article>
     </main>
   </div>
@@ -206,5 +232,6 @@
       try { init(); } catch (error) { console.error("Speaking pack initialization error:", error); }
     })();
   </script>
+  <script src="../../../SpeakingPack/prompt/speaking-recorder.js?v=5" defer></script>
 </body>
 </html>

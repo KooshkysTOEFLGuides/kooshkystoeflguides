@@ -50,6 +50,14 @@ The prompts strongly prefer 100+ headwords, 100+ reusable phrases, and 100+ idea
 
 Because every page is rebuilt from the shared `speaking-pack-template.html`, editing that template and rerunning the renderer updates all complete packs consistently.
 
+## Local voice-practice library
+
+Rendered packs load the shared `speaking-recorder.js` module. It adds 45-second microphone practice to every interview question and stores browser-compressed audio `Blob`s, metadata, and optional live transcripts in one origin-wide IndexedDB database. The browser chooses its native recording format, and each take is saved as one complete media blob. This means recordings from all topic packs share a library and appear under their original questions.
+
+The interface reports estimated browser-storage use, requests persistent storage only after a user action, handles quota failures without deleting earlier takes, supports individual audio/transcript downloads, and exports or restores the whole library as a human-readable uncompressed ZIP. Imported recording IDs are deduplicated. Clearing the library requires two confirmations.
+
+Microphone access and browser speech recognition depend on browser support and a secure context (`https:` or a local development origin). The Web Speech API cannot transcribe an existing audio file, so the user must enable **Create a transcript while I record** before starting a take. Transcripts remain editable afterward. Browser storage can still be cleared by the user or browser, so the page explicitly treats ZIP downloads as the durable backup.
+
 ## Reentrant synchronization and HTML locks
 
 Topic numbers are stable identities. Rerunning the script applies title and subtopic edits, creates additions, renames changed topic directories, and removes managed topics deleted from `topics.txt`.
