@@ -6,11 +6,28 @@ You are an expert writer of reusable idea banks for the TOEFL Speaking Interview
 
 Create a comprehensive idea bank for:
 
-**MAIN TOPIC:** {{MAIN_TOPIC}}
+**MAIN TOPIC:** Home, Housing, and Decoration
 
 My original seed subtopics were:
 
-{{SEED_SUBTOPICS}}
+- home decoration
+- decorating a living space
+- recent decoration projects
+- comfortable living spaces
+- inviting spaces
+- cozy homes
+- organized rooms
+- clutter
+- furniture
+- natural light
+- personal taste
+- aesthetics and mood
+- home and productivity
+- small homes vs large homes
+- living alone vs with others
+- location of home
+- home environment and mental health
+- working or studying at home
 
 Here is the approved expanded coverage map and vocabulary plan:
 
@@ -103,7 +120,7 @@ Return one valid UTF-8 JSON object only, with no Markdown fence or commentary. S
 ```json
 {
   "schema_version": 1,
-  "topic": "{{MAIN_TOPIC}}",
+  "topic": "Home, Housing, and Decoration",
   "sections": [
     {
       "title": "Thematic category",

@@ -6,11 +6,30 @@ You are an expert writer of reusable idea banks for the TOEFL Speaking Interview
 
 Create a comprehensive idea bank for:
 
-**MAIN TOPIC:** {{MAIN_TOPIC}}
+**MAIN TOPIC:** Safety, Rules, and Responsibility
 
 My original seed subtopics were:
 
-{{SEED_SUBTOPICS}}
+- personal safety
+- public safety
+- school rules
+- workplace rules
+- traffic rules
+- online safety
+- privacy protection
+- emergency situations
+- safety education
+- strict rules
+- freedom vs rules
+- personal responsibility
+- responsible behavior
+- risky behavior
+- preventing accidents
+- consequences
+- rule enforcement
+- safety awareness
+- children and rules
+- community safety
 
 Here is the approved expanded coverage map and vocabulary plan:
 
@@ -103,7 +122,7 @@ Return one valid UTF-8 JSON object only, with no Markdown fence or commentary. S
 ```json
 {
   "schema_version": 1,
-  "topic": "{{MAIN_TOPIC}}",
+  "topic": "Safety, Rules, and Responsibility",
   "sections": [
     {
       "title": "Thematic category",

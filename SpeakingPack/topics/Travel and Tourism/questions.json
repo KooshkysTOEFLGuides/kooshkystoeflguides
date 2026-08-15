@@ -1,0 +1,541 @@
+{
+  "schema_version": 1,
+  "topic": "Travel and Tourism",
+  "sets": [
+    {
+      "title": "A Trip That Stayed With You",
+      "setup": "You have volunteered for a university research study about memorable travel experiences. A researcher will ask you several questions in a short online interview.",
+      "questions": [
+        {
+          "number": 1,
+          "question": "Thank you for joining the study. To begin, think about a trip you remember particularly well. Where did you go, and what made the trip memorable?",
+          "sample_answer": "A trip I remember particularly well was a weekend in a small mountain town with two close friends. The scenery was beautiful, but what made the trip memorable was an unexpected rainstorm. We had planned to hike, so at first we were disappointed. Instead, we found a family-run restaurant and spent hours talking with the owner about the area. That unplanned conversation felt more authentic than our original itinerary. It reminded me that a disruption can become the highlight of a trip if people remain adaptable."
+        },
+        {
+          "number": 2,
+          "question": "I see. When you remember a trip, which matters more to you: the places you saw or the people you shared the experience with? Why?",
+          "sample_answer": "The people usually matter more to me because they shape how I experience every place. A landmark may be impressive, but a patient travel companion can turn a delay or wrong direction into something funny instead of stressful. On the mountain trip, my friends and I supported one another and were willing to compromise when our plans changed. Years later, I remember our conversations more clearly than the exact view. I still value scenery and historic sites, but shared reactions are what give those places personal meaning."
+        },
+        {
+          "number": 3,
+          "question": "Interesting. Some travelers take many photographs, while others prefer to experience a place without using a camera very much. Which approach do you prefer?",
+          "sample_answer": "I prefer taking a small number of thoughtful photographs. Pictures help me remember details and explain the trip to my family later, but constant photography interrupts my attention. If I'm always looking for the best angle, I may stop noticing sounds, weather, and the general atmosphere. My usual approach is to take a few photos when I arrive and then put my phone away. This gives me a useful record without turning the entire experience into a project for social media."
+        },
+        {
+          "number": 4,
+          "question": "Good points. Finally, some people say that difficult moments make trips more valuable because travelers learn from them. Do you agree or disagree? Why?",
+          "sample_answer": "I mostly agree, as long as the problem isn’t dangerous. A missed train or a language mistake makes you solve something on your own. When you finally work it out, you feel much more confident. Of course, getting sick or losing your passport isn’t a useful lesson at the time. But small problems can be good for you. They teach you to stay calm, ask for help, and change your plans when you need to."
+        }
+      ]
+    },
+    {
+      "title": "Choosing a Destination",
+      "setup": "You are participating in a university study about how people select travel destinations. You will answer four questions from a researcher online.",
+      "questions": [
+        {
+          "number": 1,
+          "question": "Thank you for participating. First, if you could visit one destination that you have never seen before, where would you go, and why would you choose it?",
+          "sample_answer": "I'd choose Kyoto because I'm interested in the relationship between history and modern daily life. I'd like to visit its temples and traditional neighborhoods, but I'd also use public transportation and explore ordinary markets. The destination appeals to me because it offers cultural heritage, regional cuisine, and natural scenery in one area. I've seen photographs, but I want firsthand experience of the atmosphere. I'd probably travel outside the peak season so that I could explore at a calmer pace and avoid the largest crowds."
+        },
+        {
+          "number": 2,
+          "question": "Thank you. When selecting a destination, do you rely more on recommendations from people you know or on information you find online? Explain your preference.",
+          "sample_answer": "I begin with recommendations from people I know because they understand my interests and budget. For example, a friend knows that I prefer quiet neighborhoods to nightlife, so her advice is likely to suit me. After that, I use official websites and recent reviews to check prices, transportation, and opening hours. Online information is broader, but it can also be promotional or based on main goals different from mine. Combining personal advice with careful research gives me both inspiration and useful evidence before I make a reservation."
+        },
+        {
+          "number": 3,
+          "question": "Interesting. Would you rather return to a destination you already enjoyed or use the same time and money to visit somewhere new? Why?",
+          "sample_answer": "I'd usually visit somewhere new because my free time and travel budget are limited. A new destination exposes me to different food, history, and scenery, so it gives me a stronger sense of discovery. Still, I understand the appeal of returning. Familiarity removes some planning stress and allows deeper exploration beyond the main attractions. If a previous place had close friends or family, I might choose it again. For an ordinary vacation, however, I'd accept a little the unknown in exchange for a completely new experience."
+        },
+        {
+          "number": 4,
+          "question": "Good points. Some destinations become popular mainly because they appear frequently on social media. Is this trend mostly helpful or mostly harmful for travelers and destinations?",
+          "sample_answer": "I think it can be helpful, but it can also cause problems. Social media can bring customers to small hotels, cafés, and local shops. That’s great for business. But sometimes thousands of people visit one place just to take the same photo. Then the streets get crowded and residents have to deal with noise and trash. I think travel pages should share local rules and suggest a few quieter places too, not only the famous spot."
+        }
+      ]
+    },
+    {
+      "title": "Traveling Alone or Together",
+      "setup": "As part of a university project, you have agreed to a short research interview about travel companions and independent travel.",
+      "questions": [
+        {
+          "number": 1,
+          "question": "Thank you for joining us. To start, do you generally prefer traveling alone or with other people? What is the main reason for your preference?",
+          "sample_answer": "I generally prefer traveling with one or two close friends. Companionship makes meals, long journeys, and new experiences more enjoyable, and it gives us shared memories afterward. A small group is also useful because one person can watch the luggage while another asks for directions. I avoid large groups because decisions become slow and the itinerary may not suit anyone very well. With two close friends, we can discuss main goals, compromise when necessary, and occasionally separate for an afternoon if our interests are different."
+        },
+        {
+          "number": 2,
+          "question": "I see. What personal qualities make someone a good travel companion? Give one or two examples.",
+          "sample_answer": "The most important quality is adaptability. Even a detailed itinerary can be disrupted by weather or transportation. So a companion who stays calm prevents a small problem from affecting the whole day. I also value honest communication about money and energy. For example, someone should feel comfortable saying that a restaurant is outside the budget or that they need a rest. People don't need identical interests, but they should be willing to compromise and let each person choose some activities. That combination makes group travel fair and relaxed."
+        },
+        {
+          "number": 3,
+          "question": "Interesting. If a friend wanted to take a first trip alone, what advice would you give that person?",
+          "sample_answer": "I'd recommend choosing a destination with reliable public transportation and clear visitor information. The traveler should plan the first night carefully, save essential documents offline, and tell someone at home where they're staying. At the same time, I'd advise against filling every hour. Joining a guided walk or staying in social accommodation can reduce loneliness without removing confidence on their own. Most importantly, the person should begin with a short, manageable trip."
+        },
+        {
+          "number": 4,
+          "question": "Good points. Some parents believe young adults should travel independently because it helps them mature. Do you agree or disagree? Explain your view.",
+          "sample_answer": "I agree in principle, but the trip should match the young adult's experience and resources. Independent travel needs budgeting, navigation, communication, and decisions under the unknown. Managing those responsibilities can develop confidence in a useful way. But simply sending an unprepared person far away isn't automatically educational. A short domestic trip may give the same growth with fewer risks and costs. Parents can help with basic preparation while allowing the traveler to make daily choices. Independence develops when support is available but doesn't control every decision."
+        }
+      ]
+    },
+    {
+      "title": "Planning and Spontaneity",
+      "setup": "You have volunteered for a research study about the way people plan holidays and other personal trips. The interview will take place online.",
+      "questions": [
+        {
+          "number": 1,
+          "question": "Thank you for taking part. When you prepare for a trip, what do you usually arrange first, and why?",
+          "sample_answer": "I arrange transportation first because it usually determines both the dates and a large part of the budget. Once I know my arrival and departure times, I can choose accommodation in a convenient location and create a realistic itinerary. I also check whether the destination has a busy season, since waiting may make tickets much more expensive. I don't reserve every meal or activity at this stage. My goal is to secure the essential parts early and leave room for local recommendations and changes after I arrive."
+        },
+        {
+          "number": 2,
+          "question": "Thank you. Do you prefer a detailed itinerary or a loose plan with plenty of free time? Why does that approach work for you?",
+          "sample_answer": "I prefer a loose plan built around two or three main goals. I might reserve a museum that needs timed entry, but I leave most afternoons open. A very detailed itinerary makes me watch the clock, and then the holiday starts to feel like work. Free time allows me to rest, return to a place I enjoyed, or follow advice from a resident. I still research transportation and opening hours, so flexibility doesn't mean being careless. It means deciding which arrangements are truly necessary and which can remain spontaneous."
+        },
+        {
+          "number": 3,
+          "question": "Interesting. Tell me about a time when a travel plan changed unexpectedly. How did you respond?",
+          "sample_answer": "During a coastal trip, heavy wind canceled the boat tour we had booked. We were disappointed because it was meant to be the main attraction that day. Instead of waiting at the hotel, we asked the receptionist for an indoor suggestion and visited a small maritime museum. The guide explained how local families had depended on fishing for generations, which gave us insight into the community. We responded well because we had not scheduled another reservation immediately afterward. The experience taught me to keep a backup option and remain adaptable."
+        },
+        {
+          "number": 4,
+          "question": "Good points. Travel companies increasingly use technology to create personalized itineraries. Do you think this will improve travel experiences or make them less adventurous?",
+          "sample_answer": "I think these tools will make planning easier. They can check prices, opening hours, and travel time in a few seconds, which saves a lot of work. But I wouldn’t follow every suggestion. An app may keep showing me the same kinds of places I already like. I’d use its plan for the basic schedule, then leave an afternoon free. That way, I could still follow a local suggestion or visit something unexpected."
+        }
+      ]
+    },
+    {
+      "title": "Seeing and Understanding a Place",
+      "setup": "A graduate student is conducting a university study about sightseeing habits. You have agreed to answer several questions in an online interview.",
+      "questions": [
+        {
+          "number": 1,
+          "question": "Thank you for participating. When you visit a new city, what kind of place do you usually want to see first? Give reasons for your answer.",
+          "sample_answer": "I usually begin in the historic center or at a well-known local landmark. It gives me a clear reference point and helps me understand the city's layout. If a guided walk is available, I may join it because the history makes buildings more special than their appearance alone. After that introduction, I prefer exploring an ordinary neighborhood or market at my own pace. Starting with a major site satisfies my curiosity, while the quieter second part shows how residents use the city in daily life."
+        },
+        {
+          "number": 2,
+          "question": "I see. Which do you find more enjoyable when traveling: visiting museums or spending time outdoors in natural scenery? Why?",
+          "sample_answer": "I find natural scenery more enjoyable because it gives me both an experience and a mental break. Walking beside the sea or through a forest lets me move at my own pace and pay attention to weather, sound, and space. Museums can bring history to life, and I include them when they're closely connected to the destination. But after several hours indoors reading signs, I become tired. Natural places help me feel restored, so they're usually the part of a trip that I remember most positively."
+        },
+        {
+          "number": 3,
+          "question": "Interesting. Are guided tours generally worth their cost, or can travelers learn enough by exploring independently?",
+          "sample_answer": "Guided tours are worth the cost when a place has a complicated history or details that are easy to miss. A knowledgeable guide can connect facts into a story and respond to the group's questions. For a park, shopping district, or simple landmark, I'd rather explore independently because I can control my time. I often choose one guided activity early in a trip and use that background during later sightseeing."
+        },
+        {
+          "number": 4,
+          "question": "Good points. Some cities are considering limits on the number of visitors allowed at famous attractions. Is that a reasonable policy? Why or why not?",
+          "sample_answer": "Yes, visitor limits are reasonable when overcrowding damages a site or makes the experience unsafe. Timed tickets can protect historic interiors, reduce long lines, and give staff enough time for maintenance. The disadvantage is that spontaneous visitors may be unable to enter, and access can become unfair if tickets sell out far in advance. Cities should therefore keep prices reasonable, reserve some same-day spaces, and promote alternative attractions. A famous place can't serve future visitors if unlimited tourism destroys the qualities that people came to see."
+        }
+      ]
+    },
+    {
+      "title": "Food and Cultural Contact",
+      "setup": "You are taking part in university research about food and cultural experiences during travel. A researcher will ask you four questions.",
+      "questions": [
+        {
+          "number": 1,
+          "question": "Thank you for joining the interview. When you travel, how interested are you in trying local food? Explain your answer.",
+          "sample_answer": "I'm very interested because local cuisine offers an easy to use introduction to a place. Ingredients and cooking methods often reflect the climate, history, and routines of local families. I usually ask for one regional dish at a small restaurant instead of eating only familiar international food. But I check the ingredients because I've a mild food allergy, and I start with a small portion if something is completely unfamiliar. That balance lets me be curious and respectful without ignoring my own health needs."
+        },
+        {
+          "number": 2,
+          "question": "Thank you. Would you rather eat at a restaurant recommended in a guidebook or ask a local resident where to eat? Why?",
+          "sample_answer": "I'd ask a resident, especially someone who understands the type of meal and price I want. Guidebooks are useful, but popular recommendations may become crowded or change their menus mainly for tourists. A resident can suggest a family-run place nearby and explain what to order. I'd still check useful details such as opening hours and dietary options online. Local advice gives the experience a personal connection, while a little research prevents misunderstandings. Together, those sources are more reliable than blindly following either one."
+        },
+        {
+          "number": 3,
+          "question": "Interesting. Besides food, what is one good way for visitors to learn about local culture?",
+          "sample_answer": "A good way is to join a small activity led by residents, such as a neighborhood walk, craft workshop, or community event. This creates a conversation instead of a performance observed from a distance. Visitors can ask respectful questions, while local people can decide how to present their own experiences. I also think learning a few basic phrases helps because a greeting or expression of thanks shows effort."
+        },
+        {
+          "number": 4,
+          "question": "Good points. Some people worry that tourism turns local traditions into entertainment for visitors. Can tourism support culture without weakening its meaning?",
+          "sample_answer": "Yes, tourism can support culture if local communities control how traditions are presented and receive a fair share of the income. A music performance or craft demonstration may be adapted for visitors, but it can still employ artists and introduce younger people to their heritage. The problem begins when an outside company simplifies a tradition, removes its context, or claims that one performance represents everyone. Honest explanation matters. Visitors should know what is ceremonial, what is educational, and what has been created specifically for tourism."
+        }
+      ]
+    },
+    {
+      "title": "Traveling on a Budget",
+      "setup": "You have agreed to participate in a short research interview about travel costs and the choices people make when money is limited.",
+      "questions": [
+        {
+          "number": 1,
+          "question": "Thank you for participating. When you travel, which expense do you pay the most attention to, and how do you control it?",
+          "sample_answer": "I pay the most attention to accommodation because several nights can use a large part of the budget. I compare the total price, location, and recent reviews instead of choosing the cheapest advertised room. A remote hotel may need costly transportation and waste time each day. I usually select a clean guesthouse near public transit and travel outside the peak season when possible. I don't need luxury service, but I'm willing to pay extra for safety and a reliable reservation. That approach usually gives me good value."
+        },
+        {
+          "number": 2,
+          "question": "I see. If you had to choose, would you spend more money on comfortable accommodation or on activities at the destination? Why?",
+          "sample_answer": "I’d spend more on activities because they’re the main reason I travel. For example, I’d happily pay for a good walking tour or a local cooking class. Those experiences give me stories I can remember later. My room only needs to be clean, safe, and near public transportation. I wouldn’t choose a terrible room just to save money, because I still need to sleep well. But after those basic needs are covered, I’d put the extra money into the trip itself."
+        },
+        {
+          "number": 3,
+          "question": "Interesting. What is one practical way students or young adults can make travel more affordable?",
+          "sample_answer": "They can begin with local travel instead of assuming that a special trip must be international. A nearby town may offer historic sites, scenery, and unfamiliar food without the cost of a flight. Students can use public transportation, choose free attractions, and travel with one friend to share a room. Saving a small amount each month also prevents the trip from creating debt. Most importantly, they should set a total budget before booking. Affordable travel depends more on clear main goals than on finding one extremely cheap deal."
+        },
+        {
+          "number": 4,
+          "question": "Good points. Some governments offer discounts so that young people can visit museums and historic places. Is public money well spent on programs like these?",
+          "sample_answer": "I think it is well spent when the discounts are targeted and easy to use. Museums and heritage sites give education outside a classroom, but ticket prices can exclude students and low-income families. A discount widens access and may create visitors who continue supporting cultural institutions as adults. The program should not remove all income from the site, because conservation and staff still need funding. A reduced youth price, supported partly by public money, creates a reasonable balance between educational access and the cost of protecting the attraction."
+        }
+      ]
+    },
+    {
+      "title": "Local and International Journeys",
+      "setup": "A university researcher is studying people's attitudes toward local and international travel. You will take part in a brief online interview.",
+      "questions": [
+        {
+          "number": 1,
+          "question": "Thank you for joining us. Tell me about an interesting place reasonably close to where you live that visitors might enjoy.",
+          "sample_answer": "There is a historic village about an hour from my city that visitors might enjoy. It has traditional houses, a small market, and walking paths through nearby hills. Many residents overlook it because it feels too close to count as a destination, but that is part of its value. The journey is affordable and doesn't need complicated planning. A visitor can learn about regional architecture, try local food, and return home the same evening. It proves that discovery doesn't always need traveling a great distance."
+        },
+        {
+          "number": 2,
+          "question": "I see. What is one important difference between traveling within your own country and traveling internationally?",
+          "sample_answer": "The main difference is the amount of the unknown. Within my country, I understand the language, payment methods, food, and basic social expectations, so I can solve problems quickly. International travel needs more research and adaptability, especially when signs or customs are unfamiliar. That challenge can create stronger personal growth and cultural learning, but it also increases cost and stress. Domestic travel is therefore better for a short, restful break. At the same time, international travel may be worth the extra preparation when I want a deeper change of perspective."
+        },
+        {
+          "number": 3,
+          "question": "Interesting. Do people sometimes ignore worthwhile destinations in their own region? Why might that happen?",
+          "sample_answer": "Yes, because familiarity makes nearby places seem ordinary. People often connect travel with distance, airports, and a major change of scenery, so a local museum or village doesn't feel special enough. Advertising also focuses heavily on famous international destinations. But residents may know surprisingly little about their own regional history. Local tourism can reveal that heritage at a lower cost and with less effect on the environment. Communities could encourage it through weekend transport passes, clear walking routes, and events that give residents a reason to look again."
+        },
+        {
+          "number": 4,
+          "question": "Good points. Should tourism organizations encourage people to take fewer international trips and explore closer to home for environmental reasons?",
+          "sample_answer": "They should encourage local travel, but I'd avoid telling people that international travel is irresponsible in every case. Long flights have a big environmental cost, and nearby trips can support regional businesses while using less energy. Still, international travel gives cultural exchange, family connection, and educational opportunities that local trips can't always replace. A better message is to travel less frequently but stay longer, choose lower-impact transportation when useful, and combine several purposes in one journey."
+        }
+      ]
+    },
+    {
+      "title": "Tourism and Local Communities",
+      "setup": "You have volunteered for a university study about how tourism affects people who live in popular destinations. The researcher will ask four questions online.",
+      "questions": [
+        {
+          "number": 1,
+          "question": "Thank you for taking part. Have you visited a place where tourism seemed important to the local economy? What did you notice?",
+          "sample_answer": "Yes, I visited a coastal town where tourism seemed to support most businesses near the center. Restaurants, guesthouses, boat tours, and craft shops were all busy, and many residents worked directly with visitors. I also noticed that activity dropped sharply a few streets away, so the benefits didn't appear evenly distributed. Several workers said winter was difficult because the jobs were seasonal. The experience showed me that tourism can create valuable income."
+        },
+        {
+          "number": 2,
+          "question": "Thank you. What can an individual traveler do to make sure local residents benefit from a visit?",
+          "sample_answer": "A traveler can choose locally owned accommodation, restaurants, guides, and shops instead of spending everything through a large outside company. Even small decisions, such as buying a craft directly from its maker, help more income remain in the community. Visitors should also respect local rules and avoid treating residential neighborhoods like amusement parks. I'd ask before photographing people and keep noise low at night. Financial support matters, but responsible tourism also means protecting residents' dignity and allowing them to continue ordinary daily life."
+        },
+        {
+          "number": 3,
+          "question": "Interesting. If tourism causes higher prices and overcrowding, what should local authorities do?",
+          "sample_answer": "First, I think local officials should ask residents which problems bother them most. If housing is becoming too expensive, they could limit short-term rentals. If one attraction is always packed, timed tickets could help. They might also charge a small visitor fee for cleaning and public transportation. I wouldn’t ban tourists, because many local people depend on those jobs. The goal should be simple: keep the visitors, but make daily life comfortable for the people who live there."
+        },
+        {
+          "number": 4,
+          "question": "Good points. Some people believe residents should have more influence than tourism businesses when a destination plans future development. Do you agree?",
+          "sample_answer": "Yes, because residents live with the results every day. They know when rent is rising, buses are too full, or a quiet street has become noisy. Tourism businesses should still be part of the discussion because they create jobs. But they shouldn’t make the final decision alone. I’d let residents choose the biggest local needs, then ask businesses to help find a solution. That seems fairer than planning everything around what visitors want for a few days."
+        }
+      ]
+    },
+    {
+      "title": "Travel and the Environment",
+      "setup": "As part of an environmental studies project, a university researcher will interview you about travel choices and responsible tourism.",
+      "questions": [
+        {
+          "number": 1,
+          "question": "Thank you for joining the study. Do environmental concerns affect any choices you make when planning a trip? Give an example.",
+          "sample_answer": "They affect my transportation choice when a useful alternative exists. For a regional journey, I prefer a direct train because I can avoid driving, move around during the trip, and arrive near the city center. I also carry a reusable bottle and avoid changing hotels every night. I'm not perfect, and sometimes a flight is the only realistic option because of distance or limited time. My goal is to consider impact alongside price and convenience instead of pretend that environmental concerns have no place in personal travel decisions."
+        },
+        {
+          "number": 2,
+          "question": "I see. Would you be willing to pay a higher entrance fee if the extra money directly supported conservation at a natural or historic site?",
+          "sample_answer": "Yes, if the fee were reasonable and the organization explained clearly how it was used. Trails, historic buildings, waste systems, and trained staff all need money. Paying a little more is fair when my visit contributes to wear on the place. Transparency is important because a vague environmental charge can feel like another way to increase profit. I'd also support reduced prices for local residents or low-income visitors. Conservation funding should protect the site without turning natural and cultural heritage into something only wealthy travelers can experience."
+        },
+        {
+          "number": 3,
+          "question": "Interesting. Which is more effective: asking travelers to behave responsibly or requiring tourism companies to reduce their environmental impact?",
+          "sample_answer": "I think rules for companies would have a bigger effect. One hotel or tour company makes choices that affect thousands of guests. For example, a hotel can add water refill stations, and a tour company can use smaller groups. Travelers should still avoid waste, of course. But it’s hard to make a good choice when no good option exists. Companies need to provide the basic system, and then visitors can do their part by actually using it."
+        },
+        {
+          "number": 4,
+          "question": "Good points. Some environmentally fragile places may eventually need to close certain areas to tourists. Is protecting nature more important than keeping all areas open to visitors?",
+          "sample_answer": "Protecting nature is more important when scientific evidence shows that visitors are causing lasting damage. If a habitat or trail is destroyed, future residents and travelers lose it completely. Closure doesn't always need to be permanent or cover the whole destination. Authorities can rotate access, create viewing areas, or offer guided visits with small groups. They should explain the reason so people understand that the rule is conservation instead of exclusion. Responsible access is valuable, but no photograph or vacation experience justifies irreversible harm to a fragile ecosystem."
+        }
+      ]
+    },
+    {
+      "title": "Transportation During a Trip",
+      "setup": "You are participating in a university research interview about the transportation visitors use while traveling.",
+      "questions": [
+        {
+          "number": 1,
+          "question": "Thank you for participating. When exploring an unfamiliar city, what type of transportation do you usually prefer, and why?",
+          "sample_answer": "I prefer a combination of walking and public transportation. Walking lets me notice shops, architecture, and ordinary street life at my own pace. For longer distances, a metro or bus is more affordable than taking taxis all day and usually avoids parking problems. Before leaving, I download a map and research how tickets work, because unfamiliar payment systems can be confusing. I might rent a car in a rural region, but in a city it often creates more stress than convenience. Reliable public transportation gives me the best balance."
+        },
+        {
+          "number": 2,
+          "question": "I see. Imagine that a direct flight costs more than a cheaper flight with a long connection. Which would you choose? Explain what would influence your decision.",
+          "sample_answer": "For a short vacation, I’d pay more for the direct flight if the price difference were manageable. A long connection uses limited travel time and creates another chance for delays or lost luggage. Arriving exhausted can also affect the first day. For a trip of several weeks, I might accept the connection. The saved money could pay for accommodation or activities. My decision would depend on the whole journey, not only the ticket price. Time and reliability have real value too."
+        },
+        {
+          "number": 3,
+          "question": "Interesting. What could cities do to make transportation easier for visitors without making daily travel worse for residents?",
+          "sample_answer": "Cities should improve the same system for both visitors and residents. Clear signs, easy payment, and reliable schedules help everyone. During the busy season, the city could add more buses to major attractions. That would stop tourists from filling the buses people use for work or school. I’d also show visitors good walking routes and quieter travel times. I don’t think tourists need special treatment. They just need enough information to use the normal system without getting confused."
+        },
+        {
+          "number": 4,
+          "question": "Good points. In the future, self-driving vehicles may become common in tourist destinations. Would this development be mostly helpful or mostly harmful?",
+          "sample_answer": "It could be helpful if self-driving vehicles give safe, easy to use transportation in places where buses are limited. Older travelers or people with disabilities might reach attractions more independently, and shared vehicles could reduce the need for rental cars. But the technology may increase traffic if every visitor orders a private ride, and technical failures in unfamiliar roads could be serious. Destinations should test it gradually and favor shared services connected to public transit."
+        }
+      ]
+    },
+    {
+      "title": "Technology and the Future Traveler",
+      "setup": "A university technology group is studying how digital services are changing tourism. You have agreed to answer questions in a short interview.",
+      "questions": [
+        {
+          "number": 1,
+          "question": "Thank you for joining us. Think of a time when a digital tool made a trip easier. What did the tool help you do?",
+          "sample_answer": "On a recent trip, an offline map helped me navigate when my phone had no mobile connection. I had saved the hotel and railway station before leaving, so I could follow the route without asking several strangers or using expensive data. The tool reduced stress, especially after dark, and allowed me to walk confidently. I still asked the hotel receptionist about safe areas and local transportation because an application lacks context. The experience showed me that technology works best when it supports preparation instead of replacing all human advice."
+        },
+        {
+          "number": 2,
+          "question": "I see. How much do online reviews influence your decisions about hotels, restaurants, or attractions?",
+          "sample_answer": "They influence me when many recent reviews describe the same useful issue, such as noise, cleanliness, or unreliable reservations. One extremely positive or negative comment doesn't change my decision because personal expectations vary. I compare patterns and pay attention to travelers whose needs resemble mine. I also check the date, since management and conditions can change. Reviews reduce the unknown, but I treat them with caution. they're evidence from individual experiences, not an objective score that can decide whether a place will suit every visitor."
+        },
+        {
+          "number": 3,
+          "question": "Interesting. Could virtual tours ever provide a meaningful alternative for people who cannot travel physically? Why or why not?",
+          "sample_answer": "Yes, they can give a special educational alternative, although they can't reproduce an entire journey. A high-quality virtual museum tour lets someone examine art, hear expert explanations, and move at a comfortable pace. This matters to people with limited mobility, money, or time. But virtual travel lacks weather, smell, physical scale, and spontaneous conversations. I see it as a genuine form of access instead of a perfect substitute. It can also help a person plan a future visit or revisit a place after returning home."
+        },
+        {
+          "number": 4,
+          "question": "Good points. As travel becomes more automated and personalized, do you think trips will become better or lose some of their sense of discovery?",
+          "sample_answer": "Trips will become easier, but they may lose discovery if people allow technology to make every decision. Automatic translation, contactless check-in, and personalized routes remove barriers and can make travel easy to use to more people. At the same time, constant recommendations may guide everyone toward predictable places based on previous preferences. Travelers can preserve discovery by using tools for essential tasks while leaving part of the itinerary open. Technology should handle avoidable confusion, not eliminate every uncertain moment."
+        }
+      ]
+    },
+    {
+      "title": "The Purpose and Value of Travel",
+      "setup": "You have volunteered for a university study about why people travel and what they gain from it. A researcher will conduct a brief online interview.",
+      "questions": [
+        {
+          "number": 1,
+          "question": "Thank you for participating. What is usually your main purpose when you take a personal trip: rest, learning, adventure, or something else?",
+          "sample_answer": "My main purpose is usually a combination of learning and rest. I like visiting a historic site or trying regional food because those experiences give the destination meaning. But I don't want every day filled with educational activities. I also need a quiet afternoon, a walk, or a long meal without watching the time. When I balance those goals, I return home with new ideas but not complete exhaustion. The exact balance depends on the trip, but constant activity would make even an interesting destination feel like work."
+        },
+        {
+          "number": 2,
+          "question": "Thank you. Do you think travel is necessary for people to understand cultures different from their own? Why or why not?",
+          "sample_answer": "No, I don’t think travel is the only way to understand another culture. People can learn a lot from books, films, classes, and friends from different backgrounds. Those choices are cheaper and often explain the history better than a short holiday. Still, travel lets you notice small things, like how people use public spaces or eat together. That experience is valuable. But one week in a country doesn’t make anyone an expert. You still need to listen and keep learning afterward."
+        },
+        {
+          "number": 3,
+          "question": "Interesting. Some people return from trips feeling that they have changed. What kind of change can travel realistically produce?",
+          "sample_answer": "I think travel can make someone more confident and flexible. When you find the right bus or solve a small problem in another language, you realize you can handle unfamiliar situations. You may also notice that people do ordinary things in very different ways. But I don’t think every holiday completely changes a person. Someone can stay inside a resort and learn almost nothing. The change comes from trying things, talking to people, and thinking about the experience after coming home."
+        },
+        {
+          "number": 4,
+          "question": "Good points. Some people believe experiences such as travel are a better use of money than buying physical possessions. Do you agree or disagree?",
+          "sample_answer": "I generally agree because a well-chosen experience can create memories, learning, and stronger relationships. A trip with family may remain special long after a new electronic device becomes outdated. Experiences can also push people out of their normal routine and show them what they value. But the comparison should not become a rule. A useful possession, stable housing, or savings may improve daily life more than an expensive holiday."
+        }
+      ]
+    }
+  ],
+  "corpus_calibration_audit": [
+    {
+      "set_title": "A Trip That Stayed With You",
+      "question_functions": [
+        "personal past experience",
+        "preference about memories",
+        "habit and trade-off",
+        "evaluation of learning through difficulty"
+      ],
+      "subtopics": [
+        "memorable trips",
+        "companions",
+        "photography",
+        "personal growth"
+      ]
+    },
+    {
+      "set_title": "Choosing a Destination",
+      "question_functions": [
+        "hypothetical personal choice",
+        "information-source preference",
+        "familiar versus new comparison",
+        "social trend evaluation"
+      ],
+      "subtopics": [
+        "dream destinations",
+        "planning",
+        "repeat travel",
+        "social media"
+      ]
+    },
+    {
+      "set_title": "Traveling Alone or Together",
+      "question_functions": [
+        "personal preference",
+        "description of qualities",
+        "practical advice",
+        "opinion about independence"
+      ],
+      "subtopics": [
+        "solo travel",
+        "group travel",
+        "companions",
+        "personal growth"
+      ]
+    },
+    {
+      "set_title": "Planning and Spontaneity",
+      "question_functions": [
+        "personal planning routine",
+        "structured choice",
+        "past disruption",
+        "future technology evaluation"
+      ],
+      "subtopics": [
+        "planning",
+        "flexibility",
+        "unexpected problems",
+        "personalized itineraries"
+      ]
+    },
+    {
+      "set_title": "Seeing and Understanding a Place",
+      "question_functions": [
+        "sightseeing habit",
+        "activity preference",
+        "cost-benefit judgment",
+        "public access policy"
+      ],
+      "subtopics": [
+        "landmarks",
+        "natural scenery",
+        "guided tours",
+        "overcrowding"
+      ]
+    },
+    {
+      "set_title": "Food and Cultural Contact",
+      "question_functions": [
+        "personal interest",
+        "recommendation preference",
+        "suggestion for cultural learning",
+        "balanced cultural judgment"
+      ],
+      "subtopics": [
+        "local cuisine",
+        "local advice",
+        "cultural exchange",
+        "commercialization"
+      ]
+    },
+    {
+      "set_title": "Traveling on a Budget",
+      "question_functions": [
+        "personal budgeting habit",
+        "spending priority",
+        "practical recommendation",
+        "public funding opinion"
+      ],
+      "subtopics": [
+        "accommodation",
+        "activities",
+        "budget travel",
+        "accessibility"
+      ]
+    },
+    {
+      "set_title": "Local and International Journeys",
+      "question_functions": [
+        "familiar place description",
+        "domestic-international comparison",
+        "explanation of behavior",
+        "environmental recommendation"
+      ],
+      "subtopics": [
+        "local travel",
+        "international travel",
+        "regional tourism",
+        "transport emissions"
+      ]
+    },
+    {
+      "set_title": "Tourism and Local Communities",
+      "question_functions": [
+        "observed experience",
+        "individual action",
+        "policy solution",
+        "stakeholder opinion"
+      ],
+      "subtopics": [
+        "local economy",
+        "responsible spending",
+        "overcrowding",
+        "community participation"
+      ]
+    },
+    {
+      "set_title": "Travel and the Environment",
+      "question_functions": [
+        "personal environmental choice",
+        "willingness to pay",
+        "responsibility comparison",
+        "conservation judgment"
+      ],
+      "subtopics": [
+        "transportation",
+        "conservation fees",
+        "business responsibility",
+        "visitor limits"
+      ]
+    },
+    {
+      "set_title": "Transportation During a Trip",
+      "question_functions": [
+        "transport preference",
+        "cost-time trade-off",
+        "city service recommendation",
+        "future transport evaluation"
+      ],
+      "subtopics": [
+        "public transportation",
+        "flight connections",
+        "resident needs",
+        "self-driving vehicles"
+      ]
+    },
+    {
+      "set_title": "Technology and the Future Traveler",
+      "question_functions": [
+        "recent technology experience",
+        "review-use habit",
+        "accessibility judgment",
+        "future trend evaluation"
+      ],
+      "subtopics": [
+        "navigation apps",
+        "online reviews",
+        "virtual tours",
+        "automation"
+      ]
+    },
+    {
+      "set_title": "The Purpose and Value of Travel",
+      "question_functions": [
+        "personal motivation",
+        "necessity judgment",
+        "realistic effect explanation",
+        "experience-versus-possession opinion"
+      ],
+      "subtopics": [
+        "rest",
+        "cultural understanding",
+        "personal growth",
+        "spending values"
+      ]
+    }
+  ]
+}

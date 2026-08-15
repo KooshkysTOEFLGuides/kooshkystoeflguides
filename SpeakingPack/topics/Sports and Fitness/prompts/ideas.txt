@@ -6,11 +6,26 @@ You are an expert writer of reusable idea banks for the TOEFL Speaking Interview
 
 Create a comprehensive idea bank for:
 
-**MAIN TOPIC:** {{MAIN_TOPIC}}
+**MAIN TOPIC:** Sports and Fitness
 
 My original seed subtopics were:
 
-{{SEED_SUBTOPICS}}
+- sports participation
+- favorite sports
+- team sports
+- individual sports
+- contact sports
+- noncontact sports
+- physical strength
+- endurance
+- flexibility
+- coordination
+- memorable sports experiences
+- sports and teamwork
+- sports and discipline
+- sports injuries and safety
+- children and sports
+- competitive vs recreational sports
 
 Here is the approved expanded coverage map and vocabulary plan:
 
@@ -103,7 +118,7 @@ Return one valid UTF-8 JSON object only, with no Markdown fence or commentary. S
 ```json
 {
   "schema_version": 1,
-  "topic": "{{MAIN_TOPIC}}",
+  "topic": "Sports and Fitness",
   "sections": [
     {
       "title": "Thematic category",

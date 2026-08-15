@@ -1,6 +1,6 @@
 # STEP 3 — CORPUS-CALIBRATED TOEFL SPEAKING INTERVIEW SETS
 
-Use the completed `words.json`, the completed `ideas.json`, and the shared real TOEFL Speaking corpus at `{{CORPUS_PATH}}` when using this prompt.
+Use the completed `words.json`, the completed `ideas.json`, and the shared real TOEFL Speaking corpus at `SpeakingPack/prompt/references/real-toefl-speaking-corpus.txt` when using this prompt.
 
 ## Prompt
 
@@ -9,12 +9,26 @@ You are an expert writer and analyst of TOEFL Speaking Interview materials.
 Create realistic TOEFL Speaking Interview question sets about:
 
 **MAIN TOPIC:**
-{{MAIN_TOPIC}}
+Leisure Time and Hobbies
 
 My original seed subtopics were:
 
 **ORIGINAL SEED SUBTOPICS:**
-{{SEED_SUBTOPICS}}
+- regular hobbies
+- new hobbies
+- pastimes
+- relaxing hobbies
+- challenging hobbies
+- creative hobbies
+- outdoor hobbies
+- indoor hobbies
+- hobby clubs
+- hobbies with friends or family
+- one serious hobby vs many smaller hobbies
+- hobbies and mental health
+- hobbies and personal development
+- barriers to starting a hobby
+- exploring new hobbies as people get older
 
 Use the following approved coverage map and idea bank:
 
@@ -24,7 +38,7 @@ Use the approved coverage map in the completed `words.json`.
 **APPROVED IDEA BANK:**
 Use the completed `ideas.json`.
 
-Use `{{CORPUS_PATH}}` as the primary calibration corpus. Read it directly; do not rely on an unspecified attachment.
+Use `SpeakingPack/prompt/references/real-toefl-speaking-corpus.txt` as the primary calibration corpus. Read it directly; do not rely on an unspecified attachment.
 
 Before writing, silently analyze the corpus carefully.
 
@@ -530,7 +544,7 @@ Return one valid UTF-8 JSON object only, with no Markdown fence or commentary. S
 ```json
 {
   "schema_version": 1,
-  "topic": "{{MAIN_TOPIC}}",
+  "topic": "Leisure Time and Hobbies",
   "sets": [
     {
       "title": "Short editorial title",

@@ -6,11 +6,30 @@ You are an expert writer of reusable idea banks for the TOEFL Speaking Interview
 
 Create a comprehensive idea bank for:
 
-**MAIN TOPIC:** {{MAIN_TOPIC}}
+**MAIN TOPIC:** Social Life, Friendship, and Gatherings
 
 My original seed subtopics were:
 
-{{SEED_SUBTOPICS}}
+- large friend groups
+- small friend groups
+- close friends
+- making friends
+- maintaining friendships
+- long-lasting friendships
+- friendship and trust
+- friendship and loyalty
+- friendship and emotional well-being
+- friendship and life satisfaction
+- learning from friends
+- different perspectives
+- social gatherings
+- large gatherings
+- small private gatherings
+- memorable gatherings
+- preparing for social events
+- social confidence
+- professional networking
+- social gatherings and professional relationships
 
 Here is the approved expanded coverage map and vocabulary plan:
 
@@ -103,7 +122,7 @@ Return one valid UTF-8 JSON object only, with no Markdown fence or commentary. S
 ```json
 {
   "schema_version": 1,
-  "topic": "{{MAIN_TOPIC}}",
+  "topic": "Social Life, Friendship, and Gatherings",
   "sections": [
     {
       "title": "Thematic category",

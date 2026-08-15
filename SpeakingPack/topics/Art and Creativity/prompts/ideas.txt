@@ -6,11 +6,26 @@ You are an expert writer of reusable idea banks for the TOEFL Speaking Interview
 
 Create a comprehensive idea bank for:
 
-**MAIN TOPIC:** {{MAIN_TOPIC}}
+**MAIN TOPIC:** Art and Creativity
 
 My original seed subtopics were:
 
-{{SEED_SUBTOPICS}}
+- being a creative person
+- creative activities
+- visual arts
+- performing arts
+- drawing and painting
+- crafts
+- art and self-expression
+- art and mental health
+- creativity and problem-solving
+- art vs science
+- art vs math
+- arts in school curricula
+- future of arts education
+- creative confidence
+- museums and galleries
+- technology and creativity
 
 Here is the approved expanded coverage map and vocabulary plan:
 
@@ -103,7 +118,7 @@ Return one valid UTF-8 JSON object only, with no Markdown fence or commentary. S
 ```json
 {
   "schema_version": 1,
-  "topic": "{{MAIN_TOPIC}}",
+  "topic": "Art and Creativity",
   "sections": [
     {
       "title": "Thematic category",

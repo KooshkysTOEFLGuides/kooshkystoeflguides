@@ -6,11 +6,29 @@ You are an expert writer of reusable idea banks for the TOEFL Speaking Interview
 
 Create a comprehensive idea bank for:
 
-**MAIN TOPIC:** {{MAIN_TOPIC}}
+**MAIN TOPIC:** Transportation and Commuting
 
 My original seed subtopics were:
 
-{{SEED_SUBTOPICS}}
+- daily commuting
+- places people go during the week
+- transportation methods
+- walking
+- cycling
+- buses
+- subway or metro
+- private cars
+- ride-sharing
+- commuting time
+- commuting stress
+- living close to work or school
+- public transportation
+- benefits of public transportation
+- disadvantages of public transportation
+- traffic congestion
+- pollution from transportation
+- city investment in transportation
+- employer reimbursement for commuting
 
 Here is the approved expanded coverage map and vocabulary plan:
 
@@ -103,7 +121,7 @@ Return one valid UTF-8 JSON object only, with no Markdown fence or commentary. S
 ```json
 {
   "schema_version": 1,
-  "topic": "{{MAIN_TOPIC}}",
+  "topic": "Transportation and Commuting",
   "sections": [
     {
       "title": "Thematic category",

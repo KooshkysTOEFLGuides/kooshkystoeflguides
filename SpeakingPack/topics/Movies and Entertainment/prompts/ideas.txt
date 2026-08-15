@@ -6,11 +6,23 @@ You are an expert writer of reusable idea banks for the TOEFL Speaking Interview
 
 Create a comprehensive idea bank for:
 
-**MAIN TOPIC:** {{MAIN_TOPIC}}
+**MAIN TOPIC:** Movies and Entertainment
 
 My original seed subtopics were:
 
-{{SEED_SUBTOPICS}}
+- movie genres
+- movie preferences
+- family and friends’ entertainment preferences
+- watching movies on weekdays vs weekends
+- theaters vs watching at home
+- streaming services
+- movies as entertainment
+- movies as education
+- movies and social awareness
+- documentaries
+- future of movie theaters
+- entertainment habits
+- relaxing after work or school
 
 Here is the approved expanded coverage map and vocabulary plan:
 
@@ -103,7 +115,7 @@ Return one valid UTF-8 JSON object only, with no Markdown fence or commentary. S
 ```json
 {
   "schema_version": 1,
-  "topic": "{{MAIN_TOPIC}}",
+  "topic": "Movies and Entertainment",
   "sections": [
     {
       "title": "Thematic category",

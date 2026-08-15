@@ -6,11 +6,30 @@ You are an expert writer of reusable idea banks for the TOEFL Speaking Interview
 
 Create a comprehensive idea bank for:
 
-**MAIN TOPIC:** {{MAIN_TOPIC}}
+**MAIN TOPIC:** Work, Jobs, and Career
 
 My original seed subtopics were:
 
-{{SEED_SUBTOPICS}}
+- choosing a job
+- job satisfaction
+- salary
+- fulfillment
+- job security
+- career growth
+- workplace environment
+- workplace stress
+- types of work
+- job responsibilities
+- large companies
+- small companies
+- employee benefits
+- flexible schedules
+- remote work
+- commuting and work
+- work-life balance
+- reasons people feel unhappy at work
+- professional development
+- future of work
 
 Here is the approved expanded coverage map and vocabulary plan:
 
@@ -103,7 +122,7 @@ Return one valid UTF-8 JSON object only, with no Markdown fence or commentary. S
 ```json
 {
   "schema_version": 1,
-  "topic": "{{MAIN_TOPIC}}",
+  "topic": "Work, Jobs, and Career",
   "sections": [
     {
       "title": "Thematic category",

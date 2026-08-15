@@ -6,11 +6,28 @@ You are an expert writer of reusable idea banks for the TOEFL Speaking Interview
 
 Create a comprehensive idea bank for:
 
-**MAIN TOPIC:** {{MAIN_TOPIC}}
+**MAIN TOPIC:** Time Management and Productivity
 
 My original seed subtopics were:
 
-{{SEED_SUBTOPICS}}
+- managing time
+- prioritizing tasks
+- avoiding procrastination
+- planning ahead
+- deadlines
+- balancing responsibilities
+- productivity methods
+- distractions
+- focus and concentration
+- multitasking
+- rest and productivity
+- strict schedules
+- flexible schedules
+- study productivity
+- work productivity
+- digital tools for productivity
+- daily goals
+- weekly planning
 
 Here is the approved expanded coverage map and vocabulary plan:
 
@@ -103,7 +120,7 @@ Return one valid UTF-8 JSON object only, with no Markdown fence or commentary. S
 ```json
 {
   "schema_version": 1,
-  "topic": "{{MAIN_TOPIC}}",
+  "topic": "Time Management and Productivity",
   "sections": [
     {
       "title": "Thematic category",

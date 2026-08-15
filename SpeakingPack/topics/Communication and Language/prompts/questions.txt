@@ -1,6 +1,6 @@
 # STEP 3 — CORPUS-CALIBRATED TOEFL SPEAKING INTERVIEW SETS
 
-Use the completed `words.json`, the completed `ideas.json`, and the shared real TOEFL Speaking corpus at `{{CORPUS_PATH}}` when using this prompt.
+Use the completed `words.json`, the completed `ideas.json`, and the shared real TOEFL Speaking corpus at `SpeakingPack/prompt/references/real-toefl-speaking-corpus.txt` when using this prompt.
 
 ## Prompt
 
@@ -9,12 +9,31 @@ You are an expert writer and analyst of TOEFL Speaking Interview materials.
 Create realistic TOEFL Speaking Interview question sets about:
 
 **MAIN TOPIC:**
-{{MAIN_TOPIC}}
+Communication and Language
 
 My original seed subtopics were:
 
 **ORIGINAL SEED SUBTOPICS:**
-{{SEED_SUBTOPICS}}
+- communication habits
+- texting
+- phone calls
+- face-to-face communication
+- online communication
+- body language
+- tone of voice
+- misunderstandings
+- active listening
+- explaining ideas clearly
+- polite disagreement
+- public speaking
+- giving presentations
+- learning foreign languages
+- language learning difficulties
+- communication across cultures
+- communication at school
+- communication at work
+- social skills
+- confidence in speaking
 
 Use the following approved coverage map and idea bank:
 
@@ -24,7 +43,7 @@ Use the approved coverage map in the completed `words.json`.
 **APPROVED IDEA BANK:**
 Use the completed `ideas.json`.
 
-Use `{{CORPUS_PATH}}` as the primary calibration corpus. Read it directly; do not rely on an unspecified attachment.
+Use `SpeakingPack/prompt/references/real-toefl-speaking-corpus.txt` as the primary calibration corpus. Read it directly; do not rely on an unspecified attachment.
 
 Before writing, silently analyze the corpus carefully.
 
@@ -530,7 +549,7 @@ Return one valid UTF-8 JSON object only, with no Markdown fence or commentary. S
 ```json
 {
   "schema_version": 1,
-  "topic": "{{MAIN_TOPIC}}",
+  "topic": "Communication and Language",
   "sets": [
     {
       "title": "Short editorial title",

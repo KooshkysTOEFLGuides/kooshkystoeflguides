@@ -6,11 +6,25 @@ You are an expert writer of reusable idea banks for the TOEFL Speaking Interview
 
 Create a comprehensive idea bank for:
 
-**MAIN TOPIC:** {{MAIN_TOPIC}}
+**MAIN TOPIC:** Leisure Time and Hobbies
 
 My original seed subtopics were:
 
-{{SEED_SUBTOPICS}}
+- regular hobbies
+- new hobbies
+- pastimes
+- relaxing hobbies
+- challenging hobbies
+- creative hobbies
+- outdoor hobbies
+- indoor hobbies
+- hobby clubs
+- hobbies with friends or family
+- one serious hobby vs many smaller hobbies
+- hobbies and mental health
+- hobbies and personal development
+- barriers to starting a hobby
+- exploring new hobbies as people get older
 
 Here is the approved expanded coverage map and vocabulary plan:
 
@@ -103,7 +117,7 @@ Return one valid UTF-8 JSON object only, with no Markdown fence or commentary. S
 ```json
 {
   "schema_version": 1,
-  "topic": "{{MAIN_TOPIC}}",
+  "topic": "Leisure Time and Hobbies",
   "sections": [
     {
       "title": "Thematic category",

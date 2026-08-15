@@ -6,11 +6,30 @@ You are an expert writer of reusable idea banks for the TOEFL Speaking Interview
 
 Create a comprehensive idea bank for:
 
-**MAIN TOPIC:** {{MAIN_TOPIC}}
+**MAIN TOPIC:** Communication and Language
 
 My original seed subtopics were:
 
-{{SEED_SUBTOPICS}}
+- communication habits
+- texting
+- phone calls
+- face-to-face communication
+- online communication
+- body language
+- tone of voice
+- misunderstandings
+- active listening
+- explaining ideas clearly
+- polite disagreement
+- public speaking
+- giving presentations
+- learning foreign languages
+- language learning difficulties
+- communication across cultures
+- communication at school
+- communication at work
+- social skills
+- confidence in speaking
 
 Here is the approved expanded coverage map and vocabulary plan:
 
@@ -103,7 +122,7 @@ Return one valid UTF-8 JSON object only, with no Markdown fence or commentary. S
 ```json
 {
   "schema_version": 1,
-  "topic": "{{MAIN_TOPIC}}",
+  "topic": "Communication and Language",
   "sections": [
     {
       "title": "Thematic category",

@@ -6,11 +6,29 @@ You are an expert writer of reusable idea banks for the TOEFL Speaking Interview
 
 Create a comprehensive idea bank for:
 
-**MAIN TOPIC:** {{MAIN_TOPIC}}
+**MAIN TOPIC:** Food, Cooking, and Restaurants
 
 My original seed subtopics were:
 
-{{SEED_SUBTOPICS}}
+- favorite foods
+- daily meals
+- home cooking
+- eating out
+- restaurants
+- food delivery
+- traditional dishes
+- family meals
+- cooking skills
+- learning to cook
+- healthy food vs tasty food
+- trying new foods
+- local cuisine
+- international food
+- food culture
+- restaurant service
+- price and quality
+- food waste
+- convenience and food choices
 
 Here is the approved expanded coverage map and vocabulary plan:
 
@@ -103,7 +121,7 @@ Return one valid UTF-8 JSON object only, with no Markdown fence or commentary. S
 ```json
 {
   "schema_version": 1,
-  "topic": "{{MAIN_TOPIC}}",
+  "topic": "Food, Cooking, and Restaurants",
   "sections": [
     {
       "title": "Thematic category",

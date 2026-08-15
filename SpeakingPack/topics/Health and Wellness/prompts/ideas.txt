@@ -6,11 +6,23 @@ You are an expert writer of reusable idea banks for the TOEFL Speaking Interview
 
 Create a comprehensive idea bank for:
 
-**MAIN TOPIC:** {{MAIN_TOPIC}}
+**MAIN TOPIC:** Health and Wellness
 
 My original seed subtopics were:
 
-{{SEED_SUBTOPICS}}
+- physical well-being routines
+- exercise habits
+- gym and fitness routines
+- diet and nutrition
+- healthy eating habits
+- sleep and rest
+- stress management
+- mental health
+- physical health vs mental health
+- lifestyle changes for better health
+- preventive health habits
+- work-life or study-life balance
+- burnout and recovery
 
 Here is the approved expanded coverage map and vocabulary plan:
 
@@ -103,7 +115,7 @@ Return one valid UTF-8 JSON object only, with no Markdown fence or commentary. S
 ```json
 {
   "schema_version": 1,
-  "topic": "{{MAIN_TOPIC}}",
+  "topic": "Health and Wellness",
   "sections": [
     {
       "title": "Thematic category",

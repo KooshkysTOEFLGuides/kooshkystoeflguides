@@ -1,0 +1,210 @@
+<!doctype html>
+<html lang="en" data-theme="light">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="color-scheme" content="light dark">
+  <meta name="theme-color" content="#F4F0E8">
+  <meta name="description" content="{{META_DESCRIPTION}}">
+  <link rel="icon" href="../../../images/favicon.ico" sizes="any">
+  <title>{{TOPIC_TITLE}} — TOEFL Speaking Interview Topic Pack | Kooshky’s TOEFL Guides</title>
+  <script>
+    (() => {
+      try {
+        const saved = localStorage.getItem("kooshky-guides:theme:v1");
+        const theme = saved === "dark" ? "dark" : "light";
+        document.documentElement.dataset.theme = theme;
+        document.documentElement.style.colorScheme = theme;
+      } catch (_) {}
+    })();
+  </script>
+  <style>
+    @import url("https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@400;500;600;700;800&family=Literata:opsz,wght@7..72,600;7..72,700;7..72,800&display=swap");
+    :root {
+      --page: #f4f0e8; --surface: #fcfaf6; --raised: #ffffff;
+      --text: #182027; --muted: #59636c; --border: #d7d0c3;
+      --accent: #a9470d; --teal: #1e5b63; --accent-soft: #f3e2d3;
+      --teal-soft: #ddeae8; --shadow: 0 20px 55px rgb(24 32 39 / .11);
+      --serif: Literata, Georgia, "Times New Roman", serif;
+      --sans: "IBM Plex Sans", Inter, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+      --header: 4rem; --content: 76rem; --radius: 1rem;
+    }
+    html[data-theme="dark"] {
+      --page: #111417; --surface: #181d21; --raised: #20262b;
+      --text: #ece7dd; --muted: #adb4b8; --border: #30383e;
+      --accent: #f28c45; --teal: #70b7b4; --accent-soft: #332219;
+      --teal-soft: #193033; --shadow: 0 20px 55px rgb(0 0 0 / .28);
+    }
+    *, *::before, *::after { box-sizing: border-box; }
+    html { scroll-behavior: smooth; scroll-padding-top: calc(var(--header) + 1rem); }
+    body { margin: 0; background: var(--page); color: var(--text); font: 1rem/1.68 var(--sans); }
+    body.drawer-open, body.modal-open { overflow: hidden; }
+    a { color: var(--teal); text-underline-offset: .18em; }
+    button, input { font: inherit; }
+    button:focus-visible, a:focus-visible, summary:focus-visible { outline: 3px solid var(--accent); outline-offset: 3px; }
+    .skip-link { position: fixed; z-index: 100; top: .5rem; left: .5rem; transform: translateY(-160%); padding: .7rem 1rem; background: var(--text); color: var(--page); }
+    .skip-link:focus { transform: none; }
+    .site-header { position: sticky; z-index: 40; top: 0; height: var(--header); border-bottom: 1px solid var(--border); background: color-mix(in srgb, var(--page) 92%, transparent); backdrop-filter: blur(14px); }
+    .header-inner { width: min(calc(100% - 2rem), 92rem); height: 100%; margin: auto; display: flex; align-items: center; gap: 1rem; }
+    .brand { margin-right: auto; display: inline-flex; align-items: center; gap: .7rem; color: var(--text); font-weight: 800; text-decoration: none; }
+    .brand-mark { width: 2rem; aspect-ratio: 1; display: grid; place-items: center; border: 1px solid var(--accent); border-radius: .35rem; background: var(--accent-soft); color: var(--accent); font-family: var(--serif); }
+    .desktop-nav, .drawer-nav, .social-links, .footer-links { display: flex; align-items: center; gap: 1rem; }
+    .desktop-nav a, .drawer-nav a { text-decoration: none; font-weight: 650; }
+    .icon-button { min-width: 2.75rem; min-height: 2.75rem; border: 1px solid var(--border); border-radius: .7rem; background: var(--surface); color: var(--text); cursor: pointer; }
+    .menu-button { display: none; }
+    .hero { position: relative; isolation: isolate; overflow: hidden; border-bottom: 1px solid var(--border); background: linear-gradient(125deg, var(--surface) 0 48%, var(--teal-soft) 100%); }
+    .hero::before { content: ""; position: absolute; z-index: -1; width: 32rem; aspect-ratio: 1; top: -19rem; right: -8rem; border: 5rem solid color-mix(in srgb, var(--accent) 14%, transparent); border-radius: 50%; }
+    .hero::after { content: ""; position: absolute; z-index: -1; width: 16rem; aspect-ratio: 1; bottom: -11rem; left: 42%; border: 1px solid color-mix(in srgb, var(--teal) 35%, transparent); border-radius: 50%; }
+    .hero-inner { width: min(calc(100% - 2rem), var(--content)); margin: auto; padding: clamp(4rem, 9vw, 7.6rem) 0; display: grid; grid-template-columns: minmax(0, 1.35fr) minmax(17rem, .65fr); gap: clamp(2rem, 6vw, 6rem); align-items: center; }
+    .eyebrow, .part-kicker, .chapter-marker, .editorial-label { color: var(--accent); font-size: .76rem; font-weight: 800; letter-spacing: .13em; text-transform: uppercase; }
+    h1, h2, h3, h4 { margin: 0; font-family: var(--serif); line-height: 1.13; text-wrap: balance; }
+    h1 { max-width: 12ch; margin-top: .7rem; font-size: clamp(3rem, 7.5vw, 6.6rem); letter-spacing: -.045em; }
+    h2 { font-size: clamp(2rem, 4vw, 3.3rem); }
+    h3 { font-size: clamp(1.45rem, 3vw, 2.15rem); }
+    h4 { font-size: 1.25rem; }
+    .hero-subtitle { max-width: 63ch; color: var(--muted); font-size: clamp(1.05rem, 2vw, 1.28rem); }
+    .hero-note { position: relative; padding: 1.55rem; border: 1px solid var(--border); border-top: .35rem solid var(--accent); border-radius: var(--radius); background: color-mix(in srgb, var(--surface) 92%, transparent); box-shadow: var(--shadow); transform: rotate(1.2deg); }
+    .hero-note-label { display: inline-flex; align-items: center; gap: .45rem; color: var(--accent); font-size: .75rem; font-weight: 800; letter-spacing: .12em; text-transform: uppercase; }
+    .hero-note-label::before { content: ""; width: 1.5rem; height: 2px; background: currentColor; }
+    .hero-note strong { display: block; margin-top: .8rem; font: 700 1.25rem/1.25 var(--serif); }
+    .hero-note p { margin-bottom: 0; color: var(--muted); }
+    .hero-socials { display: grid; gap: .45rem; margin-top: 1.15rem; padding-top: 1rem; border-top: 1px solid var(--border); }
+    .hero-socials a { display: flex; justify-content: space-between; gap: .75rem; color: var(--text); font-size: .86rem; font-weight: 700; text-decoration: none; }
+    .hero-socials a span { color: var(--teal); font-weight: 600; }
+    .hero-socials a:hover, .hero-socials a:hover span { color: var(--accent); }
+    .hero-meta { display: flex; flex-wrap: wrap; gap: .55rem; margin-top: 1.5rem; }
+    .hero-meta span { padding: .35rem .65rem; border: 1px solid var(--border); border-radius: 999px; background: color-mix(in srgb, var(--surface) 76%, transparent); color: var(--muted); font-size: .82rem; font-weight: 700; }
+    .page-shell { width: min(calc(100% - 2rem), 92rem); margin: auto; display: grid; grid-template-columns: 19rem minmax(0, 1fr); gap: clamp(2rem, 4vw, 4rem); align-items: start; }
+    .toc-panel { position: sticky; top: calc(var(--header) + 1rem); max-height: calc(100vh - var(--header) - 2rem); overflow: auto; margin-top: 2.5rem; padding: 1.15rem; border: 1px solid var(--border); border-radius: var(--radius); background: var(--surface); box-shadow: 0 12px 34px rgb(24 32 39 / .06); }
+    .toc-panel h2 { margin-bottom: .8rem; font-family: var(--sans); color: var(--muted); font-size: .78rem; letter-spacing: .13em; text-transform: uppercase; }
+    .toc-list { margin: 0; padding: 0; list-style: none; }
+    .toc-list > li + li { margin-top: .55rem; }
+    .toc-group { border: 1px solid var(--border); border-radius: .55rem; background: var(--raised); }
+    .toc-group summary { display: flex; align-items: center; gap: .55rem; padding: .7rem .75rem; color: var(--text); }
+    .toc-group summary::before { content: "+"; color: var(--accent); font-weight: 900; }
+    .toc-group[open] summary::before { content: "−"; }
+    .toc-sublist { max-height: 16rem; overflow: auto; margin: 0; padding: .15rem .45rem .6rem; list-style: none; border-top: 1px solid var(--border); }
+    .toc-list a { display: block; padding: .38rem .55rem; border-left: 2px solid transparent; color: var(--muted); font-size: .88rem; line-height: 1.35; text-decoration: none; }
+    .toc-list a:hover, .toc-list a.is-active { border-color: var(--accent); background: var(--accent-soft); color: var(--text); }
+    main { min-width: 0; padding: 2.5rem 0 6rem; }
+    .guide-intro { display: grid; grid-template-columns: repeat(3, 1fr); gap: 1rem; margin-bottom: 4rem; }
+    .guide-intro article { position: relative; overflow: hidden; padding: 1.25rem; border: 1px solid var(--border); border-radius: var(--radius); background: var(--surface); box-shadow: 0 10px 28px rgb(24 32 39 / .05); }
+    .guide-intro article::after { content: ""; position: absolute; width: 4rem; height: .22rem; left: 1.25rem; bottom: 0; background: var(--accent); }
+    .guide-intro h2 { font: 750 1rem var(--sans); }
+    .part + .part { margin-top: 6rem; }
+    .part-header { margin-bottom: 2.4rem; padding: 1.5rem; border: 1px solid var(--border); border-left: .38rem solid var(--accent); border-radius: var(--radius); background: linear-gradient(110deg, var(--surface), var(--teal-soft)); }
+    .part-header p { max-width: 68ch; color: var(--muted); }
+    .content-section { margin-top: 2.5rem; }
+    .vocab-grid, .idea-grid { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 1rem; margin-top: 1.2rem; }
+    .vocab-card, .idea-card, .question-card { min-width: 0; padding: 1.2rem; border: 1px solid var(--border); border-radius: var(--radius); background: var(--surface); box-shadow: 0 8px 24px rgb(32 40 45 / .055); transition: transform .18s ease, border-color .18s ease, box-shadow .18s ease; }
+    .vocab-card:hover, .idea-card:hover, .question-card:hover { transform: translateY(-2px); border-color: color-mix(in srgb, var(--teal) 55%, var(--border)); box-shadow: 0 15px 35px rgb(24 32 39 / .09); }
+    .vocab-card__header { display: flex; align-items: flex-start; justify-content: space-between; gap: 1rem; }
+    .part-of-speech { color: var(--muted); font-size: .85rem; font-style: italic; }
+    .pronounce-button { min-height: 2.45rem; padding: .4rem .7rem; border: 1px solid var(--border); border-radius: 999px; background: var(--teal-soft); color: var(--teal); cursor: pointer; }
+    .definition { margin: .9rem 0; }
+    .example-list { margin: .7rem 0 1rem; padding-left: 1.35rem; color: var(--muted); }
+    .chip-list { display: flex; flex-wrap: wrap; gap: .45rem; margin-top: .5rem; }
+    .collocation-chip { max-width: 100%; padding: .33rem .6rem; border: 1px solid var(--border); border-radius: 999px; background: var(--raised); overflow-wrap: anywhere; font-size: .9rem; text-decoration: none; }
+    .phrase-bank { margin-top: 1.3rem; padding: 1.25rem; border-left: .28rem solid var(--teal); background: var(--teal-soft); }
+    .phrase-bank li + li { margin-top: .45rem; }
+    mark, .phrase-core { padding: .05rem .18rem; background: var(--accent-soft); color: var(--text); font-weight: 700; }
+    details { border-top: 1px solid var(--border); }
+    summary { padding: .7rem 0; color: var(--teal); font-weight: 750; cursor: pointer; }
+    .idea-card details { margin-top: .7rem; }
+    .interview-set { padding: clamp(1rem, 3vw, 2rem); border: 1px solid var(--border); border-radius: var(--radius); background: var(--surface); }
+    .interview-setup { padding: 1rem; border-left: .25rem solid var(--accent); background: var(--accent-soft); }
+    .question-list { display: grid; gap: 1rem; margin-top: 1rem; }
+    .question-number { color: var(--accent); font-weight: 800; }
+    .sample-answer__content { padding: 0 .2rem .8rem; color: var(--muted); }
+    .site-footer { border-top: 1px solid var(--border); background: var(--surface); }
+    .footer-inner { width: min(calc(100% - 2rem), var(--content)); margin: auto; padding: 2rem 0; display: flex; justify-content: space-between; gap: 2rem; }
+    .go-top { position: fixed; right: 1rem; bottom: 1rem; width: 3rem; height: 3rem; border: 1px solid var(--border); border-radius: 50%; background: var(--text); color: var(--page); opacity: 0; visibility: hidden; cursor: pointer; transition: .18s; }
+    .go-top.is-visible { opacity: 1; visibility: visible; }
+    .drawer-backdrop { position: fixed; z-index: 49; inset: 0; background: rgb(0 0 0 / .52); }
+    .mobile-drawer { position: fixed; z-index: 50; inset: 0 auto 0 0; width: min(88vw, 22rem); padding: 1rem; border-right: 1px solid var(--border); background: var(--surface); transform: translateX(-105%); transition: transform .2s; }
+    body.drawer-open .mobile-drawer { transform: none; }
+    .drawer-header { display: flex; align-items: center; justify-content: space-between; }
+    .drawer-nav { align-items: stretch; flex-direction: column; margin-top: 1.2rem; }
+    .lookup-menu { position: fixed; z-index: 70; display: none; min-width: 14rem; max-width: calc(100vw - 1rem); padding: .5rem; border: 1px solid var(--border); border-radius: .8rem; background: var(--surface); box-shadow: var(--shadow); }
+    .lookup-menu.is-visible { display: block; }
+    .lookup-menu strong, .lookup-menu a { display: block; padding: .42rem .52rem; }
+    .modal-backdrop { position: fixed; z-index: 80; inset: 0; display: none; place-items: center; padding: 1rem; background: rgb(0 0 0 / .58); }
+    .modal-backdrop.is-open { display: grid; }
+    .telegram-dialog { width: min(100%, 30rem); padding: 1.5rem; border: 1px solid var(--border); border-top: .35rem solid var(--accent); border-radius: var(--radius); background: var(--surface); box-shadow: var(--shadow); }
+    .dialog-head { display: flex; align-items: flex-start; justify-content: space-between; gap: 1rem; }
+    #telegram-close { flex: 0 0 2.75rem; width: 2.75rem; height: 2.75rem; min-height: 0; padding: 0; display: grid; place-items: center; line-height: 1; }
+    .dialog-actions { display: flex; flex-wrap: wrap; gap: .7rem; margin-top: 1.2rem; }
+    .button-link { padding: .65rem .9rem; border-radius: .6rem; background: var(--accent); color: #fff; font-weight: 750; text-decoration: none; }
+    .sr-only { position: absolute !important; width: 1px !important; height: 1px !important; padding: 0 !important; margin: -1px !important; overflow: hidden !important; clip: rect(0,0,0,0) !important; white-space: nowrap !important; border: 0 !important; }
+    @media (max-width: 64rem) { .page-shell { grid-template-columns: 1fr; } .toc-panel { display: none; } .menu-button { display: inline-grid; place-items: center; } .desktop-nav a { display: none; } }
+    @media (max-width: 46rem) { .hero-inner, .guide-intro, .vocab-grid, .idea-grid { grid-template-columns: 1fr; } .footer-inner { align-items: flex-start; flex-direction: column; } .header-inner { width: calc(100% - 1rem); } h1 { font-size: clamp(2.35rem, 14vw, 4rem); } }
+    @media (max-width: 20rem) { .page-shell, .hero-inner, .footer-inner { width: calc(100% - 1rem); } .vocab-card, .idea-card, .question-card { padding: .85rem; } }
+    @media (prefers-reduced-motion: reduce) { html { scroll-behavior: auto; } *, *::before, *::after { scroll-behavior: auto !important; transition-duration: .01ms !important; } }
+  </style>
+</head>
+<body>
+  <a class="skip-link" href="#main-content">Skip to main content</a>
+  <header class="site-header">
+    <div class="header-inner">
+      <button class="icon-button menu-button" id="menu-open" type="button" aria-label="Open navigation" aria-expanded="false" aria-controls="mobile-drawer">☰</button>
+      <a class="brand home-link" href="/"><span class="brand-mark" aria-hidden="true">K</span><span>Kooshky’s TOEFL Guides</span></a>
+      <nav class="desktop-nav" aria-label="Primary navigation">
+        <a href="#part-vocabulary">Vocabulary</a><a href="#part-ideas">Ideas</a><a href="#part-interviews">Practice</a>
+        <a data-promo href="https://telegram.me/KooshkyTOEFL" target="_blank" rel="noopener noreferrer">Telegram</a>
+        <button class="icon-button theme-toggle" type="button" aria-label="Switch to dark theme" aria-pressed="false">◐</button>
+      </nav>
+    </div>
+  </header>
+  <div class="drawer-backdrop" id="drawer-backdrop" hidden></div>
+  <aside class="mobile-drawer" id="mobile-drawer" aria-label="Mobile navigation" aria-hidden="true">
+    <div class="drawer-header"><strong>Guide navigation</strong><button class="icon-button" id="menu-close" type="button" aria-label="Close navigation">×</button></div>
+    <nav class="drawer-nav"><a class="home-link" href="/">Home</a><a href="#part-vocabulary">Vocabulary</a><a href="#part-ideas">Ideas</a><a href="#part-interviews">Practice</a><a data-promo href="https://telegram.me/KooshkyTOEFL" target="_blank" rel="noopener noreferrer">Telegram</a></nav>
+  </aside>
+  <section class="hero" aria-labelledby="page-title">
+    <div class="hero-inner">
+      <div><div class="eyebrow">TOEFL SPEAKING TOPIC PACK</div><h1 id="page-title">{{TOPIC_TITLE}}</h1><p class="hero-subtitle">{{HERO_DESCRIPTION}}</p><div class="hero-meta"><span>Active vocabulary</span><span>Reusable ideas</span><span>Interview practice</span></div><p>Collected and compiled by Amir Kooshky</p></div>
+      <aside class="hero-note"><div class="hero-note-label">Three-part study path</div><strong>Build flexible answers, not memorized speeches.</strong><p>Learn reusable language, collect clear answer angles, and practise realistic four-question interviews.</p><nav class="hero-socials" aria-label="Follow Kooshky TOEFL"><a data-promo href="https://telegram.me/KooshkyTOEFL" target="_blank" rel="noopener noreferrer">Telegram channel <span>@KooshkyTOEFL</span></a><a data-promo href="https://instagram.com/kooshkytoefl" target="_blank" rel="noopener noreferrer">Instagram <span>@kooshkytoefl</span></a><a data-promo href="https://telegram.me/KooshkyTOEFL_PV" target="_blank" rel="noopener noreferrer">Telegram DM <span>@KooshkyTOEFL_PV</span></a></nav></aside>
+    </div>
+  </section>
+  <div class="page-shell">
+    <aside class="toc-panel" aria-label="Table of contents"><h2>Chapter index</h2><nav id="toc-root"></nav></aside>
+    <main id="main-content" tabindex="-1">
+      <section class="guide-intro" aria-label="How to use this guide"><article><h2>1. Build language</h2><p>Study one vocabulary chapter and practise its reusable chunks.</p></article><article><h2>2. Build ideas</h2><p>Try developing each idea before opening its context.</p></article><article><h2>3. Build fluency</h2><p>Answer aloud before opening the sample response.</p></article></section>
+      <article>
+        <section class="part" aria-labelledby="part-vocabulary"><header class="part-header"><div class="part-kicker">PART 1</div><h2 id="part-vocabulary">Vocabulary, Collocations, and Speaking Chunks</h2><p>Definitions, examples, pronunciation, and reusable topic language.</p></header>{{VOCABULARY_CONTENT}}</section>
+        <section class="part" aria-labelledby="part-ideas"><header class="part-header"><div class="part-kicker">PART 2</div><h2 id="part-ideas">Reusable Idea Bank</h2><p>Flexible reasoning that can support many different answers.</p></header>{{IDEA_CONTENT}}</section>
+        <section class="part" aria-labelledby="part-interviews"><header class="part-header"><div class="part-kicker">PART 3</div><h2 id="part-interviews">Interview Practice</h2><p>Corpus-calibrated four-question sets with collapsed sample answers.</p></header>{{QUESTION_CONTENT}}</section>
+      </article>
+    </main>
+  </div>
+  <footer class="site-footer"><div class="footer-inner"><div><strong>Kooshky’s TOEFL Guides</strong><p>Collected and compiled by Amir Kooshky.</p></div><nav class="footer-links" aria-label="Footer links"><a class="home-link" href="/">Home</a><a data-promo href="https://telegram.me/KooshkyTOEFL" target="_blank" rel="noopener noreferrer">Telegram</a><a data-promo href="https://instagram.com/kooshkytoefl" target="_blank" rel="noopener noreferrer">Instagram</a><a data-promo href="https://telegram.me/KooshkyTOEFL_PV" target="_blank" rel="noopener noreferrer">Telegram DM</a></nav></div></footer>
+  <button class="go-top" id="go-top" type="button" aria-label="Go to the top of the page">↑</button>
+  <div class="lookup-menu" id="lookup-menu" role="menu" aria-label="Dictionary lookup"><strong id="lookup-label">Look up selection</strong><a role="menuitem" target="_blank" rel="noopener noreferrer" data-dictionary="cambridge">Cambridge Dictionary</a><a role="menuitem" target="_blank" rel="noopener noreferrer" data-dictionary="oxford">Oxford Learner’s Dictionaries</a><a role="menuitem" target="_blank" rel="noopener noreferrer" data-dictionary="merriam">Merriam-Webster</a><a role="menuitem" target="_blank" rel="noopener noreferrer" data-dictionary="google">Google meaning search</a></div>
+  <div class="modal-backdrop" id="telegram-modal" aria-hidden="true" data-promo><section class="telegram-dialog" role="dialog" aria-modal="true" aria-labelledby="telegram-title"><div class="dialog-head"><div><div class="eyebrow">MORE TOEFL PRACTICE</div><h2 id="telegram-title">Continue learning with Kooshky TOEFL</h2></div><button class="icon-button" id="telegram-close" type="button" aria-label="Close Telegram invitation">×</button></div><p>Visit the Telegram channel for more vocabulary, speaking practice, and TOEFL study guides.</p><div class="dialog-actions"><a class="button-link" id="telegram-visit" href="https://telegram.me/KooshkyTOEFL" target="_blank" rel="noopener noreferrer">Visit Telegram channel</a><button class="icon-button" id="telegram-later" type="button">Later</button></div></section></div>
+  <div class="sr-only" id="speech-status" aria-live="polite"></div>
+  <script>
+    (() => {
+      "use strict";
+      const doc = document;
+      const REMOVE_PROMOTIONS = false;
+      const THEME_KEY = "kooshky-guides:theme:v1";
+      const TELEGRAM_KEY = "kooshky-guides:{{TOPIC_SLUG}}:telegram-invite:v1";
+      const one = (selector, root = doc) => root.querySelector(selector);
+      const all = (selector, root = doc) => [...root.querySelectorAll(selector)];
+      const storage = { get(key) { try { return localStorage.getItem(key); } catch (_) { return null; } }, set(key, value) { try { localStorage.setItem(key, value); } catch (_) {} } };
+      function setHomeLinks() { const href = location.protocol === "file:" ? "../../index.html" : new URL("/", location.href).href; all(".home-link").forEach(link => { link.href = href; }); }
+      function applyPromotionMode() { if (!REMOVE_PROMOTIONS) return; all("[data-promo]").forEach(element => element.remove()); storage.set(TELEGRAM_KEY, "disabled"); }
+      function initTheme() { const buttons = all(".theme-toggle"); const apply = theme => { doc.documentElement.dataset.theme = theme; doc.documentElement.style.colorScheme = theme; buttons.forEach(button => { const dark = theme === "dark"; button.textContent = dark ? "☀" : "◐"; button.setAttribute("aria-pressed", String(dark)); button.setAttribute("aria-label", dark ? "Switch to light theme" : "Switch to dark theme"); }); }; apply(storage.get(THEME_KEY) === "dark" ? "dark" : "light"); buttons.forEach(button => button.addEventListener("click", () => { const next = doc.documentElement.dataset.theme === "dark" ? "light" : "dark"; storage.set(THEME_KEY, next); apply(next); })); }
+      function initToc() { const list = doc.createElement("ul"); list.className = "toc-list"; all("main article > .part").forEach((section, index) => { const part = one(":scope > .part-header > h2", section); const item = doc.createElement("li"); const group = doc.createElement("details"); group.className = "toc-group"; if (index === 0) group.open = true; const summary = doc.createElement("summary"); summary.textContent = part.textContent; const children = doc.createElement("ul"); children.className = "toc-sublist"; const overview = doc.createElement("li"); const overviewLink = doc.createElement("a"); overviewLink.href = `#${part.id}`; overviewLink.textContent = "Part overview"; overview.append(overviewLink); children.append(overview); all(":scope > .content-section > h3", section).forEach(heading => { const child = doc.createElement("li"); const link = doc.createElement("a"); link.href = `#${heading.id}`; link.textContent = heading.textContent; child.append(link); children.append(child); }); group.append(summary, children); item.append(group); list.append(item); }); one("#toc-root").replaceChildren(list); }
+      function initDrawer() { const body = doc.body, drawer = one("#mobile-drawer"), backdrop = one("#drawer-backdrop"), open = one("#menu-open"), close = one("#menu-close"); let returnFocus; const shut = () => { body.classList.remove("drawer-open"); drawer.setAttribute("aria-hidden", "true"); open.setAttribute("aria-expanded", "false"); backdrop.hidden = true; returnFocus?.focus(); }; open.addEventListener("click", () => { returnFocus = doc.activeElement; body.classList.add("drawer-open"); drawer.setAttribute("aria-hidden", "false"); open.setAttribute("aria-expanded", "true"); backdrop.hidden = false; close.focus(); }); close.addEventListener("click", shut); backdrop.addEventListener("click", shut); all("a", drawer).forEach(link => link.addEventListener("click", shut)); doc.addEventListener("keydown", event => { if (event.key === "Escape") shut(); }); }
+      function initPronunciation() { const status = one("#speech-status"); const supported = "speechSynthesis" in window && "SpeechSynthesisUtterance" in window; all("[data-pronounce]").forEach(button => { if (!supported) { button.disabled = true; button.title = "Pronunciation is unavailable in this browser"; return; } button.addEventListener("click", () => { const word = button.dataset.pronounce; speechSynthesis.cancel(); const utterance = new SpeechSynthesisUtterance(word); utterance.lang = "en-US"; utterance.onstart = () => { status.textContent = `Playing pronunciation of ${word}.`; }; utterance.onerror = () => { status.textContent = `Could not pronounce ${word}.`; }; speechSynthesis.speak(utterance); }); }); }
+      function initCollocations() { all("[data-collocation]").forEach(link => { link.href = "https://www.google.com/search?q=" + encodeURIComponent("meaning of " + link.dataset.collocation); }); }
+      function initGoTop() { const button = one("#go-top"); const update = () => button.classList.toggle("is-visible", scrollY > 700); addEventListener("scroll", update, { passive: true }); update(); button.addEventListener("click", () => scrollTo({ top: 0, behavior: matchMedia("(prefers-reduced-motion: reduce)").matches ? "auto" : "smooth" })); }
+      function initLookup() { const menu = one("#lookup-menu"), label = one("#lookup-label"); const hide = () => menu.classList.remove("is-visible"); const update = () => { const selection = getSelection(); const text = selection?.toString().trim().replace(/\s+/g, " ") || ""; if (!text || text.length > 90 || selection.rangeCount === 0) { hide(); return; } const range = selection.getRangeAt(0); if (range.commonAncestorContainer.parentElement?.closest("button, input, textarea, nav, #lookup-menu")) { hide(); return; } const encoded = encodeURIComponent(text.toLowerCase()), query = encodeURIComponent("meaning of " + text); const urls = { cambridge: `https://dictionary.cambridge.org/dictionary/english/${encoded}`, oxford: `https://www.oxfordlearnersdictionaries.com/definition/english/${encoded}`, merriam: `https://www.merriam-webster.com/dictionary/${encoded}`, google: `https://www.google.com/search?q=${query}` }; all("[data-dictionary]", menu).forEach(link => { link.href = urls[link.dataset.dictionary]; }); label.textContent = text; const rect = range.getBoundingClientRect(); menu.classList.add("is-visible"); const box = menu.getBoundingClientRect(); menu.style.left = `${Math.max(8, Math.min(innerWidth - box.width - 8, rect.left + rect.width / 2 - box.width / 2))}px`; menu.style.top = `${Math.max(8, Math.min(innerHeight - box.height - 8, rect.bottom + 10))}px`; }; let timer; doc.addEventListener("selectionchange", () => { clearTimeout(timer); timer = setTimeout(update, 120); }); addEventListener("scroll", hide, { passive: true }); addEventListener("resize", hide); }
+      function initTelegram() { const modal = one("#telegram-modal"); if (!modal || REMOVE_PROMOTIONS || storage.get(TELEGRAM_KEY)) return; const dialog = one(".telegram-dialog", modal); let returnFocus = null; const close = reason => { if (!modal.classList.contains("is-open")) return; modal.classList.remove("is-open"); modal.setAttribute("aria-hidden", "true"); doc.body.classList.remove("modal-open"); storage.set(TELEGRAM_KEY, reason); returnFocus?.focus(); }; const show = () => { returnFocus = doc.activeElement; modal.classList.add("is-open"); modal.setAttribute("aria-hidden", "false"); doc.body.classList.add("modal-open"); one("#telegram-close").focus(); }; const onScroll = () => { const maximum = doc.documentElement.scrollHeight - innerHeight; if (maximum > 0 && scrollY / maximum > .5) { show(); removeEventListener("scroll", onScroll); } }; addEventListener("scroll", onScroll, { passive: true }); one("#telegram-close").addEventListener("click", () => close("closed")); one("#telegram-later").addEventListener("click", () => close("later")); one("#telegram-visit").addEventListener("click", () => close("visited")); modal.addEventListener("click", event => { if (event.target === modal) close("backdrop"); }); modal.addEventListener("keydown", event => { if (event.key === "Escape") { close("escape"); return; } if (event.key !== "Tab") return; const controls = all('a[href], button:not([disabled]), [tabindex]:not([tabindex="-1"])', dialog); if (!controls.length) return; const first = controls[0], last = controls.at(-1); if (event.shiftKey && doc.activeElement === first) { event.preventDefault(); last.focus(); } else if (!event.shiftKey && doc.activeElement === last) { event.preventDefault(); first.focus(); } }); }
+      function init() { setHomeLinks(); applyPromotionMode(); initTheme(); initToc(); initDrawer(); initPronunciation(); initCollocations(); initGoTop(); initLookup(); initTelegram(); }
+      try { init(); } catch (error) { console.error("Speaking pack initialization error:", error); }
+    })();
+  </script>
+</body>
+</html>

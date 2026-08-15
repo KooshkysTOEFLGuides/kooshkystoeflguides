@@ -6,11 +6,29 @@ You are an expert writer of reusable idea banks for the TOEFL Speaking Interview
 
 Create a comprehensive idea bank for:
 
-**MAIN TOPIC:** {{MAIN_TOPIC}}
+**MAIN TOPIC:** Personal Values and Life Choices
 
 My original seed subtopics were:
 
-{{SEED_SUBTOPICS}}
+- independence
+- responsibility
+- honesty
+- kindness
+- ambition
+- success
+- happiness
+- freedom
+- security
+- personal priorities
+- choosing between options
+- lifestyle preferences
+- comfort vs challenge
+- risk-taking
+- decision-making
+- influence of family
+- influence of friends
+- long-term life planning
+- defining a good life
 
 Here is the approved expanded coverage map and vocabulary plan:
 
@@ -103,7 +121,7 @@ Return one valid UTF-8 JSON object only, with no Markdown fence or commentary. S
 ```json
 {
   "schema_version": 1,
-  "topic": "{{MAIN_TOPIC}}",
+  "topic": "Personal Values and Life Choices",
   "sections": [
     {
       "title": "Thematic category",

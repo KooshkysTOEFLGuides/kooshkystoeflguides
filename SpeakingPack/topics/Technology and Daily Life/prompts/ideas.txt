@@ -6,11 +6,32 @@ You are an expert writer of reusable idea banks for the TOEFL Speaking Interview
 
 Create a comprehensive idea bank for:
 
-**MAIN TOPIC:** {{MAIN_TOPIC}}
+**MAIN TOPIC:** Technology and Daily Life
 
 My original seed subtopics were:
 
-{{SEED_SUBTOPICS}}
+- technology in everyday activities
+- smartphones
+- computers
+- apps
+- online services
+- frustration with technology
+- technical problems
+- dependence on technology
+- technology and convenience
+- technology and communication
+- technology and employment
+- automation
+- artificial intelligence
+- technology replacing jobs
+- technology creating opportunities
+- technology and independent thinking
+- technology and problem-solving
+- privacy
+- online security
+- screen time
+- digital literacy
+- future of technology
 
 Here is the approved expanded coverage map and vocabulary plan:
 
@@ -103,7 +124,7 @@ Return one valid UTF-8 JSON object only, with no Markdown fence or commentary. S
 ```json
 {
   "schema_version": 1,
-  "topic": "{{MAIN_TOPIC}}",
+  "topic": "Technology and Daily Life",
   "sections": [
     {
       "title": "Thematic category",

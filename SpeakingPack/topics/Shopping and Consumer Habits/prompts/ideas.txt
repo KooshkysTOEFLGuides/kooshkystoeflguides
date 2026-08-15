@@ -6,11 +6,34 @@ You are an expert writer of reusable idea banks for the TOEFL Speaking Interview
 
 Create a comprehensive idea bank for:
 
-**MAIN TOPIC:** {{MAIN_TOPIC}}
+**MAIN TOPIC:** Shopping and Consumer Habits
 
 My original seed subtopics were:
 
-{{SEED_SUBTOPICS}}
+- recent purchases
+- shopping experiences
+- planned purchases
+- spontaneous purchases
+- impulse buying
+- quality vs low price
+- shopping for oneself
+- shopping for others
+- online shopping
+- physical stores
+- online vs in-person shopping
+- grocery shopping
+- fresh produce
+- dairy products
+- packaged foods
+- farmers’ markets
+- large grocery stores
+- consumerism
+- unnecessary purchases
+- shopping and the environment
+- future of shopping
+- customer service
+- return policies
+- advertising and buying behavior
 
 Here is the approved expanded coverage map and vocabulary plan:
 
@@ -103,7 +126,7 @@ Return one valid UTF-8 JSON object only, with no Markdown fence or commentary. S
 ```json
 {
   "schema_version": 1,
-  "topic": "{{MAIN_TOPIC}}",
+  "topic": "Shopping and Consumer Habits",
   "sections": [
     {
       "title": "Thematic category",

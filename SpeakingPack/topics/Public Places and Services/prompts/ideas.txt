@@ -6,11 +6,26 @@ You are an expert writer of reusable idea banks for the TOEFL Speaking Interview
 
 Create a comprehensive idea bank for:
 
-**MAIN TOPIC:** {{MAIN_TOPIC}}
+**MAIN TOPIC:** Public Places and Services
 
 My original seed subtopics were:
 
-{{SEED_SUBTOPICS}}
+- libraries
+- parks
+- museums
+- public transportation stations
+- hospitals and clinics
+- community centers
+- sports facilities
+- shopping centers
+- public safety in shared spaces
+- public cleanliness
+- accessibility
+- government services
+- free public services
+- public spaces for young people
+- public spaces for older people
+- improving public facilities
 
 Here is the approved expanded coverage map and vocabulary plan:
 
@@ -103,7 +118,7 @@ Return one valid UTF-8 JSON object only, with no Markdown fence or commentary. S
 ```json
 {
   "schema_version": 1,
-  "topic": "{{MAIN_TOPIC}}",
+  "topic": "Public Places and Services",
   "sections": [
     {
       "title": "Thematic category",

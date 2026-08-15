@@ -6,11 +6,26 @@ You are an expert writer of reusable idea banks for the TOEFL Speaking Interview
 
 Create a comprehensive idea bank for:
 
-**MAIN TOPIC:** {{MAIN_TOPIC}}
+**MAIN TOPIC:** Digital Life and Online Behavior
 
 My original seed subtopics were:
 
-{{SEED_SUBTOPICS}}
+- internet habits
+- online communication
+- online entertainment
+- online learning
+- online shopping
+- online banking
+- digital privacy
+- passwords and security
+- online scams
+- screen time
+- digital distractions
+- digital productivity tools
+- online communities
+- digital identity
+- balancing online and offline life
+- future of online life
 
 Here is the approved expanded coverage map and vocabulary plan:
 
@@ -103,7 +118,7 @@ Return one valid UTF-8 JSON object only, with no Markdown fence or commentary. S
 ```json
 {
   "schema_version": 1,
-  "topic": "{{MAIN_TOPIC}}",
+  "topic": "Digital Life and Online Behavior",
   "sections": [
     {
       "title": "Thematic category",

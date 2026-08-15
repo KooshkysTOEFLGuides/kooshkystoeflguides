@@ -6,11 +6,31 @@ You are an expert writer of reusable idea banks for the TOEFL Speaking Interview
 
 Create a comprehensive idea bank for:
 
-**MAIN TOPIC:** {{MAIN_TOPIC}}
+**MAIN TOPIC:** Neighborhood, City Life, and Community
 
 My original seed subtopics were:
 
-{{SEED_SUBTOPICS}}
+- neighborhood description
+- city life
+- countryside life
+- urban vs rural living
+- local facilities
+- public parks
+- green spaces
+- public services
+- safety
+- noise
+- crowds
+- traffic
+- neighbors
+- sense of community
+- community events
+- community centers
+- local problems
+- neighborhood improvement
+- city planning
+- quality of life
+- access to services
 
 Here is the approved expanded coverage map and vocabulary plan:
 
@@ -103,7 +123,7 @@ Return one valid UTF-8 JSON object only, with no Markdown fence or commentary. S
 ```json
 {
   "schema_version": 1,
-  "topic": "{{MAIN_TOPIC}}",
+  "topic": "Neighborhood, City Life, and Community",
   "sections": [
     {
       "title": "Thematic category",

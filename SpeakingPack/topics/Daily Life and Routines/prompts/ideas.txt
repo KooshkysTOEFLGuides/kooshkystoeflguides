@@ -6,11 +6,27 @@ You are an expert writer of reusable idea banks for the TOEFL Speaking Interview
 
 Create a comprehensive idea bank for:
 
-**MAIN TOPIC:** {{MAIN_TOPIC}}
+**MAIN TOPIC:** Daily Life and Routines
 
 My original seed subtopics were:
 
-{{SEED_SUBTOPICS}}
+- strict routines
+- flexible routines
+- typical day
+- morning routines
+- afternoon routines
+- evening routines
+- time management
+- planning the day
+- adjusting plans
+- unexpected changes
+- productivity
+- organization
+- discipline
+- freedom and flexibility
+- handling unpredictability
+- to-do lists
+- balancing routine and freedom
 
 Here is the approved expanded coverage map and vocabulary plan:
 
@@ -103,7 +119,7 @@ Return one valid UTF-8 JSON object only, with no Markdown fence or commentary. S
 ```json
 {
   "schema_version": 1,
-  "topic": "{{MAIN_TOPIC}}",
+  "topic": "Daily Life and Routines",
   "sections": [
     {
       "title": "Thematic category",

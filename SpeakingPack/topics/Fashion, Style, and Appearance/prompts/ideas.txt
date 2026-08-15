@@ -6,11 +6,29 @@ You are an expert writer of reusable idea banks for the TOEFL Speaking Interview
 
 Create a comprehensive idea bank for:
 
-**MAIN TOPIC:** {{MAIN_TOPIC}}
+**MAIN TOPIC:** Fashion, Style, and Appearance
 
 My original seed subtopics were:
 
-{{SEED_SUBTOPICS}}
+- personal style
+- clothing preferences
+- casual clothes
+- formal clothes
+- dressing for school
+- dressing for work
+- comfort vs appearance
+- fashion trends
+- following trends
+- self-expression through clothing
+- traditional clothing
+- school uniforms
+- workplace dress codes
+- first impressions
+- confidence and appearance
+- online clothes shopping
+- fast fashion
+- sustainable fashion
+- buying fewer high-quality clothes
 
 Here is the approved expanded coverage map and vocabulary plan:
 
@@ -103,7 +121,7 @@ Return one valid UTF-8 JSON object only, with no Markdown fence or commentary. S
 ```json
 {
   "schema_version": 1,
-  "topic": "{{MAIN_TOPIC}}",
+  "topic": "Fashion, Style, and Appearance",
   "sections": [
     {
       "title": "Thematic category",

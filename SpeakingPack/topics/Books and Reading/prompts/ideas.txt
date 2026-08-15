@@ -6,11 +6,26 @@ You are an expert writer of reusable idea banks for the TOEFL Speaking Interview
 
 Create a comprehensive idea bank for:
 
-**MAIN TOPIC:** {{MAIN_TOPIC}}
+**MAIN TOPIC:** Books and Reading
 
 My original seed subtopics were:
 
-{{SEED_SUBTOPICS}}
+- reading habits
+- reading more or less than before
+- reading for pleasure
+- book genres
+- fiction
+- nonfiction
+- printed books
+- e-books
+- audiobooks
+- reading as a hobby
+- reading and vocabulary
+- reading and empathy
+- reading and understanding others
+- popularity of reading
+- future of reading
+- children and reading habits
 
 Here is the approved expanded coverage map and vocabulary plan:
 
@@ -103,7 +118,7 @@ Return one valid UTF-8 JSON object only, with no Markdown fence or commentary. S
 ```json
 {
   "schema_version": 1,
-  "topic": "{{MAIN_TOPIC}}",
+  "topic": "Books and Reading",
   "sections": [
     {
       "title": "Thematic category",

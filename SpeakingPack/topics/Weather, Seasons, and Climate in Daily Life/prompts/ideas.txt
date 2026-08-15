@@ -6,11 +6,28 @@ You are an expert writer of reusable idea banks for the TOEFL Speaking Interview
 
 Create a comprehensive idea bank for:
 
-**MAIN TOPIC:** {{MAIN_TOPIC}}
+**MAIN TOPIC:** Weather, Seasons, and Climate in Daily Life
 
 My original seed subtopics were:
 
-{{SEED_SUBTOPICS}}
+- favorite seasons
+- hot weather
+- cold weather
+- rainy weather
+- mild weather
+- weather and mood
+- weather and outdoor activities
+- weather and clothing
+- seasonal routines
+- seasonal festivals
+- extreme weather
+- weather-related problems
+- climate change
+- natural disasters
+- planning around weather
+- weather forecasts
+- indoor vs outdoor plans
+- seasonal food and traditions
 
 Here is the approved expanded coverage map and vocabulary plan:
 
@@ -103,7 +120,7 @@ Return one valid UTF-8 JSON object only, with no Markdown fence or commentary. S
 ```json
 {
   "schema_version": 1,
-  "topic": "{{MAIN_TOPIC}}",
+  "topic": "Weather, Seasons, and Climate in Daily Life",
   "sections": [
     {
       "title": "Thematic category",

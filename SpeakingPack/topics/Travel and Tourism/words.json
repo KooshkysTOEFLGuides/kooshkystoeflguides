@@ -1,0 +1,2792 @@
+{
+  "schema_version": 1,
+  "topic": "Travel and Tourism",
+  "coverage_map": [
+    "trip planning and preparation",
+    "transportation and getting around",
+    "accommodation and comfort",
+    "sightseeing and tourist attractions",
+    "cultural experiences and local food",
+    "travel companions and independence",
+    "memorable trips and personal growth",
+    "budgets, luxury, and accessibility",
+    "tourism's effects on communities and the environment",
+    "technology and the future of travel"
+  ],
+  "sections": [
+    {
+      "title": "Planning and Preparing for a Trip",
+      "headwords": [
+        {
+          "term": "destination",
+          "part_of_speech": "noun",
+          "definition": "the place that someone is traveling to",
+          "examples": [
+            "We chose a coastal town as our summer destination.",
+            "My dream destination is a place with both historic sites and natural scenery."
+          ],
+          "collocations": [
+            "popular destination",
+            "holiday destination",
+            "dream destination",
+            "reach a destination",
+            "remote destination",
+            "choose a destination"
+          ]
+        },
+        {
+          "term": "itinerary",
+          "part_of_speech": "noun",
+          "definition": "a plan that shows where you will go and what you will do during a trip",
+          "examples": [
+            "Our itinerary included two museums and a day trip to the countryside.",
+            "I leave some free time in my itinerary for unexpected discoveries."
+          ],
+          "collocations": [
+            "detailed itinerary",
+            "flexible itinerary",
+            "plan an itinerary",
+            "follow an itinerary",
+            "revise an itinerary"
+          ]
+        },
+        {
+          "term": "reservation",
+          "part_of_speech": "noun",
+          "definition": "an arrangement to keep a seat, room, or service for a particular time",
+          "examples": [
+            "I made the hotel reservation several weeks before the trip.",
+            "Without a reservation, we had to wait for a table at the restaurant."
+          ],
+          "collocations": [
+            "make a reservation",
+            "confirm a reservation",
+            "hotel reservation",
+            "advance reservation",
+            "cancel a reservation",
+            "reservation details"
+          ]
+        },
+        {
+          "term": "research",
+          "part_of_speech": "verb",
+          "definition": "to study a place or option carefully before making a decision",
+          "examples": [
+            "I research public transportation before visiting an unfamiliar city.",
+            "We researched several destinations before choosing the most affordable one."
+          ],
+          "collocations": [
+            "research a destination",
+            "research travel options",
+            "do some research",
+            "careful research",
+            "background research"
+          ]
+        },
+        {
+          "term": "pack",
+          "part_of_speech": "verb",
+          "definition": "to put the things needed for a trip into a bag or suitcase",
+          "examples": [
+            "I pack light when I know I will move between several cities.",
+            "She packed comfortable shoes because the tour involved a lot of walking."
+          ],
+          "collocations": [
+            "pack light",
+            "pack a suitcase",
+            "pack in advance",
+            "packing list",
+            "pack efficiently",
+            "pack essentials"
+          ]
+        },
+        {
+          "term": "duration",
+          "part_of_speech": "noun",
+          "definition": "the amount of time that a trip or activity lasts",
+          "examples": [
+            "The duration of the trip made a direct flight worthwhile.",
+            "We shortened our stay because of the course schedule."
+          ],
+          "collocations": [
+            "trip duration",
+            "duration of a stay",
+            "short duration",
+            "for the duration"
+          ]
+        },
+        {
+          "term": "schedule",
+          "part_of_speech": "noun",
+          "definition": "a plan showing when travel services or activities happen",
+          "examples": [
+            "The ferry schedule changes outside summer.",
+            "Our schedule included a free morning after the overnight flight."
+          ],
+          "collocations": [
+            "travel schedule",
+            "busy schedule",
+            "flexible schedule",
+            "check a schedule",
+            "fit into a schedule"
+          ]
+        },
+        {
+          "term": "availability",
+          "part_of_speech": "noun",
+          "definition": "the state of being possible to obtain, reserve, or use",
+          "examples": [
+            "Room availability was limited during the festival.",
+            "We checked ticket availability before choosing our dates."
+          ],
+          "collocations": [
+            "limited availability",
+            "room availability",
+            "check availability",
+            "subject to availability"
+          ]
+        },
+        {
+          "term": "priority",
+          "part_of_speech": "noun",
+          "definition": "something considered more important than other choices",
+          "examples": [
+            "A central location was our main priority.",
+            "Travelers with a tight budget must decide their spending priorities."
+          ],
+          "collocations": [
+            "main priority",
+            "top priority",
+            "set priorities",
+            "competing priorities",
+            "give priority to"
+          ]
+        },
+        {
+          "term": "checklist",
+          "part_of_speech": "noun",
+          "definition": "a written list used to make sure necessary tasks or items are completed",
+          "examples": [
+            "My checklist includes medicine, chargers, and travel documents.",
+            "A shared checklist prevented us from packing the same equipment twice."
+          ],
+          "collocations": [
+            "packing checklist",
+            "travel checklist",
+            "make a checklist"
+          ]
+        },
+        {
+          "term": "schedule",
+          "part_of_speech": "verb",
+          "definition": "to arrange an activity or journey for a particular time",
+          "examples": [
+            "We scheduled the museum visit for our first morning.",
+            "The airline scheduled another flight during the festival."
+          ],
+          "collocations": [
+            "schedule a visit",
+            "schedule a flight",
+            "schedule in advance",
+            "be scheduled for",
+            "carefully schedule"
+          ]
+        },
+        {
+          "term": "research",
+          "part_of_speech": "noun",
+          "definition": "careful study done before making a travel decision",
+          "examples": [
+            "A little research revealed a faster rail route.",
+            "Our research focused on weather and accessibility."
+          ],
+          "collocations": [
+            "travel research",
+            "online research",
+            "careful research",
+            "conduct research"
+          ]
+        }
+      ],
+      "phrases": [
+        {
+          "text": "I usually plan ahead so that I can avoid unnecessary stress.",
+          "reusable_core": "plan ahead"
+        },
+        {
+          "text": "The first thing I take into account is the total cost.",
+          "reusable_core": "take into account"
+        },
+        {
+          "text": "I prefer to leave room for spontaneous activities.",
+          "reusable_core": "leave room for spontaneous activities"
+        },
+        {
+          "text": "It is worth booking in advance during the busy season.",
+          "reusable_core": "booking in advance"
+        },
+        {
+          "text": "A simple checklist helps me make sure I have everything I need.",
+          "reusable_core": "make sure I have everything I need"
+        },
+        {
+          "text": "Our priorities determine where the budget should go.",
+          "reusable_core": "determine where the budget should go"
+        },
+        {
+          "text": "I compare availability before committing to particular dates.",
+          "reusable_core": "before committing to particular dates"
+        },
+        {
+          "text": "The schedule is realistic without being overly rigid.",
+          "reusable_core": "realistic without being overly rigid"
+        },
+        {
+          "text": "A checklist reduces the chance of forgetting something essential.",
+          "reusable_core": "reduces the chance of forgetting"
+        },
+        {
+          "text": "The length of the stay should reflect what we actually want to do.",
+          "reusable_core": "reflect what we actually want to do"
+        },
+        {
+          "text": "I separate essential arrangements from optional plans.",
+          "reusable_core": "essential arrangements from optional plans"
+        }
+      ]
+    },
+    {
+      "title": "Transportation and Getting Around",
+      "headwords": [
+        {
+          "term": "departure",
+          "part_of_speech": "noun",
+          "definition": "the act or time of leaving a place",
+          "examples": [
+            "We arrived at the station thirty minutes before departure.",
+            "The early departure gave us more time to explore the city."
+          ],
+          "collocations": [
+            "departure time",
+            "departure gate",
+            "scheduled departure",
+            "before departure",
+            "delayed departure"
+          ]
+        },
+        {
+          "term": "connection",
+          "part_of_speech": "noun",
+          "definition": "a second bus, train, or flight used to continue a journey",
+          "examples": [
+            "We missed our connection because the first flight was delayed.",
+            "A direct train is easier, but a route with one connection is cheaper."
+          ],
+          "collocations": [
+            "miss a connection",
+            "flight connection",
+            "tight connection",
+            "connecting flight",
+            "make a connection",
+            "convenient connection"
+          ]
+        },
+        {
+          "term": "commute",
+          "part_of_speech": "verb",
+          "definition": "to travel regularly between where you are staying and another place",
+          "examples": [
+            "We commuted from a quiet suburb to the city center each morning.",
+            "Tourists can commute easily if the metro system is reliable."
+          ],
+          "collocations": [
+            "daily commute",
+            "long commute",
+            "commute by train",
+            "commuting time",
+            "commute between cities"
+          ]
+        },
+        {
+          "term": "convenient",
+          "part_of_speech": "adjective",
+          "definition": "easy to use or suitable for a person's needs and schedule",
+          "examples": [
+            "The airport bus was convenient because it stopped beside our hotel.",
+            "Renting a car is convenient in rural areas with limited public transportation."
+          ],
+          "collocations": [
+            "convenient location",
+            "convenient route",
+            "highly convenient",
+            "more convenient",
+            "convenient access",
+            "conveniently located"
+          ]
+        },
+        {
+          "term": "navigate",
+          "part_of_speech": "verb",
+          "definition": "to find and follow a route through an unfamiliar place",
+          "examples": [
+            "A local map helped us navigate the narrow streets.",
+            "I find it easier to navigate a city when its signs use clear symbols."
+          ],
+          "collocations": [
+            "navigate a city",
+            "navigate unfamiliar streets",
+            "easy to navigate",
+            "navigation app",
+            "navigate independently"
+          ]
+        },
+        {
+          "term": "fare",
+          "part_of_speech": "noun",
+          "definition": "the money paid for a journey on public transportation",
+          "examples": [
+            "The airport fare was cheaper with a prepaid card.",
+            "Students can receive a reduced rail fare."
+          ],
+          "collocations": [
+            "bus fare",
+            "rail fare",
+            "reduced fare",
+            "pay a fare",
+            "fare increase",
+            "return fare"
+          ]
+        },
+        {
+          "term": "transit pass",
+          "part_of_speech": "noun",
+          "definition": "a ticket that allows repeated use of public transportation for a period",
+          "examples": [
+            "A three-day transit pass covered every metro journey.",
+            "The transit pass saved us from buying separate tickets."
+          ],
+          "collocations": [
+            "daily transit pass",
+            "unlimited transit pass",
+            "buy a transit pass"
+          ]
+        },
+        {
+          "term": "rental",
+          "part_of_speech": "noun",
+          "definition": "a vehicle or other item paid for and used temporarily",
+          "examples": [
+            "The bicycle rental included a helmet and lock.",
+            "We returned the car rental near the airport."
+          ],
+          "collocations": [
+            "car rental",
+            "bike rental",
+            "rental company",
+            "rental fee",
+            "rental agreement"
+          ]
+        },
+        {
+          "term": "shuttle",
+          "part_of_speech": "noun",
+          "definition": "a vehicle that travels regularly between two nearby places",
+          "examples": [
+            "A free shuttle connected the hotel with the beach.",
+            "The airport shuttle left every thirty minutes."
+          ],
+          "collocations": [
+            "airport shuttle",
+            "free shuttle",
+            "shuttle service",
+            "take a shuttle"
+          ]
+        },
+        {
+          "term": "commute",
+          "part_of_speech": "noun",
+          "definition": "a regular journey between accommodation and another place",
+          "examples": [
+            "The daily commute from the resort took forty minutes.",
+            "A central hotel reduced our commute to the conference."
+          ],
+          "collocations": [
+            "long commute",
+            "daily commute",
+            "easy commute"
+          ]
+        },
+        {
+          "term": "transfer",
+          "part_of_speech": "verb",
+          "definition": "to move from one vehicle or service to another",
+          "examples": [
+            "We transferred from the train to a local bus.",
+            "Passengers must transfer at the central station."
+          ],
+          "collocations": [
+            "transfer between lines",
+            "transfer to a bus",
+            "transfer at a station"
+          ]
+        }
+      ],
+      "phrases": [
+        {
+          "text": "Public transportation is often the easiest way to get around.",
+          "reusable_core": "the easiest way to get around"
+        },
+        {
+          "text": "A direct route can save a great deal of time.",
+          "reusable_core": "save a great deal of time"
+        },
+        {
+          "text": "We had to allow extra time for possible delays.",
+          "reusable_core": "allow extra time"
+        },
+        {
+          "text": "Walking lets visitors see a place at their own pace.",
+          "reusable_core": "at their own pace"
+        },
+        {
+          "text": "The transport system was reliable and easy to use.",
+          "reusable_core": "reliable and easy to use"
+        },
+        {
+          "text": "A travel pass pays for itself after several journeys.",
+          "reusable_core": "pays for itself"
+        },
+        {
+          "text": "The cheapest fare comes with stricter conditions.",
+          "reusable_core": "comes with stricter conditions"
+        },
+        {
+          "text": "A shuttle removes the difficulty of finding the hotel.",
+          "reusable_core": "removes the difficulty of"
+        },
+        {
+          "text": "Renting a vehicle makes sense only outside the transit network.",
+          "reusable_core": "makes sense only outside"
+        }
+      ]
+    },
+    {
+      "title": "Accommodation, Cost, and Comfort",
+      "headwords": [
+        {
+          "term": "accommodation",
+          "part_of_speech": "noun",
+          "definition": "a place where someone stays during a trip",
+          "examples": [
+            "We chose basic accommodation near the railway station.",
+            "Good accommodation does not need to be luxurious if it is clean and safe."
+          ],
+          "collocations": [
+            "affordable accommodation",
+            "overnight accommodation",
+            "book accommodation",
+            "range of accommodation",
+            "self-catering accommodation",
+            "accessible accommodation"
+          ]
+        },
+        {
+          "term": "budget",
+          "part_of_speech": "noun",
+          "definition": "the amount of money available for a trip or activity",
+          "examples": [
+            "Food and transportation used most of our travel budget.",
+            "A clear budget helps me decide which attractions I can afford."
+          ],
+          "collocations": [
+            "travel budget",
+            "limited budget",
+            "stay within a budget",
+            "set a budget",
+            "tight budget"
+          ]
+        },
+        {
+          "term": "affordable",
+          "part_of_speech": "adjective",
+          "definition": "not too expensive for someone to pay for",
+          "examples": [
+            "Local guesthouses made the weekend trip affordable.",
+            "Travel is more affordable when people avoid national holidays."
+          ],
+          "collocations": [
+            "affordable option",
+            "affordable price",
+            "reasonably affordable",
+            "make travel affordable",
+            "remain affordable"
+          ]
+        },
+        {
+          "term": "luxury",
+          "part_of_speech": "noun used as a modifier",
+          "definition": "very high comfort and quality that usually cost a lot",
+          "examples": [
+            "A luxury hotel may offer private tours and excellent service.",
+            "I would rather spend money on experiences than luxury accommodation."
+          ],
+          "collocations": [
+            "luxury hotel",
+            "luxury travel",
+            "luxury service",
+            "affordable luxury",
+            "luxury resort",
+            "luxury experience"
+          ]
+        },
+        {
+          "term": "value",
+          "part_of_speech": "noun",
+          "definition": "the quality or benefit received compared with the money paid",
+          "examples": [
+            "The small hotel offered good value because breakfast was included.",
+            "The cheapest tour is not always the best value."
+          ],
+          "collocations": [
+            "good value",
+            "value for money",
+            "excellent value",
+            "offer value",
+            "poor value",
+            "assess value"
+          ]
+        },
+        {
+          "term": "hostel",
+          "part_of_speech": "noun",
+          "definition": "inexpensive accommodation where guests may share rooms or facilities",
+          "examples": [
+            "The hostel had a shared kitchen and a quiet reading area.",
+            "Staying in a hostel made it easy to meet other travelers."
+          ],
+          "collocations": [
+            "youth hostel",
+            "hostel dormitory",
+            "hostel room",
+            "stay in a hostel"
+          ]
+        },
+        {
+          "term": "guesthouse",
+          "part_of_speech": "noun",
+          "definition": "a small, usually independent place that provides rooms for visitors",
+          "examples": [
+            "The family-run guesthouse served a regional breakfast.",
+            "Our guesthouse was simple but offered warm hospitality."
+          ],
+          "collocations": [
+            "local guesthouse",
+            "family-run guesthouse",
+            "guesthouse owner"
+          ]
+        },
+        {
+          "term": "amenity",
+          "part_of_speech": "noun",
+          "definition": "a useful or enjoyable service provided by accommodation or a destination",
+          "examples": [
+            "Laundry was the amenity we used most during the long trip.",
+            "The resort's amenities included a pool and childcare."
+          ],
+          "collocations": [
+            "hotel amenity",
+            "basic amenities",
+            "modern amenities",
+            "range of amenities",
+            "provide amenities"
+          ]
+        },
+        {
+          "term": "budget",
+          "part_of_speech": "verb",
+          "definition": "to plan how much money can be spent on something",
+          "examples": [
+            "We budgeted carefully for meals and entrance fees.",
+            "Travelers should budget for unexpected transportation."
+          ],
+          "collocations": [
+            "budget carefully",
+            "budget for a trip",
+            "budget for expenses",
+            "budget accordingly"
+          ]
+        },
+        {
+          "term": "value",
+          "part_of_speech": "verb",
+          "definition": "to consider a quality or experience important",
+          "examples": [
+            "I value quiet accommodation more than luxury service.",
+            "Many travelers value flexibility when booking."
+          ],
+          "collocations": [
+            "value comfort",
+            "value independence",
+            "highly value",
+            "value one thing over another",
+            "personally value"
+          ]
+        }
+      ],
+      "phrases": [
+        {
+          "text": "I try to stay within my budget without missing the main attractions.",
+          "reusable_core": "stay within my budget"
+        },
+        {
+          "text": "The room was simple, but it met all our basic needs.",
+          "reusable_core": "met all our basic needs"
+        },
+        {
+          "text": "Location matters more to me than extra comfort.",
+          "reusable_core": "matters more to me than"
+        },
+        {
+          "text": "We cut costs by traveling outside the peak season.",
+          "reusable_core": "cut costs"
+        },
+        {
+          "text": "I am willing to pay extra for safety and convenience.",
+          "reusable_core": "willing to pay extra"
+        },
+        {
+          "text": "A guesthouse often feels more personal than a large chain hotel.",
+          "reusable_core": "feels more personal than"
+        },
+        {
+          "text": "Shared facilities are a reasonable trade-off for a lower price.",
+          "reusable_core": "a reasonable trade-off for"
+        },
+        {
+          "text": "I focus on amenities I will genuinely use.",
+          "reusable_core": "amenities I will genuinely use"
+        },
+        {
+          "text": "Quiet surroundings are worth more to me than decorative extras.",
+          "reusable_core": "worth more to me than decorative extras"
+        }
+      ]
+    },
+    {
+      "title": "Sightseeing and Tourist Attractions",
+      "headwords": [
+        {
+          "term": "landmark",
+          "part_of_speech": "noun",
+          "definition": "a famous building or place that is easy to recognize",
+          "examples": [
+            "The ancient bridge is the city's best-known landmark.",
+            "Seeing the landmark in person was more impressive than seeing it in photographs."
+          ],
+          "collocations": [
+            "famous landmark",
+            "historic landmark",
+            "local landmark",
+            "visit a landmark",
+            "recognizable landmark"
+          ]
+        },
+        {
+          "term": "attraction",
+          "part_of_speech": "noun",
+          "definition": "a place or activity that people visit for interest or enjoyment",
+          "examples": [
+            "The science museum is a popular attraction for families.",
+            "Some of the town's best attractions are free to enter."
+          ],
+          "collocations": [
+            "tourist attraction",
+            "main attraction",
+            "popular attraction",
+            "visitor attraction",
+            "family attraction",
+            "cultural attraction"
+          ]
+        },
+        {
+          "term": "scenery",
+          "part_of_speech": "noun",
+          "definition": "the natural features of a place that can be seen",
+          "examples": [
+            "The mountain scenery made the long bus journey worthwhile.",
+            "We stopped beside the road to enjoy the coastal scenery."
+          ],
+          "collocations": [
+            "beautiful scenery",
+            "dramatic scenery",
+            "coastal scenery",
+            "enjoy the scenery",
+            "mountain scenery"
+          ]
+        },
+        {
+          "term": "crowded",
+          "part_of_speech": "adjective",
+          "definition": "filled with too many people",
+          "examples": [
+            "The old town became crowded in the afternoon.",
+            "I visit major attractions early so they are less crowded."
+          ],
+          "collocations": [
+            "overly crowded",
+            "crowded beach",
+            "crowded with tourists",
+            "become crowded",
+            "densely crowded"
+          ]
+        },
+        {
+          "term": "guided",
+          "part_of_speech": "adjective",
+          "definition": "led by someone who explains a place or activity",
+          "examples": [
+            "A guided tour helped us understand the ruins.",
+            "I prefer guided visits when a site has a complicated history."
+          ],
+          "collocations": [
+            "guided tour",
+            "guided walk",
+            "guided visit",
+            "self-guided tour",
+            "expertly guided",
+            "professionally guided"
+          ]
+        },
+        {
+          "term": "admission",
+          "part_of_speech": "noun",
+          "definition": "the price paid or permission given to enter a place",
+          "examples": [
+            "Museum admission is free on Friday evenings.",
+            "Timed admission reduced the line outside the palace."
+          ],
+          "collocations": [
+            "free admission",
+            "admission fee",
+            "general admission",
+            "gain admission",
+            "admission ticket"
+          ]
+        },
+        {
+          "term": "exhibit",
+          "part_of_speech": "noun",
+          "definition": "an object or collection displayed publicly in a museum or similar place",
+          "examples": [
+            "The exhibit explained how the railway changed the region.",
+            "A temporary exhibit attracted many local visitors."
+          ],
+          "collocations": [
+            "museum exhibit",
+            "interactive exhibit",
+            "temporary exhibit",
+            "view an exhibit"
+          ]
+        },
+        {
+          "term": "guide",
+          "part_of_speech": "verb",
+          "definition": "to lead visitors and explain a place or activity",
+          "examples": [
+            "A historian guided us through the old district.",
+            "Local volunteers guide visitors during the festival."
+          ],
+          "collocations": [
+            "guide visitors",
+            "guide a group",
+            "guide someone through",
+            "expertly guide"
+          ]
+        },
+        {
+          "term": "guide",
+          "part_of_speech": "noun",
+          "definition": "a person who leads visitors and explains a place",
+          "examples": [
+            "Our guide explained why the old bridge mattered.",
+            "The local guide adjusted the walk to our interests."
+          ],
+          "collocations": [
+            "local guide",
+            "tour guide",
+            "knowledgeable guide",
+            "hire a guide",
+            "licensed guide"
+          ]
+        },
+        {
+          "term": "exhibit",
+          "part_of_speech": "verb",
+          "definition": "to display an object publicly in a museum",
+          "examples": [
+            "The gallery exhibits work by regional artists.",
+            "The museum exhibited tools found at the site."
+          ],
+          "collocations": [
+            "exhibit artwork",
+            "exhibit objects",
+            "publicly exhibit"
+          ]
+        }
+      ],
+      "phrases": [
+        {
+          "text": "The place lived up to my expectations.",
+          "reusable_core": "lived up to my expectations"
+        },
+        {
+          "text": "It is worth seeing at least once.",
+          "reusable_core": "worth seeing"
+        },
+        {
+          "text": "We went off the beaten path and found a quiet neighborhood.",
+          "reusable_core": "off the beaten path"
+        },
+        {
+          "text": "The view was the highlight of the trip.",
+          "reusable_core": "the highlight of the trip"
+        },
+        {
+          "text": "A knowledgeable guide can bring history to life.",
+          "reusable_core": "bring history to life"
+        },
+        {
+          "text": "Free admission makes culture available to a wider audience.",
+          "reusable_core": "available to a wider audience"
+        },
+        {
+          "text": "A well-designed exhibit can hold visitors' attention.",
+          "reusable_core": "hold visitors' attention"
+        },
+        {
+          "text": "I choose attractions that match a real interest rather than a checklist.",
+          "reusable_core": "match a real interest rather than a checklist"
+        }
+      ]
+    },
+    {
+      "title": "Culture, History, and Local Food",
+      "headwords": [
+        {
+          "term": "heritage",
+          "part_of_speech": "noun",
+          "definition": "the history, traditions, and culture passed down in a community",
+          "examples": [
+            "The museum explains the region's cultural heritage.",
+            "Protecting old neighborhoods can preserve local heritage."
+          ],
+          "collocations": [
+            "cultural heritage",
+            "local heritage",
+            "heritage site",
+            "preserve heritage",
+            "heritage conservation",
+            "shared heritage"
+          ]
+        },
+        {
+          "term": "custom",
+          "part_of_speech": "noun",
+          "definition": "a traditional way of behaving in a particular community",
+          "examples": [
+            "Our host explained the local custom before the ceremony.",
+            "Learning basic customs can help travelers avoid being disrespectful."
+          ],
+          "collocations": [
+            "local custom",
+            "traditional custom",
+            "follow a custom",
+            "respect local customs",
+            "observe a custom"
+          ]
+        },
+        {
+          "term": "authentic",
+          "part_of_speech": "adjective",
+          "definition": "real and connected to local life rather than designed only for tourists",
+          "examples": [
+            "The family-run restaurant served authentic regional dishes.",
+            "A conversation with residents felt more authentic than a staged performance."
+          ],
+          "collocations": [
+            "authentic experience",
+            "authentic food",
+            "authentic culture",
+            "feel authentic",
+            "genuinely authentic",
+            "authentic interaction"
+          ]
+        },
+        {
+          "term": "cuisine",
+          "part_of_speech": "noun",
+          "definition": "a style of cooking connected with a country or region",
+          "examples": [
+            "Trying the local cuisine was one of my main reasons for visiting.",
+            "The region's cuisine uses fresh herbs and seasonal vegetables."
+          ],
+          "collocations": [
+            "local cuisine",
+            "traditional cuisine",
+            "regional cuisine",
+            "sample the cuisine",
+            "explore the cuisine"
+          ]
+        },
+        {
+          "term": "hospitality",
+          "part_of_speech": "noun",
+          "definition": "friendly and generous treatment of guests or visitors",
+          "examples": [
+            "The family's hospitality made us feel welcome immediately.",
+            "I remember the village mainly because of the residents' warm hospitality."
+          ],
+          "collocations": [
+            "warm hospitality",
+            "local hospitality",
+            "show hospitality",
+            "hospitality industry",
+            "experience hospitality",
+            "generous hospitality"
+          ]
+        },
+        {
+          "term": "etiquette",
+          "part_of_speech": "noun",
+          "definition": "the accepted rules for polite behavior in a social situation",
+          "examples": [
+            "The guide explained dining etiquette before the meal.",
+            "Understanding basic etiquette helps visitors avoid causing offense."
+          ],
+          "collocations": [
+            "local etiquette",
+            "social etiquette",
+            "dining etiquette",
+            "rules of etiquette",
+            "observe etiquette"
+          ]
+        },
+        {
+          "term": "dialect",
+          "part_of_speech": "noun",
+          "definition": "a form of a language used in a particular region or community",
+          "examples": [
+            "The guide taught us two greetings in the local dialect.",
+            "Regional dialects can reveal part of a place's history."
+          ],
+          "collocations": [
+            "local dialect",
+            "regional dialect",
+            "speak a dialect"
+          ]
+        },
+        {
+          "term": "ceremony",
+          "part_of_speech": "noun",
+          "definition": "a formal or traditional event performed on an important occasion",
+          "examples": [
+            "Visitors watched the public ceremony from a respectful distance.",
+            "The ceremony had religious meaning for the community."
+          ],
+          "collocations": [
+            "traditional ceremony",
+            "religious ceremony",
+            "opening ceremony",
+            "attend a ceremony"
+          ]
+        },
+        {
+          "term": "artisan",
+          "part_of_speech": "noun",
+          "definition": "a skilled person who makes objects by hand",
+          "examples": [
+            "A local artisan showed us how the bowls were painted.",
+            "Buying directly from artisans supports traditional skills."
+          ],
+          "collocations": [
+            "local artisan",
+            "skilled artisan",
+            "artisan workshop",
+            "support artisans",
+            "artisan product"
+          ]
+        },
+        {
+          "term": "specialty",
+          "part_of_speech": "noun",
+          "definition": "a food or product for which a place is particularly known",
+          "examples": [
+            "We tried a regional specialty made with herbs and rice.",
+            "The market sells local specialties that are difficult to find elsewhere."
+          ],
+          "collocations": [
+            "local specialty",
+            "regional specialty",
+            "house specialty",
+            "try a specialty"
+          ]
+        },
+        {
+          "term": "exchange",
+          "part_of_speech": "noun",
+          "definition": "the act of sharing information, ideas, or culture between people",
+          "examples": [
+            "The student visit encouraged genuine cultural exchange.",
+            "A short conversation became a useful exchange of perspectives."
+          ],
+          "collocations": [
+            "cultural exchange",
+            "international exchange",
+            "exchange of ideas",
+            "encourage exchange",
+            "mutual exchange"
+          ]
+        },
+        {
+          "term": "exchange",
+          "part_of_speech": "verb",
+          "definition": "to give and receive ideas or information",
+          "examples": [
+            "Students exchanged stories about family traditions.",
+            "We exchanged a few words with artisans."
+          ],
+          "collocations": [
+            "exchange ideas",
+            "exchange stories",
+            "exchange information",
+            "freely exchange"
+          ]
+        }
+      ],
+      "phrases": [
+        {
+          "text": "Travel gave me firsthand experience of another culture.",
+          "reusable_core": "firsthand experience"
+        },
+        {
+          "text": "I try to be respectful of local customs.",
+          "reusable_core": "respectful of local customs"
+        },
+        {
+          "text": "Food can offer insight into a region's history.",
+          "reusable_core": "offer insight into"
+        },
+        {
+          "text": "Talking with residents helped me see the place from a local perspective.",
+          "reusable_core": "from a local perspective"
+        },
+        {
+          "text": "The visit challenged some of my assumptions.",
+          "reusable_core": "challenged some of my assumptions"
+        },
+        {
+          "text": "Learning the basic etiquette prevents avoidable misunderstandings.",
+          "reusable_core": "prevents avoidable misunderstandings"
+        },
+        {
+          "text": "A regional specialty reflects both available ingredients and tradition.",
+          "reusable_core": "reflects both available ingredients and tradition"
+        },
+        {
+          "text": "Buying directly from an artisan supports the skill behind the product.",
+          "reusable_core": "supports the skill behind the product"
+        },
+        {
+          "text": "Visitors should not interrupt a ceremony for a photograph.",
+          "reusable_core": "interrupt a ceremony for a photograph"
+        },
+        {
+          "text": "Even a few words of dialect can create a warmer interaction.",
+          "reusable_core": "create a warmer interaction"
+        },
+        {
+          "text": "Cultural exchange works best when curiosity goes in both directions.",
+          "reusable_core": "curiosity goes in both directions"
+        }
+      ]
+    },
+    {
+      "title": "Companions, Independence, and Memories",
+      "headwords": [
+        {
+          "term": "companion",
+          "part_of_speech": "noun",
+          "definition": "a person who travels or spends time with someone",
+          "examples": [
+            "A patient companion can make a difficult journey more enjoyable.",
+            "My sister was an ideal travel companion because we had similar interests."
+          ],
+          "collocations": [
+            "travel companion",
+            "ideal companion",
+            "constant companion",
+            "choose a companion",
+            "reliable companion"
+          ]
+        },
+        {
+          "term": "independent",
+          "part_of_speech": "adjective",
+          "definition": "able to make decisions and manage situations without help",
+          "examples": [
+            "Traveling alone made me more independent.",
+            "Independent travelers can change their plans without consulting a group."
+          ],
+          "collocations": [
+            "independent traveler",
+            "become independent",
+            "travel independently",
+            "independent decision",
+            "independent journey",
+            "independent exploration"
+          ]
+        },
+        {
+          "term": "compromise",
+          "part_of_speech": "verb",
+          "definition": "to reach agreement by accepting less than each person first wanted",
+          "examples": [
+            "We compromised by spending one day shopping and one day hiking.",
+            "Travel companions sometimes need to compromise about meals and schedules."
+          ],
+          "collocations": [
+            "reach a compromise",
+            "willing to compromise",
+            "compromise on plans",
+            "reasonable compromise",
+            "acceptable compromise"
+          ]
+        },
+        {
+          "term": "memorable",
+          "part_of_speech": "adjective",
+          "definition": "special or unusual enough to be remembered clearly",
+          "examples": [
+            "A sudden snowstorm made the journey memorable.",
+            "The most memorable part was sharing dinner with a local family."
+          ],
+          "collocations": [
+            "memorable trip",
+            "memorable experience",
+            "highly memorable",
+            "make something memorable",
+            "deeply memorable"
+          ]
+        },
+        {
+          "term": "adaptable",
+          "part_of_speech": "adjective",
+          "definition": "able to change behavior or plans when circumstances change",
+          "examples": [
+            "An adaptable traveler stays calm when a train is canceled.",
+            "Group travel is easier when everyone is adaptable."
+          ],
+          "collocations": [
+            "highly adaptable",
+            "adaptable traveler",
+            "remain adaptable",
+            "adaptable approach",
+            "adaptable plan",
+            "adaptable mindset"
+          ]
+        },
+        {
+          "term": "compromise",
+          "part_of_speech": "noun",
+          "definition": "an agreement in which each person accepts less than originally wanted",
+          "examples": [
+            "A fair compromise gave each traveler one free afternoon.",
+            "The mid-priced hotel was our compromise."
+          ],
+          "collocations": [
+            "fair compromise",
+            "reach a compromise",
+            "reasonable compromise",
+            "acceptable compromise",
+            "workable compromise"
+          ]
+        }
+      ],
+      "phrases": [
+        {
+          "text": "Traveling together brought us closer.",
+          "reusable_core": "brought us closer"
+        },
+        {
+          "text": "Being alone pushed me out of my comfort zone.",
+          "reusable_core": "pushed me out of my comfort zone"
+        },
+        {
+          "text": "We had to find a balance between our different interests.",
+          "reusable_core": "find a balance between"
+        },
+        {
+          "text": "The experience taught me to deal with uncertainty.",
+          "reusable_core": "deal with uncertainty"
+        },
+        {
+          "text": "Even the problems became good stories afterward.",
+          "reusable_core": "became good stories afterward"
+        }
+      ]
+    },
+    {
+      "title": "Communities, Crowds, and Responsible Tourism",
+      "headwords": [
+        {
+          "term": "tourism",
+          "part_of_speech": "noun",
+          "definition": "the activity and business of people visiting places for pleasure",
+          "examples": [
+            "Tourism provides many jobs in the coastal region.",
+            "Seasonal tourism can make local businesses busy for only part of the year."
+          ],
+          "collocations": [
+            "international tourism",
+            "local tourism",
+            "tourism industry",
+            "promote tourism"
+          ]
+        },
+        {
+          "term": "resident",
+          "part_of_speech": "noun",
+          "definition": "a person who lives in a particular place",
+          "examples": [
+            "Residents complained about noise near the historic square.",
+            "The project trains local residents to work as guides."
+          ],
+          "collocations": [
+            "local resident",
+            "permanent resident",
+            "benefit residents",
+            "residents' concerns"
+          ]
+        },
+        {
+          "term": "overcrowding",
+          "part_of_speech": "noun",
+          "definition": "a situation in which too many people are in one place",
+          "examples": [
+            "Overcrowding can damage both a landmark and the visitor experience.",
+            "Timed tickets may reduce overcrowding at popular sites."
+          ],
+          "collocations": [
+            "tourist overcrowding",
+            "reduce overcrowding",
+            "severe overcrowding",
+            "problem of overcrowding"
+          ]
+        },
+        {
+          "term": "sustainable",
+          "part_of_speech": "adjective",
+          "definition": "able to continue without causing serious environmental or social harm",
+          "examples": [
+            "The island is trying to develop a more sustainable form of tourism.",
+            "Train travel can be a sustainable alternative on some routes."
+          ],
+          "collocations": [
+            "sustainable tourism",
+            "sustainable travel",
+            "environmentally sustainable",
+            "sustainable approach"
+          ]
+        },
+        {
+          "term": "conservation",
+          "part_of_speech": "noun",
+          "definition": "the protection of nature, buildings, or cultural resources",
+          "examples": [
+            "Part of the entrance fee supports wildlife conservation.",
+            "Tourism income can pay for the conservation of historic buildings."
+          ],
+          "collocations": [
+            "nature conservation",
+            "conservation project",
+            "support conservation",
+            "conservation efforts"
+          ]
+        }
+      ],
+      "phrases": [
+        {
+          "text": "Tourism can create jobs and support small businesses.",
+          "reusable_core": "create jobs and support small businesses"
+        },
+        {
+          "text": "Visitors should minimize their impact on the environment.",
+          "reusable_core": "minimize their impact"
+        },
+        {
+          "text": "Popular places need to manage large crowds responsibly.",
+          "reusable_core": "manage large crowds responsibly"
+        },
+        {
+          "text": "Some of the income should remain in the local community.",
+          "reusable_core": "remain in the local community"
+        },
+        {
+          "text": "There is a trade-off between economic growth and preservation.",
+          "reusable_core": "a trade-off between"
+        },
+        {
+          "text": "Visitor behavior affects whether residents continue to welcome tourism.",
+          "reusable_core": "whether residents continue to welcome tourism"
+        }
+      ]
+    },
+    {
+      "title": "Technology and the Future of Travel",
+      "headwords": [
+        {
+          "term": "platform",
+          "part_of_speech": "noun",
+          "definition": "a website or application used to arrange travel services",
+          "examples": [
+            "A booking platform let us compare rooms quickly.",
+            "Travel platforms can help small guesthouses reach international visitors."
+          ],
+          "collocations": [
+            "booking platform",
+            "online platform",
+            "travel platform",
+            "digital platform"
+          ]
+        },
+        {
+          "term": "review",
+          "part_of_speech": "noun",
+          "definition": "an opinion written by someone who has used a service or visited a place",
+          "examples": [
+            "I read several recent reviews before booking the tour.",
+            "One negative review does not always mean a hotel is poor."
+          ],
+          "collocations": [
+            "online review",
+            "customer review",
+            "positive review",
+            "read reviews"
+          ]
+        },
+        {
+          "term": "contactless",
+          "part_of_speech": "adjective",
+          "definition": "working without physical contact between people or devices",
+          "examples": [
+            "The hotel offered contactless check-in through its app.",
+            "Contactless tickets can make airport lines move faster."
+          ],
+          "collocations": [
+            "contactless payment",
+            "contactless check-in",
+            "contactless service",
+            "contactless technology"
+          ]
+        },
+        {
+          "term": "virtual",
+          "part_of_speech": "adjective",
+          "definition": "experienced through computer technology rather than physically",
+          "examples": [
+            "A virtual tour helped me decide whether the museum suited my interests.",
+            "Virtual travel cannot fully reproduce the atmosphere of a real place."
+          ],
+          "collocations": [
+            "virtual tour",
+            "virtual experience",
+            "virtual visit",
+            "virtual reality"
+          ]
+        },
+        {
+          "term": "accessible",
+          "part_of_speech": "adjective",
+          "definition": "easy for different people to reach, use, or afford",
+          "examples": [
+            "Clear online information makes travel more accessible to first-time visitors.",
+            "Tourist sites should be accessible to people with limited mobility."
+          ],
+          "collocations": [
+            "easily accessible",
+            "financially accessible",
+            "accessible tourism",
+            "make accessible"
+          ]
+        },
+        {
+          "term": "review",
+          "part_of_speech": "verb",
+          "definition": "to examine or describe a travel service and give an opinion about it",
+          "examples": [
+            "I reviewed the hotel after checking out.",
+            "Travelers should review recent information before booking."
+          ],
+          "collocations": [
+            "review a hotel",
+            "review a service",
+            "positively review",
+            "review before booking",
+            "critically review"
+          ]
+        }
+      ],
+      "phrases": [
+        {
+          "text": "Technology has taken much of the guesswork out of planning.",
+          "reusable_core": "taken much of the guesswork out of"
+        },
+        {
+          "text": "Online reviews should be treated with caution.",
+          "reusable_core": "treated with caution"
+        },
+        {
+          "text": "Digital tools can remove barriers for some travelers.",
+          "reusable_core": "remove barriers"
+        },
+        {
+          "text": "Virtual tours may complement rather than replace real travel.",
+          "reusable_core": "complement rather than replace"
+        },
+        {
+          "text": "Future travel will probably become more personalized.",
+          "reusable_core": "become more personalized"
+        },
+        {
+          "text": "I keep enough offline information to manage without the app.",
+          "reusable_core": "enough offline information to manage without the app"
+        }
+      ]
+    },
+    {
+      "title": "Documents, Borders, and Travel Disruptions",
+      "headwords": [
+        {
+          "term": "passport",
+          "part_of_speech": "noun",
+          "definition": "an official document used to travel between countries",
+          "examples": [
+            "I checked that my passport was valid before buying the ticket.",
+            "She keeps a digital copy of her passport in a secure place."
+          ],
+          "collocations": [
+            "valid passport",
+            "passport control",
+            "passport holder",
+            "renew a passport"
+          ]
+        },
+        {
+          "term": "visa",
+          "part_of_speech": "noun",
+          "definition": "official permission to enter or stay in a country",
+          "examples": [
+            "The visa application required proof of accommodation.",
+            "Some travelers can enter the country without a tourist visa."
+          ],
+          "collocations": [
+            "tourist visa",
+            "visa requirement",
+            "apply for a visa",
+            "visa application"
+          ]
+        },
+        {
+          "term": "customs",
+          "part_of_speech": "noun",
+          "definition": "the place and process where goods entering a country are checked",
+          "examples": [
+            "We declared the food when we passed through customs.",
+            "Clear signs made the customs process easy to understand."
+          ],
+          "collocations": [
+            "go through customs",
+            "customs officer",
+            "customs declaration",
+            "clear customs"
+          ]
+        },
+        {
+          "term": "baggage",
+          "part_of_speech": "noun",
+          "definition": "the bags and suitcases someone takes on a journey",
+          "examples": [
+            "The airline charged an extra fee for checked baggage.",
+            "Traveling with less baggage made changing trains much easier."
+          ],
+          "collocations": [
+            "checked baggage",
+            "hand baggage",
+            "baggage allowance",
+            "collect baggage"
+          ]
+        },
+        {
+          "term": "delay",
+          "part_of_speech": "noun",
+          "definition": "a period of waiting because something happens later than planned",
+          "examples": [
+            "A two-hour delay caused us to miss the museum tour.",
+            "The airline sent a message explaining the delay."
+          ],
+          "collocations": [
+            "long delay",
+            "flight delay",
+            "unexpected delay",
+            "cause a delay"
+          ]
+        },
+        {
+          "term": "cancellation",
+          "part_of_speech": "noun",
+          "definition": "a decision that a planned service or event will not happen",
+          "examples": [
+            "The train cancellation forced us to find a bus.",
+            "Travel insurance covered costs caused by the cancellation."
+          ],
+          "collocations": [
+            "last-minute cancellation",
+            "flight cancellation",
+            "cancellation policy",
+            "announce a cancellation"
+          ]
+        },
+        {
+          "term": "refund",
+          "part_of_speech": "noun",
+          "definition": "money returned because a service was not provided or accepted",
+          "examples": [
+            "We requested a refund after the tour was canceled.",
+            "The flexible ticket included a full refund."
+          ],
+          "collocations": [
+            "full refund",
+            "request a refund",
+            "receive a refund",
+            "refund policy"
+          ]
+        },
+        {
+          "term": "insurance",
+          "part_of_speech": "noun",
+          "definition": "an arrangement that pays for certain losses or emergencies",
+          "examples": [
+            "Travel insurance paid for treatment after her accident.",
+            "I compare what each insurance policy actually covers."
+          ],
+          "collocations": [
+            "travel insurance",
+            "insurance policy",
+            "insurance coverage",
+            "buy insurance"
+          ]
+        },
+        {
+          "term": "transfer",
+          "part_of_speech": "noun",
+          "definition": "a journey or service that moves travelers between two points",
+          "examples": [
+            "The hotel arranged an airport transfer.",
+            "Our transfer from the ferry to the bus was well organized."
+          ],
+          "collocations": [
+            "airport transfer",
+            "private transfer",
+            "transfer service",
+            "arrange a transfer"
+          ]
+        },
+        {
+          "term": "terminal",
+          "part_of_speech": "noun",
+          "definition": "a building where passengers begin or end part of a journey",
+          "examples": [
+            "We took a shuttle to the international terminal.",
+            "The new bus terminal has clear information screens."
+          ],
+          "collocations": [
+            "airport terminal",
+            "bus terminal",
+            "departure terminal",
+            "terminal building"
+          ]
+        },
+        {
+          "term": "border",
+          "part_of_speech": "noun",
+          "definition": "the official line between two countries or regions",
+          "examples": [
+            "The bus stopped for an hour at the border.",
+            "Crossing the border was simple because our documents were ready."
+          ],
+          "collocations": [
+            "cross a border",
+            "border crossing",
+            "national border",
+            "border control"
+          ]
+        },
+        {
+          "term": "eligible",
+          "part_of_speech": "adjective",
+          "definition": "meeting the rules needed to receive or do something",
+          "examples": [
+            "Students were eligible for a reduced rail pass.",
+            "Travelers must check whether they are eligible for visa-free entry."
+          ],
+          "collocations": [
+            "eligible for a discount",
+            "eligible to apply",
+            "become eligible",
+            "eligible traveler"
+          ]
+        },
+        {
+          "term": "reschedule",
+          "part_of_speech": "verb",
+          "definition": "to arrange something for a different time",
+          "examples": [
+            "We rescheduled the flight for the following morning.",
+            "The guide allowed us to reschedule without paying a fee."
+          ],
+          "collocations": [
+            "reschedule a flight",
+            "reschedule a booking",
+            "need to reschedule",
+            "free rescheduling"
+          ]
+        },
+        {
+          "term": "stranded",
+          "part_of_speech": "adjective",
+          "definition": "unable to leave a place because transport or help is unavailable",
+          "examples": [
+            "The canceled ferry left passengers stranded overnight.",
+            "Emergency buses prevented tourists from becoming stranded."
+          ],
+          "collocations": [
+            "be left stranded",
+            "stranded passenger",
+            "stranded abroad",
+            "become stranded"
+          ]
+        },
+        {
+          "term": "compensation",
+          "part_of_speech": "noun",
+          "definition": "money or another benefit given for loss, delay, or poor service",
+          "examples": [
+            "Passengers received meal vouchers as compensation for the delay.",
+            "The company explained how to apply for compensation."
+          ],
+          "collocations": [
+            "financial compensation",
+            "claim compensation",
+            "offer compensation",
+            "compensation for delays"
+          ]
+        },
+        {
+          "term": "delay",
+          "part_of_speech": "verb",
+          "definition": "to make a journey or activity happen later than planned",
+          "examples": [
+            "Heavy snow delayed our departure.",
+            "The paperwork may delay the visa decision."
+          ],
+          "collocations": [
+            "delay a flight",
+            "delay departure",
+            "be delayed by weather",
+            "significantly delay"
+          ]
+        },
+        {
+          "term": "refund",
+          "part_of_speech": "verb",
+          "definition": "to return money paid for a service",
+          "examples": [
+            "The company refunded the full ticket price.",
+            "The hotel agreed to refund our first night."
+          ],
+          "collocations": [
+            "refund a payment",
+            "fully refund",
+            "refund the cost"
+          ]
+        }
+      ],
+      "phrases": [
+        {
+          "text": "I keep essential documents within easy reach.",
+          "reusable_core": "within easy reach"
+        },
+        {
+          "text": "It is important to check the entry requirements in advance.",
+          "reusable_core": "check the entry requirements"
+        },
+        {
+          "text": "The delay had a knock-on effect on the rest of our itinerary.",
+          "reusable_core": "had a knock-on effect"
+        },
+        {
+          "text": "We were able to rearrange our plans at short notice.",
+          "reusable_core": "at short notice"
+        },
+        {
+          "text": "The airline kept passengers informed about the situation.",
+          "reusable_core": "kept passengers informed"
+        },
+        {
+          "text": "A flexible ticket provides peace of mind.",
+          "reusable_core": "provides peace of mind"
+        },
+        {
+          "text": "I always read the cancellation policy carefully.",
+          "reusable_core": "read the cancellation policy"
+        },
+        {
+          "text": "The extra paperwork can be time-consuming.",
+          "reusable_core": "can be time-consuming"
+        },
+        {
+          "text": "We had no choice but to stay overnight.",
+          "reusable_core": "had no choice but to"
+        },
+        {
+          "text": "The staff handled the disruption efficiently.",
+          "reusable_core": "handled the disruption efficiently"
+        },
+        {
+          "text": "Insurance protects travelers against unexpected costs.",
+          "reusable_core": "against unexpected costs"
+        },
+        {
+          "text": "I would keep a backup copy in a separate bag.",
+          "reusable_core": "keep a backup copy"
+        },
+        {
+          "text": "The process was more straightforward than I expected.",
+          "reusable_core": "more straightforward than I expected"
+        },
+        {
+          "text": "Passengers should know what they are entitled to.",
+          "reusable_core": "what they are entitled to"
+        },
+        {
+          "text": "One missed connection can throw the whole schedule off.",
+          "reusable_core": "throw the whole schedule off"
+        }
+      ]
+    },
+    {
+      "title": "Safety, Health, and Inclusive Travel",
+      "headwords": [
+        {
+          "term": "precaution",
+          "part_of_speech": "noun",
+          "definition": "an action taken to prevent danger or difficulty",
+          "examples": [
+            "Keeping emergency numbers was a simple precaution.",
+            "The hikers took precautions against extreme heat."
+          ],
+          "collocations": [
+            "safety precaution",
+            "take precautions",
+            "basic precaution",
+            "necessary precaution"
+          ]
+        },
+        {
+          "term": "emergency",
+          "part_of_speech": "noun",
+          "definition": "a serious unexpected situation requiring immediate action",
+          "examples": [
+            "The hotel displayed emergency information beside the door.",
+            "In an emergency, travelers should contact local services first."
+          ],
+          "collocations": [
+            "medical emergency",
+            "emergency contact",
+            "emergency services",
+            "in an emergency"
+          ]
+        },
+        {
+          "term": "awareness",
+          "part_of_speech": "noun",
+          "definition": "knowledge and attention concerning a situation or risk",
+          "examples": [
+            "Basic safety awareness is useful in any unfamiliar city.",
+            "Cultural awareness helps visitors behave respectfully."
+          ],
+          "collocations": [
+            "safety awareness",
+            "cultural awareness",
+            "raise awareness",
+            "situational awareness"
+          ]
+        },
+        {
+          "term": "vulnerable",
+          "part_of_speech": "adjective",
+          "definition": "more likely than others to be harmed or face difficulty",
+          "examples": [
+            "Tired travelers can be vulnerable to simple scams.",
+            "The service assists vulnerable passengers during disruptions."
+          ],
+          "collocations": [
+            "vulnerable traveler",
+            "feel vulnerable",
+            "particularly vulnerable",
+            "vulnerable to theft"
+          ]
+        },
+        {
+          "term": "mobility",
+          "part_of_speech": "noun",
+          "definition": "the ability to move around physically and independently",
+          "examples": [
+            "The website provides information for visitors with limited mobility.",
+            "Step-free transport improves mobility across the city."
+          ],
+          "collocations": [
+            "limited mobility",
+            "reduced mobility",
+            "mobility needs",
+            "improve mobility"
+          ]
+        },
+        {
+          "term": "step-free",
+          "part_of_speech": "adjective",
+          "definition": "designed without stairs so that more people can enter or move around",
+          "examples": [
+            "We chose a step-free route to the museum.",
+            "The station offers step-free access to every platform."
+          ],
+          "collocations": [
+            "step-free access",
+            "step-free route",
+            "fully step-free",
+            "step-free entrance"
+          ]
+        },
+        {
+          "term": "assistance",
+          "part_of_speech": "noun",
+          "definition": "help provided to someone who needs it",
+          "examples": [
+            "Passengers can request assistance before arriving at the airport.",
+            "The visitor center offered assistance in several languages."
+          ],
+          "collocations": [
+            "special assistance",
+            "request assistance",
+            "provide assistance",
+            "travel assistance"
+          ]
+        },
+        {
+          "term": "allergy",
+          "part_of_speech": "noun",
+          "definition": "a physical reaction to a food or substance that is normally harmless",
+          "examples": [
+            "She carried a card explaining her food allergy.",
+            "Travelers with a serious allergy should research local dishes."
+          ],
+          "collocations": [
+            "food allergy",
+            "severe allergy",
+            "allergy information",
+            "allergic reaction"
+          ]
+        },
+        {
+          "term": "hydration",
+          "part_of_speech": "noun",
+          "definition": "the condition of having enough water in the body",
+          "examples": [
+            "Hydration is especially important during summer sightseeing.",
+            "The walking tour included breaks for rest and hydration."
+          ],
+          "collocations": [
+            "proper hydration",
+            "maintain hydration",
+            "hydration needs",
+            "stay hydrated"
+          ]
+        },
+        {
+          "term": "fatigue",
+          "part_of_speech": "noun",
+          "definition": "strong tiredness caused by effort, travel, or lack of sleep",
+          "examples": [
+            "Jet lag and travel fatigue affected my first day.",
+            "Regular breaks can prevent fatigue during a long drive."
+          ],
+          "collocations": [
+            "travel fatigue",
+            "extreme fatigue",
+            "reduce fatigue",
+            "suffer from fatigue"
+          ]
+        },
+        {
+          "term": "jet lag",
+          "part_of_speech": "noun",
+          "definition": "tiredness caused by traveling quickly across time zones",
+          "examples": [
+            "Jet lag made it difficult to sleep at the local time.",
+            "I planned a quiet first day to recover from jet lag."
+          ],
+          "collocations": [
+            "suffer from jet lag",
+            "overcome jet lag",
+            "severe jet lag",
+            "jet-lagged traveler"
+          ]
+        },
+        {
+          "term": "scam",
+          "part_of_speech": "noun",
+          "definition": "a dishonest plan intended to take someone's money",
+          "examples": [
+            "The guide warned us about a common taxi scam.",
+            "Official ticket offices help visitors avoid scams."
+          ],
+          "collocations": [
+            "tourist scam",
+            "online scam",
+            "avoid a scam",
+            "common scam"
+          ]
+        },
+        {
+          "term": "secure",
+          "part_of_speech": "adjective",
+          "definition": "safe and protected against loss, damage, or unauthorized use",
+          "examples": [
+            "The hostel provided a secure locker for valuables.",
+            "I use a secure connection when making online payments."
+          ],
+          "collocations": [
+            "secure location",
+            "secure payment",
+            "feel secure",
+            "keep secure"
+          ]
+        },
+        {
+          "term": "reputable",
+          "part_of_speech": "adjective",
+          "definition": "known to be reliable and honest",
+          "examples": [
+            "We booked the activity through a reputable operator.",
+            "A reputable clinic treated the traveler quickly."
+          ],
+          "collocations": [
+            "reputable company",
+            "reputable provider",
+            "highly reputable",
+            "reputable source"
+          ]
+        },
+        {
+          "term": "inclusive",
+          "part_of_speech": "adjective",
+          "definition": "designed to welcome and serve people with different needs",
+          "examples": [
+            "Inclusive tourism gives families clear accessibility information.",
+            "The guide used an inclusive approach that allowed everyone to participate."
+          ],
+          "collocations": [
+            "inclusive tourism",
+            "inclusive design",
+            "socially inclusive",
+            "more inclusive"
+          ]
+        }
+      ],
+      "phrases": [
+        {
+          "text": "I take reasonable precautions without becoming overly anxious.",
+          "reusable_core": "take reasonable precautions"
+        },
+        {
+          "text": "It helps to stay aware of your surroundings.",
+          "reusable_core": "stay aware of your surroundings"
+        },
+        {
+          "text": "Travel information should be clear about accessibility.",
+          "reusable_core": "clear about accessibility"
+        },
+        {
+          "text": "The route can be adapted to different mobility needs.",
+          "reusable_core": "adapted to different mobility needs"
+        },
+        {
+          "text": "I would ask for professional help rather than guess.",
+          "reusable_core": "ask for professional help"
+        },
+        {
+          "text": "A slower first day allows the body to adjust.",
+          "reusable_core": "allows the body to adjust"
+        },
+        {
+          "text": "Travelers should keep valuables out of sight.",
+          "reusable_core": "keep valuables out of sight"
+        },
+        {
+          "text": "Reliable information can reduce unnecessary risk.",
+          "reusable_core": "reduce unnecessary risk"
+        },
+        {
+          "text": "The attraction made a genuine effort to include everyone.",
+          "reusable_core": "a genuine effort to include everyone"
+        },
+        {
+          "text": "Health needs should be planned for, not ignored.",
+          "reusable_core": "planned for, not ignored"
+        },
+        {
+          "text": "The staff went out of their way to assist us.",
+          "reusable_core": "went out of their way"
+        },
+        {
+          "text": "I felt safe without feeling restricted.",
+          "reusable_core": "safe without feeling restricted"
+        },
+        {
+          "text": "Simple design changes can make a major difference.",
+          "reusable_core": "make a major difference"
+        },
+        {
+          "text": "I would choose a provider with a strong track record.",
+          "reusable_core": "a strong track record"
+        },
+        {
+          "text": "Everyone should be able to participate with dignity.",
+          "reusable_core": "participate with dignity"
+        }
+      ]
+    },
+    {
+      "title": "Weather, Seasons, and Travel Pace",
+      "headwords": [
+        {
+          "term": "climate",
+          "part_of_speech": "noun",
+          "definition": "the usual weather conditions in a place over time",
+          "examples": [
+            "The mild climate makes the region attractive in winter.",
+            "Travelers should research the climate rather than assume it is always warm."
+          ],
+          "collocations": [
+            "warm climate",
+            "local climate",
+            "mild climate",
+            "changing climate"
+          ]
+        },
+        {
+          "term": "forecast",
+          "part_of_speech": "noun",
+          "definition": "a report predicting future weather",
+          "examples": [
+            "The forecast showed heavy rain for the afternoon.",
+            "We checked the mountain forecast before leaving."
+          ],
+          "collocations": [
+            "weather forecast",
+            "accurate forecast",
+            "check the forecast",
+            "forecast predicts"
+          ]
+        },
+        {
+          "term": "season",
+          "part_of_speech": "noun",
+          "definition": "a period of the year associated with particular weather or travel activity",
+          "examples": [
+            "Spring is my favorite season for city travel.",
+            "Prices rise sharply during the holiday season."
+          ],
+          "collocations": [
+            "travel season",
+            "holiday season",
+            "rainy season",
+            "tourist season"
+          ]
+        },
+        {
+          "term": "peak",
+          "part_of_speech": "adjective",
+          "definition": "relating to the busiest or most popular time",
+          "examples": [
+            "Accommodation is expensive during the peak period.",
+            "We avoided peak travel dates by leaving midweek."
+          ],
+          "collocations": [
+            "peak season",
+            "peak period",
+            "peak demand",
+            "peak travel time"
+          ]
+        },
+        {
+          "term": "off-season",
+          "part_of_speech": "noun used as a modifier",
+          "definition": "the time of year when fewer tourists visit a place",
+          "examples": [
+            "The town is peaceful in the off-season.",
+            "Some restaurants close during off-season months."
+          ],
+          "collocations": [
+            "off-season travel",
+            "visit in the off-season",
+            "off-season price",
+            "quiet off-season"
+          ]
+        },
+        {
+          "term": "humid",
+          "part_of_speech": "adjective",
+          "definition": "having a large amount of moisture in the air",
+          "examples": [
+            "The hot, humid weather made walking tiring.",
+            "Light clothing is more comfortable in a humid climate."
+          ],
+          "collocations": [
+            "hot and humid",
+            "humid climate",
+            "extremely humid",
+            "humid conditions"
+          ]
+        },
+        {
+          "term": "shelter",
+          "part_of_speech": "noun",
+          "definition": "a place providing protection from weather or danger",
+          "examples": [
+            "We found shelter when the storm began.",
+            "The trail has several shelters for hikers."
+          ],
+          "collocations": [
+            "seek shelter",
+            "temporary shelter",
+            "take shelter",
+            "provide shelter"
+          ]
+        },
+        {
+          "term": "closure",
+          "part_of_speech": "noun",
+          "definition": "a situation in which a place or route is temporarily not open",
+          "examples": [
+            "Snow caused the closure of the mountain road.",
+            "The website listed seasonal closures clearly."
+          ],
+          "collocations": [
+            "road closure",
+            "temporary closure",
+            "seasonal closure",
+            "announce a closure"
+          ]
+        },
+        {
+          "term": "condition",
+          "part_of_speech": "noun",
+          "definition": "the state of weather, roads, or another part of a journey",
+          "examples": [
+            "Driving conditions became dangerous after dark.",
+            "Calm sea conditions allowed the ferry to depart."
+          ],
+          "collocations": [
+            "weather conditions",
+            "road conditions",
+            "poor conditions",
+            "changing conditions"
+          ]
+        },
+        {
+          "term": "sunrise",
+          "part_of_speech": "noun",
+          "definition": "the time when the sun first appears in the morning",
+          "examples": [
+            "We woke early to watch the sunrise over the valley.",
+            "A sunrise walk helped us avoid the afternoon heat."
+          ],
+          "collocations": [
+            "watch the sunrise",
+            "at sunrise",
+            "sunrise view",
+            "before sunrise"
+          ]
+        },
+        {
+          "term": "shade",
+          "part_of_speech": "noun",
+          "definition": "an area protected from direct sunlight",
+          "examples": [
+            "We rested in the shade during the hottest hour.",
+            "The old streets provide plenty of natural shade."
+          ],
+          "collocations": [
+            "in the shade",
+            "provide shade",
+            "find shade",
+            "shaded area"
+          ]
+        },
+        {
+          "term": "layer",
+          "part_of_speech": "noun",
+          "definition": "one piece of clothing worn over or under another",
+          "examples": [
+            "Packing several light layers prepared me for changing temperatures.",
+            "I removed a layer when the afternoon became warmer."
+          ],
+          "collocations": [
+            "extra layer",
+            "warm layer",
+            "wear layers",
+            "pack layers"
+          ]
+        },
+        {
+          "term": "pace",
+          "part_of_speech": "noun",
+          "definition": "the speed at which someone travels or completes activities",
+          "examples": [
+            "We explored the island at a relaxed pace.",
+            "The tour's fast pace was difficult for older visitors."
+          ],
+          "collocations": [
+            "relaxed pace",
+            "slower pace",
+            "set the pace",
+            "at a steady pace"
+          ]
+        },
+        {
+          "term": "recover",
+          "part_of_speech": "verb",
+          "definition": "to rest until strength or normal condition returns",
+          "examples": [
+            "I needed an afternoon to recover from the overnight flight.",
+            "A quiet hotel helped us recover after the long hike."
+          ],
+          "collocations": [
+            "recover from a journey",
+            "time to recover",
+            "recover fully",
+            "rest and recover"
+          ]
+        },
+        {
+          "term": "postpone",
+          "part_of_speech": "verb",
+          "definition": "to delay an activity until a later time",
+          "examples": [
+            "We postponed the walk until the storm passed.",
+            "The organizers may postpone the festival because of extreme heat."
+          ],
+          "collocations": [
+            "postpone a trip",
+            "postpone until later",
+            "decide to postpone",
+            "temporarily postpone"
+          ]
+        },
+        {
+          "term": "forecast",
+          "part_of_speech": "verb",
+          "definition": "to predict weather or future travel conditions",
+          "examples": [
+            "Meteorologists forecast heavy rain for the coast.",
+            "The agency forecasts higher visitor numbers next year."
+          ],
+          "collocations": [
+            "forecast rain",
+            "forecast demand",
+            "accurately forecast",
+            "be forecast to",
+            "forecast conditions"
+          ]
+        },
+        {
+          "term": "shelter",
+          "part_of_speech": "verb",
+          "definition": "to protect someone from weather or danger",
+          "examples": [
+            "A covered market sheltered us from the storm.",
+            "Trees shelter the path from strong sunlight."
+          ],
+          "collocations": [
+            "shelter from rain",
+            "shelter travelers",
+            "shelter under",
+            "be sheltered from"
+          ]
+        },
+        {
+          "term": "shade",
+          "part_of_speech": "verb",
+          "definition": "to protect an area from direct sunlight",
+          "examples": [
+            "Tall buildings shaded the narrow street.",
+            "Canvas roofs shade visitors waiting in line."
+          ],
+          "collocations": [
+            "shade a path",
+            "shade visitors",
+            "partly shade"
+          ]
+        },
+        {
+          "term": "layer",
+          "part_of_speech": "verb",
+          "definition": "to wear several pieces of clothing over one another",
+          "examples": [
+            "I layered light clothes for the mountain weather.",
+            "Travelers can layer clothing instead of packing one heavy coat."
+          ],
+          "collocations": [
+            "layer clothing",
+            "layer effectively",
+            "layer over",
+            "lightly layer"
+          ]
+        }
+      ],
+      "phrases": [
+        {
+          "text": "The weather can make or break an outdoor trip.",
+          "reusable_core": "make or break"
+        },
+        {
+          "text": "Traveling off-season has both advantages and drawbacks.",
+          "reusable_core": "both advantages and drawbacks"
+        },
+        {
+          "text": "We adjusted the schedule according to the forecast.",
+          "reusable_core": "adjusted the schedule"
+        },
+        {
+          "text": "It is better to dress in layers.",
+          "reusable_core": "dress in layers"
+        },
+        {
+          "text": "The cooler weather made sightseeing more comfortable.",
+          "reusable_core": "made sightseeing more comfortable"
+        },
+        {
+          "text": "Some seasonal closures are easy to overlook.",
+          "reusable_core": "easy to overlook"
+        },
+        {
+          "text": "We set off early to avoid the heat.",
+          "reusable_core": "set off early"
+        },
+        {
+          "text": "The destination has something to offer throughout the year.",
+          "reusable_core": "something to offer throughout the year"
+        },
+        {
+          "text": "A relaxed pace gave us time to take everything in.",
+          "reusable_core": "take everything in"
+        },
+        {
+          "text": "The conditions changed faster than expected.",
+          "reusable_core": "changed faster than expected"
+        },
+        {
+          "text": "We made the most of a rainy afternoon.",
+          "reusable_core": "made the most of"
+        },
+        {
+          "text": "Peak season brings better weather but larger crowds.",
+          "reusable_core": "better weather but larger crowds"
+        },
+        {
+          "text": "I build rest time into the itinerary.",
+          "reusable_core": "build rest time into"
+        },
+        {
+          "text": "The trip should suit people's energy levels.",
+          "reusable_core": "suit people's energy levels"
+        },
+        {
+          "text": "Good preparation makes changing weather manageable.",
+          "reusable_core": "makes changing weather manageable"
+        }
+      ]
+    },
+    {
+      "title": "Activities, Adventure, and Travel Styles",
+      "headwords": [
+        {
+          "term": "excursion",
+          "part_of_speech": "noun",
+          "definition": "a short organized trip made for interest or pleasure",
+          "examples": [
+            "We took a day excursion to a nearby island.",
+            "The cruise price included two guided excursions."
+          ],
+          "collocations": [
+            "day excursion",
+            "shore excursion",
+            "guided excursion",
+            "go on an excursion"
+          ]
+        },
+        {
+          "term": "adventure",
+          "part_of_speech": "noun",
+          "definition": "an unusual and exciting experience that may involve uncertainty",
+          "examples": [
+            "Traveling through the countryside became an unexpected adventure.",
+            "She prefers a gentle adventure to an extreme sport."
+          ],
+          "collocations": [
+            "travel adventure",
+            "outdoor adventure",
+            "sense of adventure",
+            "go on an adventure"
+          ]
+        },
+        {
+          "term": "trek",
+          "part_of_speech": "noun",
+          "definition": "a long and sometimes difficult walk",
+          "examples": [
+            "The mountain trek required good footwear and preparation.",
+            "A local guide led the two-day trek."
+          ],
+          "collocations": [
+            "mountain trek",
+            "challenging trek",
+            "guided trek",
+            "go on a trek"
+          ]
+        },
+        {
+          "term": "cruise",
+          "part_of_speech": "noun",
+          "definition": "a holiday spent traveling by ship and stopping at different places",
+          "examples": [
+            "The cruise allowed my grandparents to see several ports comfortably.",
+            "A large cruise can bring thousands of visitors at once."
+          ],
+          "collocations": [
+            "cruise ship",
+            "river cruise",
+            "take a cruise",
+            "cruise passenger"
+          ]
+        },
+        {
+          "term": "road trip",
+          "part_of_speech": "noun",
+          "definition": "a journey for pleasure made mainly by car",
+          "examples": [
+            "Our road trip included several small towns.",
+            "A road trip offers flexibility but requires careful driving plans."
+          ],
+          "collocations": [
+            "long road trip",
+            "family road trip",
+            "plan a road trip",
+            "road-trip route"
+          ]
+        },
+        {
+          "term": "backpacking",
+          "part_of_speech": "noun",
+          "definition": "independent travel with limited luggage and usually a modest budget",
+          "examples": [
+            "Backpacking taught him to live with fewer possessions.",
+            "She spent a month backpacking between small cities."
+          ],
+          "collocations": [
+            "go backpacking",
+            "backpacking trip",
+            "backpacking route",
+            "budget backpacking"
+          ]
+        },
+        {
+          "term": "resort",
+          "part_of_speech": "noun",
+          "definition": "a place designed to provide accommodation and many holiday activities",
+          "examples": [
+            "The family resort offered childcare and water sports.",
+            "Staying inside a resort can limit contact with local life."
+          ],
+          "collocations": [
+            "beach resort",
+            "luxury resort",
+            "all-inclusive resort",
+            "resort town"
+          ]
+        },
+        {
+          "term": "retreat",
+          "part_of_speech": "noun",
+          "definition": "a quiet trip or place intended for rest or focused activity",
+          "examples": [
+            "She booked a weekend retreat to recover from work stress.",
+            "The writing retreat was held in a peaceful rural area."
+          ],
+          "collocations": [
+            "wellness retreat",
+            "quiet retreat",
+            "weekend retreat",
+            "go on a retreat"
+          ]
+        },
+        {
+          "term": "souvenir",
+          "part_of_speech": "noun",
+          "definition": "an object kept or bought as a reminder of a place",
+          "examples": [
+            "I bought a handmade cup as a useful souvenir.",
+            "Locally produced souvenirs support craftspeople."
+          ],
+          "collocations": [
+            "buy a souvenir",
+            "souvenir shop",
+            "traditional souvenir",
+            "souvenir from a trip"
+          ]
+        },
+        {
+          "term": "festival",
+          "part_of_speech": "noun",
+          "definition": "a public event celebrating culture, art, food, or tradition",
+          "examples": [
+            "The music festival attracted visitors from several countries.",
+            "We planned the trip around a regional food festival."
+          ],
+          "collocations": [
+            "cultural festival",
+            "annual festival",
+            "festival season",
+            "attend a festival"
+          ]
+        },
+        {
+          "term": "recreation",
+          "part_of_speech": "noun",
+          "definition": "activities done for enjoyment and relaxation",
+          "examples": [
+            "The lake supports fishing and other outdoor recreation.",
+            "The city invested in recreational spaces for residents and visitors."
+          ],
+          "collocations": [
+            "outdoor recreation",
+            "recreational activity",
+            "recreation area",
+            "leisure and recreation"
+          ]
+        },
+        {
+          "term": "immersive",
+          "part_of_speech": "adjective",
+          "definition": "making someone feel deeply involved in an experience",
+          "examples": [
+            "The homestay provided an immersive language experience.",
+            "An immersive exhibit recreated the sounds of the old city."
+          ],
+          "collocations": [
+            "immersive experience",
+            "culturally immersive",
+            "immersive tour",
+            "highly immersive"
+          ]
+        },
+        {
+          "term": "spontaneous",
+          "part_of_speech": "adjective",
+          "definition": "decided or happening naturally without advance planning",
+          "examples": [
+            "A spontaneous train trip became the best part of the holiday.",
+            "I leave free time for spontaneous decisions."
+          ],
+          "collocations": [
+            "spontaneous trip",
+            "spontaneous decision",
+            "feel spontaneous",
+            "completely spontaneous"
+          ]
+        },
+        {
+          "term": "challenging",
+          "part_of_speech": "adjective",
+          "definition": "requiring effort, skill, or determination",
+          "examples": [
+            "The cycling route was challenging but achievable.",
+            "Traveling with young children can be challenging."
+          ],
+          "collocations": [
+            "physically challenging",
+            "challenging journey",
+            "find challenging",
+            "challenging but rewarding"
+          ]
+        },
+        {
+          "term": "rewarding",
+          "part_of_speech": "adjective",
+          "definition": "providing satisfaction because an experience was useful or meaningful",
+          "examples": [
+            "Learning to navigate alone was a rewarding experience.",
+            "The volunteer trip was demanding but rewarding."
+          ],
+          "collocations": [
+            "highly rewarding",
+            "rewarding experience",
+            "personally rewarding",
+            "challenging and rewarding"
+          ]
+        },
+        {
+          "term": "volunteer tourism",
+          "part_of_speech": "noun",
+          "definition": "travel that includes organized unpaid work intended to help a community or project",
+          "examples": [
+            "Volunteer tourism can be useful when local organizations define the work.",
+            "She researched the project carefully before choosing volunteer tourism."
+          ],
+          "collocations": [
+            "responsible volunteer tourism",
+            "volunteer tourism project",
+            "volunteer tourism program",
+            "impact of volunteer tourism"
+          ]
+        },
+        {
+          "term": "business trip",
+          "part_of_speech": "noun",
+          "definition": "a journey made mainly for work rather than a holiday",
+          "examples": [
+            "He added one free afternoon to his business trip.",
+            "A short business trip usually has a tightly organized schedule."
+          ],
+          "collocations": [
+            "international business trip",
+            "go on a business trip",
+            "extend a business trip",
+            "frequent business trip"
+          ]
+        },
+        {
+          "term": "cruise",
+          "part_of_speech": "verb",
+          "definition": "to travel for pleasure by ship",
+          "examples": [
+            "We cruised along the coast for three days.",
+            "The boat cruises between several small islands."
+          ],
+          "collocations": [
+            "cruise along the coast",
+            "cruise between islands",
+            "leisurely cruise"
+          ]
+        },
+        {
+          "term": "trek",
+          "part_of_speech": "verb",
+          "definition": "to walk a long distance through difficult countryside",
+          "examples": [
+            "We trekked through the valley with a local guide.",
+            "Visitors trek to the viewpoint before sunrise."
+          ],
+          "collocations": [
+            "trek through mountains",
+            "trek to a village",
+            "trek for days",
+            "safely trek",
+            "independently trek"
+          ]
+        }
+      ],
+      "phrases": [
+        {
+          "text": "I am drawn to activities that combine learning and enjoyment.",
+          "reusable_core": "combine learning and enjoyment"
+        },
+        {
+          "text": "The activity was challenging but still within my ability.",
+          "reusable_core": "within my ability"
+        },
+        {
+          "text": "A day trip can add variety to a longer stay.",
+          "reusable_core": "add variety to"
+        },
+        {
+          "text": "The experience gave me a real sense of achievement.",
+          "reusable_core": "a real sense of achievement"
+        },
+        {
+          "text": "I prefer active travel to sitting beside a pool all day.",
+          "reusable_core": "prefer active travel to"
+        },
+        {
+          "text": "The resort took care of every practical detail.",
+          "reusable_core": "took care of every practical detail"
+        },
+        {
+          "text": "We chose an activity that everyone could take part in.",
+          "reusable_core": "everyone could take part in"
+        },
+        {
+          "text": "The excursion offered a change of scenery.",
+          "reusable_core": "a change of scenery"
+        },
+        {
+          "text": "I enjoy trying something I would not normally do.",
+          "reusable_core": "something I would not normally do"
+        },
+        {
+          "text": "A homestay can create a more immersive experience.",
+          "reusable_core": "a more immersive experience"
+        },
+        {
+          "text": "I would rather collect memories than souvenirs.",
+          "reusable_core": "rather collect memories than souvenirs"
+        },
+        {
+          "text": "The activity requires a reasonable level of fitness.",
+          "reusable_core": "a reasonable level of fitness"
+        },
+        {
+          "text": "We joined in without taking over the event.",
+          "reusable_core": "joined in without taking over"
+        },
+        {
+          "text": "The trip combined relaxation with a sense of adventure.",
+          "reusable_core": "relaxation with a sense of adventure"
+        },
+        {
+          "text": "It was outside my usual routine but worth trying.",
+          "reusable_core": "outside my usual routine"
+        },
+        {
+          "text": "The project should respond to needs identified by the community.",
+          "reusable_core": "needs identified by the community"
+        },
+        {
+          "text": "I try to make the most of limited free time on a work trip.",
+          "reusable_core": "make the most of limited free time"
+        }
+      ]
+    }
+  ]
+}

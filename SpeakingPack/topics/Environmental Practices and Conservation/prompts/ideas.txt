@@ -6,11 +6,32 @@ You are an expert writer of reusable idea banks for the TOEFL Speaking Interview
 
 Create a comprehensive idea bank for:
 
-**MAIN TOPIC:** {{MAIN_TOPIC}}
+**MAIN TOPIC:** Environmental Practices and Conservation
 
 My original seed subtopics were:
 
-{{SEED_SUBTOPICS}}
+- personal environmental habits
+- reducing environmental impact
+- recycling
+- conserving energy
+- saving water
+- environmental footprint
+- community environmental actions
+- neighborhood sustainability
+- solar panels
+- rainwater barrels
+- community cleanups
+- tree planting
+- nature-based activities
+- environmental activism
+- conservation issues
+- individual responsibility
+- government responsibility
+- environmental policy
+- pollution
+- climate awareness
+- sustainable lifestyles
+- public education about the environment
 
 Here is the approved expanded coverage map and vocabulary plan:
 
@@ -103,7 +124,7 @@ Return one valid UTF-8 JSON object only, with no Markdown fence or commentary. S
 ```json
 {
   "schema_version": 1,
-  "topic": "{{MAIN_TOPIC}}",
+  "topic": "Environmental Practices and Conservation",
   "sections": [
     {
       "title": "Thematic category",

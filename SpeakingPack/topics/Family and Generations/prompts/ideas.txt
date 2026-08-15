@@ -6,11 +6,29 @@ You are an expert writer of reusable idea banks for the TOEFL Speaking Interview
 
 Create a comprehensive idea bank for:
 
-**MAIN TOPIC:** {{MAIN_TOPIC}}
+**MAIN TOPIC:** Family and Generations
 
 My original seed subtopics were:
 
-{{SEED_SUBTOPICS}}
+- family relationships
+- family support
+- family traditions
+- family routines
+- family meals
+- family responsibilities
+- household chores
+- living with family
+- living independently
+- parents and children
+- older generations
+- younger generations
+- generation gap
+- family advice
+- respect for elders
+- raising children
+- work-family balance
+- family celebrations
+- family values
 
 Here is the approved expanded coverage map and vocabulary plan:
 
@@ -103,7 +121,7 @@ Return one valid UTF-8 JSON object only, with no Markdown fence or commentary. S
 ```json
 {
   "schema_version": 1,
-  "topic": "{{MAIN_TOPIC}}",
+  "topic": "Family and Generations",
   "sections": [
     {
       "title": "Thematic category",

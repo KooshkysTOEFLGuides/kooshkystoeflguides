@@ -1,6 +1,6 @@
 # STEP 3 — CORPUS-CALIBRATED TOEFL SPEAKING INTERVIEW SETS
 
-Use the completed `words.json`, the completed `ideas.json`, and the shared real TOEFL Speaking corpus at `{{CORPUS_PATH}}` when using this prompt.
+Use the completed `words.json`, the completed `ideas.json`, and the shared real TOEFL Speaking corpus at `SpeakingPack/prompt/references/real-toefl-speaking-corpus.txt` when using this prompt.
 
 ## Prompt
 
@@ -9,12 +9,29 @@ You are an expert writer and analyst of TOEFL Speaking Interview materials.
 Create realistic TOEFL Speaking Interview question sets about:
 
 **MAIN TOPIC:**
-{{MAIN_TOPIC}}
+Weather, Seasons, and Climate in Daily Life
 
 My original seed subtopics were:
 
 **ORIGINAL SEED SUBTOPICS:**
-{{SEED_SUBTOPICS}}
+- favorite seasons
+- hot weather
+- cold weather
+- rainy weather
+- mild weather
+- weather and mood
+- weather and outdoor activities
+- weather and clothing
+- seasonal routines
+- seasonal festivals
+- extreme weather
+- weather-related problems
+- climate change
+- natural disasters
+- planning around weather
+- weather forecasts
+- indoor vs outdoor plans
+- seasonal food and traditions
 
 Use the following approved coverage map and idea bank:
 
@@ -24,7 +41,7 @@ Use the approved coverage map in the completed `words.json`.
 **APPROVED IDEA BANK:**
 Use the completed `ideas.json`.
 
-Use `{{CORPUS_PATH}}` as the primary calibration corpus. Read it directly; do not rely on an unspecified attachment.
+Use `SpeakingPack/prompt/references/real-toefl-speaking-corpus.txt` as the primary calibration corpus. Read it directly; do not rely on an unspecified attachment.
 
 Before writing, silently analyze the corpus carefully.
 
@@ -530,7 +547,7 @@ Return one valid UTF-8 JSON object only, with no Markdown fence or commentary. S
 ```json
 {
   "schema_version": 1,
-  "topic": "{{MAIN_TOPIC}}",
+  "topic": "Weather, Seasons, and Climate in Daily Life",
   "sets": [
     {
       "title": "Short editorial title",

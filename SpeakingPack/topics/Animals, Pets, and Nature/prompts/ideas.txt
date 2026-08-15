@@ -6,11 +6,29 @@ You are an expert writer of reusable idea banks for the TOEFL Speaking Interview
 
 Create a comprehensive idea bank for:
 
-**MAIN TOPIC:** {{MAIN_TOPIC}}
+**MAIN TOPIC:** Animals, Pets, and Nature
 
 My original seed subtopics were:
 
-{{SEED_SUBTOPICS}}
+- pets
+- caring for animals
+- responsible pet ownership
+- animal shelters
+- animal welfare
+- companionship
+- pets and mental health
+- wildlife
+- endangered species
+- zoos
+- natural habitats
+- nature reserves
+- spending time in nature
+- hiking
+- outdoor activities
+- protecting animals
+- biodiversity
+- children and animals
+- nature and stress relief
 
 Here is the approved expanded coverage map and vocabulary plan:
 
@@ -103,7 +121,7 @@ Return one valid UTF-8 JSON object only, with no Markdown fence or commentary. S
 ```json
 {
   "schema_version": 1,
-  "topic": "{{MAIN_TOPIC}}",
+  "topic": "Animals, Pets, and Nature",
   "sections": [
     {
       "title": "Thematic category",

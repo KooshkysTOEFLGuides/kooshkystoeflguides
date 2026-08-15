@@ -6,11 +6,30 @@ You are an expert writer of reusable idea banks for the TOEFL Speaking Interview
 
 Create a comprehensive idea bank for:
 
-**MAIN TOPIC:** {{MAIN_TOPIC}}
+**MAIN TOPIC:** Music
 
 My original seed subtopics were:
 
-{{SEED_SUBTOPICS}}
+- music preferences
+- frequency of listening to music
+- music genres
+- classical music
+- rock
+- jazz
+- pop
+- traditional music
+- concerts
+- live music events
+- live music vs recorded music
+- music and emotions
+- music and mood
+- music in daily life
+- creating music
+- listening to music
+- playing an instrument
+- music education for children
+- music as a required school subject
+- personal meaning of music
 
 Here is the approved expanded coverage map and vocabulary plan:
 
@@ -103,7 +122,7 @@ Return one valid UTF-8 JSON object only, with no Markdown fence or commentary. S
 ```json
 {
   "schema_version": 1,
-  "topic": "{{MAIN_TOPIC}}",
+  "topic": "Music",
   "sections": [
     {
       "title": "Thematic category",

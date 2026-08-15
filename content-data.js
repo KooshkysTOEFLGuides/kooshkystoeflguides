@@ -231,7 +231,7 @@ window.KOOSHKY_CONTENT = [
   },
   // {
   //   "title": "Speaking Pack: Health and Wellness",
-  //   "href": "SpeakingPack/Health-KooshkysSpeakingCategories.html",
+  //   "href": "SpeakingPack/topics/Health and Wellness/Health-KooshkysSpeakingCategories.html",
   //   "section": "speaking",
   //   "summary": "A full guide include important words, ideas, and sample answers.",
   //   "date": "2026-06-27",
@@ -240,7 +240,7 @@ window.KOOSHKY_CONTENT = [
   // },
   // {
   //   "title": "Speaking Pack: Culture, Festivals, and Traditions",
-  //   "href": "SpeakingPack/Culture-KooshkysSpeakingCategories.html",
+  //   "href": "SpeakingPack/topics/Culture, Festivals, and Traditions/Culture-KooshkysSpeakingCategories.html",
   //   "section": "speaking",
   //   "summary": "A full guide include important words, ideas, and sample answers.",
   //   "date": "2026-06-29",
@@ -249,7 +249,7 @@ window.KOOSHKY_CONTENT = [
   // },
   // {
   //   "title": "Speaking Pack: Technology and Daily Life",
-  //   "href": "SpeakingPack/Tech-KooshkysSpeakingGuides.html",
+  //   "href": "SpeakingPack/topics/Technology and Daily Life/Tech-KooshkysSpeakingGuides.html",
   //   "section": "speaking",
   //   "summary": "A full guide include important words, ideas, and sample answers.",
   //   "date": "2026-06-30",
@@ -258,7 +258,7 @@ window.KOOSHKY_CONTENT = [
   // },
   // {
   //   "title": "Speaking Pack: Shopping and Consumer Habits",
-  //   "href": "SpeakingPack/Shopping-KooshkysSpeakingPacks.html",
+  //   "href": "SpeakingPack/topics/Shopping and Consumer Habits/Shopping-KooshkysSpeakingPacks.html",
   //   "section": "speaking",
   //   "summary": "A full guide include important words, ideas, and sample answers.",
   //   "date": "2026-07-04",
@@ -267,7 +267,7 @@ window.KOOSHKY_CONTENT = [
   // },
   // {
   //   "title": "Speaking Pack: Leisure Time and Hobbies",
-  //   "href": "SpeakingPack/Hobbies-KooshkysSpeakingGuides.html",
+  //   "href": "SpeakingPack/topics/Leisure Time and Hobbies/Hobbies-KooshkysSpeakingGuides.html",
   //   "section": "speaking",
   //   "summary": "A full guide include important words, ideas, and sample answers.",
   //   "date": "2026-07-10",

@@ -6,11 +6,32 @@ You are an expert writer of reusable idea banks for the TOEFL Speaking Interview
 
 Create a comprehensive idea bank for:
 
-**MAIN TOPIC:** {{MAIN_TOPIC}}
+**MAIN TOPIC:** Culture, Festivals, and Traditions
 
 My original seed subtopics were:
 
-{{SEED_SUBTOPICS}}
+- cultural festivals
+- traditional food
+- traditional music
+- traditional art
+- traditional clothing
+- customs
+- cultural performances
+- presenting one’s own culture
+- sharing culture with others
+- cultural heritage
+- keeping traditions alive
+- culture and history
+- globalization
+- mixing of cultures
+- holidays
+- family celebrations
+- special events
+- memorable celebrations
+- traditional observances
+- traditions in modern society
+- traditions becoming less important
+- festivals for fun vs cultural preservation
 
 Here is the approved expanded coverage map and vocabulary plan:
 
@@ -103,7 +124,7 @@ Return one valid UTF-8 JSON object only, with no Markdown fence or commentary. S
 ```json
 {
   "schema_version": 1,
-  "topic": "{{MAIN_TOPIC}}",
+  "topic": "Culture, Festivals, and Traditions",
   "sections": [
     {
       "title": "Thematic category",

@@ -6,11 +6,28 @@ You are an expert writer of reusable idea banks for the TOEFL Speaking Interview
 
 Create a comprehensive idea bank for:
 
-**MAIN TOPIC:** {{MAIN_TOPIC}}
+**MAIN TOPIC:** Volunteering and Community Service
 
 My original seed subtopics were:
 
-{{SEED_SUBTOPICS}}
+- volunteering experiences
+- helping others
+- charity work
+- community service
+- school service projects
+- donating time
+- donating money
+- helping people in need
+- supporting vulnerable groups
+- environmental volunteering
+- community cleanups
+- organizing events
+- raising money
+- social responsibility
+- giving back to the community
+- empathy
+- teamwork through volunteering
+- mandatory vs optional volunteering
 
 Here is the approved expanded coverage map and vocabulary plan:
 
@@ -103,7 +120,7 @@ Return one valid UTF-8 JSON object only, with no Markdown fence or commentary. S
 ```json
 {
   "schema_version": 1,
-  "topic": "{{MAIN_TOPIC}}",
+  "topic": "Volunteering and Community Service",
   "sections": [
     {
       "title": "Thematic category",

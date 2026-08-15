@@ -6,11 +6,30 @@ You are an expert writer of reusable idea banks for the TOEFL Speaking Interview
 
 Create a comprehensive idea bank for:
 
-**MAIN TOPIC:** {{MAIN_TOPIC}}
+**MAIN TOPIC:** Social Media
 
 My original seed subtopics were:
 
-{{SEED_SUBTOPICS}}
+- social media platforms
+- frequency of social media use
+- purposes of social media use
+- staying connected
+- sharing photos and updates
+- following news
+- entertainment on social media
+- enjoyable aspects of social media
+- difficult aspects of social media
+- social comparison
+- privacy concerns
+- misinformation
+- cyberbullying
+- appropriate things to share online
+- personal information online
+- social media and society
+- positive effects of social media
+- negative effects of social media
+- children and social media
+- future of social media
 
 Here is the approved expanded coverage map and vocabulary plan:
 
@@ -103,7 +122,7 @@ Return one valid UTF-8 JSON object only, with no Markdown fence or commentary. S
 ```json
 {
   "schema_version": 1,
-  "topic": "{{MAIN_TOPIC}}",
+  "topic": "Social Media",
   "sections": [
     {
       "title": "Thematic category",

@@ -6,11 +6,24 @@ You are an expert writer of reusable idea banks for the TOEFL Speaking Interview
 
 Create a comprehensive idea bank for:
 
-**MAIN TOPIC:** {{MAIN_TOPIC}}
+**MAIN TOPIC:** Self-Improvement and Personal Goals
 
 My original seed subtopics were:
 
-{{SEED_SUBTOPICS}}
+- personal goals
+- short-term goals
+- long-term goals
+- motivation
+- discipline
+- consistency
+- obstacles to goals
+- handling setbacks
+- personal growth
+- self-confidence
+- goal-setting habits
+- children and goal-setting
+- independence and responsibility
+- measuring progress
 
 Here is the approved expanded coverage map and vocabulary plan:
 
@@ -103,7 +116,7 @@ Return one valid UTF-8 JSON object only, with no Markdown fence or commentary. S
 ```json
 {
   "schema_version": 1,
-  "topic": "{{MAIN_TOPIC}}",
+  "topic": "Self-Improvement and Personal Goals",
   "sections": [
     {
       "title": "Thematic category",

@@ -6,11 +6,38 @@ You are an expert writer of reusable idea banks for the TOEFL Speaking Interview
 
 Create a comprehensive idea bank for:
 
-**MAIN TOPIC:** {{MAIN_TOPIC}}
+**MAIN TOPIC:** Education and Learning
 
 My original seed subtopics were:
 
-{{SEED_SUBTOPICS}}
+- school experiences
+- childhood education
+- college education
+- wide variety of courses
+- small class sizes
+- study habits
+- studying alone
+- group study
+- test preparation
+- online courses
+- in-person courses
+- online vs classroom learning
+- self-paced learning
+- set class times
+- online assessment
+- trust in online tests
+- academic honesty
+- full online degree programs
+- future of online learning
+- technology in education
+- AI in education
+- school projects
+- extracurricular activities
+- skills for the future
+- problem-solving
+- teamwork
+- education system reform
+- practical skills vs facts
 
 Here is the approved expanded coverage map and vocabulary plan:
 
@@ -103,7 +130,7 @@ Return one valid UTF-8 JSON object only, with no Markdown fence or commentary. S
 ```json
 {
   "schema_version": 1,
-  "topic": "{{MAIN_TOPIC}}",
+  "topic": "Education and Learning",
   "sections": [
     {
       "title": "Thematic category",
