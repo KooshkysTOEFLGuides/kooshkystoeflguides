@@ -1,14 +1,16 @@
 # Word of the Day section
 
-Upload these five files to the root of the GitHub Pages repository:
+The public archive is self-contained in `WordOfTheDay/`:
 
-- `word-of-the-day.html`
+- `index.html`
 - `word-data.js`
 - `word-of-the-day.js`
 - `word-of-the-day.css`
-- `wotd-schedule-preview-7c4a91e2f6.html`
+- `schedule-preview-7c4a91e2f6.html`
 
-The pages reuse the site's existing `styles.css`, `site.js`, and `images/` files.
+The root `word-of-the-day.html` is intentionally retained as a small redirect so
+old bookmarks and external links keep working. The archive reuses the site's
+existing `styles.css`, `site.js`, and `images/` files one directory above it.
 
 ## Add a word
 
@@ -18,13 +20,19 @@ Edit `word-data.js` and add an object inside `window.KOOSHKY_WORDS`:
 {
   word: "Meticulous",
   date: "2026-07-17",
-  href: "WordOfTheDay/meticulous.html",
+  href: "WordOfTheDay/generated/meticulous-extended.html",
   partOfSpeech: "adjective",
   summary: "Very careful and attentive to small details."
 }
 ```
 
-Separate entries with commas. Dates may be skipped. The archive groups whatever exists by month.
+Every word page belongs in `generated/` and uses the filename format
+`word-extended.html`. Separate entries with commas. Dates may be skipped. The
+archive groups whatever exists by month.
+
+Registry paths are root-relative strings because the same `word-data.js` also
+drives the homepage card. The archive and schedule pages apply their `../`
+prefix when rendering those links.
 
 ## Publication timing
 

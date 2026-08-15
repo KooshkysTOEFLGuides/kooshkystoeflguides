@@ -840,7 +840,7 @@
       container.innerHTML = `
         <span class="home-wotd-label">Word of the Day</span>
         <span class="home-wotd-empty">No published word yet.</span>
-        <a class="home-wotd-open" href="word-of-the-day.html">
+        <a class="home-wotd-open" href="WordOfTheDay/index.html">
           Open archive →
         </a>
       `;
@@ -872,7 +872,7 @@
         ${escapeHTML(formattedDate)}
       </time>
 
-      <a class="home-wotd-open" href="word-of-the-day.html">
+      <a class="home-wotd-open" href="WordOfTheDay/index.html">
         Full archive →
       </a>
     `;

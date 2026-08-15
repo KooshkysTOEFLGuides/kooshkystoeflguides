@@ -1,11 +1,11 @@
 # Apps section update
 
-## Replace these files in the repository root
+## Main site files
 
 - `index.html`
 - `contents.html`
 - `about.html`
-- `word-of-the-day.html`
+- `word-of-the-day.html` (compatibility redirect to `WordOfTheDay/index.html`)
 - `styles.css`
 - `site.js`
 
@@ -15,9 +15,11 @@
 - `apps-data.js`
 - `APP_STYLE_PROMPT.md` (reference prompt; it does not need to be public)
 
-## Put this script inside `WordOfTheDay/`
+## Word of the Day files
 
-- `generate_word_audio.py`
+The archive, registry, scripts, source JSON, and generated pages are all kept in
+`WordOfTheDay/`. See `WordOfTheDay/README.md` and
+`WordOfTheDay/README-ARCHIVE.md` for the publishing workflow.
 
 ## Add an app
 

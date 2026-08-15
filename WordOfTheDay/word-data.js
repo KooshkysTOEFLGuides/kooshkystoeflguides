@@ -29,147 +29,147 @@ window.KOOSHKY_WORDS = [
   {
     word: "Criterion",
     date: "2026-06-27",
-    href: "WordOfTheDay/criterion-extended.html",
+    href: "WordOfTheDay/generated/criterion-extended.html",
   },
   {
     word: "Incentive",
     date: "2026-06-28",
-    href: "WordOfTheDay/incentive.html",
+    href: "WordOfTheDay/generated/incentive-extended.html",
   },
   {
     word: "Imply",
     date: "2026-06-29",
-    href: "WordOfTheDay/imply.html",
+    href: "WordOfTheDay/generated/imply-extended.html",
   },
   {
     word: "Unanimous",
     date: "2026-06-30",
-    href: "WordOfTheDay/unanimous-extended.html",
+    href: "WordOfTheDay/generated/unanimous-extended.html",
   },
   {
     word: "Quantify",
     date: "2026-07-01",
-    href: "WordOfTheDay/quantify-extended.html",
+    href: "WordOfTheDay/generated/quantify-extended.html",
   },
   {
     word: "Spontaneous",
     date: "2026-07-02",
-    href: "WordOfTheDay/spontaneous-extended.html",
+    href: "WordOfTheDay/generated/spontaneous-extended.html",
   },
   {
     word: "Allocate",
     date: "2026-07-03",
-    href: "WordOfTheDay/allocate-extended.html",
+    href: "WordOfTheDay/generated/allocate-extended.html",
   },
   {
     word: "Simultaneous",
     date: "2026-07-04",
-    href: "WordOfTheDay/simultaneous-extended.html",
+    href: "WordOfTheDay/generated/simultaneous-extended.html",
   },
   {
     word: "Incur",
     date: "2026-07-05",
-    href: "WordOfTheDay/incur-extended.html",
+    href: "WordOfTheDay/generated/incur-extended.html",
   },
   {
     word: "Hierarchy",
     date: "2026-07-06",
-    href: "WordOfTheDay/hierarchy-extended.html",
+    href: "WordOfTheDay/generated/hierarchy-extended.html",
   },
   {
     word: "Amenable",
     date: "2026-07-07",
-    href: "WordOfTheDay/amenable-extended.html",
+    href: "WordOfTheDay/generated/amenable-extended.html",
   },
   {
     word: "Collective",
     date: "2026-07-08",
-    href: "WordOfTheDay/collective-extended.html",
+    href: "WordOfTheDay/generated/collective-extended.html",
   },
   {
     word: "Instigate",
     date: "2026-07-09",
-    href: "WordOfTheDay/instigate_extended.html",
+    href: "WordOfTheDay/generated/instigate-extended.html",
   },
   {
     word: "Implication",
     date: "2026-07-10",
-    href: "WordOfTheDay/implication_extended.html",
+    href: "WordOfTheDay/generated/implication-extended.html",
   },
   {
     word: "Underlie",
     date: "2026-07-11",
-    href: "WordOfTheDay/underlie_extended.html",
+    href: "WordOfTheDay/generated/underlie-extended.html",
   },
   {
     word: "Notion",
     date: "2026-07-12",
-    href: "WordOfTheDay/notion.html",
+    href: "WordOfTheDay/generated/notion-extended.html",
   },
   {
     word: "Monitor",
     date: "2026-07-13",
-    href: "WordOfTheDay/monitor.html",
+    href: "WordOfTheDay/generated/monitor-extended.html",
   },
   {
     word: "Foster",
     date: "2026-07-14",
-    href: "WordOfTheDay/foster.html",
+    href: "WordOfTheDay/generated/foster-extended.html",
   },
   {
     word: "Prone",
     date: "2026-07-15",
-    href: "WordOfTheDay/prone-extended.html",
+    href: "WordOfTheDay/generated/prone-extended.html",
   },
   {
     word: "Serendipitous",
     date: "2026-07-16",
-    href: "WordOfTheDay/serendipitous-extended.html",
+    href: "WordOfTheDay/generated/serendipitous-extended.html",
   },
   {
     word: "Meticulous",
     date: "2026-07-17",
-    href: "WordOfTheDay/meticulous-extended.html",
+    href: "WordOfTheDay/generated/meticulous-extended.html",
   },
   {
     word: "Inadvertent",
     date: "2026-07-18",
-    href: "WordOfTheDay/inadvertent-extended.html",
+    href: "WordOfTheDay/generated/inadvertent-extended.html",
   },
   {
     word: "Navigate",
     date: "2026-07-19",
-    href: "WordOfTheDay/navigate-extended.html",
+    href: "WordOfTheDay/generated/navigate-extended.html",
   },
   {
     word: "Zealous",
     date: "2026-07-20",
-    href: "WordOfTheDay/zealous-extended.html",
+    href: "WordOfTheDay/generated/zealous-extended.html",
   },
   {
     word: "Authentic",
     date: "2026-07-21",
-    href: "WordOfTheDay/authentic-extended.html",
+    href: "WordOfTheDay/generated/authentic-extended.html",
   },
   {
     word: "Retention",
     date: "2026-07-22",
-    href: "WordOfTheDay/retention-extended.html",
+    href: "WordOfTheDay/generated/retention-extended.html",
   },
   {
     word: "Sophisticated",
     date: "2026-07-23",
-    href: "WordOfTheDay/sophisticated-extended.html",
+    href: "WordOfTheDay/generated/sophisticated-extended.html",
   },
   {
     word: "Susceptible",
     date: "2026-07-24",
-    href: "WordOfTheDay/susceptible-extended.html",
+    href: "WordOfTheDay/generated/susceptible-extended.html",
   },
   {
     word: "Immerse",
     date: "2026-07-25",
-    href: "WordOfTheDay/immerse-extended.html",
+    href: "WordOfTheDay/generated/immerse-extended.html",
   },
   {
     word: "Pioneer",
@@ -292,7 +292,7 @@ window.KOOSHKY_WORDS = [
     href: "WordOfTheDay/generated/obsolete-extended.html",
   },
   {
-    word: "Dovatail",
+    word: "Dovetail",
     date: "2026-08-19",
     href: "WordOfTheDay/generated/dovetail-extended.html",
   },
@@ -366,22 +366,4 @@ window.KOOSHKY_WORDS = [
     date: "2026-09-02",
     href: "WordOfTheDay/generated/corresponding-extended.html",
   }
-  
-  /*
-  {
-    word: "Foster",
-    date: "2026-07-14",
-    href: "WordOfTheDay/foster.html",
-  },
-  {
-    word: "Prone",
-    date: "2026-07-15",
-    href: "WordOfTheDay/prone.html",
-  },
-  {
-    word: "Serendipitous",
-    date: "2026-07-16",
-    href: "WordOfTheDay/serendipitous.html",
-  }
-  */
 ];

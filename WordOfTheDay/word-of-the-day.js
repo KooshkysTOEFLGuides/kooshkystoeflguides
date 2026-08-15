@@ -10,6 +10,7 @@
   const clearButton = document.querySelector("[data-wotd-clear]");
   const status = document.querySelector("[data-wotd-status]");
   const clock = document.querySelector("[data-wotd-clock]");
+  const hrefPrefix = window.KOOSHKY_WOTD_HREF_PREFIX || "";
 
   const defaults = {
     timeZone: "Asia/Tehran",
@@ -230,6 +231,7 @@
   }
 
   function entryMarkup(item, published) {
+    const href = `${hrefPrefix}${item.href}`;
     const scheduledLabel = debugMode && !published
       ? `<span class="wotd-scheduled">Scheduled</span>`
       : "";
@@ -246,10 +248,10 @@
             <time datetime="${escapeHTML(item.date)}">${escapeHTML(item.formattedDate)}</time>
             ${scheduledLabel}
           </div>
-          <h3><a href="${escapeHTML(item.href)}">${escapeHTML(item.word)}</a></h3>
+          <h3><a href="${escapeHTML(href)}">${escapeHTML(item.word)}</a></h3>
         </div>
 
-        <a class="text-link wotd-open" href="${escapeHTML(item.href)}">
+        <a class="text-link wotd-open" href="${escapeHTML(href)}">
           Open entry <span aria-hidden="true">→</span>
         </a>
       </article>`;
