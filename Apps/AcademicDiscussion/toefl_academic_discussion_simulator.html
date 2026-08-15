@@ -2350,6 +2350,8 @@
       </div>
       <div class="saves-dialog-actions saves-dialog-primary-actions">
         <button class="button secondary" id="saves-new-button" type="button">New save</button>
+        <button class="button" id="load-individual-save-button" type="button">Load save</button>
+        <input id="individual-save-file" class="sr-only" type="file" accept="application/json,.json">
         <label class="save-select-all">
           <input id="saves-select-all" type="checkbox">
           <span>Select all</span>
@@ -8575,6 +8577,8 @@
         savesDialogSubtitle: document.getElementById("saves-dialog-subtitle"),
         savesDialogClose: document.getElementById("saves-dialog-close"),
         savesNewButton: document.getElementById("saves-new-button"),
+        loadIndividualSaveButton: document.getElementById("load-individual-save-button"),
+        individualSaveFile: document.getElementById("individual-save-file"),
         savesSelectAll: document.getElementById("saves-select-all"),
         deleteSelectedSavesButton: document.getElementById("delete-selected-saves-button"),
         deleteAllPromptSavesButton: document.getElementById("delete-all-prompt-saves-button"),
@@ -9230,14 +9234,12 @@
         start.addEventListener("click", () => openModeDialog(prompt.id, latest?.id || null));
         actions.appendChild(start);
 
-        if (saves.length) {
-          const savesButton = document.createElement("button");
-          savesButton.type = "button";
-          savesButton.className = "button small";
-          savesButton.textContent = "Saves";
-          savesButton.addEventListener("click", () => openSavesDialog(prompt.id));
-          actions.appendChild(savesButton);
-        }
+        const savesButton = document.createElement("button");
+        savesButton.type = "button";
+        savesButton.className = "button small";
+        savesButton.textContent = "Saves";
+        savesButton.addEventListener("click", () => openSavesDialog(prompt.id));
+        actions.appendChild(savesButton);
 
         card.append(top, summary, meta, actions);
         return card;
@@ -9604,6 +9606,12 @@
           timeline.textContent = "Timeline";
           timeline.addEventListener("click", () => openTimeline(promptId, save.id));
 
+          const download = document.createElement("button");
+          download.type = "button";
+          download.className = "button small";
+          download.textContent = "Download";
+          download.addEventListener("click", () => downloadIndividualSave(promptId, save.id));
+
           const deleteButton = document.createElement("button");
           deleteButton.type = "button";
           deleteButton.className = "button small danger";
@@ -9614,7 +9622,7 @@
             }
           });
 
-          actions.append(open, timeline, deleteButton);
+          actions.append(open, timeline, download, deleteButton);
           row.append(selectWrap, main, actions);
           els.saveList.appendChild(row);
         });
@@ -9893,6 +9901,73 @@
         };
       }
 
+      function downloadJson(payload, filename) {
+        const blob = new Blob([JSON.stringify(payload, null, 2)], { type: "application/json" });
+        const url = URL.createObjectURL(blob);
+        const link = document.createElement("a");
+        link.href = url;
+        link.download = filename;
+        document.body.appendChild(link);
+        link.click();
+        link.remove();
+        window.setTimeout(() => URL.revokeObjectURL(url), 1000);
+      }
+
+      function downloadIndividualSave(promptId, saveId) {
+        if (state.selectedPromptId === promptId) syncCurrentSave({ announce: false });
+        const prompt = getPrompt(promptId);
+        const save = getSave(promptId, saveId);
+        if (!prompt || !save) return;
+        downloadJson({
+          app: "kooshky-toefl-academic-discussion-practice",
+          version: APP_VERSION,
+          kind: "individual-save",
+          exportedAt: new Date().toISOString(),
+          prompt: { id: prompt.id, title: prompt.title, section: prompt.section },
+          save
+        }, `kooshky-toefl-academic-discussion-${prompt.id.toLowerCase()}-save-${slugDate()}.json`);
+        showToast(`${save.name} downloaded.`, "success");
+      }
+
+      async function importIndividualSave(file) {
+        if (!file) return;
+        try {
+          const parsed = JSON.parse(await file.text());
+          const promptId = state.saveManagerPromptId;
+          if (parsed?.app !== "kooshky-toefl-academic-discussion-practice" || parsed?.kind !== "individual-save") {
+            throw new Error("That is not an individual save from the Academic Discussion app.");
+          }
+          if (parsed.prompt?.id !== promptId || !getPrompt(promptId)) {
+            throw new Error(`This save belongs to ${parsed.prompt?.id || "another question"}, not ${promptId}.`);
+          }
+          if (state.selectedPromptId === promptId) finalizeSaveSession();
+          const promptState = getPromptState(promptId);
+          const imported = sanitizeSave(parsed.save, promptState.saves.length);
+          if (!imported) throw new Error("The file does not contain a valid save.");
+          const now = new Date().toISOString();
+          imported.id = makeId();
+          imported.name = nextSaveName(promptId);
+          imported.createdAt = now;
+          imported.updatedAt = now;
+          if (!state.settings.timelineEnabled) pruneSaveToTwoFrameStorage(imported);
+          promptState.saves.push(imported);
+          promptState.activeSaveId = imported.id;
+          persistData();
+          renderPromptList();
+          if (state.selectedPromptId === promptId) {
+            renderWorkspace(getPrompt(promptId));
+            startSaveSession();
+            startTimer(state.activeMode || "practice");
+          }
+          renderSaveList();
+          showToast(`${imported.name} loaded as a new attempt.`, "success");
+        } catch (error) {
+          showToast(error instanceof Error ? error.message : "That individual save could not be loaded.", "error");
+        } finally {
+          els.individualSaveFile.value = "";
+        }
+      }
+
       function finalizeIfWritingForBackup() {
         if (!state.selectedPromptId || !state.saveSessionStartedAt) return;
         syncCurrentSave({ announce: false, persist: false });
@@ -10110,6 +10185,8 @@
         els.savesNewButton.addEventListener("click", () => {
           if (state.saveManagerPromptId) startNewSaveForPrompt(state.saveManagerPromptId);
         });
+        els.loadIndividualSaveButton.addEventListener("click", () => els.individualSaveFile.click());
+        els.individualSaveFile.addEventListener("change", () => importIndividualSave(els.individualSaveFile.files?.[0]));
         els.savesSelectAll.addEventListener("change", () => {
           const saves = getPromptState(state.saveManagerPromptId, false)?.saves || [];
           state.selectedSaveIds.clear();

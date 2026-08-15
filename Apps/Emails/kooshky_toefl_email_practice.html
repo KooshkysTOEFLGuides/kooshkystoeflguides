@@ -1458,6 +1458,8 @@
         <button class="button ghost dialog-close" id="saves-dialog-close" type="button" aria-label="Close saves"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="m6 6 12 12M18 6 6 18" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"/></svg></button></div>
       <div class="saves-dialog-actions">
         <button class="button secondary" id="saves-new-button" type="button">New save</button>
+        <button class="button" id="load-individual-save-button" type="button">Load save</button>
+        <input id="individual-save-file" class="sr-only" type="file" accept="application/json,.json">
         <label class="save-select-all"><input id="saves-select-all" type="checkbox"><span>Select all</span></label>
         <button class="button danger" id="delete-selected-saves-button" type="button" disabled>Delete selected</button>
         <button class="button danger ghost" id="delete-all-prompt-saves-button" type="button">Delete all for this question</button>
@@ -2714,7 +2716,7 @@
         answerDialog: document.getElementById("answer-dialog"), answerDialogTitle: document.getElementById("answer-dialog-title"), answerDialogSubtitle: document.getElementById("answer-dialog-subtitle"), answerDialogClose: document.getElementById("answer-dialog-close"), answerDialogDone: document.getElementById("answer-dialog-done"), answerPreviewMeta: document.getElementById("answer-preview-meta"), answerPreview: document.getElementById("answer-preview"), copyAnswerButton: document.getElementById("copy-answer-button"),
         practiceTimeDialog: document.getElementById("practice-time-dialog"), practiceReturnButton: document.getElementById("practice-return-button"), practiceContinueButton: document.getElementById("practice-continue-button"), examCompleteDialog: document.getElementById("exam-complete-dialog"), examPreviewMeta: document.getElementById("exam-preview-meta"), examAnswerPreview: document.getElementById("exam-answer-preview"), examReturnButton: document.getElementById("exam-return-button"),
         confirmDialog: document.getElementById("confirm-dialog"), confirmCancelButton: document.getElementById("confirm-cancel-button"), confirmClearButton: document.getElementById("confirm-clear-button"),
-        savesDialog: document.getElementById("saves-dialog"), savesDialogTitle: document.getElementById("saves-dialog-title"), savesDialogSubtitle: document.getElementById("saves-dialog-subtitle"), savesDialogClose: document.getElementById("saves-dialog-close"), savesNewButton: document.getElementById("saves-new-button"), savesSelectAll: document.getElementById("saves-select-all"), deleteSelectedSavesButton: document.getElementById("delete-selected-saves-button"), deleteAllPromptSavesButton: document.getElementById("delete-all-prompt-saves-button"), saveList: document.getElementById("save-list"),
+        savesDialog: document.getElementById("saves-dialog"), savesDialogTitle: document.getElementById("saves-dialog-title"), savesDialogSubtitle: document.getElementById("saves-dialog-subtitle"), savesDialogClose: document.getElementById("saves-dialog-close"), savesNewButton: document.getElementById("saves-new-button"), loadIndividualSaveButton: document.getElementById("load-individual-save-button"), individualSaveFile: document.getElementById("individual-save-file"), savesSelectAll: document.getElementById("saves-select-all"), deleteSelectedSavesButton: document.getElementById("delete-selected-saves-button"), deleteAllPromptSavesButton: document.getElementById("delete-all-prompt-saves-button"), saveList: document.getElementById("save-list"),
         settingsButton: document.getElementById("settings-button"), settingsDialog: document.getElementById("settings-dialog"), settingsDialogClose: document.getElementById("settings-dialog-close"), settingsDoneButton: document.getElementById("settings-done-button"), timelineEnabled: document.getElementById("timeline-enabled"), snapshotIntervalField: document.getElementById("snapshot-interval-field"), timelineSettingsNote: document.getElementById("timeline-settings-note"), deleteAllSavesGlobalButton: document.getElementById("delete-all-saves-global-button"), snapshotInterval: document.getElementById("snapshot-interval"),
         timelineBackButton: document.getElementById("timeline-back-button"), timelineTitle: document.getElementById("timeline-title"), timelineSaveSelect: document.getElementById("timeline-save-select"), timelineSummary: document.getElementById("timeline-summary"), timelineSnapshotLabel: document.getElementById("timeline-snapshot-label"), timelineSnapshotMeta: document.getElementById("timeline-snapshot-meta"), timelineText: document.getElementById("timeline-text"), timelinePrevButton: document.getElementById("timeline-prev-button"), timelinePlayButton: document.getElementById("timeline-play-button"), timelineNextButton: document.getElementById("timeline-next-button"), timelineRange: document.getElementById("timeline-range"), timelineEndTime: document.getElementById("timeline-end-time"),
         toastRegion: document.getElementById("toast-region"), timeFlash: document.getElementById("time-flash"), themeToggle: document.getElementById("theme-toggle"), themeIcon: document.getElementById("theme-icon"), themeLabel: document.getElementById("theme-label"), favicon: document.getElementById("app-favicon")
@@ -3199,7 +3201,7 @@
         const summary=document.createElement("p");summary.className="card-summary";summary.textContent=prompt.context;
         const meta=document.createElement("div");meta.className="card-meta";meta.append(createMetaSpan(`To: ${prompt.recipient}`),createMetaSpan(latest?`${words} ${words===1?"word":"words"} · ${formatDurationMs(latest.elapsedMs)}`:"Not started"));
         const actions=document.createElement("div");actions.className="card-actions";const start=document.createElement("button");start.type="button";start.className="button primary small";start.textContent=latest?"Continue latest":"Start";start.addEventListener("click",()=>openModeDialog(prompt.id,latest?.id||null));actions.appendChild(start);
-        if(saves.length){const sb=document.createElement("button");sb.type="button";sb.className="button small";sb.textContent="Saves";sb.addEventListener("click",()=>openSavesDialog(prompt.id));const view=document.createElement("button");view.type="button";view.className="button small";view.textContent="View latest";view.addEventListener("click",()=>openAnswerDialog(prompt.id));actions.append(sb,view);} card.append(top,summary,meta,actions);return card;
+        const sb=document.createElement("button");sb.type="button";sb.className="button small";sb.textContent="Saves";sb.addEventListener("click",()=>openSavesDialog(prompt.id));actions.appendChild(sb);if(saves.length){const view=document.createElement("button");view.type="button";view.className="button small";view.textContent="View latest";view.addEventListener("click",()=>openAnswerDialog(prompt.id));actions.appendChild(view);} card.append(top,summary,meta,actions);return card;
       }
 
       function createMetaSpan(text) { const span=document.createElement("span"); span.textContent=text; return span; }
@@ -3502,6 +3504,12 @@
           timeline.textContent = "Timeline";
           timeline.addEventListener("click", () => openTimeline(promptId, save.id));
 
+          const download = document.createElement("button");
+          download.type = "button";
+          download.className = "button small";
+          download.textContent = "Download";
+          download.addEventListener("click", () => downloadIndividualSave(promptId, save.id));
+
           const deleteButton = document.createElement("button");
           deleteButton.type = "button";
           deleteButton.className = "button small danger";
@@ -3512,7 +3520,7 @@
             }
           });
 
-          actions.append(open, timeline, deleteButton);
+          actions.append(open, timeline, download, deleteButton);
           row.append(selectWrap, main, actions);
           els.saveList.appendChild(row);
         });
@@ -3779,6 +3787,73 @@
         };
       }
 
+      function downloadJson(payload, filename) {
+        const blob = new Blob([JSON.stringify(payload, null, 2)], { type: "application/json" });
+        const url = URL.createObjectURL(blob);
+        const link = document.createElement("a");
+        link.href = url;
+        link.download = filename;
+        document.body.appendChild(link);
+        link.click();
+        link.remove();
+        window.setTimeout(() => URL.revokeObjectURL(url), 1000);
+      }
+
+      function downloadIndividualSave(promptId, saveId) {
+        if (state.selectedPromptId === promptId) syncCurrentSave({ announce: false });
+        const prompt = getPrompt(promptId);
+        const save = getSave(promptId, saveId);
+        if (!prompt || !save) return;
+        downloadJson({
+          app: "kooshky-toefl-email-practice",
+          version: APP_VERSION,
+          kind: "individual-save",
+          exportedAt: new Date().toISOString(),
+          prompt: { id: prompt.id, title: prompt.title, type: prompt.type },
+          save
+        }, `kooshky-toefl-email-${prompt.id.toLowerCase()}-save-${slugDate()}.json`);
+        showToast(`${save.name} downloaded.`, "success");
+      }
+
+      async function importIndividualSave(file) {
+        if (!file) return;
+        try {
+          const parsed = JSON.parse(await file.text());
+          const promptId = state.saveManagerPromptId;
+          if (parsed?.app !== "kooshky-toefl-email-practice" || parsed?.kind !== "individual-save") {
+            throw new Error("That is not an individual save from the Email Practice app.");
+          }
+          if (parsed.prompt?.id !== promptId || !getPrompt(promptId)) {
+            throw new Error(`This save belongs to ${parsed.prompt?.id || "another question"}, not ${promptId}.`);
+          }
+          if (state.selectedPromptId === promptId) finalizeSaveSession();
+          const promptState = getPromptState(promptId);
+          const imported = sanitizeSave(parsed.save, promptState.saves.length);
+          if (!imported) throw new Error("The file does not contain a valid save.");
+          const now = new Date().toISOString();
+          imported.id = makeId();
+          imported.name = nextSaveName(promptId);
+          imported.createdAt = now;
+          imported.updatedAt = now;
+          if (!state.settings.timelineEnabled) pruneSaveToTwoFrameStorage(imported);
+          promptState.saves.push(imported);
+          promptState.activeSaveId = imported.id;
+          persistData();
+          renderPromptList();
+          if (state.selectedPromptId === promptId) {
+            renderWorkspace(getPrompt(promptId));
+            startSaveSession();
+            startTimer(state.activeMode || "practice");
+          }
+          renderSaveList();
+          showToast(`${imported.name} loaded as a new attempt.`, "success");
+        } catch (error) {
+          showToast(error instanceof Error ? error.message : "That individual save could not be loaded.", "error");
+        } finally {
+          els.individualSaveFile.value = "";
+        }
+      }
+
       function finalizeIfWritingForBackup() {
         if (!state.selectedPromptId || !state.saveSessionStartedAt) return;
         syncCurrentSave({ announce: false, persist: false });
@@ -4002,6 +4077,8 @@
         els.savesNewButton.addEventListener("click", () => {
           if (state.saveManagerPromptId) startNewSaveForPrompt(state.saveManagerPromptId);
         });
+        els.loadIndividualSaveButton.addEventListener("click", () => els.individualSaveFile.click());
+        els.individualSaveFile.addEventListener("change", () => importIndividualSave(els.individualSaveFile.files?.[0]));
         els.savesSelectAll.addEventListener("change", () => {
           const saves = getPromptState(state.saveManagerPromptId, false)?.saves || [];
           state.selectedSaveIds.clear();
