@@ -127,6 +127,8 @@
     recognition.lang = "en-US";
     recognition.continuous = true;
     recognition.interimResults = true;
+    recognition.transcriptText = "";
+    recognition.done = new Promise(resolve => { recognition.onend = resolve; });
     let finalText = "", interimText = "";
     recognition.onresult = event => {
       interimText = "";
@@ -135,7 +137,8 @@
         if (event.results[i].isFinal) finalText += `${text} `;
         else interimText += `${text} `;
       }
-      active.transcript = `${finalText}${interimText}`.trim();
+      recognition.transcriptText = `${finalText}${interimText}`.trim();
+      if (active) active.transcript = recognition.transcriptText;
     };
     recognition.onerror = event => {
       if (!['aborted', 'no-speech'].includes(event.error)) say(`Transcription stopped: ${event.error}. Your audio is still being recorded.`, true);
@@ -150,6 +153,10 @@
       say("Audio recording is not supported in this browser. Try a current version of Chrome, Edge, Firefox, or Safari.", true);
       return;
     }
+    button.disabled = true;
+    button.textContent = "Waiting for microphone permission…";
+    panel.querySelector(".recording-countdown").textContent = "";
+    say("Allow microphone access in your browser. The 45-second timer has not started.");
     try {
       const estimate = await navigator.storage?.estimate?.();
       if (estimate?.quota && estimate.quota - estimate.usage < WARNING_BYTES) {
@@ -157,6 +164,7 @@
       }
       const deviceId = microphoneSelect.value;
       const stream = await navigator.mediaDevices.getUserMedia({ audio: deviceId ? { deviceId: { exact: deviceId } } : true });
+      button.textContent = "Preparing microphone…";
       await refreshMicrophones();
       const track = stream.getAudioTracks()[0];
       if (!track || track.readyState !== "live") throw new Error("The browser did not provide a live microphone track.");
@@ -176,7 +184,6 @@
       silentOutput.connect(context.destination);
       const monitor = { context, source, analyser, silentOutput, samples: new Float32Array(analyser.fftSize), peak: 0 };
       active = { recorder, chunks, stream, recognition, transcript: "", started: 0, timer: null, timeout: null, button, details, panel, monitor, finishing: false };
-      button.disabled = true;
       button.textContent = "Get ready…";
       await beep();
       recorder.ondataavailable = event => { if (event.data.size) chunks.push(event.data); };
@@ -239,6 +246,14 @@
       active = null;
       say("The browser returned an empty audio file, so it was not saved. Check microphone permission and the selected input device, then try again.", true);
       return;
+    }
+    if (session.recognition) {
+      say("Audio captured. Finishing the last words of the transcript…");
+      await Promise.race([
+        session.recognition.done,
+        new Promise(resolve => setTimeout(resolve, 2500))
+      ]);
+      session.transcript = session.recognition.transcriptText || session.transcript;
     }
     const take = {
       id: crypto.randomUUID ? crypto.randomUUID() : `${Date.now()}-${Math.random().toString(16).slice(2)}`,

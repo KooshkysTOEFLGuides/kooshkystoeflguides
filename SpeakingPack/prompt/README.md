@@ -58,6 +58,8 @@ The interface reports estimated browser-storage use, requests persistent storage
 
 Microphone access and browser speech recognition depend on browser support and a secure context (`https:` or a local development origin). The Web Speech API cannot transcribe an existing audio file, so the user must enable **Create a transcript while I record** before starting a take. Transcripts remain editable afterward. Browser storage can still be cleared by the user or browser, so the page explicitly treats ZIP downloads as the durable backup.
 
+The 45-second timer begins only after microphone permission, input setup, and the starting beep. At cutoff, audio capture stops immediately while transcript saving waits briefly for the recognition service's final buffered result; a timeout prevents a stalled recognition service from blocking the saved take.
+
 ## Reentrant synchronization and HTML locks
 
 Topic numbers are stable identities. Rerunning the script applies title and subtopic edits, creates additions, renames changed topic directories, and removes managed topics deleted from `topics.txt`.
