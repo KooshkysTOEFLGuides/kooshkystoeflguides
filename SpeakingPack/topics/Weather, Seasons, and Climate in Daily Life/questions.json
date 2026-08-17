@@ -1,0 +1,312 @@
+{
+  "schema_version": 1,
+  "topic": "Weather, Seasons, and Climate in Daily Life",
+  "sets": [
+    {
+      "title": "Your Weather Preferences",
+      "setup": "A university lifestyle study is asking people about weather preferences and everyday routines.",
+      "questions": [
+        {
+          "number": 1,
+          "question": "Thank you for joining us. To begin, What kind of weather do you enjoy most, and why?",
+          "sample_answer": "I enjoy mild, sunny weather because I can spend time outside without feeling uncomfortable. Last spring, I walked to work almost every day and still had energy in the evening. I don't need perfect sunshine, but I prefer settled conditions without extreme heat or strong wind. Weather preferences are personal, so I would choose what supports an enjoyable and realistic routine throughout the year."
+        },
+        {
+          "number": 2,
+          "question": "I see. Does the weather influence what you do after work or class?",
+          "sample_answer": "Yes, weather strongly influences my plans because most of my favorite activities are outdoors. If the evening is dry, I usually walk in a park, but on rainy days I exercise at home. I try to keep an indoor backup plan so a sudden shower doesn't ruin my whole evening. Weather preferences are personal, so I would choose what supports an enjoyable and realistic routine throughout the year."
+        },
+        {
+          "number": 3,
+          "question": "Interesting. Would you rather live somewhere with four distinct seasons or similar weather all year?",
+          "sample_answer": "I'd rather experience four distinct seasons because each part of the year would feel different. I could enjoy flowers in spring, outdoor evenings in summer, colorful leaves in autumn, and occasional snow in winter. Seasonal change also has disadvantages, but the variety would keep my routines from feeling repetitive. Weather preferences are personal, so I would choose what supports an enjoyable and realistic routine throughout the year."
+        },
+        {
+          "number": 4,
+          "question": "Good points. Finally, Do you think people complain about the weather too much?",
+          "sample_answer": "People probably complain too much, although weather does create real problems. A cloudy afternoon may be disappointing, but it isn't the same as a dangerous heatwave or flood. I'd rather adjust a small plan than spend the day being annoyed by conditions nobody can control. Weather preferences are personal, so I would choose what supports an enjoyable and realistic routine throughout the year."
+        }
+      ]
+    },
+    {
+      "title": "Planning Around a Forecast",
+      "setup": "You are taking part in research about forecasts and personal planning.",
+      "questions": [
+        {
+          "number": 1,
+          "question": "Thank you for joining us. To begin, How often do you check the weather forecast?",
+          "sample_answer": "I check the forecast once each morning because it helps me make simple decisions. I look at the temperature and chance of rain before choosing clothes or deciding whether to walk. I don't keep checking it all day unless I have an important outdoor event. A forecast is most useful when it supports a flexible decision instead of creating unnecessary worry about every possibility."
+        },
+        {
+          "number": 2,
+          "question": "I see. Tell me about a time when weather changed one of your plans.",
+          "sample_answer": "Heavy rain once changed a picnic I had planned with several friends. Instead of canceling, we met at my apartment, ordered food, and played games for a few hours. The event was different from our original idea, but a quick backup plan kept everyone in a good mood. A forecast is most useful when it supports a flexible decision instead of creating unnecessary worry about every possibility."
+        },
+        {
+          "number": 3,
+          "question": "Interesting. Are weather applications more useful than advice from local people?",
+          "sample_answer": "Weather applications are more useful for exact timing, but local people add valuable experience. An application can show hourly rainfall, while a resident may know that one road floods after a downpour. I would use both sources for an important plan instead of treating either one as perfect. A forecast is most useful when it supports a flexible decision instead of creating unnecessary worry about every possibility."
+        },
+        {
+          "number": 4,
+          "question": "Good points. Finally, Should schools cancel outdoor events whenever rain is forecast?",
+          "sample_answer": "Schools shouldn't cancel immediately because a forecast always contains some uncertainty. They can prepare an indoor space and make a final decision closer to the event. Safety comes first during storms, but light rain shouldn't automatically remove useful activities from the school calendar. A forecast is most useful when it supports a flexible decision instead of creating unnecessary worry about every possibility."
+        }
+      ]
+    },
+    {
+      "title": "Hot Weather and Daily Life",
+      "setup": "A campus group is studying how people manage increasingly hot days.",
+      "questions": [
+        {
+          "number": 1,
+          "question": "Thank you for joining us. To begin, What do you normally do to stay comfortable in hot weather?",
+          "sample_answer": "I drink water regularly and move demanding activities to the morning. At home, I close the curtains during the hottest hours and use a fan before turning on air conditioning. These small habits keep me comfortable while avoiding unnecessary energy use. Small changes in timing and preparation can make heat safer for most people without stopping normal life or summer activities completely."
+        },
+        {
+          "number": 2,
+          "question": "I see. Would you prefer exercising early in the morning or late in the evening during summer?",
+          "sample_answer": "I'd exercise early because the temperature is usually lower and I have more energy. An evening walk sounds pleasant, but hot streets and a busy schedule can make me postpone it. Finishing exercise before breakfast also gives my day a positive start. Small changes in timing and preparation can make heat safer for most people without stopping normal life or summer activities completely."
+        },
+        {
+          "number": 3,
+          "question": "Interesting. How can cities make heatwaves safer for residents?",
+          "sample_answer": "Cities can create more shade and make drinking water easy to find. Bus stops, schoolyards, and public squares need trees or covered areas, especially for older people and children. Clear health warnings and cool public buildings would also help residents without air conditioning. Small changes in timing and preparation can make heat safer for most people without stopping normal life or summer activities completely."
+        },
+        {
+          "number": 4,
+          "question": "Good points. Finally, Will people need to change their summer routines in the future?",
+          "sample_answer": "Many people will probably need to change their routines as very hot days become more common. Workplaces may shift outdoor jobs to earlier hours, and families may avoid parks at midday. The goal isn't to stop enjoying summer; it's to enjoy it without ignoring new health risks. Small changes in timing and preparation can make heat safer for most people without stopping normal life or summer activities completely."
+        }
+      ]
+    },
+    {
+      "title": "Cold Weather and Winter Routines",
+      "setup": "A researcher will ask about winter habits and cold-weather experiences.",
+      "questions": [
+        {
+          "number": 1,
+          "question": "Thank you for joining us. To begin, What is one thing you like about winter?",
+          "sample_answer": "I like the quiet atmosphere of a cold winter evening. After coming home, I can make a warm drink, read, and spend time with my family without feeling that I should go out. I enjoy snow too, but the slower indoor routine is what gives winter personal meaning for me. Good preparation makes winter more comfortable while leaving room to enjoy what is special about the season."
+        },
+        {
+          "number": 2,
+          "question": "I see. What clothing works best when the temperature changes during the day?",
+          "sample_answer": "Several light layers work best because I can remove one as the day becomes warmer. A heavy coat may feel comfortable in the morning but become inconvenient on a crowded bus later. I also carry a waterproof outer layer when cold rain or snow is possible. Good preparation makes winter more comfortable while leaving room to enjoy what is special about the season."
+        },
+        {
+          "number": 3,
+          "question": "Interesting. Does snow improve city life or mainly create problems?",
+          "sample_answer": "Fresh snow can make a city beautiful, but after a few hours it mainly creates practical problems. Roads become slower, sidewalks turn icy, and public transportation may be delayed. Cities can reduce those problems by clearing important routes early while leaving safe parks for people to enjoy. Good preparation makes winter more comfortable while leaving room to enjoy what is special about the season."
+        },
+        {
+          "number": 4,
+          "question": "Good points. Finally, Should governments help households pay heating costs during severe winters?",
+          "sample_answer": "Yes, temporary support is reasonable because adequate heating is a basic safety need. Older residents and families with young children shouldn't have to choose between food and a warm home. Support should be targeted, and long-term programs should also improve insulation so homes need less energy. Good preparation makes winter more comfortable while leaving room to enjoy what is special about the season."
+        }
+      ]
+    },
+    {
+      "title": "Rainy Days and Indoor Alternatives",
+      "setup": "You have joined an interview about rainy weather and leisure choices.",
+      "questions": [
+        {
+          "number": 1,
+          "question": "Thank you for joining us. To begin, How do you usually spend a rainy day?",
+          "sample_answer": "I usually choose a calm indoor activity, such as cooking or watching a film with someone. Rain gives me permission to slow down, especially after a busy week. If it is only a light shower, I may still take a short walk with an umbrella because the streets feel quieter. I would judge the severity carefully and keep an alternative ready rather than reacting to every cloud or brief shower."
+        },
+        {
+          "number": 2,
+          "question": "I see. Would you attend an outdoor event if light rain were expected?",
+          "sample_answer": "Yes, I would attend if the organizers had shelter and the rain was expected to remain light. A waterproof jacket can handle a short shower, and sometimes the smaller crowd makes an event more enjoyable. I would stay home if there were lightning, strong wind, or an official warning. I would judge the severity carefully and keep an alternative ready rather than reacting to every cloud or brief shower."
+        },
+        {
+          "number": 3,
+          "question": "Interesting. Why do some people find rainy weather relaxing?",
+          "sample_answer": "Rain creates a steady background sound and encourages people to stay in one comfortable place. For example, reading beside a window can feel peaceful when there is no pressure to travel anywhere. That feeling depends on being safe indoors; the same rain is stressful for someone facing leaks or flooding. I would judge the severity carefully and keep an alternative ready rather than reacting to every cloud or brief shower."
+        },
+        {
+          "number": 4,
+          "question": "Good points. Finally, What should a city improve if heavy rainfall regularly causes delays?",
+          "sample_answer": "The city should first improve drainage and keep existing channels free of waste. It can also warn residents about flooded roads and adjust bus routes before traffic becomes trapped. These systems cost money, but repeated damage and lost work time may cost the community much more. I would judge the severity carefully and keep an alternative ready rather than reacting to every cloud or brief shower."
+        }
+      ]
+    },
+    {
+      "title": "Weather, Mood, and Health",
+      "setup": "A university health project is exploring connections between weather and well-being.",
+      "questions": [
+        {
+          "number": 1,
+          "question": "Thank you for joining us. To begin, Does bright weather affect your mood?",
+          "sample_answer": "Bright weather usually improves my mood because the day feels more open and active. I am more likely to walk, meet a friend, or finish a task when sunlight comes through the window. Still, extreme heat has the opposite effect, so I prefer brightness with a mild temperature. A steady routine can reduce the effect of weather while still respecting genuine health risks and personal limits."
+        },
+        {
+          "number": 2,
+          "question": "I see. How do you maintain your energy during a long period of gloomy weather?",
+          "sample_answer": "I keep a regular routine and go outside briefly whenever there is daylight. Even a twenty-minute walk helps me separate work from rest, and meeting friends prevents me from becoming isolated. I don't wait to feel motivated because a simple schedule is more reliable than my mood. A steady routine can reduce the effect of weather while still respecting genuine health risks and personal limits."
+        },
+        {
+          "number": 3,
+          "question": "Interesting. Should workplaces adjust expectations during extreme heat?",
+          "sample_answer": "Yes, especially when employees work outdoors or in buildings without effective cooling. More breaks, drinking water, and earlier shifts can prevent heat exhaustion without stopping all work. Office workers may also need flexibility because poor sleep during hot nights reduces concentration the next day. A steady routine can reduce the effect of weather while still respecting genuine health risks and personal limits."
+        },
+        {
+          "number": 4,
+          "question": "Good points. Finally, Do weather reports have a responsibility to include health advice?",
+          "sample_answer": "They should include short advice when conditions create a clear risk. During a heatwave, reminding people to drink water and check on older relatives can be genuinely useful. The advice should remain simple and evidence-based so viewers don't ignore it as unnecessary alarm. A steady routine can reduce the effect of weather while still respecting genuine health risks and personal limits."
+        }
+      ]
+    },
+    {
+      "title": "Extreme Weather and Preparedness",
+      "setup": "You are participating in a study about household and community preparation.",
+      "questions": [
+        {
+          "number": 1,
+          "question": "Thank you for joining us. To begin, What would you put in a basic emergency kit?",
+          "sample_answer": "I would include drinking water, simple food, medicine, a flashlight, and a charged power bank. I would also keep copies of essential phone numbers because a phone may lose internet access during a power outage. The exact kit should match local risks instead of containing equipment nobody knows how to use. Preparation works best when it is simple, local, and practiced before a real emergency or warning begins."
+        },
+        {
+          "number": 2,
+          "question": "I see. How can neighbors help one another during extreme weather?",
+          "sample_answer": "Neighbors can share reliable information and check on people who may need extra assistance. For example, someone with a car might collect medicine for an older resident before a storm becomes severe. They should follow official instructions and avoid taking unnecessary risks while trying to be helpful. Preparation works best when it is simple, local, and practiced before a real emergency or warning begins."
+        },
+        {
+          "number": 3,
+          "question": "Interesting. Why do some people ignore evacuation warnings?",
+          "sample_answer": "Some people have experienced earlier warnings that did not lead to serious damage, so they become too confident. Others worry about pets, property, transportation, or the cost of leaving. Authorities need clear messages and practical support, but residents also need to understand that forecasts cannot guarantee exactly where danger will occur. Preparation works best when it is simple, local, and practiced before a real emergency or warning begins."
+        },
+        {
+          "number": 4,
+          "question": "Good points. Finally, Should disaster preparation be taught regularly in schools?",
+          "sample_answer": "Yes, because simple routines are easier to follow when students have practiced them before an emergency. Schools can teach children where to go, whom to contact, and how to recognize trustworthy warnings. The lessons shouldn't frighten students; they should build calm confidence through short, age-appropriate practice. Preparation works best when it is simple, local, and practiced before a real emergency or warning begins."
+        }
+      ]
+    },
+    {
+      "title": "Climate and Everyday Responsibility",
+      "setup": "A research group is interviewing residents about climate change and practical responses.",
+      "questions": [
+        {
+          "number": 1,
+          "question": "Thank you for joining us. To begin, Have changes in weather affected daily life where you live?",
+          "sample_answer": "Summers seem to include more extremely hot days, which has changed when people use outdoor spaces. Parks are quieter at midday, air conditioning runs longer, and families pay more attention to heat warnings. One season cannot prove a long-term trend, but repeated patterns are becoming difficult to ignore. Practical choices are easier to maintain when useful public systems support individual effort over the long term."
+        },
+        {
+          "number": 2,
+          "question": "I see. Which personal environmental habit is easiest to maintain?",
+          "sample_answer": "Using public transportation is easiest for me because it already fits my work routine. I can read on the bus instead of driving in traffic, and I don't need to search for parking. The habit works because the service is available; personal choices become much harder when communities provide no practical alternative. Practical choices are easier to maintain when useful public systems support individual effort over the long term."
+        },
+        {
+          "number": 3,
+          "question": "Interesting. Should cities focus more on reducing emissions or adapting to climate change?",
+          "sample_answer": "Cities need both approaches because residents face current risks while long-term emissions still matter. Planting trees can cool streets now, while efficient buses can reduce pollution over many years. The balance will differ by location, but treating adaptation and prevention as competing choices would leave important work unfinished. Practical choices are easier to maintain when useful public systems support individual effort over the long term."
+        },
+        {
+          "number": 4,
+          "question": "Good points. Finally, How can people discuss climate change without making others feel hopeless?",
+          "sample_answer": "They can connect the issue to specific actions and visible local improvements. A cooler schoolyard, a lower electricity bill, or a reliable bus route gives people something practical to support. The risks should be explained honestly, but constant disaster language can make people feel that no decision matters. Practical choices are easier to maintain when useful public systems support individual effort over the long term."
+        }
+      ]
+    }
+  ],
+  "corpus_calibration_audit": [
+    {
+      "set_title": "Your Weather Preferences",
+      "question_functions": [
+        "personal preference or experience",
+        "concrete choice or description",
+        "explanation or comparison",
+        "broader accessible judgment"
+      ],
+      "subtopics": [
+        "Your Weather Preferences"
+      ]
+    },
+    {
+      "set_title": "Planning Around a Forecast",
+      "question_functions": [
+        "personal preference or experience",
+        "concrete choice or description",
+        "explanation or comparison",
+        "broader accessible judgment"
+      ],
+      "subtopics": [
+        "Planning Around a Forecast"
+      ]
+    },
+    {
+      "set_title": "Hot Weather and Daily Life",
+      "question_functions": [
+        "personal preference or experience",
+        "concrete choice or description",
+        "explanation or comparison",
+        "broader accessible judgment"
+      ],
+      "subtopics": [
+        "Hot Weather and Daily Life"
+      ]
+    },
+    {
+      "set_title": "Cold Weather and Winter Routines",
+      "question_functions": [
+        "personal preference or experience",
+        "concrete choice or description",
+        "explanation or comparison",
+        "broader accessible judgment"
+      ],
+      "subtopics": [
+        "Cold Weather and Winter Routines"
+      ]
+    },
+    {
+      "set_title": "Rainy Days and Indoor Alternatives",
+      "question_functions": [
+        "personal preference or experience",
+        "concrete choice or description",
+        "explanation or comparison",
+        "broader accessible judgment"
+      ],
+      "subtopics": [
+        "Rainy Days and Indoor Alternatives"
+      ]
+    },
+    {
+      "set_title": "Weather, Mood, and Health",
+      "question_functions": [
+        "personal preference or experience",
+        "concrete choice or description",
+        "explanation or comparison",
+        "broader accessible judgment"
+      ],
+      "subtopics": [
+        "Weather, Mood, and Health"
+      ]
+    },
+    {
+      "set_title": "Extreme Weather and Preparedness",
+      "question_functions": [
+        "personal preference or experience",
+        "concrete choice or description",
+        "explanation or comparison",
+        "broader accessible judgment"
+      ],
+      "subtopics": [
+        "Extreme Weather and Preparedness"
+      ]
+    },
+    {
+      "set_title": "Climate and Everyday Responsibility",
+      "question_functions": [
+        "personal preference or experience",
+        "concrete choice or description",
+        "explanation or comparison",
+        "broader accessible judgment"
+      ],
+      "subtopics": [
+        "Climate and Everyday Responsibility"
+      ]
+    }
+  ]
+}

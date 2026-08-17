@@ -97,14 +97,14 @@ The resulting structure should reflect the natural lexical needs of the topic ra
 
 This is a substantial reference pack, not a short lesson or representative sample.
 
-* Aim for **at least 10 genuinely distinct thematic sections**. Broad topics will often justify **12–18 sections**.
-* Aim for **100 or more headwords in total**. Broad or lexically rich topics will often justify **120–180 or more** when the language remains useful and non-repetitive.
-* Aim for **100 or more useful phrases, sentence parts, or free collocations in total**. Broad topics will often justify **120–180 or more**.
-* Aim for at least **15 specific subtopics or speaking angles** in the coverage map, and normally 20 or more for a broad topic.
+* Aim for approximately **7–9 genuinely distinct thematic sections** when that organization remains natural.
+* Aim for approximately **55–75 strong headwords in total**, stopping earlier rather than adding marginal weather terminology.
+* Aim for approximately **55–80 useful phrases, sentence parts, or free collocations in total**.
+* Aim for at least **12 specific subtopics or speaking angles** in the coverage map.
 
 These are strong depth expectations, not quotas or reasons to add filler. Continue beyond them whenever useful everyday speaking vocabulary remains. “The more the better” means the more **genuinely teachable, topic-relevant, non-duplicative** material the better.
 
-You may stop below a preferred target when reaching it would require marginal synonyms, weakly related language, generic expressions, excessive overlap with another pack, obscure terminology, or artificial section splitting. However, a finished pack must still contain at least **8 real sections, 80 strong headwords, and 80 strong reusable chunks**. Treat those lower numbers as anti-thinness floors, not satisfactory targets. If the material falls below a preferred target, make the existing coverage especially strong and varied rather than padding it.
+You may stop below a preferred target when reaching it would require marginal synonyms, weakly related language, generic expressions, excessive overlap with another pack, obscure terminology, or artificial section splitting. For this deliberately narrower topic, a finished pack must still contain at least **6 real sections, 50 strong headwords, and 50 strong reusable chunks**. These are anti-thinness floors, not quotas. Prioritize individually polished definitions, examples, and collocations over size.
 
 Do not satisfy the totals by making ten equally sized sections. Section sizes must still vary according to lexical richness. Do not combine several substantial seed subtopics into one broad section merely to keep the output compact. A seed subtopic may share a section with another only when their useful language substantially overlaps; otherwise give it its own section or a clearly focused added section.
 
@@ -174,6 +174,27 @@ Every example must:
 
 Examples must also vary across the complete pack. Do not recycle the same person, situation, sentence frame, reason, or generic claim with a different headword inserted. Silently compare examples before returning the output and replace repetitive or semantically weak ones.
 
+### No substitution-template examples
+
+Never write examples by creating a generic sentence frame and substituting each new headword into the same grammatical slot. This remains an error even when every resulting sentence is technically understandable.
+
+For example, do not generate a series such as:
+
+* “A change in **heatwave** affected our afternoon.”
+* “A change in **humidity** affected our afternoon.”
+* “A change in **sunshine** affected our afternoon.”
+
+The first sentence is also unidiomatic because English speakers do not normally describe a heatwave as something that changes in that structure. Each example must respect the headword's normal grammar, countability, complements, typical subjects and objects, and real-world use.
+
+Write each pair independently. Before accepting an example, ask:
+
+1. Would a proficient speaker naturally choose this exact noun phrase, verb pattern, preposition, article, and collocation?
+2. Does the surrounding situation demonstrate this headword's particular meaning rather than merely mentioning weather or the topic?
+3. If the headword were removed, would this still look like the same frame used for several nearby cards? If yes, rewrite it.
+4. Does the example provide enough concrete context to distinguish this item from related vocabulary?
+
+Across the final JSON, mentally replace every headword with `[HEADWORD]` and compare the remaining sentence frames. No normalized frame may recur for three or more headwords. Do not evade this check through trivial changes to names, pronouns, time expressions, or punctuation; rewrite the underlying situation and syntax.
+
 Include a useful mixture of:
 
 * nouns;
@@ -195,6 +216,14 @@ Give several natural collocations for each headword. Include different grammatic
 * contrastive patterns.
 
 Do not manufacture collocations merely to reach a number.
+
+### No substitution-template collocations
+
+Never generate collocations by attaching the same stock pattern to every noun, adjective, or verb. Part-of-speech compatibility does not make a combination idiomatic. Patterns such as `prepare for + noun`, `check the + noun`, `very + adjective`, or `need to + verb` must be selected only when the resulting complete expression is genuinely established and useful for that particular headword.
+
+For example, `prepare for a heatwave` is natural, while `prepare for degree` is nonsense. `Check the forecast` is natural, while `check the sunshine` normally is not. Articles and number also matter: use `prepare for a heatwave`, not `prepare for heatwave`.
+
+Choose every collocation from the headword's real usage rather than from a reusable card template. After drafting, mentally replace each headword with `[HEADWORD]` and compare the remaining collocation frames across the pack. If the same frame has been applied repeatedly merely because the words share a part of speech, reselect the collocations independently. Read every complete expression aloud and reject it if a proficient speaker would not naturally say it in the intended sense.
 
 ### Variable collocation quantity requirement
 

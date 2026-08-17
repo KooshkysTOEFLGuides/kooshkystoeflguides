@@ -145,15 +145,15 @@ The heading should express the reusable idea clearly. The “Use in context” s
 
 ## Quantity
 
-Aim for **at least 10 genuinely distinct thematic categories**. Broad topics will often justify **12–18 categories**. Do not collapse substantial seed or Step 1 subtopics merely to keep the bank compact.
+Aim for approximately **6–9 genuinely distinct thematic categories**. Combine angles whose underlying reasoning substantially overlaps, but do not collapse unrelated seed or Step 1 subtopics merely to keep the bank compact.
 
-Aim for **100 or more strong ideas**. Broad topics will often justify **120–180 or more** when genuinely distinct answer angles remain.
+Aim for approximately **55–75 strong ideas**. Continue only while genuinely distinct, reusable answer mechanisms remain.
 
-For each major category, normally provide approximately 8–14 strong ideas, but vary the number naturally. Do not mechanically give every category exactly 10 ideas or use symmetrical section sizes merely to reach the total.
+For each major category, normally provide approximately 6–11 strong ideas, but vary the number naturally. Do not mechanically give every category the same number of ideas or use symmetrical section sizes merely to reach the total.
 
 These are strong depth expectations, not quotas or stopping points. Continue beyond them when useful content remains, but do not pad the bank with weak, generic, or repetitive ideas merely to increase the count.
 
-You may stop below a preferred target when reaching it would require restating the same mechanism, adding generic claims, forcing irrelevant social angles, or dividing one natural category artificially. A finished bank must still contain at least **8 real categories and 90 strong ideas**. Treat those lower numbers as anti-thinness floors, not satisfactory targets.
+You may stop below a preferred target when reaching it would require restating the same mechanism, adding generic claims, forcing irrelevant social angles, or dividing one natural category artificially. For this deliberately narrower topic, a finished bank must still contain at least **6 real categories and 55 strong ideas**. Treat those lower numbers as anti-thinness floors, not targets, and prefer fewer individually developed ideas to templated filler.
 
 Before returning the JSON, count the categories and ideas silently. If an anti-thinness floor is not met, identify under-covered seed or added subtopics and develop more distinct ideas. If a preferred target is not met, first search carefully for genuinely distinct answer angles, but stop rather than pad when none remains.
 

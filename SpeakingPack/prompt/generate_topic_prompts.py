@@ -145,6 +145,32 @@ def topic_values(topic: Topic) -> dict[str, str]:
     }
 
 
+def apply_topic_overrides(topic: Topic, name: str, content: str) -> str:
+    """Apply documented narrow-topic prompt rules after master rendering."""
+    if topic.title != "Weather, Seasons, and Climate in Daily Life":
+        return content
+    replacements: dict[str, list[tuple[str, str]]] = {
+        "words.txt": [
+            ("* Aim for **at least 10 genuinely distinct thematic sections**. Broad topics will often justify **12–18 sections**.", "* Aim for approximately **7–9 genuinely distinct thematic sections** when that organization remains natural."),
+            ("* Aim for **100 or more headwords in total**. Broad or lexically rich topics will often justify **120–180 or more** when the language remains useful and non-repetitive.", "* Aim for approximately **55–75 strong headwords in total**, stopping earlier rather than adding marginal weather terminology."),
+            ("* Aim for **100 or more useful phrases, sentence parts, or free collocations in total**. Broad topics will often justify **120–180 or more**.", "* Aim for approximately **55–80 useful phrases, sentence parts, or free collocations in total**."),
+            ("* Aim for at least **15 specific subtopics or speaking angles** in the coverage map, and normally 20 or more for a broad topic.", "* Aim for at least **12 specific subtopics or speaking angles** in the coverage map."),
+            ("You may stop below a preferred target when reaching it would require marginal synonyms, weakly related language, generic expressions, excessive overlap with another pack, obscure terminology, or artificial section splitting. However, a finished pack must still contain at least **8 real sections, 80 strong headwords, and 80 strong reusable chunks**. Treat those lower numbers as anti-thinness floors, not satisfactory targets. If the material falls below a preferred target, make the existing coverage especially strong and varied rather than padding it.", "You may stop below a preferred target when reaching it would require marginal synonyms, weakly related language, generic expressions, excessive overlap with another pack, obscure terminology, or artificial section splitting. For this deliberately narrower topic, a finished pack must still contain at least **6 real sections, 50 strong headwords, and 50 strong reusable chunks**. These are anti-thinness floors, not quotas. Prioritize individually polished definitions, examples, and collocations over size."),
+        ],
+        "ideas.txt": [
+            ("Aim for **at least 10 genuinely distinct thematic categories**. Broad topics will often justify **12–18 categories**. Do not collapse substantial seed or Step 1 subtopics merely to keep the bank compact.", "Aim for approximately **6–9 genuinely distinct thematic categories**. Combine angles whose underlying reasoning substantially overlaps, but do not collapse unrelated seed or Step 1 subtopics merely to keep the bank compact."),
+            ("Aim for **100 or more strong ideas**. Broad topics will often justify **120–180 or more** when genuinely distinct answer angles remain.", "Aim for approximately **55–75 strong ideas**. Continue only while genuinely distinct, reusable answer mechanisms remain."),
+            ("For each major category, normally provide approximately 8–14 strong ideas, but vary the number naturally. Do not mechanically give every category exactly 10 ideas or use symmetrical section sizes merely to reach the total.", "For each major category, normally provide approximately 6–11 strong ideas, but vary the number naturally. Do not mechanically give every category the same number of ideas or use symmetrical section sizes merely to reach the total."),
+            ("You may stop below a preferred target when reaching it would require restating the same mechanism, adding generic claims, forcing irrelevant social angles, or dividing one natural category artificially. A finished bank must still contain at least **8 real categories and 90 strong ideas**. Treat those lower numbers as anti-thinness floors, not satisfactory targets.", "You may stop below a preferred target when reaching it would require restating the same mechanism, adding generic claims, forcing irrelevant social angles, or dividing one natural category artificially. For this deliberately narrower topic, a finished bank must still contain at least **6 real categories and 55 strong ideas**. Treat those lower numbers as anti-thinness floors, not targets, and prefer fewer individually developed ideas to templated filler."),
+        ],
+    }
+    for old, new in replacements.get(name, []):
+        if old not in content:
+            raise ValueError(f"Weather prompt override is stale in {name}: {old!r}")
+        content = content.replace(old, new)
+    return content
+
+
 def write_text(path: Path, content: str, dry_run: bool) -> bool:
     if path.exists() and path.read_text(encoding="utf-8") == content:
         return False
@@ -249,6 +275,7 @@ def synchronize(topics_path: Path, dry_run: bool = False, refresh_locked_prompts
         topic_changes = 0
         for name, template in templates.items():
             content = render(template, values, name)
+            content = apply_topic_overrides(topic, name, content)
             topic_changes += int(write_text(prompt_dir / name, content, dry_run))
         if topic_changes:
             print(f"SYNC    {topic.directory_name} ({topic_changes} files)")

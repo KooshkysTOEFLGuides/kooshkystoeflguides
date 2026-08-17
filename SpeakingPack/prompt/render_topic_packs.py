@@ -23,6 +23,40 @@ MIN_CONTENT_SECTIONS = 8
 MIN_HEADWORDS = 80
 MIN_PHRASES = 80
 MIN_IDEAS = 90
+TOPIC_MINIMUMS = {
+    "Weather, Seasons, and Climate in Daily Life": {
+        "sections": 6,
+        "headwords": 50,
+        "phrases": 50,
+        "ideas": 55,
+    }
+}
+SUSPICIOUS_COLLOCATION_FRAMES = {
+    "check the [headword]",
+    "prepare for [headword]",
+    "affected by [headword]",
+    "a period of [headword]",
+    "changes in [headword]",
+    "deal with [headword]",
+    "because of [headword]",
+    "need to [headword]",
+    "try to [headword]",
+    "[headword] quickly",
+    "[headword] safely",
+    "[headword] when necessary",
+    "[headword] in advance",
+    "[headword] gradually",
+}
+
+
+def content_minimums(topic: str) -> dict[str, int]:
+    """Return narrow-topic exceptions without weakening global pack standards."""
+    return TOPIC_MINIMUMS.get(topic, {
+        "sections": MIN_CONTENT_SECTIONS,
+        "headwords": MIN_HEADWORDS,
+        "phrases": MIN_PHRASES,
+        "ideas": MIN_IDEAS,
+    })
 
 
 class DataError(ValueError):
@@ -109,19 +143,20 @@ def render_phrase(phrase: dict, location: str) -> str:
 
 def render_words(data: dict, path: Path, used_ids: set[str]) -> str:
     exact_keys(data, {"schema_version", "topic", "coverage_map", "sections"}, set(), str(path))
-    validate_common(data, path)
+    topic = validate_common(data, path)
+    minimums = content_minimums(topic)
     coverage = require(data["coverage_map"], list, f"{path}: coverage_map")
     for index, item in enumerate(coverage, 1):
         require(item, str, f"{path}: coverage_map[{index}]")
     sections = require(data["sections"], list, f"{path}: sections")
-    if len(sections) < MIN_CONTENT_SECTIONS:
-        raise DataError(f"{path}: sections must contain at least {MIN_CONTENT_SECTIONS} thematic sections")
+    if len(sections) < minimums["sections"]:
+        raise DataError(f"{path}: sections must contain at least {minimums['sections']} thematic sections")
     headword_total = sum(len(section.get("headwords", [])) for section in sections if isinstance(section, dict))
     phrase_total = sum(len(section.get("phrases", [])) for section in sections if isinstance(section, dict))
-    if headword_total < MIN_HEADWORDS:
-        raise DataError(f"{path}: requires at least {MIN_HEADWORDS} headwords; found {headword_total}")
-    if phrase_total < MIN_PHRASES:
-        raise DataError(f"{path}: requires at least {MIN_PHRASES} phrases; found {phrase_total}")
+    if headword_total < minimums["headwords"]:
+        raise DataError(f"{path}: requires at least {minimums['headwords']} headwords; found {headword_total}")
+    if phrase_total < minimums["phrases"]:
+        raise DataError(f"{path}: requires at least {minimums['phrases']} phrases; found {phrase_total}")
     if len(sections) >= 6:
         reject_dominant_count(
             [len(section.get("headwords", [])) for section in sections if isinstance(section, dict)],
@@ -150,6 +185,8 @@ def render_words(data: dict, path: Path, used_ids: set[str]) -> str:
             )
     output: list[str] = []
     seen_forms: set[tuple[str, str]] = set()
+    example_frames: Counter[str] = Counter()
+    collocation_frames: Counter[str] = Counter()
     for si, section in enumerate(sections, 1):
         location = f"{path}: sections[{si}]"
         require(section, dict, location)
@@ -173,9 +210,17 @@ def render_words(data: dict, path: Path, used_ids: set[str]) -> str:
             examples = require(item["examples"], list, f"{item_location}.examples")
             if len(examples) != 2 or any(not isinstance(example, str) or not example for example in examples):
                 raise DataError(f"{item_location}.examples must contain exactly two non-empty strings")
+            for example in examples:
+                frame = re.sub(re.escape(term), "[headword]", example, flags=re.IGNORECASE)
+                frame = re.sub(r"\s+", " ", frame.casefold()).strip()
+                example_frames[frame] += 1
             collocations = require(item["collocations"], list, f"{item_location}.collocations")
             if any(not isinstance(collocation, str) or not collocation for collocation in collocations):
                 raise DataError(f"{item_location}.collocations must contain non-empty strings")
+            for collocation in collocations:
+                frame = re.sub(re.escape(term), "[headword]", collocation, flags=re.IGNORECASE)
+                frame = re.sub(r"\s+", " ", frame.casefold()).strip()
+                collocation_frames[frame] += 1
             chips = "".join(f'<a class="collocation-chip" href="#" data-collocation="{esc(c)}" target="_blank" rel="noopener noreferrer">{esc(c)}</a>' for c in collocations)
             output.append(f'<article class="vocab-card"><div class="vocab-card__header"><div><h4>{esc(term)}</h4><div class="part-of-speech">{esc(part)}</div></div><button class="pronounce-button" type="button" data-pronounce="{esc(term)}" aria-label="Pronounce {esc(term)}">Listen</button></div><p class="definition">{esc(definition)}</p><ol class="example-list"><li>{esc(examples[0])}</li><li>{esc(examples[1])}</li></ol><div class="chip-list">{chips}</div></article>')
         output.append('</div><div class="phrase-bank"><h4>Useful phrases, sentence parts, and free collocations</h4><ul>')
@@ -191,12 +236,33 @@ def render_words(data: dict, path: Path, used_ids: set[str]) -> str:
     ]
     if len(collocation_counts) >= 20:
         reject_dominant_count(collocation_counts, 0.75, "headwords", path)
+    repeated_frames = [(frame, count) for frame, count in example_frames.items() if count >= 3]
+    if repeated_frames:
+        frame, count = max(repeated_frames, key=lambda item: item[1])
+        raise DataError(
+            f"{path}: substitution-template examples detected: one normalized sentence frame "
+            f"occurs {count} times ({frame!r}). Rewrite examples independently with natural, "
+            "headword-specific grammar and concrete contexts."
+        )
+    repeated_collocation_frames = [
+        (frame, count)
+        for frame, count in collocation_frames.items()
+        if count >= 25 or (count >= 5 and frame in SUSPICIOUS_COLLOCATION_FRAMES)
+    ]
+    if repeated_collocation_frames:
+        frame, count = max(repeated_collocation_frames, key=lambda item: item[1])
+        raise DataError(
+            f"{path}: substitution-template collocations detected: one normalized frame "
+            f"occurs {count} times ({frame!r}). Select natural collocations independently "
+            "for each headword; shared part of speech does not make a pattern idiomatic."
+        )
     return "".join(output)
 
 
 def render_ideas(data: dict, path: Path, used_ids: set[str]) -> str:
     exact_keys(data, {"schema_version", "topic", "sections", "coverage_audit", "added_categories"}, set(), str(path))
-    validate_common(data, path)
+    topic = validate_common(data, path)
+    minimums = content_minimums(topic)
     audit = require(data["coverage_audit"], list, f"{path}: coverage_audit")
     for ai, item in enumerate(audit, 1):
         location = f"{path}: coverage_audit[{ai}]"
@@ -211,11 +277,11 @@ def render_ideas(data: dict, path: Path, used_ids: set[str]) -> str:
     if any(not isinstance(value, str) or not value for value in data["added_categories"]):
         raise DataError(f"{path}: added_categories must contain non-empty strings")
     sections = require(data["sections"], list, f"{path}: sections")
-    if len(sections) < MIN_CONTENT_SECTIONS:
-        raise DataError(f"{path}: sections must contain at least {MIN_CONTENT_SECTIONS} thematic categories")
+    if len(sections) < minimums["sections"]:
+        raise DataError(f"{path}: sections must contain at least {minimums['sections']} thematic categories")
     idea_total = sum(len(section.get("ideas", [])) for section in sections if isinstance(section, dict))
-    if idea_total < MIN_IDEAS:
-        raise DataError(f"{path}: requires at least {MIN_IDEAS} ideas; found {idea_total}")
+    if idea_total < minimums["ideas"]:
+        raise DataError(f"{path}: requires at least {minimums['ideas']} ideas; found {idea_total}")
     if len(sections) >= 6:
         reject_dominant_count(
             [len(section.get("ideas", [])) for section in sections if isinstance(section, dict)],

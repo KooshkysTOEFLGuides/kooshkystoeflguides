@@ -1,0 +1,1423 @@
+{
+  "schema_version": 1,
+  "topic": "Weather, Seasons, and Climate in Daily Life",
+  "coverage_map": [
+    "Describing Everyday Weather",
+    "Seasons and Seasonal Change",
+    "Heat, Sunshine, and Dry Conditions",
+    "Cold, Frost, Ice, and Snow",
+    "Rain, Wind, Clouds, and Storms",
+    "Forecasts and Planning",
+    "Weather, Mood, Health, and Energy",
+    "Extreme Weather and Preparedness",
+    "Climate Change and Community Responses",
+    "favorite seasons",
+    "weather and mood",
+    "planning around weather",
+    "indoor versus outdoor plans",
+    "natural disasters"
+  ],
+  "sections": [
+    {
+      "title": "Describing Everyday Weather",
+      "headwords": [
+        {
+          "term": "weather",
+          "part_of_speech": "noun",
+          "definition": "the condition of the air outside at a particular time and place",
+          "examples": [
+            "The weather was warm enough for lunch outside.",
+            "Mountain weather can change before hikers have time to return."
+          ],
+          "collocations": [
+            "good weather",
+            "bad weather",
+            "weather conditions",
+            "weather forecast",
+            "weather permitting",
+            "under the weather"
+          ]
+        },
+        {
+          "term": "condition",
+          "part_of_speech": "noun",
+          "definition": "the state of the weather or environment at a certain time",
+          "examples": [
+            "Driving conditions became dangerous when fog covered the highway.",
+            "The race will continue only if wind conditions remain safe."
+          ],
+          "collocations": [
+            "weather conditions",
+            "driving conditions",
+            "ideal conditions",
+            "dangerous conditions"
+          ]
+        },
+        {
+          "term": "temperature",
+          "part_of_speech": "noun",
+          "definition": "a measurement of how hot or cold something is",
+          "examples": [
+            "The temperature dropped ten degrees after sunset.",
+            "I checked the water temperature before letting the children swim."
+          ],
+          "collocations": [
+            "high temperature",
+            "low temperature",
+            "room temperature",
+            "temperature rise",
+            "temperature drop",
+            "average temperature"
+          ]
+        },
+        {
+          "term": "degree",
+          "part_of_speech": "noun",
+          "definition": "a unit used for measuring temperature",
+          "examples": [
+            "It was only five degrees when I left for work.",
+            "Even a two-degree rise can make my bedroom uncomfortable at night."
+          ],
+          "collocations": [
+            "ten degrees Celsius",
+            "degrees above zero",
+            "degrees below freezing"
+          ]
+        },
+        {
+          "term": "mild",
+          "part_of_speech": "adjective",
+          "definition": "pleasantly warm and neither very hot nor very cold",
+          "examples": [
+            "We had a mild winter, so the lake never froze.",
+            "The afternoon was mild enough for my grandmother to sit in the garden."
+          ],
+          "collocations": [
+            "mild weather",
+            "mild winter",
+            "mild climate",
+            "relatively mild"
+          ]
+        },
+        {
+          "term": "pleasant",
+          "part_of_speech": "adjective",
+          "definition": "comfortable and enjoyable",
+          "examples": [
+            "A light breeze made the walk surprisingly pleasant.",
+            "The temperature is pleasant now, but it will become hotter by noon."
+          ],
+          "collocations": [
+            "pleasant weather",
+            "pleasantly warm",
+            "a pleasant breeze",
+            "pleasant conditions",
+            "surprisingly pleasant"
+          ]
+        },
+        {
+          "term": "changeable",
+          "part_of_speech": "adjective",
+          "definition": "likely to become different several times in a short period",
+          "examples": [
+            "Spring weather is changeable here; sunshine can turn to rain within an hour.",
+            "I packed both a sweater and sunglasses because the forecast looked changeable."
+          ],
+          "collocations": [
+            "changeable weather",
+            "highly changeable",
+            "remain changeable"
+          ]
+        },
+        {
+          "term": "settled",
+          "part_of_speech": "adjective",
+          "definition": "staying calm and unlikely to change soon",
+          "examples": [
+            "The weather should remain settled throughout the holiday weekend.",
+            "Farmers used the settled spell to finish work that rain had delayed."
+          ],
+          "collocations": [
+            "settled weather",
+            "a settled spell",
+            "remain settled",
+            "more settled conditions"
+          ]
+        }
+      ],
+      "phrases": [
+        {
+          "text": "the weather is fairly mild",
+          "reusable_core": "the weather is fairly mild"
+        },
+        {
+          "text": "a sudden change in the weather",
+          "reusable_core": "a sudden change in the weather"
+        },
+        {
+          "text": "warmer than usual for this time of year",
+          "reusable_core": "warmer than usual for this time of year"
+        },
+        {
+          "text": "cooler in the shade",
+          "reusable_core": "cooler in the shade"
+        },
+        {
+          "text": "a pleasant day to be outside",
+          "reusable_core": "a pleasant day to be outside"
+        },
+        {
+          "text": "typical weather for this region",
+          "reusable_core": "typical weather for this region"
+        },
+        {
+          "text": "the temperature dropped overnight",
+          "reusable_core": "the temperature dropped overnight"
+        }
+      ]
+    },
+    {
+      "title": "Seasons and Seasonal Change",
+      "headwords": [
+        {
+          "term": "season",
+          "part_of_speech": "noun",
+          "definition": "one of the main periods of the year with its own typical weather",
+          "examples": [
+            "Autumn is my favorite season because the air becomes cooler and clearer.",
+            "The rainy season usually begins in late May."
+          ],
+          "collocations": [
+            "favorite season",
+            "rainy season",
+            "dry season",
+            "holiday season",
+            "peak season",
+            "change of season"
+          ]
+        },
+        {
+          "term": "spring",
+          "part_of_speech": "noun",
+          "definition": "the season after winter when plants begin growing again",
+          "examples": [
+            "In spring, I start walking to work again as the days become longer.",
+            "The park fills with flowers during the first weeks of spring."
+          ],
+          "collocations": [
+            "early spring",
+            "late spring",
+            "in the spring",
+            "spring weather"
+          ]
+        },
+        {
+          "term": "summer",
+          "part_of_speech": "noun",
+          "definition": "the warmest season of the year",
+          "examples": [
+            "We eat dinner on the balcony during summer.",
+            "Last summer was so dry that the city restricted garden watering."
+          ],
+          "collocations": [
+            "hot summer",
+            "summer heat",
+            "summer holiday",
+            "during the summer",
+            "long summer days"
+          ]
+        },
+        {
+          "term": "autumn",
+          "part_of_speech": "noun",
+          "definition": "the season between summer and winter when many leaves fall",
+          "examples": [
+            "The trees outside my window turn orange in autumn.",
+            "Cool autumn evenings are perfect for long walks."
+          ],
+          "collocations": [
+            "early autumn",
+            "autumn leaves",
+            "autumn weather"
+          ]
+        },
+        {
+          "term": "winter",
+          "part_of_speech": "noun",
+          "definition": "the coldest season of the year",
+          "examples": [
+            "Our heating bill rises sharply every winter.",
+            "I visit my parents more often in winter because we enjoy quiet evenings indoors."
+          ],
+          "collocations": [
+            "cold winter",
+            "winter weather",
+            "winter months",
+            "during winter",
+            "harsh winter"
+          ]
+        },
+        {
+          "term": "seasonal change",
+          "part_of_speech": "noun",
+          "definition": "a regular difference that happens as one season becomes another",
+          "examples": [
+            "The first cold nights are a clear sign of seasonal change.",
+            "Seasonal change affects when local farmers plant and harvest crops."
+          ],
+          "collocations": [
+            "gradual seasonal change",
+            "respond to seasonal change",
+            "signs of seasonal change",
+            "seasonal changes in temperature"
+          ]
+        },
+        {
+          "term": "transition",
+          "part_of_speech": "noun",
+          "definition": "the process of changing from one season or condition to another",
+          "examples": [
+            "The transition from winter to spring is slow in mountain towns.",
+            "I adjust my sleep schedule during the transition to shorter days."
+          ],
+          "collocations": [
+            "seasonal transition",
+            "smooth transition",
+            "transition from winter to spring"
+          ]
+        }
+      ],
+      "phrases": [
+        {
+          "text": "my favorite time of year",
+          "reusable_core": "my favorite time of year"
+        },
+        {
+          "text": "as winter turns into spring",
+          "reusable_core": "as winter turns into spring"
+        },
+        {
+          "text": "the days start getting longer",
+          "reusable_core": "the days start getting longer"
+        },
+        {
+          "text": "the leaves begin to change color",
+          "reusable_core": "the leaves begin to change color"
+        },
+        {
+          "text": "flowers come into bloom",
+          "reusable_core": "flowers come into bloom"
+        },
+        {
+          "text": "a noticeable change in daylight",
+          "reusable_core": "a noticeable change in daylight"
+        }
+      ]
+    },
+    {
+      "title": "Heat, Sunshine, and Dry Conditions",
+      "headwords": [
+        {
+          "term": "heat",
+          "part_of_speech": "noun",
+          "definition": "hot weather or a high temperature",
+          "examples": [
+            "The midday heat forced us to shorten our walk.",
+            "I opened every window once the evening heat began to fade."
+          ],
+          "collocations": [
+            "extreme heat",
+            "summer heat",
+            "midday heat",
+            "escape the heat",
+            "cope with the heat",
+            "heat warning"
+          ]
+        },
+        {
+          "term": "sunshine",
+          "part_of_speech": "noun",
+          "definition": "light and warmth that come directly from the sun",
+          "examples": [
+            "After a week of rain, the sunshine brought everyone back to the park.",
+            "This room gets plenty of sunshine in the morning."
+          ],
+          "collocations": [
+            "bright sunshine",
+            "warm sunshine",
+            "hours of sunshine",
+            "enjoy the sunshine"
+          ]
+        },
+        {
+          "term": "heatwave",
+          "part_of_speech": "noun",
+          "definition": "an unusually long period of very hot weather",
+          "examples": [
+            "During last July's heatwave, the library stayed open as a public cooling space.",
+            "The heatwave lasted six days and made it difficult to sleep at night."
+          ],
+          "collocations": [
+            "severe heatwave",
+            "prolonged heatwave",
+            "during a heatwave",
+            "heatwave warning",
+            "prepare for a heatwave"
+          ]
+        },
+        {
+          "term": "humid",
+          "part_of_speech": "adjective",
+          "definition": "containing a lot of water in the air and feeling uncomfortable",
+          "examples": [
+            "The air was so humid that my clothes felt damp after a short walk.",
+            "I find humid evenings more tiring than dry heat."
+          ],
+          "collocations": [
+            "hot and humid",
+            "humid climate",
+            "humid conditions"
+          ]
+        },
+        {
+          "term": "humidity",
+          "part_of_speech": "noun",
+          "definition": "the amount of water in the air",
+          "examples": [
+            "High humidity made the thirty-degree temperature feel much hotter.",
+            "The museum controls humidity to protect old paintings."
+          ],
+          "collocations": [
+            "high humidity",
+            "low humidity",
+            "humidity level",
+            "increase in humidity",
+            "relative humidity",
+            "reduce humidity"
+          ]
+        },
+        {
+          "term": "dry",
+          "part_of_speech": "adjective",
+          "definition": "having little rain or moisture",
+          "examples": [
+            "The ground remained dry because the shower lasted only a few minutes.",
+            "My skin becomes dry when indoor heating runs all day."
+          ],
+          "collocations": [
+            "hot and dry",
+            "dry climate",
+            "dry conditions",
+            "remain dry"
+          ]
+        },
+        {
+          "term": "drought",
+          "part_of_speech": "noun",
+          "definition": "a long period with too little rain",
+          "examples": [
+            "The drought left the reservoir at its lowest level in years.",
+            "Farmers changed crops after several seasons of drought."
+          ],
+          "collocations": [
+            "severe drought",
+            "prolonged drought",
+            "drought conditions",
+            "drought warning",
+            "affected by drought"
+          ]
+        },
+        {
+          "term": "shade",
+          "part_of_speech": "noun",
+          "definition": "a cooler area protected from direct sunlight",
+          "examples": [
+            "We moved the picnic table into the shade of a large tree.",
+            "There was no shade at the bus stop, so passengers stood beside a nearby building."
+          ],
+          "collocations": [
+            "in the shade",
+            "provide shade",
+            "seek shade",
+            "a shaded area",
+            "partial shade",
+            "deep shade"
+          ]
+        }
+      ],
+      "phrases": [
+        {
+          "text": "stay out of direct sunlight",
+          "reusable_core": "stay out of direct sunlight"
+        },
+        {
+          "text": "drink plenty of water",
+          "reusable_core": "drink plenty of water"
+        },
+        {
+          "text": "take a break in the shade",
+          "reusable_core": "take a break in the shade"
+        },
+        {
+          "text": "during the hottest part of the day",
+          "reusable_core": "during the hottest part of the day"
+        },
+        {
+          "text": "a long period without rain",
+          "reusable_core": "a long period without rain"
+        },
+        {
+          "text": "hot and humid conditions",
+          "reusable_core": "hot and humid conditions"
+        },
+        {
+          "text": "protect my skin from the sun",
+          "reusable_core": "protect my skin from the sun"
+        },
+        {
+          "text": "let the room cool down",
+          "reusable_core": "let the room cool down"
+        }
+      ]
+    },
+    {
+      "title": "Cold, Frost, Ice, and Snow",
+      "headwords": [
+        {
+          "term": "cold",
+          "part_of_speech": "noun",
+          "definition": "weather with a low temperature",
+          "examples": [
+            "The cold made my hands ache while I waited for the bus.",
+            "Some plants cannot survive the winter cold without protection."
+          ],
+          "collocations": [
+            "extreme cold",
+            "winter cold",
+            "protect against the cold",
+            "out in the cold"
+          ]
+        },
+        {
+          "term": "chilly",
+          "part_of_speech": "adjective",
+          "definition": "uncomfortably cool but not extremely cold",
+          "examples": [
+            "The morning was chilly, so I wore a light jacket.",
+            "It became chilly beside the lake as soon as the sun went down."
+          ],
+          "collocations": [
+            "a chilly morning",
+            "slightly chilly",
+            "turn chilly"
+          ]
+        },
+        {
+          "term": "freezing",
+          "part_of_speech": "adjective",
+          "definition": "extremely cold or at a temperature where water becomes ice",
+          "examples": [
+            "The apartment was freezing when the heating stopped working.",
+            "We avoided the trail because freezing rain had covered it with ice."
+          ],
+          "collocations": [
+            "freezing cold",
+            "below freezing",
+            "freezing temperatures",
+            "freezing rain",
+            "absolutely freezing"
+          ]
+        },
+        {
+          "term": "frost",
+          "part_of_speech": "noun",
+          "definition": "a thin layer of ice that forms on cold surfaces",
+          "examples": [
+            "A thin layer of frost covered the car windows at dawn.",
+            "Gardeners protected the young plants from overnight frost."
+          ],
+          "collocations": [
+            "heavy frost",
+            "overnight frost",
+            "ground frost",
+            "frost warning"
+          ]
+        },
+        {
+          "term": "icy",
+          "part_of_speech": "adjective",
+          "definition": "covered with ice or dangerously slippery",
+          "examples": [
+            "The steps were icy, so I held the railing and walked slowly.",
+            "An icy wind made the playground feel colder than the thermometer suggested."
+          ],
+          "collocations": [
+            "icy roads",
+            "icy conditions",
+            "icy wind"
+          ]
+        },
+        {
+          "term": "snowfall",
+          "part_of_speech": "noun",
+          "definition": "the amount or period of snow that falls",
+          "examples": [
+            "Overnight snowfall closed several mountain roads.",
+            "The city received very little snowfall this winter."
+          ],
+          "collocations": [
+            "heavy snowfall",
+            "light snowfall",
+            "annual snowfall",
+            "record snowfall",
+            "snowfall total"
+          ]
+        },
+        {
+          "term": "blizzard",
+          "part_of_speech": "noun",
+          "definition": "a severe snowstorm with strong winds",
+          "examples": [
+            "The blizzard reduced visibility so much that drivers could not see the road.",
+            "We stayed inside until the blizzard warning ended."
+          ],
+          "collocations": [
+            "severe blizzard",
+            "blizzard conditions",
+            "blizzard warning",
+            "caught in a blizzard"
+          ]
+        }
+      ],
+      "phrases": [
+        {
+          "text": "temperatures fell below freezing",
+          "reusable_core": "temperatures fell below freezing"
+        },
+        {
+          "text": "wrap up in warm clothes",
+          "reusable_core": "wrap up in warm clothes"
+        },
+        {
+          "text": "roads became dangerously icy",
+          "reusable_core": "roads became dangerously icy"
+        },
+        {
+          "text": "a heavy blanket of snow",
+          "reusable_core": "a heavy blanket of snow"
+        },
+        {
+          "text": "clear snow from the entrance",
+          "reusable_core": "clear snow from the entrance"
+        },
+        {
+          "text": "wait for the ice to thaw",
+          "reusable_core": "wait for the ice to thaw"
+        },
+        {
+          "text": "keep the house comfortably warm",
+          "reusable_core": "keep the house comfortably warm"
+        },
+        {
+          "text": "struggle to start in the cold",
+          "reusable_core": "struggle to start in the cold"
+        },
+        {
+          "text": "a severe winter storm",
+          "reusable_core": "a severe winter storm"
+        }
+      ]
+    },
+    {
+      "title": "Rain, Wind, Clouds, and Storms",
+      "headwords": [
+        {
+          "term": "drizzle",
+          "part_of_speech": "noun",
+          "definition": "very light rain made of small drops",
+          "examples": [
+            "A light drizzle began while I was walking home.",
+            "The drizzle was not heavy enough to cancel the outdoor market."
+          ],
+          "collocations": [
+            "light drizzle",
+            "steady drizzle",
+            "patches of drizzle"
+          ]
+        },
+        {
+          "term": "shower",
+          "part_of_speech": "noun",
+          "definition": "a short period of rain",
+          "examples": [
+            "A brief shower cooled the streets after a hot afternoon.",
+            "We waited in a café until the rain shower passed."
+          ],
+          "collocations": [
+            "brief shower",
+            "heavy shower",
+            "scattered showers",
+            "rain shower"
+          ]
+        },
+        {
+          "term": "downpour",
+          "part_of_speech": "noun",
+          "definition": "a sudden period of very heavy rain",
+          "examples": [
+            "We were soaked after getting caught in a sudden downpour.",
+            "The downpour flooded the entrance to the underground station."
+          ],
+          "collocations": [
+            "sudden downpour",
+            "torrential downpour",
+            "caught in a downpour",
+            "during the downpour",
+            "heavy downpour"
+          ]
+        },
+        {
+          "term": "rainfall",
+          "part_of_speech": "noun",
+          "definition": "the amount of rain that falls in a place and period",
+          "examples": [
+            "This region receives most of its rainfall in winter.",
+            "Low rainfall has reduced the amount of water available to farms."
+          ],
+          "collocations": [
+            "heavy rainfall",
+            "annual rainfall",
+            "average rainfall",
+            "rainfall total",
+            "low rainfall",
+            "record rainfall"
+          ]
+        },
+        {
+          "term": "overcast",
+          "part_of_speech": "adjective",
+          "definition": "covered with cloud and without direct sunshine",
+          "examples": [
+            "The sky remained overcast, but it never actually rained.",
+            "It was an overcast morning with soft light and no shadows."
+          ],
+          "collocations": [
+            "overcast sky",
+            "overcast conditions",
+            "remain overcast"
+          ]
+        },
+        {
+          "term": "cloudy",
+          "part_of_speech": "adjective",
+          "definition": "having many clouds in the sky",
+          "examples": [
+            "The afternoon will be cloudy with a few sunny breaks.",
+            "Cloudy weather kept the beach quiet even though it was warm."
+          ],
+          "collocations": [
+            "mostly cloudy",
+            "partly cloudy",
+            "cloudy weather",
+            "turn cloudy"
+          ]
+        },
+        {
+          "term": "breeze",
+          "part_of_speech": "noun",
+          "definition": "a light and pleasant wind",
+          "examples": [
+            "A cool breeze came through the open window.",
+            "The sea breeze made the hot afternoon comfortable."
+          ],
+          "collocations": [
+            "gentle breeze",
+            "cool breeze",
+            "light breeze",
+            "sea breeze",
+            "a breeze picks up"
+          ]
+        },
+        {
+          "term": "gust",
+          "part_of_speech": "noun",
+          "definition": "a sudden short burst of strong wind",
+          "examples": [
+            "A strong gust blew my umbrella inside out.",
+            "Sudden gusts made it unsafe to continue the boat trip."
+          ],
+          "collocations": [
+            "strong gust",
+            "sudden gust",
+            "gust of wind",
+            "wind gusts"
+          ]
+        },
+        {
+          "term": "windy",
+          "part_of_speech": "adjective",
+          "definition": "having a lot of wind",
+          "examples": [
+            "It was too windy to eat comfortably outside.",
+            "We chose a sheltered path because the coast was especially windy."
+          ],
+          "collocations": [
+            "windy weather",
+            "windy conditions",
+            "extremely windy"
+          ]
+        }
+      ],
+      "phrases": [
+        {
+          "text": "caught in a sudden downpour",
+          "reusable_core": "caught in a sudden downpour"
+        },
+        {
+          "text": "a strong chance of rain",
+          "reusable_core": "a strong chance of rain"
+        },
+        {
+          "text": "the sky looks overcast",
+          "reusable_core": "the sky looks overcast"
+        },
+        {
+          "text": "the rain should clear up soon",
+          "reusable_core": "the rain should clear up soon"
+        },
+        {
+          "text": "strong gusts of wind",
+          "reusable_core": "strong gusts of wind"
+        },
+        {
+          "text": "light rain on and off",
+          "reusable_core": "light rain on and off"
+        },
+        {
+          "text": "take an umbrella just in case",
+          "reusable_core": "take an umbrella just in case"
+        },
+        {
+          "text": "hear thunder in the distance",
+          "reusable_core": "hear thunder in the distance"
+        }
+      ]
+    },
+    {
+      "title": "Forecasts and Planning",
+      "headwords": [
+        {
+          "term": "forecast",
+          "part_of_speech": "noun",
+          "definition": "a statement predicting future weather",
+          "examples": [
+            "The forecast says the rain will stop before noon.",
+            "I check the weekend forecast before planning a hike."
+          ],
+          "collocations": [
+            "weather forecast",
+            "long-range forecast",
+            "hourly forecast",
+            "accurate forecast",
+            "check the forecast",
+            "according to the forecast"
+          ]
+        },
+        {
+          "term": "forecast",
+          "part_of_speech": "verb",
+          "definition": "to predict what the weather will be like",
+          "examples": [
+            "Meteorologists forecast heavy snow for the northern mountains.",
+            "The app forecast a sunny morning, but clouds arrived early."
+          ],
+          "collocations": [
+            "forecast rain",
+            "forecast strong winds",
+            "be forecast to rise",
+            "accurately forecast"
+          ]
+        },
+        {
+          "term": "prediction",
+          "part_of_speech": "noun",
+          "definition": "a statement about what is expected to happen",
+          "examples": [
+            "The prediction of strong wind led organizers to cancel the concert.",
+            "Yesterday's rain prediction turned out to be wrong."
+          ],
+          "collocations": [
+            "weather prediction",
+            "accurate prediction",
+            "make a prediction"
+          ]
+        },
+        {
+          "term": "accurate",
+          "part_of_speech": "adjective",
+          "definition": "correct and free from mistakes",
+          "examples": [
+            "The hourly forecast was accurate enough for us to time our walk.",
+            "Weather predictions become less accurate several days into the future."
+          ],
+          "collocations": [
+            "accurate forecast",
+            "highly accurate",
+            "reasonably accurate",
+            "accurate information"
+          ]
+        },
+        {
+          "term": "unpredictable",
+          "part_of_speech": "adjective",
+          "definition": "changing in a way that is difficult to know in advance",
+          "examples": [
+            "Mountain storms are unpredictable, even in summer.",
+            "The weather was too unpredictable for an outdoor wedding without a backup venue."
+          ],
+          "collocations": [
+            "unpredictable weather",
+            "highly unpredictable",
+            "become unpredictable",
+            "unpredictable conditions"
+          ]
+        },
+        {
+          "term": "check",
+          "part_of_speech": "verb",
+          "definition": "to look for the latest information",
+          "examples": [
+            "I check the chance of rain before cycling to class.",
+            "Please check the road warnings before starting the trip."
+          ],
+          "collocations": [
+            "check the forecast",
+            "check the temperature",
+            "check for warnings",
+            "check before leaving",
+            "check regularly"
+          ]
+        },
+        {
+          "term": "postpone",
+          "part_of_speech": "verb",
+          "definition": "to arrange an activity for a later time",
+          "examples": [
+            "We postponed the match because lightning was moving toward the field.",
+            "The school may postpone its picnic until the ground dries."
+          ],
+          "collocations": [
+            "postpone the event",
+            "postpone until tomorrow",
+            "postpone because of rain"
+          ]
+        }
+      ],
+      "phrases": [
+        {
+          "text": "check the forecast before leaving",
+          "reusable_core": "check the forecast before leaving"
+        },
+        {
+          "text": "keep an eye on the weather",
+          "reusable_core": "keep an eye on the weather"
+        },
+        {
+          "text": "change plans at the last minute",
+          "reusable_core": "change plans at the last minute"
+        },
+        {
+          "text": "have an indoor backup plan",
+          "reusable_core": "have an indoor backup plan"
+        },
+        {
+          "text": "the forecast turned out to be accurate",
+          "reusable_core": "the forecast turned out to be accurate"
+        },
+        {
+          "text": "difficult to predict in advance",
+          "reusable_core": "difficult to predict in advance"
+        }
+      ]
+    },
+    {
+      "title": "Weather, Mood, Health, and Energy",
+      "headwords": [
+        {
+          "term": "mood",
+          "part_of_speech": "noun",
+          "definition": "the way a person feels at a particular time",
+          "examples": [
+            "Bright morning light often improves my mood.",
+            "Rain does not ruin my mood if I already have an indoor plan."
+          ],
+          "collocations": [
+            "good mood",
+            "bad mood",
+            "improve your mood",
+            "affect your mood",
+            "lift your mood"
+          ]
+        },
+        {
+          "term": "energized",
+          "part_of_speech": "adjective",
+          "definition": "feeling active and ready to do things",
+          "examples": [
+            "I feel energized after walking outside on a cool morning.",
+            "The first sunny day of spring made everyone seem more energized."
+          ],
+          "collocations": [
+            "feel energized",
+            "more energized",
+            "refreshed and energized"
+          ]
+        },
+        {
+          "term": "sluggish",
+          "part_of_speech": "adjective",
+          "definition": "moving or thinking more slowly than usual",
+          "examples": [
+            "Hot, humid afternoons make me feel sluggish at work.",
+            "I was sluggish the next morning because the heat had disturbed my sleep."
+          ],
+          "collocations": [
+            "feel sluggish",
+            "mentally sluggish",
+            "sluggish in the heat",
+            "become sluggish"
+          ]
+        },
+        {
+          "term": "refreshed",
+          "part_of_speech": "adjective",
+          "definition": "feeling less tired and more comfortable",
+          "examples": [
+            "The cooler air after the storm left me feeling refreshed.",
+            "I felt refreshed after taking a short walk in the morning sunshine."
+          ],
+          "collocations": [
+            "feel refreshed",
+            "wake up refreshed",
+            "refreshed after a break"
+          ]
+        },
+        {
+          "term": "irritable",
+          "part_of_speech": "adjective",
+          "definition": "becoming annoyed more easily than usual",
+          "examples": [
+            "I become irritable when a hot bedroom keeps me awake.",
+            "The children grew irritable after spending too long in the heat."
+          ],
+          "collocations": [
+            "feel irritable",
+            "become irritable",
+            "tired and irritable",
+            "increasingly irritable"
+          ]
+        },
+        {
+          "term": "seasonal allergies",
+          "part_of_speech": "noun",
+          "definition": "physical reactions to pollen at certain times of year",
+          "examples": [
+            "My seasonal allergies become worse when trees release pollen in spring.",
+            "Seasonal allergies sometimes keep me indoors on otherwise beautiful days."
+          ],
+          "collocations": [
+            "suffer from seasonal allergies",
+            "seasonal allergy symptoms",
+            "manage seasonal allergies",
+            "severe seasonal allergies"
+          ]
+        },
+        {
+          "term": "pollen",
+          "part_of_speech": "noun",
+          "definition": "fine powder from plants that can cause allergies",
+          "examples": [
+            "The weather report warned that pollen levels would be high.",
+            "Rain temporarily washed pollen out of the air."
+          ],
+          "collocations": [
+            "pollen count",
+            "high pollen levels",
+            "airborne pollen",
+            "pollen season",
+            "allergic to pollen"
+          ]
+        },
+        {
+          "term": "sunburn",
+          "part_of_speech": "noun",
+          "definition": "red and painful skin caused by too much sunlight",
+          "examples": [
+            "I got a painful sunburn after forgetting to reapply sunscreen.",
+            "A hat protected my face from sunburn during the long hike."
+          ],
+          "collocations": [
+            "severe sunburn",
+            "painful sunburn",
+            "get sunburn",
+            "prevent sunburn"
+          ]
+        }
+      ],
+      "phrases": [
+        {
+          "text": "put me in a better mood",
+          "reusable_core": "put me in a better mood"
+        },
+        {
+          "text": "feel tired in gloomy weather",
+          "reusable_core": "feel tired in gloomy weather"
+        },
+        {
+          "text": "sleep better on cooler nights",
+          "reusable_core": "sleep better on cooler nights"
+        },
+        {
+          "text": "suffer from seasonal allergies",
+          "reusable_core": "suffer from seasonal allergies"
+        },
+        {
+          "text": "avoid being out in the midday sun",
+          "reusable_core": "avoid being out in the midday sun"
+        },
+        {
+          "text": "feel refreshed after the rain",
+          "reusable_core": "feel refreshed after the rain"
+        },
+        {
+          "text": "have less energy than usual",
+          "reusable_core": "have less energy than usual"
+        }
+      ]
+    },
+    {
+      "title": "Extreme Weather and Preparedness",
+      "headwords": [
+        {
+          "term": "extreme weather",
+          "part_of_speech": "noun",
+          "definition": "unusually severe or dangerous weather",
+          "examples": [
+            "The city opened emergency shelters during the extreme weather.",
+            "Extreme weather can interrupt electricity, transport, and medical services at the same time."
+          ],
+          "collocations": [
+            "extreme weather event",
+            "extreme weather warning",
+            "prepare for extreme weather",
+            "damage from extreme weather",
+            "increasingly extreme weather"
+          ]
+        },
+        {
+          "term": "flood",
+          "part_of_speech": "noun",
+          "definition": "a large amount of water covering normally dry land",
+          "examples": [
+            "The flood damaged shops along the river.",
+            "Residents moved upstairs as flood water entered the ground floor."
+          ],
+          "collocations": [
+            "severe flood",
+            "flash flood",
+            "flood warning",
+            "flood damage"
+          ]
+        },
+        {
+          "term": "flood",
+          "part_of_speech": "verb",
+          "definition": "to cover a place with too much water",
+          "examples": [
+            "Heavy rain can flood this road within twenty minutes.",
+            "A broken drainage pipe flooded the school basement."
+          ],
+          "collocations": [
+            "flood the road",
+            "flood nearby homes",
+            "be flooded with water"
+          ]
+        },
+        {
+          "term": "wildfire",
+          "part_of_speech": "noun",
+          "definition": "a large uncontrolled fire spreading through natural land",
+          "examples": [
+            "Smoke from the wildfire reached towns many kilometers away.",
+            "Firefighters contained the wildfire before it reached nearby homes."
+          ],
+          "collocations": [
+            "major wildfire",
+            "wildfire smoke",
+            "wildfire season",
+            "wildfire risk",
+            "contain a wildfire"
+          ]
+        },
+        {
+          "term": "hurricane",
+          "part_of_speech": "noun",
+          "definition": "a powerful tropical storm with very strong winds",
+          "examples": [
+            "The hurricane damaged roofs and knocked down power lines.",
+            "Families left the coastal area before the hurricane arrived."
+          ],
+          "collocations": [
+            "powerful hurricane",
+            "hurricane warning",
+            "hurricane season",
+            "hurricane damage",
+            "prepare for a hurricane",
+            "hurricane-force winds"
+          ]
+        },
+        {
+          "term": "tornado",
+          "part_of_speech": "noun",
+          "definition": "a violently rotating column of air reaching the ground",
+          "examples": [
+            "The tornado destroyed several buildings along a narrow path.",
+            "Sirens warned residents to take shelter from the approaching tornado."
+          ],
+          "collocations": [
+            "powerful tornado",
+            "tornado warning",
+            "tornado damage",
+            "tornado touches down"
+          ]
+        },
+        {
+          "term": "evacuate",
+          "part_of_speech": "verb",
+          "definition": "to leave a dangerous place for safety",
+          "examples": [
+            "Officials told the neighborhood to evacuate before the river rose further.",
+            "Hospital staff practiced how to evacuate patients during a fire."
+          ],
+          "collocations": [
+            "evacuate residents",
+            "evacuate the area",
+            "evacuate safely"
+          ]
+        },
+        {
+          "term": "shelter",
+          "part_of_speech": "noun",
+          "definition": "a safe place that protects people from danger or weather",
+          "examples": [
+            "The community center served as a shelter during the storm.",
+            "Hikers found shelter in a cabin when lightning began."
+          ],
+          "collocations": [
+            "emergency shelter",
+            "temporary shelter",
+            "seek shelter",
+            "take shelter",
+            "provide shelter"
+          ]
+        }
+      ],
+      "phrases": [
+        {
+          "text": "follow official safety advice",
+          "reusable_core": "follow official safety advice"
+        },
+        {
+          "text": "leave the area immediately",
+          "reusable_core": "leave the area immediately"
+        },
+        {
+          "text": "keep an emergency kit ready",
+          "reusable_core": "keep an emergency kit ready"
+        },
+        {
+          "text": "prepare for a possible power outage",
+          "reusable_core": "prepare for a possible power outage"
+        },
+        {
+          "text": "move to a safer place",
+          "reusable_core": "move to a safer place"
+        },
+        {
+          "text": "check on older neighbors",
+          "reusable_core": "check on older neighbors"
+        },
+        {
+          "text": "avoid unnecessary travel",
+          "reusable_core": "avoid unnecessary travel"
+        },
+        {
+          "text": "recover from storm damage",
+          "reusable_core": "recover from storm damage"
+        },
+        {
+          "text": "receive an emergency warning",
+          "reusable_core": "receive an emergency warning"
+        }
+      ]
+    },
+    {
+      "title": "Climate Change and Community Responses",
+      "headwords": [
+        {
+          "term": "climate change",
+          "part_of_speech": "noun",
+          "definition": "long-term changes in global or regional climate patterns",
+          "examples": [
+            "Climate change is increasing the frequency of very hot days in some regions.",
+            "The city created a long-term climate change plan for water and transport."
+          ],
+          "collocations": [
+            "global climate change",
+            "effects of climate change",
+            "adapt to climate change",
+            "address climate change",
+            "climate change policy"
+          ]
+        },
+        {
+          "term": "global warming",
+          "part_of_speech": "noun",
+          "definition": "the long-term rise in Earth's average temperature",
+          "examples": [
+            "Global warming raises average temperatures over decades, not just during one summer.",
+            "Scientists track ocean temperatures to understand global warming."
+          ],
+          "collocations": [
+            "limit global warming",
+            "effects of global warming",
+            "global warming trend"
+          ]
+        },
+        {
+          "term": "emission",
+          "part_of_speech": "noun",
+          "definition": "gas or pollution released into the air",
+          "examples": [
+            "The new buses produce fewer emissions than the older diesel vehicles.",
+            "Heating buildings is a major source of carbon emissions in cold cities."
+          ],
+          "collocations": [
+            "carbon emissions",
+            "greenhouse-gas emissions",
+            "reduce emissions",
+            "vehicle emissions"
+          ]
+        },
+        {
+          "term": "carbon footprint",
+          "part_of_speech": "noun",
+          "definition": "the amount of greenhouse gas caused by a person or activity",
+          "examples": [
+            "Taking the train instead of flying reduced the trip's carbon footprint.",
+            "The school measured its carbon footprint before replacing old heating equipment."
+          ],
+          "collocations": [
+            "reduce your carbon footprint",
+            "large carbon footprint",
+            "calculate a carbon footprint",
+            "household carbon footprint",
+            "smaller carbon footprint"
+          ]
+        },
+        {
+          "term": "renewable energy",
+          "part_of_speech": "noun",
+          "definition": "power from sources that naturally replace themselves",
+          "examples": [
+            "The town uses renewable energy from nearby wind turbines.",
+            "Solar panels provide renewable energy for the sports center."
+          ],
+          "collocations": [
+            "renewable energy source",
+            "invest in renewable energy",
+            "generate renewable energy"
+          ]
+        },
+        {
+          "term": "adapt",
+          "part_of_speech": "verb",
+          "definition": "to change in order to manage new conditions",
+          "examples": [
+            "Farmers may need to adapt to longer dry periods.",
+            "Cities are adapting streets and parks to cope with hotter summers."
+          ],
+          "collocations": [
+            "adapt to change",
+            "adapt to hotter weather",
+            "adapt quickly",
+            "help communities adapt"
+          ]
+        },
+        {
+          "term": "resilient",
+          "part_of_speech": "adjective",
+          "definition": "able to recover from difficulty or damaging events",
+          "examples": [
+            "A resilient power system can recover quickly after a storm.",
+            "The community became more resilient by improving drainage and emergency plans."
+          ],
+          "collocations": [
+            "resilient community",
+            "climate-resilient infrastructure",
+            "become more resilient",
+            "economically resilient"
+          ]
+        },
+        {
+          "term": "conserve",
+          "part_of_speech": "verb",
+          "definition": "to use water, energy, or resources carefully",
+          "examples": [
+            "Residents were asked to conserve water during the drought.",
+            "We conserve energy by lowering the heating when nobody is home."
+          ],
+          "collocations": [
+            "conserve water",
+            "conserve energy",
+            "conserve natural resources"
+          ]
+        }
+      ],
+      "phrases": [
+        {
+          "text": "reduce my carbon footprint",
+          "reusable_core": "reduce my carbon footprint"
+        },
+        {
+          "text": "use energy more efficiently",
+          "reusable_core": "use energy more efficiently"
+        },
+        {
+          "text": "adapt to hotter summers",
+          "reusable_core": "adapt to hotter summers"
+        },
+        {
+          "text": "invest in renewable energy",
+          "reusable_core": "invest in renewable energy"
+        },
+        {
+          "text": "improve public transportation",
+          "reusable_core": "improve public transportation"
+        },
+        {
+          "text": "prepare for long-term change",
+          "reusable_core": "prepare for long-term change"
+        },
+        {
+          "text": "conserve water during dry periods",
+          "reusable_core": "conserve water during dry periods"
+        },
+        {
+          "text": "build more resilient communities",
+          "reusable_core": "build more resilient communities"
+        }
+      ]
+    }
+  ]
+}
