@@ -13,7 +13,7 @@
 
 - `apps.html`
 - `apps-data.js`
-- `APP_STYLE_PROMPT.md` (reference prompt; it does not need to be public)
+- `AGENTS.md` (repository-wide instructions for article, app, brand, and deployment work; it does not need to be public)
 
 ## Word of the Day files
 
