@@ -1,0 +1,2296 @@
+{
+  "schema_version": 1,
+  "topic": "Work, Jobs, and Career",
+  "coverage_map": [
+    "choosing a job",
+    "job satisfaction",
+    "salary and wages",
+    "fulfillment",
+    "job security",
+    "career growth",
+    "workplace environment",
+    "workplace stress",
+    "types of work",
+    "job responsibilities",
+    "large and small companies",
+    "employee benefits",
+    "flexible schedules",
+    "remote and hybrid work",
+    "commuting and work",
+    "work–life balance",
+    "reasons people feel unhappy at work",
+    "professional development",
+    "job searching and applications",
+    "interviews and hiring",
+    "teamwork and leadership",
+    "workplace fairness and inclusion",
+    "career changes and unemployment",
+    "future of work"
+  ],
+  "sections": [
+    {
+      "title": "Choosing Work and Setting a Direction",
+      "headwords": [
+        {
+          "term": "career",
+          "part_of_speech": "noun",
+          "definition": "the sequence of jobs and professional experiences a person has over time",
+          "examples": [
+            "She hopes to build a career in public health.",
+            "Changing careers at forty gave him a stronger sense of purpose."
+          ],
+          "collocations": [
+            "choose a career",
+            "career path",
+            "career goal",
+            "career change",
+            "long-term career",
+            "successful career"
+          ]
+        },
+        {
+          "term": "occupation",
+          "part_of_speech": "noun",
+          "definition": "a person's regular type of paid work",
+          "examples": [
+            "Teaching is a demanding occupation, but it can be deeply rewarding.",
+            "The survey asked participants to state their occupation and highest qualification."
+          ],
+          "collocations": [
+            "skilled occupation",
+            "professional occupation",
+            "current occupation"
+          ]
+        },
+        {
+          "term": "profession",
+          "part_of_speech": "noun",
+          "definition": "a type of work that usually requires specialized education or training",
+          "examples": [
+            "Nursing is a profession that combines technical knowledge with compassion.",
+            "She entered the legal profession after completing graduate school."
+          ],
+          "collocations": [
+            "enter a profession",
+            "medical profession",
+            "choose a profession",
+            "professional standards",
+            "professional ethics"
+          ]
+        },
+        {
+          "term": "vocation",
+          "part_of_speech": "noun",
+          "definition": "work that a person feels especially suited to and strongly motivated to do",
+          "examples": [
+            "He sees working with children as a vocation, not simply a way to earn money.",
+            "It took several jobs before Mina discovered her vocation in environmental education."
+          ],
+          "collocations": [
+            "find your vocation",
+            "sense of vocation",
+            "feel called to a vocation"
+          ]
+        },
+        {
+          "term": "career path",
+          "part_of_speech": "noun phrase",
+          "definition": "the series of roles, choices, and stages through which a career develops",
+          "examples": [
+            "Software testing was not her original career path, but she quickly enjoyed the work.",
+            "A mentor helped me see several career paths connected to my degree."
+          ],
+          "collocations": [
+            "clear career path",
+            "traditional career path",
+            "alternative career path",
+            "follow a career path"
+          ]
+        },
+        {
+          "term": "career prospects",
+          "part_of_speech": "plural noun",
+          "definition": "the chances of finding good work and progressing in a particular field",
+          "examples": [
+            "Students often consider career prospects when choosing a major.",
+            "Learning data skills improved his career prospects in a competitive market."
+          ],
+          "collocations": [
+            "good career prospects",
+            "improve career prospects",
+            "future career prospects",
+            "limited career prospects"
+          ]
+        },
+        {
+          "term": "calling",
+          "part_of_speech": "noun",
+          "definition": "a strong feeling that a particular kind of work is personally meaningful",
+          "examples": [
+            "For her, animal rescue became a calling after years of volunteering.",
+            "Not everyone needs to regard a job as a calling; stability can be a valid priority."
+          ],
+          "collocations": [
+            "find a calling",
+            "personal calling",
+            "sense of calling"
+          ]
+        },
+        {
+          "term": "priority",
+          "part_of_speech": "noun",
+          "definition": "something considered more important than other factors in a decision",
+          "examples": [
+            "A predictable schedule is my main priority because I care for an elderly parent.",
+            "His priorities changed after he had children, so he stopped traveling for work."
+          ],
+          "collocations": [
+            "top priority",
+            "set priorities",
+            "competing priorities",
+            "career priority",
+            "balance competing priorities"
+          ]
+        },
+        {
+          "term": "fulfilling",
+          "part_of_speech": "adjective",
+          "definition": "giving a strong sense of purpose, satisfaction, or personal value",
+          "examples": [
+            "I find tutoring fulfilling because I can see a student's confidence grow.",
+            "A prestigious title does not guarantee that the daily work will be fulfilling."
+          ],
+          "collocations": [
+            "fulfilling career",
+            "emotionally fulfilling",
+            "find work fulfilling",
+            "personally fulfilling"
+          ]
+        },
+        {
+          "term": "suitable",
+          "part_of_speech": "adjective",
+          "definition": "right for a particular person, purpose, or situation",
+          "examples": [
+            "A night shift would not be suitable for someone who has morning classes.",
+            "The counselor suggested roles that were suitable for his patient personality."
+          ],
+          "collocations": [
+            "suitable job",
+            "suitable candidate",
+            "suitable for someone",
+            "highly suitable"
+          ]
+        },
+        {
+          "term": "strength",
+          "part_of_speech": "noun",
+          "definition": "a skill or quality that someone performs especially well",
+          "examples": [
+            "Explaining difficult ideas in simple language is one of her main strengths.",
+            "An interview is easier when applicants can connect a personal strength to the role."
+          ],
+          "collocations": [
+            "personal strength",
+            "key strength",
+            "build on your strengths",
+            "identify a strength"
+          ]
+        },
+        {
+          "term": "aptitude",
+          "part_of_speech": "noun",
+          "definition": "a natural ability or potential to learn a particular skill",
+          "examples": [
+            "His aptitude for fixing machines led him toward technical training.",
+            "An aptitude test may suggest options, but it should not make the decision for you."
+          ],
+          "collocations": [
+            "natural aptitude",
+            "show an aptitude for",
+            "aptitude test",
+            "technical aptitude",
+            "aptitude for languages"
+          ]
+        }
+      ],
+      "phrases": [
+        {
+          "text": "I would choose a job that gives me a sense of purpose.",
+          "reusable_core": "gives me a sense of purpose"
+        },
+        {
+          "text": "My long-term goal is to work in a field where I can keep learning.",
+          "reusable_core": "My long-term goal is"
+        },
+        {
+          "text": "That role would suit my personality because I enjoy solving practical problems.",
+          "reusable_core": "suit my personality"
+        },
+        {
+          "text": "Salary matters, but it is not the only factor I would consider.",
+          "reusable_core": "not the only factor I would consider"
+        },
+        {
+          "text": "I am still exploring several possible career paths.",
+          "reusable_core": "exploring several possible career paths"
+        },
+        {
+          "text": "The work matches both my interests and my strengths.",
+          "reusable_core": "matches both my interests and my strengths"
+        },
+        {
+          "text": "I would rather do meaningful work than chase an impressive title.",
+          "reusable_core": "do meaningful work"
+        },
+        {
+          "text": "A stable position would give me room to plan for the future.",
+          "reusable_core": "room to plan for the future"
+        },
+        {
+          "text": "My priorities may change at different stages of my life.",
+          "reusable_core": "at different stages of my life"
+        },
+        {
+          "text": "I can imagine myself doing that kind of work for many years.",
+          "reusable_core": "imagine myself doing that kind of work"
+        },
+        {
+          "text": "The best choice depends on a person's goals and responsibilities.",
+          "reusable_core": "depends on a person's goals and responsibilities"
+        },
+        {
+          "text": "I would test the field through an internship before committing to it.",
+          "reusable_core": "before committing to it"
+        }
+      ]
+    },
+    {
+      "title": "Advancement, Career Change, and the Future of Work",
+      "headwords": [
+        {
+          "term": "promotion",
+          "part_of_speech": "noun",
+          "definition": "a move to a more senior job with greater responsibility or pay",
+          "examples": [
+            "Her promotion meant supervising people who had recently been her peers.",
+            "He declined a promotion because it required frequent travel away from home."
+          ],
+          "collocations": [
+            "earn a promotion",
+            "apply for a promotion",
+            "promotion opportunity",
+            "promotion prospects"
+          ]
+        },
+        {
+          "term": "promote",
+          "part_of_speech": "verb",
+          "definition": "to move an employee to a more senior position",
+          "examples": [
+            "The company promoted her after she successfully led two difficult projects.",
+            "Managers should explain why one person was promoted and others were not."
+          ],
+          "collocations": [
+            "promote an employee",
+            "promote someone to manager",
+            "promote internally",
+            "recently promoted"
+          ]
+        },
+        {
+          "term": "advance",
+          "part_of_speech": "verb",
+          "definition": "to make progress toward a more senior or skilled position",
+          "examples": [
+            "Professional certificates helped him advance in the construction industry.",
+            "Some employees prefer mastering their current role to advancing into management."
+          ],
+          "collocations": [
+            "advance your career",
+            "advance within a company",
+            "opportunity to advance"
+          ]
+        },
+        {
+          "term": "resign",
+          "part_of_speech": "verb",
+          "definition": "to formally leave a job by choice",
+          "examples": [
+            "She resigned after accepting a position closer to her family.",
+            "An employee should not feel forced to resign because of persistent harassment."
+          ],
+          "collocations": [
+            "resign from a job",
+            "resign immediately",
+            "formally resign",
+            "decision to resign"
+          ]
+        },
+        {
+          "term": "layoff",
+          "part_of_speech": "noun",
+          "definition": "the loss of a job because an employer reduces staff rather than because of poor performance",
+          "examples": [
+            "The factory layoff affected many families in the same small town.",
+            "After the layoff, he used a public retraining program to learn electrical work."
+          ],
+          "collocations": [
+            "mass layoff",
+            "face a layoff",
+            "announce layoffs",
+            "temporary layoff"
+          ]
+        },
+        {
+          "term": "unemployed",
+          "part_of_speech": "adjective",
+          "definition": "without paid work while available for and often seeking a job",
+          "examples": [
+            "She was unemployed for four months between two contracts.",
+            "Being unemployed can affect confidence as well as household income."
+          ],
+          "collocations": [
+            "become unemployed",
+            "long-term unemployed",
+            "currently unemployed",
+            "remain unemployed"
+          ]
+        },
+        {
+          "term": "freelancer",
+          "part_of_speech": "noun",
+          "definition": "a self-employed person who works for different clients rather than one permanent employer",
+          "examples": [
+            "As a freelancer, he chooses his projects but must find his own clients.",
+            "The agency hired a freelance photographer for the weekend event."
+          ],
+          "collocations": [
+            "work as a freelancer",
+            "independent freelancer",
+            "hire a freelancer",
+            "freelance work"
+          ]
+        },
+        {
+          "term": "entrepreneur",
+          "part_of_speech": "noun",
+          "definition": "a person who starts and manages a business while accepting financial risk",
+          "examples": [
+            "The young entrepreneur tested her food-delivery idea in one neighborhood first.",
+            "A successful entrepreneur needs persistence, but also the judgment to change a weak plan."
+          ],
+          "collocations": [
+            "local entrepreneur",
+            "successful entrepreneur",
+            "aspiring entrepreneur",
+            "support entrepreneurs"
+          ]
+        },
+        {
+          "term": "retrain",
+          "part_of_speech": "verb",
+          "definition": "to learn new skills for a different job or changed occupation",
+          "examples": [
+            "He retrained as a heating technician after the mine closed.",
+            "Employers may need to retrain staff when artificial intelligence changes routine tasks."
+          ],
+          "collocations": [
+            "retrain as",
+            "retrain for a new career",
+            "retrain workers",
+            "opportunity to retrain"
+          ]
+        },
+        {
+          "term": "reskill",
+          "part_of_speech": "verb",
+          "definition": "to teach or learn substantially different abilities for changing work",
+          "examples": [
+            "The program reskills office workers for roles in digital support.",
+            "It is unfair to discuss automation without helping affected employees reskill."
+          ],
+          "collocations": [
+            "reskill employees",
+            "reskill for new roles",
+            "reskilling program",
+            "need to reskill"
+          ]
+        },
+        {
+          "term": "gig economy",
+          "part_of_speech": "noun phrase",
+          "definition": "a labor market based on short, separate jobs arranged through clients or platforms",
+          "examples": [
+            "The gig economy gives some drivers freedom to choose their hours.",
+            "People in the gig economy may lack paid leave and predictable income."
+          ],
+          "collocations": [
+            "gig-economy worker",
+            "work in the gig economy",
+            "growth of the gig economy",
+            "gig-economy platform"
+          ]
+        }
+      ],
+      "phrases": [
+        {
+          "text": "A promotion is worthwhile only if the new duties suit the person.",
+          "reusable_core": "only if the new duties suit the person"
+        },
+        {
+          "text": "People sometimes leave a good employer because there is no room to grow.",
+          "reusable_core": "no room to grow"
+        },
+        {
+          "text": "Changing careers can be risky, but it may restore motivation.",
+          "reusable_core": "may restore motivation"
+        },
+        {
+          "text": "A period of unemployment should not define someone's ability.",
+          "reusable_core": "should not define someone's ability"
+        },
+        {
+          "text": "Retraining gives displaced workers a realistic path into another field.",
+          "reusable_core": "a realistic path into another field"
+        },
+        {
+          "text": "Freelancing offers independence in exchange for less predictable income.",
+          "reusable_core": "in exchange for less predictable income"
+        },
+        {
+          "text": "New technology may change the content of jobs rather than remove them entirely.",
+          "reusable_core": "rather than remove them entirely"
+        },
+        {
+          "text": "Governments and employers should share the cost of reskilling.",
+          "reusable_core": "share the cost of reskilling"
+        },
+        {
+          "text": "Starting a business requires careful testing, not confidence alone.",
+          "reusable_core": "careful testing"
+        },
+        {
+          "text": "Career growth does not always mean becoming a manager.",
+          "reusable_core": "does not always mean becoming a manager"
+        },
+        {
+          "text": "Workers will need to keep learning throughout their careers.",
+          "reusable_core": "keep learning throughout their careers"
+        }
+      ]
+    },
+    {
+      "title": "Teams, Colleagues, and Leadership",
+      "headwords": [
+        {
+          "term": "colleague",
+          "part_of_speech": "noun",
+          "definition": "a person who works in the same organization or profession",
+          "examples": [
+            "A colleague covered my afternoon shift when my child became ill.",
+            "I often exchange lesson plans with colleagues in other departments."
+          ],
+          "collocations": [
+            "close colleague",
+            "former colleague",
+            "support a colleague",
+            "work with colleagues"
+          ]
+        },
+        {
+          "term": "collaborate",
+          "part_of_speech": "verb",
+          "definition": "to work with other people toward a shared result",
+          "examples": [
+            "Designers collaborated with nurses to make the device easier to use.",
+            "Remote teams can collaborate well when decisions are written down clearly."
+          ],
+          "collocations": [
+            "collaborate with",
+            "collaborate on a project",
+            "collaborate closely",
+            "effective collaboration"
+          ]
+        },
+        {
+          "term": "teamwork",
+          "part_of_speech": "noun",
+          "definition": "the combined effort of people who cooperate effectively",
+          "examples": [
+            "Good teamwork allowed the restaurant to serve a large group without long delays.",
+            "A brilliant individual cannot replace teamwork during an emergency."
+          ],
+          "collocations": [
+            "effective teamwork",
+            "encourage teamwork",
+            "teamwork skills",
+            "depend on teamwork"
+          ]
+        },
+        {
+          "term": "supervisor",
+          "part_of_speech": "noun",
+          "definition": "a person responsible for directing and checking another employee's work",
+          "examples": [
+            "My supervisor lets me solve routine problems without asking permission each time.",
+            "The intern reported the damaged equipment to her supervisor immediately."
+          ],
+          "collocations": [
+            "direct supervisor",
+            "supportive supervisor",
+            "report to a supervisor",
+            "supervisor approval"
+          ]
+        },
+        {
+          "term": "manager",
+          "part_of_speech": "noun",
+          "definition": "a person responsible for a team, department, or organization",
+          "examples": [
+            "The manager rearranged the shifts after listening to the staff.",
+            "A capable manager deals with conflict before it harms the whole team."
+          ],
+          "collocations": [
+            "line manager",
+            "senior manager",
+            "effective manager",
+            "managerial position",
+            "report to a manager"
+          ]
+        },
+        {
+          "term": "leadership",
+          "part_of_speech": "noun",
+          "definition": "the ability or activity of guiding a group and making responsible decisions",
+          "examples": [
+            "Her calm leadership kept the project moving after the budget was reduced.",
+            "Leadership also involves admitting when someone else has a better idea."
+          ],
+          "collocations": [
+            "strong leadership",
+            "leadership style",
+            "show leadership",
+            "leadership skills"
+          ]
+        },
+        {
+          "term": "delegate",
+          "part_of_speech": "verb",
+          "definition": "to give an appropriate task or responsibility to another person",
+          "examples": [
+            "The coordinator delegated the bookings to someone with more local knowledge.",
+            "New managers sometimes struggle to delegate because they want to control every detail."
+          ],
+          "collocations": [
+            "delegate a task",
+            "delegate responsibility",
+            "delegate effectively",
+            "learn to delegate"
+          ]
+        },
+        {
+          "term": "conflict",
+          "part_of_speech": "noun",
+          "definition": "a serious disagreement between people or groups",
+          "examples": [
+            "A conflict arose because two employees received contradictory instructions.",
+            "Private conversation resolved the conflict before it affected customers."
+          ],
+          "collocations": [
+            "workplace conflict",
+            "resolve a conflict",
+            "avoid conflict",
+            "conflict between colleagues",
+            "source of conflict"
+          ]
+        },
+        {
+          "term": "cooperative",
+          "part_of_speech": "adjective",
+          "definition": "willing to work helpfully with other people",
+          "examples": [
+            "The entire team was cooperative when we needed to exchange shifts.",
+            "A cooperative attitude matters when several departments share limited resources."
+          ],
+          "collocations": [
+            "cooperative colleague",
+            "cooperative approach",
+            "remain cooperative",
+            "highly cooperative"
+          ]
+        },
+        {
+          "term": "accountable",
+          "part_of_speech": "adjective",
+          "definition": "responsible for decisions and expected to explain their results",
+          "examples": [
+            "Team leaders should be accountable for unrealistic deadlines.",
+            "When everyone is accountable for a clear task, problems are easier to trace."
+          ],
+          "collocations": [
+            "hold someone accountable",
+            "accountable for results",
+            "personally accountable",
+            "remain accountable"
+          ]
+        },
+        {
+          "term": "micromanage",
+          "part_of_speech": "verb",
+          "definition": "to control another person's work with unnecessary attention to small details",
+          "examples": [
+            "A boss who micromanages every email can slow the team down.",
+            "She stopped micromanaging after she saw that the new staff could work independently."
+          ],
+          "collocations": [
+            "micromanage employees",
+            "tendency to micromanage",
+            "feel micromanaged"
+          ]
+        },
+        {
+          "term": "network",
+          "part_of_speech": "verb",
+          "definition": "to develop professional relationships that may provide information or opportunities",
+          "examples": [
+            "Students can network naturally by asking speakers thoughtful questions after an event.",
+            "I networked with other translators through a professional association."
+          ],
+          "collocations": [
+            "network with professionals",
+            "network effectively",
+            "network online",
+            "opportunity to network"
+          ]
+        }
+      ],
+      "phrases": [
+        {
+          "text": "We divided the work according to each person's strengths.",
+          "reusable_core": "according to each person's strengths"
+        },
+        {
+          "text": "A reliable colleague makes a busy shift much easier.",
+          "reusable_core": "makes a busy shift much easier"
+        },
+        {
+          "text": "The manager listened to both sides before making a decision.",
+          "reusable_core": "listened to both sides"
+        },
+        {
+          "text": "People cooperate better when roles are clearly defined.",
+          "reusable_core": "roles are clearly defined"
+        },
+        {
+          "text": "I would raise the issue privately and respectfully.",
+          "reusable_core": "privately and respectfully"
+        },
+        {
+          "text": "Trust gives employees enough freedom to use their judgment.",
+          "reusable_core": "enough freedom to use their judgment"
+        },
+        {
+          "text": "Regular updates keep remote team members connected.",
+          "reusable_core": "keep remote team members connected"
+        },
+        {
+          "text": "The disagreement came from unclear instructions, not personal dislike.",
+          "reusable_core": "came from unclear instructions"
+        },
+        {
+          "text": "A leader should take responsibility when a plan fails.",
+          "reusable_core": "take responsibility when a plan fails"
+        },
+        {
+          "text": "Professional networking works best when the relationship is genuine.",
+          "reusable_core": "when the relationship is genuine"
+        },
+        {
+          "text": "Different viewpoints can reveal weaknesses in a proposal.",
+          "reusable_core": "reveal weaknesses in a proposal"
+        },
+        {
+          "text": "We reached a compromise that both departments could accept.",
+          "reusable_core": "reached a compromise"
+        },
+        {
+          "text": "No one should be expected to solve every problem alone.",
+          "reusable_core": "solve every problem alone"
+        }
+      ]
+    },
+    {
+      "title": "Pay, Benefits, and Employment Security",
+      "headwords": [
+        {
+          "term": "salary",
+          "part_of_speech": "noun",
+          "definition": "a fixed amount of money paid regularly for professional work",
+          "examples": [
+            "The advertised salary was reasonable for an entry-level position.",
+            "She accepted a lower salary in exchange for shorter working hours."
+          ],
+          "collocations": [
+            "annual salary",
+            "starting salary",
+            "competitive salary",
+            "salary increase",
+            "negotiate a salary"
+          ]
+        },
+        {
+          "term": "wage",
+          "part_of_speech": "noun",
+          "definition": "money paid according to hours or days worked",
+          "examples": [
+            "A higher hourly wage helped him reduce his weekend shifts.",
+            "Workers argued that the wage did not reflect the physical demands of the job."
+          ],
+          "collocations": [
+            "hourly wage",
+            "minimum wage",
+            "living wage",
+            "earn a wage",
+            "low-wage work"
+          ]
+        },
+        {
+          "term": "income",
+          "part_of_speech": "noun",
+          "definition": "money received regularly from work, business, or investments",
+          "examples": [
+            "Freelance income may change considerably from month to month.",
+            "Two sources of income gave the family more financial security."
+          ],
+          "collocations": [
+            "steady income",
+            "monthly income",
+            "earn an income",
+            "source of income",
+            "low income"
+          ]
+        },
+        {
+          "term": "benefit",
+          "part_of_speech": "noun",
+          "definition": "something valuable provided by an employer in addition to pay",
+          "examples": [
+            "Health insurance is the employee benefit I value most.",
+            "The small company cannot offer high salaries, but its benefits are generous."
+          ],
+          "collocations": [
+            "employee benefit",
+            "benefits package",
+            "health benefits",
+            "receive benefits",
+            "additional benefit"
+          ]
+        },
+        {
+          "term": "paid leave",
+          "part_of_speech": "noun phrase",
+          "definition": "authorized time away from work during which an employee continues to receive pay",
+          "examples": [
+            "He used paid leave to care for his father after an operation.",
+            "Adequate paid leave lets sick employees recover instead of infecting coworkers."
+          ],
+          "collocations": [
+            "annual paid leave",
+            "paid sick leave",
+            "take paid leave",
+            "paid parental leave"
+          ]
+        },
+        {
+          "term": "pension",
+          "part_of_speech": "noun",
+          "definition": "regular money paid after a person retires, often through a work-related plan",
+          "examples": [
+            "Her pension will cover basic expenses after retirement.",
+            "Young employees may ignore a pension plan because retirement feels distant."
+          ],
+          "collocations": [
+            "workplace pension",
+            "pension plan",
+            "receive a pension",
+            "contribute to a pension"
+          ]
+        },
+        {
+          "term": "contract",
+          "part_of_speech": "noun",
+          "definition": "a legal agreement that states employment duties, pay, and conditions",
+          "examples": [
+            "I read the contract carefully before signing it.",
+            "The temporary contract ends when the construction project is complete."
+          ],
+          "collocations": [
+            "employment contract",
+            "permanent contract",
+            "temporary contract",
+            "sign a contract",
+            "contract terms"
+          ]
+        },
+        {
+          "term": "permanent",
+          "part_of_speech": "adjective",
+          "definition": "continuing without a planned end date",
+          "examples": [
+            "After six months as a temporary assistant, she obtained a permanent position.",
+            "Permanent employment can make it easier to rent a home or plan a family."
+          ],
+          "collocations": [
+            "permanent job",
+            "permanent position",
+            "permanent employee",
+            "become permanent"
+          ]
+        },
+        {
+          "term": "temporary",
+          "part_of_speech": "adjective",
+          "definition": "lasting for only a limited period",
+          "examples": [
+            "A temporary job helped me pay expenses while I searched for graduate work.",
+            "The retailer employs temporary staff during the holiday season."
+          ],
+          "collocations": [
+            "temporary work",
+            "temporary contract",
+            "temporary position",
+            "temporary employee"
+          ]
+        },
+        {
+          "term": "job security",
+          "part_of_speech": "noun phrase",
+          "definition": "the likelihood that a person will be able to keep their job",
+          "examples": [
+            "Public-sector work appealed to him because of its job security.",
+            "Automation has reduced job security in some routine occupations."
+          ],
+          "collocations": [
+            "greater job security",
+            "lack of job security",
+            "provide job security",
+            "value job security"
+          ]
+        },
+        {
+          "term": "bonus",
+          "part_of_speech": "noun",
+          "definition": "extra money given in addition to normal pay, often for performance",
+          "examples": [
+            "The team received a bonus after completing the project early.",
+            "An individual bonus can create competition when the work depends on cooperation."
+          ],
+          "collocations": [
+            "annual bonus",
+            "performance bonus",
+            "receive a bonus",
+            "cash bonus"
+          ]
+        }
+      ],
+      "phrases": [
+        {
+          "text": "Fair pay should reflect both the skill and responsibility involved.",
+          "reusable_core": "reflect both the skill and responsibility"
+        },
+        {
+          "text": "A benefits package can be as important as the basic salary.",
+          "reusable_core": "as important as the basic salary"
+        },
+        {
+          "text": "A stable income makes long-term planning easier.",
+          "reusable_core": "makes long-term planning easier"
+        },
+        {
+          "text": "Temporary work offers flexibility but less security.",
+          "reusable_core": "flexibility but less security"
+        },
+        {
+          "text": "Employees should understand the contract before they sign it.",
+          "reusable_core": "understand the contract"
+        },
+        {
+          "text": "Paid leave allows people to recover without losing income.",
+          "reusable_core": "without losing income"
+        },
+        {
+          "text": "The raise would barely cover the increased cost of commuting.",
+          "reusable_core": "cover the increased cost"
+        }
+      ]
+    },
+    {
+      "title": "Schedules, Stress, and Work–Life Balance",
+      "headwords": [
+        {
+          "term": "shift",
+          "part_of_speech": "noun",
+          "definition": "a scheduled period during which someone works",
+          "examples": [
+            "The night shift is quieter, but it disrupts my sleep.",
+            "Two nurses exchanged shifts so one could attend a family event."
+          ],
+          "collocations": [
+            "night shift",
+            "work a shift",
+            "long shift",
+            "change shifts",
+            "shift pattern"
+          ]
+        },
+        {
+          "term": "flexitime",
+          "part_of_speech": "noun",
+          "definition": "a system that lets employees choose some of their working hours",
+          "examples": [
+            "Flexitime allows parents to avoid the busiest school-drop-off period.",
+            "Our flexitime policy still requires everyone to attend the weekly meeting."
+          ],
+          "collocations": [
+            "offer flexitime",
+            "flexitime arrangement",
+            "work flexitime"
+          ]
+        },
+        {
+          "term": "overtime",
+          "part_of_speech": "noun",
+          "definition": "time worked beyond normal hours",
+          "examples": [
+            "I worked overtime to finish the annual report, but I was paid for the extra hours.",
+            "Regular overtime can hide the fact that a department needs more staff."
+          ],
+          "collocations": [
+            "work overtime",
+            "paid overtime",
+            "overtime hours",
+            "compulsory overtime"
+          ]
+        },
+        {
+          "term": "commute",
+          "part_of_speech": "verb",
+          "definition": "to travel regularly between home and work",
+          "examples": [
+            "She commutes by train and reads during the journey.",
+            "I would not commute two hours each way unless the job offered unusual opportunities."
+          ],
+          "collocations": [
+            "commute to work",
+            "commute by train",
+            "commute long distances",
+            "daily commute"
+          ]
+        },
+        {
+          "term": "commute",
+          "part_of_speech": "noun",
+          "definition": "the regular journey between a person's home and workplace",
+          "examples": [
+            "My commute became much shorter after the office moved downtown.",
+            "A crowded commute can leave workers tired before their day begins."
+          ],
+          "collocations": [
+            "long commute",
+            "daily commute",
+            "morning commute",
+            "shorten a commute"
+          ]
+        },
+        {
+          "term": "work–life balance",
+          "part_of_speech": "noun phrase",
+          "definition": "a healthy division of time and energy between work and personal life",
+          "examples": [
+            "Flexible hours improved her work–life balance without reducing her output.",
+            "Good work–life balance requires boundaries, not just occasional holidays."
+          ],
+          "collocations": [
+            "healthy work–life balance",
+            "maintain work–life balance",
+            "improve work–life balance",
+            "poor work–life balance"
+          ]
+        },
+        {
+          "term": "stress",
+          "part_of_speech": "noun",
+          "definition": "mental or emotional pressure caused by difficult demands",
+          "examples": [
+            "Unclear priorities create more stress than a busy but organized day.",
+            "Exercise helps him manage work stress after a difficult shift."
+          ],
+          "collocations": [
+            "workplace stress",
+            "reduce stress",
+            "cause stress",
+            "manage stress",
+            "under stress"
+          ]
+        },
+        {
+          "term": "burnout",
+          "part_of_speech": "noun",
+          "definition": "severe physical and emotional exhaustion caused by prolonged pressure",
+          "examples": [
+            "Months of understaffing left several nurses close to burnout.",
+            "Taking one weekend off will not solve burnout if the workload remains unreasonable."
+          ],
+          "collocations": [
+            "experience burnout",
+            "prevent burnout",
+            "signs of burnout",
+            "employee burnout"
+          ]
+        },
+        {
+          "term": "boundary",
+          "part_of_speech": "noun",
+          "definition": "a limit that protects a person's time, responsibilities, or treatment",
+          "examples": [
+            "Turning off work email at dinner is an important boundary for me.",
+            "Managers set a poor boundary when they message staff late at night about routine matters."
+          ],
+          "collocations": [
+            "set boundaries",
+            "clear boundary",
+            "respect a boundary",
+            "workplace boundaries"
+          ]
+        },
+        {
+          "term": "well-being",
+          "part_of_speech": "noun",
+          "definition": "a person's overall physical and mental health and comfort",
+          "examples": [
+            "Natural light and quiet break areas can improve employee well-being.",
+            "The company measured well-being instead of assuming free snacks solved every problem."
+          ],
+          "collocations": [
+            "employee well-being",
+            "mental well-being",
+            "support well-being",
+            "affect well-being"
+          ]
+        }
+      ],
+      "phrases": [
+        {
+          "text": "A flexible schedule would help me manage family responsibilities.",
+          "reusable_core": "manage family responsibilities"
+        },
+        {
+          "text": "The long commute takes energy away from my personal life.",
+          "reusable_core": "takes energy away from"
+        },
+        {
+          "text": "Occasional overtime is manageable, but it should not become normal.",
+          "reusable_core": "should not become normal"
+        },
+        {
+          "text": "I need a clear boundary between working time and rest.",
+          "reusable_core": "a clear boundary between"
+        },
+        {
+          "text": "Constant pressure eventually affects both health and performance.",
+          "reusable_core": "affects both health and performance"
+        },
+        {
+          "text": "Managers should notice the early signs of burnout.",
+          "reusable_core": "early signs of burnout"
+        },
+        {
+          "text": "A shorter workweek may improve focus without reducing output.",
+          "reusable_core": "without reducing output"
+        },
+        {
+          "text": "People need enough control over how they organize their day.",
+          "reusable_core": "control over how they organize their day"
+        },
+        {
+          "text": "Rest is necessary for sustainable performance.",
+          "reusable_core": "sustainable performance"
+        },
+        {
+          "text": "The arrangement works only if coworkers are treated fairly.",
+          "reusable_core": "only if coworkers are treated fairly"
+        }
+      ]
+    },
+    {
+      "title": "Workplace Culture, Fairness, and Conditions",
+      "headwords": [
+        {
+          "term": "workplace culture",
+          "part_of_speech": "noun phrase",
+          "definition": "the shared habits, expectations, and values that shape how people behave at work",
+          "examples": [
+            "The workplace culture encourages junior staff to ask questions.",
+            "A culture of blame made employees hide small mistakes."
+          ],
+          "collocations": [
+            "positive workplace culture",
+            "toxic workplace culture",
+            "shape workplace culture",
+            "workplace culture change"
+          ]
+        },
+        {
+          "term": "inclusive",
+          "part_of_speech": "adjective",
+          "definition": "welcoming and fair to people with different backgrounds or needs",
+          "examples": [
+            "An inclusive workplace provides important information in accessible formats.",
+            "The manager made meetings more inclusive by inviting quieter staff to contribute."
+          ],
+          "collocations": [
+            "inclusive workplace",
+            "inclusive policy",
+            "inclusive environment",
+            "more inclusive"
+          ]
+        },
+        {
+          "term": "diversity",
+          "part_of_speech": "noun",
+          "definition": "the presence of people with different identities, experiences, and perspectives",
+          "examples": [
+            "The team values diversity because its clients come from many communities.",
+            "Hiring for diversity is not useful if new employees are excluded from decisions."
+          ],
+          "collocations": [
+            "workforce diversity",
+            "promote diversity",
+            "diversity of experience",
+            "value diversity"
+          ]
+        },
+        {
+          "term": "discrimination",
+          "part_of_speech": "noun",
+          "definition": "unfair treatment based on identity or another irrelevant characteristic",
+          "examples": [
+            "The organization introduced a confidential process for reporting discrimination.",
+            "Age discrimination can prevent experienced workers from finding new roles."
+          ],
+          "collocations": [
+            "workplace discrimination",
+            "face discrimination",
+            "prevent discrimination",
+            "discrimination against"
+          ]
+        },
+        {
+          "term": "harassment",
+          "part_of_speech": "noun",
+          "definition": "repeated or serious unwanted behavior that humiliates, threatens, or pressures someone",
+          "examples": [
+            "Employees need a safe way to report harassment without risking retaliation.",
+            "Training should explain harassment through realistic workplace situations."
+          ],
+          "collocations": [
+            "workplace harassment",
+            "report harassment",
+            "harassment complaint",
+            "prevent harassment"
+          ]
+        },
+        {
+          "term": "fairness",
+          "part_of_speech": "noun",
+          "definition": "the quality of treating people according to consistent and reasonable principles",
+          "examples": [
+            "Workers questioned the fairness of promoting someone without an open process.",
+            "Fairness does not always mean identical treatment when people have different needs."
+          ],
+          "collocations": [
+            "sense of fairness",
+            "procedural fairness",
+            "ensure fairness",
+            "question the fairness of"
+          ]
+        },
+        {
+          "term": "recognition",
+          "part_of_speech": "noun",
+          "definition": "acknowledgment or appreciation of someone's effort or achievement",
+          "examples": [
+            "Public recognition meant a great deal after months of difficult work.",
+            "Employees notice when only dramatic successes receive recognition."
+          ],
+          "collocations": [
+            "employee recognition",
+            "receive recognition",
+            "recognition for work",
+            "deserve recognition"
+          ]
+        },
+        {
+          "term": "morale",
+          "part_of_speech": "noun",
+          "definition": "the confidence, enthusiasm, and satisfaction shared by a group",
+          "examples": [
+            "Team morale improved after vacant positions were finally filled.",
+            "Repeated last-minute changes damaged morale even though salaries were competitive."
+          ],
+          "collocations": [
+            "staff morale",
+            "boost morale",
+            "low morale",
+            "damage morale"
+          ]
+        }
+      ],
+      "phrases": [
+        {
+          "text": "People are more likely to speak up when mistakes are treated as learning opportunities.",
+          "reusable_core": "treated as learning opportunities"
+        },
+        {
+          "text": "A respectful workplace needs clear standards and consistent action.",
+          "reusable_core": "clear standards and consistent action"
+        },
+        {
+          "text": "Recognition feels meaningful when it is specific.",
+          "reusable_core": "when it is specific"
+        },
+        {
+          "text": "Employees should have a safe way to report unfair treatment.",
+          "reusable_core": "a safe way to report"
+        },
+        {
+          "text": "Different backgrounds can improve the quality of group decisions.",
+          "reusable_core": "improve the quality of group decisions"
+        },
+        {
+          "text": "A pleasant office cannot compensate for a toxic culture.",
+          "reusable_core": "cannot compensate for"
+        },
+        {
+          "text": "Rules should be applied consistently across the organization.",
+          "reusable_core": "applied consistently"
+        },
+        {
+          "text": "People want their contribution to be noticed.",
+          "reusable_core": "their contribution to be noticed"
+        },
+        {
+          "text": "Trust is difficult to rebuild after repeated broken promises.",
+          "reusable_core": "difficult to rebuild"
+        }
+      ]
+    },
+    {
+      "title": "Remote, Hybrid, and Technology-Enabled Work",
+      "headwords": [
+        {
+          "term": "remote work",
+          "part_of_speech": "noun phrase",
+          "definition": "work done away from an employer's usual workplace, often from home",
+          "examples": [
+            "Remote work lets him live near his parents while keeping the same position.",
+            "Some employees struggle with remote work because their homes are noisy."
+          ],
+          "collocations": [
+            "remote-work arrangement",
+            "remote-work policy",
+            "switch to remote work",
+            "remote-work opportunity"
+          ]
+        },
+        {
+          "term": "hybrid",
+          "part_of_speech": "adjective",
+          "definition": "combining work at a shared workplace with work elsewhere",
+          "examples": [
+            "Our hybrid schedule includes two office days for planning and collaboration.",
+            "A hybrid role is only flexible if meetings do not favor people in the room."
+          ],
+          "collocations": [
+            "hybrid work",
+            "hybrid schedule",
+            "hybrid team",
+            "hybrid position"
+          ]
+        },
+        {
+          "term": "telecommute",
+          "part_of_speech": "verb",
+          "definition": "to work from home while communicating electronically with a workplace",
+          "examples": [
+            "She telecommutes on Fridays and uses the quiet time for detailed reports.",
+            "Employees who telecommute still need access to technical support."
+          ],
+          "collocations": [
+            "telecommute from home",
+            "option to telecommute",
+            "regularly telecommute"
+          ]
+        },
+        {
+          "term": "flexibility",
+          "part_of_speech": "noun",
+          "definition": "the ability to change when, where, or how work is done",
+          "examples": [
+            "Schedule flexibility helps students combine employment with classes.",
+            "Too much flexibility can become confusing when nobody knows when colleagues are available."
+          ],
+          "collocations": [
+            "workplace flexibility",
+            "offer flexibility",
+            "need flexibility",
+            "greater flexibility"
+          ]
+        },
+        {
+          "term": "autonomy",
+          "part_of_speech": "noun",
+          "definition": "the freedom to make decisions about one's own work",
+          "examples": [
+            "Experienced staff value autonomy because they can solve problems quickly.",
+            "Autonomy works best when goals and limits are clear."
+          ],
+          "collocations": [
+            "employee autonomy",
+            "greater autonomy",
+            "give someone autonomy",
+            "work with autonomy"
+          ]
+        },
+        {
+          "term": "automation",
+          "part_of_speech": "noun",
+          "definition": "the use of technology to perform work with little direct human action",
+          "examples": [
+            "Automation removed repetitive data entry from the administrator's role.",
+            "Workers need training when automation changes rather than eliminates their jobs."
+          ],
+          "collocations": [
+            "workplace automation",
+            "increase automation",
+            "automation technology",
+            "affected by automation"
+          ]
+        },
+        {
+          "term": "monitor",
+          "part_of_speech": "verb",
+          "definition": "to regularly observe or record work, behavior, or progress",
+          "examples": [
+            "The software monitors delivery times but does not record drivers during breaks.",
+            "Managers should monitor results without invading employees' privacy."
+          ],
+          "collocations": [
+            "monitor performance",
+            "monitor progress",
+            "closely monitor",
+            "electronically monitor"
+          ]
+        },
+        {
+          "term": "digital literacy",
+          "part_of_speech": "noun phrase",
+          "definition": "the ability to use digital tools safely, critically, and effectively",
+          "examples": [
+            "Basic digital literacy is now required in many office and service jobs.",
+            "The library offered digital-literacy training to adults returning to work."
+          ],
+          "collocations": [
+            "digital-literacy skills",
+            "improve digital literacy",
+            "lack digital literacy",
+            "digital-literacy training"
+          ]
+        },
+        {
+          "term": "disconnect",
+          "part_of_speech": "verb",
+          "definition": "to stop engaging with work communication and mentally leave work behind",
+          "examples": [
+            "I mute team notifications in the evening so I can disconnect.",
+            "Remote employees may find it harder to disconnect when their desk is in the bedroom."
+          ],
+          "collocations": [
+            "disconnect from work",
+            "right to disconnect",
+            "fully disconnect"
+          ]
+        },
+        {
+          "term": "surveillance",
+          "part_of_speech": "noun",
+          "definition": "close observation of people's actions, often through technology",
+          "examples": [
+            "Constant keyboard surveillance can damage trust without measuring useful results.",
+            "The union asked the company to explain how surveillance data would be stored."
+          ],
+          "collocations": [
+            "employee surveillance",
+            "workplace surveillance",
+            "digital surveillance",
+            "surveillance software"
+          ]
+        }
+      ],
+      "phrases": [
+        {
+          "text": "Remote work removes the daily journey but can increase isolation.",
+          "reusable_core": "can increase isolation"
+        },
+        {
+          "text": "A hybrid policy should have a clear purpose.",
+          "reusable_core": "have a clear purpose"
+        },
+        {
+          "text": "Online meetings are useful, but they cannot replace every informal conversation.",
+          "reusable_core": "cannot replace every informal conversation"
+        },
+        {
+          "text": "Employees should be judged by results rather than online activity.",
+          "reusable_core": "judged by results"
+        },
+        {
+          "text": "Technology can remove repetitive work and create time for human judgment.",
+          "reusable_core": "create time for human judgment"
+        },
+        {
+          "text": "Not everyone has a quiet room or reliable internet at home.",
+          "reusable_core": "reliable internet at home"
+        },
+        {
+          "text": "Teams need shared expectations about response times.",
+          "reusable_core": "shared expectations about response times"
+        },
+        {
+          "text": "Digital monitoring raises serious questions about privacy.",
+          "reusable_core": "questions about privacy"
+        },
+        {
+          "text": "The best arrangement depends on the task, not just personal preference.",
+          "reusable_core": "depends on the task"
+        },
+        {
+          "text": "Workers need the right to disconnect after normal hours.",
+          "reusable_core": "right to disconnect"
+        }
+      ]
+    },
+    {
+      "title": "Searching and Applying for Jobs",
+      "headwords": [
+        {
+          "term": "vacancy",
+          "part_of_speech": "noun",
+          "definition": "an available job that an employer wants to fill",
+          "examples": [
+            "I found the vacancy on the company's official careers page.",
+            "The hospital has several vacancies for experienced laboratory technicians."
+          ],
+          "collocations": [
+            "job vacancy",
+            "fill a vacancy",
+            "advertise a vacancy",
+            "current vacancies",
+            "vacancy rate"
+          ]
+        },
+        {
+          "term": "job posting",
+          "part_of_speech": "noun phrase",
+          "definition": "an advertisement describing an available position",
+          "examples": [
+            "The job posting listed communication skills as an essential requirement.",
+            "Before applying, I compared the posting with my actual experience."
+          ],
+          "collocations": [
+            "read a job posting",
+            "online job posting",
+            "respond to a job posting",
+            "detailed job posting",
+            "publish a job posting"
+          ]
+        },
+        {
+          "term": "applicant",
+          "part_of_speech": "noun",
+          "definition": "a person who formally asks to be considered for a job",
+          "examples": [
+            "Each applicant had to submit a writing sample.",
+            "The strongest applicant showed curiosity as well as relevant experience."
+          ],
+          "collocations": [
+            "job applicant",
+            "successful applicant",
+            "screen applicants",
+            "qualified applicant",
+            "applicant pool"
+          ]
+        },
+        {
+          "term": "application",
+          "part_of_speech": "noun",
+          "definition": "a formal request to be considered for a job",
+          "examples": [
+            "Her application reached the company a few hours before the deadline.",
+            "I tailored each application instead of sending the same document everywhere."
+          ],
+          "collocations": [
+            "submit an application",
+            "complete an application",
+            "application deadline",
+            "job application",
+            "review an application"
+          ]
+        },
+        {
+          "term": "apply",
+          "part_of_speech": "verb",
+          "definition": "to formally ask to be considered for a job or opportunity",
+          "examples": [
+            "I applied for three part-time jobs near campus.",
+            "You should apply even if you do not meet every preferred qualification."
+          ],
+          "collocations": [
+            "apply for a job",
+            "apply online",
+            "apply directly",
+            "apply by the deadline",
+            "apply in writing"
+          ]
+        },
+        {
+          "term": "résumé",
+          "part_of_speech": "noun",
+          "definition": "a short document summarizing a person's education, skills, and work experience",
+          "examples": [
+            "I moved my customer-service experience to the top of my résumé.",
+            "A recruiter may spend only a short time reading each résumé."
+          ],
+          "collocations": [
+            "update a résumé",
+            "send a résumé",
+            "one-page résumé",
+            "résumé review",
+            "résumé format"
+          ]
+        },
+        {
+          "term": "cover letter",
+          "part_of_speech": "noun phrase",
+          "definition": "a letter explaining why an applicant is interested in and suited to a position",
+          "examples": [
+            "Her cover letter connected her volunteer work to the organization's mission.",
+            "A generic cover letter rarely shows genuine interest in a specific role."
+          ],
+          "collocations": [
+            "write a cover letter",
+            "tailor a cover letter",
+            "strong cover letter",
+            "cover-letter opening",
+            "attach a cover letter"
+          ]
+        },
+        {
+          "term": "qualification",
+          "part_of_speech": "noun",
+          "definition": "a skill, achievement, or experience that makes someone suitable for work",
+          "examples": [
+            "Fluency in two languages was a useful qualification for the tourism role.",
+            "The position requires a teaching qualification, not just classroom experience."
+          ],
+          "collocations": [
+            "required qualification",
+            "professional qualification",
+            "meet the qualifications",
+            "relevant qualification",
+            "academic qualification"
+          ]
+        },
+        {
+          "term": "experience",
+          "part_of_speech": "noun",
+          "definition": "knowledge or skill gained by doing a job or activity",
+          "examples": [
+            "Working at the campus help desk gave me valuable experience with customers.",
+            "She lacks formal experience, but her volunteer projects show clear ability."
+          ],
+          "collocations": [
+            "work experience",
+            "relevant experience",
+            "gain experience",
+            "hands-on experience",
+            "years of experience"
+          ]
+        },
+        {
+          "term": "reference",
+          "part_of_speech": "noun",
+          "definition": "a person who can describe an applicant's character or work, or the recommendation they provide",
+          "examples": [
+            "I asked my former supervisor to serve as a reference.",
+            "The employer contacted two references before making a final offer."
+          ],
+          "collocations": [
+            "professional reference",
+            "provide a reference",
+            "contact a reference",
+            "reference check",
+            "ask for a reference"
+          ]
+        },
+        {
+          "term": "shortlist",
+          "part_of_speech": "verb",
+          "definition": "to select a small group of the strongest applicants for further consideration",
+          "examples": [
+            "The committee shortlisted six candidates for interviews.",
+            "I was pleased to be shortlisted, even though another person got the job."
+          ],
+          "collocations": [
+            "shortlist a candidate",
+            "be shortlisted for",
+            "shortlist applicants"
+          ]
+        }
+      ],
+      "phrases": [
+        {
+          "text": "I found the position through an online job board.",
+          "reusable_core": "through an online job board"
+        },
+        {
+          "text": "The advertisement caught my attention because the duties were clearly described.",
+          "reusable_core": "caught my attention"
+        },
+        {
+          "text": "I would tailor my résumé to the requirements of the role.",
+          "reusable_core": "tailor my résumé"
+        },
+        {
+          "text": "My volunteer work gave me relevant hands-on experience.",
+          "reusable_core": "relevant hands-on experience"
+        },
+        {
+          "text": "I meet most of the essential qualifications.",
+          "reusable_core": "meet most of the essential qualifications"
+        },
+        {
+          "text": "A clear cover letter can explain gaps that a résumé cannot.",
+          "reusable_core": "explain gaps"
+        },
+        {
+          "text": "It is worth applying even when the competition is strong.",
+          "reusable_core": "worth applying"
+        },
+        {
+          "text": "Job seekers should research an employer before sending an application.",
+          "reusable_core": "research an employer"
+        },
+        {
+          "text": "Personal contacts can help people hear about unadvertised openings.",
+          "reusable_core": "unadvertised openings"
+        },
+        {
+          "text": "The application process was straightforward and transparent.",
+          "reusable_core": "straightforward and transparent"
+        }
+      ]
+    },
+    {
+      "title": "Interviews, Selection, and Starting a Role",
+      "headwords": [
+        {
+          "term": "interview",
+          "part_of_speech": "noun",
+          "definition": "a formal conversation in which an employer evaluates a job candidate",
+          "examples": [
+            "The interview included questions about teamwork and time management.",
+            "I felt nervous at first, but the interviewer created a relaxed atmosphere."
+          ],
+          "collocations": [
+            "job interview",
+            "attend an interview",
+            "prepare for an interview",
+            "panel interview",
+            "interview question"
+          ]
+        },
+        {
+          "term": "interview",
+          "part_of_speech": "verb",
+          "definition": "to ask a job candidate questions in order to assess them",
+          "examples": [
+            "The company interviewed twelve people for the trainee position.",
+            "A senior engineer interviewed me and explained the daily responsibilities."
+          ],
+          "collocations": [
+            "interview a candidate",
+            "interview for a position",
+            "be interviewed by"
+          ]
+        },
+        {
+          "term": "candidate",
+          "part_of_speech": "noun",
+          "definition": "a person being considered for a job",
+          "examples": [
+            "The final candidate had strong technical skills and communicated clearly.",
+            "Employers should judge every candidate by the same criteria."
+          ],
+          "collocations": [
+            "strong candidate",
+            "ideal candidate",
+            "select a candidate",
+            "internal candidate",
+            "job candidate"
+          ]
+        },
+        {
+          "term": "recruiter",
+          "part_of_speech": "noun",
+          "definition": "a person whose job is to find and assess potential employees",
+          "examples": [
+            "A recruiter contacted her after seeing her professional profile online.",
+            "The recruiter clarified the salary range before arranging an interview."
+          ],
+          "collocations": [
+            "contact a recruiter",
+            "in-house recruiter",
+            "recruitment agency",
+            "experienced recruiter"
+          ]
+        },
+        {
+          "term": "hire",
+          "part_of_speech": "verb",
+          "definition": "to give someone a paid job",
+          "examples": [
+            "The café hires extra staff during the summer.",
+            "Managers should hire for potential as well as current skill."
+          ],
+          "collocations": [
+            "hire an employee",
+            "hire locally",
+            "hire someone for a role",
+            "newly hired"
+          ]
+        },
+        {
+          "term": "hire",
+          "part_of_speech": "noun",
+          "definition": "a person who has recently been employed",
+          "examples": [
+            "The new hire spent her first week learning the company's systems.",
+            "Each hire is paired with an experienced colleague during orientation."
+          ],
+          "collocations": [
+            "new hire",
+            "recent hire",
+            "support new hires"
+          ]
+        },
+        {
+          "term": "job offer",
+          "part_of_speech": "noun phrase",
+          "definition": "a formal proposal from an employer to give someone a position",
+          "examples": [
+            "He received a job offer two days after the final interview.",
+            "I asked for time to review the benefits before accepting the offer."
+          ],
+          "collocations": [
+            "receive a job offer",
+            "accept a job offer",
+            "decline a job offer",
+            "written job offer"
+          ]
+        },
+        {
+          "term": "negotiate",
+          "part_of_speech": "verb",
+          "definition": "to discuss terms in order to reach an agreement",
+          "examples": [
+            "She negotiated a later starting date so she could finish her current project.",
+            "Candidates may be able to negotiate salary once an offer is made."
+          ],
+          "collocations": [
+            "negotiate a salary",
+            "negotiate terms",
+            "negotiate with an employer",
+            "successfully negotiate"
+          ]
+        },
+        {
+          "term": "probation",
+          "part_of_speech": "noun",
+          "definition": "an initial period when a new employee's suitability is assessed",
+          "examples": [
+            "During probation, my supervisor met with me every Friday to discuss progress.",
+            "The contract becomes permanent after a three-month probation period."
+          ],
+          "collocations": [
+            "probation period",
+            "complete probation",
+            "on probation",
+            "extend probation"
+          ]
+        },
+        {
+          "term": "orientation",
+          "part_of_speech": "noun",
+          "definition": "an introduction that helps a new employee understand a workplace and role",
+          "examples": [
+            "The orientation covered safety rules, payroll, and the team's current projects.",
+            "A useful orientation lets new staff ask practical questions without embarrassment."
+          ],
+          "collocations": [
+            "employee orientation",
+            "orientation session",
+            "attend orientation",
+            "orientation program"
+          ]
+        }
+      ],
+      "phrases": [
+        {
+          "text": "I would prepare two concrete examples of my previous work.",
+          "reusable_core": "concrete examples of my previous work"
+        },
+        {
+          "text": "A good answer should be honest, focused, and relevant to the position.",
+          "reusable_core": "relevant to the position"
+        },
+        {
+          "text": "I would ask what success looks like in the first six months.",
+          "reusable_core": "what success looks like"
+        },
+        {
+          "text": "The interview is also a chance to evaluate the employer.",
+          "reusable_core": "a chance to evaluate the employer"
+        },
+        {
+          "text": "I need a moment to think about that question.",
+          "reusable_core": "a moment to think"
+        },
+        {
+          "text": "My main contribution would be my ability to stay calm under pressure.",
+          "reusable_core": "stay calm under pressure"
+        },
+        {
+          "text": "The salary range should be discussed before the final decision.",
+          "reusable_core": "discussed before the final decision"
+        },
+        {
+          "text": "A supportive orientation can shorten the learning curve.",
+          "reusable_core": "shorten the learning curve"
+        },
+        {
+          "text": "First impressions matter, but they should not replace fair evidence.",
+          "reusable_core": "should not replace fair evidence"
+        }
+      ]
+    },
+    {
+      "title": "Roles, Duties, and Everyday Performance",
+      "headwords": [
+        {
+          "term": "role",
+          "part_of_speech": "noun",
+          "definition": "a person's position and function within an organization or team",
+          "examples": [
+            "My role involves coordinating volunteers and answering public questions.",
+            "Her role changed when the department adopted a new digital system."
+          ],
+          "collocations": [
+            "key role",
+            "leadership role",
+            "take on a role",
+            "define a role",
+            "role within a team"
+          ]
+        },
+        {
+          "term": "responsibility",
+          "part_of_speech": "noun",
+          "definition": "a duty that someone is expected to handle",
+          "examples": [
+            "Checking the equipment is the technician's responsibility.",
+            "As she gained experience, she was trusted with greater responsibilities."
+          ],
+          "collocations": [
+            "job responsibility",
+            "take responsibility for",
+            "major responsibility",
+            "share responsibilities",
+            "additional responsibility"
+          ]
+        },
+        {
+          "term": "task",
+          "part_of_speech": "noun",
+          "definition": "a particular piece of work that needs to be done",
+          "examples": [
+            "I finish demanding tasks in the morning when I can concentrate best.",
+            "The manager divided the project into smaller tasks with clear deadlines."
+          ],
+          "collocations": [
+            "complete a task",
+            "routine task",
+            "challenging task",
+            "assign a task",
+            "task list"
+          ]
+        },
+        {
+          "term": "workload",
+          "part_of_speech": "noun",
+          "definition": "the amount of work a person is expected to complete",
+          "examples": [
+            "My workload increases near the end of each academic term.",
+            "Two colleagues shared his workload while he recovered from surgery."
+          ],
+          "collocations": [
+            "heavy workload",
+            "manageable workload",
+            "reduce a workload",
+            "workload distribution",
+            "increased workload"
+          ]
+        },
+        {
+          "term": "deadline",
+          "part_of_speech": "noun",
+          "definition": "the latest time by which work must be completed",
+          "examples": [
+            "We moved the deadline after the client requested major changes.",
+            "A shared calendar helps the team avoid missing important deadlines."
+          ],
+          "collocations": [
+            "meet a deadline",
+            "tight deadline",
+            "set a deadline",
+            "extend a deadline",
+            "deadline pressure"
+          ]
+        },
+        {
+          "term": "schedule",
+          "part_of_speech": "noun",
+          "definition": "a plan showing when work, shifts, or activities will happen",
+          "examples": [
+            "The weekly schedule is posted every Thursday afternoon.",
+            "A predictable schedule makes childcare much easier to arrange."
+          ],
+          "collocations": [
+            "work schedule",
+            "flexible schedule",
+            "busy schedule",
+            "shift schedule",
+            "adjust a schedule"
+          ]
+        },
+        {
+          "term": "schedule",
+          "part_of_speech": "verb",
+          "definition": "to arrange work or an event for a particular time",
+          "examples": [
+            "We scheduled the training for a quiet period in the afternoon.",
+            "My supervisor schedules difficult meetings when everyone is alert."
+          ],
+          "collocations": [
+            "schedule a meeting",
+            "schedule an appointment",
+            "schedule work",
+            "schedule in advance"
+          ]
+        },
+        {
+          "term": "prioritize",
+          "part_of_speech": "verb",
+          "definition": "to decide which tasks are most important and do them first",
+          "examples": [
+            "When several requests arrive together, I prioritize safety-related problems.",
+            "The team prioritized urgent repairs and postponed cosmetic improvements."
+          ],
+          "collocations": [
+            "prioritize tasks",
+            "prioritize effectively",
+            "prioritize urgent work",
+            "learn to prioritize"
+          ]
+        },
+        {
+          "term": "productive",
+          "part_of_speech": "adjective",
+          "definition": "producing useful results without wasting time or resources",
+          "examples": [
+            "I am more productive when notifications are turned off.",
+            "The meeting was productive because it ended with three clear decisions."
+          ],
+          "collocations": [
+            "highly productive",
+            "productive day",
+            "productive meeting",
+            "remain productive"
+          ]
+        }
+      ],
+      "phrases": [
+        {
+          "text": "My main responsibility is to keep clients informed.",
+          "reusable_core": "main responsibility"
+        },
+        {
+          "text": "I usually break a large assignment into manageable steps.",
+          "reusable_core": "manageable steps"
+        },
+        {
+          "text": "The workload is demanding but still reasonable.",
+          "reusable_core": "demanding but still reasonable"
+        },
+        {
+          "text": "Clear priorities prevent urgent tasks from being overlooked.",
+          "reusable_core": "prevent urgent tasks from being overlooked"
+        },
+        {
+          "text": "I keep track of deadlines in a shared calendar.",
+          "reusable_core": "keep track of deadlines"
+        },
+        {
+          "text": "Some routine tasks could be automated.",
+          "reusable_core": "could be automated"
+        },
+        {
+          "text": "The role requires attention to detail as well as patience.",
+          "reusable_core": "attention to detail"
+        },
+        {
+          "text": "We had to adjust the schedule when a supplier was late.",
+          "reusable_core": "adjust the schedule"
+        },
+        {
+          "text": "I do my best work when expectations are clear.",
+          "reusable_core": "when expectations are clear"
+        },
+        {
+          "text": "A short break often helps me return with better focus.",
+          "reusable_core": "return with better focus"
+        },
+        {
+          "text": "The team finished on time without sacrificing quality.",
+          "reusable_core": "without sacrificing quality"
+        }
+      ]
+    },
+    {
+      "title": "Skills, Feedback, and Professional Growth",
+      "headwords": [
+        {
+          "term": "skill",
+          "part_of_speech": "noun",
+          "definition": "an ability developed through learning and practice",
+          "examples": [
+            "Active listening is a valuable skill in almost any workplace.",
+            "She improved her presentation skills by speaking at weekly team meetings."
+          ],
+          "collocations": [
+            "practical skill",
+            "transferable skill",
+            "develop a skill",
+            "communication skills",
+            "skill gap"
+          ]
+        },
+        {
+          "term": "competent",
+          "part_of_speech": "adjective",
+          "definition": "having enough knowledge and ability to do something effectively",
+          "examples": [
+            "After several supervised shifts, he felt competent to handle the equipment alone.",
+            "A competent manager explains decisions instead of relying only on authority."
+          ],
+          "collocations": [
+            "competent employee",
+            "technically competent",
+            "competent at",
+            "highly competent"
+          ]
+        },
+        {
+          "term": "expertise",
+          "part_of_speech": "noun",
+          "definition": "advanced knowledge or skill in a particular area",
+          "examples": [
+            "The project needs someone with expertise in environmental law.",
+            "Colleagues often ask Neda for advice because of her technical expertise."
+          ],
+          "collocations": [
+            "specialized expertise",
+            "technical expertise",
+            "develop expertise",
+            "area of expertise"
+          ]
+        },
+        {
+          "term": "training",
+          "part_of_speech": "noun",
+          "definition": "organized learning that develops knowledge or workplace skills",
+          "examples": [
+            "New staff receive safety training before entering the laboratory.",
+            "The company paid for training in project management."
+          ],
+          "collocations": [
+            "staff training",
+            "on-the-job training",
+            "training course",
+            "provide training",
+            "complete training"
+          ]
+        },
+        {
+          "term": "mentor",
+          "part_of_speech": "noun",
+          "definition": "an experienced person who guides someone with less experience",
+          "examples": [
+            "My mentor showed me how to raise concerns without damaging relationships.",
+            "A mentor can explain unwritten workplace expectations to a new graduate."
+          ],
+          "collocations": [
+            "career mentor",
+            "experienced mentor",
+            "find a mentor",
+            "mentor relationship"
+          ]
+        },
+        {
+          "term": "mentor",
+          "part_of_speech": "verb",
+          "definition": "to guide and support a less experienced person",
+          "examples": [
+            "Senior designers mentor interns during their first major project.",
+            "I would like to mentor younger teachers once I have more experience."
+          ],
+          "collocations": [
+            "mentor a colleague",
+            "mentor young professionals",
+            "formally mentor"
+          ]
+        },
+        {
+          "term": "feedback",
+          "part_of_speech": "noun",
+          "definition": "information about how well someone performed and how they can improve",
+          "examples": [
+            "Specific feedback helped me make my reports shorter and clearer.",
+            "Employees may ignore feedback if it arrives only when something goes wrong."
+          ],
+          "collocations": [
+            "constructive feedback",
+            "give feedback",
+            "receive feedback",
+            "act on feedback",
+            "regular feedback"
+          ]
+        },
+        {
+          "term": "performance review",
+          "part_of_speech": "noun phrase",
+          "definition": "a formal discussion and assessment of an employee's work",
+          "examples": [
+            "At my performance review, we agreed on two goals for the next quarter.",
+            "A fair review should consider results, effort, and circumstances."
+          ],
+          "collocations": [
+            "annual performance review",
+            "conduct a performance review",
+            "prepare for a performance review"
+          ]
+        },
+        {
+          "term": "development",
+          "part_of_speech": "noun",
+          "definition": "the process of improving professional skills and capabilities",
+          "examples": [
+            "Professional development keeps teachers familiar with new classroom methods.",
+            "Her employer supports development by paying conference fees."
+          ],
+          "collocations": [
+            "career development",
+            "professional development",
+            "staff development",
+            "development opportunity"
+          ]
+        },
+        {
+          "term": "adaptable",
+          "part_of_speech": "adjective",
+          "definition": "able to change behavior or methods when circumstances change",
+          "examples": [
+            "Adaptable employees can learn new software without losing confidence.",
+            "The shop remained open because the staff were adaptable during the renovation."
+          ],
+          "collocations": [
+            "highly adaptable",
+            "adaptable worker",
+            "remain adaptable",
+            "adaptable approach"
+          ]
+        },
+        {
+          "term": "initiative",
+          "part_of_speech": "noun",
+          "definition": "the ability to notice what needs doing and act without being told",
+          "examples": [
+            "He showed initiative by creating a guide for new volunteers.",
+            "Managers should reward initiative without expecting employees to work beyond their limits."
+          ],
+          "collocations": [
+            "show initiative",
+            "take the initiative",
+            "personal initiative",
+            "reward initiative"
+          ]
+        }
+      ],
+      "phrases": [
+        {
+          "text": "I learned that skill through practice rather than formal study.",
+          "reusable_core": "through practice rather than formal study"
+        },
+        {
+          "text": "Constructive feedback gives people a clear way to improve.",
+          "reusable_core": "a clear way to improve"
+        },
+        {
+          "text": "I would ask for guidance before the mistake became serious.",
+          "reusable_core": "ask for guidance"
+        },
+        {
+          "text": "The course helped me keep my skills up to date.",
+          "reusable_core": "keep my skills up to date"
+        },
+        {
+          "text": "A good mentor can make an unfamiliar workplace less confusing.",
+          "reusable_core": "make an unfamiliar workplace less confusing"
+        },
+        {
+          "text": "I try to treat criticism as useful information.",
+          "reusable_core": "treat criticism as useful information"
+        },
+        {
+          "text": "Employees need time to practise what they learn in training.",
+          "reusable_core": "time to practise what they learn"
+        },
+        {
+          "text": "Taking initiative does not mean ignoring other people's responsibilities.",
+          "reusable_core": "does not mean ignoring"
+        }
+      ]
+    }
+  ]
+}

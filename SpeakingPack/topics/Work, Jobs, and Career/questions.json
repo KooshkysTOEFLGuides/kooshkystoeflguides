@@ -1,0 +1,418 @@
+{
+  "schema_version": 1,
+  "topic": "Work, Jobs, and Career",
+  "sets": [
+    {
+      "title": "Choosing a Future Career",
+      "setup": "You are taking part in a university study about how people choose careers. A researcher will ask you four questions about your preferences and decisions.",
+      "questions": [
+        {
+          "number": 1,
+          "question": "Thank you for participating. To begin, what kind of work would you personally find satisfying, and why?",
+          "sample_answer": "I'd find work satisfying if I could solve practical problems for other people. For example, helping students understand a difficult lesson gives a clear result that I can see immediately. I also need some variety, because repeating one narrow task all day would make me lose interest. The job doesn't need an impressive title, but it should use my communication skills. That combination of usefulness and variety would keep me motivated over time."
+        },
+        {
+          "number": 2,
+          "question": "I see. When choosing a job, would you place more importance on a high salary or on interesting daily work? Explain your choice.",
+          "sample_answer": "I'd choose interesting daily work once the salary was enough for a stable life. We spend such a large part of the week working, so boredom or constant frustration has a real cost. A very high salary might feel exciting at first, but that feeling could disappear quickly. Of course, I wouldn't ignore rent, health care, or savings. I just think a reasonable income plus engaging work is a better long-term balance for me."
+        },
+        {
+          "number": 3,
+          "question": "Some students follow the career their family recommends, while others make the decision independently. What approach do you think is better?",
+          "sample_answer": "I think students should listen carefully to their families but make the final decision themselves. Parents may understand financial risks and know the student's personality, so their advice can prevent an unrealistic choice. Still, they won't perform the daily tasks or live with the schedule. I would collect their concerns, research them, and perhaps try the field through an internship. Then I could choose independently while showing that I hadn't simply ignored useful experience."
+        },
+        {
+          "number": 4,
+          "question": "Finally, do you think most people should try to choose one career early, or remain open to changing careers later? Why?",
+          "sample_answer": "People should remain open to change because an early choice is based on limited experience. Someone may enjoy a subject at school but dislike the actual workplace, or a new technology may transform the field. That doesn't mean people should quit whenever work becomes difficult. They can first explore another role, take a short course, or talk with professionals. Keeping options open makes a career decision serious without making it feel permanent."
+        }
+      ]
+    },
+    {
+      "title": "Finding and Applying for Work",
+      "setup": "You have volunteered for a research interview about job searching. The interviewer is interested in how applicants find opportunities and present their experience.",
+      "questions": [
+        {
+          "number": 1,
+          "question": "Let's begin with your own experience. Where would you look first if you needed to find a job?",
+          "sample_answer": "I would start with the official websites of organizations I already respect. Their careers pages usually contain accurate duties, deadlines, and salary information, while general advertisements can be vague. After that, I'd check a reliable job board and tell a few former classmates that I was searching. Personal contacts sometimes hear about openings before they are widely advertised. I wouldn't depend on only one source because different employers recruit in different ways."
+        },
+        {
+          "number": 2,
+          "question": "What information in a job posting is most useful to an applicant?",
+          "sample_answer": "The daily responsibilities are the most useful part because they show what the job will actually feel like. A title such as coordinator can mean very different things in different organizations. I also want to see essential qualifications, normal hours, location, and a realistic salary range. That information helps me decide whether an application is worth both my time and the employer's. A long list of vague qualities doesn't help nearly as much."
+        },
+        {
+          "number": 3,
+          "question": "Many new graduates have little formal work experience. How can they still make a strong application?",
+          "sample_answer": "They can connect class projects, volunteering, or part-time work to the skills the employer needs. For instance, organizing a student event shows planning, budgeting, and communication even though it wasn't a formal office job. They should describe what they actually did and what result followed. A focused application is stronger than apologizing for being inexperienced. Employers know that graduates are beginners, but they still want evidence of responsibility and learning."
+        },
+        {
+          "number": 4,
+          "question": "Some companies use artificial intelligence to screen job applications. Do you think this is a good idea?",
+          "sample_answer": "It can help with a very large number of applications, but it shouldn't make the final decision. A system may notice required certificates quickly, yet it can misunderstand a career gap or an unusual path. It may also repeat bias found in older hiring data. I would let technology organize applications and identify basic missing requirements. A trained person should review borderline cases and remain responsible for explaining why candidates were rejected."
+        }
+      ]
+    },
+    {
+      "title": "The Job Interview",
+      "setup": "You are contributing to a study about job interviews and employee selection. Please answer the interviewer's questions based on your own views and experience.",
+      "questions": [
+        {
+          "number": 1,
+          "question": "Think about a job interview or another important interview you have had. What helped you feel prepared?",
+          "sample_answer": "Before my last important interview, I wrote down three examples from my previous work. One showed teamwork, another showed how I handled a mistake, and the third showed a result I was proud of. I didn't memorize complete answers because that would have sounded unnatural. I also checked the organization's website and planned my route the night before. Those simple steps reduced uncertainty, so I could listen to the actual questions instead of panicking."
+        },
+        {
+          "number": 2,
+          "question": "Do you think a candidate should always answer interview questions with complete confidence? Why or why not?",
+          "sample_answer": "No, complete confidence can sound dishonest when a question is genuinely difficult. I'd rather say that I need a moment to think, or admit that I haven't faced that exact situation before. Then I can explain a related experience and how I would approach the problem. Employers need reliable judgment, not a person who pretends to know everything. Calm honesty would make me trust a candidate more, especially in a role where mistakes matter."
+        },
+        {
+          "number": 3,
+          "question": "Besides an interview, what other method could an employer use to choose the right person?",
+          "sample_answer": "A short realistic work sample can be very useful. An editor might correct a page, or a teacher might explain a simple concept for a few minutes. This shows how the person performs instead of only how well they talk about themselves. The task must be relevant, limited, and the same for every candidate. I wouldn't support asking applicants to complete hours of unpaid work that the company could actually sell or use."
+        },
+        {
+          "number": 4,
+          "question": "Some people believe employers should be required to include salary ranges in every job advertisement. Do you agree?",
+          "sample_answer": "Yes, I generally agree because the range helps both sides make an informed decision. Applicants can avoid a long process for a salary they could never accept, and employers receive applications from people with realistic expectations. It may also reduce unfair differences caused by negotiation. The range can still be wide enough to reflect experience. Companies should explain the criteria instead of hiding pay until a candidate has invested several hours."
+        }
+      ]
+    },
+    {
+      "title": "A Good Workplace",
+      "setup": "A workplace researcher is collecting opinions about the conditions that help employees do well. You will be asked about relationships, culture, and management.",
+      "questions": [
+        {
+          "number": 1,
+          "question": "To start, what is one quality you would want in the people you work with?",
+          "sample_answer": "I would want my colleagues to be reliable. They don't have to agree with me or become close friends. I just need to know that they will complete a promised task or warn me early about a problem. That makes planning much easier and prevents resentment. I try to offer the same reliability in return. When people can depend on one another, even a demanding shift feels more organized and less personal."
+        },
+        {
+          "number": 2,
+          "question": "Which is more important in a manager: strong technical knowledge or strong communication skills?",
+          "sample_answer": "For most managers, I'd choose strong communication skills, although they still need enough technical knowledge to understand the work. Their main job is often to set priorities, explain decisions, give feedback, and resolve conflict. The best specialist can fail as a manager if nobody understands what is expected. Technical experts elsewhere in the team can provide detail. It is harder to compensate for a leader who creates confusion or makes people afraid to speak."
+        },
+        {
+          "number": 3,
+          "question": "What can a company do to create a more inclusive workplace?",
+          "sample_answer": "It can examine ordinary systems instead of relying on one diversity event each year. For example, managers can share promotion criteria, make important documents accessible, and give several ways to contribute during meetings. Employees also need a safe process for reporting discrimination. Inclusion becomes believable when it affects schedules, hiring, equipment, and decisions. A public statement matters much less if daily barriers remain unchanged for the people who work there."
+        },
+        {
+          "number": 4,
+          "question": "Some employers try to improve morale with social events and free food. Are these efforts effective?",
+          "sample_answer": "They can be pleasant, but they work only when basic treatment is already fair. A team lunch won't repair chronic understaffing, unpaid overtime, or a manager who ignores concerns. If conditions are reasonable, social events may help colleagues know one another and feel connected. I would keep them optional because some people need their break for rest or family duties. Morale mainly grows from respect, useful recognition, and confidence in workplace decisions."
+        }
+      ]
+    },
+    {
+      "title": "Time, Stress, and Balance",
+      "setup": "You are participating in a study about working hours and personal well-being. The interviewer will ask about schedules, commuting, and stress.",
+      "questions": [
+        {
+          "number": 1,
+          "question": "What kind of work schedule would suit you best, and why?",
+          "sample_answer": "A fairly early and predictable schedule would suit me best. I concentrate well in the morning, and finishing at a regular time would let me plan exercise and family visits. I don't need to choose every hour, but I would value occasional flexibility for an appointment. Constant last-minute changes would be difficult because they affect other people too. A stable pattern with a little room to adjust seems both practical and fair."
+        },
+        {
+          "number": 2,
+          "question": "Would you accept a higher-paying job if it required a much longer daily commute?",
+          "sample_answer": "Probably not if the commute added more than an hour every day. That time would come from sleep, exercise, or being with people I care about, and crowded travel can be tiring by itself. I would calculate the extra transport cost as well as the salary. For a short period, I might accept it to gain unusual experience. As a permanent arrangement, the higher pay would need to be very significant."
+        },
+        {
+          "number": 3,
+          "question": "What is one useful way for an employee to manage workplace stress?",
+          "sample_answer": "I think the first step is to identify which demand is actually creating the pressure. If several tasks seem urgent, I would ask my supervisor to rank them instead of silently trying to finish everything. That conversation can lead to a changed deadline or help from a colleague. Exercise and breaks are useful, but they can't solve unclear priorities. Addressing the source gives the employee a more realistic plan and a sense of control."
+        },
+        {
+          "number": 4,
+          "question": "Some organizations are testing a four-day workweek without reducing pay. Do you think this could work?",
+          "sample_answer": "It could work in jobs where unnecessary meetings and interruptions currently waste a lot of time. A shorter week may improve focus and reduce burnout, so output doesn't automatically fall with hours. Still, hospitals, shops, and public services must remain available, which may require overlapping teams rather than closing for a day. I would support a careful trial with clear measures. The organization should check quality, workload, and customer access, not just total output."
+        }
+      ]
+    },
+    {
+      "title": "Remote and Hybrid Work",
+      "setup": "A research team is studying how technology has changed where people work. You will answer four questions about remote and hybrid arrangements.",
+      "questions": [
+        {
+          "number": 1,
+          "question": "Have you ever studied or worked from home? Describe one thing that made the experience easier or harder.",
+          "sample_answer": "I studied from home for several months, and the hardest part was separating study time from ordinary home life. My desk was in my bedroom, so books and messages were always visible. I eventually made a simple routine: I started at the same time, took lunch away from the desk, and packed my materials afterward. That physical ending helped me relax. The work itself wasn't harder, but creating a boundary required much more effort."
+        },
+        {
+          "number": 2,
+          "question": "For a job that can be done remotely, would you prefer to work fully from home or follow a hybrid schedule?",
+          "sample_answer": "I'd prefer a hybrid schedule with perhaps two days in the workplace. Home is better for writing or analysis because I can control interruptions, while the office is useful for planning and quick questions. Seeing colleagues also prevents the week from feeling isolated. I wouldn't want office days filled only with online meetings, though. The arrangement makes sense when each location has a purpose instead of being chosen simply to watch whether employees are present."
+        },
+        {
+          "number": 3,
+          "question": "What should a manager do to help remote employees feel included in a team?",
+          "sample_answer": "The manager should make information equally available instead of letting important decisions happen only in the office. A short written summary after meetings helps people in other locations or time zones. During hybrid calls, the manager can invite remote participants to speak before the room moves on. Occasional informal contact also matters, but it shouldn't become another required meeting. Inclusion mainly comes from equal access, clear expectations, and genuine influence over decisions."
+        },
+        {
+          "number": 4,
+          "question": "Employers can use software to monitor remote workers' screens or keyboard activity. Is this reasonable?",
+          "sample_answer": "Limited monitoring may be reasonable for security or legally sensitive information, but constant observation goes too far. Keyboard activity doesn't show whether a person solved a difficult problem or helped a customer well. It can also make honest employees anxious and encourage meaningless clicking. I would judge people through agreed results, deadlines, and communication. If special monitoring is necessary, the employer should explain exactly what is collected, why, and how long the data remains stored."
+        }
+      ]
+    },
+    {
+      "title": "Pay, Benefits, and Job Security",
+      "setup": "You are being interviewed for a social study about what employees receive from work. The questions concern compensation, benefits, and stability.",
+      "questions": [
+        {
+          "number": 1,
+          "question": "Besides salary, which employee benefit would be most valuable to you?",
+          "sample_answer": "Paid leave would be most valuable to me because everyone eventually needs time for illness, family, or simple recovery. Without it, taking one necessary day off can create financial stress, so people may work while sick. I would still care about health insurance and retirement savings. Paid leave affects ordinary life more immediately, though. It tells employees that they are human beings with responsibilities outside the workplace, not machines that must always be available."
+        },
+        {
+          "number": 2,
+          "question": "Would you prefer a permanent job with moderate pay or a temporary job with much higher pay?",
+          "sample_answer": "At this stage, I would choose the permanent job with moderate pay. Predictable income would make it easier to rent a home, plan expenses, and develop inside one organization. A temporary role might be worthwhile if it offered rare experience or if I were saving for a short-term goal. In general, the high figure doesn't show the whole situation. Time spent searching between contracts and buying my own benefits could remove much of the difference."
+        },
+        {
+          "number": 3,
+          "question": "Some employees discover that a new coworker earns more for very similar work. What should they do?",
+          "sample_answer": "They should first check whether the roles, experience, and responsibilities are truly comparable. If they are, I would request a calm meeting and bring evidence of duties and results rather than attacking the coworker. The manager should explain the salary criteria and review an unjustified gap. Blaming the new person would only damage teamwork. The real issue is whether the organization pays consistently and gives existing staff a fair opportunity to discuss their compensation."
+        },
+        {
+          "number": 4,
+          "question": "Do you think governments should raise the legal minimum wage when living costs rise?",
+          "sample_answer": "Yes, because full-time work should cover basic needs, and a wage that never changes loses value as prices rise. A reasonable increase can also reduce turnover and public support needed by low-paid workers. I understand that very small businesses may face difficulty if the change is sudden. Governments could introduce it gradually or offer temporary targeted support. The goal should be a realistic living standard without ignoring how quickly employers can adjust."
+        }
+      ]
+    },
+    {
+      "title": "Learning and Career Growth",
+      "setup": "A university center is researching how adults continue learning at work. The interviewer will ask about training, feedback, and advancement.",
+      "questions": [
+        {
+          "number": 1,
+          "question": "Tell me about a skill you would like to improve for your future work.",
+          "sample_answer": "I'd like to improve my ability to give short presentations without depending heavily on notes. I can explain ideas well in conversation, but a formal group makes me rush. To practise, I could record a two-minute explanation each week and ask a colleague for one specific comment. I don't expect to become a professional speaker. I just want to sound organized and calm when I present a project or explain a recommendation to a team."
+        },
+        {
+          "number": 2,
+          "question": "Do you learn workplace skills better through a formal course or by doing the job?",
+          "sample_answer": "I learn best through a combination, but doing the job has the stronger effect. A course can explain a safe method and show the whole process before I begin. Real work then reveals the unusual cases and small decisions that a slide cannot cover. I also remember advice better when it solves a problem I have just faced. Ideally, I would receive brief instruction, practise under supervision, and return with questions after gaining some experience."
+        },
+        {
+          "number": 3,
+          "question": "How can a supervisor give negative feedback without discouraging an employee?",
+          "sample_answer": "The supervisor should discuss a specific action privately and explain why it caused a problem. For example, saying that a report arrived late and delayed another team is clearer than calling the employee careless. They should listen for circumstances and agree on one realistic change or support. Mentioning genuine strengths can help, but it shouldn't feel like a trick before criticism. Respectful detail shows that improvement is possible and that the person isn't being rejected."
+        },
+        {
+          "number": 4,
+          "question": "Some excellent employees do not want to become managers. Should companies still offer them career growth?",
+          "sample_answer": "Definitely, because management uses a different set of skills and interests. A talented engineer or teacher may love the actual work but dislike budgets, staffing, and conflict. Companies can create senior expert roles, pay for advanced training, or let these employees lead particular projects. That rewards development without pushing them into an unsuitable job. It also benefits the organization because deep practical expertise remains available to younger colleagues and difficult cases."
+        }
+      ]
+    },
+    {
+      "title": "Changing Jobs and Starting Again",
+      "setup": "You are participating in an interview about career transitions. The researcher is interested in resignation, unemployment, retraining, and independent work.",
+      "questions": [
+        {
+          "number": 1,
+          "question": "What would be a good reason for someone to leave a job even if they had not found another one yet?",
+          "sample_answer": "A serious threat to health or dignity would be a good reason, if the person had any financial way to leave. Persistent harassment, unsafe equipment, or pressure to act dishonestly can cause damage that another month of salary doesn't repair. I would first document the problem and use a safe reporting process if one existed. Still, people shouldn't be expected to remain indefinitely in a harmful workplace simply because changing jobs is uncertain."
+        },
+        {
+          "number": 2,
+          "question": "How can a person stay confident during a long period of unemployment?",
+          "sample_answer": "A routine can help because job searching easily becomes an endless and discouraging activity. I would set limited hours for applications, continue one course or volunteer task, and stay in contact with supportive people. Those activities provide progress and remind the person that ability is larger than employment status. It is also important to set realistic weekly goals. Nobody controls when an employer replies, but they can control the quality of a few applications."
+        },
+        {
+          "number": 3,
+          "question": "Would you advise an adult to retrain for a completely different career? Under what conditions?",
+          "sample_answer": "Yes, if the new field has real opportunities and fits the person's interests and responsibilities. I would advise them to speak with workers, check local vacancies, and try a short introductory course before paying for a long program. They should also identify skills that transfer from the old career. Retraining is harder when it requires giving up all income, so a part-time route may be safer. The decision needs evidence and a practical transition plan, not only frustration."
+        },
+        {
+          "number": 4,
+          "question": "Many people now earn money through freelance projects or app-based gig work. Is this a positive development?",
+          "sample_answer": "It is positive for people who genuinely value flexible hours or want to test independent work. But the freedom can hide unpaid administration, unpredictable demand, and no sick leave. Platforms may also control prices while still calling workers independent. I think this kind of work should remain available, but basic protections need to follow the person across jobs. Flexibility is more meaningful when workers understand their costs and aren't carrying every risk alone."
+        }
+      ]
+    },
+    {
+      "title": "Companies and the Future of Work",
+      "setup": "A public-policy researcher is studying how organizations and technology may change employment. You will compare workplaces and consider future responsibilities.",
+      "questions": [
+        {
+          "number": 1,
+          "question": "Would you rather begin your career in a large company or a small company? Why?",
+          "sample_answer": "I would begin in a small company because I could probably see several parts of the work. One week might involve customers, planning, and basic budgeting, which would help me discover my strengths quickly. I also like being able to ask decision-makers direct questions. The disadvantage is less formal training and fewer people to cover mistakes. Early in my career, though, broad experience and visible responsibility would be worth that uncertainty."
+        },
+        {
+          "number": 2,
+          "question": "What is one type of work that you think will always need a strong human element?",
+          "sample_answer": "Care work will always need a strong human element, even when technology handles records or routine checks. A nurse or caregiver notices fear, explains choices, and adjusts communication to a particular family. Those moments require trust and judgment, not only correct data. Machines may reduce physical or administrative tasks and give staff more time. I don't think people facing illness or dependence will want every important interaction to come from an automated system."
+        },
+        {
+          "number": 3,
+          "question": "If automation removes many routine tasks from a workplace, who should pay for employees to learn new skills?",
+          "sample_answer": "The employer and government should share the cost because both benefit from a productive workforce. A company choosing new technology has direct responsibility to prepare current staff rather than replacing everyone immediately. Governments can support broader qualifications that remain useful if that company later closes. Employees should contribute effort and time, but expecting them to fund everything is unfair. They didn't control the economic change, and many cannot risk losing income while studying."
+        },
+        {
+          "number": 4,
+          "question": "Finally, some people predict that shorter careers with many different employers will become normal. Would that be good for workers?",
+          "sample_answer": "It could give workers more variety and bargaining power, especially if they can carry benefits and training records between employers. People might leave unhealthy workplaces instead of feeling trapped by one pension plan. On the other hand, constant job searching creates stress and can weaken long-term teamwork. I wouldn't celebrate instability by itself. Frequent movement becomes positive only when workers have reliable health care, income protection, and realistic access to learning between positions."
+        }
+      ]
+    }
+  ],
+  "corpus_calibration_audit": [
+    {
+      "set_title": "Choosing a Future Career",
+      "question_functions": [
+        "personal preference and explanation",
+        "priority trade-off",
+        "advice about family influence",
+        "evaluation of long-term career flexibility"
+      ],
+      "subtopics": [
+        "choosing a job",
+        "fulfillment",
+        "salary",
+        "career change"
+      ]
+    },
+    {
+      "set_title": "Finding and Applying for Work",
+      "question_functions": [
+        "personal job-search strategy",
+        "information evaluation",
+        "practical advice for inexperienced applicants",
+        "balanced technology judgment"
+      ],
+      "subtopics": [
+        "job search",
+        "job postings",
+        "applications",
+        "AI screening"
+      ]
+    },
+    {
+      "set_title": "The Job Interview",
+      "question_functions": [
+        "past preparation experience",
+        "qualification of expected behavior",
+        "alternative selection method",
+        "policy opinion on transparency"
+      ],
+      "subtopics": [
+        "interviews",
+        "confidence",
+        "work samples",
+        "salary transparency"
+      ]
+    },
+    {
+      "set_title": "A Good Workplace",
+      "question_functions": [
+        "desired colleague quality",
+        "management-skill comparison",
+        "organizational recommendation",
+        "evaluation of morale initiatives"
+      ],
+      "subtopics": [
+        "colleagues",
+        "management",
+        "inclusive workplace",
+        "morale"
+      ]
+    },
+    {
+      "set_title": "Time, Stress, and Balance",
+      "question_functions": [
+        "schedule preference",
+        "salary-commute trade-off",
+        "practical stress strategy",
+        "evaluation of shorter workweek"
+      ],
+      "subtopics": [
+        "flexible schedules",
+        "commuting",
+        "workplace stress",
+        "work–life balance"
+      ]
+    },
+    {
+      "set_title": "Remote and Hybrid Work",
+      "question_functions": [
+        "past remote experience",
+        "work-location preference",
+        "management recommendation",
+        "privacy and monitoring judgment"
+      ],
+      "subtopics": [
+        "remote work",
+        "hybrid schedules",
+        "team inclusion",
+        "digital surveillance"
+      ]
+    },
+    {
+      "set_title": "Pay, Benefits, and Job Security",
+      "question_functions": [
+        "benefit preference",
+        "security-pay trade-off",
+        "workplace pay problem advice",
+        "public wage-policy opinion"
+      ],
+      "subtopics": [
+        "employee benefits",
+        "contracts",
+        "pay fairness",
+        "minimum wage"
+      ]
+    },
+    {
+      "set_title": "Learning and Career Growth",
+      "question_functions": [
+        "personal development goal",
+        "learning-method comparison",
+        "feedback recommendation",
+        "alternative advancement evaluation"
+      ],
+      "subtopics": [
+        "professional skills",
+        "training",
+        "feedback",
+        "career growth"
+      ]
+    },
+    {
+      "set_title": "Changing Jobs and Starting Again",
+      "question_functions": [
+        "reasoned exit scenario",
+        "coping advice",
+        "conditional retraining recommendation",
+        "balanced gig-economy evaluation"
+      ],
+      "subtopics": [
+        "resignation",
+        "unemployment",
+        "retraining",
+        "freelance and gig work"
+      ]
+    },
+    {
+      "set_title": "Companies and the Future of Work",
+      "question_functions": [
+        "company-size preference",
+        "future human-work description",
+        "responsibility for reskilling",
+        "future employment-model judgment"
+      ],
+      "subtopics": [
+        "large and small companies",
+        "human work",
+        "automation",
+        "future of work"
+      ]
+    }
+  ]
+}
