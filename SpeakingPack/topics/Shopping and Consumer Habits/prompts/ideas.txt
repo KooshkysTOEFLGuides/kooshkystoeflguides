@@ -111,6 +111,22 @@ Avoid repeating the same underlying idea with slightly different wording.
 
 For example, “reduces stress,” “helps people relax,” and “makes people feel calmer” should not become three separate ideas unless each one presents a genuinely different mechanism or context.
 
+### Individually developed contexts
+
+Write every `context` specifically for its own `idea`. Never create one category-level explanation and copy it into several idea objects. Never use a generic context template with only a noun, activity, person, place, or weather condition substituted.
+
+Each context must add information that belongs to that heading alone. It should normally supply a particular mechanism, realistic example, consequence, limitation, contrast, or condition. A reader who hides the heading should still be able to infer which idea the context develops.
+
+Before returning the JSON:
+
+1. Compare every context string across the complete bank. No two may be identical.
+2. Compare the underlying sentence frames, not just exact wording. If several contexts differ only through substituted details, rewrite them from scratch.
+3. Check that the context does not merely restate its heading or attach the same broad paragraph to every idea in a category.
+4. Reject generic filler that could support unrelated ideas, such as “This affects choices at home, school, or work” or “The result depends on local conditions and available resources.”
+5. Make examples concrete without inventing statistics, oddly specific facts, or implausible experiences.
+
+Treat duplicated or templated contexts as a failed output even when the idea headings themselves are distinct.
+
 ## Relationship to the vocabulary plan
 
 Use the approved vocabulary and collocations naturally where they fit, but do not turn the idea bank into a vocabulary demonstration.

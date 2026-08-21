@@ -291,6 +291,7 @@ def render_ideas(data: dict, path: Path, used_ids: set[str]) -> str:
         )
     output: list[str] = []
     number = 0
+    seen_contexts: dict[str, str] = {}
     for si, section in enumerate(sections, 1):
         location = f"{path}: sections[{si}]"
         require(section, dict, location)
@@ -305,6 +306,14 @@ def render_ideas(data: dict, path: Path, used_ids: set[str]) -> str:
             exact_keys(idea, {"idea", "context"}, set(), item_location)
             heading = require(idea["idea"], str, f"{item_location}.idea")
             context = require(idea["context"], str, f"{item_location}.context")
+            normalized_context = re.sub(r"\s+", " ", context.casefold()).strip()
+            if normalized_context in seen_contexts:
+                raise DataError(
+                    f"{item_location}.context duplicates the context for {seen_contexts[normalized_context]!r}. "
+                    "Develop every idea independently with its own mechanism, example, consequence, "
+                    "limitation, or contrast."
+                )
+            seen_contexts[normalized_context] = heading
             number += 1
             output.append(f'<article class="idea-card"><div class="editorial-label">Idea {number}</div><h4>{esc(heading)}</h4><details><summary>Use in context</summary><p>{esc(context)}</p></details></article>')
         output.append("</div></section>")
