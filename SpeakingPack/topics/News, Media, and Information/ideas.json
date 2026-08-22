@@ -1,0 +1,543 @@
+{
+  "schema_version": 1,
+  "topic": "News, Media, and Information",
+  "sections": [
+    {
+      "title": "News Habits and Staying Informed",
+      "ideas": [
+        {
+          "idea": "A scheduled news check protects attention.",
+          "context": "Reading one morning summary and one evening update keeps someone informed without allowing alerts to interrupt every task."
+        },
+        {
+          "idea": "Local news has immediate practical value.",
+          "context": "Reports about transport, schools, water, and public meetings often affect a person's day more directly than a distant political argument."
+        },
+        {
+          "idea": "International reporting widens perspective.",
+          "context": "Following events in other societies reveals that familiar problems have different causes and solutions elsewhere."
+        },
+        {
+          "idea": "Morning news can shape the mood of an entire day.",
+          "context": "Beginning with violent or alarming stories may create anxiety before a person can act on any of the information."
+        },
+        {
+          "idea": "Newsletters can make selection more deliberate.",
+          "context": "A useful editor chooses a limited set of important reports and explains why they deserve attention, saving readers from an endless feed."
+        },
+        {
+          "idea": "Young adults may encounter news without seeking it.",
+          "context": "A current event can appear between entertainment posts, so the user receives fragments without choosing the outlet or reading the full report."
+        },
+        {
+          "idea": "Paying for news can support difficult reporting.",
+          "context": "Subscriptions fund court coverage, local investigations, and specialist journalists whose work cannot be produced from advertising clicks alone."
+        },
+        {
+          "idea": "Public libraries can reduce unequal access.",
+          "context": "Library subscriptions let people read reliable newspapers and archives even when several personal paywalls are unaffordable."
+        },
+        {
+          "idea": "Avoiding all news has a civic cost.",
+          "context": "People who never learn about local decisions are less able to vote, use public services, or question officials whose choices affect them."
+        },
+        {
+          "idea": "Different formats suit different moments.",
+          "context": "Audio works during a commute, a short bulletin suits a break, and a detailed article is better when evidence needs close attention."
+        },
+        {
+          "idea": "Following fewer stories deeply can be more useful.",
+          "context": "Understanding the history and consequences of one policy may produce better judgment than remembering twenty disconnected headlines."
+        },
+        {
+          "idea": "News habits should include deliberate stopping points.",
+          "context": "Closing an app after a chosen summary prevents one relevant update from turning into an hour of unrelated scrolling."
+        }
+      ]
+    },
+    {
+      "title": "Reliable Reporting and Public Trust",
+      "ideas": [
+        {
+          "idea": "Trust grows when methods are visible.",
+          "context": "Naming documents, linking data, and explaining how witnesses were selected allows readers to examine the reporting process."
+        },
+        {
+          "idea": "Corrections can strengthen rather than destroy credibility.",
+          "context": "An outlet that labels the error, replaces it promptly, and explains what changed shows that accuracy matters more than pride."
+        },
+        {
+          "idea": "Speed and certainty should not be confused.",
+          "context": "During a disaster, a careful reporter may know less at first because verification takes time; honest uncertainty is preferable to confident invention."
+        },
+        {
+          "idea": "Consistent standards matter across political sides.",
+          "context": "Audiences notice when an outlet demands evidence from opponents but accepts weak claims from people it supports."
+        },
+        {
+          "idea": "Local knowledge improves interpretation.",
+          "context": "A community reporter may recognize that a road closure affects the only route to a clinic, a consequence a visiting team could miss."
+        },
+        {
+          "idea": "Expert sources need relevant expertise.",
+          "context": "A famous doctor may understand medicine but have no special knowledge of climate modeling or voting systems."
+        },
+        {
+          "idea": "Anonymous sources require added care.",
+          "context": "When a person cannot be named for safety, editors should verify the account independently and explain why anonymity was granted."
+        },
+        {
+          "idea": "Trust is damaged by hidden sponsorship.",
+          "context": "A favorable product story feels deceptive when the publisher received payment but presented it as independent reporting."
+        },
+        {
+          "idea": "News organizations should distinguish reporting from opinion.",
+          "context": "Clear labels help audiences know whether a writer is establishing facts, interpreting them, or arguing for a policy."
+        },
+        {
+          "idea": "Transparency about limits prevents false confidence.",
+          "context": "A survey report should say who was questioned, how many responded, and which groups may not be represented."
+        },
+        {
+          "idea": "Community engagement can reveal missing stories.",
+          "context": "Listening sessions and accessible contact channels help residents point journalists toward problems that official announcements ignore."
+        }
+      ]
+    },
+    {
+      "title": "Checking Sources and Evidence",
+      "ideas": [
+        {
+          "idea": "The original source is usually more informative than a screenshot.",
+          "context": "A cropped image may remove the date, author, measurement, or limitation that changes what a statistic means."
+        },
+        {
+          "idea": "Independent agreement is stronger than repetition.",
+          "context": "Ten accounts copying one unverified post still represent a single source, while two separate investigations provide real corroboration."
+        },
+        {
+          "idea": "Publication date can change whether advice is safe.",
+          "context": "Old evacuation routes, health rules, and application deadlines may circulate again after the situation has changed."
+        },
+        {
+          "idea": "Evidence should match the size of the conclusion.",
+          "context": "A small survey at one university may describe its respondents without proving how an entire country behaves."
+        },
+        {
+          "idea": "Personal testimony adds detail but not certainty.",
+          "context": "An eyewitness can describe fear, sound, and movement vividly while misjudging distance or sequence during a confusing event."
+        },
+        {
+          "idea": "Official sources are useful but not automatically complete.",
+          "context": "A transport agency knows its timetable, yet passengers may reveal accessibility failures missing from the official announcement."
+        },
+        {
+          "idea": "Financial interests deserve attention.",
+          "context": "A study funded by a manufacturer is not necessarily false, but readers should examine its methods and seek independent research."
+        },
+        {
+          "idea": "Images need source checks too.",
+          "context": "Reverse searching or locating the earliest upload can show that a dramatic photograph came from another country or year."
+        },
+        {
+          "idea": "Technical claims need patient explanation.",
+          "context": "Readers should be suspicious when a report offers certainty but never defines the measure, compares alternatives, or discusses limitations."
+        },
+        {
+          "idea": "Good fact-checking shows its work.",
+          "context": "A useful verdict links evidence and explains reasoning rather than simply attaching a red or green label to a sentence."
+        }
+      ]
+    },
+    {
+      "title": "Misinformation and Responsible Sharing",
+      "ideas": [
+        {
+          "idea": "Emotional intensity is a reason to pause.",
+          "context": "Messages designed to create immediate anger or fear can push users to share before noticing a false source or missing date."
+        },
+        {
+          "idea": "Corrections travel through weaker networks than rumors.",
+          "context": "A dramatic false post may reach strangers, while its later correction is seen mainly by people already following fact-checkers."
+        },
+        {
+          "idea": "Private messages can spread misinformation rapidly.",
+          "context": "Claims from relatives feel trustworthy and move through closed groups that journalists or researchers cannot easily observe."
+        },
+        {
+          "idea": "Humor and parody lose context when copied.",
+          "context": "A satirical headline can become apparent news after a screenshot removes the account name and other signals that it was a joke."
+        },
+        {
+          "idea": "Real media can support a false narrative.",
+          "context": "An authentic flood video becomes misinformation when someone assigns it to the wrong storm and uses it to criticize a current response."
+        },
+        {
+          "idea": "Repeated exposure creates familiarity, not proof.",
+          "context": "Seeing the same statement many times can make it feel true even when every repetition traces back to one fabricated post."
+        },
+        {
+          "idea": "Public figures have greater sharing responsibility.",
+          "context": "A mistaken claim from a large account reaches millions and may influence behavior before a quiet deletion occurs."
+        },
+        {
+          "idea": "Platforms can slow impulsive sharing without banning speech.",
+          "context": "A prompt asking users to open an unread article introduces a small pause while leaving the final decision with them."
+        },
+        {
+          "idea": "Debunking should provide a clear replacement explanation.",
+          "context": "Simply saying a rumor is false leaves an information gap; showing what actually happened gives people something accurate to remember."
+        },
+        {
+          "idea": "Media education should avoid making students cynical about everything.",
+          "context": "The goal is careful trust based on evidence, not the belief that every institution lies and no fact can be known."
+        }
+      ]
+    },
+    {
+      "title": "Bias, Framing, and Representation",
+      "ideas": [
+        {
+          "idea": "Story selection creates bias before any sentence is written.",
+          "context": "Giving daily attention to street crime but little to housing or workplace safety shapes what audiences believe is common."
+        },
+        {
+          "idea": "Headlines frame responsibility.",
+          "context": "Describing a company as cutting jobs emphasizes its action, while saying jobs disappeared removes the decision-maker from view."
+        },
+        {
+          "idea": "Photographs influence sympathy and threat perception.",
+          "context": "A close image of one frightened person creates a different response from a distant view emphasizing the size of a crowd."
+        },
+        {
+          "idea": "False balance can mislead.",
+          "context": "Giving equal space to a broad scientific consensus and an unsupported claim suggests that the evidence is evenly divided."
+        },
+        {
+          "idea": "Personal perspective is not automatically a flaw.",
+          "context": "A reporter with lived experience may notice important questions, provided the facts are checked and the viewpoint is not hidden."
+        },
+        {
+          "idea": "Language can dehumanize groups.",
+          "context": "Repeatedly calling people waves, burdens, or statistics makes individual circumstances easier to ignore."
+        },
+        {
+          "idea": "Diverse newsrooms broaden the questions asked.",
+          "context": "Staff with different neighborhoods, languages, and experiences may identify missing sources or assumptions before publication."
+        },
+        {
+          "idea": "Entertainment media also shapes public beliefs.",
+          "context": "A fictional series that always portrays one occupation or community negatively can reinforce stereotypes without making factual claims."
+        },
+        {
+          "idea": "Comparing outlets reveals framing choices.",
+          "context": "Differences in verbs, photographs, and quoted speakers show which parts of the same event each editor considered important."
+        },
+        {
+          "idea": "Neutrality does not require silence about verified harm.",
+          "context": "A report can state clearly that records show discrimination while remaining fair about disputed causes and proposed solutions."
+        }
+      ]
+    },
+    {
+      "title": "Media Literacy and Education",
+      "ideas": [
+        {
+          "idea": "Media literacy belongs across school subjects.",
+          "context": "History students can inspect primary sources, science students can evaluate health claims, and mathematics students can question graph scales."
+        },
+        {
+          "idea": "Students should practise with realistic examples.",
+          "context": "Examining an actual sponsored post or misleading chart develops judgment better than memorizing a list of abstract warnings."
+        },
+        {
+          "idea": "Knowing how journalism works improves evaluation.",
+          "context": "Understanding editing, sourcing, headlines, and corrections helps readers distinguish ordinary imperfection from deliberate deception."
+        },
+        {
+          "idea": "Creation teaches analysis.",
+          "context": "When students edit a short video themselves, they see how selection, music, and cuts can change an audience's impression."
+        },
+        {
+          "idea": "Older adults also need digital-media support.",
+          "context": "People who learned to evaluate newspapers may need practical help recognizing imitation sites, altered video, and algorithmic recommendations."
+        },
+        {
+          "idea": "Verification tools should remain simple enough for daily use.",
+          "context": "Few people will perform a long investigation for every post, but checking the source, date, and one independent report is realistic."
+        },
+        {
+          "idea": "Influence should be separated from expertise.",
+          "context": "A creator may communicate brilliantly and know an audience well while lacking training to interpret a medical study."
+        },
+        {
+          "idea": "Advertising labels need to be noticeable.",
+          "context": "A tiny or vague sponsorship tag does not help viewers understand that payment shaped the recommendation."
+        },
+        {
+          "idea": "Algorithms are part of media literacy.",
+          "context": "Users need to know that a feed predicts engagement rather than presenting a neutral list of the day's most important information."
+        },
+        {
+          "idea": "Disagreement can improve an information diet.",
+          "context": "Following one careful writer who challenges a person's usual view can expose missing evidence without filling the feed with hostility."
+        },
+        {
+          "idea": "Privacy is connected to media participation.",
+          "context": "Young users should consider how public comments, location details, and old posts contribute to a lasting digital footprint."
+        },
+        {
+          "idea": "Media-literacy lessons should measure judgment, not suspicion.",
+          "context": "A successful learner can explain why one source deserves cautious trust instead of rejecting both a documented report and an anonymous rumor equally."
+        }
+      ]
+    },
+    {
+      "title": "Documentaries, Podcasts, and Educational Content",
+      "ideas": [
+        {
+          "idea": "Long formats can connect events to causes.",
+          "context": "A documentary or podcast series has room to explain the institutions and history behind a crisis rather than showing only its dramatic moment."
+        },
+        {
+          "idea": "Personal stories create memory and empathy.",
+          "context": "Following one family through a housing shortage makes policy consequences concrete, though their experience cannot represent everyone."
+        },
+        {
+          "idea": "Narrative techniques can quietly influence judgment.",
+          "context": "Music, editing order, and an emotional narrator guide viewers even when every individual scene is factual."
+        },
+        {
+          "idea": "Podcasts make specialist knowledge accessible.",
+          "context": "A skilled host can stop an expert, request a simpler explanation, and ask the question a general listener is likely to have."
+        },
+        {
+          "idea": "Audio permits learning during routine activity.",
+          "context": "People can hear a news analysis while walking or cooking, which makes detailed information easier to fit into a busy day."
+        },
+        {
+          "idea": "Visual explanation suits spatial and numerical subjects.",
+          "context": "Maps and animation can show migration, weather systems, or budget flows that would be difficult to follow through description alone."
+        },
+        {
+          "idea": "Educational media should reveal uncertainty.",
+          "context": "A confident explanation is engaging, but responsible creators say when researchers disagree or evidence remains limited."
+        },
+        {
+          "idea": "Episode notes improve accountability.",
+          "context": "Links to studies, transcripts, and corrections allow an interested listener to check claims that pass quickly in audio."
+        },
+        {
+          "idea": "Documentaries should not be treated as unedited reality.",
+          "context": "Directors choose whom to follow, which scenes to include, and how to arrange events into a story."
+        },
+        {
+          "idea": "Entertainment can introduce serious topics.",
+          "context": "A popular drama may encourage viewers to learn about law or mental health, but fictional details should not become their only source."
+        },
+        {
+          "idea": "Public broadcasters can serve audiences ignored by advertising.",
+          "context": "Programs in minority languages or about local history may have strong social value despite attracting a small market."
+        }
+      ]
+    },
+    {
+      "title": "Social Platforms and Short-Form News",
+      "ideas": [
+        {
+          "idea": "Social media delivers eyewitness material quickly.",
+          "context": "People already at an event can share road conditions or visible damage before a news crew arrives."
+        },
+        {
+          "idea": "Short video lowers the entry barrier to current affairs.",
+          "context": "A clear sixty-second explanation may help someone understand enough background to begin reading a longer report."
+        },
+        {
+          "idea": "Compression removes qualifications.",
+          "context": "Creators under time pressure may omit uncertainty, exceptions, and competing causes because nuance is harder to fit into a brief clip."
+        },
+        {
+          "idea": "Engagement rewards emotion.",
+          "context": "Platforms benefit when users keep watching and arguing, so an angry oversimplification may travel farther than a calm correction."
+        },
+        {
+          "idea": "Influencers can reach audiences traditional outlets miss.",
+          "context": "A familiar creator speaking the community's language may deliver emergency or health information more effectively than an official press conference."
+        },
+        {
+          "idea": "Citizen journalism needs verification partnerships.",
+          "context": "Professional outlets can authenticate location, contact witnesses, and preserve valuable public footage without accepting every caption."
+        },
+        {
+          "idea": "Livestreams reduce editorial selection but not interpretation.",
+          "context": "A continuous view shows more than a short clip, yet the camera still faces one direction and cannot explain events outside the frame."
+        },
+        {
+          "idea": "Comment sections contain both expertise and noise.",
+          "context": "A local engineer may correct a technical error beside dozens of unsupported reactions, leaving readers to judge which voice deserves attention."
+        },
+        {
+          "idea": "Moderation rules affect whose speech remains visible.",
+          "context": "Automated systems may miss coded abuse in one language while removing legitimate discussion in another."
+        },
+        {
+          "idea": "Platform labels work only when they explain enough.",
+          "context": "A warning that simply says disputed may create mystery; linking the specific evidence gives users a basis for judgment."
+        }
+      ]
+    },
+    {
+      "title": "Public Awareness, Privacy, and Accountability",
+      "ideas": [
+        {
+          "idea": "Investigative journalism can make hidden harm visible.",
+          "context": "Documents and interviews may connect scattered complaints into a pattern that regulators and the public can no longer dismiss."
+        },
+        {
+          "idea": "Attention does not guarantee a solution.",
+          "context": "A viral report may produce outrage for two days, while repairing a water system requires budgets, technical work, and months of follow-up."
+        },
+        {
+          "idea": "Local reporting supports democratic participation.",
+          "context": "Residents need understandable information about council decisions before they can attend meetings, contact representatives, or vote knowledgeably."
+        },
+        {
+          "idea": "Press freedom protects criticism of powerful institutions.",
+          "context": "Journalists cannot serve as watchdogs if leaders can punish every uncomfortable investigation as disloyalty."
+        },
+        {
+          "idea": "Safety protections need to include sources.",
+          "context": "Whistleblowers may lose careers or face threats when documents reveal serious wrongdoing, so secure communication and legal safeguards matter."
+        },
+        {
+          "idea": "Public interest has limits.",
+          "context": "Exposing corruption may justify publishing an official's financial connections, but not the private address of an uninvolved family member."
+        },
+        {
+          "idea": "Crime reporting can harm innocent people permanently.",
+          "context": "Naming an uncharged suspect places searchable accusations online even if the investigation later clears that person."
+        },
+        {
+          "idea": "Censorship may move rumors rather than remove them.",
+          "context": "When trustworthy reporting is blocked, people often turn to private channels where false explanations are harder to challenge."
+        },
+        {
+          "idea": "News organizations need accountability too.",
+          "context": "Independent complaint systems, visible standards, and correction records prevent press freedom from becoming freedom from criticism."
+        }
+      ]
+    },
+    {
+      "title": "Information Overload and the Future of News",
+      "ideas": [
+        {
+          "idea": "Constant alerts flatten importance.",
+          "context": "A minor celebrity update and an evacuation warning can arrive with the same sound, making it harder to recognize what truly requires action."
+        },
+        {
+          "idea": "News fatigue can look like indifference.",
+          "context": "A person may care deeply about a war or disaster but limit exposure because repeated distress is damaging sleep and concentration."
+        },
+        {
+          "idea": "Summaries need links to depth.",
+          "context": "A useful digest gives the essential facts while allowing readers to open evidence and analysis when a story affects them."
+        },
+        {
+          "idea": "Personalization improves relevance at a cost.",
+          "context": "A tailored feed finds preferred science or local stories, but it may hide major issues the user has never clicked before."
+        },
+        {
+          "idea": "Aggregators weaken publisher identity.",
+          "context": "Readers may remember the app that displayed an article but not the newsroom that investigated, verified, and paid for it."
+        },
+        {
+          "idea": "Paywalls create a conflict between sustainability and access.",
+          "context": "Investigations need revenue, while emergency guidance and information necessary for civic participation should reach people regardless of income."
+        },
+        {
+          "idea": "Artificial intelligence can assist routine newsroom work.",
+          "context": "Transcription, translation, and document search may free journalists to interview people and check claims more carefully."
+        },
+        {
+          "idea": "Synthetic media increases the value of provenance.",
+          "context": "When convincing audio can be generated, information about who recorded a file, when, and how it was edited becomes crucial."
+        },
+        {
+          "idea": "Human editors remain responsible for news judgment.",
+          "context": "An algorithm can predict interest but cannot decide alone which local safety issue deserves resources despite low expected traffic."
+        },
+        {
+          "idea": "The future may favor smaller trusted communities.",
+          "context": "Readers overwhelmed by giant feeds may choose focused newsletters or local groups where expertise and correction history are easier to recognize."
+        }
+      ]
+    }
+  ],
+  "coverage_audit": [
+    {
+      "section": "News Habits and Staying Informed",
+      "coverage": [
+        "news habits and staying informed"
+      ]
+    },
+    {
+      "section": "Reliable Reporting and Public Trust",
+      "coverage": [
+        "reliable reporting and public trust"
+      ]
+    },
+    {
+      "section": "Checking Sources and Evidence",
+      "coverage": [
+        "checking sources and evidence"
+      ]
+    },
+    {
+      "section": "Misinformation and Responsible Sharing",
+      "coverage": [
+        "misinformation and responsible sharing"
+      ]
+    },
+    {
+      "section": "Bias, Framing, and Representation",
+      "coverage": [
+        "bias, framing, and representation"
+      ]
+    },
+    {
+      "section": "Media Literacy and Education",
+      "coverage": [
+        "media literacy and education"
+      ]
+    },
+    {
+      "section": "Documentaries, Podcasts, and Educational Content",
+      "coverage": [
+        "documentaries, podcasts, and educational content"
+      ]
+    },
+    {
+      "section": "Social Platforms and Short-Form News",
+      "coverage": [
+        "social platforms and short-form news"
+      ]
+    },
+    {
+      "section": "Public Awareness, Privacy, and Accountability",
+      "coverage": [
+        "public awareness, privacy, and accountability"
+      ]
+    },
+    {
+      "section": "Information Overload and the Future of News",
+      "coverage": [
+        "information overload and the future of news"
+      ]
+    }
+  ],
+  "added_categories": [
+    "press freedom and accountability",
+    "algorithms and information access",
+    "privacy and responsible publication"
+  ]
+}

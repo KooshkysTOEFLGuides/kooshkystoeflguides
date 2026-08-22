@@ -1,0 +1,418 @@
+{
+  "schema_version": 1,
+  "topic": "Money, Budgeting, and Financial Planning",
+  "sets": [
+    {
+      "title": "Your Money-Management Routine",
+      "setup": "You have volunteered for a university study about personal-finance habits. A researcher will ask how you manage everyday money.",
+      "questions": [
+        {
+          "number": 1,
+          "question": "Thank you for joining the study. To begin, how often do you review your spending or budget?",
+          "sample_answer": "I review my spending once a week, usually on Sunday evening. I check card transactions, enter any cash purchases, and look at the total for food and transport. A weekly review is frequent enough to correct a problem before the month ends. I do not examine every purchase each day because that would feel exhausting. At the end of the month, I take a broader look and adjust categories that were repeatedly unrealistic."
+        },
+        {
+          "number": 2,
+          "question": "Do you prefer using a budgeting app, a spreadsheet, or written records? Why?",
+          "sample_answer": "I prefer a simple spreadsheet because I can choose my own categories and keep the file under my control. It automatically totals the numbers but does not need direct access to my bank account. A budgeting app would save some manual work, yet I worry about privacy and incorrect categories. A notebook is clear, but calculations take longer. The spreadsheet gives me a useful balance between automation, flexibility, and understanding what happens to the data."
+        },
+        {
+          "number": 3,
+          "question": "What is one spending habit you would personally like to improve?",
+          "sample_answer": "I would like to reduce unplanned food delivery. I usually order when I am tired and have not prepared anything, so the problem is partly planning rather than hunger. I could keep two simple meals at home and decide on one evening when delivery is allowed. Completely banning it would probably fail after a stressful day. A practical alternative would save money while leaving some room for convenience when it is genuinely useful."
+        },
+        {
+          "number": 4,
+          "question": "Some people believe managing money carefully reduces enjoyment of life. What do you think?",
+          "sample_answer": "I think careful management can increase enjoyment because it removes uncertainty and guilt. If I set aside a realistic amount for restaurants or hobbies, I can use it without wondering whether the rent is in danger. Problems arise when budgeting becomes a punishment and every small pleasure is treated as failure. A useful plan protects both needs and chosen enjoyment. It should help someone spend according to priorities, not simply make the smallest possible number appear on every category."
+        }
+      ]
+    },
+    {
+      "title": "Weekly and Monthly Budgets",
+      "setup": "You are participating in a study comparing different budgeting methods. The interviewer will ask about planning periods and adjustment.",
+      "questions": [
+        {
+          "number": 1,
+          "question": "Have you ever followed a weekly or monthly spending limit? Describe how it worked.",
+          "sample_answer": "I used a weekly food limit during a semester when my income was fixed. I transferred the amount to a separate card every Monday and used it for groceries and occasional café visits. The method made the remaining amount easy to see. One week included a birthday dinner, so I moved a little money from entertainment instead of pretending the limit had not changed. It worked because the categories were flexible but the total stayed clear."
+        },
+        {
+          "number": 2,
+          "question": "Which is more useful for most people: a weekly budget or a monthly budget?",
+          "sample_answer": "I think a monthly budget is necessary for the overall plan because salary, rent, utilities, and subscriptions usually follow that cycle. Weekly limits are better for flexible costs where spending can drift quietly. I would combine them rather than choose only one. The monthly plan protects major obligations, and a weekly food or leisure amount gives faster feedback. People with irregular income may need wider ranges, but the two time frames still serve different useful purposes."
+        },
+        {
+          "number": 3,
+          "question": "What should someone do after overspending in one budget category?",
+          "sample_answer": "They should first understand why it happened instead of immediately cutting another category at random. A medical need, price increase, and impulse purchase require different responses. If the cause was temporary, money can move from a lower priority area that month. If it repeats, the original target may be unrealistic and needs adjustment. One mistake should produce information, not a decision to abandon budgeting. The important question is whether the full month still matches available income."
+        },
+        {
+          "number": 4,
+          "question": "Do strict budgets usually help people develop discipline, or do they make people give up?",
+          "sample_answer": "Very strict budgets often make people give up because ordinary life includes invitations, repairs, and changing prices. A plan with no margin treats every surprise as personal failure. Some limits are still necessary, especially when income is tight or debt is expensive. I would use firm totals for major goals and flexible choices inside them. That structure creates discipline through repeated decisions without requiring a person to predict every detail of the month perfectly."
+        }
+      ]
+    },
+    {
+      "title": "Saving for a Goal",
+      "setup": "A university researcher is studying how people save for short- and long-term goals. You will discuss targets, habits, and priorities.",
+      "questions": [
+        {
+          "number": 1,
+          "question": "Tell me about something you have saved for or would like to save for.",
+          "sample_answer": "I would like to save for a professional course that begins next year. I checked the tuition, transport, and materials, so the target includes more than the advertised fee. I plan to transfer a fixed amount after each paycheck and put any work bonus toward it. The course is specific enough to keep me motivated. It may also improve my future income, which makes the sacrifice feel more useful than saving for a vague idea."
+        },
+        {
+          "number": 2,
+          "question": "Is it better to save a fixed amount or whatever money remains at the end of the month?",
+          "sample_answer": "A fixed amount works better for me because money left in the main account tends to find another use. An automatic transfer on payday protects the goal before optional spending begins. The amount still needs to be realistic, and I would lower it temporarily if income fell. Saving whatever remains can be useful for an extra contribution. It should not be the main method when the goal has a clear cost and deadline."
+        },
+        {
+          "number": 3,
+          "question": "How can someone remain motivated when a savings goal will take several years?",
+          "sample_answer": "They can divide the final amount into smaller milestones and track visible progress. Reaching the first ten percent or one month of expenses feels more immediate than thinking about the distant total. It also helps to connect the goal with a concrete future, such as less stress or more career choice. I would allow a small amount for present enjoyment too. A plan that makes every year miserable is unlikely to survive long enough to reach its target."
+        },
+        {
+          "number": 4,
+          "question": "Some people prioritize experiences such as travel, while others save mainly for property or financial security. Which approach is better?",
+          "sample_answer": "Neither is better for everyone because responsibilities, income, and values differ. Basic emergency protection should come before an expensive optional trip, but life cannot be postponed forever for a perfect level of security. I would build a reasonable cushion and then divide additional savings between a long-term asset and meaningful experiences. The balance may change by age. What matters is making the trade-off consciously instead of copying another person's lifestyle or treating one type of spending as automatically superior."
+        }
+      ]
+    },
+    {
+      "title": "Preparing for Emergencies",
+      "setup": "You are taking part in an interview about unexpected expenses and financial resilience. The researcher will ask about emergency funds and support.",
+      "questions": [
+        {
+          "number": 1,
+          "question": "What kind of unexpected expense do you think people should prepare for?",
+          "sample_answer": "A necessary home or vehicle repair is a common example because it can appear suddenly and affect work or safety. The exact risk depends on a person's life, so someone without a car would prepare differently. I would keep emergency money in an account that is easy to reach but separate from daily spending. The goal is not predicting the exact problem. It is having enough time to respond without immediately using an expensive loan."
+        },
+        {
+          "number": 2,
+          "question": "How large should an emergency fund be?",
+          "sample_answer": "There is no single amount that fits everyone. A worker with stable employment, insurance, and family support may need a smaller cushion than a freelancer supporting children. I would begin with one week of essential expenses, then aim for one month and gradually more. A modest reachable target is better than giving up because six months seems impossible. The fund should reflect rent, food, transport, health needs, and how quickly lost income could be replaced."
+        },
+        {
+          "number": 3,
+          "question": "If someone uses all their emergency savings, what should they do next?",
+          "sample_answer": "They should recognize that the fund did its job rather than viewing the use as failure. First, the new urgent situation must be stable and current bills must remain covered. Then the person can restart the automatic transfer at a manageable amount. They may also review whether insurance or maintenance could reduce the same risk later. Rebuilding will take time, so the plan should not demand extreme cuts that create another problem in ordinary life."
+        },
+        {
+          "number": 4,
+          "question": "Should governments or communities provide emergency financial support, or should individuals prepare entirely on their own?",
+          "sample_answer": "Support is necessary because no individual can save enough for every disaster, serious illness, or long period without work. Public insurance and emergency assistance spread rare major risks across many people. Individuals still have responsibility to build what cushion they reasonably can and avoid predictable misuse. I see the two approaches as complementary. Personal savings handle ordinary setbacks quickly, while social systems protect people from events that would overwhelm even a careful household."
+        }
+      ]
+    },
+    {
+      "title": "Debt and Borrowing",
+      "setup": "A social-science study is examining how people think about loans and credit. You will answer questions about responsible borrowing and repayment.",
+      "questions": [
+        {
+          "number": 1,
+          "question": "What is one situation in which borrowing money can be reasonable?",
+          "sample_answer": "Borrowing can be reasonable for necessary education when the cost, loan terms, and likely career value have been checked carefully. Waiting to save the entire amount might delay the opportunity for years. I would borrow only what is needed and compare total repayment, not just the monthly installment. The course should lead to useful skills rather than a vague promise of success. Borrowing is justified when it supports a realistic plan and the future payments remain manageable."
+        },
+        {
+          "number": 2,
+          "question": "Do credit cards help people manage money, or do they encourage overspending?",
+          "sample_answer": "They can do either. A credit card creates a clear record, offers security for online purchases, and can cover a brief emergency. It also separates the pleasure of buying from the pain of payment, which encourages some people to spend beyond income. I would use one for planned purchases and pay the full statement whenever possible. The card should be a payment tool, not extra income. Anyone carrying a balance needs to understand how quickly interest changes the cost."
+        },
+        {
+          "number": 3,
+          "question": "What should a person do if they realize they cannot make the next loan payment?",
+          "sample_answer": "They should contact the lender before the deadline and explain the situation honestly. Some lenders can change the date, reduce a temporary payment, or provide a formal hardship plan. The person should also list essential bills and stop adding optional debt. Ignoring messages usually creates penalties and removes possible choices. If several debts are involved, independent nonprofit advice may help organize them. Early action cannot erase the problem, but it can prevent avoidable damage."
+        },
+        {
+          "number": 4,
+          "question": "Some people believe all debt is a sign of financial irresponsibility. Do you agree?",
+          "sample_answer": "No, because debt can result from education, housing, medical needs, business equipment, or a sudden loss of income. The purpose, terms, and repayment plan matter more than the mere existence of borrowing. A person can also avoid debt only because family wealth covers every emergency. Careless high-interest spending is a problem, but it should not define every borrower. Responsible judgment means using debt selectively and understanding its cost, not pretending that borrowing is never necessary."
+        }
+      ]
+    },
+    {
+      "title": "Digital Money Tools",
+      "setup": "A research team is studying how people use technology to manage money. The questions concern apps, automation, privacy, and cash.",
+      "questions": [
+        {
+          "number": 1,
+          "question": "What digital financial tool do you find or think would be most useful?",
+          "sample_answer": "A banking app with immediate transaction alerts is most useful to me. It lets me confirm payments, notice a duplicate charge, and check whether enough money remains for a bill. I do not need complicated charts every day. The alert provides useful information at the moment a transaction happens. I would still review a monthly statement because an app screen can hide the larger pattern. The simple combination improves both convenience and control."
+        },
+        {
+          "number": 2,
+          "question": "Would you automate bill payments and savings, or handle them manually?",
+          "sample_answer": "I would automate regular fixed bills and a modest savings transfer because forgetting them creates unnecessary fees or lost progress. I would not stop checking the amounts, especially for utilities that change. Manual payment gives more awareness but also requires attention at several deadlines. Automation should handle the repeated action while I remain responsible for review. I would keep alerts on and examine the account weekly so convenience does not turn into complete inattention."
+        },
+        {
+          "number": 3,
+          "question": "What privacy questions should someone ask before using a free budgeting app?",
+          "sample_answer": "They should ask what transaction data the app collects, whether it sells or shares that information, and how an account can be deleted. Financial records reveal health, travel, relationships, and daily routine, so they are more personal than a simple shopping list. I would also check whether the app needs direct bank access for the feature I want. A free service still has a business model. Users should understand what they exchange instead of assuming there is no cost."
+        },
+        {
+          "number": 4,
+          "question": "Do you think society will eventually stop using cash completely?",
+          "sample_answer": "Probably not completely, even if digital payment becomes dominant. Cash remains useful during power or network failures, for small informal markets, and for people without suitable devices or bank access. It also makes some spending easier to see and offers a degree of privacy. Digital systems are faster and create better records, so their share will grow. I think both should remain available, with cash acting as an accessible backup rather than the main method for everyone."
+        }
+      ]
+    },
+    {
+      "title": "Financial Advice",
+      "setup": "You have agreed to participate in a study about where people get help with financial decisions. The interviewer will ask about advisers, online tools, and trust.",
+      "questions": [
+        {
+          "number": 1,
+          "question": "Who would you ask first if you needed help with an important money decision?",
+          "sample_answer": "I would begin with a financially careful family member to organize my questions, but I would not rely on them for a final technical answer. For a large loan, tax issue, or investment, I would seek an independent qualified adviser. I would ask how they are paid and whether they receive commission from a product. Personal trust is useful, yet expertise and incentives matter too. The right source depends on how complex and costly the decision is."
+        },
+        {
+          "number": 2,
+          "question": "Can online calculators and educational videos replace professional financial advice?",
+          "sample_answer": "They can replace advice for some simple questions. A calculator can compare loan terms, and a clear video can explain how interest works. The user still has to enter accurate assumptions and understand that an estimate is not a guarantee. Complex family, tax, or retirement decisions involve rules and risks a general tool cannot see. I would use online resources to learn and prepare questions, then pay for professional help only when the consequences justify the cost."
+        },
+        {
+          "number": 3,
+          "question": "How can a person tell whether a financial adviser is trustworthy?",
+          "sample_answer": "They should verify qualifications, ask for all fees in writing, and understand whether the adviser must act in the client's best interest. A trustworthy person asks about debt, emergency savings, family duties, and risk before recommending a product. Pressure to decide immediately is a warning sign. I would also ask what happens if the advice performs badly. Trust should come from transparent process and appropriate expertise, not confidence, expensive clothing, or promises of unusually high returns."
+        },
+        {
+          "number": 4,
+          "question": "Should basic financial guidance be offered free as a public service?",
+          "sample_answer": "Yes, because people need impartial help with debt, benefits, fraud, and ordinary banking before a problem becomes a crisis. Libraries, schools, and community centers could provide basic education and referral to qualified services. Free guidance should not recommend particular investments or replace specialized legal advice. Its role is helping people understand options, forms, and warning signs. Early accessible support may save public money later by preventing eviction, predatory borrowing, and avoidable financial emergencies."
+        }
+      ]
+    },
+    {
+      "title": "Investing for the Future",
+      "setup": "A university study is collecting general opinions about saving and investing. You will discuss risk, time, and wealth building without needing specialist knowledge.",
+      "questions": [
+        {
+          "number": 1,
+          "question": "Would you prefer to keep long-term savings in a bank account or invest some of it? Why?",
+          "sample_answer": "After building an accessible emergency fund, I would invest some long-term savings in a simple diversified option. Money needed many years later can tolerate short-term changes, and ordinary bank interest may not keep up with inflation. I would not invest tuition due next year or money needed for rent. The decision depends on purpose and time, not only a desire for higher return. I would choose something understandable, low-cost, and spread across many assets rather than one exciting company."
+        },
+        {
+          "number": 2,
+          "question": "Why are people sometimes attracted to investments promising very high returns?",
+          "sample_answer": "High returns seem to offer a quick solution to slow financial progress. Someone worried about housing or retirement may feel they cannot reach the goal through ordinary saving. Social media also shows successful stories more often than losses, which creates false confidence. The promise becomes especially attractive when a friend appears to profit. I would treat guaranteed high return as a warning sign, pause, and check regulation and independent information before sending any money."
+        },
+        {
+          "number": 3,
+          "question": "What is one simple way to reduce investment risk?",
+          "sample_answer": "Diversification is one practical way. Instead of placing all savings in one company or property, a person can spread exposure across many assets. That does not remove the possibility of loss, but one failure is less likely to destroy the whole plan. Risk should also match the deadline. Even a diversified investment may be unsuitable for money needed soon, because the market could fall at exactly the wrong time."
+        },
+        {
+          "number": 4,
+          "question": "Some people say wealth mainly comes from discipline, while others emphasize opportunity and family background. What is your view?",
+          "sample_answer": "Both matter, but opportunity strongly affects what discipline can achieve. A person with high rent, poor health, or low wages may budget carefully and still save very little. Another person may receive housing, education, or an inheritance that makes investing possible early. Good habits remain valuable because they protect and use available resources. We should teach those habits without pretending that every financial outcome proves someone's character or that unequal starting points disappear through effort alone."
+        }
+      ]
+    },
+    {
+      "title": "Financial Education at School",
+      "setup": "An education researcher is studying whether schools prepare students for everyday financial decisions. You will answer four questions about curriculum and responsibility.",
+      "questions": [
+        {
+          "number": 1,
+          "question": "What is one money topic you wish schools taught more clearly?",
+          "sample_answer": "I wish schools taught students how to compare the total cost of loans. Monthly payment advertisements look affordable, but the interest rate and length may make one option far more expensive. Students could compare two realistic offers and explain which suits a situation. That skill would help with education, cars, phones, and credit cards. It is practical mathematics connected to decisions many young adults face before they have enough experience to recognize misleading terms."
+        },
+        {
+          "number": 2,
+          "question": "Should financial education be taught as a separate subject or included in other classes?",
+          "sample_answer": "I would include a short required practical course and reinforce it elsewhere. Mathematics can cover interest and percentages, while social studies can discuss tax, inequality, and consumer protection. A separate course ensures that bank accounts, budgets, scams, and payslips are not lost between subjects. It should use realistic cases rather than a long exam. Students need repeated practice applying numbers and judgment, not only one lecture about the importance of saving."
+        },
+        {
+          "number": 3,
+          "question": "How can teachers discuss money fairly when students come from very different family situations?",
+          "sample_answer": "They should avoid assignments that require students to reveal family income, debt, or spending. Fictional households with different goals and constraints can provide realistic practice without embarrassment. Teachers should also explain that budgeting cannot create income and that illness, housing, and caregiving shape choices. The class can teach useful habits without calling poverty irresponsible. Respectful language and several possible solutions help students learn while recognizing that not everyone begins with the same resources."
+        },
+        {
+          "number": 4,
+          "question": "Do you think financial education will make most adults financially secure?",
+          "sample_answer": "It will help, but it cannot guarantee security. People can avoid some fraud, compare borrowing, and build better habits when they understand the tools. They still face wages, housing prices, unemployment, health costs, and unequal family support. Education improves decisions inside the choices available. Governments and employers also shape those choices through consumer rules, pay, benefits, and public services. I would treat financial literacy as necessary protection, not a complete explanation for why some households struggle."
+        }
+      ]
+    },
+    {
+      "title": "Financial Stability and Life Choices",
+      "setup": "A social researcher is examining what financial security means in everyday life. The final set concerns stability, stress, and long-term choices.",
+      "questions": [
+        {
+          "number": 1,
+          "question": "What would financial stability mean to you personally?",
+          "sample_answer": "For me, stability would mean paying ordinary bills on time, having an emergency fund, and saving a little for the future. It would also mean that one repair did not force me to borrow at a very high rate. I do not define it as owning luxury items or never worrying about money. The most valuable part would be having enough room to make calm decisions, such as changing an unhealthy job or helping a family member briefly."
+        },
+        {
+          "number": 2,
+          "question": "Does a higher income always lead to greater financial security?",
+          "sample_answer": "No, although adequate income makes security much easier. A high earner may have large debt, unstable work, or spending commitments that use every paycheck. A moderate-income household with affordable housing and a cushion may feel safer. Still, habits cannot replace enough money for basic needs. Income, cost of living, benefits, debt, and support all matter. Security depends on the gap between resources and obligations, not on the salary number alone."
+        },
+        {
+          "number": 3,
+          "question": "How can financial stress affect decisions in other parts of life?",
+          "sample_answer": "It can reduce concentration and make every decision feel urgent. Someone worried about rent may sleep poorly, avoid medical care, or accept unsafe work because there is no financial cushion. Stress can also produce short-term choices, such as an expensive quick loan, that worsen the next month. Clear information and support help, but the underlying shortage still needs attention. Money pressure is not separate from health, relationships, education, or job performance."
+        },
+        {
+          "number": 4,
+          "question": "Some people sacrifice most present enjoyment to prepare for the future. Is that a wise approach?",
+          "sample_answer": "Some sacrifice is wise when it prevents serious future insecurity, especially for emergency savings or expensive debt. Giving up nearly all enjoyment for decades can damage relationships and make the plan impossible to sustain. The future is uncertain, and meaningful experiences also have value now. I would protect essential long-term goals and set a modest present-life amount without guilt. A good plan connects different stages of life rather than treating today only as a problem to endure."
+        }
+      ]
+    }
+  ],
+  "corpus_calibration_audit": [
+    {
+      "set_title": "Your Money-Management Routine",
+      "question_functions": [
+        "routine description",
+        "tool preference",
+        "personal improvement",
+        "belief evaluation"
+      ],
+      "subtopics": [
+        "personal finance habits",
+        "tracking",
+        "budgeting tools",
+        "spending and enjoyment"
+      ]
+    },
+    {
+      "set_title": "Weekly and Monthly Budgets",
+      "question_functions": [
+        "past budgeting experience",
+        "time-frame comparison",
+        "problem-solving advice",
+        "strictness evaluation"
+      ],
+      "subtopics": [
+        "weekly budgeting",
+        "monthly budgeting",
+        "overspending",
+        "financial discipline"
+      ]
+    },
+    {
+      "set_title": "Saving for a Goal",
+      "question_functions": [
+        "personal goal",
+        "saving-method preference",
+        "long-term motivation advice",
+        "values trade-off"
+      ],
+      "subtopics": [
+        "financial goals",
+        "automatic saving",
+        "milestones",
+        "experiences and security"
+      ]
+    },
+    {
+      "set_title": "Preparing for Emergencies",
+      "question_functions": [
+        "risk identification",
+        "conditional target",
+        "recovery advice",
+        "individual-social responsibility"
+      ],
+      "subtopics": [
+        "unexpected expenses",
+        "emergency funds",
+        "rebuilding savings",
+        "public support"
+      ]
+    },
+    {
+      "set_title": "Debt and Borrowing",
+      "question_functions": [
+        "reasonable scenario",
+        "credit-card evaluation",
+        "payment-problem advice",
+        "stigma judgment"
+      ],
+      "subtopics": [
+        "loans",
+        "credit cards",
+        "repayment difficulty",
+        "fiscal responsibility"
+      ]
+    },
+    {
+      "set_title": "Digital Money Tools",
+      "question_functions": [
+        "tool preference",
+        "automation choice",
+        "privacy advice",
+        "future payment judgment"
+      ],
+      "subtopics": [
+        "budgeting apps",
+        "automation",
+        "financial privacy",
+        "cash and digital payments"
+      ]
+    },
+    {
+      "set_title": "Financial Advice",
+      "question_functions": [
+        "help-source choice",
+        "tools-professionals comparison",
+        "trust evaluation",
+        "public-service policy"
+      ],
+      "subtopics": [
+        "personal financial managers",
+        "online tools",
+        "adviser incentives",
+        "public financial guidance"
+      ]
+    },
+    {
+      "set_title": "Investing for the Future",
+      "question_functions": [
+        "saving-investing preference",
+        "behavior explanation",
+        "risk-reduction advice",
+        "balanced wealth judgment"
+      ],
+      "subtopics": [
+        "long-term investing",
+        "high-return promises",
+        "diversification",
+        "wealth building"
+      ]
+    },
+    {
+      "set_title": "Financial Education at School",
+      "question_functions": [
+        "curriculum priority",
+        "delivery-method comparison",
+        "equity recommendation",
+        "limits evaluation"
+      ],
+      "subtopics": [
+        "financial literacy",
+        "school curriculum",
+        "family privacy",
+        "financial stability"
+      ]
+    },
+    {
+      "set_title": "Financial Stability and Life Choices",
+      "question_functions": [
+        "personal definition",
+        "income-security distinction",
+        "cross-domain consequence",
+        "present-future trade-off"
+      ],
+      "subtopics": [
+        "financial stability",
+        "income",
+        "financial stress",
+        "long-term planning"
+      ]
+    }
+  ]
+}

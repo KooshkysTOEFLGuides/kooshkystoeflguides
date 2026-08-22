@@ -1,0 +1,547 @@
+{
+  "schema_version": 1,
+  "topic": "Communication and Language",
+  "sections": [
+    {
+      "title": "Choosing a Communication Channel",
+      "ideas": [
+        {
+          "idea": "Urgency should determine the channel.",
+          "context": "A phone call suits an immediate safety problem, while an email is better for information that can wait."
+        },
+        {
+          "idea": "Complex decisions benefit from richer communication.",
+          "context": "People can ask questions and notice hesitation in a live conversation before confirming the result in writing."
+        },
+        {
+          "idea": "Unexpected calls can interrupt concentration.",
+          "context": "A quick text asking whether someone is free respects their work while still allowing a prompt conversation."
+        },
+        {
+          "idea": "Written messages create a useful record.",
+          "context": "Dates, prices, and responsibilities are easier to verify later when they appear in an email or shared thread."
+        },
+        {
+          "idea": "Face-to-face contact can strengthen a weak relationship.",
+          "context": "Sharing a room provides small informal moments that scheduled messages rarely reproduce."
+        },
+        {
+          "idea": "Accessibility can outweigh personal preference.",
+          "context": "Captions, text, slower speech, or an interpreter may let a participant contribute fully."
+        },
+        {
+          "idea": "Sensitive criticism usually needs privacy.",
+          "context": "Correcting a colleague in a group chat can create embarrassment that distracts from the actual problem."
+        },
+        {
+          "idea": "Routine contact is easier when it is lightweight.",
+          "context": "A short weekly voice note may maintain a distant friendship better than rare plans for a long video call."
+        },
+        {
+          "idea": "Channel switching can rescue a stalled exchange.",
+          "context": "When an email thread becomes defensive, a calm call can clarify tone before the agreement is documented."
+        },
+        {
+          "idea": "Shared norms prevent missed messages.",
+          "context": "A team works faster when everyone knows that urgent issues go by phone and ordinary updates go in one workspace."
+        },
+        {
+          "idea": "Local conditions affect channel quality.",
+          "context": "Weak internet, expensive data, noise, and time zones can make a theoretically rich video call impractical."
+        },
+        {
+          "idea": "Video access is socially unequal.",
+          "context": "Bandwidth, private space, equipment, and household noise affect who appears prepared in an online meeting."
+        }
+      ]
+    },
+    {
+      "title": "Listening and Conversation",
+      "ideas": [
+        {
+          "idea": "Listening requires delaying the reply.",
+          "context": "Planning a counterargument while another person speaks causes important qualifications to disappear."
+        },
+        {
+          "idea": "Follow-up questions demonstrate attention.",
+          "context": "Asking how a change affected someone's commute responds to the actual story instead of changing the subject."
+        },
+        {
+          "idea": "Paraphrasing can expose different interpretations.",
+          "context": "Two coworkers may discover that they attached different deadlines to the phrase as soon as possible."
+        },
+        {
+          "idea": "Silence is not always communication failure.",
+          "context": "A thoughtful pause can give a learner or anxious speaker enough time to form an honest answer."
+        },
+        {
+          "idea": "Interruptions have unequal costs.",
+          "context": "A confident speaker may recover quickly, while a quieter participant may abandon the point entirely."
+        },
+        {
+          "idea": "Small acknowledgments keep conversation cooperative.",
+          "context": "Brief responses such as I see show attention without stealing the speaker's turn."
+        },
+        {
+          "idea": "Advice should follow diagnosis.",
+          "context": "A friend describing exhaustion may need rest, practical help, or simply recognition rather than another productivity method."
+        },
+        {
+          "idea": "Turn-taking is harder online.",
+          "context": "Video delay removes the tiny timing cues that normally tell people when a speaker has finished."
+        },
+        {
+          "idea": "Good questions invite detail without interrogation.",
+          "context": "An open question about what happened next feels more supportive than demanding a justification for every choice."
+        },
+        {
+          "idea": "Conversation quality is not measured by speaking time.",
+          "context": "A person who contributes two well-timed questions may help a group more than its longest speaker."
+        }
+      ]
+    },
+    {
+      "title": "Clarity and Explanation",
+      "ideas": [
+        {
+          "idea": "The listener's knowledge determines useful detail.",
+          "context": "A technician and a first-time customer need different explanations of the same software problem."
+        },
+        {
+          "idea": "A concrete example tests an abstract claim.",
+          "context": "A speaker who says transport is inconvenient can name the missed connection that adds forty minutes."
+        },
+        {
+          "idea": "Structure reduces mental effort.",
+          "context": "Stating the problem, cause, and requested action lets a busy listener follow without rearranging the information."
+        },
+        {
+          "idea": "Technical accuracy is not enough.",
+          "context": "An explanation fails if every term is correct but the intended audience cannot connect the terms."
+        },
+        {
+          "idea": "Analogies illuminate and distort.",
+          "context": "Comparing memory to storage may introduce a basic idea while hiding how human recall changes over time."
+        },
+        {
+          "idea": "Specific requests are easier to answer.",
+          "context": "Please review the conclusion by Thursday produces clearer action than tell me what you think sometime."
+        },
+        {
+          "idea": "Checking understanding is not an admission of weakness.",
+          "context": "Repeating a medical instruction in one's own words can prevent a dangerous mistake."
+        },
+        {
+          "idea": "Visual information can reveal relationships quickly.",
+          "context": "A labelled map explains a route more efficiently than a long sequence of left and right turns."
+        },
+        {
+          "idea": "Conciseness should preserve necessary context.",
+          "context": "Removing the reason for a deadline may make a short instruction seem arbitrary and easier to ignore."
+        },
+        {
+          "idea": "Examples should match the audience's experience.",
+          "context": "A household-budget example may clarify percentages for beginners better than an unfamiliar investment case."
+        },
+        {
+          "idea": "Revision often improves spoken explanations.",
+          "context": "After seeing confused faces, a teacher can replace a broad definition with a demonstration and a contrast."
+        }
+      ]
+    },
+    {
+      "title": "Tone and Nonverbal Meaning",
+      "ideas": [
+        {
+          "idea": "Tone can reverse the effect of polite wording.",
+          "context": "A sharply delivered thank you may communicate irritation rather than gratitude."
+        },
+        {
+          "idea": "One gesture is weak evidence of emotion.",
+          "context": "Crossed arms may reflect cold air, comfort, habit, or defensiveness, so context matters."
+        },
+        {
+          "idea": "Speaking pace affects comprehension.",
+          "context": "Listeners may understand a complex process when the presenter slows at transitions and pauses after key steps."
+        },
+        {
+          "idea": "Volume should fit the environment.",
+          "context": "Projecting in a hall improves access, while the same loudness in a small office can feel aggressive."
+        },
+        {
+          "idea": "Eye-contact norms differ.",
+          "context": "Direct gaze may signal confidence in one setting and disrespect in another, especially across age or status."
+        },
+        {
+          "idea": "Video distorts nonverbal cues.",
+          "context": "Delay, camera angle, and looking at the screen rather than the lens can create false impressions of avoidance."
+        },
+        {
+          "idea": "Facial feedback helps speakers adapt.",
+          "context": "Puzzled expressions can prompt an example before anyone feels confident enough to interrupt."
+        },
+        {
+          "idea": "Calm delivery supports difficult content.",
+          "context": "A manager can communicate a serious error firmly without adding humiliation through sarcasm or shouting."
+        },
+        {
+          "idea": "Authenticity matters more than staged gestures.",
+          "context": "Repeatedly performing memorized hand movements can distract both the speaker and audience from the idea."
+        },
+        {
+          "idea": "Nonverbal behavior should support inclusion.",
+          "context": "Turning toward a quiet participant and leaving a pause can make entry into a group discussion easier."
+        }
+      ]
+    },
+    {
+      "title": "Disagreement and Repair",
+      "ideas": [
+        {
+          "idea": "Separating people from ideas lowers defensiveness.",
+          "context": "Questioning the evidence allows revision, while calling its author careless invites a fight about character."
+        },
+        {
+          "idea": "Partial agreement creates an honest starting point.",
+          "context": "Recognizing a real cost does not require accepting the proposed solution to it."
+        },
+        {
+          "idea": "Hidden assumptions often cause conflict.",
+          "context": "Two roommates may argue about cleanliness when they actually have different ideas about shared responsibility."
+        },
+        {
+          "idea": "A useful apology names the effect.",
+          "context": "Saying I interrupted and made your point difficult to finish repairs more than a vague apology if you were upset."
+        },
+        {
+          "idea": "Intent does not erase impact.",
+          "context": "A joke can hurt someone without malicious purpose, and that effect still deserves attention."
+        },
+        {
+          "idea": "Not every disagreement needs consensus.",
+          "context": "Friends can keep different political or lifestyle preferences when neither choice controls the other person's rights."
+        },
+        {
+          "idea": "Compromise has ethical limits.",
+          "context": "Splitting the difference is inappropriate when one option creates a serious safety risk."
+        },
+        {
+          "idea": "A neutral facilitator can change the process.",
+          "context": "Someone outside a dispute can enforce turns and identify the decision that actually needs resolution."
+        },
+        {
+          "idea": "Timing affects repair.",
+          "context": "A short cooling-off period may help, but weeks of silence can turn one comment into a larger trust problem."
+        },
+        {
+          "idea": "Boundaries can be communicated without punishment.",
+          "context": "A person can decline late-night calls while offering a time when they are genuinely available."
+        }
+      ]
+    },
+    {
+      "title": "Digital Communication",
+      "ideas": [
+        {
+          "idea": "Brevity creates ambiguity.",
+          "context": "The reply fine can signal agreement, disappointment, or impatience when no voice or expression supplies context."
+        },
+        {
+          "idea": "Notifications divide attention.",
+          "context": "Even unanswered alerts can interrupt the mental work needed to understand a lecture or write a careful response."
+        },
+        {
+          "idea": "Group chats blur audiences.",
+          "context": "A joke suitable for close friends may reach classmates or colleagues who do not share its history."
+        },
+        {
+          "idea": "Forwarding changes privacy.",
+          "context": "Information offered to one trusted person can become harmful when copied into a larger thread without consent."
+        },
+        {
+          "idea": "Asynchronous communication helps reflection.",
+          "context": "A learner can check facts and choose precise language before responding to a difficult question."
+        },
+        {
+          "idea": "Public comments encourage performance.",
+          "context": "People may defend an extreme position before an audience even when they would compromise in private."
+        },
+        {
+          "idea": "Digital records outlast moods.",
+          "context": "An angry post written in minutes may remain searchable after the writer's view has changed."
+        },
+        {
+          "idea": "Emojis can soften but not clarify everything.",
+          "context": "A smiling symbol may signal friendliness, yet it cannot define an unclear deadline or repair an insult."
+        },
+        {
+          "idea": "Delayed replies need shared expectations.",
+          "context": "Friends may accept several hours, while an emergency team requires a defined faster response."
+        },
+        {
+          "idea": "Online conflict can escalate without pauses.",
+          "context": "Rapid messages reward immediate reaction before anyone checks tone, evidence, or the size of the disagreement."
+        },
+        {
+          "idea": "Written tone needs extra care.",
+          "context": "A rushed correction with no greeting or explanation may look hostile even when its facts are accurate."
+        }
+      ]
+    },
+    {
+      "title": "School and Workplace Communication",
+      "ideas": [
+        {
+          "idea": "Constructive feedback needs an action.",
+          "context": "Identifying an unclear introduction helps little unless the student also knows what information readers need there."
+        },
+        {
+          "idea": "Private correction protects participation.",
+          "context": "An employee is more likely to ask future questions when one mistake is not turned into public embarrassment."
+        },
+        {
+          "idea": "Meeting agendas distribute preparation.",
+          "context": "Participants can bring relevant figures and consider trade-offs instead of reacting to surprise topics."
+        },
+        {
+          "idea": "Written summaries create accountability.",
+          "context": "Naming the person and date for each action reduces later arguments about who volunteered."
+        },
+        {
+          "idea": "Questions can signal responsibility.",
+          "context": "A new worker who checks a safety procedure may be more careful, not less capable."
+        },
+        {
+          "idea": "Status affects who gets heard.",
+          "context": "Junior staff may notice a problem but remain silent unless leaders explicitly invite challenges."
+        },
+        {
+          "idea": "Delegation requires context and authority.",
+          "context": "Giving someone a task without information or permission leaves them responsible for a result they cannot control."
+        },
+        {
+          "idea": "Office hours lower academic barriers.",
+          "context": "A scheduled conversation lets a student test an early idea before confusion affects an entire assignment."
+        },
+        {
+          "idea": "Professional language can remain human.",
+          "context": "A clear apology and direct request usually work better than stiff phrases copied from a formal template."
+        },
+        {
+          "idea": "Communication cannot repair every workload problem.",
+          "context": "More meetings will not solve a deadline that genuinely requires more people or less work."
+        },
+        {
+          "idea": "Memory should not replace notes for important commitments.",
+          "context": "Writing down an action and deadline prevents both parties from sincerely remembering different promises."
+        }
+      ]
+    },
+    {
+      "title": "Public Speaking and Presentations",
+      "ideas": [
+        {
+          "idea": "Rehearsal reveals timing problems.",
+          "context": "Speaking aloud shows that a seemingly short slide actually requires several minutes of explanation."
+        },
+        {
+          "idea": "An audience needs verbal signposts.",
+          "context": "Phrases marking a contrast or final point replace the paragraph breaks listeners cannot see."
+        },
+        {
+          "idea": "Slides should reduce, not duplicate, speech.",
+          "context": "A simple graph gives listeners evidence while they continue attending to the presenter's explanation."
+        },
+        {
+          "idea": "Stage fright responds to gradual exposure.",
+          "context": "Several low-stakes classroom talks can make a formal presentation feel familiar enough to manage."
+        },
+        {
+          "idea": "Pauses improve authority more than filler words.",
+          "context": "A quiet second to think sounds clearer than extending every hesitation with repeated sounds."
+        },
+        {
+          "idea": "Questions are evidence about explanation.",
+          "context": "When several listeners ask about the same step, the speaker can revise that part for the next audience."
+        },
+        {
+          "idea": "Openings should establish purpose quickly.",
+          "context": "A relevant problem or question gives listeners a reason to follow the details that come next."
+        },
+        {
+          "idea": "Stories need a clear analytical job.",
+          "context": "A personal anecdote is useful when it illustrates the central claim, not merely because it is entertaining."
+        },
+        {
+          "idea": "Accessible delivery benefits everyone.",
+          "context": "Readable labels, strong contrast, captions, and explained visuals support both disabled and nondisabled listeners."
+        },
+        {
+          "idea": "Recovery is part of speaking skill.",
+          "context": "A presenter who loses a phrase can consult the outline and continue without apologizing for every pause."
+        }
+      ]
+    },
+    {
+      "title": "Language Learning",
+      "ideas": [
+        {
+          "idea": "Fluency and accuracy develop at different rates.",
+          "context": "A learner may speak freely with errors before later practice makes the same language more precise."
+        },
+        {
+          "idea": "Useful phrases beat isolated rare words.",
+          "context": "Learning how to ask for clarification prepares a learner for more real conversations than memorizing an obscure synonym."
+        },
+        {
+          "idea": "An accent is not a language failure.",
+          "context": "Intelligible speech can retain features of a speaker's first language and express identity."
+        },
+        {
+          "idea": "Communication gaps encourage paraphrasing.",
+          "context": "Describing an unknown object keeps a conversation moving and strengthens flexible language use."
+        },
+        {
+          "idea": "Regular contact makes recall faster.",
+          "context": "Ten minutes of daily listening and response keeps familiar language available more effectively than occasional cramming."
+        },
+        {
+          "idea": "Safe mistakes support experimentation.",
+          "context": "A patient partner lets learners try unfamiliar structures instead of relying only on sentences they already control."
+        },
+        {
+          "idea": "Passive knowledge needs retrieval practice.",
+          "context": "Recognizing a word while reading does not guarantee that it will appear during a timed answer."
+        },
+        {
+          "idea": "Immersion can be partly designed at home.",
+          "context": "Radio, clubs, games, and device settings create repeated contact without international travel."
+        },
+        {
+          "idea": "Translation has both value and limits.",
+          "context": "It can confirm a basic meaning but may hide differences in politeness, humor, or typical usage."
+        },
+        {
+          "idea": "Recorded speech makes progress visible.",
+          "context": "Comparing answers across several months reveals shorter pauses that daily self-judgment may miss."
+        }
+      ]
+    },
+    {
+      "title": "Intercultural Communication and Confidence",
+      "ideas": [
+        {
+          "idea": "Cultural descriptions are tendencies, not rules.",
+          "context": "A national pattern cannot predict how one individual prefers eye contact, directness, or personal space."
+        },
+        {
+          "idea": "Observation should come before judgment.",
+          "context": "An unfamiliar silence may reflect respect or thought rather than lack of interest."
+        },
+        {
+          "idea": "Respectful questions reduce guessing.",
+          "context": "Asking how names are pronounced is more reliable than avoiding them or inventing an easier version."
+        },
+        {
+          "idea": "Adaptation does not require imitation.",
+          "context": "A visitor can follow local turn-taking norms while keeping an authentic voice and reasonable personal boundaries."
+        },
+        {
+          "idea": "Shared tasks ease first conversations.",
+          "context": "Cooking, studying, or volunteering provides a natural topic and removes pressure to be instantly entertaining."
+        },
+        {
+          "idea": "Confidence grows from specific successes.",
+          "context": "Asking one question in class provides stronger evidence of ability than repeating general positive statements."
+        },
+        {
+          "idea": "Inclusive groups manage speaking opportunities.",
+          "context": "A chair can invite contributions without forcing a shy person to disclose something personal."
+        },
+        {
+          "idea": "Humor carries hidden knowledge.",
+          "context": "Wordplay, history, and expectations about acceptable targets make jokes unusually difficult across cultures."
+        },
+        {
+          "idea": "Code-switching can express skill and belonging.",
+          "context": "Changing language with family and coworkers may meet different relationships rather than show confusion."
+        },
+        {
+          "idea": "Curiosity needs boundaries.",
+          "context": "Interest in another culture does not entitle someone to private stories or an explanation of every group member."
+        },
+        {
+          "idea": "Self-consciousness decreases with outward attention.",
+          "context": "Focusing on the listener's question leaves less mental space for monitoring every accent feature."
+        }
+      ]
+    }
+  ],
+  "coverage_audit": [
+    {
+      "section": "Choosing a Communication Channel",
+      "coverage": [
+        "choosing a communication channel"
+      ]
+    },
+    {
+      "section": "Listening and Conversation",
+      "coverage": [
+        "listening and conversation"
+      ]
+    },
+    {
+      "section": "Clarity and Explanation",
+      "coverage": [
+        "clarity and explanation"
+      ]
+    },
+    {
+      "section": "Tone and Nonverbal Meaning",
+      "coverage": [
+        "tone and nonverbal meaning"
+      ]
+    },
+    {
+      "section": "Disagreement and Repair",
+      "coverage": [
+        "disagreement and repair"
+      ]
+    },
+    {
+      "section": "Digital Communication",
+      "coverage": [
+        "digital communication"
+      ]
+    },
+    {
+      "section": "School and Workplace Communication",
+      "coverage": [
+        "school and workplace communication"
+      ]
+    },
+    {
+      "section": "Public Speaking and Presentations",
+      "coverage": [
+        "public speaking and presentations"
+      ]
+    },
+    {
+      "section": "Language Learning",
+      "coverage": [
+        "language learning"
+      ]
+    },
+    {
+      "section": "Intercultural Communication and Confidence",
+      "coverage": [
+        "intercultural communication and confidence"
+      ]
+    }
+  ],
+  "added_categories": [
+    "Choosing a Communication Channel",
+    "Digital Communication",
+    "Intercultural Communication and Confidence"
+  ]
+}

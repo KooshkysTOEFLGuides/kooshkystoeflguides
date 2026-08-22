@@ -1,0 +1,418 @@
+{
+  "schema_version": 1,
+  "topic": "News, Media, and Information",
+  "sets": [
+    {
+      "title": "How You Follow the News",
+      "setup": "You have volunteered for a university study about people's news habits. A researcher will ask how and why you follow current events.",
+      "questions": [
+        {
+          "number": 1,
+          "question": "Thank you for joining the study. To begin, how often do you follow the news, and what source do you usually use?",
+          "sample_answer": "I usually check the news twice a day, once after breakfast and once in the early evening. I use a newspaper app because it gives me local, national, and international reports in one place. I turned off most alerts since they interrupted my work and made every update seem urgent. If a major event is developing, I may check more often. On an ordinary day, two short visits keep me informed without taking over my attention."
+        },
+        {
+          "number": 2,
+          "question": "I see. Do you prefer reading a full article or watching a short news video? Why?",
+          "sample_answer": "I prefer a full article when the subject is important because I can slow down and check the evidence. A short video is convenient, but it often moves from claim to claim before I have time to think. Articles also make it easier to follow links to original reports. I still use videos for a quick introduction to an unfamiliar event. After that, I want written details before forming a strong opinion."
+        },
+        {
+          "number": 3,
+          "question": "Interesting. What kind of news do you think people in your community should follow more closely?",
+          "sample_answer": "People should follow local government news more closely, especially decisions about transport and housing. These stories may seem less dramatic than international politics, but they directly affect rent, commuting, and public spaces. For example, a bus-route change can determine whether someone reaches work on time. Local meetings are often poorly attended because residents hear about decisions too late. Clear reporting could help them respond before a policy is final."
+        },
+        {
+          "number": 4,
+          "question": "Finally, some people avoid the news because it makes them anxious. Do you think this is a reasonable choice?",
+          "sample_answer": "Taking a short break is reasonable when constant distress is affecting sleep or concentration. I don't think avoiding all news permanently is a good solution, though, because people still need emergency information and basic knowledge about public decisions. A better approach is to choose one reliable summary and check it at a fixed time. That limits repeated exposure without creating complete ignorance. Staying informed should be manageable, not an activity that fills every free moment."
+        }
+      ]
+    },
+    {
+      "title": "Deciding Whether a Source Is Reliable",
+      "setup": "You are taking part in a research interview about trust in news. The interviewer will ask how you evaluate sources and evidence.",
+      "questions": [
+        {
+          "number": 1,
+          "question": "Think about the last news report you trusted. What made it seem reliable to you?",
+          "sample_answer": "The last report I trusted was about a change to university admission rules. It linked directly to the official document and quoted two admissions officers by name. The journalist also explained which students would not be affected, so the headline did not exaggerate the change. I checked another established outlet and found the same basic facts. Those details showed me where the information came from and gave me a practical way to verify it."
+        },
+        {
+          "number": 2,
+          "question": "Which matters more when judging a report: the reputation of the news outlet or the evidence inside the report?",
+          "sample_answer": "The evidence inside the report matters more, although reputation is a useful starting point. Even a respected outlet can make an error, and an unfamiliar local reporter may have excellent documents and firsthand sources. I look for links, named experts, dates, and a clear distinction between facts and interpretation. A good reputation makes me willing to read. It should not replace checking how the particular story supports its conclusion."
+        },
+        {
+          "number": 3,
+          "question": "What is one simple step people can take before sharing a surprising story online?",
+          "sample_answer": "They should search for the central claim in one independent reliable source. This takes only a minute and can reveal that the story is old, satirical, or missing important context. I also check whether the original account actually exists instead of trusting a screenshot. People won't perform a complete investigation every time. A quick cross-check is realistic enough to become a habit and strong enough to stop many obvious falsehoods."
+        },
+        {
+          "number": 4,
+          "question": "Some people say official sources should always be trusted more than eyewitnesses. What is your view?",
+          "sample_answer": "Official sources often have useful records and access to confirmed information, but they may be slow or interested in protecting an institution. Eyewitnesses provide immediate human detail, although stress and limited visibility can affect memory. I would not automatically choose one. For a transport accident, I might use the agency for schedules and several witnesses for conditions at the scene. The strongest report compares those accounts and explains where they agree or remain uncertain."
+        }
+      ]
+    },
+    {
+      "title": "Misinformation Online",
+      "setup": "A media researcher is collecting opinions about false information on the internet. You will answer questions about sharing, correction, and responsibility.",
+      "questions": [
+        {
+          "number": 1,
+          "question": "Have you ever seen a story online that later turned out to be false or misleading? What happened?",
+          "sample_answer": "I once saw a message claiming that the university would close for an entire week because of bad weather. It included an old photograph of the campus, so several students shared it immediately. The official website later announced only a one-day closure. I had not forwarded the message, but I had believed it for a while. The experience taught me to check the date and official account before changing plans based on a screenshot."
+        },
+        {
+          "number": 2,
+          "question": "Why do you think false stories sometimes spread faster than careful news reports?",
+          "sample_answer": "False stories are often designed to produce a quick emotional reaction. A shocking claim is easy to summarize, while an accurate report may include uncertainty and several conditions. Social platforms also reward posts that receive immediate comments and shares. People pass them to friends before they have time to feel doubtful. By the time verification arrives, the original story is already familiar and may have reached people who never see the correction."
+        },
+        {
+          "number": 3,
+          "question": "If a friend sends you false information, how would you correct them without creating an argument?",
+          "sample_answer": "I would respond privately and assume they were trying to help rather than trying to deceive anyone. I might say that I checked the claim and found a newer official notice or a detailed fact-check. Then I would send the link and explain the specific point that was wrong. I wouldn't embarrass them in a group chat unless the message created immediate danger. A respectful correction makes it easier for the person to change their mind and warn others."
+        },
+        {
+          "number": 4,
+          "question": "Should social-media companies remove misinformation, or should users decide for themselves what to believe?",
+          "sample_answer": "Platforms should remove direct harmful deception, such as false voting locations or dangerous medical instructions. For less clear claims, labels and reduced recommendation may be better than immediate removal. Users still need access to the evidence and should make many judgments themselves. The difficulty is that platforms design the system that spreads content, so they cannot pretend to be neutral. Their rules should be public, appealable, and applied consistently across political groups."
+        }
+      ]
+    },
+    {
+      "title": "Bias and Different Perspectives",
+      "setup": "You are participating in a study about how news stories present different viewpoints. The researcher will ask about bias, language, and representation.",
+      "questions": [
+        {
+          "number": 1,
+          "question": "When two news outlets describe the same event differently, what do you usually do?",
+          "sample_answer": "I read both reports and look first for facts they agree on, such as the date, decision, or number of people involved. Then I compare their headlines, photographs, and quoted sources. Those choices often explain why the stories feel different. If the issue matters to me, I also find the original speech or document. I don't assume the truth is exactly halfway between two outlets, because one may simply have stronger evidence."
+        },
+        {
+          "number": 2,
+          "question": "Do you think a journalist can ever be completely neutral? Why or why not?",
+          "sample_answer": "Complete neutrality is probably impossible because journalists choose which events, questions, and quotations deserve space. Their experience also affects what they notice. Still, that does not mean accuracy is impossible or every report is just opinion. Reporters can use consistent standards, seek relevant perspectives, and show their evidence. I care less about pretending to have no viewpoint than about whether the journalist represents facts honestly and admits important limits."
+        },
+        {
+          "number": 3,
+          "question": "How can news organizations represent communities more fairly?",
+          "sample_answer": "They can speak with people who actually live with the issue instead of using one official spokesperson for everyone. Hiring staff with different languages and backgrounds may also reveal questions an outside reporter misses. Editors should avoid using the same negative image whenever a group appears in the news. Fair representation does not mean hiding real problems. It means showing individuals, causes, and experiences with enough variety that one stereotype does not define an entire community."
+        },
+        {
+          "number": 4,
+          "question": "Some reports give equal time to both sides of every disagreement. Is that always fair?",
+          "sample_answer": "No, equal time can be misleading when the evidence is extremely unequal. If nearly all qualified researchers support one explanation, giving half the program to an unsupported claim makes the debate appear balanced when it isn't. The minority view can still be mentioned and examined. Its space should reflect its evidence and relevance, not a mechanical rule. Fairness means representing the real state of knowledge, including uncertainty, rather than dividing every story into two equal teams."
+        }
+      ]
+    },
+    {
+      "title": "Documentaries and Podcasts",
+      "setup": "A university project is studying how people learn through longer audio and video programs. You will discuss documentaries, podcasts, and educational media.",
+      "questions": [
+        {
+          "number": 1,
+          "question": "Tell me about a documentary, podcast, or educational video that taught you something useful.",
+          "sample_answer": "I listened to a podcast episode about how cities manage drinking water. The host followed one drop from a reservoir through treatment and into a home, which made the system easy to imagine. She also interviewed an engineer about leaks and maintenance costs. I had never thought about the pipes under ordinary streets before. The episode made a technical subject practical, and its notes linked to diagrams that I looked at afterward."
+        },
+        {
+          "number": 2,
+          "question": "Do you learn better from audio programs or from videos? Explain your preference.",
+          "sample_answer": "I usually learn better from video when the subject involves movement, maps, or numbers. An animation can show how a storm forms much more clearly than a spoken description. Audio is more convenient while walking, but my attention sometimes drifts because there is nothing to look at. For interviews and personal stories, a podcast works very well. Overall, I choose video because the combination of words and images helps me remember difficult explanations."
+        },
+        {
+          "number": 3,
+          "question": "What should viewers remember when watching a documentary based on real events?",
+          "sample_answer": "They should remember that a documentary is still an edited story. The director chooses which people to follow, which questions to ask, and what order creates the strongest reaction. That does not make the film false, but it means another perspective may be missing. I would check a few central claims afterward, especially if the documentary argues strongly for one solution. Emotional connection is valuable as long as it does not replace evidence."
+        },
+        {
+          "number": 4,
+          "question": "Do you think schools should use more podcasts and documentaries instead of traditional textbooks?",
+          "sample_answer": "They should use more of them, but as additions rather than replacements. A documentary can bring voices, places, and processes into the classroom, while a podcast offers accessible discussion. Textbooks are easier to search, compare, and revisit at a student's own pace. Teachers can combine a short episode with readings that provide definitions and evidence. That variety supports different learners without assuming that an engaging screen automatically produces deeper understanding."
+        }
+      ]
+    },
+    {
+      "title": "Social Media as a News Source",
+      "setup": "You have agreed to join a study about receiving news through social platforms. The interviewer will ask about feeds, creators, and short-form reporting.",
+      "questions": [
+        {
+          "number": 1,
+          "question": "How often do you come across news on social media when you were not actively looking for it?",
+          "sample_answer": "That happens almost every time I open a social app. I may be checking a friend's message, but my feed shows a short clip about an election or natural disaster. This helps me notice events I might otherwise miss. The problem is that I usually see one emotional moment without its background. If the story seems important, I leave the platform and look for a complete report before deciding what it means."
+        },
+        {
+          "number": 2,
+          "question": "Would you trust a news explanation from a popular influencer? Why or why not?",
+          "sample_answer": "I might use it as an introduction, especially if the creator explains ideas clearly and links to evidence. Popularity alone would not make me trust the explanation because an influencer can speak confidently outside their expertise. I would check their qualifications, sponsorships, and original sources. If a medical creator is actually a trained doctor discussing their field, that matters. I still prefer to confirm serious advice through an independent professional or established health organization."
+        },
+        {
+          "number": 3,
+          "question": "What is one advantage and one disadvantage of getting news through short videos?",
+          "sample_answer": "The main advantage is accessibility. A well-made short video can define an unfamiliar issue in a minute and encourage someone to learn more. The disadvantage is that the format rewards simple certainty, so limitations and history disappear. Viewers may feel they understand a complex policy after one clip. I would treat short video as a starting point, not a complete source. Good creators can help by linking a longer explanation and showing where their facts came from."
+        },
+        {
+          "number": 4,
+          "question": "Citizen journalists sometimes livestream events before professional reporters arrive. Is this mostly helpful or risky?",
+          "sample_answer": "It is mostly helpful because continuous footage can document events that powerful people might prefer to hide. Residents also know local places and can share urgent conditions quickly. The risk is that they may identify innocent people, enter dangerous areas, or describe guesses as facts. Professional outlets should verify and add context to useful footage. Citizen reporting is strongest when speed and local access are combined with later checking, privacy protection, and correction."
+        }
+      ]
+    },
+    {
+      "title": "Media Literacy in Everyday Life",
+      "setup": "A research team is studying the skills people need to understand modern media. You will answer questions about education and daily verification.",
+      "questions": [
+        {
+          "number": 1,
+          "question": "What is one media-literacy skill that you personally use?",
+          "sample_answer": "I often check whether an image actually belongs to the event described in its caption. I search for another copy or look for an earlier publication date, especially when the picture is dramatic. This simple habit has shown me old protest and weather photographs reused as current news. It takes less time than reading a full fact-check. More importantly, it reminds me that a real photograph can still support a false story when its context is changed."
+        },
+        {
+          "number": 2,
+          "question": "Who should have the main responsibility for teaching children media literacy: families or schools?",
+          "sample_answer": "Schools should have the main responsibility because they can provide systematic lessons to every child, not only those whose parents understand digital media. Teachers can connect source evaluation to history, science, and mathematics. Families still matter because they see children's everyday apps and can discuss what appears there. I would treat it as a shared task with schools providing core skills. Parents can then reinforce the habit by checking surprising claims together instead of simply banning platforms."
+        },
+        {
+          "number": 3,
+          "question": "How can a person avoid living inside an online echo chamber?",
+          "sample_answer": "They can deliberately follow a few careful sources that disagree with their usual position. The key is choosing people who use evidence and explain opponents fairly, not accounts that exist only to provoke anger. Reading a general news summary also exposes stories that a personalized feed might hide. I would occasionally ask why a recommendation appeared and search outside the platform. The goal is broader information, not forcing myself to consume endless hostile arguments."
+        },
+        {
+          "number": 4,
+          "question": "Some people think media-literacy education makes students distrust all information. Is that a serious risk?",
+          "sample_answer": "It is a risk if lessons focus only on tricks and falsehoods. Students may conclude that every source is biased, so evidence never matters and they can believe whatever feels right. Good media literacy should teach positive reasons for trust, such as transparent methods, independent confirmation, and correction policies. It should also show degrees of confidence rather than only true or fake. Careful evaluation is useful because some information deserves more trust, not because knowledge is impossible."
+        }
+      ]
+    },
+    {
+      "title": "News, Privacy, and the Public Interest",
+      "setup": "You are participating in an ethics study about what journalists should publish. The interviewer will ask about privacy, public interest, and accountability.",
+      "questions": [
+        {
+          "number": 1,
+          "question": "Can you think of information that news organizations should usually keep private?",
+          "sample_answer": "They should usually protect the identity of a child who experiences a crime or family crisis. Publishing the name can attach a painful event to that person in search results for many years. The report can still explain what happened and whether authorities responded properly. There may be rare cases involving immediate safety, but curiosity is not enough. Privacy matters most when the person has little power and did not choose public attention."
+        },
+        {
+          "number": 2,
+          "question": "When is it acceptable for journalists to publish private information about a public official?",
+          "sample_answer": "It is acceptable when the private information directly reveals how the official performs a public duty. For example, an undisclosed financial connection to a company seeking a government contract affects public trust. Details about unrelated family arguments or medical care usually do not. The journalist should explain the connection and publish only what is necessary. Holding power accountable does not require exposing every personal part of someone's life for entertainment."
+        },
+        {
+          "number": 3,
+          "question": "Why are local investigative journalists important to a community?",
+          "sample_answer": "They can spend time examining decisions that receive little national attention, such as building contracts, hospital staffing, or polluted land. Local reporters know which records exist and which residents have followed the issue for years. Their work can connect separate complaints into a pattern and force an official response. Without them, a council may technically publish information that few ordinary people can find or interpret. That reporting gives residents a practical way to demand accountability."
+        },
+        {
+          "number": 4,
+          "question": "Should a government ever be allowed to prevent publication of a news report?",
+          "sample_answer": "Only in a very narrow situation involving an immediate and specific danger, such as revealing an active rescue team's location. General embarrassment, political criticism, or an unsupported claim about national security should not be enough. Courts, not the criticized official, should review any restriction quickly. Once censorship becomes an easy option, leaders can hide mistakes and corruption. The normal response to inaccurate reporting should be evidence, correction, and law applied afterward, not prior control."
+        }
+      ]
+    },
+    {
+      "title": "Too Much Information",
+      "setup": "A university well-being study is examining information overload and news fatigue. You will discuss attention, distress, and access.",
+      "questions": [
+        {
+          "number": 1,
+          "question": "Have you ever felt overwhelmed by too much information about one event? Describe the situation.",
+          "sample_answer": "I felt overwhelmed during a major earthquake because every group chat contained new warnings, photographs, and requests for help. Some messages contradicted one another, and several old videos were presented as current. I stopped reading the chats and used one official emergency channel plus a reliable radio station. That reduced the volume and helped me identify instructions I could actually follow. More information had not made me safer; organized information did."
+        },
+        {
+          "number": 2,
+          "question": "What is a healthy way to stay informed during a long and distressing news event?",
+          "sample_answer": "I would choose two fixed times for updates and avoid checking immediately before sleep. A reliable daily summary can cover important changes without repeating the same upsetting images. I would also focus on actions within my control, such as donating through a verified organization or helping someone locally. Taking breaks doesn't mean the event is unimportant. It protects enough attention and emotional energy to remain informed over weeks rather than becoming exhausted after two days."
+        },
+        {
+          "number": 3,
+          "question": "Should emergency and public-safety news always be free to read, even when an outlet normally has a paywall?",
+          "sample_answer": "Yes, because people need evacuation routes, health warnings, and service closures regardless of whether they can afford a subscription. Keeping that information free also helps the outlet's own community stay safe. The organization can reserve deeper analysis, archives, or unrelated articles for subscribers. I understand that reporting costs money, so free access cannot apply to everything. Immediate information needed for public action is a special case where broad access should come before revenue."
+        },
+        {
+          "number": 4,
+          "question": "Some apps offer highly personalized news feeds. Do these feeds help people manage information or make the problem worse?",
+          "sample_answer": "They do both. Personalization can remove sports or celebrity updates a person never reads and bring useful local or scientific stories forward. At the same time, it can narrow attention until important unfamiliar issues disappear. I would let users choose interests but still include a small general-news section selected by human editors. The app should also explain why items appear. Personalization is helpful as a filter, but it should not quietly become the user's entire view of public life."
+        }
+      ]
+    },
+    {
+      "title": "The Future of News",
+      "setup": "You have joined a research interview about how technology may change journalism. The final questions concern artificial intelligence, synthetic media, and future trust.",
+      "questions": [
+        {
+          "number": 1,
+          "question": "What change in news technology have you personally found useful?",
+          "sample_answer": "Automatic transcripts have been very useful to me. If a news interview is long, I can search the text for a name or topic and read the exact surrounding answer. Captions also let me follow video in a noisy place and make the report accessible to more people. The transcript still needs checking because software can misunderstand names. As a navigation tool, though, it saves time without deciding what I should believe."
+        },
+        {
+          "number": 2,
+          "question": "Would you be comfortable reading a news summary written by artificial intelligence?",
+          "sample_answer": "I would be comfortable if the summary was clearly labeled, linked to the original report, and reviewed by an editor. Artificial intelligence can shorten routine material quickly, but it may omit an important exception or state a guess confidently. I would not trust an unlabeled summary about health, elections, or public safety. The newsroom must remain responsible for every sentence it publishes. Technology can assist the work, but it cannot become an excuse when the information is wrong."
+        },
+        {
+          "number": 3,
+          "question": "How could news organizations help audiences recognize AI-generated images or audio?",
+          "sample_answer": "They should label synthetic material visibly and provide information about its origin. For authentic media, a record showing when and where it was captured could make later verification easier. Newsrooms can also explain common warning signs without suggesting that people can detect every fake by eye. A strange shadow is not reliable proof anymore. The best system combines technical provenance, careful reporting, and a clear contact point where audiences can question suspicious material."
+        },
+        {
+          "number": 4,
+          "question": "In the future, do you think people will trust individual journalists more than large news organizations?",
+          "sample_answer": "Some people probably will because a familiar journalist can explain methods, answer questions, and build a visible record over time. That personal relationship feels clearer than an anonymous brand. Still, one individual rarely has editors, legal support, foreign correspondents, and enough time to investigate everything. I think the strongest model combines both. Journalists can develop direct trust with audiences while an organization supplies checking, resources, and accountability when the individual makes a mistake."
+        }
+      ]
+    }
+  ],
+  "corpus_calibration_audit": [
+    {
+      "set_title": "How You Follow the News",
+      "question_functions": [
+        "personal news habit",
+        "format preference",
+        "community recommendation",
+        "qualified judgment about avoidance"
+      ],
+      "subtopics": [
+        "following the news",
+        "online news",
+        "local reporting",
+        "news fatigue"
+      ]
+    },
+    {
+      "set_title": "Deciding Whether a Source Is Reliable",
+      "question_functions": [
+        "recent source evaluation",
+        "reputation-evidence comparison",
+        "practical verification advice",
+        "source-type evaluation"
+      ],
+      "subtopics": [
+        "reliable sources",
+        "evidence",
+        "cross-checking",
+        "official and firsthand sources"
+      ]
+    },
+    {
+      "set_title": "Misinformation Online",
+      "question_functions": [
+        "past misinformation experience",
+        "cause explanation",
+        "interpersonal correction advice",
+        "platform-responsibility judgment"
+      ],
+      "subtopics": [
+        "misinformation",
+        "viral sharing",
+        "fact-checking",
+        "content moderation"
+      ]
+    },
+    {
+      "set_title": "Bias and Different Perspectives",
+      "question_functions": [
+        "response to conflicting reports",
+        "neutrality evaluation",
+        "representation recommendation",
+        "false-balance judgment"
+      ],
+      "subtopics": [
+        "biased reporting",
+        "framing",
+        "representation",
+        "balanced coverage"
+      ]
+    },
+    {
+      "set_title": "Documentaries and Podcasts",
+      "question_functions": [
+        "memorable learning experience",
+        "media-format preference",
+        "critical-viewing advice",
+        "educational-use evaluation"
+      ],
+      "subtopics": [
+        "podcasts",
+        "documentaries",
+        "narrative framing",
+        "educational content"
+      ]
+    },
+    {
+      "set_title": "Social Media as a News Source",
+      "question_functions": [
+        "incidental news exposure",
+        "source-trust evaluation",
+        "format advantage-disadvantage",
+        "citizen-reporting judgment"
+      ],
+      "subtopics": [
+        "social-media feeds",
+        "influencers",
+        "short videos",
+        "citizen journalism"
+      ]
+    },
+    {
+      "set_title": "Media Literacy in Everyday Life",
+      "question_functions": [
+        "personal verification habit",
+        "responsibility comparison",
+        "practical diversity strategy",
+        "risk evaluation"
+      ],
+      "subtopics": [
+        "media literacy",
+        "schools and families",
+        "echo chambers",
+        "trust and skepticism"
+      ]
+    },
+    {
+      "set_title": "News, Privacy, and the Public Interest",
+      "question_functions": [
+        "privacy example",
+        "public-interest boundary",
+        "community-role explanation",
+        "qualified press-freedom judgment"
+      ],
+      "subtopics": [
+        "privacy",
+        "public officials",
+        "local investigations",
+        "censorship"
+      ]
+    },
+    {
+      "set_title": "Too Much Information",
+      "question_functions": [
+        "past overload experience",
+        "well-being strategy",
+        "information-access policy",
+        "personalization trade-off"
+      ],
+      "subtopics": [
+        "information overload",
+        "news fatigue",
+        "paywalls",
+        "personalized feeds"
+      ]
+    },
+    {
+      "set_title": "The Future of News",
+      "question_functions": [
+        "personal technology experience",
+        "conditional AI acceptance",
+        "synthetic-media recommendation",
+        "future trust evaluation"
+      ],
+      "subtopics": [
+        "transcription technology",
+        "AI summaries",
+        "synthetic media",
+        "future of news"
+      ]
+    }
+  ]
+}

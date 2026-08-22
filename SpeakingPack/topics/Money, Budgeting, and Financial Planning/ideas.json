@@ -1,0 +1,543 @@
+{
+  "schema_version": 1,
+  "topic": "Money, Budgeting, and Financial Planning",
+  "sections": [
+    {
+      "title": "Everyday Money Habits",
+      "ideas": [
+        {
+          "idea": "Small repeated costs deserve attention.",
+          "context": "A daily drink may be affordable once but significant across a month, especially when it is purchased without thought."
+        },
+        {
+          "idea": "Necessary spending should be identified before cutting.",
+          "context": "Rent, medicine, transport, and basic food cannot be treated like entertainment when income becomes tight."
+        },
+        {
+          "idea": "Cash makes some people more aware of limits.",
+          "context": "Seeing notes leave a wallet can feel more concrete than tapping a card, although cash provides weaker automatic records."
+        },
+        {
+          "idea": "Digital payment improves convenience but hides friction.",
+          "context": "A one-click purchase removes the pause that might reveal an item is unnecessary."
+        },
+        {
+          "idea": "Waiting protects against expensive impulses.",
+          "context": "A twenty-four-hour delay separates a lasting need from excitement created by advertising or mood."
+        },
+        {
+          "idea": "Enjoyment belongs in a sustainable plan.",
+          "context": "A budget with no social activity or small pleasure may look disciplined but become impossible to follow."
+        },
+        {
+          "idea": "Comparison should include ongoing cost.",
+          "context": "A cheap printer, car, or phone may require expensive supplies, fuel, repairs, or subscriptions later."
+        },
+        {
+          "idea": "Shopping lists reduce decision pressure.",
+          "context": "Planning needed items before entering a store makes attractive displays less likely to redirect spending."
+        },
+        {
+          "idea": "Money habits often reflect convenience.",
+          "context": "Someone may buy lunch because there is no kitchen or time at work, not because they lack financial discipline."
+        },
+        {
+          "idea": "Shared households need clear agreements.",
+          "context": "Roommates should decide how to divide irregular supplies and utilities before one person feels they are paying unfairly."
+        },
+        {
+          "idea": "A convenience premium may be worth paying deliberately.",
+          "context": "Delivery or a nearby shop can save scarce time or transport, but the buyer should recognize the higher price instead of treating it as invisible."
+        }
+      ]
+    },
+    {
+      "title": "Building and Adjusting a Budget",
+      "ideas": [
+        {
+          "idea": "A budget should describe reality before improving it.",
+          "context": "Using actual bills and spending records creates a workable starting point instead of an ideal month that never occurs."
+        },
+        {
+          "idea": "Weekly limits suit flexible daily costs.",
+          "context": "Food, transport, and entertainment are easier to correct after one expensive week than at the end of a full month."
+        },
+        {
+          "idea": "Monthly planning matches major payments.",
+          "context": "Salary, rent, utilities, and subscriptions often follow a monthly cycle, making the larger picture easier to balance that way."
+        },
+        {
+          "idea": "Both time frames can work together.",
+          "context": "A monthly plan can reserve fixed costs while weekly limits guide groceries and personal spending."
+        },
+        {
+          "idea": "Categories need useful detail, not endless precision.",
+          "context": "Food may need separate groceries and restaurants, but recording every vegetable in its own group wastes effort."
+        },
+        {
+          "idea": "Irregular annual costs should become monthly savings.",
+          "context": "Setting aside one-twelfth of insurance or school fees prevents a predictable bill from feeling like an emergency."
+        },
+        {
+          "idea": "A plan needs a buffer.",
+          "context": "Prices, transport, and health costs vary, so assigning every last unit of income creates repeated failure."
+        },
+        {
+          "idea": "Adjustment is evidence of learning.",
+          "context": "Changing a category after three realistic months is more responsible than protecting an inaccurate original target."
+        },
+        {
+          "idea": "Budget partners need equal information.",
+          "context": "A household plan fails when one person knows the accounts and the other is expected only to obey limits."
+        },
+        {
+          "idea": "Progress matters more than perfect compliance.",
+          "context": "One overspending week should lead to review and correction rather than abandoning the entire system."
+        },
+        {
+          "idea": "A zero-based plan suits some people but not every income.",
+          "context": "Assigning every unit works with stable pay, while uncertain workers may need broader ranges and a larger unassigned buffer."
+        }
+      ]
+    },
+    {
+      "title": "Tracking Expenses and Records",
+      "ideas": [
+        {
+          "idea": "Tracking reveals patterns memory misses.",
+          "context": "People remember major purchases while underestimating frequent transport, delivery, or subscription charges."
+        },
+        {
+          "idea": "A temporary tracking period can answer a question.",
+          "context": "Recording everything for one month may be enough to discover why the account balance falls faster than expected."
+        },
+        {
+          "idea": "Records should lead to decisions.",
+          "context": "Collecting receipts has little value if nobody reviews categories, cancels a charge, or changes a habit."
+        },
+        {
+          "idea": "Automatic categories still need checking.",
+          "context": "An app may classify a grocery-store medicine as food or a work journey as entertainment."
+        },
+        {
+          "idea": "Written systems offer privacy and control.",
+          "context": "A notebook or spreadsheet does not need bank access, although manual entry requires more consistent effort."
+        },
+        {
+          "idea": "Bank statements catch duplicate and unauthorized charges.",
+          "context": "Regular review can identify fraud or a subscription that continued after cancellation."
+        },
+        {
+          "idea": "Cash needs deliberate recording.",
+          "context": "Without a card transaction, small purchases disappear unless entered soon after they occur."
+        },
+        {
+          "idea": "Shared records reduce conflict.",
+          "context": "A clear list of household payments replaces arguments based on uncertain memory."
+        },
+        {
+          "idea": "Simple systems are more durable.",
+          "context": "A complicated dashboard may be abandoned, while three useful categories reviewed weekly can continue for years."
+        },
+        {
+          "idea": "Historical records improve estimates.",
+          "context": "Several months of bills show seasonal heating or school costs that one recent month cannot predict."
+        },
+        {
+          "idea": "Records help with warranties and taxes as well as budgeting.",
+          "context": "A receipt or invoice may prove purchase date, work expense, or eligibility for reimbursement long after the spending decision."
+        }
+      ]
+    },
+    {
+      "title": "Saving and Emergency Preparation",
+      "ideas": [
+        {
+          "idea": "Saving on payday protects the goal.",
+          "context": "An automatic transfer happens before optional spending expands to use the available balance."
+        },
+        {
+          "idea": "Emergency funds prevent one problem from becoming debt.",
+          "context": "A repair or medical bill can be paid without adding high-interest borrowing to the original difficulty."
+        },
+        {
+          "idea": "The first target should feel reachable.",
+          "context": "Saving one week of necessary expenses provides a visible milestone before aiming for several months."
+        },
+        {
+          "idea": "Emergency money needs easy access.",
+          "context": "Funds for urgent travel or health costs should not be locked in an investment that may fall or take days to sell."
+        },
+        {
+          "idea": "Separate accounts protect separate purposes.",
+          "context": "A holiday goal is easier to measure when it is not mixed with rent or emergency savings."
+        },
+        {
+          "idea": "Using an emergency fund is not failure.",
+          "context": "The fund succeeded when it covered a genuine crisis; the next task is rebuilding it gradually."
+        },
+        {
+          "idea": "Irregular earners need a larger cushion.",
+          "context": "Late client payments and quiet seasons create income risk even when annual earnings look adequate."
+        },
+        {
+          "idea": "Known bills are not emergencies.",
+          "context": "Insurance due every year should be planned monthly rather than repeatedly consuming the rainy-day fund."
+        },
+        {
+          "idea": "Small savings develop identity and routine.",
+          "context": "A modest regular amount proves the process can continue before income grows."
+        },
+        {
+          "idea": "Community support and insurance complement savings.",
+          "context": "No household can personally save enough for every possible disaster, illness, or long period without work."
+        },
+        {
+          "idea": "Windfalls need a plan before they arrive.",
+          "context": "Deciding in advance how to divide a refund or bonus among debt, savings, and enjoyment reduces impulsive use."
+        }
+      ]
+    },
+    {
+      "title": "Goals and Long-Term Financial Planning",
+      "ideas": [
+        {
+          "idea": "Specific goals improve everyday choices.",
+          "context": "A named course costing a known amount provides a clearer reason to save than a general promise to be better with money."
+        },
+        {
+          "idea": "Deadlines determine the required pace.",
+          "context": "The same target may be manageable over two years and impossible over three months."
+        },
+        {
+          "idea": "Long-term plans need several stages.",
+          "context": "Emergency savings, expensive debt, retirement, and education goals may require an order rather than equal attention immediately."
+        },
+        {
+          "idea": "Life changes require a fresh plan.",
+          "context": "Marriage, caregiving, relocation, illness, or self-employment changes both priorities and risk."
+        },
+        {
+          "idea": "Starting early uses time rather than extreme sacrifice.",
+          "context": "Small retirement contributions have more years to compound and are easier to maintain than a late urgent target."
+        },
+        {
+          "idea": "Future estimates should remain flexible.",
+          "context": "Inflation, housing, health, and income cannot be predicted exactly decades ahead."
+        },
+        {
+          "idea": "Security is a valid goal without luxury.",
+          "context": "A person may define success as stable housing, manageable bills, and enough freedom to refuse unsafe work."
+        },
+        {
+          "idea": "Career development belongs in financial planning.",
+          "context": "Training can raise future income and resilience, although its cost and realistic employment value need checking."
+        },
+        {
+          "idea": "Partners should discuss values before numbers.",
+          "context": "Conflict often comes from different beliefs about family support, risk, status, and enjoyment rather than arithmetic alone."
+        },
+        {
+          "idea": "Review dates prevent constant worry.",
+          "context": "A plan checked every six months can adapt without requiring daily attention to distant goals."
+        },
+        {
+          "idea": "Insurance can protect a long-term plan.",
+          "context": "Paying a predictable premium may prevent one illness, accident, or property loss from consuming years of savings."
+        }
+      ]
+    },
+    {
+      "title": "Debt, Credit, and Borrowing",
+      "ideas": [
+        {
+          "idea": "Borrowing can protect an essential opportunity.",
+          "context": "A reasonable education or equipment loan may enable future income that waiting years would prevent."
+        },
+        {
+          "idea": "Monthly payments hide total cost.",
+          "context": "A longer loan can feel affordable each month while collecting far more interest overall."
+        },
+        {
+          "idea": "High-interest debt deserves early attention.",
+          "context": "Its balance can grow faster than ordinary savings, making repayment a strong guaranteed financial benefit."
+        },
+        {
+          "idea": "Emergency borrowing needs a recovery plan.",
+          "context": "Using credit for urgent care may be unavoidable, but the borrower should immediately examine repayment and cheaper alternatives."
+        },
+        {
+          "idea": "Credit cards are payment tools and loans.",
+          "context": "Paying the full balance avoids much interest, while carrying purchases forward turns convenience into expensive debt."
+        },
+        {
+          "idea": "Interest-free offers depend on deadlines.",
+          "context": "Missing the final date can activate fees or high interest that removes the original advantage."
+        },
+        {
+          "idea": "Communication should begin before default.",
+          "context": "A lender may offer a changed schedule when illness or job loss is explained early."
+        },
+        {
+          "idea": "Credit scores measure limited behavior.",
+          "context": "They reflect borrowing history, not kindness, work ability, or the reasons behind a difficult period."
+        },
+        {
+          "idea": "Predatory lending targets urgency.",
+          "context": "A borrower facing rent or medical pressure has less time to question fees, which is why clear regulation matters."
+        },
+        {
+          "idea": "Shame makes debt harder to solve.",
+          "context": "Avoiding statements and advice allows penalties to grow; a complete list is uncomfortable but creates a starting point."
+        }
+      ]
+    },
+    {
+      "title": "Banking, Digital Payments, and Security",
+      "ideas": [
+        {
+          "idea": "Online banking saves routine travel and time.",
+          "context": "Transfers, balances, and bills can be managed outside branch hours, which is especially useful in remote areas."
+        },
+        {
+          "idea": "Cash remains a practical backup.",
+          "context": "Power failures, damaged phones, small markets, and privacy concerns can make physical payment necessary."
+        },
+        {
+          "idea": "Account alerts support early fraud detection.",
+          "context": "A message after an unusual transaction lets the customer freeze a card before more money disappears."
+        },
+        {
+          "idea": "Security needs layers.",
+          "context": "A strong password, device lock, additional verification, and careful recipient checking protect against different failures."
+        },
+        {
+          "idea": "Convenient transfers make errors faster.",
+          "context": "One wrong account number can move a large amount immediately, so confirmation matters more than speed."
+        },
+        {
+          "idea": "Fees should appear in the total price.",
+          "context": "A service advertised as cheap may add booking, transfer, or maintenance charges late in the process."
+        },
+        {
+          "idea": "Digital wallets can reduce card exposure.",
+          "context": "Tokenized payment may avoid sharing the actual card number with every seller, though a phone account still needs protection."
+        },
+        {
+          "idea": "Older customers need respectful support.",
+          "context": "Clear training and human assistance are more useful than assuming difficulty with an app means inability to manage money."
+        },
+        {
+          "idea": "Financial privacy has real value.",
+          "context": "Transaction data reveals health, religion, travel, relationships, and daily routine, not only shopping preferences."
+        },
+        {
+          "idea": "Banks should make fraud reporting simple.",
+          "context": "A frightened customer needs a visible emergency contact and clear next steps rather than a complicated menu."
+        }
+      ]
+    },
+    {
+      "title": "Investing and Building Wealth",
+      "ideas": [
+        {
+          "idea": "Emergency savings should normally come first.",
+          "context": "Money needed next month cannot safely remain in an investment that may lose value at the wrong moment."
+        },
+        {
+          "idea": "Risk should match time and purpose.",
+          "context": "Retirement decades away can tolerate more fluctuation than tuition due next year."
+        },
+        {
+          "idea": "Diversification limits one failure.",
+          "context": "Spreading money prevents a single company, property, or client from determining the entire future."
+        },
+        {
+          "idea": "Regular investing avoids perfect-timing pressure.",
+          "context": "A fixed contribution continues through good and bad markets instead of requiring predictions nobody can make reliably."
+        },
+        {
+          "idea": "High returns require skepticism.",
+          "context": "A person promising large profit with no meaningful risk may be hiding fees, fraud, or the possibility of loss."
+        },
+        {
+          "idea": "Inflation affects idle savings.",
+          "context": "Money can keep the same number while buying less each year, so long-term plans must consider purchasing power."
+        },
+        {
+          "idea": "Education can be a productive asset.",
+          "context": "Skills and qualifications may increase income and adaptability, though courses need genuine labor-market value."
+        },
+        {
+          "idea": "Wealth building is not only personal discipline.",
+          "context": "Income, housing access, inheritance, health, discrimination, and public policy shape how much people can save."
+        },
+        {
+          "idea": "Compound growth rewards time.",
+          "context": "Returns added to the original amount can produce further returns across many years."
+        },
+        {
+          "idea": "Simple investments are easier to understand.",
+          "context": "A diversified low-fee approach may suit an ordinary saver better than frequent trading in unfamiliar products."
+        }
+      ]
+    },
+    {
+      "title": "Financial Tools and Advice",
+      "ideas": [
+        {
+          "idea": "The best tool is the one used consistently.",
+          "context": "A basic spreadsheet reviewed weekly can outperform an advanced app that feels intrusive or confusing."
+        },
+        {
+          "idea": "Automation reduces repeated effort.",
+          "context": "Scheduled bills and savings prevent forgetfulness, although amounts still need checking when prices change."
+        },
+        {
+          "idea": "App privacy should be part of evaluation.",
+          "context": "A free tool that reads every transaction may earn money by analyzing highly personal behavior."
+        },
+        {
+          "idea": "Data export protects the user.",
+          "context": "People should be able to leave a service without losing years of records in a closed format."
+        },
+        {
+          "idea": "Dashboards need accurate categories.",
+          "context": "Beautiful charts create false confidence when income, refunds, or transfers are classified incorrectly."
+        },
+        {
+          "idea": "Calculators illustrate assumptions, not certainty.",
+          "context": "A retirement result changes completely when inflation, return, or future income differs from the estimate."
+        },
+        {
+          "idea": "Professional advice becomes useful when decisions are complex.",
+          "context": "Tax, inheritance, insurance, or large investments may justify expertise beyond a general app."
+        },
+        {
+          "idea": "Advisers should reveal incentives.",
+          "context": "Clients need to know whether a recommendation produces commission or whether the adviser must act in their best interest."
+        },
+        {
+          "idea": "Advice should begin with goals and constraints.",
+          "context": "Selling one product before asking about debt, emergency savings, family duties, and risk is not genuine planning."
+        },
+        {
+          "idea": "Digital and paper methods can complement each other.",
+          "context": "An app can collect transactions while a written monthly page keeps priorities visible to the household."
+        }
+      ]
+    },
+    {
+      "title": "Financial Education, Stress, and Fair Opportunity",
+      "ideas": [
+        {
+          "idea": "Schools should teach decisions students will soon face.",
+          "context": "Bank accounts, payslips, rent, credit, insurance, scams, and total loan cost are more urgent than abstract market theory."
+        },
+        {
+          "idea": "Practice makes financial education memorable.",
+          "context": "Comparing two real-looking loan offers or building a student budget requires judgment, not memorized definitions."
+        },
+        {
+          "idea": "Families teach values as well as techniques.",
+          "context": "Children observe whether adults discuss money calmly, hide problems, support relatives, or use spending to signal status."
+        },
+        {
+          "idea": "Financial literacy cannot create missing income.",
+          "context": "Excellent budgeting cannot make rent affordable when necessary costs already exceed wages."
+        },
+        {
+          "idea": "Irregular work complicates standard advice.",
+          "context": "A fixed monthly transfer is harder for workers whose hours and payment dates change."
+        },
+        {
+          "idea": "Financial stress reduces mental capacity.",
+          "context": "Worry about food or eviction makes forms, comparisons, and long-term choices harder precisely when good decisions matter most."
+        },
+        {
+          "idea": "Shame delays practical help.",
+          "context": "People may hide debt from family or advisers until penalties and conflict become more serious."
+        },
+        {
+          "idea": "Consumer protection supports responsibility.",
+          "context": "Clear prices, fair contracts, cooling-off periods, and fraud controls make informed choice possible."
+        },
+        {
+          "idea": "Cultural and family obligations belong in planning.",
+          "context": "Supporting parents or sharing income may be a central value rather than an irrational expense."
+        },
+        {
+          "idea": "Success needs several measures.",
+          "context": "A household may increase stability by reducing debt, gaining insurance, or handling an emergency even if its visible wealth remains modest."
+        }
+      ]
+    }
+  ],
+  "coverage_audit": [
+    {
+      "section": "Everyday Money Habits",
+      "coverage": [
+        "everyday money habits"
+      ]
+    },
+    {
+      "section": "Building and Adjusting a Budget",
+      "coverage": [
+        "building and adjusting a budget"
+      ]
+    },
+    {
+      "section": "Tracking Expenses and Records",
+      "coverage": [
+        "tracking expenses and records"
+      ]
+    },
+    {
+      "section": "Saving and Emergency Preparation",
+      "coverage": [
+        "saving and emergency preparation"
+      ]
+    },
+    {
+      "section": "Goals and Long-Term Financial Planning",
+      "coverage": [
+        "goals and long-term financial planning"
+      ]
+    },
+    {
+      "section": "Debt, Credit, and Borrowing",
+      "coverage": [
+        "debt, credit, and borrowing"
+      ]
+    },
+    {
+      "section": "Banking, Digital Payments, and Security",
+      "coverage": [
+        "banking, digital payments, and security"
+      ]
+    },
+    {
+      "section": "Investing and Building Wealth",
+      "coverage": [
+        "investing and building wealth"
+      ]
+    },
+    {
+      "section": "Financial Tools and Advice",
+      "coverage": [
+        "financial tools and advice"
+      ]
+    },
+    {
+      "section": "Financial Education, Stress, and Fair Opportunity",
+      "coverage": [
+        "financial education, stress, and fair opportunity"
+      ]
+    }
+  ],
+  "added_categories": [
+    "debt and credit",
+    "financial privacy and fraud",
+    "financial stress and unequal opportunity"
+  ]
+}

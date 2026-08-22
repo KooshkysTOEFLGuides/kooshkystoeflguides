@@ -1,0 +1,1949 @@
+{
+  "schema_version": 1,
+  "topic": "Family and Generations",
+  "coverage_map": [
+    "family relationships",
+    "family support",
+    "family traditions",
+    "family routines",
+    "family meals",
+    "family responsibilities",
+    "household chores",
+    "living with family",
+    "living independently",
+    "parents and children",
+    "older generations",
+    "younger generations",
+    "generation gap",
+    "family advice",
+    "respect for elders",
+    "raising children",
+    "work-family balance",
+    "family celebrations",
+    "family values",
+    "caregiving and older relatives",
+    "communication and conflict",
+    "privacy and boundaries"
+  ],
+  "sections": [
+    {
+      "title": "Family Structures and Relationships",
+      "headwords": [
+        {
+          "term": "immediate family",
+          "part_of_speech": "noun phrase",
+          "definition": "a person's parents, children, siblings, or partner",
+          "examples": [
+            "My immediate family lives in three different cities.",
+            "We usually reserve the first evening of the holiday for immediate family."
+          ],
+          "collocations": [
+            "close immediate family",
+            "members of the immediate family"
+          ]
+        },
+        {
+          "term": "extended family",
+          "part_of_speech": "noun phrase",
+          "definition": "relatives beyond parents, children, siblings, and partners",
+          "examples": [
+            "Our extended family gathers at my aunt's home each spring.",
+            "Living near extended family made emergency childcare easier."
+          ],
+          "collocations": [
+            "large extended family",
+            "extended-family gathering",
+            "support from extended family"
+          ]
+        },
+        {
+          "term": "relative",
+          "part_of_speech": "noun",
+          "definition": "a person connected to someone by family",
+          "examples": [
+            "A distant relative recognized me from an old family photograph.",
+            "Several relatives helped prepare food for the celebration."
+          ],
+          "collocations": [
+            "close relative",
+            "elderly relative",
+            "distant relative",
+            "visit relatives"
+          ]
+        },
+        {
+          "term": "sibling",
+          "part_of_speech": "noun",
+          "definition": "a brother or sister",
+          "examples": [
+            "My older sibling taught me how to travel by bus alone.",
+            "The siblings divided responsibility for their father's appointments."
+          ],
+          "collocations": [
+            "older sibling",
+            "younger sibling",
+            "sibling relationship",
+            "sibling rivalry"
+          ]
+        },
+        {
+          "term": "only child",
+          "part_of_speech": "noun phrase",
+          "definition": "a person who has no brothers or sisters",
+          "examples": [
+            "As an only child, she spent a great deal of time with cousins.",
+            "Being an only child does not necessarily mean growing up lonely."
+          ],
+          "collocations": [
+            "grow up as an only child",
+            "only-child experience"
+          ]
+        },
+        {
+          "term": "household",
+          "part_of_speech": "noun",
+          "definition": "the people who live together in one home",
+          "examples": [
+            "Everyone in the household contributes to the grocery list.",
+            "The household includes two generations and a university student."
+          ],
+          "collocations": [
+            "household size",
+            "multi-generational household",
+            "household member",
+            "household income"
+          ]
+        },
+        {
+          "term": "nuclear family",
+          "part_of_speech": "noun phrase",
+          "definition": "a household or family unit centered on parents and their children",
+          "examples": [
+            "The television show presented the nuclear family as the only normal arrangement.",
+            "A nuclear family may still rely heavily on grandparents and cousins."
+          ],
+          "collocations": [
+            "nuclear-family household",
+            "traditional nuclear family"
+          ]
+        },
+        {
+          "term": "single-parent",
+          "part_of_speech": "adjective",
+          "definition": "involving one parent raising one or more children",
+          "examples": [
+            "The school changed meeting times after listening to single-parent families.",
+            "A single-parent household may need especially reliable childcare."
+          ],
+          "collocations": [
+            "single-parent family",
+            "single-parent household",
+            "single-parent home"
+          ]
+        },
+        {
+          "term": "blended family",
+          "part_of_speech": "noun phrase",
+          "definition": "a family in which partners bring children from earlier relationships",
+          "examples": [
+            "The blended family created new holiday routines that included everyone.",
+            "Patience helped the children adjust to life in a blended family."
+          ],
+          "collocations": [
+            "blended-family relationship",
+            "become a blended family"
+          ]
+        },
+        {
+          "term": "close-knit",
+          "part_of_speech": "adjective",
+          "definition": "having strong, supportive relationships among members",
+          "examples": [
+            "She grew up in a close-knit family where cousins met every week.",
+            "A close-knit household can still respect individual privacy."
+          ],
+          "collocations": [
+            "close-knit family",
+            "close-knit community",
+            "remain close-knit"
+          ]
+        },
+        {
+          "term": "bond",
+          "part_of_speech": "noun",
+          "definition": "a strong emotional connection between people",
+          "examples": [
+            "Cooking together strengthened the bond between the grandfather and child.",
+            "Distance did not weaken their sibling bond because they called regularly."
+          ],
+          "collocations": [
+            "close bond",
+            "family bond",
+            "strengthen a bond",
+            "emotional bond"
+          ]
+        },
+        {
+          "term": "belonging",
+          "part_of_speech": "noun",
+          "definition": "the feeling of being accepted and included in a group",
+          "examples": [
+            "Shared routines gave the adopted child a growing sense of belonging.",
+            "Family belonging should not depend on agreeing about every decision."
+          ],
+          "collocations": [
+            "sense of belonging",
+            "create belonging",
+            "feeling of belonging"
+          ]
+        }
+      ],
+      "phrases": [
+        {
+          "text": "Families can take many different forms.",
+          "reusable_core": "many different forms"
+        },
+        {
+          "text": "We remain close even though we do not live nearby.",
+          "reusable_core": "do not live nearby"
+        },
+        {
+          "text": "The relationship has changed as we have grown older.",
+          "reusable_core": "as we have grown older"
+        },
+        {
+          "text": "Extended family provides a wider support network.",
+          "reusable_core": "a wider support network"
+        },
+        {
+          "text": "Living together does not automatically create emotional closeness.",
+          "reusable_core": "does not automatically create emotional closeness"
+        },
+        {
+          "text": "We make an effort to stay in regular contact.",
+          "reusable_core": "stay in regular contact"
+        },
+        {
+          "text": "The household includes people at different stages of life.",
+          "reusable_core": "different stages of life"
+        },
+        {
+          "text": "A strong bond can survive periods of disagreement.",
+          "reusable_core": "survive periods of disagreement"
+        },
+        {
+          "text": "The arrangement works because everyone has some privacy.",
+          "reusable_core": "everyone has some privacy"
+        },
+        {
+          "text": "Family membership is based on care as well as biology.",
+          "reusable_core": "care as well as biology"
+        },
+        {
+          "text": "I feel accepted without having to hide important parts of myself.",
+          "reusable_core": "feel accepted"
+        },
+        {
+          "text": "No single structure suits every family.",
+          "reusable_core": "suits every family"
+        }
+      ]
+    },
+    {
+      "title": "Support, Advice, and Emotional Connection",
+      "headwords": [
+        {
+          "term": "support",
+          "part_of_speech": "noun",
+          "definition": "practical, emotional, or financial help given to someone",
+          "examples": [
+            "Family support helped her continue studying after the baby was born.",
+            "He wanted emotional support rather than immediate advice."
+          ],
+          "collocations": [
+            "family support",
+            "emotional support",
+            "practical support",
+            "provide support",
+            "support network"
+          ]
+        },
+        {
+          "term": "support",
+          "part_of_speech": "verb",
+          "definition": "to help someone emotionally, practically, or financially",
+          "examples": [
+            "My parents supported my decision even though it worried them.",
+            "The siblings support their grandmother by sharing weekly visits."
+          ],
+          "collocations": [
+            "support a family member",
+            "financially support",
+            "fully support",
+            "support a decision"
+          ]
+        },
+        {
+          "term": "encourage",
+          "part_of_speech": "verb",
+          "definition": "to give someone confidence or motivation",
+          "examples": [
+            "My uncle encouraged me to apply for the course.",
+            "Parents can encourage effort without demanding perfect results."
+          ],
+          "collocations": [
+            "encourage a child",
+            "strongly encourage",
+            "encourage independence",
+            "offer encouragement"
+          ]
+        },
+        {
+          "term": "reassure",
+          "part_of_speech": "verb",
+          "definition": "to make someone feel less worried or uncertain",
+          "examples": [
+            "Her sister reassured her before the medical appointment.",
+            "A familiar bedtime routine reassures a young child after a move."
+          ],
+          "collocations": [
+            "reassure someone",
+            "feel reassured",
+            "reassuring words"
+          ]
+        },
+        {
+          "term": "advice",
+          "part_of_speech": "noun",
+          "definition": "an opinion or suggestion about what someone should do",
+          "examples": [
+            "I ask my older cousin for career advice because she knows the field.",
+            "Unrequested advice can feel like criticism during a stressful moment."
+          ],
+          "collocations": [
+            "give advice",
+            "seek advice",
+            "family advice",
+            "practical advice",
+            "follow advice"
+          ]
+        },
+        {
+          "term": "advise",
+          "part_of_speech": "verb",
+          "definition": "to recommend a course of action",
+          "examples": [
+            "My father advised me to read the contract before signing.",
+            "I would not advise a relative to make a decision I did not understand."
+          ],
+          "collocations": [
+            "advise someone to",
+            "strongly advise",
+            "professionally advise"
+          ]
+        },
+        {
+          "term": "rely",
+          "part_of_speech": "verb",
+          "definition": "to depend on someone or something for help",
+          "examples": [
+            "We rely on our neighbor as well as relatives for emergencies.",
+            "Adult children should not be expected to rely on parents forever."
+          ],
+          "collocations": [
+            "rely on family",
+            "heavily rely on",
+            "rely on each other"
+          ]
+        },
+        {
+          "term": "trust",
+          "part_of_speech": "noun",
+          "definition": "confidence that someone is honest, reliable, or caring",
+          "examples": [
+            "Trust returned slowly after the family discussed what had happened.",
+            "Children need trust as they begin making choices alone."
+          ],
+          "collocations": [
+            "mutual trust",
+            "build trust",
+            "lose trust",
+            "relationship of trust"
+          ]
+        },
+        {
+          "term": "confide",
+          "part_of_speech": "verb",
+          "definition": "to share private thoughts or worries with someone trusted",
+          "examples": [
+            "I confide in my sister because she listens before offering solutions.",
+            "The teenager found it easier to confide in an aunt than a parent."
+          ],
+          "collocations": [
+            "confide in someone",
+            "feel able to confide",
+            "confide a worry"
+          ]
+        },
+        {
+          "term": "empathy",
+          "part_of_speech": "noun",
+          "definition": "the ability to understand another person's feelings or situation",
+          "examples": [
+            "Empathy helped the parents recognize why the move upset their child.",
+            "Different generations need empathy when their pressures are unfamiliar to one another."
+          ],
+          "collocations": [
+            "show empathy",
+            "develop empathy",
+            "empathy for",
+            "respond with empathy"
+          ]
+        },
+        {
+          "term": "dependable",
+          "part_of_speech": "adjective",
+          "definition": "reliably available and responsible",
+          "examples": [
+            "My brother is dependable when someone needs transport to an appointment.",
+            "Children feel secure when adults are calm and dependable."
+          ],
+          "collocations": [
+            "dependable relative",
+            "highly dependable",
+            "remain dependable"
+          ]
+        }
+      ],
+      "phrases": [
+        {
+          "text": "Sometimes people need to be heard before they need advice.",
+          "reusable_core": "heard before they need advice"
+        },
+        {
+          "text": "I can depend on them in a genuine emergency.",
+          "reusable_core": "depend on them"
+        },
+        {
+          "text": "Support should not become control.",
+          "reusable_core": "should not become control"
+        },
+        {
+          "text": "The advice comes from experience, but the final choice is mine.",
+          "reusable_core": "the final choice is mine"
+        },
+        {
+          "text": "We help one another in different ways.",
+          "reusable_core": "in different ways"
+        },
+        {
+          "text": "A calm conversation can make a difficult situation feel manageable.",
+          "reusable_core": "feel manageable"
+        },
+        {
+          "text": "Trust develops through small reliable actions.",
+          "reusable_core": "small reliable actions"
+        },
+        {
+          "text": "I would ask what kind of help the person actually wants.",
+          "reusable_core": "what kind of help"
+        },
+        {
+          "text": "Family support can reduce isolation during a crisis.",
+          "reusable_core": "reduce isolation"
+        },
+        {
+          "text": "Being dependable matters more than making dramatic promises.",
+          "reusable_core": "Being dependable"
+        },
+        {
+          "text": "Emotional closeness needs privacy as well as honesty.",
+          "reusable_core": "privacy as well as honesty"
+        }
+      ]
+    },
+    {
+      "title": "Routines, Meals, and Household Responsibilities",
+      "headwords": [
+        {
+          "term": "routine",
+          "part_of_speech": "noun",
+          "definition": "a regular pattern of activities",
+          "examples": [
+            "Our evening routine includes preparing lunch for the next day.",
+            "A stable routine helped the children adjust after moving."
+          ],
+          "collocations": [
+            "family routine",
+            "daily routine",
+            "establish a routine",
+            "follow a routine"
+          ]
+        },
+        {
+          "term": "family meal",
+          "part_of_speech": "noun phrase",
+          "definition": "a meal eaten together by members of a family or household",
+          "examples": [
+            "Sunday lunch is the only family meal everyone can attend.",
+            "The family meal became stressful when phones were constantly checked."
+          ],
+          "collocations": [
+            "regular family meal",
+            "share a family meal",
+            "family-meal routine"
+          ]
+        },
+        {
+          "term": "chore",
+          "part_of_speech": "noun",
+          "definition": "a routine household task",
+          "examples": [
+            "Each child chooses one daily chore and one weekend task.",
+            "Washing dishes feels less like a chore when people talk while doing it."
+          ],
+          "collocations": [
+            "household chore",
+            "daily chore",
+            "share chores",
+            "do chores",
+            "chore schedule"
+          ]
+        },
+        {
+          "term": "housework",
+          "part_of_speech": "noun",
+          "definition": "work involved in cleaning and managing a home",
+          "examples": [
+            "Paid work does not remove the need to divide housework fairly.",
+            "The family completed the housework before guests arrived."
+          ],
+          "collocations": [
+            "do housework",
+            "share housework",
+            "housework burden",
+            "housework routine"
+          ]
+        },
+        {
+          "term": "responsibility",
+          "part_of_speech": "noun",
+          "definition": "a duty someone is expected to handle",
+          "examples": [
+            "Checking on the elderly relative is a shared family responsibility.",
+            "The teenager gained responsibility by managing her own laundry."
+          ],
+          "collocations": [
+            "family responsibility",
+            "take responsibility",
+            "share responsibilities",
+            "major responsibility"
+          ]
+        },
+        {
+          "term": "divide",
+          "part_of_speech": "verb",
+          "definition": "to separate work or duties among people",
+          "examples": [
+            "We divide household tasks according to time and ability.",
+            "The siblings divided the holiday preparations rather than leaving everything to one person."
+          ],
+          "collocations": [
+            "divide chores",
+            "divide responsibilities",
+            "fairly divide",
+            "divide equally"
+          ]
+        },
+        {
+          "term": "contribute",
+          "part_of_speech": "verb",
+          "definition": "to give time, effort, money, or ideas to a shared purpose",
+          "examples": [
+            "Everyone contributes to the household in a way they can manage.",
+            "The children contributed by setting the table and feeding the pet."
+          ],
+          "collocations": [
+            "contribute to the household",
+            "financially contribute",
+            "contribute time",
+            "make a contribution"
+          ]
+        },
+        {
+          "term": "fair share",
+          "part_of_speech": "noun phrase",
+          "definition": "a reasonable portion of work or responsibility",
+          "examples": [
+            "Each adult should do a fair share of unpaid household work.",
+            "Her fair share changed temporarily while she recovered from surgery."
+          ],
+          "collocations": [
+            "do a fair share",
+            "pay a fair share",
+            "fair share of chores"
+          ]
+        },
+        {
+          "term": "care work",
+          "part_of_speech": "noun phrase",
+          "definition": "paid or unpaid work involved in looking after children, older people, or others",
+          "examples": [
+            "Care work is often invisible until the usual caregiver becomes ill.",
+            "The household counted care work when dividing other chores."
+          ],
+          "collocations": [
+            "unpaid care work",
+            "paid care work",
+            "share care work",
+            "care-work burden"
+          ]
+        },
+        {
+          "term": "schedule",
+          "part_of_speech": "noun",
+          "definition": "a plan showing when activities or duties happen",
+          "examples": [
+            "A shared schedule prevents two people from assuming the other will collect the child.",
+            "The meal schedule became more flexible as the teenagers grew older."
+          ],
+          "collocations": [
+            "household schedule",
+            "busy schedule",
+            "shared schedule",
+            "adjust a schedule"
+          ]
+        }
+      ],
+      "phrases": [
+        {
+          "text": "We divide chores according to time and ability.",
+          "reusable_core": "according to time and ability"
+        },
+        {
+          "text": "The routine gives the day a predictable shape.",
+          "reusable_core": "a predictable shape"
+        },
+        {
+          "text": "Eating together creates a natural time to talk.",
+          "reusable_core": "a natural time to talk"
+        },
+        {
+          "text": "Household work should not automatically fall to one person.",
+          "reusable_core": "automatically fall to one person"
+        },
+        {
+          "text": "Everyone contributes in a way that matches their age.",
+          "reusable_core": "matches their age"
+        },
+        {
+          "text": "The arrangement needs to change when someone's workload changes.",
+          "reusable_core": "when someone's workload changes"
+        },
+        {
+          "text": "Care work deserves to be recognized as real work.",
+          "reusable_core": "recognized as real work"
+        },
+        {
+          "text": "A shared calendar reduces last-minute confusion.",
+          "reusable_core": "last-minute confusion"
+        },
+        {
+          "text": "The goal is a fair contribution, not identical tasks.",
+          "reusable_core": "a fair contribution"
+        },
+        {
+          "text": "Routine can create security without becoming rigid.",
+          "reusable_core": "without becoming rigid"
+        }
+      ]
+    },
+    {
+      "title": "Communication, Conflict, and Boundaries",
+      "headwords": [
+        {
+          "term": "communicate",
+          "part_of_speech": "verb",
+          "definition": "to share information, feelings, or needs",
+          "examples": [
+            "We communicate more clearly when difficult topics are not raised during an argument.",
+            "The parents communicated the new rule and explained its reason."
+          ],
+          "collocations": [
+            "communicate openly",
+            "clearly communicate",
+            "communicate with family",
+            "communication style"
+          ]
+        },
+        {
+          "term": "misunderstanding",
+          "part_of_speech": "noun",
+          "definition": "a failure to understand someone correctly",
+          "examples": [
+            "A text message caused a misunderstanding about the meeting time.",
+            "The misunderstanding ended when each person explained what they had assumed."
+          ],
+          "collocations": [
+            "clear up a misunderstanding",
+            "common misunderstanding",
+            "cause a misunderstanding"
+          ]
+        },
+        {
+          "term": "disagreement",
+          "part_of_speech": "noun",
+          "definition": "a situation in which people have different opinions",
+          "examples": [
+            "The family disagreement concerned money, not affection.",
+            "They handled the disagreement privately instead of involving every relative."
+          ],
+          "collocations": [
+            "family disagreement",
+            "serious disagreement",
+            "resolve a disagreement",
+            "disagreement about"
+          ]
+        },
+        {
+          "term": "conflict",
+          "part_of_speech": "noun",
+          "definition": "a serious or continuing disagreement",
+          "examples": [
+            "Unclear caregiving duties created conflict among the siblings.",
+            "Avoiding every conflict allowed resentment to grow."
+          ],
+          "collocations": [
+            "family conflict",
+            "resolve conflict",
+            "source of conflict",
+            "conflict between generations"
+          ]
+        },
+        {
+          "term": "compromise",
+          "part_of_speech": "noun",
+          "definition": "an agreement in which each side accepts less than originally wanted",
+          "examples": [
+            "The holiday plan was a compromise between two family traditions.",
+            "A fair compromise let the teenager attend the event and return at an agreed time."
+          ],
+          "collocations": [
+            "reach a compromise",
+            "reasonable compromise",
+            "compromise solution"
+          ]
+        },
+        {
+          "term": "boundary",
+          "part_of_speech": "noun",
+          "definition": "a limit that protects privacy, time, or acceptable treatment",
+          "examples": [
+            "Turning off the phone during work is one boundary with relatives.",
+            "The parents respected the adult child's boundary about unannounced visits."
+          ],
+          "collocations": [
+            "set a boundary",
+            "respect boundaries",
+            "clear boundary",
+            "healthy boundary"
+          ]
+        },
+        {
+          "term": "interfere",
+          "part_of_speech": "verb",
+          "definition": "to become involved in a situation where involvement is unwanted or unhelpful",
+          "examples": [
+            "Relatives should not interfere in every parenting decision.",
+            "Her brother meant to help but interfered before understanding the problem."
+          ],
+          "collocations": [
+            "interfere in",
+            "unnecessarily interfere",
+            "feel interfered with"
+          ]
+        },
+        {
+          "term": "respectful",
+          "part_of_speech": "adjective",
+          "definition": "showing consideration for another person's dignity and rights",
+          "examples": [
+            "A respectful disagreement avoids insults and threats.",
+            "The child can question a rule in a respectful way."
+          ],
+          "collocations": [
+            "respectful conversation",
+            "remain respectful",
+            "respectful toward",
+            "mutually respectful"
+          ]
+        },
+        {
+          "term": "apologize",
+          "part_of_speech": "verb",
+          "definition": "to express regret for something wrong or hurtful",
+          "examples": [
+            "He apologized for sharing the private news without permission.",
+            "Parents should apologize when they judge a child unfairly."
+          ],
+          "collocations": [
+            "sincerely apologize",
+            "apologize for",
+            "apologize to someone",
+            "owe an apology"
+          ]
+        },
+        {
+          "term": "forgive",
+          "part_of_speech": "verb",
+          "definition": "to stop holding anger against someone for a wrong",
+          "examples": [
+            "She forgave the mistake after seeing genuine change.",
+            "Forgiving a relative does not require accepting the same harmful behavior again."
+          ],
+          "collocations": [
+            "forgive someone",
+            "find it hard to forgive",
+            "ask to be forgiven"
+          ]
+        }
+      ],
+      "phrases": [
+        {
+          "text": "I would raise the issue when everyone is calm.",
+          "reusable_core": "when everyone is calm"
+        },
+        {
+          "text": "We can disagree without treating the relationship as a competition.",
+          "reusable_core": "disagree without"
+        },
+        {
+          "text": "The problem came from different assumptions.",
+          "reusable_core": "different assumptions"
+        },
+        {
+          "text": "A boundary protects the relationship as well as the individual.",
+          "reusable_core": "protects the relationship"
+        },
+        {
+          "text": "I would explain the effect of the behavior rather than attack the person.",
+          "reusable_core": "the effect of the behavior"
+        },
+        {
+          "text": "A sincere apology includes a change in behavior.",
+          "reusable_core": "includes a change in behavior"
+        },
+        {
+          "text": "Compromise is useful when both needs are legitimate.",
+          "reusable_core": "both needs are legitimate"
+        },
+        {
+          "text": "Privacy should not be interpreted as rejection.",
+          "reusable_core": "interpreted as rejection"
+        },
+        {
+          "text": "Unresolved resentment can return during an unrelated argument.",
+          "reusable_core": "Unresolved resentment"
+        },
+        {
+          "text": "Respect is shown through listening, not only polite words.",
+          "reusable_core": "shown through listening"
+        }
+      ]
+    },
+    {
+      "title": "Parents, Children, and Raising a Family",
+      "headwords": [
+        {
+          "term": "parenting",
+          "part_of_speech": "noun",
+          "definition": "the activity and approach of raising children",
+          "examples": [
+            "Parenting changes as a child becomes more independent.",
+            "The couple discussed parenting expectations before having children."
+          ],
+          "collocations": [
+            "parenting style",
+            "parenting decision",
+            "shared parenting",
+            "positive parenting"
+          ]
+        },
+        {
+          "term": "raise",
+          "part_of_speech": "verb",
+          "definition": "to care for and guide a child as they grow",
+          "examples": [
+            "Her grandparents helped raise her while her mother worked abroad.",
+            "Parents can raise confident children without removing every difficulty."
+          ],
+          "collocations": [
+            "raise a child",
+            "raise a family",
+            "be raised by",
+            "help raise"
+          ]
+        },
+        {
+          "term": "upbringing",
+          "part_of_speech": "noun",
+          "definition": "the way a child is cared for and taught while growing up",
+          "examples": [
+            "His upbringing emphasized hospitality and responsibility.",
+            "Two siblings can respond differently to the same upbringing."
+          ],
+          "collocations": [
+            "strict upbringing",
+            "childhood upbringing",
+            "during childhood",
+            "influence of upbringing"
+          ]
+        },
+        {
+          "term": "discipline",
+          "part_of_speech": "noun",
+          "definition": "methods used to teach children rules and self-control",
+          "examples": [
+            "Effective discipline explains consequences rather than relying on fear.",
+            "The parents disagreed about discipline but discussed it away from the child."
+          ],
+          "collocations": [
+            "child discipline",
+            "positive discipline",
+            "discipline method",
+            "consistent discipline"
+          ]
+        },
+        {
+          "term": "rule",
+          "part_of_speech": "noun",
+          "definition": "a stated expectation about permitted behavior",
+          "examples": [
+            "The family rule requires everyone to message if they will be late.",
+            "A rule becomes easier to follow when its purpose is clear."
+          ],
+          "collocations": [
+            "family rule",
+            "household rule",
+            "set rules",
+            "follow a rule",
+            "reasonable rule"
+          ]
+        },
+        {
+          "term": "consequence",
+          "part_of_speech": "noun",
+          "definition": "a result of an action, especially one used to teach responsibility",
+          "examples": [
+            "The consequence for missing chores was losing some weekend screen time.",
+            "Natural consequences can teach more than an unrelated punishment."
+          ],
+          "collocations": [
+            "face consequences",
+            "reasonable consequence",
+            "natural consequence",
+            "consequence of behavior"
+          ]
+        },
+        {
+          "term": "protective",
+          "part_of_speech": "adjective",
+          "definition": "wanting to keep someone safe from harm",
+          "examples": [
+            "Her parents were protective after the accident but gradually restored her freedom.",
+            "Being protective should not prevent teenagers from learning ordinary independence."
+          ],
+          "collocations": [
+            "overly protective",
+            "protective parent",
+            "feel protective",
+            "protective instinct"
+          ]
+        },
+        {
+          "term": "independence",
+          "part_of_speech": "noun",
+          "definition": "the ability and freedom to make decisions and act without constant help",
+          "examples": [
+            "Managing a small allowance taught the child financial independence.",
+            "Teenagers need increasing independence alongside clear safety expectations."
+          ],
+          "collocations": [
+            "gain independence",
+            "encourage independence",
+            "growing independence",
+            "personal independence"
+          ]
+        },
+        {
+          "term": "role model",
+          "part_of_speech": "noun phrase",
+          "definition": "a person whose behavior provides an example for others",
+          "examples": [
+            "Children notice how adult role models handle mistakes.",
+            "An older cousin became a role model without trying to replace the parents."
+          ],
+          "collocations": [
+            "positive role model",
+            "serve as a role model",
+            "strong role model"
+          ]
+        },
+        {
+          "term": "quality time",
+          "part_of_speech": "noun phrase",
+          "definition": "time spent giving full, meaningful attention to a relationship",
+          "examples": [
+            "A short walk can be better quality time than an evening of distracted television.",
+            "The parent protected some quality time despite a busy work schedule."
+          ],
+          "collocations": [
+            "spend quality time",
+            "family quality time",
+            "regular quality time"
+          ]
+        }
+      ],
+      "phrases": [
+        {
+          "text": "Children need age-appropriate freedom and responsibility.",
+          "reusable_core": "age-appropriate freedom"
+        },
+        {
+          "text": "A rule is easier to accept when its purpose is explained.",
+          "reusable_core": "its purpose is explained"
+        },
+        {
+          "text": "Parents teach through their behavior as well as their words.",
+          "reusable_core": "through their behavior"
+        },
+        {
+          "text": "Protection should gradually make room for independence.",
+          "reusable_core": "make room for independence"
+        },
+        {
+          "text": "The consequence should be related to the behavior.",
+          "reusable_core": "related to the behavior"
+        },
+        {
+          "text": "Consistency matters, but circumstances still need judgment.",
+          "reusable_core": "circumstances still need judgment"
+        },
+        {
+          "text": "Quality time requires attention rather than expensive activities.",
+          "reusable_core": "attention rather than expensive activities"
+        },
+        {
+          "text": "Children can contribute to decisions that affect them.",
+          "reusable_core": "contribute to decisions"
+        },
+        {
+          "text": "Different children may need different kinds of support.",
+          "reusable_core": "different kinds of support"
+        }
+      ]
+    },
+    {
+      "title": "Generations, Age, and Mutual Understanding",
+      "headwords": [
+        {
+          "term": "generation",
+          "part_of_speech": "noun",
+          "definition": "people born during a similar period, or one level in a family",
+          "examples": [
+            "Three generations attended the family celebration.",
+            "Each generation experienced different technology during adolescence."
+          ],
+          "collocations": [
+            "older generation",
+            "younger generation",
+            "future generations",
+            "across generations"
+          ]
+        },
+        {
+          "term": "generation gap",
+          "part_of_speech": "noun phrase",
+          "definition": "differences in experience, values, or communication between age groups",
+          "examples": [
+            "Smartphone rules became one sign of the generation gap.",
+            "Shared work reduced the generation gap between them."
+          ],
+          "collocations": [
+            "wide generation gap",
+            "bridge the generation gap",
+            "generation-gap issue"
+          ]
+        },
+        {
+          "term": "elder",
+          "part_of_speech": "noun",
+          "definition": "an older person, especially one respected in a family or community",
+          "examples": [
+            "A family elder explained the history behind the ceremony.",
+            "Respecting elders includes listening to their wishes about care."
+          ],
+          "collocations": [
+            "respected elder",
+            "community elder",
+            "family elder",
+            "respect for elders"
+          ]
+        },
+        {
+          "term": "ageism",
+          "part_of_speech": "noun",
+          "definition": "unfair treatment or assumptions based on age",
+          "examples": [
+            "Ageism can make employers ignore both older and very young applicants.",
+            "The advertisement presented every older adult as helpless, which was ageist."
+          ],
+          "collocations": [
+            "workplace ageism",
+            "challenge ageism",
+            "experience ageism"
+          ]
+        },
+        {
+          "term": "wisdom",
+          "part_of_speech": "noun",
+          "definition": "good judgment developed through knowledge and experience",
+          "examples": [
+            "Her grandmother's wisdom came from asking practical questions.",
+            "Age can bring wisdom, but older people can also make mistakes."
+          ],
+          "collocations": [
+            "practical wisdom",
+            "traditional wisdom",
+            "share wisdom",
+            "wisdom from experience"
+          ]
+        },
+        {
+          "term": "outdated",
+          "part_of_speech": "adjective",
+          "definition": "no longer useful because circumstances have changed",
+          "examples": [
+            "The career advice was outdated in a digital job market.",
+            "An old tradition is not automatically outdated if it still has meaning."
+          ],
+          "collocations": [
+            "outdated advice",
+            "outdated belief",
+            "become outdated",
+            "seem outdated"
+          ]
+        },
+        {
+          "term": "open-minded",
+          "part_of_speech": "adjective",
+          "definition": "willing to consider unfamiliar ideas without immediate rejection",
+          "examples": [
+            "The grandfather was open-minded about his granddaughter's career choice.",
+            "Young people also need to remain open-minded about older experience."
+          ],
+          "collocations": [
+            "remain open-minded",
+            "open-minded attitude",
+            "open-minded about"
+          ]
+        },
+        {
+          "term": "intergenerational",
+          "part_of_speech": "adjective",
+          "definition": "involving or connecting different generations",
+          "examples": [
+            "The intergenerational project paired teenagers with older storytellers.",
+            "Intergenerational housing can reduce loneliness and living costs."
+          ],
+          "collocations": [
+            "intergenerational relationship",
+            "intergenerational program",
+            "intergenerational learning"
+          ]
+        },
+        {
+          "term": "mentor",
+          "part_of_speech": "verb",
+          "definition": "to guide a less experienced or younger person",
+          "examples": [
+            "A retired engineer mentors students at the community center.",
+            "Older siblings often mentor younger ones informally."
+          ],
+          "collocations": [
+            "mentor a young person",
+            "formally mentor",
+            "mentoring relationship"
+          ]
+        },
+        {
+          "term": "perspective",
+          "part_of_speech": "noun",
+          "definition": "a way of understanding something shaped by experience",
+          "examples": [
+            "Her parents' perspective on job security came from an earlier crisis.",
+            "Family discussions improve when each generation explains its perspective."
+          ],
+          "collocations": [
+            "different perspective",
+            "generational perspective",
+            "understand a perspective",
+            "broader perspective"
+          ]
+        }
+      ],
+      "phrases": [
+        {
+          "text": "Different experiences shape what each generation considers normal.",
+          "reusable_core": "what each generation considers normal"
+        },
+        {
+          "text": "Age does not guarantee wisdom or prevent learning.",
+          "reusable_core": "does not guarantee"
+        },
+        {
+          "text": "Older relatives can offer history that is not written down.",
+          "reusable_core": "history that is not written down"
+        },
+        {
+          "text": "Young people can help family members use new tools without embarrassment.",
+          "reusable_core": "without embarrassment"
+        },
+        {
+          "text": "Respect needs to work in both directions.",
+          "reusable_core": "work in both directions"
+        },
+        {
+          "text": "The advice made sense in a different economic situation.",
+          "reusable_core": "a different economic situation"
+        },
+        {
+          "text": "Shared activities create conversation more naturally than formal lectures.",
+          "reusable_core": "more naturally than formal lectures"
+        },
+        {
+          "text": "We can preserve a tradition while changing one part of it.",
+          "reusable_core": "preserve a tradition"
+        },
+        {
+          "text": "A generation gap becomes smaller when people explain their reasons.",
+          "reusable_core": "explain their reasons"
+        },
+        {
+          "text": "Each age group has knowledge the other may lack.",
+          "reusable_core": "knowledge the other may lack"
+        }
+      ]
+    },
+    {
+      "title": "Living With Family and Living Independently",
+      "headwords": [
+        {
+          "term": "independent",
+          "part_of_speech": "adjective",
+          "definition": "able to manage life and decisions without relying heavily on others",
+          "examples": [
+            "Living alone made her more independent in practical matters.",
+            "An independent adult can still ask family for emotional support."
+          ],
+          "collocations": [
+            "financially independent",
+            "become independent",
+            "independent living",
+            "highly independent"
+          ]
+        },
+        {
+          "term": "move out",
+          "part_of_speech": "verb phrase",
+          "definition": "to leave a shared family home and live elsewhere",
+          "examples": [
+            "He moved out when he found work near the city center.",
+            "High rent made it difficult for the couple to move out."
+          ],
+          "collocations": [
+            "move out of home",
+            "plan to move out",
+            "ready to move out"
+          ]
+        },
+        {
+          "term": "move back",
+          "part_of_speech": "verb phrase",
+          "definition": "to return to a former family home",
+          "examples": [
+            "She moved back temporarily after losing her job.",
+            "Moving back gave him time to retrain without expensive debt."
+          ],
+          "collocations": [
+            "move back home",
+            "temporarily move back",
+            "decision to move back"
+          ]
+        },
+        {
+          "term": "privacy",
+          "part_of_speech": "noun",
+          "definition": "freedom from unwanted observation or interruption",
+          "examples": [
+            "The teenager needed privacy to talk with a friend.",
+            "People sharing a small home can still protect privacy through routines."
+          ],
+          "collocations": [
+            "personal privacy",
+            "respect privacy",
+            "need privacy",
+            "invade privacy"
+          ]
+        },
+        {
+          "term": "personal space",
+          "part_of_speech": "noun phrase",
+          "definition": "physical or emotional room belonging to an individual",
+          "examples": [
+            "A curtain created some personal space in the shared bedroom.",
+            "Even close relatives need personal space after a stressful day."
+          ],
+          "collocations": [
+            "need personal space",
+            "respect personal space",
+            "limited personal space"
+          ]
+        },
+        {
+          "term": "roommate",
+          "part_of_speech": "noun",
+          "definition": "a person who shares a home or room",
+          "examples": [
+            "Living with a roommate reduced costs and taught negotiation.",
+            "The roommate agreement covered cleaning, guests, and bills."
+          ],
+          "collocations": [
+            "share with a roommate",
+            "roommate agreement",
+            "reliable roommate"
+          ]
+        },
+        {
+          "term": "self-sufficient",
+          "part_of_speech": "adjective",
+          "definition": "able to provide for and manage oneself without regular help",
+          "examples": [
+            "Cooking and budgeting helped the student become self-sufficient.",
+            "No one is completely self-sufficient during every stage of life."
+          ],
+          "collocations": [
+            "become self-sufficient",
+            "financially self-sufficient",
+            "remain self-sufficient"
+          ]
+        },
+        {
+          "term": "homesick",
+          "part_of_speech": "adjective",
+          "definition": "sad because of being away from home or familiar people",
+          "examples": [
+            "She felt homesick during the first quiet weekend at university.",
+            "Regular calls helped without preventing him from building a new life."
+          ],
+          "collocations": [
+            "feel homesick",
+            "deeply homesick",
+            "homesick for family"
+          ]
+        },
+        {
+          "term": "cohabit",
+          "part_of_speech": "verb",
+          "definition": "to live together in the same home",
+          "examples": [
+            "Three adult generations cohabit because housing costs are high.",
+            "Families cohabit successfully when money and privacy are discussed."
+          ],
+          "collocations": [
+            "cohabit with family",
+            "multi-generational cohabitation"
+          ]
+        },
+        {
+          "term": "household contribution",
+          "part_of_speech": "noun phrase",
+          "definition": "money, work, or care given to support a shared home",
+          "examples": [
+            "The adult son made a household contribution through rent and cooking.",
+            "A contribution should reflect income as well as use of the home."
+          ],
+          "collocations": [
+            "make a household contribution",
+            "fair household contribution"
+          ]
+        }
+      ],
+      "phrases": [
+        {
+          "text": "Living independently teaches practical responsibility.",
+          "reusable_core": "practical responsibility"
+        },
+        {
+          "text": "Staying with family can be a sensible financial choice.",
+          "reusable_core": "a sensible financial choice"
+        },
+        {
+          "text": "Adult family members need clear expectations about money and chores.",
+          "reusable_core": "clear expectations"
+        },
+        {
+          "text": "Independence does not mean refusing every kind of help.",
+          "reusable_core": "does not mean refusing"
+        },
+        {
+          "text": "Limited space makes privacy harder but still important.",
+          "reusable_core": "privacy harder but still important"
+        },
+        {
+          "text": "Moving back can be a temporary strategy rather than a failure.",
+          "reusable_core": "a temporary strategy"
+        },
+        {
+          "text": "The arrangement allows people to share both costs and care.",
+          "reusable_core": "share both costs and care"
+        },
+        {
+          "text": "I would agree on guests and quiet hours in advance.",
+          "reusable_core": "in advance"
+        },
+        {
+          "text": "The right time to leave depends partly on housing and income.",
+          "reusable_core": "depends partly on housing and income"
+        }
+      ]
+    },
+    {
+      "title": "Traditions, Celebrations, and Family Values",
+      "headwords": [
+        {
+          "term": "tradition",
+          "part_of_speech": "noun",
+          "definition": "a custom passed through a family or community",
+          "examples": [
+            "Our family tradition is to cook together before the new year.",
+            "The tradition changed when several relatives moved abroad."
+          ],
+          "collocations": [
+            "family tradition",
+            "long-standing tradition",
+            "continue a tradition",
+            "create a tradition"
+          ]
+        },
+        {
+          "term": "custom",
+          "part_of_speech": "noun",
+          "definition": "an established way of behaving in a family or culture",
+          "examples": [
+            "Guests learn the household custom of removing shoes.",
+            "The wedding combined customs from both families."
+          ],
+          "collocations": [
+            "inherited custom",
+            "local custom",
+            "follow a custom",
+            "traditional custom"
+          ]
+        },
+        {
+          "term": "celebration",
+          "part_of_speech": "noun",
+          "definition": "an event marking a happy or important occasion",
+          "examples": [
+            "The graduation celebration was small but meaningful.",
+            "Video calls allowed distant relatives to join the celebration."
+          ],
+          "collocations": [
+            "family celebration",
+            "birthday celebration",
+            "hold a celebration",
+            "join a celebration"
+          ]
+        },
+        {
+          "term": "ritual",
+          "part_of_speech": "noun",
+          "definition": "a repeated meaningful action connected to an event or routine",
+          "examples": [
+            "Reading the same story became a bedtime ritual.",
+            "The holiday ritual gives children something familiar to expect."
+          ],
+          "collocations": [
+            "family ritual",
+            "daily ritual",
+            "meaningful ritual"
+          ]
+        },
+        {
+          "term": "heritage",
+          "part_of_speech": "noun",
+          "definition": "traditions, stories, and culture inherited from earlier generations",
+          "examples": [
+            "Recipes are an important part of her family heritage.",
+            "The archive helps younger relatives explore their heritage."
+          ],
+          "collocations": [
+            "cultural heritage",
+            "family heritage",
+            "preserve heritage",
+            "shared heritage"
+          ]
+        },
+        {
+          "term": "value",
+          "part_of_speech": "noun",
+          "definition": "a principle considered important in guiding behavior",
+          "examples": [
+            "Hospitality is a family value learned through practice.",
+            "Relatives may share values while expressing them differently."
+          ],
+          "collocations": [
+            "family value",
+            "shared values",
+            "traditional values",
+            "value honesty"
+          ]
+        },
+        {
+          "term": "pass down",
+          "part_of_speech": "verb phrase",
+          "definition": "to give knowledge or traditions to a younger generation",
+          "examples": [
+            "Her grandfather passed down the recipe by cooking beside her.",
+            "Families pass stories down even when details change."
+          ],
+          "collocations": [
+            "pass down a tradition",
+            "pass down knowledge",
+            "passed down through generations"
+          ]
+        },
+        {
+          "term": "preserve",
+          "part_of_speech": "verb",
+          "definition": "to keep something important from disappearing",
+          "examples": [
+            "Recording the elder's stories helped preserve family history.",
+            "A tradition is easier to preserve when young people participate."
+          ],
+          "collocations": [
+            "preserve a tradition",
+            "preserve family history",
+            "carefully preserve"
+          ]
+        },
+        {
+          "term": "adapt",
+          "part_of_speech": "verb",
+          "definition": "to change something so it works in new circumstances",
+          "examples": [
+            "We adapted the celebration so relatives could join online.",
+            "Families adapt routines when children become adults."
+          ],
+          "collocations": [
+            "adapt a tradition",
+            "adapt to change",
+            "successfully adapt"
+          ]
+        }
+      ],
+      "phrases": [
+        {
+          "text": "The tradition creates continuity across generations.",
+          "reusable_core": "continuity across generations"
+        },
+        {
+          "text": "A celebration can be meaningful without being expensive.",
+          "reusable_core": "without being expensive"
+        },
+        {
+          "text": "Young people should understand the reason behind the custom.",
+          "reusable_core": "the reason behind the custom"
+        },
+        {
+          "text": "Traditions survive when they can adapt.",
+          "reusable_core": "when they can adapt"
+        },
+        {
+          "text": "The family keeps the central meaning while changing the format.",
+          "reusable_core": "keeps the central meaning"
+        },
+        {
+          "text": "Stories and recipes carry history in an everyday form.",
+          "reusable_core": "history in an everyday form"
+        },
+        {
+          "text": "No one should be forced to follow a harmful tradition.",
+          "reusable_core": "forced to follow"
+        },
+        {
+          "text": "Shared values do not require identical lifestyles.",
+          "reusable_core": "do not require identical lifestyles"
+        },
+        {
+          "text": "New family members can contribute their own customs.",
+          "reusable_core": "contribute their own customs"
+        }
+      ]
+    },
+    {
+      "title": "Caregiving, Older Relatives, and Family Change",
+      "headwords": [
+        {
+          "term": "caregiver",
+          "part_of_speech": "noun",
+          "definition": "a person who regularly looks after someone needing help",
+          "examples": [
+            "The main caregiver needed one afternoon each week for rest.",
+            "Several relatives shared care instead of relying on one daughter."
+          ],
+          "collocations": [
+            "family caregiver",
+            "primary caregiver",
+            "support a caregiver",
+            "caregiver stress"
+          ]
+        },
+        {
+          "term": "caregiving",
+          "part_of_speech": "noun",
+          "definition": "the work of looking after a child, older adult, or ill person",
+          "examples": [
+            "Caregiving affected her work schedule and sleep.",
+            "The siblings made a written caregiving plan."
+          ],
+          "collocations": [
+            "family caregiving",
+            "caregiving responsibility",
+            "share caregiving",
+            "caregiving burden"
+          ]
+        },
+        {
+          "term": "dependent",
+          "part_of_speech": "noun",
+          "definition": "a person who relies on someone for financial or practical support",
+          "examples": [
+            "The insurance plan covers two child dependents.",
+            "An older dependent may need transport but still make decisions."
+          ],
+          "collocations": [
+            "financial dependent",
+            "support a dependent",
+            "dependent family member"
+          ]
+        },
+        {
+          "term": "frail",
+          "part_of_speech": "adjective",
+          "definition": "physically weak and easily harmed",
+          "examples": [
+            "The frail grandfather needed a handrail but not constant supervision.",
+            "Calling every older person frail encourages unfair assumptions."
+          ],
+          "collocations": [
+            "physically frail",
+            "become frail",
+            "frail older adult"
+          ]
+        },
+        {
+          "term": "mobility",
+          "part_of_speech": "noun",
+          "definition": "the ability to move around independently",
+          "examples": [
+            "A walking aid improved her mobility inside the home.",
+            "Limited mobility made public transport difficult."
+          ],
+          "collocations": [
+            "limited mobility",
+            "improve mobility",
+            "mobility problem",
+            "reduced mobility"
+          ]
+        },
+        {
+          "term": "respite",
+          "part_of_speech": "noun",
+          "definition": "a short period of rest from a difficult duty",
+          "examples": [
+            "Weekend respite allowed the caregiver to sleep and meet friends.",
+            "The center offers respite for families caring for disabled adults."
+          ],
+          "collocations": [
+            "respite care",
+            "provide respite",
+            "need respite",
+            "short respite"
+          ]
+        },
+        {
+          "term": "dignity",
+          "part_of_speech": "noun",
+          "definition": "the right to be treated as valuable and respected",
+          "examples": [
+            "Helping with bathing requires attention to privacy and dignity.",
+            "The family protected their mother's dignity by including her in decisions."
+          ],
+          "collocations": [
+            "protect dignity",
+            "treat with dignity",
+            "personal dignity",
+            "maintain dignity"
+          ]
+        },
+        {
+          "term": "bereavement",
+          "part_of_speech": "noun",
+          "definition": "the period of grief after someone close dies",
+          "examples": [
+            "Her workplace provided leave during family bereavement.",
+            "Different relatives responded to bereavement differently."
+          ],
+          "collocations": [
+            "family bereavement",
+            "bereavement leave",
+            "cope with bereavement"
+          ]
+        },
+        {
+          "term": "inheritance",
+          "part_of_speech": "noun",
+          "definition": "money, property, or objects received when someone dies",
+          "examples": [
+            "The siblings discussed the inheritance openly to avoid resentment.",
+            "A handwritten letter mattered more than the financial inheritance."
+          ],
+          "collocations": [
+            "receive an inheritance",
+            "family inheritance",
+            "inheritance dispute"
+          ]
+        }
+      ],
+      "phrases": [
+        {
+          "text": "Care responsibilities should be shared as fairly as possible.",
+          "reusable_core": "shared as fairly as possible"
+        },
+        {
+          "text": "The person receiving care should remain involved in decisions.",
+          "reusable_core": "remain involved in decisions"
+        },
+        {
+          "text": "Caregivers need rest before exhaustion becomes a crisis.",
+          "reusable_core": "before exhaustion becomes a crisis"
+        },
+        {
+          "text": "Practical support can protect both independence and dignity.",
+          "reusable_core": "both independence and dignity"
+        },
+        {
+          "text": "One sibling may contribute time while another contributes money.",
+          "reusable_core": "contribute time"
+        },
+        {
+          "text": "Older age does not remove the right to privacy.",
+          "reusable_core": "the right to privacy"
+        },
+        {
+          "text": "Families need honest conversations before care becomes urgent.",
+          "reusable_core": "before care becomes urgent"
+        },
+        {
+          "text": "Grief does not follow the same schedule for every person.",
+          "reusable_core": "the same schedule"
+        },
+        {
+          "text": "Fairness may require different contributions rather than identical ones.",
+          "reusable_core": "different contributions"
+        }
+      ]
+    },
+    {
+      "title": "Work–Family Balance and Changing Roles",
+      "headwords": [
+        {
+          "term": "work–family balance",
+          "part_of_speech": "noun phrase",
+          "definition": "a manageable relationship between paid work and family life",
+          "examples": [
+            "Flexible hours improved her work–family balance after the baby was born.",
+            "A promotion may harm balance if travel increases greatly."
+          ],
+          "collocations": [
+            "healthy work–family balance",
+            "maintain work–family balance",
+            "poor balance"
+          ]
+        },
+        {
+          "term": "childcare",
+          "part_of_speech": "noun",
+          "definition": "care and supervision provided for children",
+          "examples": [
+            "Reliable childcare allowed both parents to keep working.",
+            "The cost of childcare was almost equal to one salary."
+          ],
+          "collocations": [
+            "affordable childcare",
+            "childcare provider",
+            "childcare costs",
+            "arrange childcare"
+          ]
+        },
+        {
+          "term": "parental leave",
+          "part_of_speech": "noun phrase",
+          "definition": "authorized time away from work after having or adopting a child",
+          "examples": [
+            "Paid parental leave gave the family time to establish a routine.",
+            "Fathers taking leave can make caregiving more equal."
+          ],
+          "collocations": [
+            "paid parental leave",
+            "take parental leave",
+            "parental-leave policy"
+          ]
+        },
+        {
+          "term": "breadwinner",
+          "part_of_speech": "noun",
+          "definition": "a person whose income provides most household support",
+          "examples": [
+            "The main breadwinner lost work, so the family used savings.",
+            "Treating fathers as automatic breadwinners limits choices."
+          ],
+          "collocations": [
+            "main breadwinner",
+            "sole breadwinner",
+            "family breadwinner"
+          ]
+        },
+        {
+          "term": "homemaker",
+          "part_of_speech": "noun",
+          "definition": "a person whose main work is managing a home and family",
+          "examples": [
+            "The homemaker handled budgeting, meals, and care for two relatives.",
+            "Unpaid homemakers need financial security and recognition."
+          ],
+          "collocations": [
+            "full-time homemaker",
+            "work as a homemaker",
+            "homemaker role"
+          ]
+        },
+        {
+          "term": "flexible working",
+          "part_of_speech": "noun phrase",
+          "definition": "work arrangements allowing choice over hours or location",
+          "examples": [
+            "Flexible working helped him attend his mother's appointments.",
+            "Flexibility fails when staff must still answer all evening."
+          ],
+          "collocations": [
+            "flexible-working arrangement",
+            "request flexible working",
+            "offer flexible working"
+          ]
+        },
+        {
+          "term": "role reversal",
+          "part_of_speech": "noun phrase",
+          "definition": "a situation in which expected roles change",
+          "examples": [
+            "Role reversal felt strange when the son managed his father's appointments.",
+            "Respectful care can make role reversal less humiliating."
+          ],
+          "collocations": [
+            "family role reversal",
+            "experience role reversal"
+          ]
+        },
+        {
+          "term": "sacrifice",
+          "part_of_speech": "noun",
+          "definition": "something valuable given up for another person or purpose",
+          "examples": [
+            "The parents made a financial sacrifice for the child's education.",
+            "Family sacrifice should not always fall on the same person."
+          ],
+          "collocations": [
+            "make a sacrifice",
+            "personal sacrifice",
+            "financial sacrifice",
+            "family sacrifice"
+          ]
+        },
+        {
+          "term": "priority",
+          "part_of_speech": "noun",
+          "definition": "something judged more important than competing demands",
+          "examples": [
+            "Dinner together remained a priority during a busy month.",
+            "Her family priorities changed after becoming a caregiver."
+          ],
+          "collocations": [
+            "family priority",
+            "top priority",
+            "set priorities",
+            "competing priorities"
+          ]
+        }
+      ],
+      "phrases": [
+        {
+          "text": "Flexible work helps only when the workload remains reasonable.",
+          "reusable_core": "when the workload remains reasonable"
+        },
+        {
+          "text": "Care responsibilities affect careers as well as private life.",
+          "reusable_core": "affect careers"
+        },
+        {
+          "text": "Paid leave gives families time to adjust without losing income.",
+          "reusable_core": "without losing income"
+        },
+        {
+          "text": "Unpaid household work has real economic value.",
+          "reusable_core": "real economic value"
+        },
+        {
+          "text": "The family needs both income and time.",
+          "reusable_core": "both income and time"
+        },
+        {
+          "text": "One person's career should not automatically take priority.",
+          "reusable_core": "automatically take priority"
+        },
+        {
+          "text": "Roles can change after illness, retirement, or parenthood.",
+          "reusable_core": "Roles can change"
+        },
+        {
+          "text": "A sacrifice is easier to accept when it is recognized and shared.",
+          "reusable_core": "recognized and shared"
+        },
+        {
+          "text": "Balance may look different at different stages of life.",
+          "reusable_core": "different stages of life"
+        },
+        {
+          "text": "Affordable childcare expands genuine choice for parents.",
+          "reusable_core": "expands genuine choice"
+        },
+        {
+          "text": "Family-friendly policies should be usable without career penalties.",
+          "reusable_core": "without career penalties"
+        }
+      ]
+    }
+  ]
+}

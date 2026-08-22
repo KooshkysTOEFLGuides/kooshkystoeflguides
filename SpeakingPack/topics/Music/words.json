@@ -1,0 +1,2010 @@
+{
+  "schema_version": 1,
+  "topic": "Music",
+  "coverage_map": [
+    "music preferences",
+    "frequency and contexts of listening",
+    "music genres",
+    "classical music",
+    "rock",
+    "jazz",
+    "pop",
+    "traditional music",
+    "concerts and live events",
+    "live versus recorded music",
+    "music and emotions",
+    "music and mood",
+    "music in daily life",
+    "creating music",
+    "playing an instrument",
+    "music education for children",
+    "required school music",
+    "personal meaning of music",
+    "streaming and discovery",
+    "music industry and artist pay",
+    "cultural identity and preservation"
+  ],
+  "sections": [
+    {
+      "title": "Listening Habits and Musical Preferences",
+      "headwords": [
+        {
+          "term": "preference",
+          "part_of_speech": "noun",
+          "definition": "a greater liking for one musical choice than another",
+          "examples": [
+            "My preference for quiet acoustic music changes when I exercise.",
+            "The survey asked about genre preferences and listening habits."
+          ],
+          "collocations": [
+            "musical preference",
+            "personal preference",
+            "strong preference",
+            "express a preference",
+            "listening preferences"
+          ]
+        },
+        {
+          "term": "taste",
+          "part_of_speech": "noun",
+          "definition": "the kinds of music a person likes and judges positively",
+          "examples": [
+            "My musical taste expanded after a friend introduced me to jazz.",
+            "People with different tastes can still enjoy the same live performance."
+          ],
+          "collocations": [
+            "musical taste",
+            "personal taste",
+            "develop a taste for",
+            "broad taste",
+            "different tastes"
+          ]
+        },
+        {
+          "term": "listener",
+          "part_of_speech": "noun",
+          "definition": "a person who listens to music, radio, or audio",
+          "examples": [
+            "The opening melody immediately gives the listener a calm feeling.",
+            "Regular listeners recognized the singer before her name was announced."
+          ],
+          "collocations": [
+            "casual listener",
+            "regular listener",
+            "younger listeners",
+            "listener response"
+          ]
+        },
+        {
+          "term": "listen",
+          "part_of_speech": "verb",
+          "definition": "to pay attention to sound or music",
+          "examples": [
+            "I listen to instrumental music when I need to concentrate.",
+            "We listened carefully for the change in rhythm near the end."
+          ],
+          "collocations": [
+            "listen to music",
+            "listen closely",
+            "actively listen",
+            "listen repeatedly"
+          ]
+        },
+        {
+          "term": "playlist",
+          "part_of_speech": "noun",
+          "definition": "an organized list of songs or recordings",
+          "examples": [
+            "I made a short playlist for the train journey.",
+            "The shared playlist included one favorite song from every guest."
+          ],
+          "collocations": [
+            "create a playlist",
+            "curated playlist",
+            "personal playlist",
+            "add to a playlist",
+            "playlist recommendation"
+          ]
+        },
+        {
+          "term": "favorite",
+          "part_of_speech": "adjective",
+          "definition": "liked more than other choices of the same kind",
+          "examples": [
+            "My favorite album reminds me of my first year at university.",
+            "She played her favorite song for the visitors and explained its meaning."
+          ],
+          "collocations": [
+            "favorite song",
+            "favorite artist",
+            "all-time favorite",
+            "personal favorite"
+          ]
+        },
+        {
+          "term": "discover",
+          "part_of_speech": "verb",
+          "definition": "to find music or an artist that was previously unknown to you",
+          "examples": [
+            "I discovered the band through a local radio program.",
+            "Streaming makes it easy to discover musicians from other countries."
+          ],
+          "collocations": [
+            "discover new music",
+            "discover an artist",
+            "recently discover",
+            "music discovery"
+          ]
+        },
+        {
+          "term": "recommend",
+          "part_of_speech": "verb",
+          "definition": "to suggest music because you think someone may enjoy it",
+          "examples": [
+            "My cousin recommended a folk singer whose lyrics are easy to understand.",
+            "The app keeps recommending songs that sound almost identical."
+          ],
+          "collocations": [
+            "recommend a song",
+            "highly recommend",
+            "recommend music to someone",
+            "recommendation system"
+          ]
+        },
+        {
+          "term": "background music",
+          "part_of_speech": "noun phrase",
+          "definition": "music played quietly while another activity receives most attention",
+          "examples": [
+            "Soft background music made the café feel less empty.",
+            "I avoid background music when reading a difficult chapter."
+          ],
+          "collocations": [
+            "play background music",
+            "gentle background music",
+            "background-music volume"
+          ]
+        },
+        {
+          "term": "soundtrack",
+          "part_of_speech": "noun",
+          "definition": "recorded music used in a film, game, program, or personal experience",
+          "examples": [
+            "The film's soundtrack made the final scene feel hopeful rather than sad.",
+            "That summer song became the soundtrack to our long road trip."
+          ],
+          "collocations": [
+            "film soundtrack",
+            "original soundtrack",
+            "memorable soundtrack",
+            "soundtrack album"
+          ]
+        },
+        {
+          "term": "repeat",
+          "part_of_speech": "noun",
+          "definition": "another playing of the same song or recording",
+          "examples": [
+            "The chorus was so catchy that I put the track on repeat.",
+            "After the fifth repeat, my roommate asked me to use headphones."
+          ],
+          "collocations": [
+            "on repeat",
+            "play on repeat",
+            "repeat listening"
+          ]
+        },
+        {
+          "term": "skip",
+          "part_of_speech": "verb",
+          "definition": "to move past a song without listening to all of it",
+          "examples": [
+            "I usually skip the slow introduction when I am running.",
+            "The first track sounded ordinary, but I was glad I did not skip it."
+          ],
+          "collocations": [
+            "skip a track",
+            "skip a song",
+            "automatically skip",
+            "skip ahead"
+          ]
+        }
+      ],
+      "phrases": [
+        {
+          "text": "My choice of music depends on what I am doing.",
+          "reusable_core": "depends on what I am doing"
+        },
+        {
+          "text": "I listen mainly for enjoyment rather than analysis.",
+          "reusable_core": "mainly for enjoyment"
+        },
+        {
+          "text": "That song has stayed in my regular rotation for years.",
+          "reusable_core": "stayed in my regular rotation"
+        },
+        {
+          "text": "A friend's recommendation introduced me to the artist.",
+          "reusable_core": "introduced me to the artist"
+        },
+        {
+          "text": "I prefer a varied playlist to a single genre.",
+          "reusable_core": "a varied playlist"
+        },
+        {
+          "text": "Music helps fill an otherwise quiet journey.",
+          "reusable_core": "fill an otherwise quiet journey"
+        },
+        {
+          "text": "I sometimes need silence to concentrate properly.",
+          "reusable_core": "need silence to concentrate"
+        },
+        {
+          "text": "The melody caught my attention immediately.",
+          "reusable_core": "caught my attention immediately"
+        },
+        {
+          "text": "My taste has become broader over time.",
+          "reusable_core": "become broader over time"
+        },
+        {
+          "text": "I associate that recording with a particular period of my life.",
+          "reusable_core": "associate that recording with"
+        },
+        {
+          "text": "I rarely listen to an entire album in order.",
+          "reusable_core": "an entire album in order"
+        },
+        {
+          "text": "The recommendation felt surprisingly well matched to me.",
+          "reusable_core": "well matched to me"
+        }
+      ]
+    },
+    {
+      "title": "Genres, Styles, and Musical Traditions",
+      "headwords": [
+        {
+          "term": "genre",
+          "part_of_speech": "noun",
+          "definition": "a recognized category of music with shared features or traditions",
+          "examples": [
+            "Jazz is the genre I choose when I want something unpredictable.",
+            "Some artists combine several genres instead of fitting one label."
+          ],
+          "collocations": [
+            "music genre",
+            "popular genre",
+            "genre boundaries",
+            "blend genres",
+            "favorite genre"
+          ]
+        },
+        {
+          "term": "classical music",
+          "part_of_speech": "noun phrase",
+          "definition": "music from established Western concert traditions, including orchestral and chamber works",
+          "examples": [
+            "Classical music became more approachable when the teacher explained the main theme first.",
+            "The library hosts free classical-music performances on Sundays."
+          ],
+          "collocations": [
+            "listen to classical music",
+            "classical-music concert",
+            "classical-music tradition"
+          ]
+        },
+        {
+          "term": "rock",
+          "part_of_speech": "noun",
+          "definition": "a popular style usually built around electric guitars, drums, and a strong beat",
+          "examples": [
+            "My father introduced me to rock through albums from his youth.",
+            "The festival included both heavy rock and quieter acoustic performers."
+          ],
+          "collocations": [
+            "rock music",
+            "rock band",
+            "classic rock",
+            "alternative rock",
+            "rock concert"
+          ]
+        },
+        {
+          "term": "jazz",
+          "part_of_speech": "noun",
+          "definition": "a style known for syncopated rhythm, improvisation, and traditions developed in Black American communities",
+          "examples": [
+            "The jazz group changed the melody each time they performed it.",
+            "I began enjoying jazz after learning to follow the bass line."
+          ],
+          "collocations": [
+            "jazz music",
+            "jazz musician",
+            "live jazz",
+            "jazz club",
+            "jazz improvisation"
+          ]
+        },
+        {
+          "term": "pop",
+          "part_of_speech": "noun",
+          "definition": "widely accessible popular music, often featuring memorable melodies and repeated choruses",
+          "examples": [
+            "The radio station plays new pop alongside older hits.",
+            "A simple pop song can still express a personal idea effectively."
+          ],
+          "collocations": [
+            "pop music",
+            "pop singer",
+            "mainstream pop",
+            "pop hit",
+            "pop audience"
+          ]
+        },
+        {
+          "term": "folk music",
+          "part_of_speech": "noun phrase",
+          "definition": "traditional or community-based music passed through generations or written in a similar style",
+          "examples": [
+            "The documentary recorded folk music from villages near the border.",
+            "Folk songs often preserve stories that were not written in official histories."
+          ],
+          "collocations": [
+            "traditional folk music",
+            "folk musician",
+            "folk-music festival",
+            "perform folk music"
+          ]
+        },
+        {
+          "term": "traditional music",
+          "part_of_speech": "noun phrase",
+          "definition": "music connected to the customs and history of a particular community",
+          "examples": [
+            "Traditional music was performed during the wedding procession.",
+            "Young musicians added electronic sounds without hiding the traditional instruments."
+          ],
+          "collocations": [
+            "local traditional music",
+            "preserve traditional music",
+            "traditional-music performance"
+          ]
+        },
+        {
+          "term": "electronic music",
+          "part_of_speech": "noun phrase",
+          "definition": "music created or substantially shaped with electronic instruments and digital technology",
+          "examples": [
+            "The producer built the electronic track from recorded street sounds.",
+            "Electronic music can be quiet and detailed, not only loud dance music."
+          ],
+          "collocations": [
+            "electronic-music producer",
+            "electronic track",
+            "electronic-music festival"
+          ]
+        },
+        {
+          "term": "hip-hop",
+          "part_of_speech": "noun",
+          "definition": "a musical and cultural form centered on rhythmic speech, beats, and traditions that developed in Black and Latino communities",
+          "examples": [
+            "The hip-hop artist used storytelling to describe neighborhood change.",
+            "Our class discussed how hip-hop combines language, rhythm, and social commentary."
+          ],
+          "collocations": [
+            "hip-hop music",
+            "hip-hop artist",
+            "hip-hop culture",
+            "hip-hop track"
+          ]
+        },
+        {
+          "term": "instrumental",
+          "part_of_speech": "adjective",
+          "definition": "containing music without sung words",
+          "examples": [
+            "I use instrumental tracks while studying because lyrics distract me.",
+            "The instrumental version made the guitar melody easier to notice."
+          ],
+          "collocations": [
+            "instrumental music",
+            "instrumental track",
+            "purely instrumental",
+            "instrumental version"
+          ]
+        },
+        {
+          "term": "acoustic",
+          "part_of_speech": "adjective",
+          "definition": "produced mainly by instruments without electronic amplification or processing",
+          "examples": [
+            "The singer performed an acoustic version with only a guitar.",
+            "An acoustic room session made the lyrics feel more intimate."
+          ],
+          "collocations": [
+            "acoustic guitar",
+            "acoustic version",
+            "acoustic performance",
+            "acoustic sound"
+          ]
+        }
+      ],
+      "phrases": [
+        {
+          "text": "The style combines a strong rhythm with personal storytelling.",
+          "reusable_core": "combines a strong rhythm with personal storytelling"
+        },
+        {
+          "text": "I enjoy it even though I do not know much about the genre.",
+          "reusable_core": "do not know much about the genre"
+        },
+        {
+          "text": "The music reflects the history of its community.",
+          "reusable_core": "reflects the history of its community"
+        },
+        {
+          "text": "It has a more acoustic and intimate sound.",
+          "reusable_core": "acoustic and intimate sound"
+        },
+        {
+          "text": "The artist crosses traditional genre boundaries.",
+          "reusable_core": "crosses traditional genre boundaries"
+        },
+        {
+          "text": "The live version sounds very different from the studio recording.",
+          "reusable_core": "different from the studio recording"
+        },
+        {
+          "text": "The rhythm makes the style easy to recognize.",
+          "reusable_core": "easy to recognize"
+        },
+        {
+          "text": "Traditional elements give the track a clear cultural identity.",
+          "reusable_core": "a clear cultural identity"
+        },
+        {
+          "text": "I would start with an accessible recording rather than the most experimental work.",
+          "reusable_core": "an accessible recording"
+        },
+        {
+          "text": "The label is useful, but it does not describe every song.",
+          "reusable_core": "does not describe every song"
+        },
+        {
+          "text": "Different generations have adapted the style in their own way.",
+          "reusable_core": "adapted the style"
+        }
+      ]
+    },
+    {
+      "title": "Melody, Rhythm, Voice, and Musical Qualities",
+      "headwords": [
+        {
+          "term": "melody",
+          "part_of_speech": "noun",
+          "definition": "a sequence of musical notes that forms a recognizable tune",
+          "examples": [
+            "The melody rises gently before the chorus begins.",
+            "I remembered the melody even though I had forgotten the words."
+          ],
+          "collocations": [
+            "simple melody",
+            "catchy melody",
+            "main melody",
+            "play a melody",
+            "melodic line"
+          ]
+        },
+        {
+          "term": "rhythm",
+          "part_of_speech": "noun",
+          "definition": "the pattern of beats and timing in music",
+          "examples": [
+            "The rhythm became faster as more instruments joined.",
+            "Children clapped the rhythm before trying it on drums."
+          ],
+          "collocations": [
+            "strong rhythm",
+            "steady rhythm",
+            "rhythmic pattern",
+            "follow the rhythm",
+            "change in rhythm"
+          ]
+        },
+        {
+          "term": "beat",
+          "part_of_speech": "noun",
+          "definition": "the regular pulse underlying a piece of music",
+          "examples": [
+            "The audience moved together as soon as the beat started.",
+            "A quiet beat enters halfway through the song."
+          ],
+          "collocations": [
+            "strong beat",
+            "steady beat",
+            "dance beat",
+            "follow the beat",
+            "beat drops"
+          ]
+        },
+        {
+          "term": "tempo",
+          "part_of_speech": "noun",
+          "definition": "the speed at which music is performed",
+          "examples": [
+            "The conductor chose a slower tempo for the opening section.",
+            "Increasing the tempo made the familiar song feel energetic."
+          ],
+          "collocations": [
+            "fast tempo",
+            "slow tempo",
+            "change the tempo",
+            "moderate tempo"
+          ]
+        },
+        {
+          "term": "harmony",
+          "part_of_speech": "noun",
+          "definition": "notes played or sung together to create a combined musical effect",
+          "examples": [
+            "Three voices joined in harmony during the final verse.",
+            "The unusual harmony creates tension without becoming unpleasant."
+          ],
+          "collocations": [
+            "vocal harmony",
+            "rich harmony",
+            "sing in harmony",
+            "harmonic structure"
+          ]
+        },
+        {
+          "term": "lyrics",
+          "part_of_speech": "plural noun",
+          "definition": "the words of a song",
+          "examples": [
+            "I looked up the lyrics because the singer's pronunciation was difficult to hear.",
+            "The lyrics describe an ordinary breakup without using clichés."
+          ],
+          "collocations": [
+            "song lyrics",
+            "meaningful lyrics",
+            "write lyrics",
+            "remember the lyrics",
+            "lyrical content"
+          ]
+        },
+        {
+          "term": "chorus",
+          "part_of_speech": "noun",
+          "definition": "the repeated section of a song, often containing its central idea",
+          "examples": [
+            "Everyone knew the chorus and sang it together.",
+            "The quiet verse makes the powerful chorus more effective."
+          ],
+          "collocations": [
+            "catchy chorus",
+            "sing the chorus",
+            "repeat the chorus",
+            "final chorus"
+          ]
+        },
+        {
+          "term": "verse",
+          "part_of_speech": "noun",
+          "definition": "one of the sections of a song that usually changes words between repetitions",
+          "examples": [
+            "The second verse tells the story from another person's view.",
+            "She forgot one line in the verse but continued calmly."
+          ],
+          "collocations": [
+            "first verse",
+            "second verse",
+            "write a verse",
+            "verse and chorus"
+          ]
+        },
+        {
+          "term": "vocal",
+          "part_of_speech": "adjective",
+          "definition": "connected with or produced by the human voice",
+          "examples": [
+            "The recording highlights her vocal range without heavy effects.",
+            "Daily vocal exercises helped the choir sing more comfortably."
+          ],
+          "collocations": [
+            "vocal performance",
+            "vocal style",
+            "vocal range",
+            "vocal training"
+          ]
+        },
+        {
+          "term": "expressive",
+          "part_of_speech": "adjective",
+          "definition": "effectively communicating feeling or meaning",
+          "examples": [
+            "His expressive singing made a familiar song sound personal.",
+            "An expressive performance does not always need high volume."
+          ],
+          "collocations": [
+            "expressive voice",
+            "highly expressive",
+            "expressive performance",
+            "emotionally expressive"
+          ]
+        }
+      ],
+      "phrases": [
+        {
+          "text": "The song begins quietly and gradually builds in intensity.",
+          "reusable_core": "builds in intensity"
+        },
+        {
+          "text": "A memorable chorus makes the track easy to sing along with.",
+          "reusable_core": "easy to sing along with"
+        },
+        {
+          "text": "The rhythm gives the music a sense of movement.",
+          "reusable_core": "a sense of movement"
+        },
+        {
+          "text": "The lyrics tell a clear story.",
+          "reusable_core": "tell a clear story"
+        },
+        {
+          "text": "I was drawn to the singer's expressive voice.",
+          "reusable_core": "drawn to"
+        },
+        {
+          "text": "The slower tempo changes the emotional effect.",
+          "reusable_core": "changes the emotional effect"
+        },
+        {
+          "text": "Different instruments take turns carrying the melody.",
+          "reusable_core": "carrying the melody"
+        },
+        {
+          "text": "The harmony becomes richer near the end.",
+          "reusable_core": "becomes richer"
+        },
+        {
+          "text": "The arrangement leaves enough space for the voice.",
+          "reusable_core": "leaves enough space"
+        },
+        {
+          "text": "One small musical detail rewards repeated listening.",
+          "reusable_core": "rewards repeated listening"
+        }
+      ]
+    },
+    {
+      "title": "Music, Emotion, Memory, and Daily Life",
+      "headwords": [
+        {
+          "term": "mood",
+          "part_of_speech": "noun",
+          "definition": "a temporary emotional state or the feeling created by music",
+          "examples": [
+            "I choose calm music when I want to change my mood after work.",
+            "The minor melody gives the scene an uncertain mood."
+          ],
+          "collocations": [
+            "improve your mood",
+            "reflect a mood",
+            "create a mood",
+            "low mood",
+            "mood music"
+          ]
+        },
+        {
+          "term": "uplifting",
+          "part_of_speech": "adjective",
+          "definition": "making someone feel more hopeful, cheerful, or energetic",
+          "examples": [
+            "I play an uplifting song before a difficult presentation.",
+            "The lyrics are serious, but the rhythm feels surprisingly uplifting."
+          ],
+          "collocations": [
+            "uplifting music",
+            "uplifting song",
+            "emotionally uplifting",
+            "find something uplifting"
+          ]
+        },
+        {
+          "term": "soothing",
+          "part_of_speech": "adjective",
+          "definition": "having a calming and comforting effect",
+          "examples": [
+            "The singer's soft voice was soothing during the long flight.",
+            "Repetitive piano music can be soothing without demanding attention."
+          ],
+          "collocations": [
+            "soothing music",
+            "soothing voice",
+            "soothing effect",
+            "find music soothing"
+          ]
+        },
+        {
+          "term": "nostalgic",
+          "part_of_speech": "adjective",
+          "definition": "bringing affectionate or sad feelings about the past",
+          "examples": [
+            "That television theme makes me nostalgic for childhood weekends.",
+            "The concert attracted listeners who felt nostalgic about the band's early albums."
+          ],
+          "collocations": [
+            "feel nostalgic",
+            "nostalgic song",
+            "nostalgic memory",
+            "deeply nostalgic"
+          ]
+        },
+        {
+          "term": "energize",
+          "part_of_speech": "verb",
+          "definition": "to make someone feel more active or enthusiastic",
+          "examples": [
+            "Fast music energizes me during the final part of a workout.",
+            "The drummer's entrance energized the tired audience."
+          ],
+          "collocations": [
+            "energize a crowd",
+            "feel energized",
+            "music energizes",
+            "energizing effect"
+          ]
+        },
+        {
+          "term": "relax",
+          "part_of_speech": "verb",
+          "definition": "to become calmer or help someone become calmer",
+          "examples": [
+            "I relax by listening to one album without checking my phone.",
+            "Gentle music helped the children relax before bedtime."
+          ],
+          "collocations": [
+            "relax with music",
+            "help someone relax",
+            "fully relax",
+            "relax after work"
+          ]
+        },
+        {
+          "term": "concentrate",
+          "part_of_speech": "verb",
+          "definition": "to direct attention steadily toward a task",
+          "examples": [
+            "I cannot concentrate when a song has familiar lyrics.",
+            "Low-volume instrumental music helps some students concentrate."
+          ],
+          "collocations": [
+            "concentrate on work",
+            "help concentration",
+            "difficult to concentrate",
+            "concentrate better"
+          ]
+        },
+        {
+          "term": "memory",
+          "part_of_speech": "noun",
+          "definition": "something remembered or the ability to remember",
+          "examples": [
+            "The song brings back a clear memory of my grandmother's kitchen.",
+            "Music helped the students remember the order of new vocabulary."
+          ],
+          "collocations": [
+            "personal memory",
+            "bring back memories",
+            "musical memory",
+            "childhood memory"
+          ]
+        },
+        {
+          "term": "association",
+          "part_of_speech": "noun",
+          "definition": "a mental connection between music and another person, place, or experience",
+          "examples": [
+            "My strongest association with the piece is a rainy bus journey.",
+            "Advertising can create an association between a tune and a product."
+          ],
+          "collocations": [
+            "strong association",
+            "form an association",
+            "positive association",
+            "association with"
+          ]
+        }
+      ],
+      "phrases": [
+        {
+          "text": "The song brings back a very specific memory.",
+          "reusable_core": "brings back a very specific memory"
+        },
+        {
+          "text": "Music helps me change gears after a stressful day.",
+          "reusable_core": "change gears"
+        },
+        {
+          "text": "The effect depends on the listener and the situation.",
+          "reusable_core": "depends on the listener and the situation"
+        },
+        {
+          "text": "A familiar recording can feel comforting.",
+          "reusable_core": "feel comforting"
+        },
+        {
+          "text": "I use energetic music to maintain my pace.",
+          "reusable_core": "maintain my pace"
+        },
+        {
+          "text": "Lyrics compete for my attention when I am reading.",
+          "reusable_core": "compete for my attention"
+        },
+        {
+          "text": "The piece expresses sadness without making me feel worse.",
+          "reusable_core": "expresses sadness"
+        },
+        {
+          "text": "Music gives people a safe way to experience strong emotion.",
+          "reusable_core": "a safe way to experience strong emotion"
+        },
+        {
+          "text": "The same song can carry different meanings at different ages.",
+          "reusable_core": "carry different meanings"
+        }
+      ]
+    },
+    {
+      "title": "Concerts and Live Performance",
+      "headwords": [
+        {
+          "term": "concert",
+          "part_of_speech": "noun",
+          "definition": "a public performance of music",
+          "examples": [
+            "The outdoor concert continued after a brief rain shower.",
+            "My first classical concert felt less formal than I expected."
+          ],
+          "collocations": [
+            "live concert",
+            "outdoor concert",
+            "attend a concert",
+            "concert ticket",
+            "concert venue"
+          ]
+        },
+        {
+          "term": "gig",
+          "part_of_speech": "noun",
+          "definition": "an informal live performance, especially by a band or popular musician",
+          "examples": [
+            "We saw the band at a small gig before they became well known.",
+            "The café hosts acoustic gigs on Friday evenings."
+          ],
+          "collocations": [
+            "live gig",
+            "small gig",
+            "play a gig",
+            "local gig"
+          ]
+        },
+        {
+          "term": "venue",
+          "part_of_speech": "noun",
+          "definition": "a place where a performance or event is held",
+          "examples": [
+            "The old theater is a beautiful venue, but its seats are uncomfortable.",
+            "A smaller venue allowed the musicians to speak directly with the audience."
+          ],
+          "collocations": [
+            "concert venue",
+            "live-music venue",
+            "outdoor venue",
+            "small venue",
+            "venue capacity"
+          ]
+        },
+        {
+          "term": "audience",
+          "part_of_speech": "noun",
+          "definition": "the people watching or listening to a performance",
+          "examples": [
+            "The audience remained completely quiet during the final song.",
+            "A warm audience encouraged the nervous singer."
+          ],
+          "collocations": [
+            "live audience",
+            "large audience",
+            "audience member",
+            "engage an audience",
+            "audience reaction"
+          ]
+        },
+        {
+          "term": "perform",
+          "part_of_speech": "verb",
+          "definition": "to play, sing, or present music for an audience",
+          "examples": [
+            "She performed two original songs at the student festival.",
+            "The orchestra will perform outdoors if the weather remains dry."
+          ],
+          "collocations": [
+            "perform live",
+            "perform a song",
+            "perform on stage",
+            "perform for an audience"
+          ]
+        },
+        {
+          "term": "performance",
+          "part_of_speech": "noun",
+          "definition": "an occasion or manner of presenting music to an audience",
+          "examples": [
+            "The pianist's performance felt energetic without being rushed.",
+            "A power cut interrupted the performance for ten minutes."
+          ],
+          "collocations": [
+            "live performance",
+            "musical performance",
+            "give a performance",
+            "outstanding performance",
+            "performance style"
+          ]
+        },
+        {
+          "term": "encore",
+          "part_of_speech": "noun",
+          "definition": "an extra piece performed after the planned program because the audience asks for more",
+          "examples": [
+            "The band returned for an encore and played its earliest hit.",
+            "After a long program, the pianist chose a short encore."
+          ],
+          "collocations": [
+            "perform an encore",
+            "return for an encore",
+            "encore performance"
+          ]
+        },
+        {
+          "term": "festival",
+          "part_of_speech": "noun",
+          "definition": "an organized event featuring several performances, often over multiple days",
+          "examples": [
+            "The music festival gives local artists a stage beside international acts.",
+            "We carried water and ear protection to the summer festival."
+          ],
+          "collocations": [
+            "music festival",
+            "outdoor festival",
+            "festival lineup",
+            "attend a festival"
+          ]
+        }
+      ],
+      "phrases": [
+        {
+          "text": "Live music creates a shared sense of anticipation.",
+          "reusable_core": "a shared sense of anticipation"
+        },
+        {
+          "text": "The musicians reacted to the audience in the moment.",
+          "reusable_core": "in the moment"
+        },
+        {
+          "text": "A small venue can feel more personal and immediate.",
+          "reusable_core": "personal and immediate"
+        },
+        {
+          "text": "The ticket price includes more than the sound alone.",
+          "reusable_core": "more than the sound alone"
+        },
+        {
+          "text": "The performance sounded imperfect but alive.",
+          "reusable_core": "imperfect but alive"
+        },
+        {
+          "text": "Large crowds can make the experience exciting or uncomfortable.",
+          "reusable_core": "exciting or uncomfortable"
+        },
+        {
+          "text": "The band changed the arrangement for the concert.",
+          "reusable_core": "changed the arrangement"
+        },
+        {
+          "text": "I would arrive early enough to find my seat calmly.",
+          "reusable_core": "find my seat calmly"
+        }
+      ]
+    },
+    {
+      "title": "Recording, Albums, and Streaming",
+      "headwords": [
+        {
+          "term": "recording",
+          "part_of_speech": "noun",
+          "definition": "a captured version of music that can be played again",
+          "examples": [
+            "The old recording contains background noise but preserves a remarkable voice.",
+            "A studio recording allows musicians to correct small mistakes."
+          ],
+          "collocations": [
+            "studio recording",
+            "live recording",
+            "original recording",
+            "make a recording",
+            "digital recording"
+          ]
+        },
+        {
+          "term": "record",
+          "part_of_speech": "verb",
+          "definition": "to capture music or sound so it can be played later",
+          "examples": [
+            "The choir recorded its spring concert in the school hall.",
+            "She records rough ideas on her phone before they disappear."
+          ],
+          "collocations": [
+            "record a song",
+            "record live",
+            "record an album",
+            "professionally recorded"
+          ]
+        },
+        {
+          "term": "track",
+          "part_of_speech": "noun",
+          "definition": "one individual recorded song or piece",
+          "examples": [
+            "The opening track uses only voice and piano.",
+            "I downloaded the track before traveling without internet access."
+          ],
+          "collocations": [
+            "title track",
+            "opening track",
+            "bonus track",
+            "release a track",
+            "audio track"
+          ]
+        },
+        {
+          "term": "album",
+          "part_of_speech": "noun",
+          "definition": "a collection of recordings released together as one work",
+          "examples": [
+            "The album follows one relationship from beginning to end.",
+            "I prefer albums because their songs can create a larger journey."
+          ],
+          "collocations": [
+            "debut album",
+            "studio album",
+            "release an album",
+            "concept album",
+            "album cover"
+          ]
+        },
+        {
+          "term": "single",
+          "part_of_speech": "noun",
+          "definition": "an individual song released separately, often to promote an artist or album",
+          "examples": [
+            "The singer released a single several months before the full album.",
+            "That independent single received unexpected radio attention."
+          ],
+          "collocations": [
+            "release a single",
+            "debut single",
+            "hit single",
+            "lead single"
+          ]
+        },
+        {
+          "term": "stream",
+          "part_of_speech": "verb",
+          "definition": "to play audio over the internet without permanently downloading it first",
+          "examples": [
+            "I stream music on Wi-Fi to avoid using mobile data.",
+            "Listeners streamed the charity song millions of times that week."
+          ],
+          "collocations": [
+            "stream music",
+            "stream online",
+            "music-streaming service",
+            "widely streamed"
+          ]
+        },
+        {
+          "term": "streaming",
+          "part_of_speech": "noun",
+          "definition": "the delivery and use of audio or video continuously over the internet",
+          "examples": [
+            "Streaming has made international music much easier to discover.",
+            "The artist earns little from streaming and depends on concerts."
+          ],
+          "collocations": [
+            "music streaming",
+            "streaming platform",
+            "streaming revenue",
+            "streaming subscription"
+          ]
+        },
+        {
+          "term": "download",
+          "part_of_speech": "verb",
+          "definition": "to copy a digital recording onto a device",
+          "examples": [
+            "I download several albums before a long flight.",
+            "The website lets students download the practice track legally."
+          ],
+          "collocations": [
+            "download a song",
+            "legally download",
+            "download for offline listening"
+          ]
+        },
+        {
+          "term": "audio quality",
+          "part_of_speech": "noun phrase",
+          "definition": "the clarity and accuracy with which recorded sound is reproduced",
+          "examples": [
+            "The cheaper headphones reduced the audio quality but remained comfortable.",
+            "High audio quality matters more to me for orchestral music than spoken podcasts."
+          ],
+          "collocations": [
+            "high audio quality",
+            "improve audio quality",
+            "poor audio quality",
+            "audio-quality setting"
+          ]
+        },
+        {
+          "term": "remaster",
+          "part_of_speech": "verb",
+          "definition": "to improve an older recording using newer audio technology",
+          "examples": [
+            "Engineers remastered the album while preserving its original character.",
+            "The label remastered several damaged recordings from the archive."
+          ],
+          "collocations": [
+            "digitally remaster",
+            "newly remastered",
+            "remastered edition"
+          ]
+        },
+        {
+          "term": "shuffle",
+          "part_of_speech": "verb",
+          "definition": "to play items from a collection in a random order",
+          "examples": [
+            "I shuffle my workout playlist because a fixed order becomes predictable.",
+            "Do not shuffle the album if you want to follow its story."
+          ],
+          "collocations": [
+            "shuffle a playlist",
+            "play on shuffle",
+            "shuffle songs"
+          ]
+        }
+      ],
+      "phrases": [
+        {
+          "text": "Streaming gives listeners immediate access to a huge catalog.",
+          "reusable_core": "immediate access"
+        },
+        {
+          "text": "The album works best as a complete sequence.",
+          "reusable_core": "a complete sequence"
+        },
+        {
+          "text": "A live recording preserves the audience's energy.",
+          "reusable_core": "preserves the audience's energy"
+        },
+        {
+          "text": "The studio version has cleaner sound and greater detail.",
+          "reusable_core": "cleaner sound"
+        },
+        {
+          "text": "I download music for offline listening.",
+          "reusable_core": "offline listening"
+        },
+        {
+          "text": "The recommendation system favors songs similar to what I already play.",
+          "reusable_core": "similar to what I already play"
+        },
+        {
+          "text": "Physical ownership feels more permanent than access through a service.",
+          "reusable_core": "more permanent"
+        },
+        {
+          "text": "The artist released the track independently.",
+          "reusable_core": "released the track independently"
+        },
+        {
+          "text": "Convenience has changed how people listen to albums.",
+          "reusable_core": "changed how people listen"
+        },
+        {
+          "text": "Higher sound quality is noticeable on good equipment.",
+          "reusable_core": "noticeable on good equipment"
+        },
+        {
+          "text": "The older recording has technical flaws but historical value.",
+          "reusable_core": "technical flaws but historical value"
+        },
+        {
+          "text": "Shuffle mode can break the intended order.",
+          "reusable_core": "break the intended order"
+        }
+      ]
+    },
+    {
+      "title": "Instruments, Practice, and Musicianship",
+      "headwords": [
+        {
+          "term": "instrument",
+          "part_of_speech": "noun",
+          "definition": "an object used to produce musical sounds",
+          "examples": [
+            "The violin was the first instrument she learned seriously.",
+            "Students tried each instrument before choosing one to study."
+          ],
+          "collocations": [
+            "musical instrument",
+            "play an instrument",
+            "string instrument",
+            "traditional instrument",
+            "learn an instrument"
+          ]
+        },
+        {
+          "term": "musician",
+          "part_of_speech": "noun",
+          "definition": "a person who plays, writes, or performs music",
+          "examples": [
+            "The street musician attracted a crowd with an unusual instrument.",
+            "Professional musicians spend many quiet hours practising away from audiences."
+          ],
+          "collocations": [
+            "professional musician",
+            "talented musician",
+            "working musician",
+            "local musician"
+          ]
+        },
+        {
+          "term": "practise",
+          "part_of_speech": "verb",
+          "definition": "to repeat an activity in order to improve a musical skill",
+          "examples": [
+            "I practise difficult measures slowly before playing them at full speed.",
+            "The group practised together every Thursday before the concert."
+          ],
+          "collocations": [
+            "practise regularly",
+            "practise an instrument",
+            "practise scales",
+            "practise together",
+            "daily practice"
+          ]
+        },
+        {
+          "term": "technique",
+          "part_of_speech": "noun",
+          "definition": "a particular physical method or developed skill used in performance",
+          "examples": [
+            "Good breathing technique helps singers avoid strain.",
+            "The drummer demonstrated the hand technique at a slower speed."
+          ],
+          "collocations": [
+            "playing technique",
+            "vocal technique",
+            "improve technique",
+            "technical skill",
+            "proper technique"
+          ]
+        },
+        {
+          "term": "rehearse",
+          "part_of_speech": "verb",
+          "definition": "to practise in preparation for a public performance",
+          "examples": [
+            "The orchestra rehearsed the difficult ending several times.",
+            "We rehearsed on the actual stage to check the sound balance."
+          ],
+          "collocations": [
+            "rehearse a piece",
+            "rehearse together",
+            "rehearse for a concert",
+            "full rehearsal"
+          ]
+        },
+        {
+          "term": "rehearsal",
+          "part_of_speech": "noun",
+          "definition": "an organized practice session before a performance",
+          "examples": [
+            "The final rehearsal revealed a problem with one microphone.",
+            "Weekly rehearsals helped the new members learn the program."
+          ],
+          "collocations": [
+            "dress rehearsal",
+            "final rehearsal",
+            "attend a rehearsal",
+            "rehearsal schedule"
+          ]
+        },
+        {
+          "term": "solo",
+          "part_of_speech": "noun",
+          "definition": "a section or piece performed by one musician",
+          "examples": [
+            "The trumpet solo begins quietly and becomes increasingly playful.",
+            "She was nervous about her first solo in front of the school."
+          ],
+          "collocations": [
+            "guitar solo",
+            "perform a solo",
+            "short solo",
+            "solo passage"
+          ]
+        },
+        {
+          "term": "ensemble",
+          "part_of_speech": "noun",
+          "definition": "a group of musicians who perform together",
+          "examples": [
+            "The small ensemble can rehearse in an ordinary classroom.",
+            "Playing in an ensemble taught him to listen while performing."
+          ],
+          "collocations": [
+            "chamber ensemble",
+            "musical ensemble",
+            "perform with an ensemble",
+            "small ensemble"
+          ]
+        },
+        {
+          "term": "conductor",
+          "part_of_speech": "noun",
+          "definition": "a person who directs an orchestra or choir during performance",
+          "examples": [
+            "The conductor used a small gesture to slow the orchestra.",
+            "A good conductor helps dozens of musicians produce one clear interpretation."
+          ],
+          "collocations": [
+            "orchestra conductor",
+            "guest conductor",
+            "conducting gesture",
+            "follow the conductor"
+          ]
+        },
+        {
+          "term": "improvise",
+          "part_of_speech": "verb",
+          "definition": "to create or perform music without planning every note in advance",
+          "examples": [
+            "The pianist improvised a short introduction while the singer adjusted her microphone.",
+            "Students learned to improvise over a simple repeated pattern."
+          ],
+          "collocations": [
+            "improvise a solo",
+            "freely improvise",
+            "learn to improvise",
+            "improvised passage"
+          ]
+        }
+      ],
+      "phrases": [
+        {
+          "text": "Regular short practice is more useful than one exhausting session.",
+          "reusable_core": "Regular short practice"
+        },
+        {
+          "text": "I slow the passage down until every movement is controlled.",
+          "reusable_core": "slow the passage down"
+        },
+        {
+          "text": "Playing with others teaches careful listening.",
+          "reusable_core": "teaches careful listening"
+        },
+        {
+          "text": "The musician balances technical control with expression.",
+          "reusable_core": "technical control with expression"
+        },
+        {
+          "text": "Rehearsal turns individual preparation into a shared performance.",
+          "reusable_core": "individual preparation"
+        },
+        {
+          "text": "Mistakes are a normal part of learning an instrument.",
+          "reusable_core": "a normal part of learning"
+        },
+        {
+          "text": "The group needs to agree on tempo and interpretation.",
+          "reusable_core": "agree on tempo and interpretation"
+        },
+        {
+          "text": "Improvisation requires both freedom and musical knowledge.",
+          "reusable_core": "both freedom and musical knowledge"
+        },
+        {
+          "text": "A teacher can notice physical tension before it becomes a habit.",
+          "reusable_core": "before it becomes a habit"
+        },
+        {
+          "text": "Progress is easier to hear in a recording made several months earlier.",
+          "reusable_core": "easier to hear"
+        }
+      ]
+    },
+    {
+      "title": "Songwriting, Composition, and Production",
+      "headwords": [
+        {
+          "term": "compose",
+          "part_of_speech": "verb",
+          "definition": "to create an original piece of music",
+          "examples": [
+            "She composed a short piano piece for her friend's wedding.",
+            "The student composed music around recordings of city traffic."
+          ],
+          "collocations": [
+            "compose music",
+            "compose a piece",
+            "originally composed",
+            "compose for film"
+          ]
+        },
+        {
+          "term": "composer",
+          "part_of_speech": "noun",
+          "definition": "a person who writes music",
+          "examples": [
+            "The composer revised the ending after hearing the orchestra rehearse.",
+            "A film composer must support the scene without overpowering the dialogue."
+          ],
+          "collocations": [
+            "classical composer",
+            "film composer",
+            "contemporary composer",
+            "composer's work"
+          ]
+        },
+        {
+          "term": "songwriter",
+          "part_of_speech": "noun",
+          "definition": "a person who writes songs, including their music or words",
+          "examples": [
+            "The songwriter carries a notebook for unexpected phrases.",
+            "Two songwriters collaborated on the chorus while the singer wrote the verses."
+          ],
+          "collocations": [
+            "singer-songwriter",
+            "talented songwriter",
+            "professional songwriter",
+            "songwriting process"
+          ]
+        },
+        {
+          "term": "arrange",
+          "part_of_speech": "verb",
+          "definition": "to adapt music for particular voices, instruments, or a new style",
+          "examples": [
+            "He arranged the folk song for a children's choir.",
+            "The producer arranged the track so the drums entered only after the first verse."
+          ],
+          "collocations": [
+            "arrange a song",
+            "arrange for orchestra",
+            "newly arranged",
+            "musical arrangement"
+          ]
+        },
+        {
+          "term": "arrangement",
+          "part_of_speech": "noun",
+          "definition": "the particular way a piece is organized for voices and instruments",
+          "examples": [
+            "The simple arrangement leaves space for the singer's words.",
+            "A brass arrangement gave the familiar song a celebratory sound."
+          ],
+          "collocations": [
+            "musical arrangement",
+            "new arrangement",
+            "vocal arrangement",
+            "simple arrangement"
+          ]
+        },
+        {
+          "term": "producer",
+          "part_of_speech": "noun",
+          "definition": "a person who guides and shapes the process of recording music",
+          "examples": [
+            "The producer suggested recording the band together instead of separately.",
+            "An experienced producer can help an artist choose among too many ideas."
+          ],
+          "collocations": [
+            "music producer",
+            "record producer",
+            "experienced producer",
+            "producer's role"
+          ]
+        },
+        {
+          "term": "sample",
+          "part_of_speech": "noun",
+          "definition": "a short piece of existing recorded sound reused in another recording",
+          "examples": [
+            "The track uses a drum sample from an older dance record.",
+            "The producer obtained permission before releasing the sample."
+          ],
+          "collocations": [
+            "audio sample",
+            "drum sample",
+            "use a sample",
+            "clear a sample"
+          ]
+        },
+        {
+          "term": "sample",
+          "part_of_speech": "verb",
+          "definition": "to reuse part of an existing recording in a new musical work",
+          "examples": [
+            "The artist sampled her grandfather's voice from an old cassette.",
+            "Some musicians sample traditional instruments and transform the sound digitally."
+          ],
+          "collocations": [
+            "sample a recording",
+            "heavily sampled",
+            "legally sample",
+            "sample a beat"
+          ]
+        },
+        {
+          "term": "original",
+          "part_of_speech": "adjective",
+          "definition": "created by the performer or composer rather than copied",
+          "examples": [
+            "The band played three original songs and one traditional tune.",
+            "Her original approach combines spoken stories with percussion."
+          ],
+          "collocations": [
+            "original song",
+            "original composition",
+            "highly original",
+            "original material"
+          ]
+        },
+        {
+          "term": "creative block",
+          "part_of_speech": "noun phrase",
+          "definition": "a period when someone struggles to produce new creative ideas",
+          "examples": [
+            "Taking a walk helped the songwriter move past a creative block.",
+            "A deadline can either break a creative block or make the pressure worse."
+          ],
+          "collocations": [
+            "experience creative block",
+            "overcome creative block",
+            "period of creative block"
+          ]
+        },
+        {
+          "term": "collaborate",
+          "part_of_speech": "verb",
+          "definition": "to work with other people to create or perform music",
+          "examples": [
+            "The singer collaborated with a poet on the album's lyrics.",
+            "Online tools let musicians in different countries collaborate without traveling."
+          ],
+          "collocations": [
+            "collaborate with an artist",
+            "collaborate on a song",
+            "creative collaboration",
+            "closely collaborate"
+          ]
+        }
+      ],
+      "phrases": [
+        {
+          "text": "The song began with a simple idea recorded on a phone.",
+          "reusable_core": "began with a simple idea"
+        },
+        {
+          "text": "The arrangement gradually adds layers of sound.",
+          "reusable_core": "adds layers of sound"
+        },
+        {
+          "text": "Collaboration can take a piece in an unexpected direction.",
+          "reusable_core": "an unexpected direction"
+        },
+        {
+          "text": "The lyrics grew out of a personal experience.",
+          "reusable_core": "grew out of"
+        },
+        {
+          "text": "The producer helps the artist make clear choices.",
+          "reusable_core": "make clear choices"
+        },
+        {
+          "text": "A limitation can sometimes encourage creativity.",
+          "reusable_core": "encourage creativity"
+        },
+        {
+          "text": "The new version respects the original while changing its style.",
+          "reusable_core": "respects the original"
+        },
+        {
+          "text": "Permission is needed when an existing recording is sampled.",
+          "reusable_core": "Permission is needed"
+        },
+        {
+          "text": "I would save rough ideas instead of judging them immediately.",
+          "reusable_core": "save rough ideas"
+        }
+      ]
+    },
+    {
+      "title": "Music Education and Learning",
+      "headwords": [
+        {
+          "term": "music education",
+          "part_of_speech": "noun phrase",
+          "definition": "organized teaching and learning about music, singing, or instruments",
+          "examples": [
+            "Music education gave every child a chance to try an instrument.",
+            "A strong program includes listening and creating, not only performance."
+          ],
+          "collocations": [
+            "school music education",
+            "access to music education",
+            "music-education program"
+          ]
+        },
+        {
+          "term": "lesson",
+          "part_of_speech": "noun",
+          "definition": "a period of instruction in music or an instrument",
+          "examples": [
+            "My first guitar lesson focused on holding the instrument comfortably.",
+            "Online lessons are convenient, but the teacher cannot always see hand position clearly."
+          ],
+          "collocations": [
+            "music lesson",
+            "piano lesson",
+            "take lessons",
+            "private lesson",
+            "weekly lesson"
+          ]
+        },
+        {
+          "term": "notation",
+          "part_of_speech": "noun",
+          "definition": "a system of written signs representing music",
+          "examples": [
+            "Learning basic notation allowed me to practise unfamiliar pieces alone.",
+            "Some musical traditions are taught mainly by listening rather than notation."
+          ],
+          "collocations": [
+            "musical notation",
+            "read notation",
+            "standard notation",
+            "written notation"
+          ]
+        },
+        {
+          "term": "sight-read",
+          "part_of_speech": "verb",
+          "definition": "to perform written music without having practised it beforehand",
+          "examples": [
+            "The choir learned to sight-read simple melodies.",
+            "I can sight-read slowly, but difficult rhythms still require practice."
+          ],
+          "collocations": [
+            "sight-read music",
+            "sight-reading skill",
+            "learn to sight-read"
+          ]
+        },
+        {
+          "term": "choir",
+          "part_of_speech": "noun",
+          "definition": "an organized group of singers",
+          "examples": [
+            "Joining the school choir helped her become less afraid of performing.",
+            "The community choir welcomes adults with no formal training."
+          ],
+          "collocations": [
+            "school choir",
+            "community choir",
+            "sing in a choir",
+            "choir rehearsal"
+          ]
+        },
+        {
+          "term": "curriculum",
+          "part_of_speech": "noun",
+          "definition": "the subjects and planned content taught by a school or course",
+          "examples": [
+            "The curriculum gives music less time than physical education.",
+            "Teachers added local musical traditions to the national curriculum."
+          ],
+          "collocations": [
+            "school curriculum",
+            "music curriculum",
+            "part of the curriculum",
+            "curriculum requirement"
+          ]
+        },
+        {
+          "term": "required",
+          "part_of_speech": "adjective",
+          "definition": "officially necessary rather than optional",
+          "examples": [
+            "Music is a required subject only during the first two school years.",
+            "A required performance might frighten beginners who enjoy learning privately."
+          ],
+          "collocations": [
+            "required subject",
+            "required course",
+            "legally required",
+            "make music required"
+          ]
+        },
+        {
+          "term": "optional",
+          "part_of_speech": "adjective",
+          "definition": "available by choice rather than compulsory",
+          "examples": [
+            "The school offers an optional after-class orchestra.",
+            "Music should remain optional at an advanced level when students have specialized goals."
+          ],
+          "collocations": [
+            "optional subject",
+            "optional course",
+            "entirely optional",
+            "make something optional"
+          ]
+        },
+        {
+          "term": "appreciation",
+          "part_of_speech": "noun",
+          "definition": "understanding and enjoyment of the qualities or value of music",
+          "examples": [
+            "Guided listening developed my appreciation of orchestral music.",
+            "Knowing the song's history increased her appreciation for its lyrics."
+          ],
+          "collocations": [
+            "music appreciation",
+            "develop an appreciation for",
+            "greater appreciation",
+            "show appreciation"
+          ]
+        }
+      ],
+      "phrases": [
+        {
+          "text": "Every child should have the chance to experience making music.",
+          "reusable_core": "the chance to experience making music"
+        },
+        {
+          "text": "The goal is participation, not professional performance.",
+          "reusable_core": "participation, not professional performance"
+        },
+        {
+          "text": "Lessons teach patience through gradual improvement.",
+          "reusable_core": "through gradual improvement"
+        },
+        {
+          "text": "Group music can build cooperation and confidence.",
+          "reusable_core": "build cooperation and confidence"
+        },
+        {
+          "text": "Schools need instruments, trained teachers, and enough rehearsal space.",
+          "reusable_core": "instruments, trained teachers, and enough rehearsal space"
+        },
+        {
+          "text": "Assessment should not punish students for lacking private lessons.",
+          "reusable_core": "lacking private lessons"
+        },
+        {
+          "text": "Learning notation is useful but not the only route into music.",
+          "reusable_core": "not the only route into music"
+        },
+        {
+          "text": "A required introductory course may reveal an interest students did not expect.",
+          "reusable_core": "reveal an interest"
+        },
+        {
+          "text": "Advanced study should remain a genuine choice.",
+          "reusable_core": "a genuine choice"
+        },
+        {
+          "text": "Local traditions deserve a place in the curriculum.",
+          "reusable_core": "a place in the curriculum"
+        },
+        {
+          "text": "Performance opportunities should feel supportive rather than humiliating.",
+          "reusable_core": "supportive rather than humiliating"
+        }
+      ]
+    },
+    {
+      "title": "Culture, Community, Access, and the Music Industry",
+      "headwords": [
+        {
+          "term": "cultural identity",
+          "part_of_speech": "noun phrase",
+          "definition": "the sense of belonging formed through a group's language, traditions, and shared expression",
+          "examples": [
+            "Traditional songs are an important part of the region's cultural identity.",
+            "Young artists express cultural identity while experimenting with global styles."
+          ],
+          "collocations": [
+            "strong cultural identity",
+            "express cultural identity",
+            "part of cultural identity"
+          ]
+        },
+        {
+          "term": "preserve",
+          "part_of_speech": "verb",
+          "definition": "to protect something so it continues to exist",
+          "examples": [
+            "The archive preserves recordings made by musicians in remote villages.",
+            "Teaching the songs to children may preserve the tradition better than storing it silently."
+          ],
+          "collocations": [
+            "preserve a tradition",
+            "preserve recordings",
+            "help preserve",
+            "carefully preserved"
+          ]
+        },
+        {
+          "term": "community",
+          "part_of_speech": "noun",
+          "definition": "people connected by place, identity, or shared interest",
+          "examples": [
+            "The concert raised money for a community music center.",
+            "A local choir can create community among people who rarely meet otherwise."
+          ],
+          "collocations": [
+            "local community",
+            "music community",
+            "sense of community",
+            "community event"
+          ]
+        },
+        {
+          "term": "accessible",
+          "part_of_speech": "adjective",
+          "definition": "easy for people to reach, afford, understand, or use",
+          "examples": [
+            "Free outdoor performances make live music accessible to more families.",
+            "Captions and step-free venues make the festival more accessible."
+          ],
+          "collocations": [
+            "widely accessible",
+            "accessible venue",
+            "make music accessible",
+            "financially accessible"
+          ]
+        },
+        {
+          "term": "royalty",
+          "part_of_speech": "noun",
+          "definition": "a payment made to a creator or rights holder when music is used or sold",
+          "examples": [
+            "The songwriter receives a small royalty each time the recording is streamed.",
+            "Accurate credits help musicians collect the royalties they are owed."
+          ],
+          "collocations": [
+            "music royalty",
+            "royalty payment",
+            "earn royalties",
+            "streaming royalties"
+          ]
+        },
+        {
+          "term": "copyright",
+          "part_of_speech": "noun",
+          "definition": "legal protection controlling how an original creative work may be copied or used",
+          "examples": [
+            "Copyright protects the recording as well as the written song.",
+            "The teacher checked whether copyright allowed the performance video to be posted."
+          ],
+          "collocations": [
+            "copyright law",
+            "copyright protection",
+            "infringe copyright",
+            "copyright holder"
+          ]
+        },
+        {
+          "term": "piracy",
+          "part_of_speech": "noun",
+          "definition": "illegal copying or distribution of music or other protected work",
+          "examples": [
+            "Digital piracy reduced sales, although it also showed strong demand for easier access.",
+            "Affordable legal streaming has made music piracy less convenient for many listeners."
+          ],
+          "collocations": [
+            "music piracy",
+            "online piracy",
+            "combat piracy",
+            "pirated recording"
+          ]
+        },
+        {
+          "term": "mainstream",
+          "part_of_speech": "adjective",
+          "definition": "widely known, available, and accepted by large audiences",
+          "examples": [
+            "The singer kept her regional accent after reaching a mainstream audience.",
+            "Streaming helped a once-unusual style become mainstream."
+          ],
+          "collocations": [
+            "mainstream music",
+            "mainstream audience",
+            "mainstream success",
+            "become mainstream"
+          ]
+        },
+        {
+          "term": "independent",
+          "part_of_speech": "adjective",
+          "definition": "produced or released without control by a major commercial company",
+          "examples": [
+            "The independent label gives its artists more control over their recordings.",
+            "Independent musicians often manage promotion and bookings themselves."
+          ],
+          "collocations": [
+            "independent artist",
+            "independent label",
+            "independent release",
+            "remain independent",
+            "independently produced"
+          ]
+        }
+      ],
+      "phrases": [
+        {
+          "text": "Music can preserve stories that were never written down.",
+          "reusable_core": "preserve stories"
+        },
+        {
+          "text": "Public funding can make lessons and performances more accessible.",
+          "reusable_core": "more accessible"
+        },
+        {
+          "text": "Artists deserve fair payment when their work is used.",
+          "reusable_core": "deserve fair payment"
+        },
+        {
+          "text": "A local scene gives new musicians somewhere to begin.",
+          "reusable_core": "somewhere to begin"
+        },
+        {
+          "text": "Global exposure can support a tradition or simplify it for outsiders.",
+          "reusable_core": "support a tradition or simplify it"
+        },
+        {
+          "text": "The event brings together people from different generations.",
+          "reusable_core": "different generations"
+        },
+        {
+          "text": "Copyright should protect creators without blocking every educational use.",
+          "reusable_core": "without blocking every educational use"
+        },
+        {
+          "text": "Commercial success is not the only measure of musical value.",
+          "reusable_core": "not the only measure"
+        }
+      ]
+    }
+  ]
+}

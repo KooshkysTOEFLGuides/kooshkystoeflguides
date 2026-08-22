@@ -1,0 +1,551 @@
+{
+  "schema_version": 1,
+  "topic": "Music",
+  "sections": [
+    {
+      "title": "Listening Habits and Personal Taste",
+      "ideas": [
+        {
+          "idea": "Music choice often follows the activity.",
+          "context": "A strong beat supports exercise, while quiet instrumental music may suit reading because lyrics compete with language processing."
+        },
+        {
+          "idea": "Repeated listening reveals small details.",
+          "context": "After the melody becomes familiar, a listener may notice a harmony, background instrument, or change in rhythm missed the first time."
+        },
+        {
+          "idea": "Silence is sometimes the better choice.",
+          "context": "Someone already surrounded by classroom talk, traffic, and notifications may need a quiet journey rather than another layer of sound."
+        },
+        {
+          "idea": "Friends widen musical taste through trust.",
+          "context": "A person is more willing to try an unfamiliar style when someone who understands their preferences recommends an accessible starting point."
+        },
+        {
+          "idea": "Playlists can organize emotion and time.",
+          "context": "A short morning list creates energy, while an evening sequence marks the transition away from work without requiring repeated decisions."
+        },
+        {
+          "idea": "Listening habits change with technology.",
+          "context": "Streaming encourages individual tracks and endless discovery, whereas physical albums once made complete sequences more common."
+        },
+        {
+          "idea": "Musical taste develops through exposure.",
+          "context": "A genre that first sounds confusing can become enjoyable after the listener learns its rhythm, instruments, or history."
+        },
+        {
+          "idea": "Favorite songs often connect to identity.",
+          "context": "Choosing a song for a graduation, journey, or friendship makes it part of the story a person tells about their life."
+        },
+        {
+          "idea": "Recommendation systems can narrow discovery.",
+          "context": "An algorithm that repeatedly offers similar songs may make listening convenient while hiding genres the user has never sampled."
+        },
+        {
+          "idea": "Shared listening creates conversation.",
+          "context": "Playing one chosen track for a friend lets people explain what they hear and learn why the same music affects them differently."
+        },
+        {
+          "idea": "Frequency does not equal depth.",
+          "context": "Someone who listens for an hour with full attention may engage more closely than a person who leaves music running all day."
+        },
+        {
+          "idea": "Convenience can reduce deliberate choice.",
+          "context": "When an app automatically continues, listeners may hear hundreds of tracks without remembering the artist or deciding what deserves another listen."
+        }
+      ]
+    },
+    {
+      "title": "Genres, Tradition, and Musical Discovery",
+      "ideas": [
+        {
+          "idea": "Genre labels provide a useful starting map.",
+          "context": "A label such as jazz or folk sets broad expectations, but individual artists often cross its boundaries."
+        },
+        {
+          "idea": "An accessible example can open a difficult style.",
+          "context": "A newcomer to classical music may begin with a short melodic piece before approaching a long unfamiliar symphony."
+        },
+        {
+          "idea": "Traditional music carries local history.",
+          "context": "Songs preserve language, work patterns, celebrations, and memories that may not appear in official written records."
+        },
+        {
+          "idea": "Traditions remain alive by changing.",
+          "context": "Young performers can add new instruments or production while preserving a distinctive melody, rhythm, or storytelling practice."
+        },
+        {
+          "idea": "Global platforms help small traditions travel.",
+          "context": "A musician in a remote community can reach international listeners without waiting for a major label or broadcaster."
+        },
+        {
+          "idea": "International attention can simplify culture.",
+          "context": "Promoters may select only colorful, familiar elements and market them as the complete tradition for outside audiences."
+        },
+        {
+          "idea": "Genre preference is not a measure of intelligence.",
+          "context": "Enjoying complex harmony does not make a listener more thoughtful than someone who values a direct pop melody."
+        },
+        {
+          "idea": "Historical context changes what listeners hear.",
+          "context": "Learning how hip-hop or jazz developed can reveal social meaning that is not obvious from sound alone."
+        },
+        {
+          "idea": "Fusion can create both excitement and disagreement.",
+          "context": "Combining styles may produce original work, while some community members fear that important features are being diluted."
+        },
+        {
+          "idea": "Live local scenes support experimentation.",
+          "context": "Small venues give performers somewhere to test unusual music before commercial pressure demands an easily marketed category."
+        },
+        {
+          "idea": "Different generations can exchange music rather than compete.",
+          "context": "Parents can share recordings connected to their youth while younger listeners introduce new adaptations and production methods."
+        }
+      ]
+    },
+    {
+      "title": "Music, Emotion, Memory, and Well-Being",
+      "ideas": [
+        {
+          "idea": "Music can regulate energy without changing circumstances.",
+          "context": "An uplifting track may help someone begin exercise or housework even though the underlying tiredness remains."
+        },
+        {
+          "idea": "Familiar music offers predictability during stress.",
+          "context": "Knowing exactly when the chorus arrives creates a small sense of control when the rest of the day feels uncertain."
+        },
+        {
+          "idea": "Sad music can feel comforting.",
+          "context": "A song may name an emotion accurately and let the listener experience it safely instead of forcing artificial cheerfulness."
+        },
+        {
+          "idea": "Personal associations outweigh musical features.",
+          "context": "A simple tune heard at a family celebration can produce a stronger reaction than a technically impressive piece with no memory attached."
+        },
+        {
+          "idea": "Lyrics can provide language for difficult feelings.",
+          "context": "A person may share a song when direct explanation feels embarrassing or when someone else has expressed the experience more clearly."
+        },
+        {
+          "idea": "Music can also intensify an unhelpful mood.",
+          "context": "Repeatedly choosing angry or hopeless songs may keep attention fixed on a problem rather than helping the listener recover."
+        },
+        {
+          "idea": "Group singing reduces isolation.",
+          "context": "Choir members breathe, listen, and produce one sound together, creating connection even before close friendships develop."
+        },
+        {
+          "idea": "Background music affects public spaces.",
+          "context": "A café uses tempo and volume to feel lively or calm, although workers and customers cannot always choose whether to hear it."
+        },
+        {
+          "idea": "Musical memory can remain unusually strong.",
+          "context": "People may recall lyrics learned years earlier because rhythm, rhyme, and melody provide several cues at once."
+        },
+        {
+          "idea": "Relaxation depends on preference.",
+          "context": "Classical music does not automatically calm everyone; an unfamiliar symphony may demand more attention than a familiar rock song."
+        },
+        {
+          "idea": "Music gives routines emotional boundaries.",
+          "context": "A particular album can signal the end of work, the start of a journey, or preparation for sleep."
+        }
+      ]
+    },
+    {
+      "title": "Concerts and Live Music",
+      "ideas": [
+        {
+          "idea": "Live performance creates shared anticipation.",
+          "context": "Hundreds of people waiting for the same opening note experience a form of connection that private listening cannot reproduce."
+        },
+        {
+          "idea": "Imperfection can make a concert feel alive.",
+          "context": "A changed lyric, rough note, or improvised ending shows that the musicians are responding in the moment rather than replaying a fixed product."
+        },
+        {
+          "idea": "Small venues support intimacy.",
+          "context": "Listeners can see gestures, hear natural sound, and sense communication among performers without relying on distant screens."
+        },
+        {
+          "idea": "Large festivals provide variety.",
+          "context": "One ticket may introduce audiences to several unknown artists, although crowds and overlapping schedules can make focused listening difficult."
+        },
+        {
+          "idea": "Concert prices exclude many fans.",
+          "context": "Tickets, transport, and booking fees can turn live music into an occasional luxury even when recorded access is inexpensive."
+        },
+        {
+          "idea": "Public performances widen access.",
+          "context": "Free concerts in parks or libraries allow families and curious newcomers to attend without committing to an expensive formal event."
+        },
+        {
+          "idea": "Live sound can be physically overwhelming.",
+          "context": "High volume and long exposure may damage hearing, so venues should provide clear limits and audiences should use protection."
+        },
+        {
+          "idea": "Audience behavior affects the performance.",
+          "context": "Attentive silence suits a delicate piece, while singing and movement can give popular music useful energy."
+        },
+        {
+          "idea": "Traveling for concerts has environmental costs.",
+          "context": "Large tours require transport for equipment and audiences, making local venues and efficient routing important."
+        },
+        {
+          "idea": "Recordings and concerts offer different value.",
+          "context": "A recording provides precision and repeatability; a concert offers presence, risk, and interaction with one particular audience."
+        }
+      ]
+    },
+    {
+      "title": "Playing an Instrument and Developing Skill",
+      "ideas": [
+        {
+          "idea": "Short regular practice builds reliable habits.",
+          "context": "Twenty focused minutes on a difficult passage each day usually produces steadier progress than one exhausting weekend session."
+        },
+        {
+          "idea": "Slow practice prevents repeated mistakes.",
+          "context": "Reducing the tempo gives a learner time to control movement and hear exactly where a problem begins."
+        },
+        {
+          "idea": "Recording makes progress visible.",
+          "context": "Comparing a current attempt with one from several months earlier reveals improvement that is hard to notice day by day."
+        },
+        {
+          "idea": "Ensemble playing teaches responsive attention.",
+          "context": "A musician must maintain their own part while adjusting volume, timing, and expression to everyone else."
+        },
+        {
+          "idea": "Performance goals create useful direction.",
+          "context": "A modest school concert gives practice a deadline and purpose, provided mistakes are treated as normal rather than humiliating."
+        },
+        {
+          "idea": "Physical comfort matters in instruction.",
+          "context": "Poor posture or tension can turn practice into pain, so early teacher feedback protects both sound and health."
+        },
+        {
+          "idea": "Learning music develops patience more than instant talent.",
+          "context": "Improvement comes through small corrections that may feel repetitive before they become automatic."
+        },
+        {
+          "idea": "Improvisation combines knowledge with freedom.",
+          "context": "A player needs enough awareness of rhythm and harmony to make spontaneous choices that still fit the group."
+        },
+        {
+          "idea": "Adult beginners bring different strengths.",
+          "context": "They may have less free time than children but clearer goals, better planning, and music they already care about."
+        },
+        {
+          "idea": "Not every learner needs examinations.",
+          "context": "Someone playing for relaxation may benefit more from favorite songs and informal goals than formal grades."
+        }
+      ]
+    },
+    {
+      "title": "Songwriting, Creativity, and Collaboration",
+      "ideas": [
+        {
+          "idea": "Small fragments can begin a complete song.",
+          "context": "A voice note containing one melody or phrase preserves an idea that can be shaped later without demanding instant perfection."
+        },
+        {
+          "idea": "Limitations can focus creativity.",
+          "context": "Writing for one voice and guitar removes endless choices and forces the songwriter to develop melody and words carefully."
+        },
+        {
+          "idea": "Personal experience gives lyrics concrete detail.",
+          "context": "A particular bus stop, room, or unfinished conversation feels more believable than a general statement about sadness."
+        },
+        {
+          "idea": "Collaboration exposes hidden habits.",
+          "context": "Another musician may question a predictable chord or suggest that the strongest line belongs in the chorus."
+        },
+        {
+          "idea": "Creative disagreement needs a shared purpose.",
+          "context": "Partners can compare whether each choice serves the song instead of treating every suggestion as a judgment of personal ability."
+        },
+        {
+          "idea": "Technology lowers the cost of experimentation.",
+          "context": "A basic laptop lets artists layer instruments, move sections, and test arrangements before entering an expensive studio."
+        },
+        {
+          "idea": "Too many production options can weaken decisions.",
+          "context": "Endless effects and revisions may distract from a strong performance that already communicates the song."
+        },
+        {
+          "idea": "Sampling can create dialogue with older music.",
+          "context": "Reusing a recognizable sound places a new track in conversation with its source, but permission and credit remain important."
+        },
+        {
+          "idea": "A good arrangement directs attention.",
+          "context": "Removing instruments under an important lyric can be more powerful than adding another dramatic layer."
+        },
+        {
+          "idea": "Creative block often improves through routine.",
+          "context": "Writing for a fixed short period produces material to evaluate later instead of waiting for a perfect moment of inspiration."
+        },
+        {
+          "idea": "Originality can come from combination.",
+          "context": "Artists rarely create without influence; a personal result emerges through how familiar techniques, experiences, and styles are connected."
+        }
+      ]
+    },
+    {
+      "title": "Music Education for Children",
+      "ideas": [
+        {
+          "idea": "Every child deserves an introductory musical experience.",
+          "context": "Without school access, instruments and lessons are limited to families who can pay privately."
+        },
+        {
+          "idea": "Participation should come before perfection.",
+          "context": "Singing, clapping, and creating simple patterns build confidence better than early public ranking of children's ability."
+        },
+        {
+          "idea": "Group music teaches cooperation.",
+          "context": "Choir and ensemble members must wait, listen, enter together, and support a result no one produces alone."
+        },
+        {
+          "idea": "Music can reinforce other learning without serving it entirely.",
+          "context": "Rhythm may support language and memory, but music also deserves study as a meaningful human art."
+        },
+        {
+          "idea": "Local traditions belong in the curriculum.",
+          "context": "Children should encounter music connected to their families and region alongside major international traditions."
+        },
+        {
+          "idea": "Required introductory study can reveal unexpected interest.",
+          "context": "A student who would never choose lessons may discover enjoyment after trying percussion, singing, or digital composition."
+        },
+        {
+          "idea": "Advanced performance should remain optional.",
+          "context": "Forcing anxious or uninterested teenagers into assessed concerts can turn a useful introduction into resentment."
+        },
+        {
+          "idea": "Assessment should account for unequal opportunity.",
+          "context": "A child with years of private lessons should not make a complete beginner appear unsuccessful in a general class."
+        },
+        {
+          "idea": "Schools need practical resources, not only a policy.",
+          "context": "A curriculum requirement is meaningless without trained teachers, playable instruments, storage, and rehearsal time."
+        },
+        {
+          "idea": "Digital tools expand creation but cannot replace shared sound.",
+          "context": "Software allows inexpensive composing, while ensemble work teaches physical timing and attention to other people."
+        },
+        {
+          "idea": "Teachers can offer several ways to participate.",
+          "context": "A student uncomfortable singing alone may enjoy rhythm, sound technology, composition, or organizing a performance."
+        }
+      ]
+    },
+    {
+      "title": "Recorded Music, Streaming, and Discovery",
+      "ideas": [
+        {
+          "idea": "Streaming provides extraordinary access.",
+          "context": "A listener can explore music from another country within seconds without buying an entire album first."
+        },
+        {
+          "idea": "Access is not the same as ownership.",
+          "context": "A favorite recording can disappear when licensing changes, even though the subscriber has paid for years."
+        },
+        {
+          "idea": "Album order can create a larger argument.",
+          "context": "Songs placed carefully may move through a story or emotional sequence that shuffle mode breaks apart."
+        },
+        {
+          "idea": "Singles suit casual discovery.",
+          "context": "One track asks for little time and can introduce an artist before the listener explores a full collection."
+        },
+        {
+          "idea": "Algorithms reduce search effort.",
+          "context": "Recommendations help people navigate millions of recordings, especially when they do not know the names of relevant artists."
+        },
+        {
+          "idea": "Similarity can become repetition.",
+          "context": "A system that learns only from past clicks may keep offering the same tempo and genre until discovery feels narrow."
+        },
+        {
+          "idea": "Human curators add explanation.",
+          "context": "A radio host or playlist editor can connect a new song to history, local scenes, and reasons it deserves attention."
+        },
+        {
+          "idea": "High audio quality matters selectively.",
+          "context": "Detailed acoustic or orchestral recording benefits from good equipment, while a listener on a noisy bus may value convenience more."
+        },
+        {
+          "idea": "Archival recording preserves otherwise lost performance.",
+          "context": "Old audio may contain noise yet remain the only surviving evidence of a singer, instrument, or regional style."
+        },
+        {
+          "idea": "Remastering should not erase historical character.",
+          "context": "Cleaning damage can reveal detail, but excessive processing may make every old performance sound unnaturally modern."
+        }
+      ]
+    },
+    {
+      "title": "Artists, Money, Copyright, and Access",
+      "ideas": [
+        {
+          "idea": "Streaming payment favors enormous scale.",
+          "context": "A small payment per play can support a global hit while leaving specialist musicians unable to cover recording costs."
+        },
+        {
+          "idea": "Concert income is not equally available.",
+          "context": "Touring helps some artists, but travel, health, caregiving, venue access, and audience size limit who can depend on it."
+        },
+        {
+          "idea": "Independent release increases control and workload.",
+          "context": "Artists can choose their sound and schedule while managing promotion, artwork, accounting, and bookings themselves."
+        },
+        {
+          "idea": "Copyright gives creators bargaining power.",
+          "context": "Control over copying and commercial use lets musicians license work rather than surrendering it immediately after creation."
+        },
+        {
+          "idea": "Copyright rules need reasonable educational space.",
+          "context": "A teacher should be able to demonstrate a brief musical feature without negotiating the same license as an advertisement."
+        },
+        {
+          "idea": "Credits have financial and cultural value.",
+          "context": "Naming songwriters, performers, and sampled artists helps royalties reach them and shows audiences how collaborative recordings are."
+        },
+        {
+          "idea": "Music piracy often reflects both price and access.",
+          "context": "People may copy illegally when legal services are unavailable locally, though inconvenience does not remove the creator's rights."
+        },
+        {
+          "idea": "Public funding supports music the market overlooks.",
+          "context": "Community ensembles, experimental work, and minority traditions may provide value without attracting enough commercial demand."
+        },
+        {
+          "idea": "Free events still require paid labor.",
+          "context": "Removing the ticket price improves audience access, but organizers should budget for performers and technicians rather than treating exposure as payment."
+        },
+        {
+          "idea": "Merchandise and direct support strengthen artist relationships.",
+          "context": "Fans who buy a record or concert item can contribute more directly than through hundreds of streams."
+        }
+      ]
+    },
+    {
+      "title": "Music, Culture, Community, and Personal Meaning",
+      "ideas": [
+        {
+          "idea": "Songs carry language across generations.",
+          "context": "Children may remember regional words and expressions through a chorus even when those forms disappear from daily conversation."
+        },
+        {
+          "idea": "Music marks important transitions.",
+          "context": "Weddings, funerals, religious events, protests, and graduations use shared sound to give collective meaning to change."
+        },
+        {
+          "idea": "Community performance creates belonging through contribution.",
+          "context": "A choir member or festival volunteer becomes part of cultural life rather than only consuming a finished product."
+        },
+        {
+          "idea": "Musical identity can contain several cultures.",
+          "context": "A person may value family traditions, international pop, and a local independent scene without choosing one as the only authentic self."
+        },
+        {
+          "idea": "Preservation requires living performers.",
+          "context": "An archive protects recordings, but a tradition survives more fully when people continue teaching, adapting, and performing it."
+        },
+        {
+          "idea": "Cultural exchange needs accurate credit.",
+          "context": "Using another community's style can create respectful collaboration when its history and musicians remain visible."
+        },
+        {
+          "idea": "National music can unite and exclude.",
+          "context": "A familiar song creates shared feeling, yet presenting one tradition as the whole nation may silence minority communities."
+        },
+        {
+          "idea": "Music can support peaceful public expression.",
+          "context": "Singing together gives a movement rhythm, memory, and solidarity without requiring every participant to deliver a speech."
+        },
+        {
+          "idea": "Personal meaning need not be publicly impressive.",
+          "context": "A technically simple song may matter because it was played by a parent or heard during recovery from illness."
+        },
+        {
+          "idea": "Technology can reconnect dispersed communities.",
+          "context": "Recordings and online performances allow migrants to hear local instruments and celebrations from far away."
+        },
+        {
+          "idea": "Commercial popularity does not measure cultural importance.",
+          "context": "A song performed only in one village may carry knowledge and identity that sales charts cannot represent."
+        }
+      ]
+    }
+  ],
+  "coverage_audit": [
+    {
+      "section": "Listening Habits and Personal Taste",
+      "coverage": [
+        "listening habits and personal taste"
+      ]
+    },
+    {
+      "section": "Genres, Tradition, and Musical Discovery",
+      "coverage": [
+        "genres, tradition, and musical discovery"
+      ]
+    },
+    {
+      "section": "Music, Emotion, Memory, and Well-Being",
+      "coverage": [
+        "music, emotion, memory, and well-being"
+      ]
+    },
+    {
+      "section": "Concerts and Live Music",
+      "coverage": [
+        "concerts and live music"
+      ]
+    },
+    {
+      "section": "Playing an Instrument and Developing Skill",
+      "coverage": [
+        "playing an instrument and developing skill"
+      ]
+    },
+    {
+      "section": "Songwriting, Creativity, and Collaboration",
+      "coverage": [
+        "songwriting, creativity, and collaboration"
+      ]
+    },
+    {
+      "section": "Music Education for Children",
+      "coverage": [
+        "music education for children"
+      ]
+    },
+    {
+      "section": "Recorded Music, Streaming, and Discovery",
+      "coverage": [
+        "recorded music, streaming, and discovery"
+      ]
+    },
+    {
+      "section": "Artists, Money, Copyright, and Access",
+      "coverage": [
+        "artists, money, copyright, and access"
+      ]
+    },
+    {
+      "section": "Music, Culture, Community, and Personal Meaning",
+      "coverage": [
+        "music, culture, community, and personal meaning"
+      ]
+    }
+  ],
+  "added_categories": [
+    "streaming economics and artist rights",
+    "community access and preservation",
+    "creative collaboration"
+  ]
+}

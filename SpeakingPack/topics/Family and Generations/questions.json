@@ -1,0 +1,418 @@
+{
+  "schema_version": 1,
+  "topic": "Family and Generations",
+  "sets": [
+    {
+      "title": "A Family Relationship",
+      "setup": "You have volunteered for a university study about family relationships. A researcher will ask about closeness and support.",
+      "questions": [
+        {
+          "number": 1,
+          "question": "Think of a family member you have a close relationship with. What makes the relationship strong?",
+          "sample_answer": "I am especially close to my older sister because she listens without immediately trying to solve everything. We live in different cities, but we call once a week and share ordinary details, not only important news. She also remembers promises and is honest when she disagrees with me. That combination creates trust. We have had arguments, but we can apologize and continue, so one difficult conversation never feels like a threat to the whole relationship."
+        },
+        {
+          "number": 2,
+          "question": "Do shared interests or shared experiences matter more for family closeness?",
+          "sample_answer": "Shared experiences matter more to me because they create a history that remains even when interests change. My sister and I remember moving house, family trips, and caring for a pet together. We now enjoy different hobbies, but those memories give us an easy connection. Shared interests are still useful because they create new time together. I just do not think relatives need identical tastes if they remain curious about each other's lives and treat differences respectfully."
+        },
+        {
+          "number": 3,
+          "question": "What is one good way for relatives who live far apart to maintain a strong relationship?",
+          "sample_answer": "A regular short call is better than waiting for the perfect long conversation. If people speak every week or two, they hear about small events and do not need to summarize several months at once. Video is useful for celebrations, but an ordinary voice call is easier to maintain. I would also plan occasional visits early because distance and cost make last-minute travel difficult. Technology supports the bond, while shared physical time gives the relationship new memories."
+        },
+        {
+          "number": 4,
+          "question": "Some people believe family relationships should always come before friendships. Do you agree?",
+          "sample_answer": "No, I do not think one category should always come first. A dependable friend may provide healthier support than a relative who repeatedly ignores boundaries. Family history creates real obligations, especially toward children or someone receiving care, but friendship can also become a deep chosen relationship. I would judge the need, promise, and behavior in the particular situation. Respecting family does not require treating every relative as more trustworthy or important than every friend."
+        }
+      ]
+    },
+    {
+      "title": "Family Support and Advice",
+      "setup": "A research team is studying how relatives help one another. You will answer questions about advice, practical support, and boundaries.",
+      "questions": [
+        {
+          "number": 1,
+          "question": "Tell me about a time when family support made a difficult situation easier.",
+          "sample_answer": "When I moved for university, my uncle helped me find a room and understand the local transport system. He did not make every decision for me. Instead, he showed me two safe areas and let me compare the costs myself. That practical help reduced stress during the first week. It also supported my independence because I still signed the agreement and managed the move. I felt cared for without feeling that the new experience had been taken away from me."
+        },
+        {
+          "number": 2,
+          "question": "When you have a problem, do you prefer advice from family or emotional support?",
+          "sample_answer": "I usually prefer emotional support first. When I am worried, immediate advice can feel like a judgment that I handled the situation badly. If someone listens and asks a few questions, I become calm enough to explain what kind of help I need. After that, advice from an experienced relative can be very useful. The order matters to me. I want to remain responsible for the decision while knowing that I do not have to think through every problem completely alone."
+        },
+        {
+          "number": 3,
+          "question": "How can family members offer financial help without damaging the relationship?",
+          "sample_answer": "They should state clearly whether the money is a gift or a loan and, if it is a loan, agree on a realistic repayment plan. Unspoken expectations are dangerous because each person remembers the arrangement differently. The lender should not use the help to control unrelated decisions, and the borrower should communicate if circumstances change. For a large amount, writing the terms may feel formal, but it can protect trust. Clarity is kinder than relying on family affection to solve confusion later."
+        },
+        {
+          "number": 4,
+          "question": "Is it acceptable to refuse a family member who asks for help?",
+          "sample_answer": "Yes, because help that destroys the other person's health, finances, or responsibilities is not sustainable. Someone may be unable to lend money, provide daily care, or answer calls at every hour. A respectful refusal can still include a smaller option, such as information, one afternoon, or help finding professional support. Family obligation matters, but it has limits. Clear boundaries make dependable help possible because promises are based on real capacity rather than guilt."
+        }
+      ]
+    },
+    {
+      "title": "Home Routines and Responsibilities",
+      "setup": "You are participating in a study about daily family life. The interviewer will ask about meals, routines, and household work.",
+      "questions": [
+        {
+          "number": 1,
+          "question": "What is one family or household routine that you value?",
+          "sample_answer": "I value our Sunday lunch because it is the one meal nobody has to rush through. We prepare simple food together, and different people bring one part, so the work does not fall on the host. The conversation usually begins with ordinary events and sometimes leads to more serious news. We do not require every relative to attend each week. The routine matters because it creates a reliable opportunity for connection without turning one missed meal into an insult."
+        },
+        {
+          "number": 2,
+          "question": "Should household chores be divided equally among all family members?",
+          "sample_answer": "They should be divided fairly, but not necessarily equally. A young child, an older adult with limited mobility, and someone working a night shift cannot do identical tasks. Each person can contribute according to age, health, time, and ability. The invisible work of planning meals or remembering appointments should also count. I would review the arrangement when circumstances change. Fairness means that no capable person is automatically protected while one relative carries every unpleasant or time-consuming responsibility."
+        },
+        {
+          "number": 3,
+          "question": "How can parents encourage children to help with chores without making every task a punishment?",
+          "sample_answer": "They can give children genuine age-appropriate jobs and show how those tasks help the whole household. A child who sets the table should see that the family actually relies on that contribution. Parents can work beside them at first and avoid redoing everything immediately because it is imperfect. A predictable routine is better than assigning chores only after bad behavior. Praise should focus on reliability and improvement, so the child learns membership and responsibility rather than associating housework with shame."
+        },
+        {
+          "number": 4,
+          "question": "Some families struggle to eat together because everyone is busy. Is the family meal still important?",
+          "sample_answer": "It is useful, but it should not become another source of pressure. Eating together creates natural conversation and lets relatives notice changes in one another's mood. Shift work, commuting, and activities may make a daily dinner impossible. A weekend breakfast or two short meals can serve the same purpose. The important part is regular undistracted contact, not one traditional schedule. Families should choose a routine they can maintain instead of feeling unsuccessful because every evening is different."
+        }
+      ]
+    },
+    {
+      "title": "Parents and Growing Independence",
+      "setup": "An education researcher is studying how parents guide children as they grow. The questions concern rules, freedom, and role models.",
+      "questions": [
+        {
+          "number": 1,
+          "question": "What is one useful lesson that a parent or caregiver taught you?",
+          "sample_answer": "My mother taught me to contact people early when a plan changes. If I was going to be late, I had to send a message before the agreed time rather than create an excuse afterward. The rule seemed strict when I was younger, but I later understood that it was about respect and safety. It has helped in work and friendships too. The lesson was effective because she followed the same standard and informed us when her own schedule changed."
+        },
+        {
+          "number": 2,
+          "question": "Do children learn more from family rules or from watching adult behavior?",
+          "sample_answer": "They learn more from adult behavior because it shows whether the stated rule is genuine. Parents can tell children to apologize, control anger, or limit phone use, but the message is weak if adults never do those things themselves. Rules are still necessary because expectations need to be clear. The strongest approach combines both. Adults explain the standard, model it in ordinary situations, and admit when they fail. That makes responsibility look like a shared practice rather than authority imposed only on children."
+        },
+        {
+          "number": 3,
+          "question": "How should parents decide when a teenager is ready for more independence?",
+          "sample_answer": "They should look at demonstrated responsibility rather than age alone. A teenager who communicates plans, handles schoolwork, and follows safety agreements can receive more choice gradually. Parents can test one new freedom, such as traveling locally or returning later, and discuss how it went. Mistakes should not remove every privilege forever. The goal is preparing the young person to make decisions alone, so freedom and accountability need to increase together while support remains available."
+        },
+        {
+          "number": 4,
+          "question": "Some parents try to protect children from every failure. Is this helpful?",
+          "sample_answer": "No, because manageable failure is how children learn planning, emotional recovery, and consequences. A parent should prevent serious danger, but forgetting a book or losing a small competition is not a crisis. If adults repair every mistake immediately, children may enter university or work without practice handling disappointment. Parents can listen, ask what the child might do next, and offer limited guidance. Protection should create enough safety for learning, not remove every uncomfortable experience."
+        }
+      ]
+    },
+    {
+      "title": "Different Generations",
+      "setup": "A university project is collecting opinions about relationships between age groups. You will discuss the generation gap and mutual learning.",
+      "questions": [
+        {
+          "number": 1,
+          "question": "What is one thing you have learned from someone much older or younger than you?",
+          "sample_answer": "My grandfather taught me how to repair small household items instead of replacing them immediately. He explained what usually fails and let me use the tools while he watched. The lesson saved money, but it also changed how I think about ordinary objects. In return, I helped him organize photographs on his phone. Neither skill was more important. The exchange worked because we were patient and did not make the other person feel embarrassed for lacking familiar knowledge."
+        },
+        {
+          "number": 2,
+          "question": "Why do older and younger generations sometimes disagree about work or lifestyle choices?",
+          "sample_answer": "They often faced different economic and social conditions. An older relative may remember when one stable job and affordable housing were common, so changing careers appears unnecessarily risky. Younger adults may deal with short contracts, high rent, and new types of work. Values also change, but practical history matters. The disagreement becomes worse when either side calls the other lazy or outdated. Explaining the conditions behind a choice creates a more useful conversation than comparing outcomes without context."
+        },
+        {
+          "number": 3,
+          "question": "What activity could help reduce the generation gap in a community?",
+          "sample_answer": "An oral-history and digital-archive project could work well. Older residents would share stories and identify photographs, while younger participants would record, scan, and organize the material. Both groups would contribute real knowledge rather than one side acting only as teacher. Working on a concrete result also creates natural conversation without forcing people to debate values immediately. The final archive would benefit the wider community and show that experience and current technical skill can support each other."
+        },
+        {
+          "number": 4,
+          "question": "Does respect for elders mean younger people should usually follow their advice?",
+          "sample_answer": "No, respect means listening seriously and responding politely, not surrendering the final decision. Older relatives may offer valuable experience about relationships, work, and consequences. Their advice may also come from conditions that no longer exist or from personal preference. A younger adult should ask questions, check relevant facts, and then choose responsibly. The same respect should work in reverse. Elders deserve dignity, while younger people deserve recognition that they must live with the outcome."
+        }
+      ]
+    },
+    {
+      "title": "Living With Family or Independently",
+      "setup": "A social study is examining young adults' living arrangements. The interviewer will ask about independence, cost, and privacy.",
+      "questions": [
+        {
+          "number": 1,
+          "question": "Would you prefer to live with family or independently at this stage of your life? Why?",
+          "sample_answer": "At this stage, I would prefer to live independently but near my family. Managing rent, cooking, repairs, and time would help me develop practical confidence. Living nearby would still allow regular meals and support during a real emergency. I know this option costs more than sharing the family home, so it depends on stable income. Independence appeals to me because I could set my own routine, not because I want distance from the people I care about."
+        },
+        {
+          "number": 2,
+          "question": "What is one advantage of several generations living in the same household?",
+          "sample_answer": "They can share both costs and care. Grandparents may help with children or cooking, while younger adults provide transport, technology support, or physical tasks. Daily contact also lets children know older relatives as complete people rather than occasional visitors. The arrangement needs privacy and clear expectations, because constant access can create interference. When responsibilities and personal space are discussed, co-residence can make the household more resilient and reduce loneliness for several generations."
+        },
+        {
+          "number": 3,
+          "question": "How can adult children living at home show independence?",
+          "sample_answer": "They can make a fair contribution through rent, groceries, chores, or caregiving, depending on income and ability. They should manage their own appointments, laundry, and major decisions rather than expecting parents to continue every childhood role. Communication about guests and schedules matters because the home is shared. Parents also need to recognize the adult relationship. Independence is shown through responsibility and judgment, not only through having a separate address."
+        },
+        {
+          "number": 4,
+          "question": "Some people see moving back with parents as a personal failure. What do you think?",
+          "sample_answer": "I disagree because people move back for many sensible reasons, including job loss, education, divorce, caregiving, or high housing costs. A temporary return can prevent expensive debt and create time for a realistic next step. Problems arise if no one discusses contribution, privacy, or duration. The arrangement should support progress rather than avoid all responsibility. Living location alone does not measure adulthood; how someone handles obligations and uses the opportunity tells us much more."
+        }
+      ]
+    },
+    {
+      "title": "Family Traditions",
+      "setup": "You are participating in a research study about family customs and celebrations. The questions concern meaning, change, and inclusion.",
+      "questions": [
+        {
+          "number": 1,
+          "question": "Describe one family tradition or celebration that is meaningful to you.",
+          "sample_answer": "Before the new year, my family cooks one complicated dish together. Different relatives prepare ingredients, and an older family member explains where the recipe came from. The meal itself is enjoyable, but the preparation matters more because it creates several hours of conversation. We have changed some ingredients since people moved to other countries. Keeping the shared work and story makes the tradition recognizable even when the exact recipe is not identical."
+        },
+        {
+          "number": 2,
+          "question": "Is it more important to preserve a tradition exactly or adapt it to current family life?",
+          "sample_answer": "It is more important to preserve the central meaning. A tradition that requires everyone to meet at one place may disappear when relatives migrate or work different schedules. Changing the date, using a video call, or combining recipes can keep participation possible. Some features should remain if they carry the history, but exact repetition is not always realistic. Adaptation shows that the tradition still belongs to living people rather than existing only as a rule from the past."
+        },
+        {
+          "number": 3,
+          "question": "How can families include new members in their traditions?",
+          "sample_answer": "They should explain the custom without assuming the new person already understands every step. More importantly, they can invite that person to contribute a food, song, or practice from their own background. Inclusion is not simply allowing someone to watch. The tradition can gain another element while keeping its original purpose. Families should also avoid testing whether a new member performs everything correctly. Curiosity and participation build belonging better than correction and comparison."
+        },
+        {
+          "number": 4,
+          "question": "Should parents continue family traditions that their children do not enjoy?",
+          "sample_answer": "They should first ask what the children dislike. The problem may be a long schedule, embarrassment, or one unequal role rather than the tradition's meaning. Parents can simplify it and give children genuine responsibility for one part. If a custom causes harm or serious exclusion, history does not justify forcing it. Some participation can be expected in shared family life, but a tradition survives better through understanding and choice than through fear or resentment."
+        }
+      ]
+    },
+    {
+      "title": "Caring for Older Relatives",
+      "setup": "A health-and-family researcher is studying how families support older adults. You will discuss care, independence, and responsibility.",
+      "questions": [
+        {
+          "number": 1,
+          "question": "What kind of help might allow an older relative to remain independent?",
+          "sample_answer": "Small practical changes can make a major difference. A handrail, better lighting, delivered groceries, and reliable transport may allow someone to manage their own home safely. Family members can also help with complicated online forms without taking over every financial decision. The older person should identify what is actually difficult. Support works best when it removes a specific barrier. It should preserve routines, privacy, and the feeling that the home still belongs to the person receiving help."
+        },
+        {
+          "number": 2,
+          "question": "Should adult children be mainly responsible for caring for aging parents?",
+          "sample_answer": "They have a meaningful responsibility to remain involved, but they should not be the only source of care. Adult children may live far away, have health limits, or support children of their own. Professional services, public programs, partners, siblings, and community networks can share the work. The parent's wishes also matter. Family involvement should mean making sure care is respectful and adequate, not assuming one daughter or son must personally perform every task regardless of capacity."
+        },
+        {
+          "number": 3,
+          "question": "How can siblings divide caregiving duties fairly?",
+          "sample_answer": "They should list the actual needs and each person's time, location, money, health, and skills. A nearby sibling may attend appointments, while another handles paperwork or contributes to professional care. The plan should include rest for the main caregiver and regular review as needs change. Equal hours are not always possible, but invisible coordination must be recognized. Resentment grows when one person quietly becomes responsible for everything and others assume they will ask if help is needed."
+        },
+        {
+          "number": 4,
+          "question": "Some people avoid discussing future care because it feels upsetting. Is it better to wait until help is needed?",
+          "sample_answer": "No, waiting for a crisis reduces choices and creates conflict under pressure. A calm early conversation can cover preferred living arrangements, important documents, emergency contacts, and what kinds of help the person would accept. It does not require predicting every illness. The older relative can lead the discussion while they are able to express wishes clearly. Families may feel uncomfortable for one evening, but that preparation protects dignity and reduces confusion during a real emergency."
+        }
+      ]
+    },
+    {
+      "title": "Work and Family Life",
+      "setup": "A workplace researcher is studying how employment affects family responsibilities. The questions concern childcare, leave, and work–family balance.",
+      "questions": [
+        {
+          "number": 1,
+          "question": "What kind of work arrangement would make family responsibilities easier to manage?",
+          "sample_answer": "A predictable schedule with limited flexibility would help me most. I would want to know normal hours in advance so appointments and care could be arranged. I would still need a way to shift an hour during an emergency. Complete flexibility can hide an expectation to remain available all day. Predictability protects both family and coworkers. The best arrangement would include clear response times and a manager who judges results fairly."
+        },
+        {
+          "number": 2,
+          "question": "Which helps working parents more: flexible hours or affordable childcare?",
+          "sample_answer": "Affordable childcare has the broader effect because many jobs cannot move to another time or place. Nurses, shop workers, and drivers need safe care while they are physically at work. Flexible hours are still valuable for appointments and school schedules, especially when both parents can use them. I would prioritize reliable affordable childcare and add flexibility where tasks allow. Parents need time and services, not a policy that helps only office workers with control over a laptop."
+        },
+        {
+          "number": 3,
+          "question": "Why do family responsibilities sometimes affect one person's career more than another's?",
+          "sample_answer": "Families may automatically protect the higher salary or follow gender expectations about who should provide care. Once one person reduces hours, the income gap grows, so that career keeps being treated as less important. Employers may also reward constant availability. Couples should compare long-term effects, not only this month's salary, and divide routine care early. Public leave and childcare make genuine choice easier because the family is not forced to solve every need through one person's sacrifice."
+        },
+        {
+          "number": 4,
+          "question": "Should employers provide paid leave for caring for older relatives as well as children?",
+          "sample_answer": "Yes, because serious family care is not limited to parenthood. An employee may need to attend a medical appointment, arrange home support, or respond when an older relative is hospitalized. Short paid leave can prevent the person from quitting or pretending to be sick. Employers need reasonable limits and notice when possible. A clear policy is better than leaving every case to a manager's personal sympathy, and it recognizes the aging responsibilities many workers eventually face."
+        }
+      ]
+    },
+    {
+      "title": "Family Values and Social Change",
+      "setup": "A social researcher is collecting opinions about how family values change over time. This final set asks about continuity, freedom, and public support.",
+      "questions": [
+        {
+          "number": 1,
+          "question": "What is one family value you would like to pass to a younger generation?",
+          "sample_answer": "I would like to pass on the value of dependable care. In my family, helping is not mainly a dramatic speech; it means arriving for an appointment, cooking during illness, or calling when promised. I would teach this by involving children in small useful tasks and keeping my own commitments to them. They should also learn that care has boundaries. Being dependable means offering help honestly and consistently, not agreeing to every request until resentment or exhaustion appears."
+        },
+        {
+          "number": 2,
+          "question": "Do younger generations have less respect for family traditions than older generations?",
+          "sample_answer": "Not necessarily. Young people may question the form of a tradition while still valuing connection, heritage, and family care. They also live with migration, new work schedules, and different relationships, so exact repetition can be difficult. Older people changed some customs in their own youth too. Respect is shown by learning the history and discussing change seriously. Blind obedience is not the only evidence that a tradition matters, and adaptation may be what allows it to continue."
+        },
+        {
+          "number": 3,
+          "question": "How can families maintain shared values when members choose very different lifestyles?",
+          "sample_answer": "They can discuss the principle underneath a choice. Two relatives may both value responsibility, while one expresses it through stable employment and another through creative work plus careful budgeting. Families should judge whether behavior is honest and respectful rather than whether every life follows the same sequence. Regular contact also keeps disagreement from becoming an abstract stereotype. Shared values create a basis for conversation, but they should not become a tool for controlling careers, partners, or personal identity."
+        },
+        {
+          "number": 4,
+          "question": "Do governments have a responsibility to help families care for children and older people?",
+          "sample_answer": "Yes, because care benefits society and often exceeds what one household can provide safely. Affordable childcare, parental leave, disability support, and elder services allow caregivers to keep working and protect people receiving care. Families should remain involved and make personal decisions; public help does not replace affection. It provides trained services, income protection, and fair access. Without support, the heaviest burden falls on low-income households and usually on one family member whose own health and career suffer."
+        }
+      ]
+    }
+  ],
+  "corpus_calibration_audit": [
+    {
+      "set_title": "A Family Relationship",
+      "question_functions": [
+        "relationship description",
+        "factor comparison",
+        "distance advice",
+        "family-friendship judgment"
+      ],
+      "subtopics": [
+        "family relationships",
+        "shared experience",
+        "distance",
+        "chosen support"
+      ]
+    },
+    {
+      "set_title": "Family Support and Advice",
+      "question_functions": [
+        "past support experience",
+        "support-type preference",
+        "financial-help advice",
+        "boundary judgment"
+      ],
+      "subtopics": [
+        "family support",
+        "advice",
+        "financial help",
+        "boundaries"
+      ]
+    },
+    {
+      "set_title": "Home Routines and Responsibilities",
+      "question_functions": [
+        "valued routine",
+        "fairness comparison",
+        "parenting advice",
+        "modern-routine evaluation"
+      ],
+      "subtopics": [
+        "family routines",
+        "chores",
+        "children's responsibilities",
+        "family meals"
+      ]
+    },
+    {
+      "set_title": "Parents and Growing Independence",
+      "question_functions": [
+        "learned lesson",
+        "rule-model comparison",
+        "readiness advice",
+        "overprotection evaluation"
+      ],
+      "subtopics": [
+        "parental advice",
+        "role models",
+        "independence",
+        "failure"
+      ]
+    },
+    {
+      "set_title": "Different Generations",
+      "question_functions": [
+        "intergenerational learning",
+        "cause explanation",
+        "community recommendation",
+        "respect-advice distinction"
+      ],
+      "subtopics": [
+        "older generations",
+        "younger generations",
+        "generation gap",
+        "respect for elders"
+      ]
+    },
+    {
+      "set_title": "Living With Family or Independently",
+      "question_functions": [
+        "living preference",
+        "co-residence advantage",
+        "practical advice",
+        "stigma judgment"
+      ],
+      "subtopics": [
+        "living independently",
+        "multi-generational homes",
+        "adult responsibilities",
+        "moving back"
+      ]
+    },
+    {
+      "set_title": "Family Traditions",
+      "question_functions": [
+        "tradition description",
+        "preservation-adaptation comparison",
+        "inclusion advice",
+        "parenting judgment"
+      ],
+      "subtopics": [
+        "family traditions",
+        "adaptation",
+        "new family members",
+        "children and customs"
+      ]
+    },
+    {
+      "set_title": "Caring for Older Relatives",
+      "question_functions": [
+        "independence support",
+        "responsibility evaluation",
+        "division advice",
+        "planning judgment"
+      ],
+      "subtopics": [
+        "older relatives",
+        "care responsibility",
+        "siblings",
+        "future care"
+      ]
+    },
+    {
+      "set_title": "Work and Family Life",
+      "question_functions": [
+        "work-arrangement preference",
+        "support comparison",
+        "inequality explanation",
+        "leave-policy opinion"
+      ],
+      "subtopics": [
+        "work-family balance",
+        "childcare",
+        "career effects",
+        "elder-care leave"
+      ]
+    },
+    {
+      "set_title": "Family Values and Social Change",
+      "question_functions": [
+        "value description",
+        "generational claim evaluation",
+        "difference-management advice",
+        "public-policy judgment"
+      ],
+      "subtopics": [
+        "family values",
+        "tradition and change",
+        "different lifestyles",
+        "public care support"
+      ]
+    }
+  ]
+}

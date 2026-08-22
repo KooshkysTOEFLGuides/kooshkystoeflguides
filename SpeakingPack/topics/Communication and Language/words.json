@@ -1,0 +1,1942 @@
+{
+  "schema_version": 1,
+  "topic": "Communication and Language",
+  "coverage_map": [
+    "communication habits",
+    "texting",
+    "phone calls",
+    "face-to-face communication",
+    "online communication",
+    "body language",
+    "tone of voice",
+    "misunderstandings",
+    "active listening",
+    "explaining ideas clearly",
+    "polite disagreement",
+    "public speaking",
+    "giving presentations",
+    "learning foreign languages",
+    "language learning difficulties",
+    "communication across cultures",
+    "communication at school",
+    "communication at work",
+    "social skills",
+    "confidence in speaking"
+  ],
+  "sections": [
+    {
+      "title": "Communication Habits and Everyday Channels",
+      "headwords": [
+        {
+          "term": "communicate",
+          "part_of_speech": "verb",
+          "definition": "to exchange information, ideas, or feelings",
+          "examples": [
+            "I communicate more clearly when I prepare the main point first.",
+            "The team communicates through short meetings and written updates."
+          ],
+          "collocations": [
+            "communicate clearly",
+            "communicate with someone",
+            "communicate effectively",
+            "communicate a message"
+          ]
+        },
+        {
+          "term": "communication",
+          "part_of_speech": "noun",
+          "definition": "the process of exchanging information, meaning, or feelings",
+          "examples": [
+            "Regular communication prevented the distant friends from losing touch.",
+            "Poor communication caused two departments to repeat the same work."
+          ],
+          "collocations": [
+            "effective communication",
+            "clear communication",
+            "communication skill",
+            "communication breakdown"
+          ]
+        },
+        {
+          "term": "channel",
+          "part_of_speech": "noun",
+          "definition": "a method or route used to communicate",
+          "examples": [
+            "Email is the best channel for details that people may need later.",
+            "The emergency message was sent through several channels."
+          ],
+          "collocations": [
+            "communication channel",
+            "official channel",
+            "choose a channel",
+            "digital channel"
+          ]
+        },
+        {
+          "term": "face-to-face",
+          "part_of_speech": "adjective",
+          "definition": "involving people physically present with one another",
+          "examples": [
+            "A face-to-face conversation helped us resolve the sensitive issue.",
+            "The course combines online tasks with face-to-face discussion."
+          ],
+          "collocations": [
+            "face-to-face communication",
+            "face-to-face meeting",
+            "face-to-face contact"
+          ]
+        },
+        {
+          "term": "text",
+          "part_of_speech": "verb",
+          "definition": "to send a short written message by phone",
+          "examples": [
+            "I text my roommate if I will arrive late.",
+            "She texted the address so nobody had to remember it."
+          ],
+          "collocations": [
+            "text someone",
+            "text a message",
+            "text regularly",
+            "text back"
+          ]
+        },
+        {
+          "term": "text message",
+          "part_of_speech": "noun phrase",
+          "definition": "a short written message sent electronically",
+          "examples": [
+            "The text message sounded impatient because it lacked context.",
+            "I use a text message for quick changes, not serious criticism."
+          ],
+          "collocations": [
+            "send a text message",
+            "receive a text message",
+            "short text message"
+          ]
+        },
+        {
+          "term": "phone call",
+          "part_of_speech": "noun phrase",
+          "definition": "a spoken conversation using a telephone",
+          "examples": [
+            "A phone call was faster than exchanging ten confusing messages.",
+            "I schedule international phone calls because of the time difference."
+          ],
+          "collocations": [
+            "make a phone call",
+            "return a phone call",
+            "brief phone call",
+            "phone-call anxiety"
+          ]
+        },
+        {
+          "term": "voice message",
+          "part_of_speech": "noun phrase",
+          "definition": "a recorded spoken message sent for later listening",
+          "examples": [
+            "Her voice message explained the complicated directions more naturally than text.",
+            "I replayed the voice message to check the appointment time."
+          ],
+          "collocations": [
+            "send a voice message",
+            "leave a voice message",
+            "short voice message"
+          ]
+        },
+        {
+          "term": "email",
+          "part_of_speech": "noun",
+          "definition": "a digital written message, especially for formal or detailed communication",
+          "examples": [
+            "The email listed the deadline, attachments, and person responsible.",
+            "I reread a formal email before sending it to the professor."
+          ],
+          "collocations": [
+            "send an email",
+            "formal email",
+            "email exchange",
+            "reply to an email"
+          ]
+        },
+        {
+          "term": "reply",
+          "part_of_speech": "verb",
+          "definition": "to answer a message, question, or request",
+          "examples": [
+            "He replied to the invitation after checking his schedule.",
+            "You do not need to reply immediately to a nonurgent message."
+          ],
+          "collocations": [
+            "reply to a message",
+            "promptly reply",
+            "reply by email",
+            "reply in writing"
+          ]
+        },
+        {
+          "term": "contact",
+          "part_of_speech": "verb",
+          "definition": "to communicate with someone, especially for a practical purpose",
+          "examples": [
+            "Please contact the office if your address changes.",
+            "I contacted an old classmate through a professional network."
+          ],
+          "collocations": [
+            "contact someone directly",
+            "contact by phone",
+            "contact the office",
+            "emergency contact"
+          ]
+        },
+        {
+          "term": "keep in touch",
+          "part_of_speech": "verb phrase",
+          "definition": "to continue communicating with someone over time",
+          "examples": [
+            "We keep in touch through monthly video calls.",
+            "Sending photographs helps the relatives keep in touch between visits."
+          ],
+          "collocations": [
+            "keep in touch with",
+            "manage to keep in touch",
+            "stay in touch"
+          ]
+        }
+      ],
+      "phrases": [
+        {
+          "text": "The best channel depends on the purpose of the message.",
+          "reusable_core": "depends on the purpose"
+        },
+        {
+          "text": "I would use writing when the details need to be saved.",
+          "reusable_core": "details need to be saved"
+        },
+        {
+          "text": "A quick call can prevent a long exchange of confusing texts.",
+          "reusable_core": "prevent a long exchange"
+        },
+        {
+          "text": "Not every message requires an immediate reply.",
+          "reusable_core": "an immediate reply"
+        },
+        {
+          "text": "Face-to-face contact is useful for sensitive topics.",
+          "reusable_core": "sensitive topics"
+        },
+        {
+          "text": "We keep in touch through small regular updates.",
+          "reusable_core": "small regular updates"
+        },
+        {
+          "text": "The tone is harder to judge in a short message.",
+          "reusable_core": "harder to judge"
+        },
+        {
+          "text": "I choose a more formal channel for official requests.",
+          "reusable_core": "a more formal channel"
+        }
+      ]
+    },
+    {
+      "title": "Conversation, Listening, and Turn-Taking",
+      "headwords": [
+        {
+          "term": "conversation",
+          "part_of_speech": "noun",
+          "definition": "an exchange of thoughts or information between people",
+          "examples": [
+            "The conversation became easier after we found a shared interest.",
+            "A private conversation was more suitable than correcting him in public."
+          ],
+          "collocations": [
+            "have a conversation",
+            "start a conversation",
+            "meaningful conversation",
+            "private conversation"
+          ]
+        },
+        {
+          "term": "active listening",
+          "part_of_speech": "noun phrase",
+          "definition": "listening with full attention and showing that you are trying to understand",
+          "examples": [
+            "Active listening helped the customer feel taken seriously.",
+            "The students practised active listening by summarizing a partner's point."
+          ],
+          "collocations": [
+            "practise active listening",
+            "active-listening skill",
+            "use active listening"
+          ]
+        },
+        {
+          "term": "interrupt",
+          "part_of_speech": "verb",
+          "definition": "to speak or act before someone has finished",
+          "examples": [
+            "I interrupted because I misunderstood a pause as the end.",
+            "The chair politely interrupted the speaker when time expired."
+          ],
+          "collocations": [
+            "interrupt a speaker",
+            "constantly interrupt",
+            "politely interrupt",
+            "avoid interrupting"
+          ]
+        },
+        {
+          "term": "take turns",
+          "part_of_speech": "verb phrase",
+          "definition": "to do or speak one after another in an orderly way",
+          "examples": [
+            "The children take turns describing their weekend.",
+            "Good video meetings require people to take turns more deliberately."
+          ],
+          "collocations": [
+            "take turns speaking",
+            "take turns with",
+            "learn to take turns"
+          ]
+        },
+        {
+          "term": "pause",
+          "part_of_speech": "noun",
+          "definition": "a short period of silence or stopping",
+          "examples": [
+            "A brief pause gave me time to organize the next sentence.",
+            "The caller interpreted the long pause as uncertainty."
+          ],
+          "collocations": [
+            "brief pause",
+            "long pause",
+            "pause for thought",
+            "awkward pause"
+          ]
+        },
+        {
+          "term": "respond",
+          "part_of_speech": "verb",
+          "definition": "to answer or react to what someone says or does",
+          "examples": [
+            "She responded to the concern instead of defending herself immediately.",
+            "I needed a moment before responding to the unexpected question."
+          ],
+          "collocations": [
+            "respond to a question",
+            "respond calmly",
+            "quickly respond",
+            "respond appropriately"
+          ]
+        },
+        {
+          "term": "follow-up question",
+          "part_of_speech": "noun phrase",
+          "definition": "a question asked to obtain more detail from an earlier answer",
+          "examples": [
+            "The interviewer asked a follow-up question about the example.",
+            "A thoughtful follow-up question shows genuine interest."
+          ],
+          "collocations": [
+            "ask a follow-up question",
+            "useful follow-up question"
+          ]
+        },
+        {
+          "term": "paraphrase",
+          "part_of_speech": "verb",
+          "definition": "to express the same meaning in different words",
+          "examples": [
+            "I paraphrased the instructions to check that I understood them.",
+            "The teacher asked students to paraphrase the main argument."
+          ],
+          "collocations": [
+            "paraphrase an idea",
+            "accurately paraphrase",
+            "paraphrase in your own words"
+          ]
+        },
+        {
+          "term": "summarize",
+          "part_of_speech": "verb",
+          "definition": "to state the main points briefly",
+          "examples": [
+            "At the end, the manager summarized the decision and next steps.",
+            "Can you summarize what the customer needs before we offer a solution?"
+          ],
+          "collocations": [
+            "briefly summarize",
+            "summarize a discussion",
+            "summarize the main point"
+          ]
+        },
+        {
+          "term": "attentive",
+          "part_of_speech": "adjective",
+          "definition": "giving careful and respectful attention",
+          "examples": [
+            "The doctor remained attentive even when the explanation became long.",
+            "An attentive listener notices hesitation as well as words."
+          ],
+          "collocations": [
+            "attentive listener",
+            "remain attentive",
+            "fully attentive",
+            "attentive to"
+          ]
+        },
+        {
+          "term": "rapport",
+          "part_of_speech": "noun",
+          "definition": "a comfortable relationship that makes communication easier",
+          "examples": [
+            "A little informal conversation built rapport before the interview.",
+            "The teacher developed rapport without pretending to be a student's friend."
+          ],
+          "collocations": [
+            "build rapport",
+            "establish rapport",
+            "good rapport",
+            "rapport with someone"
+          ]
+        }
+      ],
+      "phrases": [
+        {
+          "text": "I try to understand the point before planning my reply.",
+          "reusable_core": "before planning my reply"
+        },
+        {
+          "text": "A follow-up question shows that I was listening.",
+          "reusable_core": "shows that I was listening"
+        },
+        {
+          "text": "I would summarize the decision before ending the conversation.",
+          "reusable_core": "summarize the decision"
+        },
+        {
+          "text": "Silence can give someone time to think.",
+          "reusable_core": "time to think"
+        },
+        {
+          "text": "Interruptions make it difficult to develop a complete idea.",
+          "reusable_core": "develop a complete idea"
+        },
+        {
+          "text": "The listener should respond to what was actually said.",
+          "reusable_core": "what was actually said"
+        },
+        {
+          "text": "I might paraphrase the point to check my understanding.",
+          "reusable_core": "check my understanding"
+        },
+        {
+          "text": "Turn-taking becomes more deliberate in an online meeting.",
+          "reusable_core": "more deliberate"
+        },
+        {
+          "text": "Small signs of attention make the conversation feel less one-sided.",
+          "reusable_core": "less one-sided"
+        }
+      ]
+    },
+    {
+      "title": "Explaining Ideas and Achieving Clarity",
+      "headwords": [
+        {
+          "term": "clarify",
+          "part_of_speech": "verb",
+          "definition": "to make a meaning, statement, or situation clearer",
+          "examples": [
+            "I asked the supervisor to clarify which deadline had priority.",
+            "The speaker clarified that the figures were estimates, not final results."
+          ],
+          "collocations": [
+            "clarify a point",
+            "clarify instructions",
+            "need to clarify",
+            "help clarify"
+          ]
+        },
+        {
+          "term": "explain",
+          "part_of_speech": "verb",
+          "definition": "to make something understandable through reasons, details, or examples",
+          "examples": [
+            "She explained the process with a simple diagram.",
+            "I can explain the result more easily than the technical method."
+          ],
+          "collocations": [
+            "clearly explain",
+            "explain an idea",
+            "explain how",
+            "explain in simple terms"
+          ]
+        },
+        {
+          "term": "concise",
+          "part_of_speech": "adjective",
+          "definition": "brief while still including necessary information",
+          "examples": [
+            "The update was concise but included every action and deadline.",
+            "A concise answer is useful when the listener already knows the background."
+          ],
+          "collocations": [
+            "concise explanation",
+            "clear and concise",
+            "remain concise",
+            "concise message"
+          ]
+        },
+        {
+          "term": "specific",
+          "part_of_speech": "adjective",
+          "definition": "clear and exact rather than general",
+          "examples": [
+            "Specific feedback told me which sentence was confusing.",
+            "The request became easier to answer after she gave a specific date."
+          ],
+          "collocations": [
+            "specific example",
+            "be specific",
+            "specific detail",
+            "specific request"
+          ]
+        },
+        {
+          "term": "vague",
+          "part_of_speech": "adjective",
+          "definition": "not clear or detailed enough",
+          "examples": [
+            "The vague instruction to finish soon created different expectations.",
+            "His answer remained vague because he did not want to promise a date."
+          ],
+          "collocations": [
+            "vague language",
+            "vague answer",
+            "too vague",
+            "deliberately vague"
+          ]
+        },
+        {
+          "term": "example",
+          "part_of_speech": "noun",
+          "definition": "a particular case used to explain a general idea",
+          "examples": [
+            "A familiar example made the economic concept easier to understand.",
+            "The candidate gave an example from volunteer work."
+          ],
+          "collocations": [
+            "give an example",
+            "concrete example",
+            "clear example",
+            "real-life example"
+          ]
+        },
+        {
+          "term": "analogy",
+          "part_of_speech": "noun",
+          "definition": "a comparison used to explain how something works",
+          "examples": [
+            "The teacher used a traffic analogy to explain data flow.",
+            "An analogy can simplify an idea but may hide an important difference."
+          ],
+          "collocations": [
+            "use an analogy",
+            "helpful analogy",
+            "simple analogy",
+            "draw an analogy"
+          ]
+        },
+        {
+          "term": "context",
+          "part_of_speech": "noun",
+          "definition": "background information needed to understand meaning",
+          "examples": [
+            "The quotation sounded rude without the context of the earlier joke.",
+            "New staff need context before they can judge why the procedure exists."
+          ],
+          "collocations": [
+            "provide context",
+            "broader context",
+            "without context",
+            "put in context"
+          ]
+        },
+        {
+          "term": "main point",
+          "part_of_speech": "noun phrase",
+          "definition": "the most important idea someone wants to communicate",
+          "examples": [
+            "I state the main point before adding supporting detail.",
+            "The presentation's main point disappeared under too many statistics."
+          ],
+          "collocations": [
+            "state the main point",
+            "miss the main point",
+            "return to the main point"
+          ]
+        },
+        {
+          "term": "structure",
+          "part_of_speech": "noun",
+          "definition": "the organized way ideas are arranged",
+          "examples": [
+            "A clear structure helped the audience follow the long explanation.",
+            "The email's structure separated the problem from the requested action."
+          ],
+          "collocations": [
+            "clear structure",
+            "logical structure",
+            "give structure to",
+            "well-structured explanation"
+          ]
+        }
+      ],
+      "phrases": [
+        {
+          "text": "Let me explain that in a different way.",
+          "reusable_core": "in a different way"
+        },
+        {
+          "text": "The main point is that the schedule has changed.",
+          "reusable_core": "The main point is"
+        },
+        {
+          "text": "A concrete example may make the idea clearer.",
+          "reusable_core": "make the idea clearer"
+        },
+        {
+          "text": "I would give the necessary context before the details.",
+          "reusable_core": "necessary context"
+        },
+        {
+          "text": "The explanation is accurate but too technical for this audience.",
+          "reusable_core": "too technical for this audience"
+        },
+        {
+          "text": "Could you clarify what you mean by that term?",
+          "reusable_core": "clarify what you mean"
+        },
+        {
+          "text": "I will separate the problem from the proposed solution.",
+          "reusable_core": "separate the problem from"
+        },
+        {
+          "text": "The amount of detail depends on what the listener already knows.",
+          "reusable_core": "what the listener already knows"
+        },
+        {
+          "text": "A short summary can confirm that everyone understood the same decision.",
+          "reusable_core": "understood the same decision"
+        },
+        {
+          "text": "The analogy is helpful up to a point.",
+          "reusable_core": "helpful up to a point"
+        }
+      ]
+    },
+    {
+      "title": "Tone of Voice and Body Language",
+      "headwords": [
+        {
+          "term": "tone",
+          "part_of_speech": "noun",
+          "definition": "the quality of a voice or wording that expresses attitude or emotion",
+          "examples": [
+            "Her calm tone prevented the correction from sounding hostile.",
+            "The same sentence can have a joking or serious tone."
+          ],
+          "collocations": [
+            "tone of voice",
+            "calm tone",
+            "friendly tone",
+            "change your tone"
+          ]
+        },
+        {
+          "term": "intonation",
+          "part_of_speech": "noun",
+          "definition": "the rise and fall of the voice while speaking",
+          "examples": [
+            "Rising intonation made the statement sound like a question.",
+            "Language learners practised intonation so polite requests sounded natural."
+          ],
+          "collocations": [
+            "natural intonation",
+            "falling intonation",
+            "intonation pattern",
+            "use intonation"
+          ]
+        },
+        {
+          "term": "volume",
+          "part_of_speech": "noun",
+          "definition": "how loud or quiet a voice or sound is",
+          "examples": [
+            "He lowered his volume when the conversation became private.",
+            "Speaking at a steady volume helped the whole room hear."
+          ],
+          "collocations": [
+            "speaking volume",
+            "raise the volume",
+            "lower your volume",
+            "appropriate volume"
+          ]
+        },
+        {
+          "term": "pace",
+          "part_of_speech": "noun",
+          "definition": "the speed at which someone speaks or an interaction develops",
+          "examples": [
+            "My speaking pace becomes too fast when I am nervous.",
+            "A slower pace gave listeners time to process the instructions."
+          ],
+          "collocations": [
+            "speaking pace",
+            "steady pace",
+            "slow the pace",
+            "at a natural pace"
+          ]
+        },
+        {
+          "term": "body language",
+          "part_of_speech": "noun phrase",
+          "definition": "meaning communicated through posture, movement, and expression",
+          "examples": [
+            "Her open body language made students more willing to ask questions.",
+            "Body language varies across people and cultures, so one gesture is not proof."
+          ],
+          "collocations": [
+            "open body language",
+            "read body language",
+            "positive body language"
+          ]
+        },
+        {
+          "term": "eye contact",
+          "part_of_speech": "noun phrase",
+          "definition": "looking at another person's eyes or face during communication",
+          "examples": [
+            "Brief eye contact showed attention without becoming uncomfortable.",
+            "Expectations about eye contact differ across cultures."
+          ],
+          "collocations": [
+            "make eye contact",
+            "maintain eye contact",
+            "avoid eye contact",
+            "direct eye contact"
+          ]
+        },
+        {
+          "term": "gesture",
+          "part_of_speech": "noun",
+          "definition": "a movement of the hands, head, or body that communicates meaning",
+          "examples": [
+            "The guide used a hand gesture to show where visitors should wait.",
+            "A familiar gesture in one country may be rude in another."
+          ],
+          "collocations": [
+            "hand gesture",
+            "make a gesture",
+            "friendly gesture",
+            "gesture toward"
+          ]
+        },
+        {
+          "term": "facial expression",
+          "part_of_speech": "noun phrase",
+          "definition": "a look on the face that communicates feeling or reaction",
+          "examples": [
+            "His facial expression showed confusion before he asked a question.",
+            "Video delay can make facial expressions appear unrelated to the words."
+          ],
+          "collocations": [
+            "facial expression",
+            "read an expression",
+            "neutral expression"
+          ]
+        },
+        {
+          "term": "posture",
+          "part_of_speech": "noun",
+          "definition": "the way someone holds their body",
+          "examples": [
+            "Relaxed upright posture helped her breathe during the speech.",
+            "His closed posture may have reflected cold weather rather than dislike."
+          ],
+          "collocations": [
+            "upright posture",
+            "relaxed posture",
+            "body posture",
+            "improve posture"
+          ]
+        }
+      ],
+      "phrases": [
+        {
+          "text": "The words were polite, but the tone sounded impatient.",
+          "reusable_core": "the tone sounded impatient"
+        },
+        {
+          "text": "I slow down when I notice confused expressions.",
+          "reusable_core": "notice confused expressions"
+        },
+        {
+          "text": "Nonverbal cues support meaning but should not be overinterpreted.",
+          "reusable_core": "should not be overinterpreted"
+        },
+        {
+          "text": "A steady pace makes the explanation easier to follow.",
+          "reusable_core": "easier to follow"
+        },
+        {
+          "text": "Eye-contact expectations vary across cultures and individuals.",
+          "reusable_core": "vary across cultures and individuals"
+        },
+        {
+          "text": "The speaker's posture became more relaxed after the opening minute.",
+          "reusable_core": "more relaxed"
+        },
+        {
+          "text": "Volume should suit the room rather than express authority.",
+          "reusable_core": "suit the room"
+        },
+        {
+          "text": "The gesture helped direct attention to the diagram.",
+          "reusable_core": "direct attention"
+        },
+        {
+          "text": "A delayed video image can create misleading reactions.",
+          "reusable_core": "misleading reactions"
+        },
+        {
+          "text": "Tone can change how a neutral sentence is understood.",
+          "reusable_core": "how a neutral sentence is understood"
+        },
+        {
+          "text": "I would not judge honesty from one piece of body language.",
+          "reusable_core": "judge honesty"
+        }
+      ]
+    },
+    {
+      "title": "Polite Disagreement and Resolving Misunderstandings",
+      "headwords": [
+        {
+          "term": "disagree",
+          "part_of_speech": "verb",
+          "definition": "to hold a different opinion",
+          "examples": [
+            "I disagree with the conclusion, but I understand the concern behind it.",
+            "The colleagues disagreed about timing rather than the goal."
+          ],
+          "collocations": [
+            "politely disagree",
+            "strongly disagree",
+            "disagree with",
+            "agree to disagree"
+          ]
+        },
+        {
+          "term": "disagreement",
+          "part_of_speech": "noun",
+          "definition": "a situation in which people have different opinions",
+          "examples": [
+            "A small disagreement became personal after an insulting comment.",
+            "The chair summarized the points of agreement before returning to the disagreement."
+          ],
+          "collocations": [
+            "polite disagreement",
+            "serious disagreement",
+            "resolve a disagreement"
+          ]
+        },
+        {
+          "term": "misunderstanding",
+          "part_of_speech": "noun",
+          "definition": "a failure to understand meaning or intention correctly",
+          "examples": [
+            "The misunderstanding came from two different uses of the word soon.",
+            "A quick call cleared up the misunderstanding."
+          ],
+          "collocations": [
+            "clear up a misunderstanding",
+            "cause a misunderstanding",
+            "common misunderstanding"
+          ]
+        },
+        {
+          "term": "assumption",
+          "part_of_speech": "noun",
+          "definition": "something accepted as true without checking",
+          "examples": [
+            "My assumption about the deadline was wrong.",
+            "Different cultural assumptions affected how the silence was interpreted."
+          ],
+          "collocations": [
+            "make an assumption",
+            "false assumption",
+            "underlying assumption",
+            "challenge an assumption"
+          ]
+        },
+        {
+          "term": "offend",
+          "part_of_speech": "verb",
+          "definition": "to make someone feel hurt or insulted",
+          "examples": [
+            "The joke offended him because it repeated a stereotype.",
+            "She had not intended to offend anyone and apologized directly."
+          ],
+          "collocations": [
+            "offend someone",
+            "deeply offend",
+            "unintentionally offend",
+            "easily offend"
+          ]
+        },
+        {
+          "term": "tactful",
+          "part_of_speech": "adjective",
+          "definition": "careful not to embarrass or upset someone unnecessarily",
+          "examples": [
+            "The supervisor gave a tactful correction in private.",
+            "A tactful answer can still be honest and specific."
+          ],
+          "collocations": [
+            "tactful response",
+            "tactful way",
+            "remain tactful",
+            "tactful approach"
+          ]
+        },
+        {
+          "term": "compromise",
+          "part_of_speech": "noun",
+          "definition": "an agreement in which different sides each accept some change",
+          "examples": [
+            "The compromise kept the morning deadline but reduced the task.",
+            "Not every safety issue can be solved through compromise."
+          ],
+          "collocations": [
+            "reach a compromise",
+            "reasonable compromise",
+            "compromise solution"
+          ]
+        },
+        {
+          "term": "resolve",
+          "part_of_speech": "verb",
+          "definition": "to solve a disagreement, problem, or uncertainty",
+          "examples": [
+            "They resolved the conflict by defining who would make the final decision.",
+            "One conversation did not resolve years of mistrust."
+          ],
+          "collocations": [
+            "resolve a conflict",
+            "resolve a misunderstanding",
+            "successfully resolve"
+          ]
+        }
+      ],
+      "phrases": [
+        {
+          "text": "I see the issue differently for two reasons.",
+          "reusable_core": "see the issue differently"
+        },
+        {
+          "text": "We agree on the goal but not the method.",
+          "reusable_core": "agree on the goal"
+        },
+        {
+          "text": "Could we check what each of us understood?",
+          "reusable_core": "what each of us understood"
+        },
+        {
+          "text": "I did not intend the comment in that way.",
+          "reusable_core": "did not intend"
+        },
+        {
+          "text": "The criticism should focus on the idea rather than the person.",
+          "reusable_core": "the idea rather than the person"
+        },
+        {
+          "text": "A tactful response can still be direct.",
+          "reusable_core": "still be direct"
+        },
+        {
+          "text": "I would acknowledge the valid part before explaining my concern.",
+          "reusable_core": "acknowledge the valid part"
+        },
+        {
+          "text": "The disagreement came from an unstated assumption.",
+          "reusable_core": "an unstated assumption"
+        },
+        {
+          "text": "Compromise is possible when both sides have flexibility.",
+          "reusable_core": "both sides have flexibility"
+        },
+        {
+          "text": "A sincere apology can repair the immediate harm.",
+          "reusable_core": "repair the immediate harm"
+        },
+        {
+          "text": "We may need a neutral person to guide the discussion.",
+          "reusable_core": "a neutral person"
+        },
+        {
+          "text": "Agreeing to disagree is better than repeating the same argument.",
+          "reusable_core": "Agreeing to disagree"
+        }
+      ]
+    },
+    {
+      "title": "Online Communication and Digital Etiquette",
+      "headwords": [
+        {
+          "term": "texting",
+          "part_of_speech": "noun",
+          "definition": "the activity of exchanging short written messages by phone",
+          "examples": [
+            "Texting works well for quick updates that do not need an immediate discussion.",
+            "She avoids texting while walking through crowded streets."
+          ],
+          "collocations": [
+            "texting habits",
+            "texting while driving",
+            "prefer texting"
+          ]
+        },
+        {
+          "term": "text",
+          "part_of_speech": "noun",
+          "definition": "a short written message sent by phone",
+          "examples": [
+            "His text included the gate number and arrival time.",
+            "A brief text was enough to confirm the appointment."
+          ],
+          "collocations": [
+            "send a text",
+            "receive a text",
+            "group text",
+            "text message"
+          ]
+        },
+        {
+          "term": "message",
+          "part_of_speech": "verb",
+          "definition": "to contact someone through a digital messaging service",
+          "examples": [
+            "Please message me when the meeting ends.",
+            "She messaged the class group instead of emailing each student."
+          ],
+          "collocations": [
+            "message someone",
+            "message privately",
+            "directly message"
+          ]
+        },
+        {
+          "term": "response time",
+          "part_of_speech": "noun phrase",
+          "definition": "the amount of time someone takes to answer a message",
+          "examples": [
+            "Our team agrees on a short response time for urgent safety reports.",
+            "A slow response time is normal when friends live in different time zones."
+          ],
+          "collocations": [
+            "average response time",
+            "expected response time",
+            "short response time"
+          ]
+        },
+        {
+          "term": "forward",
+          "part_of_speech": "verb",
+          "definition": "to send a received digital message to another person",
+          "examples": [
+            "I forwarded the confirmation email to everyone travelling with us.",
+            "She asked permission before forwarding a private message."
+          ],
+          "collocations": [
+            "forward an email",
+            "forward a message",
+            "automatically forward"
+          ]
+        },
+        {
+          "term": "thread",
+          "part_of_speech": "noun",
+          "definition": "a connected series of messages or online comments",
+          "examples": [
+            "The answer was buried in a long email thread.",
+            "A separate thread kept the new issue from confusing the original discussion."
+          ],
+          "collocations": [
+            "email thread",
+            "message thread",
+            "discussion thread",
+            "long thread"
+          ]
+        },
+        {
+          "term": "notification",
+          "part_of_speech": "noun",
+          "definition": "an alert from a device or application",
+          "examples": [
+            "I turned off notifications while preparing my presentation.",
+            "The emergency notification appeared even though the phone was silent."
+          ],
+          "collocations": [
+            "push notification",
+            "receive a notification",
+            "notification settings"
+          ]
+        },
+        {
+          "term": "mute",
+          "part_of_speech": "verb",
+          "definition": "to stop notifications or sound temporarily",
+          "examples": [
+            "She muted the group chat during her exam.",
+            "I forgot to mute my microphone before answering the door."
+          ],
+          "collocations": [
+            "mute a chat",
+            "mute notifications",
+            "mute your microphone"
+          ]
+        },
+        {
+          "term": "video call",
+          "part_of_speech": "noun phrase",
+          "definition": "a live conversation in which participants can see and hear one another online",
+          "examples": [
+            "Our video call froze whenever someone shared a large file.",
+            "A weekly video call helps my grandparents feel connected."
+          ],
+          "collocations": [
+            "join a video call",
+            "make a video call",
+            "group video call"
+          ]
+        },
+        {
+          "term": "misread",
+          "part_of_speech": "verb",
+          "definition": "to understand written language or a situation incorrectly",
+          "examples": [
+            "I misread his short reply as anger, although he was simply busy.",
+            "Without facial cues, jokes are easier to misread online."
+          ],
+          "collocations": [
+            "misread a message",
+            "misread the tone",
+            "easily misread"
+          ]
+        },
+        {
+          "term": "emoji",
+          "part_of_speech": "noun",
+          "definition": "a small digital symbol used to express an idea or emotion",
+          "examples": [
+            "She added a smiling emoji so the reminder would not sound cold.",
+            "An emoji cannot always repair an unclear or offensive message."
+          ],
+          "collocations": [
+            "use an emoji",
+            "add an emoji",
+            "emoji reaction"
+          ]
+        },
+        {
+          "term": "digital footprint",
+          "part_of_speech": "noun phrase",
+          "definition": "the lasting record created by a person's online activity",
+          "examples": [
+            "Teenagers should understand that an old public comment may remain in their digital footprint.",
+            "He reviewed his digital footprint before applying for internships."
+          ],
+          "collocations": [
+            "manage your digital footprint",
+            "leave a digital footprint",
+            "permanent digital footprint"
+          ]
+        }
+      ],
+      "phrases": [
+        {
+          "text": "I would send a quick message before making an unexpected call.",
+          "reusable_core": "before making an unexpected call"
+        },
+        {
+          "text": "Short replies can sound colder than the writer intends.",
+          "reusable_core": "colder than the writer intends"
+        },
+        {
+          "text": "The group chat is useful for updates, not private criticism.",
+          "reusable_core": "not private criticism"
+        },
+        {
+          "text": "I turn off notifications when I need sustained attention.",
+          "reusable_core": "sustained attention"
+        },
+        {
+          "text": "A video call gives us more nonverbal information.",
+          "reusable_core": "more nonverbal information"
+        },
+        {
+          "text": "Before forwarding a message, I check whether it is private.",
+          "reusable_core": "whether it is private"
+        },
+        {
+          "text": "Important decisions should not disappear in a long thread.",
+          "reusable_core": "disappear in a long thread"
+        },
+        {
+          "text": "Online comments can remain visible long after the argument ends.",
+          "reusable_core": "long after the argument ends"
+        }
+      ]
+    },
+    {
+      "title": "Communication at School and Work",
+      "headwords": [
+        {
+          "term": "feedback",
+          "part_of_speech": "noun",
+          "definition": "information about what was effective and what could improve",
+          "examples": [
+            "The tutor's feedback identified one strong point and one unclear paragraph.",
+            "Regular feedback helped the new employee correct mistakes early."
+          ],
+          "collocations": [
+            "give feedback",
+            "constructive feedback",
+            "act on feedback",
+            "request feedback"
+          ]
+        },
+        {
+          "term": "brief",
+          "part_of_speech": "verb",
+          "definition": "to give someone essential information before a task",
+          "examples": [
+            "The coordinator briefed volunteers on safety procedures before the event.",
+            "Please brief the afternoon team about the delayed delivery."
+          ],
+          "collocations": [
+            "brief the team",
+            "brief someone on",
+            "fully brief"
+          ]
+        },
+        {
+          "term": "update",
+          "part_of_speech": "noun",
+          "definition": "new information about a developing situation",
+          "examples": [
+            "Her morning update explained why the launch would be delayed.",
+            "We need a short update, not another full presentation."
+          ],
+          "collocations": [
+            "status update",
+            "provide an update",
+            "regular update"
+          ]
+        },
+        {
+          "term": "update",
+          "part_of_speech": "verb",
+          "definition": "to give someone the latest information",
+          "examples": [
+            "I updated my professor after the interview date changed.",
+            "The nurse updated the family when the patient left surgery."
+          ],
+          "collocations": [
+            "update someone",
+            "regularly update",
+            "update the team"
+          ]
+        },
+        {
+          "term": "negotiate",
+          "part_of_speech": "verb",
+          "definition": "to discuss competing needs in order to reach an agreement",
+          "examples": [
+            "The students negotiated a fair division of the research tasks.",
+            "She negotiated a later start date with her new employer."
+          ],
+          "collocations": [
+            "negotiate terms",
+            "successfully negotiate",
+            "negotiate with",
+            "negotiate a solution"
+          ]
+        },
+        {
+          "term": "delegate",
+          "part_of_speech": "verb",
+          "definition": "to give responsibility for a task to another person",
+          "examples": [
+            "The team leader delegated the survey analysis to someone with statistical experience.",
+            "Good managers delegate work without disappearing from the project."
+          ],
+          "collocations": [
+            "delegate a task",
+            "delegate responsibility",
+            "learn to delegate"
+          ]
+        },
+        {
+          "term": "coordinate",
+          "part_of_speech": "verb",
+          "definition": "to organize people or activities so they work together",
+          "examples": [
+            "Two students coordinated the slides while another rehearsed the introduction.",
+            "The offices coordinate through a shared calendar and weekly call."
+          ],
+          "collocations": [
+            "coordinate a project",
+            "closely coordinate",
+            "coordinate with"
+          ]
+        },
+        {
+          "term": "agenda",
+          "part_of_speech": "noun",
+          "definition": "a list of matters to discuss at a meeting",
+          "examples": [
+            "The chair sent an agenda so everyone could prepare.",
+            "An urgent budget issue was added to the agenda."
+          ],
+          "collocations": [
+            "meeting agenda",
+            "set the agenda",
+            "agenda item",
+            "follow the agenda"
+          ]
+        },
+        {
+          "term": "minutes",
+          "part_of_speech": "plural noun",
+          "definition": "the written record of decisions and actions from a meeting",
+          "examples": [
+            "The minutes showed that Lara had agreed to contact the supplier.",
+            "We approved last week's minutes after correcting a date."
+          ],
+          "collocations": [
+            "meeting minutes",
+            "take minutes",
+            "approve the minutes"
+          ]
+        },
+        {
+          "term": "professional",
+          "part_of_speech": "adjective",
+          "definition": "appropriate, responsible, and respectful in a work setting",
+          "examples": [
+            "Her complaint remained professional even though she was frustrated.",
+            "A professional email needs a clear subject line and a specific request."
+          ],
+          "collocations": [
+            "professional tone",
+            "professional manner",
+            "remain professional"
+          ]
+        },
+        {
+          "term": "office hours",
+          "part_of_speech": "plural noun",
+          "definition": "scheduled times when a teacher is available to help students",
+          "examples": [
+            "I used office hours to ask about feedback on my research question.",
+            "Students often avoid office hours because they think their question is too simple."
+          ],
+          "collocations": [
+            "attend office hours",
+            "during office hours",
+            "hold office hours"
+          ]
+        }
+      ],
+      "phrases": [
+        {
+          "text": "Could you confirm who is responsible for the next step?",
+          "reusable_core": "responsible for the next step"
+        },
+        {
+          "text": "I would raise the concern privately before the meeting.",
+          "reusable_core": "raise the concern privately"
+        },
+        {
+          "text": "The feedback is easier to use when it includes a specific example.",
+          "reusable_core": "includes a specific example"
+        },
+        {
+          "text": "A written summary prevents different memories of the decision.",
+          "reusable_core": "different memories of the decision"
+        },
+        {
+          "text": "I need a little more context before I can answer.",
+          "reusable_core": "a little more context"
+        },
+        {
+          "text": "We should agree on a channel for urgent messages.",
+          "reusable_core": "a channel for urgent messages"
+        },
+        {
+          "text": "The agenda keeps routine discussion from using the entire meeting.",
+          "reusable_core": "using the entire meeting"
+        },
+        {
+          "text": "Delegating a task does not remove responsibility for the result.",
+          "reusable_core": "responsibility for the result"
+        },
+        {
+          "text": "I would ask for feedback while there is still time to revise.",
+          "reusable_core": "still time to revise"
+        }
+      ]
+    },
+    {
+      "title": "Public Speaking and Presentations",
+      "headwords": [
+        {
+          "term": "audience",
+          "part_of_speech": "noun",
+          "definition": "the people watching or listening to a talk or performance",
+          "examples": [
+            "The audience included new students who did not know the technical terms.",
+            "She adjusted her examples after noticing the audience's puzzled reaction."
+          ],
+          "collocations": [
+            "target audience",
+            "engage an audience",
+            "audience member",
+            "address an audience"
+          ]
+        },
+        {
+          "term": "presentation",
+          "part_of_speech": "noun",
+          "definition": "a planned talk that explains or reports something to a group",
+          "examples": [
+            "Our presentation used one graph to support the main claim.",
+            "He rehearsed the presentation aloud rather than silently reading the slides."
+          ],
+          "collocations": [
+            "give a presentation",
+            "prepare a presentation",
+            "oral presentation"
+          ]
+        },
+        {
+          "term": "present",
+          "part_of_speech": "verb",
+          "definition": "to explain information or ideas formally to an audience",
+          "examples": [
+            "I will present our findings at Friday's seminar.",
+            "She presented the proposal without reading every sentence from the screen."
+          ],
+          "collocations": [
+            "present findings",
+            "present an argument",
+            "clearly present"
+          ]
+        },
+        {
+          "term": "rehearse",
+          "part_of_speech": "verb",
+          "definition": "to practise something before performing it publicly",
+          "examples": [
+            "We rehearsed with a timer and shortened the final section.",
+            "He rehearsed the opening until he could make eye contact naturally."
+          ],
+          "collocations": [
+            "rehearse a speech",
+            "rehearse aloud",
+            "carefully rehearse"
+          ]
+        },
+        {
+          "term": "outline",
+          "part_of_speech": "noun",
+          "definition": "a short organized plan showing the main parts of a talk or text",
+          "examples": [
+            "A one-page outline kept me from losing my place.",
+            "The outline put the recommendation before the supporting evidence."
+          ],
+          "collocations": [
+            "clear outline",
+            "prepare an outline",
+            "follow an outline"
+          ]
+        },
+        {
+          "term": "slide",
+          "part_of_speech": "noun",
+          "definition": "one screen in a digital presentation",
+          "examples": [
+            "The slide showed the trend with a labelled line graph.",
+            "Too much text on each slide made the audience read instead of listen."
+          ],
+          "collocations": [
+            "presentation slide",
+            "opening slide",
+            "design a slide",
+            "advance the slide"
+          ]
+        },
+        {
+          "term": "visual aid",
+          "part_of_speech": "noun phrase",
+          "definition": "an image, object, chart, or other visual support for a talk",
+          "examples": [
+            "A map was the most useful visual aid for explaining the route.",
+            "The speaker removed a decorative visual aid that distracted from the data."
+          ],
+          "collocations": [
+            "use a visual aid",
+            "effective visual aid",
+            "simple visual aid"
+          ]
+        },
+        {
+          "term": "stage fright",
+          "part_of_speech": "noun phrase",
+          "definition": "nervousness about speaking or performing before an audience",
+          "examples": [
+            "My stage fright is strongest during the minute before I begin.",
+            "Repeated classroom talks gradually reduced her stage fright."
+          ],
+          "collocations": [
+            "overcome stage fright",
+            "experience stage fright",
+            "severe stage fright"
+          ]
+        },
+        {
+          "term": "pause",
+          "part_of_speech": "verb",
+          "definition": "to stop speaking briefly and intentionally",
+          "examples": [
+            "I paused after the main result so listeners could absorb it.",
+            "She paused to find the right word instead of filling the silence with um."
+          ],
+          "collocations": [
+            "pause briefly",
+            "pause for emphasis",
+            "pause before"
+          ]
+        },
+        {
+          "term": "project",
+          "part_of_speech": "verb",
+          "definition": "to use the voice strongly enough to be heard clearly",
+          "examples": [
+            "The coach taught us to project without shouting.",
+            "He projected his voice toward the back of the hall."
+          ],
+          "collocations": [
+            "project your voice",
+            "project clearly",
+            "learn to project"
+          ]
+        }
+      ],
+      "phrases": [
+        {
+          "text": "I would open with a question that the talk will answer.",
+          "reusable_core": "a question that the talk will answer"
+        },
+        {
+          "text": "The slides should support the speaker rather than replace the speaker.",
+          "reusable_core": "support the speaker"
+        },
+        {
+          "text": "A short pause can emphasize an important result.",
+          "reusable_core": "emphasize an important result"
+        },
+        {
+          "text": "I practise aloud because silent rehearsal hides timing problems.",
+          "reusable_core": "silent rehearsal hides timing problems"
+        },
+        {
+          "text": "The audience needs a clear sign when the topic changes.",
+          "reusable_core": "when the topic changes"
+        },
+        {
+          "text": "One concrete example is more memorable than five abstract claims.",
+          "reusable_core": "more memorable"
+        },
+        {
+          "text": "If I lose my place, I return to the outline.",
+          "reusable_core": "return to the outline"
+        },
+        {
+          "text": "Nervousness usually decreases after I finish the opening.",
+          "reusable_core": "after I finish the opening"
+        },
+        {
+          "text": "Questions reveal which parts of the explanation were unclear.",
+          "reusable_core": "which parts of the explanation were unclear"
+        },
+        {
+          "text": "I would end by restating the action I want listeners to take.",
+          "reusable_core": "the action I want listeners to take"
+        }
+      ]
+    },
+    {
+      "title": "Learning and Using Additional Languages",
+      "headwords": [
+        {
+          "term": "fluent",
+          "part_of_speech": "adjective",
+          "definition": "able to communicate smoothly and effectively in a language",
+          "examples": [
+            "She is fluent enough to lead meetings, although she still checks legal terms.",
+            "Regular conversation made him more fluent than grammar exercises alone."
+          ],
+          "collocations": [
+            "become fluent",
+            "fluent speaker",
+            "reasonably fluent",
+            "fluent in"
+          ]
+        },
+        {
+          "term": "fluency",
+          "part_of_speech": "noun",
+          "definition": "the ability to communicate smoothly without excessive hesitation",
+          "examples": [
+            "Recording short answers helped me notice improvements in fluency.",
+            "Fluency does not require a perfect accent or error-free grammar."
+          ],
+          "collocations": [
+            "speaking fluency",
+            "develop fluency",
+            "improve fluency"
+          ]
+        },
+        {
+          "term": "pronunciation",
+          "part_of_speech": "noun",
+          "definition": "the way words and sounds are spoken",
+          "examples": [
+            "Clear pronunciation matters more than copying one particular accent.",
+            "I checked the pronunciation after listeners confused ship with sheep."
+          ],
+          "collocations": [
+            "clear pronunciation",
+            "practise pronunciation",
+            "pronunciation difficulty"
+          ]
+        },
+        {
+          "term": "accent",
+          "part_of_speech": "noun",
+          "definition": "a recognizable way of pronouncing a language associated with a place or group",
+          "examples": [
+            "Her accent shows where she grew up but does not prevent understanding.",
+            "People sometimes unfairly judge intelligence from an unfamiliar accent."
+          ],
+          "collocations": [
+            "regional accent",
+            "strong accent",
+            "foreign accent",
+            "understand an accent"
+          ]
+        },
+        {
+          "term": "vocabulary",
+          "part_of_speech": "noun",
+          "definition": "the words and phrases a person knows or uses",
+          "examples": [
+            "Reading news about one topic helped me build useful vocabulary in context.",
+            "A large passive vocabulary does not automatically produce fluent speech."
+          ],
+          "collocations": [
+            "build vocabulary",
+            "active vocabulary",
+            "expand your vocabulary"
+          ]
+        },
+        {
+          "term": "circumlocution",
+          "part_of_speech": "noun",
+          "definition": "the strategy of describing an idea when the exact word is unavailable",
+          "examples": [
+            "Circumlocution helped me describe a kettle when I forgot its English name.",
+            "Too much circumlocution can confuse listeners if a simple familiar word is available."
+          ],
+          "collocations": [
+            "use circumlocution",
+            "circumlocution strategy",
+            "practise circumlocution"
+          ]
+        },
+        {
+          "term": "immerse",
+          "part_of_speech": "verb",
+          "definition": "to involve yourself deeply in a language or environment",
+          "examples": [
+            "She immersed herself in Spanish through local clubs and daily radio.",
+            "You can create partial immersion even if you cannot travel abroad."
+          ],
+          "collocations": [
+            "immerse yourself in",
+            "fully immerse yourself",
+            "become immersed in"
+          ]
+        },
+        {
+          "term": "translate",
+          "part_of_speech": "verb",
+          "definition": "to change spoken or written meaning from one language into another",
+          "examples": [
+            "I translated the instructions for my grandparents at the clinic.",
+            "Word-for-word translation made the idiom sound strange."
+          ],
+          "collocations": [
+            "translate into",
+            "accurately translate",
+            "translate a document"
+          ]
+        },
+        {
+          "term": "code-switch",
+          "part_of_speech": "verb",
+          "definition": "to change language or language variety according to the situation or audience",
+          "examples": [
+            "My cousins code-switch between Persian and English during family dinners.",
+            "Employees may code-switch to match formal and informal settings."
+          ],
+          "collocations": [
+            "code-switch between",
+            "frequently code-switch",
+            "learn to code-switch"
+          ]
+        }
+      ],
+      "phrases": [
+        {
+          "text": "I focus on being understood rather than hiding my accent.",
+          "reusable_core": "being understood"
+        },
+        {
+          "text": "If I forget a word, I explain the idea another way.",
+          "reusable_core": "explain the idea another way"
+        },
+        {
+          "text": "Short daily practice is easier to maintain than rare long sessions.",
+          "reusable_core": "easier to maintain"
+        },
+        {
+          "text": "Mistakes show me which part of the language needs attention.",
+          "reusable_core": "needs attention"
+        },
+        {
+          "text": "I learn phrases in situations where I might actually use them.",
+          "reusable_core": "where I might actually use them"
+        },
+        {
+          "text": "Listening becomes difficult when speakers reduce familiar words.",
+          "reusable_core": "reduce familiar words"
+        },
+        {
+          "text": "A conversation partner gives me a reason to respond in real time.",
+          "reusable_core": "respond in real time"
+        },
+        {
+          "text": "Translation is useful, but it cannot explain every cultural meaning.",
+          "reusable_core": "every cultural meaning"
+        },
+        {
+          "text": "Progress is easier to notice in recordings made several months apart.",
+          "reusable_core": "several months apart"
+        },
+        {
+          "text": "I would ask the speaker to slow down without apologizing repeatedly.",
+          "reusable_core": "without apologizing repeatedly"
+        },
+        {
+          "text": "Using simple language accurately is better than forcing impressive vocabulary.",
+          "reusable_core": "simple language accurately"
+        }
+      ]
+    },
+    {
+      "title": "Intercultural Communication and Social Confidence",
+      "headwords": [
+        {
+          "term": "cultural norm",
+          "part_of_speech": "noun phrase",
+          "definition": "a behavior or expectation widely considered usual within a cultural group",
+          "examples": [
+            "Removing shoes indoors is a cultural norm in many households.",
+            "A cultural norm describes a tendency, not every individual."
+          ],
+          "collocations": [
+            "local cultural norm",
+            "follow a cultural norm",
+            "different cultural norms"
+          ]
+        },
+        {
+          "term": "stereotype",
+          "part_of_speech": "noun",
+          "definition": "an oversimplified belief about all members of a group",
+          "examples": [
+            "The training challenged the stereotype that quiet employees lack ideas.",
+            "One friendly encounter cannot confirm a national stereotype."
+          ],
+          "collocations": [
+            "cultural stereotype",
+            "harmful stereotype",
+            "challenge a stereotype",
+            "rely on stereotypes"
+          ]
+        },
+        {
+          "term": "interpret",
+          "part_of_speech": "verb",
+          "definition": "to understand the meaning or intention of something",
+          "examples": [
+            "Visitors interpreted the long silence in different ways.",
+            "I try not to interpret indirect language as dishonesty."
+          ],
+          "collocations": [
+            "interpret a gesture",
+            "interpret as",
+            "correctly interpret"
+          ]
+        },
+        {
+          "term": "inclusive",
+          "part_of_speech": "adjective",
+          "definition": "welcoming and allowing different people to participate",
+          "examples": [
+            "An inclusive discussion gives quieter members time to enter.",
+            "The host used inclusive language that did not assume everyone had children."
+          ],
+          "collocations": [
+            "inclusive language",
+            "inclusive environment",
+            "more inclusive"
+          ]
+        },
+        {
+          "term": "adapt",
+          "part_of_speech": "verb",
+          "definition": "to change behavior or methods to suit a new situation",
+          "examples": [
+            "She adapted her humor when working with an international team.",
+            "I can adapt to local customs without pretending to share every belief."
+          ],
+          "collocations": [
+            "adapt your style",
+            "quickly adapt",
+            "adapt to"
+          ]
+        },
+        {
+          "term": "confidence",
+          "part_of_speech": "noun",
+          "definition": "belief in one's ability to act or speak effectively",
+          "examples": [
+            "Preparation gave me enough confidence to ask the first question.",
+            "His confidence grew through small conversations, not motivational advice alone."
+          ],
+          "collocations": [
+            "build confidence",
+            "gain confidence",
+            "speaking confidence",
+            "quiet confidence"
+          ]
+        },
+        {
+          "term": "self-conscious",
+          "part_of_speech": "adjective",
+          "definition": "uncomfortably worried about how other people see you",
+          "examples": [
+            "I felt self-conscious about my pauses during the first language exchange.",
+            "A supportive partner made her less self-conscious about mistakes."
+          ],
+          "collocations": [
+            "feel self-conscious",
+            "become self-conscious",
+            "less self-conscious"
+          ]
+        },
+        {
+          "term": "approachable",
+          "part_of_speech": "adjective",
+          "definition": "friendly and easy to speak to or ask for help",
+          "examples": [
+            "The professor seemed more approachable after inviting questions informally.",
+            "Open posture can make a receptionist look approachable, but clear words matter too."
+          ],
+          "collocations": [
+            "seem approachable",
+            "friendly and approachable",
+            "make yourself approachable"
+          ]
+        }
+      ],
+      "phrases": [
+        {
+          "text": "I would observe first instead of assuming my habit is universal.",
+          "reusable_core": "my habit is universal"
+        },
+        {
+          "text": "A cultural pattern should not become a judgment about an individual.",
+          "reusable_core": "a judgment about an individual"
+        },
+        {
+          "text": "When I am unsure, a respectful question is safer than a guess.",
+          "reusable_core": "safer than a guess"
+        },
+        {
+          "text": "Inclusive groups make room for people who need more time to respond.",
+          "reusable_core": "need more time to respond"
+        },
+        {
+          "text": "Confidence grows through manageable interactions.",
+          "reusable_core": "manageable interactions"
+        },
+        {
+          "text": "I can adapt my style without losing my personality.",
+          "reusable_core": "without losing my personality"
+        },
+        {
+          "text": "Humor is difficult to transfer across languages and cultures.",
+          "reusable_core": "difficult to transfer"
+        },
+        {
+          "text": "An unfamiliar communication style is not automatically rude.",
+          "reusable_core": "not automatically rude"
+        },
+        {
+          "text": "I would learn the person's preference rather than rely on a stereotype.",
+          "reusable_core": "rather than rely on a stereotype"
+        },
+        {
+          "text": "Shared tasks can make first conversations feel less forced.",
+          "reusable_core": "less forced"
+        },
+        {
+          "text": "It is reasonable to explain my own boundary politely.",
+          "reusable_core": "explain my own boundary politely"
+        },
+        {
+          "text": "Curiosity works best when it is paired with respect.",
+          "reusable_core": "paired with respect"
+        }
+      ]
+    }
+  ]
+}

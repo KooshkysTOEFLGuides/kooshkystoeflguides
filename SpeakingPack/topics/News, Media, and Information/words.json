@@ -1,0 +1,2012 @@
+{
+  "schema_version": 1,
+  "topic": "News, Media, and Information",
+  "coverage_map": [
+    "following the news",
+    "traditional and online news",
+    "social media as a news source",
+    "reliable sources",
+    "misinformation and fake news",
+    "fact-checking",
+    "media literacy",
+    "documentaries and podcasts",
+    "short videos",
+    "educational and entertainment media",
+    "biased reporting and framing",
+    "public awareness",
+    "current events",
+    "trust in media",
+    "information overload",
+    "press freedom and accountability",
+    "algorithms and personalization",
+    "future of news"
+  ],
+  "sections": [
+    {
+      "title": "Following News and Current Events",
+      "headwords": [
+        {
+          "term": "news",
+          "part_of_speech": "noun",
+          "definition": "new information about important or recent events",
+          "examples": [
+            "I usually check the news after breakfast rather than throughout the day.",
+            "The local news explained why several roads would close that evening."
+          ],
+          "collocations": [
+            "follow the news",
+            "local news",
+            "breaking news",
+            "news coverage",
+            "news report",
+            "news update"
+          ]
+        },
+        {
+          "term": "current affairs",
+          "part_of_speech": "plural noun",
+          "definition": "political, social, and economic events being discussed now",
+          "examples": [
+            "Our teacher uses a weekly podcast to introduce current affairs.",
+            "Understanding current affairs helps voters evaluate public decisions."
+          ],
+          "collocations": [
+            "current-affairs program",
+            "interest in current affairs",
+            "discuss current affairs"
+          ]
+        },
+        {
+          "term": "headline",
+          "part_of_speech": "noun",
+          "definition": "the title of a news report, designed to summarize or attract attention",
+          "examples": [
+            "The headline sounded alarming, but the article described a small change.",
+            "I read beyond the headline before sharing the story."
+          ],
+          "collocations": [
+            "news headline",
+            "front-page headline",
+            "headline story",
+            "read the headline",
+            "misleading headline"
+          ]
+        },
+        {
+          "term": "bulletin",
+          "part_of_speech": "noun",
+          "definition": "a short official news program or announcement",
+          "examples": [
+            "The radio interrupted its music program for an emergency bulletin.",
+            "A five-minute bulletin gives commuters the main events without much analysis."
+          ],
+          "collocations": [
+            "news bulletin",
+            "weather bulletin",
+            "issue a bulletin",
+            "hourly bulletin"
+          ]
+        },
+        {
+          "term": "update",
+          "part_of_speech": "noun",
+          "definition": "the latest information about a developing situation",
+          "examples": [
+            "The transport agency posted an update after the storm damaged the railway.",
+            "I turned off automatic updates because they were distracting me during class."
+          ],
+          "collocations": [
+            "latest update",
+            "regular update",
+            "news update",
+            "provide an update",
+            "live updates"
+          ]
+        },
+        {
+          "term": "update",
+          "part_of_speech": "verb",
+          "definition": "to give someone the newest information or make information current",
+          "examples": [
+            "The reporter updated the article when officials released corrected figures.",
+            "Please update me if the meeting time changes."
+          ],
+          "collocations": [
+            "update a report",
+            "update the public",
+            "regularly update",
+            "keep someone updated"
+          ]
+        },
+        {
+          "term": "breaking news",
+          "part_of_speech": "noun phrase",
+          "definition": "information about an important event that is still developing",
+          "examples": [
+            "The channel treated a celebrity argument as breaking news, which seemed excessive.",
+            "During genuine breaking news, early details may be incomplete."
+          ],
+          "collocations": [
+            "breaking-news alert",
+            "breaking-news coverage",
+            "follow breaking news"
+          ]
+        },
+        {
+          "term": "news cycle",
+          "part_of_speech": "noun phrase",
+          "definition": "the continuous process through which news is reported and replaced by newer stories",
+          "examples": [
+            "The scandal dominated the news cycle for two days and then disappeared.",
+            "A fast news cycle leaves little time to explain complicated policies."
+          ],
+          "collocations": [
+            "twenty-four-hour news cycle",
+            "dominate the news cycle",
+            "rapid news cycle"
+          ]
+        },
+        {
+          "term": "subscriber",
+          "part_of_speech": "noun",
+          "definition": "a person who pays for or regularly signs up to receive media content",
+          "examples": [
+            "Digital subscribers can read the newspaper without advertising.",
+            "The newsletter gained subscribers by explaining one issue clearly each morning."
+          ],
+          "collocations": [
+            "paying subscriber",
+            "digital subscriber",
+            "gain subscribers",
+            "subscriber base"
+          ]
+        },
+        {
+          "term": "subscription",
+          "part_of_speech": "noun",
+          "definition": "an arrangement to receive content regularly, often by paying",
+          "examples": [
+            "My library provides a subscription to several major newspapers.",
+            "I canceled the subscription because I rarely used the app."
+          ],
+          "collocations": [
+            "monthly subscription",
+            "digital subscription",
+            "cancel a subscription",
+            "subscription fee",
+            "subscription service"
+          ]
+        },
+        {
+          "term": "news outlet",
+          "part_of_speech": "noun phrase",
+          "definition": "an organization that publishes or broadcasts news",
+          "examples": [
+            "Several news outlets sent reporters to the flooded region.",
+            "A small local outlet may understand the community better than a national channel."
+          ],
+          "collocations": [
+            "local news outlet",
+            "major news outlet",
+            "independent news outlet",
+            "trusted news outlet"
+          ]
+        },
+        {
+          "term": "current event",
+          "part_of_speech": "noun phrase",
+          "definition": "an important event happening now or recently",
+          "examples": [
+            "Students chose one current event and compared how three sources covered it.",
+            "A current event can become easier to understand when its history is explained."
+          ],
+          "collocations": [
+            "discuss current events",
+            "major current event",
+            "current-events lesson"
+          ]
+        }
+      ],
+      "phrases": [
+        {
+          "text": "I usually catch up on the news once or twice a day.",
+          "reusable_core": "catch up on the news"
+        },
+        {
+          "text": "The story is still developing, so the details may change.",
+          "reusable_core": "still developing"
+        },
+        {
+          "text": "I try to read beyond the headline.",
+          "reusable_core": "read beyond the headline"
+        },
+        {
+          "text": "Local reporting affects my daily decisions more directly.",
+          "reusable_core": "affects my daily decisions"
+        },
+        {
+          "text": "A short bulletin gives me the main facts.",
+          "reusable_core": "the main facts"
+        },
+        {
+          "text": "I don't want constant alerts interrupting my attention.",
+          "reusable_core": "constant alerts"
+        },
+        {
+          "text": "The issue remained in the news for several weeks.",
+          "reusable_core": "remained in the news"
+        },
+        {
+          "text": "I heard about the event through a trusted outlet.",
+          "reusable_core": "through a trusted outlet"
+        },
+        {
+          "text": "The report provided useful background rather than another quick update.",
+          "reusable_core": "useful background"
+        },
+        {
+          "text": "I follow current affairs because public decisions affect ordinary life.",
+          "reusable_core": "affect ordinary life"
+        },
+        {
+          "text": "Early reports should be treated with caution.",
+          "reusable_core": "treated with caution"
+        },
+        {
+          "text": "A subscription can support reporting that takes time and expertise.",
+          "reusable_core": "support reporting"
+        }
+      ]
+    },
+    {
+      "title": "Reporting, Editing, and News Production",
+      "headwords": [
+        {
+          "term": "journalist",
+          "part_of_speech": "noun",
+          "definition": "a person who investigates, writes, or broadcasts news",
+          "examples": [
+            "The journalist interviewed residents before describing the housing dispute.",
+            "A responsible journalist corrects a factual error openly."
+          ],
+          "collocations": [
+            "investigative journalist",
+            "local journalist",
+            "independent journalist",
+            "experienced journalist",
+            "protect journalists"
+          ]
+        },
+        {
+          "term": "reporter",
+          "part_of_speech": "noun",
+          "definition": "a journalist who gathers information and reports from events or locations",
+          "examples": [
+            "A reporter at the courthouse explained the decision in plain language.",
+            "The sports reporter spoke with both teams after the match."
+          ],
+          "collocations": [
+            "news reporter",
+            "field reporter",
+            "reporter covering a story",
+            "reporter on the scene"
+          ]
+        },
+        {
+          "term": "editor",
+          "part_of_speech": "noun",
+          "definition": "a person who selects, checks, and improves material before publication",
+          "examples": [
+            "The editor asked for stronger evidence before approving the article.",
+            "A local editor decided that the school closure deserved front-page attention."
+          ],
+          "collocations": [
+            "news editor",
+            "chief editor",
+            "copy editor",
+            "editorial decision",
+            "experienced editor"
+          ]
+        },
+        {
+          "term": "correspondent",
+          "part_of_speech": "noun",
+          "definition": "a journalist who reports regularly from a particular place or subject area",
+          "examples": [
+            "The foreign correspondent described how the election affected rural communities.",
+            "A science correspondent translated a technical study for general listeners."
+          ],
+          "collocations": [
+            "foreign correspondent",
+            "war correspondent",
+            "political correspondent",
+            "special correspondent"
+          ]
+        },
+        {
+          "term": "source",
+          "part_of_speech": "noun",
+          "definition": "a person, document, or organization that provides information",
+          "examples": [
+            "The article named the public report as its main source.",
+            "One anonymous source is not enough to confirm a serious accusation."
+          ],
+          "collocations": [
+            "reliable source",
+            "primary source",
+            "anonymous source",
+            "check a source",
+            "news source",
+            "source of information"
+          ]
+        },
+        {
+          "term": "interview",
+          "part_of_speech": "verb",
+          "definition": "to ask someone questions in order to gather information for a report",
+          "examples": [
+            "The journalist interviewed shop owners affected by the new road.",
+            "Before publishing, she interviewed an expert who disagreed with her first source."
+          ],
+          "collocations": [
+            "interview a witness",
+            "interview an expert",
+            "be interviewed by",
+            "conduct an interview"
+          ]
+        },
+        {
+          "term": "investigate",
+          "part_of_speech": "verb",
+          "definition": "to examine an issue carefully in order to discover facts",
+          "examples": [
+            "Reporters investigated why public funds had not reached the clinic.",
+            "The newspaper spent months investigating unsafe conditions at the factory."
+          ],
+          "collocations": [
+            "investigate a claim",
+            "investigate corruption",
+            "thoroughly investigate",
+            "investigative reporting"
+          ]
+        },
+        {
+          "term": "verify",
+          "part_of_speech": "verb",
+          "definition": "to check that information is accurate or genuine",
+          "examples": [
+            "Editors verified the photograph's date before using it.",
+            "I could not verify the claim on any official website."
+          ],
+          "collocations": [
+            "verify information",
+            "verify a source",
+            "independently verify",
+            "verify a claim",
+            "verification process"
+          ]
+        },
+        {
+          "term": "publish",
+          "part_of_speech": "verb",
+          "definition": "to make written or recorded material available to the public",
+          "examples": [
+            "The magazine published a correction beside the online article.",
+            "Anyone can publish a video, but that does not make it reliable."
+          ],
+          "collocations": [
+            "publish an article",
+            "publish online",
+            "publish findings",
+            "publish a correction"
+          ]
+        },
+        {
+          "term": "broadcast",
+          "part_of_speech": "verb",
+          "definition": "to transmit a program by television, radio, or online media",
+          "examples": [
+            "The station broadcast the debate live from the university.",
+            "Public channels broadcast emergency instructions in several languages."
+          ],
+          "collocations": [
+            "broadcast live",
+            "broadcast a program",
+            "nationally broadcast",
+            "broadcast news"
+          ]
+        },
+        {
+          "term": "coverage",
+          "part_of_speech": "noun",
+          "definition": "the reporting given to an event or subject",
+          "examples": [
+            "Local coverage focused on how the policy would affect bus passengers.",
+            "The disaster received extensive coverage while a slower health crisis was ignored."
+          ],
+          "collocations": [
+            "media coverage",
+            "news coverage",
+            "extensive coverage",
+            "balanced coverage",
+            "coverage of an event"
+          ]
+        }
+      ],
+      "phrases": [
+        {
+          "text": "The reporter spoke to people on both sides of the dispute.",
+          "reusable_core": "both sides of the dispute"
+        },
+        {
+          "text": "The article draws on public records and firsthand interviews.",
+          "reusable_core": "draws on"
+        },
+        {
+          "text": "Editors need enough time to check important details.",
+          "reusable_core": "check important details"
+        },
+        {
+          "text": "The outlet issued a clear correction.",
+          "reusable_core": "issued a clear correction"
+        },
+        {
+          "text": "The investigation revealed a problem that officials had overlooked.",
+          "reusable_core": "revealed a problem"
+        },
+        {
+          "text": "The source requested anonymity for safety reasons.",
+          "reusable_core": "requested anonymity"
+        },
+        {
+          "text": "The report separates confirmed facts from unanswered questions.",
+          "reusable_core": "confirmed facts"
+        },
+        {
+          "text": "Live coverage can show events quickly but without full context.",
+          "reusable_core": "without full context"
+        },
+        {
+          "text": "The journalist translated technical language for a general audience.",
+          "reusable_core": "for a general audience"
+        },
+        {
+          "text": "Good reporting explains how the information was obtained.",
+          "reusable_core": "how the information was obtained"
+        },
+        {
+          "text": "The editor decided the claim needed another independent source.",
+          "reusable_core": "another independent source"
+        }
+      ]
+    },
+    {
+      "title": "Sources, Evidence, and Reliability",
+      "headwords": [
+        {
+          "term": "reliable",
+          "part_of_speech": "adjective",
+          "definition": "consistently accurate and worthy of trust",
+          "examples": [
+            "A reliable source explains where its numbers came from.",
+            "I prefer a reliable local newspaper to an unknown account with dramatic posts."
+          ],
+          "collocations": [
+            "reliable information",
+            "reliable source",
+            "generally reliable",
+            "prove reliable"
+          ]
+        },
+        {
+          "term": "credible",
+          "part_of_speech": "adjective",
+          "definition": "believable because of strong evidence, expertise, or a trustworthy record",
+          "examples": [
+            "The explanation became more credible when the researchers published their methods.",
+            "A professional-looking website is not automatically credible."
+          ],
+          "collocations": [
+            "credible evidence",
+            "credible source",
+            "highly credible",
+            "appear credible",
+            "credible account"
+          ]
+        },
+        {
+          "term": "evidence",
+          "part_of_speech": "noun",
+          "definition": "facts or material that support or challenge a claim",
+          "examples": [
+            "The video offered evidence that the road had flooded before the warning.",
+            "There is not enough evidence to blame one person for the failure."
+          ],
+          "collocations": [
+            "strong evidence",
+            "supporting evidence",
+            "provide evidence",
+            "evidence suggests",
+            "lack of evidence"
+          ]
+        },
+        {
+          "term": "claim",
+          "part_of_speech": "noun",
+          "definition": "a statement presented as true, although it may still need proof",
+          "examples": [
+            "The health claim spread widely before doctors examined it.",
+            "Readers should distinguish the company's claim from an independently tested result."
+          ],
+          "collocations": [
+            "make a claim",
+            "false claim",
+            "unsupported claim",
+            "verify a claim",
+            "question a claim"
+          ]
+        },
+        {
+          "term": "claim",
+          "part_of_speech": "verb",
+          "definition": "to state that something is true, sometimes without proving it",
+          "examples": [
+            "The post claimed that voting hours had changed, but the official notice showed they had not.",
+            "A witness claimed to have seen smoke before the alarm sounded."
+          ],
+          "collocations": [
+            "claim that",
+            "claim responsibility",
+            "falsely claim",
+            "claim to know"
+          ]
+        },
+        {
+          "term": "firsthand",
+          "part_of_speech": "adjective",
+          "definition": "obtained directly from personal experience or an original witness",
+          "examples": [
+            "The reporter collected firsthand accounts from passengers on the train.",
+            "Firsthand evidence can be valuable, but memory is not always exact."
+          ],
+          "collocations": [
+            "firsthand account",
+            "firsthand experience",
+            "firsthand evidence",
+            "firsthand knowledge"
+          ]
+        },
+        {
+          "term": "primary source",
+          "part_of_speech": "noun phrase",
+          "definition": "an original document, recording, dataset, or witness connected directly to an event",
+          "examples": [
+            "The full court decision is a primary source, while a news summary is not.",
+            "Students examined campaign speeches as primary sources."
+          ],
+          "collocations": [
+            "consult a primary source",
+            "original primary source",
+            "primary-source material"
+          ]
+        },
+        {
+          "term": "context",
+          "part_of_speech": "noun",
+          "definition": "background information needed to understand the meaning or importance of something",
+          "examples": [
+            "The chart looked frightening until the article provided ten years of context.",
+            "A quotation taken out of context can suggest the opposite of what was meant."
+          ],
+          "collocations": [
+            "provide context",
+            "historical context",
+            "broader context",
+            "in context",
+            "without context"
+          ]
+        },
+        {
+          "term": "transparent",
+          "part_of_speech": "adjective",
+          "definition": "open about methods, evidence, interests, or mistakes",
+          "examples": [
+            "The outlet was transparent about why it removed the photograph.",
+            "Transparent funding information helps readers notice possible conflicts of interest."
+          ],
+          "collocations": [
+            "fully transparent",
+            "transparent process",
+            "transparent about sources",
+            "remain transparent"
+          ]
+        },
+        {
+          "term": "corroborate",
+          "part_of_speech": "verb",
+          "definition": "to provide additional evidence that confirms a statement or account",
+          "examples": [
+            "Phone records corroborated the witness's description of the timeline.",
+            "Editors waited for a second source to corroborate the allegation."
+          ],
+          "collocations": [
+            "corroborate a claim",
+            "corroborate an account",
+            "independently corroborate",
+            "corroborating evidence"
+          ]
+        }
+      ],
+      "phrases": [
+        {
+          "text": "I would check who produced the information and why.",
+          "reusable_core": "who produced the information and why"
+        },
+        {
+          "text": "The article links directly to the original report.",
+          "reusable_core": "the original report"
+        },
+        {
+          "text": "Several independent sources confirmed the same basic facts.",
+          "reusable_core": "independent sources"
+        },
+        {
+          "text": "The evidence supports a limited conclusion, not the dramatic headline.",
+          "reusable_core": "a limited conclusion"
+        },
+        {
+          "text": "The quotation needs more context.",
+          "reusable_core": "needs more context"
+        },
+        {
+          "text": "Expertise matters when the subject is technical.",
+          "reusable_core": "when the subject is technical"
+        },
+        {
+          "text": "A trustworthy outlet explains what it still does not know.",
+          "reusable_core": "what it still does not know"
+        },
+        {
+          "text": "The author's financial interest should be disclosed.",
+          "reusable_core": "should be disclosed"
+        },
+        {
+          "text": "I could trace the statistic back to a public dataset.",
+          "reusable_core": "trace the statistic back"
+        },
+        {
+          "text": "A single personal story cannot prove a general trend.",
+          "reusable_core": "cannot prove a general trend"
+        }
+      ]
+    },
+    {
+      "title": "Misinformation, Manipulation, and Fact-Checking",
+      "headwords": [
+        {
+          "term": "misinformation",
+          "part_of_speech": "noun",
+          "definition": "false or inaccurate information shared with or without an intention to deceive",
+          "examples": [
+            "Misinformation about the storm caused some residents to avoid a safe shelter.",
+            "A relative shared the misinformation because the message looked official."
+          ],
+          "collocations": [
+            "spread misinformation",
+            "online misinformation",
+            "combat misinformation",
+            "misinformation campaign"
+          ]
+        },
+        {
+          "term": "disinformation",
+          "part_of_speech": "noun",
+          "definition": "false information deliberately created or shared to deceive people",
+          "examples": [
+            "The fake accounts posted disinformation to reduce trust in the election.",
+            "Disinformation often mixes real details with a false central story."
+          ],
+          "collocations": [
+            "spread disinformation",
+            "deliberate disinformation",
+            "disinformation campaign",
+            "counter disinformation"
+          ]
+        },
+        {
+          "term": "fake news",
+          "part_of_speech": "noun phrase",
+          "definition": "invented or seriously distorted material presented in the style of news",
+          "examples": [
+            "The fake news story copied the design of a familiar newspaper.",
+            "Calling every unfavorable report fake news makes useful criticism harder to discuss."
+          ],
+          "collocations": [
+            "fake-news story",
+            "spread fake news",
+            "identify fake news",
+            "fake-news website"
+          ]
+        },
+        {
+          "term": "rumor",
+          "part_of_speech": "noun",
+          "definition": "unconfirmed information passed from person to person",
+          "examples": [
+            "A rumor about school closures circulated before any official announcement.",
+            "The company addressed the rumor because employees were becoming anxious."
+          ],
+          "collocations": [
+            "spread a rumor",
+            "false rumor",
+            "online rumor",
+            "rumor circulates",
+            "confirm a rumor"
+          ]
+        },
+        {
+          "term": "hoax",
+          "part_of_speech": "noun",
+          "definition": "a planned deception intended to make people believe something false",
+          "examples": [
+            "The photograph of the unusual animal turned out to be a hoax.",
+            "Emergency workers wasted time responding to an online hoax."
+          ],
+          "collocations": [
+            "online hoax",
+            "elaborate hoax",
+            "expose a hoax",
+            "hoax message"
+          ]
+        },
+        {
+          "term": "fabricate",
+          "part_of_speech": "verb",
+          "definition": "to invent false information, evidence, or a story",
+          "examples": [
+            "The account fabricated quotations and attributed them to a real scientist.",
+            "A reporter who fabricates evidence damages trust in the whole outlet."
+          ],
+          "collocations": [
+            "fabricate a story",
+            "fabricate evidence",
+            "completely fabricated",
+            "fabricated quote"
+          ]
+        },
+        {
+          "term": "misleading",
+          "part_of_speech": "adjective",
+          "definition": "likely to create a false impression without necessarily being completely untrue",
+          "examples": [
+            "The graph was misleading because its vertical scale began at ninety percent.",
+            "A technically accurate but misleading headline omitted the study's main limitation."
+          ],
+          "collocations": [
+            "misleading headline",
+            "misleading information",
+            "highly misleading",
+            "potentially misleading"
+          ]
+        },
+        {
+          "term": "fact-check",
+          "part_of_speech": "verb",
+          "definition": "to investigate whether a public claim is accurate",
+          "examples": [
+            "The organization fact-checked statements made during the debate.",
+            "Before sharing the image, I fact-checked its date and location."
+          ],
+          "collocations": [
+            "fact-check a claim",
+            "independently fact-check",
+            "fact-check information",
+            "fact-checking service"
+          ]
+        },
+        {
+          "term": "debunk",
+          "part_of_speech": "verb",
+          "definition": "to show with evidence that a belief or claim is false",
+          "examples": [
+            "Medical researchers debunked the popular claim about the vitamin.",
+            "The correction arrived too late to debunk the rumor for everyone who saw it."
+          ],
+          "collocations": [
+            "debunk a myth",
+            "debunk a claim",
+            "widely debunked",
+            "attempt to debunk"
+          ]
+        },
+        {
+          "term": "manipulate",
+          "part_of_speech": "verb",
+          "definition": "to control or alter information unfairly in order to influence people",
+          "examples": [
+            "The video was edited to manipulate viewers' emotional reaction.",
+            "A campaign can manipulate statistics by selecting only favorable years."
+          ],
+          "collocations": [
+            "manipulate public opinion",
+            "manipulate an image",
+            "emotionally manipulate",
+            "manipulated content"
+          ]
+        }
+      ],
+      "phrases": [
+        {
+          "text": "The post contains a real image with a false description.",
+          "reusable_core": "a real image with a false description"
+        },
+        {
+          "text": "I would pause before sharing an emotional claim.",
+          "reusable_core": "pause before sharing"
+        },
+        {
+          "text": "The correction did not reach everyone who saw the rumor.",
+          "reusable_core": "did not reach everyone"
+        },
+        {
+          "text": "False information often travels faster than careful verification.",
+          "reusable_core": "careful verification"
+        },
+        {
+          "text": "The graph creates a misleading impression by hiding its scale.",
+          "reusable_core": "hiding its scale"
+        },
+        {
+          "text": "The account imitates the appearance of a genuine news outlet.",
+          "reusable_core": "imitates the appearance"
+        },
+        {
+          "text": "A fact-check should link to the evidence it uses.",
+          "reusable_core": "link to the evidence"
+        },
+        {
+          "text": "Repeating a false claim can accidentally make it more familiar.",
+          "reusable_core": "make it more familiar"
+        },
+        {
+          "text": "The story combines accurate details with an invented conclusion.",
+          "reusable_core": "an invented conclusion"
+        }
+      ]
+    },
+    {
+      "title": "Bias, Framing, and Representation",
+      "headwords": [
+        {
+          "term": "bias",
+          "part_of_speech": "noun",
+          "definition": "a preference or tendency that unfairly shapes judgment or presentation",
+          "examples": [
+            "The report showed bias by interviewing only business owners and no workers.",
+            "Everyone has some bias, so transparent methods and diverse sources matter."
+          ],
+          "collocations": [
+            "media bias",
+            "political bias",
+            "show bias",
+            "reduce bias",
+            "unconscious bias"
+          ]
+        },
+        {
+          "term": "biased",
+          "part_of_speech": "adjective",
+          "definition": "influenced by an unfair preference for one side or group",
+          "examples": [
+            "The documentary felt biased because it ignored evidence that challenged its argument.",
+            "A source can be biased and still provide some accurate facts."
+          ],
+          "collocations": [
+            "biased reporting",
+            "politically biased",
+            "biased against",
+            "biased in favor of"
+          ]
+        },
+        {
+          "term": "neutral",
+          "part_of_speech": "adjective",
+          "definition": "not supporting one side in a disagreement",
+          "examples": [
+            "The presenter used neutral language while explaining both proposals.",
+            "Complete neutrality may be impossible, but factual standards are still useful."
+          ],
+          "collocations": [
+            "neutral tone",
+            "politically neutral",
+            "remain neutral",
+            "neutral description"
+          ]
+        },
+        {
+          "term": "balanced",
+          "part_of_speech": "adjective",
+          "definition": "including relevant evidence and important perspectives in fair proportion",
+          "examples": [
+            "A balanced report does not need to give equal time to a proven fact and a baseless claim.",
+            "The podcast offered a balanced discussion of the policy's costs and benefits."
+          ],
+          "collocations": [
+            "balanced coverage",
+            "balanced view",
+            "fair and balanced",
+            "balanced discussion"
+          ]
+        },
+        {
+          "term": "frame",
+          "part_of_speech": "verb",
+          "definition": "to present an issue from a particular angle that influences interpretation",
+          "examples": [
+            "One headline framed the protest as disruption, while another emphasized its demands.",
+            "The interviewer framed the question in a way that assumed the policy had failed."
+          ],
+          "collocations": [
+            "frame an issue",
+            "frame a debate",
+            "positively framed",
+            "frame as a conflict"
+          ]
+        },
+        {
+          "term": "framing",
+          "part_of_speech": "noun",
+          "definition": "the particular angle or language used to present information",
+          "examples": [
+            "The framing focused attention on individual behavior rather than government policy.",
+            "Comparing the framing across outlets revealed different assumptions."
+          ],
+          "collocations": [
+            "media framing",
+            "political framing",
+            "framing of an issue",
+            "different framing"
+          ]
+        },
+        {
+          "term": "perspective",
+          "part_of_speech": "noun",
+          "definition": "a particular way of understanding an event based on experience or position",
+          "examples": [
+            "Local residents offered a perspective missing from the national report.",
+            "Reading another perspective does not require accepting every claim it contains."
+          ],
+          "collocations": [
+            "different perspective",
+            "broader perspective",
+            "offer a perspective",
+            "from the perspective of"
+          ]
+        },
+        {
+          "term": "stereotype",
+          "part_of_speech": "noun",
+          "definition": "an oversimplified and fixed idea about a group of people",
+          "examples": [
+            "The program challenged the stereotype that older adults avoid technology.",
+            "Repeated stereotypes can influence hiring even when viewers know a show is fictional."
+          ],
+          "collocations": [
+            "negative stereotype",
+            "challenge a stereotype",
+            "reinforce stereotypes",
+            "cultural stereotype"
+          ]
+        }
+      ],
+      "phrases": [
+        {
+          "text": "The choice of words shapes how the audience sees the event.",
+          "reusable_core": "shapes how the audience sees"
+        },
+        {
+          "text": "The report leaves out a perspective that is directly affected.",
+          "reusable_core": "leaves out a perspective"
+        },
+        {
+          "text": "Balance does not mean treating evidence and speculation as equal.",
+          "reusable_core": "treating evidence and speculation as equal"
+        },
+        {
+          "text": "I compare how different outlets frame the same story.",
+          "reusable_core": "frame the same story"
+        },
+        {
+          "text": "The image encourages sympathy before the facts are explained.",
+          "reusable_core": "encourages sympathy"
+        },
+        {
+          "text": "A source can be accurate on one point and biased overall.",
+          "reusable_core": "biased overall"
+        },
+        {
+          "text": "The coverage reinforced an old stereotype.",
+          "reusable_core": "reinforced an old stereotype"
+        },
+        {
+          "text": "Neutral wording makes the factual question easier to discuss.",
+          "reusable_core": "Neutral wording"
+        }
+      ]
+    },
+    {
+      "title": "Media Literacy and Responsible Consumption",
+      "headwords": [
+        {
+          "term": "media literacy",
+          "part_of_speech": "noun phrase",
+          "definition": "the ability to access, examine, evaluate, and create media thoughtfully",
+          "examples": [
+            "Media literacy helps students notice when an advertisement looks like an ordinary article.",
+            "A media-literacy lesson compared the evidence behind three viral claims."
+          ],
+          "collocations": [
+            "media-literacy skills",
+            "teach media literacy",
+            "improve media literacy",
+            "media-literacy education"
+          ]
+        },
+        {
+          "term": "evaluate",
+          "part_of_speech": "verb",
+          "definition": "to judge quality or value using relevant evidence and criteria",
+          "examples": [
+            "Readers should evaluate the source before reacting to a surprising claim.",
+            "We evaluated the article by checking its author, evidence, and publication date."
+          ],
+          "collocations": [
+            "evaluate a source",
+            "critically evaluate",
+            "evaluate evidence",
+            "evaluate reliability"
+          ]
+        },
+        {
+          "term": "cross-check",
+          "part_of_speech": "verb",
+          "definition": "to compare information with another independent source",
+          "examples": [
+            "I cross-checked the closure notice on the city's official website.",
+            "Editors cross-check names and figures before publication."
+          ],
+          "collocations": [
+            "cross-check information",
+            "cross-check a claim",
+            "cross-check against records"
+          ]
+        },
+        {
+          "term": "distinguish",
+          "part_of_speech": "verb",
+          "definition": "to recognize the difference between similar things",
+          "examples": [
+            "Young viewers need to distinguish sponsored content from independent advice.",
+            "The article clearly distinguished confirmed facts from the reporter's analysis."
+          ],
+          "collocations": [
+            "distinguish between",
+            "clearly distinguish",
+            "difficult to distinguish",
+            "distinguish fact from opinion"
+          ]
+        },
+        {
+          "term": "interpret",
+          "part_of_speech": "verb",
+          "definition": "to decide what information means within its context",
+          "examples": [
+            "Two commentators interpreted the same employment figures differently.",
+            "Readers need the full scale to interpret a graph accurately."
+          ],
+          "collocations": [
+            "interpret data",
+            "interpret a message",
+            "correctly interpret",
+            "open to interpretation"
+          ]
+        },
+        {
+          "term": "source-checking",
+          "part_of_speech": "noun",
+          "definition": "the practice of examining where information originated and whether that origin is trustworthy",
+          "examples": [
+            "Source-checking revealed that the viral quotation came from a parody account.",
+            "Simple source-checking can stop a false story before someone shares it."
+          ],
+          "collocations": [
+            "basic source-checking",
+            "source-checking habit",
+            "careful source-checking"
+          ]
+        },
+        {
+          "term": "sponsored",
+          "part_of_speech": "adjective",
+          "definition": "paid for by a company or organization as promotion",
+          "examples": [
+            "The influencer marked the phone review as sponsored content.",
+            "A sponsored article may contain useful facts, but its commercial purpose should be visible."
+          ],
+          "collocations": [
+            "sponsored content",
+            "sponsored post",
+            "sponsored article",
+            "clearly sponsored"
+          ]
+        },
+        {
+          "term": "algorithm",
+          "part_of_speech": "noun",
+          "definition": "a set of computer rules used to select, rank, or recommend content",
+          "examples": [
+            "The platform's algorithm kept recommending similar political videos.",
+            "An algorithm may reward attention without checking whether a story is accurate."
+          ],
+          "collocations": [
+            "recommendation algorithm",
+            "ranking algorithm",
+            "algorithm selects",
+            "algorithmic system"
+          ]
+        },
+        {
+          "term": "filter bubble",
+          "part_of_speech": "noun phrase",
+          "definition": "an information environment where personalized systems repeatedly show similar views",
+          "examples": [
+            "Following only recommended accounts placed him in a filter bubble.",
+            "A filter bubble can make a widely disputed belief appear normal and universal."
+          ],
+          "collocations": [
+            "online filter bubble",
+            "escape a filter bubble",
+            "create a filter bubble"
+          ]
+        },
+        {
+          "term": "echo chamber",
+          "part_of_speech": "noun phrase",
+          "definition": "a group or space where the same opinions are repeated and rarely challenged",
+          "examples": [
+            "The discussion group became an echo chamber after dissenting members left.",
+            "Inside an echo chamber, repetition may be mistaken for independent confirmation."
+          ],
+          "collocations": [
+            "political echo chamber",
+            "online echo chamber",
+            "create an echo chamber",
+            "escape an echo chamber"
+          ]
+        },
+        {
+          "term": "digital footprint",
+          "part_of_speech": "noun phrase",
+          "definition": "the lasting record created by a person's online activity",
+          "examples": [
+            "Sharing an unverified accusation can become part of someone's digital footprint.",
+            "Teenagers should know that an old public post may be found years later."
+          ],
+          "collocations": [
+            "online digital footprint",
+            "manage a digital footprint",
+            "permanent digital footprint"
+          ]
+        }
+      ],
+      "phrases": [
+        {
+          "text": "I ask whether the content is informing me or selling something.",
+          "reusable_core": "informing me or selling something"
+        },
+        {
+          "text": "The publication date matters when advice can become outdated.",
+          "reusable_core": "The publication date matters"
+        },
+        {
+          "text": "I look for the same fact in an independent source.",
+          "reusable_core": "in an independent source"
+        },
+        {
+          "text": "The account has a large audience, but that does not prove expertise.",
+          "reusable_core": "does not prove expertise"
+        },
+        {
+          "text": "The recommendation system keeps showing me similar viewpoints.",
+          "reusable_core": "similar viewpoints"
+        },
+        {
+          "text": "I separate the author's evidence from the author's conclusion.",
+          "reusable_core": "evidence from the author's conclusion"
+        },
+        {
+          "text": "The label makes the commercial relationship clear.",
+          "reusable_core": "commercial relationship"
+        },
+        {
+          "text": "Media literacy is a daily habit, not a one-time lesson.",
+          "reusable_core": "a daily habit"
+        },
+        {
+          "text": "I would check the date, author, and original source.",
+          "reusable_core": "date, author, and original source"
+        },
+        {
+          "text": "Deleting a post does not always remove every copy.",
+          "reusable_core": "does not always remove every copy"
+        },
+        {
+          "text": "The chart may be accurate but easy to misinterpret.",
+          "reusable_core": "easy to misinterpret"
+        },
+        {
+          "text": "Following thoughtful disagreement can widen an information diet.",
+          "reusable_core": "widen an information diet"
+        }
+      ]
+    },
+    {
+      "title": "Documentaries, Podcasts, and Explanatory Media",
+      "headwords": [
+        {
+          "term": "documentary",
+          "part_of_speech": "noun",
+          "definition": "a film or program that presents factual material about real people or events",
+          "examples": [
+            "The documentary followed one farming family through a year of drought.",
+            "A powerful documentary can still select scenes to support a viewpoint."
+          ],
+          "collocations": [
+            "documentary film",
+            "watch a documentary",
+            "feature-length documentary",
+            "documentary maker",
+            "historical documentary"
+          ]
+        },
+        {
+          "term": "podcast",
+          "part_of_speech": "noun",
+          "definition": "a digital audio program available as episodes",
+          "examples": [
+            "I listen to a science podcast while walking to campus.",
+            "The podcast invited two economists who disagreed about the policy."
+          ],
+          "collocations": [
+            "weekly podcast",
+            "podcast episode",
+            "host a podcast",
+            "listen to a podcast",
+            "news podcast"
+          ]
+        },
+        {
+          "term": "episode",
+          "part_of_speech": "noun",
+          "definition": "one individual part of a continuing audio or video series",
+          "examples": [
+            "The latest episode explains how local elections are organized.",
+            "I downloaded the episode so I could listen without an internet connection."
+          ],
+          "collocations": [
+            "podcast episode",
+            "latest episode",
+            "weekly episode",
+            "release an episode"
+          ]
+        },
+        {
+          "term": "host",
+          "part_of_speech": "noun",
+          "definition": "the person who presents and guides a program",
+          "examples": [
+            "The host asked short follow-up questions when the guest used technical language.",
+            "A familiar host can make a complex topic feel approachable."
+          ],
+          "collocations": [
+            "podcast host",
+            "radio host",
+            "program host",
+            "guest host"
+          ]
+        },
+        {
+          "term": "host",
+          "part_of_speech": "verb",
+          "definition": "to present a program or provide a place for a public discussion",
+          "examples": [
+            "A local journalist hosts the evening interview program.",
+            "The museum hosted an online discussion after the documentary."
+          ],
+          "collocations": [
+            "host a program",
+            "host a debate",
+            "host an interview",
+            "regularly host"
+          ]
+        },
+        {
+          "term": "narrator",
+          "part_of_speech": "noun",
+          "definition": "a person whose voice tells or explains a story in recorded media",
+          "examples": [
+            "The narrator connected personal interviews with historical events.",
+            "An emotional narrator may influence viewers before the evidence is complete."
+          ],
+          "collocations": [
+            "documentary narrator",
+            "reliable narrator",
+            "narrator's voice",
+            "voice-over narration"
+          ]
+        },
+        {
+          "term": "incident",
+          "part_of_speech": "noun",
+          "definition": "a particular event, especially one that attracts attention or causes concern",
+          "examples": [
+            "The newspaper described the protest as one incident in a longer dispute.",
+            "That embarrassing incident received more attention than the policy discussion."
+          ],
+          "collocations": [
+            "serious incident",
+            "report an incident",
+            "isolated incident",
+            "incident involving"
+          ]
+        },
+        {
+          "term": "in-depth",
+          "part_of_speech": "adjective",
+          "definition": "examining a subject thoroughly and with substantial detail",
+          "examples": [
+            "An in-depth article answered questions that short updates had ignored.",
+            "The series offers an in-depth look at how water reaches the city."
+          ],
+          "collocations": [
+            "in-depth report",
+            "in-depth analysis",
+            "in-depth interview",
+            "in-depth coverage"
+          ]
+        },
+        {
+          "term": "explain",
+          "part_of_speech": "verb",
+          "definition": "to make an idea or event clear by giving reasons, details, or examples",
+          "examples": [
+            "The animation explained why the bridge moves slightly in strong wind.",
+            "Good journalists explain uncertainty instead of hiding it."
+          ],
+          "collocations": [
+            "clearly explain",
+            "explain how",
+            "explain the background",
+            "explain a concept"
+          ]
+        },
+        {
+          "term": "visualize",
+          "part_of_speech": "verb",
+          "definition": "to represent information in a visual form such as a chart, map, or animation",
+          "examples": [
+            "The website visualized changes in rent across different neighborhoods.",
+            "A well-designed map can visualize a pattern that is hard to describe in words."
+          ],
+          "collocations": [
+            "visualize data",
+            "clearly visualize",
+            "data visualization",
+            "visualize a trend"
+          ]
+        }
+      ],
+      "phrases": [
+        {
+          "text": "The longer format gives the subject room to develop.",
+          "reusable_core": "room to develop"
+        },
+        {
+          "text": "I can listen while doing another simple activity.",
+          "reusable_core": "while doing another simple activity"
+        },
+        {
+          "text": "The host asks questions a general listener might have.",
+          "reusable_core": "a general listener might have"
+        },
+        {
+          "text": "Personal stories make an abstract issue easier to understand.",
+          "reusable_core": "make an abstract issue easier to understand"
+        },
+        {
+          "text": "The documentary has a clear viewpoint rather than complete neutrality.",
+          "reusable_core": "a clear viewpoint"
+        },
+        {
+          "text": "A visual explanation can reveal the scale of the change.",
+          "reusable_core": "reveal the scale"
+        },
+        {
+          "text": "The episode includes links for further reading.",
+          "reusable_core": "links for further reading"
+        },
+        {
+          "text": "Long-form reporting can connect an event to its history.",
+          "reusable_core": "connect an event to its history"
+        },
+        {
+          "text": "The pace allows listeners time to process unfamiliar ideas.",
+          "reusable_core": "time to process unfamiliar ideas"
+        },
+        {
+          "text": "A convincing story should not replace careful evidence.",
+          "reusable_core": "should not replace careful evidence"
+        }
+      ]
+    },
+    {
+      "title": "Social Media, Short Video, and Citizen Reporting",
+      "headwords": [
+        {
+          "term": "viral",
+          "part_of_speech": "adjective",
+          "definition": "spreading very quickly among large numbers of online users",
+          "examples": [
+            "A short clip went viral before anyone identified where it was filmed.",
+            "Viral popularity reflects attention, not necessarily importance or accuracy."
+          ],
+          "collocations": [
+            "go viral",
+            "viral video",
+            "viral post",
+            "viral sensation"
+          ]
+        },
+        {
+          "term": "trend",
+          "part_of_speech": "noun",
+          "definition": "a general direction of change or a popular pattern",
+          "examples": [
+            "One dramatic week does not establish a long-term crime trend.",
+            "The short-video trend encouraged museums to explain objects in thirty seconds."
+          ],
+          "collocations": [
+            "online trend",
+            "social-media trend",
+            "growing trend",
+            "follow a trend",
+            "long-term trend"
+          ]
+        },
+        {
+          "term": "feed",
+          "part_of_speech": "noun",
+          "definition": "a continuously updated stream of posts selected for a user",
+          "examples": [
+            "My feed contains more international news after I followed several foreign reporters.",
+            "Endless scrolling makes it hard to notice how long I have spent in the feed."
+          ],
+          "collocations": [
+            "social-media feed",
+            "personalized feed",
+            "news feed",
+            "scroll through a feed"
+          ]
+        },
+        {
+          "term": "influencer",
+          "part_of_speech": "noun",
+          "definition": "a person whose online audience allows them to affect opinions or purchases",
+          "examples": [
+            "The travel influencer corrected a false claim after local residents responded.",
+            "An influencer may have practical experience without professional expertise."
+          ],
+          "collocations": [
+            "social-media influencer",
+            "online influencer",
+            "influencer marketing",
+            "popular influencer"
+          ]
+        },
+        {
+          "term": "content creator",
+          "part_of_speech": "noun phrase",
+          "definition": "a person who produces material for digital platforms",
+          "examples": [
+            "The content creator uses simple animations to explain public health research.",
+            "Independent creators may cover local interests ignored by larger outlets."
+          ],
+          "collocations": [
+            "online content creator",
+            "independent content creator",
+            "support content creators"
+          ]
+        },
+        {
+          "term": "citizen journalism",
+          "part_of_speech": "noun phrase",
+          "definition": "news gathering or reporting carried out by members of the public rather than professional journalists",
+          "examples": [
+            "Citizen journalism provided early images when professional reporters could not reach the area.",
+            "Without verification, citizen journalism can also spread a mistaken account rapidly."
+          ],
+          "collocations": [
+            "citizen-journalism project",
+            "role of citizen journalism",
+            "citizen-journalism platform"
+          ]
+        },
+        {
+          "term": "eyewitness",
+          "part_of_speech": "noun",
+          "definition": "a person who directly saw an event happen",
+          "examples": [
+            "An eyewitness described the sound but could not see what caused it.",
+            "Reporters compared several eyewitness accounts because memory can differ."
+          ],
+          "collocations": [
+            "eyewitness account",
+            "eyewitness report",
+            "interview an eyewitness",
+            "reliable eyewitness"
+          ]
+        },
+        {
+          "term": "livestream",
+          "part_of_speech": "noun",
+          "definition": "video or audio broadcast online at the same time it is recorded",
+          "examples": [
+            "The council provided a livestream for residents who could not attend.",
+            "A livestream showed the crowd continuously rather than through selected clips."
+          ],
+          "collocations": [
+            "watch a livestream",
+            "live-streaming platform",
+            "public livestream",
+            "livestream audience"
+          ]
+        },
+        {
+          "term": "livestream",
+          "part_of_speech": "verb",
+          "definition": "to broadcast video or audio online as an event happens",
+          "examples": [
+            "A resident livestreamed the flooded street from a safe building.",
+            "The organization will livestream the public debate with captions."
+          ],
+          "collocations": [
+            "livestream an event",
+            "livestream from",
+            "livestream online"
+          ]
+        },
+        {
+          "term": "engagement",
+          "part_of_speech": "noun",
+          "definition": "online interaction measured through responses such as comments, shares, or viewing time",
+          "examples": [
+            "The platform rewarded engagement, so emotional posts received greater visibility.",
+            "High engagement does not show whether readers understood the article."
+          ],
+          "collocations": [
+            "user engagement",
+            "drive engagement",
+            "engagement rate",
+            "audience engagement"
+          ]
+        },
+        {
+          "term": "clickbait",
+          "part_of_speech": "noun",
+          "definition": "online material with an exaggerated title or image designed mainly to attract clicks",
+          "examples": [
+            "The headline was clickbait because the article never answered its dramatic question.",
+            "Repeated clickbait may increase traffic briefly but weaken trust in the publisher."
+          ],
+          "collocations": [
+            "clickbait headline",
+            "use clickbait",
+            "avoid clickbait",
+            "obvious clickbait"
+          ]
+        },
+        {
+          "term": "moderate",
+          "part_of_speech": "verb",
+          "definition": "to review and manage user content according to rules",
+          "examples": [
+            "The platform hired multilingual teams to moderate comments during the election.",
+            "It is difficult to moderate harmful content without removing legitimate criticism."
+          ],
+          "collocations": [
+            "moderate content",
+            "moderate a discussion",
+            "content moderation",
+            "carefully moderate"
+          ]
+        }
+      ],
+      "phrases": [
+        {
+          "text": "The clip shows a real event but leaves out what happened beforehand.",
+          "reusable_core": "leaves out what happened beforehand"
+        },
+        {
+          "text": "Popularity is not the same as reliability.",
+          "reusable_core": "not the same as reliability"
+        },
+        {
+          "text": "The platform rewards content that keeps people watching.",
+          "reusable_core": "keeps people watching"
+        },
+        {
+          "text": "An eyewitness can provide valuable detail but may still be mistaken.",
+          "reusable_core": "may still be mistaken"
+        },
+        {
+          "text": "Short videos are accessible, but they encourage simplification.",
+          "reusable_core": "encourage simplification"
+        },
+        {
+          "text": "The creator clearly separates sponsorship from personal opinion.",
+          "reusable_core": "separates sponsorship from personal opinion"
+        },
+        {
+          "text": "Comments can add local knowledge or spread further confusion.",
+          "reusable_core": "add local knowledge"
+        },
+        {
+          "text": "The full livestream gives viewers more context than one selected moment.",
+          "reusable_core": "more context than one selected moment"
+        },
+        {
+          "text": "Content moderation involves difficult judgments about harm and expression.",
+          "reusable_core": "difficult judgments"
+        },
+        {
+          "text": "The title promises more than the report actually delivers.",
+          "reusable_core": "promises more than"
+        },
+        {
+          "text": "Citizen reporting is most useful when professional outlets verify it.",
+          "reusable_core": "professional outlets verify it"
+        }
+      ]
+    },
+    {
+      "title": "Public Awareness, Accountability, and Press Freedom",
+      "headwords": [
+        {
+          "term": "awareness",
+          "part_of_speech": "noun",
+          "definition": "knowledge and understanding that an issue or situation exists",
+          "examples": [
+            "Local coverage raised awareness of unsafe drinking water.",
+            "Awareness alone did not repair the pipes, but it increased pressure for action."
+          ],
+          "collocations": [
+            "public awareness",
+            "raise awareness",
+            "increase awareness",
+            "awareness campaign"
+          ]
+        },
+        {
+          "term": "accountability",
+          "part_of_speech": "noun",
+          "definition": "the requirement to explain decisions and accept responsibility for them",
+          "examples": [
+            "Investigative reporting can strengthen accountability when public money is misused.",
+            "Corrections are part of media accountability as well as simple accuracy."
+          ],
+          "collocations": [
+            "public accountability",
+            "hold someone accountable",
+            "media accountability",
+            "ensure accountability"
+          ]
+        },
+        {
+          "term": "watchdog",
+          "part_of_speech": "noun",
+          "definition": "a person or organization that monitors powerful institutions and exposes wrongdoing",
+          "examples": [
+            "The newspaper acted as a watchdog by examining hidden government contracts.",
+            "A watchdog needs legal protection and access to public records."
+          ],
+          "collocations": [
+            "media watchdog",
+            "independent watchdog",
+            "watchdog role",
+            "act as a watchdog"
+          ]
+        },
+        {
+          "term": "press freedom",
+          "part_of_speech": "noun phrase",
+          "definition": "the right of journalists and news organizations to report without improper control or punishment",
+          "examples": [
+            "Press freedom allows reporters to investigate leaders without asking their permission.",
+            "Legal freedom means little if journalists face violence for ordinary reporting."
+          ],
+          "collocations": [
+            "protect press freedom",
+            "threat to press freedom",
+            "press-freedom law"
+          ]
+        },
+        {
+          "term": "censorship",
+          "part_of_speech": "noun",
+          "definition": "official or private control that suppresses information or expression",
+          "examples": [
+            "The documentary examined censorship during the military government.",
+            "Removing a direct threat is different from broad political censorship."
+          ],
+          "collocations": [
+            "government censorship",
+            "online censorship",
+            "impose censorship",
+            "avoid censorship"
+          ]
+        },
+        {
+          "term": "censor",
+          "part_of_speech": "verb",
+          "definition": "to remove or prevent publication of material considered unacceptable",
+          "examples": [
+            "Authorities censored photographs that showed the scale of the protest.",
+            "The platform was accused of censoring criticism while allowing personal abuse."
+          ],
+          "collocations": [
+            "censor the press",
+            "heavily censored",
+            "censor content",
+            "attempt to censor"
+          ]
+        },
+        {
+          "term": "whistleblower",
+          "part_of_speech": "noun",
+          "definition": "a person who reveals wrongdoing inside an organization",
+          "examples": [
+            "A whistleblower gave investigators documents showing that safety reports were altered.",
+            "The law should protect a genuine whistleblower from workplace retaliation."
+          ],
+          "collocations": [
+            "protect a whistleblower",
+            "anonymous whistleblower",
+            "whistleblower complaint",
+            "whistleblower protection"
+          ]
+        },
+        {
+          "term": "public interest",
+          "part_of_speech": "noun phrase",
+          "definition": "the welfare or benefit of society as a whole",
+          "examples": [
+            "Publishing the official's private address was not necessary for the public-interest story.",
+            "The editor argued that exposing unsafe medicine was clearly in the public interest."
+          ],
+          "collocations": [
+            "in the public interest",
+            "serve the public interest",
+            "public-interest journalism"
+          ]
+        },
+        {
+          "term": "privacy",
+          "part_of_speech": "noun",
+          "definition": "the right or ability to keep personal life and information from unwanted attention",
+          "examples": [
+            "The report explained the crime without revealing the child's identity, which protected her privacy.",
+            "Public curiosity does not automatically outweigh an ordinary person's privacy."
+          ],
+          "collocations": [
+            "protect privacy",
+            "right to privacy",
+            "invade privacy",
+            "privacy concern"
+          ]
+        }
+      ],
+      "phrases": [
+        {
+          "text": "The investigation brought an ignored problem into public view.",
+          "reusable_core": "into public view"
+        },
+        {
+          "text": "Journalists need protection when reporting on powerful institutions.",
+          "reusable_core": "reporting on powerful institutions"
+        },
+        {
+          "text": "The public interest must be weighed against personal privacy.",
+          "reusable_core": "weighed against personal privacy"
+        },
+        {
+          "text": "Access to public records makes official decisions easier to examine.",
+          "reusable_core": "Access to public records"
+        },
+        {
+          "text": "A free press can expose wrongdoing, but it also needs ethical limits.",
+          "reusable_core": "ethical limits"
+        },
+        {
+          "text": "The story created pressure for an official response.",
+          "reusable_core": "pressure for an official response"
+        },
+        {
+          "text": "The source faced retaliation after revealing the documents.",
+          "reusable_core": "faced retaliation"
+        },
+        {
+          "text": "Censorship can hide a problem without solving it.",
+          "reusable_core": "without solving it"
+        },
+        {
+          "text": "The report gave citizens information they needed to participate.",
+          "reusable_core": "information they needed to participate"
+        }
+      ]
+    },
+    {
+      "title": "Information Overload and the Future of News",
+      "headwords": [
+        {
+          "term": "information overload",
+          "part_of_speech": "noun phrase",
+          "definition": "difficulty understanding or deciding because too much information arrives at once",
+          "examples": [
+            "During the emergency, conflicting alerts created information overload.",
+            "Information overload can make people avoid the news completely."
+          ],
+          "collocations": [
+            "experience information overload",
+            "cause information overload",
+            "cope with information overload"
+          ]
+        },
+        {
+          "term": "news fatigue",
+          "part_of_speech": "noun phrase",
+          "definition": "tiredness or avoidance caused by repeated exposure to distressing news",
+          "examples": [
+            "After weeks of war coverage, she experienced news fatigue and limited her updates.",
+            "News fatigue does not mean that a person has stopped caring."
+          ],
+          "collocations": [
+            "experience news fatigue",
+            "news-fatigue symptoms",
+            "reduce news fatigue"
+          ]
+        },
+        {
+          "term": "doomscroll",
+          "part_of_speech": "verb",
+          "definition": "to keep viewing upsetting online news for a long time despite feeling worse",
+          "examples": [
+            "I started to doomscroll after midnight and slept badly.",
+            "Turning off alerts makes me less likely to doomscroll during a crisis."
+          ],
+          "collocations": [
+            "doomscroll late at night",
+            "stop doomscrolling",
+            "tendency to doomscroll"
+          ]
+        },
+        {
+          "term": "overwhelmed",
+          "part_of_speech": "adjective",
+          "definition": "unable to cope comfortably because there is too much information or pressure",
+          "examples": [
+            "I felt overwhelmed by dozens of contradictory reports after the earthquake.",
+            "A daily summary helps readers stay informed without becoming overwhelmed."
+          ],
+          "collocations": [
+            "feel overwhelmed",
+            "overwhelmed by information",
+            "easily overwhelmed",
+            "emotionally overwhelmed"
+          ]
+        },
+        {
+          "term": "personalization",
+          "part_of_speech": "noun",
+          "definition": "the process of adapting content to an individual user's interests or behavior",
+          "examples": [
+            "News personalization helps me find science stories but may hide unfamiliar issues.",
+            "The app allows users to control some of its personalization settings."
+          ],
+          "collocations": [
+            "content personalization",
+            "personalized news",
+            "algorithmic personalization",
+            "personalization settings"
+          ]
+        },
+        {
+          "term": "paywall",
+          "part_of_speech": "noun",
+          "definition": "a system that requires payment before online content can be read",
+          "examples": [
+            "The detailed investigation was behind a paywall, but the emergency information remained free.",
+            "Paywalls fund reporting while limiting access for people who cannot subscribe."
+          ],
+          "collocations": [
+            "behind a paywall",
+            "remove a paywall",
+            "digital paywall",
+            "paywall model"
+          ]
+        },
+        {
+          "term": "news aggregator",
+          "part_of_speech": "noun phrase",
+          "definition": "a service that collects and organizes reports from many publishers",
+          "examples": [
+            "The news aggregator showed several accounts of the same election result.",
+            "An aggregator may send traffic to journalism without producing reports itself."
+          ],
+          "collocations": [
+            "online news aggregator",
+            "use a news aggregator",
+            "aggregator app"
+          ]
+        },
+        {
+          "term": "synthetic media",
+          "part_of_speech": "noun phrase",
+          "definition": "images, audio, or video created or substantially altered by artificial intelligence",
+          "examples": [
+            "Synthetic media can produce useful translations as well as convincing deceptions.",
+            "The channel labeled the reconstructed voice as synthetic media."
+          ],
+          "collocations": [
+            "AI-generated synthetic media",
+            "label synthetic media",
+            "detect synthetic media"
+          ]
+        }
+      ],
+      "phrases": [
+        {
+          "text": "I limit news checks to specific times of day.",
+          "reusable_core": "specific times of day"
+        },
+        {
+          "text": "A summary can reduce overload without hiding major developments.",
+          "reusable_core": "reduce overload"
+        },
+        {
+          "text": "Personalization helps with relevance but may narrow exposure.",
+          "reusable_core": "may narrow exposure"
+        },
+        {
+          "text": "People need a practical way to identify AI-generated material.",
+          "reusable_core": "identify AI-generated material"
+        },
+        {
+          "text": "Quality reporting costs money to produce.",
+          "reusable_core": "costs money to produce"
+        },
+        {
+          "text": "Essential emergency information should remain freely accessible.",
+          "reusable_core": "freely accessible"
+        },
+        {
+          "text": "I would rather receive one useful digest than dozens of alerts.",
+          "reusable_core": "one useful digest"
+        },
+        {
+          "text": "Constant exposure to distressing stories can lead to avoidance.",
+          "reusable_core": "lead to avoidance"
+        }
+      ]
+    }
+  ]
+}

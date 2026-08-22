@@ -1,0 +1,418 @@
+{
+  "schema_version": 1,
+  "topic": "Music",
+  "sets": [
+    {
+      "title": "Your Music Preferences",
+      "setup": "You have volunteered for a university study about music preferences. A researcher will ask about your everyday listening and musical choices.",
+      "questions": [
+        {
+          "number": 1,
+          "question": "Thank you for joining the study. To begin, how often do you listen to music, and when do you usually listen?",
+          "sample_answer": "I listen to music almost every day, mainly while walking or doing simple work at home. Those activities do not require much language, so music makes the time more enjoyable without distracting me. I usually choose one playlist and stop it when I begin reading or writing. I also listen more deliberately in the evening, sometimes to a whole album. Music is common in my day, but I do not want it playing during every quiet moment."
+        },
+        {
+          "number": 2,
+          "question": "I see. What kind of music do you enjoy most, and what attracts you to it?",
+          "sample_answer": "I enjoy folk-influenced music most because it combines memorable melodies with a clear sense of place. I like hearing traditional instruments beside a modern guitar or piano. The lyrics often tell small stories about families, travel, or ordinary work, so they feel concrete. I do not understand every cultural reference, but that encourages me to learn. The style can sound intimate without being sleepy, which suits both careful listening and a relaxed journey."
+        },
+        {
+          "number": 3,
+          "question": "Interesting. Has your musical taste changed as you have grown older? Give an example.",
+          "sample_answer": "Yes, my taste has become much broader. As a teenager, I wanted songs with an immediate chorus and usually skipped slow introductions. Later, a friend took me to a jazz performance and showed me how to follow the bass and listen for improvisation. At first it sounded unstructured, but repeated listening changed that. I still enjoy direct pop music, yet I am more patient with recordings that reveal their main idea gradually."
+        },
+        {
+          "number": 4,
+          "question": "Finally, some people believe musical taste says a lot about a person's character. Do you agree?",
+          "sample_answer": "Only to a limited degree. A playlist may reveal someone's memories, social group, or need for energy, but it does not provide a reliable picture of kindness or intelligence. People also choose different music for studying, exercise, and sadness. Two listeners may love the same song for completely different reasons. Musical taste can begin an interesting conversation about experience. I would not use it to make a serious judgment about the whole person."
+        }
+      ]
+    },
+    {
+      "title": "A Song With Personal Meaning",
+      "setup": "You are participating in a research interview about music and memory. The interviewer will ask you to discuss a meaningful song and emotional responses.",
+      "questions": [
+        {
+          "number": 1,
+          "question": "Think of a song or piece of music that has personal meaning for you. What is it connected with?",
+          "sample_answer": "One quiet piano piece reminds me of my first month living away from my family. I used to play it in the evening while arranging my small room and learning the new neighborhood. The music itself is not obviously about leaving home, but its slow melody matched that mixture of freedom and loneliness. I still hear details of that room when it begins. The association makes an ordinary recording feel like a record of a particular stage in my life."
+        },
+        {
+          "number": 2,
+          "question": "Can music change your mood, or do you usually choose music that already matches how you feel?",
+          "sample_answer": "Both happen, but I usually choose music to move my mood in a useful direction. If I am tired before exercise, a strong rhythm gives me enough energy to start. When I am upset, I do not immediately choose cheerful music because it can feel false. I begin with something calm that matches my state and then change gradually. Music cannot solve the actual problem, but it can help me reach a condition where I handle it better."
+        },
+        {
+          "number": 3,
+          "question": "Why do old songs sometimes bring back memories more strongly than photographs do?",
+          "sample_answer": "A song unfolds over time, so it can bring back the whole atmosphere of an experience rather than one visual moment. Rhythm and lyrics also give the memory several cues at once. If a family played the same recording during every holiday, the association becomes very strong through repetition. A photograph shows useful detail, but music can recreate movement, voices, and emotion. Sometimes the memory appears before I have even consciously identified the song."
+        },
+        {
+          "number": 4,
+          "question": "Some workplaces and public spaces play background music all day. Do you think this generally improves people's experience?",
+          "sample_answer": "It can improve a café or waiting room when the volume and style suit the space. Music makes an empty room feel warmer and can cover small distracting noises. The problem is that employees hear the same playlist for many hours and have little choice. In a clinic or workplace requiring concentration, it may create stress instead. I would use background music selectively, keep it quiet, and ask the people who spend the longest time there."
+        }
+      ]
+    },
+    {
+      "title": "Going to a Concert",
+      "setup": "A university arts center is studying people's experiences with live music. You will answer four questions about concerts and performances.",
+      "questions": [
+        {
+          "number": 1,
+          "question": "Tell me about a live music event you attended or would like to attend. What makes it appealing?",
+          "sample_answer": "I would like to attend a concert in a small historic theater rather than a large stadium. I want to hear an acoustic singer whose recordings I have followed for several years. In a small venue, I could see how the musician communicates and hear the natural shape of the voice. The audience would probably be attentive rather than constantly moving. I know the sound might be less perfect than a recording, but that risk is part of what makes the evening special."
+        },
+        {
+          "number": 2,
+          "question": "Would you rather attend a large music festival or a concert by one artist? Why?",
+          "sample_answer": "I would choose one artist because I prefer listening without worrying about schedules, long lines, and several stages. A complete concert also lets the performer build a mood and include less famous songs. Festivals are excellent for discovering artists, but crowds and noise can make every set feel rushed. I would enjoy a small daytime festival with friends. For the music itself, one focused evening would give me a deeper and more comfortable experience."
+        },
+        {
+          "number": 3,
+          "question": "Why are people willing to pay for live music when recorded music is inexpensive or free?",
+          "sample_answer": "They are paying for a shared event, not simply access to the songs. The performers may change an arrangement, improvise, or respond to the audience, so that exact version will not happen again. A concert can also become a social memory with friends. Recorded music offers cleaner sound and unlimited repetition, which is valuable in another way. People pay when presence, atmosphere, and connection matter enough to justify the travel and ticket cost."
+        },
+        {
+          "number": 4,
+          "question": "Should cities spend public money on free concerts and music festivals?",
+          "sample_answer": "Yes, if the events are reasonably priced and serve a broad community. Free performances let children, older residents, and families experience live music without an expensive ticket. They can also support local musicians and bring activity to public spaces. Cities still need to fund essential services first, and one giant celebrity event may not be the best use. I would favor several accessible neighborhood concerts that include different traditions and provide fair payment to performers."
+        }
+      ]
+    },
+    {
+      "title": "Learning an Instrument",
+      "setup": "You have joined a study about how people learn musical skills. The researcher will ask about instruments, practice, and performance.",
+      "questions": [
+        {
+          "number": 1,
+          "question": "Do you play an instrument, or is there an instrument you would like to learn? Explain your answer.",
+          "sample_answer": "I would like to learn the piano because it can play melody and harmony at the same time. Even a simple piece can sound complete without another musician, which would make home practice satisfying. I also like that the keys make notes easy to see in a clear order. My goal would not be public performance. I would want to play a few favorite pieces slowly and understand music well enough to follow how a song is built."
+        },
+        {
+          "number": 2,
+          "question": "Do you think it is better to learn through private lessons or independently with online materials?",
+          "sample_answer": "I would begin with a teacher because physical technique is difficult to judge from my own point of view. A teacher could notice tension, correct hand position, and choose music at the right level. Online videos would still be useful between lessons for repetition and extra examples. After building safe habits, I could study more independently. The combination offers personal feedback without making every small practice session depend on another person's schedule."
+        },
+        {
+          "number": 3,
+          "question": "What helps a learner continue practising when progress feels slow?",
+          "sample_answer": "A small specific goal helps more than simply promising to practise longer. For example, the learner can play four difficult measures slowly and record them at the end of the week. Comparing that result with an earlier attempt makes progress audible. Choosing some personally meaningful music also balances technical exercises. If every session contains only mistakes and scales, motivation disappears. Visible improvement and one enjoyable piece give the routine both direction and reward."
+        },
+        {
+          "number": 4,
+          "question": "Some people say performing in public is a necessary part of music education. Do you agree?",
+          "sample_answer": "Public performance is useful, but it should not be necessary for every learner. Preparing for an audience creates focus and teaches recovery after mistakes. It can also build confidence when the environment is supportive. Still, someone may study music for relaxation or feel severe anxiety that blocks learning. Group performances, informal recordings, or playing for a small class can offer similar goals. Education should encourage sharing without making public exposure the only proof of progress."
+        }
+      ]
+    },
+    {
+      "title": "Creating a Song",
+      "setup": "You are taking part in an interview about musical creativity. The questions concern songwriting, technology, and collaboration.",
+      "questions": [
+        {
+          "number": 1,
+          "question": "If you were going to create a song, what subject or experience would you choose?",
+          "sample_answer": "I would write about an ordinary late bus journey during winter. Different passengers are tired, the windows reflect the inside lights, and everyone is going somewhere important to them. That setting provides concrete images without requiring a dramatic event. I would use a steady rhythm that suggests the road and a simple chorus about being between places. Even if the song were imperfect, it would capture a situation that many people recognize but rarely describe."
+        },
+        {
+          "number": 2,
+          "question": "Would you prefer to create music alone or collaborate with other people?",
+          "sample_answer": "I would begin alone because I need quiet time to decide what the song is trying to say. After making a rough verse and melody, I would collaborate with someone who understands rhythm or arrangement better than I do. They might hear a possibility that my habits hide. Working together can create disagreement, so we would need to discuss the purpose of each change. That balance gives the idea a personal center while allowing it to grow."
+        },
+        {
+          "number": 3,
+          "question": "How has affordable music technology changed who can create and record music?",
+          "sample_answer": "It has allowed beginners to test ideas without renting a studio or buying many instruments. A laptop and simple microphone can record a voice, add a rhythm, and move sections around. This is especially useful for people living far from a music industry center. Technology does not automatically create a strong song, and too many effects may become distracting. It mainly lowers the cost of learning, experimenting, and sharing a first version with collaborators."
+        },
+        {
+          "number": 4,
+          "question": "Is it acceptable for musicians to sample parts of older recordings in new songs?",
+          "sample_answer": "Yes, when they obtain permission, give accurate credit, and use the sample creatively. A short borrowed sound can connect generations or place an older voice in a new musical setting. Problems arise when an artist copies the most recognizable part and treats it as free material. The original performers and writers deserve payment and visibility. Sampling can be genuine creation, but the new work should add an idea rather than simply depend on someone else's success."
+        }
+      ]
+    },
+    {
+      "title": "Music at School",
+      "setup": "A university education department is researching the role of music in schools. You will discuss lessons, participation, and curriculum choices.",
+      "questions": [
+        {
+          "number": 1,
+          "question": "What kind of musical activity would you have enjoyed most at school?",
+          "sample_answer": "I would have enjoyed a small percussion group because beginners can produce a useful rhythm quite quickly. We could learn by listening and copying before dealing with complicated notation. It would also be a group activity where each simple part contributes to a fuller sound. Singing alone would have made me nervous, but percussion would let me participate without being the center of attention. A final informal performance could give the class a clear shared goal."
+        },
+        {
+          "number": 2,
+          "question": "What can children learn from music besides how to sing or play an instrument?",
+          "sample_answer": "They can learn how to listen and cooperate in real time. In an ensemble, a child has to maintain one part while noticing when others begin, slow down, or become too quiet. Practice also teaches that improvement comes through many small corrections rather than instant success. These skills may support other areas of life, but that is not the only reason music matters. Children also deserve experience with art simply because creating sound can be meaningful."
+        },
+        {
+          "number": 3,
+          "question": "How can schools make music classes fair for students with different levels of experience?",
+          "sample_answer": "Teachers should assess improvement, effort, and listening rather than compare every child to the strongest private student. Beginners need parts they can perform successfully, while experienced musicians can receive a more difficult role. Schools should also provide instruments for home practice when possible. Several forms of participation matter, including rhythm, composition, and technology. A fair class gives everyone a genuine challenge without pretending that years of earlier opportunity do not affect current skill."
+        },
+        {
+          "number": 4,
+          "question": "Should music be a required school subject for all children?",
+          "sample_answer": "I support a required introductory course for younger students because many children would never encounter music otherwise. It should include listening, creating, movement, and several traditions instead of demanding one formal instrument. At an advanced level, music should become optional because students have limited time and different goals. The compulsory stage should open a door, not produce professional performers. If schools require it, they must also fund teachers and equipment rather than offering a weak symbolic class."
+        }
+      ]
+    },
+    {
+      "title": "Streaming and Music Discovery",
+      "setup": "You are participating in a study about digital listening. The interviewer will ask about streaming services, recommendations, and albums.",
+      "questions": [
+        {
+          "number": 1,
+          "question": "How do you usually discover new music?",
+          "sample_answer": "I discover most new music through a weekly radio program that focuses on local and international artists. The host explains why each track was chosen and sometimes connects it to an older style. If I like something, I save the artist's album on a streaming service. I prefer this method to automatic recommendations because a human provides context. Friends are another good source, especially when they tell me what detail to listen for rather than sending an unexplained link."
+        },
+        {
+          "number": 2,
+          "question": "Do streaming services give listeners too much choice, or is having a huge catalog mainly positive?",
+          "sample_answer": "The huge catalog is mainly positive because people can explore music that local shops or stations would never carry. Still, the number of choices can make listening feel restless. I sometimes skip after ten seconds because another track is immediately available. A curated playlist or one album helps me slow down. Access is valuable, but listeners need habits that turn availability into attention. Otherwise, millions of songs become background options that nobody remembers clearly."
+        },
+        {
+          "number": 3,
+          "question": "Why might someone choose to listen to a complete album instead of individual songs?",
+          "sample_answer": "An album can create a sequence in which themes, energy, and sound develop across several tracks. A quiet song may become more powerful after a loud one, and repeated ideas can connect the beginning to the ending. Listening in order also removes the need to make a new choice every few minutes. Not every album is designed this way, so singles are fine for casual listening. I choose the complete work when the artist has clearly shaped a larger journey."
+        },
+        {
+          "number": 4,
+          "question": "Some people worry that recommendation algorithms make everyone's musical taste less diverse. What do you think?",
+          "sample_answer": "That can happen because algorithms learn from what a person already plays and recommend safe similarities. The listener may enjoy the convenience without noticing whole traditions that never appear. On the other hand, the same system can introduce an unknown musician from another country. I would give users more control over how adventurous recommendations are and include human-curated choices. Algorithms should support discovery, not quietly decide that our past listening defines everything we might enjoy."
+        }
+      ]
+    },
+    {
+      "title": "Musicians and Fair Payment",
+      "setup": "A social research project is examining how musicians earn money. You will answer questions about streaming, concerts, copyright, and public support.",
+      "questions": [
+        {
+          "number": 1,
+          "question": "Have you ever paid directly for music, such as a concert ticket, album, or artist membership? Why did you choose to pay?",
+          "sample_answer": "I bought a digital album directly from a local singer after seeing a free performance. I could have streamed the same songs, but the direct purchase felt like a clearer way to support the recording work. The album also included notes about the musicians and lyrics. I do not buy every song I enjoy because that would be expensive. When an independent artist creates something I return to often, I like making one payment that recognizes its value."
+        },
+        {
+          "number": 2,
+          "question": "Would you rather support a favorite musician by streaming their work or attending a concert?",
+          "sample_answer": "I would attend a concert if the venue were nearby and affordable. The ticket gives the artist more direct income, and I receive a memorable event rather than only repeated access to recordings. Streaming still matters because it helps new listeners discover the music and shows demand. Concerts are not possible for every fan or performer, though. A musician with health or travel limits should not be valued less, so direct purchases and memberships are useful alternatives."
+        },
+        {
+          "number": 3,
+          "question": "Why is copyright important for musicians?",
+          "sample_answer": "Copyright lets musicians control how other people copy, sell, or place their work in advertisements. Without that right, a company could use a song to earn money while the songwriter receives nothing. It also creates a basis for permission and royalties when collaboration is appropriate. Copyright should have reasonable educational exceptions and should not last forever. Its central purpose is fair bargaining, not preventing listeners from discussing, studying, or enjoying the music."
+        },
+        {
+          "number": 4,
+          "question": "Should governments provide financial support for music that is not commercially popular?",
+          "sample_answer": "Yes, when the music has educational, cultural, or community value that sales cannot measure. A minority-language choir or experimental ensemble may serve a small audience and still preserve knowledge or develop new work. Funding decisions should be transparent and spread across regions and styles. Public support should not guarantee every artist an income. It can provide rehearsal spaces, small grants, and performances that give worthwhile music a chance to reach people."
+        }
+      ]
+    },
+    {
+      "title": "Traditional Music and Cultural Identity",
+      "setup": "You have volunteered for an interview about music in cultural life. The researcher will ask about traditions, generations, and cultural exchange.",
+      "questions": [
+        {
+          "number": 1,
+          "question": "Is there a traditional or community song that is meaningful where you live? Describe its role.",
+          "sample_answer": "There is a traditional song that people often perform during spring celebrations in my region. Older relatives know several verses, while younger people usually recognize the chorus and rhythm. The song is connected with visiting family and welcoming a new season rather than formal concert listening. Even people who prefer modern pop join in. Its role is to create one familiar moment across generations, and hearing it outside the celebration immediately brings that social atmosphere back."
+        },
+        {
+          "number": 2,
+          "question": "How can communities encourage young people to learn traditional music?",
+          "sample_answer": "They should give young musicians opportunities to participate rather than only asking them to observe older experts. Workshops, school visits, and local festivals can make instruments available and explain the stories behind songs. Young artists also need some freedom to create new arrangements. If every change is treated as disrespect, the tradition may become a museum object. Guidance from experienced performers can protect important features while allowing the music to remain part of present life."
+        },
+        {
+          "number": 3,
+          "question": "Does combining traditional music with modern styles preserve the tradition or weaken it?",
+          "sample_answer": "It can do either, depending on how carefully the musicians work. A modern beat may help younger listeners notice an old melody and search for its source. The combination becomes weak when only one colorful sound is used as decoration and the community receives no credit. I would look at whether traditional performers participated and whether the original meaning remains visible. Adaptation can preserve music, but it should be a relationship rather than extraction."
+        },
+        {
+          "number": 4,
+          "question": "Some people believe global music platforms will eventually make local musical cultures less distinct. Do you agree?",
+          "sample_answer": "There is a risk because successful global styles influence production, song length, and what young artists consider modern. Local musicians may simplify their work to fit international playlists. Yet the same platforms let small communities publish recordings and reach relatives abroad. Technology does not determine one outcome by itself. Cultural education, local venues, accurate credit, and support for musicians can help traditions use global access without losing the features that give them identity."
+        }
+      ]
+    },
+    {
+      "title": "The Role of Music in Society",
+      "setup": "A researcher is studying why music matters beyond entertainment. The final set asks about community, public life, and the future.",
+      "questions": [
+        {
+          "number": 1,
+          "question": "Besides entertainment, what is one important role that music plays in people's lives?",
+          "sample_answer": "Music gives groups a way to mark important transitions together. At weddings, funerals, graduations, and religious events, a familiar song tells people that the moment is different from ordinary time. The participants may have different personalities or opinions, but they can sing or listen together for a few minutes. Words alone often feel insufficient in those situations. Music provides structure for emotion and creates a shared memory that people can return to later."
+        },
+        {
+          "number": 2,
+          "question": "Do you think making music with other people creates stronger connections than listening together?",
+          "sample_answer": "Usually yes, because making music requires active coordination. Choir members must breathe together, listen to balance, and recover collectively when someone makes a mistake. That dependence can create trust even among people who are not close friends. Shared listening also connects audiences, especially at a concert, but participation is less equal. I would not say performers always form deep relationships. The repeated practical cooperation gives them more opportunities to understand and support one another."
+        },
+        {
+          "number": 3,
+          "question": "How could a community make musical participation more accessible?",
+          "sample_answer": "It could lend instruments, provide inexpensive rehearsal rooms, and offer beginner groups that do not require auditions. Transport and timing matter too, because a free lesson is not accessible if children cannot reach it safely. Venues should consider steps, seating, hearing needs, and captions where relevant. Communities can also include several traditions so newcomers recognize something familiar. Access means removing financial, physical, and social barriers, not simply announcing that everyone is welcome."
+        },
+        {
+          "number": 4,
+          "question": "In the future, will technology make human musicians less important?",
+          "sample_answer": "No, although technology will change many parts of their work. Software can generate background tracks, correct pitch, or imitate a style quickly. Human musicians still bring personal history, physical presence, judgment, and a relationship with an audience. People may accept automated music for routine commercial use while valuing live and clearly human creation more strongly. The important issue will be honest labeling and fair rules when systems learn from musicians whose recordings already exist."
+        }
+      ]
+    }
+  ],
+  "corpus_calibration_audit": [
+    {
+      "set_title": "Your Music Preferences",
+      "question_functions": [
+        "frequency and context",
+        "genre preference",
+        "change over time",
+        "qualified personality judgment"
+      ],
+      "subtopics": [
+        "listening habits",
+        "music genres",
+        "changing taste",
+        "personal meaning"
+      ]
+    },
+    {
+      "set_title": "A Song With Personal Meaning",
+      "question_functions": [
+        "personal memory",
+        "mood process",
+        "memory explanation",
+        "public-space evaluation"
+      ],
+      "subtopics": [
+        "personal meaning",
+        "music and mood",
+        "musical memory",
+        "background music"
+      ]
+    },
+    {
+      "set_title": "Going to a Concert",
+      "question_functions": [
+        "desired experience",
+        "event-type preference",
+        "cost-value explanation",
+        "public-funding opinion"
+      ],
+      "subtopics": [
+        "concerts",
+        "festivals",
+        "live versus recorded music",
+        "access"
+      ]
+    },
+    {
+      "set_title": "Learning an Instrument",
+      "question_functions": [
+        "instrument preference",
+        "learning-method comparison",
+        "motivation advice",
+        "qualified performance judgment"
+      ],
+      "subtopics": [
+        "playing an instrument",
+        "lessons",
+        "practice",
+        "public performance"
+      ]
+    },
+    {
+      "set_title": "Creating a Song",
+      "question_functions": [
+        "hypothetical creative choice",
+        "collaboration preference",
+        "technology-impact explanation",
+        "sampling ethics judgment"
+      ],
+      "subtopics": [
+        "songwriting",
+        "collaboration",
+        "music production",
+        "sampling and copyright"
+      ]
+    },
+    {
+      "set_title": "Music at School",
+      "question_functions": [
+        "preferred school activity",
+        "transferable learning explanation",
+        "equity recommendation",
+        "required-subject opinion"
+      ],
+      "subtopics": [
+        "music education",
+        "ensemble learning",
+        "fair assessment",
+        "required school music"
+      ]
+    },
+    {
+      "set_title": "Streaming and Music Discovery",
+      "question_functions": [
+        "personal discovery habit",
+        "choice-overload evaluation",
+        "album-listening explanation",
+        "algorithmic diversity judgment"
+      ],
+      "subtopics": [
+        "music discovery",
+        "streaming",
+        "albums",
+        "recommendation systems"
+      ]
+    },
+    {
+      "set_title": "Musicians and Fair Payment",
+      "question_functions": [
+        "past purchasing behavior",
+        "support-method preference",
+        "copyright explanation",
+        "arts-funding opinion"
+      ],
+      "subtopics": [
+        "artist support",
+        "concert income",
+        "copyright",
+        "public funding"
+      ]
+    },
+    {
+      "set_title": "Traditional Music and Cultural Identity",
+      "question_functions": [
+        "community example",
+        "preservation recommendation",
+        "fusion evaluation",
+        "globalization judgment"
+      ],
+      "subtopics": [
+        "traditional music",
+        "intergenerational learning",
+        "fusion",
+        "global platforms"
+      ]
+    },
+    {
+      "set_title": "The Role of Music in Society",
+      "question_functions": [
+        "social-function explanation",
+        "participation comparison",
+        "community-access recommendation",
+        "future technology judgment"
+      ],
+      "subtopics": [
+        "personal and social meaning",
+        "community music",
+        "accessibility",
+        "future of music"
+      ]
+    }
+  ]
+}

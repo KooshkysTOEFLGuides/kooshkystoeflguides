@@ -1,0 +1,2040 @@
+{
+  "schema_version": 1,
+  "topic": "Money, Budgeting, and Financial Planning",
+  "coverage_map": [
+    "personal finance habits",
+    "tracking expenses",
+    "budgeting",
+    "weekly and monthly budgeting",
+    "saving money",
+    "spending habits",
+    "financial goals",
+    "financial planning",
+    "financial stability",
+    "long-term goals",
+    "fiscal responsibility",
+    "financial education in schools",
+    "budgeting apps",
+    "written records",
+    "online tools",
+    "financial advisers",
+    "digital and traditional money management",
+    "obstacles to planning",
+    "wealth building",
+    "emergency funds",
+    "banking and payments",
+    "debt and credit",
+    "financial privacy and fraud"
+  ],
+  "sections": [
+    {
+      "title": "Income, Expenses, and Everyday Money",
+      "headwords": [
+        {
+          "term": "income",
+          "part_of_speech": "noun",
+          "definition": "money received regularly from work, business, or other sources",
+          "examples": [
+            "Her monthly income changes because she works freelance.",
+            "The family lost part of its income when the shop closed temporarily."
+          ],
+          "collocations": [
+            "monthly income",
+            "steady income",
+            "source of income",
+            "earn an income",
+            "household income"
+          ]
+        },
+        {
+          "term": "expense",
+          "part_of_speech": "noun",
+          "definition": "money spent on a particular need, service, or activity",
+          "examples": [
+            "Rent is my largest monthly expense.",
+            "I recorded the repair as an unexpected expense."
+          ],
+          "collocations": [
+            "monthly expense",
+            "unexpected expense",
+            "living expenses",
+            "cover an expense",
+            "reduce expenses"
+          ]
+        },
+        {
+          "term": "essential",
+          "part_of_speech": "adjective",
+          "definition": "completely necessary rather than optional",
+          "examples": [
+            "Medicine is an essential expense, while a new phone can wait.",
+            "The budget protects essential services before entertainment."
+          ],
+          "collocations": [
+            "essential cost",
+            "essential spending",
+            "absolutely essential",
+            "essential item"
+          ]
+        },
+        {
+          "term": "nonessential",
+          "part_of_speech": "adjective",
+          "definition": "not necessary for basic needs or an important purpose",
+          "examples": [
+            "I reduced nonessential spending for two months before the trip.",
+            "A café visit is nonessential, but small pleasures still need a realistic place in a budget."
+          ],
+          "collocations": [
+            "nonessential expense",
+            "nonessential purchase",
+            "cut nonessential spending"
+          ]
+        },
+        {
+          "term": "fixed cost",
+          "part_of_speech": "noun phrase",
+          "definition": "an expense that usually stays similar each period",
+          "examples": [
+            "Rent is a fixed cost, so I plan for it before flexible spending.",
+            "The business lowered its fixed costs by moving to a smaller office."
+          ],
+          "collocations": [
+            "monthly fixed cost",
+            "high fixed costs",
+            "reduce fixed costs"
+          ]
+        },
+        {
+          "term": "variable cost",
+          "part_of_speech": "noun phrase",
+          "definition": "an expense whose amount changes according to use or circumstances",
+          "examples": [
+            "Electricity is a variable cost because heating use changes by season.",
+            "Food is necessary, but its variable cost can still be managed."
+          ],
+          "collocations": [
+            "variable cost",
+            "monthly variable costs",
+            "control variable costs"
+          ]
+        },
+        {
+          "term": "afford",
+          "part_of_speech": "verb",
+          "definition": "to have enough money for something without causing unacceptable difficulty",
+          "examples": [
+            "I can afford the course if I save part of two paychecks.",
+            "A low price does not help if the buyer cannot afford the ongoing fees."
+          ],
+          "collocations": [
+            "afford to buy",
+            "cannot afford",
+            "comfortably afford",
+            "affordable option"
+          ]
+        },
+        {
+          "term": "cost of living",
+          "part_of_speech": "noun phrase",
+          "definition": "the amount needed for housing, food, transport, and ordinary life in a place",
+          "examples": [
+            "The salary looked high until I compared the city's cost of living.",
+            "Rising rent has increased the cost of living for students."
+          ],
+          "collocations": [
+            "high cost of living",
+            "rising cost of living",
+            "cost-of-living increase"
+          ]
+        },
+        {
+          "term": "cash flow",
+          "part_of_speech": "noun phrase",
+          "definition": "the movement of money into and out of a person, household, or business",
+          "examples": [
+            "A yearly fee created a cash-flow problem even though the annual budget was balanced.",
+            "Freelancers need to manage cash flow during months when clients pay late."
+          ],
+          "collocations": [
+            "positive cash flow",
+            "manage cash flow",
+            "cash-flow problem",
+            "monthly cash flow"
+          ]
+        },
+        {
+          "term": "disposable income",
+          "part_of_speech": "noun phrase",
+          "definition": "money remaining after necessary costs and taxes",
+          "examples": [
+            "She uses part of her disposable income for books and travel.",
+            "Higher transport costs left the household with less disposable income."
+          ],
+          "collocations": [
+            "disposable income",
+            "limited disposable income",
+            "increase disposable income"
+          ]
+        },
+        {
+          "term": "financial pressure",
+          "part_of_speech": "noun phrase",
+          "definition": "stress caused by difficulty meeting money needs or obligations",
+          "examples": [
+            "Unexpected medical costs placed the family under financial pressure.",
+            "Sharing housing reduced some financial pressure during university."
+          ],
+          "collocations": [
+            "under financial pressure",
+            "ease financial pressure",
+            "serious financial pressure"
+          ]
+        },
+        {
+          "term": "make ends meet",
+          "part_of_speech": "verb phrase",
+          "definition": "to have just enough money to pay necessary expenses",
+          "examples": [
+            "He worked extra weekend shifts to make ends meet.",
+            "Families may struggle to make ends meet when food prices rise quickly."
+          ],
+          "collocations": [
+            "struggle to make ends meet",
+            "barely make ends meet",
+            "help make ends meet"
+          ]
+        }
+      ],
+      "phrases": [
+        {
+          "text": "I separate necessary expenses from optional spending.",
+          "reusable_core": "necessary expenses"
+        },
+        {
+          "text": "Housing takes the largest share of my monthly income.",
+          "reusable_core": "largest share"
+        },
+        {
+          "text": "The real cost includes maintenance and regular fees.",
+          "reusable_core": "The real cost includes"
+        },
+        {
+          "text": "I can afford it without using money set aside for bills.",
+          "reusable_core": "without using money set aside for bills"
+        },
+        {
+          "text": "A small unexpected expense can disrupt a very tight month.",
+          "reusable_core": "disrupt a very tight month"
+        },
+        {
+          "text": "My income is not the same every month.",
+          "reusable_core": "not the same every month"
+        },
+        {
+          "text": "The cost of living affects how far a salary goes.",
+          "reusable_core": "how far a salary goes"
+        },
+        {
+          "text": "I would reduce optional costs before cutting basic needs.",
+          "reusable_core": "before cutting basic needs"
+        },
+        {
+          "text": "The expense is predictable, so I plan for it in advance.",
+          "reusable_core": "plan for it in advance"
+        },
+        {
+          "text": "Convenience can hide a repeated cost.",
+          "reusable_core": "hide a repeated cost"
+        },
+        {
+          "text": "I need some room in the budget for ordinary enjoyment.",
+          "reusable_core": "room in the budget"
+        },
+        {
+          "text": "The payment arrives at an inconvenient point in the month.",
+          "reusable_core": "an inconvenient point"
+        }
+      ]
+    },
+    {
+      "title": "Budgeting and Spending Plans",
+      "headwords": [
+        {
+          "term": "budget",
+          "part_of_speech": "noun",
+          "definition": "a plan for how income will be used during a period",
+          "examples": [
+            "My monthly budget includes a small amount for unexpected costs.",
+            "The project stayed within budget despite a rise in material prices."
+          ],
+          "collocations": [
+            "monthly budget",
+            "household budget",
+            "set a budget",
+            "within budget",
+            "tight budget",
+            "budget limit"
+          ]
+        },
+        {
+          "term": "budget",
+          "part_of_speech": "verb",
+          "definition": "to plan how much money can be used for different purposes",
+          "examples": [
+            "I budget for annual insurance by saving a little each month.",
+            "Students need to budget carefully when their income arrives only once a term."
+          ],
+          "collocations": [
+            "budget for expenses",
+            "budget carefully",
+            "learn to budget",
+            "budget effectively"
+          ]
+        },
+        {
+          "term": "allocate",
+          "part_of_speech": "verb",
+          "definition": "to assign money to a particular purpose",
+          "examples": [
+            "We allocate part of every paycheck to rent and savings.",
+            "The family allocated more money to heating during winter."
+          ],
+          "collocations": [
+            "allocate money",
+            "allocate funds",
+            "allocate a percentage",
+            "budget allocation"
+          ]
+        },
+        {
+          "term": "category",
+          "part_of_speech": "noun",
+          "definition": "a group of similar expenses used to organize a budget",
+          "examples": [
+            "I created a separate category for transport and fuel.",
+            "The entertainment category includes streaming and cinema tickets."
+          ],
+          "collocations": [
+            "budget category",
+            "spending category",
+            "expense category",
+            "create a category"
+          ]
+        },
+        {
+          "term": "limit",
+          "part_of_speech": "noun",
+          "definition": "the maximum amount allowed for spending",
+          "examples": [
+            "I set a weekly limit for restaurant meals.",
+            "A strict limit was unrealistic during the month we moved house."
+          ],
+          "collocations": [
+            "spending limit",
+            "set a limit",
+            "monthly limit",
+            "stay within a limit"
+          ]
+        },
+        {
+          "term": "overspend",
+          "part_of_speech": "verb",
+          "definition": "to spend more than planned or more than can be afforded",
+          "examples": [
+            "I tend to overspend when I shop without a list.",
+            "The department overspent on travel and delayed new equipment."
+          ],
+          "collocations": [
+            "overspend on food",
+            "regularly overspend",
+            "avoid overspending"
+          ]
+        },
+        {
+          "term": "underspend",
+          "part_of_speech": "verb",
+          "definition": "to spend less than the planned amount",
+          "examples": [
+            "We underspent on transport because we walked more often.",
+            "The agency should not underspend if essential repairs are being ignored."
+          ],
+          "collocations": [
+            "underspend a budget",
+            "significantly underspend",
+            "budget underspend"
+          ]
+        },
+        {
+          "term": "weekly",
+          "part_of_speech": "adjective",
+          "definition": "happening or calculated once each week",
+          "examples": [
+            "A weekly budget works well for groceries and small personal costs.",
+            "I make a weekly transfer to my savings account."
+          ],
+          "collocations": [
+            "weekly budget",
+            "weekly payment",
+            "weekly spending",
+            "weekly review"
+          ]
+        },
+        {
+          "term": "monthly",
+          "part_of_speech": "adjective",
+          "definition": "happening or calculated once each month",
+          "examples": [
+            "A monthly plan matches the way my salary and rent are paid.",
+            "Monthly totals hide the fact that I spent too much in one weekend."
+          ],
+          "collocations": [
+            "monthly budget",
+            "monthly income",
+            "monthly expense",
+            "monthly payment"
+          ]
+        },
+        {
+          "term": "realistic",
+          "part_of_speech": "adjective",
+          "definition": "based on what is genuinely possible rather than an ideal wish",
+          "examples": [
+            "A realistic budget includes occasional social activities.",
+            "Saving half my income would not be realistic while I pay high rent."
+          ],
+          "collocations": [
+            "realistic budget",
+            "realistic target",
+            "financially realistic",
+            "remain realistic"
+          ]
+        },
+        {
+          "term": "adjust",
+          "part_of_speech": "verb",
+          "definition": "to change a plan slightly when circumstances change",
+          "examples": [
+            "I adjusted the food budget after prices increased.",
+            "The plan needs to be adjusted when income falls unexpectedly."
+          ],
+          "collocations": [
+            "adjust a budget",
+            "adjust spending",
+            "adjust accordingly",
+            "make an adjustment"
+          ]
+        }
+      ],
+      "phrases": [
+        {
+          "text": "I give every major expense a clear place in the plan.",
+          "reusable_core": "a clear place in the plan"
+        },
+        {
+          "text": "A weekly limit makes small purchases easier to notice.",
+          "reusable_core": "small purchases easier to notice"
+        },
+        {
+          "text": "The monthly total needs to match my actual income.",
+          "reusable_core": "match my actual income"
+        },
+        {
+          "text": "I review the plan and adjust it when circumstances change.",
+          "reusable_core": "when circumstances change"
+        },
+        {
+          "text": "The budget should guide decisions rather than punish every mistake.",
+          "reusable_core": "guide decisions"
+        },
+        {
+          "text": "An unrealistic plan is difficult to maintain.",
+          "reusable_core": "difficult to maintain"
+        },
+        {
+          "text": "I would budget for irregular annual costs as well.",
+          "reusable_core": "irregular annual costs"
+        },
+        {
+          "text": "The category was too broad to show where the money went.",
+          "reusable_core": "too broad to show"
+        },
+        {
+          "text": "Spending less in one area creates room in another.",
+          "reusable_core": "creates room in another"
+        },
+        {
+          "text": "The plan includes a modest amount for enjoyment.",
+          "reusable_core": "a modest amount for enjoyment"
+        },
+        {
+          "text": "I stayed within the limit without feeling deprived.",
+          "reusable_core": "without feeling deprived"
+        }
+      ]
+    },
+    {
+      "title": "Tracking Expenses and Financial Records",
+      "headwords": [
+        {
+          "term": "track",
+          "part_of_speech": "verb",
+          "definition": "to record and follow money over time",
+          "examples": [
+            "I track every card payment for one month when spending feels unclear.",
+            "The app tracks subscriptions and warns me before renewal."
+          ],
+          "collocations": [
+            "track expenses",
+            "track spending",
+            "closely track",
+            "expense tracker"
+          ]
+        },
+        {
+          "term": "record",
+          "part_of_speech": "noun",
+          "definition": "stored information showing a financial action or history",
+          "examples": [
+            "The bank record showed that the payment had been made twice.",
+            "I keep a written record of money I lend to friends."
+          ],
+          "collocations": [
+            "financial record",
+            "written record",
+            "bank record",
+            "keep records",
+            "accurate record"
+          ]
+        },
+        {
+          "term": "record",
+          "part_of_speech": "verb",
+          "definition": "to write down or electronically store financial information",
+          "examples": [
+            "I record cash purchases before I forget them.",
+            "The spreadsheet records both income and expenses by date."
+          ],
+          "collocations": [
+            "record a payment",
+            "record expenses",
+            "accurately record",
+            "record transactions"
+          ]
+        },
+        {
+          "term": "receipt",
+          "part_of_speech": "noun",
+          "definition": "a document showing that goods or services were paid for",
+          "examples": [
+            "I kept the receipt in case the headphones stopped working.",
+            "The faded receipt was difficult to use for the expense claim."
+          ],
+          "collocations": [
+            "keep a receipt",
+            "digital receipt",
+            "itemized receipt",
+            "ask for a receipt"
+          ]
+        },
+        {
+          "term": "transaction",
+          "part_of_speech": "noun",
+          "definition": "an occasion when money is paid, received, or moved",
+          "examples": [
+            "I did not recognize one transaction on my bank statement.",
+            "The cash transaction never appeared in the budgeting app."
+          ],
+          "collocations": [
+            "bank transaction",
+            "financial transaction",
+            "transaction history",
+            "unauthorized transaction"
+          ]
+        },
+        {
+          "term": "bank statement",
+          "part_of_speech": "noun phrase",
+          "definition": "an official list of activity in a bank account over a period",
+          "examples": [
+            "I compare my records with the bank statement at the end of the month.",
+            "The statement revealed a subscription I thought I had canceled."
+          ],
+          "collocations": [
+            "monthly bank statement",
+            "check a bank statement",
+            "digital statement"
+          ]
+        },
+        {
+          "term": "balance",
+          "part_of_speech": "noun",
+          "definition": "the amount of money currently available or owed in an account",
+          "examples": [
+            "I check my balance before making a large purchase.",
+            "The account balance fell below the minimum after the fee was charged."
+          ],
+          "collocations": [
+            "account balance",
+            "current balance",
+            "check a balance",
+            "remaining balance"
+          ]
+        },
+        {
+          "term": "spreadsheet",
+          "part_of_speech": "noun",
+          "definition": "a digital table used to organize and calculate financial information",
+          "examples": [
+            "My spreadsheet automatically totals each spending category.",
+            "A simple spreadsheet gives me more control than a complicated app."
+          ],
+          "collocations": [
+            "budget spreadsheet",
+            "spreadsheet template",
+            "update a spreadsheet",
+            "simple spreadsheet"
+          ]
+        },
+        {
+          "term": "statement",
+          "part_of_speech": "noun",
+          "definition": "an official document summarizing financial activity or an amount due",
+          "examples": [
+            "The credit-card statement listed the payment deadline clearly.",
+            "I downloaded the statement before closing the account."
+          ],
+          "collocations": [
+            "monthly statement",
+            "billing statement",
+            "account statement",
+            "review a statement"
+          ]
+        },
+        {
+          "term": "review",
+          "part_of_speech": "verb",
+          "definition": "to examine financial information carefully in order to assess it",
+          "examples": [
+            "I review my spending every Sunday evening.",
+            "We reviewed three months of bills before changing the budget."
+          ],
+          "collocations": [
+            "review expenses",
+            "regularly review",
+            "review a budget",
+            "financial review"
+          ]
+        }
+      ],
+      "phrases": [
+        {
+          "text": "I write down cash purchases before I forget them.",
+          "reusable_core": "before I forget them"
+        },
+        {
+          "text": "The record helps me see patterns rather than rely on memory.",
+          "reusable_core": "see patterns"
+        },
+        {
+          "text": "I compare the app with my bank statement.",
+          "reusable_core": "compare the app with"
+        },
+        {
+          "text": "A category total is more useful than a long list of transactions.",
+          "reusable_core": "more useful than a long list"
+        },
+        {
+          "text": "The receipt protects me if I need to return the item.",
+          "reusable_core": "if I need to return the item"
+        },
+        {
+          "text": "I review my spending at a regular time each week.",
+          "reusable_core": "at a regular time"
+        },
+        {
+          "text": "The process should be simple enough to continue.",
+          "reusable_core": "simple enough to continue"
+        },
+        {
+          "text": "The statement revealed a charge I no longer needed.",
+          "reusable_core": "a charge I no longer needed"
+        },
+        {
+          "text": "Written records make shared expenses easier to discuss.",
+          "reusable_core": "shared expenses easier to discuss"
+        },
+        {
+          "text": "Tracking is useful only if it changes a decision.",
+          "reusable_core": "changes a decision"
+        }
+      ]
+    },
+    {
+      "title": "Saving, Emergency Funds, and Short-Term Goals",
+      "headwords": [
+        {
+          "term": "save",
+          "part_of_speech": "verb",
+          "definition": "to keep money instead of spending it now",
+          "examples": [
+            "I save a fixed amount as soon as my salary arrives.",
+            "She saved for six months before replacing her laptop."
+          ],
+          "collocations": [
+            "save money",
+            "save regularly",
+            "save for a goal",
+            "save up",
+            "manage to save"
+          ]
+        },
+        {
+          "term": "savings",
+          "part_of_speech": "plural noun",
+          "definition": "money kept for future use rather than current spending",
+          "examples": [
+            "My savings covered the repair without using a credit card.",
+            "She keeps travel savings separate from her emergency money."
+          ],
+          "collocations": [
+            "personal savings",
+            "build savings",
+            "use savings",
+            "savings goal",
+            "life savings"
+          ]
+        },
+        {
+          "term": "emergency fund",
+          "part_of_speech": "noun phrase",
+          "definition": "money reserved for urgent, unexpected, and necessary costs",
+          "examples": [
+            "The emergency fund paid for a dental problem between paychecks.",
+            "I rebuilt my emergency fund after using it for car repairs."
+          ],
+          "collocations": [
+            "build an emergency fund",
+            "emergency-fund target",
+            "use an emergency fund"
+          ]
+        },
+        {
+          "term": "financial cushion",
+          "part_of_speech": "noun phrase",
+          "definition": "extra money that protects against unexpected costs or income loss",
+          "examples": [
+            "A small financial cushion made the job change less frightening.",
+            "Freelancers need a larger cushion because payments may arrive late."
+          ],
+          "collocations": [
+            "build a financial cushion",
+            "provide a cushion",
+            "small financial cushion"
+          ]
+        },
+        {
+          "term": "goal",
+          "part_of_speech": "noun",
+          "definition": "a specific result someone plans to achieve",
+          "examples": [
+            "My first financial goal is to repay the small loan.",
+            "A clear goal makes it easier to refuse an unnecessary purchase."
+          ],
+          "collocations": [
+            "financial goal",
+            "short-term goal",
+            "set a goal",
+            "reach a goal",
+            "realistic goal"
+          ]
+        },
+        {
+          "term": "target",
+          "part_of_speech": "noun",
+          "definition": "a specific amount or result to aim for",
+          "examples": [
+            "I set a savings target based on the actual cost of the course.",
+            "The original target became unrealistic after rent increased."
+          ],
+          "collocations": [
+            "savings target",
+            "monthly target",
+            "reach a target",
+            "set a target"
+          ]
+        },
+        {
+          "term": "automatic transfer",
+          "part_of_speech": "noun phrase",
+          "definition": "a scheduled electronic movement of money between accounts",
+          "examples": [
+            "An automatic transfer moves money to savings on payday.",
+            "I lowered the transfer temporarily when my working hours changed."
+          ],
+          "collocations": [
+            "set up an automatic transfer",
+            "monthly automatic transfer"
+          ]
+        },
+        {
+          "term": "set aside",
+          "part_of_speech": "verb phrase",
+          "definition": "to reserve money for a particular future purpose",
+          "examples": [
+            "We set aside part of the refund for winter heating.",
+            "I set money aside before spending on entertainment."
+          ],
+          "collocations": [
+            "set aside money",
+            "set aside for emergencies",
+            "regularly set aside"
+          ]
+        },
+        {
+          "term": "rainy-day fund",
+          "part_of_speech": "noun phrase",
+          "definition": "informal savings kept for unexpected difficulty",
+          "examples": [
+            "Their rainy-day fund covered two weeks without income.",
+            "A rainy-day fund should be easy to access but not mixed with daily spending."
+          ],
+          "collocations": [
+            "build a rainy-day fund",
+            "use a rainy-day fund"
+          ]
+        },
+        {
+          "term": "milestone",
+          "part_of_speech": "noun",
+          "definition": "an important stage showing progress toward a larger goal",
+          "examples": [
+            "Saving the first month's expenses was an encouraging milestone.",
+            "We celebrated the debt-repayment milestone without spending heavily."
+          ],
+          "collocations": [
+            "financial milestone",
+            "reach a milestone",
+            "major milestone",
+            "savings milestone"
+          ]
+        }
+      ],
+      "phrases": [
+        {
+          "text": "I save first instead of waiting to see what remains.",
+          "reusable_core": "save first"
+        },
+        {
+          "text": "The emergency fund is for urgent needs, not predictable bills.",
+          "reusable_core": "urgent needs, not predictable bills"
+        },
+        {
+          "text": "A specific target makes progress easier to measure.",
+          "reusable_core": "easier to measure"
+        },
+        {
+          "text": "I keep different goals in separate accounts.",
+          "reusable_core": "different goals in separate accounts"
+        },
+        {
+          "text": "Even a small regular amount builds a useful habit.",
+          "reusable_core": "small regular amount"
+        },
+        {
+          "text": "The fund gives me time to make a calmer decision.",
+          "reusable_core": "time to make a calmer decision"
+        },
+        {
+          "text": "I would rebuild the savings after using them.",
+          "reusable_core": "rebuild the savings"
+        },
+        {
+          "text": "The goal has a clear amount and deadline.",
+          "reusable_core": "a clear amount and deadline"
+        },
+        {
+          "text": "Automatic saving removes one repeated decision.",
+          "reusable_core": "removes one repeated decision"
+        }
+      ]
+    },
+    {
+      "title": "Long-Term Planning and Financial Stability",
+      "headwords": [
+        {
+          "term": "financial plan",
+          "part_of_speech": "noun phrase",
+          "definition": "an organized approach to present money needs and future goals",
+          "examples": [
+            "Our financial plan includes debt repayment, savings, and retirement contributions.",
+            "The plan changed after the family decided to move."
+          ],
+          "collocations": [
+            "long-term financial plan",
+            "create a financial plan",
+            "review a financial plan"
+          ]
+        },
+        {
+          "term": "stability",
+          "part_of_speech": "noun",
+          "definition": "a condition in which finances are reliable enough to handle normal needs and changes",
+          "examples": [
+            "A steady income gave the household greater financial stability.",
+            "Stability does not require wealth, but it does require some room for problems."
+          ],
+          "collocations": [
+            "financial stability",
+            "long-term stability",
+            "achieve stability",
+            "greater stability"
+          ]
+        },
+        {
+          "term": "secure",
+          "part_of_speech": "adjective",
+          "definition": "protected from serious financial risk or uncertainty",
+          "examples": [
+            "She felt more secure after building three months of basic expenses.",
+            "A permanent job does not make every household financially secure."
+          ],
+          "collocations": [
+            "financially secure",
+            "feel secure",
+            "secure future",
+            "more secure"
+          ]
+        },
+        {
+          "term": "long-term",
+          "part_of_speech": "adjective",
+          "definition": "continuing or planned over many years",
+          "examples": [
+            "A long-term goal may require small actions across decades.",
+            "The cheap repair solved today's problem but increased long-term costs."
+          ],
+          "collocations": [
+            "long-term goal",
+            "long-term planning",
+            "long-term financial security",
+            "long-term investment"
+          ]
+        },
+        {
+          "term": "retirement",
+          "part_of_speech": "noun",
+          "definition": "the period after a person permanently stops regular paid work",
+          "examples": [
+            "He began saving for retirement with his first full-time job.",
+            "Retirement planning is harder for workers with irregular income."
+          ],
+          "collocations": [
+            "save for retirement",
+            "retirement plan",
+            "retirement income",
+            "approach retirement"
+          ]
+        },
+        {
+          "term": "pension",
+          "part_of_speech": "noun",
+          "definition": "regular income or a fund intended to support someone after retirement",
+          "examples": [
+            "Her employer contributes to a workplace pension.",
+            "The pension alone may not cover future housing costs."
+          ],
+          "collocations": [
+            "workplace pension",
+            "pension contribution",
+            "receive a pension",
+            "pension plan"
+          ]
+        },
+        {
+          "term": "future-proof",
+          "part_of_speech": "verb",
+          "definition": "to prepare something to remain useful despite future changes",
+          "examples": [
+            "Learning new skills can help future-proof a person's income.",
+            "The family tried to future-proof its plan against higher energy costs."
+          ],
+          "collocations": [
+            "future-proof finances",
+            "future-proof a career",
+            "help future-proof"
+          ]
+        },
+        {
+          "term": "contingency",
+          "part_of_speech": "noun",
+          "definition": "a possible future problem for which a plan or money is prepared",
+          "examples": [
+            "The project budget includes a contingency for material price increases.",
+            "Illness is one contingency that a self-employed worker must consider."
+          ],
+          "collocations": [
+            "contingency plan",
+            "contingency fund",
+            "plan for contingencies"
+          ]
+        }
+      ],
+      "phrases": [
+        {
+          "text": "Financial stability means being able to handle ordinary setbacks.",
+          "reusable_core": "handle ordinary setbacks"
+        },
+        {
+          "text": "A long-term plan still needs regular adjustment.",
+          "reusable_core": "regular adjustment"
+        },
+        {
+          "text": "Starting early reduces the amount required later.",
+          "reusable_core": "Starting early"
+        },
+        {
+          "text": "The goal is security rather than a perfect prediction.",
+          "reusable_core": "security rather than a perfect prediction"
+        },
+        {
+          "text": "Future costs are uncertain, so the plan needs some flexibility.",
+          "reusable_core": "needs some flexibility"
+        },
+        {
+          "text": "Retirement can feel distant but should not be ignored.",
+          "reusable_core": "should not be ignored"
+        },
+        {
+          "text": "I would review the plan after a major life change.",
+          "reusable_core": "after a major life change"
+        },
+        {
+          "text": "Several smaller protections are safer than one assumption.",
+          "reusable_core": "Several smaller protections"
+        }
+      ]
+    },
+    {
+      "title": "Banking, Payments, and Digital Money",
+      "headwords": [
+        {
+          "term": "account",
+          "part_of_speech": "noun",
+          "definition": "an arrangement with a bank for holding and managing money",
+          "examples": [
+            "I keep bill money in a separate current account.",
+            "The bank froze the account after detecting unusual activity."
+          ],
+          "collocations": [
+            "bank account",
+            "savings account",
+            "open an account",
+            "account holder",
+            "account details"
+          ]
+        },
+        {
+          "term": "deposit",
+          "part_of_speech": "verb",
+          "definition": "to put money into a bank account",
+          "examples": [
+            "I deposited the cash before the rent payment was due.",
+            "The employer deposits salaries directly into staff accounts."
+          ],
+          "collocations": [
+            "deposit money",
+            "directly deposit",
+            "deposit into an account",
+            "cash deposit"
+          ]
+        },
+        {
+          "term": "withdraw",
+          "part_of_speech": "verb",
+          "definition": "to take money out of a bank account",
+          "examples": [
+            "She withdrew enough cash for the weekend market.",
+            "The machine charged a fee to withdraw money abroad."
+          ],
+          "collocations": [
+            "withdraw cash",
+            "withdraw money",
+            "withdraw from an account",
+            "cash withdrawal"
+          ]
+        },
+        {
+          "term": "transfer",
+          "part_of_speech": "verb",
+          "definition": "to move money electronically from one account or person to another",
+          "examples": [
+            "I transferred my share of the rent to my roommate.",
+            "Check the account number before transferring a large amount."
+          ],
+          "collocations": [
+            "transfer money",
+            "bank transfer",
+            "transfer funds",
+            "international transfer"
+          ]
+        },
+        {
+          "term": "payment",
+          "part_of_speech": "noun",
+          "definition": "money given to pay for goods, services, or debt",
+          "examples": [
+            "The automatic payment failed because the account balance was too low.",
+            "I received confirmation as soon as the payment was processed."
+          ],
+          "collocations": [
+            "monthly payment",
+            "make a payment",
+            "payment method",
+            "late payment",
+            "payment deadline"
+          ]
+        },
+        {
+          "term": "fee",
+          "part_of_speech": "noun",
+          "definition": "money charged for a service or permission",
+          "examples": [
+            "The account has no monthly fee if the balance stays above the minimum.",
+            "A small booking fee made the advertised ticket price misleading."
+          ],
+          "collocations": [
+            "service fee",
+            "monthly fee",
+            "hidden fee",
+            "charge a fee",
+            "avoid fees"
+          ]
+        },
+        {
+          "term": "interest",
+          "part_of_speech": "noun",
+          "definition": "money paid for borrowing or earned by saving",
+          "examples": [
+            "The loan's interest adds considerably to the total cost.",
+            "This savings account pays a small amount of interest each month."
+          ],
+          "collocations": [
+            "interest rate",
+            "pay interest",
+            "earn interest",
+            "high interest",
+            "compound interest"
+          ]
+        },
+        {
+          "term": "online banking",
+          "part_of_speech": "noun phrase",
+          "definition": "banking services accessed through a website or app",
+          "examples": [
+            "Online banking lets me schedule bills without visiting a branch.",
+            "I avoid using online banking on public Wi-Fi."
+          ],
+          "collocations": [
+            "online-banking app",
+            "use online banking",
+            "secure online banking"
+          ]
+        },
+        {
+          "term": "digital wallet",
+          "part_of_speech": "noun phrase",
+          "definition": "a phone or online service that stores payment methods electronically",
+          "examples": [
+            "My digital wallet lets me pay without carrying the physical card.",
+            "A lost phone is less dangerous when the wallet uses strong security."
+          ],
+          "collocations": [
+            "mobile digital wallet",
+            "use a digital wallet",
+            "digital-wallet payment"
+          ]
+        },
+        {
+          "term": "contactless",
+          "part_of_speech": "adjective",
+          "definition": "allowing payment by holding a card or device near a reader",
+          "examples": [
+            "Contactless payment is convenient for small transport fares.",
+            "I disabled contactless features after losing the card."
+          ],
+          "collocations": [
+            "contactless payment",
+            "contactless card",
+            "pay contactlessly"
+          ]
+        },
+        {
+          "term": "fraud",
+          "part_of_speech": "noun",
+          "definition": "criminal deception intended to obtain money or financial information",
+          "examples": [
+            "The bank called after detecting possible card fraud.",
+            "Education can help older customers recognize online fraud attempts."
+          ],
+          "collocations": [
+            "financial fraud",
+            "credit-card fraud",
+            "fraud prevention",
+            "report fraud"
+          ]
+        },
+        {
+          "term": "secure",
+          "part_of_speech": "verb",
+          "definition": "to protect money, accounts, or information from risk",
+          "examples": [
+            "A password manager helps secure financial accounts.",
+            "The bank secured the transfer with an additional identity check."
+          ],
+          "collocations": [
+            "secure an account",
+            "secure payment",
+            "secure financial data"
+          ]
+        }
+      ],
+      "phrases": [
+        {
+          "text": "I check the total fee before confirming the payment.",
+          "reusable_core": "the total fee"
+        },
+        {
+          "text": "Digital payment is convenient, but it can make spending less visible.",
+          "reusable_core": "make spending less visible"
+        },
+        {
+          "text": "I keep account alerts on for unusual transactions.",
+          "reusable_core": "unusual transactions"
+        },
+        {
+          "text": "The interest rate affects the total amount paid.",
+          "reusable_core": "total amount paid"
+        },
+        {
+          "text": "I would verify the recipient before transferring money.",
+          "reusable_core": "verify the recipient"
+        },
+        {
+          "text": "The bank app saves time for routine tasks.",
+          "reusable_core": "routine tasks"
+        },
+        {
+          "text": "Strong security should not make the service impossible to use.",
+          "reusable_core": "impossible to use"
+        },
+        {
+          "text": "Cash is still useful when technology fails.",
+          "reusable_core": "when technology fails"
+        },
+        {
+          "text": "The advertised price does not include every fee.",
+          "reusable_core": "does not include every fee"
+        },
+        {
+          "text": "I use separate accounts for bills and flexible spending.",
+          "reusable_core": "separate accounts"
+        }
+      ]
+    },
+    {
+      "title": "Debt, Borrowing, and Credit",
+      "headwords": [
+        {
+          "term": "debt",
+          "part_of_speech": "noun",
+          "definition": "money that a person or organization owes",
+          "examples": [
+            "She paid off the small debt before applying for another loan.",
+            "High-interest debt can grow even when regular payments are made."
+          ],
+          "collocations": [
+            "pay off debt",
+            "manage debt",
+            "fall into debt",
+            "debt repayment",
+            "heavy debt"
+          ]
+        },
+        {
+          "term": "borrow",
+          "part_of_speech": "verb",
+          "definition": "to receive money temporarily with an agreement to return it",
+          "examples": [
+            "I would borrow only the amount needed for tuition.",
+            "The business borrowed money to replace unsafe equipment."
+          ],
+          "collocations": [
+            "borrow money",
+            "borrow from a bank",
+            "borrow responsibly",
+            "need to borrow"
+          ]
+        },
+        {
+          "term": "loan",
+          "part_of_speech": "noun",
+          "definition": "money lent with an agreement about repayment, often including interest",
+          "examples": [
+            "The student loan covered fees but not all living costs.",
+            "I compared the total loan cost rather than only the monthly payment."
+          ],
+          "collocations": [
+            "take out a loan",
+            "repay a loan",
+            "student loan",
+            "bank loan",
+            "loan term"
+          ]
+        },
+        {
+          "term": "repay",
+          "part_of_speech": "verb",
+          "definition": "to return borrowed money",
+          "examples": [
+            "He repays the loan automatically on payday.",
+            "The family needed more time to repay the emergency borrowing."
+          ],
+          "collocations": [
+            "repay a loan",
+            "repay debt",
+            "fully repay",
+            "repayment schedule"
+          ]
+        },
+        {
+          "term": "installment",
+          "part_of_speech": "noun",
+          "definition": "one of several regular payments used to repay a total amount",
+          "examples": [
+            "The final installment is due in September.",
+            "A low installment can hide a very long and expensive loan."
+          ],
+          "collocations": [
+            "monthly installment",
+            "pay in installments",
+            "final installment",
+            "installment plan"
+          ]
+        },
+        {
+          "term": "credit",
+          "part_of_speech": "noun",
+          "definition": "an arrangement allowing someone to receive goods or money now and pay later",
+          "examples": [
+            "Easy credit encouraged him to replace a phone that still worked.",
+            "The shop offered six months of interest-free credit."
+          ],
+          "collocations": [
+            "use credit",
+            "available credit",
+            "credit agreement",
+            "buy on credit"
+          ]
+        },
+        {
+          "term": "credit card",
+          "part_of_speech": "noun phrase",
+          "definition": "a card that lets the user borrow for purchases up to an agreed limit",
+          "examples": [
+            "I pay the credit-card balance in full whenever possible.",
+            "The credit card was useful for the emergency repair, but the interest was high."
+          ],
+          "collocations": [
+            "use a credit card",
+            "credit-card debt",
+            "credit-card balance",
+            "credit-card limit"
+          ]
+        },
+        {
+          "term": "interest-free",
+          "part_of_speech": "adjective",
+          "definition": "requiring no interest payment for a stated period",
+          "examples": [
+            "The interest-free offer is useful only if the full amount is repaid on time.",
+            "Her parents provided an interest-free loan for the course."
+          ],
+          "collocations": [
+            "interest-free period",
+            "interest-free loan",
+            "interest-free credit"
+          ]
+        },
+        {
+          "term": "default",
+          "part_of_speech": "verb",
+          "definition": "to fail to make an agreed debt payment",
+          "examples": [
+            "The borrower defaulted after losing work for several months.",
+            "Early communication may prevent someone from defaulting on a loan."
+          ],
+          "collocations": [
+            "default on a loan",
+            "default on payments",
+            "risk of default"
+          ]
+        },
+        {
+          "term": "credit score",
+          "part_of_speech": "noun phrase",
+          "definition": "a number used by lenders to estimate how reliably someone repays borrowing",
+          "examples": [
+            "A missed payment damaged his credit score.",
+            "Checking your own score does not guarantee that every lender will approve a loan."
+          ],
+          "collocations": [
+            "good credit score",
+            "improve a credit score",
+            "check a credit score"
+          ]
+        },
+        {
+          "term": "predatory",
+          "part_of_speech": "adjective",
+          "definition": "unfairly exploiting people through harmful financial terms or pressure",
+          "examples": [
+            "The predatory lender advertised quick cash without explaining the enormous fees.",
+            "Clear regulation can protect desperate borrowers from predatory loans."
+          ],
+          "collocations": [
+            "predatory lending",
+            "predatory loan",
+            "predatory practice"
+          ]
+        }
+      ],
+      "phrases": [
+        {
+          "text": "I compare the total repayment, not only the monthly amount.",
+          "reusable_core": "the total repayment"
+        },
+        {
+          "text": "Borrowing solves today's cost but creates a future obligation.",
+          "reusable_core": "a future obligation"
+        },
+        {
+          "text": "High-interest debt should be repaid as early as possible.",
+          "reusable_core": "as early as possible"
+        },
+        {
+          "text": "A lower installment may mean a much longer loan.",
+          "reusable_core": "a much longer loan"
+        },
+        {
+          "text": "I would contact the lender before missing a payment.",
+          "reusable_core": "before missing a payment"
+        },
+        {
+          "text": "Credit is useful when it is understood and controlled.",
+          "reusable_core": "understood and controlled"
+        },
+        {
+          "text": "The emergency mattered more than avoiding all debt.",
+          "reusable_core": "mattered more than avoiding all debt"
+        },
+        {
+          "text": "The offer becomes expensive after the interest-free period ends.",
+          "reusable_core": "after the interest-free period ends"
+        },
+        {
+          "text": "The terms should be written in clear language.",
+          "reusable_core": "written in clear language"
+        },
+        {
+          "text": "I would not borrow simply to match someone else's lifestyle.",
+          "reusable_core": "match someone else's lifestyle"
+        }
+      ]
+    },
+    {
+      "title": "Investing and Building Wealth",
+      "headwords": [
+        {
+          "term": "invest",
+          "part_of_speech": "verb",
+          "definition": "to put money into an asset or activity with the aim of future growth or income",
+          "examples": [
+            "She invests a small regular amount rather than trying to predict the market.",
+            "The family invested in training that increased future earning ability."
+          ],
+          "collocations": [
+            "invest money",
+            "invest regularly",
+            "invest for the long term",
+            "carefully invest"
+          ]
+        },
+        {
+          "term": "investment",
+          "part_of_speech": "noun",
+          "definition": "money or resources placed somewhere for future benefit",
+          "examples": [
+            "Every investment carries some possibility of loss.",
+            "Education was the most valuable investment he made in his early career."
+          ],
+          "collocations": [
+            "long-term investment",
+            "make an investment",
+            "investment return",
+            "investment risk"
+          ]
+        },
+        {
+          "term": "return",
+          "part_of_speech": "noun",
+          "definition": "money gained or lost from an investment",
+          "examples": [
+            "The fund produced a modest return over several years.",
+            "A promised high return with no risk is a warning sign."
+          ],
+          "collocations": [
+            "investment return",
+            "annual return",
+            "high return",
+            "rate of return"
+          ]
+        },
+        {
+          "term": "risk",
+          "part_of_speech": "noun",
+          "definition": "the possibility of financial loss or an unfavorable result",
+          "examples": [
+            "A short-term goal cannot tolerate the same risk as retirement savings.",
+            "She reduced risk by spreading money across different investments."
+          ],
+          "collocations": [
+            "financial risk",
+            "investment risk",
+            "take a risk",
+            "reduce risk",
+            "risk tolerance"
+          ]
+        },
+        {
+          "term": "diversify",
+          "part_of_speech": "verb",
+          "definition": "to spread money across different assets or sources to reduce dependence on one",
+          "examples": [
+            "Investors diversify so one company cannot destroy the whole plan.",
+            "A freelancer can diversify income by working with several clients."
+          ],
+          "collocations": [
+            "diversify investments",
+            "diversify a portfolio",
+            "widely diversified"
+          ]
+        },
+        {
+          "term": "portfolio",
+          "part_of_speech": "noun",
+          "definition": "the collection of investments owned by a person or organization",
+          "examples": [
+            "His portfolio contains funds rather than individual company shares.",
+            "The adviser reviewed whether the portfolio still matched her goals."
+          ],
+          "collocations": [
+            "investment portfolio",
+            "diverse portfolio",
+            "build a portfolio",
+            "portfolio balance"
+          ]
+        },
+        {
+          "term": "compound",
+          "part_of_speech": "verb",
+          "definition": "to grow through returns being added and producing further returns",
+          "examples": [
+            "Small contributions can compound over many years.",
+            "Debt also compounds when unpaid interest is added to the balance."
+          ],
+          "collocations": [
+            "compound over time",
+            "compounding growth",
+            "compound interest"
+          ]
+        },
+        {
+          "term": "inflation",
+          "part_of_speech": "noun",
+          "definition": "a general rise in prices that reduces what money can buy",
+          "examples": [
+            "Inflation made the fixed food budget unrealistic.",
+            "Savings that earn very little may lose purchasing power during high inflation."
+          ],
+          "collocations": [
+            "rising inflation",
+            "rate of inflation",
+            "adjust for inflation",
+            "inflation reduces"
+          ]
+        },
+        {
+          "term": "wealth",
+          "part_of_speech": "noun",
+          "definition": "valuable money, property, and assets owned beyond immediate income",
+          "examples": [
+            "Owning a home is one form of household wealth.",
+            "Wealth can grow across generations through both assets and education."
+          ],
+          "collocations": [
+            "build wealth",
+            "household wealth",
+            "personal wealth",
+            "wealth inequality"
+          ]
+        },
+        {
+          "term": "asset",
+          "part_of_speech": "noun",
+          "definition": "something valuable that a person or organization owns",
+          "examples": [
+            "The small apartment became the family's main asset.",
+            "A car is useful, but it may lose value rather than act as an investment."
+          ],
+          "collocations": [
+            "financial asset",
+            "valuable asset",
+            "own assets",
+            "asset value"
+          ]
+        }
+      ],
+      "phrases": [
+        {
+          "text": "Higher possible returns usually come with greater risk.",
+          "reusable_core": "come with greater risk"
+        },
+        {
+          "text": "I would invest only after building an emergency fund.",
+          "reusable_core": "after building an emergency fund"
+        },
+        {
+          "text": "A long time horizon allows short-term changes to settle.",
+          "reusable_core": "long time horizon"
+        },
+        {
+          "text": "Diversification reduces dependence on one company or asset.",
+          "reusable_core": "reduces dependence"
+        },
+        {
+          "text": "Inflation changes what the same amount of money can buy.",
+          "reusable_core": "what the same amount of money can buy"
+        },
+        {
+          "text": "Slow regular investing is easier than predicting the perfect moment.",
+          "reusable_core": "predicting the perfect moment"
+        },
+        {
+          "text": "Education can also be an investment in future income.",
+          "reusable_core": "an investment in future income"
+        },
+        {
+          "text": "A high promised return deserves careful investigation.",
+          "reusable_core": "deserves careful investigation"
+        },
+        {
+          "text": "Wealth building depends on opportunity as well as personal choices.",
+          "reusable_core": "opportunity as well as personal choices"
+        }
+      ]
+    },
+    {
+      "title": "Financial Tools, Apps, and Professional Advice",
+      "headwords": [
+        {
+          "term": "budgeting app",
+          "part_of_speech": "noun phrase",
+          "definition": "software designed to record spending and support money planning",
+          "examples": [
+            "The budgeting app groups card payments automatically.",
+            "I stopped using one app because it requested too much personal data."
+          ],
+          "collocations": [
+            "use a budgeting app",
+            "budgeting-app feature",
+            "free budgeting app"
+          ]
+        },
+        {
+          "term": "financial tool",
+          "part_of_speech": "noun phrase",
+          "definition": "a resource, calculation, or service used to understand or manage money",
+          "examples": [
+            "A loan calculator is a simple financial tool with a clear purpose.",
+            "Online tools can compare scenarios without making the decision for you."
+          ],
+          "collocations": [
+            "online financial tool",
+            "money-management tool",
+            "useful financial tool"
+          ]
+        },
+        {
+          "term": "notification",
+          "part_of_speech": "noun",
+          "definition": "an automatic message from an app or service",
+          "examples": [
+            "A notification warns me when the account balance is low.",
+            "Too many spending notifications became easy to ignore."
+          ],
+          "collocations": [
+            "payment notification",
+            "account notification",
+            "receive a notification",
+            "notification setting"
+          ]
+        },
+        {
+          "term": "automate",
+          "part_of_speech": "verb",
+          "definition": "to make a financial action happen automatically through a system",
+          "examples": [
+            "I automate regular bill payments but still review the amounts.",
+            "The app automates saving by rounding up purchases."
+          ],
+          "collocations": [
+            "automate payments",
+            "automate savings",
+            "fully automate",
+            "automated transfer"
+          ]
+        },
+        {
+          "term": "privacy",
+          "part_of_speech": "noun",
+          "definition": "control over who can access personal and financial information",
+          "examples": [
+            "A free app may fund itself by collecting data, which creates a privacy concern.",
+            "Strong privacy settings matter when a tool can see every transaction."
+          ],
+          "collocations": [
+            "financial privacy",
+            "protect privacy",
+            "privacy policy",
+            "privacy concern"
+          ]
+        },
+        {
+          "term": "adviser",
+          "part_of_speech": "noun",
+          "definition": "a person who provides professional guidance about financial decisions",
+          "examples": [
+            "The adviser explained the fees before suggesting an investment.",
+            "A qualified adviser should ask about goals and risk instead of selling one product immediately."
+          ],
+          "collocations": [
+            "financial adviser",
+            "independent adviser",
+            "consult an adviser",
+            "professional advice"
+          ]
+        },
+        {
+          "term": "fiduciary",
+          "part_of_speech": "adjective",
+          "definition": "legally required to act in a client's best financial interest",
+          "examples": [
+            "The client asked whether the adviser had a fiduciary duty.",
+            "A fiduciary standard reduces some conflicts but does not remove the need to understand fees."
+          ],
+          "collocations": [
+            "fiduciary duty",
+            "fiduciary adviser",
+            "fiduciary responsibility"
+          ]
+        },
+        {
+          "term": "commission",
+          "part_of_speech": "noun",
+          "definition": "money earned for selling or arranging a financial product",
+          "examples": [
+            "The adviser disclosed that she received a commission from the insurer.",
+            "Commission can create pressure to recommend a more expensive product."
+          ],
+          "collocations": [
+            "earn a commission",
+            "sales commission",
+            "commission-based advice",
+            "disclose commission"
+          ]
+        },
+        {
+          "term": "calculator",
+          "part_of_speech": "noun",
+          "definition": "a tool that performs numerical calculations for planning or comparison",
+          "examples": [
+            "The mortgage calculator showed how interest changed the total repayment.",
+            "A retirement calculator gives an estimate, not a guarantee."
+          ],
+          "collocations": [
+            "online calculator",
+            "loan calculator",
+            "savings calculator",
+            "use a calculator"
+          ]
+        },
+        {
+          "term": "dashboard",
+          "part_of_speech": "noun",
+          "definition": "a screen that summarizes financial information in one place",
+          "examples": [
+            "The app dashboard shows income, bills, and savings progress.",
+            "A colorful dashboard is useless if categories are inaccurate."
+          ],
+          "collocations": [
+            "financial dashboard",
+            "app dashboard",
+            "dashboard view",
+            "personal dashboard"
+          ]
+        },
+        {
+          "term": "sync",
+          "part_of_speech": "verb",
+          "definition": "to automatically match and update information between systems",
+          "examples": [
+            "The app syncs with my bank account each night.",
+            "I enter cash manually because it cannot sync from a card record."
+          ],
+          "collocations": [
+            "sync an account",
+            "automatically sync",
+            "sync financial data"
+          ]
+        }
+      ],
+      "phrases": [
+        {
+          "text": "The best tool is one I can use consistently.",
+          "reusable_core": "use consistently"
+        },
+        {
+          "text": "Automation saves effort but still needs review.",
+          "reusable_core": "still needs review"
+        },
+        {
+          "text": "I would check how the service uses financial data.",
+          "reusable_core": "uses financial data"
+        },
+        {
+          "text": "The dashboard turns many transactions into a simple overview.",
+          "reusable_core": "a simple overview"
+        },
+        {
+          "text": "Professional advice should include clear fees and possible conflicts.",
+          "reusable_core": "clear fees and possible conflicts"
+        },
+        {
+          "text": "A calculator illustrates a scenario rather than predicting the future.",
+          "reusable_core": "rather than predicting the future"
+        },
+        {
+          "text": "Written records offer more control but require manual effort.",
+          "reusable_core": "more control but require manual effort"
+        },
+        {
+          "text": "The app should allow easy export of my own information.",
+          "reusable_core": "export of my own information"
+        },
+        {
+          "text": "Digital and paper systems can be combined.",
+          "reusable_core": "can be combined"
+        },
+        {
+          "text": "I do not need a complex tool for a simple budget.",
+          "reusable_core": "a complex tool"
+        }
+      ]
+    },
+    {
+      "title": "Financial Education, Responsibility, and Barriers",
+      "headwords": [
+        {
+          "term": "financial literacy",
+          "part_of_speech": "noun phrase",
+          "definition": "the knowledge and skills needed to make informed everyday money decisions",
+          "examples": [
+            "Financial literacy helps students compare a loan's total cost.",
+            "Knowing vocabulary alone does not guarantee good financial behavior."
+          ],
+          "collocations": [
+            "financial-literacy education",
+            "improve financial literacy",
+            "basic financial literacy"
+          ]
+        },
+        {
+          "term": "fiscal responsibility",
+          "part_of_speech": "noun phrase",
+          "definition": "careful management of money, spending, and obligations",
+          "examples": [
+            "Paying bills on time is one part of personal fiscal responsibility.",
+            "Fiscal responsibility should not mean refusing all useful public investment."
+          ],
+          "collocations": [
+            "personal fiscal responsibility",
+            "show fiscal responsibility",
+            "fiscally responsible"
+          ]
+        },
+        {
+          "term": "responsible",
+          "part_of_speech": "adjective",
+          "definition": "making careful choices and accepting financial obligations",
+          "examples": [
+            "A responsible borrower reads the terms and plans repayment.",
+            "Buying one enjoyable item does not make someone financially irresponsible."
+          ],
+          "collocations": [
+            "financially responsible",
+            "responsible spending",
+            "responsible choice",
+            "responsible borrower"
+          ]
+        },
+        {
+          "term": "impulse",
+          "part_of_speech": "noun",
+          "definition": "a sudden desire to act without much planning",
+          "examples": [
+            "I wait one day before acting on an expensive shopping impulse.",
+            "Advertising turned a small impulse into a purchase she did not need."
+          ],
+          "collocations": [
+            "buy on impulse",
+            "resist an impulse",
+            "impulse purchase",
+            "shopping impulse"
+          ]
+        },
+        {
+          "term": "habit",
+          "part_of_speech": "noun",
+          "definition": "a repeated behavior that often happens automatically",
+          "examples": [
+            "Checking the account once a week became a useful habit.",
+            "A savings habit can begin with a very small amount."
+          ],
+          "collocations": [
+            "financial habit",
+            "spending habit",
+            "saving habit",
+            "build a habit",
+            "change a habit"
+          ]
+        },
+        {
+          "term": "discipline",
+          "part_of_speech": "noun",
+          "definition": "the ability to follow a plan despite temptation or difficulty",
+          "examples": [
+            "Automatic transfers reduce how much discipline saving requires.",
+            "Financial discipline is harder when income barely covers needs."
+          ],
+          "collocations": [
+            "financial discipline",
+            "self-discipline",
+            "require discipline",
+            "maintain discipline"
+          ]
+        },
+        {
+          "term": "obstacle",
+          "part_of_speech": "noun",
+          "definition": "a condition that makes financial planning difficult",
+          "examples": [
+            "Irregular income is a major obstacle to a fixed monthly plan.",
+            "Lack of childcare became an obstacle to increasing work hours."
+          ],
+          "collocations": [
+            "financial obstacle",
+            "major obstacle",
+            "overcome an obstacle",
+            "practical obstacle"
+          ]
+        },
+        {
+          "term": "inequality",
+          "part_of_speech": "noun",
+          "definition": "an unfair or large difference in income, wealth, or opportunity",
+          "examples": [
+            "Wealth inequality affects who can recover from an emergency.",
+            "Education can help, but it cannot remove structural inequality by itself."
+          ],
+          "collocations": [
+            "income inequality",
+            "wealth inequality",
+            "reduce inequality",
+            "growing inequality"
+          ]
+        },
+        {
+          "term": "financial stress",
+          "part_of_speech": "noun phrase",
+          "definition": "worry and pressure caused by money problems or uncertainty",
+          "examples": [
+            "Financial stress made it difficult for him to concentrate at work.",
+            "A clear repayment plan reduced stress even before the debt disappeared."
+          ],
+          "collocations": [
+            "experience financial stress",
+            "reduce financial stress",
+            "severe financial stress"
+          ]
+        }
+      ],
+      "phrases": [
+        {
+          "text": "Financial education should use realistic decisions, not only definitions.",
+          "reusable_core": "realistic decisions"
+        },
+        {
+          "text": "A good habit reduces the need for constant willpower.",
+          "reusable_core": "constant willpower"
+        },
+        {
+          "text": "People cannot budget money they do not have.",
+          "reusable_core": "cannot budget money they do not have"
+        },
+        {
+          "text": "Irregular income makes fixed monthly targets harder.",
+          "reusable_core": "fixed monthly targets"
+        },
+        {
+          "text": "Responsibility matters, but opportunity and cost also shape outcomes.",
+          "reusable_core": "opportunity and cost"
+        },
+        {
+          "text": "Schools can teach students how to compare financial products.",
+          "reusable_core": "compare financial products"
+        },
+        {
+          "text": "Shame often prevents people from asking for help early.",
+          "reusable_core": "asking for help early"
+        },
+        {
+          "text": "The plan should account for cultural and family responsibilities.",
+          "reusable_core": "family responsibilities"
+        },
+        {
+          "text": "One mistake should lead to adjustment rather than giving up.",
+          "reusable_core": "adjustment rather than giving up"
+        },
+        {
+          "text": "Clear consumer protection supports better individual choices.",
+          "reusable_core": "consumer protection"
+        },
+        {
+          "text": "Practical barriers can defeat a theoretically good plan.",
+          "reusable_core": "Practical barriers"
+        }
+      ]
+    }
+  ]
+}

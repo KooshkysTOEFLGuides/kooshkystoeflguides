@@ -1,0 +1,418 @@
+{
+  "schema_version": 1,
+  "topic": "Communication and Language",
+  "sets": [
+    {
+      "title": "Everyday Communication Habits",
+      "setup": "A university researcher is studying how people stay in contact. You will answer questions about your everyday communication habits.",
+      "questions": [
+        {
+          "number": 1,
+          "question": "Who do you communicate with most often during a normal week, and how do you usually contact them?",
+          "sample_answer": "I probably communicate with my younger brother most often. We send short messages during the day because our schedules are different. If something needs a real discussion, we arrange a call for the evening. The messages help us share ordinary moments, while the calls give us time to explain problems properly. That combination feels easy to maintain, even during weeks when neither of us has much free time."
+        },
+        {
+          "number": 2,
+          "question": "Do you prefer receiving an unexpected phone call or a message asking whether you are free to talk? Why?",
+          "sample_answer": "I prefer a message first unless the situation is urgent. An unexpected call can interrupt a class, a meal, or work that needs concentration. With a message, I can say when I will be available and then pay proper attention. I still call close family members directly sometimes because we already understand each other's routines. For most people, checking first feels more considerate."
+        },
+        {
+          "number": 3,
+          "question": "Has the way you communicate with friends changed in recent years? Explain what changed.",
+          "sample_answer": "Yes, I use voice messages much more than I did a few years ago. They are faster than typing when I have a story, and my friends can listen when convenient. I avoid sending very long recordings, though, because finding one detail later is difficult. For plans, I still prefer a written message with the exact time and place. My habits changed, but each channel has a different job."
+        },
+        {
+          "number": 4,
+          "question": "Some people communicate constantly online but rarely have long conversations. Do you think this strengthens or weakens relationships?",
+          "sample_answer": "It depends on whether the small messages replace deeper contact or support it. A funny picture or quick update can make distant friends feel present in daily life. Those exchanges may hide serious problems, though, because there is no space to explain them. I think relationships are strongest when frequent light contact is combined with occasional focused conversation. Neither constant messaging nor rare long talks is enough by itself."
+        }
+      ]
+    },
+    {
+      "title": "Listening Well",
+      "setup": "You have joined a study about conversation skills. An interviewer will ask about listening, interruptions, and supportive responses.",
+      "questions": [
+        {
+          "number": 1,
+          "question": "Think of someone you consider a good listener. What does that person do?",
+          "sample_answer": "My friend Sara is a good listener because she does not rush to fill every pause. She asks a follow-up question about what I actually said instead of telling a similar story about herself. If my explanation is confusing, she checks the meaning gently. She also remembers important details later, which shows that her attention was real. I usually leave our conversations feeling understood rather than managed."
+        },
+        {
+          "number": 2,
+          "question": "When a friend describes a problem, is it better to offer advice immediately or listen first?",
+          "sample_answer": "I would listen first and ask what kind of help the person wants. Sometimes a friend needs a solution, but sometimes they already know the options and just feel upset. Immediate advice can sound as if the problem is simple or the friend has not thought carefully. After listening, I might ask whether they want my opinion. That small question makes the support more useful and respectful."
+        },
+        {
+          "number": 3,
+          "question": "What makes it difficult for people to listen carefully, and how can they improve?",
+          "sample_answer": "Phones are a major problem because even a notification pulls part of our attention away. I notice this when I remember the general topic but miss a name or deadline. During an important conversation, I put my phone out of sight and stop preparing my reply. I also summarize the main point before offering my view. These habits are simple, but they show the speaker that the conversation matters."
+        },
+        {
+          "number": 4,
+          "question": "Should schools teach listening and conversation skills as directly as they teach writing? Why or why not?",
+          "sample_answer": "Yes, because students need those skills for group work, presentations, and later employment. Teachers often say students should participate, but they rarely explain how to disagree or invite a quiet classmate in. Short practice activities could make these behaviors visible. I would not create another large exam for them, since that might make conversation artificial. Guided practice and useful feedback would be enough."
+        }
+      ]
+    },
+    {
+      "title": "Explaining Something Clearly",
+      "setup": "A learning center is researching how people explain unfamiliar ideas. You will discuss clarity, examples, and understanding.",
+      "questions": [
+        {
+          "number": 1,
+          "question": "Tell me about something you have explained to another person recently. How did you make it clear?",
+          "sample_answer": "I recently showed my father how to use a banking application. I began with the one task he needed, which was paying a bill, rather than describing every menu. Then I demonstrated it once and asked him to repeat the steps on his own phone. When he hesitated, I pointed to the exact button instead of taking the phone away. That final practice showed us which part still needed explanation."
+        },
+        {
+          "number": 2,
+          "question": "When explaining a difficult idea, do you prefer using an example, a diagram, or a detailed definition?",
+          "sample_answer": "I usually begin with an example because it gives the listener something concrete. For instance, one monthly household expense can make a general budgeting rule easier to understand. If the idea involves space or a process, a diagram may be better. I would give the formal definition after the basic meaning is clear, especially if the exact wording matters. The best support depends on what makes the idea difficult."
+        },
+        {
+          "number": 3,
+          "question": "What should a speaker do after noticing that the listener looks confused?",
+          "sample_answer": "The speaker should pause and ask which part became unclear. Repeating the same sentence more loudly probably will not solve the problem. I would try simpler words, add a concrete example, or divide the process into smaller steps. Then I would ask the listener to explain the idea back in their own words. That check is more reliable than asking only whether everything is understood."
+        },
+        {
+          "number": 4,
+          "question": "Some people think a good explanation should always be as short as possible. Do you agree?",
+          "sample_answer": "No, I think it should be as short as the audience and purpose allow. A quick direction to a familiar place may need one sentence, while a safety procedure needs careful detail. Removing necessary context can create more questions and waste time later. At the same time, speakers should not include every fact they know. A good explanation is selective, but its main goal is understanding rather than speed."
+        }
+      ]
+    },
+    {
+      "title": "Tone and Body Language",
+      "setup": "You are taking part in an interview about nonverbal communication. The questions concern voice, gestures, and cultural interpretation.",
+      "questions": [
+        {
+          "number": 1,
+          "question": "Which part of nonverbal communication do you notice most: tone of voice, facial expression, or gestures?",
+          "sample_answer": "I notice tone of voice first, especially when the words could have several meanings. A calm answer can make disagreement feel manageable, while a sharp answer makes me expect conflict. Facial expressions also help, but they are less reliable on a video call because the image may freeze. I try to use tone as one clue rather than proof of someone's intention. The surrounding situation still matters."
+        },
+        {
+          "number": 2,
+          "question": "What can someone do if they speak too quickly when they are nervous?",
+          "sample_answer": "They can mark a few planned pauses in their outline and rehearse with a timer. I used to rush through openings, so I learned to breathe after my first sentence. Looking at one friendly listener also helped me speak conversationally instead of racing through memorized words. During practice, a recording makes the speed easier to hear. The aim is a steady pace, not an unnaturally slow performance."
+        },
+        {
+          "number": 3,
+          "question": "Have you ever misunderstood someone's tone or body language? What happened?",
+          "sample_answer": "Once a classmate answered my messages with very short sentences, and I assumed she was annoyed. When we met, I discovered that she had been travelling and typing between train stops. Her behavior had a practical explanation that was unrelated to me. Since then, I ask a neutral question before reacting to an uncertain tone online. That experience showed me how quickly missing context becomes a personal story."
+        },
+        {
+          "number": 4,
+          "question": "Do you think people can accurately judge honesty from body language?",
+          "sample_answer": "Not from one gesture, because people move differently when they are cold, anxious, tired, or simply uncomfortable. Avoiding eye contact may be a cultural habit or a response to pressure rather than dishonesty. A repeated conflict between words and evidence deserves attention, but a crossed arm does not prove anything. I would listen, check facts, and ask questions. Body language can guide curiosity, but it should not become a verdict."
+        }
+      ]
+    },
+    {
+      "title": "Disagreement and Misunderstanding",
+      "setup": "A community group is studying how people handle conflict. You will answer questions about disagreement, apology, and compromise.",
+      "questions": [
+        {
+          "number": 1,
+          "question": "When you disagree with a friend, do you usually say so directly or wait? Why?",
+          "sample_answer": "I usually say something, but I choose the timing and do not treat every difference as an emergency. If the decision affects both of us, waiting can create resentment or a practical problem. I begin with the part I understand and then explain my concern with one reason. For a minor preference, I may simply let the friend choose. Being direct is useful when it serves the relationship or decision, not just my pride."
+        },
+        {
+          "number": 2,
+          "question": "Imagine that someone is offended by a message you sent, although you did not intend to be rude. What would you do?",
+          "sample_answer": "First, I would ask which part sounded rude and read it from their point of view. I would apologize for the effect without arguing that my intention should cancel it. If the meaning was misunderstood, I could explain it after acknowledging the hurt. I would probably call because tone is easier to repair through a real voice. Finally, I would change the wording if a similar message was needed again."
+        },
+        {
+          "number": 3,
+          "question": "What makes an apology seem sincere rather than automatic?",
+          "sample_answer": "A sincere apology names the action and shows that the person understands its effect. For example, saying I interrupted you repeatedly is clearer than saying sorry for whatever happened. The person should not add a long excuse that shifts blame back to the listener. Most importantly, later behavior needs to change. Perfect language matters less than specific responsibility and an effort to repair the harm."
+        },
+        {
+          "number": 4,
+          "question": "Is compromise always the best way to settle a disagreement? Why or why not?",
+          "sample_answer": "No, compromise is useful only when both sides have reasonable room to move. Roommates can negotiate noise hours, because several schedules may work. Splitting the difference is dangerous if one choice ignores safety or someone's basic rights. In those cases, a clear rule or outside decision may be necessary. I support compromise as a practical tool, but I would not treat it as a moral answer to every conflict."
+        }
+      ]
+    },
+    {
+      "title": "Communicating Online",
+      "setup": "A digital-life project is asking people about messages, group chats, and online etiquette.",
+      "questions": [
+        {
+          "number": 1,
+          "question": "Which online communication tool do you use most, and what do you mainly use it for?",
+          "sample_answer": "I use a messaging application most often because my family and classmates are already there. With family, I share small updates and arrange calls. For university work, our group uses it to confirm tasks, but we keep final documents in a shared folder. I mute large chats when I need to study and check them later. The tool is convenient as long as I do not let every notification demand an immediate answer."
+        },
+        {
+          "number": 2,
+          "question": "What is one rule that makes a group chat more useful?",
+          "sample_answer": "People should keep the chat connected to its stated purpose. In a class group, repeated jokes and private conversations can bury a changed deadline that everyone needs. A little friendly talk is fine, but long unrelated exchanges can move to a smaller chat. I also think important announcements should use a clear opening word or pinned message. That way, members can find information without reading hundreds of lines."
+        },
+        {
+          "number": 3,
+          "question": "Why do misunderstandings happen easily in written online messages?",
+          "sample_answer": "Written messages remove voice, facial expression, and immediate questions, so readers supply their own tone. A short reply may look angry even when the writer is only busy. Different expectations about response time can cause another problem. I reduce confusion by giving enough context and avoiding jokes when the relationship is new. If tension appears, I switch to a call instead of sending increasingly long defensive messages."
+        },
+        {
+          "number": 4,
+          "question": "Should social media platforms do more to slow down angry or harmful conversations?",
+          "sample_answer": "Yes, I support small design changes that create a pause without blocking ordinary disagreement. For example, a platform could ask users to open an article before sharing it or reconsider a personal insult. That will not make every discussion respectful, and companies should explain how moderation works. Still, current systems often reward immediate emotional reactions because they create activity. Giving reflection a little support seems reasonable."
+        }
+      ]
+    },
+    {
+      "title": "Communication at School and Work",
+      "setup": "An education and employment survey is exploring how people exchange feedback and information in organizations.",
+      "questions": [
+        {
+          "number": 1,
+          "question": "How do you prefer to receive feedback on your work?",
+          "sample_answer": "A short private conversation followed by a few written notes works best for me. During the conversation, I can ask what the reviewer means and hear which issue has priority. The notes help me remember the examples when I revise later. I also need to hear what is already working, not simply for encouragement but so I do not remove it. Specific feedback feels demanding, yet it gives me a realistic next step."
+        },
+        {
+          "number": 2,
+          "question": "What is one change that can make school or workplace meetings more effective?",
+          "sample_answer": "Sending a short agenda in advance would improve many meetings. People could bring the necessary information and decide whether they truly need to attend. During the meeting, the chair could move unrelated issues to a later list instead of letting them take over. At the end, someone should repeat each decision, responsible person, and deadline. Those simple habits make a meeting produce action rather than another meeting."
+        },
+        {
+          "number": 3,
+          "question": "Why might a student or junior employee stay silent even when they notice a problem?",
+          "sample_answer": "They may worry that a question will make them look inexperienced or difficult. That fear is stronger when senior people interrupt, punish mistakes, or always defend their first idea. Leaders can help by asking for concerns before announcing their own opinion. Anonymous comments may also reveal issues, although they cannot replace trust. Silence does not always mean agreement; sometimes it reflects the social cost of speaking."
+        },
+        {
+          "number": 4,
+          "question": "Should important school and workplace decisions always be communicated in writing?",
+          "sample_answer": "The final decision should usually be written, especially when it includes duties, dates, or money. A record prevents confusion and helps people who could not attend. Sensitive or complicated changes may need a conversation first so questions and reactions can be handled respectfully. Sending a cold announcement alone can damage trust. I would discuss when necessary, then provide a concise written summary that everyone can check."
+        }
+      ]
+    },
+    {
+      "title": "Giving a Presentation",
+      "setup": "You have volunteered for research about public speaking. The interviewer will ask about preparation, delivery, and audience needs.",
+      "questions": [
+        {
+          "number": 1,
+          "question": "Tell me about a presentation you remember giving. What made it easy or difficult?",
+          "sample_answer": "I remember presenting a small research project to my class last year. The topic was familiar, so answering questions was easier than I expected. My main difficulty was timing because I had prepared too many examples and rushed the final result. Afterward, my teacher suggested choosing one strong example and pausing more. The experience was uncomfortable at first, but it gave me a specific improvement for the next talk."
+        },
+        {
+          "number": 2,
+          "question": "Is it better to memorize a presentation or speak from a short outline?",
+          "sample_answer": "I prefer a short outline because memorizing every sentence makes me panic when one word disappears. An outline keeps the order clear while allowing natural language and eye contact. I still rehearse the opening and important definitions carefully, since those parts need confidence and accuracy. For the rest, I practise explaining the ideas in slightly different words. That preparation sounds more like communication and makes unexpected questions less frightening."
+        },
+        {
+          "number": 3,
+          "question": "What should a speaker do after forgetting a point or making a mistake in front of an audience?",
+          "sample_answer": "The speaker should pause, check the outline, and continue from the nearest clear point. Most listeners will accept a brief correction if it is calm. A long apology draws more attention to the mistake and uses time needed for the actual message. If the missing detail is essential, the speaker can return to it before the conclusion. Recovery is normal public speaking, so it should be practised along with the planned talk."
+        },
+        {
+          "number": 4,
+          "question": "Should students receive grades for presentation style as well as for the quality of their ideas?",
+          "sample_answer": "Yes, but style should mean understandable delivery rather than one narrow personality. A student can be quiet and still use clear structure, readable visuals, and an appropriate pace. Teachers should explain the criteria and allow practice before grading. Content should remain the larger part because confident performance cannot replace weak evidence. A balanced grade recognizes that presenting ideas clearly is a real skill without rewarding only naturally outgoing students."
+        }
+      ]
+    },
+    {
+      "title": "Learning Another Language",
+      "setup": "A language center is interviewing learners about speaking practice, mistakes, and progress.",
+      "questions": [
+        {
+          "number": 1,
+          "question": "What language would you like to speak better, and when would you use it?",
+          "sample_answer": "I would like to speak German better because I have relatives living in Germany. We can communicate in English, but using their daily language would make family visits more natural. I would also use it for travel and to understand local news. My immediate goal is not perfect fluency; I want to manage ordinary conversations without switching languages immediately. That practical goal gives me clear situations to practise."
+        },
+        {
+          "number": 2,
+          "question": "Do you learn speaking better through lessons or through informal conversation?",
+          "sample_answer": "I need both, but informal conversation gives me the practice I avoid most. Lessons explain patterns and correct errors that friends might ignore. Conversation forces me to retrieve words quickly, notice what I cannot express, and keep going after a mistake. A good combination is learning one useful pattern in class and then trying it with a patient partner. That connects accurate knowledge to real speaking."
+        },
+        {
+          "number": 3,
+          "question": "What can a language learner do when they forget an important word during a conversation?",
+          "sample_answer": "They can describe the object, give an example, or use a simpler related word. When I forgot the word kettle, I said the pot that heats water for tea, and the listener understood. That kept the conversation moving and taught me the missing word in context. I might also ask how to say it and repeat the answer once. Stopping completely is usually less useful than paraphrasing with the language I already control."
+        },
+        {
+          "number": 4,
+          "question": "Some learners want to remove every sign of their original accent. Is that a necessary goal?",
+          "sample_answer": "No, the main goal should be clear, comfortable communication. An accent can remain while pronunciation is completely understandable, and it may express a person's history. Learners should work on sounds or stress patterns that regularly cause confusion. They do not need to copy one native variety or feel ashamed of harmless differences. Time spent chasing a perfect accent might be better used building vocabulary, listening skill, and confidence."
+        }
+      ]
+    },
+    {
+      "title": "Communication Across Cultures",
+      "setup": "An international student office is researching communication between people from different cultural and language backgrounds.",
+      "questions": [
+        {
+          "number": 1,
+          "question": "Tell me about a conversation with someone from a different cultural or language background. What did you learn?",
+          "sample_answer": "I once worked with an exchange student who left longer silences before answering questions. At first, I thought she had not understood me, so I kept rephrasing and accidentally interrupted her. She later explained that she preferred to think before responding in English. I learned to wait a little longer and watch whether the person was still preparing an answer. The change made our conversations calmer and taught me not to treat my timing as universal."
+        },
+        {
+          "number": 2,
+          "question": "When visiting a new culture, how can someone learn local communication habits without relying on stereotypes?",
+          "sample_answer": "I would observe several situations and ask a trusted local person about specific behavior. For example, I might ask how directly students usually question a professor, rather than asking what all people are like. I would also remember that age, personality, and setting create differences within the same culture. Basic reading before a visit can prevent obvious mistakes. Still, the preference of the individual in front of me matters more than a general rule."
+        },
+        {
+          "number": 3,
+          "question": "Why can humor be difficult between people from different backgrounds?",
+          "sample_answer": "Humor often depends on wordplay, shared history, and unspoken rules about which topics are acceptable. A joke may lose its meaning in translation or sound like a serious insult. Even when everyone understands the words, they may not know the speaker well enough to recognize playful intent. I begin with gentle humor about ordinary situations and notice the response. I avoid stereotypes because they can harm trust before a real relationship develops."
+        },
+        {
+          "number": 4,
+          "question": "What should schools or workplaces do to make multilingual participants feel included in discussions?",
+          "sample_answer": "They should share key material early so people have time to process unfamiliar language. During meetings, leaders can reduce unnecessary slang, explain acronyms, and leave a real pause after questions. Written summaries and captions also support many participants, not only language learners. Inclusion should not mean lowering the value of their ideas or speaking to adults like children. The goal is equal access to the discussion and several reasonable ways to contribute."
+        }
+      ]
+    }
+  ],
+  "corpus_calibration_audit": [
+    {
+      "set_title": "Everyday Communication Habits",
+      "question_functions": [
+        "personal frequency and channel",
+        "concrete channel preference",
+        "habit-change explanation",
+        "broader relationship judgment"
+      ],
+      "subtopics": [
+        "daily habits",
+        "texting and calls",
+        "changing habits",
+        "relationship quality"
+      ]
+    },
+    {
+      "set_title": "Listening Well",
+      "question_functions": [
+        "personal listener description",
+        "support-response choice",
+        "obstacle and strategy",
+        "school instruction opinion"
+      ],
+      "subtopics": [
+        "active listening",
+        "advice",
+        "distraction",
+        "conversation education"
+      ]
+    },
+    {
+      "set_title": "Explaining Something Clearly",
+      "question_functions": [
+        "personal explanation experience",
+        "example choice",
+        "repair strategy",
+        "clarity-versus-detail judgment"
+      ],
+      "subtopics": [
+        "explanations",
+        "examples",
+        "clarification",
+        "audience awareness"
+      ]
+    },
+    {
+      "set_title": "Tone and Body Language",
+      "question_functions": [
+        "personal cue awareness",
+        "voice-improvement method",
+        "misinterpretation experience",
+        "qualified nonverbal judgment"
+      ],
+      "subtopics": [
+        "tone",
+        "speaking pace",
+        "body language",
+        "cultural norms"
+      ]
+    },
+    {
+      "set_title": "Disagreement and Misunderstanding",
+      "question_functions": [
+        "personal disagreement style",
+        "concrete misunderstanding response",
+        "repair recommendation",
+        "compromise limitation opinion"
+      ],
+      "subtopics": [
+        "polite disagreement",
+        "assumptions",
+        "apologies",
+        "compromise"
+      ]
+    },
+    {
+      "set_title": "Communicating Online",
+      "question_functions": [
+        "personal digital habit",
+        "group-chat practice",
+        "online-tone problem",
+        "platform responsibility opinion"
+      ],
+      "subtopics": [
+        "messaging",
+        "group chats",
+        "digital ambiguity",
+        "online design"
+      ]
+    },
+    {
+      "set_title": "Communication at School and Work",
+      "question_functions": [
+        "personal feedback preference",
+        "meeting-improvement choice",
+        "hierarchy obstacle explanation",
+        "written-versus-spoken policy judgment"
+      ],
+      "subtopics": [
+        "feedback",
+        "meetings",
+        "status",
+        "workplace channels"
+      ]
+    },
+    {
+      "set_title": "Giving a Presentation",
+      "question_functions": [
+        "personal presentation experience",
+        "preparation preference",
+        "recovery strategy",
+        "presentation-assessment opinion"
+      ],
+      "subtopics": [
+        "public speaking",
+        "rehearsal",
+        "mistakes",
+        "audience learning"
+      ]
+    },
+    {
+      "set_title": "Learning Another Language",
+      "question_functions": [
+        "personal learning goal",
+        "practice-method choice",
+        "difficulty strategy",
+        "accent judgment"
+      ],
+      "subtopics": [
+        "language goals",
+        "conversation practice",
+        "communication gaps",
+        "pronunciation and identity"
+      ]
+    },
+    {
+      "set_title": "Communication Across Cultures",
+      "question_functions": [
+        "personal cross-cultural encounter",
+        "adaptation strategy",
+        "stereotype problem explanation",
+        "institutional inclusion recommendation"
+      ],
+      "subtopics": [
+        "intercultural experience",
+        "cultural adaptation",
+        "stereotypes",
+        "inclusive groups"
+      ]
+    }
+  ]
+}
