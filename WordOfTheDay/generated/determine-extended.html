@@ -1,0 +1,1069 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="color-scheme" content="light dark">
+  <meta name="description" content="A complete TOEFL learner guide to determine, created by Amir Kooshky.">
+  <title>determine | Kooshky TOEFL Word of the Day</title>
+  <style>
+/*
+  Kooshky TOEFL Word of the Day
+  Original dictionary-editorial visual system for Amir Kooshky.
+  Mobile-first, print-aware, local-file friendly, and fully usable without JavaScript.
+*/
+:root {
+  color-scheme: light;
+  --paper: #f4f0e7;
+  --surface: #fffdf8;
+  --surface-2: #eee8dc;
+  --ink: #1c1a18;
+  --muted: #69635d;
+  --rule: #d6cdbf;
+  --rule-strong: #a99f92;
+  --accent: #a51f2d;
+  --accent-deep: #72131e;
+  --accent-soft: #f4e3e5;
+  --good: #315f4c;
+  --good-soft: #e5efe9;
+  --warn: #8a5719;
+  --warn-soft: #f8ebd8;
+  --info: #315f76;
+  --info-soft: #e4eef3;
+  --shadow: 0 18px 46px rgba(47, 37, 27, .09);
+  --serif: Georgia, "Times New Roman", Times, serif;
+  --sans: Inter, ui-sans-serif, -apple-system, BlinkMacSystemFont, "Segoe UI", Arial, sans-serif;
+  --mono: "SFMono-Regular", Consolas, "Liberation Mono", monospace;
+  --radius: .95rem;
+  --radius-sm: .55rem;
+  --content: 75rem;
+}
+
+html[data-theme="dark"] {
+  color-scheme: dark;
+  --paper: #171614;
+  --surface: #211f1c;
+  --surface-2: #2a2723;
+  --ink: #f3eee5;
+  --muted: #b9b0a5;
+  --rule: #443f39;
+  --rule-strong: #675e56;
+  --accent: #e35d68;
+  --accent-deep: #ff7f88;
+  --accent-soft: #3a2225;
+  --good: #95c8ad;
+  --good-soft: #20342a;
+  --warn: #dfb06e;
+  --warn-soft: #3a2c1d;
+  --info: #91c2d8;
+  --info-soft: #21343e;
+  --shadow: 0 18px 46px rgba(0, 0, 0, .34);
+}
+
+@media (prefers-color-scheme: dark) {
+  html:not([data-theme="light"]) {
+    color-scheme: dark;
+    --paper: #171614;
+    --surface: #211f1c;
+    --surface-2: #2a2723;
+    --ink: #f3eee5;
+    --muted: #b9b0a5;
+    --rule: #443f39;
+    --rule-strong: #675e56;
+    --accent: #e35d68;
+    --accent-deep: #ff7f88;
+    --accent-soft: #3a2225;
+    --good: #95c8ad;
+    --good-soft: #20342a;
+    --warn: #dfb06e;
+    --warn-soft: #3a2c1d;
+    --info: #91c2d8;
+    --info-soft: #21343e;
+    --shadow: 0 18px 46px rgba(0, 0, 0, .34);
+  }
+}
+
+*, *::before, *::after { box-sizing: border-box; }
+html { scroll-behavior: smooth; text-size-adjust: 100%; }
+body {
+  margin: 0;
+  background: var(--paper);
+  color: var(--ink);
+  font-family: var(--serif);
+  font-size: 1rem;
+  line-height: 1.72;
+  -webkit-font-smoothing: antialiased;
+}
+a { color: var(--accent-deep); text-underline-offset: .18em; text-decoration-thickness: .075em; }
+a:hover { color: var(--accent); }
+a.pronunciation-button:hover { color: var(--accent-soft); }
+button { font: inherit; }
+:focus-visible { outline: 3px solid var(--accent); outline-offset: 3px; }
+::selection { background: var(--accent); color: white; }
+
+.skip-link {
+  position: fixed;
+  left: .75rem;
+  top: .75rem;
+  z-index: 1000;
+  transform: translateY(-180%);
+  padding: .62rem .82rem;
+  border-radius: var(--radius-sm);
+  background: var(--ink);
+  color: var(--paper);
+  font-family: var(--sans);
+  font-weight: 800;
+  text-decoration: none;
+}
+.skip-link:focus { transform: translateY(0); }
+
+.no-js-hidden { display: none !important; }
+html.js .no-js-hidden { display: inline-flex !important; }
+
+.masthead {
+  border-bottom: 1px solid var(--rule);
+  background: color-mix(in srgb, var(--surface) 94%, transparent);
+}
+.masthead-inner {
+  width: min(calc(100% - 1.4rem), var(--content));
+  min-height: 4.4rem;
+  margin-inline: auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: .9rem;
+}
+.brand { color: inherit; text-decoration: none; line-height: 1.05; }
+.brand strong { display: block; font-size: 1.04rem; letter-spacing: -.02em; }
+.brand span {
+  display: block;
+  margin-top: .18rem;
+  color: var(--accent);
+  font-family: var(--sans);
+  font-size: .65rem;
+  font-weight: 850;
+  letter-spacing: .15em;
+  text-transform: uppercase;
+}
+.utility-actions { display: none; gap: .42rem; align-items: center; }
+html.js .utility-actions { display: flex; }
+.utility-button {
+  min-height: 2.35rem;
+  padding: .42rem .7rem;
+  border: 1px solid var(--rule-strong);
+  border-radius: 999px;
+  background: transparent;
+  color: var(--ink);
+  font-family: var(--sans);
+  font-size: .74rem;
+  font-weight: 800;
+  cursor: pointer;
+}
+.utility-button:hover { border-color: var(--accent); color: var(--accent); }
+
+.page {
+  width: min(calc(100% - 1.4rem), var(--content));
+  margin-inline: auto;
+  padding: 1.2rem 0 4rem;
+}
+
+.hero {
+  position: relative;
+  overflow: hidden;
+  padding: clamp(2rem, 10vw, 5.5rem) 0 clamp(2.4rem, 8vw, 4.5rem);
+  border-bottom: 1px solid var(--rule);
+}
+.hero::after {
+  content: "";
+  position: absolute;
+  right: -7rem;
+  top: -9rem;
+  width: 19rem;
+  aspect-ratio: 1;
+  border: 1px solid color-mix(in srgb, var(--accent) 22%, transparent);
+  border-radius: 50%;
+  box-shadow: 0 0 0 2.4rem color-mix(in srgb, var(--accent) 4%, transparent), 0 0 0 5rem color-mix(in srgb, var(--accent) 3%, transparent);
+  pointer-events: none;
+}
+.kicker, .section-kicker, .eyebrow {
+  margin: 0;
+  color: var(--accent);
+  font-family: var(--sans);
+  font-size: .7rem;
+  font-weight: 900;
+  letter-spacing: .16em;
+  text-transform: uppercase;
+}
+.hero h1 {
+  position: relative;
+  z-index: 1;
+  max-width: 13ch;
+  margin: .45rem 0 0;
+  font-size: clamp(3.2rem, 17vw, 8.7rem);
+  line-height: .88;
+  letter-spacing: -.065em;
+  overflow-wrap: anywhere;
+}
+.hero-pronunciation {
+  margin: 1.25rem 0 .15rem;
+  color: var(--accent-deep);
+  font-family: var(--sans);
+  font-size: clamp(1.05rem, 4vw, 1.45rem);
+  font-weight: 750;
+}
+.pronunciation-tools {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: .65rem;
+  max-width: 42rem;
+  margin: .75rem 0 .25rem;
+}
+.pronunciation-audio {
+  width: min(100%, 22rem);
+  height: 2.5rem;
+}
+.listen-link {
+  display: inline-flex;
+  align-items: center;
+  min-height: 2.35rem;
+  padding: .45rem .72rem;
+  border: 1px solid var(--accent);
+  border-radius: 999px;
+  color: var(--accent);
+  font-family: var(--sans);
+  font-size: .78rem;
+  font-weight: 820;
+  text-decoration: none;
+}
+.listen-link:hover { background: var(--accent); color: var(--accent-ink); }
+.listen-link.secondary { border-color: var(--rule-strong); color: var(--ink); }
+.listen-link.secondary:hover { border-color: var(--accent); background: var(--surface-strong); color: var(--accent); }
+.audio-note { margin: 0 0 .35rem; color: var(--muted); font-family: var(--sans); font-size: .72rem; }
+.hero-pos { margin: 0; color: var(--muted); font-family: var(--sans); font-weight: 720; }
+.hero-summary { max-width: 50rem; margin: 1rem 0 0; font-size: clamp(1.08rem, 3.2vw, 1.34rem); line-height: 1.55; }
+.short-meaning-row { display: flex; flex-wrap: wrap; gap: .45rem; margin-top: 1.2rem; }
+.short-meaning {
+  padding: .36rem .62rem;
+  border: 1px solid var(--rule-strong);
+  border-radius: 999px;
+  background: var(--surface);
+  font-family: var(--sans);
+  font-size: .78rem;
+  font-weight: 760;
+}
+.hero-example {
+  max-width: 53rem;
+  margin: 1.6rem 0 0;
+  padding: 1rem 1.1rem 1rem 1.25rem;
+  border-left: 3px solid var(--accent);
+  background: color-mix(in srgb, var(--surface) 80%, transparent);
+  font-size: clamp(1.05rem, 3vw, 1.3rem);
+  font-style: italic;
+}
+.meta-strip {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: .65rem;
+  margin-top: 1.5rem;
+}
+.meta-item { padding: .75rem .85rem; border: 1px solid var(--rule); border-radius: var(--radius-sm); background: var(--surface); }
+.meta-label { display: block; color: var(--muted); font-family: var(--sans); font-size: .66rem; font-weight: 850; letter-spacing: .12em; text-transform: uppercase; }
+.meta-value { display: block; margin-top: .12rem; font-family: var(--sans); font-weight: 800; }
+
+.toc {
+  margin: 1rem 0 0;
+  padding: .95rem;
+  border: 1px solid var(--rule);
+  border-radius: var(--radius);
+  background: var(--surface);
+}
+.toc-title { margin: 0 0 .55rem; font-family: var(--sans); font-size: .78rem; font-weight: 900; text-transform: uppercase; letter-spacing: .12em; }
+.toc-links { display: flex; flex-wrap: wrap; gap: .45rem .8rem; }
+.toc a { font-family: var(--sans); font-size: .82rem; font-weight: 760; }
+
+.section { padding: clamp(2.5rem, 8vw, 5rem) 0 0; }
+.section-head { max-width: 48rem; margin-bottom: 1.25rem; }
+.section h2 {
+  margin: .22rem 0 .4rem;
+  font-size: clamp(2rem, 7vw, 3.35rem);
+  line-height: 1.02;
+  letter-spacing: -.035em;
+}
+.section-intro { margin: 0; color: var(--muted); font-size: 1.03rem; }
+
+.overview-grid, .card-grid, .compare-grid, .exercise-grid, .info-grid {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: .85rem;
+}
+.card, .overview-card, .family-card, .collocation-card, .compare-card, .exercise-card {
+  min-width: 0;
+  padding: 1rem;
+  border: 1px solid var(--rule);
+  border-radius: var(--radius);
+  background: var(--surface);
+  box-shadow: 0 7px 20px rgba(40, 30, 20, .035);
+}
+.card h3, .card h4, .overview-card h3, .family-card h3, .collocation-card h3, .compare-card h3, .exercise-card h3 { margin: 0 0 .45rem; line-height: 1.25; }
+.card p:last-child, .overview-card p:last-child, .family-card p:last-child, .collocation-card p:last-child, .compare-card p:last-child, .exercise-card p:last-child { margin-bottom: 0; }
+.label {
+  color: var(--muted);
+  font-family: var(--sans);
+  font-size: .69rem;
+  font-weight: 850;
+  letter-spacing: .1em;
+  text-transform: uppercase;
+}
+.value { font-weight: 700; }
+
+.sense-card {
+  overflow: hidden;
+  margin-top: 1.1rem;
+  border: 1px solid var(--rule);
+  border-radius: calc(var(--radius) + .15rem);
+  background: var(--surface);
+  box-shadow: var(--shadow);
+}
+.sense-head {
+  padding: 1rem;
+  border-top: 4px solid var(--accent);
+  border-bottom: 1px solid var(--rule);
+  background: color-mix(in srgb, var(--surface-2) 42%, var(--surface));
+}
+.sense-number { color: var(--accent); font-family: var(--sans); font-size: .7rem; font-weight: 900; letter-spacing: .13em; text-transform: uppercase; }
+.sense-head h3 { margin: .2rem 0 .55rem; font-size: clamp(1.55rem, 5vw, 2.2rem); line-height: 1.1; }
+.badge-row { display: flex; flex-wrap: wrap; gap: .38rem; }
+.badge { padding: .27rem .5rem; border: 1px solid var(--rule-strong); border-radius: 999px; font-family: var(--sans); font-size: .72rem; font-weight: 780; }
+.sense-body { padding: 1rem; }
+.definition { margin: 0; font-size: clamp(1.08rem, 3.5vw, 1.28rem); font-weight: 700; }
+.plain-equivalent { margin: .65rem 0 0; color: var(--muted); }
+.pattern-banner {
+  margin: 1rem 0;
+  padding: .8rem .9rem;
+  border-left: 3px solid var(--accent);
+  background: var(--accent-soft);
+  border-radius: 0 var(--radius-sm) var(--radius-sm) 0;
+}
+.pattern-banner strong { font-family: var(--sans); }
+.context-row { display: flex; flex-wrap: wrap; gap: .38rem; margin-top: .55rem; }
+.context-pill { padding: .25rem .48rem; border-radius: 999px; background: var(--surface-2); font-family: var(--sans); font-size: .73rem; font-weight: 740; }
+.subsection-title { margin: 1.35rem 0 .55rem; font-family: var(--sans); font-size: .82rem; font-weight: 900; letter-spacing: .08em; text-transform: uppercase; }
+.example-list, .clean-list { margin: .5rem 0 0; padding-left: 1.35rem; }
+.example-list li, .clean-list li { padding-left: .25rem; margin: .42rem 0; }
+.info-card { padding: .9rem; border: 1px solid var(--rule); border-radius: var(--radius-sm); background: var(--surface); }
+.info-card h4 { margin: 0 0 .35rem; font-family: var(--sans); font-size: .9rem; }
+.info-card p { margin: .3rem 0 0; }
+.info-card.good { border-color: color-mix(in srgb, var(--good) 54%, var(--rule)); background: var(--good-soft); }
+.info-card.warning { border-color: color-mix(in srgb, var(--warn) 54%, var(--rule)); background: var(--warn-soft); }
+.info-card.tip { border-color: color-mix(in srgb, var(--info) 54%, var(--rule)); background: var(--info-soft); }
+.grammar-list { display: grid; gap: .55rem; margin: 0; }
+.grammar-item { padding-bottom: .55rem; border-bottom: 1px solid var(--rule); }
+.grammar-item:last-child { padding-bottom: 0; border-bottom: 0; }
+.grammar-item dt { font-family: var(--sans); font-size: .74rem; font-weight: 900; letter-spacing: .07em; text-transform: uppercase; }
+.grammar-item dd { margin: .12rem 0 0; }
+.pattern-list, .error-list { display: grid; gap: .7rem; }
+.pattern-card, .error-card { padding: .82rem; border: 1px solid var(--rule); border-radius: var(--radius-sm); background: color-mix(in srgb, var(--surface-2) 25%, var(--surface)); }
+.pattern-code { display: block; font-family: var(--mono); font-size: .84rem; font-weight: 800; overflow-wrap: anywhere; }
+.pattern-use { margin: .3rem 0; color: var(--muted); }
+.error-wrong, .error-correct { margin: .25rem 0; }
+.error-wrong { color: var(--warn); }
+.error-correct { color: var(--good); }
+.error-explanation { margin: .35rem 0 0; font-size: .93rem; }
+
+.family-card .ipa, .compare-card .meta { color: var(--muted); font-family: var(--sans); font-size: .8rem; }
+.collocation-card h3 { color: var(--accent-deep); }
+.mini-facts { display: grid; gap: .42rem; margin-top: .6rem; }
+.mini-fact { padding-top: .42rem; border-top: 1px solid var(--rule); }
+.mini-fact strong { font-family: var(--sans); font-size: .78rem; }
+.word-pill { display: inline-block; padding: .24rem .5rem; border: 1px solid var(--accent); border-radius: 999px; color: var(--accent-deep); font-family: var(--sans); font-size: .75rem; font-weight: 850; }
+
+.etymology-flow { display: grid; gap: .7rem; }
+.etymology-step { position: relative; padding: .9rem 1rem .9rem 1.15rem; border-left: 3px solid var(--accent); background: var(--surface); border-radius: 0 var(--radius-sm) var(--radius-sm) 0; }
+.etymology-step h3 { margin: 0 0 .25rem; font-family: var(--sans); font-size: .83rem; text-transform: uppercase; letter-spacing: .08em; }
+
+.exercise-card { counter-increment: exercise; }
+.exercise-card h3 { font-family: var(--sans); }
+.exercise-instruction { color: var(--muted); }
+details.answer-key { margin-top: 1rem; border: 1px solid var(--rule-strong); border-radius: var(--radius); background: var(--surface); }
+details.answer-key summary { padding: 1rem; font-family: var(--sans); font-weight: 900; cursor: pointer; }
+.answer-content { padding: 0 1rem 1rem; }
+.answer-group + .answer-group { margin-top: 1.3rem; padding-top: 1rem; border-top: 1px solid var(--rule); }
+.answer-group h3 { margin: 0 0 .5rem; font-family: var(--sans); }
+.answer-item { margin: .65rem 0; }
+.answer-item strong { font-family: var(--sans); }
+
+.footer {
+  margin-top: 4.5rem;
+  padding: 1.5rem 0 0;
+  border-top: 1px solid var(--rule);
+  color: var(--muted);
+  font-family: var(--sans);
+  font-size: .82rem;
+}
+.footer-row { display: flex; flex-direction: column; gap: .55rem; }
+.footer-links { display: flex; flex-wrap: wrap; gap: .4rem .8rem; }
+
+.back-to-top {
+  position: fixed;
+  right: 1rem;
+  bottom: 1rem;
+  z-index: 100;
+  width: 2.8rem;
+  height: 2.8rem;
+  align-items: center;
+  justify-content: center;
+  border: 1px solid var(--rule-strong);
+  border-radius: 50%;
+  background: var(--surface);
+  color: var(--ink);
+  box-shadow: var(--shadow);
+  cursor: pointer;
+  opacity: 0;
+  transform: translateY(.7rem);
+  pointer-events: none;
+  transition: opacity .2s ease, transform .2s ease;
+}
+.back-to-top.visible { opacity: 1; transform: translateY(0); pointer-events: auto; }
+
+@media (min-width: 38rem) {
+  .meta-strip { grid-template-columns: repeat(3, 1fr); }
+  .overview-grid, .info-grid { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+  .card-grid, .compare-grid, .exercise-grid { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+  .sense-head, .sense-body { padding: 1.25rem; }
+  .footer-row { flex-direction: row; justify-content: space-between; align-items: center; }
+}
+
+@media (min-width: 62rem) {
+  .page, .masthead-inner { width: min(calc(100% - 3rem), var(--content)); }
+  .toc { position: sticky; top: .7rem; z-index: 20; }
+  .overview-grid { grid-template-columns: repeat(4, minmax(0, 1fr)); }
+  .card-grid.three { grid-template-columns: repeat(3, minmax(0, 1fr)); }
+  .compare-grid { grid-template-columns: repeat(3, minmax(0, 1fr)); }
+  .exercise-grid { grid-template-columns: repeat(3, minmax(0, 1fr)); }
+  .sense-head, .sense-body { padding: 1.5rem; }
+  .sense-body > .info-grid { grid-template-columns: 1.05fr .95fr; }
+}
+
+.pronunciation-tools {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: .65rem;
+  margin-top: .8rem;
+}
+.pronunciation-button {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: .45rem;
+  min-height: 2.7rem;
+  padding: .62rem .9rem;
+  border: 1px solid var(--accent);
+  border-radius: 999px;
+  background: var(--accent);
+  color: #fff;
+  font-family: var(--sans);
+  font-size: .82rem;
+  font-weight: 850;
+  line-height: 1.2;
+  text-decoration: none;
+  cursor: pointer;
+  transition: transform .15s ease, box-shadow .15s ease, opacity .15s ease;
+}
+.pronunciation-button:hover { transform: translateY(-1px); box-shadow: 0 7px 18px rgba(91, 20, 31, .18); }
+.pronunciation-button:focus-visible { outline: 3px solid color-mix(in srgb, var(--accent) 35%, transparent); outline-offset: 3px; }
+.pronunciation-button.is-playing { opacity: .78; }
+.pronunciation-button.compact,
+.pronunciation-button.sense { min-height: 2.35rem; padding: .48rem .72rem; font-size: .75rem; }
+.audio-status { min-height: 1.2em; color: var(--muted); font-family: var(--sans); font-size: .76rem; }
+.audio-note { margin: .55rem 0 0; color: var(--muted); font-size: .82rem; }
+.audio-note code { font-family: var(--mono); overflow-wrap: anywhere; }
+.pronunciation-change-panel {
+  margin-top: 1.25rem;
+  padding: 1rem;
+  border: 2px solid var(--accent);
+  border-radius: var(--radius);
+  background: var(--accent-soft);
+}
+.pronunciation-change-kicker {
+  margin: 0;
+  color: var(--accent-deep);
+  font-family: var(--sans);
+  font-size: .7rem;
+  font-weight: 900;
+  letter-spacing: .1em;
+  text-transform: uppercase;
+}
+.pronunciation-change-panel h2 { margin: .25rem 0 .35rem; font-size: clamp(1.25rem, 4vw, 1.7rem); }
+.pronunciation-change-panel > p:last-of-type { margin-bottom: .8rem; }
+.pronunciation-variant-grid { display: grid; grid-template-columns: 1fr; gap: .7rem; }
+.pronunciation-variant {
+  padding: .8rem;
+  border: 1px solid var(--rule-strong);
+  border-radius: var(--radius-sm);
+  background: var(--surface);
+}
+.variant-label { margin: 0; font-family: var(--sans); font-size: .76rem; font-weight: 900; text-transform: uppercase; letter-spacing: .07em; }
+.variant-ipa { margin: .18rem 0; color: var(--accent-deep); font-size: 1.12rem; font-weight: 800; }
+.variant-senses { margin: 0 0 .6rem; color: var(--muted); font-size: .84rem; }
+.sense-pronunciation-row { display: grid; gap: .55rem; margin-top: .75rem; }
+.sense-pronunciation-row .pronunciation-button { justify-self: start; }
+.sense-pronunciation-change {
+  margin: 0;
+  padding: .65rem .75rem;
+  border-left: 3px solid var(--accent);
+  border-radius: 0 var(--radius-sm) var(--radius-sm) 0;
+  background: var(--accent-soft);
+  font-size: .88rem;
+}
+
+@media (min-width: 38rem) {
+  .pronunciation-variant-grid { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+  .sense-pronunciation-row { grid-template-columns: auto minmax(0, 1fr); align-items: center; }
+}
+
+
+  </style>
+</head>
+<body>
+  <a class="skip-link" href="#main-content">Skip to the guide</a>
+
+  <header class="masthead">
+    <div class="masthead-inner">
+      <a class="brand" href="/">
+        <strong>Kooshky TOEFL</strong>
+        <span>Word of the Day</span>
+      </a>
+      <div class="utility-actions" aria-label="Page tools">
+        <button class="utility-button" type="button" data-theme-toggle>Dark mode</button>
+      </div>
+    </div>
+  </header>
+
+  <main class="page" id="main-content">
+    <section class="hero" aria-labelledby="headword">
+      <p class="kicker">TOEFL Word of the Day</p>
+      <h1 id="headword">determine</h1>
+      <p class="hero-pronunciation">/dɪˈtɝːmɪn/</p>
+      <div class="pronunciation-tools" aria-label="Pronunciation audio">
+        <a class="pronunciation-button primary"
+           href="audios/determine.mp3"
+           data-pronunciation-button
+           data-pronunciation-phrase="determine"
+           data-audio-src="audios/determine.mp3"
+           aria-label="Hear the pronunciation of determine">
+          <span aria-hidden="true">🔊</span>
+          <span>Hear pronunciation</span>
+        </a>
+        <span class="audio-status" data-audio-status aria-live="polite"></span>
+      </div>
+      <p class="audio-note">Uses the local audio file <code>audios/determine.mp3</code>. If it is unavailable, the browser voice is used automatically.</p>
+
+      <p class="hero-pos">transitive verb</p>
+      <div class="short-meaning-row" aria-label="Meanings at a glance">
+<span class="short-meaning">discover or establish</span><span class="short-meaning">control an outcome</span><span class="short-meaning">make an official decision</span>      </div>
+<p class="hero-summary">Determine can mean finding an answer, shaping an outcome, or making a formal decision.</p><blockquote class="hero-example">“Researchers are trying to determine whether sleep quality affects long-term memory.”</blockquote>      <div class="meta-strip">
+        <div class="meta-item"><span class="meta-label">Date</span><span class="meta-value">September 16th 2026</span></div>
+        <div class="meta-item"><span class="meta-label">Level</span><span class="meta-value">B1–mid-B2 TOEFL</span></div>
+        <div class="meta-item"><span class="meta-label">Created by</span><span class="meta-value">Amir Kooshky</span></div>
+      </div>
+    </section>
+
+    <nav class="toc" aria-label="Study sections">
+      <p class="toc-title">In this guide</p>
+      <div class="toc-links">
+        <a href="#meanings">Meanings</a>
+<a href="#family">Word family</a><a href="#collocations">Collocations</a><a href="#relations">Synonyms & antonyms</a><a href="#confusables">Often confused</a><a href="#etymology">Etymology</a><a href="#exercises">Exercises</a>      </div>
+    </nav>
+
+
+    <section class="section" id="meanings">
+      <div class="section-head">
+        <p class="section-kicker">Dictionary guide</p>
+        <h2>Meanings and usage</h2>
+        <p class="section-intro">The core definition and examples are always included. Additional notes appear only when they are accurate and useful.</p>
+      </div>
+
+      <article class="sense-card" id="meaning-1">
+        <header class="sense-head">
+          <span class="sense-number">Meaning 1</span>
+          <h3>Discover or establish</h3>
+          <div class="badge-row">
+            <span class="badge">transitive verb</span>
+            <span class="badge">/dɪˈtɝːmɪn/</span>
+<span class="badge">neutral to formal; very common in academic and technical writing</span>          </div>
+          <div class="sense-pronunciation-row">
+            <a class="pronunciation-button sense"
+               href="audios/determine.mp3"
+               data-pronunciation-button
+               data-pronunciation-phrase="determine"
+               data-audio-src="audios/determine.mp3"
+               aria-label="Hear the transitive verb pronunciation">
+              <span aria-hidden="true">🔊</span>
+              <span>Hear transitive verb pronunciation</span>
+            </a>
+          </div>
+        </header>
+        <div class="sense-body">
+          <p class="definition">to discover, calculate, or establish a fact, amount, cause, or answer through careful examination</p>
+<p class="plain-equivalent"><strong>In simpler words:</strong> find out or establish</p><div class="pattern-banner"><strong>Typical pattern:</strong> determine + noun, whether or if, question word, or that-clause</div>
+
+          <p class="subsection-title">Natural examples</p>
+          <ol class="example-list">
+<li>Researchers are trying to determine whether sleep quality affects long-term memory.</li><li>The laboratory test can determine the concentration of lead in the water.</li><li>Investigators could not determine the exact cause of the equipment failure.</li><li>Scientists examined the fossils to determine their approximate age.</li><li>The survey was designed to determine how residents use public transportation.</li><li>Further evidence is needed to determine which explanation is more accurate.</li><li>The committee will determine whether the proposal meets the legal requirements.</li><li>Analysts used satellite images to determine the extent of forest loss.</li>          </ol>
+
+          <div class="info-grid">
+            <section class="info-card good">
+              <h4>Nuance and implication</h4>
+<p><strong>Central nuance:</strong> Determine suggests reaching a sufficiently definite answer by using evidence, measurement, calculation, or authority.</p><p><strong>Usual implication:</strong> The answer was previously uncertain and requires investigation or judgment.</p><p><strong>Compared with “estimate”:</strong> To estimate is to produce an approximate value. To determine is to establish an answer considered sufficiently definite for the purpose.</p>            </section>
+
+            <section class="info-card">
+              <h4>Grammar notes</h4>
+              <dl class="grammar-list">
+<div class="grammar-item"><dt>How to use it</dt><dd>This verb normally needs a fact or question after it.</dd></div><div class="grammar-item"><dt>What can follow it</dt><dd>Use a noun, as in determine the cause; whether or if, as in determine whether it works; or a question word, as in determine how it happened.</dd></div><div class="grammar-item"><dt>Position in a sentence</dt><dd>It is frequent in passive forms such as The age was determined by carbon dating.</dd></div>              </dl>
+            </section>
+          </div>
+
+          <p class="subsection-title">Useful patterns</p>
+          <div class="pattern-list">
+            <article class="pattern-card">
+              <code class="pattern-code">determine + cause, effect, amount, extent, value, or identity</code>
+<p class="pattern-use">Use this when an investigation establishes a fact.</p>              <p><strong>Example:</strong> The study sought to determine the extent of the damage.</p>
+            </article>
+            <article class="pattern-card">
+              <code class="pattern-code">determine whether or if + clause</code>
+<p class="pattern-use">Use this when choosing between possible answers.</p>              <p><strong>Example:</strong> Additional trials will determine whether the treatment is safe.</p>
+            </article>
+            <article class="pattern-card">
+              <code class="pattern-code">determine how, why, when, or where + clause</code>
+<p class="pattern-use">Use a question word to identify the information being investigated.</p>              <p><strong>Example:</strong> Researchers hope to determine why the population declined.</p>
+            </article>
+          </div>
+
+          <p class="subsection-title">Common wrong usage</p>
+          <div class="error-list">
+            <article class="error-card">
+              <p class="error-wrong"><strong>Wrong:</strong> The test determined about the cause of the infection.</p>
+              <p class="error-correct"><strong>Correct:</strong> The test determined the cause of the infection.</p>
+<p class="error-explanation">Do not use about before a direct object such as the cause.</p>            </article>
+            <article class="error-card">
+              <p class="error-wrong"><strong>Wrong:</strong> Scientists determined that how the material changed.</p>
+              <p class="error-correct"><strong>Correct:</strong> Scientists determined how the material changed.</p>
+<p class="error-explanation">Use either that or a question word such as how, not both together.</p>            </article>
+          </div>
+
+        </div>
+      </article>
+      <article class="sense-card" id="meaning-2">
+        <header class="sense-head">
+          <span class="sense-number">Meaning 2</span>
+          <h3>Control or shape an outcome</h3>
+          <div class="badge-row">
+            <span class="badge">transitive verb</span>
+            <span class="badge">/dɪˈtɝːmɪn/</span>
+<span class="badge">neutral; common in academic explanations of causes and outcomes</span>          </div>
+          <div class="sense-pronunciation-row">
+            <a class="pronunciation-button sense"
+               href="audios/determine.mp3"
+               data-pronunciation-button
+               data-pronunciation-phrase="determine"
+               data-audio-src="audios/determine.mp3"
+               aria-label="Hear the transitive verb pronunciation">
+              <span aria-hidden="true">🔊</span>
+              <span>Hear transitive verb pronunciation</span>
+            </a>
+          </div>
+        </header>
+        <div class="sense-body">
+          <p class="definition">to control, cause, or strongly influence the nature or result of something</p>
+<p class="plain-equivalent"><strong>In simpler words:</strong> control or decide what happens</p><div class="pattern-banner"><strong>Typical pattern:</strong> factor + determines + outcome or whether/how clause</div>
+
+          <p class="subsection-title">Natural examples</p>
+          <ol class="example-list">
+<li>Access to reliable transportation can determine whether workers accept jobs far from home.</li><li>Soil quality largely determines which crops can grow in a region.</li><li>A society&#39;s institutions help determine how resources are distributed.</li><li>Early experiences do not completely determine a person&#39;s future behavior.</li><li>The availability of water may determine the size of the settlement.</li><li>Several interacting genes determine the color of the flowers.</li><li>The final examination will determine half of each student&#39;s grade.</li><li>Economic conditions often determine the pace of construction.</li>          </ol>
+
+          <div class="info-grid">
+            <section class="info-card good">
+              <h4>Nuance and implication</h4>
+<p><strong>Central nuance:</strong> In this sense, determine means having a decisive or powerful effect, not discovering information.</p><p><strong>Usual implication:</strong> The subject is an important causal or controlling factor, although context may show that other factors also matter.</p><p><strong>Compared with “influence”:</strong> Influence means affect to some degree. Determine often suggests a stronger effect that fixes or decides the outcome.</p>            </section>
+
+            <section class="info-card">
+              <h4>Grammar notes</h4>
+              <dl class="grammar-list">
+<div class="grammar-item"><dt>How to use it</dt><dd>The controlling factor is the subject, and the result is placed after determine.</dd></div><div class="grammar-item"><dt>What can follow it</dt><dd>Use a noun or a clause beginning with whether, how, what, or which.</dd></div><div class="grammar-item"><dt>Position in a sentence</dt><dd>Adverbs such as largely, partly, ultimately, and directly can show how strong the effect is.</dd></div>              </dl>
+            </section>
+          </div>
+
+          <p class="subsection-title">Useful patterns</p>
+          <div class="pattern-list">
+            <article class="pattern-card">
+              <code class="pattern-code">factor + determine(s) + outcome</code>
+<p class="pattern-use">Use this to connect a controlling cause with its result.</p>              <p><strong>Example:</strong> Temperature determines the rate of the chemical reaction.</p>
+            </article>
+            <article class="pattern-card">
+              <code class="pattern-code">determine whether or how + clause</code>
+<p class="pattern-use">Use this when a factor controls whether or how something happens.</p>              <p><strong>Example:</strong> Household income may determine whether a student can remain in school.</p>
+            </article>
+            <article class="pattern-card">
+              <code class="pattern-code">be determined by + factor</code>
+<p class="pattern-use">Use the passive when the result is more important than the controlling factor.</p>              <p><strong>Example:</strong> The final cost is determined by the amount of material used.</p>
+            </article>
+          </div>
+
+          <p class="subsection-title">Common wrong usage</p>
+          <div class="error-list">
+            <article class="error-card">
+              <p class="error-wrong"><strong>Wrong:</strong> Weather determines on the success of the harvest.</p>
+              <p class="error-correct"><strong>Correct:</strong> Weather determines the success of the harvest.</p>
+<p class="error-explanation">Determine takes a direct object; do not add on.</p>            </article>
+            <article class="error-card">
+              <p class="error-wrong"><strong>Wrong:</strong> Income is determined from several social factors.</p>
+              <p class="error-correct"><strong>Correct:</strong> Income is determined by several social factors.</p>
+<p class="error-explanation">Use by to introduce the controlling factor in a passive sentence.</p>            </article>
+          </div>
+
+        </div>
+      </article>
+      <article class="sense-card" id="meaning-3">
+        <header class="sense-head">
+          <span class="sense-number">Meaning 3</span>
+          <h3>Make an official decision</h3>
+          <div class="badge-row">
+            <span class="badge">transitive verb</span>
+            <span class="badge">/dɪˈtɝːmɪn/</span>
+<span class="badge">formal when it means make an official decision</span>          </div>
+          <div class="sense-pronunciation-row">
+            <a class="pronunciation-button sense"
+               href="audios/determine.mp3"
+               data-pronunciation-button
+               data-pronunciation-phrase="determine"
+               data-audio-src="audios/determine.mp3"
+               aria-label="Hear the transitive verb pronunciation">
+              <span aria-hidden="true">🔊</span>
+              <span>Hear transitive verb pronunciation</span>
+            </a>
+          </div>
+        </header>
+        <div class="sense-body">
+          <p class="definition">to make an official or authoritative decision about something after considering the facts</p>
+<p class="plain-equivalent"><strong>In simpler words:</strong> decide officially</p><div class="pattern-banner"><strong>Typical pattern:</strong> determine + noun, question-word clause, or that-clause</div>
+
+          <p class="subsection-title">Natural examples</p>
+          <ol class="example-list">
+<li>After reviewing the evidence, the board determined that the investigation should continue.</li><li>The court will determine the appropriate level of compensation.</li><li>Officials determined that the building should remain closed until repairs were complete.</li><li>The committee is responsible for determining who receives the scholarship.</li><li>The agency determined the final boundaries of the protected area.</li><li>The judge will determine the appropriate penalty after hearing both sides.</li><li>The panel determined that a second vote was necessary.</li><li>Local authorities determine the standards that new buildings must meet.</li>          </ol>
+
+          <div class="info-grid">
+            <section class="info-card good">
+              <h4>Nuance and implication</h4>
+<p><strong>Central nuance:</strong> Determine is more formal than decide here and often suggests that a court, committee, agency, or rule has authority to settle the matter.</p><p><strong>Usual implication:</strong> The decision is reached after facts, standards, or evidence have been considered.</p><p><strong>Compared with “decide”:</strong> Decide is the ordinary general word. Determine is more formal and is common when an authority settles a question.</p>            </section>
+
+            <section class="info-card">
+              <h4>Grammar notes</h4>
+              <dl class="grammar-list">
+<div class="grammar-item"><dt>How to use it</dt><dd>Use determine followed by a noun, question-word clause, or that-clause.</dd></div><div class="grammar-item"><dt>What can follow it</dt><dd>Common forms include determine the outcome, determine who qualifies, and determine that action is needed.</dd></div><div class="grammar-item"><dt>Position in a sentence</dt><dd>Do not confuse this verb with the adjective determined in be determined to.</dd></div>              </dl>
+            </section>
+          </div>
+
+          <p class="subsection-title">Useful patterns</p>
+          <div class="pattern-list">
+            <article class="pattern-card">
+              <code class="pattern-code">determine + question word + clause</code>
+<p class="pattern-use">Use this for an official decision about a person, time, place, or method.</p>              <p><strong>Example:</strong> The panel will determine who is eligible for funding.</p>
+            </article>
+            <article class="pattern-card">
+              <code class="pattern-code">determine that + clause</code>
+<p class="pattern-use">Use this to report a formal conclusion or decision.</p>              <p><strong>Example:</strong> The court determined that the regulation was valid.</p>
+            </article>
+            <article class="pattern-card">
+              <code class="pattern-code">determine + noun</code>
+<p class="pattern-use">Use this when an authority decides an outcome, amount, boundary, or standard.</p>              <p><strong>Example:</strong> A national panel determines the minimum safety standard.</p>
+            </article>
+          </div>
+
+          <p class="subsection-title">Common wrong usage</p>
+          <div class="error-list">
+            <article class="error-card">
+              <p class="error-wrong"><strong>Wrong:</strong> The panel determined about the final amount.</p>
+              <p class="error-correct"><strong>Correct:</strong> The panel determined the final amount.</p>
+<p class="error-explanation">Determine takes the matter being decided as a direct object.</p>            </article>
+            <article class="error-card">
+              <p class="error-wrong"><strong>Wrong:</strong> The panel determined about who would receive the award.</p>
+              <p class="error-correct"><strong>Correct:</strong> The panel determined who would receive the award.</p>
+<p class="error-explanation">A question-word clause follows determine directly.</p>            </article>
+          </div>
+
+        </div>
+      </article>
+    </section>
+
+    <section class="section" id="family">
+      <div class="section-head">
+        <p class="section-kicker">Morphology</p>
+        <h2>Word family</h2>
+        <p class="section-intro">Only common and educationally useful family members are included.</p>
+      </div>
+      <div class="card-grid three">
+        <article class="family-card">
+          <p class="eyebrow">countable or uncountable noun</p>
+          <h3>determination</h3>
+<p class="ipa">/dɪˌtɝːməˈneɪʃən/</p>          <p>the process of establishing something, an official decision, or the strong quality of continuing toward a goal</p>
+          <div class="mini-facts">
+<p class="mini-fact"><strong>Relationship:</strong> This noun covers both establishing an answer and being firmly resolved.</p><p class="mini-fact"><strong>Pattern:</strong> determination of + fact, or determination to + verb</p><p class="mini-fact"><strong>Usage note:</strong> Its exact meaning depends strongly on context.</p>          </div>
+          <ol class="example-list"><li>The determination of the sample&#39;s age required further testing.</li><li>Her determination helped her complete the demanding program.</li></ol>
+        </article>
+        <article class="family-card">
+          <p class="eyebrow">adjective</p>
+          <h3>determined</h3>
+<p class="ipa">/dɪˈtɝːmɪnd/</p>          <p>having made a firm decision and refusing to give up</p>
+          <div class="mini-facts">
+<p class="mini-fact"><strong>Relationship:</strong> This adjective describes firm intention or effort.</p><p class="mini-fact"><strong>Pattern:</strong> be determined to + base verb, or a determined + effort</p><p class="mini-fact"><strong>Usage note:</strong> Pronounce the final syllable as /mɪnd/, not like the verb mind.</p>          </div>
+          <ol class="example-list"><li>She was determined to improve access to rural schools.</li><li>The team made a determined effort to recover the missing data.</li></ol>
+        </article>
+      </div>
+    </section>
+
+    <section class="section" id="collocations">
+      <div class="section-head">
+        <p class="section-kicker">Natural combinations</p>
+        <h2>Common collocations</h2>
+        <p class="section-intro">These are established combinations, not merely grammatically possible phrases.</p>
+      </div>
+      <div class="card-grid three">
+        <article class="collocation-card">
+<p class="eyebrow">Discover or establish</p>          <h3>determine the cause</h3>
+<p>establish why something happened</p>          <div class="mini-facts">
+            <p class="mini-fact"><strong>Example:</strong> Investigators collected samples to determine the cause of the contamination.</p>
+          </div>
+        </article>
+        <article class="collocation-card">
+<p class="eyebrow">Discover or establish</p>          <h3>determine the extent</h3>
+<p>establish how large or serious something is</p>          <div class="mini-facts">
+            <p class="mini-fact"><strong>Example:</strong> More surveys are needed to determine the extent of the decline.</p>
+          </div>
+        </article>
+        <article class="collocation-card">
+<p class="eyebrow">Control or shape an outcome</p>          <h3>largely determine</h3>
+<p>have the main controlling influence on something</p>          <div class="mini-facts">
+            <p class="mini-fact"><strong>Example:</strong> Rainfall patterns largely determine which plants survive.</p>
+          </div>
+        </article>
+        <article class="collocation-card">
+<p class="eyebrow">Control or shape an outcome</p>          <h3>be determined by</h3>
+<p>be controlled or decided by a factor</p>          <div class="mini-facts">
+            <p class="mini-fact"><strong>Example:</strong> Eligibility is determined by household income.</p>
+          </div>
+        </article>
+        <article class="collocation-card">
+<p class="eyebrow">Make an official decision</p>          <h3>determine eligibility</h3>
+<p>decide officially who qualifies</p>          <div class="mini-facts">
+            <p class="mini-fact"><strong>Example:</strong> The committee uses published criteria to determine eligibility.</p>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <section class="section" id="relations">
+      <div class="section-head">
+        <p class="section-kicker">Meaning relations</p>
+        <h2>Synonyms and antonyms</h2>
+        <p class="section-intro">Only clear and useful relationships are included.</p>
+      </div>
+      <h3>Close synonyms</h3>
+      <div class="compare-grid">
+        <article class="compare-card">
+          <span class="word-pill">establish</span>
+          <p class="meta">verb · Discover or establish</p>
+<p><strong>Shared meaning:</strong> Both can mean reaching a firm factual conclusion.</p>          <p><strong>Difference:</strong> Establish emphasizes showing that a fact is true. Determine can also involve calculating or identifying an answer.</p>
+          <p><strong>Example:</strong> The evidence established that the document was authentic.</p>
+        </article>
+        <article class="compare-card">
+          <span class="word-pill">decide</span>
+          <p class="meta">verb · Make an official decision</p>
+<p><strong>Shared meaning:</strong> Both can refer to choosing an outcome after consideration.</p>          <p><strong>Difference:</strong> Decide is the usual everyday term. Determine is more formal when an authority reaches a decision.</p>
+          <p><strong>Example:</strong> The committee decided to postpone the vote.</p>
+        </article>
+      </div>
+
+    </section>
+
+    <section class="section" id="confusables">
+      <div class="section-head">
+        <p class="section-kicker">Precision</p>
+        <h2>Words learners may confuse</h2>
+      </div>
+      <div class="compare-grid">
+        <article class="compare-card">
+          <span class="word-pill">determine</span>
+<p class="meta">verb versus adjective</p><p><strong>Why it is confusing:</strong> The forms look similar but perform different grammatical jobs.</p>          <p><strong>Key difference:</strong> Determine is a verb. Determined is usually an adjective when it describes firm intention.</p>
+          <p><strong>determine:</strong> The test will determine the cause.</p>
+          <p><strong>determine:</strong> The researcher was determined to find the cause.</p>
+        </article>
+      </div>
+    </section>
+
+    <section class="section" id="etymology">
+      <div class="section-head">
+        <p class="section-kicker">Word history</p>
+        <h2>Etymology</h2>
+        <p class="section-intro">Only confidently documented details are shown.</p>
+      </div>
+      <div class="etymology-flow">
+<article class="etymology-step"><h3>Origin</h3><p>Determine comes from Latin determinare, meaning to limit or set boundaries.</p></article><article class="etymology-step"><h3>Development</h3><p>The idea of setting limits developed into fixing an answer, controlling a result, or settling a decision.</p></article><article class="etymology-step"><h3>Memory link</h3><p>To determine something is to bring uncertainty to a defined endpoint.</p></article>      </div>
+    </section>
+
+    <section class="section" id="exercises">
+      <div class="section-head">
+        <p class="section-kicker">Active practice</p>
+        <h2>Practice exercises</h2>
+      </div>
+      <div class="exercise-grid">
+        <article class="exercise-card">
+          <h3>Word family choice</h3>
+          <p class="exercise-instruction">Choose the best member of the word family for each blank.</p>
+          <ol class="clean-list"><li>The laboratory must _____ the chemical composition of the sample.</li><li>Her _____ to finish the research never weakened.</li><li>The team was _____ to identify the source of the error.</li></ol>
+        </article>
+        <article class="exercise-card">
+          <h3>Correct or incorrect?</h3>
+          <p class="exercise-instruction">Decide whether each sentence is correct. Correct the inaccurate ones.</p>
+          <ol class="clean-list"><li>The survey aims to determine whether attitudes have changed.</li><li>Climate partly determines which crops can grow in a region.</li><li>She determined to completing the study.</li><li>The cost is determined from the materials used.</li></ol>
+        </article>
+        <article class="exercise-card">
+          <h3>Collocation practice</h3>
+          <p class="exercise-instruction">Complete each sentence with a natural collocation.</p>
+          <ol class="clean-list"><li>Tests were conducted to determine the _____ of the structural failure.</li><li>The final price is determined _____ the amount of energy used.</li></ol>
+        </article>
+      </div>
+
+      <details class="answer-key">
+        <summary>Open the complete answer key</summary>
+        <div class="answer-content">
+          <section class="answer-group">
+            <h3>Word family choice</h3>
+            <p class="answer-item"><strong>1. determine</strong><br>The laboratory must determine the chemical composition of the sample.<br><em>Use the base verb after must.</em></p>
+            <p class="answer-item"><strong>2. determination</strong><br>Her determination to finish the research never weakened.<br><em>Use the noun determination as the subject.</em></p>
+            <p class="answer-item"><strong>3. determined</strong><br>The team was determined to identify the source of the error.<br><em>Use be determined to for firm intention.</em></p>
+          </section>
+          <section class="answer-group">
+            <h3>Correct or incorrect?</h3>
+            <p class="answer-item"><strong>1. Correct</strong><br><em>Determine whether correctly introduces the question being investigated.</em></p>
+            <p class="answer-item"><strong>2. Correct</strong><br><em>Here determine means strongly influence or control an outcome.</em></p>
+            <p class="answer-item"><strong>3. Incorrect</strong><br>She was determined to complete the study.<br><em>Use be determined to followed by the base verb for firm intention.</em></p>
+            <p class="answer-item"><strong>4. Incorrect</strong><br>The cost is determined by the materials used.<br><em>Use by for the controlling factor in a passive sentence.</em></p>
+          </section>
+          <section class="answer-group">
+            <h3>Collocation practice</h3>
+            <p class="answer-item"><strong>1. cause</strong><br>Tests were conducted to determine the cause of the structural failure.<br><em>Determine the cause is a common academic collocation.</em></p>
+            <p class="answer-item"><strong>2. by</strong><br>The final price is determined by the amount of energy used.<br><em>Use determined by to name a controlling factor.</em></p>
+          </section>
+        </div>
+      </details>
+    </section>
+
+    <footer class="footer">
+      <div class="footer-row">
+        <span>Created and compiled by <strong>Amir Kooshky</strong></span>
+        <nav class="footer-links" aria-label="Creator links">
+          <a href="https://t.me/KooshkyTOEFL" target="_blank" rel="noopener">Telegram channel</a>
+          <a href="https://www.instagram.com/kooshkytoefl" target="_blank" rel="noopener">Instagram</a>
+          <a href="https://t.me/KooshkyTOEFL_pv" target="_blank" rel="noopener">Personal Telegram</a>
+        </nav>
+      </div>
+    </footer>
+  </main>
+
+  <button class="back-to-top no-js-hidden" type="button" data-back-to-top aria-label="Go to the top">↑</button>
+  <script>
+(() => {
+  "use strict";
+
+  const root = document.documentElement;
+  root.classList.add("js");
+
+  const storageKey = "kooshky-wotd-theme";
+  const themeButton = document.querySelector("[data-theme-toggle]");
+  const topButton = document.querySelector("[data-back-to-top]");
+  const audioButtons = document.querySelectorAll("[data-pronunciation-button]");
+  const statusNode = document.querySelector("[data-audio-status]");
+
+  const applyTheme = (theme) => {
+    if (theme === "light" || theme === "dark") root.dataset.theme = theme;
+    else delete root.dataset.theme;
+
+    if (themeButton) {
+      const active = root.dataset.theme || "system";
+      themeButton.textContent = active === "dark" ? "Light mode" : "Dark mode";
+      themeButton.setAttribute("aria-label", `Switch from ${active} theme`);
+    }
+  };
+
+  let savedTheme = null;
+  try { savedTheme = localStorage.getItem(storageKey); } catch (_) { /* nonessential */ }
+  applyTheme(savedTheme);
+
+  themeButton?.addEventListener("click", () => {
+    const systemDark = window.matchMedia?.("(prefers-color-scheme: dark)").matches;
+    const current = root.dataset.theme || (systemDark ? "dark" : "light");
+    const next = current === "dark" ? "light" : "dark";
+    applyTheme(next);
+    try { localStorage.setItem(storageKey, next); } catch (_) { /* local files may block storage */ }
+  });
+
+  const speakWithBrowser = (phrase, button) => {
+    if (!("speechSynthesis" in window) || typeof SpeechSynthesisUtterance === "undefined") {
+      if (statusNode) statusNode.textContent = "The audio file is unavailable and this browser has no speech fallback.";
+      window.location.href = button.href;
+      return;
+    }
+
+    window.speechSynthesis.cancel();
+    const utterance = new SpeechSynthesisUtterance(phrase);
+    utterance.lang = "en-US";
+    utterance.rate = 0.88;
+    utterance.onstart = () => {
+      button.classList.add("is-playing");
+      if (statusNode) statusNode.textContent = "Using the browser voice because the local MP3 was unavailable.";
+    };
+    utterance.onend = utterance.onerror = () => button.classList.remove("is-playing");
+    window.speechSynthesis.speak(utterance);
+  };
+
+  audioButtons.forEach((button) => {
+    button.addEventListener("click", (event) => {
+      event.preventDefault();
+      const phrase = button.dataset.pronunciationPhrase || "";
+      const src = button.dataset.audioSrc || button.getAttribute("href") || "";
+      let fallbackStarted = false;
+
+      const fallback = () => {
+        if (fallbackStarted) return;
+        fallbackStarted = true;
+        speakWithBrowser(phrase, button);
+      };
+
+      const audio = new Audio();
+      audio.preload = "auto";
+      audio.src = src;
+      audio.addEventListener("play", () => {
+        button.classList.add("is-playing");
+        if (statusNode) statusNode.textContent = `Playing local pronunciation: “${phrase}”.`;
+      }, { once: true });
+      audio.addEventListener("ended", () => button.classList.remove("is-playing"), { once: true });
+      audio.addEventListener("error", fallback, { once: true });
+
+      const playResult = audio.play();
+      if (playResult && typeof playResult.catch === "function") playResult.catch(fallback);
+    });
+  });
+
+  if (topButton) {
+    const updateTopButton = () => topButton.classList.toggle("visible", window.scrollY > 700);
+    window.addEventListener("scroll", updateTopButton, { passive: true });
+    updateTopButton();
+    topButton.addEventListener("click", () => window.scrollTo({ top: 0, behavior: "smooth" }));
+  }
+})();
+
+  </script>
+</body>
+</html>

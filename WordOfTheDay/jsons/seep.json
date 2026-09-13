@@ -1,0 +1,152 @@
+{
+  "document_type": "kooshky_toefl_word_of_the_day",
+  "schema_version": "1.3",
+  "slug": "seep",
+  "word": "seep",
+  "date": "September 13th 2026",
+  "pronunciation": { "primary_ipa": "/siːp/" },
+  "hero": {
+    "part_of_speech_summary": "intransitive verb",
+    "short_meanings": ["flow slowly through small openings", "spread gradually"],
+    "one_line_summary": "Seep describes liquid, gas, information, or influence moving slowly and gradually into, out of, or through something.",
+    "memorable_example": "Contaminated water began to seep through cracks in the storage tank."
+  },
+  "meanings": [
+    {
+      "sense_title": "Flow slowly through small openings",
+      "part_of_speech": "intransitive verb",
+      "ipa": "/siːp/",
+      "definition": "to flow or pass slowly in small amounts through tiny openings, a surface, or a material",
+      "examples": [
+        "Contaminated water began to seep through cracks in the storage tank.",
+        "After several days of rain, moisture seeped into the basement walls.",
+        "Oil from the damaged pipeline seeped into the surrounding soil.",
+        "Groundwater can seep through layers of porous rock.",
+        "A small amount of gas was seeping out of the damaged valve.",
+        "Rainwater seeped under the door and formed a shallow pool on the floor.",
+        "Chemicals from the landfill may seep into nearby wells.",
+        "Sap slowly seeped from the cut in the tree trunk."
+      ],
+      "plain_english_equivalent": "leak or flow very slowly",
+      "typical_pattern": "seep into, through, out of, from, or under + place or material",
+      "register": "neutral; common in environmental, scientific, and everyday descriptions",
+      "nuance": {
+        "central_nuance": "Seep emphasizes slow movement in small quantities, often through pores, cracks, or another barrier.",
+        "usual_implication": "The movement may be difficult to notice at first and may occur without deliberate control.",
+        "contrast_term": "pour",
+        "contrast_explanation": "Pour describes a much faster or more continuous flow. Seep describes slow movement in small amounts, often through tiny openings."
+      },
+      "grammar": {
+        "how_to_use": "Seep does not normally take a direct object. Follow it with an adverb or a preposition that shows the direction of movement.",
+        "what_can_follow": "Common choices are into, through, out of, from, under, and across.",
+        "preposition_note": "Use seep into for the destination, seep through for the material or opening crossed, and seep out of or from for the source."
+      },
+      "patterns": [
+        { "pattern": "seep into + place or substance", "use": "Use this to name where the liquid or gas enters.", "example": "Pesticides can seep into groundwater after heavy rain." },
+        { "pattern": "seep through + material or opening", "use": "Use this to name the barrier that the substance slowly crosses.", "example": "Water seeped through a narrow crack in the concrete." },
+        { "pattern": "seep out of or from + source", "use": "Use this to identify where the substance slowly escapes.", "example": "Gas was seeping out of a damaged pipe." },
+        { "pattern": "seep under + barrier", "use": "Use this when liquid passes slowly beneath something.", "example": "Floodwater seeped under the temporary wall." }
+      ],
+      "errors": [
+        { "wrong": "The crack seeped water into the room.", "correct": "Water seeped into the room through the crack.", "explanation": "Seep is normally intransitive: the liquid is the subject, not the object." },
+        { "wrong": "Water seeped the concrete wall.", "correct": "Water seeped through the concrete wall.", "explanation": "Use through to name the material that the liquid crosses." },
+        { "wrong": "The river seeped rapidly over its banks.", "correct": "The river flowed rapidly over its banks.", "explanation": "Seep implies slow movement in small amounts, so it does not fit a rapid large flow." }
+      ]
+    },
+    {
+      "sense_title": "Spread or become known gradually",
+      "part_of_speech": "intransitive verb",
+      "ipa": "/siːp/",
+      "definition": "to spread, enter, escape, or become known slowly and gradually",
+      "examples": [
+        "News of the discovery gradually seeped out despite efforts to keep it confidential.",
+        "The values of the movement seeped into mainstream political debate.",
+        "A sense of uncertainty began to seep into the team's discussions.",
+        "Ideas from the scientific revolution slowly seeped into popular culture.",
+        "Details of the private negotiations eventually seeped out to the press.",
+        "The stress of the conflict seeped into nearly every aspect of daily life.",
+        "Foreign musical influences seeped into the region's traditional style.",
+        "As the lecture continued, the significance of the evidence slowly seeped in."
+      ],
+      "plain_english_equivalent": "spread or become understood little by little",
+      "typical_pattern": "information or influence + seep into, out, through, or in",
+      "register": "neutral; figurative and common in journalism and academic discussion",
+      "nuance": {
+        "central_nuance": "This figurative use presents information, emotion, or influence as if it were liquid moving slowly through a barrier.",
+        "usual_implication": "The change is gradual, indirect, and sometimes difficult to prevent or identify.",
+        "contrast_term": "spread",
+        "contrast_explanation": "Spread is the general word and can describe any speed or method. Seep emphasizes a slow, gradual, and often unnoticed process."
+      },
+      "grammar": {
+        "how_to_use": "The information, feeling, or influence is normally the subject. Add an adverb or preposition to show its direction.",
+        "what_can_follow": "Use into for an area being affected, out for information becoming public, or in for an idea gradually being understood.",
+        "preposition_note": "Seep out often describes secret information becoming known; seep into describes an influence gradually affecting something."
+      },
+      "patterns": [
+        { "pattern": "information or news + seep out", "use": "Use this when information becomes public slowly or indirectly.", "example": "Reports of the disagreement began to seep out." },
+        { "pattern": "idea, feeling, or influence + seep into + area", "use": "Use this when something gradually begins to affect another area.", "example": "Commercial influences seeped into the artistic movement." },
+        { "pattern": "meaning or realization + seep in", "use": "Use this when someone begins to understand something gradually.", "example": "Only later did the importance of the warning seep in." }
+      ],
+      "errors": [
+        { "wrong": "The journalist seeped the confidential news.", "correct": "The confidential news seeped out to journalists.", "explanation": "Seep is normally intransitive. The information that spreads is the subject." },
+        { "wrong": "The realization seeped me in.", "correct": "The realization slowly seeped in.", "explanation": "Do not place a person directly after seep in this pattern." }
+      ]
+    }
+  ],
+  "word_family": [
+    {
+      "word": "seepage",
+      "part_of_speech": "uncountable noun",
+      "definition": "the slow movement of liquid or gas through small openings or a material",
+      "examples": [
+        "Engineers detected water seepage beneath the dam.",
+        "A protective layer prevents chemical seepage into the soil.",
+        "The inspection revealed signs of seepage around the window."
+      ],
+      "ipa": "/ˈsiːpɪdʒ/",
+      "relationship_to_headword": "This noun names the physical process or result of liquid or gas seeping.",
+      "grammar_pattern": "seepage into, through, or from + place",
+      "usage_note": "It is normally used without a or an and is mainly used for the physical meaning."
+    }
+  ],
+  "collocations": [
+    { "collocation": "seep into the ground", "example": "Some of the rainwater seeps into the ground and replenishes underground supplies.", "applies_to_sense": "Flow slowly through small openings", "meaning": "pass slowly from the surface into the soil" },
+    { "collocation": "seep through cracks", "example": "Water seeped through cracks in the foundation.", "applies_to_sense": "Flow slowly through small openings", "meaning": "pass slowly through narrow openings" },
+    { "collocation": "seep into groundwater", "example": "Agricultural chemicals may seep into groundwater.", "applies_to_sense": "Flow slowly through small openings", "meaning": "move gradually through soil and contaminate underground water" },
+    { "collocation": "information seeps out", "example": "Information about the negotiations slowly seeped out.", "applies_to_sense": "Spread or become known gradually", "meaning": "information gradually becomes public" },
+    { "collocation": "seep into public awareness", "example": "The findings took years to seep into public awareness.", "applies_to_sense": "Spread or become known gradually", "meaning": "gradually become widely known or understood" }
+  ],
+  "synonyms": [
+    { "word": "leak", "part_of_speech": "verb", "applies_to_sense": "Flow slowly through small openings", "difference": "Leak emphasizes unintended escape through a hole or damaged container and may be fast or slow. Seep specifically emphasizes slow movement in small amounts, often through a surface.", "example": "Oil leaked from the damaged tank.", "shared_meaning": "Both can describe liquid or gas escaping unintentionally." },
+    { "word": "ooze", "part_of_speech": "verb", "applies_to_sense": "Flow slowly through small openings", "difference": "Ooze often describes a thick liquid moving slowly out of something. Seep commonly describes a thinner liquid passing gradually through a material or opening.", "example": "Sap oozed from the damaged branch.", "shared_meaning": "Both describe very slow movement of liquid." },
+    { "word": "permeate", "part_of_speech": "verb", "applies_to_sense": "Spread or become known gradually", "difference": "Permeate means spread throughout something and focuses on the final wide presence. Seep focuses on the slow, gradual movement into it.", "example": "A sense of optimism permeated the discussion.", "shared_meaning": "Both can describe an influence gradually entering an area or situation." }
+  ],
+  "antonyms": [
+    { "word": "gush", "part_of_speech": "verb", "applies_to_sense": "Flow slowly through small openings", "opposition": "Gush describes liquid flowing out suddenly and forcefully, whereas seep describes slow movement in small amounts.", "example": "Water gushed from the broken main." }
+  ],
+  "confusables": [
+    { "word": "leak", "key_difference": "A container, pipe, or roof can leak, and the escaping substance can leak from it. With seep, the slowly moving liquid or gas is normally the subject.", "headword_example": "Water seeped through the wall.", "confusable_example": "The damaged roof leaked during the storm.", "part_of_speech": "verb", "why_confused": "Both often describe unwanted movement of liquid through an opening." },
+    { "word": "sip", "key_difference": "Seep means move slowly through small openings; sip means drink a small amount at a time.", "headword_example": "Moisture seeped into the wood.", "confusable_example": "She sipped the hot tea slowly.", "part_of_speech": "verb", "why_confused": "The spellings and pronunciations are similar, but the vowel sounds and meanings differ." }
+  ],
+  "etymology": {
+    "origin": "Seep developed as a variant of the older dialect word sipe, meaning to drain or ooze.",
+    "memory_link": "Imagine water silently easing through tiny pores: slow movement is the key idea in seep."
+  },
+  "exercises": {
+    "word_family_choice": [
+      { "prompt_sentence": "Engineers found evidence of water _____ beneath the barrier.", "answer": "seepage", "completed_sentence": "Engineers found evidence of water seepage beneath the barrier.", "explanation": "Use the noun seepage after evidence of." },
+      { "prompt_sentence": "Chemicals may _____ into the soil after heavy rain.", "answer": "seep", "completed_sentence": "Chemicals may seep into the soil after heavy rain.", "explanation": "Use the base verb seep after may." }
+    ],
+    "correct_or_incorrect": [
+      { "sentence": "Water seeped through the porous rock.", "verdict": "Correct", "explanation": "Seep through correctly describes slow movement across a material." },
+      { "sentence": "The damaged pipe seeped water onto the floor.", "verdict": "Incorrect", "corrected_sentence": "Water seeped from the damaged pipe onto the floor.", "explanation": "The liquid, not the pipe, is normally the subject of seep." },
+      { "sentence": "News of the discovery gradually seeped out.", "verdict": "Correct", "explanation": "Seep out can figuratively describe information becoming known little by little." },
+      { "sentence": "The flood seeped rapidly through the city streets.", "verdict": "Incorrect", "corrected_sentence": "The flood swept rapidly through the city streets.", "explanation": "Seep conflicts with rapid, forceful movement." }
+    ],
+    "collocation_practice": [
+      { "prompt_sentence": "Rainwater began to seep _____ the cracks in the roof.", "answer": "through", "completed_sentence": "Rainwater began to seep through the cracks in the roof.", "explanation": "Use through for the opening or material crossed." },
+      { "prompt_sentence": "Confidential information slowly seeped _____ to the press.", "answer": "out", "completed_sentence": "Confidential information slowly seeped out to the press.", "explanation": "Seep out describes information gradually becoming public." },
+      { "prompt_sentence": "The chemical can seep _____ groundwater and remain there for years.", "answer": "into", "completed_sentence": "The chemical can seep into groundwater and remain there for years.", "explanation": "Use into for the destination." }
+    ]
+  }
+}

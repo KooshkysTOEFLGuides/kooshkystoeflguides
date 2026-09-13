@@ -12,6 +12,20 @@ The root `word-of-the-day.html` is intentionally retained as a small redirect so
 old bookmarks and external links keep working. The archive reuses the site's
 existing `styles.css`, `site.js`, and `images/` files one directory above it.
 
+## Queue and automatic dates
+
+`word-queue.txt` is the pending-input list for agent-generated entries. It contains
+one headword per nonblank line, in publication order, with no dates or list
+markers. Full queue-processing and failure-recovery rules are documented in
+`README.md` in this directory.
+
+For queued work, use the day after the latest valid date already present in
+`word-data.js`, not the current day and not the position of an entry in the array.
+Assign consecutive calendar dates as the queue is processed. Remove a queued line
+only after the JSON, HTML, LaTeX, Telegram text, pronunciation audio, 1200 × 630
+code-rendered banner in `banners/`, registry entry, cache versions, and final checks
+have all succeeded.
+
 ## Add a word
 
 Edit `word-data.js` and add an object inside `window.KOOSHKY_WORDS`:

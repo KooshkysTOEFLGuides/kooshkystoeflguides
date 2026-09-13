@@ -1,0 +1,282 @@
+{
+  "document_type": "kooshky_toefl_word_of_the_day",
+  "schema_version": "1.3",
+  "slug": "cogent",
+  "word": "cogent",
+  "date": "September 14th 2026",
+  "pronunciation": {
+    "primary_ipa": "/ˈkoʊdʒənt/"
+  },
+  "hero": {
+    "part_of_speech_summary": "adjective",
+    "short_meanings": [
+      "clear, logical, and convincing"
+    ],
+    "one_line_summary": "Cogent describes reasoning that is expressed clearly and is strong enough to persuade people.",
+    "memorable_example": "The researcher presented a cogent argument for expanding access to public transportation."
+  },
+  "meanings": [
+    {
+      "sense_title": "Clear, logical, and convincing",
+      "part_of_speech": "adjective",
+      "ipa": "/ˈkoʊdʒənt/",
+      "definition": "clearly expressed, logically strong, and likely to persuade people that an idea is true or reasonable",
+      "examples": [
+        "The researcher presented a cogent argument for expanding access to public transportation.",
+        "Her essay offers a cogent explanation of why the policy produced unexpected results.",
+        "The committee found the economic evidence cogent enough to justify further investment.",
+        "He gave several cogent reasons for preserving the historic building.",
+        "A cogent analysis must connect each conclusion to reliable evidence.",
+        "Although the proposal was controversial, its supporters made a cogent case for reform.",
+        "The speaker's response was brief but cogent, addressing the central objection directly.",
+        "Without accurate data, even a confidently delivered argument may not be cogent."
+      ],
+      "plain_english_equivalent": "clear and convincing because it makes good sense",
+      "typical_pattern": "a cogent + argument, reason, explanation, analysis, or case",
+      "register": "formal; common in academic, professional, legal, and critical discussion",
+      "nuance": {
+        "central_nuance": "Cogent combines clarity with persuasive logical force. Something is not cogent merely because it is easy to understand.",
+        "usual_implication": "The reasoning is organized well and supported strongly enough to influence a thoughtful reader or listener.",
+        "contrast_term": "coherent",
+        "contrast_explanation": "A coherent argument is orderly and internally connected, but it may still rely on weak evidence. A cogent argument is coherent and also convincing."
+      },
+      "grammar": {
+        "how_to_use": "Use it before a noun, as in a cogent argument, or after a linking verb, as in Her explanation was cogent.",
+        "what_can_follow": "It most often describes reasoning or communication, including an argument, reason, case, explanation, analysis, response, or critique.",
+        "position_note": "Words such as highly, particularly, especially, and remarkably can appear before cogent."
+      },
+      "patterns": [
+        {
+          "pattern": "a cogent argument for or against + noun or -ing form",
+          "use": "Use this to describe persuasive reasoning supporting or opposing a position.",
+          "example": "The report makes a cogent argument for investing in preventive health care."
+        },
+        {
+          "pattern": "a cogent reason for + noun or -ing form",
+          "use": "Use this for a clearly explained reason that provides strong justification.",
+          "example": "The authors give no cogent reason for excluding rural communities from the study."
+        },
+        {
+          "pattern": "make or present a cogent case",
+          "use": "Use this when several connected reasons support a conclusion or proposal.",
+          "example": "The evidence presents a cogent case for revising the current guidelines."
+        },
+        {
+          "pattern": "a cogent explanation or analysis",
+          "use": "Use this for an explanation or analysis that is clear, logical, and persuasive.",
+          "example": "She offered a cogent analysis of the relationship between housing costs and migration."
+        }
+      ],
+      "errors": [
+        {
+          "wrong": "The instructions were cogent, so everyone could follow the steps.",
+          "correct": "The instructions were clear, so everyone could follow the steps.",
+          "explanation": "Use cogent when ideas or reasons are persuasive as well as clear. For ordinary instructions that are easy to understand, clear is more natural."
+        },
+        {
+          "wrong": "The researcher cogently argumented for a larger sample.",
+          "correct": "The researcher argued cogently for a larger sample.",
+          "explanation": "Argue is the verb. Cogently is an adverb that can describe how someone argues."
+        },
+        {
+          "wrong": "She provided a cogent evidence for her conclusion.",
+          "correct": "She provided cogent evidence for her conclusion.",
+          "explanation": "Evidence is normally uncountable, so do not use a before it."
+        }
+      ]
+    }
+  ],
+  "word_family": [
+    {
+      "word": "cogency",
+      "part_of_speech": "uncountable noun",
+      "definition": "the quality of being clear, logical, and convincing",
+      "examples": [
+        "The cogency of her argument depended on the strength of the supporting evidence.",
+        "Reviewers praised the report for its clarity and cogency."
+      ],
+      "ipa": "/ˈkoʊdʒənsi/",
+      "relationship_to_headword": "This noun names the convincing logical strength described by cogent.",
+      "grammar_pattern": "the cogency of + argument, explanation, or analysis",
+      "usage_note": "It is formal and normally used without a or an."
+    },
+    {
+      "word": "cogently",
+      "part_of_speech": "adverb",
+      "definition": "in a clear, logical, and convincing way",
+      "examples": [
+        "The author cogently explains why the two variables should be studied separately.",
+        "She argued cogently for a more flexible approach."
+      ],
+      "ipa": "/ˈkoʊdʒəntli/",
+      "relationship_to_headword": "This adverb describes presenting ideas in a cogent way.",
+      "grammar_pattern": "cogently + argue, explain, demonstrate, or present",
+      "usage_note": "It is formal and most often modifies verbs connected with reasoning or explanation."
+    }
+  ],
+  "collocations": [
+    {
+      "collocation": "cogent argument",
+      "example": "The article develops a cogent argument against relying on a single measure of intelligence.",
+      "applies_to_sense": "Clear, logical, and convincing",
+      "meaning": "an argument that is clear, logical, and persuasive"
+    },
+    {
+      "collocation": "cogent reason",
+      "example": "There is a cogent reason for collecting data over a longer period.",
+      "applies_to_sense": "Clear, logical, and convincing",
+      "meaning": "a reason that provides strong and persuasive justification"
+    },
+    {
+      "collocation": "cogent explanation",
+      "example": "The theory offers a cogent explanation for the observed pattern.",
+      "applies_to_sense": "Clear, logical, and convincing",
+      "meaning": "an explanation that is easy to follow and supported by sound reasoning"
+    },
+    {
+      "collocation": "cogent case",
+      "example": "The researchers make a cogent case for changing the way the disease is monitored.",
+      "applies_to_sense": "Clear, logical, and convincing",
+      "meaning": "a persuasive set of reasons supporting a position",
+      "grammar_pattern": "make or present a cogent case for or against + noun or -ing form"
+    },
+    {
+      "collocation": "cogent analysis",
+      "example": "Her cogent analysis revealed several weaknesses in the original study.",
+      "applies_to_sense": "Clear, logical, and convincing",
+      "meaning": "a clear and well-reasoned examination of a subject"
+    }
+  ],
+  "synonyms": [
+    {
+      "word": "convincing",
+      "part_of_speech": "adjective",
+      "applies_to_sense": "Clear, logical, and convincing",
+      "difference": "Convincing is broader and can describe anything that causes belief, including a performance or imitation. Cogent is more formal and usually describes reasoning or its expression.",
+      "example": "The researchers provided convincing evidence that the intervention was effective.",
+      "shared_meaning": "Both can describe something persuasive enough to produce belief."
+    },
+    {
+      "word": "compelling",
+      "part_of_speech": "adjective",
+      "applies_to_sense": "Clear, logical, and convincing",
+      "difference": "Compelling emphasizes powerful persuasive force and can also describe something that strongly attracts attention. Cogent emphasizes clear, sound reasoning.",
+      "example": "The documentary presents compelling evidence of environmental change.",
+      "shared_meaning": "Both can describe reasons or evidence that are difficult to dismiss."
+    },
+    {
+      "word": "persuasive",
+      "part_of_speech": "adjective",
+      "applies_to_sense": "Clear, logical, and convincing",
+      "difference": "Persuasive focuses on the ability to influence someone. Cogent additionally suggests that the persuasion comes from clarity and logical strength.",
+      "example": "Her presentation was persuasive, and the committee approved the proposal.",
+      "shared_meaning": "Both describe communication that can lead people to accept a position."
+    }
+  ],
+  "antonyms": [
+    {
+      "word": "unconvincing",
+      "part_of_speech": "adjective",
+      "applies_to_sense": "Clear, logical, and convincing",
+      "opposition": "An unconvincing argument fails to persuade, while a cogent argument succeeds through clear and strong reasoning.",
+      "example": "The explanation was unconvincing because it ignored several important facts."
+    },
+    {
+      "word": "incoherent",
+      "part_of_speech": "adjective",
+      "applies_to_sense": "Clear, logical, and convincing",
+      "opposition": "Incoherent reasoning is unclear or poorly connected, while cogent reasoning is clearly organized and logically persuasive.",
+      "example": "The report's conclusion was incoherent and did not follow from the evidence.",
+      "usage_note": "Incoherent is a direct opposite mainly when cogent refers to clarity and logical organization."
+    }
+  ],
+  "confusables": [
+    {
+      "word": "coherent",
+      "key_difference": "Coherent means clear and logically connected. Cogent goes further: the reasoning is also strong enough to convince.",
+      "headword_example": "The lawyer made a cogent argument supported by reliable evidence.",
+      "confusable_example": "The essay was coherent, but its main claim lacked supporting evidence.",
+      "part_of_speech": "adjective",
+      "why_confused": "Both words can praise the clarity and organization of ideas."
+    },
+    {
+      "word": "cognitive",
+      "key_difference": "Cogent describes clear and convincing reasoning. Cognitive relates to mental processes such as thinking, learning, memory, and perception.",
+      "headword_example": "The report offers a cogent explanation of the results.",
+      "confusable_example": "Sleep can affect cognitive performance and memory.",
+      "part_of_speech": "adjective",
+      "why_confused": "The words look somewhat similar but have different meanings and origins."
+    }
+  ],
+  "etymology": {
+    "origin": "Cogent comes through French from the Latin verb cogere, meaning to drive or force together.",
+    "development": "The idea of force developed into the modern sense of reasoning that strongly moves someone toward a conclusion.",
+    "memory_link": "A cogent argument drives its reasons together into one convincing conclusion."
+  },
+  "exercises": {
+    "word_family_choice": [
+      {
+        "prompt_sentence": "The author _____ explains how the new evidence changes the debate.",
+        "answer": "cogently",
+        "completed_sentence": "The author cogently explains how the new evidence changes the debate.",
+        "explanation": "Use the adverb cogently to describe how the author explains."
+      },
+      {
+        "prompt_sentence": "The _____ of the argument depends on the quality of its evidence.",
+        "answer": "cogency",
+        "completed_sentence": "The cogency of the argument depends on the quality of its evidence.",
+        "explanation": "Use the noun cogency after the."
+      },
+      {
+        "prompt_sentence": "The report presents a _____ case for reducing unnecessary energy use.",
+        "answer": "cogent",
+        "completed_sentence": "The report presents a cogent case for reducing unnecessary energy use.",
+        "explanation": "Use the adjective cogent before the noun case."
+      }
+    ],
+    "correct_or_incorrect": [
+      {
+        "sentence": "The researcher offered a cogent explanation supported by several independent studies.",
+        "verdict": "Correct",
+        "explanation": "Cogent naturally describes an explanation that is clear, logical, and convincing."
+      },
+      {
+        "sentence": "The map was cogent, so tourists could easily find the station.",
+        "verdict": "Incorrect",
+        "corrected_sentence": "The map was clear, so tourists could easily find the station.",
+        "explanation": "Clear is more natural for an easy-to-read map; cogent normally describes reasoning or communication intended to persuade."
+      },
+      {
+        "sentence": "The committee found her reasons highly cogent.",
+        "verdict": "Correct",
+        "explanation": "Cogent can appear after found when it describes the reasons."
+      },
+      {
+        "sentence": "He gave a cogently argument for changing the law.",
+        "verdict": "Incorrect",
+        "corrected_sentence": "He gave a cogent argument for changing the law.",
+        "explanation": "Use the adjective cogent before the noun argument."
+      }
+    ],
+    "collocation_practice": [
+      {
+        "prompt_sentence": "The article makes a cogent _____ for protecting the wetland.",
+        "answer": "case",
+        "completed_sentence": "The article makes a cogent case for protecting the wetland.",
+        "explanation": "Make a cogent case for something is an established pattern."
+      },
+      {
+        "prompt_sentence": "The researchers offered a cogent _____ of the unexpected results.",
+        "answer": "explanation",
+        "completed_sentence": "The researchers offered a cogent explanation of the unexpected results.",
+        "explanation": "Cogent explanation is a common formal combination."
+      },
+      {
+        "prompt_sentence": "The report presents a cogent _____ for increasing the sample size.",
+        "answer": "argument",
+        "completed_sentence": "The report presents a cogent argument for increasing the sample size.",
+        "explanation": "Cogent argument describes reasoning that is clear, logical, and persuasive."
+      }
+    ]
+  }
+}

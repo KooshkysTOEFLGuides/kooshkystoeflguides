@@ -45,6 +45,16 @@ The central site listings are data-driven. Treat these files as sources of truth
 
 After changing either registry, verify its consumers. If its `<script src>` has a cache-busting query such as `content-data.js?v=7` or `apps-data.js?v=1`, increment that version consistently in every HTML file that loads the changed registry. Verify that the referenced path exists, the registry remains valid JavaScript, scheduled visibility behaves as intended, and `site.js` renders the entry on every applicable page.
 
+### Word of the Day queue
+
+- `WordOfTheDay/word-queue.txt` is the input queue for new Word of the Day packages. Each nonblank line contains exactly one headword, with no date, bullet, number, or comment. Blank lines are ignored.
+- When asked to process the queue, read `WordOfTheDay/README.md` and `WordOfTheDay/README-ARCHIVE.md`, then process entries from top to bottom. Do not reorder them.
+- Determine dates automatically from `WordOfTheDay/word-data.js`: the first queued word receives the calendar day after the latest valid registered date, and each following word receives the next calendar day. Use the human-readable date in its JSON and the matching `YYYY-MM-DD` date in the registry.
+- A queued word is complete only after its schema-valid JSON, generated HTML, LaTeX, Telegram text, pronunciation MP3, code-rendered banner, registry entry, cache-version updates, and final checks all succeed.
+- Save banners in `WordOfTheDay/banners/` as `{slug}-banner.png`. Render them from the top of the finished HTML page at a 1200 × 630 viewport with a local headless browser; do not use AI image generation.
+- After a word is fully complete, remove only that word's line from the queue. If processing fails, leave that line and all later lines in place so another session can resume safely.
+- Preserve unrelated files and do not use the directory-wide audio scan in a way that leaves newly generated MP3s for older entries outside the requested queue batch.
+
 ## Shared student-facing rules
 
 - Produce complete, polished, student-facing work—not a mockup, fragment, or description of what could be built.

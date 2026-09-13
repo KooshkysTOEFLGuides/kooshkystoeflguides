@@ -1,0 +1,85 @@
+{
+  "document_type": "kooshky_toefl_word_of_the_day",
+  "schema_version": "1.3",
+  "slug": "prophecy",
+  "word": "prophecy",
+  "date": "September 17th 2026",
+  "pronunciation": { "primary_ipa": "/ˈprɑːfəsi/" },
+  "hero": {
+    "part_of_speech_summary": "countable or uncountable noun",
+    "short_meanings": ["a prediction believed to have special authority"],
+    "one_line_summary": "A prophecy predicts a future event, traditionally through divine or supernatural knowledge.",
+    "memorable_example": "According to the ancient prophecy, a period of peace would follow years of conflict."
+  },
+  "meanings": [
+    {
+      "sense_title": "Prediction with divine or special authority",
+      "part_of_speech": "countable or uncountable noun",
+      "ipa": "/ˈprɑːfəsi/",
+      "definition": "a statement that says what will happen in the future, especially one believed to come from divine or supernatural knowledge",
+      "examples": [
+        "According to the ancient prophecy, a period of peace would follow years of conflict.",
+        "The story centers on a prophecy that the kingdom will eventually fall.",
+        "Many followers believed that the prophecy had been fulfilled.",
+        "Historians disagree about when the prophecy was first written down.",
+        "The ruler feared a prophecy concerning the end of his reign.",
+        "In the novel, an ambiguous prophecy influences nearly every major decision.",
+        "The community interpreted the unusual event as the fulfillment of an old prophecy.",
+        "A prediction based on scientific evidence is not normally called a prophecy."
+      ],
+      "plain_english_equivalent": "a special or supernatural prediction",
+      "typical_pattern": "a prophecy about or concerning + event; a prophecy that + clause",
+      "register": "neutral to formal; common in religious, historical, literary, and figurative contexts",
+      "nuance": { "central_nuance": "Prophecy often implies divine inspiration, supernatural knowledge, or special authority rather than an ordinary guess about the future.", "usual_implication": "People may treat the statement as destined to come true, although using the word does not prove that it will.", "contrast_term": "forecast", "contrast_explanation": "A forecast is normally based on data or observable trends, such as a weather forecast. A prophecy is associated with divine, supernatural, or mysterious knowledge." },
+      "grammar": { "how_to_use": "Use a prophecy for one prediction and prophecies for more than one. Use prophecy without a or an when discussing the activity or tradition generally.", "what_can_follow": "Use about or concerning before a topic, or that before a complete statement.", "preposition_note": "Common forms are a prophecy about the future, a prophecy concerning the ruler, and a prophecy that the city will fall.", "noun_use": "It is countable for a particular predicted statement and can be uncountable when referring generally to prophetic speech or tradition." },
+      "patterns": [
+        { "pattern": "a prophecy about or concerning + noun", "use": "Use this to identify the subject of the prophecy.", "example": "The manuscript contains a prophecy about the fate of the city." },
+        { "pattern": "a prophecy that + clause", "use": "Use this to state the event that is predicted.", "example": "They feared a prophecy that the dynasty would soon end." },
+        { "pattern": "fulfill or fulfill a prophecy", "use": "Use this when later events match what the prophecy predicted.", "example": "The character believes that his actions will fulfill the prophecy." },
+        { "pattern": "a self-fulfilling prophecy", "use": "Use this for a belief that helps cause itself to become true.", "example": "Expecting the project to fail can become a self-fulfilling prophecy if the team stops making an effort." }
+      ],
+      "errors": [
+        { "wrong": "The meteorologist issued a prophecy of heavy rain based on satellite data.", "correct": "The meteorologist issued a forecast of heavy rain based on satellite data.", "explanation": "Use forecast for a prediction based on scientific data. Prophecy usually suggests divine or supernatural knowledge." },
+        { "wrong": "The priest prophecied that the city would fall.", "correct": "The priest prophesied that the city would fall.", "explanation": "The verb is prophesy, and its past form is prophesied." },
+        { "wrong": "The prophecy predicted about a coming disaster.", "correct": "The prophecy predicted a coming disaster.", "explanation": "Predict takes a direct object, so about is unnecessary here." }
+      ]
+    }
+  ],
+  "word_family": [
+    { "word": "prophesy", "part_of_speech": "transitive or intransitive verb", "definition": "to state that something will happen in the future, especially through claimed divine or supernatural knowledge", "examples": ["The text prophesies that the empire will collapse.", "Religious leaders prophesied about a coming period of change."], "ipa": "/ˈprɑːfəsaɪ/", "relationship_to_headword": "This is the verb corresponding to the noun prophecy.", "grammar_pattern": "prophesy that + clause, prophesy + event, or prophesy about + topic", "usage_note": "The final sound is /saɪ/, unlike the /si/ ending of prophecy." },
+    { "word": "prophetic", "part_of_speech": "adjective", "definition": "relating to prophecy or accurately describing what happens later", "examples": ["The poem contains several prophetic visions.", "Her warning proved prophetic when the system failed a month later."], "ipa": "/prəˈfetɪk/", "relationship_to_headword": "This adjective describes a prophecy, a prophet, or a statement that later appears to predict events.", "grammar_pattern": "prophetic + vision, warning, text, or statement; prove prophetic" },
+    { "word": "prophet", "part_of_speech": "countable noun", "definition": "a person believed to communicate divine messages or predict the future through divine inspiration", "examples": ["The tradition regards him as an important prophet.", "The prophet warned the people to change their behavior."], "ipa": "/ˈprɑːfɪt/", "relationship_to_headword": "This noun names a person who delivers a prophecy.", "usage_note": "Do not confuse prophet with profit, although they are pronounced alike in many American accents." }
+  ],
+  "collocations": [
+    { "collocation": "ancient prophecy", "example": "The play refers repeatedly to an ancient prophecy about the royal family.", "applies_to_sense": "Prediction with divine or special authority", "meaning": "a prophecy originating in the distant past" },
+    { "collocation": "fulfill a prophecy", "example": "His unexpected return seemed to fulfill the prophecy.", "applies_to_sense": "Prediction with divine or special authority", "meaning": "cause or appear to cause the predicted event to happen" },
+    { "collocation": "prophecy comes true", "example": "The villagers wait to see whether the prophecy will come true.", "applies_to_sense": "Prediction with divine or special authority", "meaning": "the event predicted by a prophecy happens" },
+    { "collocation": "self-fulfilling prophecy", "example": "The belief that cooperation was impossible became a self-fulfilling prophecy.", "applies_to_sense": "Prediction with divine or special authority", "meaning": "an expectation that influences behavior and helps make the expected result happen", "usage_note": "This established figurative expression does not require a supernatural meaning." }
+  ],
+  "synonyms": [
+    { "word": "prediction", "part_of_speech": "noun", "applies_to_sense": "Prediction with divine or special authority", "difference": "Prediction is the broad neutral word for any statement about the future. Prophecy usually suggests divine, supernatural, or mysterious authority.", "example": "The model's prediction was based on thirty years of climate data.", "shared_meaning": "Both state what is expected to happen in the future." },
+    { "word": "forecast", "part_of_speech": "noun", "applies_to_sense": "Prediction with divine or special authority", "difference": "A forecast is normally based on data and analysis, especially for weather, economics, or demand. A prophecy is traditionally based on claimed revelation or supernatural insight.", "example": "The economic forecast predicts slower growth next year.", "shared_meaning": "Both describe a statement about future events." }
+  ],
+  "confusables": [
+    { "word": "prophesy", "key_difference": "Prophecy is a noun ending in the sound /si/. Prophesy is a verb ending in /saɪ/.", "headword_example": "The prophecy describes a future conflict.", "confusable_example": "The speakers prophesy that a conflict will occur.", "part_of_speech": "noun versus verb", "why_confused": "The spellings differ by only one letter, but the words have different grammatical roles and pronunciations." },
+    { "word": "profit", "key_difference": "A prophet is a person associated with divine messages; profit is money or another benefit gained from an activity.", "headword_example": "The prophet delivered a warning.", "confusable_example": "The company reported a profit this year.", "part_of_speech": "related family word versus unrelated noun", "why_confused": "Prophet and profit are pronounced alike in many American accents." }
+  ],
+  "etymology": { "origin": "Prophecy comes through Old French and Late Latin from Greek prophēteia, referring to the gift or act of interpreting divine will.", "development": "The word came to name both divinely inspired speech and a particular statement predicting future events.", "memory_link": "Connect prophecy, the predicted message, with prophet, the person who delivers it." },
+  "exercises": {
+    "word_family_choice": [
+      { "prompt_sentence": "The ancient text contains a _____ about the end of the kingdom.", "answer": "prophecy", "completed_sentence": "The ancient text contains a prophecy about the end of the kingdom.", "explanation": "Use the noun prophecy after a." },
+      { "prompt_sentence": "The warning seemed _____ after the predicted shortage occurred.", "answer": "prophetic", "completed_sentence": "The warning seemed prophetic after the predicted shortage occurred.", "explanation": "Use the adjective prophetic after seemed." },
+      { "prompt_sentence": "The speakers _____ that a great change will soon occur.", "answer": "prophesy", "completed_sentence": "The speakers prophesy that a great change will soon occur.", "explanation": "Use the verb prophesy before the that-clause." }
+    ],
+    "correct_or_incorrect": [
+      { "sentence": "The legend contains a prophecy that the city will be rebuilt.", "verdict": "Correct", "explanation": "A prophecy that naturally introduces the predicted event." },
+      { "sentence": "The weather prophecy is based on radar observations.", "verdict": "Incorrect", "corrected_sentence": "The weather forecast is based on radar observations.", "explanation": "Use forecast for a scientific prediction about weather." },
+      { "sentence": "The prophecy eventually came true.", "verdict": "Correct", "explanation": "A prophecy comes true is a natural expression." },
+      { "sentence": "The writer prophecied a period of conflict.", "verdict": "Incorrect", "corrected_sentence": "The writer prophesied a period of conflict.", "explanation": "The past form of prophesy is spelled prophesied." }
+    ],
+    "collocation_practice": [
+      { "prompt_sentence": "The hero's return appears to fulfill the ancient _____.", "answer": "prophecy", "completed_sentence": "The hero's return appears to fulfill the ancient prophecy.", "explanation": "Fulfill a prophecy is an established collocation." },
+      { "prompt_sentence": "Their expectation of failure became a self-fulfilling _____.", "answer": "prophecy", "completed_sentence": "Their expectation of failure became a self-fulfilling prophecy.", "explanation": "Self-fulfilling prophecy is an established figurative expression." }
+    ]
+  }
+}

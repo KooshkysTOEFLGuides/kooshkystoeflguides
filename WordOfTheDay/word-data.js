@@ -365,5 +365,30 @@ window.KOOSHKY_WORDS = [
     word: "Corresponding",
     date: "2026-09-02",
     href: "WordOfTheDay/generated/corresponding-extended.html",
+  },
+  {
+    word: "Seep",
+    date: "2026-09-13",
+    href: "WordOfTheDay/generated/seep-extended.html",
+  },
+  {
+    word: "Cogent",
+    date: "2026-09-14",
+    href: "WordOfTheDay/generated/cogent-extended.html",
+  },
+  {
+    word: "Innovative",
+    date: "2026-09-15",
+    href: "WordOfTheDay/generated/innovative-extended.html",
+  },
+  {
+    word: "Determine",
+    date: "2026-09-16",
+    href: "WordOfTheDay/generated/determine-extended.html",
+  },
+  {
+    word: "Prophecy",
+    date: "2026-09-17",
+    href: "WordOfTheDay/generated/prophecy-extended.html",
   }
 ];

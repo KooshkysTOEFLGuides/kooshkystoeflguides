@@ -1,0 +1,142 @@
+{
+  "document_type": "kooshky_toefl_word_of_the_day",
+  "schema_version": "1.3",
+  "slug": "determine",
+  "word": "determine",
+  "date": "September 16th 2026",
+  "pronunciation": { "primary_ipa": "/dɪˈtɝːmɪn/" },
+  "hero": {
+    "part_of_speech_summary": "transitive verb",
+    "short_meanings": ["discover or establish", "control an outcome", "make an official decision"],
+    "one_line_summary": "Determine can mean finding an answer, shaping an outcome, or making a formal decision.",
+    "memorable_example": "Researchers are trying to determine whether sleep quality affects long-term memory."
+  },
+  "meanings": [
+    {
+      "sense_title": "Discover or establish",
+      "part_of_speech": "transitive verb",
+      "ipa": "/dɪˈtɝːmɪn/",
+      "definition": "to discover, calculate, or establish a fact, amount, cause, or answer through careful examination",
+      "examples": [
+        "Researchers are trying to determine whether sleep quality affects long-term memory.",
+        "The laboratory test can determine the concentration of lead in the water.",
+        "Investigators could not determine the exact cause of the equipment failure.",
+        "Scientists examined the fossils to determine their approximate age.",
+        "The survey was designed to determine how residents use public transportation.",
+        "Further evidence is needed to determine which explanation is more accurate.",
+        "The committee will determine whether the proposal meets the legal requirements.",
+        "Analysts used satellite images to determine the extent of forest loss."
+      ],
+      "plain_english_equivalent": "find out or establish",
+      "typical_pattern": "determine + noun, whether or if, question word, or that-clause",
+      "register": "neutral to formal; very common in academic and technical writing",
+      "nuance": { "central_nuance": "Determine suggests reaching a sufficiently definite answer by using evidence, measurement, calculation, or authority.", "usual_implication": "The answer was previously uncertain and requires investigation or judgment.", "contrast_term": "estimate", "contrast_explanation": "To estimate is to produce an approximate value. To determine is to establish an answer considered sufficiently definite for the purpose." },
+      "grammar": { "how_to_use": "This verb normally needs a fact or question after it.", "what_can_follow": "Use a noun, as in determine the cause; whether or if, as in determine whether it works; or a question word, as in determine how it happened.", "position_note": "It is frequent in passive forms such as The age was determined by carbon dating." },
+      "patterns": [
+        { "pattern": "determine + cause, effect, amount, extent, value, or identity", "use": "Use this when an investigation establishes a fact.", "example": "The study sought to determine the extent of the damage." },
+        { "pattern": "determine whether or if + clause", "use": "Use this when choosing between possible answers.", "example": "Additional trials will determine whether the treatment is safe." },
+        { "pattern": "determine how, why, when, or where + clause", "use": "Use a question word to identify the information being investigated.", "example": "Researchers hope to determine why the population declined." }
+      ],
+      "errors": [
+        { "wrong": "The test determined about the cause of the infection.", "correct": "The test determined the cause of the infection.", "explanation": "Do not use about before a direct object such as the cause." },
+        { "wrong": "Scientists determined that how the material changed.", "correct": "Scientists determined how the material changed.", "explanation": "Use either that or a question word such as how, not both together." }
+      ]
+    },
+    {
+      "sense_title": "Control or shape an outcome",
+      "part_of_speech": "transitive verb",
+      "ipa": "/dɪˈtɝːmɪn/",
+      "definition": "to control, cause, or strongly influence the nature or result of something",
+      "examples": [
+        "Access to reliable transportation can determine whether workers accept jobs far from home.",
+        "Soil quality largely determines which crops can grow in a region.",
+        "A society's institutions help determine how resources are distributed.",
+        "Early experiences do not completely determine a person's future behavior.",
+        "The availability of water may determine the size of the settlement.",
+        "Several interacting genes determine the color of the flowers.",
+        "The final examination will determine half of each student's grade.",
+        "Economic conditions often determine the pace of construction."
+      ],
+      "plain_english_equivalent": "control or decide what happens",
+      "typical_pattern": "factor + determines + outcome or whether/how clause",
+      "register": "neutral; common in academic explanations of causes and outcomes",
+      "nuance": { "central_nuance": "In this sense, determine means having a decisive or powerful effect, not discovering information.", "usual_implication": "The subject is an important causal or controlling factor, although context may show that other factors also matter.", "contrast_term": "influence", "contrast_explanation": "Influence means affect to some degree. Determine often suggests a stronger effect that fixes or decides the outcome." },
+      "grammar": { "how_to_use": "The controlling factor is the subject, and the result is placed after determine.", "what_can_follow": "Use a noun or a clause beginning with whether, how, what, or which.", "position_note": "Adverbs such as largely, partly, ultimately, and directly can show how strong the effect is." },
+      "patterns": [
+        { "pattern": "factor + determine(s) + outcome", "use": "Use this to connect a controlling cause with its result.", "example": "Temperature determines the rate of the chemical reaction." },
+        { "pattern": "determine whether or how + clause", "use": "Use this when a factor controls whether or how something happens.", "example": "Household income may determine whether a student can remain in school." },
+        { "pattern": "be determined by + factor", "use": "Use the passive when the result is more important than the controlling factor.", "example": "The final cost is determined by the amount of material used." }
+      ],
+      "errors": [
+        { "wrong": "Weather determines on the success of the harvest.", "correct": "Weather determines the success of the harvest.", "explanation": "Determine takes a direct object; do not add on." },
+        { "wrong": "Income is determined from several social factors.", "correct": "Income is determined by several social factors.", "explanation": "Use by to introduce the controlling factor in a passive sentence." }
+      ]
+    },
+    {
+      "sense_title": "Make an official decision",
+      "part_of_speech": "transitive verb",
+      "ipa": "/dɪˈtɝːmɪn/",
+      "definition": "to make an official or authoritative decision about something after considering the facts",
+      "examples": [
+        "After reviewing the evidence, the board determined that the investigation should continue.",
+        "The court will determine the appropriate level of compensation.",
+        "Officials determined that the building should remain closed until repairs were complete.",
+        "The committee is responsible for determining who receives the scholarship.",
+        "The agency determined the final boundaries of the protected area.",
+        "The judge will determine the appropriate penalty after hearing both sides.",
+        "The panel determined that a second vote was necessary.",
+        "Local authorities determine the standards that new buildings must meet."
+      ],
+      "plain_english_equivalent": "decide officially",
+      "typical_pattern": "determine + noun, question-word clause, or that-clause",
+      "register": "formal when it means make an official decision",
+      "nuance": { "central_nuance": "Determine is more formal than decide here and often suggests that a court, committee, agency, or rule has authority to settle the matter.", "usual_implication": "The decision is reached after facts, standards, or evidence have been considered.", "contrast_term": "decide", "contrast_explanation": "Decide is the ordinary general word. Determine is more formal and is common when an authority settles a question." },
+      "grammar": { "how_to_use": "Use determine followed by a noun, question-word clause, or that-clause.", "what_can_follow": "Common forms include determine the outcome, determine who qualifies, and determine that action is needed.", "position_note": "Do not confuse this verb with the adjective determined in be determined to." },
+      "patterns": [
+        { "pattern": "determine + question word + clause", "use": "Use this for an official decision about a person, time, place, or method.", "example": "The panel will determine who is eligible for funding." },
+        { "pattern": "determine that + clause", "use": "Use this to report a formal conclusion or decision.", "example": "The court determined that the regulation was valid." },
+        { "pattern": "determine + noun", "use": "Use this when an authority decides an outcome, amount, boundary, or standard.", "example": "A national panel determines the minimum safety standard." }
+      ],
+      "errors": [
+        { "wrong": "The panel determined about the final amount.", "correct": "The panel determined the final amount.", "explanation": "Determine takes the matter being decided as a direct object." },
+        { "wrong": "The panel determined about who would receive the award.", "correct": "The panel determined who would receive the award.", "explanation": "A question-word clause follows determine directly." }
+      ]
+    }
+  ],
+  "word_family": [
+    { "word": "determination", "part_of_speech": "countable or uncountable noun", "definition": "the process of establishing something, an official decision, or the strong quality of continuing toward a goal", "examples": ["The determination of the sample's age required further testing.", "Her determination helped her complete the demanding program."], "ipa": "/dɪˌtɝːməˈneɪʃən/", "relationship_to_headword": "This noun covers both establishing an answer and being firmly resolved.", "grammar_pattern": "determination of + fact, or determination to + verb", "usage_note": "Its exact meaning depends strongly on context." },
+    { "word": "determined", "part_of_speech": "adjective", "definition": "having made a firm decision and refusing to give up", "examples": ["She was determined to improve access to rural schools.", "The team made a determined effort to recover the missing data."], "ipa": "/dɪˈtɝːmɪnd/", "relationship_to_headword": "This adjective describes firm intention or effort.", "grammar_pattern": "be determined to + base verb, or a determined + effort", "usage_note": "Pronounce the final syllable as /mɪnd/, not like the verb mind." }
+  ],
+  "collocations": [
+    { "collocation": "determine the cause", "example": "Investigators collected samples to determine the cause of the contamination.", "applies_to_sense": "Discover or establish", "meaning": "establish why something happened" },
+    { "collocation": "determine the extent", "example": "More surveys are needed to determine the extent of the decline.", "applies_to_sense": "Discover or establish", "meaning": "establish how large or serious something is" },
+    { "collocation": "largely determine", "example": "Rainfall patterns largely determine which plants survive.", "applies_to_sense": "Control or shape an outcome", "meaning": "have the main controlling influence on something" },
+    { "collocation": "be determined by", "example": "Eligibility is determined by household income.", "applies_to_sense": "Control or shape an outcome", "meaning": "be controlled or decided by a factor" },
+    { "collocation": "determine eligibility", "example": "The committee uses published criteria to determine eligibility.", "applies_to_sense": "Make an official decision", "meaning": "decide officially who qualifies" }
+  ],
+  "synonyms": [
+    { "word": "establish", "part_of_speech": "verb", "applies_to_sense": "Discover or establish", "difference": "Establish emphasizes showing that a fact is true. Determine can also involve calculating or identifying an answer.", "example": "The evidence established that the document was authentic.", "shared_meaning": "Both can mean reaching a firm factual conclusion." },
+    { "word": "decide", "part_of_speech": "verb", "applies_to_sense": "Make an official decision", "difference": "Decide is the usual everyday term. Determine is more formal when an authority reaches a decision.", "example": "The committee decided to postpone the vote.", "shared_meaning": "Both can refer to choosing an outcome after consideration." }
+  ],
+  "confusables": [
+    { "word": "determine", "key_difference": "Determine is a verb. Determined is usually an adjective when it describes firm intention.", "headword_example": "The test will determine the cause.", "confusable_example": "The researcher was determined to find the cause.", "part_of_speech": "verb versus adjective", "why_confused": "The forms look similar but perform different grammatical jobs." }
+  ],
+  "etymology": { "origin": "Determine comes from Latin determinare, meaning to limit or set boundaries.", "development": "The idea of setting limits developed into fixing an answer, controlling a result, or settling a decision.", "memory_link": "To determine something is to bring uncertainty to a defined endpoint." },
+  "exercises": {
+    "word_family_choice": [
+      { "prompt_sentence": "The laboratory must _____ the chemical composition of the sample.", "answer": "determine", "completed_sentence": "The laboratory must determine the chemical composition of the sample.", "explanation": "Use the base verb after must." },
+      { "prompt_sentence": "Her _____ to finish the research never weakened.", "answer": "determination", "completed_sentence": "Her determination to finish the research never weakened.", "explanation": "Use the noun determination as the subject." },
+      { "prompt_sentence": "The team was _____ to identify the source of the error.", "answer": "determined", "completed_sentence": "The team was determined to identify the source of the error.", "explanation": "Use be determined to for firm intention." }
+    ],
+    "correct_or_incorrect": [
+      { "sentence": "The survey aims to determine whether attitudes have changed.", "verdict": "Correct", "explanation": "Determine whether correctly introduces the question being investigated." },
+      { "sentence": "Climate partly determines which crops can grow in a region.", "verdict": "Correct", "explanation": "Here determine means strongly influence or control an outcome." },
+      { "sentence": "She determined to completing the study.", "verdict": "Incorrect", "corrected_sentence": "She was determined to complete the study.", "explanation": "Use be determined to followed by the base verb for firm intention." },
+      { "sentence": "The cost is determined from the materials used.", "verdict": "Incorrect", "corrected_sentence": "The cost is determined by the materials used.", "explanation": "Use by for the controlling factor in a passive sentence." }
+    ],
+    "collocation_practice": [
+      { "prompt_sentence": "Tests were conducted to determine the _____ of the structural failure.", "answer": "cause", "completed_sentence": "Tests were conducted to determine the cause of the structural failure.", "explanation": "Determine the cause is a common academic collocation." },
+      { "prompt_sentence": "The final price is determined _____ the amount of energy used.", "answer": "by", "completed_sentence": "The final price is determined by the amount of energy used.", "explanation": "Use determined by to name a controlling factor." }
+    ]
+  }
+}

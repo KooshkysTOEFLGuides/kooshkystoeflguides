@@ -1,0 +1,78 @@
+name: Publish Word of the Day to Telegram
+
+on:
+  schedule:
+    # 06:30 UTC is 10:00 in Asia/Tehran.
+    - cron: "30 6 * * *"
+  push:
+    paths:
+      # One-time live trigger. Later pushes do not match this fixed path.
+      - "WordOfTheDay/telegram-trigger-2026-09-13.txt"
+  workflow_dispatch:
+    inputs:
+      date:
+        description: "Publication date (YYYY-MM-DD); blank uses today's Tehran date"
+        required: false
+        type: string
+      dry_run:
+        description: "Validate without posting"
+        required: true
+        default: true
+        type: boolean
+      force:
+        description: "Post again even if the ledger says it is complete"
+        required: true
+        default: false
+        type: boolean
+
+permissions:
+  contents: read
+
+concurrency:
+  group: telegram-word-of-the-day
+  cancel-in-progress: false
+
+jobs:
+  publish:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - name: Check out the repository
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Restore Telegram publication ledger
+        uses: actions/cache/restore@v4
+        with:
+          path: WordOfTheDay/telegram-posted.json
+          key: telegram-wotd-ledger-${{ github.run_id }}
+          restore-keys: |
+            telegram-wotd-ledger-
+
+      - name: Publish scheduled package
+        env:
+          TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
+          TELEGRAM_CHANNEL_ID: ${{ secrets.TELEGRAM_CHANNEL_ID }}
+          TARGET_DATE: ${{ inputs.date }}
+          DRY_RUN: ${{ inputs.dry_run }}
+          FORCE_POST: ${{ inputs.force }}
+        shell: bash
+        run: |
+          args=()
+          if [[ -n "$TARGET_DATE" ]]; then args+=(--date "$TARGET_DATE"); fi
+          if [[ "$DRY_RUN" == "true" ]]; then args+=(--dry-run); fi
+          if [[ "$FORCE_POST" == "true" ]]; then args+=(--force); fi
+          python WordOfTheDay/publish_telegram.py "${args[@]}"
+
+      - name: Save Telegram publication ledger
+        if: ${{ always() }}
+        uses: actions/cache/save@v4
+        with:
+          path: WordOfTheDay/telegram-posted.json
+          key: telegram-wotd-ledger-${{ github.run_id }}

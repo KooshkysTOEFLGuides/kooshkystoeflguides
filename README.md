@@ -21,6 +21,11 @@ The archive, registry, scripts, source JSON, and generated pages are all kept in
 `WordOfTheDay/`. See `WordOfTheDay/README.md` and
 `WordOfTheDay/README-ARCHIVE.md` for the publishing workflow.
 
+Add future headwords to `WordOfTheDay/word-queue.txt`, one word per line and
+without dates. An agent processes the file from top to bottom, assigns consecutive
+dates after the latest registered word, and removes a line only after the complete
+page, Telegram message, audio, and archive entry have been verified.
+
 ## Add an app
 
 Edit `apps-data.js`:

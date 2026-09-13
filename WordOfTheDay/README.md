@@ -4,6 +4,38 @@ $ python generate_pronunciation_audio.py --directory generated
 
 
 
+## Queue new words for an agent
+
+Use `word-queue.txt` when the words are known but their publication dates have not
+been assigned. Enter exactly one headword per nonblank line, in the desired order:
+
+```text
+first word
+second word
+third word
+```
+
+Do not add dates, bullets, numbering, comments, or status labels. Blank lines are
+ignored. New words should normally be appended at the bottom.
+
+When asked to process the queue, an agent must:
+
+1. Read this file, `README-ARCHIVE.md`, the JSON prompt and contract files, and the active generator code.
+2. Process the requested number of words from the top without reordering them.
+3. Find the latest valid ISO date in `word-data.js`. Assign its following calendar day to the first queued word, then continue one day at a time. The JSON uses a human-readable date such as `September 15th 2026`; the registry uses `2026-09-15`.
+4. Create and validate `jsons/{slug}.json`, then generate `{slug}-extended.html`, `{slug}-extended.tex`, and `{slug}-telegram.txt` in `generated/`.
+5. Generate and verify every required pronunciation MP3. Because the audio script scans a whole directory, use an isolated temporary staging directory or clean up any unrelated MP3s it creates.
+6. Render the top of the finished HTML page with a local headless browser at a 1200 × 630 viewport. Save the code-rendered screenshot as `banners/{slug}-banner.png`; do not use AI image generation.
+7. Add the scheduled entry to `word-data.js`, increment its cache-busting query consistently in every HTML consumer, and verify the archive link and publication date.
+8. Remove a word's line from `word-queue.txt` only after all of its files and checks succeed. On any failure, keep that line and all later lines so the next session can resume safely.
+
+The queue is intentionally consumed. Completed words remain recorded in the JSON
+files, generated outputs, and `word-data.js`; the queue contains only pending work.
+
+The `banners/` directory sits beside `generated/` and contains one 1200 × 630 PNG
+per completed queued word. Each image is a browser screenshot of the page's top
+section, so it stays visually consistent with the generated HTML and CSS.
+
 # Kooshky TOEFL Word of the Day: JSON + Local Audio Pipeline
 
 This package separates lexical content, page generation, and pronunciation-audio generation.
@@ -68,6 +100,38 @@ python -m pip install -r requirements.txt
 ```
 
 Edge-TTS needs an internet connection only while it creates MP3 files. Afterward, the HTML and audio are local and can be distributed together.
+
+## Telegram channel automation
+
+`publish_telegram.py` publishes the banner and generated Telegram text for the
+entry whose ISO date matches the requested date. The banner caption is `full
+explanation: URL`, with the public page URL derived from the repository's `CNAME`
+and the entry's root-relative registry path. Without `--date`, the script uses the
+current date in `Asia/Tehran`. It validates all required files before posting and
+records each successful stage in `telegram-posted.json`, allowing a failed run to
+resume without repeating a completed photo post. GitHub Actions restores and saves
+this ledger through its cache, so the workflow needs only read access to repository
+contents and does not create automated commits.
+
+The workflow `.github/workflows/publish-word-of-the-day.yml` runs daily at 06:30
+UTC, which is 10:00 in Tehran. It requires these GitHub Actions repository secrets:
+
+- `TELEGRAM_BOT_TOKEN`: token for a dedicated bot created through BotFather
+- `TELEGRAM_CHANNEL_ID`: the target channel username, such as `@KooshkyTOEFL`
+
+The bot must be a channel administrator with permission to post messages. The
+scheduled workflow posts live. A manually dispatched workflow defaults to dry-run
+mode and accepts an optional `YYYY-MM-DD` date. Disable dry-run only for an
+intentional live manual post; use force only when deliberately reposting a date.
+
+Local validation never needs the secrets:
+
+```bash
+python publish_telegram.py --date 2026-09-15 --dry-run
+```
+
+Never commit or print the bot token. If it is exposed, revoke it through BotFather
+and replace the repository secret immediately.
 
 ## 2. Ask GPT for the Telegram post and JSON
 
