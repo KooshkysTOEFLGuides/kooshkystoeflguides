@@ -245,4 +245,7 @@ if __name__ == "__main__":
         raise SystemExit(main())
     except (OSError, ValueError, RuntimeError, json.JSONDecodeError) as exc:
         print(f"ERROR: {exc}", file=sys.stderr)
+        if os.environ.get("GITHUB_ACTIONS") == "true":
+            annotation = str(exc).replace("%", "%25").replace("\r", "%0D").replace("\n", "%0A")
+            print(f"::error title=Telegram publication failed::{annotation}", file=sys.stderr)
         raise SystemExit(1)

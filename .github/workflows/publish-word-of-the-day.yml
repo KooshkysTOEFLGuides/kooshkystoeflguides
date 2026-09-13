@@ -6,8 +6,8 @@ on:
     - cron: "30 6 * * *"
   push:
     paths:
-      # One-time live trigger. Later pushes do not match this fixed path.
-      - "WordOfTheDay/telegram-trigger-2026-09-13.txt"
+      # Explicit live trigger files; ordinary content pushes do not match.
+      - "WordOfTheDay/telegram-trigger-*.txt"
   workflow_dispatch:
     inputs:
       date:
